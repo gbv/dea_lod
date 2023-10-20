@@ -745,7 +745,7 @@ note[n]:before {
     content : attr(n) " ";
     vertical-align : super;
 }
-div note persName, div note orgName, div note title, div note placeName {
+note persName, note orgName, note title, note placeName {
     color:#6DB0CC !important;
 }
 note[place = "left"] {
