@@ -47,10 +47,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20190814234630962",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/Letter.xml?person_annotation_20190814234630962",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:46:30.962Z",
-	"dcterms:modified": "2019-08-14T20:46:30.962Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -62,9 +61,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20190814234630962#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/Letter.xml?person_annotation_20190814234630962#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -75,7 +75,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20190814234630962#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/Letter.xml?person_annotation_20190814234630962#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute/persName"
 		}
@@ -104,14 +104,14 @@
 				</head>
 				<opener>
 					
-						<p>Some opening note describing the writing setting</p>
+						
 					
 					<dateline>
 						<date>Some date (set date value in attribute).</date>
 					</dateline>
 					<salute>Some salutation, e.g. "Dearest <persName cert="high" type="real" ref="http://viaf.org/viaf/39569752">Miquel</persName>"</salute>
 				</opener>
-				<p>Sample letter content</p>
+				Sample letter content
 				<closer>
 					<salute>Some closing salutation, e.g. "With love..."</salute>
 					<signed>Sender name and/or signature.</signed>
