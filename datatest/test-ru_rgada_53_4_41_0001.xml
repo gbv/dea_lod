@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>6 June 1719. – Recredential for the [Russian] Envoy [to the Danish King, Count] <persName ref="p0001">Platon [Ivanovich] Musin-Pushkin</persName></title>
+				</head>
+				<opener>
+					<note cert="high" evaluate="all" place="top" xml:space="default">
+						<p>RGADA, fond 53, opis 4, no. 41, f. 8–8v, 9v. Danish original.</p>
+					</note>
+					
+					<salute>Durchleuchtigste, Stormægtigste Czar, Elskelig Kiære Broder, Ven og Naboe.</salute>
+				</opener>
+				<pb cert="high" n="f. 8" xml:space="default"/><p>Mig haver Eders May[estæ]ts og Kierligheds afskickede Lieutenant af Garden, <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0003" xml:space="default">Greve Musin Puskin Deris </persName>hannem medgivne Broder- og Naboevenlig Skrivelse af dato den 15de Martii sidstleden, vel indhændiget, og alt huis Eders May[estæ]t og Kierlighed hannem Mig, nærværende Conjuncturen angaaende, at foredrage in commissis givet haver, Mig Selff, saa vel som tilligemed Deris her subsisterende Ambassadeur, <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0002" xml:space="default">Försten Dolgoroucky</persName>, udi de med mine Geheime-Raad af mit Conseil haffte adskillige Conferentzier, med god Dexteritet Mundtligen proponeret. Jeg tuifler ey paa, at bemelte Eders May[estæ]ts og Kierl[ighe]ds Ambassadeur conjunctim med Deris Propositioner ved Mine Ministros af Conseillet, effter diße Tiders Beskaffenhed, Mundtligen haver ladet svare, dennem fideliter</p><pb cert="high" n="f. 8v" xml:space="default"/><p>refereret have, og at Eders May[estæ]t og Kierlighed dermed skal være fornöyede; Mig udi det öffrige paa Grevens Puskin Mundtlig rapport, som Eders May[estæ]t og Kierl[ighe]d hand ved sin retour giörendes, og ellers Dennem min Estats-Raad og ved Deris Hoff værende Envoyé Extraordinaire Westphal tid effter anden med videre derom forestillendes vorder, beraabendes.</p>
+				<closer>
+					<salute>Jeg forbliver stedse</salute><salute>Eders May[estæ]ts og Kierl[ighe]ds<lb/>Tro Broder, Ven og Naboe</salute>
+					<signed>Friderich R[ex]</signed><date>Colding den 6. Junii </date><date>A[nn]o 1719</date>
+				</closer><note>til Czaren udi det hele Ryßland</note>
+				<pb cert="high" n="f. 9v" xml:space="default"/>
+				<note>Dend Durchleuchtigste, Stormægtigste Czar, og Stor Förste udi et hele Ryßland p[erge]</note><note>Рекредитив г[о]с[по]д[и]ну графу Платону Пушкину. Получен на Аландских островах в 2 де[нь] авг[уста] 1719.</note>
+			</div>
+		</body>
+	</text>
+</TEI>
