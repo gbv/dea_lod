@@ -44,9 +44,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20240124195317851",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/ru_avpri_53_5_233_001.xml?person_annotation_20240124195317851",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-24T18:53:17.851Z",
+	"dcterms:modified": "2024-01-24T18:53:17.851Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -58,20 +59,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20240124195317851#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/ru_avpri_53_5_233_001.xml?person_annotation_20240124195317851#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/ru_avpri_53_5_233_001.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "https://leaf.test.lca.users.h-da.cloud",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20240124195317851#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/ru_avpri_53_5_233_001.xml?person_annotation_20240124195317851#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener[2]/salute/persName"
 		}
@@ -82,7 +84,7 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "https://leaf.test.lca.users.h-da.cloud",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -123,10 +125,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?note_annotation_20240124220537377",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/ru_avpri_53_5_233_001.xml?note_annotation_20240124220537377",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-24T21:05:37.377Z",
-	"dcterms:modified": "2024-01-24T21:05:37.377Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/drVEBB",
 		"@type": [
@@ -137,20 +138,21 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "undefined?note_annotation_20240124220537377#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/ru_avpri_53_5_233_001.xml?note_annotation_20240124220537377#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/ru_avpri_53_5_233_001.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "https://leaf.test.lca.users.h-da.cloud",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?note_annotation_20240124220537377#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/datatest/ru_avpri_53_5_233_001.xml?note_annotation_20240124220537377#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/note"
 		}
@@ -161,7 +163,7 @@
 		"rdf:value": "\"и датского\" is inserted above the line."
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "https://leaf.test.lca.users.h-da.cloud",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -182,7 +184,7 @@
 					</note>
 					</opener><opener>					<salute>Государь мой <persName ref="p1102">Михайла Михйлович.</persName></salute>
 				</opener>
-				<p>По настоящим дацкаго двора сопряжениям с Гесенкаселским домом имели вы конечно случай подробно спознать прямыя обстоятелства фамилнаго всем доме учреждения о графстве ганавском. владеющей ландграф почитая сие учреждение обидным себе думает еще, что оно, как вынужденное отнего покойным родителем его, не может и по самым имперским законам, действително быть. со всем тем, не желает <del>он</del> и не требует он ни какой перемены </p><p><pb cert="high" n="f. 45v" xml:space="default"/>или послабления в существе означеннаго фамилнаго учреждения, охотно <del>почти ее</del> паче оставляя принцам сыновьям своим, ползоватся всеми доходами графства ганавского, а хочет толко <del>чтоб ему,</del> чтоб ему для одного лица и пристойности, возвращена была вненость верховной власти над сим графством  и что б еще по тому выведен был из онаго гановерской гарнизоны его величество король пруской менежируя ландграфа, как одного из силнейших в германии</p><p><pb cert="high" n="f. 46" xml:space="default"/>принцов и стараясь удержать его от предания себя французском сетям и союзу, которой ему не однократно уже предсталяем был, адресовался к ея императорскому величеству с прозбою о употреблен[ии] посрадества ея у аглинскаго и датскаго<note>"и датского" is inserted above the line.</note>. дворов в ползу толь умеренных желаний его светлости ландграфа гесенкаселскаго. Как по существителности сего, королем союзником нашим, <del>представляемаго ув</del> представляемаго в для всей северной системы</p><p><pb cert="high" n="f. 46v" xml:space="default"/></p><p/><closer>
+				<p>По <persName ref="p0009">настоящим</persName> дацкаго двора сопряжениям с Гесенкаселским домом имели вы конечно случай подробно спознать прямыя обстоятелства фамилнаго всем доме учреждения о графстве ганавском. владеющей ландграф почитая сие учреждение обидным себе думает еще, что оно, как вынужденное отнего покойным родителем его, не может и по самым имперским законам, действително быть. со всем тем, не желает <del>он</del> и не требует он ни какой перемены </p><p><pb cert="high" n="f. 45v" xml:space="default"/>или послабления в существе означеннаго фамилнаго учреждения, охотно <del>почти ее</del> паче оставляя принцам сыновьям своим, ползоватся всеми доходами графства ганавского, а хочет толко <del>чтоб ему,</del> чтоб ему для одного лица и пристойности, возвращена была вненость верховной власти над сим графством  и что б еще по тому выведен был из онаго гановерской гарнизоны его величество король пруской менежируя ландграфа, как одного из силнейших в германии</p><p><pb cert="high" n="f. 46" xml:space="default"/>принцов и стараясь удержать его от предания себя французском сетям и союзу, которой ему не однократно уже предсталяем был, адресовался к ея императорскому величеству с прозбою о употреблен[ии] посрадества ея у аглинскаго и датскаго<note>"и датского" is inserted above the line.</note>. дворов в ползу толь умеренных желаний его светлости ландграфа гесенкаселскаго. Как по существителности сего, королем союзником нашим, <del>представляемаго ув</del> представляемаго в для всей северной системы</p><p><pb cert="high" n="f. 46v" xml:space="default"/></p><p/><closer>
 					<salute>полезнаго уважения, так так и самому ему в дружескую угодность. + изволила мне ея императорское величество повелеть ныне же послу графу чернышеву предписать, чтоб он действителное высочайшим ея имянем заступление зделал у аглинскаго двора по обоим желаниям ландграфа гесенкасеоскаго, особливо же по пункту выведения гановерскаго гарнизона #, которой ему болше на сердце лежит. а равномерно по такому же ея в[еличеств]а высочайшему повелению я прошу вас государя моего, сообщить сие в обыкновенной вашей </salute><salute>Some closing salutation, e.g. "With love..."</salute>
 					<signed>Sender name and/or signature.</signed>
 				</closer>
