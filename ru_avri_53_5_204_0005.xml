@@ -169,6 +169,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240128183634398",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-28T17:36:34.398Z",
+	"dcterms:modified": "2024-01-28T17:36:34.398Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240128183634398#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240128183634398#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/salute[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2618425",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -227,10 +306,10 @@
 </p><p>доставить в финанц мини
 </p><p>987.6050.940.730.19.223.706.683.96.1130.
 </p><p>стры здесь обретающагося </p><p>274.2223. V. 2464.1380.322.2293.9370
-</p><p>прускаго министра борка </p><p>96.859.613.982.274.858.947.446.2982.219.
+</p><p>прускаго министра <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1526" xml:space="default">борка</persName> </p><p>96.859.613.982.274.858.947.446.2982.219.
 </p><p>и приближить х королю
 </p><p>605.6910.395.511.515.331.368.19.687.59.683.12.
-</p><p>графа герца; в каком поло
+</p><p>графа <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1524" xml:space="default">герца</persName>; в каком поло
 </p><p>434.946.994.565.178.975.9940.368.96.254.124
 </p><p>жении оныя обстоятельства </p><p>975.2019.970.881.540.110.605.561.653.4340.
 </p><p>настояли, и какия ко отвра
@@ -253,8 +332,8 @@
       </table>
 				<p><pb cert="high" n="[[f. 28v]]" xml:space="default"/></p><p>1390.2777.139.270.136.416.813.415.19.</p><p>188.458.139.1226.144.223</p><p>В протчем припадая ко всеавгустейшим стопам </p><p>ВАШЕГО ИМПЕРАТОРСКАГО ВЕЛИЧЕСТВА </p><p>с рабским благоговением если и до конца жив буду.</p><p/><p/>
 				<closer>
-					<salute>ВАШЕГО ИМПЕРАТОРСКАГО ВЕЛИЧЕСТВА.</salute><salute/><salute>Из Копенгагена</salute><salute>сентября 8/19 дня 1767 году</salute>
-					<signed>всенижайший раб</signed><signed>Михайло Философов <note>The signature is M. Filosofov’s own handwriting.</note></signed>
+					<salute>ВАШЕГО ИМПЕРАТОРСКАГО ВЕЛИЧЕСТВА.</salute><salute/><salute>Из <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425" cert="high">Копенгагена</placeName></salute><salute>сентября 8/19 дня 1767 году</salute>
+					<signed>всенижайший раб</signed><signed><persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1102" xml:space="default">Михайло Философов</persName> <note>The signature is M. Filosofov’s own handwriting.</note></signed>
 				</closer>
 			</div>
 		</body>
