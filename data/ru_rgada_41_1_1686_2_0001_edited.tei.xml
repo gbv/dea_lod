@@ -19,18 +19,254 @@
         <p>ru_rgada_41_1_1686_2_0001.docx</p>
       </sourceDesc>
     </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130091806233",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-30T08:18:06.233Z",
+	"dcterms:creator": {
+		"@id": "#anonymous",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anonymous"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130091806233#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130091806233#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3054667",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130100109141",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-30T09:01:09.141Z",
+	"dcterms:creator": {
+		"@id": "#anonymous",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anonymous"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130100109141#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130100109141#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/11809079",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130101816776",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-30T09:18:16.776Z",
+	"dcterms:creator": {
+		"@id": "#anonymous",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anonymous"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130101816776#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130101816776#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6942691",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <head>
         <title>
-          30 June 1686. – Sending the envoy Ivan Volkov to Venice with a petition concerning the Eternal Peace and Alliance contracted by Russia and Poland against the Turks and Tatars and demanding from the Venetians a written response as to their intentions to attack the Turks this spring and the years to come, in accordance with the clauses of the contracted treaty. Here are also his, Volkov's, responses and the response from the Venetian side to this proposal </title>
+          <title>30 June 1686. – Sending the envoy Ivan Volkov to Venice with a petition concerning the Eternal Peace and Alliance contracted by Russia and Poland against the Turks and Tatars and demanding from the Venetians a written response as to their intentions to attack the Turks this spring and the years to come, in accordance with the clauses of the contracted treaty. Here are also his, Volkov's, responses and the response from the Venetian side to this proposal </title></title>
       </head>
-      <opener>
-      <note><rs>RGADA, fond 41, opis 1, 1686, no. 2, f. 20-21v.</rs> Latin original.</note></opener>
-      <pb cert="high" n="[[f. 20]]" xml:space="default"/>
-      <note>Список зграмты латински[м] пи[с]мом какова по[с]лана к винице[и]скому
-        кн[я]зю чре[з] почту ноя[б]ря д[ен]ь</note>
+      <p><rs>RGADA, fond 41, opis 1, 1686, no. 2, f. 20-21v.</rs> Latin original.</p>
+      <p><pb cert="high" n="[[f. 20]]" xml:space="default"/></p>
+      <p>Список зграмты латински[м] пи[с]мом какова по[с]лана к винице[и]скому
+        кн[я]зю чре[з] почту ноя[б]ря д[ен]ь</p>
       <p>DEI OMNIPOTENTIS ET IN OMNIBUS OMNIA operantis, ubiq[ue] præsentis et
         omnia adimplentis Bonaq[ue] Solatia Omnibus Hominibus tribuentis,
         Creatoris Nostri in Trinitate glorificandi virtute et opera ac voluntate
@@ -56,10 +292,10 @@
       <p>Certiores facti Nos Magni Domini Tzarea Nostra Maiestas de violenta et inpetuosa bellicâ
         invasione contra dominia Christiana à hoste Sanctæ Crucis suscepta, deq[ue] indefinita
         ipsorum devastatione, videntesq[ue] Magnorum Dominorum Fratrum Nostrorum, <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0463" xml:space="default">Cæsareæ Maiestatis Romanorum</persName> <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0468" xml:space="default">Regiæq[ue] Maiestatis Poloniæ</persName> susceptam inter se in hunc hostem Fœderis
-        coniunctionem cum Vestra quoq[ue] Magnificentia intercedentem advocatâ Nobis autem, Magnis
+        coniunctionem cum <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1062" xml:space="default">Vestra quoq[ue] Magnificentia</persName> intercedentem advocatâ Nobis autem, Magnis
         Dominis Tzareæ Nostræ Maiestati ipsorum Confœderatorum expeditas expressè tunc temporis ad
         Nos Magnos Dominos ad Nostram Tzaream Maiestatem Magnas Legationes insinuato suspirante
-        animitus desiderio multaq[ue] requisitione Vestræ quoq[ue] Magnificentiæ desiderativâ per
+        animitus desiderio multaq[ue] requisitione <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1062" xml:space="default">Vestræ quoq[ue] Magnificentiæ</persName> desiderativâ per
         eandem supra memoratam<pb cert="high" n="[[f. 20v]]" xml:space="default"/> Legationem de hoc factâ notificatione ac voto non defuimus Nos Magni Domini
         Tzarea Nostra Maiestas respectu supradictæ precationis in tutelam totius Christianitatis
         hostem. Attamen perficere hoc Nos Magni Domini Tzarea Nostra Maiestas voluimus propter Nomen
@@ -71,23 +307,22 @@
         Christianis dominiis tumultuandi, sed potius redigere propositum eius inpræcipitatam
         eradicationem, animasq[ue] Christianas in paganam ipsorum captivitatem adactas redimere,
         adhibito rigoroso iuvamine ex parte Nostrum Magnorum Dominorum Tzareæ Nostræ Maiestatis,
-        quod Nos Magni Domini Tzarea Nostra Maiestas Vestræ Magnificentiæ per Nostras Tzareæ
+        quod Nos Magni Domini Tzarea Nostra Maiestas <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1062" xml:space="default">Vestræ Magnificentiæ </persName>per Nostras Tzareæ
         Maiestatis litteras per eandem tunc Aulæ Nostræ Tzareæ Maiestatis supramemoratam legationem
         significare non obliti sumus, quod negotium etiam Tzar[eæ]. Nostræ Maiestatis supra dictum
         ex bono affectu susceptum et auxilium studiosissimum cum confidentia in Deum nunc luculenter
         et gloriosè coram tota Christianitate apparuit, siquidem Nos Magni Domini Nostra Tzarea
-        Maiestas percepta notificatione per amicas litteras Magni Domini Cæsareæ Suæ Maiestatis de
-        expugnatione ab exercitibus Cæsareæ Suæ Maiestatis Budæ Metropolis Basilicæ Regni Hungariæ
-        iam dudum olim in Turcarum Potestatem delapsæ et nunquam antehâc à copiis Cæsareæ Suæ
-        Maiestatis neq[ue] à prædecessoribus Cæsareæ Maiestatis beatæ memoriæ Imperatoribus Romanis
+        Maiestas percepta notificatione per amicas litteras <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0463" xml:space="default">Magni Domini Cæsareæ Suæ Maiestatis</persName> de
+        expugnatione ab exercitibus Cæsareæ Suæ Maiestatis <placeName key="Buda Budapest Hungary" ref="https://geonames.org/3054667" cert="high">Budæ</placeName> Metropolis Basilicæ Regni Hungariæ
+        iam dudum olim in Turcarum Potestatem delapsæ et nunquam antehâc à copiis <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0463" xml:space="default">Cæsareæ Suæ Maiestatis</persName> neq[ue] à prædecessoribus <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0463" xml:space="default">Cæsareæ Maiestatis</persName> beatæ memoriæ Imperatoribus Romanis
         Regibusq[ue] Hungaricis devictæ, similiter quoq[ue] hoc anno de felici Victoria ex parte
-        Vestræ Magnificentiæ deq[ue] debellatione duorum celebrium fortalitionum, Novarinumi puta et
-        Modonemæ unâ cum residentia Turcarum Bassæ magnaq[ue] parte Moreæ, quod ad lætitiam
+        Vestræ Magnificentiæ deq[ue] debellatione duorum celebrium fortalitionum, <placeName key="Paleokastro Peloponnese Greece" ref="https://geonames.org/6942691" cert="high">Novarinumi</placeName> puta et
+        <placeName key="Methoni castle Peloponnese Greece" ref="https://geonames.org/11809079" cert="high">Modonemæ</placeName> unâ cum residentia Turcarum Bassæ magnaq[ue] parte Moreæ, quod ad lætitiam
         pertinens ex causa supradicti Sancti Fœderis, non pridem à Nobis Magnis Dominis à Tzarea
-        Nostra Maiestate cum Regia Sua Maiestate constituti, uti de hoc Testimonium Nobis Magnis
-        Dominis Tzareæ Nostræ Maiestati, perhibet, Cæsareæ Maiestatis Romanorum amicæ litteræ, ex
+        Nostra Maiestate cum <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0468" xml:space="default">Regia Sua Maiestate</persName> constituti, uti de hoc Testimonium Nobis Magnis
+        Dominis Tzareæ Nostræ Maiestati, perhibet, <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0463" xml:space="default">Cæsareæ Maiestatis Romanorum</persName> amicæ litteræ, ex
         quibus Nos Magni Domini Nostra Tzarea Maiestas intelligentes predicamus cum gaudio<pb cert="high" n="[[f. 21]]" xml:space="default"/>quod illud Tzareæ Nostræ Maiestatis forte instigans
-        adiumentum secundum constituta pacta cum Regia Maiestate non inane fuit, adferens toti
+        adiumentum secundum constituta pacta cum <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0468" xml:space="default">Regia Maiestate</persName> non inane fuit, adferens toti
         Christianitati nunc Magnam lætitiam, pro quo decet gloriam referre. Efficienti omnia
         comprehendenti in Sancta Trinitate glorificando Domino Deo, qui Sapientiâ Suâ colligavit,
         Christianitatem unanimi coniunctione et benedixit communibus ipsorum armis nec non largitus
@@ -95,16 +330,15 @@
         coërcendos hostes, victoriam et debellationem, Nobis autem Magnis Dominis Tzareæ Nostræ
         Maiestati, quemadmodum et toti Christianitati per acceptam de hoc exultationem. Qualis autem
         ex parte Tzareæ Nostræ Maiestatis vigilans et studiose indefesse conatur bellicis
-        præparationibus in auxilium cooperativum Cæsareæ Maiestati Romanorum Regiæq[ue] Maiestati
-        Poloniæ nec non Vestræ Magnificentiæ in fiduciam ac in diruptionem hostilium virium fide
+        præparationibus in auxilium cooperativum <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0468" xml:space="default">Cæsareæ Maiestati Romanorum</persName> <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0468" xml:space="default">Regiæq[ue] Maiestati Poloniæ</persName> nec non <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1062" xml:space="default">Vestræ Magnificentiæ</persName> in fiduciam ac in diruptionem hostilium virium fide
         præsenti tempore intercedit, ac in posterum in eosdem adversarios, quales actiones
         interesserint, de hoc, Nos Magni Domini Nostra Tzarea Maiestas hisce Tzareæ Nostræ
-        Maiestatis litteris, Magnificentiæ Vestræ significare voluimus: quod videlicet Nos Magni
+        Maiestatis litteris, <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1062" xml:space="default">Magnificentiæ Vestræ</persName> significare voluimus: quod videlicet Nos Magni
         Domini Nostra Tzarea Maiestas pro debito tenore constitutorum tractatuum Nobis Magnis
-        Dominis cum Regia Maiestate Poloniæ intercedentium nec non in incolumitatem Christianitatis,
+        Dominis cum <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0468" xml:space="default">Regia Maiestate Poloniæ</persName> intercedentium nec non in incolumitatem Christianitatis,
         atroci hosti, Turcarum verò fideli semper adiutori et ubiq[ue] de improviso vi rumpenti
         Cremensum Chano cum innumeris eius ordis vel agminibus, causati sumus detentionem ac
-        diversionem ab exercitibus Cæsareæ Maiestatis Romanorum Regiæq[ue] Maiestatis Poloniæ, per
+        diversionem ab exercitibus <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0468" xml:space="default">Cæsareæ Maiestatis Romanorum</persName> <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0468" xml:space="default">Regiæq[ue] Maiestatis Poloniæ</persName>, per
         expeditionem Nostrarum Tzareæ Maiestatis copiarum militarium. Quemadmodum etiam per missas
         expressè à Nobis Magnis Dominis à Tzarea Nostra Maiestate ad ipsum Chanum Tzareæ Nostræ
         Maiestatis offensivas litteras, quibus hostis ille perterritus ac videns ex parte Nostrorum
@@ -114,12 +348,10 @@
         multinumeris Nostris Imperialibus copiis, quibus ad actiones istas bellicas expeditionem
         suam sucipere, Deoq[ue] adiuvante illos hostes bello aggredi imperabimus sine mora ac
         imminente<pb cert="high" n="[[f. 21v]]" xml:space="default"/> [si DEUS voluerit] tempore verili hoc
-        est, ab initio Mense Martis absq[ue] dilatione fiduciâ in hoc nitentes, quod et Vestra
-        Magnificentia certior facta de hoc Nostro Tzareæ Maiestatis supra significato instituto, per
+        est, ab initio Mense Martis absq[ue] dilatione fiduciâ in hoc nitentes, quod et <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1062" xml:space="default">Vestra Magnificentia</persName> certior facta de hoc Nostro Tzareæ Maiestatis supra significato instituto, per
         has Nostras Tzareæ Maiestatis amicas litteras in eundem hostem Christianitatis Turcarum
         sultanum legiones suas, respectu bellicae impressionis expeditura fuerit in eodem constituto
-        tempore. Nosq[ue] Magni Domini Tzarea Nostra Maiestas animitus desideramus, quô Vestra
-        Magnificentia certior facta de hoc Nostro Tzareæ Maiestatis supra significato instituto per
+        tempore. Nosq[ue] Magni Domini Tzarea Nostra Maiestas animitus desideramus, quô <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1062" xml:space="default">Vestra Magnificentia</persName> certior facta de hoc Nostro Tzareæ Maiestatis supra significato instituto per
         has Nostras Tzareæ Maiestatis amicas litteras in vindictam sui, idem sedulo efficiatis, ac
         in determinatum tempus exercitibus suis terrâ mariq[ue] bellicam impressionem facere
         iubeatis, non differendo hoc ad aliud tempus. De hoc Nos Magni Domini Nostra Tzarea Maiestas
@@ -133,12 +365,12 @@
         devictus erit, neq[ue] mente sua delectabitur. Hæq[ue] militaris actio in hostem illum non
         saltem progredietur cum acquisitione bonæ famæ sed et in redemptionem totius Christianitatis
         à paganis devastantibus invasionibus.</p>
-      <closer><salute>Ad hoc, promptum Vestrum responsum Nos Magni Domini Tzarea Nostra
+      <p>Ad hoc, promptum Vestrum responsum Nos Magni Domini Tzarea Nostra
         Maiestas desideramus Vestramq[ue] incolumitatem in tutelam Omnipotentis
         Domini Dei commendamus ac felicem in regimine rerum successum
-        precamur.</salute>
-      <dateline>Datum in Aula Nostra Imperiali in Imperante Magna Urbe Moscoviâ anno
-        ab orbe condito 7195 mense Novembris Imperii vero Nostri anno.</dateline></closer>
+        precamur.</p>
+      <p>Datum in Aula Nostra Imperiali in Imperante Magna Urbe Moscoviâ anno
+        ab orbe condito 7195 mense Novembris Imperii vero Nostri anno.</p>
     </body>
   </text>
 </TEI>
