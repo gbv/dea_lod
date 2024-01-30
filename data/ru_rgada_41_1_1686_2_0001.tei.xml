@@ -103,6 +103,85 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001.tei.xml?note_annotation_20240130160616123",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-30T15:06:16.123Z",
+	"dcterms:modified": "2024-01-30T15:06:16.123Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001.tei.xml?note_annotation_20240130160616123#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001.tei.xml?note_annotation_20240130160616123#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": ""
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -110,8 +189,7 @@
         <title>
           <title>30 June 1686. – Sending the envoy <persName cert="high" ref="p1308" type="real">Ivan Volkov</persName> to <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603" cert="high">Venice<precision match="@ref" precision="high"/></placeName> with a petition concerning the Eternal Peace and Alliance contracted by Russia and Poland against the Turks and Tatars and demanding from the Venetians a written response as to their intentions to attack the Turks this spring and the years to come, in accordance with the clauses of the contracted treaty. Here are also his, <persName ref="p1308">Volkov</persName>'s, responses and the response from the Venetian side to this proposal </title></title>
       </head>
-      <p><rs>RGADA, fond 41, opis 1, 1686, no. 2, f. 20-21v.</rs> Latin original.</p>
-      <p><pb cert="high" n="[[f. 20]]" xml:space="default"/></p>
+      RGADA, fond 41, opis 1, 1686, no. 2, f. 20-21v. Latin original.<note type="annotation"/><p><pb cert="high" n="[[f. 20]]" xml:space="default"/></p>
       <p>Список зграмты латински[м] пи[с]мом какова по[с]лана к винице[и]скому
         кн[я]зю чре[з] почту ноя[б]ря д[ен]ь</p>
       <p>DEI OMNIPOTENTIS ET IN OMNIBUS OMNIA operantis, ubiq[ue] præsentis et
