@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,13 +8,13 @@
         </title>
       </titleStmt>
       <publicationStmt>
-        <p></p>
+        <p/>
       </publicationStmt>
       <sourceDesc>
         <p>ru_rgada_41_1_1711_2_0009.docx</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <head>
@@ -29,9 +24,11 @@
           Golovkin
         </title>
       </head>
-      <p>RGADA, fond 41, opis 1, 1711, no. 2, f. 53-54. Latin original.</p>
-      <p>[[<hi rendition="simple:bold">f. 53</hi>]]</p>
-      <p>Illme atq[ue] Excellent[issi]me D[omi]ne D[omi]ne</p>
+      <opener>
+        <note>RGADA, fond 41, opis 1, 1711, no. 2, f. 53-54. Latin original.</note>
+        <pb cert="high" n="f. 53" xml:space="default"/>
+        <salute>Illme atq[ue] Excellent[issi]me D[omi]ne D[omi]ne</salute>
+      </opener>
       <p>Redditæ mihi sunt per Fratre[m] Anastasiu[m] gratissimæ litteræ Vestræ, ex quibus percepi
         epistolam scilicet meam græco stylo exaratam nondum Latine redditam. Expecto tamen (quod
         cito futurum promittis) responsione[m], et simul mandata, quæ mihi servanda erunt ut
@@ -45,23 +42,27 @@
         Unum adhuc velim, ut com[m]ittatur ministro Vien[n]æ degenti, ut epistolas meas recipiat,
         quandocunq[ue] opus fuerit, easque reddendas curat ad Vos quam citissime. Quod ipsu[m] fieri
         opto etia[m] apud ministros Berlini et Amburgi. Hisce in locis non parum timent arma
-        Turcarum, cum maxime [[<hi rendition="simple:bold">f. 53v</hi>]] sibi persuaserint
+        Turcarum, cum maxime</p> 
+      <pb cert="high" n="f. 53" xml:space="default"/>
+      <p>sibi persuaserint
         Imperatore[m] Nostrum pacem servaturum cum Turcis, videantque Turcam armis etiamnum indutum.
         Tenent adhuc arma Nigromontani, et quotidie loca depopulantur, nec Turcis obediunt. Hæc de
         præsenti Excellentiæ Tuæ scribenda cognovi dens Imperatorem Nostrum fœliciter. Vale, ac me
         præciosissimo tuo patrocinio fove, ut meum qualecunq[ue] sit ministerium gloriosius evadat.
         Iteru[m] vale.</p>
-      <p>Venetiis 20 Novemb. 1711.</p>
-      <p>Excellentiæ Tuæ</p>
-      <p>Humil[li]mus obedient[issi]mus ac devot[issi]mus servus</p>
-      <p>Demetrius Bozzius</p>
-      <p>[[<hi rendition="simple:bold">f. 54</hi>]]</p>
-      <p>О[т] Дими[т]рия Боцкия Полатин из Венеции о[т] 20 ноября 1711
-        году</p>
-      <p>О[т] ко[н]сола Боцция к Г[оспо]д[и]ну Графу</p>
-      <p>принято в Ревеле 14. декабря 1711.</p>
-      <p>See also :</p>
-      <p>ru_rgada_41_1_1711_2_0001</p>
+      <closer>
+        <dateline>Venetiis <date when="1711-11-20">20 Novemb. 1711</date>.</dateline>
+        <salute>Excellentiæ Tuæ</salute>
+        <salute>Humil[li]mus obedient[issi]mus ac devot[issi]mus servus</salute>
+        <signed>Demetrius Bozzius</signed>
+      </closer>
+      <pb cert="high" n="f. 54" xml:space="default"/>
+      <note>О[т] Дими[т]рия Боцкия Полатин из Венеции о[т] 20 ноября 1711
+        году</note>
+      <note>О[т] ко[н]сола Боцция к Г[оспо]д[и]ну Графу</note>
+      <note>принято в Ревеле 14. декабря 1711.</note>
+      <note>See also :</note>
+      <note>ru_rgada_41_1_1711_2_0001</note>
     </body>
   </text>
 </TEI>
