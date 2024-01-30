@@ -44,10 +44,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_grada_41_1_1714_3_0002.tei.xml?note_annotation_20240122133831298",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_grada_41_1_1714_3_0002.tei.xml?note_annotation_20240122143845105",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-22T12:38:31.298Z",
-	"dcterms:modified": "2024-01-22T12:38:45.105Z",
+	"dcterms:created": "2024-01-22T12:38:45.105Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/NanetteMWS",
 		"@type": [
@@ -58,7 +57,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_grada_41_1_1714_3_0002.tei.xml?note_annotation_20240122133831298#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_grada_41_1_1714_3_0002.tei.xml?note_annotation_20240122143845105#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_grada_41_1_1714_3_0002.tei.xml",
@@ -66,13 +65,13 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf.test.lca.users.h-da.cloud",
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_grada_41_1_1714_3_0002.tei.xml?note_annotation_20240122133831298#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_grada_41_1_1714_3_0002.tei.xml?note_annotation_20240122143845105#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/note"
 		}
@@ -83,7 +82,7 @@
 		"rdf:value": "Ill[ustrissi]:mo et Ecc[elentissi]:moRGADA, fond 41, opis 1, 1714, no. 3, f. 3-4v. Italian original; Russian translation: ibid., f. 1-2v."
 	},
 	"as:generator": {
-		"@id": "https://leaf.test.lca.users.h-da.cloud",
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -96,7 +95,7 @@
 		<body>
 			<div>
 				<head>1 October 1714. – Letter of Paolo Arcoleo to the chancellor <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0009" xml:space="default">Count Gavrila Ivanovich Golovkin</persName></head>
-				<opener><note cert="high" evaluate="all" place="top" type="setting" xml:space="default" otherType="setting"><salute>Ill[ustrissi]:mo et Ecc[elentissi]:mo</salute>RGADA, fond 41, opis 1, 1714, no. 3, f. 3-4v. Italian original; Russian translation: ibid., f. 1-2v.</note></opener><p/><p>[[f. 3]]</p><p/><p/><p/></div>
+				<opener><salute>Ill[ustrissi]:mo et Ecc[elentissi]:mo</salute><note>RGADA, fond 41, opis 1, 1714, no. 3, f. 3-4v. Italian original; Russian translation: ibid., f. 1-2v.</note></opener><p/><p>[[f. 3]]</p><p/><p/><p/></div>
 		</body>
 	</text>
 </TEI>
