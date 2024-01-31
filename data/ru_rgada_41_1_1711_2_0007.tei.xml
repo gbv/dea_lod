@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,7 +22,7 @@
       <head>
         <title>
           15 September 1711. – Letter from the Russian consul in
-          Venice <persName>Demetrio Bozzis</persName> to Tsar Peter I
+          Venice <persName>Demetrio Bozzis</persName> to <persName cert="high" ref="p0174" type="real">Tsar Peter I</persName>
         </title>
       </head>
       <opener>
@@ -60,7 +63,7 @@
       <dateline>ἀπὸ Βενετίας <date when="1711-09-15">1711 Σεπτεμβρίου 15</date></dateline>
       <salute>Τῆς Ὑμετέρ. Ἱερωτάτης Καισαρείας Μεγαλ.</salute>
       <salute>Ταπεινότατος, εὐλαβέστατος πιστότατος καὶ ἐλάχιστος δοῦλος</salute>
-      <signed>Δημήτριος ὁ Μπότζης.</signed>
+      <signed><persName ref="p1366">Δημήτριος ὁ Μπότζης</persName>.</signed>
       </closer>
       <note>И[з] Венецыи о[т] Дими[т]рия Боциса писано сентября в 15. 1711 к
         Великому Г[осу]д[а]рю. Переведено.</note>
