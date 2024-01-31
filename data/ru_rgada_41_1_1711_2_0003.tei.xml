@@ -17,11 +17,327 @@
         <p>ru_rgada_41_1_1711_2_0003.docx</p>
       </sourceDesc>
     </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115207422",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T10:52:07.422Z",
+	"dcterms:modified": "2024-01-31T10:52:07.422Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115207422#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115207422#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/745044",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115230532",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T10:52:30.532Z",
+	"dcterms:modified": "2024-01-31T10:52:30.532Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115230532#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115230532#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/closer/dateline/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3164603",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115244172",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T10:52:44.172Z",
+	"dcterms:modified": "2024-01-31T10:52:44.172Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115244172#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115244172#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/head/title/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3164603",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115257452",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-31T10:52:57.452Z",
+	"dcterms:modified": "2024-01-31T10:52:57.452Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115257452#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20240131115257452#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/opener/note[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q641",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <head>
-        <title>1 August 1711. – Letter from Venice dated 1 August 1711
+        <title>1 August 1711. – Letter from <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Venice</placeName> dated 1 August 1711
           from <persName ref="p1366">Demetrio Bozzis</persName> to His Majesty with congratulations on entering the
           Walachian and Muntian lands</title>
       </head>
@@ -30,7 +346,7 @@
       <pb cert="high" n="f.9" xml:space="default"/>
       <salute>Ἱερωτάτη Καισαριαία Μεγαλειότης.</salute>
       <note>Греческое</note>
-      <note>К велико[му] Г[о]с[у]д[а]рю из Венеции августа о[т] 1 дня, 1711
+      <note>К велико[му] Г[о]с[у]д[а]рю из <placeName key="Venice" ref="http://www.wikidata.org/entity/Q641">Венеции</placeName> августа о[т] 1 дня, 1711
         [году] из Венеции о[т] Дими[т]рия Боциса, поздравление о вступлении в
         волоскую и мунтянскую земли, и желае[т] победы на ту[р]ков.</note></opener>
       <p>Ἠργοπόρησα νὰ γράψω ἕως τῶρα πρὸς τὴν ὑμετέραν ἱερὰν μεγαλειότητα, διὰ νὰ μὴ τῆς φέρω
@@ -44,13 +360,13 @@
         Ἄμποτε ἡ πλουσιόδωρος δεξιὰ τοῦ Σωτῆρος Χριστοῦ νὰ ὑπερασπίζῃ, καὶ νὰ συναγωνίζεται μὲ τὸν
         εὐσεβέστατον ὑμέτερον στρατὸν, ἕως ὁποῦ νὰ ἰδῆ ὁ κόσμος θριαμβεύουσαν τὴν ὑμετέραν ἱερωτάτην</p><pb cert="high" n="f. 9v" xml:space="default"/>
         <p> μεγαλειότητα εἰς τὴν περιβότητον
-        Κωνσταντινούπολιν, τὸ ὁπόσον ἐλπίζομεν νὰ ἰδοῦμεν ταχέως γνωρίζοντες ὀφθαλμοφανῶς πῶς εἶναι
+        <placeName key="Istanbul Istanbul Türkiye" ref="https://geonames.org/745044">Κωνσταντινούπολιν</placeName>, τὸ ὁπόσον ἐλπίζομεν νὰ ἰδοῦμεν ταχέως γνωρίζοντες ὀφθαλμοφανῶς πῶς εἶναι
         θεία πρόνοια, ὁποῦ κινεῖ τοσαῦτα καὶ τοιαῦτα εὐσεβῆ στρατεύματα, καὶ θεία εὐσπλαγχνεία, ὁποῦ
         ἐπισκέπτει τῶν ὀρθοδόξων τὴν δέησιν. Ἐν τῷ μεταξὺ λοιπὸν καὶ ἐγὼ μετὰ τῶν ἄλλων καὶ ὑπὲρ
         τοὺς ἄλλους δεόμενος τοῦ παντοδυνάμου Θεοῦ νὰ χαρίζῃ πλουσιοπαρόχως καὶ ἀκαταπαύστως νίκην
         καὶ κράτος εἰς τὰ θεοπρόβλητα ὅπλα τῆς αὐτοκρατορικῆς ... βασιλείας, εὐλαβῶς ὑπογράφομαι</p>
         <closer>
-      <dateline>εἰς Βενετίαν <date when="1711-08-01">1711 Αὐγούστου πρώτῃ</date>.</dateline>
+      <dateline>εἰς <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Βενετίαν</placeName> <date when="1711-08-01">1711 Αὐγούστου πρώτῃ</date>.</dateline>
       <salute>Τῆς Ὑμετέρ. Ἱερωτάτης Καισαρίας Μεγαλ.</salute>
       <salute>Ταπεινότατος, εὐλαβέστατος πιστότατος καὶ ἐλάχιστος δοῦλος</salute>
       <signed>Δημήτριος ὁ Μπότζης.</signed>
