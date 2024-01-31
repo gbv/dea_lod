@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,9 +54,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130091806233",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130091806233",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-30T08:18:06.233Z",
+	"dcterms:modified": "2024-01-30T08:18:06.233Z",
 	"dcterms:creator": {
 		"@id": "#anonymous",
 		"@type": [
@@ -64,10 +68,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130091806233#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130091806233#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -78,7 +82,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130091806233#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130091806233#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/placeName"
 		}
@@ -130,9 +134,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130100109141",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130100109141",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-30T09:01:09.141Z",
+	"dcterms:modified": "2024-01-30T09:01:09.141Z",
 	"dcterms:creator": {
 		"@id": "#anonymous",
 		"@type": [
@@ -143,10 +148,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130100109141#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130100109141#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -157,7 +162,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130100109141#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130100109141#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/placeName[3]"
 		}
@@ -209,9 +214,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130101816776",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130101816776",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-30T09:18:16.776Z",
+	"dcterms:modified": "2024-01-30T09:18:16.776Z",
 	"dcterms:creator": {
 		"@id": "#anonymous",
 		"@type": [
@@ -222,10 +228,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130101816776#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130101816776#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -236,7 +242,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130101816776#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130101816776#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/placeName[2]"
 		}
@@ -288,10 +294,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130155443294",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130155443294",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-30T14:54:43.294Z",
-	"dcterms:modified": "2024-01-30T14:54:43.294Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/drVEBB",
 		"@type": [
@@ -302,10 +307,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130155443294#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130155443294#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -316,7 +321,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_edited.tei.xml?place_annotation_20240130155443294#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1686_2_0001_ready.tei.xml?place_annotation_20240130155443294#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[9]/placeName"
 		}
@@ -341,7 +346,7 @@
     <body>
       <head>
         <title>
-          <title>30 June 1686. – Sending the envoy Ivan Volkov to Venice with a petition concerning the Eternal Peace and Alliance contracted by Russia and Poland against the Turks and Tatars and demanding from the Venetians a written response as to their intentions to attack the Turks this spring and the years to come, in accordance with the clauses of the contracted treaty. Here are also his, Volkov's, responses and the response from the Venetian side to this proposal </title></title>
+          <title>30 June 1686. – Sending the envoy <persName ref="p1308">Ivan Volkov</persName> to Venice with a petition concerning the Eternal Peace and Alliance contracted by Russia and Poland against the Turks and Tatars and demanding from the Venetians a written response as to their intentions to attack the Turks this spring and the years to come, in accordance with the clauses of the contracted treaty. Here are also his, <persName ref="p1308">Volkov</persName>'s, responses and the response from the Venetian side to this proposal </title></title>
       </head>
       <p><rs>RGADA, fond 41, opis 1, 1686, no. 2, f. 20-21v.</rs> Latin original.</p>
       <p><pb cert="high" n="[[f. 20]]" xml:space="default"/></p>
