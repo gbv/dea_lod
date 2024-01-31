@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,13 +8,13 @@
         </title>
       </titleStmt>
       <publicationStmt>
-        <p></p>
+        <p/>
       </publicationStmt>
       <sourceDesc>
         <p>ru_rgada_53_4_39_0001.docx</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <head>
@@ -28,13 +23,16 @@
           of Denmark and Norway, Frederick IV, to the Tsar of Russia, Peter I
         </title>
       </head>
-      <p><hi rendition="simple:italic">RGADA, fond 53, opis 4, no. 39, f.
-          1–2v. German original</hi>.</p>
-      <p><hi rendition="simple:italic">RGADA, fond 53, opis 4, no. 39, f.
-          3–4v</hi>. <hi rendition="simple:italic">Translation from German into
-          Russian.</hi></p>
-      <p><hi rendition="simple:bold">[[f. 1]]</hi> Durchlauchtigster Großmächtigster Czaar,</p>
+      <opener>
+      <note>RGADA, fond 53, opis 4, no. 39, f.
+          1–2v. German original.</note>
+      <note>RGADA, fond 53, opis 4, no. 39, f.
+          3–4v<lb/>Translation from German into
+          Russian.</note>
+      <pb cert="high" n="f. 1" xml:space="default"/>
+      <p>Durchlauchtigster Großmächtigster Czaar,</p>
       <p>Freundlich vielgeliebter Bruder, Freund und Nachbahr,</p>
+      </opener>
       <p>Eurer May[es]t[ä]t und L[ie]bd[en] an Mich unterm 23<hi rendition="simple:superscript">
           <hi rendition="simple:underline">ten</hi>
         </hi> Februarii dieses Jahres,
