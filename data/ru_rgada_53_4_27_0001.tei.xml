@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,13 +9,13 @@
         </title>
       </titleStmt>
       <publicationStmt>
-        <p></p>
+        <p/>
       </publicationStmt>
       <sourceDesc>
         <p>ru_rgada_53_4_27_0001.docx</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <head>
@@ -30,13 +25,15 @@
           Danish Envoy Extraordinary to Russia, Hans Georg Westfalen
         </title>
       </head>
-      <p><hi rendition="simple:italic">RGADA, fond 53, op. 4, no. 27, f. 4–4v,
-          5v. Danish original</hi>.</p>
-      <p><hi rendition="simple:italic">RGADA, fond 53, op. 4, no. 27, f.
+      <opener>
+      <note><hi rendition="simple:italic">RGADA, fond 53, op. 4, no. 27, f. 4–4v,
+          5v. Danish original</hi>.</note>
+      <note><hi rendition="simple:italic">RGADA, fond 53, op. 4, no. 27, f.
           6–7</hi>. <hi rendition="simple:italic">Translation from Danish into
-          Russian.</hi></p>
-      <p><hi rendition="simple:bold">[[f. 4]]</hi> Durchleuchtigste, Stormægtigste Czar,</p>
-      <p>Elskelige Kiære Broder, Ven og Naboe,</p>
+          Russian.</hi></note>
+      <salute><hi rendition="simple:bold">[[f. 4]]</hi> Durchleuchtigste, Stormægtigste Czar,</salute>
+      <salute>Elskelige Kiære Broder, Ven og Naboe,</salute>
+      </opener>
       <p>Som nær værende Conjuncturer saaledes ere beskaffene, at Jeg, for der over, effter
         anledning af dend Mig og Eders May[estæt] og Kierl[ighe]d imellem værende nære
         Alliance-Tractat med dennem udi Broder- og Naboevenlig Fortroelighed at kunde communicere,
@@ -49,8 +46,7 @@
         tilstille. Jeg sætter og tilllige med til Eders May[estæ]ts og Kierl[ighe]ds oprigtige
         Affection og Venskab det sichere og faste Fortroende, at de hannem paa hans Anbringende
         Propositioner hver gang med saa fornöyelige Resolutioner forsynendes vorder, som Tidernes
-        omstændigheder og Voris mutuelle Convenience og Interesse det udkræver. <hi
-          rendition="simple:bold">[[f. 4v]]</hi> Jeg vil derimod ved alle forekommende Hændelser
+        omstændigheder og Voris mutuelle Convenience og Interesse det udkræver. <hi rendition="simple:bold">[[f. 4v]]</hi> Jeg vil derimod ved alle forekommende Hændelser
         söge at beviise, at Jeg af gandske Hiertet er og stedse forblifver</p>
       <quote>
         <p>Eders May[estæ]ts og Kierl[ighe]ds</p>
