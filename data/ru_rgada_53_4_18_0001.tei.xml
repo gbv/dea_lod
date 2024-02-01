@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,13 +8,13 @@
         </title>
       </titleStmt>
       <publicationStmt>
-        <p></p>
+        <p/>
       </publicationStmt>
       <sourceDesc>
         <p>ru_rgada_53_4_18_0001.docx</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <head>
@@ -28,14 +23,17 @@
           King of Denmark and Norway, Frederick IV, to the Tsar of Russia, Peter I
         </title>
       </head>
-      <p><hi rendition="simple:italic">RGADA, fond 53, opis 4, no. 18, f.
-          1–1v. German original</hi>.</p>
-      <p>
-        <hi rendition="simple:italic">RGADA, fond 53, opis 4, no. 18, f.
-          2–2v. Translation from German into Russian.</hi>
-      </p>
-      <p><hi rendition="simple:bold">[[f. 1]]</hi> Durchleuchtigster Großmächtigster Czar.</p>
-      <p>Freundlich vielgeliebter Herr Bruder, Freund und Nachbahr.</p>
+      <opener>
+      <note>RGADA, fond 53, opis 4, no. 18, f.
+          1–1v. German original.</note>
+      <note>
+        RGADA, fond 53, opis 4, no. 18, f.
+          2–2v. Translation from German into Russian.
+      </note>
+      <pb cert="high" n="f. 1" xml:space="default"/>
+      <salute>Durchleuchtigster Großmächtigster Czar.<lb/>
+      Freundlich vielgeliebter Herr Bruder, Freund und Nachbahr.</salute>
+      </opener>
       <p>Nachdehm mir die Zeitung von dem anhero abgefertigten Chur=Hannoverschen Cammer-Herrn
         angebracht worden, alß wann die in Pommern sich befindliche Trouppen ordre erhalten, das
         dortige Land zu verbrennen und zu verheeren und dann gar verlauten will, daß solches
@@ -44,8 +42,9 @@
         Ew[er] May[estä]t und L[ie]bd[en] Feldt-Marschall den Printz Menschikoff, wie beygehende
         Copey zeiget, zu schreiben, und Ihme vorzustellen, daß Er doch ohngesäubt die ordre zu
         Abstellung einer solchen Unß Sämbtlich zu der allergrösten prejuditz gereichenden Execution,
-        verfügen möge. da Ich dann, ob periculum in mora, dieses auf <hi rendition="simple:bold">[[f.
-        1v]]</hi> mich genommen, nicht zweiffelnde Ew[er] May[estä]t und L[ie]bd[en] werden Sich,
+        verfügen möge. da Ich dann, ob periculum in mora, dieses auf</p> 
+        <pb cert="high" n="f. 1v" xml:space="default"/> 
+        <p> mich genommen, nicht zweiffelnde Ew[er] May[estä]t und L[ie]bd[en] werden Sich,
         auß denen angeführten Uhrsachen, solches gerne gefallen laßen und derentwegen dero Feldt
         Marschall die verlangte Genehmhaltung zuzusenden belieben, womit Ich jederzeit mit aller
         Aufrichtigkeit verharre</p>
