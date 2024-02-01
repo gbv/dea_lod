@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,13 +8,13 @@
         </title>
       </titleStmt>
       <publicationStmt>
-        <p></p>
+        <p/>
       </publicationStmt>
       <sourceDesc>
         <p>ru_rgada_53_3_39_0001.docx</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <head>
@@ -28,17 +23,20 @@
           of Denmark and Norway, Frederick IV
         </title>
       </head>
-      <p><hi rendition="simple:italic">RGADA, fond 53, opis 3, no. 39, f.
-          1–1v. German original</hi>.</p>
-      <p>
-        <hi rendition="simple:italic">RGADA, fond 53, opis 3, no. 39, f.6–6v.
-          German copy.</hi>
-      </p>
-      <p>
-        <hi rendition="simple:italic">RGADA, fond 53, opis 3, no. 39, f.
-          3–4v, 7–8. Translations from German into Russian.</hi>
-      </p>
-      <p><hi rendition="simple:bold">[[f. 1]]</hi> Nachdemmahlen von Seiten Seiner Czaarischen
+      <opener>
+      <note>RGADA, fond 53, opis 3, no. 39, f.
+          1–1v. German original.</note>
+      <note>
+        RGADA, fond 53, opis 3, no. 39, f.6–6v.
+          German copy.
+      </note>
+      <note>
+        RGADA, fond 53, opis 3, no. 39, f.
+          3–4v, 7–8. Translations from German into Russian.
+      </note>
+      </opener>
+      <pb cert="high" n="f. 1" xml:space="default"/>
+      <p>Nachdemmahlen von Seiten Seiner Czaarischen
         May[estät] bey Unß der Antrag geschehen, Wir möchten bey Unseren Hohen Mit-Alliirten, es in
         die Wege zu richten, Unß befleißigen, daß die Stadt Wismar nach deren völligen demolirung
         des Herrn Hertzogen von Mecklenburg Schwerin L[ie]bd[en] verbleiben möchte; So können Wir
@@ -53,9 +51,10 @@
         May[estät] May[estät] dahin anzuwenden, daß Wismar mit deßen Pertinentzien, nach vorhero
         geschehener vollenkommenen Demolition, Seiner L[ie]bd[en] des Hertzogs von Schwerin
         L[ie]bd[en], wegen der aus deßen Landen gehobene fourage und Subsistence für Unsere
-        Trouppen, wie es Nahmen haben möge, etwann gemacht, oder wegen des vorigen und <hi
-          rendition="simple:bold">[[f.
-          1v]]</hi> dieses Jahres, noch zu machende prætensiones, würcklich cessiren, aufhören und
+        Trouppen, wie es Nahmen haben möge, etwann gemacht, oder wegen des vorigen und
+        </p>
+        <pb cert="high" n="f. 1v" xml:space="default"/>
+        <p> dieses Jahres, noch zu machende prætensiones, würcklich cessiren, aufhören und
         deren ins künfftige keine gemachet oder desfalß formiret, sondern vielmehr an erwehnten
         prætensionen renuncieret werden soll. Nichtweniger stipuliren Wir gleichfalß hiebey, daß Unß
         eine positive und zulängliche Versicherung, von Seiten des Hertzogs von Mecklenburg,
