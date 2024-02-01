@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -47,10 +44,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002.tei.xml?place_annotation_20240131163154303",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173154303",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-31T15:31:54.303Z",
-	"dcterms:modified": "2024-01-31T15:31:54.303Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -61,23 +57,23 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002.tei.xml?place_annotation_20240131163154303#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173154303#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002.tei.xml?place_annotation_20240131163154303#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173154303#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[4]/placeName"
+			"rdf:value": "TEI/text/body/div/p[2]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -86,7 +82,7 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -126,10 +122,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002.tei.xml?place_annotation_20240131163230390",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173230390",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-31T15:32:30.390Z",
-	"dcterms:modified": "2024-01-31T15:32:30.390Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -140,23 +135,23 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002.tei.xml?place_annotation_20240131163230390#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173230390#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002.tei.xml?place_annotation_20240131163230390#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173230390#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[7]/placeName"
+			"rdf:value": "TEI/text/body/div/p[5]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -165,7 +160,7 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -177,8 +172,8 @@
 	<text>
 		<body>
 			<div>
-				<head>2 August 1715. – Letter from Sijling to <persName ref="p0729">the Russian Ambassador to Denmark, Prince Vasilli Lukich Dolgorukov</persName></head>
-				<p>RGADA, fond 53, opis 1, 1709, no. 12, f. 73-74v. French original.</p><p/><p>[[f. 73]] Monseigneur</p><p>Je viens de recevoir du Secretaire de Votre Altesse une quittance de diamants que je luy ay envoyé à <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425">Coppenhague</placeName> il y a plus de cinq semaines, conformement à l'ordre de Votre Altesse et le memoire du Sr. Trefort. Ça n'a pa ete sans peine de les assortir [[f. 73v]] et je ne doute pas, qu'ils ne fassent un tres bel effet; Je les ay marchandé au mieux possible et si apres un an l'on voudroit les rendre, Mr. La Chambre qui me les a fait avoir, s'est offert à les reprendre toujours à 10 Rx de perte par piece; Je me flatte, que [[f. 74]] le Secretaire de Votre Altesse en ait deja donné rapport, &amp; qu'Elle veuille bien agréer ce qui a eté fait à ce sujet; J'ay cy-joint une petite notte, afin que Votre Altesse voit ce que j'ay payé pour chaque piece j'avois envoyé un diamant plat de [[f. 74v]] trop, afin que l'on choisit et l'on me l'a renvoyé. J'ay l'honneur d'etre avec un profond respect</p><p>Monseigneur</p><p>                        de Votre Altesse</p><p><placeName key="Hamburg Hamburg Germany" ref="https://geonames.org/2911298">Hambourg</placeName>                                                           le tres humble et tres</p><p>ce 2e. aoust 1715.                                                obeissant serviteur</p><p>                                                                               Sijling</p></div>
+				<head><title>2 August 1715. – Letter from Sijling to <persName ref="p0729">the Russian Ambassador to Denmark, Prince Vasilli Lukich Dolgorukov</persName></title></head>
+				<note>RGADA, fond 53, opis 1, 1709, no. 12, f. 73-74v. French original.</note><p>[[f. 73]] Monseigneur</p><p>Je viens de recevoir du Secretaire de Votre Altesse une quittance de diamants que je luy ay envoyé à <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425">Coppenhague</placeName> il y a plus de cinq semaines, conformement à l'ordre de Votre Altesse et le memoire du Sr. Trefort. Ça n'a pa ete sans peine de les assortir [[f. 73v]] et je ne doute pas, qu'ils ne fassent un tres bel effet; Je les ay marchandé au mieux possible et si apres un an l'on voudroit les rendre, Mr. La Chambre qui me les a fait avoir, s'est offert à les reprendre toujours à 10 Rx de perte par piece; Je me flatte, que [[f. 74]] le Secretaire de Votre Altesse en ait deja donné rapport, &amp; qu'Elle veuille bien agréer ce qui a eté fait à ce sujet; J'ay cy-joint une petite notte, afin que Votre Altesse voit ce que j'ay payé pour chaque piece j'avois envoyé un diamant plat de [[f. 74v]] trop, afin que l'on choisit et l'on me l'a renvoyé. J'ay l'honneur d'etre avec un profond respect</p><p>Monseigneur</p><p>                        de Votre Altesse</p><p><placeName key="Hamburg Hamburg Germany" ref="https://geonames.org/2911298">Hambourg</placeName>                                                           le tres humble et tres</p><p>ce 2e. aoust 1715.                                                obeissant serviteur</p><p>                                                                               Sijling</p></div>
 		</body>
 	</text>
 </TEI>
