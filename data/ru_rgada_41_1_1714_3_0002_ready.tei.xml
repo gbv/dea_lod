@@ -12,85 +12,7 @@
 					otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1714_3_0002_ready.tei.xml?place_annotation_20240131171518867",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-31T15:15:18.867Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1714_3_0002_ready.tei.xml?place_annotation_20240131171518867#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1714_3_0002_ready.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1714_3_0002_ready.tei.xml?place_annotation_20240131171518867#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[2]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/498817",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
 			<div>
@@ -118,14 +40,14 @@
 				<p>Si ritrovano cui oltre 4 libri d'Istorie, et 3 di Medicina, con una Tariffa di pagamenti per li Serventi dal'Armata Veneta. Un libro che descrive il governo del med[esi]:ma Veneta Republica, che io era adietro per emendarlo da molti erori, et ommissioni, commetti del'autore per non esser stato [?]atico, ne havuto la total cognitione de tutti li Maggistrati, e Cariche ordinarie, et estraordinarie di Levante, e dell'Armata Navale, de maneggi, e delle Publiche Rendite, per presentarlo poscia al mio <persName ref="p0174">Sovrano</persName>.</p>
 				<p>Se poi l'E[ccelen]:za V[ost]:ra vuò esser consapevole di tutto, potrà spedir a levar il Processo da <placeName key="Rijeka Primorje-Gorski Kotar Croatia" ref="https://geonames.org/3191648">Fiume</placeName>, ove ritroverà diferenti acuse, e di titta falsità, che senza scropolo di conscienza, e niente di timor de Dio, m'eran adossate, e <persName ref="p0494">dall'E[ccelentissi]:mo Baron Saffirof</persName> medemand:e haver esata rellatione delle mie operationi.</p>
 				<p>Per fine, à mè deve esser osseravata la fede datami nell'intraprender questo venerato servitio, e massime col fondamento della Patente relasciatami, e questa fede confido nell'aclamata Giustit[i]:a e Clemenza di <persName ref="p0174">Sua Czarea M[aes]:ta</persName> che mi sarà mantenuta, soggetandomi in tutto e per tutti venerati ceni della Maestà Sua nel constituirmi imutabile</p>
-				</div>
-				<div>
-					<p>                                  Di V[ost]:ra E[ccelen]:za</p>
-					<p>Dall'Aresto della Guardia di <placeName key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">Peterburgh</placeName> li P[ri]mo ottobre 1714</p>
-					<p>                                                                                  Hum[ilissi]:mo, Dev[otissi]:mo et Obligat[issi]:mo Serv[itore]: fid[elissi]:mo</p>
-					<p>                                                                                                                                             <persName ref="p1383">Paolo Arcoleo</persName>
-					</p>
-				</div>
+				<closer>
+					<salute>Di V[ost]:ra E[ccelen]:za</salute>
+					<dateline>Dall'Aresto della Guardia di <placeName key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">Peterburgh</placeName><date when="1714-10-01"> li P[ri]mo ottobre 1714</date></dateline>
+					<salute>Hum[ilissi]:mo, Dev[otissi]:mo et Obligat[issi]:mo Serv[itore]: fid[elissi]:mo</salute>
+					<signed><persName ref="p1383">Paolo Arcoleo</persName></signed>
+					
+				</closer>
+			</div>
 		</body>
 	</text>
 </TEI>
