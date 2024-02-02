@@ -648,6 +648,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202152303763",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-02T14:23:03.763Z",
+	"dcterms:modified": "2024-02-02T14:23:03.763Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202152303763#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202152303763#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3164603",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -713,14 +792,14 @@
         произойти чрез интриги <persName ref="p1162">принца Рагоци</persName>.</p>
       <p>Знаю подлинно, что из <placeName key="Istanbul Istanbul Türkiye" ref="https://geonames.org/745044">Цариграда</placeName> о том не одна персона из
         рипрезентайтову пишет, а правда или нет о том не ведаю. А здешним сие не
-        было б противно ибо от всюду, а наипаче от цесаря так притеснены как
+        было б противно ибо от всюду, а наипаче от <persName ref="p0163">цесаря</persName> так притеснены как
         больше не можно.</p>
       <p>Сие дерзнул донесть в небытность здесь агента В[аше]го: В:[еличеств]а
         и впред ссылаясь на его реляции</p>
-      <p>из Венеции октября 23: 1719 году </p><p>                                                                                             всепокорнейший раб</p>
+      <p>из <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Венеции</placeName> октября 23: 1719 году </p><p>                                                                                             всепокорнейший раб</p>
       <quote>
-        <p>                                                                                             Савва Владиславич</p>
-        <p>                                                                                             // Sava Vladislavidj</p>
+        <p>                                                                                             <persName ref="p1381">Савва Владиславич</persName></p>
+        <p>                                                                                             // <persName ref="p1381">Sava Vladislavidj</persName></p>
       </quote>
     </body>
   </text>
