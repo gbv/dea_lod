@@ -411,6 +411,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202151807775",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-02T14:18:07.775Z",
+	"dcterms:modified": "2024-02-02T14:18:07.775Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202151807775#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202151807775#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -456,12 +535,12 @@
         сие иа чинил, что б его болше склонить к освобождению оной статуи.</p>
       <p>Что он кардинал пишет и чрезмерно желает получить тело из Швеции чрез В[а]ше Монаршеское
         великодушие <persName ref="p1458">Святой Бригиды</persName>, то иа полагаю в В[ашем]: В:[еличест]ве<pb cert="high" n="f. 12" xml:space="default"/> </p><p>превыское рассуждение. А хотя иа о том с ним
-        кардиналом не имею никакого [?], разсуждаю когда он будет сие у В[аше]:го В:[еличеств]а
+        <persName ref="p1387">кардиналом</persName> не имею никакого [?], разсуждаю когда он будет сие у В[аше]:го В:[еличеств]а
         писменно требовать, а ще по случаю учинить возможно, во истинну вся римская держава, к
         наивящшей славе В[аше]го: В:[еличеств]а сие причитать будет, и в той ц[е]ркве на алтарь, где
         то святое тело пребывать будет, останется [?] на мраморе во веки знак В[а]шего Величества
         безсмертной славы имя.</p>
-      <p>О Юрье Кологривом по его поезде из Рима не имею ни каких ведомостей,
+      <p>О <persName ref="p1393">Юрье Кологривом</persName> по его поезде из <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима</placeName> не имею ни каких ведомостей,
         а ежели впред что услышу донести не оставлю.</p>
       <p>Ведомости здесь что последна крепость Мисинска в Сицилии по жестоком
         осаде и немалом кровопролитии здалась цесарцам на честный акорд; сего
