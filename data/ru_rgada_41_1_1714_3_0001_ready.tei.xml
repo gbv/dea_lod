@@ -12,96 +12,19 @@
 					otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1714_3_0001_ready.tei.xml?place_annotation_20240131165522298",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-31T14:55:22.298Z",
-	"dcterms:modified": "2024-01-31T14:55:22.298Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1714_3_0001_ready.tei.xml?place_annotation_20240131165522298#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1714_3_0001_ready.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1714_3_0001_ready.tei.xml?place_annotation_20240131165522298#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[10]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2761369",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
 			<div>
-				<head>1 October 1714. – Letter of <persName ref="p1383">Paolo Arcoleo</persName> to <persName ref="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName></head>
-				<p>RGADA, fond 41, opis 1, 1714, no. 3, f. 1-2v. Russian translation; Italian original: ibid., f. 3-4v.</p>
+				<head><title>1 October 1714. – Letter of <persName ref="p1383">Paolo Arcoleo</persName> to <persName ref="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName></title></head>
+				<opener>
+				<note>RGADA, fond 41, opis 1, 1714, no. 3, f. 1-2v. Russian translation; Italian original: ibid., f. 3-4v.</note>
 				<pb cert="high" n="f. 1" xml:space="default"/>
-				<p>Перевод</p>
-				<p>Сиятелнейший и Превосходителнейший </p>
-				<p>Граф, тайный советник Его Царского Величества и Великий Канцлер Империи,</p>
-				<p>Милостивый Государь !</p>
+				<note>Перевод</note>
+				<salute>Сиятелнейший и Превосходителнейший <lb/>
+				Граф, тайный советник Его Царского Величества и Великий Канцлер Империи,<lb/>
+				Милостивый Государь !</salute>
+				</opener>
 				<p>Прошедшаго 27аго Сентября был я спрошен одним из вернейших секретарей Вашего Превосходительства о некоторых артикулах, содержащихся в бумаге представленной от <persName ref="p1381">Его Превосходительства Саввы Владиславича</persName> против меня секретаря <persName ref="p1383">Павла Арколея</persName>, преданнейшего слуги Вашего Превосходительства. Не разумея Рускаго языка и по худому изъяснению Итальянских выражений Господином переводчиком (к утверждению моих оправданий), отговорился тем, что касательно артикула о Монтенегре, я никому не могу открыться, кроме почтенной особы Вашего Превосходительства и как Вы требуете того на бумаге, то почитаю за долг, со всею покорностию Вам представить о том, по справедливости, правосудию и долгу Християнскому.</p>
 				<p>И так я объявляю, что в помянутой бумаге содержатся дела бывшея прежде учиненной мною 29аго числа прошедшаго ноября в <placeName key="Istanbul Istanbul Türkiye" ref="https://geonames.org/745044">Константинополе</placeName> <persName ref="p0174">Всемилостивейшему Моему Императору</persName> присяге, перед Св. образом и Евангелием Спасителя Мира, и при священнике и секретаре <persName ref="p0494">Его Превосходительства барона Шафирова</persName>; а потому и не могу во всей точности ответствовать на настоящия обвинения <persName ref="p1381">Его Превосходительства Саввы</persName>; ибо я при произведенном надо мною в <placeName ref="https://www.geonames.org/6537932">Фиуме</placeName> следствии не только обо всем ответствовал, но и дал точной отчет помянутому <persName ref="p0494">министру барону Шафирову</persName>.</p>
 				<pb cert="high" n="f. 1v" xml:space="default"/>
