@@ -332,6 +332,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202150830558",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-02T14:08:30.558Z",
+	"dcterms:modified": "2024-02-02T14:08:30.558Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202150830558#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202150830558#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -357,9 +436,9 @@
         пространный ответ, за собственною его рукою, и котораго прилагаю при сем
         перевод по которому можно видеть, что оную статую он <persName ref="p1387">кардинал Отобони</persName> по
         возвращении <persName ref="p1394">кардинала Албани</persName> в <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим</placeName> всеконечно освободит.</p>
-      <p>К тому ж и г[оспо]д[и]н агент Беклемишев прежде сего ответа из <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима</placeName> прошлой недели за то же
+      <p>К тому ж и <persName ref="p1392">г[оспо]д[и]н агент Беклемишев</persName> прежде сего ответа из <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима</placeName> прошлой недели за то же
         дело в <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим</placeName> поехал, за наилутчую к В[ашем]:у В:[еличест]ву услугу, котораго иа римским
-        приятелям рекомендовал, и хотя б путешествия его в Рим не было, то б г[оспо]д[и]н кардинал
+        приятелям рекомендовал, и хотя б путешествия его в <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим</placeName> не было, то б г[оспо]д[и]н кардинал
         Отобони по возвращении кардинала Албани<pb cert="high" n="f. 11v" xml:space="default"/></p><p>несумнително дело совершил как можно увидеть из вышеписаннаго его писма, который во истинну
         всем делам В[аше]:го В:[еличест]ва зело склонен, как В[ашем]:у В:[еличест]ву может быть
         известно лутче с приездом г[оспо]д[и]на Кологривова.</p>
