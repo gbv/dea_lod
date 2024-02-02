@@ -490,6 +490,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202151833794",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-02T14:18:33.794Z",
+	"dcterms:modified": "2024-02-02T14:18:33.794Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202151833794#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20240202151833794#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2524170",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -542,11 +621,11 @@
         безсмертной славы имя.</p>
       <p>О <persName ref="p1393">Юрье Кологривом</persName> по его поезде из <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима</placeName> не имею ни каких ведомостей,
         а ежели впред что услышу донести не оставлю.</p>
-      <p>Ведомости здесь что последна крепость Мисинска в Сицилии по жестоком
+      <p>Ведомости здесь что последна <placeName key="Messina Sicily Italy" ref="https://geonames.org/2524170">крепость Мисинска</placeName> в Сицилии по жестоком
         осаде и немалом кровопролитии здалась цесарцам на честный акорд; сего
         м[еся]ца 9/20 и по получению оной о выпуске гарнизона по оружием
-        шпаниолов 1200 ч[е]л[о]век, да раненых 600: цесарский генерал Мерси,
-        соединя свой корпус пошел дать баталию на поле шпанскому генералу Лейду,
+        шпаниолов 1200 ч[е]л[о]век, да раненых 600: цесарский генерал <persName ref="p1453">Мерси</persName>,
+        соединя свой корпус пошел дать баталию на поле шпанскому генералу <persName ref="p1454">Лейду</persName>,
         которой весма безсилен противу цесарцев, ибо англинчане и французы морем
         вседневно цесарцам о[?]дают, а бедны шпаниолы ни откуду ничего.</p>
       <p>Из турецкой земли пишут, что превеликой мор, и что посланник В[аше]го: В:[еличеств]а всеми
