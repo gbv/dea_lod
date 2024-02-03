@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,13 +8,93 @@
         </title>
       </titleStmt>
       <publicationStmt>
-        <p></p>
+        <p/>
       </publicationStmt>
       <sourceDesc>
         <p>ru_rgada_53_3_16_0001.docx</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_16_0001.tei.xml?place_annotation_20240203170130652",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-03T16:01:30.652Z",
+	"dcterms:modified": "2024-02-03T16:01:30.652Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_16_0001.tei.xml?place_annotation_20240203170130652#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_16_0001.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_16_0001.tei.xml?place_annotation_20240203170130652#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/table/row/cell/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2618425",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <head>
@@ -34,13 +109,12 @@
         <row role="label">
           <cell>
             <p>[[<hi rendition="simple:bold">f. 4]]</hi></p>
-            <p>Copia offensiv=Alliantz tractats mit den könige von Dennemark Friederich den 4<hi
-                rendition="simple:superscript">
+            <p>Copia offensiv=Alliantz tractats mit den könige von Dennemark <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0532" xml:space="default">Friederich den 4</persName><hi rendition="simple:superscript">
                 <hi rendition="simple:underline">ten</hi>
               </hi> durch die Russische und
               Dänische Minister im Jahre 1709. den 11<hi rendition="simple:superscript">
                 <hi rendition="simple:underline">ten</hi>
-              </hi> octobris zu Copenhagen
+              </hi> octobris zu <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425" cert="high">Copenhagen</placeName>
               errichtet.</p>
             <p>Kund und zu wissen seye allen, welchen daran gelegen, daß Ihro May[es]tteten der Czar
               aller Reussen und der König von Dennemark und Norwegen, reifflich erwegende die
@@ -65,8 +139,7 @@
           </cell>
           <cell>
             <p>1709 окт[ября] 11/22.</p>
-            <p>Копия с наступателного трактату с королем дацким Фридрихом
-              Четвертым, учиненного чрез министров российского и дацких в 1709-м
+            <p>Копия с наступателного трактату с королем дацким <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0532" xml:space="default">Фридрихом Четвертым</persName>, учиненного чрез министров российского и дацких в 1709-м
               году октября 11-г[о] в Копенгагене.</p>
             <p>Ведомо да будет всем, которые в том интерес имеют, что их величества ц[а]рь
               всероссийский и король дацкий и норвежский, зрело<note>
@@ -116,8 +189,7 @@
               Norwegen verpflichten sich die alte Alliance und Freundschafft zu erneuren, welche zu
               aller zeit zwischen dero Vorfahren Czaren von Russland und Königen von Dennemark
               gewesen ist, insonderheit<note>
-                <p><hi rendition="simple:italic">Above</hi> insonder- in specie <hi
-                    rendition="simple:italic">is written</hi>.</p>
+                <p><hi rendition="simple:italic">Above</hi> insonder- in specie <hi rendition="simple:italic">is written</hi>.</p>
               </note> die im Jahre
               1699 geschlossene Alliance, so viel selbige sich auf gegenwärtige umbstände schicket</p>
           </cell>
@@ -191,8 +263,7 @@
             <p>пунктах и заключениях, помянутых во оном договоре, ничего боле не желая, разве
               соединитися вместе едино з другим таким образом, чтоб не толко их особливая дружба
               была непоколебима и постоянна, но еще чтоб от того произошло твердое и взаимное<note>
-                <p><hi rendition="simple:italic">Then crossed out:</hi> упрежде<hi
-                    rendition="simple:italic">, corrected from:</hi> учрезде.</p>
+                <p><hi rendition="simple:italic">Then crossed out:</hi> упрежде<hi rendition="simple:italic">, corrected from:</hi> учрезде.</p>
               </note>
               учреждение<note>
                 <p>учрежде- <hi rendition="simple:italic">is written on the
@@ -244,7 +315,7 @@
               vorgetragen werden, von weme es auch seye, mit treu und glauben versprechende keinen
               Frieden zu machen, alß einstimmig und mit Einwilligung ihrer BundsGenossen, welche
               sich würcklich im Kriege wieder Schweden mit befinden</p>
-            <p>&lt;...&gt;</p>
+            <p>&amp;lt;...&amp;gt;</p>
           </cell>
           <cell>
             <p>-жать будет, так в Ливонии, как в Полше и везде, где
@@ -265,7 +336,7 @@
               его вел[ичеств]у королю полскому все оное, что им было или будет предложено сему
               касающееся, от ого-нибудь, обязуяся доброю верностию не чинить миру, разве согласно и
               з соизволением их союзников, которые действително обретатся будут войне против Швеции.</p>
-            <p>&lt;...&gt;</p>
+            <p>&amp;lt;...&amp;gt;</p>
           </cell>
         </row>
       </table>
