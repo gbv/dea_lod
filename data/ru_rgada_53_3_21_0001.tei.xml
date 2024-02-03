@@ -95,6 +95,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml?place_annotation_20240203214413748",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-03T20:44:13.748Z",
+	"dcterms:modified": "2024-02-03T20:44:13.748Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml?place_annotation_20240203214413748#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml?place_annotation_20240203214413748#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/table/row/cell/p[9]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/524901",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -126,7 +206,7 @@
               ingl[eichen]</p>
             <p>H[errn] Baron Schacks alß abgehender Gesander zu Ihr[o]
               K[öniglichen] Maj[estät] in Pohlen.</p>
-            <p>S[eine]r Escell[ence] H[errn] Ambassadeurs von Moscow General:
+            <p>S[eine]r Escell[ence] H[errn] Ambassadeurs von <placeName key="Moscow Moscow Russia" ref="https://geonames.org/524901" cert="high">Moscow</placeName> General:
               Major von Arnstedt</p>
             <p>[footnote:] № 599.</p>
           </cell>
@@ -147,7 +227,7 @@
             <p>1. Ihro <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0525" xml:space="default">Majest[ät] der König von Pohlen</persName>, sezen Sich vermittelst
               dero reglirten und Ihro izt formirten Land Milice, nebst denen in
               Pohlen stehenden Moscowitern aufs möglichste in Defensions Standt,
-              und halten auff solche Art Ihr[o] Czaarl[ichen] Maj[estät] den
+              und halten auff solche Art <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Ihr[o] Czaarl[ichen] Maj[estät] </persName>den
               Rücken frey,</p>
           </cell>
         </row>
