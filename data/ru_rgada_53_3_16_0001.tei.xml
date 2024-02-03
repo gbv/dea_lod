@@ -94,6 +94,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_16_0001.tei.xml?place_annotation_20240203170206161",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-03T16:02:06.161Z",
+	"dcterms:modified": "2024-02-03T16:02:06.161Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_16_0001.tei.xml?place_annotation_20240203170206161#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_16_0001.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_16_0001.tei.xml?place_annotation_20240203170206161#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/table/row/cell[2]/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2618425",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -140,9 +219,8 @@
           <cell>
             <p>1709 окт[ября] 11/22.</p>
             <p>Копия с наступателного трактату с королем дацким <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0532" xml:space="default">Фридрихом Четвертым</persName>, учиненного чрез министров российского и дацких в 1709-м
-              году октября 11-г[о] в Копенгагене.</p>
-            <p>Ведомо да будет всем, которые в том интерес имеют, что их величества ц[а]рь
-              всероссийский и король дацкий и норвежский, зрело<note>
+              году октября 11-г[о] в <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425">Копенгагене</placeName>.</p>
+            <p>Ведомо да будет всем, которые в том интерес имеют, что их величества <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">ц[а]рь всероссийский</persName> и король дацкий и норвежский, зрело<note>
                 <p><hi rendition="simple:italic">Above the word there is
                     written:</hi> reiff.</p>
               </note> разсудя вредителные посредства,
