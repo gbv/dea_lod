@@ -316,7 +316,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml?place_annotation_20240204144229546#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[23]/placeName[2]"
+			"rdf:value": "TEI/text/body/p[23]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -411,6 +411,86 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml?place_annotation_20240204144809796",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-04T13:48:09.796Z",
+	"dcterms:modified": "2024-02-04T13:48:09.796Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml?place_annotation_20240204144809796#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_3_21_0001.tei.xml?place_annotation_20240204144809796#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[23]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2697720",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
@@ -571,7 +651,7 @@
         dingen erstlich zu delogiren suchen.</p>
       <p>15. Drauff der Communication, maintiens und benöthigter Magazins
         halber einen festen Fuß im Lande zu nehemen, und dahero</p>
-      <p>16. <placeName key="Malmö socken Skåne Sweden" ref="https://geonames.org/8126779">Malmöe</placeName>, LandsCron und <placeName key="Helsinki Uusimaa Finland" ref="https://geonames.org/658225" cert="high">Helsingburgk</placeName>, es koste was es wolle! zu
+      <p>16. <placeName key="Malmö socken Skåne Sweden" ref="https://geonames.org/8126779">Malmöe</placeName>, <placeName key="Landskrona Skåne Sweden" ref="https://geonames.org/2697720" cert="medium">LandsCron</placeName> und <placeName key="Helsinki Uusimaa Finland" ref="https://geonames.org/658225" cert="high">Helsingburgk</placeName>, es koste was es wolle! zu
         emportiren suchen.</p>
       <p>17. Zu diesem Ende hat man einen gnugsamen belägerungs Etat
         vollkommen fertig zu halten.</p>
