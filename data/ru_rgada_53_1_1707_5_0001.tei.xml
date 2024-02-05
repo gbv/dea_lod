@@ -12,87 +12,7 @@
 					otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1707_5_0001.tei.xml?place_annotation_20231129204952553",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-29T18:49:52.553Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1707_5_0001.tei.xml?place_annotation_20231129204952553#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1707_5_0001.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1707_5_0001.tei.xml?place_annotation_20231129204952553#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:highCertainty"
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
 			<div>
@@ -103,8 +23,10 @@
 				<p>Ответ, данной российскому в Дании послу <persName cert="high" ref="p1432" type="real">Андрею Измайлову</persName> из канцелярии королевской о избранном новом короле в Польше <persName ref="p0522">Станиславе</persName> и о посредстве в замирении России с Швециею</p>
 					<p><persName ref="p0532">Sa Majesté le Roy de Dannemarck et de Norvegue</persName> ayant vû le contenu du memoire de <persName cert="high" ref="p1432" type="real">Mr l'Ambassadeur de Sa Majesté Czarienne</persName> du 27. du mois passé, a ordonné d'y faire repondre : que <persName ref="p0532">Sa Majesté</persName> prend l'ouverture que <persName cert="high" ref="p0174" type="real">Sa Majesté Czarienne</persName> luy a bien voulu faire par <persName ref="p1432">son Ambassadeur</persName> sur divers points pour une marque évidente de son amitié, et que <persName cert="high" ref="p0532" type="real">Sa Majesté</persName> y répondra en toute occasion par une parfaite reconnoissance; Quant à l'agnition du nouveau Eluë en Pologne, <persName ref="p0522">Stanislaus</persName>, <persName cert="high" ref="p0532" type="real">Sa Majesté</persName> communiquera incessamment là dessus avec ses Alliés. Pour ce qui regarde la mediation de <persName ref="p0532">Sa Majesté</persName>, que <persName cert="high" ref="p0174" type="real">Sa Majesté Czarienne</persName> demande de la paix à faire avec le <persName ref="p0193">Roy de Suede</persName>, <persName cert="high" ref="p0532" type="real">Sa Majesté</persName> ne negligera 
 					<pb cert="high" n="f. 1v" xml:space="default"/>
-					rien de son costé, qui puisse contribuer à une bonne paix entre les parties en guerre, et donnera pour cette fin ordres et instructions nécessaires à son Ambassadeur, qui est présentement en Saxe ne doutant pas que l'un et l'autre ne soyent portés d'eux mesmes à faciliter le succès d'une affaire si salutaire. Fait à <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425" cert="high">Copenhague<precision match="@ref" precision="high"/></placeName> ce 5e Fevrier 1707.</p>
+					rien de son costé, qui puisse contribuer à une bonne paix entre les parties en guerre, et donnera pour cette fin ordres et instructions nécessaires à son Ambassadeur, qui est présentement en Saxe ne doutant pas que l'un et l'autre ne soyent portés d'eux mesmes à faciliter le succès d'une affaire si salutaire. </p>
+					<closer>Fait à <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425" cert="high">Copenhague<precision match="@ref" precision="high"/></placeName> ce 5e Fevrier 1707.
 					<p> <persName cert="high" ref="p1505" type="real">C: Sehestedt</persName></p>
+					</closer>
 			</div>
 		</body>
 	</text>
