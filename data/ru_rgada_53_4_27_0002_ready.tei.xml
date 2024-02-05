@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          17 November 1714. – Royal letter from the King of Denmark and Norway, Frederick IV, to the
+          Tsar of Russia, Peter I
+        </title>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p>ru_rgada_53_4_27_0002.docx</p>
+      </sourceDesc>
+    </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0002.tei.xml?place_annotation_20240205092845348",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-05T08:28:45.348Z",
+	"dcterms:modified": "2024-02-05T08:28:45.348Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0002.tei.xml?place_annotation_20240205092845348#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0002.tei.xml?place_annotation_20240205092845348#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2618425",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0002.tei.xml?place_annotation_20240205093137181",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-05T08:31:37.181Z",
+	"dcterms:modified": "2024-02-05T08:31:37.181Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0002.tei.xml?place_annotation_20240205093137181#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0002.tei.xml?place_annotation_20240205093137181#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/498817",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>
+          17 November 1714. – Royal letter from the
+          King of Denmark and Norway, <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0532" xml:space="default">Frederick IV</persName>, to the Tsar of Russia, <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Peter I</persName>
+        </title>
+      </head>
+      <p><hi rendition="simple:italic">RGADA, fond 53, opis 4, no. 27, f. 8,
+          10v. Danish original</hi>.</p>
+      <p>
+        <hi rendition="simple:italic">RGADA, fond 53, opis 4, no. 27, f. 9.
+          Translation from Danish into German.</hi>
+      </p>
+      <p><hi rendition="simple:bold">[[f. 8]]</hi> N 16.</p>
+      <p>Durchleuchtigste Stormægtigste <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Czar</persName></p>
+      <p>Elskelige Kiere Broder Ven og Naboe:</p>
+      <p>Wj have af <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Eders May[es][tæ]ts</persName> og Kierl[ighed]s til oß afladte
+        Skrivelse af den 27 nestafvigte Maaned Septemb[ris] med besynderlig
+        Fornöyelse fornummet, hvorleedis den allerhöyeste Gud <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0172" xml:space="default">Czarinden</persName>, <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Eders May[es][tæ]ts</persName> og Kierl[ighed]s <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0698" xml:space="default">HöytElskelig Gemahlindes</persName> Kierl[ighed] den
+        8 af bemelte Maaned med een ung <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1180" xml:space="default">Princesse</persName> haver velsignet. Som Wj nu af
+        ald det, hvad som til <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Eders May[es][tæ]ts</persName> og Kierl[ighed]s bestandige
+        Welgaaende kand geraade, Deel tage; Saa önske Wj af Hiertet at denne
+        Unge <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1180" xml:space="default">Princesse</persName> til Eders May[es][tæ]ts og Kierl[ighed]s Höye Czaariske
+        Huuses Glæde maa opwoxe, og een velsignet alder opnaae. Forblivendis
+        bestandig med ald sinceritet</p>
+      <quote>
+        <p><persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Eders May[es][tæ]ts</persName> og Kierl[ighed]s</p>
+        <p>Tro Broder Ven og Naboe:</p>
+      </quote>
+      <p><placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425" cert="high">Kiöbenhaun</placeName></p>
+      <p>den 17 Novemb[ris]</p>
+      <p>A[nn]o 1714 <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0532" xml:space="default">Friderich</persName> R[ex]</p>
+      <p><persName cert="medium" evidence="internal" full="yes" instant="unknown" xml:space="default" ref="p1505">C: Sehested</persName>t.</p>
+      <p>Til Hans May[es][tæ]t <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Czarn</persName></p>
+      <p>udi Ryßland:</p>
+      <p>[[<hi rendition="simple:bold">f. 10v]]</hi> Dend Durchleuchtigste Stormægtigste</p>
+      <p><persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Czar </persName>og Storförste udi det Heele Ryßland:</p>
+      <p>Грамота от <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0532" xml:space="default">короля датцкого </persName>поздравителная о счастливом разрешении
+        <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0172" xml:space="default">г[о]с[у]д[а]рыни ц[а]рицы</persName>. Подал <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1452" xml:space="default">Фалк</persName> в <placeName key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">Петербурге</placeName> декабря в 17 д[ень]
+        1714.</p>
+    </body>
+  </text>
+</TEI>
