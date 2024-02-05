@@ -95,6 +95,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0003.tei.xml?place_annotation_20240205112325716",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-05T10:23:25.716Z",
+	"dcterms:modified": "2024-02-05T10:23:25.716Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0003.tei.xml?place_annotation_20240205112325716#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1719_4_0003.tei.xml?place_annotation_20240205112325716#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -117,16 +196,15 @@
         уведомить вас купно с ответом о моей операции по вашему прошению. Того
         для уповаю что вы не поставите мне в погрешение таковое опоздание.
         Респект и почитание которое имеет сей <orgName ref="o0116">двор</orgName> и <persName ref="p0174">Его Ц[а]р[ск]:ое В:[еличест]во</persName> суть утверждением от таких добрых сентиментов, что иа
-        твердо надеюся, будут угодны и Его В[еличест]:ву и В[аше]:му
+        твердо надеюся, будут угодны и <persName ref="p0174">Его В[еличест]:ву</persName> и В[аше]:му
         Пр[евосходительств]:у понеже ваш мерит за протекцию показанны мисионарам
         католикам и за намерение которое и впред имеете во еже континуати им
-        свое споможение, велми почтение от Его Святей[шества] от всей сакры
-        коллегии. Но образ по которому стороною вывозити знатну статую преизнес
+        свое споможение, велми почтение от <persName ref="p1376">Его Святей[шества]</persName> от всей <orgName ref="o0118">сакры коллегии</orgName>. Но образ по которому стороною вывозити знатну статую преизнес
         трудности неизреченные понеже было противу закона и регулы сей державы.
         Иа имел в руках сие дело когда уже было в пагубе, и надлежало приставить
         все мои силы дабы оное привесть в добрый термин, в котором ныне
         обретается : понеже добрыя намерения мне данные обнадеждуют мене
-        подлинно освободить желаему статую, с возвращением в Рим, что вкратце
+        подлинно освободить желаему статую, с возвращением в <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим</placeName>, что вкратце
         будет следовать, господина кардинала камерленга Албани, [?] в доброй
         услуге оказанной Его В[еличест]:ву и [?] В[аше]:му Пр[евосходительств]:у
         что и впред во всяком ином случае чинить буду трудитися. И могу вас
