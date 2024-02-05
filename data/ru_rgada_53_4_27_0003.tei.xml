@@ -93,6 +93,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0003.tei.xml?place_annotation_20240205110034984",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-05T10:00:34.984Z",
+	"dcterms:modified": "2024-02-05T10:00:34.984Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0003.tei.xml?place_annotation_20240205110034984#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0003.tei.xml?place_annotation_20240205110034984#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2897132",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -116,7 +195,7 @@
         ynsker, saa smertelig finder Jeg det, som <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Eders May[estæ]t</persName> og Kierl[ighe]d om det engagement
         med dend itzige <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0727" xml:space="default">Konge af Store Brittannien</persName> haver behaget at anföre, i det de formeene mig
         skylden, at Tractaten med ermelte <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0727" xml:space="default">Konge</persName> ey er kommen til stand, at bilegge. Det er <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Eders May[estæ]t og Kierl[ighe]d</persName> vel erinnerlig, hvor offte Jeg dennem, ved deris Nærværelse i
-        Husum mit Forsæt mig med <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0739" xml:space="default">Kongen i Preußen</persName> og dend da værende Chur Förste af Braunsvig
+        <placeName key="Husum Schleswig-Holstein Germany" ref="https://geonames.org/2897132">Husum</placeName> mit Forsæt mig med <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0739" xml:space="default">Kongen i Preußen</persName> og dend da værende Chur <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0727" xml:space="default">Förste af Braunsvig</persName>
         nærmere at sætte, haver temoigneret: At Jeg siden dend tid paa min Side intet haver
         forsömmet, sligt at bringe til Ende, kand ingen bedre end Eders May[estæ]ts og Kierl[ighe]ds
         Ministre von Schleunitz være vitterligt, efftersom hand over denne materie med min udi
