@@ -44,10 +44,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?person_annotation_20190814234630962",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?person_annotation_20190814224630962",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:46:30.962Z",
-	"dcterms:modified": "2019-08-14T20:46:30.962Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -59,7 +58,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?person_annotation_20190814234630962#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?person_annotation_20190814224630962#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml",
@@ -67,13 +66,13 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?person_annotation_20190814234630962#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?person_annotation_20190814224630962#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute[2]/persName"
 		}
@@ -84,7 +83,7 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -125,9 +124,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?note_annotation_20240128193105940",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?note_annotation_20240128183105940",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-28T17:31:05.940Z",
+	"dcterms:modified": "2024-01-28T17:31:05.940Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/drVEBB",
 		"@type": [
@@ -138,7 +138,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?note_annotation_20240128193105940#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?note_annotation_20240128183105940#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml",
@@ -146,13 +146,13 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?note_annotation_20240128193105940#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?note_annotation_20240128183105940#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/signed[2]/note"
 		}
@@ -163,7 +163,7 @@
 		"rdf:value": "The signature is M. Filosofov’s own handwriting."
 	},
 	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -203,9 +203,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?place_annotation_20240128193634398",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?place_annotation_20240128183634398",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-28T17:36:34.398Z",
+	"dcterms:modified": "2024-01-28T17:36:34.398Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/drVEBB",
 		"@type": [
@@ -216,7 +217,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?place_annotation_20240128193634398#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?place_annotation_20240128183634398#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml",
@@ -224,13 +225,13 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?place_annotation_20240128193634398#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_204_0005_ready.xml?place_annotation_20240128183634398#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/salute[3]/placeName"
 		}
@@ -241,7 +242,7 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -277,7 +278,7 @@
             <p>                </p>
           </cell>
           <cell>
-            <p>  <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0033" xml:space="default">ваше императорское вели</persName></p><p>212.138.1480.2336.918.559.85.11110.1138
+            <p>  <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0033" xml:space="default">ваше императорское вели</persName></p><p>12.138.1480.2336.918.559.85.11110.1138
 </p><p><persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0033" xml:space="default">чество</persName> известны из прежних </p><p>603.605.2223:848.465.645. 273: 939.63.788.627
 </p><p>наших общих доношений</p><p> 
 940.835.816.2788.118.645.405.561.511.19.256.
