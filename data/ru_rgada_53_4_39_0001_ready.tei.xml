@@ -46,10 +46,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_39_0001.tei.xml?place_annotation_20240205211616283",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_39_0001_ready.tei.xml?place_annotation_20240205211616283",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-05T20:16:16.283Z",
-	"dcterms:modified": "2024-02-05T20:16:16.283Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/drVEBB",
 		"@type": [
@@ -60,10 +59,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_39_0001.tei.xml?place_annotation_20240205211616283#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_39_0001_ready.tei.xml?place_annotation_20240205211616283#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_39_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_39_0001_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -74,7 +73,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_39_0001.tei.xml?place_annotation_20240205211616283#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_39_0001_ready.tei.xml?place_annotation_20240205211616283#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/closer/dateline/placeName"
 		}
@@ -119,7 +118,7 @@
         anhero transportirten Mehls, Korus und andern Proviants, gelangen zu laßen und Mir dabey,
         wegen der Uhrsachen, welche Dieselbe zu sothaner Verkauffung ietztgedachter Vivres bewogen
         haben, vorzustellen vor Guth gefunden. Gleichwie Ich nun so wohl zu Unserer reciproquen, als
-        der gantzen Nordischen Ligue Wohlfahrt, nichtes Höhers gewünschet, als daß diese
+        der gantzen <orgName cert="high" evidence="internal" full="yes" instant="unknown" ref="o0119" xml:space="default">Nordischen Ligue</orgName> Wohlfahrt, nichtes Höhers gewünschet, als daß diese
         Mund=Provisiones zu Beforderung des einmahl beliebten und festgestellten Desseins, würcklich
         währen employiret, und einfolglich so viele Tonnen Goldes von Mir nicht vergebens angewandt
         worden; Also würde Ich <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174" xml:space="default">Ew[rer] May[estä]t und L[ie]bd[en] </persName>auch gerne in Dero, wegen
