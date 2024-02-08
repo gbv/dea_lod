@@ -173,6 +173,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ru_or_rgb_626_1_10_0002.xml?place_annotation_20240207183754547",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-07T17:37:54.547Z",
+	"dcterms:modified": "2024-02-07T17:37:54.547Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ru_or_rgb_626_1_10_0002.xml?place_annotation_20240207183754547#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ru_or_rgb_626_1_10_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ru_or_rgb_626_1_10_0002.xml?place_annotation_20240207183754547#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2643743",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -187,10 +266,10 @@
 					<salute><pb cert="high" n="[[f. 3]]" xml:space="default"/><persName cert="high" type="real" ref="p1384">Гсдрь мой</persName></salute>
 				</opener>
 				<p>Приятное вше гсдря моего писмо от 2г[о] марта я исправно здесь получил за которое вас покорно благоарствуя в ответ доношу что кнга о которой вас чрез последнее мое писмо просил на сих днях из парижа к одному книжнику сюды привезена, И потому я вашей лишить вас не желаю.</p><p>А в место той прошу вас гсдря моего подписать за меня в издании XIго и XIIго тома ж аглицкой истории :/ которые чрез субскрипцию печатаются в <placeName key="The Hague South Holland The Netherlands" ref="https://geonames.org/2747373" cert="high">Гаге</placeName> у Христофора фон Лон с товарыщи :/ на один эксемпляр всякого тож малой бумаги, понеже на такой имею<pb cert="high" n="[[f. 3v]]" xml:space="default"/>прежние 10 томов гсдна рапина.</p><p>Скол же табаку касается доволно будет 20 фунтов которой сколь скорее изволите ко мне прислать столь болше меня обяжите, и извольте пакет адресовать прямо на мое имя понеже инако в таможне его здесь заарестуют не будучи позволено чужестраного табаку ввозить.</p><p>При сем прошу вас гсдря моего должный мой поклон отдать гсдну секретарю Берендесу и благодорить за его ко мне последнее писмо, на которое давно уже бы ответствовал естлибы глазная болезнь позволила мне за перо принятся, а по ншему договору надобно писму быть латинскому, на котором языке я не столко силен, чтоб мог диктовать. За сим пребываю.</p>
-				<p>Вшь гсдря моего</p>
+				<p>Вшь <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">гсдря моего</persName></p>
 
-				<p>Из Лондона</p>
-				<p>9 мая 1733г[о]</p>
+				<p>Из <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Лондона</placeName></p>
+				<p>9 марта 1733г[о]</p>
 
 				 <closer>
 										
