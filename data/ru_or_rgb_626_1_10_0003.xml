@@ -44,10 +44,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20190814224630962",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_or_rgb_626_1_10_0003.xml?person_annotation_20190814224630962",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:46:30.962Z",
-	"dcterms:modified": "2019-08-14T20:46:30.962Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -59,9 +58,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20190814224630962#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_or_rgb_626_1_10_0003.xml?person_annotation_20190814224630962#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_or_rgb_626_1_10_0003.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -72,14 +72,14 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20190814224630962#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_or_rgb_626_1_10_0003.xml?person_annotation_20190814224630962#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/39569752",
+		"@id": "p1384",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -104,7 +104,7 @@
 					<salute><pb cert="high" n="[[f. 3]]" xml:space="default"/><persName cert="high" type="real" ref="p1384">Гсдрь мой  Петр Петрович.</persName></salute>
 				</opener>
 				
-				<p>Вам гсдрю моему чаю памятно что в прошлом годе я  подписался на континуацию Рапиновой аглицкой истории заплатив половину того что должно дать за два новые томы. Оные от книжников обещаны были к прошедшему марту. тогоради смелость приемлю просить вас чтоб оные два тома ко мне прислать уплатя досталные днги из имеющихся моих у его сиятельства графа александра гавриловича, для чего и росписку книжникову при сем прилагаю.</p><p>При том же прошу пожаловать прислать естли вышли из печати, или буде теперь не вышли то как скоро выдут следующие кнги. без переплету.</p><p>" Rolin Histoire des Cartaqinoir, Egiptians  Tom 6 in 8vo. Пять первые я уже имею</p><p>" В. V. Tome des Histoire des Papes... in 4to</p><p>" III Tome des I... des Princes par Roillet in 4to</p><p>" La vie du C: Mazarin inprime depuir pen in 8vo.</p><p>Чим всем вы изволите меня по премногу обязать готов я будучи с благодарением издержанные днги заплатить буде его сият: уже днги  ко мне изволит переслать.</p><p>За сим пребываю</p><p>                                 Ваш</p><p>                                          Гсдря моего</p><p/><p>Лондон. 1734.</p><p>Июня .25.</p><p/>
+				<p>Вам гсдрю моему чаю памятно что в прошлом годе я  подписался на континуацию <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1543" xml:space="default">Рапиновой</persName> аглицкой истории заплатив половину того что должно дать за два новые томы. Оные от книжников обещаны были к прошедшему марту. тогоради смелость приемлю просить вас чтоб оные два тома ко мне прислать уплатя досталные днги из имеющихся моих у его сиятельства графа александра гавриловича, для чего и росписку книжникову при сем прилагаю.</p><p>При том же прошу пожаловать прислать естли вышли из печати, или буде теперь не вышли то как скоро выдут следующие кнги. без переплету.</p><p>" Rolin Histoire des Cartaqinoir, Egiptians  Tom 6 in 8vo. Пять первые я уже имею</p><p>" В. V. Tome des Histoire des Papes... in 4to</p><p>" III Tome des I... des Princes par Roillet in 4to</p><p>" La vie du C: Mazarin inprime depuir pen in 8vo.</p><p>Чим всем вы изволите меня по премногу обязать готов я будучи с благодарением издержанные днги заплатить буде его сият: уже днги  ко мне изволит переслать.</p><p>За сим пребываю</p><p>                                 Ваш</p><p>                                          Гсдря моего</p><p/><p>Лондон. 1734.</p><p>Июня .25.</p><p/>
 				<closer>
 					<salute>Some closing salutation, e.g. "With love..."</salute>
 					<signed>Послушной слуга</signed><signed>К.[нязь] Антиох Кантемир.</signed>
