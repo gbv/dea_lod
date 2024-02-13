@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>12 December 1711. – Letter from the Russian consul in Venice Demetrio Bozzis to Baron [Johann Christoph] von Urbich dated 12 December 1711, about the Montenegrins</title>
+				</head>
+				<opener>
+					<note cert="high" evaluate="all" place="top" xml:space="default">
+						<p>RGADA, fond 41, opis 1, 1711, no. 2, f. 57-58. Italian original.<pb cert="high" n="f. 57" xml:space="default"/></p>
+					</note>
+					<note>
+						<date>N°2. </date><date>Из Венеции декабря от 12г : 1711: от Димитрия Боциса к барону Урбиху ведомости о монтенегринах</date><date/>
+					</note>
+					<salute>Ill:mo et Ec:mo Sig:r Sig:r Prot Coll:</salute>
+				</opener>
+				<p>Li compitiss[i]mi avisi di V[ostra] E[ccelenza], e la generosa bontà usata verso mio fratello mi obligano ad un grande ringratiamento, oltre la protesta di restar à V[ostra] E[ccellenza] somamente tenuto. Hoggi capita qui da Durazzo une Felucca spedita dal console di Francia con lettere di Costantinopoli spedite da lui per la Francia, il quale hà riempito delle Nove alla roversia di quelle é stato sia hora serito da tutta la Pollonia, e Germania; Sentendosi però (feluca spedita à posta) ha dato qualche credito alle nove apportate ; ché però devo con tutto il più vivo sentim[en]to supplicare V[ostra] E[ccellenza] subito ché habbia le certe particolarità favorirmi comé tutta cortesia si esibisse; che servivano, per la quietezza degl’animi perturbati, é ché stano in<pb cert="high" n="f. 57v" xml:space="default"/></p><p> equilibbrio por la credenza. Si sentono pure tuttavia li Montenegrini in armi, et avanzati nelli progressi con l’acquisto di Nixich, incamminandosi verso Tribigne ; comé pure si hà che quattrocento Zuppani si siano uniti alli detti Montenegrini con due Pezzi di canone. Questa nuova si hà da un Fregadone Perastino capitato pur hoggi da Durazzo, e che si parti due giorni inani della soprad[ett]a Felucha; Il Capitano del quale riffersi publicamente, che in Duradzo correva vocce dalli Turchi medemi, che l’armata di S[ua] M[aesta] Z[area] haveva tottalm[en]te battuta l’armata Ottomana ; ondé si sta con méno giubilo per la nova contraria della felucca<pb cert="high" n="f. 58" xml:space="default"/></p><p>Per ciò l’E[ccellenza] V[ostra] può figurarsi quale e quanta sia la brama che si hà qui di sapere una vera, e reale relatione quale non può accreditarla, se non la persona di V[ostra] E[ccellenza]; per il qual oggetto rinovo le mie Instanze. Attenderò l’honore de rinovati di Lei comandi, per auttenticare la divotione con cui mi protesto</p>
+				<closer>
+					<salute>di V[ostra] E[ccellenza]</salute><salute>V[enezi]a li 12 d[icembr]e 1711</salute>
+					<signed>Humiliss[i]mo Devot[issi]mo et oblig[atissi]mo ser[veito]re</signed><signed>Demetrio Bozzis</signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
