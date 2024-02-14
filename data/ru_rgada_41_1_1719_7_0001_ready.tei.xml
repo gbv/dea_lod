@@ -15,12 +15,168 @@
 				<p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240214101508186",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-14T09:15:08.186Z",
+	"dcterms:modified": "2024-02-14T09:15:08.186Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240214101508186#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240214101508186#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/date/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240214101533057",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-14T09:15:33.057Z",
+	"dcterms:modified": "2024-02-14T09:15:33.057Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240214101533057#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240214101533057#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/signed[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3164603",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="letter">
 				<head>
-					<title>4 August 1719. – Copy of the letter from Paolo Federici to the Russian agent in Venice, Petr Ivanovich Beklemishev</title>
+					<title>4 August 1719. – Copy of the letter from <persName ref="p1400">Paolo Federici</persName> to <persName ref="p1392">the Russian agent in Venice, Petr Ivanovich Beklemishev</persName></title>
 				</head>
 				<opener>
 					<note cert="high" evaluate="all" place="top" xml:space="default">
@@ -31,10 +187,10 @@
 					</note>
 					<salute>SIll:mo Sig:re Sig:re Pron Coll:mo</salute>
 				</opener>
-				<p>E un atto-distinto di mia profonda divozione umiliare al merito imparegiabile di V[ostra] S[ignoria] Ill[ustrissi]ma i miei ossequiosissimi rispetti nel tempo stesso che mio do l’onore participarli come havrei un impegno positivo di doverli comunicare affare premurosissimo per Sua Maestà Czarianna contro della quale ho scoperto un oribil conspirazione machinata da Potenza, che non posso nominar in carta, et havendo presso di me nomi e cognomi, di tutti coloro che sono intesi in questo fatto ho stimato mio debito comunicarlo a V[ostra] S[ignoria] Ill[ustrissi]ma accio mi dice il Suo oracolo come devo contenermi. Io mi sarei di persona portato à piedi di V[ostra] S[ignoria] Ill[ustrissi]ma se havessi havuto il modo da potere far un tal viaggio come mi dichiaro sempre più pronto ad obbedirla quando V[ostra] S[ignoria] Ill[ustrissi]ma si compiacia darmeno l’apertura. L’affare non puoample letter content<pb cert="high" n="f. 1v" xml:space="default"/></p><p>essere ne più considerabile ne più geloso di quello s’è et io sono prontissimo comunicarlo, et avrei a V[ostra] S[ignoria] Ill[ustrissi]ma accio possa subito pigliar le sue misure, o di participarlo espresso a Sua Maestà o darmi la permissione, che vada io dal med[em]o. Supp[li]co in tanto V[ostra] S[ignoria] Ill[ustrissi]ma à non procrastinar la risposta non permettendo la dilicatezza dell’affare dilazione alcuna e resto con tutto il mio riverente ossequio facondoli profondissima riverenza</p>
+				<p>E un atto-distinto di mia profonda divozione umiliare al merito imparegiabile di V[ostra] S[ignoria] Ill[ustrissi]ma i miei ossequiosissimi rispetti nel tempo stesso che mio do l’onore participarli come havrei un impegno positivo di doverli comunicare affare premurosissimo per <persName ref="p0174">Sua Maestà Czarianna</persName> contro della quale ho scoperto un oribil conspirazione machinata da Potenza, che non posso nominar in carta, et havendo presso di me nomi e cognomi, di tutti coloro che sono intesi in questo fatto ho stimato mio debito comunicarlo a V[ostra] S[ignoria] Ill[ustrissi]ma accio mi dice il Suo oracolo come devo contenermi. Io mi sarei di persona portato à piedi di V[ostra] S[ignoria] Ill[ustrissi]ma se havessi havuto il modo da potere far un tal viaggio come mi dichiaro sempre più pronto ad obbedirla quando V[ostra] S[ignoria] Ill[ustrissi]ma si compiacia darmeno l’apertura. L’affare non puoample letter content<pb cert="high" n="f. 1v" xml:space="default"/></p><p>essere ne più considerabile ne più geloso di quello s’è et io sono prontissimo comunicarlo, et avrei a V[ostra] S[ignoria] Ill[ustrissi]ma accio possa subito pigliar le sue misure, o di participarlo espresso a <persName ref="p0174">Sua Maestà</persName> o darmi la permissione, che vada io dal med[em]o. Supp[li]co in tanto V[ostra] S[ignoria] Ill[ustrissi]ma à non procrastinar la risposta non permettendo la dilicatezza dell’affare dilazione alcuna e resto con tutto il mio riverente ossequio facondoli profondissima riverenza</p>
 				<closer>
-					<salute>Di V[ostra] S[ignoria] Ill[ustrissi]ma                 Devot[issi]mo ed obblig[atissi]mo ser[vitore] vero</salute><date>Roma 4 : Agosto 1719.</date>
-					<signed>D. Paolo Federici</signed><signed>Ill:mo Sig:re Min[istr]o di S. M. Czarianna</signed><signed>/Venezia/</signed><note>see also: ru_rgada_41_1_1719_7_0002</note>
+					<salute>Di V[ostra] S[ignoria] Ill[ustrissi]ma                 Devot[issi]mo ed obblig[atissi]mo ser[vitore] vero</salute><date><placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName> 4 : Agosto 1719.</date>
+					<signed><persName ref="p1400">D. Paolo Federici</persName></signed><signed>Ill:mo Sig:re Min[istr]o di S. M. Czarianna</signed><signed>/<placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Venezia</placeName>/</signed><note>see also: ru_rgada_41_1_1719_7_0002</note>
 				</closer>
 			</div>
 		</body>
