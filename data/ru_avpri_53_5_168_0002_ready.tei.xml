@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>30 January 1764. – Translation of the draft of the letter from His Lordship the vice-chancellor to Baron von Korff from St. Petersburg, dated 30 January 1764</title>
+				</head>
+				<opener>
+					<note cert="high" evaluate="all" place="top" xml:space="default">
+						<p>AVPRI, fond 53, opis 53/5, no. 168, f. 3.</p><pb cert="high" n="f. 3" xml:space="default"/>
+					</note>
+					
+						Перевод с концепта писма Его Сиятельства вицеканцлера к барону Корфу из С. Петербурга от 30 Генваря 1764.
+					
+					
+				</opener>
+				Возбуждаем будучи всегда дружбою Вашего Превосходительства, ныне я получаю с благодарением новой знак оной при поздравлении Вашем с новым годом. Прошу Вас быть уверену о искренних моих желании к удовольствию вашему, так как и о мнениях о отличном почтении и преданности с коей я есмь 
+				<closer/><closer>Переводил актуариус Александр Курбатов</closer><note>See also: ru_avpri_53_5_168_0001</note>
+			</div>
+		</body>
+	</text>
+</TEI>
