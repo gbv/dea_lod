@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>30 January 1764. – Letter from the vice-chancellor of Russia, Prince Aleksandr Mikhailovich Golitsyn, to the minister plenipotentiary of Russia to Denmark, Baron Johann Albrecht von Korff</title>
+				</head>
+				<opener>
+					<note cert="high" evaluate="all" place="top" xml:space="default">
+						<p>AVPRI, fond 53, opis 53/5, no. 168, f. 1.</p><pb cert="high" n="f. 1" xml:space="default"/>
+					</note>
+					<dateline>
+						<date>à St. Petersbourg ce 30 janvier 1764</date><date/><date/><date> / expedié le même jour par la Poste.</date>
+					</dateline>
+					<salute>Monsieur,</salute>
+				</opener>
+				<p>Pénétré en tout tems de l'amitié dont V.E. m'honore jen reçois avec reconnoissance une nouvelle marque dans les heureux souhaits qu'Elle veut bien me faire au renouvellement de l'année. Je vous prie en retour d'être bien persuadé, Mr, de la sincerité des miens pour votre satisfaction la plus parfaite. Je la partagerai toujours par les sentimens de la considération très distinguée et de l'attachement avec lequel  </p>
+				<closer>
+					<salute>Je suis, </salute>Monsieur, de V. E</closer><closer/><note>See also: ru_avpri_53_5_168_0002</note>
+			</div>
+		</body>
+	</text>
+</TEI>
