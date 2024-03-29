@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>28 June / 9 July 1766. – Report of the interpreter Akim Lizakevich to the State Chancellery of the Guardianship of Foreigners, on 14 persons staying at Her Imperial Majesty's ambassadorial chancery in Copenhagen</title>
+				</head>
+				<opener>
+					<note cert="high" evaluate="all" place="top" xml:space="default">
+						<p>AVPRI, fond 53, opis 53/5, no. 189, f. 40-40v</p><pb cert="high" n="f. 40" xml:space="default"/>
+					</note><salute>Доношение в государственную канцелярию опекунства иностранных, о 14 обретающихся при посолской Ея Имераторского Величества в Копенгагене канцелярии переводчика Якима Лизакевича</salute>
+				</opener>
+				<p>Хотя я в первом моем доношении от 13го/24го сего м[еся]ца и имел честь уведомить благопомянутую канцелярию, что г[оспо]д[и]н мичман Поддубской обнадежил меня забрать на свой бот всех колонистов числом 98 душ и свести их в Россию, однакож прибывшей сюда с тремя галиотами 12го сего месяца, по приказанию г[оспо]д[и]на капитана Клокачева, флота порутчик Глебов, как то из приложенного при сем в списке его доношения пространно видеть можно, забрал всех с разбитаго бота карабля Дмитрия Ростовскаго служителей, и посаженных на оный колонистов, разделил на три галиота в вежомство его порученныя, и при отъезде своем отсюда приобщенною здесь копиею доношения его уведомил министерскую канцелярию.</p><p>Вышереченный порутчик стребовал при отъезде своем дабы за вывод его из здешней гавани за четыре мили от сего местечка, где он и по сие время за противным ветром лежит на якаре, заплачено было договоренныя лоцманом денги; что уже и исполнено. И так он с первым благополучным ветром непреминет в повеленный ему путь отправится.</p><p> С приложенной при сем копии доношения мичмана Поддубскаго г[осу]д[а]рственная канцелярия опекунства увидеть соблаговолит реестр заготовленной мною здесь требованной им малого числа провизии для осталных служителей и пятидесяти трех душ колонистов.</p><p>Хотя я и имел честь писать, что я посылал корабельщика отсюда, невозможно ли будет снять бот в повелениях мичмана Веяшева [?] </p><p>ample letter content</p>
+				<closer>
+					<salute>Some closing salutation, e.g. "With love..."</salute>
+					<signed>Sender name and/or signature.</signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
