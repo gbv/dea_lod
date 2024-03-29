@@ -47,10 +47,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20240305154541802",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0002_ready.tei.xml?place_annotation_20240305154541802",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-05T14:45:41.802Z",
-	"dcterms:modified": "2024-03-05T14:45:41.802Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -61,9 +60,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20240305154541802#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0002_ready.tei.xml?place_annotation_20240305154541802#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0002_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -74,7 +74,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20240305154541802#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0002_ready.tei.xml?place_annotation_20240305154541802#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/placeName"
 		}
@@ -125,10 +125,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20240305154633868",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0002_ready.tei.xml?place_annotation_20240305154633868",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-05T14:46:33.868Z",
-	"dcterms:modified": "2024-03-05T14:46:33.868Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -139,9 +138,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20240305154633868#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0002_ready.tei.xml?place_annotation_20240305154633868#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0002_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -152,7 +152,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20240305154633868#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0002_ready.tei.xml?place_annotation_20240305154633868#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/placeName"
 		}
@@ -180,7 +180,7 @@
 				</head>
 				<opener>
 					<note cert="high" evaluate="all" place="top" xml:space="default">
-						<p>AVPRI, fond 53, opis 53/5, no. 168, f. 3.</p><pb cert="high" n="f. 3" xml:space="default"/>
+						<p>AVPRI, fond 53, opis 53/5, no. 168, f. 3. Russian translation. French original: ibid., f. 1</p><pb cert="high" n="f. 3" xml:space="default"/>
 					</note>
 					
 						Перевод с концепта писма <persName ref="p0065">Его Сиятельства вицеканцлера</persName> к <persName ref="p0245">барону Корфу</persName> из <placeName key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">С. Петербурга</placeName> от 30 Генваря 1764.
