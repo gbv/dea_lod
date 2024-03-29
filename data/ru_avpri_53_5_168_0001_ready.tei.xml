@@ -47,10 +47,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20240305150208222",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0001_ready.tei.xml?place_annotation_20240305150208222",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-05T14:02:08.222Z",
-	"dcterms:modified": "2024-03-05T14:02:08.222Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -61,9 +60,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20240305150208222#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0001_ready.tei.xml?place_annotation_20240305150208222#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0001_ready.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -74,7 +74,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20240305150208222#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0001_ready.tei.xml?place_annotation_20240305150208222#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/dateline/date/placeName"
 		}
@@ -102,7 +102,7 @@
 				</head>
 				<opener>
 					<note cert="high" evaluate="all" place="top" xml:space="default">
-						<p>AVPRI, fond 53, opis 53/5, no. 168, f. 1.</p><pb cert="high" n="f. 1" xml:space="default"/>
+						<p>AVPRI, fond 53, opis 53/5, no. 168, f. 1. French oroginal.</p><pb cert="high" n="f. 1" xml:space="default"/>
 					</note>
 					<dateline>
 						<date>à <placeName key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">St. Petersbourg</placeName> ce 30 janvier 1764</date><date/><date/><date> / expedié le même jour par la Poste.</date>
