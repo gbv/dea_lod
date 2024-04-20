@@ -44,9 +44,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173154303",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131163154303",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-31T15:31:54.303Z",
+	"dcterms:modified": "2024-01-31T15:31:54.303Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -57,7 +58,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173154303#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131163154303#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml",
@@ -65,13 +66,13 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131173154303#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131163154303#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -82,7 +83,7 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -112,7 +113,7 @@
 				de Votre Altesse<lb/>
 				le tres humble et tres<lb/>
 				obeissant serviteur</salute>
-				<dateline><placeName key="Hamburg Hamburg Germany" ref="https://geonames.org/2911298">Hambourg</placeName>ce <date>2e. aoust 1715</date>.</dateline>
+				<dateline><placeName key="Hamburg Hamburg Germany" ref="https://geonames.org/2911298">Hambourg </placeName>ce <date>2e. aoust 1715</date>.</dateline>
 				
 				<signed>Sijling</signed>
 				</closer>
