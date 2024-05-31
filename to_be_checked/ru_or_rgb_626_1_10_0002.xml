@@ -249,11 +249,90 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10_0002.xml?note_annotation_20240531182233373",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-31T15:22:33.373Z",
+	"dcterms:modified": "2024-05-31T15:22:33.373Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mayalavr",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Lavrinovich"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10_0002.xml?note_annotation_20240531182233373#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10_0002.xml?note_annotation_20240531182233373#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": ""
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="letter">
-				<head>Letter from the Russian Ambassador to London, Prince Antiochus Dmitrievich Cantemir, to the employee of the Russian Embassy in The Hague, Petr Petrovich Kurbatov</head><head>OR RGB, fond 626, karton 1, no. 10, ff. 3-3v</head><opener>
+				<head>Letter from the Russian Ambassador to London, Prince Antiochus Dmitrievich Cantemir, to the employee of the Russian Embassy in The Hague, Petr Petrovich Kurbatov</head><head>OR RGB, fond 626, karton 1, no. 10, ff. 3-3<note type="researchNote"/>v</head><opener>
 					
 					
 					<salute><pb cert="high" n="[[f. 3]]" xml:space="default"/><persName cert="high" type="real" ref="p1384">Гсдрь мой</persName></salute>
