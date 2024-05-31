@@ -311,7 +311,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10_0002.xml?note_annotation_20240531182233373#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head[2]/note"
+			"rdf:value": "TEI/text/body/div/note/note"
 		}
 	},
 	"oa:hasBody": {
@@ -390,7 +390,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10_0002.xml?note_annotation_20240531182528956#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head[2]/note[2]"
+			"rdf:value": "TEI/text/body/div/note/note[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -411,7 +411,7 @@
 	<text>
 		<body>
 			<div type="letter">
-				<head>Letter from the Russian Ambassador to London, Prince Antiochus Dmitrievich Cantemir, to the employee of the Russian Embassy in The Hague, Petr Petrovich Kurbatov</head><head>OR RGB, fond 626, karton 1, no. 10, ff. 3-3<note type="researchNote"/>v<note/></head><opener>
+				<head>Letter from the Russian Ambassador to London, Prince Antiochus Dmitrievich Cantemir, to the employee of the Russian Embassy in The Hague, Petr Petrovich Kurbatov</head><note>OR RGB, fond 626, karton 1, no. 10, ff. 3-3<note type="researchNote"/>v<note/></note><opener>
 					
 					
 					<salute><pb cert="high" n="[[f. 3]]" xml:space="default"/><persName cert="high" type="real" ref="p1384">Гсдрь мой</persName></salute>
