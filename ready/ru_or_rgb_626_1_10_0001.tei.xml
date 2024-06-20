@@ -44,7 +44,7 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_or_rgb_626_1_10_0001.tei.xml?person_annotation_20190814224630962",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?person_annotation_20190814234630962",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:46:30.962Z",
 	"dcterms:modified": "2019-08-14T20:46:30.962Z",
@@ -59,10 +59,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_or_rgb_626_1_10_0001.tei.xml?person_annotation_20190814224630962#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?person_annotation_20190814234630962#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_or_rgb_626_1_10_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -73,7 +73,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_or_rgb_626_1_10_0001.tei.xml?person_annotation_20190814224630962#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?person_annotation_20190814234630962#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute/persName"
 		}
@@ -125,7 +125,7 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_or_rgb_626_1_10_0001.tei.xml?place_annotation_20240206201305838",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?place_annotation_20240206211305838",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-06T19:13:05.838Z",
 	"dcterms:creator": {
@@ -138,10 +138,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_or_rgb_626_1_10_0001.tei.xml?place_annotation_20240206201305838#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?place_annotation_20240206211305838#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_or_rgb_626_1_10_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -152,7 +152,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_or_rgb_626_1_10_0001.tei.xml?place_annotation_20240206201305838#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?place_annotation_20240206211305838#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -172,22 +172,99 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?place_annotation_20240206211719961",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-06T19:17:19.961Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?place_annotation_20240206211719961#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/to_be_checked/ru_or_rgb_626_1_10.xml?place_annotation_20240206211719961#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2643743",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="letter">
-				<head><title>Letter from Prince <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0030" xml:space="default">Antiochus Dmitrievich Cantemir</persName> to <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">Petr Vasil'evich Kurbatov</persName></title> </head>
+				<head><title>Letter from <persName ref="p0030">the Russian Ambassador to London, Prince Antiochus Dmitrievich Cantemir</persName>, to <persName ref="p2518">the employee of the Russian Embassy in The Hague, Petr Petrovich Kurbatov</persName></title><persName/></head>
 				<opener>
 					<note type="setting">
-						OR RGB, fond 626, karton 1, no. 10, ff. 1-1v 
+						<p>OR RGB, fond 626, karton 1, no. 10, ff. 1-1v </p>
 					</note>
 					
-					<salute><pb cert="high" n="f. 1" xml:space="default"/><persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">Гсдрь Мой</persName></salute>
+					<salute><pb cert="high" n="[[f. 1]]" xml:space="default"/><persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">Гсдрь Мой</persName></salute>
 				</opener>
-				<p>В надежде вшей ко мне склонности принес я смелость трудить <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">вас</persName> моего Гсдаря малою коммисиею, И притом покорно просить вас ежели вам не в труд будет чтоб пожаловали купили для меня в <placeName key="The Hague South Holland The Netherlands" ref="https://geonames.org/2747373" cert="high">Гаге</placeName> табаку ежели можно сыскать à Raper de la Violete, а ежели  не можно сыскать простой 20 прутков ценою до 3х гулденов за фунт толко чтоб был лехкой, и без духов. . Також прошу вас гсдря моего купить из кнг Methode pour apprendre lerire les Histoire in 4ку  3 ou 4 vol imprime a Paris в последнем волюмине имеется Cathaloge всех славных ауторов, а аутора сих книг я запамятовал а что изволите на ту покупку днг издержать извольте к тому ж купцу на меня вексель прислать, которой прежде сего по вашему векселю днги платил, и нне изволте блгонадежны пребыть, что как скоро мне вексель ваш представлен будет<pb cert="high" n="f. 1v" xml:space="default"/> того ж часу днги по нем всеохотно заплачу. В протчем пребываю</p><p>Вшь <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">Гсдря моего</persName></p>
+				<p>В надежде вшей ко мне склонности принес я смелость трудить <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">вас</persName> моего Гсдаря малою коммисиею, И притом покорно просить вас ежели вам не в труд будет чтоб пожаловали купили для меня в <placeName key="The Hague South Holland The Netherlands" ref="https://geonames.org/2747373" cert="high">Гаге</placeName> табаку ежели можно сыскать ?? Raper de la Violete, а ежели  не можно сыскать простой 20 прутков ценою до 3х гулденов за фунт толко чтоб был лехкой, и без духов. . Також прошу вас гсдря моего купить из кнг Methode pour apprendre lerire les Histoire in 4ку  3 ou 4 vol imprime a Paris в последнем волюмине имеется Cathaloge всех славных ауторов, а аутора сих книг я запамятовал а что изволите на ту покупку днг издержать извольте к тому ж купцу на меня вексель прислать, которой прежде сего по вашему векселю днги платил, и нне изволте блгонадежны пребыть, что как скоро мне вексель ваш представлен будет<pb cert="high" n="[[f. 1v]]" xml:space="default"/> того ж часу днги по нем всеохотно заплачу. В протчем пребываю</p><p>Вшь <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">Гсдря моего</persName></p><p/><p/><p>Из <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Лондона</placeName></p><p>23 февраля</p><p>1733г[о]</p>
 				<closer>
-					<dateline>Из <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Лондона</placeName></dateline><dateline><date/><date/><date/><date>23 февраля<lb/>1733г[о]</date></dateline>
-					<salute>всеохотно послушной слуга </salute><signed>К.[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0030" xml:space="default">Антиох Кантемир</persName></signed>
+					<signed>всеохотно послушной слуга </signed><signed>К.[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0030" xml:space="default">Антиох Кантемир</persName></signed>
 				</closer>
 			</div>
 		</body>
