@@ -47,9 +47,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0001_ready.tei.xml?place_annotation_20240305150208222",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_avpri_53_5_168_0001.tei.xml?place_annotation_20240305150208222",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-05T14:02:08.222Z",
+	"dcterms:modified": "2024-06-26T08:52:34.113Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -60,21 +61,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0001_ready.tei.xml?place_annotation_20240305150208222#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_avpri_53_5_168_0001.tei.xml?place_annotation_20240305150208222#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0001_ready.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_avpri_53_5_168_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_168_0001_ready.tei.xml?place_annotation_20240305150208222#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_avpri_53_5_168_0001.tei.xml?place_annotation_20240305150208222#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/dateline/date/placeName"
 		}
@@ -85,12 +86,24 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
-	}
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/xaher",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "André Herzog"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
