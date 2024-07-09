@@ -2,6 +2,7 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -11,8 +12,7 @@
 				<p/>
 			</publicationStmt>
 			<sourceDesc sameAs="http://www.cwrc.ca">
-				<p>Created from original research by members of CWRC/CSÉC unless
-					otherwise noted.</p>
+				<p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
 		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
@@ -47,9 +47,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20231213152104946",
+	"id": "undefined?place_annotation_20240209143054011",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-12-13T14:21:04.946Z",
+	"dcterms:created": "2024-02-09T13:30:54.011Z",
+	"dcterms:modified": "2024-02-09T13:30:54.011Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -60,10 +61,9 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20231213152104946#Target",
+		"@id": "undefined?place_annotation_20240209143054011#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -71,17 +71,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20231213152104946#Selector",
+			"@id": "undefined?place_annotation_20240209143054011#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[4]/placeName"
+			"rdf:value": "TEI/text/body/div/head/title/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
+		"@id": "https://geonames.org/3164603",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -89,87 +89,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:highCertainty"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20231213152244501",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-12-13T14:22:44.501Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20231213152244501#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20231213152244501#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[4]/placeName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/524901",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	}
 }]]>
         </rdf:Description>
@@ -205,10 +125,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20240131112443164",
+	"id": "undefined?place_annotation_20240209143219804",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-31T10:24:43.164Z",
-	"dcterms:modified": "2024-01-31T10:24:43.164Z",
+	"dcterms:created": "2024-02-09T13:32:19.804Z",
+	"dcterms:modified": "2024-02-09T13:32:19.804Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -219,10 +139,9 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20240131112443164#Target",
+		"@id": "undefined?place_annotation_20240209143219804#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -233,14 +152,92 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0001.tei.xml?place_annotation_20240131112443164#Selector",
+			"@id": "undefined?place_annotation_20240209143219804#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[7]/placeName"
+			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2911298",
+		"@id": "https://geonames.org/3164603",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240209143407083",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-09T13:34:07.083Z",
+	"dcterms:modified": "2024-02-09T13:34:07.083Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240209143407083#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240209143407083#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/salute[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3164603",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -255,9 +252,25 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<div>
-				<head>15 Novembre 1709. – Letter from <orgName cert="high" ref="o0124">Franz Poppe and Company</orgName> to the <persName cert="high" ref="p0729" type="real">Russian Ambassador to Denmark, Prince Vasilii Lukich Dolgorukov</persName></head>
-				<p>RGADA, fond 53, opis 1, 1709, no. 12, f. 1-2v. French original.</p><p/><p>[[f. 1]] Monseigneur</p><p>Nous avons apris avec beaucoup de plaisir par la lettre, dont Votre Excellence nous a honoré le 9e. de ce mois, qu'elle a enfin par les puissantes instances terminé notre affaire à la Cour, de sorte, qu'on nous fera payé notre blé au pris, que nous souhaitons, dont nous avons déjà pris la liberté d'informer Votre Excellence aussi bien, que <persName ref="p1504">Mons:[ieur] l'Amiral Paulsen</persName>, à savoir, que nous suplions tres humblement <persName ref="p0532">Sa Majesté Danoise</persName> d'avoir la bonté, de nous le faire payer au pris courant, nous pouvons neanmoins, Monseigneur, assurer Votre Excellence, que si nous avions reçu ce dit segle, et qu'il eut eté en notre pouvoir, nous aurions pû tirer 125 Ecus de chaque Lafce [?], comme nous en donons [[f. 1v]] aujourd'hui une profonde relation à <persName ref="p1258">Monsieur Wilhelm Edinger</persName>, lui envoyant les attestations, qu'il a exigées de nous, touchant le pris, que le segle valoit au tems d'Arrêt, et ce que nous en aurions pu avoir. C'est pourquoi, Monseigneur, nous prenons la liberté de prier humblement Votre Excellence de nous faire la grace de terminer encore heureusement notre affaire avec <persName cert="high" ref="p1258" type="real">Mons:[ieur] Edinger</persName>, ce que nous nous flattons d'aprendre bientôt, nous vous sommes cependant infiniment obligés, Monseigneur, de la bienveillance toute particulier, que Votre Excellence nous temoigne, et de la peine, qu'elle s'est bien voulû doner dans cette affaire : En reconoissance nous prenons la libertéde l'assurer, que nous ferons toujours notre possible pour nous montrer soumis et obeïssans, a tout ce qui lui plaira nous ordonner. Nous somes fort surpris Monseigneur, que [[f. 2]] Votre Excellence ne nous fasse point savoir, si elle souhaite, que nous lui fassions tenir les 3000 Risdales Albert, que nous lui avons offerts; il y a longtemps, que nous avons reçu avis de Moscovie, qu'on a tiré sur nous des lettres de change de la dite some. Soit donc, que le payement de ce blé se fasse à <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425" cert="high">Copenhague<precision match="@ref" precision="high"/></placeName>, ou qu'on nous le fasse promtement ici, Votre Excellence poura recevoir cette some du dit Mons:[ieur] Edinger moyenant une double quitance, contenant, que ce payement est pour la valeur des lettres de changes de 3000 Rx tirés sur nous de <placeName key="Moscow Moscow Russia" ref="https://geonames.org/524901">Moscou</placeName> et payable à Votre Excellence, et qu'à l'arrivée de ces dites lettres, n'étant d'aucun [sic] valeur, elles nous soient livrées, en remettant entre les mains de [[f. 2v]] Votre Excellence sa propre quitance. Au reste nous la prions, d'etre assurée que nous ne cesserons d'etre</p><p>Monseigneur</p><p>                                                                          de Votre Excellence</p><p>à <placeName key="Hamburg Hamburg Germany" ref="https://geonames.org/2911298">Hambourg</placeName> le                                               les tres humbles, tres obeïssans</p><p>15e. 9br: 1709                                                et tres obligés serviteurs</p><p>                                                                          <orgName ref="o0124">Frans Poppe et Compa[gnie]</orgName></p><p/></div>
+			<div type="letter">
+				<head>
+					<title>20 July 1711. – Letter from <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Venice</placeName> dated 20 July 1711 from <persName ref="p1366">Demetrio Bozzis</persName> to <persName ref="p0071">Count Gavrila Ivanovich [Golovkin]</persName> informing about his arrival there and that the Republic of Venice has appointed a resident to <persName ref="p0174">the Tsar</persName>, but the date of his departure is unknown</title>
+				</head>
+				<opener>
+					<note cert="high" evaluate="all" place="top" xml:space="default">
+						<p>RGADA, fond 41, opis 1, 1711, no. 2, f. 20-20v. Italian original.<pb cert="high" n="f. 20" xml:space="default"/></p>
+					</note>
+					<note>
+						<date>От Димитрия Боциса к графу Гаврилу Ивановичу из Венеции июля 20-го 1711 г. уведомляет о своем туда приезде, и что Республика Венецкая назначила резидента к царскому величеству, а когда отправитца неизвестно</date>
+					</note>
+					<salute>Ill[ustrissi]mo et Ecc[elentissi]mo S[i]g[nor]</salute>
+				</opener>
+				<p>Non Rassegnare all’E[ccellenza] V[ostra] il dovuto ossequio ché Lii professo con li notitie del mio arivo in <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Venezia</placeName>, sarebbe un grand’ errore della mia divota rassegnatezza. In questa mia permanenza non sarrà da me ommesso ogni diligente studio per ben rendere servita la Maestà del mio <persName ref="p0174">Sovran</persName> ; Né meno devo tralasciare di supplicare la generosa grandezza di V[ostra] E[ccellenza] dell’auttorevole Prottetione perché resti in un tempo stesso glorioso é fondamentale il mio Ministero.</p><p>Questa Ser[enissi]:ma Rep[pubbli]ca hà fatto ellectione di Ressidente appresso <persName ref="p0174">S[ua] M[aesta]</persName> mà non si sà per anco quando possi Seguire la di Lui partenza del ché a sua tempo ne sarà fatta partecipe. Mi resta l’honore delli speciosi comandi di V[ostra] E[ccellenza], come vivamente ne resta pregata, quali oltre il<pb cert="high" n="f. 20v" xml:space="default"/></p><p>contento, mi sarano di prova della di Lei Padronanza et prottetione, e mi darano campo di potermi gloriare nell’obbedirli di professarmi, quale con tutta la divotione mi Rassegno</p>
+				<closer>
+					<salute>di V[ostra] E[ccellenza]</salute><salute><placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">V[enezi]a</placeName> li 20 Lug[li]o 1711</salute>
+					<signed>Humiliss[i]mo Devo[tissi]mo et oblig[atissi]mo ser[vitor]e</signed><signed><persName ref="p1366">Demetrio Bozzis</persName></signed>
+				</closer>
+			</div>
 		</body>
 	</text>
 </TEI>
