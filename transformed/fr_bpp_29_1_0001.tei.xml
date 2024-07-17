@@ -369,10 +369,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/fr_bpp_29_1_0001.tei.xml?place_annotation_20240717101032077",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/fr_bpp_29_1_0001.tei.xml?place_annotation_20240717101146657",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-07-17T08:10:32.077Z",
-	"dcterms:modified": "2024-07-17T08:10:32.077Z",
+	"dcterms:created": "2024-07-17T08:11:46.657Z",
+	"dcterms:modified": "2024-07-17T08:11:46.657Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/xaher",
 		"@type": [
@@ -383,7 +383,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/fr_bpp_29_1_0001.tei.xml?place_annotation_20240717101032077#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/fr_bpp_29_1_0001.tei.xml?place_annotation_20240717101146657#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/fr_bpp_29_1_0001.tei.xml",
@@ -397,13 +397,15 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/fr_bpp_29_1_0001.tei.xml?place_annotation_20240717101032077#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/fr_bpp_29_1_0001.tei.xml?place_annotation_20240717101146657#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[9]/placeName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:RealPlace"
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2935022",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://stable.leafwriter.users.h-da.cloud",
@@ -437,7 +439,7 @@
         <p>
           <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">Frideric</persName>
         </p>
-        <p> à <placeName key="g0013">Dresde</placeName>le 6 8bre 1763.</p>
+        <p> à <placeName key="Dresden Saxony Germany" ref="https://geonames.org/2935022">Dresde</placeName>le 6 8bre 1763.</p>
         <p>Also see:</p>
         <p>fr_bpp_29_1_0002</p>
         <p>fr_bpp_29_1_0004</p>
