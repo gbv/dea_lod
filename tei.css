@@ -731,6 +731,21 @@ opener note {
     display : block;
     color:#999;
 }
+
+head note {
+    display : block;
+    color:#999;
+}
+
+head note:before {
+    content:'';
+    font-variant:normal;
+}
+
+head note[type]:before {
+    content:'';
+}
+
 /* opener note:before {
     content:'';
     font-variant:normal;
