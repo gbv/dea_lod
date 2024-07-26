@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,7 +7,7 @@
         <author xml:lang="en">Nikita</author>
         <author xml:lang="en">Ivanovich</author>
         <author xml:lang="en">Panin</author>
-        <author xml:lang="en" />
+        <author xml:lang="en"/>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -98,7 +95,7 @@
       <sourceDesc>
             </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
@@ -107,15 +104,15 @@
         <head>
           <title>1764, April or later. –  <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8"> [Active Privy Councilor,] Count Nikita Ivanovich Panin</persName>. Letter to <persName>[Russian Minister to Rzeczpospolita,] Prince Nikolai Vasil’evich Repninp0870 </persName>
           </title>
-          <bibl />
+          <bibl/>
         </head>
         <p>OR RGB, fond 222, karton 2, no. 17, f. 1. French original.</p>
-        <p />
+        <p/>
         <p>Mon Prince,</p>
-        <p />
+        <p/>
         <p>
-          <persName>Mr Diestel Secretaire d’Ambassade de Prussep0871</persName>ient de partir pour retourner à <orgName>sa Couro0034</orgName>Ministere du <persName>Roip0061</persName>nuë ici, a l’application et au zêle que j’ai reconnus en Lui pour les affaires qui interessent mutuellement <orgName>les deux Courso0008o0034</orgName>Ministere de <persName>S[a].M[ajesté].P[russienne].p0056</persName>ues de bienveillance que lui seroient accordées comme une recompense de son service en Russie ne pourroient qu’être agreables à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].I[mperiale].</persName> J’ai l’honneur d’être avec une consideration distinguée...</p>
-        <p />
+          <persName>Mr Diestel Secretaire d’Ambassade de Prussep0871</persName>ient de partir pour retourner à <orgName>sa Couro0034</orgName>Ministere du <persName>Roip0061</persName>nuë ici, a l’application et au zêle que j’ai reconnus en Lui pour les affaires qui interessent mutuellement <orgName>les deux Courso0008o0034</orgName>Ministere de <persName>S[a].M[ajesté].P[russienne].p0056</persName>ues de bienveillance que lui seroient accordées comme une recompense de son service en Russie ne pourroient qu’être agreables à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0033" xml:space="default" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].I[mperiale].</persName> J’ai l’honneur d’être avec une consideration distinguée...</p>
+        <p/>
         <p>Also see:</p>
         <p>ru_niorrgb_222_2_2_0001</p>
         <p>ru_niorrgb_222_2_4_0001</p>
