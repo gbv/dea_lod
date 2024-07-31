@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -9,7 +6,7 @@
         <author xml:lang="en">Petr</author>
         <author xml:lang="en">Semenovich</author>
         <author xml:lang="en">Mal'tsov</author>
-        <author xml:lang="en" />
+        <author xml:lang="en"/>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -97,7 +94,7 @@
       <sourceDesc>
             </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
@@ -113,17 +110,17 @@
         </p>
         <p>получено 23 маия</p>
         <p>Monseigneur!</p>
-        <p>	Je suplie très humblement Votre Excellence de vouloir bien me pardonner la liberté, que j’ai osé prendre de mettre sur son compte les débours, que j’ai fait pour <persName key="p1101" ref="ac4012a2-84a7-427f-b651-a96ad13dbd09">Mr Tatischef</persName> à qui j’envoye cet ordinaire une specification détaillée de tout ce qui m’a été avancé par <persName key="p0000">Mr Thomson</persName>. Je connois trop Monseigneur, Votre générosité, pour ne pas me flatter de Votre gracieux pardon à cet égard.</p>
+        <p>	Je suplie très humblement <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="p2000" xml:space="default">Votre Excellence</persName> de vouloir bien me pardonner la liberté, que j’ai osé prendre de mettre sur son compte les débours, que j’ai fait pour <persName key="p1101" ref="ac4012a2-84a7-427f-b651-a96ad13dbd09">Mr Tatischef</persName> à qui j’envoye cet ordinaire une specification détaillée de tout ce qui m’a été avancé par <persName key="p0000">Mr Thomson</persName>. Je connois trop Monseigneur, Votre générosité, pour ne pas me flatter de Votre gracieux pardon à cet égard.</p>
         <p>	Votre Excellence me permettra bien encore de la suplier de vouloir bien ordoner au <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">college</orgName> d’envoyer ici Vos apointemens pour cette anée dans le courant du mois de may. Elle conoit trop ma situation, pour n’être pas persuadée de l’urgente nécessité, où je serai sans cela.</p>
         <p>	J’ai l’honneur d’assurer Votre Excessence, que mon bonheur sera parfait, si Elle vouloit ne pas douter de mon zêle pour sa personne, ainsi que du profond respect avec lequel je me ferai gloire d’être sans cesse.</p>
         <p>	Monseigneur!</p>
         <p>De Votre Excellence,</p>
-        <p />
+        <p/>
         <p>obligé serviteur <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">P[etr]. Malsof</persName>
         </p>
         <p>à <placeName>Londresg0003</placeName>ce 18./29 avril 1763./</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>Also see:</p>
         <p>ru_rgada_1263_1_2088_0001</p>
         <p>ru_rgada_1263_1_2089_0001</p>
