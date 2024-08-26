@@ -95,10 +95,10 @@
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
       <sourceDesc>
-            </sourceDesc>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
-        </profileDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
@@ -109,24 +109,30 @@
           <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 13, f. 1885-1888. French original.</bibl>
         </head>
         <p>[[f. 1885]]</p>
-        <p>
-          <hi key="g0009">Varsovie</hi> ce 18/29. Mars 1794</p>
-        <p>Monsieur !</p>
+        <opener>
+          <dateline>
+            <hi key="g0009">Varsovie</hi>
+            <date when="1794-03-29"> ce 18/29. Mars 1794</date>
+          </dateline>
+          <salute>Monsieur !</salute>
+        </opener>
         <p />
         <p />
-        <p>Monsieur</p>
-        <p>de Votre Excellence</p>
-        <p />
-        <p>obeissant serviteur</p>
-        <p>Paul Divow<hi key="p1191" ref="5d403ea2-9f48-4110-a587-ffb863ccc903" />
-        </p>
-        <p>[[f. 1888]]</p>
-        <p>Его Высокопревосходительству</p>
-        <p>Милостивому государю</p>
-        <p>Аркадию Ивановичу Морковуp0440</p>
-        <p>à S[ain]t Petersbourg<hi key="g0002" />
-        </p>
-      </div>
-    </body>
-  </text>
-</TEI>
+        <closer>
+          <salute>Monsieur</salute>
+          <salute>de Votre Excellence</salute>
+          <p />
+          <salute>obeissant serviteur</salute>
+          <signed>Paul Divow<hi key="p1191" ref="5d403ea2-9f48-4110-a587-ffb863ccc903" />
+          </signed>
+          <p>[[f. 1888]]</p>
+          <salute>Его Высокопревосходительству</salute>
+          <salute>Милостивому государю</salute>
+          <salute>Аркадию Ивановичу Морковуp0440</salute>
+          <dateline>à S[ain]t Petersbourg<hi key="g0002" />
+          </dateline>
+          </closer>
+          </div>
+        </body>
+      </text>
+    </TEI>
