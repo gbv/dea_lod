@@ -2,136 +2,260 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main" xml:lang="en">Letter from the chancellor of the Grand Duchy of Lithuania, Prince Aleksander Michał Sapieha, to the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</title>
-        <author xml:lang="en">Aleksander</author>
-        <author xml:lang="en">Michał</author>
-        <author xml:lang="en">Sapieha</author>
-        <author xml:lang="en" />
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">que.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-07-10">10. Juli 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc>
-            </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-        </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <head>
-          <title>10 May 1779. – Letter from <persName key="p1087" ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">the Chancellor of the Grand Duchy of Lithuania, Prince Aleksander Michał Sapieha</persName>
-            <persName>, </persName>
-            <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>
-          </title>
-          <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 7, f. 1303. French original.</bibl>
-        </head>
-        <p />
-        <p>Monseigneur !</p>
-        <p>J’ai l’honneur de répondre à la lettre que Votre Excellence m’a adressé concernant le clergé de l’Eglise Grecque non unie située à <placeName key="g0309">Druy</placeName>. Cette affaire, Monseigneur, s’est passée à mon insçû ; et comme je n’ai rien de plus à cœur que de conserver l’équité qui est connue de Votre Excellence, je viens d’écrire à mon commissaire, et lui donne l’ordre de remettre en possession de la ditte Eglise des deux arpens dont Elle est privée, où [sic !] l’équivalent par un acte en bonne forme.</p>
-        <p>Je profitte de ce moment favorable pour me recommander aux bontés et à l’amitié de Votre Excellence, et de la convaincre de la plus haute consideration avec laquelle j’ai l’honneur d’être </p>
-        <p>Monseigneur</p>
-        <p>de Votre Excellence</p>
-        <p>Le tres humble et tres</p>
-        <p>obeissant sérviteur</p>
-        <p />
-        <p>
-          <persName key="p1087" ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">G[ran]d Chan[celier] de Lith[uanie] </persName>
-        </p>
-        <p>
-          <placeName key="p0308" ref="c1c77b76-e834-426c-a2a0-cf819863b9af">Rozana</placeName>
-        </p>
-        <p>Le 10 May 1779.</p>
-        <p />
-        <p>Also see : </p>
-        <p>fr_bpp_29_7_0001</p>
-        <p>fr_bpp_29_7_0002</p>
-        <p>fr_bpp_29_7_0004</p>
-      </div>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="en">
+					Letter from the chancellor of the Grand Duchy of Lithuania, Prince Aleksander Michał Sapieha, to the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg
+				</title>
+				<author xml:lang="en">
+					Aleksander
+				</author>
+				<author xml:lang="en">
+					Michał
+				</author>
+				<author xml:lang="en">
+					Sapieha
+				</author>
+				<author xml:lang="en" />
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Languages of Diplomacy Digital Edition
+				</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>
+							Rjeoutski
+						</surname>
+						<forename>
+							Vladislav
+						</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#borisov">
+						<surname>
+							Borisov
+						</surname>
+						<forename>
+							Viktor
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#kandakou">
+						<surname>
+							Kandakou
+						</surname>
+						<forename>
+							Dzianis
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#lavrinovich">
+						<surname>
+							Lavrinovich
+						</surname>
+						<forename>
+							Maya
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#sergeev">
+						<surname>
+							Sergeev
+						</surname>
+						<forename>
+							Mikhail
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#herzog">
+						<surname>
+							Herzog
+						</surname>
+						<forename>
+							André
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#wallner">
+						<surname>
+							Wallner
+						</surname>
+						<forename>
+							Karin
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#pipka">
+						<surname>
+							Rißler-Pipka
+						</surname>
+						<forename>
+							Nanette
+						</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">
+						que.perspektivia.net
+					</orgName>
+				</publisher>
+				<authority>
+					MWS-Netzwerk Osteuropa
+				</authority>
+				<pubPlace>
+					Bonn
+				</pubPlace>
+				<date when="2024-07-10">
+					10. Juli 2024
+				</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">
+						lod
+					</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">
+					Languages of eighteenth-century diplomacy
+				</title>
+				<title type="sub" level="s">
+					Russia in a European context
+				</title>
+			</seriesStmt>
+			<sourceDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>
+						10 May 1779. – Letter from
+						<persName key="p1087" ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">
+							the Chancellor of the Grand Duchy of Lithuania, Prince Aleksander Michał Sapieha
+						</persName>
+						<persName>
+							,
+						</persName>
+						<persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+							the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg
+						</persName>
+					</title>
+					<bibl>
+						Bibliothèque polonaise de Paris, fonds 29, no. 7, f. 1303. French original.
+					</bibl>
+				</head>
+				<p />
+				<opener>
+					<salute>
+						Monseigneur !
+					</salute>
+				</opener>
+				<p>
+					J’ai l’honneur de répondre à la lettre que Votre Excellence m’a adressé concernant le clergé de l’Eglise Grecque non unie située à
+					<placeName key="g0309">
+						Druy
+					</placeName>
+					. Cette affaire, Monseigneur, s’est passée à mon insçû ; et comme je n’ai rien de plus à cœur que de conserver l’équité qui est connue de Votre Excellence, je viens d’écrire à mon commissaire, et lui donne l’ordre de remettre en possession de la ditte Eglise des deux arpens dont Elle est privée, où [sic !] l’équivalent par un acte en bonne forme.
+				</p>
+				<p>
+					Je profitte de ce moment favorable pour me recommander aux bontés et à l’amitié de Votre Excellence, et de la convaincre de la plus haute consideration avec laquelle j’ai l’honneur d’être
+				</p>
+				<closer>
+					<salute>
+						Monseigneur
+					</salute>
+					<salute>
+						de Votre Excellence
+					</salute>
+					<salute>
+						Le tres humble et tres
+					</salute>
+					<salute>
+						obeissant sérviteur
+					</salute>
+					<p />
+					<signed>
+						<persName key="p1087" ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">
+							G[ran]d Chan[celier] de Lith[uanie]
+						</persName>
+					</signed>
+					<address>
+						<placeName key="p0308" ref="c1c77b76-e834-426c-a2a0-cf819863b9af">
+							Rozana
+						</placeName>
+					</address>
+					<dateline>
+						Le
+						<date when="1779-05-10">
+							10 May 1779
+						</date>
+						.
+					</dateline>
+				</closer>
+				<p />
+				<p>
+					Also see :
+				</p>
+				<p>
+					fr_bpp_29_7_0001
+				</p>
+				<p>
+					fr_bpp_29_7_0002
+				</p>
+				<p>
+					fr_bpp_29_7_0004
+				</p>
+			</div>
+		</body>
+	</text>
 </TEI>
