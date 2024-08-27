@@ -2,122 +2,269 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the ambassador extraordinary and plenipotentiary of Russia to the Holy Roman Empire, Count Andrei Kirillovich Razumovskii</title>
-        <author xml:lang="en">Jacob</author>
-        <author xml:lang="en">Johann</author>
-        <author xml:lang="en">von</author>
-        <author xml:lang="en">Sievers</author>
-        <author xml:lang="en" />
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">que.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-07-10">10. Juli 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc>
-            </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-        </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <head>
-          <title>3 / 14 April 1793. – Draft of the letter from <persName key="p1145" ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</persName>, to<persName key="p1094" ref="bf726845-29ed-455b-8aaf-b55924db6885"> the Ambassador Extraordinary and Plenipotentiary of Russia to the Holy Roman Empire, Count Andrei Kirillovich Razumovskii</persName>
-          </title>
-          <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1593-1594. French original.</bibl>
-        </head>
-        <p />
-        <p>
-          <placeName key="g0264">Grodno</placeName>, ce 3/14 Avril 1793</p>
-        <p>au <persName key="p1094" ref="bf726845-29ed-455b-8aaf-b55924db6885">Comte Rasumowsky</persName>
-        </p>
-        <p>Monsieur,</p>
-        <p>Je profite de l’occasion sure que m’offre <persName key="p1167" ref="fbb2b75c-7816-4383-9071-8ad0e0254304">M[onsieu]r le Comte de Langeron</persName> pour faire part à V[otre] E[xcellence], qu’on fait naitre ici plus de difficultés, qu’il ne paroissoit d’abord les deux premiers jours, excités tant par les cabales du <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>, et ses liaisons avec les pretendus patriotes, que par l’esperance que des evenements dans l’étranger, et nommement le manque de concurrence de <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> font naitre dans ces tetes en partie exaltées en partie desesperées par leur situation : personne ne veut donner les Universaux pour les dietines, comme notre declaration le demande, c[‘est-]a[-]d[ire] ni la <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">Conf[édération]</orgName> ni <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">le Roi</persName>. Celle la voudroit en jetter le blame sur celui ci, <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">le Roi</persName> voudroit naturellement faire naitre un degré de haine de plus sur <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la Conf[édération]</orgName> qui l’a suspendu de toutes ses fonctions, et qui’elle ne paroit l’appeller que pour l’humilier encore d’avantage. Plusieures <strong>[[f. 1594]]</strong>ici, qui ont fini par lui envoyer une deputation à <placeName key="g0328">Biallistok</placeName>, où ma lettre avec la declaration l’avoit rencontré, pour l’inviter à venir ici. Il est certain, que la declaration de <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> seroit ici d’un grand effet. Je n’ai point de nouvelles de <placeName key="g0291">Kaminiec</placeName>.</p>
-        <p />
-      </div>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="en">
+					Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the ambassador extraordinary and plenipotentiary of Russia to the Holy Roman Empire, Count Andrei Kirillovich Razumovskii
+				</title>
+				<author xml:lang="en">
+					Jacob
+				</author>
+				<author xml:lang="en">
+					Johann
+				</author>
+				<author xml:lang="en">
+					von
+				</author>
+				<author xml:lang="en">
+					Sievers
+				</author>
+				<author xml:lang="en" />
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Languages of Diplomacy Digital Edition
+				</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>
+							Rjeoutski
+						</surname>
+						<forename>
+							Vladislav
+						</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#borisov">
+						<surname>
+							Borisov
+						</surname>
+						<forename>
+							Viktor
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#kandakou">
+						<surname>
+							Kandakou
+						</surname>
+						<forename>
+							Dzianis
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#lavrinovich">
+						<surname>
+							Lavrinovich
+						</surname>
+						<forename>
+							Maya
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#sergeev">
+						<surname>
+							Sergeev
+						</surname>
+						<forename>
+							Mikhail
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#herzog">
+						<surname>
+							Herzog
+						</surname>
+						<forename>
+							André
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#wallner">
+						<surname>
+							Wallner
+						</surname>
+						<forename>
+							Karin
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#pipka">
+						<surname>
+							Rißler-Pipka
+						</surname>
+						<forename>
+							Nanette
+						</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">
+						que.perspektivia.net
+					</orgName>
+				</publisher>
+				<authority>
+					MWS-Netzwerk Osteuropa
+				</authority>
+				<pubPlace>
+					Bonn
+				</pubPlace>
+				<date when="2024-07-10">
+					10. Juli 2024
+				</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">
+						lod
+					</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">
+					Languages of eighteenth-century diplomacy
+				</title>
+				<title type="sub" level="s">
+					Russia in a European context
+				</title>
+			</seriesStmt>
+			<sourceDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>
+						3 / 14 April 1793. – Draft of the letter from
+						<persName key="p1145" ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">
+							the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers
+						</persName>
+						, to
+						<persName key="p1094" ref="bf726845-29ed-455b-8aaf-b55924db6885">
+							the Ambassador Extraordinary and Plenipotentiary of Russia to the Holy Roman Empire, Count Andrei Kirillovich Razumovskii
+						</persName>
+					</title>
+					<bibl>
+						Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1593-1594. French original.
+					</bibl>
+				</head>
+				<p />
+				<opener>
+					<dateline>
+						<placeName key="g0264">
+							Grodno
+						</placeName>
+						, ce
+						<date when="1793-04-14">
+							3/14 Avril 1793
+						</date>
+					</dateline>	
+          <address type="recipient">
+						au
+						<persName key="p1094" ref="bf726845-29ed-455b-8aaf-b55924db6885">
+							Comte Rasumowsky
+						</persName>		
+          </address>
+					<salute>
+						Monsieur,
+					</salute>
+				</opener>
+				<p>
+					Je profite de l’occasion sure que m’offre
+					<persName key="p1167" ref="fbb2b75c-7816-4383-9071-8ad0e0254304">
+						M[onsieu]r le Comte de Langeron
+					</persName>
+					pour faire part à V[otre] E[xcellence], qu’on fait naitre ici plus de difficultés, qu’il ne paroissoit d’abord les deux premiers jours, excités tant par les cabales du
+					<persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">
+						Roi
+					</persName>
+					, et ses liaisons avec les pretendus patriotes, que par l’esperance que des evenements dans l’étranger, et nommement le manque de concurrence de
+					<orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">
+						la Cour de Vienne
+					</orgName>
+					font naitre dans ces tetes en partie exaltées en partie desesperées par leur situation : personne ne veut donner les Universaux pour les dietines, comme notre declaration le demande, c[‘est-]a[-]d[ire] ni la
+					<orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">
+						Conf[édération]
+					</orgName>
+					ni
+					<persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">
+						le Roi
+					</persName>
+					. Celle la voudroit en jetter le blame sur celui ci,
+					<persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">
+						le Roi
+					</persName>
+					voudroit naturellement faire naitre un degré de haine de plus sur
+					<orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">
+						la Conf[édération]
+					</orgName>
+					qui l’a suspendu de toutes ses fonctions, et qui’elle ne paroit l’appeller que pour l’humilier encore d’avantage. Plusieures
+					<strong>
+						[[f. 1594]]
+					</strong>
+					ici, qui ont fini par lui envoyer une deputation à
+					<placeName key="g0328">
+						Biallistok
+					</placeName>
+					, où ma lettre avec la declaration l’avoit rencontré, pour l’inviter à venir ici. Il est certain, que la declaration de
+					<orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">
+						la Cour de Vienne
+					</orgName>
+					seroit ici d’un grand effet. Je n’ai point de nouvelles de
+					<placeName key="g0291">
+						Kaminiec
+					</placeName>
+					.
+				</p>
+				<p />
+			</div>
+		</body>
+	</text>
 </TEI>
