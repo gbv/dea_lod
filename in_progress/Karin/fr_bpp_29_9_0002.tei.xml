@@ -2,126 +2,270 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the envoy extraordinary and minister plenipotentiary of Russia to Saxony, Baron Johann Mestmacher</title>
-        <author xml:lang="en">Jacob</author>
-        <author xml:lang="en">Johann</author>
-        <author xml:lang="en">von</author>
-        <author xml:lang="en">Sievers</author>
-        <author xml:lang="en" />
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">que.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-07-10">10. Juli 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc>
-            </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-        </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <head>
-          <title>19 February / 2 March 1793. – Draft of the letter from <persName key="p1145" ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">the Ambassador Extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</persName>
-            <persName key="p0569" ref="9d787ae7-4688-4665-a295-ee6ff5962bca">, to the Envoy Extraordinary and minister plenipotentiary of Russia to Saxony, Baron Johann Mestmacher</persName>
-          </title>
-          <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1589-1590. French original.</bibl>
-        </head>
-        <p />
-        <p>à <placeName key="g0009">Varsovie</placeName> ce 19 fev[rier] / 2 Mars 1793.</p>
-        <p>Au <persName key="p0569" ref="9d787ae7-4688-4665-a295-ee6ff5962bca">Baron de Mestmacher</persName>
-        </p>
-        <p>Monsieur,</p>
-        <p>Il est sans doute connu à V[otre] E[xcellence] que depuis la deroute du parti, qui avoit, par la Revolution du 3 de May 1791 changé la Constitution de la Pologne, les principaux emigrés ont eu leur point de reunion à <placeName key="g0064">Leipsic</placeName>, d’où ils continuent d’entretenir par leur correspondance le feu de la discorde, et encourager des peuples tranquilles à des nouvelles insurrections : il se peut même que V[otre] E[xcellence] a des ordres de <durchgestrichen>s</durchgestrichen>
-          <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">notre Cour</orgName> à ce sujet, mais en cas que ça cela ne fut pas, je me trouve dans l’obligation, de requerir V[otre] E[xcellence], afin que’Elles demande àu <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName>, que ces perturbateurs du repos public d’un pays voisin, ne soient point soufferts dans les états de <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">S[on] A[ltesse] E[lectorale]</persName>.</p>
-        <p>Qu’on aye égard a cette demande <strong>[[f. 1590]]</strong>saire à ce sujet seroit aisément justifiée, si Votre Exc[ellence] a une somme, pour les depenses extraordinaires, si non, je lui <durchgestrichen>pourrois d’en envoyer une petite</durchgestrichen>
-        </p>
-        <p>Si V[otre] E[xcellence] feroit quelque decouverte interessante Elle pourroit aussi en faire part à <persName key="p0269" ref="5d591c63-ed1c-4216-91e4-4108872629b0">M[onsieu]r d’Alopaeus</persName> à <placeName key="g0012">Berlin</placeName>, ainsi qu’à <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">M[onsieu]r le Vice Chancelier</persName> auquel Elle fera part de ce qu’elle aura fait à ce sujet car je l’ai prevenu, que je ferai cette requisition.</p>
-        <p>J’ai l’honneur</p>
-      </div>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="en">
+					Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the envoy extraordinary and minister plenipotentiary of Russia to Saxony, Baron Johann Mestmacher
+				</title>
+				<author xml:lang="en">
+					Jacob
+				</author>
+				<author xml:lang="en">
+					Johann
+				</author>
+				<author xml:lang="en">
+					von
+				</author>
+				<author xml:lang="en">
+					Sievers
+				</author>
+				<author xml:lang="en" />
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Languages of Diplomacy Digital Edition
+				</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>
+							Rjeoutski
+						</surname>
+						<forename>
+							Vladislav
+						</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#borisov">
+						<surname>
+							Borisov
+						</surname>
+						<forename>
+							Viktor
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#kandakou">
+						<surname>
+							Kandakou
+						</surname>
+						<forename>
+							Dzianis
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#lavrinovich">
+						<surname>
+							Lavrinovich
+						</surname>
+						<forename>
+							Maya
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#sergeev">
+						<surname>
+							Sergeev
+						</surname>
+						<forename>
+							Mikhail
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#herzog">
+						<surname>
+							Herzog
+						</surname>
+						<forename>
+							André
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#wallner">
+						<surname>
+							Wallner
+						</surname>
+						<forename>
+							Karin
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#pipka">
+						<surname>
+							Rißler-Pipka
+						</surname>
+						<forename>
+							Nanette
+						</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">
+						que.perspektivia.net
+					</orgName>
+				</publisher>
+				<authority>
+					MWS-Netzwerk Osteuropa
+				</authority>
+				<pubPlace>
+					Bonn
+				</pubPlace>
+				<date when="2024-07-10">
+					10. Juli 2024
+				</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">
+						lod
+					</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">
+					Languages of eighteenth-century diplomacy
+				</title>
+				<title type="sub" level="s">
+					Russia in a European context
+				</title>
+			</seriesStmt>
+			<sourceDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>
+						19 February / 2 March 1793. – Draft of the letter from
+						<persName key="p1145" ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">
+							the Ambassador Extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers
+						</persName>
+						<persName key="p0569" ref="9d787ae7-4688-4665-a295-ee6ff5962bca">
+							, to the Envoy Extraordinary and minister plenipotentiary of Russia to Saxony, Baron Johann Mestmacher
+						</persName>
+					</title>
+					<bibl>
+						Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1589-1590. French original.
+					</bibl>
+				</head>
+				<p />
+        <opener>
+				<dateline>
+					à
+					<placeName key="g0009">
+						Varsovie
+					</placeName>
+					ce <date when="1793-03-02">19 fev[rier] / 2 Mars 1793</date>.
+				</dateline>
+				<address type="recipient">
+					Au
+					<persName key="p0569" ref="9d787ae7-4688-4665-a295-ee6ff5962bca">
+						Baron de Mestmacher
+					</persName>
+				</address>
+				<salute>
+					Monsieur,
+				</salute>
+        </opener>
+				<p>
+					Il est sans doute connu à V[otre] E[xcellence] que depuis la deroute du parti, qui avoit, par la Revolution du 3 de May 1791 changé la Constitution de la Pologne, les principaux emigrés ont eu leur point de reunion à
+					<placeName key="g0064">
+						Leipsic
+					</placeName>
+					, d’où ils continuent d’entretenir par leur correspondance le feu de la discorde, et encourager des peuples tranquilles à des nouvelles insurrections : il se peut même que V[otre] E[xcellence] a des ordres de
+					<durchgestrichen>
+						s
+					</durchgestrichen>
+					<orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">
+						notre Cour
+					</orgName>
+					à ce sujet, mais en cas que ça cela ne fut pas, je me trouve dans l’obligation, de requerir V[otre] E[xcellence], afin que’Elles demande àu
+					<persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">
+						l’Electeur
+					</persName>
+					, que ces perturbateurs du repos public d’un pays voisin, ne soient point soufferts dans les états de
+					<persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">
+						S[on] A[ltesse] E[lectorale]
+					</persName>
+					.
+				</p>
+				<p>
+					Qu’on aye égard a cette demande
+					<strong>
+						[[f. 1590]]
+					</strong>
+					saire à ce sujet seroit aisément justifiée, si Votre Exc[ellence] a une somme, pour les depenses extraordinaires, si non, je lui
+					<durchgestrichen>
+						pourrois d’en envoyer une petite
+					</durchgestrichen>
+				</p>
+				<p>
+					Si V[otre] E[xcellence] feroit quelque decouverte interessante Elle pourroit aussi en faire part à
+					<persName key="p0269" ref="5d591c63-ed1c-4216-91e4-4108872629b0">
+						M[onsieu]r d’Alopaeus
+					</persName>
+					à
+					<placeName key="g0012">
+						Berlin
+					</placeName>
+					, ainsi qu’à
+					<persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">
+						M[onsieu]r le Vice Chancelier
+					</persName>
+					auquel Elle fera part de ce qu’elle aura fait à ce sujet car je l’ai prevenu, que je ferai cette requisition.
+				</p>
+        <closer>
+				<salute>
+					J’ai l’honneur
+				</salute>
+        </closer>
+			</div>
+		</body>
+	</text>
 </TEI>
