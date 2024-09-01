@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,7 +10,7 @@
         <author xml:lang="en">of</author>
         <author xml:lang="en">Saxony</author>
         <author xml:lang="en">Maria Antonia</author>
-        <author xml:lang="en" />
+        <author xml:lang="en"/>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -101,27 +98,25 @@
       <sourceDesc>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 October 1763. – Copy of the letter from <persName key="p0098"
-              ref="868ef109-ce8b-4071-9951-ff22d08b1d98">the Electress of Saxony, Maria Antonia</persName>
+          <title>6 October 1763. – Copy of the letter from <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">the Electress of Saxony, Maria Antonia</persName>
             ,<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7"> to the Empress of
             Russia, Catherine II</persName>
           </title>
           <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 1, f. 2. French original.</bibl>
         </head>
-        <p />
+        <p/>
         <p>Copie d’une lettre à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
-          M[ajesté] Imperiale</persName> de <persName key="p0098"
-            ref="868ef109-ce8b-4071-9951-ff22d08b1d98">S[on] A[ltesse] R[oyale] l’Electrice de Saxe</persName>
+          M[ajesté] Imperiale</persName> de <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">S[on] A[ltesse] R[oyale] l’Electrice de Saxe</persName>
         </p>
         <opener>
-          <salute>Madame</salute>
+          <salute><persName ref="p0033">Madame</persName></salute>
         </opener>
         <p>
           <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">L’Electeur mon Epoux</persName>
@@ -133,7 +128,7 @@
           tout, affin de placer ma gratitude d’une maniere qui satisfasse mon cœur, étant dès
           apresent et pour toutte ma vie avec autant de veneration, que d’attachement</p>
         <closer>
-          <salute>Madame</salute>
+          <salute><persName ref="p0033">Madame</persName></salute>
           <salute>de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Votre Majesté</persName>
           </salute>
           <salute>très humble servante</salute>
