@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +97,7 @@
       <sourceDesc>
             </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
@@ -108,20 +105,18 @@
       <div type="letter">
         <head>
           <title>24 December 1763. – Rescript of <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">the Empress of Russia, Catherine II</persName>,<persName> </persName>
-            <persName>the Ambassador of Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von Keyserlingp0281</persName> and<hi key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2"> the Minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Prince Nikolai Vasil’evich Repnin</hi>
-          </title>
-          <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 427. Russian original.</bibl>
+            <persName>the Ambassador of Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von Keyserlingp0281</persName> and the Minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Prince <persName ref="p0870">Nikolai Vasil’evich Repnin</persName> </title><bibl>Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 427. Russian original.</bibl>
         </head>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>Из рескрипта нашего от 10го числа сего м[еся]ца и приложеннаго к оному экстракта из рапорта командующаго в новой сербии <persName>генерал порутчика Мелгуноваp1000</persName>реке Синюхе произшествия.</p>
         <p>Присланная при реляции вашей под № 135 записка <persName>воеводы Киевскаго графа Потоцкагоp1001</persName>
         </p>
         <p>Трудность состоит втом, чтоб распознать, которое описание вернее и сходнее с правдой, но как то зависит от свидетелства и разсмотрения на месте, то и повелели уже Мы изследовать достоверно жалобы <persName>графа Потоцкагоp1001</persName>Санкт Петербургеg0002 декабря 24го дня 1763го года</p>
-        <p />
-        <p />
-        <p />
-        <p />
+        <p/>
+        <p/>
+        <p/>
+        <p/>
         <p>Also see: fr_bpp_29_1_0005</p>
       </div>
     </body>
