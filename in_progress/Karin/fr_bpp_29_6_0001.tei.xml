@@ -2,122 +2,246 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main" xml:lang="en">Letter from the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg, to the Hetman of the Grand Duchy of Lithuania, Count Michal Kazimierz Oginski</title>
-        <author xml:lang="en">Otto</author>
-        <author xml:lang="en">Magnus</author>
-        <author xml:lang="en">von</author>
-        <author xml:lang="en">Stackelberg</author>
-        <author xml:lang="en" />
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">que.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-07-10">10. Juli 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc>
-            </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-        </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <head>
-          <title>10 January 1779. – Letter from <persName>the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelbergp0861, </persName>
-            <persName key="p1030" ref="eeb13c54-b3b5-4d49-9fa2-70a7397704eb">the Hetman of the Grand Duchy of Lithuania, Count Michał Kazimierz Ogiński</persName>
-          </title>
-          <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 6, f. 1267-1268. French original.</bibl>
-        </head>
-        <p />
-        <p>à <persName>S[on] E[xcellence]</persName>
-          <persName key="p1030" ref="eeb13c54-b3b5-4d49-9fa2-70a7397704eb">M[onsieu]r le Comte Oginski</persName>
-        </p>
-        <p>ce 10. Jan[vie]r 1779.</p>
-        <p>
-          <persName key="p1031" ref="044f61c7-f1b0-4e60-80c0-cf7b182369de">Le Brigadier Chominski</persName> m’ayant dit que V[otre] E[xcellence] desiroit connoitre mes sentimens sur la liste de <persName key="p1053" ref="0be5fac3-c8e6-4220-b304-0fdd50c07d2a">M[onsieu]r Tyszkiewicz</persName>, j’ai l’honneur de l’assurer, qu’ayant recommandé pour Marechal une personne qui mérite la confiance d’une province voisine de l’Empire de Russie et formellement protegé par <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> ma Souveraine, mon desir me porte naturellement à souhaiter dans ce tribunal des amis du Marechal. <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">S[a] M[ajesté] le Roi</persName> agissant parfaitement de concert avec <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">ma Souveraine</persName>, m’a souvent temoigné la même envie, se joignant au reste à moi quant à l’opinion que les Diétines devroient être dans les circonstances actuelles moins tumultueuses que jamais. Je prie V[otre] E[xcellence] d’employer ses influences à leur donner la marche de <strong>[[f. 1268]]</strong>Sans quoi l’on prendroit des Dietines orageuses pour un commencement de troubles.</p>
-      </div>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="en">
+					Letter from the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg, to the Hetman of the Grand Duchy of Lithuania, Count Michal Kazimierz Oginski
+				</title>
+				<author xml:lang="en">
+					Otto
+				</author>
+				<author xml:lang="en">
+					Magnus
+				</author>
+				<author xml:lang="en">
+					von
+				</author>
+				<author xml:lang="en">
+					Stackelberg
+				</author>
+				<author xml:lang="en" />
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Languages of Diplomacy Digital Edition
+				</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>
+							Rjeoutski
+						</surname>
+						<forename>
+							Vladislav
+						</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#borisov">
+						<surname>
+							Borisov
+						</surname>
+						<forename>
+							Viktor
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#kandakou">
+						<surname>
+							Kandakou
+						</surname>
+						<forename>
+							Dzianis
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#lavrinovich">
+						<surname>
+							Lavrinovich
+						</surname>
+						<forename>
+							Maya
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#sergeev">
+						<surname>
+							Sergeev
+						</surname>
+						<forename>
+							Mikhail
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#herzog">
+						<surname>
+							Herzog
+						</surname>
+						<forename>
+							André
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#wallner">
+						<surname>
+							Wallner
+						</surname>
+						<forename>
+							Karin
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#pipka">
+						<surname>
+							Rißler-Pipka
+						</surname>
+						<forename>
+							Nanette
+						</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">
+						que.perspektivia.net
+					</orgName>
+				</publisher>
+				<authority>
+					MWS-Netzwerk Osteuropa
+				</authority>
+				<pubPlace>
+					Bonn
+				</pubPlace>
+				<date when="2024-07-10">
+					10. Juli 2024
+				</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">
+						lod
+					</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">
+					Languages of eighteenth-century diplomacy
+				</title>
+				<title type="sub" level="s">
+					Russia in a European context
+				</title>
+			</seriesStmt>
+			<sourceDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>
+						10 January 1779. – Letter from
+						<persName>
+							the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelbergp0861,
+						</persName>
+						<persName key="p1030" ref="eeb13c54-b3b5-4d49-9fa2-70a7397704eb">
+							the Hetman of the Grand Duchy of Lithuania, Count Michał Kazimierz Ogiński
+						</persName>
+					</title>
+					<bibl>
+						Bibliothèque polonaise de Paris, fonds 29, no. 6, f. 1267-1268. French original.
+					</bibl>
+				</head>
+				<p />
+				<opener>
+					<address type="recipient">
+						<addrLine>
+							à
+							<persName>
+								S[on] E[xcellence]
+							</persName>
+							<persName key="p1030" ref="eeb13c54-b3b5-4d49-9fa2-70a7397704eb">
+								M[onsieu]r le Comte Oginski
+							</persName>
+						</addrLine>
+					</address>
+					<dateline>
+						ce
+						<date whe="1779-01-10">
+							10. Jan[vie]r 1779
+						</date>
+						.
+					</dateline>
+				</opener>
+				<p>
+					<persName key="p1031" ref="044f61c7-f1b0-4e60-80c0-cf7b182369de">
+						Le Brigadier Chominski
+					</persName>
+					m’ayant dit que V[otre] E[xcellence] desiroit connoitre mes sentimens sur la liste de
+					<persName key="p1053" ref="0be5fac3-c8e6-4220-b304-0fdd50c07d2a">
+						M[onsieu]r Tyszkiewicz
+					</persName>
+					, j’ai l’honneur de l’assurer, qu’ayant recommandé pour Marechal une personne qui mérite la confiance d’une province voisine de l’Empire de Russie et formellement protegé par
+					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+						l’Imperatrice
+					</persName>
+					ma Souveraine, mon desir me porte naturellement à souhaiter dans ce tribunal des amis du Marechal.
+					<persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">
+						S[a] M[ajesté] le Roi
+					</persName>
+					agissant parfaitement de concert avec
+					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+						ma Souveraine
+					</persName>
+					, m’a souvent temoigné la même envie, se joignant au reste à moi quant à l’opinion que les Diétines devroient être dans les circonstances actuelles moins tumultueuses que jamais. Je prie V[otre] E[xcellence] d’employer ses influences à leur donner la marche de
+					<strong>
+						[[f. 1268]]
+					</strong>
+					Sans quoi l’on prendroit des Dietines orageuses pour un commencement de troubles.
+				</p>
+			</div>
+		</body>
+	</text>
 </TEI>
