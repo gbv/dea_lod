@@ -2,122 +2,260 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg, to the envoy of Russia to Denmark, Baron Burckhard Alexius Krüdener</title>
-        <author xml:lang="en">Otto</author>
-        <author xml:lang="en">Magnus</author>
-        <author xml:lang="en">von</author>
-        <author xml:lang="en">Stackelberg</author>
-        <author xml:lang="en" />
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">que.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-07-10">10. Juli 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc>
-            </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-        </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <head>
-          <title>14 / 25 October 1788. – Draft of the letter from <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>
-            <persName key="p0577" ref="9a8247f4-c475-4416-a37e-db6aa744b5b2">, to the Envoy of Russia to Denmark, Baron Burckhard Alexius Krüdener</persName>
-          </title>
-          <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 5, f. 1263-1265. French original.</bibl>
-        </head>
-        <p />
-        <p>à <persName key="p0577" ref="9a8247f4-c475-4416-a37e-db6aa744b5b2">M[onsieu]r le Baron de Krüdener</persName>
-        </p>
-        <p>du 14/25 oct[obre] 1788.</p>
-        <p>J’ai reçû avec autant de sensibilité que de reconnoissance la lettre que Vous m’avés fait l’honneur de m’écrire le 19/30 Sept[embre] et des avis intéressans qu’elle contient. Il n’est plus question du traité définitif avec la Pologne, qui, <durchgestrichen>a fourni l’occasion certainement n’étoit </durchgestrichen> demonstrations très trop serieuses, il n’en est plus question ; on a laissé entièrement tomber ce projet, et nous verrons si cette condescendence déférence produira quelque changement à l’égard des mesures que <orgName key="o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">la Cour de Berlin</orgName> a pris tant dans ce pays-ci qu’ailleurs. La fermentation [[f. 1264]] est excessive ici, et l’opposition qui née sous notre protection, comme Vous le savés, et nourrie dans son berceau chés nous, est devenuë un colosse, en se jettant entre les bras du <persName key="p0884" ref="c858ab14-ad43-4701-8b22-cc34066d3383">Roi de Prusse</persName>, un colosse, contre le quel le parti de <orgName key="o0095" ref="3159e149-d81d-4327-b9b7-8836be844d94">la Cour</orgName> et le mien luttent avec peine. <persName key="p0863" ref="97897e91-f863-462b-a788-f4ed15a25220">Le grand général Branicki</persName> qui en est le père, en est écarté <durchgestrichen>actuëllement</durchgestrichen>et les rênes de ce gouvernement se trouvent à présent entre les mains du <persName key="p0969" ref="84b89600-b959-4c2a-a067-53837051801d">Marechal Potocki</persName>, et en général dans cette famille. Il est impossible de prévoir comment tout cela finira. Le principal objet de mon application est <strong>[[f. 1265]]</strong>
-          <durchgestrichen>dans ce pays</durchgestrichen>ÿs-ci, en conservant autant qu’il est possible notre influence.</p>
-        <p>J’ai l’honneur d’être avec la consideration la plus distinguée.</p>
-      </div>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="en">
+					Draft of the letter from the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg, to the envoy of Russia to Denmark, Baron Burckhard Alexius Krüdener
+				</title>
+				<author xml:lang="en">
+					Otto
+				</author>
+				<author xml:lang="en">
+					Magnus
+				</author>
+				<author xml:lang="en">
+					von
+				</author>
+				<author xml:lang="en">
+					Stackelberg
+				</author>
+				<author xml:lang="en" />
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Languages of Diplomacy Digital Edition
+				</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>
+							Rjeoutski
+						</surname>
+						<forename>
+							Vladislav
+						</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#borisov">
+						<surname>
+							Borisov
+						</surname>
+						<forename>
+							Viktor
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#kandakou">
+						<surname>
+							Kandakou
+						</surname>
+						<forename>
+							Dzianis
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#lavrinovich">
+						<surname>
+							Lavrinovich
+						</surname>
+						<forename>
+							Maya
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#sergeev">
+						<surname>
+							Sergeev
+						</surname>
+						<forename>
+							Mikhail
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#herzog">
+						<surname>
+							Herzog
+						</surname>
+						<forename>
+							André
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#wallner">
+						<surname>
+							Wallner
+						</surname>
+						<forename>
+							Karin
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#pipka">
+						<surname>
+							Rißler-Pipka
+						</surname>
+						<forename>
+							Nanette
+						</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">
+						que.perspektivia.net
+					</orgName>
+				</publisher>
+				<authority>
+					MWS-Netzwerk Osteuropa
+				</authority>
+				<pubPlace>
+					Bonn
+				</pubPlace>
+				<date when="2024-07-10">
+					10. Juli 2024
+				</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">
+						lod
+					</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">
+					Languages of eighteenth-century diplomacy
+				</title>
+				<title type="sub" level="s">
+					Russia in a European context
+				</title>
+			</seriesStmt>
+			<sourceDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>
+						14 / 25 October 1788. – Draft of the letter from
+						<persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+							the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg
+						</persName>
+						<persName key="p0577" ref="9a8247f4-c475-4416-a37e-db6aa744b5b2">
+							, to the Envoy of Russia to Denmark, Baron Burckhard Alexius Krüdener
+						</persName>
+					</title>
+					<bibl>
+						Bibliothèque polonaise de Paris, fonds 29, no. 5, f. 1263-1265. French original.
+					</bibl>
+				</head>
+				<p />
+				<opener>
+					<address type="recipient">
+						<addrLine>
+							à
+							<persName key="p0577" ref="9a8247f4-c475-4416-a37e-db6aa744b5b2">
+								M[onsieu]r le Baron de Krüdener
+							</persName>
+						</addrLine>
+					</address>
+					<dateline>
+						du
+						<date when="1788-10-25">
+							14/25 oct[obre] 1788
+						</date>
+						.
+					</dateline>
+				</opener>
+				<p>
+					J’ai reçû avec autant de sensibilité que de reconnoissance la lettre que Vous m’avés fait l’honneur de m’écrire le 19/30 Sept[embre] et des avis intéressans qu’elle contient. Il n’est plus question du traité définitif avec la Pologne, qui,
+					<durchgestrichen>
+						a fourni l’occasion certainement n’étoit
+					</durchgestrichen>
+					demonstrations très trop serieuses, il n’en est plus question ; on a laissé entièrement tomber ce projet, et nous verrons si cette condescendence déférence produira quelque changement à l’égard des mesures que
+					<orgName key="o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">
+						la Cour de Berlin
+					</orgName>
+					a pris tant dans ce pays-ci qu’ailleurs. La fermentation [[f. 1264]] est excessive ici, et l’opposition qui née sous notre protection, comme Vous le savés, et nourrie dans son berceau chés nous, est devenuë un colosse, en se jettant entre les bras du
+					<persName key="p0884" ref="c858ab14-ad43-4701-8b22-cc34066d3383">
+						Roi de Prusse
+					</persName>
+					, un colosse, contre le quel le parti de
+					<orgName key="o0095" ref="3159e149-d81d-4327-b9b7-8836be844d94">
+						la Cour
+					</orgName>
+					et le mien luttent avec peine.
+					<persName key="p0863" ref="97897e91-f863-462b-a788-f4ed15a25220">
+						Le grand général Branicki
+					</persName>
+					qui en est le père, en est écarté
+					<durchgestrichen>
+						actuëllement
+					</durchgestrichen>
+					et les rênes de ce gouvernement se trouvent à présent entre les mains du
+					<persName key="p0969" ref="84b89600-b959-4c2a-a067-53837051801d">
+						Marechal Potocki
+					</persName>
+					, et en général dans cette famille. Il est impossible de prévoir comment tout cela finira. Le principal objet de mon application est
+					<strong>
+						[[f. 1265]]
+					</strong>
+					<durchgestrichen>
+						dans ce pays
+					</durchgestrichen>
+					ÿs-ci, en conservant autant qu’il est possible notre influence.
+				</p>
+				<closer>
+					<salute>
+						J’ai l’honneur d’être avec la consideration la plus distinguée.
+					</salute>
+				</closer>
+			</div>
+		</body>
+	</text>
 </TEI>
