@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +97,7 @@
       <sourceDesc>
             </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
@@ -112,17 +109,16 @@
           </title>
           <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 879. Russian original.</bibl>
         </head>
-        <p />
+        <p/>
         <p>Циркулярной</p>
         <p>Божиею милостию Мы <persName>Екатерина Втораяp0033</persName>Императрица и Самодержица Всероссийская, и прочая, и прочая, и прочая.</p>
         <p>Высоко и благоурожденный Нам любезно-верный !</p>
-        <p>По предварительном назначнии Республикою Веницианскою ко <orgName>двору нашемуo0008</orgName>
-          <persName>генерал порутчика воинскаго ордена Святаго Георгия Победоносца третьяго класса кавалера Графа Семена Воронцоваp0580</persName>Уведомляя вас о сем, повелеваем Мы вам производить с ним <persName>Графом Воронцовымp0580</persName>по приезде его в <placeName>Венециюg0031</placeName>ную переписку, употребляя в важных и тайне подлежащих случаях находящияся у вас генеральныя цифири 1776го. года и пребываем вам Императорскою нашею милостию благосклонны. Дан в <placeName>Санкт Петербургеg0002</placeName>июля “28” дня 1783го года.</p>
-        <p />
-        <p />
-        <p />
-        <p />
-        <p />
+        <p>По предварительном назначнии Республикою Веницианскою ко <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="o0008" xml:space="default">двору нашему</orgName> генерал порутчика воинскаго ордена Святаго Георгия Победоносца третьяго класса кавалера Графа Семена Воронцова Уведомляя вас о сем, повелеваем Мы вам производить с ним <persName>Графом Воронцовымp0580</persName>по приезде его в <placeName>Венециюg0031</placeName>ную переписку, употребляя в важных и тайне подлежащих случаях находящияся у вас генеральныя цифири 1776го. года и пребываем вам Императорскою нашею милостию благосклонны. Дан в <placeName>Санкт Петербургеg0002</placeName>июля “28” дня 1783го года.</p>
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p/>
         <p>Тайному советнику действительному каммер-геру, Чрезвычайному и полномочному послу </p>
         <p>Also see : fr_bpp_29_4_0010</p>
       </div>
