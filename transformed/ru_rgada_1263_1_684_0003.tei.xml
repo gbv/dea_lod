@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Resident at the Imperial Diet in Regensburg, Georg Heinrich Büttner to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Georg</author>
+        <author xml:lang="en">Heinrich</author>
+        <author xml:lang="en">Büttner</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>5 September 1757. – Letter from <persName key="p0026">the Russian Resident at the Imperial Diet in Regensburg, Georg Heinrich Büttner</persName> to <persName key="p0065">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 684, f. 12–12v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 12" />
+        <p />
+        <p>Monsieur,</p>
+        <p>On vient d’afficher ici les Avocatoria, que <orgName key="o0023">la Cour Imperiale</orgName> a trouvé à propos de renouveller contre les vassaux et sujets de l’Empire, qui se trouvent au service du <persName key="p0061">Roi de Prusse</persName>. J’ai crû qu’il ne Vous sera pas desagreable d’en avoir une copie, et c’est pourquoi, je prends la liberté d’en joindre une cy-pres.</p>
+        <p>Selon les dernieres lettres, que j’ai de la Lusace, l’armée Prussienne tire vers <placeName key="g0063,g0065">Cotbus et Crossen</placeName> après avoir detaché un corps de 20/m[ille] h[omm]es pour la Silesie. L’armée de l’Empire s’approche deja de <placeName key="g0064">Leipzig</placeName>, conjointement avec l’armée Française sous le commandement du Prince </p>
+        <pb n="f. 12v" />
+        <p>
+          <persName key="p0132">Soubise</persName>. La Saxe se verra donc bientot tout à fait delivré. </p>
+        <p>
+          <persName key="p0078">Le Ministre Palatin Mr de Hack</persName>, destiné pour <orgName key="o0023">la Cour Imperiale des Romains</orgName>, eût hier le malheur de finir ses jours par l’imprudence de son battelier, qui en donnant contre le pont de <placeName key="g0066">Kehlheim</placeName>, a fait couler à fonds le navire, avec toute sa charge.</p>
+        <p>
+          <orgName key="o0024">L’Assemblée de l’Empire </orgName>a à present ses vacances, elle reprendra seance le 4<hi rendition="#sup">e</hi> du mois d’octobre.</p>
+        <p>J’ai l’honneur d’etre avec tout le respect imaginable</p>
+        <p>Monsieur</p>
+        <p>Vôtre</p>
+        <p>très humble et très </p>
+        <p>obeïssant serviteur</p>
+        <p>
+          <persName key="p0026">de Büttner</persName>
+        </p>
+        <p>à <placeName key="g0028">Ratisbonne</placeName>
+        </p>
+        <p>ce 5. sept. 1757.</p>
+        <p>à <persName key="p0065">Mr le Prince Golitzin</persName>
+        </p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_684_0001</p>
+        <p>ru_rgada_1263_1_684_0002</p>
+        <p>ru_rgada_1263_1_684_0004</p>
+      </div>
+    </body>
+  </text>
+</TEI>

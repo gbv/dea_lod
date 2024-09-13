@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Saxon Resident in The Haag, Johann Heinrich Kauderbach, to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Heinrich</author>
+        <author xml:lang="en">Kauderbach</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>19 May 1758. – Letter from <persName key="p0084">the Saxon Resident in The Hague, Johann Heinrich Kauderbach</persName>, to <persName key="p0065">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1589, f. 5–6v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 5" />
+        <p />
+        <p>
+          <placeName key="g0004">La Haye</placeName> le 19. May. 1758.</p>
+        <p />
+        <p>Quoique je ne doute pas, mon Prince, que Vous n’ayiez deja connoissance d’un certain Billet du <persName key="p0061">Roi de Prusse</persName> au <persName key="p0117">Comte de Podewils</persName>, que les lettres de <placeName key="g0003">Londres</placeName> du 12. Nous ont aporté, je prens cependant la liberté d’en joindre ici la Copie. Il paroit singulier qu’un billet ecrit par ce Prince à son <persName key="p0107">Ministre d’Etat</persName> soit devenu publié. il l’a été communiqué à Zihas lang Il est aisé de juger dans quelle vûe …manez...il… ant … que l’on ne sera ni en Allemagne ni dans le Nord dupe de cet artifice grossier.</p>
+        <p>	Les Anglo Prussiens comptent les heures et les momens pour recevoir la nouvelle de l’Evénement decisif qu’ils attendent de la Moravie. Jusqu’ici leur attente a été un peu deconcertée. <persName key="p0061">Le Roi de Prusse</persName> qui comptoit d’enlever les Magazins Autrichiens dans cette Province, a manqué son coup par les sages Précautions du <persName key="p0044">M[arécha]<hi rendition="#sup">l</hi>. Daun</persName>.</p>
+        <p>	Ce <persName key="p0044">Marechal</persName> est depuis le 5. de Courr<hi rendition="#sup">t</hi>. à Lentomischel. Il a avec lui 40 <hi rendition="#u">
+            <hi rendition="#sup">m</hi>
+          </hi> hommes de troupes </p>
+        <pb n="f. 5v" />
+        <p> reglées, ayant laissé derrière lui <persName key="p0081">le General Harsch</persName> avec 16. mille hommes pour masquer les debouchez de <placeName key="g0124">Trautenau</placeName> et <placeName key="g0125">Braunau</placeName>, et pour empecher que le Corps Prussien, qui se trouve encore du coté du Landschuth et qui est à peu près de la même force ne penêtre par ces gorges en Bohême. <persName key="p0061">Le Roi de Prusse</persName> est marché à <placeName key="g0126">Neustatt</placeName> et <placeName key="g0127">Litta </placeName>[sic]. Il a attiré à lui le Corps du <persName key="p0107">General Fouquet</persName>, qui peut être environ des 8 <hi rendition="#sup">m</hi>. /h<hi rendition="#sup">.s</hi>. et fait mine de marcher sur le M[aréch]<hi rendition="#sup">al </hi>
+          <placeName key="p0044">Daun</placeName> pour le combattre. Celui-ci l’attendra probablement dans sa position, qui est fort bonne. Il a eû le tems de se préparer, le <persName key="p0061">Roi de Prusse</persName> ayant à faire des marches bien penibles pour venir à lui par un Païs qui est extrêmément difficile et coupé. Dans peu de jours nous en serons eclaircis.</p>
+        <p>	La Place d’<placeName key="g0123">Olmutz </placeName>est abondamment pourvue de tout ce qui est nécessaire pour une vigoureuse Defense. Il s’y trouve actuellement 7. à 8. mille hommes.</p>
+        <p>	</p>
+        <pb n="f. 6" />
+        <p> L’on dit ici que les François vont retrograder encore et qu’ils font des préparatifs comme s’ils alloient quitter <placeName key="g0046">Wesel</placeName>. Si cela se confirme tout est fini pour nous de leur coté. Mais la chose ne me paroit pas encore croyable. Ce qu’il y a de vrai, c’est qu’une poignée de houssards Prussiens repand la terreur partout le long du Bas Rhin sans que M<hi rendition="#sup">rs</hi>. les françois se montrent pour s’y oposer. Jamais on n’a rien vû de pareil.</p>
+        <p>	Le Billet du <persName key="p0061">Roi de Prusse</persName> au <persName key="">Comte de Podew</persName>
+          <persName key="p0117">ils</persName> est conçu en ces termes:</p>
+        <p>	«Mon cher Comte, le tems s’eclaircit, et les nuages se dissipent. Il y a esperance que la Paix se fasse bientôt. Allez à votre Campagne pour vous delasser de toutes vos affaires, afin que vous soyiez en état de signer pour moi la troisième paix».</p>
+        <p>	Au bas de ce Billet on a ajouté; <hi rendition="#u">envoyé</hi>
+          <hi rendition="#u"> de </hi>
+          <hi rendition="#u">Berlin</hi>
+          <hi rendition="#u">le 15. Avril</hi>.</p>
+        <p>	Les courriers du <persName key="p0061">Roi de Prusse</persName> doivent pleuvoir </p>
+        <pb n="f. 6v" />
+        <p> à <placeName key="g0003">Londres</placeName>. <persName key="p0000">M<hi rendition="#sup">r</hi>. van Hellen</persName> en a reçu sept consecutifs la semaine dernière.</p>
+        <p>	Daignez agréer, mon Prince, les assurances de mon profond respect.</p>
+        <p />
+        <p>
+          <placeName key="g0004">La Haye</placeName> 19. May 1758:</p>
+        <p>De M<hi rendition="#sup">r</hi>. Kauderbach</p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_1588_0001</p>
+        <p>ru_rgada_1263_1_1588_0002</p>
+        <p>ru_rgada_1263_1_1589_0002</p>
+        <p>ru_rgada_1263_1_1593_0001</p>
+        <p>ru_rgada_1263_1_1593_0002</p>
+        <p>ru_rgada_1263_1_1593_0003</p>
+        <p>ru_rgada_1263_1_1600_0001</p>
+        <p>ru_rgada_1263_1_1600_0002</p>
+        <p>ru_rgada_1263_1_1588_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

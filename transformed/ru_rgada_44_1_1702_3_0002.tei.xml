@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Hamburg merchant Hans Matthias Poppe to the Russian Chancellor, Count Fedor Alekseevich Golovin</title>
+        <author xml:lang="en">Hans</author>
+        <author xml:lang="en">Matthias</author>
+        <author xml:lang="en">Poppe</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>6 August 1703. – Letter from <persName key="p1197">the Hamburg merchant Hans Matthias Poppe</persName> to <persName key="p0277">the Russian Chancellor, Count Fedor Alekseevich Golovin</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 44, opis 1, 1702, no. 3, f. 6–6v. German original.</bibl>
+          </note>
+        </head>
+        <p>Translation from German into Russian: RGADA, fond 44, opis 1, 1702, no. 3, f. 7–8v.</p>
+        <p />
+        <p />
+        <pb n="f. 6" />
+        <p>Salvo Titulo</p>
+        <p>A[nn]o 1703 d[ie] 6: aug[usti] <placeName key="g0001">Mosco</placeName>
+        </p>
+        <p>Hoch Edler Großer H[er]r Salut:</p>
+        <p>Dieses wenige betrifft allein weiln von der <placeName key="g0011">Stadt Hamburgh</placeName> mihr Ein Brief zu gesandt, lautend an Ihro Zaer Magest[e] daß ich doch denselb[en] Mögte Guethe Spedit[ion] v[er]leihen, damit derselbe Brief Mögte in dehro Zaarische Magest[e] Händen kom[m]en  Bitte also unterthänigst Ihr Hohe Gnaeden wollen beygehenden brief So in Eine bleckene dose v[er]wahret ist, Gnädigst Empfangen undt den Einhalt deßen Ihro Zaarische Magest[e] aller gnädigst fürtraegen, damit Eine kleine Andtwordt d[ar]auf möchte Erfolgen., Betreffende Dehro Gnaeden Hohen geEhrtes schreib[en] an mihr wegen die zwey Hunderth Last korn, selbigen hab[en] schon ihren Effect genom[m]en undt Geschifft, wofür ich den dero Hohen Excellent[z] Jeder zeith dienstschuldigsten danck werde Erweisen., Für Acht Thage habe an <persName key="p0494">H[er]r Schaffiroff</persName> geschrieb[en] undt gebehten dehro Hohe Gnaden, gnädigst vorzutraegen wegen Eines Paßes für unsere Straedts fahrer von <placeName key="g0049">archangl</placeName> nach <placeName key="g0111">liuorno</placeName> weiln leider Gottes die See voll Frantzösische Caeper sein., alß will Hoffen Ihr Genaeden werden unß Einen Solchen paß wie v[er]langt wirdt gnädigst zustehen., ich habe dahmahlen umb zwey Einß lautende paße geschrieb[en], weiln aber der außfuhr von r[eichs]th[a]l[er] uber See v[er]bohten ist, So hab[en] die unsrigen geresolu[tion] Nuhr Ein Schiff zu senden So von <placeName key="g0049">arch[angl]</placeName> Nach <placeName key="g0111">Liuorno</placeName> gehen soll, bitten dehm nach unterthänigst, Sie wollen unß nuhr Einen paß zustehen., werden dafür dehro Hohen Gnaden Jederzeith unß dienstwilligst Einfinden., Noch habe Ihr Hohen Excell[entz] dienst unterthänigst fürzutragen., wie daß ich an vielen H[er]r officiren von dehnen hiesigen in <placeName key="g0017">Stockholm</placeName> laßen gelt bezahlen., die anders hätten müßen Crepiren, alß <persName key="p1209">obr[ist] Vondelden</persName>, <persName key="p1212">obr[ist] Gulitz</persName>, <persName key="p1213">Major Vonder Stam</persName>, <persName key="p0000">Jan Baltzer</persName>, <persName key="p1210">Vonder Wieden</persName> undt viel mehr andere, habe mich deßwegen bey dehnen ihrigen alhier angeben., die mihr bitten in der <orgName key="o0064">Possolschen pricaes</orgName> daß gelt zu Empf[angen]., habe mich auch </p>
+        <pb n="f. 6v" />
+        <p>deßentwegen in der <orgName key="o0064">Possoolschen pricaes</orgName> bey <persName key="p1208">Miglaile Jaculoff Wolcoff</persName> angeben., der mihr berichtet daß von dehro Hohen Excell[entz] ord[e]r ist Solches zu zahlen, allein daß gelt muß auß den <orgName key="o0111">Rahthause</orgName> in der <orgName key="o0064">possoolschen pricaes</orgName> Erst gezahlt werden., worüber ich Nuhn Schon über die zwey Monath alß von Monath Majo an biß dato habe aber biß dato nichts können wieder Empf[angen], <persName key="p1208">Mighaile Wolcoff</persName> giebt die Schult dem <orgName key="o0111">Rahthauß</orgName> daß Er aldahr kein gelt Empf[angen] kan, daß Sie ihm aldahr So aufhalten., Gott weiß es ist Ein rechter Armuth bey Etzlichen von dehnen officiren weiber, undt ich muß mein gelt auch Mißen., undt Muß auf Solche Manier d[ar]über auf <placeName key="g0017">Stockholm</placeName> schreib[en] daß kein gelt mehr möge bezahlt werden., den es ist sehr v[er]drießlich, So lange zeith von Majo biß dato daß ich bey nahe Täglich in der pricaes aufgepaßt hab[e] aber nichts bekom[m]en können., die Armen weiber wolten gerne bezahlen waß ihre Männer aldahr aufgenom[m]en, bin aber Ein gezeuge daß es ihnen nicht Müglich ist., bitt also dienst unterthänigst Hierauf Eine order zu senden daß doch daß gelt auß <orgName key="o0111">dem Rahthause</orgName> Möge folgen damit ichs Möge wieder auß der <orgName key="o0064">possoolschen pricaes</orgName> Empfangen können, Wofür ich Jederzeith mich dienst willigh dehro hohen Excell[entz] Erbiete, wie ich den allezeith bin undt v[er]bl[eibe]</p>
+        <p>Dehro Hohen Excellent[z] unterthänigster</p>
+        <p>diener </p>
+        <p>
+          <persName key="p1197">Hans Matt: Poppe</persName> ./.</p>
+        <p />
+        <p>Писмо к боярину <persName key="p1197">Матвея Поппа</persName> августа 15 с почты.</p>
+        <p />
+        <p>Also see: </p>
+        <p>ru_rgada_44_1_1702_3_0001</p>
+        <p>ru_rgada_44_1_1702_3_0003</p>
+        <p>ru_rgada_44_1_1702_3_0005</p>
+        <p>ru_rgada_44_1_1702_3_0006</p>
+      </div>
+    </body>
+  </text>
+</TEI>

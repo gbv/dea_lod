@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Active Privy Councilor of the 1st Class,] Count Nikita Ivanovich Panin. Letter to Frederick Eugen, Duke of Württemberg</title>
+        <title type="main" xml:lang="ru">Панин, гр. Никита Иванович. Письмо к Фридриху-Евгению, герц. Вюртембергскому</title>
+        <author xml:lang="en">Nikita</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Panin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>
+            <persName key="p0114">c. 1779, before May 13. – [Active Privy Councilor of the 1st Class,] Count Nikita Ivanovich Panin</persName>. Letter to <persName key="p0062">Frederick Eugen, Duke of Württemberg</persName>
+          </title>
+          <note>
+            <bibl />
+          </note>
+        </head>
+        <p>NIOR RGB, fond 222, karton 2, no. 31, f. 12–13v. French original.</p>
+        <p></p><pb n="f. 12"/><p></p>
+        <p>au <persName key="p0062">Duc Fr. E. De Würtemberg</persName>
+        </p>
+        <p />
+        <p>Monseigneur,</p>
+        <p />
+        <p>Si V.A.S. veut bien être aussi convaincuë que j’ose l’esperer (?), de mon respectueux attachement pour Elle et pour <persName key="p0439">Madame la Grande Duchesse</persName>, Elle ne balancera point à se representer l’impossibilité seule peut mettre des bornes à mon zele et à mon empressemen à Lui plaire et à […] aux avantages de Sa Maison. C’est le cas oú je me trouve par rapport à Sa Sollicitation pour un des fiefs de l’Empire devenus vacans à la mort du dernier <persName key="p0103">Electeur de Baviere</persName>, objet que <persName key="p0438">Son Altesse Imp[eria]le</persName> non seulement m’a fait l’honneur de recommander à mes soins, mais encore qu’Elle s’est empressé de faire reussir par tous les moyens que Sa tendresse pour Votre Altesse Serenissime a pu Lui suggerer. Je me permettrai </p><pb n="f. 12v"/><p> seulement d’exposer à V.A.S. la marche selon laquelle on a procedé dans cette inportante contestation de la succession de Baviere, et je n’aurai plus après qu’à me reposer avec confiance sur ses lumieres pour ma parfaite justification. L’opposition aux occupations subites et arbitraires de <orgName key="o0023">la Cour de Vienne</orgName> à la mort du <persName key="p0103">dernier Electeur</persName> a eu pour but en se fondant sur le Traité de Pavie et sur la Paix de Westphalie d’assurer a la Maison Palatine l’integrité des anciennes possessions de cette maison et ces vuës aussi bien que les raisons incontestables sur lesquelles elles le fondoient ont été annoncées à l’Empire et à Toute l’Europe. Cependant quelque [...] qu’ait été [...] la validité des droits de la maison Palatine, et quelques respectables que fussent les forces dont on s’[etoit?] preparé à les soutenir, le bien de la paix a determiné à consentir à une cession modique d’une partie de l’ancien heritage </p><pb n="f. 13"/><p> pour mettre <orgName key="o0023">la [Cour?] de Vienne </orgName>en etat de sortir [...] avec quelque sorte de dignité plutot que d’exposer tout l’Empire et peutetre l’Europe a une guerre longue cruelle et incertaine, laquelle etait inevitable sans une telle complaisance. Mais en même tems pour être consequent aux premieres vues de conserver à la Branche Palatine la [masse?] de tous les biens de la maison, on a reconnu la necessité de remplacer le district que la force des [circonstances] a obligé [d’en?] separer, et on n’a pu l’effectuer que par requisition à l’Empereur de transporter à la Branche Palatine tous les fiefs de l’Empire possedés par dernier <persName key="p0103">Electeur de Baviere</persName>. Une telle resolution à laquelle est attaché le sort de la paix, a été prise unanimemet par toutes les parties interessées et c’eut été sans le moindre […] </p><pb n="f. 13v"/><p> en faveur de la requisition de V.A.S. Je me persuade qu’Elle en sera elle même intimement convaincuë et je n’ose plus Lui parler que de la vive peine qu’en ressent <persName key="p0439">Madame la Grande Duchesse</persName>, dont la tendresse eût été si satisfaite si le succès avait pu répondre a ses desirs.</p>
+        <p>Je ne dois point finir cependant sans confier à V.A.S. que les faits dont je viens d’avoir l’honneur de l’entretenir sont encore le secret des negociations et en consequence je prends la liberté de Lui demander qu’ils ne puissent être d’aucun autre usage que pour Son information personnelle.</p>
+        <p>J’ai l’honneur d’être avec le plus respectueux attachement, Monseigneur, de V.A.S.</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_niorrgb_222_2_17_0001</p>
+        <p>ru_niorrgb_222_2_2_0001</p>
+        <p>ru_niorrgb_222_2_4_0001</p>
+        <p>ru_niorrgb_222_2_8_0001</p>
+        <p>ru_niorrgb_222_2_22_0001</p>
+        <p>ru_niorrgb_222_6_1_0001</p>
+        <p>ru_niorrgb_222_6_26_0001</p>
+        <p>ru_niorrgb_222_16_6_0001</p>
+        <p />
+      </div>
+    </body>
+  </text>
+</TEI>

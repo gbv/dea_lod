@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Resident in Hamburg, Johann Friedrich Böttiger, to the Russian Chancellor, Count Gavrila Ivanovich Golovkin</title>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Friedrich</author>
+        <author xml:lang="en">Böttiger </author>
+        <author xml:lang="en">Aleksei</author>
+        <author xml:lang="en">Matveevich</author>
+        <author xml:lang="de">Гагарин</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>29 December 1711. – Letter from the <persName key="p0535">Russian Resident in Hamburg, Johann Friedrich Böttiger</persName> to <persName key="p0071">the Russian Chancellor, Count Gavrila Ivanovich Golovkin</persName>
+          </title>
+          <note>
+            <bibl />
+          </note>
+        </head>
+        <p>
+          <hi rendition="#i">RGADA, fond 44, opis 1, 1711, no. 1, f. 60–61v. German and Russian original. </hi>
+        </p>
+        <p />
+        <p />
+        <pb n="f. 60" />
+        <p> Monseigneur.</p>
+        <p>Ew[er] Hoch Reichs Gräffl[ichen] Ex[ce]ll[e[nc]e undt Cron Gross Cantzler, habe untertähnigst zu berichten nicht manqqiren wollen, das vor etlichen tagen hier ankom[m]en <persName key="p1237">d[er] h[err] oberstl[ieutenant] Campel</persName> so von <placeName key="g0018">Constantinopel</placeName> über See nach <placeName key="g0149">Genua</placeName>, <placeName key="g0240">Barcelona</placeName> und <placeName key="g0195">Lissabon</placeName> biß an hero ankom[m]en ist, und hat Ihm <persName key="p1238">der Englische Ambassadeur so in Constantinopel ist</persName>, in Cognito als einen Englischen officier fort geholffen, anders wehre Er mit in arrest kom[m]en, der unßere <persName key="p0315">Ambassadeur Monsieur Tolstoi</persName> hat Ihm mit einige deBesches und Mündlichen Propositiones nach <persName key="p0174">Ihro Gross Czarrische Majest[é]</persName> schiecken wollen, aber 4 tage zu vor hat <persName key="p0315">Ihro Ex[ce]ll[ence] d[er] h[err] Tolstoi</persName> das Unglück gehabt, das Er in arrest gesetzt ist wordten; Er erzehlt mir viel von den Miserablen zustandt von der türckschen armee so wohl </p>
+        <pb n="f.  60v" />
+        <p> zu waßer als zu landte, das vor das Erste die türckschen officier nichts taugen, und keine disciplin haben, und keine frembte officier haben Sie gantz nicht, undt haben nicht mehr als 23. alte orlogschieffe und nicht ein mahl einen rechten Canonier darauff, und <placeName key="g0018">Constantinopel</placeName> hat nicht mehr als 2 alte Mauern und an etlichen orten 3, welche Mann mit Canonschüße kann durchschießen, und stehen altar alte etliche türme, und keine Bastion ist umb <placeName key="g0018">dero gantze Statt</placeName>, undt lebten die Türcken vor <persName key="p0174">Ihro Gross Czarrische Maj[e]st[é]</persName> in Großen furchten, die Christen und Juden aber dehrer viel darsein sollen, betten tag und nacht das der Große Gott <persName key="p0174">Ihro Gross Czarische Maj[e]st[é]</persName> waffen geseegnen wolle; Er erwartet <persName key="p0174">Ihro Gross Czarische Majest[é]</persName> aller Gnädigste ordre ob nach hoffe kom[m]en soll. So wirdt Er ein viel mehres endecken, Er hat auch andre Commissions an <persName key="p0174">Ihro Gross=Czarische Maj[e]st[é]</persName> zu proponiren von <persName key="p1237">Hertzog von Argil</persName>, und auch <persName key="p1236">Engl[ischen] admirall Norris</persName> auß <placeName key="g0240">Barcelona</placeName> welche propositiones sehr avantagies vor <persName key="p0174">Ihro Gross=Czarrische Maj[e]st[é]</persName> sein sollen, enfmg [sic] der Arme Mann ist hier gekom[m]en und nicht 1 rh gelt gehabt, ich gebe Ihm auffenthalt biß ich von Ihro Hoch Gräffl[iche] Exc[e]ll[ence] eine allerGnadtigste antwordt habe, Unter deßen hat Er nach Engelandt an seine Freundte umb gelt geschrieben, die belagerung vor <placeName key="g0186">Strallsund</placeName> gehet noch vor sich, und hat Mann bereits angefangen </p>
+        <pb n="f. 61" />
+        <p> einige kliente kugln in <placeName key="g0186">die Statt</placeName> zu werffen wo von einige menschen getödet, und etliche häußer beschatiger worden, Nachdem die schwedtsche Niederlage vor <placeName key="g0350">Wismar</placeName> passirt, sind 6000 Mann auß den lager vor <placeName key="g0186">Strallsundt</placeName> nach daßiger gegent detaschirt welche auch einige Canons und Mortirs bey sich haben, und <placeName key="g0186">solche Statt</placeName> weiln nur 600 Mann Milice darinne liegt, mit aller Macht zu Bombardiren, auch haben zu dießen Endte die 60. Canonen so in <placeName key="g0355">Rostock</placeName> gewesen, <placeName key="g0355">die Statt</placeName> heer geben müßen, wo mit Mann einen glückl[ichen] Effect zu tuhn hoffet, die letzten Englischen und hollantschen brieffe Confirmiren daß allen ansehen nach der friede mit Franckreich keinen Fortgang haben wirdt, und das <orgName key="o0010">oberHauß von Barlement</orgName> absolut resolvirt, auf solche preleeminier poncte, sich nicht einzulaßen, es sey den das sich Franckreich beßer wirdte heraußer laßen, <persName key="p0302">Princs Eygeny</persName> ist in <placeName key="g0004">Haage</placeName> ankom[m]en, und ist in Willens Ehstens nach <placeName key="g0003">Londen</placeName> über zu gehen, und <persName key="p0668">der Königin</persName> einige projecten von <persName key="p0163">Rom[i]schen Keyser</persName> überzugeben, damit der Krieg mit Franckreich mit eißersten Kräfften möchte Continuiret werdten  d[en] 22. D[e]c[em]b[er] ist die Solenne Keyserliche Crönung zu <placeName key="g0170">Franckfort</placeName> an Meyn Celebriret wordten; beyligente Suppliqve bitte gantz untertähnigst und gehorsamst <persName key="0174">Ihro Gross Czarische Maj[e]st[é]</persName> vorzutragen und mir eine allerGnädtigste erhörung zu schaffen, ich verbleibe an Ihro Hoch Gräffl[iche] Exc[ellenc]e zeitlebens davor mit meinen blutte obligirt, und ersterbe mit Gehorsamsten respect</p>
+        <p>Ew[er] Hoch Reichs Gräffl[ichen] Ex[ce]ll[ence]</p>
+        <p>Monseigneur Vostre tres hümbl et</p>
+        <p>tres obeiss[ant] Serviteur</p>
+        <p>
+          <persName key="p0535">J[ohann] F[riedrich] Böttiger</persName>
+        </p>
+        <p>
+          <placeName key="g0011">Hamburg</placeName>
+        </p>
+        <p>d[ie] 29 </p>
+        <p>D[e]c[em]br[is] 1711.</p>
+        <p />
+        <p>При сем не хотел оставит[ь], чтоб не отдат[ь] моей должности вам, моему г[о]с[у]д[а]рю, и остоюся всегда покорным и всепослушным слугою. <persName key="p1235">А[лексей]. Гагарин</persName>
+        </p>
+        <p />
+        <pb n="f. 61v" />
+        <p> Просил меня <persName key="p0535">г[о]сп[оди]н резидент</persName>, чтобы к вам, моему г[о]с[у]д[а]рю, отписат[ь], чтоб просит[ь] вас, моего г[о]с[у]д[а]ря, ежели возможно, показат[ь] к нему всякою свою м[и]л[о]сть, о чем он вас просил.</p>
+        <p />
+        <p>От <persName key="p0535">Бетхеря</persName> 29-г[о] декабря к <persName key="p0071">графу</persName>. Получено генваря 24 1712. Переведено и вы...</p>
+        <p />
+        <p>Also see: </p>
+        <p>ru_rgada_44_1_1711_1_0002</p>
+        <p>ru_rgada_44_1_1711_1_0001</p>
+        <p>ru_rgada_44_1_1710_2_0001</p>
+        <p>ru_rgada_44_1_1710_2_0002</p>
+        <p>ru_rgada_44_1_1710_2_0003</p>
+        <p>ru_rgada_44_1_1716_7_0001</p>
+        <p>ru_rgada_44_1_1716_7_0002</p>
+        <p>ru_rgada_44_1_1702_3_0004</p>
+        <p>ru_rgada_44_1_1702_3_0005</p>
+        <p>ru_rgada_44_1_1702_3_0006</p>
+        <p>ru_rgada_44_1_1702_3_0007</p>
+        <p>ru_rgada_44_1_1702_3_0008</p>
+        <p>ru_rgada_44_1709_1_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

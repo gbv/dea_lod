@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the rescript sent to Paris for privy councillor Prince [Antiokh] Cantemir, January 20, 1742</title>
+        <title type="main" xml:lang="ru">Копия с рескрыпта отправленного в Париж к тайному советнику князю Кантемиру Генваря 20 дня 1742 году</title>
+        <author xml:lang="en">Aleksey</author>
+        <author xml:lang="en">Mikhailovich</author>
+        <author xml:lang="en">Cherkasskii</author>
+        <author xml:lang="en">Alekseii</author>
+        <author xml:lang="en">Petrovich</author>
+        <author xml:lang="de">Бестужев-Рюмин</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>20 January 1742. – Copy of the rescript sent to <placeName key="g0019">
+              <hi rendition="#b">Paris</hi>
+            </placeName> for [Minister Plenipotentiary of Russia to France], privy councilor <persName key="p0030,p0270">Prince [Antiokh Dmitrievich] Kantemir concerning the sending of Andrei Mikhailovich Efimovskii</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 93, opis 1, no. 1742-5, f. 2. Russian original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 2" />
+        <p />
+        <p>Сообщение <orgName key="o0001">коллегии иностранных дел</orgName>
+        </p>
+        <p>Копия с рескрыпта отправленного в <placeName key="g0019">Париж</placeName> к тайному советнику князю <placeName key="p0030">Кантемиру</placeName> Генваря 20 дня 1742 году.</p>
+        <p>Понеже мы всемилостивейша благоразсудили порутчика нашего <persName key="p0270">Андрея Ефимовского</persName> отправить к вам во Францию таким образом чтоб он при вас дворянином посольства жил и ему способы поданы были б потребным наукам обучатся. а на пребывание его тамо определено ему жалованье в год по пятисот рублев, которое к нему впредь вместе с вашим жалованьем из нашей <orgName key="o0001">коллегии иностранных дел</orgName> переведено будет а на проезд ему выдано четыреста рублев. того ради вам о том чрез сие знать даем и оного <persName key="">Ефимовского</persName> к вам адресуем дабы вы его по вышеписанному у себя держали и к обучению его всему тому еже ему для лутчаго к службе нашей впредь достоинства потребно быть может, всякое способствование ему показывали и мы пребываем вам впротчем императорскою нашею милостию благосклонныя.</p>
+        <p>По Ея Императорского величества Указу.</p>
+        <p>У подлинного подписано тако.</p>
+        <p>
+          <persName key="p0231">К. Алексей Черкаской</persName>
+        </p>
+        <p>
+          <persName key="p0017">Алексей Безстужев Рюмин</persName>
+        </p>
+        <p>Читал Канцелярист <persName key="p0000">Николай Арсеньев</persName>
+        </p>
+        <p>20 : Генваря. 1742 : года.</p>
+        <p />
+        <p />
+        <p>Also see: ru_avpri_93_1_1742-5_0001</p>
+        <p>                ru_avpri_93_1_1742-5_0003</p>
+        <p>                ru_avpri_93_1_1742-5_0004</p>
+      </div>
+    </body>
+  </text>
+</TEI>

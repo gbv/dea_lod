@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Spain Stepan Stepanovich Zinov'ev to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Stepan</author>
+        <author xml:lang="en">Stepanovich</author>
+        <author xml:lang="en">Zinov'ev</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>28 April / 9 May 1774. – Letter from <persName key="p0154">the Russian Envoy to Spain Stepan Stepanovich Zinov’ev</persName> to <persName key="p0065">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1438, f. 6–8. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 6" />
+        <p />
+        <p>Monseigneur,</p>
+        <p />
+        <p>J’ai eu l’honneur de recevoir la lettre de Votre Excellence, du 18. mars v.st. Je lui rends bien grace de ce qu’elle a bien voulu presenter ma lettre à <persName key="p0033">Sa Majesté Impériale</persName>. Quoique mes predecesseurs aient eu une compensation pour les droits d’entrée de leurs effets, et equipages ; je n’ai pas la presomption de me mettre en paralelle avec eux ; et je n’attends cette faveur que des bontés de ma Souveraine. J’espére que Votre Excellence m’accordera dans cette occasion sa protection et son appui.</p>
+        <p>Par ma precedente lettre à <persName key="p0114">M<hi rendition="#sup">r</hi>. le Comte de Panin</persName>
+        </p>
+        <pb n="f. 6v" />
+        <p> Votre Excellence aura vû que le desarmement de l’Escadre Espagnole est certain et aura lieu dès que tous les vaisseaux seront rassemblés à <placeName key="g0098">Cartagène</placeName>. Mais nous avons des nouvelles, que de gros vents ont empêché son arrivée en ce port. Le vaisseau de l’Amiral a perdu deux mâts et est entré à Gibraltar; deux autres fregattes ont beaucoup souffert. Ceci doit moins être attribué à des accidents du mauvais tems, qu’aux mauvaises manoeuvres des officiers de marine. Le ton, avec le quel l’Angleterre a sçu demander aux Espagnols raisons du moindre </p>
+        <pb n="f. 7" />
+        <p> de leur armements, fera que peut-être de longtems ils n’oseront paroître en mer.</p>
+        <p>L’écriture injurieuse, qu’on a trouvée repandue dans <placeName key="g0020">Madrid</placeName>, n’a eu jusqu’à present aucune </p>
+        <p>mauvaise suite.</p>
+        <p>Par l’edit qu’on vient d’y publier, on peut voir combien d’importance le gouvernement attache à celà. Dépuis l’absence de <persName key="p0007">Mons[eigneu]<hi rendition="#sup">r</hi>. le Comte d’Aranda</persName> on s’apperçoit d’un rélachement dans la police de <placeName key="g0020">Madrid</placeName>. Il est certain, qu’il savoit imposer à la populace emportée de ce pays-ci ; il savoit la contenir dans l’obeïssance. </p>
+        <pb n="f. 7v" />
+        <p> De pareilles affaires donnent de l’inquétude à <persName key="p0036">S[a].M[ajesté]. Catholique</persName>. On croit s’appercevoir, que de jour en jour <persName key="p0036">le Roi</persName> perd de l’envie de s’appliquer aux affaires du gouvernement. La grande cherté de pain fait bien murmurer le peuple: Le prix en est comme il a été dans le tems de la dernière revolte.</p>
+        <p>Avant hier est arrivé ici un courrier avec l’affligeante nouvelle, de la maladie du <persName key="p0212">Roi de France</persName>.</p>
+        <p>
+          <persName key="p0000">Le Prince de Salins</persName>, qui dernierement à été en Russie, vient de quitter le service d’Espagne, sans autre pension que celle qu’il a de la Croix militaire, qui lui donne 30000 réaux. </p>
+        <pb n="f. 8" />
+        <p> On dit que <persName key="p0023">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> de Bruhl</persName>, n’aura pas la place de Ministre de Saxe à cette <orgName key="o0020">Cour</orgName>, mais que c’est <persName key="p0000">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> de Wertern</persName> qui sera nommé.</p>
+        <p>J’ai l’honneur d’être avec la considération la plus distinguée, et un attachement inviolable,</p>
+        <p>Monseigneur,</p>
+        <p>De Votre Excellence</p>
+        <p />
+        <p>  le tres humble et </p>
+        <p>tres obeisant Serviteur</p>
+        <p />
+        <p>
+          <persName key="p0154">S Zinowieff</persName>
+        </p>
+        <p>
+          <placeName key="g0097">Aranjuez</placeName>
+        </p>
+        <p>le 28. avril / 9. Mai. 1774.</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_1438_0001</p>
+        <p>ru_rgada_1263_1_1438_0002</p>
+        <p>ru_rgada_1263_1_1438_0004</p>
+        <p>ru_rgada_1263_1_1438_0005</p>
+        <p>ru_rgada_1263_1_1438_0006</p>
+      </div>
+    </body>
+  </text>
+</TEI>

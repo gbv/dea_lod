@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Peter von Staehlin to Jacob von Staehlin</title>
+        <author xml:lang="en">Peter</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>8 / 19 December 1780. – Letter from the secretary of the Russian Embassy in the Netherlands <persName key="p0363">Peter von Staehlin</persName> to his father <persName key="p0135">Jacob von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, fond 871, n°987, f. 57–58v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 57" />
+        <p> </p>
+        <p>№ 59 <placeName key="g0004">La Haye</placeName> le 8 / 19 Xbre 1780.</p>
+        <p>Malgré que l’hyver ne paroit point encore vouloir s’etablir hors de la Russie, puisqu’icy et en Allemagne un tems fort doux pour la saison continue toujours, il semble pourtant que les chemins commencent à redevenir meilleurs qu’ils n’ont eté ; car la poste de <placeName key="g0012">Berlin</placeName> m’a apporté Dimanche au soir déjà Votre lettre № 67. du 18. 9bre.</p>
+        <p>Vous savés il y a quelque tems, actuellement par une de mes précedentes lettres, que le vaisseau en question est arrivé, et que j’ai à la fin bien reçu la caisse au thé verd, Tabac &amp;c. &amp;c. de même que j’espère que bien longtems avant la reception de la présente, le Courrier hollandois Vous aura apporté egalement la petite Caissette aux oignons des fleurs. Ce Courrier doit etre arrivé chés Vous plus tard qu’il n’y avoit lieu de le supposer d’abord ; car à peine etoit il expedié et parti d’icy (c’etoit un Samedy) et peut etre eloigné d’icy de quelques lieues seulement, que le Ministère de cette République dépêcha un Second Courrier, avec ordre de tacher de rattraper le premier et de le ramener icy. Effectivement le premier ayant eu le malheur de verser dans son cabriolet entre <placeName key="g0096">Leide</placeName> et <placeName key="g0137">Utrecht</placeName>, fut atteint par le dernier et tous les deux révinrent icy ensemble le même Samedy au Soir. Vous sentés bien que nous fumes assés intrigués pour decouvrir les motifs de ce retour du Courrier, qui ne repartit tout de bon d’icy que le Lundy suivant ; et au bout de quelques </p>
+        <pb n="f. 57v" />
+        <p> jours nous en vinmes à bout, savoir que <orgName key="o0017">L.L.H.H.P.P.</orgName> avoient oublié de faire part à Leurs Plénipotentiares de la resolution qu’ils ont prises, à l’egard de la satisfaction à donner à la <orgName key="o0002">Cour de Londres</orgName> au sujet des plaintes portées par <orgName key="o0002">cette Cour</orgName> contre la ville d’<placeName key="g0010">Amsterdam </placeName>qui comme Vous savés a entretenue une Correspondance illicite avec les sujets rebelles de l’Amerique Septentrionale et dressé même un projet d’un Traité d’amitié et de Commerce avec les Soidisants treize etats de l’Amerique unie. Il ne paroit cependant point que la <orgName key="o0002">Cour de Grande Bretagne</orgName> se contente de la satisfaction meditée, puisque le <persName key="p0369">Cheval[ie]r Yorck</persName> ayant reçu un courrier de <orgName key="o0002">sa Cour</orgName> a presenté la semaine passé un Mémoire ulterieur aux <orgName key="o0017">Etats generaux</orgName>, par lequel il insiste de nouveau sur une réponse promte et cathégorique à cet égard et une satisfaction eclatante contre la ville d’<placeName key="g0010">Amsterdam</placeName>.</p>
+        <p>Tout ce que <persName key="p0371">Ma chère Mère</persName> jugera à propos de faire avec mon petit Capital qui est entre ses mains sera très bien fait et approuvé par moi avec toute la reconnoissance possible, de façon que mes interêts etant en si bonnes mains je ne saurois aussi absolument rien prescrire à cet egard. Quant à l’article qui concerne la petite caisse de reserve pour des cas de besoin, je me borne de confirmer ce que j’ai dit là-dessus dans mon № 56. du 28. 9bre, et ne suis point d’avis du tout qu’on me fasse une remesse [?] </p>
+        <pb n="f. 58" />
+        <p> surtout avec ce mauvais cours de change actuel ; mais je repéte mon idée anterieure Si la chose peut se faire, que <persName key="p0391">Mr Charles Wolff</persName> me procure un credit à <placeName key="g0010">Amsterdam</placeName> chés son associé <persName key="p0392">Mr Melville</persName> ou quelque autre banquier, pour la somme de 5. à 6. cent florins seulement ou moins même, àfin de suivre l’idée de <persName key="p0371">Ma chère Mère</persName> pour n’employer que le surplus des 1000. roubles de mon Capital, ce qui dans le mois d’août passé faisoit 161. Roubles 70. Copécs, par conseq[uen]t actuellemnt en plaçant de rechef les 500. Roubl. rentrées de <persName key="p0000">Mr de Rosencampf</persName>, et en ajoutant à ces 161. Roubles les interêts des 500. en question, prés de 200. roubles ou environ 400. florins. En ayant de cette façon un credit limité à <placeName key="g0010">Amsterdam</placeName>, je n’en ferais usage qu’en cas de besoin, et il se peut que je n’en touche pas beaucoup, et conséquemment il n’y aura guères à perdre sur le cours de change, puisque vous ne payeriés à <placeName key="g0002">Petersbourg</placeName> qu’à mesure que j’aurais tirés sur mon argent, et pas plus que j’assignerois, ce qui fait qu’il ne faudroit point de remise fixe. Pour des marchandises à faire venir de Russie, je serais embarassé de vous dire lesquelles seroient profitables, car le Commerce d’Amsterdam pour la Russie est si grand et si bien établie qu’on y a toutes les productions de Russie à meilleur marché que nous ne pourrions les procurer, ce que fait la grande quantité et le nombre des Commissions et Commissionaires dans cette Ville commercante. Si l’occasion de quelque voyageurs ou Courrier se présentoit je supplie <persName key="p0371">Ma chère Mère</persName> de m’envoyer quelques lambeaux (Лоскутик) de peau de mouton noire et fine pour raccomoder mon touloupe et bêqueme [?] et substituer des nouveaux morceaux </p>
+        <pb n="f. 58v" />
+        <p> aux parties usées, ce qui les fera encore durer longtems.</p>
+        <p>J’ai vu dans une de nos Gazettes de Petersb[our]g la recette des gouttes nervines de Bestoucheff publiée par <persName key="p0000">Mr Winterberg</persName>, mais comme toute ces sortes de choses sont periodiques, et sont quelquefois en vogue et puis ensuite ne le sont plus, je crois que le public medyse le secret communiqué n’en fera pas grand usage. Vous aurés donc le plaisir de revoir à <placeName key="g0002">Petersbourg</placeName> notre digne <persName key="p0393">General Brill</persName> auquel je souhaite une place telle qu’il la souhaite lui-même. <orgName key="o0044">Le Collège</orgName> auquel il présidoit et plusieurs autres ayant donc eté réformés, je suis impatient de voir le nouvel <orgName key="o0045">Almanac de la Cour</orgName> ou autre pour voir par quels Departements des Наместничество ces Collèges ont eté remplacés ; et dans l’almanac françois de la Cour je suis curieux de voir comment on a traduit touttes ces rubriques des Departements nouveaux, p[ar] e[xemple] Совестной судъ, уголовный судъ, верхная расправа, общественное призренiе.</p>
+        <p>
+          <persName key="p0394">Mr le Duc de Vauguyon</persName> amb[assadeur] de France est parti p[our] un couple de mois p[our] <placeName key="g0019">Paris</placeName> et notre ami <persName key="p0395">Berenger</persName> est resté icy chargé des affaire. Et ces jours ci le ministre de Portugal <persName key="p0396">Mr de Souza</persName> qui avoit eté p[our] quelque tems à <placeName key="g0003">Londres</placeName> p[our] y veiller aux affaires de sa <orgName key="o0027">Cour</orgName> pendant l’absence de <persName key="p0397">Mr Pinto</persName> est revenu icy. Vous devés avoir actuellement à <placeName key="g0002">Petersb[ourg]</placeName> un jeune aimable anglois fort instruit nommé Poleca[?] parent du <persName key="p0369">C[hevalie]r Yorck</persName> si vous le voyés faites lui mes complim[ents] &amp;c. &amp;c.</p>
+        <p />
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0002</p>
+        <p>ru_nlrmss_871_988_0003</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0001</p>
+        <p>ru_nlrmss_871_989_0002</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_990_0001</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0002</p>
+        <p>ru_nlrmss_871_1012_0003</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+        <p>ru_nlrmss_871_1016_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

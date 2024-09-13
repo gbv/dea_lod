@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Сhamberlain at the Polish-Saxon court, John Maurice Count of Bruhl to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">John</author>
+        <author xml:lang="en">Maurice</author>
+        <author xml:lang="en">Bruhl</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>24 October 1760. – Letter from <persName key="p0023">the Chamberlain at the Polish-Saxon Court, John Maurice Count of Bruhl</persName> to <persName key="p0065">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 651, f. 7–8v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 7" />
+        <p />
+        <p>
+          <placeName key="g0004">La Haye</placeName> ce 24. 8<hi rendition="#sup">bre</hi> 1760.</p>
+        <p>Monseigneur</p>
+        <p>Nous sommes ici dans de grandes inquietudes au sujet de tout ce que nous entendons dire de tous cotés que la fameuse expedition vient de se faire sur les cotes des Païs-Bas Imp<hi rendition="#sup">x</hi>. Il y a même un article dans une des gazettes du Païs qui dit qu’il y a dix mille hommes de débarquer et que les Anglois sont deja maitres d’<placeName key="g0048">Anvers</placeName>. Cependant ce ne sont encore que des dire, mais </p>
+        <pb n="f. 7v" />
+        <p> ce qui m’inquiete le plus est, que nous n’avons pas de nouvelles de Votre Excellence depuis le 7. d.c. et c’est ce qui me fait croire tous les bruits qui se repandent ne voyant personne qui m’assure du contraire et qui puisse mieux me mettre en état de sçavoir ce qui se passe à ce sujet que Vous.</p>
+        <p>La derniere affaire n’est pas tout à fait aussi glorieuse pour les François qu’ils le débitent sans leur grosse artillerie ils etoient battu d’importance; selon une lettre de <persName key="p0714">Mr de Kinkel</persName> de <placeName key="g0050">Cleves</placeName>, qui est commissaire de l’<persName key="p0100">Imp[eratri]ce Reine </persName>pour ce Païs-là. Il dit que l’affaire du 16. est absolument une surprise pour les François qui avoient pris l’avant garde du <persName key="p0060">P[rin]ce hereditaire</persName> qui etoit venu les reconnoitre la veille, pour quelques trouppes legeres. Que l’affaire s’etoit entamée  à quatre heure du matin, que <persName key="p0130">Mr de Segur</persName> a été pris </p>
+        <pb n="f. 8" />
+        <p> dans son lit et que plusieurs regimens ont combattu en chemise, et que l’avantage avoit été du cote des ennemis jusqu’a huit heures, que l’artillerie françoise en arrivée et qui a fait des merveilles, et que les Hannovriens ont été obligé de se retirer et qu’on les poursuivoit encore de l’autre côté du Rhin, que <placeName key="g0046">Wesel</placeName> étoit enfin entierement delivré.</p>
+        <p>Vous aurés deja reçu la derniere que j’ai l’honneur de Vous ecrire et de Vous mander que <placeName key="g0012">Berlin</placeName> etoit evacué, malheureusement je le confirme aujourd’hui. Nous n’avons pas de nouvelles d’Allemagne, la poste n’étant pas encore arrivée.</p>
+        <p>J’ai l’honneur d’être avec la plus haute consideration</p>
+        <p>Monseigneur</p>
+        <p>de Votre Excellence</p>
+        <p>Le tres humble et très obeïssant </p>
+        <p>serviteur</p>
+        <p>
+          <persName key="p0023">Le Chevalier de Bruhl</persName>
+        </p>
+        <p />
+        <pb n="f. 8v" />
+        <p />
+        <p>
+          <placeName key="g0004">La Haye</placeName> le 24 8<hi rendition="#sup">bre</hi>
+        </p>
+        <p>1760 M<hi rendition="#sup">r</hi>. le <persName key="">Cte de </persName>
+        </p>
+        <p>
+          <persName key="p0023">Bruhl, chevalier</persName>
+        </p>
+        <p>
+          <persName key="">de Malte</persName>.</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_651_0001</p>
+        <p>ru_rgada_1263_1_651_0002</p>
+        <p>ru_rgada_1263_1_651_0003</p>
+        <p>ru_rgada_1263_1_651_0005</p>
+        <p>ru_rgada_1263_1_651_0006</p>
+        <p>ru_rgada_1263_1_651_0007</p>
+      </div>
+    </body>
+  </text>
+</TEI>

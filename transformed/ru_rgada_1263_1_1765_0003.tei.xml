@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy Extraordinary to the Lower Saxony Imperial Circle, Sergei Vasil'evich Saltykov to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Sergei</author>
+        <author xml:lang="en">Vasilievich</author>
+        <author xml:lang="en">Saltykof</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1 July 1757. – Letter from <persName key="p0256">the Russian Envoy Extraordinary to the Lower Saxony Imperial Circle, Sergei Vasil’evich Saltykov</persName> to <persName key="p0065">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1765, f. 14–14v, 15v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 14" />
+        <p />
+        <p>Monsieur</p>
+        <p>La lettre qu’il vous à plu me faire conjointement avec celle pour Monsieur <persName key="p0253">le Feld Marschall d’Apraxin</persName>, m’etant bien parvenuës j’ai l’honneur de vous en accuser la reception. Mais n’aiant en mon pouvoir point d’autre route que celle par la Suede et par <placeName key="g0002">Petersbourg</placeName> j’ai éte obligé de m’en servir. Au reste je suis veritablement confus Monsieur des excuses que Vous me faites sur la peine que Vous supposés me faire. J’ose Vous assurer que chaque moment me sera heureux ou je pourrois trouver l’occasion de vous rendre de services plus essentiels que ceux que jusqu’ici j’ai eté à portée de Vous rendre. Je serai d’autant plus avide à les saisir qu’ils me serviront en quelque façon de preuve de la haute estime et de la parfaite consideration avec la quelle j’ai l’honneur d’etre</p>
+        <p>			</p>
+        <p>Monsieur</p>
+        <p>			Votre tres humble et tres obeissant</p>
+        <p>			Serviteur <persName key="p0256">Saltikoff</persName>
+        </p>
+        <p>
+          <placeName key="g0011">Hambourg</placeName> ce 1 Juillet/20 Juin.</p>
+        <p>1757.</p>
+        <p />
+        <pb n="f. 14v" />
+        <p />
+        <p>P.S.</p>
+        <p>Quoique Vous soiés peut etre deja informé en partie des operations de Boheme, je ne veux cependant pas manquer de Vous annoncer qu’il est très sur que <persName key="p0061">le Roi de Prusse</persName>, aiant avec le <persName key="p0012">Prince de Bevern</persName> attaqué <persName key="p0044">le Marschal Daun</persName> a souffert une deroute decisive qui l’a forcé de lever le siege de <placeName key="g0061">Prague</placeName> avec precipitation et perte. Voilà qui est sur, puisque des lettres et les gazettes de <placeName key="g0012">Berlin</placeName> l’annoncent memes. Mais je reçois ce moment une lettre qui ne paroit pas partir d’une main peu sure, que durant l’action, <persName key="p0022">le Marechall Brown</persName> seroit sorti sur <persName key="p0289">le Marschal de Keith</persName> qui gardoit le siege de <placeName key="g0061">Prague</placeName>, et l’auroit battu à platte couture. Vous jugés bien Vous meme Monsieur de quel poids ces victoires doivent etre dans les affaires.</p>
+        <p>
+          <persName key="p0256">Saltikoff</persName>
+        </p>
+        <p />
+        <p></p><pb n="f. 15v"/><p></p>
+        <p>
+          <placeName key="g0011">Hambourg </placeName>le 1 Juillet 1757.</p>
+        <p>
+          <persName key="p0256">M<hi rendition="#sup">r</hi> de Saltikoff</persName>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

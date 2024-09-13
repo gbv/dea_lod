@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Saxon Resident in The Haag, Johann Heinrich Kauderbach, to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Heinrich</author>
+        <author xml:lang="en">Kauderbach</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17 July 1759. – Letter from <persName key="p0084">the Saxon Resident in The Hague, Johann Heinrich Kauderbach</persName>, to <persName key="p0065">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1593, f. 10–12v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 10" />
+        <p />
+        <p>
+          <placeName key="g0004">La Haye</placeName> le 17. Juillet. 1759.</p>
+        <p />
+        <p>J’ai bien reçu la très gracieuse lettre dont Vous m’avez honoré, mon Prince, le 10. d.c. Nous savons bien mieux, Monseigneur, surtout ce que <persName key="p0122">Mons Rodney</persName> voudroit bien faire croire au Public de son Expédition de Don <hi rendition="#u">Quixot</hi>. Le domage qu’il a fait est si peu de chose, qu’il n’est pas la peine d’en parler. Il est faux que cet homme ait brulé ou même entamé un seul batteau plat. Il a brulé une seule Maison, qui est une Auberge hors des Portes de la Ville, et que sa berlue lui a fait prendre pour un Magazin. Si les Anglois font encore beaucoup d’expéditions pareilles ils iront loin. Mais ils ne se vanteront pas de la perte qu’ils ont fait eux mêmes devant le havre. C’est domage qu’ils se soient retirez si tôt; mais force leur a été de le faire. <orgName key="o0019">La Cour</orgName> avoit envoyé <persName key="p0123">M<hi rendition="#sup">r</hi>. Rostaing</persName> excellent Officier d’Artillerie, pour tâcher de les regaler d’un petit feu d’Artifice qui les attend à la première occasion. Malheureusement cet Officier les a trouvez partis.</p>
+        <p>
+          <persName key="p0041">M<hi rendition="#sup">r</hi>. le Mã[récha]l. de Conflans</persName> est arrivé à <placeName key="g0117">Brest</placeName>, et il va mettre </p>
+        <pb n="f. 10v" />
+        <p> son vaisseau en <placeName key="">Rade</placeName>. On y arme actuellement le Palmier pour le joindre à la flotte. Après le mauvais succès des Armes françoises en Amerique, il paroit qu’on cherche serieusement à reparer les pertes, que l’on y a faites, par la vigueur que l’on mettra à bien exécuter le Projet formé pour la Descente en Angl<hi rendition="#sup">e</hi>. C’est en effet le seul moyen qui reste pour pouvoir se retablir de ces pertes, et c’est cette reflexion qui me fait croire plus qu’aucune autre chose que l’Intention est de réaliser ce dessein; et de la façon dont il paroit, qu’il est concerté ; je crois qu’il peut avec raison donner à penser aux Anglois, et qu’ils n’en seront pas quitte pour la peur.</p>
+        <p>	L’Inaction du <persName key="p0044">Ma[réch]ãl. Daun</persName> ne doit plus surprendre personne après qu’on verra présentement les raisons qui l’ont occasioné. Il étoit nécessaire de couvrir les Etats de <persName key="p0100">l’Imp[erial]<hi rendition="#sup">e</hi>. Reine</persName>, et d’empecher <persName key="p0066">le Roi de Prusse </persName> de prévenir les Arrangemens que demandoit le Plan des Operations arrêté parmi les Alliez. Il falloit surtout laisser gagner aux Russes le tems nécessaire pour se mettre à portée d’y concourrir efficacement aussi <persName key="p0044">le Mã[récha]l. Daun</persName> eût il à peine reçu l’avis certain, que ceux-ci </p>
+        <pb n="f. 12" />
+        <p> seroient rassemblez entre le 22. et le 23. d.p. à <placeName key="g0294">Posen</placeName> qu’il se mit en mouvement, et marcha sur plusieurs colonnes par sa gauche pour se porter à <placeName key="g0129">Reichenberg</placeName>, et de là sur la <placeName key="g0130">Queiss</placeName>; d’où il continuera a marche en force, après deux ou trois jours de repos. Ilété joint par le Corps du General Gemmingen. Il a fallu preferer ce parti à celui de s’aprocher du <persName key="p0061">Roi de Prusse</persName>, en penetrant par les Gorges de <placeName key="g0124">Trautenau</placeName>
+          <placeName key="g0125">Braunau</placeName>; ces Debouchez étant trop bien defendu et soutenus par des places fortes. Pour la sureté des frontières <persName key="p0044">M<hi rendition="#sup">r</hi>. de Daun</persName> a laissé en Bohème <persName key="p0081">le Gaãl[General]. Harsch</persName>, et dans la haute Silesie le <persName key="p0141">General de Ville</persName>. Leur Destination ulterieure se règlera sur la suite des Operations de la Grande Armée. Le <persName key="p0080">Gaãl[General]. Haddyck</persName> se trouve du coté des frontières de la Saxe, tant pour observer <persName key="p0060">le Prince Henry</persName>, que pour couvrir le flanc et le Dos de l’Armée du <persName key="p0044">Ma[réch]ãl. Daun</persName>.</p>
+        <p>Nous esperons d’aprendre par les premières lettres, que les Russes auront depassé <placeName key="g0294">Posen</placeName>. Il s’est avancé à la verité un Corps de 30/m. Prussiens aux ordres du <persName key="p0046">G[ener]ãl. Dohna</persName>, pour s’aprocher de la <placeName key="g0131">Warthe</placeName>; Mais ils ont deja rebroussé chemin ayant trouvé toute l’Armée Russe assemblée, et du double plus </p>
+        <pb n="f. 12v" />
+        <p> forts qu’eux ; de sorte qu’ils ne mettront pas un Obstacle invincible à la Marche de votre Armée.</p>
+        <p>
+          <orgName key="o0038">La Gazette de Cologne</orgName> annonce <placeName key="g0132">Minden</placeName> pris l’épée à la main la nuit du 10. à l’11. et la Garnison prisonière. Nous venons de recevoir la même nouvelle de <placeName key="g0035">Bruxelles</placeName>. Cela n’empêche pas, que je ne la regarde comme une Bourde ; parce que j’y ai vû une Lettre de <persName key="p0000">M<hi rendition="#sup">r</hi>. d’Armantières</persName> du 19. qui n’en sonne mot.</p>
+        <p>Il a passé ici successivement deux courriers prussiens pour Londres. <persName key="p0061">S[a].M[ajest]<hi rendition="#sup">é</hi>. Pr[ussien].</persName> auroit elle besoin d’argent ? Ce ne sera pas sa faute s’il ne tire des Anglois tout ce qu’il pourra, sans qu’ils tireront jamais de lui que de très mauvais services. Ils n’accepteront peutêtre pas l’augure aujourd’hui; Mais cet oracle est plus sûr que chose au monde. <persName key="p0000">M<hi rendition="#sup">r</hi>. v[an]. Hellen</persName> brille ici avec une épée d’acier faite à <placeName key="g00012">Berlin</placeName>, qui efface toutes les fabriques d’Angl[eterr]<hi rendition="#sup">e</hi>. Aussi y a. t. on debauché le meilleur ouvrier Anglois. <hi rendition="#u">Ex ungue </hi>
+          <hi rendition="#u">leonem </hi>! Daignez, Monseigneur, agréer les assurances ordinaires de mon profond respect.</p>
+        <p />
+        <pb n="f. 11" />
+        <p />
+        <p>P.S.</p>
+        <p>Dans ce moment <persName key="p0003">M<hi rendition="#sup">r</hi>. l’Ambassadeur de France</persName> vient de me faire dire, qu’il a passés hier un Courrier du <persName key="p0042">M[arech]ãl des Contades</persName> à <placeName key="g0035">Bruxelles</placeName>, avec la Nouvelle certaine, que <placeName key="g0132">Minden</placeName> a été pris l’epée à la main, et qu’on y a fait mille quatre cent prisonniers, et parmi eux le commandant, qu’on dit être le fils du <persName key="p0153">G[ener]ãl Zastrow</persName>. Voilà donc <persName key="p0055">le P[rinc]<hi rendition="#sup">e</hi>. Ferdinand</persName> coupé d’<placeName key="g0008">hannovre</placeName>. <placeName key="g0138"> Munster </placeName>ne peut pas tenir. Cette place est investie de tous cotez. On n’attend que la grosse Artillerie de <placeName key="g0046">Wesel</placeName> pour la battre. Il s’y trouve 4 mille h.<hi rendition="#sup">s</hi> sous le <persName key="p0153">Gãal[General]. Zastrow</persName>. Le Coup de filet sera bon: et surement il n’échapera pas. Il est resolu de faire tout prisonnier, et de ne plus accorder d’autre capitulation. <persName key="p0020">M<hi rendition="#sup">rs</hi>. de Broglio</persName> se distinguent bien.</p>
+        <p>	Lux fait bien courrir pour donner son compte. J’espère de l’envoyer à Votre Excell[enc]<hi rendition="#sup">e</hi>. par le courrier prochain.</p>
+        <p>
+          <placeName key="g0132">Minden</placeName> pris fera faire de vilaines grimaces dans un certain endroit. Nous voyons ici certain personnage grincer des Dents en pareille occasion.</p>
+        <p />
+        <pb n="f. 11v" />
+        <p />
+        <p>
+          <placeName key="g0004">La Haye</placeName> le 17. Juillet 1759.</p>
+        <p>de <persName key="p0084">M<hi rendition="#sup">r</hi>. Kauderbach</persName>
+        </p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_1588_0001</p>
+        <p>ru_rgada_1263_1_1588_0002</p>
+        <p>ru_rgada_1263_1_1589_0002</p>
+        <p>ru_rgada_1263_1_1589_0003</p>
+        <p>ru_rgada_1263_1_1593_0002</p>
+        <p>ru_rgada_1263_1_1593_0003</p>
+        <p>ru_rgada_1263_1_1600_0001</p>
+        <p>ru_rgada_1263_1_1600_0002</p>
+        <p>ru_rgada_1263_1_1588_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

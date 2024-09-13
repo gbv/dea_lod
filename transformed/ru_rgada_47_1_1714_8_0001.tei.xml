@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Hanoverian Resident in Russia, Friedrich Christian Weber to the Secretary of the Ambassadorial Chancellery, Heinrich Johann Friedrich von Ostermann</title>
+        <author xml:lang="en">Freidrich</author>
+        <author xml:lang="en">Christian</author>
+        <author xml:lang="en">Weber</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>4 / 15 March 1714. – Letter from <persName key="p0734">the Hanoverian Resident in Russia, Friedrich Christian Weber</persName> to <persName key="p0167">the Secretary of the Ambassadorial Chancellery, Heinrich Johann Friedrich von Ostermann</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 47, opis 1, 1714, no. 8, f. 1–4. German original. Russian translation from</bibl>
+          </note>
+        </head>
+        <p> German: RGADA, fond 47, opis 1, 1714, no. 8, f. 5–7v.</p>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p> Ich habe gestern unterm 15. Febr[uary] n[ovi] st[ili] aus <placeName key="g0008">Hannover</placeName> erhalten, daß <persName key="p0532">S[ein]e königl[iche] May[estä]t v[on] Dennem[arck]</persName> den <persName key="p0671">h[errn] von Wedderkop</persName> in Freiheit und dero schutz gesezet. Sie wollen nichts mehr mit dem <persName key="p0738">h[errn] Administrator</persName> und dero Ministris zu thun haben, sondern mit dem <persName key="p0221">jungen hertzog</persName> immediatè über deßen restitution tractiren, und ihm deshalben ein neues Conseil etabliren, worin der <persName key="p0671">h[err] von Wedderkop</persName> auch mit seyn dörffte. Weiln nun im Römischen Reich ein größeres Alter erfodert wird alß 14. Jahr um Majorennis zu seyn, so wollen <persName key="p0163">I[hro] k[ayserliche] M[ayestät]</persName> am <orgName key="o0023">kay[serichen] hofe</orgName>
+        </p>
+        <pb n="f. 1v" />
+        <p> veniam ætatis in ansehen des Holstein[ischen] herzogthums suchen laßen, und haben zu dem ende den <persName key="p0674">Obristen Löwenöhr</persName> dahin gesandt  Der <persName key="p0737">Graf Steenbock</persName> hat den <orgName key="o0055">Senat</orgName> zu <placeName key="g0017">Stokholm</placeName> gerathen hiebey zu concurriren umb durch dieses Mittel den <persName key="p0221">jungen hertzog</persName> aus Sueden zu ziehen, und der <persName key="p0100">Printzeßin</persName> die succession im Reich zu versichern, Auf diese arth wird der zustand des <persName key="p0738">herrn Administratoris</persName> auf des Bischoffthums reduciret und und er in den embarras gesezet werden, rechenschafft von seiner tutele zu geben. der <persName key="p0302">Printz Eugenius</persName> hat nach der abgebrachenen </p>
+        <pb n="f. 2" />
+        <p> Conferentz noch 12. tage sich zu <placeName key="g0164">Stutgard</placeName> aufhalten wollen umb zu sehen ob Franckreich sich bedencken würde. Wozu aber wenig apparence ist weiln die Pariser Briefe nicht alß von præparatorien umb frühzeitig die campagne zu öfnen, reden.</p>
+        <p>
+          <persName key="p0727">S[eine]r Churf[ür]stl[ichen] Durchl[aucht]</persName> trouppen werden dem ansehen nach wieder nach dem Rhein und frühzeitig marchiren müßen.</p>
+        <p>
+          <persName key="p0739">I[hro] k[önigliche] M[ayestä]t von Preussen</persName>  hat seinen Ministris gesaget, Sie verböthen ihnen, Ihro hinfort kein Conseil mehr zu geben, welches Sie mit dem </p>
+        <pb n="f. 2v" />
+        <p>
+          <persName key="p0163">kayser</persName> und den <orgName key="o0017">General Staaten</orgName> brouilliren könte. Sie haben Ihren ersten Ministre den <persName key="p0740">Graff Christoffle von Dona</persName> an <persName key="p0163">I[hro] k[ayserliche] M[ayestät]</persName> gesandt umb sich dero guten Gunst zu versichern und trouppen zu offeriren.</p>
+        <p>Dieses ist resolviret worden ohne daß <persName key="p0741">Illigen</persName> und <persName key="p0742">Grombkau</persName> was davon gewust, und die deshalben sehr consterniret sind. Man darf also nicht fürchten, daß Sie Ihren herrn weiter antreten werden zu einiger Gewalt wieder Dennemarck <hi rendition="#sup">–</hi>in Faveur des Gottorp[ischen] hauses<hi rendition="#sup">–5 </hi>zu kommen.</p>
+        <p>Ein expresser aus <placeName key="g0003">Londen</placeName> hat vom 4<hi rendition="#sup">ten </hi>Jan[uary] n[ovi] st[ili] mitgebracht, daß die </p>
+        <pb n="f. 3" />
+        <p>
+          <persName key="p0668">königin</persName> den vorigen Abend wiederum schlimmer alß jemahls befallen, und daß man alle Medicos nach <placeName key="g0230">Windsor</placeName> kommen laßen, also daß man einen großen evenement gar nahe ist. </p>
+        <p>Ich habe ordre nochmahln die versicherung zu geben, daß wen das Braunschw[eigische] Churhauß zu der Crone von Engelland gelanget, daßelbe sich freuen und eine schuldigkeit machen wird in allen begebenheiten <persName key="p0174">S[ein]e Czaar[ische] May[estä]t</persName> zu obligiren und deroselben Proben einer wahrhafftigen Freundschafft zu geben. <persName key="p0727">S[eine]r ChurFürstl[ichen] Durchl[aucht]</persName> nehmen deswegen die besten </p>
+        <pb n="f. 3v" />
+        <p> resolutiones, auch alle mesures mit den <orgName key="o0017">h[erren] General Staaten</orgName>, die ietzo anfangen über ihren zustand die augen zu öfnen, desfalß Sie ihre trouppen von 50. m[ille] biß auf 80. m[ille] Mann verstärcken, und eine gute escadre armiren.</p>
+        <p>Der <persName key="p1279">h[err] von Fabrice</persName> ist nach Braunschweig gangen umb sich mit dem <persName key="p0744">h[errn] Gr[aff] von Schönborn</persName> zu abouchiren, Man dringet unserseits gar sehr an allen ohrten, daß die Plenipotentiarii sich dahin begeben mögen und wünscht, daß auch <persName key="p0174">S[ein]e Czaar[ische] May[estä]t</persName> die Ihrige dorten bald hinsenden auch dazu <persName key="p0532">S[einer] k[öniglichen] M[ayestät]</persName> von </p>
+        <pb n="f. 4" />
+        <p> Dennem[arck] dazu anrathen auch daß diese Crone eine vollenkommene gute verständniß mit <persName key="p0727">S[eine]r ChurFürstl[ichen] Durchl[aucht]</persName> fernerhin unterhalten möge, wozu Sie ihres Ohrts alles mögliche beytragen und würde eine geneigte exhortation von <persName key="p0174">S[eine]r Czaar[ischen] M[ayestät]</persName> an ged[achte] Crone ein großes hinzu contribuiren.</p>
+        <p>
+          <placeName key="g0002">S[ank]t Petersburg</placeName>
+        </p>
+        <p>den 4/15. Marty						<persName key="p0734">Weber</persName>.</p>
+        <p>     1714.</p>
+        <p />
+        <pb n="f. 4v" />
+        <p>
+          <persName key="p0167">Г[о]с[по]д[и]ну секретарю Остерману</persName>. Приобщено от <persName key="p0734">секретаря Вебера</persName> и переведено.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

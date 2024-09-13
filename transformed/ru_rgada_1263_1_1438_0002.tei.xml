@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Spain Stepan Stepanovich Zinov'ev to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Stepan</author>
+        <author xml:lang="en">Stepanovich</author>
+        <author xml:lang="en">Zinov'ev</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>21 April/2 May 1774. – Letter from <persName key="p0154">the Russian Envoy to Spain Stepan Stepanovich Zinov’ev</persName> to <persName key="p0065">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1438, f. 4–4v, 5. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 4" />
+        <p />
+        <p>Monseigneur,</p>
+        <p />
+        <p />
+        <p>J’ai l’honneur de joindre une notte de vaisseaux, de l’Escadre à <orgName key="g0098">Carthagene</orgName>, sous les ordres du Chef d’Escadre <persName key="p0073">Don Pedro Castejon</persName>. L’objet de cet armement n’est pas encore connu. Peut-etre même qu’il n’y aura d’autre but, que de la faire croiser dans la Mediterranée, et de donner un peu de pratique aux officiers, qui en ont besoin. Dès que je saurai quelque chose de la destination de cette Escadre, je ne manquerai pas, d’en informer Votre Excellence. Je crois qu’on peut assurer que la grande <persName key="p0099">Duchesse de Toscane</persName> ne viendra pas, quoique jamais la <orgName key="o0020">Cour</orgName> ne </p>
+        <pb n="f. 4v" />
+        <p> voudra avouer publiquement le refus de la <persName key="p0099">Duchesse</persName>.</p>
+        <p>On dit que le <persName key="p0023">Comte de Bruhl, chevalier de l’ordre de Malte</persName>, sera nommé Envoyé Extraordinaire de la <orgName key="o0012">cour de Saxe</orgName> auprès celle d’<orgName key="o0020">ici</orgName>.</p>
+        <p>J’ai l’honneur d’être avec la consideration la plus distinguée et atachement inviolable</p>
+        <p>Monseigneur</p>
+        <p>De Votre Excellence</p>
+        <p />
+        <p>le tres humble et tres </p>
+        <p>        obeisant serviteur</p>
+        <p>
+          <persName key="p0154">de Zinowieff</persName>
+        </p>
+        <p>
+          <placeName key="g0097">Aranjuez</placeName>
+        </p>
+        <p>le 21. avril /2. May.</p>
+        <p>1774.</p>
+        <p />
+        <p />
+        <pb n="f. 5" />
+        <p />
+        <p>Liste de vaisseaux de guerre sous les ordres de <persName key="p0073">Don Pedro Castejon</persName>
+        </p>
+        <p>De ligne:
+</p>
+        <p>S<hi rendition="#u">
+            <hi rendition="#sup">t</hi>
+          </hi> Nicolas ----------------------------------------------------------------80 canons 600 hommes</p>
+        <p>S<hi rendition="#u">
+            <hi rendition="#sup">t</hi>
+          </hi> Raphael Cap. Don Mich. Gaston ----------------------------------70 -------  500 -------  </p>
+        <p>S<hi rendition="#u">
+            <hi rendition="#sup">t</hi>
+          </hi> Dominique Cap. Don Don M. de la Sterria --------------------- 70 ------- 500-------  </p>
+        <p>S<hi rendition="#u">
+            <hi rendition="#sup">t </hi>
+          </hi>Genaro Cap. Don Alexo Rabalcara -------------------------------- 70 ------- 500-------  </p>
+        <p>Fregattes :</p>
+        <p>S<hi rendition="#u">
+            <hi rendition="#sup">te</hi>
+          </hi> Marie Magdalene Cap. Don Ignacio Mendizabal       -------- 30 -------- 250-------  </p>
+        <p>une dite de <placeName key="g0098">Carthagene</placeName> ------------------------------------------------ 30 -------- 250-------  </p>
+        <p>                                                                                                      ____________</p>
+        <p>								      350 canons 2600 hommes</p>
+        <p>Encore quatre chebeques de <placeName key="g0098">Carthagene</placeName>
+        </p>
+        <p>de 28. à 30. canons chacune, ont ensembles       ------------------------------- 250 hommes</p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_1438_0001</p>
+        <p>ru_rgada_1263_1_1438_0003</p>
+        <p>ru_rgada_1263_1_1438_0004</p>
+        <p>ru_rgada_1263_1_1438_0005</p>
+        <p>ru_rgada_1263_1_1438_0006</p>
+      </div>
+    </body>
+  </text>
+</TEI>

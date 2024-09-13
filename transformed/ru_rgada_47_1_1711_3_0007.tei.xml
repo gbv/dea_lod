@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Draft of the Strongest Alliance between Tsar Peter I and Elector of Hanover, Duke of Brunswick-Lüneburg George Louis</title>
+        <author xml:lang="en">Hans</author>
+        <author xml:lang="en">Christoph</author>
+        <author xml:lang="de">Шлейниц</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>Not earlier than 11/22 July 1711. – Draft of the Strongest Alliance between <persName key="p0174">Tsar Peter I</persName> and <persName key="p0727">Elector of Hanover, Duke of Brunswick-Lüneburg George Ludwig</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 47, opis 1, 1711, no. 3, f. 63–65. Copy of German translation from Russian. Excerpt. Russian copy (excerpt): RGADA, fond 47, opis 1, 1711, no. 3, f. 84–85v.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 63" />
+        <p> Zu wißen sey hiemit Demnach die gegen Franckreich Alliirte, und in einem schweren kriege befangene Puissancen insgesambt, auch Chur=Fürsten und Stände des Heyl[igen] Römischen Reichs ins besondere nichts höher zu wünschen gehabt, als daß besagtes gantzes Reich und mithin das Schwedische Pommern, und die übrige Schwedische in Teutschlandt gelegene Provincien für dem in Pohlen und Norden sich angesponnenen kriegs=feuer völlig bewahret werden können, zu welchem ende auch hochbesagte Alliirte äusserste bemühung zwar angewandt, ein gewißes bekandtes Neutralitäts=Concert im <placeName key="g0004">Haag</placeName> gemachet, undt selbige Neutralität von </p>
+        <pb n="f. 63v" />
+        <p>
+          <persName key="p0174">S[eine]r Zaarischen May[estä]t</persName> und <persName key="p0525">des königes von Pohlen May[estä]t</persName> bloßerdings, auch von <persName key="p0532">des königes zu dennemark Norwegen May[estä]t</persName> auf gewiße maße angenommen, solche Neutralität aber von des königes von <persName key="p0193">Schweden May[estä]t</persName> durch verschiedentlich wiederhohlte declarationes gäntzlich verworffen worden, deswegen <persName key="p0174">S[eine]r Zaarische May[estä]t</persName> und dero hohe Alliirte an Ihre wegen observirung solcher neutralität gethane versprechen sich ebenmäßig weiter nicht gebunden halten wollen, auch verneinet, bey so gestalten Sachen länger nicht entübriget seyn zu können, die königl[ich] Schwedische Provincien, und vornemblich die Schwedische </p>
+        <pb n="f. 64" />
+        <p> in Pommern stehende trouppen, damit dieselbe <persName key="p0174">S[eine]r Zaarischen May[estä]t</persName> und dero hohen Alliirten nicht nach Pohlen, wie Sie vorhätten, in den Rücken gehen könten, anzugreiffen, und also denen wieder Franckreich Alliirten Puissancen nicht möglich gewesen, solchen angriff des Schwedischen Pommern und der darin stehenden Schwedischen trouppen ferner hin= und abzuhalten; Alß ist zwischen mehrhöchstbesagter <persName key="p0174">S[eine]r Zaarischen May[estä]t</persName> und <persName key="p0727">Seiner Churfürstl[ichen] durchl[aucht] zu Braunschweig und Lüneburg</persName> durch Ihre dazu gevolmöchtigte Ministros zum besten dieser Nachbahrschafft, und beyderseitiger hoher Alliirten geschloßen und verglichen worden, wie folget: </p>
+        <p />
+        <pb n="f. 64v" />
+        <p>					1.</p>
+        <p>Versprechen <persName key="p0727">S[eine] Churfürstl[iche] durchl[aucht]</persName> alle möglichste officia anzuwenden, daß die gegen Franckreich alliirte hohe Puissancen gegen <persName key="p0174">S[eine] Zaarische May[estä]t</persName> und dero hohe Alliirte nicht Pathey nehmen, noch diesen in dero vornehmen gegen Pommern sich de facto wiedersetzen oder Hinderung machen mögen.</p>
+        <p>2.</p>
+        <p>Dahingegen versprechen <persName key="p0174">S[eine] Zaarische May[estä]t</persName> für sich, auch bey dero hohen Alliirten ein gleiches zu wege zu bringen, daß dieselbe denen hohen Alliirten wieder <hi rendition="#sup">–</hi>Franckreich ferner<hi rendition="#sup">–2 </hi>nicht anmuthen, oder in Sie dringen wollen, daß Sie wieder <persName key="p0193">Seiner königl[ichen] May[estä]t von Schweden</persName> Parthey </p>
+        <pb n="f. 65" />
+        <p> nehmen, und mit dem, obgedachten, im <placeName key="">Haa</placeName>
+          <placeName key="g0004">g</placeName> gemacheten Concert zu folge zusammenführenden neutralitäts Corpo gegen Pommern mit agiren solten. {...}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

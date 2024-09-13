@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Letter from the Imperial Envoy Georg Gottfried von Koch] to [the Chancellor and Boiar, Prince] Vasilii [Vasil'evich] Golitsyn</title>
+        <title type="main" xml:lang="ru">Ко княз[ь] Васил[ь]ю Голицыну</title>
+        <author xml:lang="en">Georg</author>
+        <author xml:lang="en">Gottfried</author>
+        <author xml:lang="en">Koch</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>25 January 1685 [n.s.]. – [Letter from <persName key="p0612">the Imperial Envoy Georg Gottfried von Koch</persName>] to the [<persName key="p0488">Chancellor and Boyar, Prince] Vasilii [Vasil’evich] Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 32, opis 1, 1685, no. 1, f. 1–1v, 2v, 3–3v. German original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p> Durchleuchtig=Hochgebohrner Fürst. p[erge]</p>
+        <p>Gnädigster Fürst, vnd herr, herr. p[erge] p[erge]</p>
+        <p>Der <persName key="p0613">Bischoff von Aichstatt</persName>, welcher kay[serlicher] Plenipotentiarius zu <placeName key="g0028">Regenspurg</placeName> gewesen, ist mit todt abgangen. welches nicht ein wenige Perturbation in dem <persName key="o0063">Reichß Collegio</persName> verursachet; <persName key="p0614,p0615">Die landtgraffen zu hessen</persName> haben resolvirt, 3000 Mann zu fueß vndt 1500. zu pferdt wieder dem Erbfeindt zuübersenden, vndt solche zwar der kay[serlichen] Generalitet völlig zuunterwerffen. Auß Niderhungarn kombt nachricht ein, daß zu <placeName key="g0199">Neyheusel</placeName> ein grosse feyerßbrunst entstanden, vermittelst welcher, Einige gefangene Christen aus der dienstbarkeit entkom[m]en, vndt auff Com[m]orn übergangen, so confirmiren, daß zum dritten mahl Prouiant in <placeName key="g0199">Neyheusel</placeName> kom[m]en, doch aber noch vnbeschreibl[ich] </p>
+        <pb n="f. 1v" />
+        <p> Grosser Mangel am holz darinnen seye.</p>
+        <p>Auß türckhey wirdt berichtet, daß zwar in allen türck[hischen] vestungen alle mögliche anstalten künfftiger Campagne verfertiget werden, eß seye aber vnmöglich, so viel macht zusamben zubringen, daß die Porten offensivè agiren könte vndt seye der <persName key="o0011">türck[hische] Hoff</persName> auf vernehmen, daß zwischen <persName key="p0463">Ihro kay[serlichen] May[estä]tt</persName> vndt Franckreich in zwanzig Jahriges armistitium geschlossen, höchst Perturbiret, Indehme sie gewiß darfür gehalten, Eß werde Franckreich zu Sublevirung Ihrer Campag[ne] in Römi[schen] Reich ein grosse diversion machen. </p>
+        <p>Bey lezter Post ist auß Spanien nachricht eingeloffen, daß die Flotta glicklich angelanget, vndt würden von da zu bestreittung deß türcken krieg, merckl[iche] Gelts Subsidia hieher geschickt werden, dergleichen man </p>
+        <pb n="f. 3" />
+        <p> von <placeName key="g0007">Rom</placeName> nuhnmehro erwartet. Vnsere Reg[imen]te zu pferdt werden nechster tagen ihre remonta gelder erheben, Die zu fuß aber von dem Reichß Völckhern, wie schon gemeldet, recroutirt werden.</p>
+        <p>Chöllnische briff bringen versicherte nachricht, daß die 6. Compagnien zu fueß, welche <placeName key="g0200">hiesige Stadt</placeName>
+          <persName key="p0463">Ihro kay[serlichen] May[estä]tt</persName> in hungarn übersenden sollen, so baldt eß daß vetter zuläst, dahin abmarchiren werden. <persName key="o0062">Die Chur Chöllnische stände</persName> haben auff den landtag zu <placeName key="g0201">Boonn</placeName>
+          <persName key="p0616">S[ein]er Churfürstl[ichen] Durchleicht</persName> über die angefoderte Summa, noch 22500. R[eichsthaler] zu einem Magazin, solcheß zu <placeName key="g0204">Vlm</placeName>, oder zu <placeName key="g0028">Regenspurg</placeName> zum vnterhalt dero Völckher, Welche <persName key="p0616">Seine Churfürstl[iche] durchleicht</persName>, <persName key="p0463">Ihro kay[serlichen] May[estä]tt</persName> zum Succurs wieder dem Erbfeindt schickhen wollen, auffzurichten accordirt: zu welchen Magazin auch </p>
+        <pb n="f. 3v" />
+        <p> die bischthümber <placeName key="g0138">Münster</placeName>, <placeName key="g0202">Lüttig</placeName>, vndt <placeName key="g0203">hildesheimb</placeName> einige guete Summen beytrag würden. Mich anbey zu hochfürstlichen Gnaden Empf[e]hl[e]</p>
+        <p>Ewer Hochfürstl[ichen] Gnad[en]</p>
+        <p>vnd Excell[enz]</p>
+        <p>
+          <placeName key="g0005">Wien</placeName> d[en] 25. Jan[uary]</p>
+        <p>1685</p>
+        <p>in hochster Eyl</p>
+        <p>						Vnterthanig: gehorsambster</p>
+        <p>
+          <persName key="p0612">Georg Godefroy à Koch</persName>
+        </p>
+        <p>m[anu] p[ropria]</p>
+        <p />
+        <pb n="f. 2v" />
+        <p> Celsissimo ac <persName key="p0488">Excell[entissi]mo Domino, Dùo Basilio Basiledi Principi de Golicyn Czarearum M[ajes]ttatu Secreti Sigilli Custodi Bojaro Intimo, locum tententi Nouagardensi, et publicarum cum Legatis negotiorum Directori Dùo</persName> meo gratioso</p>
+        <p>à</p>
+        <p>
+          <placeName key="g0001">Moscau</placeName>
+        </p>
+        <p>Ко <persName key="p0488">княз[ь] Васил[ь]ю Голицыну</persName>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

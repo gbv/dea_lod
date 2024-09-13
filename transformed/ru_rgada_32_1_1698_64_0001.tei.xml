@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1698. – Answer to an inquiry about the highest ranks of the Holy Roman Imperial Army and their provisions</title>
+          <note>
+            <bibl>RGADA, fond 32, opis 1, no. 64, f. 11–12. German original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 11" />
+        <p> Andtwort auff den Ersten Punct Betreffent alle krieges Officia vom Generalissimo zum Gegneral [sic] undt Consequenter alle Officierer biß auff den geringsten Soldaten, welcher gestalt dieselbe vom höchsten an, biß zu den niedrigsten, wan Sie im Sommer zu felde Campiren, vndt in den Winter Quartieren liegen, verpfleget werden</p>
+        <p>Generalissimus ist der zeit keiner, [v]or diesen aber ist gewesen der <persName key="p0622">Hertzochk von Lottringen</persName>, welchen <persName key="p0638">S[eine]r Röm[ischen] k[a]ys[er]l[ichen] M[a]j[estä]tt Leibliche frau Schwester</persName>, nehmlich die hinter laßene Frau Wittbe <persName key="p0458">S[eine]r königl[ichen] M[a]j[estä]tt auß Pohlen Michaelis Wisniewieckj</persName>, zum Gemahl gehabt, welchen <persName key="p0463">d[er] Kayser</persName> zum Gouvernator über die gantze Provinz Tyrolen gemacht, auß welcher Province Er sich so viele einkünfften, alß Er selbst gewolt hatt machen können, wie auß folgenden officys zu ersehen</p>
+        <p>
+          <persName key="">General Leiutenant Ihro Durchl[aucht] Printz</persName>
+        </p>
+        <pb n="f. 11v" />
+        <p>
+          <persName key="p0639">Lovis von Baaden</persName>, hatt Jährlich von <persName key="p0463">Ihro kays[er]l[ichen] M[a]j[estä]tt</persName> 30000 fl[orin] Adjuta, Ordinair aber Monatl[ich] auff 300 Mund Portiones â 3 f[lorin] vndt 300 Pferde portiones â 6 f[lorin] sonst weiter keine besoldung, andere kays[er]l[iche] beschenckungen zu geschweigen</p>
+        <p>General der Cavallerie 120 Mundt undt 80 Pferde portiones wie im Erstgemeldeten anschlag</p>
+        <p>Ein General feldtMarschall abber 150 Mundt= vndt 100 Pferde port[iones] imgleichen wert, undt sofort</p>
+        <p>Ein General WachtMeister 60 Mundt= vndt 40 Pferde port[iones]</p>
+        <p>Ein General QuartierMeister 26 Mundt= vndt 16 Pferde port[iones]</p>
+        <p />
+        <pb n="f. 12" />
+        <p> Ein General Adjutant 26 Mundt vndt 16 Pferde port[iones]</p>
+        <p>vndt alle diese haben keine außgeworffene besoldung hierbey</p>
+        <p>Dann wan dergleichen leute zur Generalitet gelangen, so seint Sie geborgen vndt werden zusehenß groß undt reich, wie wier zu unsern zeiten ein scheinbahrliches Exempel vor Augen haben, an dem <persName key="p0640">General Schultzen</persName>, <persName key="p0641">Heister</persName>, <persName key="p0642">Heußler</persName> vndt andern mehr, die ich mit stillschweigen vorüber gehe. Die letztgedachte ob Sie zwart von schlechten undt geringen heerkommen undt arme leute gewesen, dennoch bey diesem kriege so viel erworben, daß Sie auf 2, 3, a 400000 R[eichs]th[a]l[e]r an herrlichen Gütern für sich ihren nachkommen undt Erben, in Schlesien Böhmen vndt Möhren, erkaufft haben.</p>
+        <p>Sie geben zwart Contribution dem kayser von denselben Güetern, hingegen nehmen Sie auch jährlich große einkünffte </p>
+        <pb n="f. 12v" />
+        <p> undt proventa von ihren vnterthanen undt Herrschafften ein, welchen allen die kays[er]l[iche] hohe Clemenz durch die finger sihet, undt zuläßt daß sich Seine Generalen dergestalt bereichern, daß alles waß nur aufkommen will, die gloiere dem Röm[ischen] kayser zu dienen suchet.</p>
+        <p>zum Exempel Ein Commendant der <placeName key="g0005">kays[er]l[ichen] Residenz Statt Wien</placeName> hatt nur jährliche besoldung 1000 f[lorin] waß aber seine accidenzien betrifft, selbige seint unzehlbahr, undt daß ist imgleichen von andern hohen krieges Ämbtern undt Officialisten zu verstehen.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

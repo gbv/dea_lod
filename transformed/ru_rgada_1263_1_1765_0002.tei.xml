@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy Extraordinary to Denmark, Baron Johann Albrecht von Korff to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Albrecht</author>
+        <author xml:lang="en">Korff</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 April 1757. – Letter from <persName key="p0245">the Russian Envoy Extraordinary to Denmark, Baron Johann Albrecht von Korff</persName> to <persName key="p0065">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1765, f. 10–10v, 12–13, 11–11v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 10" />
+        <p />
+        <p>Monsieur,</p>
+        <p>Il y a deja quelques années que le prix de la porcelaine de Chine est ici haussé considerablement, depuis que <orgName key="o0039">la compagnie d’Inde</orgName> a defendu à ses officiers et gens d’equipage de faire commerce et d’avoir des pacotille à eux, pour leur propre profit, cette cherté vient par dessus ordinairement de s’acroitre après que la vente publique est finie. Il ne se trouve presentement dans les boutiques de cette ville que 5 garniture à vendre dont j’ai l’honneur de joindre ici le denombrement et le prix de chaque service de la quelle les pieces specifiées ne peuvent pas etre diminuées ou separées, et ni autrement augmentées qu’en achetant deux garniture à la fois. En cas que Vous en trouvez une à Votre gré mon Prince, je me charge de bon coeur de l’achat, et de soin du transport, à quoi j’attens vos ordres. </p>
+        <p />
+        <pb n="f. 10v" />
+        <p> Faute des autres nouvelles je pourrois Vous entretenir Monsieur de retour du courier, que <orgName key="o0009">cette cour</orgName> cÿ a expedié depuis peu à <orgName key="o0019">la cour de France</orgName>, et de la reponse que celle-ci a faite sur la representation du <persName key="p0341">Roi de Dannemarc</persName> pour amener l’affaire de neutralité hannovrienne à son effet, si Vous n’etiez à la source de l’apprendre là ou Vous etes vu que <persName key="p0342">le Ministre de Vienne</persName> et celui de <persName key="p0343">Dannemarc</persName> sont tous les deux chargés de presenter à <persName key="p0063">Sa Majesté Britannique comme l’Electeur de Hannovre</persName>, le precis d’une convention de neutralité de nouveau concertée entre l’<persName key="p0100">Imperatrice Reine </persName>et <persName key="p0212">le Roi de France</persName>, et de se donner toutes peines imaginables pour le faire accepter.</p>
+        <p>L’escadre d’ici attend sur la rade il y a plus que 5 semaines, </p>
+        <pb n="f. 12" />
+        <p> L’escadre d’ici attend sur la rade il y a plus que 5 semaines, Celle de la Suede, laquelle à ce qu’on dit, ne doit pas etre encore en etat de sortir de <placeName key="g0145">Carlscrone</placeName>.</p>
+        <p />
+        <pb n="f. 13" />
+        <p />
+        <p>J’ai l’honneur d’etre avec la consideration la plus distinguée</p>
+        <p>				Monsieur</p>
+        <p>Votre tres humble et tres obeissant</p>
+        <p>Serviteur</p>
+        <p>
+          <persName key="p0245">Korff</persName>.</p>
+        <p>
+          <placeName key="g0006">Copenhague</placeName>
+        </p>
+        <p>Ce 26 d’avril st.v.</p>
+        <p>1757.</p>
+        <p />
+        <p />
+        <pb n="f. 11" />
+        <p />
+        <p>Note de quelques garniture de porcelaine de table</p>
+        <p>№. 1.</p>
+        <p>Une garniture bleuë et blanche composée de</p>
+        <p>2 Plats de potage</p>
+        <p>4. plats d’entrée</p>
+        <p>4. mojens plats d’entrée</p>
+        <p>8. petits plats d’entremets</p>
+        <p>8. petits plats d’hors d’oeuvre</p>
+        <p>6. Saladieres et compotieres</p>
+        <p>4. Saussieres</p>
+        <p>48. assiettes de potage ou de soupe.</p>
+        <p>120. assiéttes ordinaires</p>
+        <p>Prix 130 Rixdaler</p>
+        <p>№. 2.</p>
+        <p>Une dito bleuë et blanche</p>
+        <p>1. plat de potage</p>
+        <p>1. grand plat d’entrée</p>
+        <p>2. mojens plats d’entrée</p>
+        <p>2. petits plats d’entrée</p>
+        <p>4 petits plats d’entremets</p>
+        <p>4. petits plats d’hors d’oeuvres.</p>
+        <p>2. Terrines de façon ovale avec leurs plats de la même façon,</p>
+        <p>8. Saladières et compotieres</p>
+        <p>2. saussières</p>
+        <p>4. salières</p>
+        <p>24. assiettes de Potage ou de soupe</p>
+        <p>60. assiettes ordinaires</p>
+        <p>Prix 70 Rixdaler.</p>
+        <p />
+        <pb n="f. 11v" />
+        <p />
+        <p>№. 3.</p>
+        <p>Une dito rouge et blanche</p>
+        <p>1. Plat de Potage</p>
+        <p>2. Terrine avec leurs plats.</p>
+        <p>1 grand plat d’entrée</p>
+        <p>4. mojens plats d’entrée</p>
+        <p>4. petits plats d’entremets</p>
+        <p>4 petits plats d’hors d’oeuvre</p>
+        <p>8. Saladieres et compotiéres</p>
+        <p>2. Saussiéres</p>
+        <p>4. Salieres</p>
+        <p>24. Assiettes de potage ou pour la soupe</p>
+        <p>60. assiettes ordinaires</p>
+        <p>Prix 70 Rixdales</p>
+        <p>№. 4.</p>
+        <p>Une dito bleuë et blanche composée d’autant des pieces, que la precedente</p>
+        <p>Prix 66 Rixdales</p>
+        <p>№. 5.</p>
+        <p>Une dito bleuë et blanche de la façon ovale contournée</p>
+        <p>1 plat de Potage</p>
+        <p>2 Terrines avec leurs plats</p>
+        <p>1 grand plat d’entrée</p>
+        <p>2 petits plats d’entrée</p>
+        <p>4. petits plats d’entremets</p>
+        <p>4. petits plats d’hors d’oeuvre</p>
+        <p>4. Saussiéres</p>
+        <p>4. Saliéres</p>
+        <p>24. assiettes de potage ou pour la soupe</p>
+        <p>60. assiettes ordinaires</p>
+        <p>Prix 66 Rixdales.</p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_1763_0001</p>
+        <p>ru_rgada_1263_1_1765_0001</p>
+        <p>ru_rgada_1263_1_1765_0004</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Procurator of San Marco in Venice, Francesco Morosini, to the Russian Minister Plenipotentiary to The Hague, Count Aleksandr Romanovich Vorontsov</title>
+        <author xml:lang="en">Francesco</author>
+        <author xml:lang="en">Morosini</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>15 June 1764. – Letter from <persName key="p0106">the Procurator of San Marco in Venice, Francesco Morosini</persName>, to the <persName key="p0144">Russian Minister Plenipotentiary to The Hague, Count Aleksandr Romanovich Vorontsov</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 775, f. 17–18v. French original</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 17" />
+        <p />
+        <p>Copie d’une lettre de <persName key="p0106">Mr. Morosini</persName> à <persName key="p0144">Mr. le Comte de Woronzow</persName>, datée de <placeName key="g0031">Venise</placeName> le 15 Juin 1764.</p>
+        <p>	Monsieur,</p>
+        <p>Je suis bien sensible Mr. à l’honneur de Vôtre Souvenir, et aux Soins que Vous prénés de l’affaire en question, sur laquelle je ne Saurois plus que dire ; Tout etoit arrangé, pour donner à Nôtre <persName key="p0571">Ambassadeur à Vienne</persName> les ordres en conséquence, mais la cabale s’en est melée, et tout est arreté de nouveau. Je Vous avouë, que j’ai perdû patience, de sorte, qu’à moins d’y être forcé, je ne pousserai pas la chose davantage, quoique je vais entrer au premier du mois dans le <orgName key="o0029">Conseil du Gouvernement</orgName>.</p>
+        <p>	Je prévois l’affaire finie, car je prévois ; que Nous n’en parlerons pas les prémiers, et je trouve fort raisonnable, qu’on ne récommence </p>
+        <pb n="f. 17v" />
+        <p> pas de nouveau de la part de Vôtre <orgName key="o0008">Cour</orgName>; cependant il n’y auroit pas d’autres moyens ; permettés moi Mons<hi rendition="#sup">r. </hi>au moins de l’indiquer.</p>
+        <p>	Il faudroit que <persName key="p0065">Mr. le Prince de Galitzin</persName>, declarât à <persName key="p0571">l’Ambassadeur de Venise</persName>, qu’il a ordre de Sa <orgName key="o0008">Cour</orgName>, de demander pour la derniere fois, une réponse précise de la République, par rapport au Traité de Commerce parce que <persName key="p0033">Sa Majesté</persName>, voulant ouvrir à Ses Etats une communication de la part de la Mer Noire, Elle est prête à convenir avec la République, puisqu’elle a été la prémiere à la rechercher et malgré Son Silence peu convenable, <persName key="p0033">Sa Majesté</persName> l’auroit encore presentée pourvû que Ses deliberations fussent prêtes ; Car si on rétarde, ou on y </p>
+        <pb n="f. 18" />
+        <p> met de mauvaises difficultés, <persName key="p0033">Sa Majesté</persName> ayant résolû d’exécuter Son projet, d’ouvrir par la Mer Noire une communication à Ses Etats Meridionaux, Elle Se determinera de S’adresser à quelque autre Puissance, qui soit à portée de Son idée, en recherchant enfin, que la République prenne tout de Suite Son parti, Selon qu’elle croit lui mieux convenir.</p>
+        <p>	Il est vrai, que Nous ne meritons pas une nouvelle ouverture, mais il est vrai aussi, que Vôtre <orgName key="o0008">Cour</orgName> est trop grande et trop puissante, pour Souffrir d’aucune façon par cette démarche. Voila tout ce que j’ai l’honneur de Vous mander Mr. en reponse de Vôtre lettre du 31. Mai, en Vous priant bien instamment </p>
+        <pb n="f. 18v" />
+        <p> de me renvoyer celle-ci, et sous l’adresse de <persName key="p0101">Monsieur Maruzzi</persName>.</p>
+        <p>	J’ai l’honneur d’être &amp;.</p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_775_0006</p>
+      </div>
+    </body>
+  </text>
+</TEI>

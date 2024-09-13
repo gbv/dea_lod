@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Translation of a letter to His Excellency the Chancellor [in fact, Vice-Chancellor] [Count Mikhail Vorontsov] from [Pedro Francisco], Marquis of Almadovar, 16/27 October 1672</title>
+        <title type="main" xml:lang="ru">Перевод с письма к его сиятельству канцлеру от гишпанского министра Марки Далмодовара от 16/27 октября 1762 года</title>
+        <author xml:lang="en">Pedro</author>
+        <author xml:lang="en">Francisco</author>
+        <author xml:lang="en">Jiménez</author>
+        <author xml:lang="en">de</author>
+        <author xml:lang="en">Góngora</author>
+        <author xml:lang="en">y</author>
+        <author xml:lang="en">Luján</author>
+        <author xml:lang="en">Arlmodovar</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>16/27 October 1762. – Translation from French to Russian of the letter from <persName key="p0225">the Minister Plenipotentiary of Spain to the Russian Empire, Marquis of Almodovar,</persName> to <persName key="p0145">the Vice-chancellor of the Russian Empire, Count Mikhail Illarionovich Vorontsov</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 58, opis 1, no. 519, f. 4. Russian translation of French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 4" />
+        <p />
+        <p>Перевод с письма к его сиятельству <persName key="p0145">канцлеру</persName> от гишпанского министра <persName key="p0225">Марки Далмодовара</persName> от 16/27 октября 1762 года</p>
+        <p>В следствие третьегоднишнего нашего разговора касательно моих аудиенций и требования реверсала императорскому титулу, имею честь ваше сиятельство сим просить о сообщении мне на то даваемого повеления: хотя между тем и не должен я ожидать другого ответа, как того, которой господину <persName key="p0226">борону Бретелю</persName> в подобном же случае дан, чему почти два месяца. А как я уведомился, что <orgName key="o0008">здешний двор</orgName> завтра отъезжает в <orgName key="o0042">троицкий монастырь</orgName>, то приемлю смелость, не застав вас дома, сие к вашему сиятельству написать, дабы я мог как наискорее точное и формальное по сему делу доношение к <orgName key="o0020">моему двору</orgName> послать.</p>
+        <p>В прочем имею честь быть с великой преданностью</p>
+        <p>
+          <persName key="p0225">Марки Далмодовар</persName>
+        </p>
+        <p>Переводил переводчик <persName key="p0000">Сергей Бельский</persName>
+        </p>
+        <p>Возвращено от его сиятельства </p>
+        <p>
+          <persName key="p0145">канцлера</persName> 18 октября 1762</p>
+        <p />
+        <p />
+        <p>Translation of: ru_avpri_58_1_519_0002 </p>
+      </div>
+    </body>
+  </text>
+</TEI>

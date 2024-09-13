@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Count Friedrich Casimir of Löwenwolde to Prince Antiokh Cantemir</title>
+        <author xml:lang="en">Friedrich</author>
+        <author xml:lang="en">Casimir</author>
+        <author xml:lang="en">Löwenwolde</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>10 May 1732. – Letter from <persName key="p0177">the Russian Minister Plenipotentiary at the Polish court, Count Friedrich Casimir of Löwenwolde,</persName> to <persName key="p0030">the Russian Resident at the British court, Prince Antiokh Kantemir</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 35, opis 1, no. 553, f. 80–81v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 80" />
+        <p />
+        <p>Получено 15г маия ответствовано 16.г маия</p>
+        <p>Monsieur</p>
+        <p>J’ai reçu la lettre que vous m’avez fait l’honneur, mon Prince, de m’ecrire de <placeName key="g0003">Londres</placeName> le 4/15 d’avril passé, et j’aurois déjà û celui, de vous y repondre plûtôt, si la quantité d’autres affaires, ne m’en auroit empeché jusqu’à present. J’etois très ravi d’en apprendre, vôtre heureuse arrivée en cette capitale, dont je vous felicite de tout mon cœur ; comme aussi du digne choix, que <persName key="p0006">Sa M[a]j[es]té Imp[éria]le nôtre très gracieuse Souveraine</persName>, a faite, en vous nommant (comme il lui a plû de m’en informer par un rescript de la <orgName key="o0008">cour</orgName>) son ministre à <orgName key="o0002">celle</orgName>  où vous etes actuellement, ne doutant point que, selon vos merites connus, vous ne fassiez en peu de tems, une plus grande fortune.</p>
+        <p />
+        <pb n="f. 80v" />
+        <p> D’ailleurs, mon Prince, pour entrer le premier en matiere, j’ai l’honneur de vous dire, que je suis informé par des lettres particulieres, comme si la <orgName key="o0002">cour d’Angleterre</orgName> travailloit sous mains chef [chez] d’autres, pour les disposer à exclurre <orgName key="o0008">la Nôtre</orgName> de la Grande influence qu’elle avoit euë depuis quelque tems, dans les affaires de l’Europe, et en consequence de cela, à deloger nôtre Souveraine des côtes de la mer Baltique. Vous voyez de vous-même, l’importance de cette intention, si elle est vraye. C’est pourquoy vous aures la bonté, mon Prince, de veiller sur les démarches de <orgName key="o0002">la Cour de vôtre residence</orgName>, à cet egard, qui interesse de si près <persName key="p0006">nôtre Souveraine</persName>, et de me donner part, s’il vous plait, a ce qui viendra à vôtre connoissance sur cette matiere comme aussi, si se présentera quelque autre chose remarquable de ces cotés là.</p>
+        <p>Je ne doute pas, que <orgName key="o0008">Nôtre Cour</orgName>, ne vous ait pareillement </p>
+        <pb n="f. 81" />
+        <p> informé, de l’importante et très agreable Nouvelle, qu’elle a recuë de Perse, de la Paix avantageuse, faite entre <persName key="p0006">nôtre Souveraine</persName> et <persName key="p0188">le Schah de Perse</persName>, par laquelle toutes les esperances de nos ennemis sont tombées à terre, de pouvoir troubler le doux et glorieux Regne de <persName key="p0006">Sa M[a]j[es]té Imp[éria]le</persName>. Selon mes dernieres lettres de <placeName key="g0018">Constantinople</placeName> de Msr. <persName key="p0189">Niepluiev</persName>, la Porte continuë pareillement dans sa bonne disposition pour la conservation de la Paix avec la Chrétienneté, et particulièrement avec nôtre <persName key="p0006">Souveraine</persName>. Ces mêmes lettres ajoutent qu’il y avoit d’autant moins à craindre de ces cotés là, qu’il regnoit une dissention incroyable entre les ministres de la Porte, et que c’etoit là la raison, pour laquelle <persName key="p0203">le dernier Grand Visir</persName>, qui etoit guere pacifique, venoit d’etre encore deposé, <persName key="p0191">le Seraskier</persName> de <placeName key="g0052">Tabris</placeName>, qui a conclu la Paix entre la Porte et <persName key="p0188">le Schach</persName>, et fait un horrible massacre des Janissaires, revoltés dernièrement </p>
+        <pb n="f. 81v" />
+        <p> contre lui en ladite ville, ayant eté mis à sa place.</p>
+        <p>D’ici il n’y a rien de particulier à vous mander, sinon, que la <orgName key="o0018">Diete</orgName> de cette année-ci, sera extraordinaire, et tenuë en <placeName key="g0009">cette ville</placeName>. Elle doit faire sa premiere ouverture le 15me 7bre prochain, de sorte que les conferences avec les Ministres Etrangers soient reassumées, une quinzaine de jours auparavant.</p>
+        <p>Le campement projetté aura pareillement lieu. Il doit se commencer le 15me d’août, qui vient, et se finir avec le dit mois.</p>
+        <p>J’ai encore une prière à vous faire, mon Prince, que puisque je n’entends pas la langue Russienne, de me continuer à l’avenir l’honneur de vôtre correspondance, en françois s’il vous plait, lequel m’est plus naturel. Mais s’il y aura quelque chose d’importance à se communiquer réciproquement, nous nous feroirons [sic] egalement tous deux, des chiffres, que vous m’avez envoyé, et de la langue Russienne. Après cela me flattant de vôtre frequente Correspondance, mon Prince, j’ai l’honneur d’être avec toute la Consideration immaginable </p>
+        <p>Monsieur</p>
+        <p>Vôtre très humble et très obeissant serviteur </p>
+        <p>
+          <persName key="p0177">le comte de Loewenwolde</persName>
+        </p>
+        <p>A <placeName key="g0009">Varsovie</placeName>
+        </p>
+        <p>ce 10me de may 1732.</p>
+        <p />
+        <p />
+        <p>Also see: ru_avpri_35_1_553_0002</p>
+      </div>
+    </body>
+  </text>
+</TEI>

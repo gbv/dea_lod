@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Active Privy Councilor,] Count Nikita Ivanovich Panin. Letter to [Danish Ambassador to Stuttgart, Bar[on] Achatz Ferdinand of Asseburg?]</title>
+        <title type="main" xml:lang="ru">Панин, гр. Никита Иванович. Письмо к /Ассебургу, бар[ону].? /</title>
+        <author xml:lang="en">Nikita</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Panin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>June 1771. – <persName key="p0114">[Active Privy Councilor,] Count Nikita Ivanovich Panin</persName>. Letter to [<persName key="p0009">Danish Ambassador to Stuttgart, Ba[ron] Achatz Ferdinand of Asseburg?</persName>]</title>
+          <note>
+            <bibl />
+          </note>
+        </head>
+        <p>OR RGB, fond 222, karton 2, no. 2, f. 1–3v. French original.</p>
+        <p />
+        <p></p><pb n="f. 1"/><p></p>
+        <p>Monsieur,</p>
+        <p>	</p>
+        <p>La lettre que Votre Excellence m’a fait l’honneur de m’écrire le 6. du mois d’Avril m’est une nouvelle preuve des sentimens qu’Elle veut bien m’accorder, je me flatte que les miens pour Elle ne lui seront pas moins assuré. Outre la connaissance que j’ai euë pendant plusieurs années du zêle et de l’activité avec les quels Vous avez travaillé, Monsieur, pendant Votre mission à <placeName key="g0002">S. Petersbourg</placeName> à cimenter l’union des deux monarchies, les derniers temps que j’ai eu l’honneur moi même de traiter directement avec Vous, ne peuvent me laisser de douter sur l’Esprit et les principes dans lesquels Votre Excellence est entrée dans Sa carriere actuëlle. En croyant que telle est </p><pb n="f. 1v"/><p> ma persuasion sinsère, Elle se fera que rendre justice à la façon de penser d’un homme, qui dans ses paroles, ou ses actions se pique de ne prendre jamais d’autre guide que la verité. La même justice je Vous la demande encore, Monsieur, en croyant qu’on ne peût être plus intimement persuadé que je le suis, que tous vos soins et vos efforts tendront constamment à rectifier les affaires de <orgName key="o0009">Votre Cour</orgName>, en rassurant leur direction vers le bien être le plus naturel et le plus réel de Votre Patrie. Tous les gens de bien souhaitent sans doute, que Votre Excellence réussisse dans ce dessein et n’en soit point empeché par des obstacles de tout genre, que chercheront à y apporter des gens mal-intentionnés, ou par vice de caractère, ou par ignorance. Je le souhaite personnellement d’autant plus, et je dois cette </p><pb n="f. 2"/><p> confiance à Votre Excellence en ma qualité d’ancien ami de la Couronne de Dannemarc, que j’ai l’honneur de servir une Souveraine qui voit tout par ses yeux, et que les points sur l’execution desquels se fondent la solidité et la permanence de l’union des deux Couronnes, sont inséparablement liés à l’execution du systême commun de leur alliance. La mort du <persName key="p0232">Roi de Suede</persName> événement en tout tems important pour la Paix du Nord et son independance de l’influence étrangère, devient bien plus grave encore par la position présente des affaires entre les <orgName key="o0008,o0015">deux Cours</orgName>, qu’un interêt commun et immédiat réunit vers cet objet. C’est à triompher du desavantage de telles circonstances, que va s’exercer le Ministère de Votre Excellence et le mien. Le champ est </p><pb n="f. 2v"/><p> ouvert à la bonne volonté. C’est par l’éxécution effective des engagemens de notre alliance qu’en sera démontrée l’utilité et la solidité assurée, et c’est par cette raison sur cette execution que se porte actuëllement toute l’attention de l’Impératrice.</p>
+        <p>Les dispositions de <persName key="p0033">Sa Majesté Impériale</persName> pour la paix ou pour la guerre sont manifestées à toute l’Europe et surtout intimement connuës de Ses alliés. Tous ces Traités d’alliance n’ayant pour but que de prévenir l’une, son goût et son penchant pour l’autre sont évidents. Autant elle a eû de répugnance à prendre les armes pour répousser l’agression injuste de la Porte, autant elle trouvera de contentement à les quitter aussitôt que son ennemi se resoudra serieusement à la paix. </p>
+        <p></p><pb n="f. 3"/><p></p>
+        <p>Elle n’en retardera point la conclusion par des pretentions outrées, qui puissent, ou entretenir l’obstination de ses ennemis, ou porter ombrage aux puissances qui peuvent y avoir interêt. Toute idée de conquêtes déja depuis longtems mise de côté, tant par principe d’Etat, que par modération, <persName key="p0033">Sa Majesté Impriale</persName> ne veût que la sureté de Son Empire et de Sa paix pour l’avenir, une juste Satisfaction à Sa dignité offensée, un dédommegement incontestable en soi et qui tient esentiellement  aux deux premiers points. Voilà Monsieur, l’idée d’une Paix juste et c’est aussi celle que Vous avez avec raison de la façon de penser de <persName key="p0033">l’Impératrice</persName>. Vous voyez que je parle à coeur ouvert sur cet objet comme dans tout le reste de ma </p><pb n="f. 3v"/><p> lettre, et je dois ajouter que ma confiance est entierement analogue à celle, dont <persName key="p0033">Sa Majesté Impériale</persName> honore Votre Ministère. Rien ne peût m’être plus sensible que d’être toujours en Etat d’en suivre l’impression et de pouvoir dire avec autant de contentement que de verité, que je suis inalterablement avec les sentimens du plus sincère attachement et de la considération la plus distinguée, </p>
+        <p />
+        <p>Monsieur, </p>
+        <p>de Votre Excellence,</p>
+        <p />
+        <p>à <placeName key="g0002">St Petersbourg</placeName>
+        </p>
+        <p>ce juin 1771</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_niorrgb_222_2_17_0001</p>
+        <p>ru_niorrgb_222_2_4_0001</p>
+        <p>ru_niorrgb_222_2_8_0001</p>
+        <p>ru_niorrgb_222_2_22_0001</p>
+        <p>ru_niorrgb_222_2_31_0001</p>
+        <p>ru_niorrgb_222_6_1_0001</p>
+        <p>ru_niorrgb_222_6_26_0001</p>
+        <p>ru_niorrgb_222_16_6_0001</p>
+        <p />
+      </div>
+    </body>
+  </text>
+</TEI>

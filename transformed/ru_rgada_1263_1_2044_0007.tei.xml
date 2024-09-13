@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorandum submitted by the Russian Consul in Venice, Marquis Paolo Maruzzi to the Venetian Senate</title>
+        <author xml:lang="en">Paolo</author>
+        <author xml:lang="en">Maruzzi</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>15 December 1769. – Memorandum submitted by <persName key="p0101">the Russian Consul in Venice, Marquis Paolo Maruzzi</persName> to <orgName key="o0030">the Venetian Senate</orgName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 2044, f. 86–86v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 86" />
+        <p />
+        <p>
+          <persName key="p0348">Sér[énissi]<hi rendition="#sup">me</hi> Prince</persName>
+        </p>
+        <p>Illus[trissi]<hi rendition="#u">
+            <hi rendition="#sup">mes</hi>
+          </hi> et Ex[cellentissi]<hi rendition="#u">
+            <hi rendition="#sup">mes</hi>
+          </hi> Seigneurs</p>
+        <p>
+          <persName key="p0101">Le Marquis de Maruzzi Conseiller d’Etat Actuel</persName> de <persName key="p0033">Sa Majesté Imperiale</persName> de toutes les Russies son Chargé d’affaires auprès de V[otre]. Sé[réni]<hi rendition="#u">
+            <hi rendition="#sup">té</hi>
+          </hi> et VV. [Votres] EE. [Excellences] et de toutes les Cours d’Italie et Chevalier de l’Ordre de S[ain]<hi rendition="#u">
+            <hi rendition="#sup">te</hi>
+          </hi> Anne à l’honneur de signifier à Votre Serenité et a V.V. [Votres] EE. [Excellences] que <persName key="p0033">Sa Majesté Imperiale</persName> Son auguste Souveraine lui ordonne de representer à V[otre].S[érénité]. et à VV. [Votres] EE. [Excellences] ses justes plaintes sur l’irregularité du procédé de <persName key="p0360">Mons[eigneu]<hi rendition="#sup">r</hi>. le Provediteur Extraordinaire de Cataro</persName> qui a empéché le passage à un des Officiers de <persName key="p0033">S[a]. M[ajesté]. I[mperiale].</persName> qui devoit se rendre par cette voye à <placeName key="g0002">S<hi rendition="#sup">t</hi>. Petersbourg</placeName> avec des depeches importantes pour son service.</p>
+        <p>
+          <persName key="p0033">Sa Majesté Imperiale</persName> ne peut attribuer une telle façon de procéder qu’au peu d’experience de <persName key="p0360">Mons[eigneu]<hi rendition="#sup">r</hi>. le Provediteur</persName> non bien instruit du droit des Gens et des regles qu’on doit observer vis à vis des sujets d’une puissance amie ; et elle ne doute point que lorsqu’une telle demarche aussi irreguliere sera parvenue à la connoissance de V[otre].S[érénité].  et de V.V.E.E. V.V. [Votres] EE. [Excellences] elle n’ayent donné aussitôt les ordres necessaires au dit <persName key="p0360">M<hi rendition="#sup">r</hi> le Provediteur</persName> et à tous les </p>
+        <pb n="f. 86v" />
+        <p> commandans de mer et de terre du domaine de V[otre].S[Sérénité]. et de V.V.[Votres] EE. [Excellences] afin qu’ils ayent à permettre dans la suitte le passage libre à toutes les personnes dependantes de <persName key="p0033">Sa Majesté Imperiale</persName>, et de proceder suivant les regles de la bonne amitié établie entre <persName key="p0033">S[a].M[ajesté].I[mperiale].</persName> et la Ser[énissi]<hi rendition="#u">
+            <hi rendition="#sup">me </hi>
+          </hi>Republique que <persName key="p0033">S[a]. M[ajesté]. l’Imperatrice</persName> Souhaite de cultiver à cause de la consideration distinguée qu’elle sent pour la Sere[nissi]<hi rendition="#u">
+            <hi rendition="#sup">me </hi>
+          </hi>Republique.</p>
+        <p>
+          <persName key="p0101">Le Marquis de Maruzzi</persName> porteur de tels sentimens de <persName key="p0033">S[a].M[ajesté].I[mperiale].</persName> Son Auguste Souveraine a l’honneur de se protester avec le plus profond respect</p>
+        <p>présenté le 15, X<hi rendition="#u">
+            <hi rendition="#sup">bre</hi>
+          </hi> 1769</p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_2044_0008</p>
+        <p>ru_rgada_1263_1_2044_0001</p>
+        <p>ru_rgada_1263_1_2044_0003</p>
+        <p>ru_rgada_1263_1_2044_0004</p>
+        <p>ru_rgada_1263_1_2044_0005</p>
+        <p>ru_rgada_1263_1_2044_0006</p>
+      </div>
+    </body>
+  </text>
+</TEI>

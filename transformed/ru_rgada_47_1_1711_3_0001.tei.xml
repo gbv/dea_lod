@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Hanover, Baron Hans Christoph of Schleinitz to the Russian Chancellor, Count Gavrila Ivanovich Golovkin</title>
+        <author xml:lang="en">Hans</author>
+        <author xml:lang="en">Christoph</author>
+        <author xml:lang="en">Schleinitz </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>23 Juny / 4 July 1711. – Letter from <persName key="p0732">the Russian Envoy to Hanover, Baron Hans Christoph of Schleinitz</persName> to <persName key="p0071">the Russian Chancellor, Count Gavrila Ivanovich Golovkin</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 47, opis 1, 1711, no. 3, f. 11–13. German original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 11" />
+        <p> S[eine]r Czaarischen May[estä]t Höchstbetrauter</p>
+        <p>Reichs=Cantzlär</p>
+        <p>Hoch=Gebohrner Reichs=Graff.</p>
+        <p>Ich hoffe, daß gegenwärtiges mein ersteres Schreiben, welches meiner Schuldigkeit nach an <persName key="p0071">Ewer Hoch=Gräffl[iche] Excellence</persName> abgehen laße deroselben, in S[eine]r Czaar[i]sch[en] May[estä]t Gefolg woll vergnüget antreffen werde.</p>
+        <p>bey dieser ablauffenden Post habe an Hochst=ged[achte] <persName key="p0174">S[eine]r Cz[aarischen] May[estä]t</persName> angeschloßenen Aller=Unterthänigsten bericht übersenden sollen um den Anfang, in der mier Aller=Gnädigst aufgetragenen Commission zu machen.</p>
+        <p>
+          <persName key="p0071">Ew[er] Hoch=Gräffl[iche] Excellence</persName> werden die Geneigtheit haben, aus selbiger in mehrern zu ersehen: welcher gestalt meine Reise </p>
+        <pb n="f. 11v" />
+        <p> glücklich geändiget, und bey meiner Ankunfft <persName key="p0698">Ihro Hoheiten den Crohn=Printzen</persName> in recht erwünschter Gesundheit angetroffen; Sie haben die Gutheit hiesige lebens=Art, und ihnen zu machende Veränderungen sehr Gnädig auszunehmen, erfreuen Sich aber besonders von hertzen daß <persName key="p0174">S[eine]r Czaar[i]sch[en] May[estä]t</persName> dero beylager in höchster Persohn beyzuwohnen Aller=Gnädigst entschloßen. <persName key="p0727">Ihro Durchl[aucht] der Hertzog zu br[aunschweig] Wolffenb[üttel]</persName> sind gleichfalls darob in ein ungemeines Vergnügen gesetzet, hoffen aber <persName key="p0071">Ew[er] Hoch=Gräffl[iche] Excellence</persName>, in dem Gefolg <persName key="p0174">Ihro Czaar[i]sch[en] May[estä]t</persName> auf besagtem beylager vor andern mitzusehen, und Ihnen für dero, bey dieser heyrahts=Sache angewandte viele und große bemühungen dero dancknehmigstes Gemuhts und besondere hoch=Achtung für dero Persohn zu erkennen zu geben.</p>
+        <p>Gleich=hoch=gedachte Ihro Durchl[aucht] haben von mier nochmahls verlanget, über diejenige Puncta, so bey meinen Auffenthalt zu <placeName key="g0234">Jarislovo</placeName>, des <persName key="">Herrn Reichs=Vice Cantzlärs</persName>
+        </p>
+        <pb n="f. 12" />
+        <p>
+          <persName key="p0494">Baron von Schaffiroff Excell[ence]</persName> um solche <persName key="g0174">S[eine]r Czaar[i]sch[en] May[estä]t</persName> vorzutragen, schrifftlich eingehandiget, dero eindliche und eigentliche Entschließung auszubitten. Ich habe deswegen in Meinem Aller=Unterthänigstem bericht darvon erwehnet, auch nochmahls deswegen, an des <persName key="p0494">h[errn] Vice=Cantzlärs Baron von Schaffiroff Excell[ence]</persName> ausführlich geschrieben, in hoffnung <persName key="p0071">Ew[er] Hoch=Gräffl[iche] Excellence</persName> werden für Ihro Durchl[aucht], weilen Sie die Entschließung darüber so inständigt verlangen, Selbige bey <persName key="p0174">S[eine]r Czaar[i]sch[en] May[estä]t</persName> auszuwirken Hoch=geneigt geruhen.</p>
+        <p>In menem Aller=Unterthanigstem berichte, habe über die jetzigen Conjuncturen einige wiewoll gantz unvorgreiffliche Gedancken niederzuschreiben, in tieffsten respect mier unterwunden. Ich kan nun nicht wißen, ob die genommene Freyheit, hierüber mein Urtheil zu fällen <persName key="p0174">S[eine]r Czaar[i]sch[en] May[estä]t</persName> Aller Gnädigsten beyfall finden werde, und ob Selbige nicht schon, von dero bey andern auswärtigen </p>
+        <pb n="f. 12v" />
+        <p> Höffen sich aufhaltenden Ministris ein mehrers licht darüber erhalten, zum wenigsten habe nach denen mier zugekommenen Nachrichtungen und nach der fur <persName key="p0174">S[eine]r Czaar[i]sch[en] May[estä]t</persName> in mier sich wegenden Treu=begierde, meinen Pflichten gemäß, darüber meine Gedancken eröffnen wollen.</p>
+        <p>Instehende Woche gehe auf <placeName key="g0008">Hannover</placeName> um daselbst mit negorijren den Anfang zu machen. Ich habe meine vorseyende Überkunfft bey <persName key="p0727">S[eine]r Chur=Fürstl[ichen] durchl[aucht]</persName> und dero beyde Vornehmste <persName key="p0780">Ministre von Bernstorf</persName> und <persName key="p0781">von Goretz</persName> melden laßen, und so viel verspuhret, daß vielleicht nicht unglückliche Verrichtungen haben werde. Ich sende deßen zu einigen beweiß den Anschluß, worinnen Sie Ihnen meine Persohn besonders lieb seyn laßen. der an den <orgName key="o0067">Chur=Furstl[ichen] Hannöverschen hoffe</orgName> Subsistirende <persName key="p0782">königl[ich] Pollnische Envoyé Graff von Nostitz</persName> stärcket mich in meiner habenden hoffnung noch mehr, wie nemlich eine gute Disposition bey Chur=Hannover wäre, mit Selbigen wegen des Pommerschen Corpo in ein genaueres Verständniß treten zu können.</p>
+        <p />
+        <pb n="f. 13" />
+        <p> dero <persName key="">Älteren Herrn Sohn</persName> habe die Ehre und Glück gehabt, bey meiner zurück=kunfft von <placeName key="g0234">Jarislovo</placeName> zu <placeName key="g0233">Saltzdahlum</placeName> zu sprechen  Ich werde mier nichts angelegeners seyn laßen als deßen Wollwollen, und hohe Freundtschafft durch alle Gegen=dienste bestandig zu verdienen, der ich auch um Fortsetzung <persName key="g0071">Ew[er] Hoch=Gräffl[ichen] Excellence</persName> für mich zu hegenden Gnade und Gutheit für meine Persohn inständigst anhalte, und in unaussetzlicher und tieffster Ergebenheit verharre</p>
+        <p>
+          <persName key="g0071">Ew[er] Hoch=Gräffl[ichen] Excellence</persName>
+        </p>
+        <p>
+          <placeName key="">Braunschw[eig]</placeName> am 23 Jun[y] / 4 July</p>
+        <p>1711.				unterthaniger und gantz gehorsamster</p>
+        <p>diener</p>
+        <p>
+          <persName key="p0732">H[ans] C[hristoph] von Schleinitz</persName>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

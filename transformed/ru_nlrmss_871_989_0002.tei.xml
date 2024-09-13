@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Peter von Staehlin to Jacob von Staehlin</title>
+        <author xml:lang="en">Peter</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1 / 12 February 1782. – Letter from <persName key="p0363">the secretary of the Russian Embassy in the Netherlands Peter von Staehlin</persName> to his father <persName key="p0135">Jacob von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, fond 871, n°989, f. 7–7v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 7" />
+        <p />
+        <p>№ 7. <placeName key="g0004">La Haye</placeName> le 1/12 Fevrier 1782.</p>
+        <p>J’ai bien des remercimens très humbles à Vous presenter au sujet du joli petit cadeau que Votre lettre № 2. renfermoit, savoir celui de la petite pierre gravé à nos armes, que je ferai monter pour la porter à la montre.</p>
+        <p>Ce present m’est d’autant plus precieux et agreable, qu’il me vient on ne peut pas plus à propos, car il y a justement 3. ou 4. Semaines que je viens d’en perdre un pareil qui etoit dans le même gout et que j’avois eu en Russie avant que d’aller en Saxe. Ce petit cachet avoit eté gravé par l’habile et debauché <persName key="p0441">Волковъ</persName> elève de <persName key="p0442">Краюхинъ</persName> qui etoit sous Votre direction, et je le portois toujours à la chaine de montre jusqu’à ce que venant de perdre dernierement un cordon de montre usé par son ancienneté je fus en même tems privé de ce petit cachet qui s’y trouvoit attaché.</p>
+        <p>Le digne ami <persName key="p0443">Ivan Iwanc. de Kroock</persName> entretient bien par l’interêt qu’il prend à moi et par la continuation de ses bontés, les sentimens d’attachement et de reconnoisance que je lui ai depuis si longtems voué et je suis extrêmement sensible à l’honneur du souvenir de <persName key="p0445">Madame son epouse</persName>. Je vous supplie aussi de vouloir </p>
+        <pb n="f. 7v" />
+        <p> bien leur reiterer les assurances de ces sentimens à leur egard. Je crois que <persName key="p0378">Mons[ieu]r d’Eck</persName> peut aussi etre rangé au nombre de pareils amis respectables qui meritent de l’attachement. Au reste <persName key="p0443">Mons[ieu]r de Kroock</persName> peut etre persuadé que je resterai constamment dans les mêmes sentimens sur ma propre situation, que cette derniere change à mon avantage ou ne change point, puisque c’est l’unique moyen de conserver ma tranquillité qui m’est bien plus chère que bien des chimères. D’ailleurs l’esperance d’une amelioration de mon sort, soit prochaine soit eloignée ne sauroit m’abandonner, tant que je serai aussi convaincu de ma bonne conscience et bonne conduite, que je le suis des torts qu’on m’a fait innocemment souffrir. Voila donc <persName key="p0446">Mr de Kolokoltzoff</persName> qui paroit avoir quitté <orgName key="o0048">le Collège d’Amirauté</orgName>, et peut être que sa place actuelle le mene un jour à celle de Senateur. À propos de <persName key="p0447">Mr le C[om]te Schouvaloff</persName> ; qu’est devenu <persName key="p0000">Mad[emoise]lle Nevir</persName>, est elle revenue en Russie avec la famille de ce Seig[neu]r ou bien elle est restée à <placeName key="g0012">Berlin</placeName> dans le sein de sa famille ?  Selon mon calcul, nous attendons icy <persName key="p0440">Mons[ieu]r de Marcoff</persName> à peu près en huit ou dix jours. Il avoit promis au <persName key="p0364">Prince mon Ministre</persName> de lui ecrire encore une fois avant son depart, mais il n’en a rien fait, apparemment trop pressé.</p>
+        <p />
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_987_0004</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0002</p>
+        <p>ru_nlrmss_871_988_0003</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0001</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_990_0001</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0002</p>
+        <p>ru_nlrmss_871_1012_0003</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+        <p>ru_nlrmss_871_1016_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

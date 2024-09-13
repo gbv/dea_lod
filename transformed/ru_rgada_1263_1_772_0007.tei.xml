@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from  the Councillor of the Russian Legation to the Imperial Court, Count Aleksandr Romanovich Vorontsov to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich</title>
+        <author xml:lang="en">Aleksandr</author>
+        <author xml:lang="en">Romanovich</author>
+        <author xml:lang="en">Vorontsov </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>5/16 August 1761. – Letter from <persName key="p0144">the Councilor of the Russian Legation to the Imperial Court, Count Aleksandr Romanovich Vorontsov</persName>, to the <persName key="p0065">Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 772, f. 15–16v. French original with a note in Russian.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 15" />
+        <p />
+        <p>№6</p>
+        <p>Monsieur !</p>
+        <p>J’ai l’honneur de vous informer, qu’un Courier arrivé hier vers la nuit, nous a apporté l’agreable nouvelle, que toute l’armée Imperiale a passé l’Oder le 13<hi rendition="#sup">me</hi>, entre <placeName key="g0076">Lebus</placeName> et <placeName key="g0077">Auras</placeName>. Le <persName key="p0061">Roi de Prusse</persName> a donné entierement dans le panneau ; il se disposoit à nous en disputer le passage proche <hi rendition="#s">de </hi>d’O Pelne. Le <persName key="p0089">general Laudon</persName> dans sa lettre a sa <orgName key="o0023">Cour</orgName> rend toute la justice possible aux connoissances et aux bonnes dispositions de nos generaux.</p>
+        <p>Le quartier general de notre armée etoit à <placeName key="g0080">Dame</placeName>; <placeName key="g0081">Lignitz</placeName> etoit occupé par nos troupes. Le <persName key="p0019">general Brentano </persName> etoit à <placeName key="g0082">Jauer</placeName>, et le quartier general de l’armée autrichienne à <placeName key="g0079">Strigau</placeName> de maniere, que les deux armées imperialles n’etoit, qu’à une marche l’une de l’autre les postes avancés se touchoient, et <persName key="p0089">Mr. de Laudon</persName> a eté lui même à nôtre </p>
+        <pb n="f. 15v" />
+        <p> armée, pour s’aboucher avec <persName key="p0027">Mr. le Marechal</persName>; le <persName key="p0292">general Ziethen</persName> etoit à <placeName key="g0078">Neumark</placeName>, et le <persName key="p0061">Roi de Prusse</persName> proche de la à Kostelnblut[?]. Je vous felicite Monsieur avec un evenement aussi avantageux à la <hi rendition="#s">cour</hi> cause commune et presque inattandu.</p>
+        <p>Quelques partis, que le <persName key="p0061">Roi de Prusse</persName> prenne, sa situation est très critique ; les deux armées Imperiales font au moins 120 milles hommes.</p>
+        <p>Je n’ai eu rien de plus pressé Monsieur, que de vous faire part d’un pareil evenement, sentant, quel effet il peut produire dans l’Endroit, où vous etes. Je ne doute nullement, que vous ne vouliez y repondre en me communiquant tout ce, qui sera à votre connaissance eu égard aux circonstances presentes. J’ai l’honneur d’être avec un attachement et une consideration parfaite,</p>
+        <p>Monsieur</p>
+        <p>   votre très humble et </p>
+        <p>très obeissant serviteur </p>
+        <p>
+          <persName key="">C[omte] Alexandre </persName>
+        </p>
+        <p>
+          <persName key="p0144">de Woronzow</persName>
+        </p>
+        <p>
+          <placeName key="g0005">Vienne</placeName> 5/16 aout 1761.</p>
+        <p></p><pb n="f. 16"/><p></p>
+        <p>Осмеливаюсь трудить вашего сиятельства чтоб включенное писмо отослать в <placeName key="g0075">Оксфорд</placeName>.</p>
+        <p></p><pb n="f. 16v"/><p></p>
+        <p>
+          <placeName key="g0005">Viene</placeName> Le 5/16 août 1761.</p>
+        <p>
+          <persName key="p0144">Mr Le C[om]te de Woronzow</persName>.</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_772_0001</p>
+        <p>ru_rgada_1263_1_772_0002</p>
+        <p>ru_rgada_1263_1_772_0003</p>
+        <p>ru_rgada_1263_1_772_0004</p>
+        <p>ru_rgada_1263_1_772_0005</p>
+        <p>ru_rgada_1263_1_772_0006</p>
+        <p>ru_rgada_1263_1_772_0008</p>
+        <p>ru_rgada_1263_1_773_0001</p>
+        <p>ru_rgada_1263_1_773_0002</p>
+        <p>ru_rgada_1263_1_773_0003</p>
+        <p>ru_rgada_1263_1_775_0001</p>
+        <p>ru_rgada_1263_1_775_0002</p>
+        <p>ru_rgada_1263_1_775_0003</p>
+        <p>ru_rgada_1263_1_775_0004</p>
+        <p>ru_rgada_1263_1_775_0006</p>
+        <p>ru_rgada_1263_1_775_0007</p>
+      </div>
+    </body>
+  </text>
+</TEI>

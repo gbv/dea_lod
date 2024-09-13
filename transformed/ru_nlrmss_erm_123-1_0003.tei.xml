@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the letter written by [Russian Minister Plenipotentiary to Spain,] Prince [Ivan Andreevich] Shcherbatov, to H[is].R[oyal].H[ighness]. Duke [Charles Frederick] of Schleswig-Holstein-Gottorp, on 13. 7bre.[September] 1728</title>
+        <title type="main" xml:lang="fr">Copie d’une Lettre que mr. le Prince Scherbatow a ecritte à S.A.R. le Duc Regnant de Sleswick et de Holstein en datte du 13.7bre. 1728.</title>
+        <author xml:lang="en">Ivan</author>
+        <author xml:lang="en">Andreevich</author>
+        <author xml:lang="en">Shcherbatov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13 September 1728. – Copy of the letter written by <persName key="p0220"> [Russian Minister Plenipotentiary to Spain,] Mr Prince [Ivan Andreevich] Shcherbatov, </persName>to<persName key="p0221"> H[is].R[oyal].H[ighness]. Duke [Charles Frederick] of Schleswig-Holstein-Gottorp,</persName> on 13. 7bre.[September] 1728</title>
+          <note>
+            <bibl>NLR Mss, fond Erm., no. 123-1, f. 55–55v. Copy of French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 55" />
+        <p />
+        <p>Copie d’une Lettre que <persName key="p0220">mr. le Prince Scherbatow</persName> a ecritte à S.A.R. le <persName key="p0221">Duc Regnant de Sleswick et de Holstein</persName> en datte du 13.7bre. 1728.</p>
+        <p>Monseigneur</p>
+        <p>En Consequence des Ordres que j’ay reçeu de <orgName key="o0008">ma Cour</orgName> de solliciter conjointement avec le Ministre de V[otre] A[ltesse] R[oya]lle le <persName key="p0291">Sieur Gumprecht</persName> les subsides annuels qui luy ont été promis par <orgName key="o0020">celle-cy</orgName>, et d’engager cette Couronne à s’interesser véritablement au Congres pour la reussite des justes Prétentions de <persName key="p0221">V[otre] A[ltesse] R[oyale] </persName> je me suis abouché avec le <persName key="p0218">Marquis de la Paz</persName>, et n’ay rien oublié pour lui faire entendre que <persName key="p0222">l’Empereur de Russie mon maitre</persName> desiroit également l’accomplissement des Promesses faittes à <persName key="p0221">V[otre] A[ltesse] R[oya]lle</persName> et son entière satisfaction sur ce qu’elle exige avec tant de justice.</p>
+        <p>L’interêt que <orgName key="o0008">ma Cour</orgName> prend à tout ce qui regarde <persName key="p0221">V[otre] A[ltesse] R[oyale] </persName> ne me permet donc point de perdre un moment de veue tout ce qui touche sa gloire ; ainsy je me sens obligé de dire à <persName key="p0221">V[otre] A[ltesse] R[oyale] </persName> ce qui la ternit aujourd’huy d’avantage en <orgName key="o0020">cette Cour</orgName>. Et c’est la mauvaise situation où s’y trouve le Ministre de V[otre] A[ltesse] R[oyale] reduit depuis son arrivée à vivre à credit dans un cabaret, et sans avoir ni maison, ni equipage qui corresponde </p>
+        <pb n="f. 55v" />
+        <p> au Caractere dont il est honnoré.</p>
+        <p>J’ay pris comme véritable serviteur de <persName key="p0221">V[otre] A[ltesse] R[oyale] </persName> et comme Connoisseur du genie et des maximes de <orgName key="o0020">cette Cour</orgName>, la Liberté de représenter au <persName key="p0291">S. Gumprecht</persName> le tort infiny que pouvoit faire à l’avancement des affaires qu’il vient solliciter icy une situation si peu convenable à l’honneur et à la gloire de <persName key="p0221">V[otre] A[ltesse] R[oyale] </persName> Et je ne doutte point qu’il ne se soit expliqué avec Elle des Raisons qui l’ont empeché jusqu’icy d’en sortir. Je crois aussy qu’il n’aura pas manqué de l’informer du peu d’aparence (eu Egard à la situation presente des affaires de <orgName key="o0020">cette Cour</orgName>) de pouvoir en exiger sitôt les subsides qu’Elles s’est engagé de fournir à <persName key="p0221">V[otre] A[ltesse] R[oyale] </persName>. Et dans la persuasion où je suis que sur de telles representations Elle aura pris les arangements qui luy conviennent, je me contente de luy dire qu’il n’est point d’autre motif qui m’engage à narrer des faits si réels et si publics que le zele que je me sens pour sa gloire que je ne saurois sans peine voir ternir, et l’attachement sincer que j’ay à son service qui m’oblige à éviter tout ce qui peut y être le moindre obstacle. J’ay l’honneur d’etre avec un très profond respect Mgr de <persName key="p0221">V[otre] A[ltesse] R[oyale] </persName> le très h[umble] et très o[béi]s[sant] serviteur etc.</p>
+        <p>à <placeName key="g0020">Madrid</placeName>
+        </p>
+        <p>le 13.7bre.1728</p>
+      </div>
+    </body>
+  </text>
+</TEI>

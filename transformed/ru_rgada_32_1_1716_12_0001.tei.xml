@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from an Unknown Diplomat from the Netherlands</title>
+        <author xml:lang="en">?</author>
+        <author xml:lang="en">?</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>Not earlier than November 1717. – Letter from an <persName key="p0000">Unknown Diplomat</persName> from the Netherlands</title>
+          <note>
+            <bibl>RGADA, fond 32, opis 1, 1716, no. 12, f. 1–1v. German original. Excerpt.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p> wegen den <persName key="p0532">könig von Dännemark</persName> geresidiret, hat, solche Relaxation geconfirmiret. Und nach dem selbiger durch ein Memorie Abschied von Ihro h[och] Mög[enheiten] genom[m]en; So ist derselbe im Werck begriffen nach <placeName key="g0006">Coppenhagen</placeName> zu gehen, alwo der h[err] Goes nach allem Augenschein über die Liquidation obbemeldter Pretensionen handeln wird; Indeßen wird die Zeit lehren, ob der Sachen gegenwärthige bewandtnüß nicht einige Influenc{e} zur fernerer Deliberation der Staten von Holland geben werde, wegen des equipemens nach die Oost-See, umb das Comercium ihrer Unterthanen, auf denen darin liegenden Städten zu befreyen.</p>
+        <p>Der <persName key="p0000">neue königl[iche] dähnische Resident</persName> als auch der h[er]r <persName key="p0701">Grafe von Golstein</persName>, welcher wegen Chur Pfaltz alhier residiren soll, sind alhier gearriviret, und haben Ihre Credentialia an Ihro ho[ch] Mög[enheiten] gepresentiret, gleich die gazeten davon gemeldet.</p>
+        <p>Weilen man mit denen letzten Londischen briefen eine Copie von der königl[ichen] ordre erhalten krafft welcher der <persName key="p0063">Printz</persName> und die <persName key="p0168">Printzeßin von Wallis</persName> das <placeName key="g0221">Schloß S[ain]t James</placeName> quitiren müßen, </p>
+        <pb n="f. 1v" />
+        <p> so gibet man sich die Ehre solche auch Copeylich hiebey zu fügen.</p>
+        <p>Wan auch der <persName key="p0178">hertzog von Neucastle</persName> von dem tag an, an welchem der junge <persName key="p0700">Printz</persName> getauffet worden, nicht zu hofe gewesen, so beginnet derselbe alda jetz und wieder zu erscheinen.</p>
+        <p>Es wird unter anderen von <placeName key="g0005">Wien</placeName> gemeldet, daß <orgName key="o0023">selbiger hoff</orgName> nicht allermaßen vergnüget sey, daß der <persName key="p0698">Croon Printz</persName> von <placeName key="g0001">Moscou</placeName>, wie derselbe alda gepassiret, noch öffentlich noch incognito bey <persName key="p0163">S[eine]r Kayserl[iche]n Ma[yestä]tt</persName> angewesen, sondern es habe <persName key="p0698">S[ein]e Czarische hochh[ei]t</persName>
+          <persName key="p0163">S[eine]r Kayserl[iche]n Ma[yestä]tt</persName> durch den alda residirenden <persName key="p0699">Minister S[eine]r Czarischen Ma[yestä]tt</persName> nuhr ein bloßes Compliment von Excus und dancksagung machen laßen.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

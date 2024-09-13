@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Peter von Staehlin to Jacob von Staehlin</title>
+        <author xml:lang="en">Peter</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17 / 28 August 1781. – Letter from <persName key="p0363">the secretary of the Russian Embassy in the Netherlands Peter von Staehlin</persName> to his father <persName key="p0135">Jacob von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, f. 871, n°988, fol. 31–32v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 31" />
+        <p />
+        <p>№ 38 <placeName key="g0004">La Haye</placeName> ce [mardi] 17./28. août 1781.</p>
+        <p>J’ai fort bien reçu Jeudy passé Votre lettre № 31. du 24. Juillet et en même tems le connoissement sur les effets expédiés à mon addresse par le canal de Mess[ieu]rs <orgName key="o0046">Vernedé</orgName> à <placeName key="g0010">Amsterdam</placeName>.</p>
+        <p>Par ma derniere je vous avois écrit touchant les gouttes de Bestoucheff, et vous prié de les expedier sans attendre le C[ourier ?] <persName key="p0561">Peter Alexeievitch</persName>, mais comme vous venés de me marquer que ce dernier s’est addressé pour cela à vous, il n’y a qu’à lui faire payer la somme assignée par <persName key="p0364">le Prince mon Ministre</persName>. Je suis persuadé que <persName key="p0408">Mr Fischer</persName> ne fera pas grand-chose en Russie, aussi j’ai fait l’année passée mon possible pour l’en detourner, mais il a toujours persiste dans son dessein, et insiste que je lui donne les lettres de recommandation des quelles je l’ai muni. Depuis quelque tems je sais par <persName key="p0400">Mr de St. Saphorin</persName> que <persName key="p0409">Mr Schumacher</persName> a été nommé par <orgName key="o0009">sa Cour</orgName> ministre Resident à <orgName key="o0008">la notre</orgName>, et je suis surpris qu’il se formalise d’avoir été appellé Resident tout court au lieu de Ministre resident, ce qui est bien egal même selon Wiquefort qu’il n’auroit qu’à consulter pour cet effet. Jusqu’icy je m’imaginois qu’on etoit convaincu chés nous comme ailleurs, que l’opération de l’inoculation de la petite vérole est de si peu d’importance et que le moindre Chirurgien pour ne pas dire tout le monde pourroit faire cette besogne sans aucun risque, et voila pourquoi je suis etonné qu’on </p>
+        <pb n="f. 31v" />
+        <p> fasse venir chés nous à grands frais <persName key="p0410">Mr le Baron Dimsdale</persName>. Je doute fort que <orgName key="o0019">la Cour de Versailles</orgName> envoye jamais chés nous en qualité de Ministre <persName key="p0411">Mr Corberon</persName>, puisqu’on a coutume d’y envoyer des gens de naissance et riches, par consequent l’esperance de <persName key="p0412">M[ademoise]lle Charlotte</persName> sa promise pourroit fort bien entre frustrée à cet egard.</p>
+        <p>L’autre jour pendant une grosse tempête que nous avions icy, un vaisseau de guerre suédois de 64. canons a peris aux environs du <placeName key="g0159">Tessel</placeName> au même endroit où notre fregatte Natalie a echouée il y a à peu près deux ans. De 500. hommes d’equipage, il n’y a eu qu’environ que 25. hommes de sauvés ; tout le reste a peri sans ressources, ce qui est une catastrophe fort triste. Mardy passé <persName key="p0413">Mr le Professeur Lexell</persName> revenu en dernier lieu de <placeName key="g0003">Londres</placeName> arriva icy, et vint me voir ; Je le presentai d’abord au <persName key="p0364">Prince mon Ministre</persName> qui fut bien aise de faire la connoissance de cet habile Astronome ; et où il fut tous les jours avec moi ; Nous avons taché de lui rendre son séjour icy autant agréable qu’il dependoit de nous, et hier <persName key="p0413">Mr Lexell</persName> est parti d’icy par <placeName key="g0096">Leide</placeName> pour <placeName key="g0010">Amsterdam</placeName>, d’où il compte passer à <placeName key="g0011">Hambourg</placeName> et d’où il compte ensuite par la Suède revenir en Russie, esperant de vous revoir dans le mois d’Octobre prochain. Hier nous avons reçu une lettre de S[on] E[xcellence] <persName key="p0414">le Comte Bruce</persName> d’<placeName key="g0010">Amstredam</placeName>, où il est arrivé seul et compte venir pour un couple de jours icy. Je serai bien aise de le voir icy, et c’est même pour cela que j’ai differé un petit voyage que je voulois faire pour <placeName key="g0048">Anvers</placeName> et <placeName key="g0035">Bruxelles</placeName>, et que je n’entreprendrai en consequence que dans la semaine prochaine.</p>
+        <p />
+        <pb n="f. 32" />
+        <p>. P. S. Nos amis de <placeName key="g0011">Hamb[our]g</placeName> y sont arrivés […] dernier. […] mon lettre du 24. […] <persName key="p0025">Bühler</persName>
+        </p>
+        <p>[Fol. 32 v.] à Son Excellence</p>
+        <p>
+          <persName key="p0135">Monsieur de Stehlin</persName>
+        </p>
+        <p>Conseiller d’Etât actuel de S[a] M[ajesté] I[mpéria]le de toutes les Russies.</p>
+        <p>
+          <placeName key="g0002">St. Petersbourg</placeName>.</p>
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_987_0004</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0003</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0001</p>
+        <p>ru_nlrmss_871_989_0002</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_990_0001</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0002</p>
+        <p>ru_nlrmss_871_1012_0003</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+        <p>ru_nlrmss_871_1016_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>
