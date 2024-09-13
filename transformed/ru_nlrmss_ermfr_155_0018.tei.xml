@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Prince Ivan Andreevich Shcherbatov to Unknown</title>
+        <author xml:lang="en">Ivan</author>
+        <author xml:lang="en">Andreevich</author>
+        <author xml:lang="en">Shcherbatov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>Between 16 and 21 August 1717. – Letter from <persName key="p0220">Prince Ivan Andreevich Shcherbatov</persName> to <persName key="p0000">Unknown</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, fond Erm. fr., no. 155, f. 103, 102v–102. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p></p><pb n="f. 103"/><p></p>
+        <p />
+        <p>23.</p>
+        <p>Monsieur,</p>
+        <p>J'ay eu l'honneur de recevoir vôtre lettre du etc. </p><pb n="f. 102v"/><p> du courant, dans laquelle vous me marquez que vous n'avez point reçu de lettre de moy depuis long temps, et que je dois vous écrire pour réparer ma faute. C'est pourquoy je prens la plume pour vous dire une grande nouvelle que <persName key="p0302">le Prince Eugene</persName> a gagné la victoire sur les Turcs et qu'il les a battu a plâte couture, mais cette nouvelle merite encore confirmation. Trouvez bon que je vous demande quelque particularité de cette bataille. Je vous prie de me dire tout ce que vous en sçavez. Si vous prenez la peine d'écrire à <persName key="p0000">Monsieur A</persName>: je vous prie de l'assurer de mon souvenir. Il me semble qu'il y a un siecle que je n'ay pas été au Chocolat de la meuse. De grace dites moy a a-t-il du monde ou bien la maitresse s'y tient-elle seule à faire des chateaux en Espagne. Je passay hier l'après diné à parler françois avec <persName key="p0000">monsieur G.</persName>: mais j'eus de la peine de le bien entendre, car la langue françoise ne luy est pas tout à fait naturelle. Aussitôt qu'il m'eut fait paroitre quelque inclination de se remettre à étudier [inséré par une autre main: le] françois je ne manquay pas de vous recommander à luy. Peut étre que j'aurai la commodité de luy parler plus amplement de l'utilité de la Langue françoise, et en </p>
+        <pb n="f. 102" />
+        <p>même temps de luy parler de vous. Je ne manquerai pas de vous faire savoir ce qu'il dira là dessus. Du reste,</p>
+        <p>etc.</p>
+        <p>ru_nlrmss_ermfr_155_0001</p>
+        <p>ru_nlrmss_ermfr_155_0002</p>
+        <p>ru_nlrmss_ermfr_155_0003</p>
+        <p>ru_nlrmss_ermfr_155_0004</p>
+        <p>ru_nlrmss_ermfr_155_0005</p>
+        <p>ru_nlrmss_ermfr_155_0006</p>
+        <p>ru_nlrmss_ermfr_155_0007</p>
+        <p>ru_nlrmss_ermfr_155_0008</p>
+        <p>ru_nlrmss_ermfr_155_0009</p>
+        <p>ru_nlrmss_ermfr_155_0010</p>
+        <p>ru_nlrmss_ermfr_155_0011</p>
+        <p>ru_nlrmss_ermfr_155_0012</p>
+        <p>ru_nlrmss_ermfr_155_0013</p>
+        <p>ru_nlrmss_ermfr_155_0014</p>
+        <p>ru_nlrmss_ermfr_155_0015</p>
+        <p>ru_nlrmss_ermfr_155_0016</p>
+        <p>ru_nlrmss_ermfr_155_0017</p>
+        <p>ru_nlrmss_ermfr_155_0019</p>
+        <p>ru_nlrmss_ermfr_155_0020</p>
+        <p>ru_nlrmss_ermfr_155_0021</p>
+        <p>ru_nlrmss_ermfr_155_0022</p>
+        <p>ru_nlrmss_ermfr_155_0023</p>
+        <p>ru_nlrmss_ermfr_155_0024</p>
+        <p>ru_nlrmss_ermfr_155_0025</p>
+        <p>ru_nlrmss_ermfr_155_0026</p>
+        <p>ru_nlrmss_ermfr_155_0027</p>
+        <p>ru_nlrmss_ermfr_155_0028</p>
+        <p>ru_nlrmss_ermfr_155_0029</p>
+        <p>ru_nlrmss_ermfr_155_0030</p>
+        <p>ru_nlrmss_ermfr_155_0031</p>
+        <p>ru_nlrmss_ermfr_155_0032</p>
+        <p>ru_nlrmss_ermfr_155_0033</p>
+        <p>ru_nlrmss_ermfr_155_0034</p>
+        <p>ru_nlrmss_ermfr_155_0035</p>
+        <p>ru_nlrmss_ermfr_155_0036</p>
+        <p />
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorial submitted by the Imperial Resident Otto von Pleyer to Tsar Peter I</title>
+        <author xml:lang="en">Otto</author>
+        <author xml:lang="en">Anton</author>
+        <author xml:lang="en">Pleyer</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>8 November 1718. – Petition submitted by the <persName key="p0672">Imperial Resident Otto von Pleyer</persName> to <persName key="p0174">Tsar Peter I</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 32, opis 1, 1718, no. 12, f. 5–6v. German original. </bibl>
+          </note>
+        </head>
+        <p>German copy: RGADA, fond 32, opis 1, 1718, no. 12, f. 7–8. </p>
+        <p>Translation from German into Russian: RGADA, fond 32, opis 1, 1718, no. 12, f. 9–10v. </p>
+        <p>Draft of translation from German into Russian: RGADA, fond 32, opis 1, 1718, no. 12,  f. 11–12.</p>
+        <p />
+        <p />
+        <pb n="f. 5" />
+        <p />
+        <p>Мемориал <persName key="p0672">резидента цесарскаго Блейера</persName> о обиде, ему зделанной от <persName key="p0703">адютанта Дубровскова</persName>.</p>
+        <p>Aller Durchlauchtigster Großmächtigster </p>
+        <p>Zar, Allergnädigster Herr Herr.</p>
+        <p>Die Gestern sich zugetragene verdrießliche begebenheit, veranlasset den Endes unterschriebenen <persName key="p0174">Ewer Groß Zarischen Majest[et]</persName> allerunterthänigst vorzutragen, waß massen gestern vormittagß ich einen meiner bedienten wegen Meiner Nothdurfft auff die andere Seiten über wasser sendete, derselbe sich auff eine Ordinair=Schluppe begabe, und daß gebührende Überfahrt Geld bezahlte. Allß aber die Schluppe schon abstosssen wollte, kam der <persName key="p0703">Adjutant deß Herrn General Weyden Excell[enz] nahmens Dubrofski</persName>, indeme aber daß Fahrzeug schon voll menschen, und kein plaz mehr übrig gewesen, dringte er sich doch hinein, sagte zu meinem diener er sollte wiederum heraußsteigen, indeme er nur ein Laquei wäre. Mein Diener aber hat ihme geantwortet: daß er von seinem Herrn in Affairen geschiket, und seine Gebühr auch schon entrichtet hätte, er möchte sich auff ein anderß Fahrzeug begeben, worauff der <persName key="p0703">Adjutant</persName> meinen diener einen Hund schalt, und anß Ohr schlug. welchen mein Diener, der in einem Allgemeinen transport für sein, oder seines Herrn Geld eben so viel macht alß ein anderer, sonderlich einer der zu spat gekom[m]en, zu haben vermeinte, und von einem Fremden Ohnbekanten Ohrfeigen zu er= </p>
+        <pb n="f. 5v" />
+        <p> tragen nicht gewohnet ist, wiederum beym kopf bekame. worauff der <persName key="p0703">Adjutant</persName> drey dabey stehenden Soldaten 5 Rub[el] Geld versprochen, meinen diener zu greiffen, welche selben auß der Schluppe zogen, ihme den Degen von der Seiten gerissen, und ohne verschonung meiner Lieberey offentlich alß einen Missethäter in deß <persName key="p0702">h[errn] General Weyde</persName> hauß in Arrest führeten. Allwo zwar der Unter Officier welcher auff der wache war, alß er die Lieberey sahe, denselben nicht an[n]ehmen wollen. der <persName key="p0703">Adjutant</persName> aber ihme in deß <persName key="p0702">h[errn] Generalen</persName> nahmen ihne zu halten anbefohlen. Nachdeme mein diener nun schon unter der wache war, kam  der <persName key="p0703">Adjutant</persName> zu mir, klagend: daß mein Diener ihne hätte geschlagen, welchen er zwar hätte kön[n]en in Arrest nehmen, er hatte aber wollen mir den gebührenden Respect erweisen, über ihn klagen, und Satisfaction verlangen. Deme ich antwortete: daß so bald  mein Diener zu hauße komen würde ich ihne befragen, und auff befindender Schuld ihne in seiner presence straffen lassen wolte. Waß aber den angedroheten Arrest anlangete, würde eß ihme schwer fallen solches zu thun. weilen er alß ein Officier wohl wissen würde, den Respect, so eineß kayserl[ichen] Ministri Lieberey gebührte. Da aber kaum der </p>
+        <pb n="f. 6" />
+        <p>
+          <persName key="p0703">Adjutant</persName> auß meinem Hauß hinauß ware, erfuhre ich, daß er meinen bedienten gerades wegeß auß der Schluppe unter die wacht gezogen habe, daß er mir allso die sache Mit Falscheit und unwahrheit berichtet. zu welcher that ich aber unpartheische zeugen stellen kan. Nach dem nun <persName key="p0702">Ihr[o] Excell[enz] der Herr General Weyde</persName> auß dem <orgName key="o0058">Senat</orgName> nacher Hause kam, sandte ich zu ihme, mit ersuchen Meinen Diener loß zu lassen, und mir von dem <persName key="">Adj</persName>
+          <persName key="p0703">utant</persName> gebührende Satisfaction zu schaffen. nach langem warten deß abgeschikten, sandte der <persName key="p0702">h[err] General Weyde</persName> meinen Diener wiederum mit offentlicher wacht nach meinem Hauße, und forderte wegen seines <persName key="p0703">Adjutant</persName> von Mir Satisfaction, deme ich aber antworten ließe, wie daß ich ihme keine Satisfaction zu geben schuldig, sondern solche selber forderen. Nach deme aber Mir dieselbe versagt worden, seye ich gemüssiget, über den <persName key="p0703">Adjutant</persName> ein Memorial an <persName key="p0174">Ew[e]r Groß-Zarische Majest[et]</persName> zu übergeben, indeme durch diesen frevel, <persName key="p0163">Ihro kayserl[ichen] Majest[et] meineß Allergnädigsten Herrn</persName> hoher Respect offentlich cediret, und die einem Ministro, samt dessen bedienten zustehende Invio= </p>
+        <pb n="f. 6v" />
+        <p> labilitet durch ermeldeten <persName key="p0703">Adjutant</persName> gebrochen, und ich solcheß ohne grosse verantwortung nicht ohngeandet lassen kan, Alß gelanget an <persName key="p0174">Ew[e]r Groß-Zarische Majest[et]</persName> meine allerunterthänigste bitte, Dieselben wollen Allergnädigst geruhen, zu befehlen, Daß dieser <persName key="p0703">Adjutant</persName> gebührend abgestrafft werde. Übrigens Mich alleruntethänigst empfehlend</p>
+        <p>
+          <persName key="p0174">Ewr Groß-Zarischen Majestet</persName>
+        </p>
+        <p>
+          <placeName key="g0002">S[ank]t Petersburg</placeName> 8<hi rendition="#u">
+            <hi rendition="#sup">ten </hi>
+          </hi>Novembr[is]</p>
+        <p>1718.</p>
+        <p>allerunterthänigster diener</p>
+        <p>
+          <persName key="p0672">Otto v[on] Pleyern</persName>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

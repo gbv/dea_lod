@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter of credence of Russian Minister Plenipotentiary Prince Antiokh Сantemir to the King of Great Britain George II</title>
+        <author xml:lang="en">Empress</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Anna Ioannovna</author>
+        <author xml:lang="en">Gavrila</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="de">Головкин </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17 July 1733. – Letter of credence of <persName key="">the</persName>
+            <persName key="p0030">Russian Minister Plenipotentiary at the British court, Prince Antiokh Kantemir,</persName> to the <persName key="p0063">King of Great Britain George II</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 35, opis 1, no. 554, f. 6–7v. Russian original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 6" />
+        <p />
+        <p>Грамота к <persName key="p0063">королю Аглинскому</persName> верюща <persName key="p0030">князю Антиоху Кантемиру</persName> в карактере полномочного министра;</p>
+        <p>По титуле полном.</p>
+        <p>
+          <persName key="p0063">Ваше королевское Ве[личеств]о</persName>  уже напредь сего <hi rendition="#s">как уповаем</hi> уверены, о нашей совершенной дружбе, и истинном намерении к ненарушимому доброго с вами согласия содержанию и разпространению, и понеже мы ничего так не желаем как такие неотменные наши склонности во всяких случаях вяще и вяще засвидетельствовать, и коим образом мы с своей стороны всегда охотны и готовы всему тому способствовать. Еже оную между <orgName key="o0002,o0008">обоими дворами</orgName> щастливо пребывающую добрую конфиденцию к общей обоих сторон ползе </p>
+        <pb n="f. 6 v" />
+        <p> еще более утверждать может того ради мы, для нового того доказателства забл[а]го разсудили нашего при <orgName key="o0002">дворе вашего королевского ве[личеств]а</orgName> обретающагося <hi rendition="#s">резидента,</hi> нам любезно верного <persName key="p0030">князя Антиоха Кантемира</persName> ныне в карактере нашего полномочного министра к <persName key="p0063">вашему королевскому ве[личеств]у</persName> аккредитовать. <hi rendition="#s">И яко мы надеемся, что он нонне во время своего при дворе вашем пребывания таким образом поступать старался, чтоб ваше королевское ве:о тем доволны быть причины иметь могли тако </hi>того ради и вас сим дружебно сестрински просим оному <persName key="p0030">нашему полномочному министру</persName>
+          <hi rendition="#s">и впред</hi> не токмо склонный всегда к себе доступ позволять, но и во всем что имянем нашим </p>
+        <pb n="f. 7" />
+        <p> от времени до времени <persName key="p0063">вашему королевскому ве[личеств]у</persName> представлять он честь иметь будет. А особливо когда он при всяких случаях по нашему намерению вам обнадеживании о нашем к <persName key="p0063">вашему королевскому ве[личеств]у</persName> истинном высокопочитании и постоянной дружбе возобновлять будет, всякую совершенную веру подавать и навсе то его всегда <hi rendition="#s">по требованию обстоятелств</hi> таким склонным ответом снабдевать, как мы то от взаимной <persName key="p0063">вашего королевского ве[личеств]а</persName> нам дражайшей дружбы надежном ожидать причину имеем. Впротчем, мы от господа бога <persName key="p0063">вашему королевскому величеству</persName> желаем многолетного здравия и счастливого </p>
+        <pb n="f. 7v" />
+        <p> в г[осу]д[а]рствах ваших г[осу]д[а]рствования. </p>
+        <p>Дан в <placeName key="g0002">Санкт Петерсбурге</placeName>, июля 17 дня 1733го Г[осу]дрствования нашего четвертого году:</p>
+        <p>Вашего величества</p>
+        <p>Склонная сестра</p>
+        <p>
+          <persName key="p0006">Анна</persName>
+        </p>
+        <p>Оригиналная подписана <persName key="p0006">Ея императорского величества</persName> собственною рукою тако</p>
+        <p>Контросигнировал Г[оспо]д[и]н канцлер посему – <persName key="p0071">Граф Головкин</persName>
+        </p>
+        <p>Писана на александринском большом листу пороссийски копии на иностранном языке неприложено.</p>
+        <p>Запечатана Г[осу]д[а]рственною большою печатью под бумажною кустодиею на черном воску.</p>
+        <p>А лист чернен не был.</p>
+        <p>Отправлена к нему <persName key="p0030">кн[я]зю Кантемиру</persName> при рескрипте №13: июля в 17. 1733 году и приложены две копии на российском другая на аглинском языках.</p>
+        <p />
+        <p>See the translation of this document: ru_avpri_35_1_554_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Petition submitted by the Imperial Resident Otto von Pleyer to Tsar Peter I</title>
+        <author xml:lang="en">Otto</author>
+        <author xml:lang="en">Anton</author>
+        <author xml:lang="en">Pleyer</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>November 1718. – Petition submitted by the <persName key="p0672">Imperial Resident Otto von Pleyer</persName> to <persName key="p0174">Tsar Peter I</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 32, opis 1, 1718, no. 12, f. 1–1v, 1av. German original. Translation from German into Russian: RGADA, fond 32, opis 1, 1718, no. 12, f. 2–3.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p> AllerDurchLäuchtister Großmächtigster</p>
+        <p>Zar, Allergnädigster Herr.</p>
+        <p>Eß wird <persName key="p0174">Ew[e]r GroßZarischen Majestet</persName> nicht ohnbekant sein, waß massen ich unterschriebener, zu besserer bequemlichkeit für mich und meine Familie und führender Oeconomie, allhier in <placeName key="g0002">S[ank]t Petersburg</placeName> ein Hauß erkauffet, Weilen aber der ganze Plaz niedrig, und voller Koth, auch mehr allß die helffte desselben inn einem tiefen Morast bestanden ist, habe ich denselben durch und durch, an denen meisten Orten aber, biß 3 Arsin hoch mit sand und Erden auffgefüllet, und troken gemacht, bollwerk, Keller, Küche, wie auch einen guten Küchen garten, samt andern unentbehrlichen Wohnungß Gebauden, von neuem aufgeführet, und nicht ohne grossen unkosten zu einer bequemen Wohnung gemacht habe. Welcheß anjezo wegen meiner Abreiße von hier, zu verkauffen gesin[n]et ware, und auch viele Liebhabere sich dazu findeten, welche mir solches wegen seiner guten Situation, und andern bequemen Wohnungß Gelegenheit, nebst meinen Eignen dafür außgelegten Gelde, und dazu auffgewandten unkosten, welche sich auff 950 Rubel belauffen, mit gutem Nuzen und Avantage abkauffen wolten. Weilen aber, auff <persName key="p0174">Ewer GroßZarischen Majestet</persName> ergangenen Allergnädigsten befehl, aller Orten zeichen außgesteket worden, wo die gassen komen, und die </p>
+        <pb n="f. 1v" />
+        <p> Häußer geruket, oder gar weggebrochen werd[en] müssen, so hat eß mein Hauß allso getroffen, daß mitten durch dasselbe, nach der ganzen Länge, eine Grosse breite Strasse kom[m]en soll. Wordurch daß hauß allso zertheilt wird, daß auff keiner seiten so viel Plaz übrig bleibet, worauff eine bequeme Wohnung gebauet werden könte. mithin der ganze Plaz unverkaufflich, und dem Publico überlassen muß. Allß gelanget an <persName key="p0174">Ihro GroßZarische Majestet</persName> mein allerunterthänigstes bitten, dieselbe wollen allerGnädigst geruhen zu verordnen, daß dises mein Hauß, mit allen darauff stehenden Gebauden, nach aller Orten und Landen wohl hergebrachten Gewohnheit, zu dero <orgName key="o0064">Canceley</orgName> genom[m]en, und mir mein außgelegtes Geld dafür ersezet, und bezahlet werden möchte. Womit mich zu hohen Zarischen Gnaden Allerunterthänigst empfehlend ersterbe</p>
+        <p>
+          <placeName key="g0002">S[ank]t Petersburg</placeName>
+        </p>
+        <p>
+          <persName key="p0174">Ewer GroßCzarischen Mäy[estät]</persName>
+        </p>
+        <p>Allerunterthänigster diener</p>
+        <p>
+          <persName key="">Otto v[on] Pleyern. Ihro Röm[isch] kay[serlichen] und</persName>
+        </p>
+        <p>
+          <persName key="p0672">      königl[ichen] kathol[ischen] May[estät] Resident</persName>.</p>
+        <p>Memoriale. Мемориал <persName key="p0672">резидента цесарскаго Блейера</persName> о заплате д[е]н[е]г из <orgName key="o0064">Посолской канцелярии</orgName>, которые он на двор свой положил.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

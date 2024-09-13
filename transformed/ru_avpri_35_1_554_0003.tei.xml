@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter of credence of Russian Minister Plenipotentiary Prince Antiokh Сantemir to the King of Great Britain George II</title>
+        <author xml:lang="en">Empress</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Anna Ioannovna</author>
+        <author xml:lang="en">Gavrila</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="de">Головкин </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17 July 1733. – Letter of credence of <persName key="">the</persName>
+            <persName key="p0030">Russian Minister Plenipotentiary at the British court, Prince Antiokh Kantemir,</persName> to the <persName key="p0063">King of Great Britain George II</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 35, opis 1, no. 554, f. 8–9. English translation of Russian original, title in Russian.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 8" />
+        <p />
+        <p>Грамота к <persName key="p0063">королю аглинскому</persName> верющая полномочному министру князю <persName key="p0030">Антиоху Кантемиру</persName>
+        </p>
+        <p>По большим титулом</p>
+        <p>
+          <persName key="p0063">Your Royall majesty</persName> is already heretofore asseur’d of our perfect amity and sincere intentions, inviolably to preserve and cultivate the good intelligence with you. And whereas Wee [sic] desire nothing so earnestly as to prove more and more such our unchangeable affection upon all occasions, and how willing and ready wee always are on our part to contribute all towards the stronger corroboration of that good confidence which does so happily subsist between us to the reciprocal advantage of both sides: so to give </p>
+        <pb n="f. 8v" />
+        <p> a new proof thereof, Wee have at present determin’d to lett our trusty and well belov’d <persName key="p0030">Prince Antioch Cantemir</persName> reside at <orgName key="o0002">Your Royall majesty’s Court</orgName> in the character of our minister plenipotentiary, and therefore Wee desire you herewith friendly and sisterly, not only to give to the said our minister plenipotentiary a free access to your self, but likewise entire creditt in all. He shall have the honor from time to time to represent in our name to <persName key="p0063">your Royall majesty</persName>, and more particularly when he according to our intentions shall upon all occasions renew the asseurances of our sincere esteem and constant amity to <persName key="p0063">your Royal majesty</persName>, and always to provide him with such a favourable </p>
+        <pb n="f. 9" />
+        <p> answer upon it, as wee have reason confidently to expect from Your Royall majesty’s reciprocal dear amity towards us. So wishing <persName key="p0063">your Royall majesty</persName> from the almighty God a long life and a happy Reign in Your Dominions. </p>
+        <p>Given at <placeName key="g0002">St Petersburg</placeName> the 17:th July 1733. And in the fourth year of our Reign</p>
+        <p>Your Majesty’s</p>
+        <p>affectionate sister</p>
+        <p>
+          <persName key="p0006">Anne</persName>
+        </p>
+        <p>/ <persName key="p0071">Count Golofkin</persName>
+        </p>
+        <p />
+        <p>
+          <persName key="">Translation of: ru_avpri_35_1_554_0002</persName>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

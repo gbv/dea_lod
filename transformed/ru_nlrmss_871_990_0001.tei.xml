@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Peter von Staehlin to Jacob von Staehlin</title>
+        <author xml:lang="en">Peter</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>11 February 1783. – Letter from <persName key="p0363">the secretary of the Russian Embassy in the Netherlands Peter von Staehlin</persName> to his father <persName key="p0135">Jacob von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, fond 871, n°990, f. 7–8v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 7" />
+        <p />
+        <p>№ 6. <placeName key="g0004">La Haye</placeName> le 11. Fevrier 1783.</p>
+        <p>Ainsi que je l’avais supposé, Votre lettre №. 1. du 7. janvier m’est parvenu Vendredy passé par <persName key="p0440">Mr. de Marcoff</persName> qui me l’a d’abord fait tenir. Lorsque je parlai dans ma dernière d’un №. 54. que j’attendais de Votre part, je me suis abusé, ayant oublié que Votre № 53. etoit du 25. Xbre, et que par conseq[uen]t elle ne pouvoit etre que la derniere de l’année passée dont les numeros ne sauroient etre continués. Quant au № 2. il auroit pu me parvenir hier, si les chemins etoient seulement passables, et si la poste seroit deja arrivée, puisqu’on l’attend encore à chaque moment. Pour vous expliquer selon moi la signification de l’expression du spleen de la quelle notre digne ami à <placeName key="g0011">Hambourg</placeName> s’est servi à mon égard dans sa dernière addressée à Vous, voilà ce que c’est. D’abord notre correspondance mutuelle entre cet ami et moi, est fort enjouée et rien moins que lugubre et plaintive, de sorte qu’il ne lui auroit point été possible de s’apercevoir de quelque hypohondrie par mes lettres. Si même la chose avait eu lieu comme elle ne l’a jamais été. Mais comme nous nous écrivons souvent et toujours à cœur ouvert, mes premières lettres après la nouvelle de mon congé involontaire, se ressentisssent un peur du mécontentement que je ressentois alors plus qu’à present de ce traitement. De là <persName key="p0076">Mr. de Gross</persName> a pris occasion de me railler sur mon spleen apparent, et nous avons continué de nous entretenir toujours en plaisantant ; même sur les injustices passées.</p>
+        <p />
+        <pb n="f. 7v" />
+        <p> C’est apparement ce qui lui a fourni cette expression qu’il a cependant certainement employé en badinant. Non graces à Dieu je me suis toujours bien posté dans ce païs ci, et nulle part dans le peu d’endroits que j’ai habités, j’ai eté moins sujets aux accès hypocondriaques que dans ce païs ci, oû je n’en ai eu conscience essuyé aussi. Je ne saurois même eu excepter ma patrie, oû même ma santé n’etoit pas même aussi ferme qu’elle l’a toujours constamment eté icy. Une preuve bien convainquante de cette verité, est entr’autres que la premiere nouvelle de la Résolution de mes Superieurs à mon egard, toute innatendue et desagreable qu’elle me l’etoit, n’a cepend[ent] aucunement influé sur mon humeur ou ma présence d’esprit. Peut étre que l’age a fait insensiblement passer ces accès désagreables, de quoi je rends graces au Ciel. Pour varier de ton, m’occuper des idées plus agreables que celles dont je ne veux plus parler, je ne saurois me disperser de Vous communiquer une petite idée passagère qui m’est venue, et sur laquelle je demande Votre sentiment, et Votre appuy et assistance dans le cas que Vous l’approuviès. Cette idée ; aussi que toutes les autres, est analogue à mon zèle pour le Service de <persName key="p0033">S[a] M[ajesté] I[mpériale]</persName> et à l’empressement d’etr utile à la patrie, dans ma Sphère. Voiez ce que c’est : j’ai appris que <persName key="p0033">l’Imperatrice</persName> etoit decidée, de nommer encore plusieurs Consuls en differents endroits et ports de mer, ainsi que plusieurs de mes Confréres ont obtenu des pareilles places. Entr’autres Consulats enccore vacants, il y a <placeName key="g0180">Antibes</placeName>, <placeName key="g0181">Marseille</placeName>, <placeName key="g0182">Toulon</placeName>, <placeName key="g0183">Edinburg</placeName> en Ecosse &amp;c. &amp;c. Cette dernière place me conviendroit bien, si on vouloit me l’accorder, et cela par </p>
+        <pb n="f. 8" />
+        <p> plus d’une raison. Premiérement parce que le climat de l’Ecosse me sera apparemment propice ; 2 nt parce que je me suis instruit pendant mon sejour icy dans ce païs commerçant autant que j’ai pu de tout ce qui est relatif au commerce et que je me flatte de pouvoir etre utile dans cette parties. 3 nt Puisque je sais le Russe, le françois, l’anglois, et actuellement assés d’Hollandois. De plus il est connu qu’il y a souvent sur les cotes d’Ecosse des vaisseaux Russes d’<placeName key="g0049">Archangel </placeName>qui y sont naufrage, et qu’un Consul general de Russie n’y seroit point inutile. <persName key="p0475">Madame la Princesse Daschkoff</persName> aime beaucoup l’Ecosse, et si cette idée Vous plairoit, <hi rendition="#s">dans l’esperance que j’y ferois ses commissions, et </hi>par une suite de la bienveillance dont elle m’honoroit du moins autrefois, elle pourroint m’être fort utile dans ce projet auprès de S[on] E[xcellence] <persName key="p0144">M. le C[om]te Alexandre</persName>, son frère, et d’autres. Si cette place est considerée comme inutile, j’en accepterai volontiers quelqu’autre, pourvu que ce soit en Europe.</p>
+        <p>Je rends de tout mon coeur graces au Tout puissant d’avoir detourné de Vous la maladie qui Vous menaçoit, et contre la quelle Vous Vous etes garanti par la saignée et autres remèdes employés à propos, et je prie le bon Dieu de Vous conserver Votre précieuse Santé.</p>
+        <p>
+          <hi rendition="#s">Mr. le Secretaire perpetuel de Votre Academie Euler</hi>
+          <hi rendition="#s">, a informé le Prince Galitzin</hi>
+          <hi rendition="#s"> de la Commission etablie pour examiner l’administration de M. Domaschneff</hi>
+          <hi rendition="#s">, et il lui marque en meme tems que ce dernier s’en moque. Reste à savoir s’il est bien avec ses examinateurs et juges</hi>
+        </p>
+        <pb n="f. 8v" />
+        <p>
+          <hi rendition="#s">tous plus puissants et plus en credit que lui, sans quoi il pourroit mal passer son tems.</hi> Au moment de vouloir achever cette lettre je revois de la part du <persName key="p0364">Prince Galitzin</persName> Votre lettre № 2. et un instant après ce galant Homme vient de me voir lui même, et de me communiquer les lettres de <persName key="p0438">S[on] A[ltesse] I[mpériale]</persName> et d’autres ainsi que l’Oukaz à ce sujet. Il est fort content de son congé, ayant obtenu 2000. Roubles de pension viageré, payables en tel endroit qu’il pourroit se trouver à raison de 50. Stuÿvers par rouble ; en outre l’<persName key="p0033">Imperatrice </persName>lui a fait gracieusement présent les 7000. roubles qu’il a deja reçus pour les frais de son voyage à <placeName key="g0185">Turin</placeName> et de son etablissement dans cet endroit. Hier au soir est arrivé en ma présence, chés <persName key="p0440">Mr. de Marcoff</persName> en Courrier <persName key="p0480">Mr. de Bock</persName>, Bas officier aux Gardes Semenowsky qui repart aujourd’huy pour <placeName key="g0003">Londres</placeName>.</p>
+        <p>
+          <hi rendition="#s">J’ai connu il y a quelques années ce jeune homme en Russie, et l’ai proposé au Club de musique pour membre pendant que j’en etois un des Directeurs, et il m’a d’abord reconnus</hi>
+        </p>
+        <p>
+          <persName key="p0483">Mr. Rittemeyer</persName> qui Vous presente bien ses respects, ecrit aujourd’hui à <persName key="p0484">Mr. le Prince Jousoupoff</persName> pour se recommander à lui, etant destiné à <placeName key="g0185">Turin</placeName>. Il Vous supplie de vouloir bien me marquer le tems au quel son nouveau Ministre compte partir pour <placeName key="g0185">Turin</placeName> de <placeName key="g0002">Petersbourg</placeName>. Bien loin de Vos froids de Russie, nous avons icy l’hyver le plus doux qui ait existé depuis nombre d’années, et un temps pluvieux.</p>
+        <p />
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_987_0004</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0002</p>
+        <p>ru_nlrmss_871_988_0003</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0001</p>
+        <p>ru_nlrmss_871_989_0002</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0002</p>
+        <p>ru_nlrmss_871_1012_0003</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+        <p>ru_nlrmss_871_1016_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

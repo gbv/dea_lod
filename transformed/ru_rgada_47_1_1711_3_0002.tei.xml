@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Hanover, Baron Hans Christoph of Schleinitz to Tsar Peter I</title>
+        <author xml:lang="en">Hans</author>
+        <author xml:lang="en">Christoph</author>
+        <author xml:lang="en">Schleinitz </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>3/14 July 1711. – Letter from <persName key="p0732">the Russian Envoy to Hanover, Hans Christoph Schleinitz</persName> to <persName key="p0174">Tsar Peter I</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 47, opis 1, 1711, no. 3, f. 16–21. German original. Translation from German into Russian: RGADA, fond 47, opis 1, 1711, no. 3,  f. 22–25v.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 16" />
+        <p> Aller Durchlauchtigster</p>
+        <p>Groß Mächtigster Czaar</p>
+        <p>Aller=Gnädigster Herr.</p>
+        <p>
+          <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> vermelde hierdurch Aller=Unterthänigst, wie den 29 Jun[y] / 10 July von <placeName key="g0032">braunschweig</placeName> Abendts allhier angelanget.</p>
+        <p>Ich habe tages darauf <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> mier mitgegebenes Creditif <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> durch dero <persName key="p0791">Hoff=Marschall von Hardenberg</persName> einhändigen, und die gebrauchliche Notification an die Chur=Hannoverische würckliche <persName key="p0780,p0781">Geheimte=Rähte </persName>thun laßen. Von gleichgemeldeten <persName key="p0780,p0781">Geh[eimten]=Rahten </persName>gaben mier Nach=Mittags nach geschehener Notification die zween erstere und ältiste der <persName key="p0780">von Bernstorf</persName> und <persName key="p0781">von Goertz</persName> die erste Visite. Sie bezeugten, daß <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> anhero geschickte Gesandtschafft S[eine]r </p>
+        <p>[footnote on the left:] № 2</p>
+        <p />
+        <pb n="f. 16v" />
+        <p>
+          <persName key="">Chur=Furstl[ichen] Durchl[aucht]</persName> höchst angenehm, und ließen Sie nicht undeutlich, wiewohl nur überhaupt verspühren, daß <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName>
+          <persName key="p0727">zu br[aunschweig]</persName> über jetzigen besondern zustand der Sachen, wie auch der zu Reducirung des Pommerisch=Schwedischen Corps bevorstehender Operation, mit <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> verträulich sich zu vernehmen, ja allenfalls in genauere und würckliche Tractaten zu treten, woll geneigt seyn mögten.</p>
+        <p>Eben dieses tages gegen Abend hatte der Chur=Fürstl[iche] Cammer=Fourier mich benachrichtiget, wie <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> mier den 1/12 July Audience geben, und ich dero behueff zu Herrenhausen, allwo Sie den gantzen Sommer über beständigst residiren, mit allen Solennitäten und Ceremonial, so bey koniglichen Gesandten, gebrauchlich, aufgehohlet worden würde. Nach Mittags um beniemte zeit erfolgte auch die Abhohlung mit diesen Umstanden</p>
+        <p>Erst kamen zwene Hoff=Fouriers, welche </p>
+        <pb n="f. 17" />
+        <p> vermeldeten, wie die Gutschen und Gefolg, So mich zur öffentlichen Audience nacher Herrenhausen abhohlen solten, ankämen.</p>
+        <p>Hierauff erschien ein Courier, dan der Chur=Furstl[ichen] Cammer=Fourier, beyde zu Pferde; Ihnen folgten drey Gutschen jede mit sechs Pferden bespannet. bey denen beyden ersten Gutschen, gingen bey jeder zweene Laquayen, bey der dritten aber achte. In der ersteren saßen zwene Hoff=Cavalliers, In der andern zweene Cammer Jungkern. In der dritten, so <persName key="p0727">S[eine]r Chur=Fürstl[ichen] Durchl[aucht]</persName> Leibwagen, und der Leibzug waren, saß der Cammer Herr von Oënhausen, und ritten vor dieser Gutschen zweene Pagen mit ihren Mänteln. Sie stiegen in der Ordnung aus denen Gutschen, und ließe Ich Sie durch meinem Secretarium unten an der Hauß=Thur annehmen, und die Stiegen zu mier hinnauf führen; Als ich deren Ankunfft vermerckte, begab ich mich aus meinem zimmer, und ging Ihnen etzliche Schritte biß an die Stiegen entgegen der <persName key="p0786">Cammer Herr von Oenhausen</persName> machte mier darauf ein bewillkommungs= </p>
+        <pb n="f. 17v" />
+        <p> Compliment und vermeldete, wie er von wegen <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> befehliget, mich nacher Herrenhausen zu dieser öffentlichen Audience abzuhohlen; Ich antwortete darauf kürtzlich, und nahm nach einigen nöhtigen die Rechte, und trat vor Ihnen in mein zimmer, wohin Sie mich den folgeten. Wier verweilten daselbst nicht lange, sondern gingen von dar die Stiegen herunter, so daß erst die Hoff=Cavaliers voran gingen, darauf die Cammer Jungkern dan der <persName key="p0786">Cammer Herr von Oenhausen</persName>, und endlich ich folgten. Die Ordnung in fahren war, daß in der ersten Gutschen mein Secretarius in der andern die zweene Hoff= und zweene Cammer=Jungkern, in dem Leibwagen aber a deux fonds, Ich hinten allein, und der Cammerherr mier gegenüber rückwerts saßen, und ging es übrigens mit der Aufhohlung eben so, wie mit dem Ankommen. In dem Thore præsentirte die Wache das Gewehr, und rührte das Spiel. bey der Ankunfft zu herrenhausen thate die Wache daselbst ein gleiches; Die erste und andere Gutsche blieben inzwischen vor dem leztem Thore in Herrenhausen halten </p>
+        <pb n="f. 18" />
+        <p> die dritte aber, worinnen Ich saß fuhre gantz biß an die Stiegen, wo <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> Selbst abzusteigen pfleegen. Ich wurde unten an der Stiegen von <persName key="p1248">dem Schloß=haupt=Mann von Bennigsen</persName> entpfangen. Oben nam mich der <persName key="p0791">Hoff=Marschall von Hardenbergan</persName>, und führte mich der anjetzo anwesende ältiste <persName key="p0783">Cammer=Herr und Ober=Stall=Meister Baron von Kielmans Egge</persName> durch das Vorgemach biß zu <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> zimmer. Als ich noch etwas von gedachtem zimmer entfernet, eröffnete gleichgemeldter <persName key="p0783">Cammer=Herr und Ober=Stall=Meister Baron von Kielmans Egge</persName> die thüre, worauf <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> mier ein, oder zwo Schritte über die Schwelle aus Dero in das Vorgemach entgegen, mit mier aber ins erstere wieder zuruck gingen, da denn die thüre sofort wieder zugemacht wurde.</p>
+        <p>Mein Antrag an <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> bestandt kürtzlich in Versicherung <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> beständigst treuen Freundtschafft, zu dehrer mehrer bezeugung, und aus besonderer Hoch=Achtung für <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName>, Sie diese Abschickung an Selbige durch mich thun ließen </p>
+        <pb n="f. 18v" />
+        <p> Es hätten <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> mier AllerGnädigst anbefohlen, als dero Envoyé Extraordinaire bey <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> biß auf Aller Gnädigste fernere ordres zu subsistiren, und das gute Vernehmen, so durch einem ohnlängst geschloßenen Alliance=Tractat zwischen Ihnen beyderseits festgesetzet, nicht allein sorgfaltigst zu unterhalten, sondern auch bey anjetzo sich äußernden Conjuncturen eine so genaue und vertrauete Correspondence zu befestigen, daß <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> daraus die besondere zuversicht vernehmen könten, so <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> in Sie gesetzet, und wie begierig Sie sey, keine Geleegenheit vorbeyzulaßen <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> davon würckliche kennzeichen zu geben, und schäzte ich mich glücklich, wan bey dieser AllerGnädigst mier aufgetragenen Commission <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> meine Höchste Veneration vor dero Persohn, und tieffste Devotion antragen könte.</p>
+        <p>
+          <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> antworteten: wie Sie die Ehre von der, von <persName key="p0174">Ew[ro] Czaar[i]sch[en] –May[estä]t</persName> gethaenen Abschickung mit Höchstem danck und besonderer Ergebenheit für </p>
+        <pb n="f. 19" />
+        <p>
+          <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> erkenneten; Sie wolten Ihres Orts das schon angefangene gute Verständniß nicht allein äußerst fortzusetzen sich bemühen, sondern auch <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> in Sie gesezte gute Vertrauen, zu Angehung eines engeren und festzusetzenden Vernehmens, bey jetzigen Conjuncturen, mit aller treuen Freundtschafft für <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> zu erwiedern Ihnen Höchstens angeleegen, auch Ihnen ein großes Vergnügen seyn laßen, <persName key="p0174">Ew[ro] May[estä]t</persName> hiervon mit ehistem würckliche Proben zu geben. <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> versicherten mich hiernechst Dero Gnade und Affection und bezeugten, wie Ihro sehr lieb und angenehm daß <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> diese Gesandtschafft mier fur andern Aller Gnädigst auftragen wollen. Es kamen <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> hierauf von <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> glücklichen progres und siegreichen Waffen wieder dero Feinde mit mier zu reden, und fragten: Ob denn, wie die gute zeitung erschollen, und Sie mit Vergnugen vernommen, dero Armée den Nieper würcklich passiret und die Hospodaren von der Wallachey und Moldau sich für <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> erklahret hätten? Ob der könig von Schweden durch dero Trouppen von <placeName key="g0235">Bender</placeName> verjaget flüchten müßen? ob <persName key="p0174">Ew[ro] May[estä]t</persName>
+          <placeName key="g0235">Bender</placeName> belagerten, und wie hier vorgegeben wird </p>
+        <pb n="f. 19v" />
+        <p> darvon Meister wären? wie starck dero Armée sey? und ob Selbige dem Türcken die Passage über die Donau fernerhin strittig machen wolte.</p>
+        <p>Ich Antwortete hierauf <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> so viel als mier wißend, und der erworbene Ruhm und Ehre <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> sieghafften Waffen erforderte. <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> bezeugten hierob ein großes Vergnügen, und konte Ich gar deutlich wahrnehmen, daß Sie <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>  einen glücklichen Erfolg siegreicher Waffen gegen Dero Feinde, gerne gönneten.</p>
+        <p>Es daurete diese Unterredung, biß der Hoff=Marschall vermeldete, daß es zeit zur Taffel wäre, worauf Ich denn Abschied nahm, und von <persName key="p0727">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> biß auf ein paar Schritten über die Schwelle, aus Deren in das Vorgemach wieder begleitet wurde</p>
+        <p>Ich nahm annoch vor Anfang der taffel Gelegenheit <persName key="p0625">S[eine]r Chur=Furstl[ichen] Durchl[aucht] Frau Mutter der Verwittweten Chur=Fürstinn</persName> in Dero nahe, bey des Regierenden Chur=Fürstens durchl[aucht] habenden zimmer, von <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> einen Gruß und gleichmäßige Versicherung <persName key="p0174">Ew[ro] May[estä]t</persName> bestandigen zuneigung und Freundtschafft zu überbringen </p>
+        <pb n="f. 20" />
+        <p>
+          <persName key="p0625">Ihro Durchl[aucht] die Verwittwete Chur=Fürstinn</persName> nahmen diesen überbrachten Gruß mit besonderen Vergnügen auf, und versicherten, daß da Sie schon einmahl <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> in Teutschlandt zu sehen das Glück gehabt, Ihr eine große Freude seyn würde, wan <persName key="p0174">Ew[ro] May[estä]t</persName> dem genommenen Entschluß zufolge, auf dero <persName key="p0698,p0749">Cron=Printzen Hoheiten </persName>beylager persohnlich sich einfinden werden; Sie hoffte alsdenn <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> nicht allein zu sehen und zu sprechen, sondern Ihro auch dero besondere Hoch=Achtung für dieselbe mündlich zu bezeugen.</p>
+        <p>In der <persName key="p0625">Chur=Fürstinn</persName> Gemach, fand <persName key="p0784">S[eine]r Chur=Furstl[ichen] Durchl[aucht] jüngsten Herrn bruder, Hertzog Ernst August</persName> vor. Ich machte Selbigem mit wenig worten mein Compliment, worauf den <persName key="p0784">S[eine]r Durchl[aucht]</persName> mit expressionen, von respect und Ergebenheit gegen <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> antworteten.</p>
+        <p>Des <persName key="p0063">Chur=Printzens</persName>, und deßen <persName key="p0168">Frau Gemahlinn der Chur=Printzeßinn Durchl[aucht] Durchl[aucht]</persName>  halten Sich beständig zu <placeName key="g0008">Hannover</placeName> auf, und weilen der <persName key="p0168">Chur=Printzeßinn durchl[aucht]</persName> tags vor meiner Ankunfft einer <persName key="p0785">Princessinn</persName> genesen, so haben Sie meine Visite alhier decliniret, des <persName key="p0063">Chur=Printzens Durchl[aucht]</persName> auch darbey mier </p>
+        <pb n="f. 20v" />
+        <p> sagen laßen, daß Ich Sie zu Herren=hausen bey erster Geleegenheit sprechen könte, allwo Ich auch die Audience jedoch ohne Ceremonial nehmen werde.</p>
+        <p>Es wurde hierauff Taffel gehalten; <persName key="p0625">S[eine]r Chur=Furstl[ichen] Durchl[aucht] Frau Mutter die Verwittwete Chur=Fürstinn</persName> nahmen die erste Stelle, zu dero Rechten saße der <persName key="p0727">Chur=Fürst</persName> zur lincken der Hertzog deßen <persName key="p0784">Herr Bruder</persName>, Ich saße dem <persName key="p0727">Chur=Fürsten</persName> zur Rechten, und folgte auf mier der <persName key="p1247">bischoffl[ich] Münsterische Abgesandte von Plettenberg</persName>, und nechst diesem zu beyden seiten einige von denen Vornehmsten des <orgName key="o0067">Chur=Furstl[ichen] Hoffes</orgName>.</p>
+        <p>Nach gehaltener Taffel verfügten sich <persName key="">S[eine]r Chur=Furstl[ichen] Durchl[aucht]</persName> durch <persName key="p0625">Dero Frau Mutter der verwittweten Chur=Furstinn</persName> Gemächer in lezteren Schlaff=zimmer. <persName key="p0727,p0625">Ihro Chur=Furstl[ichen] Durchl[auchte] </persName>ließen mich so fort dahin beruffen, und hatte ich die Ehre, Sie von unterschiedenen theils indifferenten, theils die jetzigen Conjuncturen betreffenden Sachen zu unterhalten</p>
+        <p>Nach dem mich von <persName key="p0727">S[eine]r Chur=Furstl[ichen]</persName> und der <persName key="p0625">Verwittweten Chur=Fürstinn Durchl[aucht] Durchl[aucht]</persName> beurlaubet, wurde Ich in dem Vorgemach mit eben dem Ceremonial und Solennitäten, als auf= </p>
+        <pb n="f. 21" />
+        <p> gehohlet, wieder biß an die unterste Stiegen in die Gutsche, und von dar biß an meine Wohnung begleitet, woselbst die Cavalliers insgesamt ausstiegen, und mich vollendts in mein zimmer führeten. Nach Mittags annoch gaben die übrige würckliche <persName key="p0789">Geh[eimte] Rähte von Bulow</persName> und <persName key="p0790">von Eltz</persName> mier auch die erste Visite, und machte ich gestern den Anfang die Gegen=Visiten an die <persName key="p0780">Geh[eimte] Rähte von Bernstorf</persName> und <persName key="p0781">von Goertz</persName> als die zweene erstere zu geben heute werde damit gegen die übrigen Geheimten Rähte fortfahren.</p>
+        <p>Dieses ist also was von meiner ersten und solennen Aufhohlung und gehabten Audience <persName key="p0174">Ew[ro] Czaar[i]sch[en] May[estä]t</persName> vermelden konnen. Ich verharre in tieffster Unterthänigkeit</p>
+        <p>
+          <persName key="p0174">Ewro Czaarischen Mayestät</persName>.</p>
+        <p>
+          <placeName key="g0008">Hannover</placeName>  am 3 July / 14 July		allerunterthänigst, pflichtschuldigst-</p>
+        <p>1711.						threu gehorsamster,</p>
+        <p>
+          <persName key="p0732">H[ans] C[hristoph] von Schleinitz</persName>
+        </p>
+        <p />
+        <pb n="f. 21v" />
+        <p> От <persName key="p0732">Шлейница</persName> к ц[а]рскому величеству из <placeName key="g0008">Гановера</placeName> 3-г[о] июля. Переведено на реке Висле августа 21-г[о] 1711-г[о] году.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

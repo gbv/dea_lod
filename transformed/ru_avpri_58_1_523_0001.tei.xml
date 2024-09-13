@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the speech of Marquis of Almadovar to Empress Catherine II</title>
+        <author xml:lang="en">Pedro</author>
+        <author xml:lang="en">Francisco</author>
+        <author xml:lang="en">Jiménez</author>
+        <author xml:lang="en">de</author>
+        <author xml:lang="en">Góngora</author>
+        <author xml:lang="en">y</author>
+        <author xml:lang="en">Luján</author>
+        <author xml:lang="en">Arlmodovar</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>18 May 1763. – Copy of the speech of the Minister Plenipotentiary of Spain to the Russian Empire, <persName key="p0225">Marquis of Almodovar</persName> to the <persName key="p0033">Empress of Russia Catherine II</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 58, opis 1, no. 523, f. 1. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 1" />
+        <p />
+        <p>Copie du Discours</p>
+        <p>Madame</p>
+        <p>Ma santé qui deperissoit de jour en jour et des affaires importantes et particulieres m’ont obligé à demander au <persName key="p0036">Roy mon Maitre</persName> une grace, que je pouvois regarder comme une punition : mon rappel.</p>
+        <p>Plain de regrets je quite la <orgName key="o0008">Cour de Russie</orgName>, sejour à qui <persName key="p0033">V[otre] M[ajesté] I[mpériale]</persName> a donné un nouvel eclat en le rendant digne d’atirer toute l’atention des etrangers par les faits heroiques de <persName key="p0033">V[otre] M[ajesté] I[mpériale]</persName> dont le sublime talent dans l’art de regner reuni à tant d’autres fait l’admiration general.</p>
+        <p>
+          <persName key="p0036">Le Roy mon Maitre</persName> qui en a l’entiere connoissance ne souhaite rien avec plus d’empressement que d’entretenir la plus etroite amitié entre les deux Couronnes. Plain de ces sentiments invariables il m’ordonne tres expressement de donner à <persName key="p0033">V[otre] M[ajesté] I[mpériale]</persName> les plus fortes assurances de son desir constant à la cultiver. S.M. saisissant toutes les occasions d’en donner des nouvelles preuves a nommé pour mon successeur un <persName key="p0227">Ministre</persName> que joignant a son merite personel l’heureuse circonstance de se trouver dans <orgName key="o0015">la Cour la plus voisine</orgName> puisse se rendre incessament aupres de <persName key="p0033">V[otre] M[ajesté] I[mpériale]</persName> et par là eviter la moindre interruption dans une correspondence deja etablie solidement avec la plus grande sitisfaction reciproque.</p>
+        <p>J’ai Madame le bonheur d’etre le premier Ministre Espagnol qu’ait servi d’instrument pour cimenter cete heureuse reunion. Les sentiments que l’ont [sic !] formee en garentissent la perpetuité. Les principes de liaisons entre les deux puissances sont fondés sur l’amour naturel et respectif a tant de peuples que la divine providence a confié à leurs souverains. Ces principes ont une base beaucoup plus sure et plus durable que celle dont un interet passager ou un evenement fortuit forment les liens. La Paix qui tranquilise l’Europe pourra faire naitre l’occasion de recueillir les fruits de ces verites, et des dispositions avantageuses dans lesquelles se trouvent les deux Empires.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

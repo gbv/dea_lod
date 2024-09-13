@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Peter von Staehlin to Jacob von Staehlin</title>
+        <author xml:lang="en">Peter</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1 January 1782. – Letter from <persName key="p0363">the secretary of the Russian Embassy in the Netherlands Peter von Staehlin</persName> to his father <persName key="p0135">Jacob von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, fond 871, n°989, f. 1–2v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 1" />
+        <p />
+        <p>№ 1. <placeName key="g0004">La Haye</placeName> le 1. Janvier n. St. 1782.</p>
+        <p>Je commence l’année par me rappeler Vos bienfaits et bontés sans oublier la gratitude la plus vive que je vous en dois, et au lieu de vous feliciter comme l’ancien usage le pratique j’ai lieu de me feliciter moi-même de la grace que le Bon Dieu m’a fait de Vous avoir conservé ainsi que <persName key="p0371">ma chère Mère</persName> en bonne santé. Tous les jours de mon existence etant naturellement destinés aux vœux que je fais pour Votre parfait contentement, il me semble inutile de me repandre au jour de l’an en complimens de saison, et il ne me reste que de Vous supplier à m’accorder la continuation de Votre bienveillance précieuse et digne de tous mes efforts pour la meriter.</p>
+        <p>La lettre № 49. dont Votre derniere № 50. me recommande la lecture repetée, a eté lue et relue plus d’une fois, et ma derniere № 57 ; De Mardy passé qui lui servit de reponse vous aura prouvé qu’aucun article ne m’en est echappé, et que je suis tres parfaitement d’accord avec la plupart de vos reflexions.</p>
+        <p>Le principal dans ma situation, est comme vous le remarqués très bien, la tranquillité, et Vous voyés par ma façon d’envisager les objets, que je la possède parfaitement ; et plus que j’y pense, plus bien des circonstances desagreables et injustes, me deviennent même assés indiffirentes. Ayant donc exposé au long mes sentimens, je me rapporte entierement à cet aveu sincère, d’autant plus que je ne puis me resoudre à tenter </p>
+        <pb n="f. 1v" />
+        <p> le moindre changement, à moins que d’etre persduadé d’avance de gagner au change et d’ameliorer mon sort. Le service tout depourvu d’encouragement, qu’il est jusqu’icy pour moi, ne me pese point encore et ne me ruine point non plus. L’exemple de notre ami, <persName key="p0437">Mr le B[aron] d’Albedyhl</persName> (s’il reussit dans son projet supposé) que Vous avés bien voulu citer, est certainement très alleguable ; mais pour le suivre il faudroit etre dans la même situation, avoir les mêmes occasions, et pouvoir modeler sa façon de penser sur la sienne. À mon age celle-ci a déjà pris un certain plis et une consistance fondée sur des principes que je ne saurais desavouer, et il faudroit me contraindre pour faire semblant de penser autrement. Un bon parti ou etablissement solide est sans contredit bien avantageux, et ne sauroit avec bon sens etre negligé quand l’occasion s’en presente. Je ne conçois cependant point p[ar] e[xemple] comment on peut se mettre en chemin dans l’intention de tacher à faire un parti avantageux sans connoitre aucun des objets sur lesquels on fera quelque reflexion, et sans avoir le temps d’apprendre à les connoitre, ne faisant point une assés longue absence pour cela.</p>
+        <p>Le bien seul où meme les richesses ne sont point suffisantes pour engager à une demarche qui influe autant sur le bonheur ou le malheur pour le reste de la vie. Il me semble que d’epouser la premiere personne bien dotée qui voudra de moi, c’est autant que d’epouser un coffre, et risquer des desagrements qui compenseroient mal et qui ne balanceroient pas même les richesses. Des liens contractés, sans considérer un certain rapport des caractères </p>
+        <pb n="f. 2" />
+        <p>ne sauroient etre que malheureux selon moi ; et si la bonne education ne se rencontre point en même tems, c’est encore une autre infortune incorrigible. Je ne dis point, et je suis bien eloigné à le croire, que les qualités essentillement necessaires à l’harmonie et au bonheur ne se trouvent reunies quelquesfois dans un même objet ; cependant la consideration de [?] ces qualités doit il me semble entrer dans le choix. Sans cela, il vaut mieux à ce que je suppose rester seul, pour rester tranquille ; surtout puisque seul on a besoin de moins, et que le necessaire pour se tirer honnetement d’affaires ne peut manquer nulle part. Dans ce païs ci, il est vray, il y a des partis considerables en quantité, et plus presque que partout ailleurs ; une Demoiselle p. e. riche ailleurs ne passe point pour telle icy, car des dots de 2. 3. à 4. jusqu’à 5 cents mille florins ne sont point rares du tout dans ce païs ci ; même ces dots sont associés à des très aimables personnes bien elevées. Mais il est fort rare qu’elles donnent la main à un etranger pour lesquels elles ne se sentent aucun goût. Je n’en connois icy actuellement que deux qui ont fait des grands partis. L’un est <persName key="p0242">le C[om]te Iwan Golofkin</persName>, et l’autre <persName key="p0344">le Baron de Kreutz</persName> (cidevant Ministre de Suède qui a resigné à sa place et qui vit icy) le premier parce qu’il etoit fils d’un ambassadeur de Russie cheri icy, et le dernier parce qu’il etoit Ministre de Suède lui-même, et qu’il promit de rester en Hollande. Voilà comme les choses sont actuellement icy à cet egard et bien differentes du portrait que <persName key="p0076">Mons[ieu]r de Gross</persName>
+        </p>
+        <pb n="f. 2v" />
+        <p> nous en faisoit autrefois. Le païs doit avoir bien changé depuis son premier sejour icy. Hier le courrier <persName key="p0000">Kerk</persName> fut renvoyé en Russie. Je n’ai point donné des lettres à ce novice qui passe p[our] amateur.</p>
+        <p>On nous marque de <placeName key="g0005">Vienne</placeName> que <persName key="p0438,p0439">L[eurs] A[ltesses] I[mpériales] </persName>partent le 8 où 10 du courant p[our] <placeName key="g0031">Venise</placeName> ; et que sur leur retour l’etée prochain ils pouroient bien passer p[ar] icy. Ce qui nous rejouit.</p>
+        <p>Mariage de <persName key="p0386">Starenbourg</persName> publié hier aux eglises.</p>
+        <p>Nous attendons <persName key="p0440">Markoff</persName> tranquillement. J’espère etre bien avec lui, n’ayant rien à demeler avec lui.</p>
+        <p>Ce seroit une triste vocation que celle de venir causer du chagrin à d’honnetes gens qui font leur devoir. Idée sombre que je rejette indigne et audessous de nous tous.</p>
+        <p />
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_987_0004</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0002</p>
+        <p>ru_nlrmss_871_988_0003</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0002</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_990_0001</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0002</p>
+        <p>ru_nlrmss_871_1012_0003</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+        <p>ru_nlrmss_871_1016_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

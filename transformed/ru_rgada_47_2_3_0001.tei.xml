@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Royal letter from Elector of Hanover Georg Louis 
+to Tsar Peter I
+</title>
+        <author xml:lang="en">Duke</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Brunswick-Lüneburg,</author>
+        <author xml:lang="en">Elector</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Hanover</author>
+        <author xml:lang="en">Georg Louis (George I)</author>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Philipp</author>
+        <author xml:lang="en">von</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>18 December 1711. – Royal letter from <persName key="p0727">the Elector of Hanover George Louis </persName>to <persName key="p0174">Tsar Peter I</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 47, opis 2, no. 3, f. 1–1v, 2v. German original. </bibl>
+          </note>
+        </head>
+        <p>Translation from German into Russian: RGADA, fond 47, opis 1, 1711, no. 1, f. 33–34. </p>
+        <p>Draft of the translation into Russian: RGADA, fond 47, opis 1, 1711, no. 1, f. 35–35v.</p>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p> Durchläuchtigster Großmächtigster Czaar</p>
+        <p>und Groß Fürst</p>
+        <p>
+          <persName key="p0174">Ewrer Czaarischen May[estä]t</persName> seyn Unsere bereitwilligste Dienste, und was wir mehr liebes und gutes vermögen zuvor, Freundlich=vielgeliebter und Hochgeehrter Herr Oheimb</p>
+        <p>
+          <persName key="p0174">Ewrer Czaarischen May[estä]t</persName> erkennen wir Uns dankbarligst verbunden für die notification von Dero <persName key="p0698">Herrn Sohns und Crohn=Printzens Hoheit</persName>, mit der <persName key="p0749">Princessin Charlotten Christinen Sophien zu braunschweig und Lüneburg</persName> getroffenen und volzogenen Ehe, womit <persName key="p0174">Ewrer Czaarischen May[estä]t</persName> gefällig gewesen, Uns unterm dato <placeName key="g0232">Torgau</placeName> den 17<hi rendition="#sup">ten</hi>. Octobris zu beehren. Wir gratuliren nicht allein <persName key="p0174">Ewrer Czaar[ische]n May[estä]t</persName> sondern auch Uns selbst und Unserem Hause wegen dieser so erfrewlichen begebnis, und wie wir Uns glücklich achten, dadurch die ehre einer nahen Anverwandschaft mit Ew[re]r Czaarischen May[estä]t erlanget zu haben; Also wündschen wir, daß daraus Ewrer Czaarischen May[estä]t viele und volkommene vergnuglich- </p>
+        <p>[footnote:] № 3.</p>
+        <p />
+        <pb n="f. 1v" />
+        <p> keit entsprießen, Uns aber angenehme Gelegenheiten daher erwachsen mögen, mit der that bekräfftigen zu können, wie hoch <persName key="p0174">Ewrer Czaarischen May[estä]t</persName> hohe person und gewogenheit wir schätzen, und wie sehr wir Deroselben zu angenehmen Diensten jederzeit bereit willigst und gefließen seyn. Hannover den 18<hi rendition="#sup">ten</hi>. Decemb[ris] 1711.</p>
+        <p>Von Gottes gnaden <persName key="p0727">Georg Ludewig, Herzog zu braunschweig und Lüneburg, des Heyl[igen] Römischen Reichs Ertz=Schatzmeister und Churfürst</persName> p[erge]</p>
+        <p>
+          <hi rendition="#sup">–</hi>
+          <persName key="p0174">Eurer Zarischen Majest[ät]</persName>
+        </p>
+        <p>dienst willigster Vetter und diener</p>
+        <p>
+          <persName key="">Georg Ludewig</persName>
+        </p>
+        <p>
+          <persName key="p0727">Cuhrfürste</persName>
+          <hi rendition="#sup">–1</hi>
+        </p>
+        <p>[An des] <persName key="p0174">Czaars May[estä]t</persName>
+          <persName key="p0733">J[ohann Philipp] Hattorf</persName>
+        </p>
+        <p />
+        <pb n="f. 2v" />
+        <p> </p>
+        <p>От <persName key="p0727">курфирста гановарскаго </persName> к <persName key="p0174">его ц[арскому] в[еличеству]</persName>. Принято в <placeName key="g0002">Питербурге</placeName> июня в 9-м 1712 и переведено.</p>
+        <p>Dem <persName key="p0174">Durchläuchtigsten Großmächtigsten Czaar und Groß Fürsten, Hern Peter Alexiewitz</persName>, des gantzen sowol großen als kleinen und weißen Rußlandes, Selbsthaltern zu Moscau, Kiew, Woldomir, Nowgorod, Czaar zu Casan, Czaar zu Astrachan, Czaar zu Siberien, Hern zu Plescou, und Groß Fürsten zu Smolensco, Twer, Juhor, Perma, Wiatca Bolgar und anderer Hern und Groß Fürsten zu Nowgorod, des Niedern landes zu Czernichow, Resan, Rostow, Jaroslow, Bielo, Osero, Udor, Obdor, Condinien und der gantzen Nordseite, Gebieter und Hern des Iwerischen Landes, der Cartalinischen und Grutinischen Czaaren und des Cabardinischen Landes, auch der Czercassen und Gorischen Fürsten und anderer vielen Ostlichen Westlichen und Nordlichen Herrschaften und Lander, väterlichen und Groß-väterlichen Erben, auch Herrn und Herschern. Unserem freundlich-vielgeliebten und Hochgeehrten Herrn Oheimb.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Extract from a letter from the Dutch Ambassador to Constantinople, Baron Elbert de Hochepied, to the Saxon Resident in The Hague, Johann Heinrich Kauderbach</title>
+        <author xml:lang="en">Elbert</author>
+        <author xml:lang="en">de</author>
+        <author xml:lang="en">Hochepied</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>3 February 1758. – Extract from the letter from <persName key="p0334">the Dutch Ambassador to Constantinople, Baron Elbert de Hochepied</persName>, to <persName key="p0084">the Saxon Resident in The Hague, Johann Heinrich Kauderbach</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1588, f. 4–5, 6v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p>Extrait d'une lettre secrète du <persName key="p0334">Baron de Hochepied, Amb[assadeu]<hi rendition="#sup">r</hi> de L[eurs].H[autes]. P[uissances]. à Constantinople</persName>, le 3. Fevrier 1758.</p>
+        <p />
+        <pb n="f. 4" />
+        <p />
+        <p>La perseverance d’<persName key="p0002">Abdy Effendy </persName>dans les sentimens guerriers, ayant excité l’attention des Cours limitrophes, elles ont si bien fait, qu’elles ont réussi, au moyen des presens, à le faire deposer pour la seconde fois de sa charge de <persName key="p0002">Reis Effendi</persName>, ou grand Chancelier, ce qui a extraordinairement affoibli son parti, et donne lieu d’esperer, que les sentimens pacifiques de cette Cour continueront de prevaloir sur tout a ceux qui pretendent connoitre à fond l’etat actuel de cet Empire, et la façon de penser du premier Vizir. Ce Ministre a sçu se rendre si necessaire et dans le serail et à la Porte, que personne ne se souvient d’avoir jamais rien vû de pareil, et cela fait croire à quelques uns que sa chute n’est pas éloignée. Cet <persName key="p0002">Abdy Effendy</persName> etoit passionné pour les Prussiens, et prenoit un plaisir extrême à faire connoitre aux interprêtes de la Cour <orgName key="o0023">Imp[erial]<hi rendition="#sup">e</hi>
+          </orgName>, qui venoient exactement lui faire rapport des nouvelles, que leur <persName key="p0335">Ministre</persName> recevoit par des couriers extraordinaires, qu’il s’attendoit que dans peu, ils s’etoient obligés de changer de langage, et de lui communiquer les evenemens tout contraires. Il est certain eu égard aux changemens arrivés subitement en Saxe et en Silesie, que les Ministres de <orgName key="o0023">la Cour de Vienne</orgName> et ceux de ses alliés eussent infiniment mieux fait de laisser publier ces nouvelles par d’autres, ou bien par leurs antagonistes mêmes, et l’on ne peut en donner d’autre raison qu’une securité imaginaire qui leur </p>
+        <pb n="f. 4v" />
+        <p> faisoit denier au <persName key="p0061">Roi de Prusse</persName> toute esperance de se retablir par où ils n’ont gagné autre chose que de rendre les musulmans Pyrrhoniens sur cet article.</p>
+        <p>La defense rigoureuse que le grand Seigneur soit par esprit de devotion, soit par enthousiasme a faite, sous peine de mort, relativement à l’habillement de ses sujets, va si loin , qu’ils n’osent se couvrir, ni se garantir contre les injures de l’air, ce qui les empêche de vaquer à leur affaires, et jette la confusion parmi eux. On met sur le compte de ce Prince des choses qui parroissent incroyables, et cela fait dire au public, qu’il est plus derangé que son predecesseur. La hardiesse de tels discours paroit incompatible avec le despotisme de ce gouvernement, mais la passion est si forte, parmi les grands comme parmi les petits, qu’elle les entraine, et il y auroit d’ailleurs de la temerité à vouloir avancer quelque chose de positif du caractère de ce Monarque. Quoique cette reforme dans les habillemens s’étende depuis quelques jours jusqu’aux Turcs, les Chrêtiens sont cependant persuadés qu’elle vient uniquement de la haine qu’on leur porte. <persName key="p0337">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> Porter</persName> en prend occasion d’insinuer que la Chretienté est à tous momens exposée à quelque surprise de la part de la Porte, mais quoique je ne regarde pas comme impossible une revolution subite dans cet Empire, je suis pourtant d’opinion que ce <persName key="p0337">Ministre</persName> tient ce langage plutôt pour intimider les Cours voisines que parce qu’il en est lui même convaincu.</p>
+        <p />
+        <pb n="f. 5" />
+        <p> On veut que <persName key="p0140">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> de Vergennes</persName> ne regarde point l’action du 5. Nov: comme une bataille, mais qu’il donne à entendre que l’armée de France a été trahie par une partie des troupes de l’Empire en haine de la Religion Catholique Romaine. Ce <persName key="p0140">Ministre</persName> affecte vis a vis de moi un certain air de hauteur à l’occasion du repas ceremoniel de <persName key="p0401">l’Amb[assadeu]<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> de Venise</persName>, et paroit quelque fois engager <persName key="p0336">celui de Naples</persName> à agir aussi en conformité vraisemblablement parce qu’il a de nouveau conçu quelque soupçon relativement au parti que pourroit prendre notre Republique dans ces circonstances critiques et facheuses. <persName key="p0140">Monsieur de Vergennes</persName> est fertile en conjectures et suppositions et agit en consequence. Il y a 8. à 9. mois que je sollicite S[on].E[xcellence]. pour qu’elle rendre justice dans une affaire qui concerne un de mes protegés sans en avoir pu obtenir encore la moindre reponse, quoique je lui aye representé les consequences qui pouvoient en resulter, de sorte que je me verrai à la fin obligé d’implorer l’assistance de <orgName key="o0017">L[eurs].H[autes].P[uissances].</orgName> auprès de <orgName key="o0019">la Cour de Versailles</orgName> pour avoir sastisfaction.</p>
+        <p />
+        <pb n="f. 6v" />
+        <p />
+        <p>
+          <placeName key="g0004">La Haye</placeName> le 7. Avril 1758:</p>
+        <p>de <persName key="p0084">M<hi rendition="#sup">r</hi>. le R[esident?]. Kauderbach</persName>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

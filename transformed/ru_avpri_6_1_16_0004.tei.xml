@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Сopy of a letter from [the Imperial and Bavarian Minister to St. Petersburg,] Baron [Joseph Maria] von Neuhaus to the Imperial Minister to the Court of His Majesty King of Prussia [in Berlin], Baron [Jean François] von Spon. From St. Petersburg, 21/10 September 1743</title>
+        <title type="main" xml:lang="ru">Копия с письма Барона Нейгауза Цесарскому Министру барону Шпону при Его Величестве Короле прусском, из С:Петербурха от 21/10 сент 1743</title>
+        <author xml:lang="en">Joseph</author>
+        <author xml:lang="en">Maria</author>
+        <author xml:lang="en">Nikolaus</author>
+        <author xml:lang="en">Ignaz</author>
+        <author xml:lang="en">Karl</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Neuhaus</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>10/21 SeptemberAugust 1743. – Copy of a letter from [<persName key="p0759,p0752">the Imperial and Bavarian Minister to St. Petersburg,] Baron [Joseph] von Neuhaus to the Imperial Minister to the Court of His Majesty the King of Prussia [in Berlin], Baron [Jean François] von Spon. From St. Petersburg, 21/10 September 1743</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 6, opis 1, no. 16, f. 58—59. French original; translation into Russian: ibid, f. 60—61v.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 58" />
+        <p />
+        <p>Копия с писма <persName key="p0759">Барона Нейгауза</persName>
+          <persName key="p0765">Цесарскому Министру барону Шпону при Его Величестве Короле прусском</persName>, из <placeName key="g0002">С:Петербурха</placeName> от 21/10 сент 1743</p>
+        <p>C’est avec un sensible plaisir que j’ay apris par Votre letre du 2. de ce mois que Vous etiés arrivé à <placeName key="g0012">Berlin</placeName>, et que S.M.I<hi rendition="#sup">le</hi> Vous avoit choisi, Monsieur, pour remplacer le pauvre <persName key="p0342">chevalier de la Roscé</persName> que je regrette infiniment, tant pour ses vases [vastes] talens que pour les services qu’il auroit pû rendre à <persName key="p0753">Notre auguste Maître</persName>. Ce choix doit vous etre d’autant plus agreable que <orgName key="o0034">la Cour ou Vous etes</orgName> est une de celles que nous savons le plus à menager, et comme <orgName key="o0008">cette Cour</orgName> icy a une grande connexion avec celle de <placeName key="g0012">Berlin</placeName>, j’espere que notre correspondance sera plus animée qu’elle ne l’a été avec <persName key="p0342">Votre Predecesseur</persName> d’autant plus qu’il me semble que dans les circonstances pressa[n]tes l’Interet </p><pb n="f. 58v"/><p> de <persName key="p0753">notre Gracieux Maitre</persName> le demande.</p>
+        <p>J’aurois bien des choses à Vous mander mais je les passe sous silence, jusqu’à ce que je sois informé que l’on rayes [ ?] mon chiffre qui est commun avec celui de <persName key="p0752">Mrs de Senshaim</persName>, d’<persName key="p0757">Haslang</persName> et de <persName key="p0000">Veltzel</persName> et je crois aussy avec celui du <persName key="p0766">Prince de Grimberg</persName>. Il vous sera d’autant plus facile d’avoir le dit chiffre si vous ne l’avés pas que sans doute il doit y avoir des courriers qui vont de <placeName key="g0012">Berlin</placeName> à <placeName key="g0013">Dresde</placeName>, et de <placeName key="g0013">Dresde</placeName> à <placeName key="g0012">Berlin</placeName>.</p>
+        <p>Ce que j’ai eû l’honeur de vous écrire à <placeName key="g0019">Paris</placeName>, Concernant <persName key="p0030">Mr le Prince de Cantimir</persName>, mais comme vous n’etes plus sur le lieu, cela est inutile à present.</p>
+        <p>L’affaire du <persName key="p0758">M[ar]quis de Botta</persName> fait icy beaucoup de bruit et sans doute qu’Elle sera assès publique à <placeName key="g0012">Berlin</placeName>. L’on attend avec Impatience la reponse que <orgName key="o0023">la Cour de Vienne</orgName> fera sur la satisfaction </p><pb n="f. 59"/><p> que celle-ci demande; Et l’on est curieux de savoir coment <persName key="p0758">le marquis de Botta</persName> cherchera à s’excuser.</p>
+        <p>L’on est icy fort attentif aux mouvemens des Danois et <orgName key="o0008">La Cour</orgName> a ordonné au <persName key="p0289">Gen[eral]. Keith</persName> d’aller hiverner en Suede avec 30. galeres et un Corps du 12. à 15. mille homes payés pour un an et une gratification de 4. mois.</p>
+        <p>La flotte Russienne a aussi ordre de tenir la mer et de se joindre à la suedoise en cas de besoin, En attendant de Vos nouvelles le plutot possible j’ay l’honeur d’être.</p>
+        <p>P.S. Monsieur Vous aurés la bonté de me marquer en même tems en quelle qualité Vous etes à <orgName key="o0034">la Cour de Prusse</orgName> enfin [afin] que je puisse Vous donner le titre convenable.</p>
+        <p>Also see:</p>
+        <p>ru_avpri_6_1_16_0001</p>
+        <p>ru_avpri_6_1_16_0002</p>
+        <p>ru_avpri_6_1_16_0003</p>
+        <p>ru_avpri_6_1_16_0005</p>
+        <p>ru_avpri_6_1_16_0006</p>
+        <p>ru_avpri_6_1_16_0007</p>
+        <p>ru_avpri_6_1_16_0008</p>
+        <p>ru_avpri_6_1_16_0009</p>
+        <p>ru_avpri_6_1_16_0010</p>
+        <p>ru_avpri_6_1_16_0011</p>
+        <p>ru_avpri_6_1_16_0012</p>
+      </div>
+    </body>
+  </text>
+</TEI>

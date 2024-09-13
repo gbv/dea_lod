@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Consul in Venice, Marquis Paolo Maruzzi to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Paolo</author>
+        <author xml:lang="en">Maruzzi</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17/28 July 1769. – Letter from <persName key="p0101">the Russian Consul in Venice, Marquis Paolo Maruzzi</persName> to <persName key="p0065">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 2044, f. 64–65. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 64" />
+        <p />
+        <p>Mon Prince</p>
+        <p>	Depuis ma derniere du 13/2 juillet courant, j’ay reçu l’honneur de la gracieuse lettre de Votre Excellence du 16 juin. Je suis enchanté de ses suffrages sur tout ce que mon zele pour le Service de Notre Auguste Souveraine me met en devoir de faire.</p>
+        <p>	J’ay communiqué au <orgName key="o0030">Sénat</orgName> la grace distinguée dont il a plû à <persName key="p0033">Sa Majesté Impériale</persName> de m’honnorer; Votre Excellence verra la réponse obligeante qui m’a été faite et que j’envoye à S. E. Monsieur le <persName key="p0114">Comte de Panin</persName>.</p>
+        <p>	Quant à <persName key="p0260">M<hi rendition="#sup">r</hi>. Tamara</persName>, par ma derniere Votre Excellence a été instruite de sa conduite, elle est toujours la même et il convient que cet homme ne reste plus longtemps ici.</p>
+        <p>	Nous avons eu ici <persName key="p0238">l’Empereur </persName>pour trois jours, il </p>
+        <pb n="f. 64v" />
+        <p> est arrivé le 22 du Courant et parti pour <placeName key="g0005">Vienne</placeName> le 25. il a refusé toutes les fêtes qu’on lui avoit preparé, avec une dépense considérable, sur la communication faite par son <persName key="p0346">Ambassadeur</persName>, qu’il auroit agréé toutes les attentions qu’on vouloit lui faire. il n’a accepté qu’un concert donné par le Public dans la maison Rezzonico, ou on a fait chanter les filles des hopitaux. il a été tous les jours au théatre et y a visité toutes les Dames dans leurs loges. <persName key="p0262">Mons[eigneur]<hi rendition="#sup">r</hi>. Tron</persName> et un Sage de terre ferme ont été destinés pour l’accompagner. Pandant les trois jours de son séjour on a permi aux Ministres Etrangers de voir la Noblesse.</p>
+        <p>	Les tableaux qui sont restés en ariere par la négligance de <persName key="p0255">M<hi rendition="#sup">r</hi>. Germi</persName>, ont été chargés par lui pour <placeName key="g0011">Hambourg</placeName> sur le Vaisseau Catterina Maria <persName key="p0345">Cap[tain]<hi rendition="#sup">e</hi>. Jacob Paul Cartins Danois</persName>, à l’adresse de <persName key="p0076">Mons[eigneur]<hi rendition="#sup">r</hi>. Gross</persName>, pour les envoyer à Votre Excellence.</p>
+        <p>	Quant à moi, Mon Prince, je suis on ne peut pas plus content, je ne m’occupe qu’à mériter les bienfaits </p>
+        <pb n="f. 65" />
+        <p> de notre tres gracieuse <persName key="p0033">Souveraine</persName>, et à me rendre digne de la continuation de la bienveillence de Votre Excellence vers laquelle mes obligations sont sans nombre. rien n’égale ma reconnoissance et le profond respect avec lequel je suis,</p>
+        <p>		</p>
+        <p>Mon Prince</p>
+        <p>			De Votre Excellence</p>
+        <p>				Le tres humble et tres obéissant Serviteur</p>
+        <p>
+          <persName key="p0101">Le M[onseigneur]: Maruzzi</persName>
+        </p>
+        <p>De <placeName key="g0031">Venise</placeName> le 28/17 juillet 1769</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_2044_0007</p>
+        <p>ru_rgada_1263_1_2044_0001</p>
+        <p>ru_rgada_1263_1_2044_0003</p>
+        <p>ru_rgada_1263_1_2044_0005</p>
+        <p>ru_rgada_1263_1_2044_0006</p>
+      </div>
+    </body>
+  </text>
+</TEI>

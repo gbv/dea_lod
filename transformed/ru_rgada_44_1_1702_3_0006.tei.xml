@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Hamburg merchant Hans Matthias Poppe to the Head of the Ambassadorial Chancellery, Count Gavrila Ivanovich Golovkin</title>
+        <author xml:lang="en">Hans</author>
+        <author xml:lang="en">Matthias</author>
+        <author xml:lang="en">Poppe</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>24 April 1711. – Letter from <persName key="p1197">the Hamburg merchant Hans Matthias Poppe</persName> to <persName key="">the</persName>
+            <persName key="p0071">Head of Ambassadorial Chancellery, Count Gavrila Ivanovich Golovkin</persName>
+          </title>
+          <note>
+            <bibl />
+          </note>
+        </head>
+        <p>RGADA, fond 44, opis 1, 1702, no. 3, f. 56–58. German original.</p>
+        <p />
+        <p />
+        <pb n="f. 56" />
+        <p>Monseigneur!</p>
+        <p>Seit meinem Letzten vom 27 February habe von Ew[er] Hochgrafflichen Excellence Befehll und mir sehr Angenehmen nichts erhalten, alß soll Ew[er] Excellence Ich Untertähnigst melden, daß Ich nun endlich Naricht bekem auß <placeName key="g0001">Moscau</placeName>, daß auff dero Hohen Befehll Ihme meinentwegen bezahllett worden, nehmlich </p>
+        <p>wegen d[es] <persName key="p1253">H[errn] de Krok</persName> ........................................................... Rdh 300: _</p>
+        <p>wegen deß Müntzstocks. an <persName key="p0746">Baron Urbich</persName>. Rdh 625:_ </p>
+        <p>wegen des <persName key="">h[errn]</persName>
+          <persName key="p0535">Residenten Botichers</persName> ...................................... Rdh 2000:_</p>
+        <p>damit es also seine richtigkeitt und guttes bewenden hatt, nicht zweifflend, es werden Ew[er] Hochgraffl[iche] Excellence nachderhand auch dritte Verordnung gemachett haben daß mir auch die restirenden Gelder gleichfalls schon werden refundirett seyn, alß</p>
+        <p>alß wegen des Muntz Stoks an <persName key="p0746">H[errn] Baron Urbigh</persName> noch Rdh 50.</p>
+        <p>wegen des <persName key="">H[errn]</persName>
+          <persName key="p0535">Residenten Boticher</persName> noch ..................... Rdh 2000.</p>
+        <p>wegen <persName key="p1190">Prince Courakin</persName>, so an Ihn in <placeName key="g0003">London</placeName> bezahllen biß Rdh 3500.</p>
+        <p />
+        <pb n="f. 56v" />
+        <p>wegen des <persName key="">H[errn] Envoye Liths</persName> zu <placeName key="g0012">Berlin</placeName> ........... Rdh 200._</p>
+        <p>wegen <persName key="p1218">Mons[eigneu]r Isak de Wesseloffsky</persName> ....................... Rdh 200: und</p>
+        <p>wegen <persName key="p1208">Mons[eigneu]r Wolcoff</persName> ............................................. Rdh 1000:_</p>
+        <p>so Ich hierbey, wenn dieße Gelder etwa annoch nicht bezahllet wären, Ew[er] Hochgraffl[ichen] Excellence allein zur Notice annottirte mitt untertahnigsten bitten, daß es Ew[er] Excellence beliebe meiner deßfalls gnadig zu gedencken, und vernehmlich, daß nur doch die 2000 Rdh so mir noch wegen des h[errn] Residenten restiren mochten bezahllet werden, den gott weiß, ob Er gleich diese Gelder ohne Ew[er] Excellence Ordre von mir bekom[m]en, so habe Ich Ihme doch in Ansehen <persName key="p0174">Seiner Tzaars[chen] Majestaten meines allergnadigsten Herren</persName>, da Er alhir vor dero Residenten subsistuirett worden, nicht ohne hulffe laßen konen, also werden Ew[er] Excellence mir umb destomehr wieder zu den Meinigen vorhelffen und mich deßfalls gnädig ansehen</p>
+        <p>dere 1000 Rdh Alb<hi rendition="#sup">t</hi>. p[er] Wechsell an <persName key="p0175">Ew[er] Hochgraffl[ichen] Excellence Herrn Sohn Allexander Golloffkin</persName>, habe an Ihn bezahllett und deßen wechsell also eingeloßett, indeß habe Ich Ihm auff sein Ansuchen, lautt der Quitantz, so Ich heutten an <persName key="p1240">mein Bruder</persName> sende noch 500 Rdh Cour[ran]t verschoßen welche mir also durch Ew[er] Excellence auch wieder refundirett </p>
+        <pb n="f. 57" />
+        <p>zu werden nicht entstehen werden. Außerdem hatt <persName key="p0746">der H[er]r urbich</persName> dießer tagen einen wechsellbrieff auff mich passirett, groß 1500 Rdh so Ich an einen <persName key="p0000">Obristl[ieutenant] Fellhorn</persName> zu forttbringung der weingärtner bezahllen sollen, da nun gemelter <persName key="p0000">Obristl[ieutenant] Fellhorn</persName> biß zu <placeName key="g0012">Berlin</placeName> angekom[m]en mitt den bey sich habenden Leuthen und weinstocken nach dem Bericht <persName key="">d[es]</persName>
+          <persName key="p0728">h[err]n Envoye Lithß</persName>, Ich aber von Ew[er] Hochgraffl[ichen] Excellence keinen Ordre habe so viell Geldtt zu bezahllen, so habe Ich doch damitt die Leuthe nicht verlassen und <persName key="p0174">S[einer] Tzaars[chen] Majestaten</persName> also darunter kein Schaden haben mogen f 800: _ oder Rdh 533⅓ Courrantt Geldtt bezahllen laßen, es schribt mir aber <persName key="p0728">d[er] h[err] Lith</persName> daß Er mitt dießen Gelde noch nicht fortkom[m]en konen und daß deßwegen alle Confusion zu besorgen, alß habe Ich, weill anitzo nicht bey Cassa bin, weill auff Ordre <persName key="p1131">S[eine]r Hochfürstlichen durchl[aucht] Meschicoff</persName> eine Capitall summa zum Interesse <persName key="p0174">S[einer] Tzaars[chen] Majest[a]t[en]</persName> bezahllett, auch mir die schwere Tratte in faueur der Königl[ich] Dehnischen Gelder vorderhande stehett, <persName key="">den</persName>
+          <persName key="p0728">Herr Envoye Lith</persName> ersuchett, daß Er noch 1000 fl oder Rdh 666⅔ Cour[rant]t in <placeName key="g0012">Berlin</placeName> gegen billige Interesse solte auff mein Nahmen und </p>
+        <pb n="f. 57v" />
+        <p>Burgschafft aufnehmen umb solche gedachten <persName key="p0000">Obristl[ieutenant] Felhorn</persName> zu Forttsetzung sein</p>
+        <p>er Reiße zu fourniren, mitt dem Erbiethen, daß Ich für solche Rdh 666⅔ Cour[rant]t wolte Bürge seyn und selbige auß Mein Mitteln wieder bezahllen, als werden Ew[er] Hochgrafflichen Excellence so gnadig seyn zu verordnen, daß diese Gelder zusam[m]en Rdh 1200 Courrantt sage zwolffhundertt Rdh Courrantt mir fordersahmst refundirett und an <persName key="p1240">Mein Bruder</persName> zu <placeName key="g0001">Moscau</placeName> mogen bezahllett werden, damitt Sie mir in zeitt wieder könen remittirett werden, und Ich also die auff Interesse auffgenom[m]ene Rdh 666⅔ – wieder nebst der Interesse bezahllen kan die auch in 6 Monathen betragen werde einige Rdh, so viell alß <persName key="p0728">der h[err] Envoye Lith</persName> mir wird accisiren welche sich künfftig gel[obe]t gott auch könen finden. </p>
+        <p>Ew[er] Hochgraffl[ichen] Excellence kan nicht verhalten, daß Ich seit Michaellis biß hierher an Podagra und Stein sehr schwer Leide müß zu bethe liegen, welches mich so abgemattet daß Ich gantzlich von meinen Krafften gekom[m]en bin, daß Ich also wieder meinen willen den weittlaufftigen Geschäfften werde müßen entziehen, drumb auch Ew[er] HochGräffliche Excellence mir die Hohe Gnade erweißen </p>
+        <pb n="f. 58" />
+        <p>wollen, damitt künfftighin keine Gelder mehr auff mich Ordonirett oder trassiret werden, den es falt mir schwer und von andern ist bey der itzigen sehr schlechten zeitt auch gegen große Interesse alhier in <placeName key="g0011">Hamburgh</placeName> nichts zu bekom[m]en, ein jeder ziehett seine Gelder ein, bey der Handlung aber erlebtt man mitt Sehe=Schaden ein Ungluck über daß anderen, daher so vielle fallissementen in Schwange gehen, daß es nicht zu beschreiben, wo Ich aber doch sonsten Ew[er] Hochgräffl[ichen] Excellence dienen kan, daß wenn Sie hier einige Gelder nöthig haben und solche P[er] wechsell von <persName key="p1240">mein bruder</persName> zu <placeName key="g0001">Moscau</placeName> zu nehmen belieben, will Ich mich nicht entbeehren sondern Ew[er] Hochgraffl[ichen] Excellence von hertzen gern dienen, wie Ich den hiermitt Ew[er] Excellence Gottes heylliger Protection uberlaße und mitt schuldigsten respect verbleibe</p>
+        <p>Ew[er] Hochgrafflichen Excellence</p>
+        <p>Untertahniger Diener</p>
+        <p>
+          <persName key="p1197">Hans Matt: Poppe</persName> ./.</p>
+        <p>
+          <placeName key="g0011">Hamburg</placeName>
+          <hi rendition="#u">A[m] 24 </hi>
+          <hi rendition="#u">Apprill</hi>
+        </p>
+        <p>
+          <hi rendition="#u">A</hi>
+          <hi rendition="#u">[</hi>
+          <hi rendition="#u">nn</hi>
+          <hi rendition="#u">]</hi>
+          <hi rendition="#u">o </hi>
+          <hi rendition="#u">1711</hi>
+          <hi rendition="#u">
+            <hi rendition="#sub">/</hi>
+          </hi>
+        </p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_44_1_1702_3_0001</p>
+        <p>ru_rgada_44_1_1702_3_0002</p>
+        <p>ru_rgada_44_1_1702_3_0003</p>
+        <p>ru_rgada_44_1_1702_3_0004</p>
+        <p>ru_rgada_44_1_1702_3_0005</p>
+        <p>ru_rgada_44_1_1702_3_0007</p>
+        <p>ru_rgada_44_1_1702_3_0008</p>
+        <p>ru_rgada_44_1_1711_1_0001</p>
+        <p>ru_rgada_44_1_1711_1_0002</p>
+        <p>ru_rgada_44_1_1711_1_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>

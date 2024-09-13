@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter of credence for [Secretary of Hanoverian Embassy in Russia, Friedrich Christian] Weber [from Elector of Hanover George Louis to Tsar Peter I]
+</title>
+        <title type="main" xml:lang="ru">Кредитиф Вебера</title>
+        <author xml:lang="en">Duke</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Brunswick-Lüneburg,</author>
+        <author xml:lang="en">Elector</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Hanover</author>
+        <author xml:lang="en">George Louis (George I)</author>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Philipp</author>
+        <author xml:lang="en">von</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>10 January 1714. – Letter of credence for [the <persName key="p0734">Secretary of Hanoverian Embassy in Russia, Friedrich Christian] Weber </persName>[from <persName key="p0727">the Elector of Hanover George Louis</persName> to <persName key="p0174">Tsar Peter I</persName>]</title>
+          <note>
+            <bibl>RGADA, fond 47, opis 2, no. 16, f. 1–1v, 2v. German original. </bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p> Durchläuchtigster Großmächtigster Czaar</p>
+        <p>und Groß-Fürst</p>
+        <p>
+          <persName key="p0174">Ewrer Czaarischen May[estä]t</persName> seyn Unsere bereitwilligste Dienste, und was wir mehr liebes und gutes vermogen zuvor, Freundlich vielgeliebter und Hochgeehrter Herr Oheimb.</p>
+        <p>Die Unsere schuldigkeit und das gute vernehmen, worin mit <persName key="p0174">Ewrer Czaarischen May[estä]t</persName> zu stehen wir die ehre haben, erfordert, an <persName key="p0174">Ewre Czarische May[estä]t</persName> einen <persName key="p0734">Ministrum</persName> abzuschicken, umb desto füglicher mit Deroselben in der itzigen conjunctur ve[r]trawliche correspondenz zu unterhalten, und zugleich <persName key="p0174">Ewre Czaarische May[estä]t</persName> Unserer beständigen ergebenheit und dienst=begierde desto beßer zu versichern; Also werden wir eine solche Abschickung mit nechstem zu wercke zu richten nich unterlaßen. Weil aber inzwischen leicht etwas vorfallen könte, welches bis dahin keinen Aufschub litte; So haben wir für gut befunden, den Secretarium Weber vorangehen zu laßen, umb über ein und anderes in antecessum Unsere Gedancken eröffnen und vernehmen zu können, was <persName key="p0174">Ewre Czaarische May[estä]t</persName> ihm etwan an Uns mögten aufzugeben haben.</p>
+        <p />
+        <pb n="f. 1v" />
+        <p> Wir ersuchen demnach <persName key="p0174">Ewre Czaarische May[estä]t</persName> dienstfreundlich, Sie geruhen, ermelten <persName key="p0734">Secretario</persName> zu erlauben, daß an dero <orgName key="o0008">Hofflager</orgName> er sich auffhalten und umb dasjenige, was wir ihm vorzutragen befohlen und noch ferner befehlen mögten, geziemend anbringen zu können, er einen gönstigen und geneigten zutritt zu Ewrer Czaarischen May[estä]t Ministris antreffen möge, auch ihm in seinen thuenden vorträgen und Anbringen volligen glauben finden zu laßen. <persName key="p0174">Ewre Czaar[isch]e May[estä]t</persName> werden Uns dadurch sehr obligiren, und wir verbleiben Deroselben zu allen angenehmen diensten willigst und gefließen. <placeName key="g0008">Hannover</placeName> den 10<hi rendition="#u">
+            <hi rendition="#sup">ten</hi>
+          </hi> Januarii Anno <hi rendition="#u">1714.</hi>
+        </p>
+        <p>Von Gottes gnaden <persName key="p0727">Georg Ludewig, Herzog zu Braunschweig und Lüneburg, des Heyl[igen] Römischen Reichs Ertz=Schatzmeister und Chur Fürst</persName> p[erge]</p>
+        <p>
+          <persName key="p0174">Ewrer Czarischen Majest[ät]</persName>
+        </p>
+        <p>
+          <hi rendition="#sup">–</hi>dienst willigster vetter </p>
+        <p>und diener</p>
+        <p>
+          <persName key="">Georg Ludewig</persName>
+        </p>
+        <p>
+          <persName key="p0727">Cuhrfürste</persName>
+          <hi rendition="#sup">–1</hi>
+        </p>
+        <p>[An] des <persName key="p0174">Czaars M[ajestä]t</persName>
+          <persName key="p0733">J[ohann Philipp] Hattorf</persName>
+        </p>
+        <p />
+        <pb n="f. 2v" />
+        <p />
+        <p>№ 16.</p>
+        <p>Кредитиф <persName key="p0734">Вебера</persName>. Получен в 13 де[нь] февраля 1714 в <placeName key="g0002">Петербурге</placeName>.</p>
+        <p>Dem <persName key="p0174">Durchläuchtigsten, Großmächtigsten Czaar und Groß Fürsten, Herrn Peter Alexiewitz</persName>, des gantzen sowol großen als kleinen und weißen Rußlandes, Selbsthaltern zu Moscau, Kiew, Wolodomir, Nowgorod, Czaar zu Casan, Czaar zu Astrahan, Czaar zu Siberien, Hern zu Plescou und Groß Fürsten zu Smolensco, Twer, Juhor, Perma, Wiatca, Bolgar und anderer, Herrn und Groß Fürsten zu Nowgorod, des Niedern landes zu Czernichow, Resan, Rostow, Jaroslow, Bielo, Osero, Udor, Obdor, Condinien und der gantzen Nordseite, Gebieter und Hern des Iwerischen Landes, der Cartalinischen und Grutinischen Czaaren, und des Carbadinischen Landes, auch der Czercassen und Gorischen Fürsten, und anderer vielen Östlichen, Westlichen und Nordlichen Herschaften und Lande väterlichen und Groß väterlichen Erben, auch Hern und Herschern. Unsern Freundlich vielgeliebten und Hochgeehrten Herrn Oheimb.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

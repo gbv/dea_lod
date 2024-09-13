@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Jacob von Staehlin to Peter von Staehlin </title>
+        <author xml:lang="en">Jakob</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>9 June 1781. – Letter from<persName key="p0135"> Jacob von Staehlin</persName> to his son, <persName key="p0363">the secretary of the Russian Embassy in the Netherlands, Peter von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, fond 871, n°1012, f. 21–21v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 21" />
+        <p />
+        <p>№ 24 le 9. Juin [1781]		          reçu 9. Juill[e]t 1781 p[ar] <placeName key="g0010">Amsterdam</placeName>
+        </p>
+        <p>Votre derniere Lett.e № 24. Du 18/29 May nous a donné toute la satisfaction, que notre confiance sur votre esprit, raison et experience du monde pouvoit attendre. Nous sommes charmés de la declaration de votre manière de penser et de se prendre en egard de ce qu’étoit passé dans <orgName key="o0001">le College</orgName>. Comme toutes les choses et actions sur notre globe sont sujettes aux vicissitudes, ainsi Vous en pouvez compter surem[en]t [?] à Votre egard. Cepend[en]t en bon Philosophe plus que vous consultez dans tous les cas la saine raison, et la prudence de se contenter plus vous pouvez vous tranquiliser dans l’état où vous vous trouvez actuell[emen]t.</p>
+        <p>Cette parfaite tranquilité, témoignée dans votre №. 24. a parfaitement tranquilisé <persName key="p0371">Mamma</persName>, qui se rejouit et felicite de votre manière de penser et de se prendre dans cette occasion. Nous sommes persuadés que nos vrais amis chez Vous y auront contribué autant que nous en avions esperé. Parfaitem[en]t d’accord de l’avis de notre incomparable ami <persName key="p0076">Mr de Gross</persName>, nous sommes charmés de sa promesse de s’interesser pour vous ici par ses insinuations. Son attestat desinteressé et sincere, comme d’un témoin oculaire de votre application et zèle dans le service de <persName key="p0033">S[a] M[ajesté] I[mpéria]le</persName> et de votre parfaite santé, ne manquera pas de succès. Voilà de nouvelles preuves de l’honête homme et du vrai ami, que nous reconnoissons en lui.</p>
+        <p>Le saluez mille fois de nôtre part et ditez lui que sa bonne mere le recompense avec mille benedictions qu’elle lui souhaite. A notre aimable ami <persName key="p0025">Mr de Buhler</persName> Vous ferez bien de Complim[ent]s de notre part, &amp; m’excuserez que je ne puis, comme je voulois, lui répondre aujourd’hui : puisq[ue] les Isvoschtchiqs ont attelé déjà à la basse Cour pour me mener au <placeName key="g0190">Primorsky</placeName> du <persName key="p0114">C[om]te Panin</persName>, pour y passer le midi &amp; apparem[en]t aussi le soir chez <persName key="p0113">S[on] E[xcellence] Mr le Vice Chanc[elie]r</persName> qui y reside depuis quelq[ue]s jours. <persName key="p0371">Mamma</persName> vient de saisir l’occasion pour vendre vos roues d’Angleterre pour R[ou]bl[e]s 45 et se debite actuel[lemen]t à votre cred[i]to en sa caisse pour R[ou]bl[e]s 1028 1/2 . Une Caisse à 4. Pouds de chandelles de <placeName key="g0191">Vologda</placeName> &amp; une autre petite parcele contenante </p>
+        <pb n="f. 21v" />
+        <p> un nouveau Calendrier d’Etat de l’Empire de Russie, quelques morceaux de pelleterie, 3. ou 4. petits paquets du choux aigre seché &amp;c. attendent chez nous l’occasion d’etre expediés au bord d’un vaissau qui fera voile pour <placeName key="g0010">Amsterd[a]m</placeName>. Notre bon voisin <persName key="p0544">Mr Groot</persName> me dit qu’ayant été chargé tous les ans des commissions considerables pour l’Hollande, n’en a l’an pres[en]t presque aucune : puisque les hollandois, qui n’osent point sortir en mer pour la Baltique, lui paroissent n’avoir pas besoin de nos produits et marchandises. Neanmoins ajouta-t-il, l’occasion ne manquera pas de pouvoir expedier nos 2. parceles au bord d’un autre vaissau Russe, Suedois ou Danois, qui chargera ici p[our] <placeName key="g0010">Amsterd[a]m</placeName>.</p>
+        <p>Depuis quelques jours se trouvent ici les 2. freres C[om]tes <persName key="p0545">Orloff Ivan</persName> et <persName key="p0112">Alexei</persName>: et en peu ils attendent ici leur frere M[onsei]g[neu]r <persName key="p0251">le Prince Grigori Grigor[ievich]</persName>.</p>
+        <p>
+          <persName key="p0445">Mad[am]e de Krock</persName> est parti dimanche passé pour sa campagne avec sa famille &amp; notre cher Cousin <persName key="p0000">Mr le General Adam Ivan[ovich]</persName>. <persName key="p0443">Mr de Krock</persName> est arreté encore, à ce qu’il dit, quelqu[e]s jours par le nouvel arrangem[en]t dans <orgName key="o0001">le College</orgName>. Vous saurez sans doute par <persName key="p0025">Mr de Buhler</persName>, que <persName key="p0269">Mr d’Alopeus</persName> est placé dans le Departem[en]t Allemand, chez <persName key="p0443">Mr de Krock</persName>, en place de Conseil[le]r de Chancell[e]rie et avec les appointem[ent]s d’un Conseil[le]r de Chancel[e]rie. Cela ne l’empeche point de loger dans l’hôtel du <persName key="p0113">Vice Chancel[ier]</persName> &amp; de diriger sa Chancellerie. <persName key="p0541">Mr Lysakeviz</persName> est à la place du premier Secret[ai]re du <orgName key="o0001">College</orgName> (<persName key="p0546">Saffianikoff</persName> congedié avec sa pension et quartier dans la Cour de l’hôtel de Chancel[e]r[ie]) mais à ce qu’on entend peu content de cet emplois. Aussi je ne saurois pas comment vivant avec sa <persName key="p0543">Mad[am]e Teresa</persName> il voudroit vivre avec les R[oub]l[es] 1200. de ses appointem[ent]s.</p>
+        <p>
+          <persName key="p0382">Mr Domaschnef</persName> depuis quelq[ue]s semaines est l’objet ridicule de la Conversation dans toutes les sociétés. On se communique par toute la ville les Copies de son Eloge, Satyre sanglante en stile ancien Ecclesiastique Russe, où ses exploits, son merite, son savoir et son administration ou Direct[io]n de l’<orgName key="o0043">Acad[émi]e </orgName>sont exposé d’une manière à faire crever de rire. Depuis 8. jours il est parti d’ici pour 4. Mois, dans les Contrées de <placeName key="g0188">Cherson</placeName>, <placeName key="g0189">Asoff</placeName>, &amp;c. apparem[en]t pour se pourvoir là bas des Deséatines.</p>
+        <p>
+          <persName key="p0391">Mr Ch. Wollf</persName> est sur le point de partir pour la Hollande et l’Angleterre.</p>
+        <p />
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_987_0004</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0002</p>
+        <p>ru_nlrmss_871_988_0003</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0001</p>
+        <p>ru_nlrmss_871_989_0002</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_990_0001</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0003</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+        <p>ru_nlrmss_871_1016_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Expenditure Register of the Russian Envoy Extraordinary and Minister Plenipotentiary to Constantinople, Iakov Ivanovich Bulgakov</title>
+        <author xml:lang="en">Iakov</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Bulgakov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1775–1776. – Expenditure Register of the <persName key="p0894">Russian Envoy Extraordinary and Minister Plenipotentiary to Constantinople, Iakov Ivanovich Bulgakov</persName>
+          </title>
+          <note>
+            <bibl>OR RGB, fond 41, karton 2, no. 10, f. 5, 6v, 25, 28, 30, 34, 36, 45, 56, 58, 64, 66</bibl>
+          </note>
+        </head>
+        <p />
+        <p></p><pb n="f. 5"/><p></p>
+        <p />
+        <p>je dois a l’Auberge ……………………………………………….35 Piastre.</p>
+        <p>a mes domestiques ………………………………………………86</p>
+        <p>j’ai emprunté ……………………………………………………….20</p>
+        <p>au <persName key="p1052">Confiturier Filippo</persName>………………………………………………3</p>
+        <p>au Tailleur ……………………………………………………………19</p>
+        <p>au Cordonier .……………………………………………………….8</p>
+        <p>a la Blanchisseuse …………………………………………………5</p>
+        <p>Total 176</p>
+        <p>            50</p>
+        <p>           120</p>
+        <p>____________</p>
+        <p>           346</p>
+        <p>pour la reparation des voitures ……………………………..<hi rendition="#s">60</hi> Piastre</p>
+        <p>il faut a mes gens par mois …………………………………….26</p>
+        <p>pour la depense de la maison …………………………………25</p>
+        <p>j’ai besoin d’une uniforme d’un surtout et quelques bagatelles….., </p>
+        <p>ce qui pourra revenir a……………………………………………<hi rendition="#s">120</hi>
+        </p>
+        <p />
+        <p />
+        <pb n="f. 6v" />
+        <p />
+        <p>
+          <persName key="p1054">Разумовскому</persName>…..3000.</p>
+        <p>
+          <persName key="p0368">Ранцову</persName>…………….2500.</p>
+        <p>
+          <persName key="p0000">Новосилцову</persName>…...883.</p>
+        <p>
+          <persName key="p0282">Плещееву</persName>…………..</p>
+        <p>
+          <persName key="p0000">Бергу</persName>………………….</p>
+        <p />
+        <p />
+        <pb n="f. 25" />
+        <p />
+        <p>
+          <persName key="p0894">Compte de Mr. Bulhakow Le Marechal de l’Ambassade</persName>
+        </p>
+        <p>Pour son particulier en route j’ai depencé…………………………………………..Lf11..20</p>
+        <p>Pour D°: en bagatelle………………………………………………………………………………10..</p>
+        <p>Pour D°: pour du Pain……………………………………………………………………………….1..</p>
+        <p>Pour D°: pour des fruits qu’on luy a porté……………………………………………….…3..</p>
+        <p>Pour avoir trouvé dans un sac de monoye qu’il m’a donné&amp; qu’il y manquoit 2..</p>
+        <p>En tout……………………………………Lf27..20..</p>
+        <p />
+        <p></p><pb n="f. 28"/><p></p>
+        <p>Moi sous signé j’ai recu de <persName key="p0894">Monsieur de Boulhakow</persName>
+        </p>
+        <p>a <placeName key="g0239">Kiovie</placeName>……………………………….200 Rouble</p>
+        <p>a <placeName key="g0302">Polomna</placeName>……………………………200</p>
+        <p>a <placeName key="g0289">Jassy</placeName>………………………………….100…………</p>
+        <p>a <placeName key="g0018">Constantinople</placeName>……………..….100…………</p>
+        <p>En tout je dis avoir receu six cent Roubles</p>
+        <p>
+          <persName key="p0000">Chrétien De Berg</persName>
+        </p>
+        <p />
+        <p />
+        <pb n="f. 30" />
+        <p />
+        <p>по моей записьной книшке, надлежит мне, выключая 20 червонных, которые я в последний раз в <placeName key="g0276">Пере</placeName> проиграл…………………………………………….250</p>
+        <p>еще 586 пиястров по переводу <persName key="p1051">Ханжерлия</persName> [sic]</p>
+        <p>получил я в <placeName key="g0276">Пере</placeName> в три раза……………..400</p>
+        <p>дорогою ………………………………………………………………..50</p>
+        <p>еще в <placeName key="g0301">Хотине</placeName> червонными…………………10 черв.</p>
+        <p />
+        <p></p><pb n="f. 34"/><p></p>
+        <p>По сему моему я засвидетельствую что <persName key="p0000">Г[оспо]д[и]н Вилд</persName> заплатил моему человеку <persName key="p0000">Янию</persName> за меня 200: левов, которые я ему должен был [unreadable] оной <persName key="p0000">Г[оспо]д[и]н Вилд</persName> имеет получить от <persName key="p0894">г[оспо]д[и]на маршала Якова Ивановича Булгакова</persName> 1776 году июня 18</p>
+        <p>
+          <persName key="p1051">Переводчик Дмитрий Ханжери</persName>:</p>
+        <p>Je reconnois avoir recus les susdits deux cent Piastres <persName key="p0000">Wild</persName>
+        </p>
+        <p />
+        <p></p><pb n="f. 36"/><p></p>
+        <p>Реестр долгов</p>
+        <p>Портному………………………………………………………………………….420 левов</p>
+        <p>
+          <persName key="p0000">Пинелию</persName>…………………………………………………………250</p>
+        <p>Занять деньгами и за разные мелочи здешним жителям  340</p>
+        <p>За чай, кофей, свечи; и пр:…………………………………………………130</p>
+        <p>Итого…………………………………………………………………………………1140 левов</p>
+        <p>
+          <persName key="p0722">В. Нелединский</persName>
+        </p>
+        <p />
+        <p></p><pb n="f. 45"/><p></p>
+        <p>Adi. n[uovo] s[tile] Gen[naio]. 1776 <placeName key="g0018">Cospoli</placeName>
+        </p>
+        <p>Per <persName key="">S[u]<hi rendition="#sup">a</hi>. Altes[s]<hi rendition="#sup">a</hi>:</persName>
+          <persName key="p0870"> Prin[ci]p<hi rendition="#sup">e</hi>. de Repner</persName> [sic]</p>
+        <p>Venduto un Deser Grande fornito con Dolci Biscottaria per …..Pia[str].e 500.</p>
+        <p>Saldato</p>
+        <p>
+          <persName key="p1052">Filippo Enrico</persName>
+        </p>
+        <p />
+        <p></p><pb n="f. 56"/><p></p>
+        <p>1775. <placeName key="g0276">Pera di Costpoli</placeName> 2 Decembre Nota delle spese dame fate per <persName key="p0870">S[ua].A[ltezza]. il Prencipe Repnin Ambasciatore Estraordinario di S[ua].M[ajesta]. Imperiale di tutte le Russie</persName>
+        </p>
+        <p />
+        <p></p><pb n="f. 58"/><p></p>
+        <p>[Register of expenditures for gifts, in Italian]</p>
+        <p />
+        <p></p><pb n="f. 64"/><p></p>
+        <p>6. giornate il maestro……………………………………18</p>
+        <p>7. maestri a 5 giornate o ni maestro……………..52.20</p>
+        <p>[other expenditures]</p>
+        <p />
+        <p />
+        <pb n="f. 66" />
+        <p />
+        <p>Италианскому учителю……………………….100 пиастров</p>
+      </div>
+    </body>
+  </text>
+</TEI>

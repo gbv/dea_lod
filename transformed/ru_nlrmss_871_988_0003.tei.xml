@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Peter von Staehlin to Jacob von Staehlin</title>
+        <author xml:lang="en">Peter</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>11 September [1781]. – Letter from <persName key="p0363">the secretary of the Russian Embassy in the Netherlands Peter von Staehlin</persName> to his father <persName key="p0135">Jacob von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, fond 871, n°988, f. 35–36v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 35" />
+        <p />
+        <p>№ 40 <placeName key="g0004">La Haye</placeName> le 11 septembre n. st.</p>
+        <p>Jeudy passé Votre lettre № 33 m’est fort bien parvenue à son tems, et je n’ai pas manqué de communiquer au <persName key="p0364">P[rin]ce Galitzin</persName> tout ce que Vous avés observé touchant la composition des gouttes de Bestoucheff que Vous avés eu la bonté de faire faire pour lui, aussi <persName key="p0364">ce Ministre</persName> sent parfaitement toute l’obligation qu’il Vous a du soin que vous prenés de ses commissions.</p>
+        <p>J’ai l’honneur de connoitre parfaitement Mons[ieu]r le Chancelier <persName key="p0416">Baron de Frisch</persName> ainsi que j’ai connu aussi <persName key="p0417">Mr Son père</persName> defunt qui a été un des Ministres les plus doctes et les plus eclairés de notre tems. C’etoit lui qui avoit negocié et conclu avec <persName key="p0061">S[a] M[ajesté] Prussienne</persName> la paix de <placeName key="g0163">Hubertsbourg</placeName>.</p>
+        <p>Quant aux harengs fraix des quels il a fallu se passer cette année ci en Hollande aussi bien qu’en Russie et ailleurs, par rapport à la guerre de cette republique avec l’Angleterre on s’est ressenti icy plus que partout de la privation de cette delice de saison dont tout hollandois fait beaucoup de cas pendant les premieres 3. à 4. Semaines. Je passe sous silence la perte que ce païs en a souffert, puisque cette pêche rapporte annuellement quelques millions de florins ; aussi l’appele t’on icy la grande pêche, au lieu que celle des baleines s’appele la petite pêche par ce que fort souvent les interessées y perdent au lieu d’y gagner.</p>
+        <p />
+        <pb n="f. 35v" />
+        <p>
+          <persName key="p0364">Le Prince</persName> qui a presque usé son tabac rouleau Russe, V[ous] prie de m’en envoyer derechef p[our] lui une petite provision du même tabac soit p[ar] le 1. Vaisseau soit quelque autre bonne occasion. Il y a longtems que je n’use plus de tabac de <placeName key="g0019">Paris</placeName>, puisque je n’en ai plus, et que de le faire venir par terre de <placeName key="g0019">Paris</placeName>, coute plus que si le faisois venir par <placeName key="g0049">Archangel</placeName> même. Il faut donc s’en passer. Ainsi que je l’avois dernierement marqué j’ai reconduit [mardi] passé <persName key="p0414">le C[omte] Bruce</persName> pour <placeName key="g0158">Rotterdam</placeName> où nous avons diné ensemble et d’où il est ensuite parti pour <placeName key="g0160">Gorckum</placeName>, <placeName key="g0161">Bois le Duc</placeName>, &amp;c. p[our] <placeName key="p0162">Spaa</placeName> d’où il devancera <persName key="p0415">M[adam]e son epouse</persName> de quelques jours à <placeName key="g0019">Paris</placeName>. [Jeudi] passé j’ai accompagné <persName key="p0418">Nariskin</persName> p[our] <placeName key="g0096">Leide</placeName> où nous avons diné chés <persName key="p0419,p0420">les jeunes Princes Galitzin</persName>, et d’où <persName key="p0418">А. Л.</persName> passé à <placeName key="g0010">Amsterd[am]</placeName> et Nord Hollande.</p>
+        <p>[Vendredi] au soir <persName key="p0421">Ribaupierre</persName> avec <persName key="p0422">sa femme</persName> et <persName key="p0423">sa sœur</persName> arrivèrent aussi icy de <placeName key="g0162">Spaa</placeName>, ainsi que le <persName key="p0424">Maj[or] B[aron] Heyking</persName> qui est malade et n’a pu les suivre p[our] <placeName key="g0010">Amsterd[am]</placeName> où ils sont allés hier, de là ils vont en Nord Hollande et comptent passer à <placeName key="g0019">Paris</placeName>.</p>
+        <p>Ces jours ci <persName key="p0425">Artemieff</persName> est parti p[our] <placeName key="g0069">Elseneur</placeName> où <orgName key="o0001">le College</orgName> l’a placé comme Translateur auprès du <persName key="p0426">Consul Hoffmann</persName>. Il m’a promis de faire son possible p[our] V[ous] </p>
+        <pb n="f. 36" />
+        <p> procurer des [?] vivants, et j’ai exigé ses soins là-dessus comme une preuve de sa reconnoissance.</p>
+        <p>Comme une nouvelle preuve de la bonté d’ame du <persName key="p0364">P[rin]ce Galitzin</persName> voicy un trait. Il peut se passer d’un actuaire à la place d’<persName key="p0425">Artemieff</persName>. Sa representation à la Cour p[ar] le canal du Viefg [?] p[our] qu’on nous ajoute à <persName key="p0379">Novikoff</persName> et à moi à chacun 500 fls. au lieu de donner les 1000. fls. fixés p[ar] l’etat à un actuaire dont il n’a pas besoin.</p>
+        <p>Tachés d’apprendre le resultat de cette proposition ; s’il ne reussit point, cela prouve pourtant sa noble façon d’agir et pa[…] envers nous.</p>
+        <p>Notre digne ami vient de realiser sa promesse en ma faveur. Passage de la lettre de <persName key="p0025">Bühler</persName> du 31. août. Si Mr Bxx se laisse toucher et que <persName key="p0113">le Vice Chancel[ier]</persName> s’y prete en même tems, le fer battu pendant qu’il est chaud sera d’autant plus malliable [=malléable]. Mon petit voyage p[our] <placeName key="g0048">Anvers</placeName> et <placeName key="g0035">Bruxelles</placeName> a encore été reculé p. la présence du <persName key="p0414">C[omte] Bruce</persName>
+          <persName key="p0418">Nariskin</persName> &amp;c. et actuellement par le </p>
+        <pb n="f. 36v" />
+        <p> depart du <persName key="p0427">Prince Schacovskoi</persName> qui ayant achevé avec succès, ses etudes à <placeName key="g0096">Leide</placeName> vient de partir [vendredi] passé p[our] <placeName key="g0019">Paris</placeName>. <persName key="p0379">Mr Novikoff</persName> qui est lié d’amitié avec ce jeune Seig[neu]r m’a instamment prié de ne point encore m’absenter icy, sans quoi il n’auroit pu comme il l’a fait l’accompagner jusqu’à <placeName key="g0035">Bruxelles</placeName>, puisqu’un de nous doit necessairement rester avec <persName key="p0364">le Prince Galitzin</persName> ; et comme je n’ai pu me refuser à ses instances j’ai differé en sa faveur mon petit voyage projetté.</p>
+        <p />
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_987_0004</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0002</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0001</p>
+        <p>ru_nlrmss_871_989_0002</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_990_0001</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0002</p>
+        <p>ru_nlrmss_871_1012_0003</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+        <p>ru_nlrmss_871_1016_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

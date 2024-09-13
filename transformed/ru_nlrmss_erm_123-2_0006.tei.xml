@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Letter from the Russian Consul in Cadiz, Prince Ivan Andreevich Shcherbatov,] from Cadiz to [the French Envoy to Spain, Philippe Charles] Marquis of La Fare, to Madrid written on March 22 / April 2, 1726</title>
+        <title type="main" xml:lang="ru">В Мадрит к господину Де ля Фарру из Кадикса от 22 марта / 2 апреля 1726 года писано</title>
+        <author xml:lang="en">Ivan</author>
+        <author xml:lang="en">Andreevich</author>
+        <author xml:lang="en">Shcherbatov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>22 March / 2 April 1726. – [Letter from<persName key="p0220"> the Russian Consul in Cadiz, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName key="g0067">
+              <hi rendition="#b">Cadiz</hi>
+            </placeName> to <persName key="p0317">[the French Envoy to Spain, Philippe Charles] Marquis of La Fare, </persName>to <placeName key="g0020">
+              <hi rendition="#b">Madrid </hi>
+            </placeName>written on March 22 / April 2, 1726 </title>
+          <note>
+            <bibl>NLR Mss, fond Erm., no. 123-2, f. 58v–59. Copy of French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 58v" />
+        <p />
+        <p>В <placeName key="g0020">Мадрит</placeName> к <persName key="p0317">господину Де ля Фарру</persName> из <placeName key="g0067">Кадикса</placeName> от 22 марта / 2 апреля 1726 года писано</p>
+        <p>
+          <persName key="p0317">De La Farre</persName>
+        </p>
+        <p>Pour répondre à vôtre Lettre que vous vous etes donné de la peine de m’écrire le 25me du mois passé, je vous dirai monsieur, que je vous suis fort obligé pour l’offre que vous me faites, laquelle j’accepte avec beaucoup de plaisir, et vous pouvez étre persuadé que je tacherai de vous rendre toute [sic] service qu’il me sera possible ; En même temps je vous communique monsieur que non obstant </p>
+        <pb n="f. 59" />
+        <p> que j’ay pas reçu aucune [sic] ordre de la <orgName key="o0008">Cour</orgName> pour remplacer <persName key="p0318">Mr: le Prince de Galitzin</persName>. Cependant mes amis de <placeName key="g0002">St Petersbourg</placeName> me mandent (aussi bien le <persName key="p0318">Prince de Galitzin</persName> luy même d’en avoir reçu quelque nôtice par des Lettres particulières) que <persName key="p0172">Sa Majesté Imperialle</persName> nôtre très-clemente maitresse avoit dejà ordonné au <persName key="p0071">grand Chancelier</persName> d’expedier les ordres nécessaires la dessus ; mais Comme je n’en ay point reçu les ordres, je ne sçaurois vous dire positivement jusques à un autre temps, si cela aura son lieu et quand. Avec toute cette incertitude (ayant de l’estime pour votre personne) je ne sçaurois que de vous prier monsieur, de ne vous pas engager [sic] chez personne, et vous soyez sûr que vous serez dedommagé par moy de même Comme par mr. le <persName key="p0318">Prince de Galitzin</persName> (quand même cette nouvelle n’aura aucun lieu) à qui j’en ay donné part, qui ne manquera pas de vous éclaircir sur cette article plus amplement. De grâce donnez moy de vos nouvelles qui est prêt de vous témoigner en son temps et lieu Combien il est etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

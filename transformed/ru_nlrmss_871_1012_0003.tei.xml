@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Jacob von Staehlin to Peter von Staehlin </title>
+        <author xml:lang="en">Jakob</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>16 June 1781. – Letter from <persName key="p0135">Jacob von Staehlin</persName> to his son, the secretary of the Russian Embassy in the Netherlands,<persName key="p0363"> Peter von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, fond 871, n°1012, f. 23–23v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 23" />
+        <p />
+        <p>№ 25 le 16. Juin [1781]				           		                  reçu 15. Juillet.</p>
+        <p>Selon le desir que vous me témoignez dans votre Lett[r]e №. 25. je me suis rendu hier au <placeName key="g0190">Primorsky</placeName> du <persName key="p0114">C[om]te Panin</persName> chez <persName key="p0113">S[on] E[xcellence] Mr le Vice Chancel[ie]r</persName> lui rapportant l’avancem[en]t du Bâtiment du fronton ou l’ammortissem[en]t de son hôtel d’après mon dessein.</p>
+        <p>Il en étoit bien content et me dit dabord qu’étant invité à diner chez le ministre d’Angleterre <persName key="p0547">Mr Harris</persName> tout près de Lui dans la Maison de Campagne de <persName key="p0414">Mr le C[om]te de Bruce</persName>, il me meneroit là avec lui, où j’étois bienvenu. Nous y restames dans une belle Compagnie des dames et de plusieurs Ministres étrangers jusqu’à 6. h[eures] du soir. Retourné avec <persName key="p0113">S[on] E[xcellence] Mr le Vice Ch[ancelier]</persName> dans sa campagne j’étois obligé d’y passer le reste du soir c[’est] a d[ire] jusqu’à 11 ½ h[eures] com[me] à l’ordinaire.</p>
+        <p>Pend[en]t ce tems je ne manquois pas des momens de me trouver seul avec <persName key="p0113">S[on] Ex[cellence]</persName> et de m’acquitter de votre commission. Dabord <persName key="p0113">S[on] Ex[cellence]</persName> me dit, qu’elle avoit reçu par la derniere poste une Lett[r]e de <persName key="p0364">Mr le Pr[ince] Galizin votre Ministre</persName>, dans la quelle il s’étoit interessé beaucoup pour Vous : comme aussi une autre addressée à <persName key="p0033">S[a] M[ajesté] I[mpéria]le</persName>.</p>
+        <p>
+          <persName key="p0113">Mr le C[om]te</persName> m’assura qu’il avoit envoyé dabord l’une et l’autre à <persName key="p0033">S[a] M[ajes]té</persName> et puisque le lendemain, dimanche, et lundi jour du Conseil à <placeName key="g0192">Sarskoe Selo</placeName>, <persName key="p0033">S[a] M[ajesté]</persName> ne lui en avoit rien dit, il ne manqueroit pas d’en parler à <persName key="p0033">S[a] M[ajesté] I[mpéria]le</persName> à la premiere occasion pour s’informer de ses ordres pour répondre à <persName key="p0364">Mr le Pr[ince] Galizin</persName>. <persName key="p0113">S[on] Ex[cellence]</persName> ajouta que reconnoissant le tort que Vous aviez essuyé à l’occasion des derniers avancem[ent]s elle souhaiteroit de tout son cœur d’y pouvoir remedier, et m’assura, qu’en votre faveur elle contribueroit avec plaisir tout ce qu’il pouvoit pour Vous procurer toute la satisfaction.</p>
+        <p />
+        <pb n="f. 23v" />
+        <p> Voila tout ce que j’ai appris dans mon entretien avec <persName key="p0113">Mr notre cher Comte et ami</persName> ; ne doutant point de pouvoir apprendre bientôt quel succès avoit eu l’honnete intercession et recommendation de l’ami d’homme et de l’equité <persName key="p0364">Mr le Pr[ince] Votre Ministre</persName>.</p>
+        <p>
+          <persName key="p0371">Mama</persName> se souvient d’avoir reçu de vous la Lett[r]e de <persName key="p0541">Mr Lysakeviz</persName> en q[ue]st[io]n mais après avoir renversé presque entierem[en]t sont Burau elle ne la pouvoit pas trouver. N’importe. Nous ne nous souvenons que trop de son contenu : mais nous savons aussi qu’actuell[emen]t il ne se fera pas non plus une nouvelle recherche des faits et des tems passés de <placeName key="g0013">Dresde</placeName> ; &amp; que même dans un tel cas <persName key="p0541">Mr Lysakeviz</persName>, devoué a present de corps et d’ame à <persName key="p0501">Mr Vonwisen</persName> &amp; à ses amis, n’avoueroit ni deposeroit plus ce qu’il avoit écrit dans sa Lett[r]e .</p>
+        <p>Je ne doute pourtant qu’elle se trouvera encore chez nous par le moyen d’une nouvelle recherche.</p>
+        <p />
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_987_0004</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0002</p>
+        <p>ru_nlrmss_871_988_0003</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0001</p>
+        <p>ru_nlrmss_871_989_0002</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_990_0001</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0002</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+        <p>ru_nlrmss_871_1016_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

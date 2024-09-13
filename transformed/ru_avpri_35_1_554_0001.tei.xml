@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Empress Anna Ioannovna to King George II</title>
+        <author xml:lang="en">Empress</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Anna Ioannovna</author>
+        <author xml:lang="en">Gavrila</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="de">Головкин </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>2 July 1733. – Letter from <persName key="p0006">Empress Anna Ioannovna</persName> to the <persName key="p0063">King of Great Britain George II</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 35, opis 1, no. 554, f. 2–3v. Russian original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 2" />
+        <p />
+        <p>Грамота <persName key="p0006">императорского величества</persName> к <persName key="p0063">королю аглинскому</persName>
+        </p>
+        <p>По титулах</p>
+        <p>Понеже всевышнему Богу по неиспытаемой его Святой воле угодно было нашу любезнейшую Г[осу]д[а]р[ы]ню сестру ея высочество и любовь пресветлейшую Г[осу]д[а]р[ы]ню царевну и владеющую Герцогиню Мекленбургскую <persName key="p0050">Екатерину Иоанновну</persName> по претерпенной чрез некоторое время болезни сего июня 14:го дня пополудни в: 8:м часу из сей времянной жизни в вечное блаженство отозвать а нас чрез то в чувствительную печаль привести </p>
+        <pb n="f. 2v" />
+        <p> того ради мы неможем оставить чтоб <persName key="p0063">вашему королевскому величеству</persName> о том чрез сие дружебно сестринскую нотификацию неучинить пребывая внесумненном уповании что вы в такой нам приключившейся болезненной печали дружебно братски своим сожалением склонное участие принять изволите, мы чрез то новый знак продолжающейся вашего королевского величества к нам доброй дружбы получили и от сердца желаем дабы всемогущий бог такие и все печалные случаи </p>
+        <pb n="f. 3" />
+        <p> от королевского вашего дома на долгие времена м[и]лстиво отвратить и <persName key="p0063">ваше королевское величество</persName> в своесильном защищении и неотменным щастливым благополучиям всегда содержать благоволил.</p>
+        <p>дан в <placeName key="g0002">Сан Петербурге</placeName>
+        </p>
+        <p>июля 2го дня 1733</p>
+        <p>В государствования нашего 4м году</p>
+        <p>Вашего величества склонная сестра</p>
+        <p>
+          <persName key="p0006">Анна</persName>
+        </p>
+        <p>У оригиналной подписано</p>
+        <p>собственною ея императорского ве.а рукою тако</p>
+        <p>Контрсигнировал Г[оспо]д[и]н канцлер посему – <persName key="p0071">Граф Головкин</persName>
+        </p>
+        <p />
+        <pb n="f. 3v" />
+        <p />
+        <p>Писана по российски на большом александринском листу по краям немного очернено чернилами.</p>
+        <p>Запечатана Г[осу]д[а]рственною болшою печатею на черном воску под кустудиею бумажною с прошивкою наглухо.</p>
+        <p>Копии на иностранном языке при оной неприложено.</p>
+        <p>Послана как оригиналная грамота, так и со оной копии на российском и немецком языках при рескрипте №11: июня в 23: 1733: в <placeName key="g0003">Лондон</placeName> к резиденту кн[я]зю <persName key="p0030">Антиоху Кантемиру</persName>, и немецкую копию велено сообщить аглинским министрам.</p>
+        <p>Сложена по прежнему обыкновению.</p>
+        <p>Надпись по российски против титулярника.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorial from the Secretary of the Imperial Embassy, Jean-Ferdinand Malaise du Verly, to the Ambassadorial Chancellery</title>
+        <author xml:lang="en">Verly</author>
+        <author xml:lang="en">Malaise</author>
+        <author xml:lang="en">du</author>
+        <author xml:lang="en">Jean-Ferdinand</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>16 August 1711. – Memorial from the <persName key="p0675">Secretary of the Imperial Embassy, Jean-Ferdinand Malaise du Verly,</persName> to the Ambassadorial<orgName key="o0064"> Chancellery</orgName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 32, opis 1, 1711, no. 11, f. 13. German original. Translation from German original into Russian: RGADA, fond 32, opis 1, 1711, no. 11, f. 14–14v.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 13" />
+        <p />
+        <p>Hochlöbliche Abgesandten Cantzley</p>
+        <p>Ewre Exc[e]ll[en]zen werden, auß beyliegenden zweyen respectivè abschiedes brieffen unterm Ersten undt Eylfften currentis g[nä]dig Ersehen; Waßgestalten beyde darinnen vermelder <persName key="p0000">Johann Baptista Kienwaldt</persName> von <placeName key="g0005">Wieen</placeName> in Österreich gebührtig ohngefehr fünf undt dreissich Jahren alt, von langer statur, mageres langlichtes gesicht undt braunen kurtzen haaren mit seinem Weib <persName key="p0000">Mariâ förberin</persName> von Lauppä in schwaben gebürtig, zwantzich Jahren alt von kleiner stature, magerem gesicht, liechten haaren, Jener vor Einen Musicant, diese aber vor Eine Wasserinn, beyde sieben monathen lang; dan <persName key="p0676">Michael gall</persName> von pöttau auß der steuerMarck gebürtig, ohngefehr vierzich Jahren alt, Mitterer, undersetzten statur, liecht brauner haaren undt ronden gesichts vor Einen kutscher Ein Jahr lang bey dem <persName key="p0672">h[errn] Otto v[on] Pleyer Röm[ischen] Kayserl[ichen] May[estät] Rath undt Residenten</persName> an <orgName key="o0023">Ihro Czar[ische] May[estät] hoff</orgName> gedienet undt mit ihme bey desselben heraußkhunfft von <placeName key="g0005">Wieen</placeName> im anfang dieses Jahrs heraußkhommen; nunmehro aber des diensts Entlassen wiederumb nacher <placeName key="g0005">Wieen</placeName> zu revertiren verlangen; ihre reyß aber von hier durch <placeName key="g0015">Riga</placeName> undt preussen mit der kürtzesten undt sichersten route mit mir vorzunehmen gesinnet seyndt: Alß gelangt an Ewre Exc[e]ll[en]zen Mein dienstgebührendes Ersuchen undt bitten, obbemeldten respectivè des diensts Entlassenen dienstbotten, Allerhöchst gemeldten <persName key="p0463">Röm[ischen] Kayserl[ichen] May[estät]</persName> underthanen mit behörrlichen beförderungs pässen zu begnaden: Weillen aber besagter Musicant mehrerzeit unpäßlich, undt also in zweiffel stehet, ob Er die ungelegenheitten der reyß durchgehendts außstehen, undt vielleicht vorfallender unpäßlichkheit halber auff dem Weeg zurück zu bleiben gezwungen werden mögte: alß belieben Ewre Exc[e]ll[en]zen ihnen besondere paßporth g[nä]dig verfertigen zu lassen; damit der Eine nemblich der <persName key="p0676">kutscher Michael gall</persName>, so starcker complexion, des anderen krancklichten Weegen, nicht auffgehalten werde: actum <placeName key="g0001">Moscau</placeName> den 16<hi rendition="#sup">ten</hi>. Augusti 1711. st[ili] v[eteris].</p>
+        <p>
+          <persName key="">Malaise du Verly Kay[serlicher] Lega[ti]ons</persName>
+        </p>
+        <p>M[anu] P[ropria] <persName key="">Secretaire an diesem </persName>
+        </p>
+        <p>
+          <persName key="p0675">großCzar[ischen] hoffe</persName>.</p>
+        <p />
+        <p>Перевесть и выписать об отпуске таковых людей из прежних примеров.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

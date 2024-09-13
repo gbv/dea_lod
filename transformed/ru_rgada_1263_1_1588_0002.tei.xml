@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Saxon Resident in The Haag, Johann Heinrich Kauderbach, to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Heinrich</author>
+        <author xml:lang="en">Kauderbach</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>7 April 1758. – Letter from <persName key="p0084">the Saxon Resident in The Hague, Johann Heinrich Kauderbach</persName>, to <persName key="p0065">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1588, f. 1–3v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 1" />
+        <p />
+        <p>Monsieur,</p>
+        <p />
+        <p>La lettre que Vous m’avez fait la grace de m’écrire le 28. d.p. m’a été remise fidèlement en main propre. Je ne puis, mon Prince, que Vous rendre mes très humbles actions de graces de son contenu très interessant et instructif. <persName key="p0148">M<hi rendition="#sup">r</hi>. Wiedm[arckter]<hi rendition="#sup">e</hi>
+          </persName> ne m’a rien communiqué de la lettre dont Vous l’avez honoré, et il m’a voulu assurer, qu’elle ne contenoit que des affaires qui le regardoient personnellement. Cette reserve n’est pas trop louable, dans ces circonstances, où nous autres infortunez Saxons, ne devrieres être qu’un coeur et qu’une Ame. Je n’en ai pas usé de même avec lui ; et je devois m’attendre à un peu de retour de sa part après toutes les marques </p>
+        <pb n="f. 1v" />
+        <p> d’amitié et de confiance que je lui ai données pendant son sejour en hollande.</p>
+        <p>	M<hi rendition="#sup">rs</hi> les françois sont actuellement à cheval sur le Bas Rhin, partie en deça et partie au-delà de cette rivière. <persName key="p0003">M<hi rendition="#sup">r</hi>. D’Affry</persName> nous assure que <placeName key="g0046">Wesel</placeName> sera le point fixe de leur retraite, et qu’il compte que l’armée sera assez en forces pour reprendre les Operations avec une double vigueur, vers la Mi.Juin. <persName key="p0038">M<hi rendition="#sup">r</hi>. le C[om]<hi rendition="#sup">te</hi>. de Clermont</persName> a envoyé un gros Detachement vers <placeName key="g0114">Hanau </placeName>où les François se fortifient et se maintiennent. Cette retraite nous a frapé d’abord beaucoup. Mais il est constant qu’elle est l’effet d’une nécessité absolue. Les maladies et la Desertion ont fait fondre cette armée qui etoit de 120.<hi rendition="#sup">m </hi>/ h <hi rendition="#sup">s</hi>. à quarante mille à peu près. Mais nous ne nous attandions pas à la voir repasser en partie le Rhin. <persName key="p0016">M<hi rendition="#sup">r</hi>. l’Abbé Bernis</persName> a mandé il n’y a que peu de jours à <persName key="p0003">M<hi rendition="#sup">r</hi>. D’Affry</persName>, dans une lettre Ministeriale, que ce Ministre a communiquée ici par ordre, que l’armée ne passeroit pas le Rhin, comme les ennemis le debitoient; Mais qu’elle se porteroit même vers l’Elbe pour </p>
+        <pb n="f. 2" />
+        <p> secourir les Alliéz oprimez, dèsquelle auroit reçu ses renforts. Il paroit qu’on a pris <hi rendition="#u">Wesel</hi> pour le <hi rendition="#u">Weser</hi>.</p>
+        <p>	On est bien eloigné ici de se rejouir de cette retraite; Non qu’on craigne quelque entreprise de la part des François contre ce Païs.ci ; on est, et on peut être fort tranquille là dessus. Mais on s’aplique en general la XXX<hi rendition="#sup">e</hi>. fable de Phèdre. On ne desire ici que le repos; et les malheureux Exemples qu’on a devant les yeux, n’en font que mieux sentir le prix. Plût à Dieu, qu’on en pensât de même chez Vous, mon Prince. L’Angleterre fit la Paix en 1748. parce qu’elle trouvoit que les avantages, quoique considerables, qu’elle avoit remportée sur les François par Mer ne compensoient pas les Depenses que la continuation de la guerre demandoit. C’est ainsi que les Anglois parlèrent à <placeName key="g0115">Aix la Chapelle</placeName>; et je crois qu’ils disoient vrai. Le même motif semble devenir bien plus fort pour eux aujourd’hui, qu’ils n’ont fait jusqu’à présent que des pertes, et que tous leurs efforts n’ont abouti qu’à surcharger la Nation de taxes, et à augmenter leurs Dettes outre mésure. S’ils ne comptent que sur la Conquête de <placeName key="g0116">Louisbourg</placeName>, ils attendront encore long tems avant que de reduire la France. </p>
+        <pb n="f. 2v" />
+        <p> L’armement qui se fait actuellement à <placeName key="g0117">Brest</placeName> est très considérable, et on en aura dans peu des Nouvelles.</p>
+        <p>
+          <persName key="p0061">Le Roi de Prusse</persName> fait actuellement le siege de <placeName key="g0074">Schweidnitz</placeName>, quoique la garnison ne soit que de trois mille hommes, elle se defend jusqu’à présent très bien. L’on veut ici absolument qu’il marche un Corps de 30<hi rendition="#sup">m.</hi> / russes par la Pologne en Silesie. Mais je n’en ai aucun indice directement et moins encore de l’ordre donné aux troupes de la Couronne de Pologne, pour se mettre en marche. L’auteur de ce bruit a deja tenu ce langage en passant par ici. Je crois que ce soit des <hi rendition="#u">impia</hi>
+          <hi rendition="#u"> desideria</hi> de sa part. On a fait courrir ici le bruit qu’un certain <persName key="p0094">Prince Lubomirski</persName> levoit des troupes en Pologne pour <persName key="p0061">le Roi de Prusse</persName>. Mais je crois que ce bruit part de la même source.</p>
+        <p>	L’on n’a ici aucune nouvelle directement de la Disgrace du <persName key="p0017">Comte de Bestuchef</persName>. Tout ce qu’on en sait est venu de <placeName key="g0005">Vienne</placeName>, de <placeName key="g0009">Varsovie</placeName> et de <orgName key="o0019">Versailles</orgName>. Les dernières lettres de <persName key="p0406">M<hi rendition="#sup">r</hi>. Swart</persName> sont du 24. fevrier, et depuis on n’a rien reçu de sa part. On craint qu’il ne soit un peu impliqué dans ces affaires, puisque S[a].M[ajesté]. Imp[eriale]. insiste absolument sur son rapel; et je crois qu’il l’aura dans peu. L’on dit que <persName key="p0017">le Chancelier</persName> disgracié </p>
+        <pb n="f. 3" />
+        <p> a toujours été antiprussien. Mais que n’étant pas riche, il a souvent emprunté d’assez grosses sommes du <persName key="p0338">Resident Anglois</persName>, et que celui.ci par ce moyen, en eû une influence si entière sur lui, qu’il lui a fait faire tout ce qu’il a voulu. Vous jugerez aisément, mon Prince, que cette affaire cause bien de l’inquietude à certaines personnes ici. Je ne manquerai pas de Vous informer exactement des suites de cet Evénement.</p>
+        <p>	Nous n’avons après Dieu notre delivrance à attendre que des puissants et genereux secours de Votre <persName key="p0052">Auguste Souveraine</persName>. Dieu veuille conserver ses precieux jours, et benir ses justes armes!</p>
+        <p />
+        <pb n="f. 3v" />
+        <p />
+        <p>	Les lettres d’Espagne qui sont arrivées ce matin, ne nous aprenent encore rien de l’Escadre de <persName key="p0048">M<hi rendition="#sup">r</hi>. du Quesne</persName>. On la croit cependant sauvée, excepté l’Oriflamme, qui s’est fait echouer, dit on, sur un bac de sable.</p>
+        <p>	Je joins ici une seconde lettre de <persName key="p0334">M<hi rendition="#sup">r</hi>. Hochepied</persName>. Mais les Almanacs de ce Ministre ne sont pas des Evangiles. Ces M<hi rendition="#sup">rs</hi>. donnent souvent beaucoup à leur haine ou à leur faveur.</p>
+        <p>	L’on mande de <placeName key="g0005">Vienne</placeName>, que <persName key="p0012">le Prince de Brevern</persName> [?] a quitté le Service et l’Uniforme du <persName key="p0061">Roi de Prusse</persName>, après avoir écrit plusieures lettres à ce Prince, sans avoir reçu de reponse, il a voulu se rançonner lui.même. Mais <persName key="p0100">l’Imperatrice </persName>lui a accordé genereusement la liberté.</p>
+        <p>	J’ai l’honneur d’etre avec un très profond respect,</p>
+        <p>			Monsieur mon Prince,</p>
+        <p>				</p>
+        <p />
+        <p>Votre très humble et très obeissant</p>
+        <p>
+          <placeName key="g0004">La Haye						</placeName>Serviteur <persName key="p0084">Kauderbach</persName>
+        </p>
+        <p>Le 7. Avril. 1758.						</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_1588_0001</p>
+        <p>ru_rgada_1263_1_1589_0002</p>
+        <p>ru_rgada_1263_1_1589_0003</p>
+        <p>ru_rgada_1263_1_1593_0001</p>
+        <p>ru_rgada_1263_1_1593_0002</p>
+        <p>ru_rgada_1263_1_1593_0003</p>
+        <p>ru_rgada_1263_1_1600_0001</p>
+        <p>ru_rgada_1263_1_1600_0002</p>
+      </div>
+    </body>
+  </text>
+</TEI>

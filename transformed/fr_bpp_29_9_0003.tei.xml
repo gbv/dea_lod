@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the chargé d'affaires of Russia to the Ottoman Empire, Aleksandr Semenovich Khvostov</title>
+        <author xml:lang="en">Jacob</author>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Sievers</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>3 / 14 March 1793. – Draft of the letter from <persName key="p1145,p1152">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the chargé d’affaires of Russia to the Ottoman Empire, Aleksandr Semenovich Khvostov</persName>
+          </title>
+          <note>
+            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1591–1592. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 1591" />
+        <p />
+        <p>à <persName key="p1152">M[onsieu]r Chwostow</persName>
+        </p>
+        <p>à <placeName key="g0018">Constantinople</placeName>
+        </p>
+        <p>le 3/14 Mars 1793.</p>
+        <p>
+          <persName key="p1140">Le Grand Chancelier de la Couronne C[om]te de Malachowsky</persName> ayant été chargé par <orgName key="o0085">la Confederation Générale</orgName> de faire revenir de <placeName key="g0018">Constantinople</placeName>
+          <persName key="p0000">M[onsieu]r Majakowski</persName> qui avoit été envoyé comme courier et ne saschant comment <hi rendition="#s">ces y</hi> lui faire parvenir 400.#, il m’a prié de lui en fournir les moyens. Je voulus d’abord les envoyer à <persName key="p1154">notre nouvel ambassadeur</persName> sur sa route ; mais trouvant que cela rétarderoit le rétour de l’homme en question, j’ai pris le parti de passer ces 400 # à compte de <orgName key="o0104">la caisse de S[a] M[ajesté] I[mpériale]</orgName> et de vous prier, M[onsieu]r, par celle ci de remettre une somme semblable au dit <persName key="p0000">M[onsieu]r Majakowski</persName> à fin [=afin] de le faire partir de là bas et diminuer le nombre des Polonois inutiles, qui pourroient s’y trouver. J’ai rendu [compte] à <persName key="p0113">M[onsei]g[neu]r le vice chancelier</persName> de cette affaire.</p>
+        <p>Etant sur mon depart pour <placeName key="g0264">Grodno</placeName>, siège de <orgName key="o0085">la Conf[édération] Gén[érale]</orgName> où <persName key="p0862">le Roi</persName> va se rendre aussi incessamment pour terminer les affaires de la Pologne je vous prie, M[onsieu]r, de vouloir bien m’y adresser les nouvelles, qui peuvent interesser notre service, comme je ne manquerai pas de mon coté de vous informer de ce qui pourra vous etre nécessaire. Vous connoissant le zèle </p>
+        <pb n="f. 1592" />
+        <p> que nous devons au service de <persName key="p0033">Notre Souveraine</persName>, je ne vous en dis pas d’avantage. Dans l’exigence des cas, vous informerez le <persName key="p1157">Général de Kreczetnikow</persName>, qui commande sur les bords de <placeName key="g0321">Dniestr</placeName> et qui n’en sera pas éloigné par des voies directes et indirectes si vous aurez quelque chose de bien intéressant à lui mander. Il ne manquera pas de son coté de m’en informer avec toute la promptitude possible et d’en instruire <persName key="p1158">le Général d’Igelström</persName> qui commande ici.</p>
+        <p>Il ne vous sera pas indifferent, Monsieur, de savoir, que j’ai fait arreter hier <persName key="p1159">le Secretaire de Legation de France Bonneau</persName>, qui étoit resté ici comme particulier après le renvoy de <persName key="p1160">Descorches</persName>, ci devant ministre François. On a trouvé chez lui une correspondance suivie très interessante.						<persName key="p1145">J[acob] S[ivers]</persName>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

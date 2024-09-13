@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Verses by Voltaire against King of Prussia [from the archives of the Russian diplomat Prince Ivan Andreevich Shcherbatov]
+</title>
+        <title type="main" xml:lang="fr">Vers de Mr de Voltaire contre le Roi de Prusse</title>
+        <author xml:lang="en">Voltaire</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>After 1751. – Verses by <persName key="p0361">Voltaire</persName> against <persName key="p0061">King of Prussia </persName>[from the archives of the Russian diplomat<persName key="p0220"> Prince Ivan Andreevich Shcherbatov</persName>]</title>
+          <note>
+            <bibl>NLR Mss, fond Erm., no. 121, f. 113v–115. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 113v" />
+        <p />
+        <p>Vers de Mr de <persName key="p0361">Voltaire</persName> contre le <persName key="p0061">Roi de Prusse</persName>.</p>
+        <p>Roi, Guerrier, Philosophe, Auteur, Musicien</p>
+        <p>Poete, Franc-Maçon, Politique, Oeconome</p>
+        <p>Pour le bien de l’Europe, ha ! que n’est-il Chretien,</p>
+        <p>Pour celui de la Reine, helas ! que n’est-il Homme.</p>
+        <p />
+        <pb n="f. 114" />
+        <p />
+        <p>Le Jeu de quadrille</p>
+        <p>En Mediateur des Souverains de l’Europe</p>
+        <p>L’imperatrice Reine</p>
+        <p>Je Joue Mediateur, quoi que le Jeu peut estre gagner sans prendre</p>
+        <p>Le Roi de France</p>
+        <p>On a bien fait de m’appeler, parce que je say les ruses et les finesse des Jeux</p>
+        <p>La Russie</p>
+        <p>Je ne garderai pas les atouts comme je l’ai fait au derniers jeu jusqu’à la fin,</p>
+        <p>Le Roi de Prusse</p>
+        <p>Je risquerai un solo, que l’on perdre codille</p>
+        <p>L’Angletere</p>
+        <p>J’ai tres Mal appellé cette fois je pourrois bien en être la duppe,</p>
+        <p>Le Roi de Pologne</p>
+        <p>N’est ce point jouer de gignon que de perdre avec trois matadores</p>
+        <p>La Pologne</p>
+        <p>Je ne sai point faire valloir à propos mes atouts, outres que l’envie de gagner me fait faire faute sur faute</p>
+        <p>La Hollande</p>
+        <p>Faute de Roi et n’ayent que la Dame avec un petit atout, je dois passé</p>
+        <p />
+        <pb n="f. 114v" />
+        <p> La Suede</p>
+        <p>Cartes vues, carte rebatues,</p>
+        <p>Dannemarckk</p>
+        <p>L’on veut que je joue mais voyons si le jeu n’est point perdable</p>
+        <p>L’Espagne</p>
+        <p>Tant que l’on Joue si heureusement pour moi Je me contente de faire provision des cartes et des marques, </p>
+        <p>Le Roi de Sicile </p>
+        <p>J’ai toujours en assez beau jeu mais l’on ne m’a pas encore appellé,</p>
+        <p>Le Roi de Sardaigne</p>
+        <p>Je n’ai pas encore joué, parce que je ne joue qu’à coup sûr,</p>
+        <p>Le Roi de Portugal</p>
+        <p>J’ai joué si malheureusement l’année passée que je quitte tout le jeu.</p>
+        <p>Vers sur <persName key="p0061">Sa Majesté Prussienne</persName>
+        </p>
+        <p>De <persName key="p0061">Frederic</persName> Celebrons l’equité,</p>
+        <p>D’avoir pour le beau Sexe une haine implacable,</p>
+        <p>il a pour la sagement evité,</p>
+        <p>de nous donner son semblable</p>
+        <p />
+        <pb n="f. 115" />
+        <p />
+        <p>Ces vers été trouvé dans le Berçau du <persName key="p0362">Duc de Bourgogne</persName>
+        </p>
+        <p>Deux Henris immolés à nos brave âÿeux</p>
+        <p>L’un à la liberté, et Bourbon à nos Dieux</p>
+        <p>Nous animent, Louis à la même Entreprise</p>
+        <p>ils revivent en toi, ces anciens, tirans</p>
+        <p>Craint nôtre desespoir la Noblesse a des Guises</p>
+        <p>
+          <placeName key="g0019">Paris</placeName>, des Ravaillacs, le Clergé, des Clêments.</p>
+        <p />
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Сhamberlain at the Polish-Saxon court, John Maurice Count of Bruhl to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">John</author>
+        <author xml:lang="en">Maurice</author>
+        <author xml:lang="en">Bruhl</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>23 December 1760. – Letter from <persName key="p0023">the Chamberlain at the Polish-Saxon Court, John Maurice Count of Bruhl</persName> to the <persName key="p0065">Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 651, f. 23–23v, 25. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 23" />
+        <p />
+        <p>
+          <placeName key="g0004">La Haye</placeName> ce 23. Decembre 1760.</p>
+        <p>Monseigneur</p>
+        <p>J’ai reçu ce matin avec beaucoup de reconnoissance la lettre dont il a plu a Votre Excellence de m’honorer en date du 16. d.c. J’en ai fait parvenir un extrait à mon père, qui ne sera pas faché d’être rassuré sur la pretenduë grande expedition d’aussi sûre part que de celle de Votre Excellence.</p>
+        <p>Qui auroit crû il y a deux mois que ce terrible armem<hi rendition="#sup">t</hi> qui menacoit et faisoit trembler toute une mer, se reduiroit en une pûre bravade? On est cependant </p>
+        <pb n="f. 23v" />
+        <p> persuadé ici plus que jamais, que sa veritable destination a été pour l’Allemagne, s’entend pour soutenir l’expedition du <persName key="p0060">Prince hereditaire</persName> sur <placeName key="g0046">Wesel</placeName>, en cas de reûssite.</p>
+        <p>
+          <persName key="p0120">Le Baron de Reischach</persName> a passé ce matin chez moi et m’a chargé de vous faire agréer ses compliments et de Vous dire qu’il avoit reçu du <persName key="p0039">Comte de Cobentzel</persName> une tabatiere d’or et un atlas de cartes geographiques pour les faire remettre à Votre Excellence par une occasion sûre, mais comme il pourra trainer quelque tems avant qu’il s’en presente une, il Vous prie de vouloir bien lui indiquer quelque voye certaine par la quelle vous puissiez la recevoir.</p>
+        <p>Il y a quelque personnes ici qui m’ont assurées, que <persName key="p0161">le Roi d’Angl[eterre].</persName> avoit absolument refusé d’epouser la Princesse de Gotha et qu’il s’agissoit de nouveau de celle de <persName key="p0162">Brunswic</persName>. Comme c’est une chose de consequence pour notre cour, je supplie Votre Excellence de </p>
+        <pb n="f. 25" />
+        <p> vouloir bien me donner quelque eclaircissemens sur ce sujet.</p>
+        <p>Je Vous prie Monseigneur, de vouloir bien assurer de mille amitiés le <persName key="p0070">P[rin]ce Gallitzin Votre cousin</persName>[?] que j’ai eu l’honneur de voir ici à son passage.</p>
+        <p>J’ai l’honneur d’etre avec le plus respectueux attachement</p>
+        <p>Monseigneur</p>
+        <p>de Votre Excellence</p>
+        <p>Le tres humble et très </p>
+        <p>obeissant serviteur</p>
+        <p>Le <persName key="p0023">Che[valie]r de Bruhl</persName>
+        </p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_651_0001</p>
+        <p>ru_rgada_1263_1_651_0002</p>
+        <p>ru_rgada_1263_1_651_0003</p>
+        <p>ru_rgada_1263_1_651_0004</p>
+        <p>ru_rgada_1263_1_651_0005</p>
+        <p>ru_rgada_1263_1_651_0006</p>
+      </div>
+    </body>
+  </text>
+</TEI>

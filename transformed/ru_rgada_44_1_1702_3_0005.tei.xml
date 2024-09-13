@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Hamburg merchant Hans Matthias Poppe to the Head of the Ambassadorial Chancellery, Count Gavrila Ivanovich Golovkin </title>
+        <author xml:lang="en">Hans</author>
+        <author xml:lang="en">Matthias</author>
+        <author xml:lang="en">Poppe</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 June 1708. – Letter from <persName key="p1197">the Hamburg merchant Hans Matthias Poppe</persName> to <persName key="p0071">the Head of Ambassadorial Chancellery, Count Gavrila Ivanovich Golovkin</persName>
+          </title>
+          <note>
+            <bibl />
+          </note>
+        </head>
+        <p>
+          <hi rendition="#b">
+            <hi rendition="#i">RGADA, fond 44, opis 1, 1702, no. 3, f. 43–44. German original.</hi>
+          </hi>
+        </p>
+        <p />
+        <p></p><pb n="f. 43"/><p> Monseigneur</p>
+        <p>Auß Ihro Exc[ellen]tz günstiges Schreiben von 30 Mertz habe ersehen, daß <persName key="p0746">S[eine]r Exc[e]ll[en]tz den Herrn Geheimbten Rath</persName>
+          <persName key="">von Ihro</persName>
+          <persName key="p0746"> GroßCzaar[ischen] May[estät] Herrn von Urbich</persName> die Quarthal Gelder wider zu zahlen sein: Vor dießmahl habe noch Rath geschafft /unerachtet mein weniges Capital bey der jetzigen Expedition unser Schiffe nach <placeName key="g0049">Archangel</placeName> gantz und gar versteket habe/ und das vom 8/19 Junij an antecipando <persName key="p0746">dem Herrn Baron</persName> vorgedacht mit Rdhl 2500 Banco contentirt; nach disem aber ist es mir eine püre Unmüchlogkeit dergleichen Verschuß zu thun, denn ich meine Gelder nicht ledig stehen laßen, sondern von Zeit zu Zwit in Wahren employre; darumb gehorsamst ersuche, es ins Künfftige allergütigst dahin zu dirigiren, daß die Gelder in <placeName key="g0001">Mosco</placeName> an die <persName key="p1240">H[erren] Poppe</persName> und <persName key="p1256">Ghiese</persName> vorauszahlt werden auff daß Selbe mich solche remittiren können </p><pb n="f. 43v"/><p> und fölgliche Wexelbrieffe auff mich paßiren, die ich dann annehmen und bezahlen will, und außerdem ist es mir warlich nicht müglich, immaßen auch noch keine Nachricht von <placeName key="g0001">Mosco</placeName> erhalten, daß die Rthl 1400, vor geraumer zeit an <persName key="p0729">dem Printz Dolgorucki</persName> in <placeName key="g0006">Copenhagen</placeName> zahlt, wider contentirt worden, und kann mich also diser Gelder auch nicht auffs neuwe bedienen  Diser und anderen erwechlichen Uhrsachen mehr werden Ihro Excell[en]tz mich nicht verdenken, wann in mehr Verschuß mich nicht engagiren kan und wolte ich Euwer Excell[en]tz gehorsamst gebethen haben, mit dergleichen Hochen Comission mich allergnädigst zu übersehen, denn ich meisten zeits leyder mit Podagra beleget bin, und derhalben zu deren Bewerkstelligung unbequem, wie dann auch meine eigene affairen still liegen, und von den Guth voriges Jahr auß <placeName key="g0049">archangel</placeName> bringen laßen </p><pb n="f. 44"/><p> noch gantz wenig zu gelde gemachet. Ich recomandire mich in Euwer Excell[en]tz hochen Gunst, nach dienstl[ichen] reverentz verharre</p>
+        <p>Monseigneur</p>
+        <p>de Vôtre Excellence</p>
+        <p>tres humble &amp; tres obeissant serviteur</p>
+        <p>
+          <persName key="p1197">Hans Matt: Poppe</persName> ./.</p>
+        <p>
+          <placeName key="g0011">Hambourg</placeName> A[nn]o 1708</p>
+        <p>ce 26 Junij</p>
+        <p />
+        <p>
+          <hi rendition="#u">Empf[angen] d[en] 23 July 1708 Horkj. </hi>
+          <hi rendition="#u">От </hi>
+          <persName key="p1197">Поппа</persName>
+          <hi rendition="#u">. От </hi>
+          <persName key="p0918">Любса</persName>
+          <hi rendition="#u"> и от </hi>
+          <persName key="p1252">Карлуса Годфеллева</persName>
+          <hi rendition="#u"> 708-г[о] году.</hi>
+        </p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_44_1_1702_3_0001</p>
+        <p>ru_rgada_44_1_1702_3_0002</p>
+        <p>ru_rgada_44_1_1702_3_0003</p>
+        <p>ru_rgada_44_1_1702_3_0006</p>
+        <p>ru_rgada_44_1_1702_3_0004</p>
+        <p>ru_rgada_44_1_1702_3_0007</p>
+        <p>ru_rgada_44_1_1702_3_0008</p>
+        <p>ru_rgada_44_1_1711_1_0001</p>
+        <p>ru_rgada_44_1_1711_1_0002</p>
+        <p>ru_rgada_44_1_1711_1_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>

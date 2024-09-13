@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Jacob von Staehlin to Peter von Staehlin </title>
+        <author xml:lang="en">Jakob</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Staehlin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>18 November 1783. – Letter from <persName key="p0135">Jacob von Staehlin</persName> to <persName key="p0363">his son, the secretary of the Russian Embassy in the Netherlands, Peter von Staehlin</persName>
+          </title>
+          <note>
+            <bibl>NLR Mss, f. 871, n°1016, f. 26–26v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 26" />
+        <p />
+        <p>№ 42. le 18. 9bre v. st. 1783							        reçu 18. Xbre.</p>
+        <p>Votre avis sur le choix de la langue pour la traduct[io]n du livre de notre celebre <persName key="p0385">Prof. Camper</persName>, me communiqué dans votre lettre n°. 42. s’est rencontré en chemin avec mon sentim[en]t vous communiqué sur cet article dans ma preced[en]te lett[r]e n°. 41. Ainsi nous y sommes parfaitem[en]t d’accord, et votre force dans la langue française me fait esperer que votre traduction ne manquera point de ressembler à un original françois. Je ne doute non plus qu’un livre de cette nature, sorti de la plume d’un si celebre savant comme <persName key="p0385">Mr Camper</persName>, Membre de notre <orgName key="o0043">Acad[émi]e Imp[éria]le des sciences</orgName> sera bien venu ici, dans le tems pres[en]t oû <persName key="p0033">S[a] M[ajesté] I[mpéria]le</persName> en vraie mere de la patrie, portant tous les soins imaginables pour l’education de la jeunesse de la nation, vient d’établir des Commissions pour dresser des ecoles normales dans toutes les provinces de son vaste empire. La Commission generale et principale, qui depend uniquem[en]t et immediatem[en]t de <persName key="p0033">S[a] M[ajesté] I[mpéria]le</persName> consiste actuell[emen]t de Mr le Senat[eu]r et Conseil[le]r privé <persName key="p0588">Savodowsky</persName>, et des Conseil[le]rs d’Etat actuels <persName key="p0374">Mr Epinus</persName> et <persName key="p0589">Mr Pastoukoff</persName>. Elle fait imprimer actuell[emen]t plusieurs livres methodiques pour les écoles. <persName key="p0590">Mr Schlözer</persName> vient de publier dans le 3.r Band seiner Staats Anzeigen pag. 257. Seq. le plan general de cet Institut presenté à <persName key="p0033">S[a] M[ajesté] I[mpéria]le</persName> par <persName key="p0374">Mr Epinus</persName>. Ce dernier ne fut rien moins que bien aise de voir imprimé, malgré lui, ce qu’il ne vouloit pas encore faire imprimer ou publier. Aussi a-t-il addressé une lett[r]e sur cette publication à <persName key="p0590">Mr Schloezer</persName> mais pas en reçu une réponse. En general nous sommes quelquesfois surpris d’où <persName key="p0590">Mr Schloezer</persName> tire ses avis souv[en]t assez hardis de la Russie, et qu’il les fait imprimer encore plus hardim[en]t et assez indiscretem[en]t.</p>
+        <p>Notre brillante <orgName key="o0008">Cour Imp[éria]le</orgName> brille actuell[emen]t plus qu’aucune autre Cour de l’Europe, avec des Ministres Italiens. <persName key="p0591">Un ambassadeur du Pape</persName>, <persName key="p0592">un Duc de Naples</persName>, <persName key="p0593">un Marquis de Turin</persName>, <persName key="p0594">un Noble de Venise</persName>, <persName key="p0595">un Patrizio de Genes</persName>.</p>
+        <p>Ce dernier est arrivé ici il n’y a que 3. jours, et s’est logé dans la maison de feu <persName key="p0540">Mr Oubri</persName>. <persName key="p0593">Le marq[ui]s de Perela</persName> a eu sa premiere audience à <orgName key="o0008">la Cour </orgName>Dimanche passé ; et le même soir la bella <persName key="p0596">Sig[nor]a Foscari</persName> fut presentée pour la 1.re fois à <persName key="p0033">S[a] M[ajesté] I[mpéria]le</persName> au Bal dans la Galerie.</p>
+        <p>Ces seigneurs ne pourront pas se plaindre qu’ils manquent ici des agréables sociétés. Car outre les diners qu’ils se donnent reciproq[uemen]t il y a pour les soirées plusieures assemblées reglées.</p>
+        <p>Dimanche après la Cour, il y a assemblée, et souper, quelq[ue]sfois aussi Bal, chez S[on] E[xcellence] <persName key="p0113">Mr le Vice Chancelier</persName>. À la dernière <persName key="p0438,p0439">Leurs Alt[esses] Imp[éria]les</persName> daignerent d’assister, qui à l’ordinaire se retirent quand on va souper.</p>
+        <p>Lundi Bal et Souper chez <persName key="p0597">Mr le C[om]te Cobenzl</persName>.</p>
+        <p>Mercredi midi conference et grand diner chez <persName key="p0113">Mr le Vice Ch[ancelie]r</persName> où le mercredi passé il y avoit 62. personnes.</p>
+        <p>Vendredi au Soir Ball chez <persName key="p0386">Mr l’ambassad[eu]r d’Hollande</persName> et souper.</p>
+        <p>Tous les soirs jeu et souper chez <persName key="p0598">Mgr le Marechal C[om]te Razoumoffsky</persName> : excepté les soirs du mercredi où il y a concert à <orgName key="o0008">la Cour</orgName>, et jeudi societé choisie dans l’Hermitage.</p>
+        <p>Des spectacles alternatifs Italiens, Russes, François &amp; Allem[an]ds tous les soirs par toute la semaine.</p>
+        <p>
+          <persName key="p0560">Mgr le Prince Potemkin</persName> est attendu de retour dans un des premiers jours. Dimanche passé fut marié dans la Chapelle à la Cour <persName key="p0601">Mr le Chambell[a]n Divof</persName> avec <persName key="p0602">M[a]d[emoisel]le la Comtesse Boutourlin</persName>. Le lendemain <persName key="p0603">Mr le Père</persName> de la nouvelle mariée donna un grand diner.</p>
+        <p>C’est <persName key="p0604">Mr Brun</persName>, ci devant agent de Danim[ar]c ici, à qui <persName key="p0269">Mr. Alop[eus]</persName> a donné la Tâble de la comparaison des Thermomet[res] pour vous la remettre à son passage par <placeName key="g0011">Hambourg</placeName>.</p>
+        <p>
+          <persName key="p0475">Mad[am]e la Princesse Daschkoff</persName>, qui en Direct[eu]r de <orgName key="o0043">l’Acad[émi]e</orgName> s’acquitte à merveille &amp; au contentem[en]t de toute <orgName key="o0043">l’Acad[émi]e</orgName> vient de recevoir de <persName key="p0033">S[a] M[ajesté] I[mpéria]le</persName> une gratification de R[ou]bl[e]s 25 000. pour se bâtir une maison de campagne : et moi je viens de recevoir par un de nos courier qui passa <placeName key="g0170">Francf[or]t sur le Mayn</placeName>, une caisse toute farcie de Nurnbergs-Pferden Kuchen de notre aimable ami <persName key="p0025">Mr de Buhler</persName>.</p>
+        <p />
+        <p />
+        <p>Also see: ru_nlrmss_871_987_0001</p>
+        <p>ru_nlrmss_871_987_0002</p>
+        <p>ru_nlrmss_871_987_0003</p>
+        <p>ru_nlrmss_871_987_0004</p>
+        <p>ru_nlrmss_871_988_0001</p>
+        <p>ru_nlrmss_871_988_0002</p>
+        <p>ru_nlrmss_871_988_0003</p>
+        <p>ru_nlrmss_871_988_0004</p>
+        <p>ru_nlrmss_871_989_0001</p>
+        <p>ru_nlrmss_871_989_0002</p>
+        <p>ru_nlrmss_871_989_0003</p>
+        <p>ru_nlrmss_871_989_0004</p>
+        <p>ru_nlrmss_871_990_0001</p>
+        <p>ru_nlrmss_871_1011_0001</p>
+        <p>ru_nlrmss_871_1012_0001</p>
+        <p>ru_nlrmss_871_1012_0002</p>
+        <p>ru_nlrmss_871_1012_0003</p>
+        <p>ru_nlrmss_871_1012_0004</p>
+        <p>ru_nlrmss_871_1014_0001</p>
+        <p>ru_nlrmss_871_1015_0001</p>
+        <p>ru_nlrmss_871_1015_0002</p>
+      </div>
+    </body>
+  </text>
+</TEI>

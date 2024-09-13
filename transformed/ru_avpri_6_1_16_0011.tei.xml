@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of a letter from [the Minister of the Holy Roman Empire to St. Petersburg,] Baron [Joseph] von Neuhaus, to Chamberlain and Vice Stable Master of Holy Roman Emperor [and Bavarian Elector,] Baron Joseph von Mayrhofen. 10 November/29 December [sic] 1743</title>
+        <title type="main" xml:lang="ru">Копия с писма Барона Нейгауза к Барону Мейергофену, камергеру и вице-обершталмейстеру римско-императорского величества. St Petersbourg 10 novembre/29 decembre 1743</title>
+        <author xml:lang="en">Joseph</author>
+        <author xml:lang="en">Maria</author>
+        <author xml:lang="en">Nikolaus</author>
+        <author xml:lang="en">Ignaz</author>
+        <author xml:lang="en">Karl</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Neuhaus</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>29 November / 10 December 1743. – Copy of a letter from <hi rendition="#b">[</hi>
+            <persName key="p0759">the Minister of the Holy Roman Empire to St. Petersburg,] Baron [Joseph] von Neuhaus,</persName> to  <persName key="p0751">Chamberlain and Vice Stable Master of Holy Roman Emperor [and Bavarian Elector,] Baron Joseph von Mayrhofen. 10 November/29 December [sic] 1743</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 6, opis 1, no. 16, f. 186—189. French original; 
+translation into Russian: ibid, f. 190—194.</bibl>
+          </note>
+        </head>
+        <p />
+        <p></p><pb n="f. 186"/><p></p>
+        <p>Копия с писма <persName key="p0759">Барона Нейгауза</persName> к <persName key="p0751">Барону Мейергофену камергеру и вице обершталмейстеру римско-императорского величества</persName>. <placeName key="g0002">St Petersbourg</placeName> 10 novembre/29 decembre [sic] 1743</p>
+        <p>Si les nouvelles deviennet steriles l’endroit où V.E. est, Elle peut croire comme elles sont insipides chez nous, où elles arrivent très vielles, et plus connoissables par tant de mauvaises qualités, qu’elles prennent  en passant tant des endroits, pourtant nous n’en manquons point, car nous abondons des faiseurs des nouvelles, outre que le depart des Ministres </p>
+        <pb n="f. 186v" />
+        <p> et arrivé des autres, conjointement avec l’affaire du <persName key="p0758">Marq. Botta</persName>, en fournissent tous les jours. Pour aux premiers vous aurons tant des Ambassadeurs, que les Ministres plenipotentiaires seront regardés comme des valets, car il en viendra un d’<persName key="p0776">Angleterre</persName>, de <persName key="p0774">Danemark</persName>, et de <persName key="p0775">Suede</persName>, celui de <persName key="p0761">France</persName> est arrivé vendredi passé, pour anniversaire de l’avenement sur le Throne de <persName key="p0052">la Souveraine Regnante</persName>; pour abreger le chemin de <placeName key="g0017">Stockholm</placeName> ici, il a passé la mer, qui est tré dangereuse à present. </p>
+        <pb n="f. 187" />
+        <p> On ne sait point quand <persName key="">il</persName> aura son Audience cela dependra s’il donne le Titre Imperiale, ce que je n’ai pas pu encore savoir, en attendant il est parfaitement bien reçu, et il va loger dans une maison confisquée la plus manifique qui est ici, le maitre de cette maison s’appelle<persName key="p0768"> Lebold</persName>, qui etoit un des plus manifiques seigneurs et Grand Marechal, presentement en Siberie. L’affaire du <persName key="p0758">Marquis Botta</persName> fait beaucoup parler depuis le rescript circulaire que <persName key="p0100">la Grand Duchesse</persName> a envoyé à tous ses Ministres. </p>
+        <pb n="f. 187v" />
+        <p>
+          <persName key="p0052">La Souveraine d’ici</persName> en est bien piquée, et si Elle ne se vange, que par ne plus donner des subsides, la vangeance ne sera pas fort grande, car depuis son Regne <orgName key="o0023">la Cour de Vienne</orgName> n’en a jamais tiré, et n’avoit pas apparance qu’elle en tirera, comme je l’ai marqué par plusieurs fois à V.E. ainsi je crois qu’Elle trouvera un autre moyen à se vanger, si on peut ajouter foi à la juste colere d’un Princesse, laquelle de son naturel n’est pas vindicative; je suis faché de tout mon cœur que <persName key="p0753">Notre Auguste Maître</persName> est si souvant attaqué de la goutte cette année, les chagrins les quels naturellement ne peuvent pas manquer </p>
+        <pb n="f. 188" />
+        <p>à lui dans les Conjonctures pressantes, seroient assés à donner à combattre à un cœur aussi grand que le sien. </p>
+        <p>J’ai vu toutes les promotions que S :M :I : a fait à l’occasion du jour de son Nom. Faites moi le plaisir de me dire que est ce <persName key="p0000">Monjoye qui a un Regiment de Cavallerie chez nous</persName>, si c’est celui qui est chevalier de l’ordre Teutonique, et notre Ministre en Suisse. <persName key="p0772">Le Grand Chambellan du Grand Duc d’ici qui est un très aimable homme Mons. de Bürkholz</persName> me tourmente de lui faire avoir l’etat des trouppes de <persName key="p0753">l’Empereur</persName>, et de <persName key="p0773">l’Electeur de Palatin</persName>, non comme elles sont effectives, mais les noms des regiments </p>
+        <pb n="f. 188v" />
+        <p> et en combien elles devroient consister, je ne saurois me mieux adresser qu’à V.E. se Elle veut avoir la bonté de m’envoyer une liste, Elle m’obligeroit beaucoup; c’est un homme curieux qui a tous les Etats de toute l’Europe. Nous perdons donc deux Dames de la Cour, une belle, &amp; une qui n’est pas tout a fait si belle, qui est notre chere Niece, j’espere qu’elles seront heureuses toutes les deux, et que leurs places seront occupées par deux pareilles, comme la premiere, car <orgName key="o0068">notre Cour</orgName> me paroit d’avoir grand besoin de pareills recrus. Si les effets correspondent avec les bonnes, et manifiques promesses </p>
+        <pb n="f. 189" />
+        <p> de <persName key="p0770">Mr Chavigni</persName>, et la <persName key="p0761">Chetardie</persName>, nous avons grande esperance, si la paix ne se fait point cet hyver, d’avoir une Campagne heureuse le printems prochain, si <persName key="p0061">le Roi de Prusse</persName> en est, alors j’ai bonne esperance, car il ne s’y pretera point sans etre bien assuré, je n’ose point ouvrir mes pensées davantage sur cette matiere.</p>
+        <p>See the translation of the document :</p>
+        <p>ru_avpri_6_1_16_0012</p>
+        <p>Also see : </p>
+        <p>ru_avpri_6_1_16_0001</p>
+        <p>ru_avpri_6_1_16_0002</p>
+        <p>ru_avpri_6_1_16_0003</p>
+        <p>ru_avpri_6_1_16_0004</p>
+        <p>ru_avpri_6_1_16_0005</p>
+        <p>ru_avpri_6_1_16_0006</p>
+        <p>ru_avpri_6_1_16_0007</p>
+        <p>ru_avpri_6_1_16_0008</p>
+        <p>ru_avpri_6_1_16_0009</p>
+        <p>ru_avpri_6_1_16_0010</p>
+      </div>
+    </body>
+  </text>
+</TEI>

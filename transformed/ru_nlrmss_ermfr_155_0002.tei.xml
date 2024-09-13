@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Prince Ivan Andreevich Shcherbatov to Unknown</title>
+        <author xml:lang="en">Ivan</author>
+        <author xml:lang="en">Andreevich</author>
+        <author xml:lang="en">Shcherbatov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>c. 1717. – Letter from <persName key="p0220">Prince Ivan Andreevich Shcherbatov </persName> to <persName key="p0000">Unknown</persName>
+          </title>
+          <note>
+            <bibl />
+          </note>
+        </head>
+        <p>NLR Mss, fond Erm. fr., no. 155, f. 112, 111v—111. French original.</p>
+        <p />
+        <p></p><pb n="f. 112"/><p></p>
+        <p>3.</p>
+        <p>A Monsieur</p>
+        <p>J'ose me flatter que vous ne recevrez point de mauvais oeil le billet que je prens ici la liberté de vous écrire; mais qu'au contraire vous voudrez bien daigner le lire avec la même </p><pb n="f. 111v"/><p> disposition de bonté dont il vous plaît toujours user envers moy. Ce qui en fait le sujet est une grace que j'ai à vous demander. Je suis demain matin engagé à aller quelque part pour une affaire pecuniaire, et s'il arrivoit que contre mon attente je fusse trop-long-temps détenu, je vous conjure de ne pas trouver mauvais, que je ne me rende pas chez vous à l'heure marquée. La necessité m'oblige à ne pas renvoyer à un autre jour l'affaire dont il s'agit, le monsieur à qui je dois parler étant obligé de partir des-après demain pour la campagne. Peut étre que je serai expédié sur le champs, et en ce cas je n'aurai garde de manquer à mon dévoir et je me donnerai l'honneur d'aller tout d'abord chez vous, car dans le fond je ne suis point ennemi de la regularité, ni ne perds point de vûe les égards qui vous sont dûs. Mais de quelque manière que la chose tourne, vous plait-il bien m'accorder la justice de croire que les absences ou les omissions de mes fonctions font sur moy un éffet où les personnes qui m'employent trouvent leur avantage? Je veux dire que la pensée <hi rendition="#s">qui m'en reste ou plutôt </hi>
+          <hi rendition="#sup">1</hi>ou plutôt le remords <hi rendition="#sup">2</hi>qui m'en reste me ranime, rend mes actions plus vives, et me fait rechercher la chaleur les moyens de reparer <hi rendition="#sup">3</hi>amplement le temps perdu, c'est </p><pb n="f. 111"/><p> de quoy je tacherai de vous donner des preuves toutes les fois que le cas semblera le demander, n'ayant rien plus à coeur, que de me conserver l'honneur de vôtre bienveillance, et de vous convaincre que je suis véritablement, et avec le respect que je vous dois</p>
+        <p>Monsieur,</p>
+        <p>vôtre etc.</p>
+        <p>ru_nlrmss_ermfr_155_0001</p>
+        <p>ru_nlrmss_ermfr_155_0003</p>
+        <p>ru_nlrmss_ermfr_155_0004</p>
+        <p>ru_nlrmss_ermfr_155_0005</p>
+        <p>ru_nlrmss_ermfr_155_0006</p>
+        <p>ru_nlrmss_ermfr_155_0007</p>
+        <p>ru_nlrmss_ermfr_155_0008</p>
+        <p>ru_nlrmss_ermfr_155_0009</p>
+        <p>ru_nlrmss_ermfr_155_0010</p>
+        <p>ru_nlrmss_ermfr_155_0011</p>
+        <p>ru_nlrmss_ermfr_155_0012</p>
+        <p>ru_nlrmss_ermfr_155_0013</p>
+        <p>ru_nlrmss_ermfr_155_0014</p>
+        <p>ru_nlrmss_ermfr_155_0015</p>
+        <p>ru_nlrmss_ermfr_155_0016</p>
+        <p>ru_nlrmss_ermfr_155_0017</p>
+        <p>ru_nlrmss_ermfr_155_0018</p>
+        <p>ru_nlrmss_ermfr_155_0019</p>
+        <p>ru_nlrmss_ermfr_155_0020</p>
+        <p>ru_nlrmss_ermfr_155_0021</p>
+        <p>ru_nlrmss_ermfr_155_0022</p>
+        <p>ru_nlrmss_ermfr_155_0023</p>
+        <p>ru_nlrmss_ermfr_155_0024</p>
+        <p>ru_nlrmss_ermfr_155_0025</p>
+        <p>ru_nlrmss_ermfr_155_0026</p>
+        <p>ru_nlrmss_ermfr_155_0027</p>
+        <p>ru_nlrmss_ermfr_155_0028</p>
+        <p>ru_nlrmss_ermfr_155_0029</p>
+        <p>ru_nlrmss_ermfr_155_0030</p>
+        <p>ru_nlrmss_ermfr_155_0031</p>
+        <p>ru_nlrmss_ermfr_155_0032</p>
+        <p>ru_nlrmss_ermfr_155_0033</p>
+        <p>ru_nlrmss_ermfr_155_0034</p>
+        <p>ru_nlrmss_ermfr_155_0035</p>
+        <p>ru_nlrmss_ermfr_155_0036</p>
+      </div>
+    </body>
+  </text>
+</TEI>

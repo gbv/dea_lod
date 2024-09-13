@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the field hetman of the Crown, Count Seweryn Rzewuski, to the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</title>
+        <author xml:lang="en">Seweryn</author>
+        <author xml:lang="en">Rzewuski</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>14 / 25 April 1793. – Letter from <persName key="p1175,p1145">the Field Hetman of the Crown, Count Seweryn Rzewuski, to the Ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</persName>
+          </title>
+          <note>
+            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 10, f. 1623–1626. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 1623" />
+        <p />
+        <p>Monsieur l’Ambassadeur,</p>
+        <p>Je réponds à la lettre que Votre Excellence m’a fait l’honneur de m’écrire. Votre Excellence me fait l’honneur de me dire, que <persName key="p1157">M[onsieu]r le General en chef Kreczetnikow</persName> se plaint des ordres que j’ai donnés aux trouppes de se defendre, ainsi que de ceux, que j’ai donnés au <persName key="p1176">comendant de Kaminiek</persName> de défendre la forteresse, et de ne pas capituler que par les ordres de <orgName key="o0018">la confederation</orgName>. J’avouerai franchement à Votre Excellence, que je ne pouvais jamais m’imaginer, qu’il y eut un seul homme au monde, de tel nation qu’il fut, qui put s’efforcer de ce qu’on devait se defendre, quand on était attaqué, et qu’on put <hi rendition="#s">etre</hi> admetre cette idée que lorsqu’on veut desarmer les trouppes de la Republique de Pologne, on lui prendra ses forteresses, il etait de droit, qu’on ne dut pas se defendre en pareil cas. 	Je ne pouvais non plus m’imaginer, que <persName key="p1157">M[onsieu]r le General en chef Kreczetnikow</persName> eut pu prétendre, qu’un ministre de la guere, qui a reçu des ordres pour la defense du pays ne fut cependant pas en devoir de les remplir. Ceci est un peu tout. Je me dispense d’entrer dans un plus grand detail à ce sujet ; et </p>
+        <pb n="f. 1624" />
+        <p>Votre Excellence scait tout bien, parceque j’ai eu l’honneur de le lui dire, que j’avais donnée des ordres aux trouppes et à la forteresse de se defendre. Elle me dit, que je ne pouvais ne pas faire mon devoir, pour vu [sic !] qu’il n’y eut pas des ordres pour attaquer. Or la Republique confederée ne m’ayant jamais donné des ordres semblables, je me suis tenu bien en garde, d’y supleer par les miens. 	Mes ordres ont eté reiteres, me dites vous Monsieur l’Ambassadeur, oui sans doute ils l’ont eté ; et pourquoi ne le seroient-ils pas ? Votre Excellence croit-elle, que je suis capable de ne remplir mon devoir, qu’en aparence, et au fond capable de trahir ma patrie ? Croit-elle que j’irai sous main favoriser la reddition de <placeName key="g0291">Kaminiek</placeName> en affectant tous les detours de vouloir le defendre ? Je ne crois pas avoir merité cette opinion de sa part. Votre grande <persName key="p0033">Souveraine</persName> me connoit mieux ; aussi a-t-elle daigné rendre justice, à ma manière de penser, dans la lettre qu’Elle ecrivit à Votre Excellence, malgré qu’Elle scut par la miene, combien le demembrement de la Pologne me rendait malheureu et combien je m’efforscais à en disuader <persName key="p0033">Sa Majesté</persName>. Les ordres ont été </p>
+        <pb n="f. 1625" />
+        <p> reiteres, touttes les fois que les Généraux me demandaient, ce qu’ils avaient à faire en cas d’attaque ou du desarmement ; preuve certaine, que mes ordres anterieures ne leur parvenaient pas. <persName key="p1176">M[onsieur] Złotnicki</persName>, que <orgName key="o0018">la Confederation</orgName> noma comendant de <placeName key="g0291">Kaminiek</placeName>, partit sans attendre ceux, que je devais lui donner, pour la defense de cette fortresse ; aussi les lui ai-je envoyé tout aussi tot par un courier ; et sans le detour que ce <persName key="p1176">General comendant de Kaminiek</persName> fit à <placeName key="g0329">Łabuń</placeName>, pour voir <persName key="p1157">le General en chef Kreczetnikow</persName>, il les aurait eu en chemin. 	Quant à la protestation que j’ai faite, je repette, ce que j’eus l’honneur reppetter tant de fois, dans mes reponses faites aux lettres de Votre Excellence « Voules vous qu’on nous prenne la moitié du pays, et que nous ne disions rien ? Voulez vous, qu’en ne protestant pas, nous ayons l’air, de nous etre entendus avec vous sur le partage de la Pologne, et ayant le malheur de perdre notre honneur ; et tout innocents que nous sommes, nous revetir du titre de traitres à la patrie, par pure complaisence pour vous ? » Que puis-je y ajouter de plus ? Je crois que dans la situation malheureuse ou nous sommes, protester </p>
+        <pb n="f. 1626" />
+        <p> c’est tout ce que nous pouvons faire ; et vouloir nous forcer au silence, c’est vouloir agraver notre sort, sans aucun but, mais uniquement pour le plaisir de l’agraver. 	Je viens maintenant au dernier article de la lettre de Votre Excellence. Il porte « que Votre Excellence exige de moi que je parte incessament de <placeName key="g0264">Grodno</placeName> ; qu’elle me ferait savoir que <persName key="p1158">Monsieur le General en chef Igelstrom</persName> est averti, de ne pas me laisser entrer à <placeName key="g0009">Varsovie</placeName> ; et qu’il n’y a que le chemin de la Galicie, qui me soit ouvert ». Permettez Monsieur l’Ambassadeur que je ne touche pas cet article ; que je n’entre dans aucun detail la dessus, qui pouvant mettre encore plus d’aigreur dans les affaires, et il y a en a deja assés ; que je n’y reponde pas : mais que je vous prie de vous metre à ma place, et répondre pour moi. 	J’ai l’honneur d’etre avec les sentimens de la haute consideration</p>
+        <p>Monsieur l’Ambassadeur</p>
+        <p>de Votre Excellence</p>
+        <p>Le 14/25. Avril 1793</p>
+        <p>
+          <placeName key="g0264">Grodno</placeName>
+        </p>
+        <p>le tres humble et tres obbeissant serviteur</p>
+        <p>
+          <persName key="p1175">Sewe[ryn] Rzewuski Het[man]</persName>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
