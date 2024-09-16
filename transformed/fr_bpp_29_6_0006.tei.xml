@@ -2,250 +2,223 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main" xml:lang="en">
-					Draft of the letter from the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg, to Count Jan Mikołaj Chodkiewicz
-				</title>
-				<author xml:lang="en">
-					Otto
-				</author>
-				<author xml:lang="en">
-					Magnus
-				</author>
-				<author xml:lang="en">
-					von
-				</author>
-				<author xml:lang="en">
-					Stackelberg
-				</author>
-				<author xml:lang="en" />
-			</titleStmt>
-			<editionStmt>
-				<edition>
-					Languages of Diplomacy Digital Edition
-				</edition>
-				<editor>
-					<persName ref="#rjeoutski">
-						<surname>
-							Rjeoutski
-						</surname>
-						<forename>
-							Vladislav
-						</forename>
-					</persName>
-				</editor>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-					<persName ref="#borisov">
-						<surname>
-							Borisov
-						</surname>
-						<forename>
-							Viktor
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-					<persName ref="#kandakou">
-						<surname>
-							Kandakou
-						</surname>
-						<forename>
-							Dzianis
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-					<persName ref="#lavrinovich">
-						<surname>
-							Lavrinovich
-						</surname>
-						<forename>
-							Maya
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-					<persName ref="#sergeev">
-						<surname>
-							Sergeev
-						</surname>
-						<forename>
-							Mikhail
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-					<persName ref="#herzog">
-						<surname>
-							Herzog
-						</surname>
-						<forename>
-							André
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-					<persName ref="#wallner">
-						<surname>
-							Wallner
-						</surname>
-						<forename>
-							Karin
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-					<persName ref="#pipka">
-						<surname>
-							Rißler-Pipka
-						</surname>
-						<forename>
-							Nanette
-						</forename>
-					</persName>
-				</respStmt>
-			</editionStmt>
-			<publicationStmt>
-				<publisher>
-					<orgName role="hostingInstitution" xml:lang="de">
-						qed.perspektivia.net
-					</orgName>
-				</publisher>
-				<authority>
-					MWS-Netzwerk Osteuropa
-				</authority>
-				<pubPlace>
-					Bonn
-				</pubPlace>
-				<date when="2024-07-10">
-					10. Juli 2024
-				</date>
-				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
-					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-						<p>
-							CC BY-SA 4.0
-						</p>
-					</licence>
-				</availability>
-				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-						<p>
-							CC BY-SA 4.0
-						</p>
-					</licence>
-				</availability>
-				<idno>
-					<idno type="project_id">
-						lod
-					</idno>
-				</idno>
-			</publicationStmt>
-			<seriesStmt>
-				<title type="main" level="s">
-					Languages of eighteenth-century diplomacy
-				</title>
-				<title type="sub" level="s">
-					Russia in a European context
-				</title>
-			</seriesStmt>
-			<sourceDesc>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc>
-		</profileDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div type="letter">
-				<head>
-					<title>
-						7 December 1779. – Draft of the letter from
-						<persName>
-							the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelbergp0861,
-						</persName>
-						<persName key="p1074" ref="2a1ba3c5-ebb8-4b8c-adbd-04afac687d96">
-							Count Jan Mikołaj Chodkiewicz
-						</persName>
-					</title>
-					<bibl>
-						Bibliothèque polonaise de Paris, fonds 29, no. 6, f. 1285-1286. French original.
-					</bibl>
-				</head>
-				<p />
-				<opener>
-					<address type="recipient">
-						<addrLine>
-							à
-						</addrLine>
-						<addrLine>
-							<persName key="p1074" ref="2a1ba3c5-ebb8-4b8c-adbd-04afac687d96">
-								S[on] E[xcellence] M[onsieu]r le Comte Chodkiewicz
-							</persName>
-						</addrLine>
-					</address>
-					<dateline>
-						ce
-						<date when="1779-12-07">
-							7. Dec[embre] 1779
-						</date>
-						.
-					</dateline>
-					<salute>
-						Monsieur le Comte,
-					</salute>
-				</opener>
-				<p>
-					V[otre] E[xcellence] connoissant les sentimens que je lui ai consacré depuis longtems, Elle
-					<durchgestrichen>
-						ne doutera que
-					</durchgestrichen>
-					des preuves de cette amitié que je Vous ai voué, et que je Vous prie de ne pas
-					<durchgestrichen>
-						m’épargner là-dessus
-					</durchgestrichen>
-				</p>
-				<p>
-					J’ai l’honneur de remettre ci-joint à V[otre] E[xcellence] une lettre à
-					<persName key="p0560" ref="cfbc947c-5df5-4020-9b0f-5a54a597d86d">
-						S[on] A[ltesse] Ill[ustrissime] le P[rin]ce Potemkin
-					</persName>
-					, mais comme Elle fait que je n’entre pour rien dans une affaire qui ne regarde que le militaire, je ne sais pas si elle aura
-					<durchgestrichen>
-						tout l’
-					</durchgestrichen>
-					<strong>
-						[[f. 1286]]
-					</strong>
-				</p>
-				<closer>
-					<salute>
-						J’ai l’honneur d’être avec les sentimens les plus distingués.
-					</salute>
-				</closer>
-			</div>
-		</body>
-	</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">
+          Draft of the letter from the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg, to Count Jan Mikołaj Chodkiewicz
+        </title>
+        <author xml:lang="en">
+          Otto
+        </author>
+        <author xml:lang="en">
+          Magnus
+        </author>
+        <author xml:lang="en">
+          von
+        </author>
+        <author xml:lang="en">
+          Stackelberg
+        </author>
+        </titleStmt>
+      <editionStmt>
+        <edition>
+          Languages of Diplomacy Digital Edition
+        </edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>
+              Rjeoutski
+            </surname>
+            <forename>
+              Vladislav
+            </forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">
+            editor
+          </resp>
+          <persName ref="#borisov">
+            <surname>
+              Borisov
+            </surname>
+            <forename>
+              Viktor
+            </forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">
+            editor
+          </resp>
+          <persName ref="#kandakou">
+            <surname>
+              Kandakou
+            </surname>
+            <forename>
+              Dzianis
+            </forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">
+            editor
+          </resp>
+          <persName ref="#lavrinovich">
+            <surname>
+              Lavrinovich
+            </surname>
+            <forename>
+              Maya
+            </forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">
+            editor
+          </resp>
+          <persName ref="#sergeev">
+            <surname>
+              Sergeev
+            </surname>
+            <forename>
+              Mikhail
+            </forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">
+            technical infrastructure
+          </resp>
+          <persName ref="#herzog">
+            <surname>
+              Herzog
+            </surname>
+            <forename>
+              André
+            </forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">
+            technical infrastructure
+          </resp>
+          <persName ref="#wallner">
+            <surname>
+              Wallner
+            </surname>
+            <forename>
+              Karin
+            </forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">
+            technical infrastructure
+          </resp>
+          <persName ref="#pipka">
+            <surname>
+              Rißler-Pipka
+            </surname>
+            <forename>
+              Nanette
+            </forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">
+            qed.perspektivia.net
+          </orgName>
+        </publisher>
+        <authority>
+          MWS-Netzwerk Osteuropa
+        </authority>
+        <pubPlace>
+          Bonn
+        </pubPlace>
+        <date when="2024-07-10">
+          10. Juli 2024
+        </date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>
+              CC BY-SA 4.0
+            </p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>
+              CC BY-SA 4.0
+            </p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">
+            lod
+          </idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">
+          Languages of eighteenth-century diplomacy
+        </title>
+        <title type="sub" level="s">
+          Russia in a European context
+        </title>
+      </seriesStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>7 December 1779. – Draft of the letter from <persName key="p0861">the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg </persName>, to<persName key="p1074" ref="2a1ba3c5-ebb8-4b8c-adbd-04afac687d96"> Count Jan Mikołaj Chodkiewicz</persName>
+          </title>
+          <note>
+            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 6, f. 1285-1286. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 1285" />
+        <p />
+        <opener>
+          <address type="recipient">
+            <addrLine>
+              à
+            </addrLine>
+            <addrLine>
+              <persName key="p1074" ref="2a1ba3c5-ebb8-4b8c-adbd-04afac687d96">
+                S[on] E[xcellence] M[onsieu]r le Comte Chodkiewicz
+              </persName>
+            </addrLine>
+          </address>
+          <dateline>
+            ce
+            <date when="1779-12-07">
+              7. Dec[embre] 1779
+            </date>
+            .
+          </dateline>
+          <salute>
+            Monsieur le Comte,
+          </salute>
+        </opener>
+        <p>V[otre] E[xcellence] connoissant les sentimens que je lui ai consacré depuis longtems, Elle <hi rendition="#s">ne doutera que</hi> sera persuadée du plaisir que j’ai toujours eû de lui rendre service, et Vous ne douteriés pas moins M[onsieu]r le Comte, de l’empressement avec lequel je saisirai toutes les occasions pour Vous donner encore des preuves de cette amitié que je Vous ai voué, et que je Vous prie de ne pas <hi rendition="#s">m’épargner là-dessus</hi> à l’avenir.</p>
+        <p>J’ai l’honneur de remettre ci-joint à V[otre] E[xcellence] une lettre à <persName key="p0560" ref="cfbc947c-5df5-4020-9b0f-5a54a597d86d">S[on] A[ltesse] Ill[ustrissime] le P[rin]ce Potemkin</persName>, mais comme Elle fait que je n’entre pour rien dans une affaire qui ne regarde que le militaire, je ne sais pas si elle aura <hi rendition="#s">tout l’</hi> le même effet, que mes soins ont eû dans Vos autres affaires, M[onsieu]r le Comte, et que mon </p>
+        <pb n="f. 1286" />
+        <p> amitié pour vous désire.</p>
+	<closer>
+        <salute>J’ai l’honneur d’être avec les sentimens les plus distingués.</salute>
+	</closer>
+      </div>
+    </body>
+  </text>
 </TEI>

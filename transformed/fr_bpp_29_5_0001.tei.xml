@@ -2,243 +2,168 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main" xml:lang="en">
-					Draft of the letter from the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg to the general governor of White Russia Petr Bogdanovich Passek
-				</title>
-				<author xml:lang="en">
-					Otto
-				</author>
-				<author xml:lang="en">
-					Magnus
-				</author>
-				<author xml:lang="en">
-					von
-				</author>
-				<author xml:lang="en">
-					Stackelberg
-				</author>
-				<author xml:lang="en" />
-			</titleStmt>
-			<editionStmt>
-				<edition>
-					Languages of Diplomacy Digital Edition
-				</edition>
-				<editor>
-					<persName ref="#rjeoutski">
-						<surname>
-							Rjeoutski
-						</surname>
-						<forename>
-							Vladislav
-						</forename>
-					</persName>
-				</editor>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-					<persName ref="#borisov">
-						<surname>
-							Borisov
-						</surname>
-						<forename>
-							Viktor
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-					<persName ref="#kandakou">
-						<surname>
-							Kandakou
-						</surname>
-						<forename>
-							Dzianis
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-					<persName ref="#lavrinovich">
-						<surname>
-							Lavrinovich
-						</surname>
-						<forename>
-							Maya
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-					<persName ref="#sergeev">
-						<surname>
-							Sergeev
-						</surname>
-						<forename>
-							Mikhail
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-					<persName ref="#herzog">
-						<surname>
-							Herzog
-						</surname>
-						<forename>
-							André
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-					<persName ref="#wallner">
-						<surname>
-							Wallner
-						</surname>
-						<forename>
-							Karin
-						</forename>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-					<persName ref="#pipka">
-						<surname>
-							Rißler-Pipka
-						</surname>
-						<forename>
-							Nanette
-						</forename>
-					</persName>
-				</respStmt>
-			</editionStmt>
-			<publicationStmt>
-				<publisher>
-					<orgName role="hostingInstitution" xml:lang="de">
-						qed.perspektivia.net
-					</orgName>
-				</publisher>
-				<authority>
-					MWS-Netzwerk Osteuropa
-				</authority>
-				<pubPlace>
-					Bonn
-				</pubPlace>
-				<date when="2024-07-10">
-					10. Juli 2024
-				</date>
-				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
-					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-						<p>
-							CC BY-SA 4.0
-						</p>
-					</licence>
-				</availability>
-				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-						<p>
-							CC BY-SA 4.0
-						</p>
-					</licence>
-				</availability>
-				<idno>
-					<idno type="project_id">
-						lod
-					</idno>
-				</idno>
-			</publicationStmt>
-			<seriesStmt>
-				<title type="main" level="s">
-					Languages of eighteenth-century diplomacy
-				</title>
-				<title type="sub" level="s">
-					Russia in a European context
-				</title>
-			</seriesStmt>
-			<sourceDesc>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc>
-		</profileDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div type="letter">
-				<head>
-					<title>
-						14 / 25 June 1783. – Draft of the letter from
-						<persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
-							the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg
-						</persName>
-						, to
-						<persName key="p1028" ref="10db47f0-0a6b-4bd9-a9ea-f1246485910c">
-							the Governor General of White Russia, Petr Bogdanovich Passek
-						</persName>
-					</title>
-					<note>
-						<bibl>
-							Bibliothèque polonaise de Paris, fonds 29, no. 5, f. 1191. French original.
-						</bibl>
-					</note>
-				</head>
-				<p><pb n="f. 1191" /></p>
-				<p />
-				<opener>
-					<address type="recipient">
-						<addrLine>
-							à S[on] E[xcellence]
-							<persName key="p1028" ref="10db47f0-0a6b-4bd9-a9ea-f1246485910c">
-								M[onsieu]r de Passek
-							</persName>
-						</addrLine>
-					</address>
-					<dateline>
-						ce
-						<date when="1783-06-25">
-							14/25. juin 1783
-						</date>
-						.
-					</dateline>
-					<salute>
-						Monsieur
-					</salute>
-				</opener>
-				<p>
-					Ayant deja rendu compte à
-					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						S[a] M[ajesté] I[mpériale]
-					</persName>
-					des demarches, que j’ai faites auprès du Gouvernement d’ici, en consequence du rescript du 19 mai, pour obvier <hi rendition="#s">à l’inconvenient si dangereux de</hi> à l’emigration de la Russie Blanche, ainsi que des mesures qu’on a prises ici pour le même objet, je crois de mon devoir d’en faire part aussi à Votre Excellence. Pour cet effet, j’ai l’honneur de Lui remettre ci-joint la copie de ma note, ainsi que celle de la reponse, <hi rendition="#s">que je viens de recevoir</hi> et de l’universal expédié par
-					<orgName key="o0093" ref="7369318a-0591-4b6d-b8c3-472e3d9fb09b">
-						le Conseil
-					</orgName>
-					très flatté de pouvoir convenir avec Vous, Monsieur, à arrêter <hi rendition="#s">cet abus</hi> ces entreprises tendantes à depeupler les Gouvernemens<hi rendition="#s">, qui</hi> confiés à vos soins.
-				</p>
-				<closer>
-					<salute>
-						J’ai l’honneur d’etre avec les sentimens les plus distingués
-					</salute>
-					<salute>
-						M[onsieur] de V[otre] E[xcellence]
-					</salute>
-				</closer>
-			</div>
-		</body>
-	</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg to the general governor of White Russia Petr Bogdanovich Passek</title>
+        <author xml:lang="en">Otto</author>
+        <author xml:lang="en">Magnus</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Stackelberg</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>
+            14 / 25 June 1783. – Draft of the letter from
+            <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+              the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg
+            </persName>
+            , to
+            <persName key="p1028" ref="10db47f0-0a6b-4bd9-a9ea-f1246485910c">
+              the Governor General of White Russia, Petr Bogdanovich Passek
+            </persName>
+          </title>
+          <note>
+            <bibl>
+              Bibliothèque polonaise de Paris, fonds 29, no. 5, f. 1191. French original.
+            </bibl>
+          </note>
+        </head>
+        <p>
+          <pb n="f. 1191"/>
+        </p>
+        <p/>
+        <opener>
+          <address type="recipient">
+            <addrLine>
+              à S[on] E[xcellence]
+              <persName key="p1028" ref="10db47f0-0a6b-4bd9-a9ea-f1246485910c">
+                M[onsieu]r de Passek
+              </persName>
+            </addrLine>
+          </address>
+          <dateline>
+            ce
+            <date when="1783-06-25">
+              14/25. juin 1783
+            </date>
+            .
+          </dateline>
+          <salute>
+            Monsieur
+          </salute>
+        </opener>
+        <p>
+          Ayant deja rendu compte à
+          <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+            S[a] M[ajesté] I[mpériale]
+          </persName>
+          des demarches, que j’ai faites auprès du Gouvernement d’ici, en consequence du rescript du 19 mai, pour obvier <hi rendition="#s">à l’inconvenient si dangereux de</hi> à l’emigration de la Russie Blanche, ainsi que des mesures qu’on a prises ici pour le même objet, je crois de mon devoir d’en faire part aussi à Votre Excellence. Pour cet effet, j’ai l’honneur de Lui remettre ci-joint la copie de ma note, ainsi que celle de la reponse, <hi rendition="#s">que je viens de recevoir</hi> et de l’universal expédié par
+          <orgName key="o0093" ref="7369318a-0591-4b6d-b8c3-472e3d9fb09b">
+            le Conseil
+          </orgName>
+          très flatté de pouvoir convenir avec Vous, Monsieur, à arrêter <hi rendition="#s">cet abus</hi> ces entreprises tendantes à depeupler les Gouvernemens<hi rendition="#s">, qui</hi> confiés à vos soins.
+        </p>
+        <closer>
+          <salute>
+            J’ai l’honneur d’etre avec les sentimens les plus distingués
+          </salute>
+          <salute>
+            M[onsieur] de V[otre] E[xcellence]
+          </salute>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>
