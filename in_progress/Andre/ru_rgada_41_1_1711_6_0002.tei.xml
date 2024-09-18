@@ -1,72 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">  
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Sample Document Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc sameAs="http://www.cwrc.ca">
-                <p>Created from original research by members of CWRC/CSÉC unless
-                    otherwise noted.
-                </p>
-            </sourceDesc>
-        </fileDesc>
-        <xenoData>
-            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#"
-                     xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-                     xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                     xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-                     xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-                     xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                     xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                     xmlns:org="http://www.w3.org/ns/org#"/>
-        </xenoData>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-                <head>
-                    <title>2 July 1711. – Of the ceremonial of the farewell audience of <persName ref="p1369">the
-                        Russian envoy to Venice G. Urbich</persName>, extract of his report dated 2 July 1711
-                    </title>
-                </head>
-                <note>RGADA, fond 41, opis 1, 1711, no. 6, f. 2-2v. German original; Russian translation: ibid., f.
-                    1-1v.
-                </note>
-                <pb cert="high" n="f. 2" xml:space="default"/>
-                <p>О Церемониале, бывшем в
-                    <placeName key="Venice" ref="http://www.wikidata.org/entity/Q641" cert="high">Венеции
-                        <precision match="@ref" precision="high"/>
-                    </placeName>
-                    на отпускной аудиенции <persName ref="p1369">Рос[сийского]: посланника Г. Урбиха</persName> выписано
-                    из Реляции ево от 2 июля 1711го года.
-                </p>
-                <p>Mein recreditif aber in originali, welches der <persName ref="p1370">Doge</persName> den 9ten dieses
-                    [Monats] mir, nachdemich tags vorher wieder in das Collegium beruffen worden, selbst in die Hände
-                    gegeben, legehierbey, und zugleich die Kopey davon. Derselbe hat eine kurtze Rede gethan, und
-                    hieraufdurch dem Secretarium Iberti die im Pregadi gefasste letzte schriftliche resolution
-                    ablesenlassen, welche nach der Audienz gedachter Secretarius in meinem Beyseyn, wie vormahls inder
-                    Capelle nahe an dem Collegio, dem meinigen wieder in die fedens dictirt und collationirtund habe
-                    damit meine völlige Abfertigung erhalten. Ich bin wohl so weit content, dass man zu <persName
-                            ref="p0174">Ewre I:r Czaar: May:
-                    </persName> mir alle distinction, den förmilichen Ambassadeurs gleich, gemacht, undmit meiner
-                    Conduite zufrieden geworden, wie ich dem eben mit dem regal einner guldenen Katotie von 1200 bis
-                    1300 ducati di Venetia werth, welches etwa 1000 rth betragen möchten, als der vor etlichen Tagen von
-                    hier zurückgerufene <persName ref="p1373">Spanische Extraord: Ambassadeur Principe St. Buono
-                    </persName> begnädigt worden. Des folgenden Tags bin ich mit dem <persName ref="p1372">Cavaliere
-                        Morosini
-                    </persName> in der letzten Conferenz gerufen, da er mir
-                </p>
-                <note>C подлинным читал</note>
-                <pb cert="high" n="f. 2v" xml:space="default"/>
-                <p>dann laut das weitere resultat in dem letzten Pregadi vorgelesen und communicirt.</p>
-                <note>Переводчик <persName ref="p1371">Петр Миллер</persName>.
-                </note>
-            </div>
-        </body>
-    </text>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          2 July 1711. – Of the ceremonial of the farewell audience of the
+          Russian envoy to Venice G. Urbich, extract of his report dated 2 July 1711</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+
+      <sourceDesc sameAs="http://www.cwrc.ca">
+        <p>Created from original research by members of CWRC/CSÉC unless
+          otherwise noted.
+        </p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <title>2 July 1711. – Of the ceremonial of the farewell audience of <persName ref="p1369">the
+            Russian envoy to Venice G. Urbich</persName>, extract of his report dated 2 July 1711 </title>
+        </head>
+        <note>RGADA, fond 41, opis 1, 1711, no. 6, f. 2-2v. German original; Russian translation:
+          ibid., f.
+          1-1v.
+        </note>
+        <pb cert="high" n="f. 2" xml:space="default" />
+        <p>О Церемониале, бывшем в <placeName key="Venice" ref="http://www.wikidata.org/entity/Q641"
+            cert="high">Венеции <precision match="@ref" precision="high" />
+          </placeName> на
+          отпускной аудиенции <persName ref="p1369">Рос[сийского]: посланника Г. Урбиха</persName>
+          выписано из Реляции ево от 2 июля 1711го года. </p>
+        <p>Mein recreditif aber in originali, welches der <persName ref="p1370">Doge</persName> den
+          9ten dieses [Monats] mir, nachdemich tags vorher wieder in das Collegium beruffen worden,
+          selbst in die Hände gegeben, legehierbey, und zugleich die Kopey davon. Derselbe hat eine
+          kurtze Rede gethan, und hieraufdurch dem Secretarium Iberti die im Pregadi gefasste letzte
+          schriftliche resolution ablesenlassen, welche nach der Audienz gedachter Secretarius in
+          meinem Beyseyn, wie vormahls inder Capelle nahe an dem Collegio, dem meinigen wieder in
+          die fedens dictirt und collationirtund habe damit meine völlige Abfertigung erhalten. Ich
+          bin wohl so weit content, dass man zu <persName
+            ref="p0174">Ewre I:r Czaar: May:
+          </persName> mir alle distinction, den förmilichen
+          Ambassadeurs gleich, gemacht, undmit meiner Conduite zufrieden geworden, wie ich dem eben
+          mit dem regal einner guldenen Katotie von 1200 bis 1300 ducati di Venetia werth, welches
+          etwa 1000 rth betragen möchten, als der vor etlichen Tagen von hier zurückgerufene <persName
+            ref="p1373">Spanische Extraord: Ambassadeur Principe St. Buono
+          </persName> begnädigt worden.
+          Des folgenden Tags bin ich mit dem <persName ref="p1372">Cavaliere
+            Morosini
+          </persName> in der letzten Conferenz gerufen, da er
+          mir </p>
+        <note>C подлинным читал</note>
+        <pb cert="high" n="f. 2v" xml:space="default" />
+        <p>dann laut das weitere resultat in dem letzten Pregadi vorgelesen und communicirt.</p>
+        <note>Переводчик <persName ref="p1371">Петр Миллер</persName>. </note>
+      </div>
+    </body>
+  </text>
 </TEI>

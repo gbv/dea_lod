@@ -1,18 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <teiHeader>
-        <fileDesc/>
-        <xenoData>
-            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#"
-                     xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-                     xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                     xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-                     xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-                     xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                     xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                     xmlns:org="http://www.w3.org/ns/org#">
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ru_rgada_53_3_39_0002</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc sameAs="http://www.cwrc.ca">
+        <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -92,7 +185,7 @@
 }]]>
                 </rdf:Description>
 
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -171,7 +264,7 @@
 }]]>
                 </rdf:Description>
 
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -250,7 +343,7 @@
 }]]>
                 </rdf:Description>
 
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -329,7 +422,12 @@
 	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
                 </rdf:Description>
-            </rdf:RDF>
-        </xenoData>
-    </teiHeader>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <p></p>
+    </body>
+  </text>
 </TEI>

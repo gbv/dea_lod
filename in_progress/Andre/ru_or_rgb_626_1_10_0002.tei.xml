@@ -1,19 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Sample Document Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc sameAs="http://www.cwrc.ca">
-                <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
-            </sourceDesc>
-        </fileDesc>
-        
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          Letter from the Russian Ambassador to London, Prince Antiochus Dmitrievich
+          Cantemir, to the employee of the Russian Embassy in The Hague, Petr Petrovich
+          Kurbatov
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+
+      <sourceDesc sameAs="http://www.cwrc.ca">
+        <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+      </sourceDesc>
+    </fileDesc>
+
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -94,7 +194,7 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      
+
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -174,7 +274,7 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      
+
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -253,7 +353,7 @@
 	}
 }]]>
         </rdf:Description>
-      
+
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -331,7 +431,7 @@
 	}
 }]]>
         </rdf:Description>
-      
+
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -409,62 +509,85 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <head>Letter from the Russian Ambassador to London, Prince Antiochus Dmitrievich Cantemir, to the
-                    <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="p2518" xml:space="default">employee of the Russian Embassy in The Hague, Petr Petrovich Kurbatov</persName>
-                </head>
-                <note>OR RGB, fond 626, karton 1, no. 10, ff. 3-3<note type="researchNote"/>v
-                    <note/>
-                </note>
-                <opener>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title> Letter from the Russian Ambassador to London, Prince Antiochus Dmitrievich
+            Cantemir, to the <persName cert="high" evidence="internal"
+              full="yes" instant="unknown" ref="p2518"
+              xml:space="default">employee of the Russian Embassy in The Hague, Petr
+              Petrovich Kurbatov</persName>
+          </title>
+        </head>
+        <note>OR RGB, fond 626, karton 1, no. 10, ff. 3-3<note type="researchNote" />v <note />
+        </note>
+        <opener>
+          <salute>
+            <pb cert="high" n="[[f. 3]]" xml:space="default" />
+            <persName cert="high" type="real" ref="p1384">Гсдрь мой</persName>
+          </salute>
+        </opener>
+        <p>Приятное вше гсдря моего писмо от 2г[о] марта я исправно здесь получил за которое
+          вас
+          покорно
+          благоарствуя в ответ доношу что кнга о которой вас чрез последнее мое писмо
+          просил на сих
+          днях из
+          парижа к одному книжнику сюды привезена, И потому я вашей лишить вас не желаю.
+        </p>
+        <p>А в место той прошу вас гсдря моего подписать за меня в издании XIго и XIIго тома ж
+          аглицкой истории :/ которые чрез субскрипцию печатаются в <placeName
+            key="The Hague South Holland The Netherlands"
+            ref="https://geonames.org/2747373"
+            cert="high">
+            Гаге
+          </placeName> у Христофора фон Лон с товарыщи :/ на один
+          эксемпляр всякого тож малой бумаги, понеже на такой имею<pb
+            cert="high" n="[[f. 3v]]" xml:space="default" />прежние 10 томов гсдна <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p1543"
+            xml:space="default">рапина</persName>. </p>
+        <p>Скол же табаку касается доволно будет 20 фунтов которой сколь скорее изволите ко
+          мне
+          прислать столь
+          болше меня обяжите, и извольте пакет адресовать прямо на мое имя понеже инако в
+          таможне
+          его здесь
+          заарестуют не будучи позволено чужестраного табаку ввозить.
+        </p>
+        <p>При сем прошу вас гсдря моего должный мой поклон отдать гсдну секретарю Берендесу
+          и
+          благодорить за
+          его ко мне последнее писмо, на которое давно уже бы ответствовал естлибы глазная
+          болезнь
+          позволила
+          мне за перо принятся, а по ншему договору надобно писму быть латинскому, на
+          котором языке
+          я не
+          столко силен, чтоб мог диктовать. За сим пребываю.
+        </p>
+        <p>Вшь <persName cert="high" evidence="internal" full="yes" instant="unknown"
+            ref="p1384"
+            xml:space="default">гсдря моего
+          </persName>
+        </p>
 
-
-                    <salute>
-                        <pb cert="high" n="[[f. 3]]" xml:space="default"/>
-                        <persName cert="high" type="real" ref="p1384">Гсдрь мой</persName>
-                    </salute>
-                </opener>
-                <p>Приятное вше гсдря моего писмо от 2г[о] марта я исправно здесь получил за которое вас покорно
-                    благоарствуя в ответ доношу что кнга о которой вас чрез последнее мое писмо просил на сих днях из
-                    парижа к одному книжнику сюды привезена, И потому я вашей лишить вас не желаю.
-                </p>
-                <p>А в место той прошу вас гсдря моего подписать за меня в издании XIго и XIIго тома ж аглицкой истории
-                    :/ которые чрез субскрипцию печатаются в <placeName key="The Hague South Holland The Netherlands" ref="https://geonames.org/2747373" cert="high">
-                        Гаге
-                    </placeName> у Христофора фон Лон с товарыщи :/ на один эксемпляр всякого тож малой бумаги, понеже
-                    на такой имею<pb cert="high" n="[[f. 3v]]" xml:space="default"/>прежние 10 томов гсдна <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1543" xml:space="default">рапина</persName>.
-                </p>
-                <p>Скол же табаку касается доволно будет 20 фунтов которой сколь скорее изволите ко мне прислать столь
-                    болше меня обяжите, и извольте пакет адресовать прямо на мое имя понеже инако в таможне его здесь
-                    заарестуют не будучи позволено чужестраного табаку ввозить.
-                </p>
-                <p>При сем прошу вас гсдря моего должный мой поклон отдать гсдну секретарю Берендесу и благодорить за
-                    его ко мне последнее писмо, на которое давно уже бы ответствовал естлибы глазная болезнь позволила
-                    мне за перо принятся, а по ншему договору надобно писму быть латинскому, на котором языке я не
-                    столко силен, чтоб мог диктовать. За сим пребываю.
-                </p>
-                <p>Вшь
-                    <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384" xml:space="default">гсдря моего
-                    </persName>
-                </p>
-
-                <p>Из
-                    <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Лондона
-                    </placeName>
-                </p>
-                <p>9 марта 1733г[о]</p>
-
-                 
-                <closer>
-
-                    <signed>Готовейший и послушной слуга</signed>
-                    <signed>К[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="p0030" xml:space="default">Антиох Кантемир</persName>.
-                    </signed>
-                </closer>
-            </div>
-        </body>
-    </text>
+        <p>Из <placeName key="London England United Kingdom"
+            ref="https://geonames.org/2643743">
+            Лондона
+          </placeName>
+        </p>
+        <p>9 марта 1733г[о]</p>
+        <closer>
+          <signed>Готовейший и послушной слуга</signed>
+          <signed>К[нязь] <persName cert="high" evidence="internal" full="yes"
+              instant="unknown"
+              ref="p0030" xml:space="default">Антиох Кантемир</persName>. </signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>

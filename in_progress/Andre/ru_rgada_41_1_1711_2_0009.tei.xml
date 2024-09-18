@@ -2,32 +2,116 @@
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>
-                    20 November 1711. – Letter from the Russian consul in Venice Demetrio Bozzis to the
-                    chancellor Count Gavrila Ivanovich Golovkin
-                </title>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc>
-                <p>ru_rgada_41_1_1711_2_0009.docx</p>
-            </sourceDesc>
-        </fileDesc>
-        <xenoData>
-            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#"
-                     xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-                     xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                     xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-                     xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-                     xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                     xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                     xmlns:org="http://www.w3.org/ns/org#">
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          20 November 1711. – Letter from the Russian consul in Venice Demetrio Bozzis to
+          the chancellor Count Gavrila Ivanovich Golovkin
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+
+      <sourceDesc>
+        <p>ru_rgada_41_1_1711_2_0009.docx</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -106,7 +190,7 @@
 }]]>
                 </rdf:Description>
 
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -185,7 +269,7 @@
 }]]>
                 </rdf:Description>
 
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -263,75 +347,67 @@
 	}
 }]]>
                 </rdf:Description>
-            </rdf:RDF>
-        </xenoData>
-    </teiHeader>
-    <text>
-        <body>
-            <head>
-                <title>
-                    20 November 1711. – Letter from the <persName ref="p1366">Russian consul in Venice Demetrio Bozzis
-                </persName> to
-                    <persName ref="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
-                </title>
-            </head>
-            <opener>
-                <note>RGADA, fond 41, opis 1, 1711, no. 2, f. 53-54. Latin original.</note>
-                <pb cert="high" n="f. 53" xml:space="default"/>
-                <salute>Illme atq[ue] Excellent[issi]me D[omi]ne D[omi]ne</salute>
-            </opener>
-            <p>Redditæ mihi sunt per Fratre[m] <persName ref="p1367">Anastasiu[m]</persName> gratissimæ litteræ Vestræ,
-                ex quibus percepi
-                epistolam scilicet meam græco stylo exaratam nondum Latine redditam. Expecto tamen (quod
-                cito futurum promittis) responsione[m], et simul mandata, quæ mihi servanda erunt ut
-                obedientissimo famulo <persName ref="p0174">Imperatoris</persName> Nostri. Doleo de amissione cifræ,
-                quippe quia iuxta eam
-                non pauca scripserim notitiæ vestræ digna. En autem aliam, qua utar in posterum,
-                quotiescumque aliquod scribendum occurret, de quo scilicet certiorem te facere debeam,
-                virorum excellentissime inservies autem pro Græcis tantum dixeris, vel ob id potissimum quod
-                Græca tantum caleam, et non sint omnibus omnia palam facienda, nihilque fere per alienam
-                manum scribendum. Cæterum de beneficiis quibus fratrem meum ornasti non video ut possim
-                gratias agere. Facilius est orare, ut me atque meos amare ac protegere pergas, ut soles.
-                Unum adhuc velim, ut com[m]ittatur <persName ref="p0746">ministro Vien[n]æ</persName> degenti, ut
-                epistolas meas recipiat,
-                quandocunq[ue] opus fuerit, easque reddendas curat ad Vos quam citissime. Quod ipsu[m] fieri
-                opto etia[m] apud <persName ref="p0175">ministros Berlini</persName> et Amburgi. Hisce in locis non
-                parum timent arma
-                Turcarum, cum maxime
-            </p>
-            <pb cert="high" n="f. 53v" xml:space="default"/>
-            <p>sibi persuaserint
-                <persName ref="p0174">Imperatore[m]</persName>
-                Nostrum pacem servaturum cum Turcis, videantque Turcam armis etiamnum indutum.
-                Tenent adhuc arma Nigromontani, et quotidie loca depopulantur, nec Turcis obediunt. Hæc de
-                præsenti Excellentiæ Tuæ scribenda cognovi dens <persName ref="p0174">Imperatorem</persName> Nostrum
-                fœliciter. Vale, ac me
-                præciosissimo tuo patrocinio fove, ut meum qualecunq[ue] sit ministerium gloriosius evadat.
-                Iteru[m] vale.
-            </p>
-            <closer>
-                <dateline>
-                    <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Venetiis</placeName>
-                    <date when="1711-11-20">20 Novemb. 1711</date>.
-                </dateline>
-                <salute>Excellentiæ Tuæ</salute>
-                <salute>Humil[li]mus obedient[issi]mus ac devot[issi]mus servus</salute>
-                <signed>
-                    <persName ref="p1366">Demetrius Bozzius</persName>
-                </signed>
-            </closer>
-            <pb cert="high" n="f. 54" xml:space="default"/>
-            <note>О[т] Дими[т]рия Боцкия Полатин из <placeName key="Venice Veneto Italy"
-                                                               ref="https://geonames.org/3164603">Венеции
-            </placeName> о[т] 20 ноября 1711
-                году
-            </note>
-            <note>О[т] ко[н]сола Боцция к Г[оспо]д[и]ну Графу</note>
-            <note>принято в <placeName key="Tallinn Harjumaa Estonia" ref="https://geonames.org/588409">Ревеле
-            </placeName> 14. декабря 1711.
-            </note>
-            <note>See also :</note>
-            <note>ru_rgada_41_1_1711_2_0001</note>
-        </body>
-    </text>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> 20 November 1711. – Letter from the <persName ref="p1366">Russian consul in
+            Venice Demetrio Bozzis
+          </persName> to <persName
+            ref="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
+        </title>
+      </head>
+      <opener>
+        <note>RGADA, fond 41, opis 1, 1711, no. 2, f. 53-54. Latin original.</note>
+        <pb cert="high" n="f. 53" xml:space="default" />
+        <salute>Illme atq[ue] Excellent[issi]me D[omi]ne D[omi]ne</salute>
+      </opener>
+      <p>Redditæ mihi sunt per Fratre[m] <persName ref="p1367">Anastasiu[m]</persName> gratissimæ
+        litteræ Vestræ, ex quibus percepi epistolam scilicet meam græco stylo exaratam nondum Latine
+        redditam. Expecto tamen (quod cito futurum promittis) responsione[m], et simul mandata, quæ
+        mihi servanda erunt ut obedientissimo famulo <persName
+          ref="p0174">Imperatoris</persName> Nostri. Doleo de amissione cifræ, quippe quia iuxta eam
+        non pauca scripserim notitiæ vestræ digna. En autem aliam, qua utar in posterum,
+        quotiescumque aliquod scribendum occurret, de quo scilicet certiorem te facere debeam,
+        virorum excellentissime inservies autem pro Græcis tantum dixeris, vel ob id potissimum quod
+        Græca tantum caleam, et non sint omnibus omnia palam facienda, nihilque fere per alienam
+        manum scribendum. Cæterum de beneficiis quibus fratrem meum ornasti non video ut possim
+        gratias agere. Facilius est orare, ut me atque meos amare ac protegere pergas, ut soles.
+        Unum adhuc velim, ut com[m]ittatur <persName
+          ref="p0746">ministro Vien[n]æ</persName> degenti, ut epistolas meas recipiat,
+        quandocunq[ue] opus fuerit, easque reddendas curat ad Vos quam citissime. Quod ipsu[m] fieri
+        opto etia[m] apud <persName ref="p0175">ministros Berlini</persName> et Amburgi. Hisce in
+        locis non parum timent arma Turcarum, cum maxime </p>
+      <pb cert="high" n="f. 53v" xml:space="default" />
+      <p>sibi persuaserint <persName ref="p0174">Imperatore[m]</persName> Nostrum pacem servaturum
+        cum Turcis, videantque Turcam armis etiamnum indutum. Tenent adhuc arma Nigromontani, et
+        quotidie loca depopulantur, nec Turcis obediunt. Hæc de præsenti Excellentiæ Tuæ scribenda
+        cognovi dens <persName ref="p0174">Imperatorem</persName> Nostrum fœliciter. Vale, ac me
+        præciosissimo tuo patrocinio fove, ut meum qualecunq[ue] sit ministerium gloriosius evadat.
+        Iteru[m] vale. </p>
+      <closer>
+        <dateline>
+          <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Venetiis</placeName>
+                    <date
+            when="1711-11-20">20 Novemb. 1711</date>. </dateline>
+        <salute>Excellentiæ Tuæ</salute>
+        <salute>Humil[li]mus obedient[issi]mus ac devot[issi]mus servus</salute>
+        <signed>
+          <persName ref="p1366">Demetrius Bozzius</persName>
+        </signed>
+      </closer>
+      <pb cert="high" n="f. 54" xml:space="default" />
+      <note>О[т] Дими[т]рия Боцкия Полатин из <placeName key="Venice Veneto Italy"
+          ref="https://geonames.org/3164603">Венеции
+        </placeName> о[т] 20 ноября 1711 году </note>
+      <note>О[т] ко[н]сола Боцция к Г[оспо]д[и]ну Графу</note>
+      <note>принято в <placeName key="Tallinn Harjumaa Estonia"
+          ref="https://geonames.org/588409">Ревеле
+        </placeName> 14. декабря 1711. </note>
+      <note>See also :</note>
+      <note>ru_rgada_41_1_1711_2_0001</note>
+    </body>
+  </text>
 </TEI>

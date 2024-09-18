@@ -1,110 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Sample Document Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc sameAs="http://www.cwrc.ca">
-                <p>Created from original research by members of CWRC/CSÉC unless
-                    otherwise noted.
-                </p>
-            </sourceDesc>
-        </fileDesc>
-        <xenoData>
-            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#"
-                     xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-                     xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                     xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-                     xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-                     xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                     xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                     xmlns:org="http://www.w3.org/ns/org#"/>
-        </xenoData>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-                <head>8 August 1710. – Letter from <persName ref="p1506">General Friedrich Hartwig of Nostitz</persName> to
-                    <persName ref="p0729">the Russian Ambassador to Denmark, Prince Vasilii Lukich Dolgorukov</persName>
-                </head>
-                <opener>
-                    <note>RGADA, fond 53, opis 1, 1710, no. 11, f. 8-9v. French original.</note>
-                    <pb cert="high" n="f. 8" xml:space="default"/>
-                    <salute>Monseigneur</salute>
-                </opener>
-                <p>Ie voy bien par la derniere lettre de vôtre Altesse, que <persName ref="p1508">Monsieur de Meÿer
-                </persName> ma rendu qûe on recoit aussi rarement de mes nouvelles, quil a une infinité de tems de
-                    navoir pas recu aucune lettre de vostre Altesse, mes dernieres ont esté pourtant par Monsieur de
-                    Litk et encor par un certain Residant que nous avons a la ville de <placeName
-                            key="Hamburg Hamburg Germany" ref="https://geonames.org/2911298">Hambourg
-                    </placeName> ainsi la faute ne consiste pas dans mon silence et ie ne plains pas autant le sus
-                    dit <persName ref="p1508">mons:[ieur] Meÿer</persName>, du long chemin qu'on luÿ a fait faire pour
-                    s'en aller chercher son expedition a <placeName key="Saint Petersburg St.-Petersburg Russia"
-                                                                    ref="https://geonames.org/498817">S[ain]t:
-                        Petersbourg
-                    </placeName> [[f. 8v]] peut estre a
-                    <placeName key="Tallinn Harjumaa Estonia" ref="https://geonames.org/588409" cert="high">Revel
-                        <precision match="@ref" precision="high"/>
-                    </placeName>
-                    , au lieu qu'on avoit peut faire un plus grand plaisir aux interets des allies, si l'on avoit
-                    depech[é] de bonheure les ordres necessaire [sic] pour faciliter le transport de quelque troupes que <persName
-                            ref="p0174">Sa Majesté Zarienne
-                    </persName> eu promis a <persName ref="p0532">Sa Majesté de Dannemarc</persName> et de laquelle <persName
-                            ref="p1508">Mons:[ieur] Meÿer
-                    </persName> s'en vient convenir avec <persName ref="p1131">Monseigneur le Prince de Mentzikow
-                    </persName> dans un temps bien avancé aux saisons pour en perdre lheur du soldat, ie veus dire la
-                    coniuncture favorable qui est toujours le plus a plaindre il est vraÿ qu'on m'a deux fois nommé pour
-                    estre envoyé avec un certain cors [sic] au secours de la susdite <persName ref="p0532">Majesté
-                    </persName> mais il est aussi vraÿ que iusques icy on ma pas voulu répondre
-                    <pb cert="high" n="f. 9" xml:space="default"/>
-                    avec iustice remonstrances que ie leur aÿe fait pour mettre les troupes qui doivent marcher dans un
-                    tel estat que i'en pouvois pas rendre de bons services ainsi qu'on ma fait faire depuis ce tems la
-                    deux ou trois démarches, lequels [sic] ont esté pourtant contre mandé [sic], et si ie recoÿs tout
-                    m'en est besoin, ie viendraÿ avec plaisir et ie prendrai deux chevaus de Pologne pour vostre Altesse
-                    avec moÿ mais pour celle de Turck on nen trouveraÿ pas icy ie seraÿ toute ma vie
-                </p>
-                <p>
-                                                                                                                                                              
-                    de vôstre Altesse
-                </p>
-                <p>
-                    <placeName key="Elbląg Warmia-Masuria Poland" ref="https://geonames.org/3099759" cert="high">Elbing
-                        <precision match="@ref" precision="high"/>
-                    </placeName>
-                    le
-                    8tieme                                                                                                                
-                    le tres humble
-                </p>
-                <p>du Aust                                                                                              
-                                                        et tres obeissante [sic]
-                </p>
-                <p>                                                                                                     
-                                                               serviteur
-                </p>
-                <p>                                                                                                     
-                                                              
-                    <persName ref="p1506">B[aron] de Nostitz</persName>
-                </p>
-                <p>ie naÿ pas differé de faciliter autant que iai peu a <persName ref="p1508">Mons:[ieur] de Meÿer
-                </persName> de poursuivre son voÿage, le derniers [sic] lettres de
-                    <pb cert="high" n="f. 9v" xml:space="default"/>
-                    conseil par le 18tieme me mandant que <persName ref="p1131">Mons:[ieur] le Prince de Mentzikow
-                    </persName> estoit envoÿé pour [?] quoÿ que ses propres lettres de 22 nen mandent rien de cela, iay
-                    pourtant fait une adresse pour <persName ref="p1508">Mons:[ieur] de Meÿer</persName> au <persName
-                            ref="p0494">vice-chancelier Baron de Schaphirow
-                    </persName> en luÿ temoignant du moÿen pour seconder au plus vite l'embarquement de nos troupes,
-                    voila une copie de la lettre que ie vien ecrire [sic] sur ce sujet a <persName ref="p1131">Son
-                        Altesse Mons:[ieur] le Prince de Mentzikow</persName>.
-                </p>
-                <p>Ce vin d'Hongrie se vend fort cher icy et coute ordinairement [?] de bon vin cent soixante iusqu'à
-                    200 ecus mon Prince aura donc la bonté de m'ordonner si ien dois acheter de si cher.
-                </p>
-            </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          8 August 1710. – Letter from General Friedrich Hartwig of Nostitz to the Russian
+          Ambassador to Denmark, Prince Vasilii Lukich Dolgorukov
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+
+      <sourceDesc sameAs="http://www.cwrc.ca">
+        <p>Created from original research by members of CWRC/CSÉC unless
+          otherwise noted.
+        </p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <title>8 August 1710. – Letter from <persName ref="p1506">General Friedrich Hartwig of
+            Nostitz</persName> to <persName ref="p0729">the Russian Ambassador to Denmark, Prince
+            Vasilii Lukich Dolgorukov</persName>
+          </title>
+        </head>
+        <opener>
+          <note>RGADA, fond 53, opis 1, 1710, no. 11, f. 8-9v. French original.</note>
+          <pb cert="high" n="f. 8" xml:space="default" />
+          <salute>Monseigneur</salute>
+        </opener>
+        <p>Ie voy bien par la derniere lettre de vôtre Altesse, que <persName ref="p1508">Monsieur
+            de Meÿer
+          </persName> ma rendu qûe on recoit aussi rarement de
+          mes nouvelles, quil a une infinité de tems de navoir pas recu aucune lettre de vostre
+          Altesse, mes dernieres ont esté pourtant par Monsieur de Litk et encor par un certain
+          Residant que nous avons a la ville de <placeName
+            key="Hamburg Hamburg Germany" ref="https://geonames.org/2911298">Hambourg
+          </placeName> ainsi la faute ne consiste pas dans mon silence et ie ne
+          plains pas autant le sus dit <persName ref="p1508">mons:[ieur] Meÿer</persName>, du long
+          chemin qu'on luÿ a fait faire pour s'en aller chercher son expedition a <placeName
+            key="Saint Petersburg St.-Petersburg Russia"
+            ref="https://geonames.org/498817">S[ain]t:
+            Petersbourg
+          </placeName> [[f. 8v]] peut estre a <placeName
+            key="Tallinn Harjumaa Estonia" ref="https://geonames.org/588409"
+            cert="high">Revel <precision match="@ref" precision="high" />
+          </placeName> , au
+          lieu qu'on avoit peut faire un plus grand plaisir aux interets des allies, si l'on avoit
+          depech[é] de bonheure les ordres necessaire [sic] pour faciliter le transport de quelque
+          troupes que <persName
+            ref="p0174">Sa Majesté Zarienne
+          </persName> eu promis a <persName ref="p0532">Sa
+            Majesté de Dannemarc</persName> et de laquelle <persName
+            ref="p1508">Mons:[ieur] Meÿer
+          </persName> s'en vient convenir avec <persName
+            ref="p1131">Monseigneur le Prince de Mentzikow
+          </persName> dans un temps bien avancé aux
+          saisons pour en perdre lheur du soldat, ie veus dire la coniuncture favorable qui est
+          toujours le plus a plaindre il est vraÿ qu'on m'a deux fois nommé pour estre envoyé avec
+          un certain cors [sic] au secours de la susdite <persName ref="p0532">Majesté
+          </persName> mais il est aussi vraÿ que iusques icy on ma pas voulu
+          répondre <pb cert="high" n="f. 9" xml:space="default" /> avec iustice remonstrances que ie
+          leur aÿe fait pour mettre les troupes qui doivent marcher dans un tel estat que i'en
+          pouvois pas rendre de bons services ainsi qu'on ma fait faire depuis ce tems la deux ou
+          trois démarches, lequels [sic] ont esté pourtant contre mandé [sic], et si ie recoÿs tout
+          m'en est besoin, ie viendraÿ avec plaisir et ie prendrai deux chevaus de Pologne pour
+          vostre Altesse avec moÿ mais pour celle de Turck on nen trouveraÿ pas icy ie seraÿ toute
+          ma vie </p>
+        <p>
+                                                                                                                                                    
+          de vôstre Altesse
+        </p>
+        <p>
+          <placeName key="Elbląg Warmia-Masuria Poland" ref="https://geonames.org/3099759"
+            cert="high">Elbing <precision match="@ref" precision="high" />
+          </placeName> le
+          8tieme                                                                                                                
+          le tres humble </p>
+        <p>du Aust                                                                                  
+                     
+                                              et tres obeissante [sic]
+        </p>
+        <p>                                                                                         
+                     
+                                                     serviteur
+        </p>
+        <p>                                                                                         
+                                                                 <persName ref="p1506">B[aron] de
+          Nostitz</persName>
+        </p>
+        <p>ie naÿ pas differé de faciliter autant que iai peu a <persName ref="p1508">Mons:[ieur] de
+          Meÿer
+          </persName> de poursuivre son voÿage, le derniers
+          [sic] lettres de <pb cert="high" n="f. 9v" xml:space="default" /> conseil par le 18tieme
+          me mandant que <persName ref="p1131">Mons:[ieur] le Prince de Mentzikow
+          </persName> estoit envoÿé pour [?] quoÿ que
+          ses propres lettres de 22 nen mandent rien de cela, iay pourtant fait une adresse pour <persName
+            ref="p1508">Mons:[ieur] de Meÿer</persName> au <persName
+            ref="p0494">vice-chancelier Baron de Schaphirow
+          </persName> en luÿ temoignant du moÿen pour
+          seconder au plus vite l'embarquement de nos troupes, voila une copie de la lettre que ie
+          vien ecrire [sic] sur ce sujet a <persName ref="p1131">Son
+            Altesse Mons:[ieur] le Prince de Mentzikow</persName>. </p>
+        <p>Ce vin d'Hongrie se vend fort cher icy et coute ordinairement [?] de bon vin cent
+          soixante iusqu'à
+          200 ecus mon Prince aura donc la bonté de m'ordonner si ien dois acheter de si cher.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

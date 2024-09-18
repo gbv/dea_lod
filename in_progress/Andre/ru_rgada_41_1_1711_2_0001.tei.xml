@@ -2,29 +2,116 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Sample Document Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc sameAs="http://www.cwrc.ca">
-                <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
-            </sourceDesc>
-        </fileDesc>
-        <xenoData>
-            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#"
-                     xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-                     xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                     xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-                     xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-                     xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                     xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                     xmlns:org="http://www.w3.org/ns/org#">
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          4 January 1711. – Letter from Venice dated 4 January 1711 from Demetrio
+          Bozzis to the State chancellor Count Gavrila Ivanovich [Golovkin]
+          with the recommendation to his brother Anastasio
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+
+      <sourceDesc sameAs="http://www.cwrc.ca">
+        <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -102,7 +189,7 @@
 }]]>
                 </rdf:Description>
 
-                <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
                     <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -179,68 +266,74 @@
 	}
 }]]>
                 </rdf:Description>
-            </rdf:RDF>
-        </xenoData>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <head>
-                    <title>4 January 1711. – Letter from <placeName key="Venice Veneto Italy"
-                                                                    ref="https://geonames.org/3164603">Venice
-                    </placeName> dated 4 January 1711 from <persName ref="p1366">Demetrio Bozzis</persName> to the <persName
-                            ref="p0071">State chancellor Count Gavrila Ivanovich [Golovkin]
-                    </persName> with the recommendation to his brother
-                        <persName ref="p1367">Anastasio</persName>
-                    </title>
-                </head>
-                <opener>
-                    <note cert="high" evaluate="all" place="top" xml:space="default">
-                        <p>RGADA, fond 41, opis 1, 1711, no. 2, f. 1-2. Italian original.
-                            <pb cert="high" n="f. 1" xml:space="default"/>
-                        </p>
-                        <p>Из Венеции 4 генваря 1711 г. от Димитрия Боциса к государственному
-                            канцлеру графу Гавриле Ивановичу рекомендация о брате его Анастасии
-                        </p>
-                    </note>
-                    <salute>Ill[usrissi]:mo et Ecc[ellentissi]:mo Sign[ore]:</salute>
-                </opener>
-                <p>Rottornato di <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Fiorenza
-                </placeName> il <persName ref="p1280">Sign[or] de Nariskin</persName> per riportarsi in coteste parti,
-                    ho conciderato proprio di spedire il hum[ilissi]mo Ser[vito]:re di V[ostra] E[ccellenza] mio
-                    Fratello <persName ref="p1367">Anastasio</persName>, in di cui compagnia, già ché havevo destinato
-                    d’inviarlo, dal quale l’E[ccellenza] V[ostra] riceverà una piena relatione di quando Io sono andato
-                    considerando essere proffittevole nelle congionture che corrono; Haverà L’E[ccellenza] V[ostra]
-                    l’espositione dell’intiero dal medemo, e con li prudentiss[i]me di Lei riflessioni pondererà quello
-                    crederà la di lui singolar prudenza essere proprio ad’ applicarsi, di che né attenderò le
-                    sapientiss[i]me rissolutioni. Io non manco di accudire in tutto quello possi essere di decoroso al
-                    mio sommo <persName ref="p0174">Monarcha</persName>, consacrando in questa mia permanenza, e vita, e
-                    sostanze per la di Lui gloria. Non ho voluto perciò mancare con questa occasione di
-                    <pb cert="high" n="f. 1v" xml:space="default"/>
-                </p>
-                <p>humiliare all’E[ccellenza] V[ostra] l’intiero del tutto conoscendo quanto sij generoso il di Lei
-                    animo, et amore vero la mia persona, nel quale ho affidate tutte le mie speranze, e che potrà quando
-                    voglia benefficare con la di Lei benigna prottetione il mio essere, che soggetto sempre alle cenni
-                    di V[ostra] E[ccellenza] vive bramoso d’impiegarsi in rendere obbedito ogni di Lei commando, Non
-                    servendo ad altro qui la mia ressidenza che di servire con tutta la fedeltà il mio <persName
-                            cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default"
-                            ref="p0174">Sovrano</persName>, e di obbedire con tutto l’ossequio li voleri di V[ostra]
-                    E[ccellenza]. Raccomando et tanto al di Lei Patrocinio <persName ref="p1367">d[ett]o mio
-                        fratello</persName>, sicuro che dalla prottetione di V[ostra] E[ccellenza] potrà ricevere ogni
-                    favore, e gratia. Mi resta dunque la consolatione di veder honorato il mio ossequio con
-                    speciosis[si]mi  commandi di V[ostra] E[ccellenza] Testimonij degni della di Lei Padro=
-                    <pb cert="high" n="f. 2" xml:space="default"/>
-                </p>
-                <p>nanza, è della mia riverentiss[i]ma divotione nell’ubbidire con consacrarmi sino alle Ceneri</p>
-                <closer>
-                    <salute>di V[ostra] E[ccellenza]Vene[zia].</salute>
-                    <salute>Li 4 Genaro 1711 M[ore] V[eneto]o</salute>
-                    <signed>Humiliss[i]:mo Devo[tissi]mo et oblig[atissi]mo Ser[vitor]e</signed>
-                    <signed>
-                        <persName ref="p1366">Demetrio Bozzis</persName>
-                    </signed>
-                </closer>
-            </div>
-        </body>
-    </text>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>4 January 1711. – Letter from <placeName key="Venice Veneto Italy"
+              ref="https://geonames.org/3164603">Venice
+            </placeName> dated 4 January 1711 from <persName ref="p1366">Demetrio
+            Bozzis</persName> to the <persName
+              ref="p0071">State chancellor Count Gavrila Ivanovich [Golovkin]
+            </persName> with the
+            recommendation to his brother <persName ref="p1367">Anastasio</persName>
+          </title>
+        </head>
+        <opener>
+          <note cert="high" evaluate="all" place="top" xml:space="default">
+            <p>RGADA, fond 41, opis 1, 1711, no. 2, f. 1-2. Italian original. <pb cert="high"
+                n="f. 1" xml:space="default" />
+            </p>
+            <p>Из Венеции 4 генваря 1711 г. от Димитрия Боциса к государственному
+              канцлеру графу Гавриле Ивановичу рекомендация о брате его Анастасии
+            </p>
+          </note>
+          <salute>Ill[usrissi]:mo et Ecc[ellentissi]:mo Sign[ore]:</salute>
+        </opener>
+        <p>Rottornato di <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">
+          Fiorenza
+          </placeName> il <persName ref="p1280">Sign[or] de
+          Nariskin</persName> per riportarsi in coteste parti, ho conciderato proprio di spedire il
+          hum[ilissi]mo Ser[vito]:re di V[ostra] E[ccellenza] mio Fratello <persName ref="p1367">
+          Anastasio</persName>, in di cui compagnia, già ché havevo destinato d’inviarlo, dal quale
+          l’E[ccellenza] V[ostra] riceverà una piena relatione di quando Io sono andato considerando
+          essere proffittevole nelle congionture che corrono; Haverà L’E[ccellenza] V[ostra]
+          l’espositione dell’intiero dal medemo, e con li prudentiss[i]me di Lei riflessioni
+          pondererà quello crederà la di lui singolar prudenza essere proprio ad’ applicarsi, di che
+          né attenderò le sapientiss[i]me rissolutioni. Io non manco di accudire in tutto quello
+          possi essere di decoroso al mio sommo <persName ref="p0174">Monarcha</persName>,
+          consacrando in questa mia permanenza, e vita, e sostanze per la di Lui gloria. Non ho
+          voluto perciò mancare con questa occasione di <pb cert="high" n="f. 1v"
+            xml:space="default" />
+        </p>
+        <p>humiliare all’E[ccellenza] V[ostra] l’intiero del tutto conoscendo quanto sij generoso il
+          di Lei animo, et amore vero la mia persona, nel quale ho affidate tutte le mie speranze, e
+          che potrà quando voglia benefficare con la di Lei benigna prottetione il mio essere, che
+          soggetto sempre alle cenni di V[ostra] E[ccellenza] vive bramoso d’impiegarsi in rendere
+          obbedito ogni di Lei commando, Non servendo ad altro qui la mia ressidenza che di servire
+          con tutta la fedeltà il mio <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default"
+            ref="p0174">Sovrano</persName>, e di obbedire con tutto l’ossequio li voleri di V[ostra]
+          E[ccellenza]. Raccomando et tanto al di Lei Patrocinio <persName ref="p1367">d[ett]o mio
+          fratello</persName>, sicuro che dalla prottetione di V[ostra] E[ccellenza] potrà ricevere
+          ogni favore, e gratia. Mi resta dunque la consolatione di veder honorato il mio ossequio
+          con speciosis[si]mi  commandi di V[ostra] E[ccellenza] Testimonij degni della di Lei
+          Padro= <pb cert="high" n="f. 2" xml:space="default" />
+        </p>
+        <p>nanza, è della mia riverentiss[i]ma divotione nell’ubbidire con consacrarmi sino alle
+          Ceneri</p>
+        <closer>
+          <salute>di V[ostra] E[ccellenza]Vene[zia].</salute>
+          <salute>Li 4 Genaro 1711 M[ore] V[eneto]o</salute>
+          <signed>Humiliss[i]:mo Devo[tissi]mo et oblig[atissi]mo Ser[vitor]e</signed>
+          <signed>
+            <persName ref="p1366">Demetrio Bozzis</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>
