@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the letter from the Emperor of Russia Peter II to
+          the King of Spain Philip V</title>
+        <author xml:lang="en">Emperor</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Peter II</author>
+        <author xml:lang="en">Gavriil</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="de">Головкин</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17 December 1728. – Copy of the letter from the Emperor of Russia Peter II{{p0222}}
+            to the King of Spain Philip V{{p0208}} </title>
+          <note>
+            <bibl>Archivo General de Simancas, Estado, no. 6613, f. 158-158v. Italian original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 158" />
+        <p />
+        <p>Copia </p>
+        <p>Per la Divina Clemenza Noi Pietro Secondo{{p0222}}, Imperatore et Authocratore di tutte
+          le Russie, di Moscovia, Kiovia, Vladimiria, Novogradia, Czar di Casan, Czar d’Astrahan,
+          Czar di Sibiria, Signore di Plescovia, e Grand Duca di Smolensco, Duca du Estlandia,
+          Livonia, Corelia, Tveria, Jugoria, Permia, Viatca, Bolgaria, e d’altri Signore, e Grand
+          Duca di Novogorod della Terra inferiore, di Czernigovia, Resania, Rostovia, Jaroslavia,
+          Bieloseria, Veloria, Obeloria, Condinia, e di tutta la parte settentrionale Dominatore, e
+          Sognore della Terra d’Iveria, dei Czari Cartalini, e Gruzinii, e della Terra Cabardiense,
+          dei Prencipi Czercasi, e Montani, e d’altri, hereditario Signore e Dominatore Al
+          Serenissimo e Potentissimo Gran Signore, fratello Nostro Philippo{{p0208}}, per la Divina
+          Clemenza, Rè di Castiglia, Leone, Aragone, e d’Ambe le Sicilie, di Gierosolima, Navara,
+          Granata, Toledo, Valentia, Galicia, Maiorica e Minorica, Seviglia, Sardegna, Cordva,
+          Corsica, Murcia, Jaena, Algarbia, Algesia, Gibraltarra, dell’Isole di Canaria, dell’Indie
+          Orientali et Occidentali, Isole e della terra ferma del Mar Oceano, Arciduca d’Austria,
+          Duca di Borgogna, del Brabante, e Milano, Conte d’Abspurgo, di Fiandra, e Barcellona,
+          Signore di Biscaia e Molino etc. il Nostro amichevol saluto ; di buon cuore si serviamo
+          dell’occasion presente, ch’il signore de Wal{{p0932}} parte di qui per ritornarsene in
+          Spagna, per rinnuovare alla Maestà Vostra{{p0208}} l’assicuranza della Nostra Sincera
+          amicitia, e dell’immutabil’ intenzione ch’habbiamo di conservare una perfetta e confidente
+          unione </p>
+        <pb n="f. 158v" />
+        <p> con Ella ; e poliche il sudetto Singnore de Wal{{p0932}}, per tutto quel tempo che si
+          trovó appo l’Ambasciata di Vostra Maestà{{p0208}}, esistente in questa Nostra
+          Corte{{o0008}}, secondo le buone qualità che possede s’è sempre cosi comportato, che Noi
+          habbiamo mobivo d’esser contenti della sua persona, e dei suoi comportamenti, per ció
+          d’unque, al presente Noi colla di lui partenza non habbiamo potuto tralasciare senza
+          dargli questa vera testimonianza e con particolar benevolenza maggoirmente raccomandarlo
+          all’Alba Clemenza e protettione di Vostra Maestà{{p0208}} per maggiore Suo avanzamente
+          essendo certi che lui, como buono e fedele officale di Vostra Maestà{{p0208}}, procurarà
+          sempre di rendersi maggiormente degno delle Clemenza di Vostra Maestà{{p0208}}. Per fine
+          preghiamo l’onnipotente Dio, che vogli clementemente conservare la sublime persona di
+          Vostra Real Maestà{{p0208}} sin’al piu supremo grado della vita humana et in tutto
+          constantemente benedire il governo suo. Datur in <placeName key="g0001">Moscovia</placeName>
+          @ 17e D[icemb]re 1728, del Regno Nostre, il secondo Anno.</p>
+        <p>Di Vostra Maestà{{p0208}}</p>
+        <p>Buon fratello</p>
+        <p>Pietro{{p0222}}</p>
+        <p />
+        <p>Conte Gollofkin{{p0071}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

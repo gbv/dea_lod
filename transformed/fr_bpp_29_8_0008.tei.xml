@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the letter from [the minister plenipotentiary of Russia to the Targowica Confederation] Baron of Bühler, to the vice-chancellor [of Russia], Count [Ivan Andreevich] Osterman dated Dubno, 21 July 1792</title>
+        <title type="main" xml:lang="fr">Copie de la lettre du Baron Bühler au Vice Chancelier Comte d’Ostermann en date de Dubno le 21. Juillet 1792</title>
+        <author xml:lang="en">Karl</author>
+        <author xml:lang="en">Heinrich</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Bühler</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>21 July 1792. – Copy of the letter from <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">[the Minister Plenipotentiary of Russia to the Targowica Confederation,] Baron of Bühler </persName>{{p0025}}<persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">, </persName>to <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">the</persName> Vice-Chancellor [of Russia], Count [Ivan Andreevich] Osterman{{<persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">p0113}}</persName>, <persName key="g0322">dated Dubno, 21 July 1792</persName>
+          </title>
+          <note>
+            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 8, f. 1495-1496. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 1495" />
+        <p />
+        <p>Copie de la lettre du <persName key="p0025" ref="4d6ea4fd-7523-4611-9334-f702e7ce0edf">Baron Bühler</persName> au Vice Chancelier <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">Comte d’Ostermann</persName> en date de <placeName key="g0322">Dubno</placeName> le 21. Juillet 1792.</p>
+        <p>Avant hier matin je reçus de la part de M[onsieu]r le general en chef de <persName key="p1142">Kochowsky</persName> la nouvelle importante, que <persName key="p0862">S[a] M[ajesté] le Roi de Pologne</persName> s’est enfin decidé d’acceder avec l’armée à <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confedération générale</orgName> faite à <placeName key="g0323">Targowica</placeName> le 3/14 may dernier.</p>
+        <p>
+          <persName key="p0969">Le Marechal général</persName> étant arrivé ici le même soir avec toute la généralité, je n’ai rien eû de plus pressé que de me rendre chés lui. Je l’ai trouvé entouré d’une noblesse nombreuse, qui étoit venuë se joindre à <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation générale</orgName> sur sa route de <placeName key="g0324">Constantinow</placeName> à <placeName key="g0322">Dubno</placeName>, d’autres l’avoient attendû ici et je puis dire, M[onsieu]r le Comte, que <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation générale</orgName> n’avoit pris un certain air de grandeur et de consistance qu’au moment, où le puissant bras de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> avoit déja décidé du sort de toute la République.</p>
+        <p>Après avoir eû avec M[onsieu]r <persName key="p0969">le Marechal général</persName> un entretien particulier, dans lequel je lui ai communiqué cette heureuse nouvelle </p>
+        <pb n="f. 1496" />
+        <p> ainsi que les extraits des deux lettres de M[onsieu]r de <persName key="p0894">Boulgakow</persName> écrites à ce sujet à M[onsieu]r le general de chef de <persName key="p1142">Kochowsky</persName>, il sortit de son cabinet pour annoncer à toute l’assemblée l’accession du Roi{{p0862}} et de l’armée à <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation générale</orgName>. Dans un instant toute la salle étoit remplie de joie et d’allegresse, mais le premier mouvement de tous c’étoient mille bénédictions, que chacun donna à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Auguste Souveraine</persName>, sans les efforts genereux de Laquelle la Republique de Pologne ne se seroit jamais relevée de son abaissement.</p>
+        <p>Quelques heures après arriva ici M[onsieu]r <persName key="p1144">Ozarowsky</persName>, Castellan de Voyck, qui apporta au <persName key="p0969">Marechal général</persName> de la confederation une lettre du <persName key="p0862">Roi</persName>, laquelle M[onsieu]r le <persName key="p0969">Comte de Potocky</persName> ne decacheta que le lendemain en pleine séance de la généralité.</p>
+        <p>M[onsieu]r d’<persName key="p1144">Ozarowsky</persName> après avoir prêté son serment a été reçu conseiller et assistat à la séance.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

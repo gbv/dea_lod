@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Johann Nikolaus Kauss to the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
+        <author xml:lang="en">Johan</author>
+        <author xml:lang="en">Niclaus</author>
+        <author xml:lang="en">Causs</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1698. – Letter from <persName key="p0000">Johann Nikolaus Kauss</persName> to the <persName key="p0635" ref="965e8d6d-1671-4ac1-8276-a527cf471c59">Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 32, opis 1, 1698, no. 68, f. 202–202a v. German original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 202" />
+        <p> Hoch undt Wohlgebohrner Reichs Canzler von <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihr Zäarischen May[es]t[ät]</persName> p[erge]</p>
+        <p>Gnädig undt Hochgebüetunder Herr H[err]</p>
+        <p>Ewer Excell[enz] p[erge] Ihn unterthänigkeit fueß fallenter zu hinderbringen habe ich billiger uhrsachen nicht umbgehen können. waß massen sie allerg[nä]digstes andenckhen trag werdten. daß sie ihren, ohne Ruhm zu Melten getrewen diener versprochen in allem wohl Condentiern, welches ich gantz undt gahr keines weegs daran Einzigen zweiffel trage |: sindemahlen ihr unbeschreiblicher Ruhm aller orden von iedermenigklich gebrissen p[erge]</p>
+        <p>Weillen ich mich nun bey Ihro Excell[enz] bis in daß achtister Mannath also verhalten, daß hoffentlich alle ober officier sathsam Condentiert, mier auch Eigentlich keine Pesoltung außgeworffen gewessen, ihn deme ich aber an andern vornehmen höffen, alß Engelandt, bey dem kay[serlichen] Ampassitor, <persName key="p0646" ref="b15e98bd-fab0-426e-8877-3410520f0e4e">fürsten von Nassau</persName> vndt der gleichen mer: anderst niemahlen alß daß Jahr vor ein Hundert Tugaten gedienet,</p>
+        <p />
+        <pb n="f. 202v" />
+        <p> Solches anietzo nicht geschmellert noch geringer belohnet werden solte, in dem ich nicht mehr alß 15 Tugaten bekom[m]en kürtzl[ich] zu vor alß wür in ungarn gereisset, Wie ich aber von dem schreiber vernehmen miessen, daß mir der tommast so Ihr Excell[enz] wür zu <placeName key="g0209">Petterwardein</placeName> vor ein kämisoll verehret abzurechnen verlanget, welches mier seer schwer fallet, wan ich aber gewust daß solches von meiner Armutey solte abgezogen werden, mit dem macherlohn wohl ihnen halten mögen, in deme in ungarn alles umb getoppeltes Gelt bezahlen miessen, Ja auch so gahr daß Costgelt ein Tugaten die wochen vor geworffen wordten, wo uon ich mich doch nicht erhalten können, sondern daß menige zu setzen, in ungarn auff der gantz Raiß bis zu der hier auf Raiß nichts bekommen p[erge].</p>
+        <p>Alß gelangt dem nach an Ewer Excell[enz] mein nochmahligs unablässiges fueß fallentes bitten die selbte geruhen, ohne unterthänigst: undt gehorsambiste Massgebung mein ob ein geführtes Motiuen nebst der Treu geleisten dienste zu behertzigen: </p>
+        <pb n="f. 202a" />
+        <p> allerg[nä]digst anbefehlen daß mier daß meinige so ich ohn allen zweiffel wohl verdienet in Gnaden erthaillen lassen? Wan aber Ihr Excell[enz] meine getrewe dienst nicht vonnöthen: undt unter unß deuscher Nation gebreichl[ich] ein Ehrliches wohl verhalten schrifftlich zu zeigen |:wie ich noch von allen so ich bedienet erhalten p[erge] Gleich för mig mit einer Atistation in der g[nä]digsten fördigung beg[nä]digen in deme ich zusag habe alhier bey dem königl[ichen] hoff{{o0065}} æcommondiert zu werdten.</p>
+        <p>Welches ich bey iedermenigklich zu uiehemen auff weissen werdte. auch solch erzeigte grosse gnaden mit unablässlich Gebett gegen Gott dem Allmechtigen umb langwürdige Gesundtheit, abzudienen verbundten ersterben, In vertrostlicher höffnung gewöhr undt erhörung gehorsambst Empfehle p[erge] p[erge]</p>
+        <p>Ewer Excellenz p[erge]</p>
+        <p>Aller unterthänigst: gehorsambster</p>
+        <p>Johani Niclaus</p>
+        <p>Causs</p>
+        <p />
+        <pb n="f. 202av" />
+        <p> An Ihro Excellenz dem Hoch undt Wohl gebohrnen Herrn Herrn N[on] Tutul[um] Reichs Canzler <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro May[es]t[ät] des Musscabitischen Zäahr</persName>, undt Plenipotenziallis zu Tirckschen frieden schluß p[erge]</p>
+        <p>Meinen allerg[nä]digsten herrn, herrn Aller unterthänigst fueß fallents ersuchen undt billiges bitten: Johicus Niclaus Caus{{p0000}} /:</p>
+        <p>ihnen Gebettener, Gehorsambst zu vernehmen /:</p>
+      </div>
+    </body>
+  </text>
+</TEI>

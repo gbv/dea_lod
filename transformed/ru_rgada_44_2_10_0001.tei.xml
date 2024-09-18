@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Burgomasters and the Council of the City of Hamburg to the Tsars, Ivan V Alekseevich and Peter I Alekseevich</title>
+        <author xml:lang="en">Magistrate (Council) of the City of Hamburg</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>8 March 1686. – Letter from <persName key="p1268,p1269,p1270">the Burgomasters and </persName>the Council of the City of Hamburg{{o0025}}<persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591"> </persName>to <persName key="p0464" ref="eb5b3586-f0de-4469-8776-572af133b2dc">the Tsars, Ivan V Alekseevich </persName>and <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Peter I Alekseevich</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 44, opis 2, no. 10, f. 1–1v. German original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p> {D}ürch Gottes Gnade, Allerdurchleüchtigste, Großmächtigste Käysere, Große Herren Herren Zaaren Zaaren undt Große Fürsten Ivan Alexeiewitz, Petro Alexeiewitz, Aller Großen, kleinen und Weißen Rußlandt Selbsterhaltere, von Moßcaw, Kiaffskog, Woladinerskog, Novograd, Kogo, Zaaren zu Caßan, Zaaren zu Astraykan, Zaaren von Sybirien, Heeren Herren zu Kœffskaw und Große Fürsten in Littawen, Schmolensko, Twar, Wolinskow, Podolien, Ingoßkow, Prensko, Watzko, Bollgarsko und anderer Herrschafften Herren und Große Fürsten von Novagradœ, des Nosoffsken Reichs von Trternighoff, Ansaw, Polotzoko, Rostoff, Inroßloff, Belesar, Udorßko, Obdorsko, Kondiewsko, Wietebsko, Mistinsla, und des gantzen Siebirischen Quartiers Gebietende Herren von Iverlandt, der Cartliner und Grusiner Zaaren, und der Cabawdiener Tzierkassen und Großker Fürsten und über viele anderer Königreichen und Landen, Ostlich, Westlich und Nordtlich, Väterlich, und Vorväterlich Erbherren und Herrschern, Unseren Gnädigsten Zaaren und Herren. E[wer]. E[wer]. Zaar[ische] Zaar[ische] May[estä]t. May[estä]t. seint Unsere Bereitwilligste geflissene Dienste zuvor Gnädigste Herren p	Auß Ew[er]: Ew[er]: Zaar[ische] Zaar[ische] May[estä]t. May[estä]t. Anderwertigem unter den Achten Iuly des verwichenen Sieben Tausendt ein Hundert Drey und Neuntzigsten [7193] Jahres, so Uns im Ianuario dieses Jetztlauffenden 1686<hi rendition="#sup">tl</hi>. Jahres zu recht geworden, haben Wier mit geziemenden respect ablesendt vernommen, welcher gestalt Ew[er]: Ew[er]: Zarr[ische]. Zarr[ische]. May[estä]t: May[estä]t: über einen <persName key="p1346">Lübecker, nahmens Claus Woldt</persName>, so sich alhier dan und wan auffhalten thäte, Uns avereins Gnädigst zuschreiben, und auff anhalten <persName key="p1266">Adolp Houtman</persName> von <placeName key="g0010">Ambsterdam</placeName> anderwerts ansinnen wollen, gemeldeten <persName key="p1346">Woldt</persName> vorzuvordern, und auff daß Heyl: Evangelium zu befragen, von wem, wo, auch wie thewr und wie viel Puden an Rhebarbara im 190<hi rendition="#sup">tl</hi>. Jahre wieder Ew[er]: Ew[er]: Zarr[ische]. Zarr[ische]. May[estä]t. May[estä]t. Befehl in dero Reichen Er auffgekauffet habe, dabey dan Ihm auch anzuhalten, daß Er dem <persName key="p1266">Adolph Houtman</persName> seinen Ihm desfalß dem angeben nach auff 5000 ReichsThaler sich erstreckenden schaden ersetze, in verwegerung der aussage aber Ihn nach <placeName key="g0049">Archangel</placeName> zu überzuesenden.</p>
+        <p>Nun geruhen Ew[er]: Ew[er]: Zarr[ische]. Zarr[ische]. May[estä]t: May[estä]t: sich ünterthänigst anerinnern zu laßen, daß Wier unter den 26 Marty vorigen Jahres ünter andern denenselben geziemendt vorgestellet, welcher gestalt gemeldeter <persName key="p1346">Claus Wolte</persName> diese gantze Sache an <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihre Röm[ische]: Käyserl[iche]. Mäy[estä]t</persName>, alß des gantzen Römischen Reichs auch dieser Stadt unstreitigem OberHaupt: und OberRichtern Allerünterthanigst hat gelangen laßen, der auch Uns darüber zugeschrieben, Unsern ümbstendtlichen bericht deßwegen Allergnädigst erfordert, und immittelst denselben wieder recht und billigkeit nicht zu beschweren aller ernsts anbefohlen: Wier haben dennoch gleichwoll nicht ermangelt, auff Ew[er]: Ew[er]: Zarr[ischer]: Zarr[ischer]: May[estä]t: May[estä]t: Gnädigstes Schreiben den offtgemeldeten <persName key="p1346">Claus Wolte</persName>, vor einigen Hl. Hl. Unsers mittels vorfordern zu lassen, vermeinung Ihm die außage inhalts dero Zarrischen Schreiben zu zumuhten, Er ist aber selbst nicht erschienen, söndern hat sich dürch seinen Gevollmächtigen darauff, daß diese Sache an <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Allerhöchstgedachte Ihre Kayserl[iche]. Mäy[estä]tl</persName>. gedien undt daselbst anhängig wäre, auch Er, weil Er weder <placeName key="g0011">dieser Stadt</placeName> natürlicher noch angenommener Bürger oder Einwohner were, Uns und Unserer Botmässigkeit nicht ünterworffen, zu dem Ihrer Königl[ichen]. May[estä]t: von Dennemarck Commissarius were, bezogen und also entschüldiget, gestalt dan auch von wegen dero zu <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Dennemarck Norwegen Königl[iche]. May[estä]t</persName>: alhier sich auffhaltender Resident sich seiner angenommen, und mit einigen strenge wieder Ihn keinesweges zu verfahren, gantz nachdrückliche instance gethan. </p>
+        <p>Wan nun gnädigste Zarren, diese Sache an <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihre Röml[iche]. Käyserl[iche]. Mäy[estä]t</persName>: alß <placeName key="g0011">dieser Stadt</placeName> unstreitigem Oberhaupt gebracht, und annoch daselbst beruhet, der Wier ohn Allergnädigsten expressen Befehl hierin nicht vorgreiffen, noch also Uns einiger maßen ünternehmen dürffen, den <persName key="p1346">Claus Wolte</persName>, da Er die von Ew[er]: Ew[er]: Zar[ischer] Zarr[ischer] May[estä]t. May[estä]t. verlangende außage zu thuen sich wegert, Dero Zarrischen Befehl zufolge mit hiesigen Schiffen nach dem JahrMarckt zu <placeName key="g0049">Archangel</placeName> zu senden, gestalt dan Wan Wier Uns sölcher gefenglichen wegführung und versendung auß dem Römischen Reiche eigenmächtig ünterfangen wurden; Wier besörglich uín des Heyl[igen]: Römischen Reichs und <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihrer Käyserl[ichen]. May[estä]t</persName>: ungnade verfallen wurden, auch über dem, da gedachter <persName key="p1346">Woldt</persName> weder dieser Stadt Bürger noch Einwohner, söndern dan und wan alhier nur in Königl[ichen]. Dänischen Commissionen begriffen, sich alhie auffhelt, Wier keine sölche Absolute Herrschafft über Ihn haben, ferners auch nicht wißen, daß Er hier etwas freyes an Mitteln oder Wahren habe, daß der <persName key="p1266">Houtman</persName> seines prætendirten Schadens sich daran erholen können. Alß werden Ew[er]: Ew[er]: Zarr[ische]. Zarr[ische]. May[estä]t. May[estä]t. Dero Höchsterleüchtetem Gemühte nach, von selbst leicht ermeßen, daß Wier, wie gern gleich wolten, Ew[er]: Ew[er]: Zarr[ischen]. Zarr[ischen]. Mayesteten Mayesteten Schreiben auff ein mehres als bißher geschehen, nachzukommen, oder auch die absendung des Claus Wolten Persohn nach Archangel ohne <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihrer Römischen Kayserl[ichen]. May[estä]t</persName>: außtrücklichen Befehl zu bewerckstelligen, in Unsern kräfften Mächtigen und Vermögen nicht haben:</p>
+        <p>Geruhen demnach Ew[er]. Ew[er]: Zarr[ische]. Zarr[ische]. May[estä]t. May[estä]t. Uns desfals Gnädigst entschüldiget zu halten, und Unterthänigst gesichert zu sein, daß worin denenselben Wier sönsten Unsere Unterthänigste respect und Dienste erweisen, auch Dero Hohe Zarrische Gnade verdienen können, daß Wier Uns Jederzeit deßen so schüldigst alß willigst finden laßen werden.	Ew[er]. Ew[er]: Zarr[ische]. Zarr[ische]. May[estä]t. May[estä]t. hiemit zu allen selbst ersinlichen Zarrischen Hochwesen Göttl[iche]. Obhut getrewligst, Uns dero Zarrischen Hulde und Gnade Ünterthänigst empfelenst. 	Geben Ünter <placeName key="g0011">Unserm Stadt</placeName> Signet den 8<hi rendition="#sup">tl </hi>Marty Anno 1686.</p>
+        <p>Ew[er]: Ew[er]: Zarr[ische]: Zarr[ische]: M[ajestä]t. M[ajestä]t.</p>
+        <p>Unterdienst und Bereitwilligste</p>
+        <p>
+          <persName key="p1268,p1269,p1270">Bürgermeistere</persName> und <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Rahtt der Stadt Hamburg</orgName>.</p>
+        <p>
+          <hi rendition="#sup">–</hi>PRL Scripsl<hi rendition="#sup">–2</hi>
+        </p>
+        <p />
+        <p>194<hi rendition="#sup">г[о] </hi>мая в ... де[нь]. Лист прислан из <placeName key="g0011">Амбурка</placeName>, писан о ревеню <persName key="p1267">Андрея Бутенанта</persName> и <persName key="p1266">Адолфа Гутмона</persName> против грамоты <persName key="p0464,p0174">великих г[о]с[у]д[а]рей</persName>, которая послана по челобитью их.</p>
+        <p />
+        <p />
+        <pb n="f. 1v" />
+        <p>Амбурская.</p>
+        <p>Denen Allerdürchläüchtigsten Großmächtigsten Herren Herren Zaren Zaaren und Große Fürsten <persName key="p0464" ref="eb5b3586-f0de-4469-8776-572af133b2dc">Ivan Alexeiewitz</persName>, <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Petro Alexeiewitz</persName>, von gantzen Großen, kleinen und Weissen Rußlandt Selbsterhaltere, von Moßcaw, Kiaffskog, Woladienerskog, Novograd, Kogo, Zaaren zu Caßan, Zaaren zu Astraykan, Zaaren von Sybirien, Herren Herren zu Kœffßkaw und Große Fürsten in Littawen, Schmolensko, Twar, Wolinskow, Podolien, Ingoßkow, Prenßko, Watzko, Bollgarsko und anderer Herrschafften Herren und Große Fürsten von Novogradæ, deß Nisoffsken Reichs von Trternighoff, Ansaw, Poolotzko, Rostoff, Inraßloff Belesar, Udorßko, Obdorßko, Kondiewsko, Wietebsko, Mistinsla und des gantzen Siebirischen Quartiers Gebietende Herrenn, von Iverlandt, der Cartliner und Grusiner Zaaren, und der Cabawdiener tzierkassen und Großker Fürstenn, und über viele anderer Konigreichen und Landen, Ostlich, Westlich und Nordtlich, Vaterlich, und VorVäterlich ErbHerren und Herrschern p 		Unsere Gnädigste Zaaren und Herren.</p>
+        <p>1686.</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_44_1_1702_3_0009</p>
+        <p>ru_rgada_44_2_8_0001</p>
+        <p>ru_rgada_44_2_15_0001</p>
+        <p>ru_rgada_44_2_17_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

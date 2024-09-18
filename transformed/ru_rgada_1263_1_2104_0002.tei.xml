@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Councilor to the Russian Embassy in Berlin,
+          Petr Semenovich Mal'tsov to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Petr</author>
+        <author xml:lang="en">Semenovich</author>
+        <author xml:lang="en">Mal'tsov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>16/27 December 1774. – Letter from <persName key="p0096"
+              ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor to the Russian Embassy in
+            Berlin, Petr Semenovich Mal’tsov</persName> to <persName key=""
+              ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn{{p0065}</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 2104, f. 15, 10. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 15" />
+        <p />
+        <p>Monseigneur!</p>
+        <p>Ce n’est assûrément ni la simple habitude, ni uniquement pour me conformer aux usages
+          établis, que je prends la liberté de présenter à Votre Altesse mes hommages à l’occasion
+          des fêtes et du nouvel an. Ils ont un motif plus noble : ils parlent d’un Coeur
+          entièrement devoué à Votre Altesse. Puisse le Ciel Vous combler, mon Prince, de Ses
+          bénédictions les plus précieuses et puissiés Vous jouir pendant une longue suite d’années
+          de la santé aussi stable que parfaite, de la prosperité la plus constante, et du
+          contentement le plus inaltérable! Daignés, Monseigneur, agréer ces Voeux avec Votre bonté
+          ordinaire, et me faire la grace, en me continuant Votre Protection, d’être entièrement
+          persuadé et de ma vive reconnoissance pour tous les bienfaits, dont Votre Altesse m’a
+          comblés, et du profond respect, avec lequel j’aurai l’honneur d’être toute ma vie</p>
+        <p> </p>
+        <p>Mon Prince!</p>
+        <p> De Votre Altesse,</p>
+        <p> Le très humble, très obéissant</p>
+        <p> et très obligé Serviteur</p>
+        <p>
+          <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">Maltzow</persName>.</p>
+        <p>
+          <placeName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Berli</placeName>
+          <placeName
+            key="g0012">n</placeName> ce 16./27 X<hi rendition="#u">
+            <hi rendition="#sup">bre</hi>
+          </hi> 1774.</p>
+        <p />
+        <pb n="f. 10" />
+        <p>P.S.</p>
+        <p>Le Sr Gutchlig{{p0000}}, à qui j’ai fait part de la réponse de Votre Altesse, m’a prié de
+          vous dire, Mon Prince, que son secret consistoit à conserver les bouillons, dont il a fait
+          mention, Secret, qui a été ignoré jusques ici, et qu’il étoit vrai, que l’invention de ces
+          bouillons n’etoit pas de lui, mais que l’on n’avoit pas encore pû parvenir à trouver l’art
+          de le conserver au delà de 4 mois terme au quel ils començoient à se corompre ; au lieu,
+          que lui, il a trouvé moïen, étant grand chimiste, de les preserver de la corruption à
+          jamais. C’est un savant et paroit autant, qu’on peut juger d’un homme, que l’on de voit
+          que pour la 3 fois, honête, modeste et de bonnes mœurs, il a été gouverneur de Mr le Baron
+          de Goltz{{p0072}} ci devant ministre du Roi à St. <placeName key="g0002">Petersbourg</placeName>
+          et présentement envoyé de S.M. à <placeName key="g0019">Paris</placeName> ; il ajoute, que
+          ses tablettes sont même un rémêde et un préservatif contre le scorbut, si l’on s’en
+          servoit sur les vaisseuax. Il offre de faire telles épreuves que l’on jugera apropos de
+          lui faire subir pour constater ce qu’il avance.</p>
+        <p> ut in litteris</p>
+        <p> Maltzow{{p0096}}</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_2088_0001</p>
+        <p>ru_rgada_1263_1_2089_0001</p>
+        <p>ru_rgada_1263_1_2090_0001</p>
+        <p>ru_rgada_1263_1_2090_0002</p>
+        <p>ru_rgada_1263_1_2092_0001</p>
+        <p>ru_rgada_1263_1_2093_0001</p>
+        <p>ru_rgada_1263_1_2093_0002</p>
+        <p>ru_rgada_1263_1_2093_0004</p>
+        <p>ru_rgada_1263_1_2102_0001</p>
+        <p>ru_rgada_1263_1_2104_0001</p>
+        <p>ru_rgada_1263_1_2093_0003</p>
+        <p>ru_rgada_1263_1_2102_0004</p>
+      </div>
+    </body>
+  </text>
+</TEI>

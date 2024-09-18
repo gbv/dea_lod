@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Declaration of the Russian Emperess [Catherine II] to the
+          Polish resident to Moscow [Jan Andrzej Borch]</title>
+        <title type="main" xml:lang="sp">Declaracion de la Imperatriz de Russia entregada al
+          Residente de Polonia en Moskou
+</title>
+        <author xml:lang="en">Empress</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Catherine II</author>
+        <author xml:lang="en">Mikhail</author>
+        <author xml:lang="en">Illarionovich</author>
+        <author xml:lang="de">Воронцов </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>2 May 1763. – Declaration of the Russian Emperess [Catherine II]{{p0033}} to the
+            Polish resident to Moscow [Jan Andrzej Borch]{{p2089}}</title>
+          <note>
+            <bibl>Archivo General de Simancas, Estado, no. 6585, s. f. French copy.</bibl>
+          </note>
+        </head>
+        <p />
+        <p>Declaracion de la Imperatriz de Russia{{p0033}} entregada al Residente de Polonia en
+          Moskou{{p2089}}</p>
+        <p />
+        <p>L’Imperatrice{{p0033}} ayant appris avec un sensible deplaisir toutes les violences, qui
+          se sont commisses dernièrement a <placeName key="g0258">Wilna</placeName> lors de la
+          fondation du tribunal du Grand Duché de Lithuanie violences, qui en rendossant visiblement
+          les droits et privilege si precieux de la noblesse polonaise, menacent toute la Republique
+          de la confusion la plus funeste dans son interieur. S[a] M[ajesté] I[mpériale]{{p0033}}
+          afin de prevenir le maux a venir, et surtout pour remedier aux desordres presents, ne peut
+          se dispenser, tant par amitié pour S[a] M[ajesté] le Roy de Pologne{{p0057}}, qu’en
+          considerant l’interet naturel de l’Empire de toutes les Russes, de faire connoitre au
+          Roy{{p0057}} les sentimens sinceres qui l’animent dans cette occasion. Les maximes, que
+          l’Imperatrice{{p0033}} a adoptées une fois pour toutes, n’ayant pour but que l’equité, et
+          l’avantage general des nations, S[a] M[ajesté]{{p0033}} est fermentent et invariablement
+          intentionée d’entretenir[,] d’etendre, et d’affermir l’amitié, le bon voisinage, et la
+          bonne inteligence avec le Roy{{p0057}}, et la Rep[ubliqu]e de Pologne. En consequence de
+          quoi, et par une suite des engagements de son Empire, S[a] M[ajesté]{{p0033}}, bien loin
+          de voir d’un œil indiferent tout ce qui tend, en quelque sorte au violement des loix, et a
+          l’oppression de quelqu’un des ordres, qui composent le corps de la Republique, se trouve
+          au contraire forcée de faire les representations les plus fortes, mais aussi les plus
+          amicales au Roy{{p0057}}, pour qu’il se garantisse des envieux et ennemis de la
+          tranquillité publique, et du bon ordre; qui n’ont pü encore parvenir pour les troubles a
+          executer leurs desseins pernicieux, et si prejudiciables au bien general. S[a] M[ajesté]
+          I[mpériale]{{p0033}} tant par les engagemens de la Russie que par le voisinage de deux
+          etats ne peut regarder autrement, que comme ses propres interets l’ordre etabli par les
+          loix dans la Rep[ubliqu]e. Si manifestement attaqué par les entreprises violentes, et
+          temeraires, qui vienent de se faire a <placeName key="g0258">Wilna</placeName> de la part
+          du Prince Radziwil{{p1075}}, et de satisfaire aux devoirs d’une veritable amitié pour la
+          personne de S[a] M[ajesté] le Roy de Pol[ogn]e{{p0057}} ; plus elle a fortement a cœur que
+          le Roy{{p0057}} reprime, et contient par sa puissance les esprits turbulents, et qu’en
+          retablisant la tranquilité S[a] M[ajesté] Pol[onais]e{{p0057}} fasse rentrer les choses
+          dans l’ordre naturel et dans leurs etat legal. Puisque dans un cas contraire, S[a]
+          M[ajesté]{{p0033}} en se rendant aux vœux et suplications des Polonois bien intentionés,
+          et zelés pour la defense de leur Patrie, se verra engagée, et forcée d’employer pour cet
+          objet les moyens eficaces, et la puissance que Dieu lui a mise aux mains, et les droits de
+          son Empire lui donnent pour l’avantage, et le bonheur general.</p>
+        <p>Fait a <placeName key="g0001">Moskou</placeName> ce 2 May 1763.</p>
+        <p>Woronzow{{p0145}}.</p>
+        <p>Pr[ince] A. Galitzin{{p0065}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

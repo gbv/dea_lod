@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy Extraordinary to the Lower
+          Saxony Imperial Circle, Aleksei Semenovich Musin-Pushkin to the Russian Envoy
+          Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Aleksei</author>
+        <author xml:lang="en">Semenovich</author>
+        <author xml:lang="en">Musin-Pushkin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>3/14 August 1761. – Letter from <persName key="p0108"
+              ref="32691d34-6532-462c-8a63-5b9e098e0dac">the Russian Envoy Extrarodinary to the
+            Lower Saxony Imperial Circle, Aleksei Semenovich Musin-Pushkin</persName> to <persName
+              key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary
+            to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 2260, f. 11–12v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 11" />
+        <p />
+        <p>Monsieur</p>
+        <p> Je rens de Graces infinies à Votre Excellence de la lettre du 4<hi rendition="#u">
+            <hi rendition="#sup">me</hi>
+          </hi> de ce mois dont je viens d’être honnoré ce
+          matin.</p>
+        <p> On s’attend icy à l’arrivée de la flotte anglaise avec beaucoup d’Impatience : plusieurs
+          personnes se preparent pour aller la voir à l’Embouchure de l’Elbe. Nos Environs vont
+          devenir le Rendés-Vous de bien des Etrangers : Il y en a deja beaucoup [inserted :
+          d’]arrivés à <placeName key="g0011">Harbourg</placeName> [sic] pour ÿ voir <persName
+            key="p0451" ref="65e4dd04-6f24-409e-9518-6d5c734d9120">la Reine</persName> qui quittera
+          à ce que l’on dit sa maison parternelle le 17<hi rendition="#u">
+            <hi rendition="#sup">me</hi>
+          </hi> du Courant. <persName key="p0454"
+            ref="340b15a9-40d0-4da2-b9a9-8425c221bc56">Le Mylord Harcourt</persName> et <persName
+            key="p0000">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi>. Hardenbery</persName> sont deja passé
+          par là le 9<hi rendition="#u">
+            <hi rendition="#sup">me</hi>
+          </hi> pour aller à la Rencontre de la <persName
+            key="p0451" ref="65e4dd04-6f24-409e-9518-6d5c734d9120">Reine</persName>. La <persName
+            key="p0452" ref="2a30ca12-daf1-40e5-9e9b-c91e98f6182f">Duchesse de Mecklenbourg</persName>
+          qui prennait icÿ les Eaux part demain pour <placeName key="g0173">Suerin</placeName> [sic]
+          pour recevoir <persName key="p0451" ref="65e4dd04-6f24-409e-9518-6d5c734d9120">Sa Maj[es]<hi
+              rendition="#sup">té</hi>
+          </persName> sur Son passage à <placeName key="g0126">
+          Neustadt</placeName>.</p>
+        <p> Les Armées françoises retrogradent sans contredit, quoÿ que <persName key="p0453"
+            ref="76873501-1820-44ad-baaa-0202516214df">M<hi rendition="#sup">r</hi>. le M[arech]<hi
+              rendition="#sup">al</hi> de Broglio</persName> voulut encore</p>
+        <p>[footnote:]</p>
+        <p>a M<hi rendition="#u">
+            <hi rendition="#sup">r</hi>
+          </hi>. le Prince de Galitzin{{p0065}}.</p>
+        <p />
+        <pb n="f. 11v" />
+        <p> faire semblant a en vouloir à <placeName key="g0174">Hameln</placeName>, et même à
+          l’Electorat d’Hannovre.</p>
+        <p> L’inaction de <persName key="p0044" ref="6226fb75-94c9-49de-9b57-5f30507d93d5">M<hi
+              rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> le M[arech]<hi rendition="#sup">al</hi>
+          Daun</persName> ne peut plus etre un probleme: Reflechie et volontaire comme elle l’est,
+          vis à vis de trois quart de Monde de moins, elle doit etre prise de connaissance de
+          causes. On reсonce meme de preter de l’attention a ce qui se passe en Saxe : car il ne s’y
+          passera rien à moins que <persName key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">le
+          P[rince]: Henrÿ</persName> ne se livre pied et poings liés.</p>
+        <p> La pomeranie ne presente qu’une Espece de petite Guerre. Les Suedois vont etre renforcés
+          à ce que l’on assure de 5. a 6./m h : Notre flote se trouve devant <placeName key="g0083">
+          Colberg</placeName> ayant fait mettre à <placeName key="g0175">Rugervalde</placeName> pied
+          à Terre au Corps destiné pour en renforcer celuÿ qui est aux Ordres du <persName
+            key="p0124" ref="820f0254-6e50-437f-a3ae-b94f1140c8e3">C[om]<hi rendition="#u">
+              <hi rendition="#sup">te</hi>
+            </hi>.te de Roumyanzoff</persName>. Loin de se
+          desister de ce projet on n’en veut poursuivre l’Entreprise qu’avec une Vigueur
+          proportionnée aux Difficultter [sic] qui se rencontrent C’est donc de la Silesie que nous
+          attendons avec </p>
+        <pb n="f. 12" />
+        <p> la derniere Impatience des Coups, qui <hi rendition="#s">mettent</hi> missent fin à
+          cette Guerre et <hi rendition="#s">qui </hi>prepar<hi rendition="#s">ent</hi>assent les
+          materiaux pour pour le Congres d’<placeName key="g0072">Augsbourg</placeName>. La position
+          des armées respectives parait devoir les engager tout naturellement a une Bataille. Votre
+          Excellence verra par l’Extrait que j’ay l’honneur de joindre les perplexités des habitans
+          de <placeName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Breslau{{g</placeName>
+          <placeName
+            key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">0172}}</placeName>.</p>
+        <p> Aÿant echappé aux menaces et a l’assassinat de mon valét de Chambre conçû avec du
+          jugement et de la mechancité la plus noire, je crois devoir en donner avis à Votre
+          Ex[cellen]<hi rendition="#u">
+            <hi rendition="#sup">ce</hi>
+          </hi> Je me flatte qu’Elle voudra bien prendre
+          humainement part à cet accident. J ay remis<hi rendition="#s">e</hi> le <persName
+            key="p0000">Selerat</persName> entre les mains de la Justice à fin que son procès luÿ
+          soit fait en forme et düement avec la Restriction cependant qu’il ne soit point punÿ de
+          mort.</p>
+        <p> J’ai l’honneur d’étre avec une Consideration distinguée et très parfaite</p>
+        <p>Monsieur</p>
+        <p>de Votre Excellence</p>
+        <p>Le très humble &amp; très obeissant</p>
+        <p>Serviteur</p>
+        <p>
+          <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">A[lexis]. Moussine
+            Pouchquine</persName>
+        </p>
+        <p>
+          <placeName key="g0011">Hambourg</placeName>
+        </p>
+        <p>ce 14.<hi rendition="#sup">me </hi>/ 3. Aout</p>
+        <p>1761./</p>
+        <pb n="f. 12v" />
+        <p>
+          <placeName key="g0011">Hambourg</placeName> 3/14 Aout 1761:</p>
+        <p>Mr. Moussin Pouschkin{{p0108}}</p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_2260_0001</p>
+        <p>ru_rgada_1263_1_2260_0002</p>
+        <p>ru_rgada_1263_1_2260_0004</p>
+      </div>
+    </body>
+  </text>
+</TEI>

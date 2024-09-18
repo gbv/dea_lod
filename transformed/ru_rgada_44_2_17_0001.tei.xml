@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Burgomasters and the Council of the City of Hamburg to Tsar Peter I on the extradiction of Headman Andrii Ivanovych Voinarovskii</title>
+        <author xml:lang="en">Magistrate (Council) of the City of Hamburg</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>20 November 1716. – Letter from <persName key="p1271,p1272,p1274">the Burgomasters</persName> and the Council of the City of Hamburg{{o0025}} to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName> on the extradiction of <persName key="p1275">Headman Andrii Ivanovych Voinarovskii</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 44, opis 2, no. 17, f. 5–7v, 8v. German original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 5" />
+        <p>Allerdurchlauchtigster Großmächtigster</p>
+        <p>Czaar und Groß=Fürst</p>
+        <p />
+        <p>Gnädigster Herr!</p>
+        <p>So vollenkommen Ew[er] Groß=Czaar[ischen] May[estät] bey allen Vorkommenheiten Unsere allerunterthänigste Devotion zu bezeigen Wir nach Unserm geringschätzigen Vermögen Uns angelegen seyn lassen, und so völlig Wir solches abermahls darinnen dargeleget, daß Wir auf Dero Residenten Ansinnen und auff desselben von sich gestelter schrifftlichen Versicherung, daß der anzuhaltende <persName key="p1275">Woinorowsky</persName> Ew[er] Groß=Czaar[ischen] May[estät] gebohrner Unterthan wäre, und unter keiner fremden Puissance protection stunde, und daß derselbe </p>
+        <pb n="f. 5v" />
+        <p> in Unserer Verwahrsahm verbleiben solte, zu desselben arrestirung benöhtigte ordre gestellet; So wenig würden Wir auch nachhero difficultiret haben, denselben dem mit Ew[er] Groß=Czaar[ischen] May[estät] Credentialien vesehenen und zu dem Ende anhero geschickten <persName key="p0891">Capitain von Dero Garde Rumantzow</persName> abfolgen zu lassen, wenn nicht immittelst <persName key="p1276">der Schwedische H[err] Graf von Welling</persName> und der Königl[iche] Resident ihn Nahmens Ihro Königl[ichen] May[estät] unter der Anzeige, daß arrestatus in Deroselben Protection und diensten als Obrister sich befünde, ihn reclamiret, wie solches Ew[er] Groß=Czaar[ischen] May[es]t[ä]t Wir vormahls weitläufftiger aus den derzeit angeschlossenen beylagen vorzustellen, und zugleich wie Dero Resident bey der Arrestirung wieder alle von sich gegebene Zusage gehandelt, darzuthun Uns allerunterthänigst erkühnet. Als nun aus Ew[er] Groß=Czaar[ischen] May[es]t[ä]t unterm 3<hi rendition="#sup">ten</hi>. Nov[embris] </p>
+        <pb n="f. 6" />
+        <p> an Uns abgelassenen, und d[ie] 16<hi rendition="#sup">ten</hi>. ejusd[em] Uns behändigtem Allergnädigstem Schreiben Wir in tiefester Submission ersehen, wie Ew[er] Groß=Czaar[ische] May[estät] an Uns abermals gesinnen wollen, daß der arrestirte <persName key="p1275">Woinorowsky</persName> von wohlgemeldten <persName key="p0891">H[err] Capitain Rumantzow</persName> ausgeliefert werden möchte, haben Wir zuforderst für nöhtig angesehen, arrestatum über die sub № 1. angeschloßene fragen zu vernehmen, in der Hoffnung daß selbige so beschaffen seyn würde, daß Ew[er] Groß=Czaar[ischen] May[estät] Allerhöchstem Ansinnen wir um so sicherer zu geleben, und bey <persName key="p0193" ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Ihro Königl[ichen] May[estät] von Schweden</persName> Uns dieser Auslieferung wegen über kurtz oder lang desto gründlicher und völliger zu exculpiren vermöchten. Wie weit Wir Uns aber in dieser Unserer zuversicht verfehlet gesehen, werden Ew[er] Groß=Czaar[ische] May[estät] aus der sub № 2. </p>
+        <pb n="f. 6v" />
+        <p>befindlichen des arrestirten <persName key="p1275">Woinorowsky</persName> in Dero Residenten und vorwohlgemeldten <persName key="p0891">Capitain Rumantzow</persName> Gegenwart Unsern h[erren] Deputirten ertheilten Antwort wahrzunehmen Allergnädigst belieben, als worinnen besagter ad art[iculum] 2., daß er Ew[er] Groß=Czaar[ischen] May[estät] gebohrner Unterthan sey, verneinen, vielmehr daß er in Pohlen gebohren, behaubten und sich auff Ew[er] Groß=Czaar[ischen] May[estät] Allerhöchste Wissenschafft beziehen, und ad art[iculum] 3. bekennen wollen, daß er in <persName key="p0193" ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Ihro Königl[ichen] May[estät] von Schweden</persName> protection stünde, und ihm der titul und Rang vom Obristen gegeben worden, ob er gleich niemahlen einig commando gehabt, noch zu haben verlanget. Wann denn Ew[er] Groß=Czaar[ische] May[estät] Dero Beywohnenden Allerhöchsten Einsicht nach den Unterscheid erwegen werden, der sich zwischen den vormahls angehaltenen </p>
+        <pb n="f. 7" />
+        <p>Gros=Britannischen <persName key="p1278">Lord Duffus</persName>, als welcher kundbahrermassen Ihro Königl[ichen] May[estät] von Gros=Britannien gebohrner Unterthan gewesen, und die Waffen wieder seinen nathürlichen Herrn ergriffen, und dessen Auslieferung von niemanden beygesprochen worden, und dem jetzigen arrestirten, der beydes negiren wollen, befindet, überdehm auch <persName key="p1277">der Kayserl[iche] Resident h[err] Baron von Kurtzrock</persName> in dem sub № 3. angeschlossenem Memoriali angezeiget, daß der arrestirte und dessen Familie in Kayserl[icher] protection stünde, so dürffen zu Ew[er] Groß=Czaar[ischen] May[estät] angestammten Grosmuht und Erlauchtesten Prudence der demuhtsvollen Hoffnung leben, er werden Ew[er] Groß=Czaar[ische] May[estät] diese Sache in solche Weege zu richten und zu endigen huldreichst geruhen, daß daraus <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">dieser Stadt</orgName> und deren ohnedehm so sehr bedrengten Commercio nichts wiedriges erwachsen möge, da denn Ew[er] Groß=Czaar[ischen] May[estät] Wir so wohl bey dieser </p>
+        <pb n="f. 7v" />
+        <p>als aller andern Gelegenheit nach Unsern wenigen Kräfften zu erweisen allerunterthänigst beflissen leben werden, wie gegen Dieselbe Wir keine partialitè sondern vielmehr die allerunterthänigste Begierde hegen, Dero Allergnädigsten Propension Uns und <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">gesamte Stadt</orgName> in tiefester Erniedrigung fähig zu machen, und zu erweisen, wie Wir in Demuhts voller Submission seyn</p>
+        <p>Ew[er] Groß=Czaar[ischen] May[estät]</p>
+        <p>allerunterthänigste</p>
+        <p>
+          <persName key="p1271,p1272,p1274">Bürgermeister</persName> und <orgName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Raht</orgName>
+        </p>
+        <p>
+          <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">der Stadt Hamburg</orgName>
+        </p>
+        <p>Gegeben unter Unserm</p>
+        <p>Stadt=Signet d[ie] 20<hi rendition="#sup">ten</hi>. Nov[embris]</p>
+        <p>1716.</p>
+        <p />
+        <p />
+        <pb n="f. 8v" />
+        <p>
+          <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Dem Allerdurchlauchtigsten Großmächtigsten Herrn Czaaren und Groß=fürsten Petro Alexiewitz</persName> von gantzen großen kleinen und weissen Rußland Selbsterhaltern von Moscaw, kyaffskoy, Woladienerskoy Novograd Koy – Czaaren und kaßan, Czaaren zu Astraykan, Czaaren von Syberien, Herrn zu koyfskaw und Großfürsten in Littauen, Schmolenskow, Twar, Wolinskow, Podolien, Ingoßkow, Prenßkow, Watzkow, Bollgarskow und anderer Herrschafften, Herrn und Groß=Fürsten, von Novogradæ, des Nisoffsken Reichs von Tschernighoff, Ansaw, Polotzokon, Rostoff, Inrosloff, belesar, Udorskow, Obdorskow, kondiewskow, Wietepskow, Mistinsla, des gantzen Sybierischen Quartiers Gebietender Herr von Iwerland, der Cartliner und Grusiner Czaar und der kabawdiner Tzierkassen und Großker Fürst, und über viele andere königreichen und Landen, Östlich, Westlich und Nordlich väterlich und vorväterlich, Erb=Herr und Herrscher Unserm Gnädigsten Czaarn und Herrn</p>
+        <p />
+        <p>К царскому величеству грам[ота] от <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">города Гамбурка</orgName>. Получена в 12 де[нь] ноября 1716 в <placeName key="g0359">Гавелберхе</placeName>.</p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_44_1_1713_4_0001</p>
+        <p>ru_rgada_44_2_8_0001</p>
+        <p>ru_rgada_44_2_10_0001</p>
+        <p>ru_rgada_44_2_15_0001</p>
+      </div>
+    </body>
+  </text>
+</TEI>

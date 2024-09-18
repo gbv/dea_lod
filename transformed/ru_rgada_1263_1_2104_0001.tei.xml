@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Councilor to the Russian Embassy in Berlin,
+          Petr Semenovich Mal'tsov to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Petr</author>
+        <author xml:lang="en">Semenovich</author>
+        <author xml:lang="en">Mal'tsov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>6/17 September 1774. – Letter from <persName key="p0096"
+              ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor of the Russian Embassy in
+            Berlin, Petr Semenovich Mal’tsov</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 2104, f. 4–6. Russian and French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 4" />
+        <p />
+        <p>Сиятелнейший князь</p>
+        <p>Милостивый Государь</p>
+        <p>Третьяго дни <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">король</persName>
+          присудствовать изволил у эксерцицей артилерии; после чего, прибыв в <placeName key="g0012">
+          город</placeName>, осматривал дом, которой строится для француской комедии между двумя
+          кирхами на так называемом месте <hi rendition="#u">la place des Gens d'armes</hi>; а потом
+          отдав визиту принцесе <persName key="p0373" ref="a9c3bb1d-9646-456a-87d6-ecfbfe38881d">Амалии,
+          сестре его величества</persName>, обратно возвратится изволил в <placeName key="g0047">
+          Потсдам</placeName>, где вскоре начнутся обыкновенныя болшие маневры, и куда отправятся в
+          будущей понеделник отсюда два пехотныя да гусарской Циттенской и жандармской полки, равно
+          как и находящияся как здесь, так в <placeName key="g0299">Шарлотенбурге</placeName>
+          шквадроны лейб-гвардии, и из других в околичности <placeName key="g0047">Потсдама</placeName>
+          лежащих местечек прибудут туда также разныя полки. </p>
+        <p>Завтря весь в <placeName key="g0012">Берлине</placeName> находящейся гварнизон пойдет в
+          лагерь, нарочно для того зделанной у Галских ворот.</p>
+        <p>Барон ван Звитен{{p0259}}, австрийской при здешнем дворе министр, поехал сего утра в
+          Потсдам{{g0047}} и будет тамо до пущен на аудиенцию к Его Величеству{{p0061}}.</p>
+        <p>Вчерась удостоился я получить исправно милостивое вашего сиятельства </p>
+        <pb n="f. 4 v" />
+        <p> от 22<hi rendition="#u">
+            <hi rendition="#sup">го</hi>
+          </hi> августа писание, за которое прошу вас
+          принять с обыкновенною вашею ко всем милостию нижайшее мое благодарение. Я уповаю, что
+          господин барон Линзинген{{p1234}} вручить не оставил <hi rendition="#sup">– </hi>
+          <persName
+            key="p1233">графине Катерине Михайловне Румянцовой</persName>
+          <hi rendition="#sup">–1</hi>
+          порученную мною ему чашку для <persName key="p1233">Ея Сиятелства</persName>. Как мне
+          совсем неизвестно место теперешняго пребывания <persName key="p0367"
+            ref="8e52a01e-30b4-4430-be67-81f204f2a753">господина действителнаго статскаго советника
+          Симолина</persName>, то я не замедля отправляю сим вечером порученное мне вашим
+          сиятелством к нему писмо в Гамбург{{g0011}} к <persName key="p0076"
+            ref="6dae20a2-6921-4999-9ad3-271c5403b39d">господину Гросу</persName>, прося его оное
+          вручить сему министру по прибытии его туда, или, буде он уже проехал реченной город, чтоб
+          он без потери времени помянутое писмо отправил в Копенгаген{{g0006}}.</p>
+        <p>При сем осмеливаюсь приложить от переводчика господина Березина для вашего сиятелства
+          писмо, имея в протчем честь быть с глубочайшим респектом.</p>
+        <p>Сиятелнейший князь</p>
+        <p>Милостивый государь</p>
+        <p>Вашего Сиятелства</p>
+        <p>всепокорно-нижайший слуга</p>
+        <p>
+          <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">Петр Малцов</persName>
+        </p>
+        <p> из <placeName key="g0012">Берлина</placeName>. 6<hi rendition="#sup">го</hi>/17 сентября
+          1774<hi rendition="#sup">го</hi>./</p>
+        <p> PS:</p>
+        <p />
+        <pb n="f. 5" />
+        <p />
+        <p>PS:</p>
+        <p> Le <persName key="p0377" ref="69edcbd2-cb62-42be-8977-8baa17528662">Prince héréditaire
+          de Brunswyck</persName> est ici depuis hier au soir. S.A.S. assistera aux exercices de
+          demain, ainsi qu’aux grandes manoeuvres de Potsdam, qui auront lieu mardi prochain.</p>
+        <p> Aussitôt que j’aurai du <persName key="p0375" ref="be1991fa-8b38-4744-a1aa-c1a417304508">banquier
+          le Veaux</persName> la note des debours faits pour les tableaux, j’aurai l’honneur de la
+          faire parvenir à Votre Altesse. En attendant j’ai celui de l’informer, que <persName
+            key="p0000">M<hi rendition="#u">
+              <hi rendition="#sup">me</hi>
+            </hi> Teerbussch</persName> a dit qu’il seroit
+          nécessaire, que la personne qui sera chargée de monter les dits tableaux à leur arrivée à
+          S<hi rendition="#sup">t</hi> Petersbourg, ait soin de les exposer a l’air pendant 4 à 5.
+          jours avant de les presenter à <persName key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>, afin qu’ils
+          aïent le tems de se purifier de l’air de mer, qui pouroit les jaunir un peu.</p>
+        <p> </p>
+        <p>ut in litteris</p>
+        <p>
+          <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">Maltzow</persName>
+        </p>
+        <p />
+        <pb n="f. 6" />
+        <p />
+        <p>2 PS:</p>
+        <p>
+          <persName key="p0147" ref="98c88c1f-86ea-4710-92a8-022e5a56ac69">Военнаго департамента
+          статской министр господин фон Ведель</persName> домогался о своем абшите; но получил от <persName
+            key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">короля</persName> в весма
+          ласкателных терминах в том отказ.</p>
+        <p>
+          <persName key="p0258" ref="18c3bc7f-661f-469c-aa07-bdaf2c8f77c3">Баварской здесь министр</persName>
+          вскоре отсюда отъезжает и кур-фал[с]кой в Берлине находящейся министр господин фон <persName
+            key="p0376" ref="d12bc9a2-40b8-49e1-a561-a33ed88ec6aa">Шлип</persName>, будет впредь
+          предостерегать <persName key="p0103" ref="4fcb3df0-8328-4918-a645-acb8669f4500">баварского
+          курфирста</persName>, от котораго получил он на сие кредитивныя грамоты, кои он по отъезде <persName
+            key="p0258" ref="18c3bc7f-661f-469c-aa07-bdaf2c8f77c3">господина фон Шваггелема</persName>
+          будет сам иметь честь представить его величеству.</p>
+        <p> ut in litteris</p>
+        <p>
+          <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">Петр Малцов</persName>
+        </p>
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_2088_0001</p>
+        <p>ru_rgada_1263_1_2089_0001</p>
+        <p>ru_rgada_1263_1_2090_0001</p>
+        <p>ru_rgada_1263_1_2090_0002</p>
+        <p>ru_rgada_1263_1_2092_0001</p>
+        <p>ru_rgada_1263_1_2093_0001</p>
+        <p>ru_rgada_1263_1_2093_0002</p>
+        <p>ru_rgada_1263_1_2093_0004</p>
+        <p>ru_rgada_1263_1_2102_0001</p>
+        <p>ru_rgada_1263_1_2104_0002</p>
+        <p>ru_rgada_1263_1_2093_0003</p>
+        <p>ru_rgada_1263_1_2102_0004</p>
+      </div>
+    </body>
+  </text>
+</TEI>

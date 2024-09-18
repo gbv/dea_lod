@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the letter from the minister of Russia in Courland, Baron Burckhard Alexius von Krüdener, to the vice-chancellor of the Russian Empire, Count Ivan Andreevich Osterman</title>
+        <title type="main" xml:lang="fr">Copie de la lettre de Mr. le B[aron] de Krüdener à S[on] Ex[cellence] Monseigneur le Comte d’Osterman de Mitau ce 19/30 May 1783</title>
+        <author xml:lang="en">Burckhard</author>
+        <author xml:lang="en">Alexius</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Krüdener</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>19/30 May 1783. – Copy of <persName key="p0577" ref="9a8247f4-c475-4416-a37e-db6aa744b5b2">the letter from the Minister of Russia to Courland, Baron Burckhard Alexius von Krüdener, </persName>to <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">the Vice-Chancellor of Russian Empire, Count Ivan Andreevich Osterman</persName>
+          </title>
+          <note>
+            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 859-860. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 859" />
+        <p />
+        <p>Copie de la lettre de <persName key="g0577">M[onseigneu]r. le B[aron] de Krüdener</persName> à S[on] Ex[cellence] Monseigneur <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">le Comte d’Osterman</persName> de <placeName key="g0042">Mitau</placeName> ce 19/30 May 1783.</p>
+        <p>Lorsque je fus informé de la nomination d’une commission de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName> pour arranger les affaires de Courlande, je me crus obligé d’en faire part à la noblesse du district de Pilten, qui n’ayant pour son administration aucune liaison avec celle du Duché de Courlande, releve immediatement du <persName key="p0862">Roi</persName> et de la République de Pologne. Je sommais ce district d’envoyer également à <placeName key="g0015">Riga</placeName> des deputés munis de pleinpouvoirs. Je fus obligé de reiterer cette sommation, n’ayant point eu de reponse dans l’espace de quinze jours. Le President du <orgName key="o0031" ref="44b838c3-3836-4542-a5b7-22171cad3df5">Conseil de Pilten</orgName>, <persName key="p1042">Mr de Sacken</persName>, me fit sur cela des excuses, en jettant la faute de ce retard sur un voyage, et m’assurant, que la noblesse alloit s’assembler incessamment pour delibrer sur ma proposition. Effectivement il est arrivé ici <persName key="p0424" ref="7bda72f8-cbf7-47cf-b361-7bf1f1ca2c9f">le Colonel de Heyking</persName>, député de ce district, pour faire compliment à <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Mr. le Comte de Woronzow</persName>. Il lui a dit, qu’il venoit comme interprete des sentimens respectueux de dévouement de la noblesse de Pilten pour <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName> et de son zele ardent d’aller au devant des volontés de cette grande Souveraine, mais que sa constitution ne lui permettoit pas d’entrer </p>
+        <pb n="f. 860" />
+        <p> dans aucune negociation avant d’y avoir été autorisée par <persName key="p0862">le roi de Pologne</persName>, leur maitre suzerain, auquel on venoit de s’adresser pour cela. <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">M[onseigneu]r. le comte de Woronzow</persName> lui a repondû, que l’arrangement proposé tendant à la tranquillité même de ces provinces, ils etoient les maitres d’y accéder, ou de ne pas y accéder, maisqu’il leur declaroit en même tems, qu’à la moindre injustice ou exaction de leur part, soit dans le cas de naufrage, ou en refusant de restituer les transfuges, ou de quelque autre maniere que ce fut <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté l’Impératrice</persName> feroit rendre justice Elle même à ses sujets par les moyens , qu’Elle tenoit sous sa main. Je sais, que cette insinuation a produit l’effet, qu’on m’enverra en peu des deputés chargés d’acceder à la Convention concluë avec le Duché de Courlande en autant qu’Elle peut regarder le district de Pilten et je supplie par conséquent Votre Excellence de m’autoriser à recevoir leur accession.</p>
+        <p>J’ai l’honneur d’etre avec l’attachement le plus respectueux etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

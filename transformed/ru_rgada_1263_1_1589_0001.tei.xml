@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Governor General of Eastern Prussia, Field Marshal General Hans von Lehwaldt to Lambert</title>
+        <author xml:lang="en">Hans</author>
+        <author xml:lang="en">von</author>
+        <author xml:lang="en">Lehwaldt</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>7 December 1756. – Letter from <persName key="p0091" ref="7d4bb5fe-c8cd-477d-933e-2fcd8456d354">Governor General of Eastern Prussia, Field Marshal General, Hans von Lehwaldt</persName> to <persName key="p0000">Lambert</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1589, f. 7–8. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 7" />
+        <p />
+        <p>Lettre de <persName key="p0091" ref="7d4bb5fe-c8cd-477d-933e-2fcd8456d354">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> de Lehwald</persName> au <persName key="p0000">S<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> Lambert</persName>.</p>
+        <p>
+          <persName key="p0339" ref="e4d82d83-31f0-42ac-aae7-ebd571a6fc77">M<hi rendition="#u">
+              <hi rendition="#sup">r </hi>
+            </hi>Reimers</persName> Resident à <placeName key="g0014">Danzig</placeName> vous fera tenir pour ce voyage 400 Leusen monnoye de Pologne, ou en Ducats. Vous irés droit à <placeName key="g0009">Varsovie</placeName> et y donnerés la lettre cy jointe à Nôtre Résident, <persName key="p0000">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> Benoit</persName> qui est deja averti de vôtre commission. vous agirés de concert avec lui pour trouver un bon moyen de faire parvenir à lui surement les lettres que Vous adresserez à moi, et il aura soin de me les faire tenir au plutôt qu’il sera possible.</p>
+        <p>1<hi rendition="#u">
+            <hi rendition="#sup">mo</hi>
+          </hi> Vous irés comme j’en ai deja fait mention à <placeName key="g0009">Varsovie</placeName> chez <persName key="p0000">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> Benoit</persName> pour prendre avec lui l'arrangement de la correspondence et de là Vous partirés au plutôt pour <placeName key="g0118">Minsk</placeName> et suivrés la route des Russiens.</p>
+        <p>2<hi rendition="#sup">o</hi>) La, vous prendrés bien vos mesure pour vous pouvoir garantir quelque tems et observes leurs demarches et dessins, s’ils veulent en effet marcher pour Silesie s’ils prenent la route de <placeName key="g0119">Knowno</placeName> pour s’y joindre à un autre Corps qu’ils attendent de Livonie; S’il se doit joindre aux autres ou venir nous attaquer en Prusse; je crois que Vous en pourrés être informé surement par les Commissaires Russiens qui se trouvent a <placeName key="g0118">Minsk</placeName>.</p>
+        <p>3<hi rendition="#u">
+            <hi rendition="#sup">o</hi>
+          </hi>) D’abord que Vous scaurés quelque chose de consequence vous en ecrirés et ferés tenir au plutôt les lettres à Mr Benoit{{p0000}} de la façon qu’il vous dira.</p>
+        <p>4<hi rendition="#u">
+            <hi rendition="#sup">o</hi>
+          </hi>) Vous prendrez bien garde de ne vous confier a personnes. d’être fort reservé, de ne faire trop de bruit de trouver un bon et vraisemblable pretexte de vôtre voyage pour Varsovie et de vôtre demeure à <placeName key="g0118">Minsk</placeName>, ou autre Endroits de la route des Russiens: de ne parler trop parceque l’on se decouvre par là sans le vouloir.</p>
+        <p>5<hi rendition="#u">
+            <hi rendition="#sup">o</hi>
+          </hi>) Vous ménagerés l’Argent du Roi{{p0061}} tant qu’il sera possible car vous coutés deja au delà de mille Ecus en peu de tems, et vous ferés un compte juste et exact des depenses.</p>
+        <p>Pour le reste M<hi rendition="#u">
+            <hi rendition="#sup">r</hi>
+          </hi>, je vou souhaite du bonheur et de la reussite de votre Com[m]ission: je ne doute nullement de votre promptitude et bonne volonté: Mais agissés sagement: j aurais soins de vous recom[m]ender à Sa M[ajes]<hi rendition="#u">
+            <hi rendition="#sup">té</hi>
+          </hi>{{p0061}} qui m’a envoyé votre Relation et me marquant qu’il n’attendoit plus de Lettres de Vous par rapport de l’incertitude de la Poste ainsi vous </p>
+        <pb n="f. 8" />
+        <p> n’ecrirés plus à Sa Majesté{{p0061}}. Je suis toujours, Monsieur</p>
+        <p>	</p>
+        <p>Votre tres humble Serviteur</p>
+        <p>
+          <persName key="p0091" ref="7d4bb5fe-c8cd-477d-933e-2fcd8456d354">de Lehwald</persName>.</p>
+        <p>
+          <placeName key="g0094">Königsberg</placeName> le</p>
+        <p>7. X<hi rendition="#sup">bre</hi>: 1756.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

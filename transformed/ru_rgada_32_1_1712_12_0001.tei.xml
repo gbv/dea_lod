@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Bohemian Royal Government to Tsar Peter I</title>
+        <author xml:lang="en">Bohemian Royal Government</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17 October 1712 (n.s.). – Letter from the <orgName key="o0066" ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Bohemian Royal Government</orgName> to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 32, opis 1, 1712, no. 12, f. 1–1v, 2. German original.</bibl>
+          </note>
+        </head>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p> Durchleuchtigst=Großmächtigster Groß=Czar p[erge]</p>
+        <p>Gnädigster Herr p[erge] Es haben <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Ihro Röm[ische] Kay[serliche] in Germanien, Hispanien, auch zu Hungarn und Boheimb Königl[ich]e May[estä]t Unser Allergnädigster Herr</persName> p[erge] auf eingeloffene nachricht, daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euere Groß=Czarische May[estä]t</persName> sich in das unter Unser <orgName key="o0066" ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Königl[ich]es Gouverno</orgName> gehörige Kayser <placeName key="g0215">Carlsbaad</placeName> zu verfügen, und alda die Cur zu gebrauchen gnädigst gesonnen wären, bey Uns allergnädigst verordnet, zu <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euer Czarischen May[estä]t</persName> daselbtiger bedienung, <persName key="p0689" ref="e3c6e40e-7f3f-42a5-bf9f-df4c1f4f3066">Ihro geheimben Rath, Cam[m]erern, Königl[iche]n Statthaltern, und grösern LandRechts beysitzern in diesem Erb KönigReich Böheimb, den Hoch und Wohlgebohrnen Frantz Ignatium Wratischlaw Graffen von Mitrowitz</persName>, herrn auf <placeName key="g0217">Schönwaldt</placeName>, <placeName key="g0218">Peterswaldt</placeName>, und <placeName key="g0219">Netlukh</placeName> p[erge] pro Com[m]issario abzuordnen, deme zu folge Er Sich dann auch dahin unverzüglich begaben, und deroselben mittler zeit das jenige, was der orth zu Ihro vergnüglichen accom[m]odation vermag, willfährigst anzutragen hat. Im übrigen thuen wegen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euer Groß Czarischen May[estä]t</persName> in dieses </p>
+        <pb n="f. 1v" />
+        <p> KönigReich gliklich beschehener ankunfft Wir alß Königl[ich]es Gouverno Uns hiemit hertzinniglich erfreyen, mit angeheffter treugehorsambsten anwünschung, womit diese angesinnte <placeName key="g0215">Baad Cur</placeName> deroselben zu langwührig= und beständigster gesundtheit angedeuen möge; Worbey zu beharrenden hulden und Gnaden Uns unterthänigst empfehlende, verbleiben.</p>
+        <p>Geben ob dem <placeName key="g0220">Königl[iche]n Prager Schloß</placeName> d[en] 17<hi rendition="#sup">ten</hi>. Octo[bris] A[nn]o 1712.</p>
+        <p>
+          <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euer Groß-Czarischen May[estä]t</persName>
+        </p>
+        <p>Unterthänigst gehorsambste</p>
+        <p>
+          <persName key="p0690" ref="727475cb-7250-441b-8bf1-4ec94311b225">J: Graff von Wrttby</persName>
+        </p>
+        <p>
+          <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Max g[raff] v[on] Kollowrat</persName>
+        </p>
+        <p>
+          <persName key="p0691" ref="cb895c21-8a6f-4ce6-a00e-47640713217c">  Hieronymus Graff Coloredo</persName>
+        </p>
+        <p>
+          <persName key="p0692" ref="0f005557-927d-40f2-9e0a-ec59c32b17e4">Johan Ernst graf Schaf:gotsche</persName>
+        </p>
+        <p>
+          <persName key="p0693" ref="62fd993a-7b09-4944-a8ca-0f347a1683a9">Frantz Joseph Graff Schlikh</persName>
+        </p>
+        <p>
+          <persName key="p0694" ref="c7443943-13b6-46db-8fd4-aa80e33e2688">Adolf graff von Martinitz</persName>
+        </p>
+        <p>
+          <persName key="p0695" ref="29732b7a-c8d2-49ab-9c17-e8bf82ef640c">Wentzl Ernst Markwart von Hradek</persName>
+        </p>
+        <p>
+          <persName key="p0696" ref="92d321a1-43c9-4ab9-be78-26b230728b70">Johan Hubert von Hartig</persName>
+        </p>
+        <p>[Along the left margin from bottom to top:] 4. <orgName key="o0066" ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Ческого правителства</orgName>. 712 окт[ября] 17.</p>
+        <p />
+        <pb n="f. 2" />
+        <p> Dem Durchleuchtigst=Großmächtigsten Grossen Herrn, Czaar und GroßFürsten des gantzen grossen, Kleinen, und weissen Reußlandes Selbsthaltern, zu Moscau, Kiow, Wolodimer, Novogrod, Czaar zu Casan, Astrachan, und Siberien, Herrn zu Pleßkow, Großfürsten zu Smolensko, Severien, Tweer, Jugoria, Permia, Wiatka, Bolgaria, Herrn und Groß=fürsten zu Novogrod des nidrigen Landes, zu Czernigow, Rezan, Rosdow, Jaroslau, Bialosera, Udoria, Obdoria, Condinia, undder gantzen Nordseiten Gebietern, Herrn des Iverischen, Cartalinischen, Grustinischen, und Carbartinischen Landes, der Cyrcassen und Gorischen fürsten, und anderer vieler Oest= Westlich= und Nordlichen Herrschafften, und Länder Vätter= und Groß=Vätterlichen Erben, auch Herrn, und Beherrschern ./.</p>
+        <p>
+          <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Groß=Czaarischen May[estä]t</persName>./.</p>
+        <p>[note:] Писмо от ческаго правителства{{o0066}} к его царскому. Подано в <placeName key="g0215">Карлсбаде</placeName> от <persName key="p0689" ref="e3c6e40e-7f3f-42a5-bf9f-df4c1f4f3066">Вратислава</persName> в 11 де[нь] октября 1712 и переведено.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

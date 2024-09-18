@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13 July 1803. – Letter from the Ambassador of Sardinia to Russia, Count Joseph de Maistre{{p1672}}, to the Chancellor of Russian Empire, Count Aleksandr Romanovich Vorontsov{{p0144}}</title>
+          <note>
+            <bibl />
+          </note>
+        </head>
+        <p>
+          <hi rendition="#i">OR RGB, fond 432, op. 1, no 42, f. 1-2. French copy.</hi>
+        </p>
+        <p />
+        <p />
+        <pb n="f. 1" />
+        <p />
+        <p>S.E.M. Le Comte </p>
+        <p>Woronzow Chancellier de</p>
+        <p>L’Empire </p>
+        <p />
+        <p> Le Soussigné, Envoyé extr[aordinai]<hi rendition="#sup">re </hi>Min[istre]. plén[ipotentia]<hi rendition="#sup">re</hi> de S[a]. M[ajesté]. S[arde]. a l’honneur de faire part à S[on]. E[xcellence]. M[onsieur]. le Chancelier de l’Empire qu’ensuite de la liberté accordée par le Bey de Tunis{{p1674}} aux esclaves Carolins réclamés par le Prém[ie].<hi rendition="#sup">r</hi> Consul de France{{p1420}} au nombre de 128, ce même Bey{{p1674}} s’étant encore déterminé à rendre la liberté à tous les autres (dont le Soussigné ignore le nombre précis, mais qui peut être de 600 environ) moyennant la somme de Cent-mille Piastres fortes, qu’un Négociant Sarde a fait compter sur le champ au Bey{{p1674}}, S[a]. M[ajesté]. le Roi de Sardaigne{{p1675}} quoiqu’elle ait déjà fait connoitre ses sentimens à M. le Chev[alie]<hi rendition="#sup">r</hi> de Lizakewich{{p0541}}, vient néanmoins de charger le Soussigné de porter directement ses justes remerciemens tant à S[a]. M[ajesté]. I[mpériale].{{p0897}} qu’à ses ministres qui ont bien voulu seconder ses bonnes intentions à cet égard. </p>
+        <p>S’il n’y a nulle indiscrétion à demander </p>
+        <pb n="f. 1v" />
+        <p> une audience à S[a]. M[ajesté]. I[mpériale].{{p0897}} pour cet objet, le Soussigné en fait la demande respectueuse. Dans le cas contraire, il s’acquitte de son devoir en suppliant S[on]. E[xcellence]. M[onsieu]r le Chancelier de l’Empire de vouloir bien être auprès de S[a]. M[ajesté]. I[mpériale].{{p0897}} l’interprète de toute la reconnaissance de S[a]. M[ajesté]. I[mpériale]{{p0897}}. Rien ne pouvoit être plus doux pour son cœur paternel que de voir un si grand nombre de ses sujets rendus à leur religion et à leur patrie ; et S[on]. E[xcellence]. M[onsieu]r le Comte de Woronzow qui avoit déjà tant de droits à l’estime et à la réconnaissance de S[a]. M[ajesté]. vient encore d’en acquérir de nouveaux en secondant les efforts généreux que S[a]. M[ajesté]. I[mpériale].{{p0897}} a bien voulu faire en faveur des infortunés Carolins, et sans lesquels Nous n’eussions jamais obtenu du Bey{{p1674}} des conditions aussi avantageuses ; puisque la somme de 100,000 Piastres ne forme qu’à-peu-près le tiers de celle que Nous avions été obligés d’offrir à une autre époque. </p>
+        <p>Si S[on]. E[xcellence]. M[onsieu]r le Chancelier de l’Empire </p>
+        <pb n="f. 2" />
+        <p> veut bien le permettre, le Soussigné saisira cette occasion de rappeler à sa bonté l’affaire des trois prises faites au mépris du Pavillon Russe ; en la priant à cet égard de la continuation de ses bons offices par l’entremise pleine de zele et d’humanité de M. Le Chev[alie].<hi rendition="#sup">r</hi> Italinski{{p2163}} à <placeName key="g0018">Constantinople</placeName>. </p>
+        <p>Il a l’honneur de présenter à S[on]. E[xcellence]. M[onsieu]r le Chanc[elie]<hi rendition="#sup">r</hi> de l’Empire l’hommage de ses sentimens les plus respectueux. </p>
+        <p />
+        <p>Le C[om]<hi rendition="#sup">te </hi> de Maistre </p>
+        <p />
+        <p>À S[ain]<hi rendition="#sup">t</hi>. Pétersbourg{{g0002}} le 13 Juillet </p>
+        <p>1803</p>
+      </div>
+    </body>
+  </text>
+</TEI>

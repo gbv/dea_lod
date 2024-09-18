@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Protocol for conferences held in the [Polish] Primate’s
+          Palace on [?] August 1763</title>
+        <title type="main" xml:lang="fr">Protocolle des conferences tenues dans le Palais du Primat
+          le [?] d’Aout 1763</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>August 1763. – Protocol for conferences held in the [Polish] Primate’s Palace on
+            [?] August 1763</title>
+          <note>
+            <bibl>Archivo General de Simancas, Estado, no. 6585, s. f. French copy.</bibl>
+          </note>
+        </head>
+        <p />
+        <p>Num 1<hi rendition="#sup">o</hi>
+        </p>
+        <p>Protocolle des conferences tenues dans le Palais du Primat le [?] d’Aout 1763.</p>
+        <p />
+        <p>En conformité de l’invitation faite par Leurs Altesse le Primat du Royaume{{p0996}} et le
+          Castellan de Cracovie Grand Général de la Couronne{{p1888}}; l’Ambassadeur Extraordinaire
+          et Plenipotentiaire de S[a] M[ajesté] Imp[éria]le de Russie{{p0281}} se rendit à l’heure
+          marquée au Palais de S[on] A[ltesse] le Primat{{p0996}}, qui a faite l’ouverture de cette
+          Conference de la Manière, qui suit : S[a] M[ajesté] l’Imperatrice de Russie{{p0033}} a
+          montré dès Son avenement au trône, qu’elle est penetrée de l’amour de la Paix, et pour
+          consequent du plus solide bonheur des Peuples d’une manière si convaincante, qu’il n’y a
+          aucun doute, que S[a] M[ajesté] Imp[éria]le{{p0033}} n’ait les mêmes sentimens pacifiques
+          vis-a-vis d’une Republique Voisine et Amie. Mais comme l’entrée de quelques Regimens
+          Russes en Lithuanie semble allarmer le [sic] Noblesse au point qu’il est à craindre, que
+          l’esprit de partie n’occasionné des Troubles dans la Republique. Leurs Altesses le Primat
+          du Royaume{{p0996}} et le Castellan de Cracovie Grand Général de la Couronne{{p1888}}
+          prient S[on] E[xcellence] l’Ambassadeur de Russie{{p0281}} d’employer ses soins, pour
+          prevenir ces malheurs de la Republique, pour moyenner le retour des dites Troupes Russes
+          qui se trouvent en Lithuanie par le chemin le plus court, et pour oter tout ce qui
+          pourroit causer de l’inquietude.</p>
+        <p>Sur cela S.E. l’Ambassadeur Extraordinaire et Plenipotentiaire de Russie{{p0281}} a fait
+          connoitre, ce qui suit:</p>
+        <p>Les raisons pour lesquelles Leurs Altesses se sont rendues ici ne sont pas moins louables
+          que necessaires. La desunion entre quelques familles est grande, et il paroit à craindre,
+          qu’elle n’eclate en une rupture et Confedération mais qui ignore cette verité Omne Regnum
+          in Se divisum desolabitur ces sortes des troubles sont dans la classe des choses, dont le
+          commencement est en notre pouvoir, et dont le reste s’en suit de soi même sans que ni la
+          prudence ni la force humaine en puissent arrêter les consequences. Pour prevenir un tel
+          malheur, Vos Altesses sont autorisées, non seulement par Leurs Charges et Dignités, mais
+          aussi par les propositions de S[a] M[ajesté] le Roi{{p0057}}, faites dans le dernier
+          Conseil du Senat{{o0108}}, pour conserver la tranquilité pendant Son Absense. Le Tribunal
+          de Vilna semble être une etincelle, qui couve sous la cendre, et celui qui doit se faire
+          dans le Pais de la Couronne pourroit bien occasionner un embrasement général. Dans ce cas
+          il pourroit bien arriver, que les Puissances Voisines ne regardassent par d’un œil
+          indifferent de tels événemens, par la raison que paries dum Proximi ardet. Qu’est ce qui
+          resulteroit de tout celà la ruine de plusieurs Millions d’innocens, et une Desolation
+          Generale.</p>
+        <p>Pour ce qui ce garde le Passage des Trouppes Russes, c’est un transitus innoxius, comme
+          cela est prouvé par la lettre de requisition du Maréchal Solticoff{{p2092}} au Grand
+          Général de Lithuanie{{p2097}}. Il est d’ailleurs connû, que cela se pratique tous les
+          jours entre les Puissances amies et Alliées. Neanmoins S.E. l’Ambassadeur Extraordinaire
+          et Plenipotentiaire de Russie{{p0281}} sachant le cas, que Sa très gracieuse
+          Souveraine{{p0033}} fait de l’amitié et de la conservation de la tranquilité de la
+          Republique, s’emploïera pour que les dites Trouppes retournent dans leur Païs par le
+          chemin le plus court et au plutôt, afin de calmer les esprits et d’oter tout l’ombrage,
+          qu’on en pourroit prendre.</p>
+        <p>Pour concourir à un but aussi salutaire, l’Ambassadeur de Russie ne doute point, que
+          Leurs Altesses, qui veillent à la tranquilité publique n’effectueront leur soins
+          Patriotiques.</p>
+        <p>) Que le Prince Radziwil{{p1075}} et le Tribunal n’accablent ni poursuivent de Decrets et
+          de Condemnats les Amis de la Russie, et ceux qui ont été contraries au dit Tribunal.</p>
+        <p>) Que les Decrets et Condemnats dont l’Execution a été remis Ad tempus benevisum n’aient
+          point lieu.</p>
+        <p>Par rapport au Tribunal de Petricau il est notoire que c’est un Tribunal, qui est
+          uniquement du ressort de la Noblesse. C’est pourquoi il est juste, qu’on lui laisse les
+          mains libres, afin qu’elle puisse elire sans aucune contraire Ses Deputés, et laisser
+          juger à ceux, à qui il appartien de la Legalité de l’Election, et des Deputés elûs.</p>
+        <p>Pour cet effet il est à propos qu’on eloigne toutes les Trouppes du lieu du tribunal et
+          qu’on n’y envoye que le nombre accoutûmé pour la garde. Comme tout cela est fondé sur les
+          Loix et la Constitution de la Republique, il est à croire, que chaque bon Patriote s’y
+          pretera de bon gré, et qu’il ne repugnera point aux Loix de sa Patrie. Et par là il est
+          clair, que si par qui que ce soit il avoit déja etoit pris quelque arrangement, à ce sujet
+          il faudroit rappeller les Trouppes qui pourroit donner de l’ombrage.</p>
+        <p>La dessus Leurs Altesses le Primat du Royaume{{p0996}} et le Castellan de Cracovie Grand
+          General de la Couronne{{p1888}} ont accepté avec reconnaissance la Declaration de la
+          sortie des Trouppes Russes et de Leur Côté ils employeront conformement aux devoirs de
+          leurs Charges tous les soins, pour que le repos et la tranqulité dans la Republique ne
+          soient troublés en aucune maniere. Comme M[onsei]g[neu]r le Vice Chancelier de la Couronne
+          fait part à Leurs Altesses d’un Memoire donné à M[onsieu]r l’Ambassadeur{{p0281}}, pour
+          lui notifier ministerialement la Nomination de S[a] M[ajesté] le Roi{{p0057}} des
+          Commissaires Polonois pour la Commission, que S[a] M[ajesté] Imp[éria]le{{p0033}} a eû la
+          bonté d’accorder pour le reglement et bonification des dommages causés par les Trouppes
+          dans le Païs, Leurs Altesses prient S[on] E[xcellence] M[onsieu]r l’Ambassad[eu]r{{p0281}}
+          de procurer de Sa <orgName key="o0008">Cour</orgName> la Nomination de M[essieu]rs le
+          Prince Putatin{{p2095}} et Colonel Putzchow{{p2096}}, qu’on souhaite d’avoir pour
+          Commissaires Russes, afin que la gracieuse Declaration de S[a] M[ajesté]
+          Imp[éria]le{{p0033}} ait son effet. </p>
+        <p>En suite de quoi on a expedié des Exemplaires signés de part et d’autre.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Letter from the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov,] from Moscow to [the Secretary of Russian Embassy in the Ottoman Porte,] Aleksei Andreevich Veshniakov, to Constantinople, written on August 22, 1732</title>
+        <title type="main" xml:lang="ru">В Константинополь к Алексею Андреевичю Вешнякову из Москвы от 22. августа 1732 году писано</title>
+        <author xml:lang="en">Ivan</author>
+        <author xml:lang="en">Andreevich</author>
+        <author xml:lang="en">Shcherbatov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>22 August 1732. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName key="g0001">Moscow</placeName> to [the Secretary of Russian Embassy in the Ottoman Porte,] Aleksei Andreevich Veshniakov<persName key="p0190" ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">, </persName>to <placeName key="g0018">Constantinople</placeName>, written on August 22, 1732</title>
+          <note>
+            <bibl>NLR Mss, fond Erm., no. 123-4, f. 305v–306v. Copy of Russian original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 305v" />
+        <p>В <placeName key="g0018">Константинополь</placeName> к Алексею Андреевичю Вешнякову{{p0190}} из <placeName key="g0001">Москвы</placeName> от 22. августа 1732 году писано</p>
+        <p>Бл[а]госклоннейшее в[а]ше г[о]с[у]д[а]ря моего писмо </p>
+        <pb n="f. 306" />
+        <p> от 22. июля последняго дошло ко мне здесь 15. сего августа, закоторое, также и за приятнейшия изображении я вам г[о]с[у]д[а]рю моему благодарствую. Чтож изволите незнамо для чего объявлять якобы я к вам в <placeName key="g0018">Константинополе</placeName> холодность мою показывал, и для того вы меня обегали, я на сие имею честь во ответ донесть что вы напрасно о холодности моей мните, и буде вы меня обегали, и то от воли в[а]шей Состояло, толкож о том Сожалею понеж чрез объявление обегания своего от меня подаете вид что с некакова намерения, или чьего застарело обыклаго или зло новоначинающаго проискателства ссор между нами, то чинено было, или н[ы]не чинится, однакож уповаю что вы по Своей твердой склонности ко мне, те проискателства буде б были нивочто инно вмените как вплевел; а на вас некому, и не мню чтоб кто возмогл что противного сказать понеже вы засвидетелствуете что всегда по своей ко мне давной любви поступали со мною усердно; Ежели же Сами о Себе инако помыслили или прямо пременны были я рад бы знать причину той премены дабы я возмогл показать себя пред вами невинна чрез оправдании мои, которые б могли вас удостоверить о непременном почтении моем с которым есм и пребуду etc.</p>
+        <p>PS: Je vous prie monsieur d’asseurer </p>
+        <pb n="f. 306v" />
+        <p> Son Excellence mad[a]me l’Ambassadrice de France{{p0800}}, et madame de Tallman{{p0801}} des mes tres humbles respects, et de les remercier de leurs souvenirs, Comme aussi Son Excellence mr: l’ambassadeur d’Angleterre{{p0194}} et les autres messieurs, qui se souvient [sic !] de moy. Les Complimens que je fais à mr: L’Internonce de Tallman{{p0802}} par la voye de mr: nôtre Resident{{p0189}}, je reitere icy en l’asseurant que je suis veritablement son serviteur; mes Complimens je vous prie à toute sa famille.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

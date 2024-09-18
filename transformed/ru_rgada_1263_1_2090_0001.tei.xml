@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Employee of the Russian Embassy in London, Petr Semenovich Mal'tsov to Vice-Сhancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Petr</author>
+        <author xml:lang="en">Semenovich</author>
+        <author xml:lang="en">Mal'tsov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>18/29 April 1763. – Letter from<persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091"> the employee of the Russian Embassy in London, Petr Semenovich Mal’tsov</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 2090, f. 1. French original with a remark in Russian.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 1" />
+        <p />
+        <p>получено 23 маия</p>
+        <p>Monseigneur!</p>
+        <p>	Je suplie très humblement Votre Excellence de vouloir bien me pardonner la liberté, que j’ai osé prendre de mettre sur son compte les débours, que j’ai fait pour <persName key="p1101">M<hi rendition="#u">
+              <hi rendition="#sup">r </hi>
+            </hi>Tatischef</persName> à qui j’envoye cet ordinaire une specification détaillée de tout ce qui m’a été avancé par <persName key="p0000">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> Thomson</persName>. Je connois trop Monseigneur, Votre générosité, pour ne pas me flatter de Votre gracieux pardon à cet égard.</p>
+        <p>	Votre Excellence me permettra bien encore de la suplier de vouloir bien ordoner au <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">college</orgName> d’envoyer ici Vos apointemens pour cette anée dans le courant du mois de may. Elle conoit trop ma situation, pour n’être pas persuadée de l’urgente nécessité, où je serai sans cela.</p>
+        <p>	J’ai l’honneur d’assurer Votre Excessence, que mon bonheur sera parfait, si Elle vouloit ne pas douter de mon zêle pour sa personne, ainsi que du profond respect avec lequel je me ferai gloire d’être sans cesse.</p>
+        <p>	Monseigneur!</p>
+        <p>De Votre Excellence,</p>
+        <p>Le très humble, très obeissant &amp; très </p>
+        <p>obligé serviteur <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">P[etr]. Malsof</persName>
+        </p>
+        <p>à <placeName key="g0003">Londres</placeName> ce 18./29 avril 1763./</p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_2088_0001</p>
+        <p>ru_rgada_1263_1_2089_0001</p>
+        <p>ru_rgada_1263_1_2090_0002</p>
+        <p>ru_rgada_1263_1_2091_0001</p>
+        <p>ru_rgada_1263_1_2092_0001</p>
+        <p>ru_rgada_1263_1_2093_0001</p>
+        <p>ru_rgada_1263_1_2093_0002</p>
+        <p>ru_rgada_1263_1_2093_0004</p>
+        <p>ru_rgada_1263_1_2102_0001</p>
+        <p>ru_rgada_1263_1_2104_0001</p>
+        <p>ru_rgada_1263_1_2104_0002</p>
+        <p>ru_rgada_1263_1_2093_0003</p>
+        <p>ru_rgada_1263_1_2102_0004</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Translation of the letter from the Empress of Russia
+          [Catherine II] to the castellan of Krakow Grand General of the Crown [Jan Klemens
+          Branicki]</title>
+        <title type="main" xml:lang="fr">Traduction de la lettre de L’Imperatrice de Russie ecrite a
+          Mgr. le Castellan de Cracovie Grand General de la Couronne</title>
+        <author xml:lang="en">Empress</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Catherine II</author>
+        <author xml:lang="en">Aleksandr</author>
+        <author xml:lang="en">Mikhailovich</author>
+        <author xml:lang="de">Голицын</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>[March-April 1764]. – Translation of a letter from the Empress of Russia [Catherine
+            II]{{p0033}} to the Castellan of Krakow, Grand General of the Crown [Jan Klemens
+            Branicki]{{p1888}}</title>
+          <note>
+            <bibl>Archivo General de Simancas, Estado, no. 6584, s. f. French copy.</bibl>
+          </note>
+        </head>
+        <p />
+        <p>Traduction de la lettre de L’Imperatrice de Russie{{p0033}} ecrite a Mgr. le Castellan de
+          Cracovie Grand General de la Couronne{{p1888}}</p>
+        <p />
+        <p>Monsieur le Castellan de Cracovie Grand General de la Couronne Comte Branicki{{p1888}}</p>
+        <p>Le decés inopiné du Roi votre maitre{{p0057}} dans la personne duquel nous regrettons
+          avec justice un voisin et un ami digne de notre estime, nous donne sujet de vous temoigner
+          tout le cas que nous faisons de vous.</p>
+        <p>Il ne peut echaper à vôtre propre pénetration que la circonstance presente est le moment
+          pour vous, et vos Compatriotes en general de montrer par les faits mêmes combien chacun de
+          vous est zelé pour le bien et la conservation de sa Patrie, en meme tems qu’elle et une
+          occasion aux Puissances étrangeres de manifester qu’elles sont leurs vraїes intentions et
+          dispositions envers elle.</p>
+        <p>Distingué parmi vos Citoiens par vôtre merite personnel, et par le dignité de la charge,
+          qui vous est confiée, vous avés plus de moÿens que d’autres en prevenant toute division
+          interieure de contribuer a procurer l’unanimité si necessaire dans tous les ordres de
+          l’Etat et nous sommes persuadées que vous les emploÿerés avec tout le zêle dont vous êtes
+          capables pour un aussi grand objet.</p>
+        <p>Pour nous par une suite d’un bon voisinage, et en considerant les interets naturels de
+          notre Empire qui en proviennent, et sont si etroitement unis avec la conservation de la
+          liberté de la Republ[ique] de Pologne; nous nous regardons avec plaisir comme obligées
+          d’employer a propos toutes les mesures, qui peuvent la maintenir inviolablement dans ses
+          precieuses prerogatives en assurant pour cet effet d’avance tous les bons Patriotes qui, a
+          la future élection d’un nouveau Roi, ne se conduisant point par aucun interêt personnel,
+          ne penseront uniquement qu’au maintien de l’ordre etabli par les loix et de la liberté des
+          voix,<hi rendition="#u"> tant de notre puissante protection et assistance, que de
+          l’intention </hi>
+          <hi rendition="#u">precise</hi>
+          <hi rendition="#u"> dans </hi>
+          <hi
+            rendition="#u">laq</hi>
+          <hi rendition="#u">uell</hi>
+          <hi rendition="#u"> [sic] nous sommes
+          de nous apposer à toutes tentations qui y </hi>
+          <hi rendition="#u">seroient</hi>
+          <hi
+            rendition="#u"> contraires. </hi>
+        </p>
+        <p>Nous ne doutons point que vous ne receviés  avec plaisir ces explications, et que par le
+          crédit que vous vous êtes acquis parmi la Noblesse, vous ne vous attachiés à les lui
+          présenter telles qu’elles sont en effet, scavoir avantageuses, et necessaires pour la
+          conservation des droits et prerogatives de la Republique s’il arrivoint, ce qu’à Dieu ne
+          plaise, qu’ils fussent exposés à quelques dangers. </p>
+        <p>Au reste en vous assurant personnellement de nôtre bienveillance, nous vous recommandons
+          à la protection divine. a S<hi rendition="#sup">t</hi>. <placeName key="g0002">Petersbourg</placeName>
+          ce 19/8 Octobre 1763. </p>
+        <p>Catherine{{p0033}} </p>
+        <p> Prince Alexandre Galitzin{{p0065}}.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

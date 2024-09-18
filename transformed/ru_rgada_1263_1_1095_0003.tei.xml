@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Councilor of the Russian Legation to The Hague, Friedrich Ulrich Gross, to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Friedrich</author>
+        <author xml:lang="en">Ulrich</author>
+        <author xml:lang="en">Gross</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 January 1762. – Letter from <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">the Councilor of the Russian Legation to The Hague, Friedrich Ulrich Gross</persName>, to the <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1095, f. 3–4v. French original.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 3" />
+        <p />
+        <p>Mon Prince.</p>
+        <p />
+        <p>Je com[m]encé par Vous remercier de Vos lettres du 15. et du 19. et surtout de la com[m]unication de la harangue du <persName key="p0161" ref="63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roi</persName>, dont les effets font la matiere de l’attente publique, d’autant plus que peut-etre on en sera eclairci, quels sont les alliés sur le concours desquels Sa Majesté{{p0161}} compte. Car quant aux <orgName key="o0017" ref="b0400cb7-f2c5-4ab9-9a44-5950db922b27">Etats Generaux</orgName>, il ne paroit pas que Leurs hautes Puissances ayent la moindre envie de prendre part à la guerre de la Grande Brettagne contre la Maison de Bourbon.</p>
+        <p>Au reste com[m]e je ne doute pas que le bruit qui a eté semé ici aujourd’hui sur une lettre que <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">Mr. le Prince Ferdinand</persName> à ecrite à Mr. Son frere <persName key="p0313" ref="38474357-1236-409c-987a-07669c8cf13d">le Prince Louis</persName>, au sujet du pretendu decès de notre <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">très auguste Souveraine</persName>, ne passe aussi chés Vous, </p>
+        <pb n="f. 3v" />
+        <p> je crois de mon devoir pour que Votre Excellence en soit moins allarmée, de Vous faire savoir que <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">le Prince Ferdinand</persName> n’a sû cette nouvelle que par la voye suspecte de <placeName key="g0095">Magdebourg</placeName>, ou l’on disoit l’avoir reçue de la Pomeranie, dans laquelle le corps de <persName key="p0124" ref="820f0254-6e50-437f-a3ae-b94f1140c8e3">Mr. de Roumanzow</persName> auroit deja proclamé son <persName key="p0115" ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">Altesse Imperiale M[onsei]g[neu]r le Grand Duc</persName>. Si cette derniere circonstance avoit eté vraye, nous en aurions dû avoir ce soir la confirmation par <placeName key="g0011">Hambourg</placeName>, d’où cependant, ni moi, ni <persName key="p0003" ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">Mr. d’Affry</persName>, nous n’en avons rien reçu, quoique nous soyons tous deux en correspondance reglée avec nos ministres respectifs. D’ailleurs com[m]e ce facheux evenement doit etre arrivé dès le 5. de </p>
+        <pb n="f. 4" />
+        <p> ce mois, par consequence, il y a 22. jours, nous en aurions pû avoir deja la nouvelle par <placeName key="g0005">Vien[n]e</placeName>, outre qu’il est à croire, que <persName key="p0085" ref="359a2a35-ed03-45ef-bbc7-63e6235a7887">Mr. Keith</persName> n’auroit pas manqué de depecher à sa cour le courier qu’il a auprès de lui, et que <persName key="p0000">Mr. Meinertshayen</persName> auroit profité de cette occasion pour ecrire en droiture à leurs hautes Puissances. Vû donc toutes ces considerations, je suis tenté de croire que la nouvelle est de l’invention de la fabrique Prussien[n]e, à fin d’engager par cette illusion l’angleterre à quelque nouvelle demarche en sa faveur, soit pour les subsides, soit pour autre chose : manoeuvre à la verité honteuse; mais dont l’experience a fait voir que la <orgName key="o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">cour de Prusse</orgName> est capable.</p>
+        <p />
+        <pb n="f. 4v" />
+        <p />
+        <p>J’ai l’honneur avec la consideration la plus distinguée	</p>
+        <p>Mon Prince</p>
+        <p>De Votre Excellence</p>
+        <p />
+        <p />
+        <p>à <placeName key="g0004">la Haye</placeName> le 26/15 Janv. 1762</p>
+        <p />
+        <p>le très humble et</p>
+        <p>très obeïssant serviteur</p>
+        <p>
+          <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">Gross</persName>.</p>
+        <p>[Heading on f. 4v:]</p>
+        <p>
+          <placeName key="g0004">La Haye</placeName> Le 15/26. jân<hi rendition="#u">
+            <hi rendition="#sup">r</hi>
+          </hi>
+        </p>
+        <p>1762.</p>
+        <p>
+          <persName key="g0076">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> de Gross</persName>.</p>
+        <p />
+        <p />
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_1095_0001</p>
+        <p>ru_rgada_1263_1_1095_0002</p>
+        <p>ru_rgada_1263_1_1095_0004</p>
+        <p>ru_rgada_1263_1_1095_0005</p>
+        <p>ru_rgada_1263_1_1100_0001</p>
+        <p>ru_rgada_1263_1_1100_0002</p>
+        <p>ru_rgada_1263_1_1100_0003</p>
+        <p>ru_rgada_1263_1_1100_0004</p>
+      </div>
+    </body>
+  </text>
+</TEI>
