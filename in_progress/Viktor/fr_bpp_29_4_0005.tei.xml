@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary of
@@ -73,7 +75,7 @@
         </publisher>
         <authority>MWS-Netzwerk Osteuropa</authority>
         <pubPlace>Bonn</pubPlace>
-        <date when="2024-07-10">10. Juli 2024</date>
+        <date when="2024-08-30">30. August 2024</date>
         <availability xml:id="availability-textsource-1" corresp="#textsource-1">
           <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
             <p>CC BY-SA 4.0</p>
@@ -95,19 +97,37 @@
       <sourceDesc>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
-  </teiHeader><text>
+  </teiHeader>
+  <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 February 1779. – Draft of the letter from <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador extraordinary of Russia to
-            the Polish-Lithuanian Commonwealth, Baron Otto Magnus von Stackelberg</persName>,<persName key="p1003" ref="d60b89af-da3e-4c00-9cb4-d2de903bb331"> to Princess Barbara Urszula
+          <title>6 February 1779. – Draft of the letter from <persName key="p0861"
+              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador extraordinary of Russia to
+            the Polish-Lithuanian Commonwealth, Baron Otto Magnus von Stackelberg</persName>,<persName
+              key="p1003" ref="d60b89af-da3e-4c00-9cb4-d2de903bb331"> to Princess Barbara Urszula
             Sanguszko</persName>
           </title>
-          <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 655-656. French original.</bibl>
+          <note>
+            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 655-656. French original.</bibl>
+          </note>
         </head>
-        <p/>
+        <pb n="f. 655" />
         <p>à <persName key="p1003" ref="d60b89af-da3e-4c00-9cb4-d2de903bb331">la Princesse
             Sanguszko</persName>, marechale douairiere de Lith[uanie] a <placeName key="g0288">
           Lewartow</placeName>
@@ -116,24 +136,29 @@
           <dateline><date when="1779-02-06">le 6 fevrier n[ouveau] st[yle] 1779</date>.</dateline>
           <salute>Madame </salute>
         </opener>
-        <p>Quoique le porteur de cette lettre <persName key="p1039" ref="68f2cec1-7cbb-4c11-8e0a-53cb30cd8098">M[onseigneur]. Leontowicz</persName> se loue
-          deja de la bonté avec laquelle V[otre] A[ltesse] a bien voulû le recevoir en lui
-          promettant de lui faire remettre <del>sans difficulté</del> la somme de quatre mille roubles, restée
-          entre ses mains après la mort de ci-devant de feu <persName key="p1040" ref="f310212f-2855-482c-ae53-b31ca8db7eb6">M[onseigneur]. Latuszewicz</persName> Eveque
-          de <placeName key="g0191">Wologda</placeName> et appartenant à ces aux successeurs de ce
-          Prelat ; ne pouvant je ne saurais cependant me dispenser de l’accompagner d’un mot de
-          recommandation pour V[otre] A[ltesse] je la prie très instamment en la suppliant de
-          vouloir bien ordonner à ses gens d’affaires de remettre au susdit M<hi key="p1039" ref="68f2cec1-7cbb-4c11-8e0a-53cb30cd8098">[onseigneur]. Leontowicz</hi> la dite somme
-          en question sans faire de difficulté et sans l’obliger de d’entreprendre encore un voyage
-          ici pour cette affaire. Me flattant que V[otre] A[ltesse] lui fera ressentir</p>
-        <p>
-          <strong>[[f.656]]</strong>
-        </p>
-        <p>les effets de mon intercession en sa faveur j’ai l’honneur d’être avec la considération la plus distinguée l’attachement le plus respectueux</p>
+        <p>Quoique le porteur de cette lettre <persName key="p1039" ref="68f2cec1-7cbb-4c11-8e0a-53cb30cd8098">M[onseigneur]. Leontowicz</persName>
+          se loue deja de la bonté avec laquelle V[otre] A[ltesse] a bien voulû le recevoir en lui
+          promettant de lui faire remettre <hi rendition="#s">sans difficulté</hi> la somme de
+          quatre mille roubles, restée entre ses mains après la mort de <hi rendition="#s">ci-devant</hi>
+          de feu <persName key="p1040" ref="f310212f-2855-482c-ae53-b31ca8db7eb6">M[onseigneur]. Latuszewicz</persName> Eveque de <placeName
+            key="g0191">Wologda</placeName> et appartenant <hi rendition="#s">à ces</hi> aux
+          successeurs de ce Prelat ; <hi rendition="#s">ne pouvant</hi> je ne saurais cependant me
+          dispenser de l’accompagner d’un mot de recommandation pour V[otre] A[ltesse] <hi
+            rendition="#s">je la prie très instamment</hi> en la suppliant de vouloir bien ordonner
+          à ses gens d’affaires de remettre au susdit <persName key="p1039"
+            ref="68f2cec1-7cbb-4c11-8e0a-53cb30cd8098">M[onseigneur]. Leontowicz</persName>
+          la <hi rendition="#s">dite</hi> somme en question sans faire de difficulté et sans
+          l’obliger <hi rendition="#s">de</hi> d’entreprendre encore un voyage ici pour cette
+          affaire. Me flattant que V[otre] A[ltesse] lui fera ressentir </p>
+        <pb n="f. 656" />
+        <p> les effets de mon intercession en sa faveur j’ai l’honneur d’être avec <hi
+            rendition="#s">la considération la plus distinguée</hi> l’attachement le plus
+          respectueux</p>
         <closer>
           <salute>Madame</salute>
           <salute>de V[otre] A[ltesse]</salute>
         </closer>
       </div>
     </body>
-  </text></TEI>
+  </text>
+</TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -75,7 +76,7 @@
         </publisher>
         <authority>MWS-Netzwerk Osteuropa</authority>
         <pubPlace>Bonn</pubPlace>
-        <date when="2024-07-10">10. Juli 2024</date>
+        <date when="2024-08-30">30. August 2024</date>
         <availability xml:id="availability-textsource-1" corresp="#textsource-1">
           <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
             <p>CC BY-SA 4.0</p>
@@ -97,39 +98,61 @@
       <sourceDesc>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 October 1763. – Copy of the letter from <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">the Electress of Saxony, Maria Antonia</persName>
+          <title>6 October 1763. – Copy of the letter from <persName key="p0098"
+              ref="868ef109-ce8b-4071-9951-ff22d08b1d98">the Electress of Saxony, Maria Antonia</persName>
             ,<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7"> to the Empress of
             Russia, Catherine II</persName>
           </title>
-	  <note>
-          	<bibl>Bibliothèque polonaise de Paris, fonds 29, no. 1, f. 2. French original.</bibl>
-	  </note>
+          <note>
+            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 1, f. 2. French original.</bibl>
+          </note>
         </head>
-        <p><pb n="f. 2" /></p>
-        <p>Copie d’une lettre à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
-          M[ajesté] Imperiale</persName> de <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">S[on] A[ltesse] R[oyale] l’Electrice de Saxe</persName>
-        </p>
+        <pb n="f. 2" />
+        <noteGrp>
+          <note>Copie d’une lettre à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
+            M[ajesté] Imperiale</persName> de <persName key="p0098"
+              ref="868ef109-ce8b-4071-9951-ff22d08b1d98">S[on] A[ltesse] R[oyale] l’Electrice de Saxe</persName>
+          </note>
+        </noteGrp>
         <opener>
-          <salute><persName ref="p0033">Madame</persName></salute>
+          <salute>
+            <persName ref="p0033">Madame</persName>
+          </salute>
         </opener>
         <p>
           <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">L’Electeur mon Epoux</persName>
           confie à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Votre Majesté</persName>
-          ses vuës sur la Couronne de Pologne, soufrés, que je me joigne à lui, pour vous assurer
-          <persName ref="p0033">Madame</persName>, d’un attachement inviolable, et d’une éternelle reconnoissance.</p>
+          ses vuës sur la Couronne de Pologne, soufrés, que je me joigne à lui, pour vous assurer <persName
+            ref="p0033">Madame</persName>, d’un attachement inviolable, et d’une éternelle
+          reconnoissance.</p>
         <p>Les vertus heroiques de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">V[otre]
           M[ajesté]</persName> ne m’inspirent point une admiration sterile ; Je desire de luy devoir
           tout, affin de placer ma gratitude d’une maniere qui satisfasse mon cœur, étant dès
           apresent et pour toutte ma vie avec autant de veneration, que d’attachement</p>
         <closer>
-          <salute><persName ref="p0033">Madame</persName></salute>
+          <salute>
+            <persName ref="p0033">Madame</persName>
+          </salute>
           <salute>de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Votre Majesté</persName>
           </salute>
           <salute>très humble servante</salute>
@@ -137,11 +160,14 @@
             <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">Marie Antoine</persName>
           </signed>
           <dateline>
-            <placeName key="g0013">Dresde</placeName> ce <date when="1763-10-06"> 6 octobre 1763</date>.</dateline>
+            <placeName key="g0013">Dresde</placeName> ce <date when="1763-10-06"> 6 octobre 1763</date>
+            .</dateline>
         </closer>
-        <p>Also see:</p>
-        <p>fr_bpp_29_1_0001</p>
-        <p>fr_bpp_29_1_0003</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>fr_bpp_29_1_0001</note>
+          <note>fr_bpp_29_1_0003</note>
+        </noteGrp>
       </div>
     </body>
   </text>
