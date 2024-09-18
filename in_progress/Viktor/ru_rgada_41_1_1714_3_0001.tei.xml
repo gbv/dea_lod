@@ -1,32 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Sample Document Title</title>
-			</titleStmt>
-			<publicationStmt>
-				<p />
-			</publicationStmt>
-			<sourceDesc sameAs="http://www.cwrc.ca">
-				<p>Created from original research by members of CWRC/CSÉC unless
-					otherwise noted.</p>
-			</sourceDesc>
-		</fileDesc>
-		<xenoData>
-			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1 October 1714. – Letter of <persName ref="p1383">Paolo Arcoleo</persName> to the
+          chancellor Count <persName ref="p0071">Gavrila Ivanovich Golovkin</persName>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc sameAs="http://www.cwrc.ca">
+        <p>Created from original research by members of CWRC/CSÉC unless
+          otherwise noted.</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -104,7 +186,7 @@
 }]]>
         </rdf:Description>
 
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -182,7 +264,7 @@
 }]]>
         </rdf:Description>
 
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -260,7 +342,7 @@
 }]]>
         </rdf:Description>
 
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -338,7 +420,7 @@
 }]]>
         </rdf:Description>
 
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -417,7 +499,7 @@
 }]]>
         </rdf:Description>
 
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -495,204 +577,205 @@
 	}
 }]]>
         </rdf:Description>
-			</rdf:RDF>
-		</xenoData>
-	</teiHeader>
-	<text>
-		<body>
-			<div>
-				<head>1 October 1714. – Letter of <persName ref="p1383">Paolo Arcoleo</persName> to
-					the chancellor Count <persName ref="p0071">Gavrila Ivanovich Golovkin</persName></head>
-				<opener>
-					<note>RGADA, fond 41, opis 1, 1714, no. 3, f. 1-2v. Russian translation; Italian
-						original: ibid., f. 3-4v.</note>
-					<pb cert="high" n="[[f. 1]]" xml:space="default" />
-					<salute>Перевод</salute>
-					<salute>Сиятелнейший и Превосходителнейший </salute>
-					<salute><persName cert="high" evidence="internal" full="yes" instant="unknown"
-							ref="p0071" xml:space="default">Граф, тайный советник Его Царского
-						Величества и Великий Канцлер Империи</persName>,</salute>
-					<salute><persName cert="high" evidence="internal" full="yes" instant="unknown"
-							ref="p0071" xml:space="default">Милостивый Государь</persName> !</salute>
-				</opener>
-				<p>Прошедшаго 27аго Сентября был я спрошен одним из вернейших секретарей <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0071"
-						xml:space="default">Вашего Превосходительства</persName> о некоторых
-					артикулах, содержащихся в бумаге представленной от Его Превосходительства <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p1381"
-						xml:space="default">Саввы Владиславича</persName> против меня секретаря <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p1383"
-						xml:space="default">Павла Арколея</persName>, преданнейшего слуги <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0071"
-						xml:space="default">Вашего Превосходительства</persName>. Не разумея Рускаго
-					языка и по худому изъяснению Итальянских выражений Господином переводчиком (к
-					утверждению моих оправданий), отговорился тем, что касательно артикула о
-					Монтенегре, я никому не могу открыться, кроме почтенной особы <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0071"
-						xml:space="default">Вашего Превосходительства</persName> и как Вы требуете
-					того на бумаге, то почитаю за долг, со всею покорностию Вам представить о том,
-					по справедливости, правосудию и долгу Християнскому.</p>
-				<p>И так я объявляю, что в помянутой бумаге содержатся дела бывшея прежде учиненной
-					мною 29аго числа прошедшаго ноября в <placeName key="Istanbul Istanbul Türkiye"
-						ref="https://geonames.org/745044">Константинополе</placeName>
-					Всемилостивейшему Моему <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0174" xml:space="default">Императору</persName>
-					присяге, перед Св. образом и Евангелием Спасителя Мира, и при священнике и
-					секретаре Его Превосходительства барона <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0494"
-						xml:space="default">Шафирова</persName>; а потому и не могу во всей точности
-					ответствовать на настоящия обвинения Его Превосходительства <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p1381"
-						xml:space="default">Саввы</persName>; ибо я при произведенном надо мною в <placeName
-						key="Rijeka Primorje-Gorski Kotar Croatia"
-						ref="https://geonames.org/3191648">Фиуме</placeName> следствии не только обо
-					всем ответствовал, но и дал точной отчет помянутому министру барону <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0494"
-						xml:space="default">Шафирову</persName>.</p>
-				<pb cert="high" n="[[f. 1v]]" xml:space="default" />
-				<p> Его Превосходительство барон <persName cert="high" evidence="internal"
-						full="yes" instant="unknown" ref="p0494" xml:space="default">Шафиров</persName>
-					при свидании его со мною, (также после того Его Превосходительство полномочной в
-					Вене министр <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0699" xml:space="default">Матфеев</persName>)
-					уверили меня в милости <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0174" xml:space="default">Его Царского Величества</persName>,
-					требуя от меня того, чтоб я по прежнему служил верно, усердно и ревностно.</p>
-				<p>Я был отправлен в <placeName key="Wien Vienna Austria"
-						ref="https://geonames.org/2761367">Вену</placeName>, где я получил патент на
-					секретарской чин, с почтенными <persName cert="high" evidence="internal"
-						full="yes" instant="unknown" ref="p0071" xml:space="default">Вашего
-					Превосходительства</persName> предписаниями, которыми Вы уверяли меня в милости <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Его Царского Величества</persName> моего <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Всемилостивейшаго Государя</persName>, и в вящших
-					награждениях (по причине моего подданства) в разсуждении определеннаго мне
-					жалования по 400 ефимок в год, с приказанием при том оставаться мне там под
-					ведением Его Превосходительства полномочнаго министра <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0699"
-						xml:space="default">Матвеева</persName>.</p>
-				<p>Я жил в <placeName key="Wien Vienna Austria" ref="https://geonames.org/2761367 ">
-					Вене</placeName> 5 месяцов, и во все сие время непрестанно служил Их
-					Превосходительствам Министрам константинопольским, также и венским, во всем том
-					что от них мне приказано было, сохраняя верность и послушание, которыми обязан
-					вернейший слуга <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0174" xml:space="default">Его Царского Величества</persName>
-					.</p>
-				<p><persName cert="high" evidence="internal" full="yes" instant="unknown"
-						ref="p0071" xml:space="default">Ваше Превосходительство</persName> (спустя
-					восемь месяцев после моей присяги) приказали Его Превосходительству <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0699"
-						xml:space="default">Матвееву</persName> сообщить мне, с надлежащею тайности,
-					некоторыя публичныя дела, касающияся до союза, котораго искала Венецианская
-					Республика с моим <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0174" xml:space="default">Государем</persName>,
-					почему и должен был я ехать к сему <orgName ref="o0008">двору</orgName>.</p>
-				<p>Его Превосходительство <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0699" xml:space="default">Матвеев</persName>
-					исполнил то, что ему было приказано. Он вручил мне письмо <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0071"
-						xml:space="default">Вашего Превосходительства</persName> с деньгами
-					посланны- </p>
-				<pb cert="high" n="[[f. 2]]" xml:space="default" />
-				<p> ми для сего путешествия, обнадежив меня в том, что я при Императорском дворе
-					буду гораздо щастливее.</p>
-				<p>Я не преминул тот час повиноваться почтенным повелениям <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0071"
-						xml:space="default">Вашего Превосходительства</persName> оставя сына моего у
-					трактирщика залогом в двух стах рублях, которыми был я ему должен.</p>
-				<p>Теперь же, находясь при дворе, вижу что с собою совсем противно; и хотя <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0071"
-						xml:space="default">Ваше Превосходительство</persName> вознамерились таким
-					образом обмануть меня в угодность Его Превосходительству <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p1381"
-						xml:space="default">Савве</persName>: однако не можете обмануть Бога,
-					видящаго тайныя сокровенности сердец человеческих.</p>
-				<p>Я никогда не поверю чтобы <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0071" xml:space="default">Ваше Превосходительство</persName>
-					(боясь Бога, будучи исполнены милости и правил Християнских) захотели утеснить
-					беднаго человека, которой всегда старался служить <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Всемилостивешейму Монарху</persName> с крайнею
-					ревностию, с чрезвычайною привязанностию, и со всею возможною верностию,
-					употребив лживыя предлоги, которыя строго наказываются перед страшным судилищем
-					Вечнаго Судии, и служат худым примером и поношением всему свету, в особенности
-					же нещастной Греческой нации, столь ненавидимой Латинцами и преследуемой
-					турками, которая всю свою надежду имеет во первых на Бога, а потом на сего <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Православного Императора</persName>, чрез котораго
-					Всевышний да благоволит освободить оную от ига варварскаго.</p>
-				<p>Я покорнейше прошу <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0071" xml:space="default">Ваше Превосходительство</persName>
-					обратить ваши взоры на небо, и подумать о бывших мне гонениях; о бедности, до
-					которой довели меня мои противники; о бедствиях, в которых теперь нахожусь, и о
-					нещастиях и опасностях, которым подвержены мои стенящия дети, которыя просят
-					помилования от <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p0174" xml:space="default">Его Царскаго Величества</persName>
-					и мщения от Бога.</p>
-				<p>Впрочем, <persName cert="high" evidence="internal" full="yes" instant="unknown"
-						ref="p0071" xml:space="default">Ваше Превосходительство</persName>, да
-					удостоите</p>
-				<pb cert="high" n="[[f. 2v]]" xml:space="default" />
-				<p>их снисходительностию к их нещастиям и утешите их моим освобождением и тем будете
-					удостоверены в получении от Бога награду, как в здешней жизни, так и в вечной
-					славе; иначе естьли мой патрон (я говорю об Апостоле Павле) принес жалобу Цесарю
-					Римскому, буду я принужден приносуть [sic !] жалобу <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Царю Российскому</persName>, одушевляясь надеждою, что
-					Его <persName cert="high" evidence="internal" full="yes" instant="unknown"
-						ref="p0174" xml:space="default">Величество Всемилостивейший Император</persName>
-					сдержит слово данное мне посредством его вернейших министров; как то видно из
-					патентов и писем их, что все находится в сундуке, запечатанном секретарем <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384"
-						xml:space="default">Курбатовым</persName>, где также находятся и другие
-					патенты, бумаги, законы, решения и отпуски писем публичных, писанных мною,
-					сочиненных, представленных и наблюдаемых в то время, как я находился в службе
-					Венецианской; также и отпуски писем посланных к министрам <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Его Цар[ского]. Вел[ичества]</persName>. бумаги им же
-					представленныя, которыя никак не должны быть сообщены или выданы упомянутому Его
-					Превосходительству <persName cert="high" evidence="internal" full="yes"
-						instant="unknown" ref="p1381" xml:space="default">Савве</persName> моему
-					противнику и гонителю.</p>
-				<p>Тут же еще 4 книги историческия, 3 медицинския; тарифы о жаловании служащим в
-					Венециянской флоте; одна книга о правлении оной же Республики, которую я хотел
-					исправить от многих погрешностей, сделанных автором, который не был совершенно
-					сведущ во всех судилищах, обыкновенных и чрезвычайных должностях Левантских, во
-					флоте, в экономии, в доходах. Сию книгу я хотел поднести моему <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Государю</persName>.</p>
-				<p>Естьли же <persName cert="high" evidence="internal" full="yes" instant="unknown"
-						ref="p0071" xml:space="default">Ваше Превосходительство</persName> хотите
-					обо всем узнать; то можете послать взять следственное дело из <placeName
-						key="Rijeka Primorje-Gorski Kotar Croatia"
-						ref="https://geonames.org/3191648">Фиума</placeName>, где найдете разныя
-					обвинения совершенно ложныя, которыя безсовестно и без страха Божия взнесены
-					были на меня; также от Его Превосходительства барона <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0494"
-						xml:space="default">Шафирова</persName> можете получить точную реляцию о
-					моих поступках.</p>
-				<p>Наконец должно сохранить уверения данныя мне при вступлении в сию почтенную
-					службу, тем более что основываюсь на данных мне патентах. По сим уверениям я
-					надеюсь, что призванная милость правосудие <persName cert="high"
-						evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Его Цар[ского]. Вел[ичества]</persName>. будут в
-					разсуждении меня сохранены, повинуясь во всем высоким повелениям <persName
-						cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
-						xml:space="default">Его Вел[ичества]</persName>. непременно остаюсь</p>
-				<closer>
-					<dateline><placeName key="Sankt-Peterburg St.-Petersburg Russia"
-							ref="https://geonames.org/536203">С. Петербург</placeName> 1<date>714
-						года октяб[ря] 1 дня</date></dateline>
-					<salute>
-						<persName cert="high" evidence="internal" full="yes" instant="unknown"
-							ref="p0071" xml:space="default">Вашего Превосходительства</persName>
-					</salute>
-					<salute>из под ареста покорнейшим вернейшим и преданнейшим</salute>
-					<signed>слугою <persName cert="high" evidence="internal" full="yes"
-							instant="unknown" ref="p1383" xml:space="default">Павел Арколео</persName></signed>
-				</closer>
-			</div>
-		</body>
-	</text>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <title> 1 October 1714. – Letter of <persName ref="p1383">Paolo Arcoleo</persName> to the
+            chancellor Count <persName ref="p0071">Gavrila Ivanovich Golovkin</persName>
+          </title>
+        </head>
+        <opener>
+          <note>
+            <bibl>RGADA, fond 41, opis 1, 1714, no. 3, f. 1-2v. Russian translation; Italian
+              original: ibid., f. 3-4v.</bibl>
+          </note>
+          <pb cert="high" n="f. 1" xml:space="default" />
+          <salute>Перевод</salute>
+          <salute>Сиятелнейший и Превосходителнейший </salute>
+          <salute><persName cert="high" evidence="internal" full="yes" instant="unknown"
+              ref="p0071" xml:space="default">Граф, тайный советник Его Царского
+              Величества и Великий Канцлер Империи</persName>,</salute>
+          <salute><persName cert="high" evidence="internal" full="yes" instant="unknown"
+              ref="p0071" xml:space="default">Милостивый Государь</persName> !</salute>
+        </opener>
+        <p>Прошедшаго 27аго Сентября был я спрошен одним из вернейших секретарей <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0071"
+            xml:space="default">Вашего Превосходительства</persName> о некоторых артикулах,
+          содержащихся в бумаге представленной от Его Превосходительства <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p1381"
+            xml:space="default">Саввы Владиславича</persName> против меня секретаря <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p1383"
+            xml:space="default">Павла Арколея</persName>, преданнейшего слуги <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0071"
+            xml:space="default">Вашего Превосходительства</persName>. Не разумея Рускаго языка и по
+          худому изъяснению Итальянских выражений Господином переводчиком (к утверждению моих
+          оправданий), отговорился тем, что касательно артикула о Монтенегре, я никому не могу
+          открыться, кроме почтенной особы <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0071"
+            xml:space="default">Вашего Превосходительства</persName> и как Вы требуете того на
+          бумаге, то почитаю за долг, со всею покорностию Вам представить о том, по справедливости,
+          правосудию и долгу Християнскому.</p>
+        <p>И так я объявляю, что в помянутой бумаге содержатся дела бывшея прежде учиненной мною
+          29аго числа прошедшаго ноября в <placeName key="Istanbul Istanbul Türkiye"
+            ref="https://geonames.org/745044">Константинополе</placeName> Всемилостивейшему Моему <persName
+            cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p0174" xml:space="default">Императору</persName> присяге, перед
+          Св. образом и Евангелием Спасителя Мира, и при священнике и секретаре Его
+          Превосходительства барона <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0494"
+            xml:space="default">Шафирова</persName>; а потому и не могу во всей точности
+          ответствовать на настоящия обвинения Его Превосходительства <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p1381"
+            xml:space="default">Саввы</persName>; ибо я при произведенном надо мною в <placeName
+            key="Rijeka Primorje-Gorski Kotar Croatia"
+            ref="https://geonames.org/3191648">Фиуме</placeName> следствии не только обо всем
+          ответствовал, но и дал точной отчет помянутому министру барону <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0494"
+            xml:space="default">Шафирову</persName>.</p>
+        <pb cert="high" n="f. 1v" xml:space="default" />
+        <p> Его Превосходительство барон <persName cert="high" evidence="internal"
+            full="yes" instant="unknown" ref="p0494" xml:space="default">Шафиров</persName> при
+          свидании его со мною, (также после того Его Превосходительство полномочной в Вене министр <persName
+            cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p0699" xml:space="default">Матфеев</persName>) уверили меня в
+          милости <persName cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p0174" xml:space="default">Его Царского Величества</persName>,
+          требуя от меня того, чтоб я по прежнему служил верно, усердно и ревностно.</p>
+        <p>Я был отправлен в <placeName key="Wien Vienna Austria"
+            ref="https://geonames.org/2761367">Вену</placeName>, где я получил патент на
+          секретарской чин, с почтенными <persName cert="high" evidence="internal"
+            full="yes" instant="unknown" ref="p0071" xml:space="default">Вашего
+            Превосходительства</persName> предписаниями, которыми Вы уверяли меня в милости <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Его Царского Величества</persName> моего <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Всемилостивейшаго Государя</persName>, и в вящших награждениях (по
+          причине моего подданства) в разсуждении определеннаго мне жалования по 400 ефимок в год, с
+          приказанием при том оставаться мне там под ведением Его Превосходительства полномочнаго
+          министра <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0699"
+            xml:space="default">Матвеева</persName>.</p>
+        <p>Я жил в <placeName key="Wien Vienna Austria" ref="https://geonames.org/2761367 ">
+            Вене</placeName> 5 месяцов, и во все сие время непрестанно служил Их Превосходительствам
+          Министрам константинопольским, также и венским, во всем том что от них мне приказано было,
+          сохраняя верность и послушание, которыми обязан вернейший слуга <persName cert="high"
+            evidence="internal" full="yes"
+            instant="unknown" ref="p0174" xml:space="default">Его Царского Величества</persName> .</p>
+        <p><persName cert="high" evidence="internal" full="yes" instant="unknown"
+            ref="p0071" xml:space="default">Ваше Превосходительство</persName> (спустя восемь
+          месяцев после моей присяги) приказали Его Превосходительству <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0699"
+            xml:space="default">Матвееву</persName> сообщить мне, с надлежащею тайности, некоторыя
+          публичныя дела, касающияся до союза, котораго искала Венецианская Республика с моим <persName
+            cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p0174" xml:space="default">Государем</persName>, почему и должен
+          был я ехать к сему <orgName ref="o0008">двору</orgName>.</p>
+        <p>Его Превосходительство <persName cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p0699" xml:space="default">Матвеев</persName> исполнил то, что
+          ему было приказано. Он вручил мне письмо <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0071"
+            xml:space="default">Вашего Превосходительства</persName> с деньгами посланны- </p>
+        <pb cert="high" n="f. 2" xml:space="default" />
+        <p> ми для сего путешествия, обнадежив меня в том, что я при Императорском дворе
+          буду гораздо щастливее.</p>
+        <p>Я не преминул тот час повиноваться почтенным повелениям <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0071"
+            xml:space="default">Вашего Превосходительства</persName> оставя сына моего у трактирщика
+          залогом в двух стах рублях, которыми был я ему должен.</p>
+        <p>Теперь же, находясь при дворе, вижу что с собою совсем противно; и хотя <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0071"
+            xml:space="default">Ваше Превосходительство</persName> вознамерились таким образом
+          обмануть меня в угодность Его Превосходительству <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p1381"
+            xml:space="default">Савве</persName>: однако не можете обмануть Бога, видящаго тайныя
+          сокровенности сердец человеческих.</p>
+        <p>Я никогда не поверю чтобы <persName cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p0071" xml:space="default">Ваше Превосходительство</persName>
+          (боясь Бога, будучи исполнены милости и правил Християнских) захотели утеснить беднаго
+          человека, которой всегда старался служить <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Всемилостивешейму Монарху</persName> с крайнею ревностию, с
+          чрезвычайною привязанностию, и со всею возможною верностию, употребив лживыя предлоги,
+          которыя строго наказываются перед страшным судилищем Вечнаго Судии, и служат худым
+          примером и поношением всему свету, в особенности же нещастной Греческой нации, столь
+          ненавидимой Латинцами и преследуемой турками, которая всю свою надежду имеет во первых на
+          Бога, а потом на сего <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Православного Императора</persName>, чрез котораго Всевышний да
+          благоволит освободить оную от ига варварскаго.</p>
+        <p>Я покорнейше прошу <persName cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p0071" xml:space="default">Ваше Превосходительство</persName>
+          обратить ваши взоры на небо, и подумать о бывших мне гонениях; о бедности, до которой
+          довели меня мои противники; о бедствиях, в которых теперь нахожусь, и о нещастиях и
+          опасностях, которым подвержены мои стенящия дети, которыя просят помилования от <persName
+            cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p0174" xml:space="default">Его Царскаго Величества</persName> и
+          мщения от Бога.</p>
+        <p>Впрочем, <persName cert="high" evidence="internal" full="yes" instant="unknown"
+            ref="p0071" xml:space="default">Ваше Превосходительство</persName>, да удостоите</p>
+        <pb cert="high" n="f. 2v" xml:space="default" />
+        <p>их снисходительностию к их нещастиям и утешите их моим освобождением и тем будете
+          удостоверены в получении от Бога награду, как в здешней жизни, так и в вечной славе; иначе
+          естьли мой патрон (я говорю об Апостоле Павле) принес жалобу Цесарю Римскому, буду я
+          принужден приносуть [sic !] жалобу <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Царю Российскому</persName>, одушевляясь надjеждою, что Его <persName
+            cert="high" evidence="internal" full="yes" instant="unknown"
+            ref="p0174" xml:space="default">Величество Всемилостивейший Император</persName> сдержит
+          слово данное мне посредством его вернейших министров; как то видно из патентов и писем их,
+          что все находится в сундуке, запечатанном секретарем <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p1384"
+            xml:space="default">Курбатовым</persName>, где также находятся и другие патенты, бумаги,
+          законы, решения и отпуски писем публичных, писанных мною, сочиненных, представленных и
+          наблюдаемых в то время, как я находился в службе Венецианской; также и отпуски писем
+          посланных к министрам <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Его Цар[ского]. Вел[ичества]</persName>. бумаги им же
+          представленныя, которыя никак не должны быть сообщены или выданы упомянутому Его
+          Превосходительству <persName cert="high" evidence="internal" full="yes"
+            instant="unknown" ref="p1381" xml:space="default">Савве</persName> моему противнику и
+          гонителю.</p>
+        <p>Тут же еще 4 книги историческия, 3 медицинския; тарифы о жаловании служащим в
+          Венециянской флоте; одна книга о правлении оной же Республики, которую я хотел исправить
+          от многих погрешностей, сделанных автором, который не был совершенно сведущ во всех
+          судилищах, обыкновенных и чрезвычайных должностях Левантских, во флоте, в экономии, в
+          доходах. Сию книгу я хотел поднести моему <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Государю</persName>.</p>
+        <p>Естьли же <persName cert="high" evidence="internal" full="yes" instant="unknown"
+            ref="p0071" xml:space="default">Ваше Превосходительство</persName> хотите обо всем
+          узнать; то можете послать взять следственное дело из <placeName
+            key="Rijeka Primorje-Gorski Kotar Croatia"
+            ref="https://geonames.org/3191648">Фиума</placeName>, где найдете разныя обвинения
+          совершенно ложныя, которыя безсовестно и без страха Божия взнесены были на меня; также от
+          Его Превосходительства барона <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0494"
+            xml:space="default">Шафирова</persName> можете получить точную реляцию о моих поступках.</p>
+        <p>Наконец должно сохранить уверения данныя мне при вступлении в сию почтенную службу, тем
+          более что основываюсь на данных мне патентах. По сим уверениям я надеюсь, что призванная
+          милость правосудие <persName cert="high"
+            evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Его Цар[ского]. Вел[ичества]</persName>. будут в разсуждении меня
+          сохранены, повинуясь во всем высоким повелениям <persName
+            cert="high" evidence="internal" full="yes" instant="unknown" ref="p0174"
+            xml:space="default">Его Вел[ичества]</persName>. непременно остаюсь</p>
+        <closer>
+          <dateline><placeName key="Sankt-Peterburg St.-Petersburg Russia"
+              ref="https://geonames.org/536203">С. Петербург</placeName> 1<date>714
+              года октяб[ря] 1 дня</date></dateline>
+          <salute>
+            <persName cert="high" evidence="internal" full="yes" instant="unknown"
+              ref="p0071" xml:space="default">Вашего Превосходительства</persName>
+          </salute>
+          <salute>из под ареста покорнейшим вернейшим и преданнейшим</salute>
+          <signed>слугою <persName cert="high" evidence="internal" full="yes"
+              instant="unknown" ref="p1383" xml:space="default">Павел Арколео</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>
