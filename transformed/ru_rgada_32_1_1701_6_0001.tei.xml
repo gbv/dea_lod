@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Memorial from the Imperial Ambassador to Russia, Ignatius Christophor Guarient, to the Russian Chancellor, Count Fedor Alekseevich Golovin</title>
+        <title type="main" xml:lang="en">Memorial from the Imperial Ambassador to Russia, Ignatius
+          Christophor Guarient, to the Russian Chancellor, Count Fedor Alekseevich Golovin</title>
         <author xml:lang="en">Ignatius</author>
         <author xml:lang="en">Christophor</author>
         <author xml:lang="en">Guarient</author>
@@ -91,42 +93,113 @@
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
       <sourceDesc>
-            </sourceDesc>
+      </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
-        </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>19 November 1701. – Memorial from <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">the Imperial Ambassador to Russia,</persName>
-            <persName key="p0821">Ignatius Christophor Guarient,</persName> to <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian Chancellor, Count Fedor Alekseevich Golovin</persName>
+          <title>19 November 1701. – Memorial from <persName key=""
+              ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">the Imperial Ambassador to Russia,</persName>
+            <persName
+              key="p0821">Ignatius Christophor Guarient,</persName> to <persName key="p0277"
+              ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian Chancellor, Count Fedor
+            Alekseevich Golovin</persName>
           </title>
           <note>
-            <bibl/>
+            <bibl>RGADA, fond 53, opis 1, 1701, no. 6, f. 1–2. Latin original.</bibl>
+            <bibl>Translation from Latin into Russian: RGADA, fond 53, opis 1, 1701, no. 6, f. 3–6,
+              f. 7–8v.</bibl>
           </note>
         </head>
-        <p>RGADA, fond 53, opis 1, 1701, no. 6, f. 1–2. Latin original. </p>
-        <p>Translation from Latin into Russian: RGADA, fond 53, opis 1, 1701, no. 6, f. 3–6, f. 7–8v.</p>
-        <p/>
-        <pb n="f. 1"/><p> Illustrissime ac Excellentissime Domine Domine</p>
+        <pb n="f. 1" />
+        <p> Illustrissime ac Excellentissime Domine Domine</p>
         <p>Patrone Gratiosissime p[erge].</p>
-        <p>Pro debito meæ obligationis officio curabam, ut, cūm me locorum intervallum ab ulterioribus obsequys removisset, devoto saltem calamo meam erga suam Excell[enti]a[m] observantiam debitō cum respectu contestarer. Prona quidem voluntas non defuit, sed sinistrum nimis fatum cum summo meo dolore |:utī ā <persName key="p0672" ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">D[omi]no Pleyer</persName> habeo:| contigit, ut nihil Litterarum pro voto meo Excell[enti]æ v[es]t[r]æ redderetur, spe tamen hac superstite, fore videlicet, ūt hactenūs nullæ, felicius multiplicatæ succedant, et monumentum aliquod continuum supersit vetera beneficia et Czareas acceptas gratias recolentis, qui velutī suæ Excell[enti]æ, sic etiam Czareæ Ma[jes]tt[at]i devinctissimus quantum debeo, solā memoriā non contentus munificentiam et alis innumentas <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Czareæ Ma[jes]tt[at]is dotes Augustissimo Imperatori</persName> quām Submissimē aperui, vivaq[ue] voce exaltavi, ut pateret, quantum mille titulis obæratus essem, et quantum anim[us] meus conaretur. Astdoleo, qūod cum <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Principe Gallazinio</persName> nullum mihi com[m]ercium, nulla familiaritas, nullaq[ue] desiderata correspondentia in hisce partibus hucusq[ue] vel in minimo intercedat, Licēt eidem primo huuis vrbis aditu devotum meorum obsequiorum homagium obtulerim, eidem cum syncerissima animi devotione operam meam navaturus, quantum autem hucusq[ue] colligere potui, magīs ad famam et utilitatem suorum negotiorum contulisset, si Princeps cum <persName key="p0000">Cæsareo Bellico Consiliario et Extraordinario</persName>
+        <p>Pro debito meæ obligationis officio curabam, ut, cūm me locorum intervallum ab
+          ulterioribus obsequys removisset, devoto saltem calamo meam erga suam Excell[enti]a[m]
+          observantiam debitō cum respectu contestarer. Prona quidem voluntas non defuit, sed
+          sinistrum nimis fatum cum summo meo dolore |:utī ā <persName key="p0672"
+            ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">D[omi]no Pleyer</persName> habeo:| contigit,
+          ut nihil Litterarum pro voto meo Excell[enti]æ v[es]t[r]æ redderetur, spe tamen hac
+          superstite, fore videlicet, ūt hactenūs nullæ, felicius multiplicatæ succedant, et
+          monumentum aliquod continuum supersit vetera beneficia et Czareas acceptas gratias
+          recolentis, qui velutī suæ Excell[enti]æ, sic etiam Czareæ Ma[jes]tt[at]i devinctissimus
+          quantum debeo, solā memoriā non contentus munificentiam et alis innumentas <persName
+            key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Czareæ Ma[jes]tt[at]is dotes
+          Augustissimo Imperatori</persName> quām Submissimē aperui, vivaq[ue] voce exaltavi, ut
+          pateret, quantum mille titulis obæratus essem, et quantum anim[us] meus conaretur.
+          Astdoleo, qūod cum <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Principe
+          Gallazinio</persName> nullum mihi com[m]ercium, nulla familiaritas, nullaq[ue] desiderata
+          correspondentia in hisce partibus hucusq[ue] vel in minimo intercedat, Licēt eidem primo
+          huuis vrbis aditu devotum meorum obsequiorum homagium obtulerim, eidem cum syncerissima
+          animi devotione operam meam navaturus, quantum autem hucusq[ue] colligere potui, magīs ad
+          famam et utilitatem suorum negotiorum contulisset, si Princeps cum <persName key="p0000">Cæsareo
+          Bellico Consiliario et Extraordinario</persName>
         </p>
-        <pb n="f. 1v"/>
-        <p> quondam Ablegato, qūam cum fedifrago duarum Religionum desertore nomine <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2581" xml:space="default">Petro Mihalowiz</persName>, ā quo ad Aulam Cæsaream pl[us] dedecoris, quām gloriæ et honoris imminet; Quemadmodum etiam <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Sac[r]a Cæs[are]a Ma[jes]ttas</persName> per Excellentissimum <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Comitem de Kauniz</persName> intimati imperavit prædicto <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Principi Gallazin</persName>, eundem, si aliquid negotiorum <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czareæ Ma[jes]tt[at]is</persName> gerendum haberet, acceptissimum fore, dumodō tali Translatore non uteretut, sed alium suis obsequys gratum destinaret. Ex quo sua Excell[enti]a prudentissimē colliget, cuius prety sit ille homo, et qualem Laudem et fidem ob istum dictus <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Princeps Gallazin</persName> ab hac Aula consequi possit; Hæc scribo ex devoto affectu, sum[m]aq[ue] et submissima ergā suam Excell[enti]a[m] |:quæ semper mihi addictum præsidium fuit:| fiducia, quod fidissimam talem informationem gratiosissimē comprobabit, siquidem mea conscientia dictet, ut talia ad obsequium <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czareæ Ma[jes]tt[at]is</persName> comemorem. Nec latet, cum qua inexcusabili, et malitiosā instructione ultimus hinc discedens <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Stollnik</persName> instigante hoc homine |:scilicet <persName key="p0000">Petro</persName>:| et Principe approbante cum mandatis abiverit, ut non solumodō quo ad meam Personam Ministerium Moscoviticum Sinistrē informare, sed etiam fictitias Litteras, in favorem prædicti <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2581" xml:space="default">Petri</persName> huc rescribere omnimodo studeret; quatēnus Sereniss[im]us et Excell[enti]a V[est]ra illum in summa osti= </p>
-        <pb n="f. 2"/>
-        <p> matione haberent: De hisce omnibus et nostra quoq[ue] Aula quam exactissimē informata et Excell[enti]a v[est]ra facili negotio inter veritatem devoti animi, et malitiam prostituti duarum Religionum desertoris distinquet, hæc et alia plura sua[m] <persName key="p1435">Excell[enti]am Dominus Proserowsky</persName> fusīus suis litteris |:si veritatem scribere vellet:| <persName key="p0672" ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">D[omi]nus Pleyer</persName> verō datā Benignā ā V[est]rā Excell[enti]ā Licentiā, oretenus et submissimē edocere poterint. De cætero, si id gratiæ impetravero, ut me quam frequentissimis mutuis Litteris dignetur, Curabo pro viribus, ut sicut officiorum meorum ratio postulat, talem me semper ergā suam Excell[enti]am præstem, qualis maneo</p>
+        <pb n="f. 1v" />
+        <p> quondam Ablegato, qūam cum fedifrago duarum Religionum desertore nomine <persName
+            cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
+            key="p2581" xml:space="default">Petro Mihalowiz</persName>, ā quo ad Aulam Cæsaream
+          pl[us] dedecoris, quām gloriæ et honoris imminet; Quemadmodum etiam <persName key="p0463"
+            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Sac[r]a Cæs[are]a Ma[jes]ttas</persName> per
+          Excellentissimum <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Comitem
+          de Kauniz</persName> intimati imperavit prædicto <persName key="p0654"
+            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Principi Gallazin</persName>, eundem, si
+          aliquid negotiorum <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czareæ
+          Ma[jes]tt[at]is</persName> gerendum haberet, acceptissimum fore, dumodō tali Translatore
+          non uteretut, sed alium suis obsequys gratum destinaret. Ex quo sua Excell[enti]a
+          prudentissimē colliget, cuius prety sit ille homo, et qualem Laudem et fidem ob istum
+          dictus <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Princeps Gallazin</persName>
+          ab hac Aula consequi possit; Hæc scribo ex devoto affectu, sum[m]aq[ue] et submissima ergā
+          suam Excell[enti]a[m] |:quæ semper mihi addictum præsidium fuit:| fiducia, quod fidissimam
+          talem informationem gratiosissimē comprobabit, siquidem mea conscientia dictet, ut talia
+          ad obsequium <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czareæ
+          Ma[jes]tt[at]is</persName> comemorem. Nec latet, cum qua inexcusabili, et malitiosā
+          instructione ultimus hinc discedens <persName key="p0654"
+            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Stollnik</persName> instigante hoc homine
+          |:scilicet <persName key="p0000">Petro</persName>:| et Principe approbante cum mandatis
+          abiverit, ut non solumodō quo ad meam Personam Ministerium Moscoviticum Sinistrē
+          informare, sed etiam fictitias Litteras, in favorem prædicti <persName cert="high"
+            evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2581"
+            xml:space="default">Petri</persName> huc rescribere omnimodo studeret; quatēnus
+          Sereniss[im]us et Excell[enti]a V[est]ra illum in summa osti= </p>
+        <pb n="f. 2" />
+        <p> matione haberent: De hisce omnibus et nostra quoq[ue] Aula quam exactissimē informata et
+          Excell[enti]a v[est]ra facili negotio inter veritatem devoti animi, et malitiam prostituti
+          duarum Religionum desertoris distinquet, hæc et alia plura sua[m] <persName key="p1435">Excell[enti]am
+          Dominus Proserowsky</persName> fusīus suis litteris |:si veritatem scribere vellet:| <persName
+            key="p0672" ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">D[omi]nus Pleyer</persName> verō
+          datā Benignā ā V[est]rā Excell[enti]ā Licentiā, oretenus et submissimē edocere poterint.
+          De cætero, si id gratiæ impetravero, ut me quam frequentissimis mutuis Litteris dignetur,
+          Curabo pro viribus, ut sicut officiorum meorum ratio postulat, talem me semper ergā suam
+          Excell[enti]am præstem, qualis maneo</p>
         <p>Illustrissimi ac Excell[entissi]mi D[omi]ni D[omi]ni</p>
         <p>Patroni mei p[erge]</p>
         <p>Humillimus et obsequiossimus</p>
         <p>
-          <placeName key="g0005">Viennæ</placeName> 19. N<hi rendition="#u">ovembris</hi>			servus.</p>
-        <p>     1701.				<persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ignatius Christophorus</persName>
+          <placeName key="g0005">Viennæ</placeName> 19. N<hi rendition="#u">ovembris</hi> servus.</p>
+        <p>     1701. <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ignatius
+          Christophorus</persName>
         </p>
         <p>
-          <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">						N[obilis] D[ominus] de Guarient</persName>
+          <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591"> N[obilis] D[ominus] de
+            Guarient</persName>
         </p>
         <p>
           <persName key="p0821">et Rall</persName>.</p>
