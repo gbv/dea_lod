@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -93,34 +90,31 @@
       <sourceDesc>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 21 February / 5 March 1813. – Draft of the letter from <persName key="p1508">Major
-            General Aleksandr Ivanovich Chernyshev</persName> to <persName key="p0929">King of
-            Prussia Frederick William III</persName>
+          <title> 21 February / 5 March 1813. – Draft of the letter from <persName key="p1508"><persName ref="p1507">Major General Aleksandr Ivanovich Chernyshev</persName></persName> to <persName key="p0929"><persName ref="p0928">King of Prussia Frederick William III</persName></persName>
           </title>
           <note>
             <bibl>OR RGB, fond 330, tom 2, chast' III, papka 37, no. 10, f. 1-2. French original.</bibl>
           </note>
         </head>
-        <pb n="f.1" />
+        <pb n="f.1"/>
         <p> Sire,</p>
         <p>Le bonheur d’annoncer a V.M. la delivrance de <placeName key="g0012">Berlin</placeName>,
           m’enhardit a prendre la liberté de lui offrir mes felicitations sur une circonstance aussi
           heureuse &amp; si longtems desirée ; Celui d’avoir eté le premier a publier aux habitants
           de la capitale de notre auguste allié qu’elle etoit enfin rendue a Son Souverain cheri n’a
-          pu etre balancé que par l’accueil enchanteur qu’y ont reçues les troupes de <persName
-            key="p0897">mon auguste maitre</persName>. 250 mille voix comprimées pendant 6 ans n’en
+          pu etre balancé que par l’accueil enchanteur qu’y ont reçues les troupes de <persName key="p0897">mon auguste maitre</persName>. 250 mille voix comprimées pendant 6 ans n’en
           ont fait qu’une pour celebrer les noms adorés de deux Monarques liés par les interets
           communs de leurs peuples autant que par l’amitié la plus Sincere. Les Russes &amp; les
           prussiens dans cet heureux jour sembloient ne faire qu’un peuple &amp; les preuves
           eclatantes d’une union aussi franche que longtems desirée </p>
-        <pb n="f.1v" />
+        <pb n="f.1v"/>
         <p> pouvoient seules nous payer de tous les travaux d’une campagne si penible &amp; si
           glorieuse. Trop ardent a Suivre la volonté de <persName key="p0897">Mon Auguste
             Souverain</persName>, j’ai cru devoir m’arracher a ce Spectacle ravissant pour me porter
@@ -134,7 +128,7 @@
           militaire, dont je prend la liberté de lui demander une decoration pour le porteur de la
           presente, Son <persName key="p2157">Chambellan de Podevils</persName> qui en
           m’accompagnant pendant toute l’expedition </p>
-        <pb n="f.2" />
+        <pb n="f.2"/>
         <p> audela de L’oder a montré a chaque pas des preuves de Son attachement a Son Souverain
           &amp; de Sa valeur ; ainsi que pour le <persName key="p2158">lieutenant de Vittinghoff</persName>
           qui en se trouvant a l’avant-garde de mon corps avec le <persName key="p2159">Major
@@ -154,7 +148,7 @@
         <p>
           <placeName key="g0439">Stegelitz</placeName>
         </p>
-        <p />
+        <p/>
       </div>
     </body>
   </text>
