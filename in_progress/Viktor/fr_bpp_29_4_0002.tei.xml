@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Copy of the letter from the Empress of Russia Catherine II
-          to the Primate of Poland Władysław Aleksander Łubieński</title>
+        <title type="main" xml:lang="en">Rescript of the Empress of Russia Catherine II to the
+          minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto
+          Magnus von Stackelberg</title>
         <author xml:lang="en">Empress</author>
         <author xml:lang="en">of</author>
         <author xml:lang="en">Russia</author>
@@ -96,19 +99,6 @@
       <sourceDesc>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
-    </xenoData>
     <profileDesc>
     </profileDesc>
   </teiHeader>
@@ -116,48 +106,58 @@
     <body>
       <div type="letter">
         <head>
-          <title>24 December 1763. – Copy of the letter from <persName key="p0033"
+          <title>29 January 1773. – Rescript of <persName key="p0033"
               ref="e14a18da-55bf-476c-bee9-1ff5536450d7">the Empress of Russia, Catherine II</persName>
-            , <persName>to</persName>
-            <persName key="p0996"
-              ref="23beb684-c78a-4bad-9b7b-3e02ac8a9564">the Primate of Poland, Władysław Aleksander
-            Łubieński</persName>
+            , <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">to the Minister
+            Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto Magnus von
+            Stackelberg</persName>
           </title>
           <note>
-            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 1, f. 17. French original.</bibl>
+            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 613-614. French translation.</bibl>
           </note>
         </head>
-        <pb n="f. 17" />
+        <pb n="f. 613" />
+        <note>Traduction</note>
         <opener>
-          <salute>
-            <persName key="p0996">Monsieur le Prince Primat</persName>
-          </salute>. </opener>
-        <p>J’ai vu avec regret dans la lettre de V[otre] A[ltesse] du 15 Novembre, que <persName
-            key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">Mon
-            Ambassadeur le Comte de Keyserling</persName> m’a fait parvenir, les plaintes,
-          auxquelles la conduite des mes trouppes sur les frontieres et sur le territoire de la
-          Republique a pu donner lieu. Il suffira de se rappeler quelles etoient les circonstances,
-          qui ont precedés l’interegne, pour voir, que ce qui a été fait depuis, en a été une suite
-          inevitable, et qu’il n’a pas été possible de prevenir à tems d’abord après les changements
-          arrivés dans votre Republique. Les memes causes n’existant plus et les dispositions
-          respectives etant heureusement changées, je ferai redresser incessament ce qui pourroit en
-          etre susceptible, et ce qui pourroit se trouver de contraire au bon ordre, et à la
-          parfaite intelligence, qui subsiste apresent. On peut se convaincre combien j’ai l’un et
-          l’autre à cœur par l’attention que j’aporte et aporterai constamment à donner à la
-          Republique les preuves les plus réeles de mon amitié. Au reste je me rapporte à ce que <persName
-            key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">mon susdit ambassadeur</persName>
-          vous exposera relativement à cet objet, et sur ce je prie Dieu qu’il vous ait <persName
-            key="p0996">M[onsieu]r le P[rin]ce Primat</persName> en sa sainte et digne garde. </p>
+          <salute>Par la Grace de Dieu Nous <persName key="p0033"
+              ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Catherine Seconde, Іmpératrice et
+            autocratrice de toutes les Russies </persName>, etc : etc : etc :</salute>
+          <salute>À Notre <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Ministre
+            Plénipotentiaire le Baron Stackelberg</persName>.</salute>
+        </opener>
+        <p>Les deux termes, que Nous avons successivement fixé, par Nos lettres patentes, pour
+          l’hommage et prestation de serment de tous les habitans des deux Provinces, réunies à
+          Notre Empire, etant expirés, et tous ceux des proprietaires, qui n’ont point satisfait à
+          ce devoir, ayant encouru de droit la sequestration de leurs terres : Nous considerant,
+          qu’il seroit préjudiciable aux droits et interêts de Notre Couronne, de deroger à cette
+          loi générale, mais en même tems, toujours disposée, à donner accès aux sentimens
+          d’indulgence envers ceux, que Nous trouverons meriter, quelques exceptions par des
+          circonstances particulieres : Nous vous autorisons par la présente, à faire connaitre à
+          tous ceux des gentils-hommes Polonois, possessionnés dans Nos deux nouveaux Gouvernemens,
+          que vous trouverez par la considération du triste etat de leurs affaires, par leur
+          conduite personnelle de leur sentimens pour le bien de l’Etat, meriter,</p>
+        <pb n="f. 614" />
+        <p>que Nous les favorisions, en recevant d’eux, non obstant l’expiration du terme, l’hommage
+          et serment de fidelité, qu’ils nous doivent, comme à leur légitime Souveraine ; Qu’ils
+          peuvent compter, que Nous Nous relacherons sur cela, et compatirons à leur situation, dès
+          que dans <orgName
+            key="o0018" ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la Diete</orgName>, qui va
+          s’assembler, ils se montreront animés des sentimens de vrais patriotes, et cooperont
+          [sic !] avec zêle et sincerité, tant au retablissment de l’ordre et de la tranquillité
+          dans leur Patrie, qu’à l’arrangement definitif des affaires entre la République et les
+          trois Puissances voisines, qui prennent une part si effective à la pacification. Sur ce
+          Nous vous assurons de Notre bienveillance Impériale. Donné à <placeName key="g0002">S[ain]t
+          Petersbourg</placeName> le 29me Janvier 1773. </p>
         <closer>
-          <dateline>Fait à <placeName key="g0002">S[ain]t
-              Petersbourg</placeName> ce <date when="1763-12-24">« 24 » Decembre 1763</date>.</dateline>
+          <dateline>Donné à <placeName key="g0002">S[ain]t
+              Petersbourg</placeName> le<date when="1773-01-29"> 29me Janvier 1773</date>.</dateline>
           <signed>
             <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Catherine</persName>
           </signed>
         </closer>
         <noteGrp>
-          <note>Also see : </note>
-          <note>fr_bpp_29_2_0004</note>
+          <note>Also see :</note>
+          <note>fr_bpp_29_4_0001</note>
         </noteGrp>
       </div>
     </body>
