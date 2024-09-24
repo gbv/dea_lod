@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -95,25 +96,13 @@
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
       <sourceDesc>
-          <p>TODO</p>
+        <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" /></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -141,7 +130,7 @@
         <pb n="[[f. 1885]]" />
         <opener>
           <dateline>
-            <placeName key="g0009">Varsovie</placeName>
+            <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>
             <date when="1794-03-29"> ce 18/29. Mars 1794</date>
           </dateline>
           <salute>Monsieur !</salute>
@@ -170,23 +159,31 @@
         <pb n="[[f. 1887]]" />
         <p> ne suis pas surpris qu’il prenne tant d’interet à sa personne. Lundi prochain le 20/31. on procedera à la confection du traité de commerce. Ce que <persName
             key="p1158">le general</persName> appelle une Revolution françoise à <placeName
-            key="g0326">Cracovie</placeName> n’est qu’une absurde confederation qu’il pouvoit prevenir.</p>
+            key="g0326"
+            ref="https://www.geonames.org/3094802">Cracovie</placeName> n’est qu’une absurde confederation qu’il pouvoit prevenir.</p>
         <p>J’ai l’honneur d’etre avec les sentimens du plus profond respect &amp; de la plus vive reconnoissance</p>
         <closer>
           <salute>Monsieur</salute>
           <salute>de Votre Excellence</salute>
           <salute>Le tres humble &amp; tres</salute>
           <salute>obeissant serviteur</salute>
-          <signed><persName key="p1191" ref="5d403ea2-9f48-4110-a587-ffb863ccc903">Paul Divow</persName>
+          <signed>
+            <persName key="p1191" ref="5d403ea2-9f48-4110-a587-ffb863ccc903">Paul Divow</persName>
           </signed>
           <pb n="[[f. 1888]]" />
-          <address><addrLine>Его Высокопревосходительству</addrLine>
-          <addrLine>Милостивому государю</addrLine>
-          <addrLine><persName key="p0440"> Аркадию Ивановичу Моркову</persName></addrLine>
-          <addrLine>à <placeName key="g0002">S[ain]t Petersbourg</placeName></addrLine>
+          <address>
+            <addrLine>Его Высокопревосходительству</addrLine>
+            <addrLine>Милостивому государю</addrLine>
+            <addrLine>
+              <persName key="p0440"> Аркадию Ивановичу Моркову</persName>
+            </addrLine>
+            <addrLine>à <placeName
+                key="g0002"
+                ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName>
+            </addrLine>
           </address>
-          </closer>
-          </div>
-        </body>
-      </text>
-    </TEI>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

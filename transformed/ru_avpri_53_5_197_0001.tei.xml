@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,30 +96,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -193,11 +177,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -271,11 +254,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -349,11 +331,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -427,11 +408,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -505,7 +485,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -513,27 +493,27 @@
   <text>
     <body>
       <div type="letter">
-        <head>  <title>After 1 July 1766. – Draft of the dispatch [from <persName
-              key="p0065">the vice-chancellor
+        <head>
+          <title>After 1 July 1766. – Draft of the dispatch [from <persName key="p0065">the vice-chancellor
               Prince Golitsyn</persName>] to <persName key="p1422">Baron von Fersen,
               councillor of the Embassy
               in Copenhagen</persName>, concerning the receipt of all his letters; the imminent
           arrival of <persName key="p0127">Saldern
             </persName> in <placeName
               key="g0006"
-              ref="https://geonames.org/2618425">Copenhagen</placeName>; the impossibility of
-          appointing him, <persName key="p1422">Fersen</persName>, as envoy to Copenhagen </title>   </head>
+              ref="https://www.geonames.org/2618425">Copenhagen</placeName>; the impossibility of
+          appointing him, <persName key="p1422">Fersen</persName>, as envoy to Copenhagen </title>
+        </head>
         <opener>
           <note cert="high" evaluate="all" place="top" xml:space="default">
             <p>AVPRI, fond 53, opis 53/5, no. 197, f. 1-2. French copy.</p>
             <pb cert="high" n="f. 1" xml:space="default" />
           </note>
-
-
           <salute>à <persName key="p1422">Mr. le Baron de Fersen</persName> à <placeName
               key="g0006"
-              ref="https://geonames.org/2618425">
-              Copenhague</placeName>  </salute>
+              ref="https://www.geonames.org/2618425">
+              Copenhague</placeName>
+          </salute>
         </opener>
         <p>Les différentes lettres que Vous m'avez écrites, Mr., depuis la mort de <persName
             key="p0245">Mr. le
@@ -545,7 +525,7 @@
             key="p0127">Mr. de Saldern
           </persName> qui doit etre rendu maintenant à <placeName
             key="g0006"
-            ref="https://geonames.org/2618425">
+            ref="https://www.geonames.org/2618425">
             Copenhague
           </placeName> sera chargé par les héritiers de regler tout ce qui
           regarde cette succession. Ainsi Mr. Vous resterez tranquille jusqu'à son arrivée. Vous
@@ -567,10 +547,10 @@
           d'autre successeur que Vous et telle a été mon intention en Vous faisant nommer Conseiller
           d'Ambassade et en Vous transferant de <placeName
             key="g0004"
-            ref="https://geonames.org/2747373">La Haye
+            ref="https://www.geonames.org/2747373">La Haye
           </placeName> à <placeName
             key="g0006"
-            ref="https://geonames.org/2618425">Kopenhague</placeName>. C'etoit la meilleure ecole ou
+            ref="https://www.geonames.org/2618425">Kopenhague</placeName>. C'etoit la meilleure ecole ou
           Vous puissiez Vous perfectionner dans la carriere des affaires. La mort prématurée de <persName
             key="p0245">Mr. le Baron de Korff</persName> met actuellement <pb
             cert="high"

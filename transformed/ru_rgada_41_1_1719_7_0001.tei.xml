@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,30 +93,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -189,11 +174,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -267,7 +251,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -317,13 +301,13 @@
           <salute>Di V[ostra] S[ignoria] Ill[ustrissi]ma</salute>
           <salute>Devot[issi]mo ed obblig[atissi]mo ser[vitore] vero</salute>
           <date>
-            <placeName key="g0007" ref="https://geonames.org/3169070">Roma</placeName>
+            <placeName key="g0007" ref="https://www.geonames.org/3169069">Roma</placeName>
             4 : Agosto 1719. </date>
           <signed>
             <persName key="p1400">D. Paolo Federici</persName>
           </signed>
           <signed>Ill:mo Sig:re Min[istr]o di S. M. Czarianna</signed>
-          <signed>/<placeName key="g0031" ref="https://geonames.org/3164603">Venezia</placeName>
+          <signed>/<placeName key="g0031" ref="https://www.geonames.org/3164603">Venezia</placeName>
             / </signed>
           <note>see also: ru_rgada_41_1_1719_7_0002</note>
         </closer>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,7 +93,6 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CSÉC unless
           otherwise noted.
@@ -100,22 +100,7 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
+      <rdf:RDF />
     </xenoData>
   </teiHeader>
   <text>
@@ -139,19 +124,19 @@
           Altesse, mes dernieres ont esté pourtant par Monsieur de Litk et encor par un certain
           Residant que nous avons a la ville de <placeName
             key="g0011"
-            ref="https://geonames.org/2911298">Hambourg
+            ref="https://www.geonames.org/2911298">Hambourg
           </placeName> ainsi la faute ne consiste pas dans mon silence et ie ne
           plains pas autant le sus dit <persName key="p1508">mons:[ieur] Meÿer</persName>, du long
           chemin qu'on luÿ a fait faire pour s'en aller chercher son expedition a <placeName
             key="g0002"
-            ref="https://geonames.org/498817">S[ain]t:
+            ref="https://www.geonames.org/498817">S[ain]t:
             Petersbourg
           </placeName>
         </p>
         <pb n="f. 8v" />
         <p>peut estre a <placeName
             key="g0016"
-            ref="https://geonames.org/588409"
+            ref="https://www.geonames.org/588409"
             cert="high">Revel <precision match="@ref" precision="high" />
           </placeName> , au
           lieu qu'on avoit peut faire un plus grand plaisir aux interets des allies, si l'on avoit
@@ -177,10 +162,9 @@
           de vôstre Altesse
         </p>
         <p>
-          <placeName
-            key="g0454"
-            ref="https://geonames.org/3099759"
-            cert="high">Elbing <precision match="@ref" precision="high" />
+          <placeName key="g0454" ref="https://www.geonames.org/3099759" cert="high">Elbing <precision
+              match="@ref"
+              precision="high" />
           </placeName> le
           8tieme                                                                                                                
           le tres humble </p>
@@ -192,8 +176,8 @@
                      
                                                      serviteur
         </p>
-        <p>                                                                                         
-                                                                 <persName key="p1506">B[aron] de
+        <p>
+          <persName key="p1506">B[aron] de
           Nostitz</persName>
         </p>
         <p>ie naÿ pas differé de faciliter autant que iai peu a <persName key="p1508">Mons:[ieur] de

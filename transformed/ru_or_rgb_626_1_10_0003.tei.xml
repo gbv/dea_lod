@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,29 +93,12 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
-
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
+      <rdf:RDF />
     </xenoData>
   </teiHeader>
   <text>
@@ -139,7 +123,7 @@
           Petrovich Kurbatov
             </persName>
           </title>
-            </head>
+        </head>
         <opener>
           <note type="setting">
             <p>OR RGB, fond 626, karton 1, no. 10, f. 7-7v.</p>
@@ -149,7 +133,6 @@
             <persName cert="high" type="real" key="p1384">Гсдрь мой  Петр Петрович.</persName>
           </salute>
         </opener>
-
         <p>Вам гсдрю моему чаю памятно что в прошлом годе я  подписался на континуацию <persName
             cert="high"
             evidence="internal"
@@ -178,7 +161,8 @@
         <p>За сим пребываю</p>
         <p>Ваш</p>
         <p>Гсдря моего</p>
-        <p><placeName key="g0003" ref="https://geonames.org/2643743" cert="high">
+        <p>
+          <placeName key="g0003" ref="https://www.geonames.org/2643743" cert="high">
             Лондон</placeName>. 1734. </p>
         <p>Июня .25.</p>
         <closer>
@@ -196,9 +180,11 @@
           <p>P.S.  росписку кнжника я сыскать у себя не мог: нелзя [Written above the line: pas
             achevec] ли и без того делу зделатся дав от себя росписку в приеме кнг?<note>The phrase
             is written on the left
-              side of the folio</note></p>
+              side of the folio</note>
+          </p>
           <p />
-          <p> <pb cert="high" generatedBy="human" n="[f. 7]" xml:space="default" />Государю моему
+          <p>
+            <pb cert="high" generatedBy="human" n="[f. 7]" xml:space="default" />Государю моему
             Петру Петровичю Курбатову. </p>
           <p>В Гагу</p>
           <p>[two stamps of red wax]</p>
@@ -207,8 +193,6 @@
           <p>le p[remier].r novembre prochain </p>
           <p>sans faute.</p>
         </postscript>
-
-
       </div>
     </body>
   </text>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -93,30 +93,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -191,11 +175,10 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -269,11 +252,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -348,7 +330,7 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -516,7 +498,8 @@
               <p>
                 360.19.561.446.101.603.275.849.317.43.9370.
               </p>
-              <p><persName
+              <p>
+                <persName
                   cert="high"
                   evidence="internal"
                   full="yes"
@@ -529,7 +512,8 @@
               <p>
                 60.272.505.5610.687.691.351.603.454.692.434.
               </p>
-              <p><pb cert="high" n="f. 25v." xml:space="default" />        и какия
+              <p>
+                <pb cert="high" n="f. 25v." xml:space="default" />        и какия
                 содействовании </p>
               <p>995.425.686.706.741.96.561.143.19.41.2550.
               </p>
@@ -558,7 +542,8 @@
               <p>королевском фелдмаршала</p>
               <p>849.523.540.349.55.341.289.937.691.7060.
               </p>
-              <p><persName
+              <p>
+                <persName
                   cert="high"
                   evidence="internal"
                   full="yes"
@@ -664,7 +649,7 @@
                   key="p0574"
                   xml:space="default">министру
                 </persName>
-                                <persName
+                <persName
                   cert="high"
                   evidence="internal"
                   full="yes"
@@ -676,7 +661,8 @@
               </p>
               <p>947.511.481.631.341.515.816.858.330.19.2481.5030.
               </p>
-              <p><persName
+              <p>
+                <persName
                   cert="high"
                   evidence="internal"
                   full="yes"
@@ -691,7 +677,8 @@
               </p>
               <p>Но как, всемилостивейшая   </p>
               <p>416.215.515.848.899.2223.2937.2019.</p>
-              <p><persName
+              <p>
+                <persName
                   cert="high"
                   evidence="internal"
                   full="yes"
@@ -721,7 +708,8 @@
                   full="yes"
                   instant="unknown"
                   key="p1526"
-                  xml:space="default">боркена</persName>  </p>
+                  xml:space="default">боркена</persName>
+              </p>
               <p>639.405.604.565.254.184.264.511.691.940.7300.</p>
               <p>в свою службу принять и не </p>
               <p>2434.940.735.237.567.437.605.19.204.2320.</p>
@@ -731,7 +719,8 @@
                   full="yes"
                   instant="unknown"
                   key="p0126"
-                  xml:space="default">фельдмаршала</persName>  </p>
+                  xml:space="default">фельдмаршала</persName>
+              </p>
               <p>693.655.551.96.477.145.110.831.101.19.511.796</p>
               <p>обнадежил, но и назавтрее того </p>
               <p>272.1000.645.503.454.405.683.5050.330.137.</p>
@@ -750,14 +739,16 @@
                   xml:space="default">короля
                 </persName> от имяни  </p>
               <p>613.112.155.249.653.353.431.76.405.465.196</p>
-              <p><persName
+              <p>
+                <persName
                   cert="high"
                   evidence="internal"
                   full="yes"
                   instant="unknown"
                   key="p0033"
                   ref="e14a18da-55bf-476c-bee9-1ff5536450d7"
-                  xml:space="default">вашего императорскаго величества</persName>  </p>
+                  xml:space="default">вашего императорскаго величества</persName>
+              </p>
               <p>2730.9390.2096.446.59.858.272.341.155.1590</p>
               <p>до объявления сей решимости, то </p>
               <p>19.683.505.330.396.436.204.2232.19.5610.</p>
@@ -1127,7 +1118,8 @@
                   instant="unknown"
                   key="p0033"
                   ref="e14a18da-55bf-476c-bee9-1ff5536450d7"
-                  xml:space="default">вашему величеству </persName>  </p>
+                  xml:space="default">вашему величеству </persName>
+              </p>
               <p>556.996.937.9400.730.19.2937.940.639. 9370.</p>
               <p>
                 <pb cert="high" n="f. 28" xml:space="default" />
@@ -1232,7 +1224,8 @@
                   xml:space="default">министра
                 </persName> от его двора. </p>
               <p>1960.5430.2096.1138.701.694.2480.</p>
-              <p><orgName
+              <p>
+                <orgName
                   cert="high"
                   evidence="internal"
                   full="yes"
@@ -1312,21 +1305,20 @@
         <closer>
           <salute>ВАШЕГО ИМПЕРАТОРСКАГО ВЕЛИЧЕСТВА.</salute>
           <salute />
-          <salute>Из <placeName
-              key="g0006"
-              ref="https://geonames.org/2618425"
-              cert="high">Копенгагена
+          <salute>Из <placeName key="g0006" ref="https://www.geonames.org/2618425" cert="high">Копенгагена
             </placeName>
           </salute>
           <salute>сентября 8/19 дня 1767 году</salute>
           <signed>всенижайший раб</signed>
-          <signed><persName
+          <signed>
+            <persName
               cert="high"
               evidence="internal"
               full="yes"
               instant="unknown"
               key="p1102"
-              xml:space="default">Михайло Философов</persName>  <note>The signature is M.
+              xml:space="default">Михайло Философов</persName>
+            <note>The signature is M.
               Filosofov’s own handwriting.</note>
           </signed>
         </closer>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,7 +93,6 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CSÉC unless
           otherwise noted.
@@ -100,22 +100,7 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
+      <rdf:RDF />
     </xenoData>
   </teiHeader>
   <text>
@@ -168,12 +153,12 @@
           sur nous des lettres de change de la dite some. Soit donc, que le payement de ce blé se
           fasse à <placeName
             key="g0006"
-            ref="https://geonames.org/2618425"
+            ref="https://www.geonames.org/2618425"
             cert="high"> Copenhague <precision match="@ref" precision="high" />
           </placeName> , ou qu'on nous le fasse promtement ici,
           Votre Excellence poura recevoir cette some du dit Mons:[ieur] Edinger moyenant une double
           quitance, contenant, que ce payement est pour la valeur des lettres de changes de 3000 Rx
-          tirés sur nous de <placeName key="g0001" ref="https://geonames.org/524901">Moscou
+          tirés sur nous de <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou
           </placeName> et payable à Votre Excellence, et qu'à l'arrivée de ces
           dites lettres, n'étant d'aucun [sic] valeur, elles nous soient livrées, en remettant entre
           les mains de <pb cert="high" n="f. 2v" xml:space="default" /> Votre Excellence sa propre
@@ -185,10 +170,10 @@
           <signed>
             <orgName key="o0124">Frans Poppe et Compa[gnie]</orgName>
           </signed>
-          <dateline>à <placeName key="g0011" ref="https://geonames.org/2911298">
+          <dateline>à <placeName key="g0011" ref="https://www.geonames.org/2911298">
             Hambourg
             </placeName> le <lb />
-                        <date>15e. 9br: 1709</date>
+            <date>15e. 9br: 1709</date>
           </dateline>
         </closer>
       </div>

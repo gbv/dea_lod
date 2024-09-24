@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -107,8 +107,7 @@
           <title>1717. – Letter from <persName
               key="p0220"
               ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
-            to <persName
-              key="p0000">Unknown</persName>
+            to <persName key="p0000">Unknown</persName>
           </title>
           <note>
             <bibl>NLR Mss, Erm fr., no. 155, f. 106. French original.</bibl>
@@ -132,7 +131,8 @@
           aura bien des chapeaux et des turbans de reste. La Flotte des venitiens a eu du pire, ce
           semble. Du moins elle a été un peu mal traitée, car elle a été obligée de s'arrêter à
           l'ile de Sapienza proche de la morée pour se redouter. L'escadre Espagnole a fait voile de <placeName
-            key="g0240">Barcelone</placeName> avec quelques milles hommes de débarquement. Il y a
+            key="g0240"
+            ref="https://www.geonames.org/3128760">Barcelone</placeName> avec quelques milles hommes de débarquement. Il y a
           disette de vivre en Finlande.</p>
         <p>Etc.</p>
         <noteGrp>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -97,26 +98,13 @@
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
       <sourceDesc>
-          <p>TODO</p>
+        <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-
-    <xenoData><rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" /></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -167,7 +155,8 @@
             <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">Marie Antoine</persName>
           </signed>
           <dateline>
-            <placeName key="g0013">Dresde</placeName> ce <date when="1763-10-06"> 6 octobre 1763</date>
+            <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName> ce <date
+              when="1763-10-06"> 6 octobre 1763</date>
             .</dateline>
         </closer>
         <noteGrp>

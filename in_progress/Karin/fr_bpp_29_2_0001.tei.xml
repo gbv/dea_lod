@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -96,26 +97,13 @@
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
       <sourceDesc>
-          <p>TODO</p>
+        <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-
-    <xenoData><rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" /></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -132,14 +120,16 @@
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 85. Russian original.</bibl>
           </note>
         </head>
-          <pb n="[[f. 85]]" />
-        <opener> <salute>Б[о]жиею м[и]л[ос]тию мы <persName
+        <pb n="[[f. 85]]" />
+        <opener>
+          <salute>Б[о]жиею м[и]л[ос]тию мы <persName
               key="p0033"
               ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина Вторая</persName>, Императрица и
           Самодержица Всероссийская, и прочая, и прочая, и прочая. Нашему действителному тайному
           советнику, чрезвычайному и полномочному послу <persName
               key="p0281"
-              ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">графу Кейзерлингу</persName></salute>
+              ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">графу Кейзерлингу</persName>
+          </salute>
         </opener>
         <p>Во время минувшей пруской войны находились при здешней армии полския шляхтичи майор <persName
             key="p2573">Антон Бращишевской</persName>, и секретарь <persName key="p2574">Александр
@@ -149,11 +139,15 @@
           смерть их каждому по двести рублев. Вы имеете по тому производить им каждому по двести
           рублев на год с начала нынешняго года из имеющихся у вас казенных денег и пребываем вам
           нашею императорскою м[и]л[ос]тию бл[а]госклонны. Дан в <placeName
-            key="g0001">Москве</placeName> </p>
-          <closer><dateline>Генваря 30го дня 1763 года.</dateline>
-        <signed>
-          <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина</persName>
-        </signed></closer>
+            key="g0001"
+            ref="https://www.geonames.org/524894">Москве</placeName>
+        </p>
+        <closer>
+          <dateline>Генваря 30го дня 1763 года.</dateline>
+          <signed>
+            <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина</persName>
+          </signed>
+        </closer>
       </div>
     </body>
   </text>

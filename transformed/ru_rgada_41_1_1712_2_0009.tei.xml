@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,30 +93,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CSÉC unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -189,11 +174,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -267,11 +251,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -345,11 +328,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -423,11 +405,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -501,7 +482,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -528,17 +509,17 @@
               почтеннейшему Его Превосходителству Головкину Великому Канцлеру и
               Первому министру
             </persName>
-            : – из <placeName key="g0031" ref="https://geonames.org/3164603">Венеции
+            : – из <placeName key="g0031" ref="https://www.geonames.org/3164603">Венеции
             </placeName> в день 15 апреля 1712. </salute>
           <salute>Нижайший раб <persName key="p1374">Матфей Карета</persName>
           </salute>
         </opener>
-        <p>Из <placeName key="g0018" ref="https://geonames.org/745044">
+        <p>Из <placeName key="g0018" ref="https://www.geonames.org/745044">
           Константинополя
           </placeName> 10 числа марта чрез писма приятели наши мне
           сказывают когда услышали турки, что <placeName
             key="g0189"
-            ref="https://geonames.org/580054">Азов
+            ref="https://www.geonames.org/580054">Азов
           </placeName> стал в их руках, всякое дело лице переменило. Понеже другое
           претендуют о Крайне, и что <persName key="p0305">султан
           </persName> хотел сам итти во обозе, но законники их того нехотят, и муфтий
@@ -572,12 +553,10 @@
           со сногими иными
           кораблями купетцкими, с солдатами, и с сухарами и все то в Морею :
         </p>
-        <p>На другой пришли писма из <placeName
-            key="Zakynthos Ionian Islands Greece"
-            ref="https://geonames.org/251280">Занте
+        <p>На другой пришли писма из <placeName key="Zakynthos Ionian Islands Greece" ref="">Занте
           </placeName> от провианта мейстера генералного и из <placeName
             key="g0394"
-            ref="https://geonames.org/3185728">Дураца
+            ref="https://www.geonames.org/3185728">Дураца
           </placeName> от консула венецкаго <pb
             cert="high"
             n="f. 48v"
@@ -587,12 +566,11 @@
         <p>
           <persName key="p1379">Конте Рашов</persName> здесь в <placeName
             key="g0031"
-            ref="https://geonames.org/3164603">Венеции</placeName> ожидает
+            ref="https://www.geonames.org/3164603">Венеции</placeName> ожидает
           ответа в том чего желает от <persName key="p0174">Его Величества</persName> и от В[а]шего
           Превозходителства : тож оффицер голанец о котором уже доносил в моих писмах В[а]шему
           Превозходителству, о чем паки прошу ответствования : </p>
         <p>А еже ли В[а]ше Превозходителство неимеет</p>
-
         <pb cert="high" n="f. 49" xml:space="default" />
         <closer>
           <salute>способности писать ко мне по италиански, да повелит писать ко мне по французки или
@@ -600,11 +578,10 @@
             м[о]л[и]ти <persName key="p0174">Нашего Августейшего Монарха
             </persName> и защищения В[а]шего Превозходителства,
             лобызая руки В[а]шего Превозходителства нижайший и обдолженнейший раб </salute>
-          <signed><persName key="p1366">Матфей Карета</persName>: </signed>
-          <dateline>Из <placeName
-              key="g0031"
-              ref="https://geonames.org/3164603">Венеции</placeName>
-                        <date when="1712-04-15">15 апреля 1712</date>. </dateline>
+          <signed>
+            <persName key="p1366">Матфей Карета</persName>: </signed>
+          <dateline>Из <placeName key="g0031" ref="https://www.geonames.org/3164603">Венеции</placeName>
+            <date when="1712-04-15">15 апреля 1712</date>. </dateline>
         </closer>
         <note>Also see: ru_rgada_41_1_1712_2_0008</note>
       </div>

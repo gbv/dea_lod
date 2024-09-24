@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -94,31 +94,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
-
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -195,11 +178,10 @@
 		"schema:softwareVersion": "3.5.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -275,11 +257,10 @@
 		"schema:softwareVersion": "3.5.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -354,11 +335,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -432,11 +412,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -510,7 +489,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -549,7 +528,7 @@
         <p>А в место той прошу вас гсдря моего подписать за меня в издании XIго и XIIго тома ж
           аглицкой истории :/ которые чрез субскрипцию печатаются в <placeName
             key="g0004"
-            ref="https://geonames.org/2747373"
+            ref="https://www.geonames.org/2747373"
             cert="high">
             Гаге
           </placeName> у Христофора фон Лон с товарыщи :/ на один эксемпляр всякого
@@ -591,8 +570,7 @@
             xml:space="default">гсдря моего
           </persName>
         </p>
-
-        <p>Из <placeName key="g0003" ref="https://geonames.org/2643743">
+        <p>Из <placeName key="g0003" ref="https://www.geonames.org/2643743">
             Лондона
           </placeName>
         </p>

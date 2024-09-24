@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -93,30 +94,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc>
         <p>ru_rgada_53_3_21_0001.docx</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -191,11 +176,10 @@
 		"schema:softwareVersion": "3.5.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -270,11 +254,10 @@
 		"schema:softwareVersion": "3.5.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -348,11 +331,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -427,7 +409,7 @@
 		"schema:softwareVersion": "3.5.0"
 	},
 	"cwrc:hasCertainty": "cwrc:medium"
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -437,7 +419,7 @@
       <head>
         <title> 26 May / 6 June 1711. – Treaty of <placeName
             key="g0006"
-            ref="https://geonames.org/2618425"
+            ref="https://www.geonames.org/2618425"
             cert="high">
             Copenhagen
           </placeName> between Denmark and Russia concerning the
@@ -455,7 +437,7 @@
             <p>Concert</p>
             <p>Zur kurz bevorstehenden heurigen, nehml[ich] der 1711<hi rendition="simple:superscript">
                 ten</hi>. Jahres Campagne. </p>
-            <p>Actum <placeName key="g0006" ref="https://geonames.org/2618425">
+            <p>Actum <placeName key="g0006" ref="https://www.geonames.org/2618425">
                 Coppenhagen
               </placeName> am 6<hi rendition="simple:superscript">ten</hi>. Juny 1711. </p>
             <p>in Præs[enti]</p>
@@ -486,7 +468,7 @@
               </persName> in Pohlen. </p>
             <p>S[eine]r Escell[ence] H[errn] Ambassadeurs von <placeName
                 key="g0001"
-                ref="https://geonames.org/524901"
+                ref="https://www.geonames.org/524894"
                 cert="high">Moscow
               </placeName> General: Major von <persName
                 cert="high"
@@ -682,16 +664,10 @@
       <p>15. Drauff der Communication, maintiens und benöthigter Magazins
         halber einen festen Fuß im Lande zu nehemen, und dahero
       </p>
-      <p>16. <placeName key="Malmö socken Skåne Sweden" ref="https://geonames.org/8126779">
-          Malmöe</placeName>, <placeName
-          key="Landskrona Skåne Sweden"
-          ref="https://geonames.org/2697720"
-          cert="medium">
+      <p>16. <placeName key="Malmö socken Skåne Sweden" ref="">
+          Malmöe</placeName>, <placeName key="Landskrona Skåne Sweden" ref="" cert="medium">
           LandsCron
-        </placeName> und <placeName
-          key="g0228"
-          ref="https://geonames.org/658225"
-          cert="high">
+        </placeName> und <placeName key="g0228" ref="https://www.geonames.org/658225" cert="high">
           Helsingburgk</placeName>, es koste was es wolle! zu emportiren suchen. </p>
       <p>17. Zu diesem Ende hat man einen gnugsamen belägerungs Etat
         vollkommen fertig zu halten.

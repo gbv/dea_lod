@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -93,30 +94,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -190,11 +175,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -268,11 +252,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -346,11 +329,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -424,11 +406,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -502,11 +483,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -580,11 +560,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -658,7 +637,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -695,10 +674,10 @@
           </persName> mi obligano ad un grande ringratiamento, oltre la protesta di
           restar à V[ostra] E[ccellenza] somamente tenuto. Hoggi capita qui da <placeName
             key="g0394"
-            ref="https://geonames.org/3185728">Durazzo
+            ref="https://www.geonames.org/3185728">Durazzo
           </placeName> une Felucca spedita dal console di Francia con lettere di <placeName
             key="g0018"
-            ref="https://geonames.org/745044">
+            ref="https://www.geonames.org/745044">
             Costantinopoli
           </placeName> spedite da lui per la Francia, il quale hà
           riempito delle Nove alla roversia di quelle é stato sia hora serito da tutta la Pollonia,
@@ -713,18 +692,16 @@
         <p>equilibbrio por la credenza. Si sentono pure tuttavia li Montenegrini in armi, et
           avanzati nelli progressi con l’acquisto di <placeName
             key="Nikšić Opština Nikšić Montenegro"
-            ref="https://geonames.org/3194494">Nixich</placeName>, incamminandosi verso <placeName
+            ref="">Nixich</placeName>, incamminandosi verso <placeName
             key="Trebinje Srpska Bosnia and Herzegovina"
-            ref="https://geonames.org/3188893">Tribigne
+            ref="">Tribigne
           </placeName> ; comé pure si hà che quattrocento Zuppani si siano uniti alli
           detti Montenegrini con due Pezzi di canone. Questa nuova si hà da un Fregadone Perastino
-          capitato pur hoggi da <placeName
-            key="g0394"
-            ref="https://geonames.org/3185728">
+          capitato pur hoggi da <placeName key="g0394" ref="https://www.geonames.org/3185728">
             Durazzo</placeName>, e che si parti due giorni inani della soprad[ett]a Felucha; Il
           Capitano del quale riffersi publicamente, che in <placeName
             key="g0394"
-            ref="https://geonames.org/3185728">Duradzo
+            ref="https://www.geonames.org/3185728">Duradzo
           </placeName> correva vocce dalli Turchi medemi, che l’armata di <persName key="p0174">S[ua] M[aesta]
             Z[area]
           </persName> haveva tottalm[en]te battuta l’armata
@@ -746,7 +723,7 @@
         <closer>
           <salute>di V[ostra] E[ccellenza]</salute>
           <salute>
-            <placeName key="g0031" ref="https://geonames.org/3164603">
+            <placeName key="g0031" ref="https://www.geonames.org/3164603">
               V[enezi]a</placeName> li 12 d[icembr]e 1711 </salute>
           <signed>Humiliss[i]mo Devot[issi]mo et oblig[atissi]mo ser[vito]re</signed>
           <signed>

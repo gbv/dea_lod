@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -96,24 +97,9 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -189,11 +175,10 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -268,11 +253,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -347,11 +331,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -427,7 +410,7 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:medium"
-}]]>
+}
         </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -504,7 +487,7 @@
           xml:space="default">Eders May[estæ]t og Kierl[ighe]d</persName>
         vel erinnerlig, hvor offte Jeg dennem, ved deris Nærværelse i <placeName
           key="g0397"
-          ref="https://geonames.org/2897132">Husum</placeName>
+          ref="https://www.geonames.org/2897132">Husum</placeName>
         mit Forsæt mig med <persName
           cert="high"
           evidence="internal"
@@ -590,9 +573,9 @@
           key="p0727"
           xml:space="default">Kongen af Store Brittannien</persName> extraditionen af det <placeName
           key="g0140"
-          ref="https://geonames.org/2944388">Brehmische</placeName> og <placeName
+          ref="https://www.geonames.org/2944388">Brehmische</placeName> og <placeName
           key="Verden Lower Saxony Germany"
-          ref="https://geonames.org/2817599"
+          ref=""
           cert="medium">
         Vehrdische</placeName>, saa snart hand med Sverrig har brudt, straxen prætenderer, og Jeg,
         saa længe Krigen varer, ermelte Provintz, for Indquartering og Subsistence af mine Trouppers
@@ -644,34 +627,38 @@
         Bagsiun haver, og mand ey kand vide, hvad for fatis mand ved dend u-bestandige kriegs Lycke
         kand blive exponeret. Jeg forbliver med bestandig og oprigtig passion sedse</p>
       <closer>
-        <salute><persName
+        <salute>
+          <persName
             cert="high"
             evidence="internal"
             full="yes"
             instant="unknown"
             key="p0174"
             xml:space="default">Eders May[estæ]ts</persName> og Kierl[ighe]ds<lb /> Tro Broder, Ven
-          og Naboe.<lb /></salute>
-        <signed><persName
+          og Naboe.<lb />
+        </salute>
+        <signed>
+          <persName
             cert="high"
             evidence="internal"
             full="yes"
             instant="unknown"
             key="p0532"
             xml:space="default">Friderich</persName> R[ex]</signed>
-
-        <dateline><placeName
+        <dateline>
+          <placeName
             key="g0006"
-            ref="https://geonames.org/2618425"
+            ref="https://www.geonames.org/2618425"
             cert="high">Kiöbenhafn</placeName>,<lb /> dend<date
             when="1714-10-30"> 30. Octobris<lb /> Anno 1714</date>.<lb />
-      <persName
+          <persName
             cert="high"
             evidence="internal"
             full="yes"
             instant="unknown"
             key="p1529"
-            xml:space="default">D Wibe</persName></dateline>
+            xml:space="default">D Wibe</persName>
+        </dateline>
         <pb cert="high" n="f. 3" xml:space="default" />
         <salute>Dend Durchläuchtigste Stormägtigste Czar og
           Stor-Förste utj det heele Ryßland p[erge].</salute>

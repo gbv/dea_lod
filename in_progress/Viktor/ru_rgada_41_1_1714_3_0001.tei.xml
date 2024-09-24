@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -97,24 +98,9 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -188,11 +174,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -266,11 +251,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -344,11 +328,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -422,11 +405,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -501,11 +483,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -580,7 +561,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	}
-}]]>
+}
         </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -601,7 +582,8 @@
           <pb cert="high" n="f. 1" xml:space="default" />
           <salute>Перевод</salute>
           <salute>Сиятелнейший и Превосходителнейший </salute>
-          <salute><persName
+          <salute>
+            <persName
               cert="high"
               evidence="internal"
               full="yes"
@@ -609,7 +591,8 @@
               key="p0071"
               xml:space="default">Граф, тайный советник Его Царского
               Величества и Великий Канцлер Империи</persName>,</salute>
-          <salute><persName
+          <salute>
+            <persName
               cert="high"
               evidence="internal"
               full="yes"
@@ -657,7 +640,7 @@
         <p>И так я объявляю, что в помянутой бумаге содержатся дела бывшея прежде учиненной мною
           29аго числа прошедшаго ноября в <placeName
             key="g0018"
-            ref="https://geonames.org/745044">Константинополе</placeName> Всемилостивейшему Моему <persName
+            ref="https://www.geonames.org/745044">Константинополе</placeName> Всемилостивейшему Моему <persName
             cert="high"
             evidence="internal"
             full="yes"
@@ -680,7 +663,7 @@
             key="p1381"
             xml:space="default">Саввы</persName>; ибо я при произведенном надо мною в <placeName
             key="g0399"
-            ref="https://geonames.org/3191648">Фиуме</placeName> следствии не только обо всем
+            ref="https://www.geonames.org/3191648">Фиуме</placeName> следствии не только обо всем
           ответствовал, но и дал точной отчет помянутому министру барону <persName
             cert="high"
             evidence="internal"
@@ -713,7 +696,7 @@
           требуя от меня того, чтоб я по прежнему служил верно, усердно и ревностно.</p>
         <p>Я был отправлен в <placeName
             key="g0005"
-            ref="https://geonames.org/2761367">Вену</placeName>, где я получил патент на
+            ref="https://www.geonames.org/2761367">Вену</placeName>, где я получил патент на
           секретарской чин, с почтенными <persName
             cert="high"
             evidence="internal"
@@ -743,7 +726,7 @@
             instant="unknown"
             key="p0699"
             xml:space="default">Матвеева</persName>.</p>
-        <p>Я жил в <placeName key="g0005" ref="https://geonames.org/2761367 ">
+        <p>Я жил в <placeName key="g0005" ref="https://www.geonames.org/2761367">
             Вене</placeName> 5 месяцов, и во все сие время непрестанно служил Их Превосходительствам
           Министрам константинопольским, также и венским, во всем том что от них мне приказано было,
           сохраняя верность и послушание, которыми обязан вернейший слуга <persName
@@ -753,7 +736,8 @@
             instant="unknown"
             key="p0174"
             xml:space="default">Его Царского Величества</persName> .</p>
-        <p><persName
+        <p>
+          <persName
             cert="high"
             evidence="internal"
             full="yes"
@@ -929,7 +913,7 @@
             xml:space="default">Ваше Превосходительство</persName> хотите обо всем
           узнать; то можете послать взять следственное дело из <placeName
             key="g0399"
-            ref="https://geonames.org/3191648">Фиума</placeName>, где найдете разныя обвинения
+            ref="https://www.geonames.org/3191648">Фиума</placeName>, где найдете разныя обвинения
           совершенно ложныя, которыя безсовестно и без страха Божия взнесены были на меня; также от
           Его Превосходительства барона <persName
             cert="high"
@@ -955,10 +939,10 @@
             key="p0174"
             xml:space="default">Его Вел[ичества]</persName>. непременно остаюсь</p>
         <closer>
-          <dateline><placeName
-              key="g0002"
-              ref="https://geonames.org/536203">С. Петербург</placeName> 1<date>714
-              года октяб[ря] 1 дня</date></dateline>
+          <dateline>
+            <placeName key="g0002" ref="https://www.geonames.org/498817">С. Петербург</placeName> 1<date>714
+              года октяб[ря] 1 дня</date>
+          </dateline>
           <salute>
             <persName
               cert="high"
@@ -975,7 +959,8 @@
               full="yes"
               instant="unknown"
               key="p1383"
-              xml:space="default">Павел Арколео</persName></signed>
+              xml:space="default">Павел Арколео</persName>
+          </signed>
         </closer>
       </div>
     </body>

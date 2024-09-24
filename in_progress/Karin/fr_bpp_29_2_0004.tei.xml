@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -100,26 +101,13 @@
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
       <sourceDesc>
-          <p>TODO</p>
+        <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-
-    <xenoData><rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" /></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -133,14 +121,16 @@
             Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von Keyserling</persName>,
             and <persName key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2">the Minister
             plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Prince Nikolai
-            Vasil’evich Repnin</persName></title>
+            Vasil’evich Repnin</persName>
+          </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 427. Russian original.</bibl>
           </note>
         </head>
         <pb n="[[f. 427]]" />
         <p />
-        <opener><salute>Б[о]жиею м[и]л[ос]тию мы <persName
+        <opener>
+          <salute>Б[о]жиею м[и]л[ос]тию мы <persName
               key="p0033"
               ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина
           Вторая</persName>, Императрица и Самодержица Всероссийская, и прочая, и прочая, и прочая.
@@ -149,7 +139,8 @@
               ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">Кейзерлингу</persName> и <persName
               key="p0870"
               ref="e33c5452-5236-43b9-801f-cbcf88d680c2">генерал майору и полномочному
-          министру князь Репнину</persName>.</salute></opener>
+          министру князь Репнину</persName>.</salute>
+        </opener>
         <p>Из рескрипта нашего от 10го числа сего м[еся]ца и приложеннаго к оному экстракта из
           рапорта командующаго в новой сербии <persName key="p1000">генерал порутчика Мелгунова</persName>
           усмотрите вы, коль великая разность в описаниях однаго на реке Синюхе произшествия.</p>
@@ -160,17 +151,19 @@
           как то зависит от свидетелства и разсмотрения на месте, то и повелели уже Мы изследовать
           достоверно жалобы <persName key="p1001">графа Потоцкаго</persName>, предоставляя вам в
           свое время резолюцию нашу объявить, которая конечно будет расположена по самой строгой
-          справедливости. Дан в <placeName key="g0002">Петербурге</placeName> декабря 24го дня
+          справедливости. Дан в <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Петербурге</placeName> декабря 24го дня
           1763го года</p>
         <closer>
-          <signed><persName
-              key="p0033"
-              ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина</persName></signed>
-
-
-          <signed><persName
+          <signed>
+            <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина</persName>
+          </signed>
+          <signed>
+            <persName
               key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Князь Александр Голицын</persName></signed>
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Князь Александр Голицын</persName>
+          </signed>
         </closer>
         <noteGrp>
           <note>Also see: fr_bpp_29_1_0005</note>

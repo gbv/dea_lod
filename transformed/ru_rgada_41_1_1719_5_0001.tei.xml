@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -93,30 +93,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -190,11 +174,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -268,11 +251,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -346,11 +328,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -424,11 +405,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -502,11 +482,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -580,11 +559,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -658,11 +636,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -736,11 +713,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -814,11 +790,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -892,11 +867,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -970,11 +944,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1048,11 +1021,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1126,7 +1098,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -1152,12 +1124,12 @@
           </note>
           <dateline>
             <date>
-              <placeName key="g0014" ref="https://geonames.org/3099434">Danzica
+              <placeName key="g0014" ref="https://www.geonames.org/3099434">Danzica
               </placeName> 22 Xere 1719 St[ile] N[uovo] </date>
           </dateline>
           <salute>E[ccellentissi]mo Sig[nor]e e Patrone</salute>
         </opener>
-        <p>Esendo venuto in <placeName key="g0014" ref="https://geonames.org/3099434">
+        <p>Esendo venuto in <placeName key="g0014" ref="https://www.geonames.org/3099434">
             Danzica
           </placeName> per proseguire il mio viaggio verso Costì, e credendo di
           far bene, mi sono fermato qualche Tempo, con Intenzione di far qualche cosa in Beneficio
@@ -1165,14 +1137,14 @@
             Maiesta</persName>, à causa di avere aspetato qui che vengi da Fraustat un mio amico che
           è il Terzo che molte volte ho nominato nelle mie di <placeName
             key="g0005"
-            ref="https://geonames.org/2761369">Vienna
+            ref="https://www.geonames.org/2761367">Vienna
           </placeName> à V[ostr]a E[ccellenz]a per saperè non solamente quello che erà
           seguito colà mà anco quello che giornalmente passa alla <orgName
             key="p0023">Corte di Vienna</orgName>, sopra agli affari Presenti et à Bocca diro il
           nome a V[ostr]a E[ccellenz]a, et questo qui che a Fraustat è venuto per affari de <persName
             key="p0163">l’Imperatore</persName> et è gia partito da qui per <placeName
             key="g0009"
-            ref="https://geonames.org/756135">Varsavia
+            ref="https://www.geonames.org/756135">Varsavia
           </placeName> alla dieta <pb
             cert="high"
             n="f. 1v"
@@ -1181,7 +1153,7 @@
             key="o0023">corte di Vienna</orgName>; è dice che si bene che il <persName key="p0525">Re
             di Polonia</persName> si Porterà à <placeName
             key="g0009"
-            ref="https://geonames.org/756135">Varsavia
+            ref="https://www.geonames.org/756135">Varsavia
           </placeName> la dietta non seguira, per causa del male contagioso, è della
           disfata delle altre dietine … et per che li Polachi vorano aspetare la risposta che dara <persName
             key="p0174">Sua
@@ -1197,9 +1169,7 @@
             xml:space="default" /> con la Suetia et con il <persName
             key="p0727">Re di Ingiltera</persName> la totale bona corispondenza, questo amico mi a
           parlato con una grande franchezà à dire che asulutamente, questi aleati mai vorano
-          permetere che resti il <placeName
-            key="g0016"
-            ref="https://geonames.org/588409">Porto di Reval
+          permetere che resti il <placeName key="g0016" ref="https://www.geonames.org/588409">Porto di Reval
           </placeName> nelle mani di <persName key="p0174">Sua
             Czarea Maiesta</persName> considerando la gran consequenza che porta detto porto per il
           mare Baltico, restando nelle Sue mani, il medemo mi dise anco che se in caso, non seguira
@@ -1212,7 +1182,7 @@
             xml:space="default" /> obligare <persName key="p0174">Sua Czarea Maiesta</persName> à
           rendere tutta la Livonia ma anco monlasco à <placeName
             key="g0239"
-            ref="https://geonames.org/703448">Kiovia
+            ref="https://www.geonames.org/703448">Kiovia
           </placeName> et altro alla Polonia, comè parla il progieto dal <persName key="p0536">Generale
             Fleming</persName>; presentato nel tempo pasato alla <orgName key="o0023">corte
             di
@@ -1222,11 +1192,11 @@
           </persName> qui, mi à mostrata una lettera dal
           Ministro del Rè di Polonia che si ritrova in <placeName
             key="g0004"
-            ref="https://geonames.org/2747373">Haija
+            ref="https://www.geonames.org/2747373">Haija
           </placeName> dicendoli, che hora ultimamante il <persName
             key="p0536">Generale Fleming</persName> quando fù in <placeName
             key="g0008"
-            ref="https://geonames.org/2910831">
+            ref="https://www.geonames.org/2910831">
             Hanover
           </placeName> dal <persName key="p0727">Rè di Ingiltera</persName>,
           li erà riusito à tutto suo piacere quel quanto era andato per fare è che il Suo <persName
@@ -1239,9 +1209,7 @@
           vantagio di <persName key="p0174">Sua Maestà Czarea</persName>, Li giorni pasati fù qui il <persName
             key="p1443">
             S[ua] E[ccelenza] veschovo di quiavia
-          </persName> et è partito per <placeName
-            key="g0009"
-            ref="https://geonames.org/756135">Varsavia
+          </persName> et è partito per <placeName key="g0009" ref="https://www.geonames.org/756135">Varsavia
           </placeName> dicendo anco Lui che la [?] pol seguire hora: qui si dice che
           il mese venturo abbia à Prencipiare, il congresso di Bransvich, è che se <persName
             key="p0174">Sua Czarea Maiesta</persName> non mandera Suo Ministro Publicofarà diligenza
@@ -1256,12 +1224,10 @@
           non sarebe contraria, ma mediatrice, questa e sua idea della Porta per non rompere la pace
           se non con maniera sicura, è mi creda V[ostra] Ec[cellenz]a che mi fu asicurato che in <placeName
             key="g0018"
-            ref="https://geonames.org/745044">
+            ref="https://www.geonames.org/745044">
             Costantinopoli
           </placeName> viene molto stimulato la Porta alla rotura con <persName key="p0174">Sua Czarea
-            Maesta</persName>, et in <placeName
-            key="g0005"
-            ref="https://geonames.org/2761369">Vienna
+            Maesta</persName>, et in <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienna
           </placeName> si dice a l’incontrio che anzi il ministro di Sua Czarea Maesta
           tenta la Porta contro <persName key="p0163">l’Imperatore</persName>, cosi anco, à scrito
           alla <orgName key="o0023">
@@ -1271,7 +1237,7 @@
             n="f. 6"
             xml:space="default" /> credo che li amici di <placeName
             key="g0005"
-            ref="https://geonames.org/2761369">
+            ref="https://www.geonames.org/2761367">
             Vienna
           </placeName> averano trascurato la mia comisione di scrivere ogni
           ordinario alla Ec[cellen]za vostra como che qui mi anno avisato che non mancano à quanto

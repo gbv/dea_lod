@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,30 +93,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc>
         <p>ru_rgada_41_1_1711_2_0003.docx</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -190,11 +175,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -269,11 +253,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -348,11 +331,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -427,11 +409,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -507,7 +488,7 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -517,7 +498,7 @@
       <head>
         <title>1 August 1711. – Letter from <placeName
             key="g0031"
-            ref="https://geonames.org/3164603">Venice
+            ref="https://www.geonames.org/3164603">Venice
           </placeName> dated 1 August 1711 from <persName key="p1366">Demetrio Bozzis</persName> to <persName
             key="p0174">His Majesty
           </persName> with congratulations on entering the Walachian and
@@ -528,13 +509,11 @@
         <pb cert="high" n="f.9" xml:space="default" />
         <salute>Ἱερωτάτη Καισαριαία Μεγαλειότης.</salute>
         <note>Греческое</note>
-        <note>К велико[му] Г[о]с[у]д[а]рю из <placeName
-            key="g0031"
-            ref="http://www.wikidata.org/entity/Q641">
+        <note>К велико[му] Г[о]с[у]д[а]рю из <placeName key="g0031" ref="https://www.geonames.org/3164603">
             Венеции
           </placeName> августа о[т] 1 дня, 1711 [году] из <placeName
             key="g0031"
-            ref="https://geonames.org/3164603"
+            ref="https://www.geonames.org/3164603"
             cert="high">
             Венеции
           </placeName> о[т] <persName
@@ -581,9 +560,7 @@
           key="p0174"
           xml:space="default">
           μεγαλειότητα
-        </persName> εἰς τὴν περιβότητον <placeName
-          key="g0018"
-          ref="https://geonames.org/745044">
+        </persName> εἰς τὴν περιβότητον <placeName key="g0018" ref="https://www.geonames.org/745044">
           Κωνσταντινούπολιν</placeName>, τὸ ὁπόσον ἐλπίζομεν νὰ ἰδοῦμεν ταχέως γνωρίζοντες
         ὀφθαλμοφανῶς πῶς εἶναι θεία πρόνοια, ὁποῦ κινεῖ τοσαῦτα καὶ τοιαῦτα εὐσεβῆ στρατεύματα, καὶ
         θεία εὐσπλαγχνεία, ὁποῦ ἐπισκέπτει τῶν ὀρθοδόξων τὴν δέησιν. Ἐν τῷ μεταξὺ λοιπὸν καὶ ἐγὼ
@@ -591,9 +568,9 @@
         καὶ ἀκαταπαύστως νίκην καὶ κράτος εἰς τὰ θεοπρόβλητα ὅπλα τῆς αὐτοκρατορικῆς ... βασιλείας,
         εὐλαβῶς ὑπογράφομαι </p>
       <closer>
-        <dateline>εἰς <placeName key="g0031" ref="https://geonames.org/3164603">Βενετίαν
+        <dateline>εἰς <placeName key="g0031" ref="https://www.geonames.org/3164603">Βενετίαν
           </placeName>
-                    <date when="1711-08-01">1711 Αὐγούστου
+          <date when="1711-08-01">1711 Αὐγούστου
             πρώτῃ</date>. </dateline>
         <salute>Τῆς Ὑμετέρ. Ἱερωτάτης <persName
             cert="high"
@@ -603,7 +580,8 @@
             key="p0174"
             xml:space="default">Καισαρίας Μεγαλ</persName>. </salute>
         <salute>Ταπεινότατος, εὐλαβέστατος πιστότατος καὶ ἐλάχιστος δοῦλος</salute>
-        <signed><persName key="p1366">Δημήτριος ὁ Μπότζης</persName>. </signed>
+        <signed>
+          <persName key="p1366">Δημήτριος ὁ Μπότζης</persName>. </signed>
       </closer>
       <note>See also :</note>
       <note>ru_rgada_41_1_1711_2_0007</note>

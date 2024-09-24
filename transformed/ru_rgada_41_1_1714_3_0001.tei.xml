@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,7 +93,6 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CSÉC unless
           otherwise noted.
@@ -100,22 +100,7 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
+      <rdf:RDF />
     </xenoData>
   </teiHeader>
   <text>
@@ -148,18 +133,15 @@
           Превосходительства и как Вы требуете того на бумаге, то почитаю за долг, со всею
           покорностию Вам представить о том, по справедливости, правосудию и долгу Християнскому. </p>
         <p>И так я объявляю, что в помянутой бумаге содержатся дела бывшея прежде учиненной мною
-          29аго числа прошедшаго ноября в <placeName
-            key="g0018"
-            ref="https://geonames.org/745044">
+          29аго числа прошедшаго ноября в <placeName key="g0018" ref="https://www.geonames.org/745044">
             Константинополе
           </placeName>
-                    <persName
-            key="p0174">Всемилостивейшему Моему Императору</persName> присяге, перед Св. образом и
+          <persName key="p0174">Всемилостивейшему Моему Императору</persName> присяге, перед Св. образом и
           Евангелием Спасителя Мира, и при священнике и секретаре <persName key="p0494">Его
           Превосходительства
             барона Шафирова</persName>; а потому и не могу во всей точности ответствовать на
           настоящия обвинения <persName key="p1381">Его Превосходительства Саввы</persName>; ибо я
-          при произведенном надо мною в <placeName ref="https://www.geonames.org/6537932">Фиуме</placeName>
+          при произведенном надо мною в <placeName ref="">Фиуме</placeName>
           следствии не только обо всем ответствовал, но и дал точной отчет помянутому <persName
             key="p0494">министру барону
             Шафирову</persName>. </p>
@@ -171,7 +153,7 @@
           Царского
             Величества</persName>, требуя от меня того, чтоб я по прежнему служил верно, усердно и
           ревностно. </p>
-        <p>Я был отправлен в <placeName key="g0005" ref="https://geonames.org/2761369">
+        <p>Я был отправлен в <placeName key="g0005" ref="https://www.geonames.org/2761367">
             Вену</placeName>, где я получил патент на секретарской чин, с почтенными Вашего
           Превосходительства предписаниями, которыми Вы уверяли меня в милости <persName key="p0174">Его
           Царского Величества
@@ -180,7 +162,7 @@
           при том оставаться мне там под ведением <persName key="p0699">Его Превосходительства
           полномочнаго министра
             Матвеева</persName>. </p>
-        <p>Я жил в <placeName key="g0005" ref="https://geonames.org/2761369">Вене</placeName>
+        <p>Я жил в <placeName key="g0005" ref="https://www.geonames.org/2761367">Вене</placeName>
           5 месяцов, и во все сие время непрестанно служил Их Превосходительствам Министрам
           константинопольским, также и венским, во всем том что от них мне приказано было, сохраняя
           верность и послушание, которыми обязан вернейший слуга <persName key="p0174">Его Царского
@@ -253,9 +235,7 @@
           судилищах, обыкновенных и чрезвычайных должностях Левантских, во флоте, в экономии, в
           доходах. Сию книгу я хотел поднести моему <persName key="p0174">Государю</persName>. </p>
         <p>Естьли же Ваше Превосходительство хотите обо всем узнать; то можете послать взять
-          следственное дело из <placeName
-            key="g0399"
-            ref="https://geonames.org/3191648">
+          следственное дело из <placeName key="g0399" ref="https://www.geonames.org/3191648">
             Фиума</placeName>, где найдете разныя обвинения совершенно ложныя, которыя безсовестно и
           без страха Божия взнесены были на меня; также от <persName key="p0494">Его
           Превосходительства барона
@@ -270,10 +250,9 @@
           высоким
           повелениям Его Вел[ичества]. непременно остаюсь
         </p>
-
         <closer>
           <dateline>
-            <placeName key="g0002" ref="https://geonames.org/498817">С.
+            <placeName key="g0002" ref="https://www.geonames.org/498817">С.
               Петербург
             </placeName>
             <date when="1714-10-01">1714 года октяб[ря] 1 дня</date>

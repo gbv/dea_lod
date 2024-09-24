@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,30 +93,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc>
         <p>ru_rgada_53_3_39_0001.docx</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -191,11 +176,10 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -270,11 +254,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -349,11 +332,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -429,7 +411,7 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:medium"
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -471,7 +453,7 @@
         </persName> bey Unß der Antrag geschehen, Wir möchten bey
         Unseren Hohen Mit-Alliirten, es in die Wege zu richten, Unß befleißigen, daß die Stadt <placeName
           key="g0350"
-          ref="https://geonames.org/2807466">Wismar
+          ref="https://www.geonames.org/2807466">Wismar
         </placeName> nach deren völligen demolirung des <persName
           cert="high"
           evidence="internal"
@@ -507,7 +489,7 @@
         </persName> May[estät] May[estät] errichteten Tractaten,
         Sämbtlich verbunden, gedachte Stadt <placeName
           key="g0350"
-          ref="https://geonames.org/2807466">Wismar</placeName>,
+          ref="https://www.geonames.org/2807466">Wismar</placeName>,
         nach deren occupirung zu einer Reichs-Stadt gedeyen zu laßen; wie dann desfalß die
         Insinuationes beym Keyserl[ichen] Hoffe bereits geschehen, wannenhero eine Veränderung, in
         einer aus Tractaten herrührende Sache, zu machen, wohl bedencklich seyn würde; Nichts
@@ -537,7 +519,7 @@
           Preußen
         </persName> May[estät] May[estät] dahin anzuwenden, daß <placeName
           key="g0350"
-          ref="https://geonames.org/2807466"
+          ref="https://www.geonames.org/2807466"
           cert="medium">
           Wismar
         </placeName> mit deßen Pertinentzien, nach vorhero geschehener
@@ -579,7 +561,7 @@
         unter Unserm Königl[ichen] HandZeichen und fürgedrücktem Insiegel. </p>
       <dateline>Geben in Unserer Stadt <placeName
           key="g0011"
-          ref="https://geonames.org/2911296"
+          ref="https://www.geonames.org/2911298"
           cert="high">Altona</placeName>, den <date>3<hi rendition="simple:superscript">n</hi>.
         Junii, A[nn]o 1716 </date> ./. </dateline>
       <closer>

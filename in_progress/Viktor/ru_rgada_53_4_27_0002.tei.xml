@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -97,24 +98,9 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+          {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -190,7 +176,7 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
-}]]>
+}
         </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -212,7 +198,8 @@
             key="p0174"
             xml:space="default">Peter I</persName>
         </title>
-        <note><bibl>RGADA, fond 53, opis 4, no. 27, f. 8, 10v. Danish original</bibl>.</note>
+        <note>
+          <bibl>RGADA, fond 53, opis 4, no. 27, f. 8, 10v. Danish original</bibl>.</note>
         <note>
           <bibl>RGADA, fond 53, opis 4, no. 27, f. 9.Translation from Danish into German.</bibl>
         </note>
@@ -225,7 +212,8 @@
           full="yes"
           instant="unknown"
           key="p0174"
-          xml:space="default">Czar</persName></p>
+          xml:space="default">Czar</persName>
+      </p>
       <p>Elskelige Kiere Broder Ven og Naboe:</p>
       <p>Wj have af <persName
           cert="high"
@@ -278,7 +266,8 @@
         til Eders May[es][tæ]ts og Kierl[ighed]s Höye Czaariske Huuses Glæde maa opwoxe, og een
         velsignet alder opnaae. Forblivendis bestandig med ald sinceritet</p>
       <quote>
-        <p><persName
+        <p>
+          <persName
             cert="high"
             evidence="internal"
             full="yes"
@@ -288,10 +277,7 @@
         <p>Tro Broder Ven og Naboe:</p>
       </quote>
       <p>
-        <placeName
-          key="g0006"
-          ref="https://geonames.org/2618425"
-          cert="high">Kiöbenhaun</placeName>
+        <placeName key="g0006" ref="https://www.geonames.org/2618425" cert="high">Kiöbenhaun</placeName>
       </p>
       <p>den 17 Novemb[ris]</p>
       <p>A[nn]o 1714 <persName
@@ -301,7 +287,8 @@
           instant="unknown"
           key="p0532"
           xml:space="default">Friderich</persName> R[ex]</p>
-      <p><persName
+      <p>
+        <persName
           cert="medium"
           evidence="internal"
           full="yes"
@@ -314,11 +301,13 @@
           full="yes"
           instant="unknown"
           key="p0174"
-          xml:space="default">Czarn</persName></p>
+          xml:space="default">Czarn</persName>
+      </p>
       <p>udi Ryßland:</p>
       <pb n="f. 10v" />
       <p> Dend Durchleuchtigste Stormægtigste</p>
-      <p><persName
+      <p>
+        <persName
           cert="high"
           evidence="internal"
           full="yes"

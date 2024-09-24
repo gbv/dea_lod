@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -97,28 +98,12 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc>
         <p>ru_rgada_41_1_1686_2_0001.docx</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
+      <rdf:RDF />
     </xenoData>
   </teiHeader>
   <text>
@@ -132,10 +117,7 @@
               instant="unknown"
               key="p1308"
               xml:space="default">Ivan Volkov
-            </persName> to <placeName
-              key="g0031"
-              ref="https://geonames.org/3164603"
-              cert="high">
+            </persName> to <placeName key="g0031" ref="https://www.geonames.org/3164603" cert="high">
               Venice</placeName> with a petition concerning the Eternal Peace and Alliance
             contracted by Russia and Poland against the Turks and Tatars and demanding from the
             Venetians a written response as to their intentions to attack the Turks this spring and
@@ -169,7 +151,7 @@
           xml:space="default">
           Iohannes Alexeiewitz
         </persName>
-                <persName
+        <persName
           cert="high"
           evidence="internal"
           full="yes"
@@ -214,7 +196,7 @@
           xml:space="default">
           Cæsareæ Maiestatis Romanorum
         </persName>
-                <persName
+        <persName
           cert="high"
           evidence="internal"
           full="yes"
@@ -278,7 +260,7 @@
         </persName> de expugnatione ab
         exercitibus Cæsareæ Suæ Maiestatis <placeName
           key="g0211"
-          ref="https://geonames.org/3054667"
+          ref="https://www.geonames.org/3054667"
           cert="high">Budæ
         </placeName> Metropolis Basilicæ Regni Hungariæ iam dudum olim in Turcarum
         Potestatem delapsæ et nunquam antehâc à copiis <persName
@@ -301,13 +283,10 @@
         Regibusq[ue] Hungaricis devictæ, similiter quoq[ue] hoc anno de felici Victoria ex parte
         Vestræ Magnificentiæ deq[ue] debellatione duorum celebrium fortalitionum, <placeName
           key="Paleokastro Peloponnese Greece"
-          ref="https://geonames.org/6942691"
+          ref=""
           cert="high">
         Novarinumi
-        </placeName> puta et <placeName
-          key="Methoni castle Peloponnese Greece"
-          ref="https://geonames.org/11809079"
-          cert="high">
+        </placeName> puta et <placeName key="Methoni castle Peloponnese Greece" ref="" cert="high">
         Modonemæ
         </placeName> unâ cum residentia Turcarum Bassæ magnaq[ue] parte
         Moreæ, quod ad lætitiam pertinens ex causa supradicti Sancti Fœderis, non pridem à Nobis
@@ -356,7 +335,7 @@
           xml:space="default">
           Cæsareæ Maiestati Romanorum
         </persName>
-                <persName
+        <persName
           cert="high"
           evidence="internal"
           full="yes"
@@ -401,7 +380,7 @@
           key="p0463"
           xml:space="default">Cæsareæ Maiestatis Romanorum
         </persName>
-                <persName
+        <persName
           cert="high"
           evidence="internal"
           full="yes"
@@ -460,7 +439,7 @@
           xml:space="default">
           Cæsareæ Maiestati Romanorum
         </persName>
-                <persName
+        <persName
           cert="high"
           evidence="internal"
           full="yes"
@@ -499,7 +478,7 @@
       </p>
       <closer>Datum in Aula Nostra Imperiali in Imperante Magna Urbe <placeName
           key="g0001"
-          ref="https://geonames.org/524894"
+          ref="https://www.geonames.org/524894"
           cert="high">Moscoviâ
         </placeName> anno ab orbe condito 7195 mense Novembris Imperii vero Nostri
         anno.

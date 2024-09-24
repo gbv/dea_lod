@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,30 +93,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc>
         <p>ru_rgada_53_4_22_0001.docx</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -190,11 +175,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -270,11 +254,10 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:medium"
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -350,7 +333,7 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasPrecision": "cwrc:mediumCertainty"
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -410,7 +393,7 @@
         Monahts Novembris habe Ich mit sonderbahrem Vergnügen die Nachricht und Umbstände von dem
         letztern in Finnland bey dem Fluß <placeName
           key="Pälkäne Pirkanmaa Finland"
-          ref="https://geonames.org/642977"
+          ref=""
           cert="medium">Pelcken
         </placeName> vorgegangenen Combat zwischen Dero und denen
         Schwedischen Trouppen vernommen; Wie Wir nun nichtes Liebers noch angenehmers seyn kann, als
@@ -480,7 +463,7 @@
             key="p1131"
             xml:space="default">L[ie]bd[en]
           </persName>
-                    <lb /> Getreuer Bruder, Freund und <lb />
+          <lb /> Getreuer Bruder, Freund und <lb />
           Nachbahr. </salute>
         <signed>
           <persName
@@ -491,8 +474,8 @@
             key="p0532"
             xml:space="default">Friderich
           </persName> R[ex] </signed>
-
-        <dateline><placeName key="g0006" ref="https://geonames.org/2618425">
+        <dateline>
+          <placeName key="g0006" ref="https://www.geonames.org/2618425">
             Copenhagen</placeName>, <lb /> den <date when="1713-12-23">23 <hi rendition="simple:superscript">
               <hi rendition="simple:underline">ten</hi>
             </hi> Decembris Anno 1713 </date>
@@ -505,8 +488,9 @@
             key="p0174"
             xml:space="default">Czaaren
           </persName>
-                    <lb /> in gantz Rußland. </salute>
-        <signed><persName
+          <lb /> in gantz Rußland. </salute>
+        <signed>
+          <persName
             cert="medium"
             evidence="internal"
             full="yes"
@@ -520,7 +504,7 @@
       </closer>
       <note>Дацкая грамота поздравителная о виктории при <placeName
           key="Pälkäne Pirkanmaa Finland"
-          ref="https://geonames.org/642977">Пелкене <precision match="@ref" precision="medium" />
+          ref="">Пелкене <precision match="@ref" precision="medium" />
         </placeName>
         реке. Переведена генваря в 16 де[нь] 1714. </note>
     </body>

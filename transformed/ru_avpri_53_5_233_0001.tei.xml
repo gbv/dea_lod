@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -94,30 +94,14 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+      <rdf:RDF>
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -191,11 +175,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -269,11 +252,10 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
-
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    <![CDATA[{
+                    {
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -348,7 +330,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
 	}
-}]]>
+}
                 </rdf:Description>
       </rdf:RDF>
     </xenoData>
@@ -382,7 +364,8 @@
             xml:space="default">покойным родителем его</persName>, не может и по самым имперским
           законам, действително быть. со всем тем, не желает <del>он</del> и не требует он ни какой
           перемены  </p>
-        <p><pb cert="high" n="f. 45v" xml:space="default" />или послабления в существе означеннаго
+        <p>
+          <pb cert="high" n="f. 45v" xml:space="default" />или послабления в существе означеннаго
           фамилнаго учреждения, охотно <del>почти ее</del> паче оставляя принцам сыновьям своим,
           ползоватся всеми доходами графства ганавскаго, а хочет толко <del>чтоб ему,</del> чтоб ему
           для одного лица и пристойности, возвращена была внешность верховной власти над сим
@@ -400,7 +383,8 @@
             instant="unknown"
             key="p1520"
             xml:space="default">ландграфа</persName>, как одного из силнейших в германии </p>
-        <p><pb cert="high" n="f. 46" xml:space="default" />принцов и стараясь удержать его от
+        <p>
+          <pb cert="high" n="f. 46" xml:space="default" />принцов и стараясь удержать его от
           предания себя французским сетям и союзу, которой ему не однократно уже предсталяем был,
           адресовался к ея императорскому величеству с прозбою о употреблен[ии] посредства ея у
           аглинскаго и датскаго<note>"и
@@ -419,7 +403,7 @@
           которой ему
               болше на сердце лежит. я</del>  прошу вас государя моего, сообщить сие в обыкновенной
           вашей  </salute>
-                    <salute>+ должен я просит вас гсдря моего по высочайшему ея в[еличеств]а
+          <salute>+ должен я просит вас гсдря моего по высочайшему ея в[еличеств]а
           соизволению чтоб вы выше писанное  сообща в дружеской откровенности гос.[подину] графу <persName
               cert="high"
               evidence="internal"
@@ -449,17 +433,17 @@
               xml:space="default">короля прускаго
             </persName> у заступлению а особливо по пункту выведения
           гановерскаго гарнизона  </salute>
-                    <salute>тем паче что <note>Text from "+должен я
+          <salute>тем паче что <note>Text from "+должен я
               просит" to "тем паче что" is written on the left side of the folio by
               the hand other than one wrote the text presented above.
             </note>
           </salute>
-                    <salute>
+          <salute>
             <del>иб</del> о сем гарнизоне со всем ничего не определено и в самом фамилном
           учреждении, <del>тем паче что
             </del> по видимому и удоволствуется уже <del>ландгр</del>
           ландграф <del>том одн</del> сею одною уступкою. </salute>
-                    <salute>а равномерно по такому же
+          <salute>а равномерно по такому же
           ея в[еличеств]а высочайшему повелению в равной силе дано отсюда повеление и послу <persName
               cert="high"
               evidence="internal"
@@ -477,7 +461,7 @@
               бернсторфа
             </persName> откровенно уведомить можете, а затем
           пребываю я  </salute>
-                    <salute>
+          <salute>
             <note>Text from "#о сем" to "пребываю я" is written on the left side of the folio by the
           hand
               other than one wrote the text from "Государь мой" to "обыкновенной вашей".

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -92,7 +93,6 @@
         <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
         <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
-
       <sourceDesc sameAs="http://www.cwrc.ca">
         <p>Created from original research by members of CWRC/CSÉC unless
           otherwise noted.
@@ -100,22 +100,7 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
+      <rdf:RDF />
     </xenoData>
   </teiHeader>
   <text>
@@ -153,19 +138,17 @@
           del Mondo, coll'assistenza del Capellano, e Secretario <persName key="p0494">dell'E[ccelentissi]:mo
           Baron Saffirof</persName> in <placeName
             key="g0018"
-            ref="https://geonames.org/745044"
+            ref="https://www.geonames.org/745044"
             cert="high"> Constantinopoli <precision match="@ref" precision="high" />
           </placeName> , non per ciò posso in minimo punto
           rispondere alli corranti acuse del soprad[et]:to <persName
             key="p1381">E[ccelentissi]:mo S[ignor]: Sava</persName>, mentre di tutto, non solo
           risposi nel Processo formatomi à <placeName
             key="g0399"
-            ref="https://geonames.org/3191648">Fiume</placeName>, ma vesi distinto conto al
+            ref="https://www.geonames.org/3191648">Fiume</placeName>, ma vesi distinto conto al
           soprad[et]:to <persName key="p0494">Ministro Baron Saffirof</persName>. </p>
         <p>Del med[e]:mo <persName key="p0494">Ecc[elenstissi]:mo Baron Saffirof</persName>
-          all'incontro, (come poscia in <placeName
-            key="g0005"
-            ref="https://geonames.org/2761369">Vienna
+          all'incontro, (come poscia in <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienna
           </placeName> dal <persName key="p0699">Ministro
             Plenipotentiario Ecc[elentissi]:mo S[ignor]:
             Matfeof</persName>) fui assicurato della Gratia di <persName key="p0174">Sua Czarea
@@ -173,7 +156,7 @@
           per il passato. </p>
         <p>Fui spedito à <placeName
             key="g0005"
-            ref="https://geonames.org/2761369"
+            ref="https://www.geonames.org/2761367"
             cert="high">Vienna <precision match="@ref" precision="high" />
           </placeName> ,
           dove mi giunse la Patenta di Secretario, accompagnatomi da riverite prescritioni di
@@ -184,7 +167,7 @@
           manere cosà all'ubidienza dal narato <persName key="p0699">Ecc[elenstissi]:mo Ministro
           Plenipotntiario De
             Matveof</persName>. </p>
-        <p>Dimorai à <placeName key="g0005" ref="https://geonames.org/2761369">
+        <p>Dimorai à <placeName key="g0005" ref="https://www.geonames.org/2761367">
           Vienna
           </placeName> per il corso di mesi 5, et in questo tempo
           non mancai di servire, tanto gl'Ecc[elentisssi]:mi Ministri di Constantinopoli, quanto
@@ -250,9 +233,7 @@
           maneggi, e delle Publiche Rendite, per presentarlo poscia al mio <persName key="p0174">
           Sovrano</persName>. </p>
         <p>Se poi l'E[ccelen]:za V[ost]:ra vuò esser consapevole di tutto, potrà spedir a levar il
-          Processo da <placeName
-            key="g0399"
-            ref="https://geonames.org/3191648">
+          Processo da <placeName key="g0399" ref="https://www.geonames.org/3191648">
             Fiume</placeName>, ove ritroverà diferenti acuse, e di titta falsità, che senza scropolo
           di conscienza, e niente di timor de Dio, m'eran adossate, e <persName key="p0494">
           dall'E[ccelentissi]:mo Baron Saffirof
@@ -265,18 +246,15 @@
           nel constituirmi imutabile </p>
         <closer>
           <salute>Di V[ost]:ra E[ccelen]:za</salute>
-          <dateline>Dall'Aresto della Guardia di <placeName
-              key="g0002"
-              ref="https://geonames.org/498817">
+          <dateline>Dall'Aresto della Guardia di <placeName key="g0002" ref="https://www.geonames.org/498817">
             Peterburgh
             </placeName>
-                        <date when="1714-10-01">li P[ri]mo ottobre 1714</date>
+            <date when="1714-10-01">li P[ri]mo ottobre 1714</date>
           </dateline>
           <salute>Hum[ilissi]:mo, Dev[otissi]:mo et Obligat[issi]:mo Serv[itore]: fid[elissi]:mo</salute>
           <signed>
             <persName key="p1383">Paolo Arcoleo</persName>
           </signed>
-
         </closer>
       </div>
     </body>
