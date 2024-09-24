@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Royal letter to the Tsar [of Russia,] Fedor Alekseevich[,]
+          from the King of Denmark [and Norway], Christian V, announcing his victory over the
+          Swedish fleet and the capture of the town of Visby</title>
+        <title type="main" xml:lang="ru">Грамота к царю Феодору Алексеевичу от дацкаго короля
+          Христиана V объявительная о победе его над шведским флотом одержанной и о взятии города
+          Визби</title>
+        <author xml:lang="en">King</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Denmark</author>
+        <author xml:lang="en">and</author>
+        <author xml:lang="en">Norway</author>
+        <author xml:lang="en">Christian V</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13 Mai 1676. – [Royal] Letter to Tsar [of Russia] Fedor Alekseevich from the King
+            of Denmark [and Norway], Christian V, announcing his victory over the Swedish fleet and
+            the capture of the town of Visby</title>
+          <note>
+            <bibl>RGADA, fond 53, opis 2, no.44, f 1–1v. Danish original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p> Wii Christian Den Femte aff Guds Naade, Konge til Danmarck oc Norge, de Wenders oc
+          Gothers; Hertug udi Slesvig, Holsten, Stormarn oc Dytmersten, Greffve udi Oldenborg oc
+          Delmenhorst.</p>
+        <p>Tilbiude dend Stormegtige Höybaarne Woris Elskelige Kiere Broder, besynderlig gode Ven oc
+          Nabo af Guds Naade, Store Herre, Tzar oc Storförste Foeder Alexeiwitz alle store, smaa oc
+          hvide Rydtzers self Erholdere, Musckous, Kiofsckj, Woladimersckj, Naugorodsckj, Tzar til
+          Kasan, Tzar til Astrackan, Tzar til Sibirien, Herre til Pleskou, Storförste til
+          Smolensckou, Twersckj, Jugorsckj, Permsckj, Wætzsckj, Bolgarsckj oc andre; Herre oc
+          Stoerförste til Naugorodj det Lægeland, Tzeringoufskj, Resantzsckj, Rostofsckj,
+          Jeroslofsckj, Bielo osersckj, Udorsckj, Obdorsckj, Candinsckj oc ald Norder sider
+          Befalere, Herre til Iwersckj Land, Kartalinsckj oc Grusinsckj Tzar oc Karbadinsckj Land
+          Tzerkasckig oc Gorskisck Förste oc mange andere Herredömme oc Lande udj Öster, Vester oc
+          Nör, fæderlig, forfæderlig oc arfvelig Herre oc Regentere, Voris NaboeVenlige hilsen sambt
+          hvis meere Kiert oc got Vj formaa med Gud allermegtigste tilfore; Stormegtige, höybaarne
+          Elschelige Kiere Broder Naboe oc synderlig gode Ven, Vj hafve ej kundet forbigaa Eders
+          Kierl[ighe]d hermed Naboe Venligen at gifve tilkiende dend lyckelige fremgang hvormed Gud
+          voris vaaben hafver velsignet, j det Voris Admiral oc Admiralitets byegaard |:som Vj med
+          it antal orlogs=Skibe imod Cron Sverrig at agere oc dend ald mulig afbreck at giöre, hen
+          ad Öster söen forsendt hafve:| for nogen tid siden tvende svenske orlogs=Skibe under
+          Bleging hafver antreffed det eene paa Fire oc Tredive Störcker ofvermesteret, oc af det
+          andet, som svensken selfver hafde sat j brand, de meeste Störcker erObred oc Salveret, oc
+          derpaa med bem[eld]te Voris Flode til Gullander henseiglet, dend 28 Aprilis diid ankommen
+          oc om anden dagen U=anseet Gouverneuren oc Commendanten med en Sex hundrede Mand det sögte
+          af afverge lyckeligen giort Landgang jaget Fienden paa flugten oc derpaa med bem[eld]te
+          Voris Flode lagt sig for Staden Vißbye hvis slot, som ligger paa en klippe oc med stercke
+          mure er omringet, oc med ald nödtörfft var forsiuned, hand af trende Orlogs Skibe saaledis
+          hafver ladet beskyde at Fienden blef obligered det ved accord at opgifve oc Landet at
+          qvitere; saa at bem[eld]te Insul som A[nn]o 1645 ved da værenden= lyckelige conjuncturer
+          fra Voris Crone blef adskillet oc bragt under Sverrig, nu ved Guddommelig bistand
+          lyckeligen igien er kommen under Voris magt oc bothmesßighed. Saasom Vj nu ingenlunde
+          tvifle, at Eders Kierl[ighe]d io med sær behag oc fornöyelse skal fornemme denne seyer,
+          som Vj saaledis imod Cron Sverrig ved Guddommelig bistand hafver erholdet, Saa hafve Vj
+          Eders Kierl[ighe]d saadant Nabovenligen villet notificere; ynsckendis at dend allerhöyeste
+          E[ders] Kierl[ighe]ds vaaben med lige oc större fremgang ville velsigne, oc befalendis
+          Eders Kierl[ighe]d under dend allerhöyestes milde beskiermelse oc trygge varetegt til ald
+          lycksalig Regiering oc self begærlig velstand, Nabovenligen. Gifvet paa Vort slot
+          Kiöbenhafn dend 13 May Anno 1676.</p>
+        <p>Christian R[ex]</p>
+        <p />
+        <p />
+        <pb n="f. 1v" />
+        <p>Dend Stormegtige Höybaarne Voris Elskelige Kiere Broder, besynderlige gode Ven oc Naboe
+          af Guds Naade Store Herre Tzar oc Storförste Foeder Alexejwitz alle store smaa oc hvide
+          Rydtzers self Erholder, Muschous, Kiofsckj, Woladimersckj, Naugorodsckj, Tzar til Kasan,
+          Tzar til Astrackan, Tzar til Sibirien, Herre til Pleskou, Storförste til Smolensckou,
+          Twersckj, Jugorsckj, Permskj, Wætzskj, Bolgarsckj oc andre; Herre oc Storförste til
+          Naugorod j det Lægeland, Tzeringoufsckj, Resantzsckj, Rostofskj, Jeroslofsckj, Bielo
+          osersckj, Udorsckj, Obdorsckj, Candinsckj oc ald Norder sides Befalere, Herre til Iversckj
+          Land, Kartalinsckj oc Grisinsckj Tzar oc Karbadinsckj Land Tzerkasckig oc Gorsckisk
+          Förste, oc mange andre Herredömme oc Lande udj öster, Vester oc Nör, fæderlig, forfæderlig
+          oc arfvelig Herre oc Regenter. Nabovenligen.</p>
+        <p />
+        <p>К ц[а]рю Феодору Алексиевичу. Датская 1676. Пишет самодержцем.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

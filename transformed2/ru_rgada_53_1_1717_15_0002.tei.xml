@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Passport issued for the Russian Ambassador to Denmark,
+          Prince Vasilii Lukich Dolgorukii</title>
+        <author xml:lang="en">Johan</author>
+        <author xml:lang="en">Worm </author>
+        <author xml:lang="en">Johan</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17 July 1717. – Passport issued for <persName
+              key="p0729"
+              ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador to Denmark, Prince
+            Vasilii Lukich Dolgorukii</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 53, opis 1, 1717, no. 15, f. 2. German original.</bibl>
+            <bibl>RGADA, fond 53, opis 1, 1717, no. 15, f. 4. German duplicate.</bibl>
+          </note>
+        </head>
+        <pb n="f. 2" />
+        <p> Im Nahmen <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro
+          M[ayestä]tt Unsers Allergnädigsten Königs und Herrn</persName> werden die Beykommende
+          Magistrats=Persohnen, wie auch die Königl[ich]e Ambts=Bediente in den Hertzogthümern
+          Schleßwig, Hollstein hiemit angewiesen, daß Sie auf Vorzeigung dieses Paßes, <persName
+            key="p0729"
+            ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Ihro Czarischen May[estä]tt
+          Ambassadeur Printz Dolgorouki</persName>, zu Fortsetzung Dero Reyse, von Haderßleben ab,
+          an allen Ohrten, wo Selbige passiren werden, Vier Paar Bauer=Pferde zum Vorspan vor eine
+          Kutsche, Vier paar Baur=Wagen jeder mit 2 Pferden bespannt, wie auch Einen Bürger=Wagen
+          gleichfals mit 2 Pferden bespant von einer Abwechselungs=Stelle zur andern, ohne Entgeld,
+          so wohl hin alß zurück also fort verschaffen, wie nicht weniger Dieselbe mit freyem
+          qvartier in den Städten aller Ohrten hin und zurück versehen sollen. Geben auf der
+          RentCammer zu <placeName
+            key="g0006"
+            ref="https://www.geonames.org/2618425">Copenhagen</placeName> den 17<hi rendition="#u">
+            <hi rendition="#sup">ten </hi>
+          </hi>July A[nn]o 1717.</p>
+        <p>
+          <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Dero Königl[ichen] May[estä]tt
+            zu Dännemarck, Norwegen</persName>
+        </p>
+        <p>
+          <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Deputirte zu Financen</persName>
+        </p>
+        <p>
+          <persName key="p1463,p1462">J[ohan]: Worm J[ohan] Neve</persName>,</p>
+        <p>Paß</p>
+        <p>für <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ihr[o] Czarischen
+          May[estä]tt</persName>
+        </p>
+        <p>
+          <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Ambassadeur Printz
+            Dolgorouki</persName>
+        </p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_53_1_1717_15_0001</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

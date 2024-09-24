@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Dispatch from Russian Chargé d'Affaires in Copenhagen
+          Johann Mestmacher to Chief Chamberlain, Count Nikita Ivanovich Panin</title>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Mestmacher</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>
+            7 July 1770. – Dispatch from the Russian Chargé d'Affaires in
+            Copenhagen, Baron Johann von Mestmacher, to the Chief Member of the College of Foreign
+            Affairs, Count Nikita Ivanovich Panin
+          </title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 5, no. 240, f. 3-5v. Russian original</bibl>
+          </note>
+        </head>
+        <pb n="f. 3" />
+        <p>Сиятелнейший Граф</p>
+        <p />
+        <p>М[и]л[о]стивый Г[осу]д[а]рь</p>
+        <p>На другой день отправления моего последняго к вашему высокографскому Сиятелству
+          всенижайшаго от 22 июня / 3 июля доношения, застав в доме Г[оспо]д[и]на адмирала Графа
+          Ларвиха, я при пристойном от вас ему комплименте просил и его как о содержании в готовости
+          [sic] известных четырех сот матрозов, так и о благовремянном </p>
+        <pb n="f. 3v" />
+        <p> приискании и высылке в надлежащия места надежных лотсманов, в каждое человек даже до
+          дватцати, в разсуждении скоро ожидаемаго прибытия сюда Эскадры; на что он разпространяясь
+          многими изявлениями [sic] чувствителной благодарности за ваше об нем высокое
+          напамятование, меня уверил, что касателно означеннаго числа дацких матрозов, оныя уже в
+          готовности, а о лотсманах немедленно отправлены будут надлежащия указы, обещав сообщить
+          мне роспись о качестве и содержании вышеупомянутаго числа матрозов.</p>
+        <p> Между же тем в прошедшую среду ввчеру, то есть 23 июня / 4 июля из кронштата
+          благополучно сюда прибыл аглинской наемной корабль имянуемый фриншип, шипер [sic] жан
+          голман нагруженной разными морскими под ведомством находящагося на оном российскаго
+          комисара Началова провизиями и протчими для удоволствия морских российских в средиземное
+          море служителей припасами, с повелением обождать здесь Эскадры господина контр-адмирала
+          Арфа.</p>
+        <p />
+        <pb n="f. 4" />
+        <p />
+        <p>А как на сем корабле между прочим не достает 14<hi rendition="#u">
+            <hi rendition="#sup">ти</hi>
+          </hi> станков пушечных, то по шиперскому мне о том
+          представлению, я по прежнему данному мне от графа Ларвига позволению паки к нему
+          адресовался, с прошением его в изготовлении здесь оных помощи. Он тот час с охотою обещал
+          мне на здешнем же Королевском верфие велеть зделать оныя: но несколько часов спустя заехав
+          сам к моей квартире, мне объяснил, что как пушечныя станки составляют часть военной
+          аммуниции, так для избежания всяких иногда Экспликаций, он мне к тому покажет одного здесь
+          партикулярнаго человека статскаго советника Риберга, а дабы от того невоспоследовало </p>
+        <pb n="f. 4v" />
+        <p> ни малейшей остановки, он его как материалами, так и другими к тому потребностьми под
+          рукою снабдевать не оставит.</p>
+        <p> О лотсманах отправлены не токмо надлежащия указы, но и находятся они уже действително в
+          полном числе на острове драге для принятия Эскадры которую на сих днях сюда и ожидаю.</p>
+        <p> Ожидаемой здесь из Лондона переводчик Лизакевич знатно за противным ветром сюда еще не
+          прибыл.</p>
+        <p> В следствие Вашего Высокографскаго Сиятелства м[и]л[ос]тиваго повеления я пред отъездом
+          моим из Стокголма с позволения его Сиятелства Графа Ивана Андреевича писал для себя копию
+          с его употребляемаго с вами цифирнаго ключа, и оную с крайнейшею осторожностию у себя
+          хранить непремину.</p>
+        <p> Сей час прислал ко мне Г[оспо]д[и]н адмирал Граф Ларвиг приложенное здесь в копии на
+          немецком языке адресованное ко мне писмо, из которого Ваше Высокографское Сиятелство
+          предварително м[и]л[ос]тиво усмотреть соизволите кондиции, на которых Г[оспо]д[и]ну
+          контр-адмиралу </p>
+        <pb n="f. 5" />
+        <p>Арфу будет принимать на свою Эскадру здешних определенных матрозов. И как сие будучи дело
+          всевысочайше препорученное собственно реченному Г[оспо]д[и]ну контр-адмиралу, я в моем к
+          Графу Ларвигу при сем же в копии приложенном ответствии на то и ссылаюсь.</p>
+        <p>Пребывая при повержении себя неоцененному Вашему отеческому покровителству с
+          наиглубочайшим Респектом и вечною преданностию, </p>
+        <p>Вашего Высокографскаго Сиятелства,</p>
+        <p />
+        <p>М[и]л[ос]тиваго Г[осу]д[а]ря,</p>
+        <p />
+        <p />
+        <p>из копенгагена всенижайший и всеобязан-</p>
+        <p>июня 26 / июля 7 дня нейший Слуга</p>
+        <p>1770 года./ Иван Местмахер</p>
+        <p />
+        <p />
+        <pb n="f. 5v" />
+        <p />
+        <p>получена в 14<hi rendition="#sup">е</hi> июля 1770.</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_avrpi_53_5_240_0002</note>
+          <note>ru_avrpi_53_5_240_0003</note>
+          <note>ru_avrpi_53_5_240_0004</note>
+          <note>ru_avrpi_53_5_240_0005</note>
+          <note>ru_avrpi_53_5_240_0006</note>
+          <note>ru_avrpi_53_5_240_0007</note>
+          <note>ru_avpri_53_5_168_0001</note>
+          <note>ru_avpri_53_5_168_0002</note>
+          <note>ru_avpri_53_5_188_0001</note>
+          <note>ru_avpri_53_5_189_0001</note>
+          <note>ru_avpri_53_5_189_0002</note>
+          <note>ru_avpri_53_5_197_0001</note>
+          <note>ru_avpri_53_5_204_0001</note>
+          <note>ru_avpri_53_5_204_0002</note>
+          <note>ru_avpri_53_5_204_0003</note>
+          <note>ru_avpri_53_5_204_0004</note>
+          <note>ru_avpri_53_5_204_0005</note>
+          <note>ru_avpri_53_5_204_0006</note>
+          <note>ru_avpri_53_5_208_0001</note>
+          <note>ru_avpri_53_5_208_0002</note>
+          <note>ru_avpri_53_5_233_0001</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

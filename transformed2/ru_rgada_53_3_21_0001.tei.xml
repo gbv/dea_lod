@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Treaty of Copenhagen between Denmark and Russia concerning
+          the campaign of 1711</title>
+        <author xml:lang="en">King</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Denmark</author>
+        <author xml:lang="en">and</author>
+        <author xml:lang="en">Norway</author>
+        <author xml:lang="en">Frederick IV</author>
+        <author xml:lang="en">Tsar</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia;</author>
+        <author xml:lang="en">Emperor</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="de">Петр I</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 May / 6 June 1711. – Treaty of Copenhagen between Denmark and Russia concerning
+            the campaign of 1711</title>
+          <note>
+            <bibl>RGADA, fond 53, opis 3, no. 21, f. 1–6. Copy.</bibl>
+            <bibl>Translation into Russian: RGADA, fond 53, opis 3, no. 21, f. 8–11v.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1v" />
+        <p> auch denen in der Republique Pohlen wiedrig gesinneten den Fuß so fest auff der Gurgel
+          daß solche zum præjudiz der Nordischen Ligue die Hände nicht wieder nach denen Schweden
+          ausstrecken, und selbige von neuen zu sich ziehen können.</p>
+        <p>2. Die gesamte Nordische Ligue muß bey denen wieder Franckreich Allyrten conjunctim und
+          instantissime dahin arbeiten, daß der Garantie ohne fernern Anstand ein Gnüge geschiehet,
+          absonderlich des Neutralitäts Corps marchiret, die in Pommern stehende Schweden in Zaum
+          hält, und folglich so wohl Pohlen, alß Sachßen und Hollstein von der apprehension einer
+          feindlichen irruption befreyet.</p>
+        <p>3. Ist mit Eqvippirung der hiesigen Flotte zwar eyfrichst zu continuiren, man muß aber
+          mit selber noch nicht in See lauffen, sondern vielmehr denen Schweden alle Zeit,
+          Gelegenheit und Anlaß geben, ihren intendirten Transport nacher Pommern zu thun. So bald
+          selbiger alßdan geschehen, gehet man von hier aus auch zu </p>
+        <pb n="f. 2" />
+        <p> Segel, und leget sich mit einer genungsamen Seemacht dergestalt vor, daß die einmal
+          übergesezten Feinde, wen sie den rechten brathen zu spät riechen, ihrem vaterlande nicht
+          mehr zu Hülffe kommen können, hingegen wan sie durch des Neutralitäts Corps um so viel
+          mehr in unstreitigen Respect gehalten werden, und keine Excursiones in Pohlen oder
+          Teutschland thun dürffen, diese Jahres Campagne vergeblich verlieren, und sich nebst der
+          Provinz Pommern mercklich consumiren müßen.</p>
+        <p>4. Muß nunmehro die Escadre nach Norwegen ohne fernern Anstandt zu Segel gehen, um den
+          Transport derer noch dahin destinirten Trouppen aus Jütland zu facilitiren, damit der
+          General H[err] Baron von Löwendahl, von dort aus die Diversiones zeitig anfangen, dadurch
+          einen guten Theil derer Feinde auff sich ziehen, und solcher Gestalt ihre Forçe in Schonen
+          desto mehr schwächen kan.</p>
+        <p>5. Machen die Moscowiter gegen </p>
+        <pb n="f. 2v" />
+        <p> Finnlandt eine starcke bewegung, damit auch hiedurch die Schweden distrahiret, und um so
+          vielmehr aus Schonen nach dortigen Gränzen abgezogen werden.</p>
+        <p>6. Zu allem obigen aber desto beßer zugelangen, so muß man dem Feinde ganz andere
+          Glaucomata vormahlen, und ihm zu imprimiren bemühet seyn, alß wan das Absehen auff deßen
+          Teutsche Provincien gerichtet wäre.</p>
+        <p>Damit er auch nach solcher Feinte desto stärcker und eher greiffet, in Schonen aber bey
+          so wahrscheinlichen Umständen sich mehr und mehr entblößet; so kan man</p>
+        <p>7. Diejenigen Regimenter, welche theils zur Operation nicht mit gebrauchet, sondern in
+          Hollstein, Jütland und einigen vestungen verleget, theils aber nacher Norwegen
+          transportiret werden sollen, allmählich nach solchen Orthen defiliren, diejenigen Trouppen
+          aber, welche an dieser Stelle von dort her zur würckl[ichen] Execution so wohl nach
+          Norwegen </p>
+        <pb n="f. 3" />
+        <p> alß Schonen gezogen werden solchen, in march fertigen Standte halten laßen, jedoch müßen
+          die dieshalb ausgehende Ordres so abgefast seyn, daß die Regimenter selbst nicht wißen,
+          wohin es eigentlich gehen solle.</p>
+        <p>8. Weil man sich auch bereits mit der Zeitung träget, daß Ihr[o] Königl[iche] Maj[estät]
+          von hier, nacher Hollstein gehen wolten, so muß man dieses ferner zu debitiren suchen,
+          und, so bald selbige zu Coldingen, um den Transport derer Trouppen nacher Norwegen und
+          Schonen selbst in hiher Person zu pressiren, angelanget seyn werden, kan man der Sache
+          mehrern Schein geben, wenn an einigen auff die Route nacher Mecklenburgk liegenden orthen
+          Ordres gestellet werden, daß man gegen eine gewiße Zeit zu Auffnehmung Ihr[o]
+          Königl[ichen] Maj[estät] Anstalt machen solle.</p>
+        <p>9. Zu mehrer Colorirung dieses Stratagematis aber wird hauptsächlich dienen, wan die
+          Nordische Ligue </p>
+        <pb n="f. 3v" />
+        <p> denen wieder Franckreich Allyrten hautement declariren läßet, daß Sie, es koste was- und
+          lauffe wie es wolle! Schweden in seinen Teutschen Provinzien destruiren, und sich vor
+          selbigen auff alle Weise Ihrer angränzenden Länder halber nothwendig Sicherheit schaffen
+          müsten.</p>
+        <p>Wann nun diese ohne allen Zweifel darüber hoch auffahren werden, so muß man ihnen mit
+          guter Art wieder nach, und zu verstehen geben, daß man von des Feindtes Teutschen
+          Provincien gar nicht profitiren, sondern so bald er nur daselbst desarmiret, oder seine
+          dasige Trouppen denen hohen Allyrten zu überlaßen genöthiget seyn würde, sothane Teutsche
+          Provinzien dem Neutralitäts Corps zur Sequestration überlaßen, und diesseyts, wan man sich
+          nur durch die izige Campagne wegen der Ruhe in Teutschland gnugsam garantiret sehen würde,
+          gerne vergnüget seyn, mithin auch die vorgeschla-</p>
+        <pb n="f. 4" />
+        <p>gene Mediation zu einen accomodement willig anhören, und mit ihnen eine beständige gute
+          harmonie auff alle nur ersinnl[iche] Weise unverrückt behalten wolle.</p>
+        <p>Unter welchen plausiblen Prætexten die Zeit zu Ausführung des wahrhafftigen Desseins
+          feliciter gewonnen seyn wird.</p>
+        <p>10. Das Hauptwerck nun an sich selbst anlangende, so ist vornehmlich nöthig die
+          vorseyende Descente nacher Schonen wohl zu regliren. Weil man aber ratione Loci noch
+          discrepant ist, und die Vota theils auff Ystedt, theils auff Helsingburg reflectiren; So
+          soll darüber Ihr[o] Königl[ichen] Maj[estät] Decisum erwartet, auch von denen Abwesenden
+          Puissancen dieser Alliance das Gutachten eingehohlet, immittelst so wohl an hiesigen alß
+          Jütländischen Küsten alle Reqvisita zum schleinigen Transport parat gehalten werden.</p>
+        <p>11. Ratione Temporis werden die Feindlichen Mouvements </p>
+        <pb n="f. 4v" />
+        <p> nach Pommern, Norwegen und Finnland Uns selbst den Terminum anweisen, doch muß alles
+          gegen den 1<hi rendition="#sup">ten</hi>. Aug[usti] in vollkommener bereitschafft seyn.</p>
+        <p>12. Rationi Modi muß gleichfallß noch alles durch einen ordentlichen Kriegs Rath ehestens
+          vollkommen ausgemacht; Nichts destoweniger aber nebst kurz hiebevor gedachter Transports
+          veranstaltung auch die Armee zu Lande also eingerichtet werden, daß man wenigstens an
+          Cavallerie und Infanterie mit 36/m[ille] Mann übergehen kan.</p>
+        <p>13. Weil auch vermuthlich der Feind sich gegen die Descente möglichst opponiren, und zu
+          deßen berhinderung seinen lezten Effort vorkehren wird; So dürffte der vernunfft nach die
+          behörige Subsistence vor die Armée aus Feindtl[ichen] Lande nicht so fort herbey zu
+          schaffen seyn; dieserwegen aber so gleich in der Nähe und an hiesigen Küsten Magazins
+          anzulegen, wäre eben so viel, </p>
+        <pb n="f. 5" />
+        <p> alß dem Feinde das Dessein selbst zu erzehlen, dahingegen, wan im Lande hin und wieder
+          dergl[eichen] Provision zusammen gebracht, und dabey unter der Handt, so heimlich, alß
+          möglich ein Fuhrwesen eingerichtet wird, man alle solche Reqvisita der Armée, so bald die
+          Operationes angehen, ohne sonderbare Weitläuffigkeit und beschwerung nachschicken, und
+          also dem Feinde auch hierdurch eine artige Nase andrehen kan.</p>
+        <p>Insonderheit, wan man sich stellet, daß sothane versorgung vor diejenigen Trouppen dienen
+          solle, welche man nach angetretenen March gegen Pommern, nothwendig zur hiesigen Landes
+          Defension zurück laßen müße.</p>
+        <p>14. So bald man mit Göttl[ichen] beystandt Feindlichen boden erreichet haben wird, muß
+          man, wann er sich zu opponiren, und sich in einer Action einzulaßen unterstehet, aufs
+          vigoureuste selbigen angreiffen, </p>
+        <pb n="f. 5v" />
+        <p> und ihn in Felde vor allen dingen erstlich zu delogiren suchen.</p>
+        <p>15. Drauff der Communication, maintiens und benöthigter Magazins halber einen festen Fuß
+          im Lande zu nehemen, und dahero</p>
+        <p>16. Malmöe, LandsCron und Helsingburgk, es koste was es wolle! zu emportiren suchen.</p>
+        <p>17. Zu diesem Ende hat man einen gnugsamen belägerungs Etat vollkommen fertig zu halten.</p>
+        <p>18. Gleichwie nun aus allen diesen Præludiis das Ubrige von sich selbst herfliesen muß,
+          so wird auch, wann nur erstlich die Sache so weit entamiret ist, es von denen Poursviten
+          sich künfftig leichter und mit mehrerer Gewißheit sprechen laßen.</p>
+        <p>19. Nachdem aber von dergl[eichen] wichtigen Absichten die verschwiegenheit die Seele
+          ist, also soll zu desto beßerer Secretirung dieses Plans hievon nichts expediret, sondern
+          so wohl von denen Einheimischen </p>
+        <pb n="f. 6" />
+        <p> alß fremden Ministris alles mit eigener handt mundiret, copiiret und denen übrigen hohen
+          Principalen dieser Alliance zu ebenmäßiger Ratification per Expressen zugeschickt werden.</p>
+        <p>Additamentum.</p>
+        <p>So bald die Schweden ihren Transport nacher Pommern gethan haben, muß man Unserer Seyten
+          auch die in Pohlen stehende und von Czaarl[ichen] Maj[estät] hieher versprochene 6/m[ille]
+          Moscowiter von danzig ab, zu Unserer Armee zu transportiren suchen, und wird sich dahero
+          die Landung bey Ystedt wohl am füglichsten thun laßen.</p>
+        <p />
+      </div>
+    </body>
+  </text>
+</TEI>

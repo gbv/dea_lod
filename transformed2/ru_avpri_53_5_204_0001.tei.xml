@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorial submitted by the Russian Consul in Norway, Auditor
+          General Peter Fredrik Koren, to the Russian Envoy to Denmark, Major General Mikhail
+          Mikhailovich Filosofov</title>
+        <author xml:lang="en">Peter</author>
+        <author xml:lang="en">Friderich</author>
+        <author xml:lang="en">Koren</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>6 February 1767. – Memorial submitted by the Russian Consul in Norway, Auditor
+            General Peter Fredrik Koren{{p1512}}, to the Russian Envoy to Denmark, Mikhail
+            Mikhailovich Filosofov{{p1102}} </title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 204, f. 7–12v. German original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 7" />
+        <p>Allerunterthänigstes Pro Memoria</p>
+        <p>Mit dem nunmehro in die Ewigkeit gegangenen Russisch Kayserlichere außerordentlichen
+          Gesandten, Freyherrn von Korff{{p0245}}, habe ich vor diesem wegen einer den 18ten Octob<hi
+            rendition="#sup">r</hi> 1760 verunglückten Russischen Pinke zu correspondieren die Ehre
+          gehabt. Besagtes Schiff, Jedinarog genannt, geführt von Capitaine Wasilli Petrow
+          Bulgakoff{{p1514}}, hatte das klägliche Schiсksahl, ungeachtet es 5. Anker fallen ließ und
+          mit 3. erfahrenen Lootsen versehen war, sich mit vielen darauf befindlichen Personen
+          loszureißen und durch die Wucht der Wellen an einer Klippe zu scheitern, wo es in tausend
+          Stücken zerschmettert wurde. Dieses geschahe in der Bugt von <placeName
+            key="g0412"
+            ref="https://www.geonames.org/3133880">
+          Trondheim</placeName>, eine halbe Miele von meinem Landguhte <placeName
+            key="g0411"
+            ref="https://www.geonames.org/3138114">Smölen</placeName>.
+          Nur allein 11 Mann, welche nach dem Lande, um daselbst der durch den Stoß einer Canone
+          schadhaft gewordene Chaluppe auszubeßern, beordert waren, entgiengen ihrem
+          wahrscheinlichen Untergange. Doch würden Sie auch hier aus Hunger, Durst und Kälte ihren
+          gewißen Tod gefunden haben, wenn ihnen nicht die Vorsehung entweder mich, oder einen
+          andern billig-denkenden und menschlich gesinnten Mann zugeführt hätte, der sich zu ihrer
+          Rettung eben auf der Grenze befinden muste. Gleichwohl dauerte es zwei ganzer Tage, bis
+          ich erfuhr, daß Leute von dem verunglückten Schiffe eine halbe Meile </p>
+        <pb n="f. 7v" />
+        <p> von meiner Wohnung ans Land gekommen waren. Sogleich musten zwey von meinen Leuten sich
+          im Sturm und Regen über Moräste und Möhre wagen, um diese Elenden auszuforschen und solche
+          zu mir zu bringen. Nach vielem Suchen fanden sie selbige endlich unter der Chaluppe,
+          welche sie zu einigem Schutz wieder das tobende Ungewitter umgekehret hatten, halbnackend
+          sitzend, von Hunger und Durst ganz verschmachtet und in Gram Angst und Noht versunken. Ich
+          hatte genug zu thun sie zu erguicken, noch mehr aber um sie von ihrer ungegrundeten Furcht
+          zu befreyen, welche, wie ich, als wir einander ein wenig hatten verstehen lernen, merkte,
+          daher entstanden war, daß die Bauern, welche sie nach ihrer Landung angetroffen, vor ihnen
+          geflohen wären, ihre Häuser zugeschloßen und sich nachhero davon gemacht hätten, um ihrer
+          Meinung nach sich mit andern zu verstärken und ihnen alsdann auch das Leben, als das
+          Einzige, was ihnen übrig geblieben zu nehmen. Ich untersuchte diese Sache und es wurde mir
+          zur Antwort gegeben, daß man diese Fremdlinge für Wilde angesehen und weil ihr Bauerhof,
+          auf ihn sie zukamen, ganz abgelegen wäre, hätten die Bewohner desselben die Flucht
+          ergriffen. Von denen, die auf dem Schiffe waren, ist es bekannt genug, daß einige davon
+          das Land zwar erreichten, wie es ihnen aber gegangen und wie man ihnen nachhero begegnet,
+          ist mir ohne vom Hörensagen eben so wenig </p>
+        <pb n="f. 8" />
+        <p> bewust, als ich unberechtiget gewesen bin, solches zu untersuchen. Indeßen ist es nur
+          gar zu wahr, daß in einem Lande, wie Norwegen und besonders Nordenfields, oder in
+          nordlichen Theile desselben, wo die Küsten wenig bebauet, wo die Bauerhäuser weit von
+          einander belegen und wo die Einwohner arm sind, sehr häufige Unordnungen und Excesse gegen
+          Fremde begangen werden, zumahlen, wann sich in der Nähe nicht solche Personen
+          niedergelassen haben, welche sich der Fremdlinge annehmen und durch welche der gemeine
+          Mann, der sich für die Untersuchung, Genugthuung und Bestrafung seiner schlechten
+          Aufführung fürchtet, von abscheulichen Handlungen, ja fast barbarischen Unternehmungen
+          abgehalten werden kann.</p>
+        <p>Nachdem 8. Tage unter beständigen Stürmen verflossen waren und ich die traurige Gewisheit
+          erhalten hatte, daß die Pinke in meiner Nachbarschaft gescheitert sey, reisete ich
+          sogleich zu dem so genanten Wrag; kehrte zur dortigen Wache die nötigen Anstalten vor und
+          fertigte unterdeßen eine Expressen 8. Meile weit an die Obrigkeit des Districts ab, um
+          selbige von dem Zufalle zu benachrichtigen, welches bis dahin niemand zu thun für gut
+          gefunden hatte. Nachher bin ich in Anwesenheit der Obrigkeit zu zweyenmahlen mit den
+          Leuten bey der Besichtigung gewesen: da man mich aber nicht berechtiget fand, mich der
+          Sache weiter anzunehmen und mein wohl=</p>
+        <pb n="f. 8v" />
+        <p>gemeinter Raht nicht allezeit derjennige war, dem man folgen wollte, blieb ich nachhero
+          weg.</p>
+        <p>Der Capitaine Lieutenant Holosoff{{p0513}}, welcher ohngefehr zur selbigen Zeit, da sich
+          dieses in meiner Gegend zutrug, etwas länger Süden gegen Trondheim zwar mit ganzem
+          Schiffe, jedoch in einem verlegenen Zustand in so genannten Udhavn einlief und dem ich auf
+          Befehle des Herrn Geheimen-Rahts freyherrn von Korff{{p0245}} obbmeldte 11. Russen
+          überbringen ließ, soll bey seiner dortigen Ankunft gleiches Schicksal mit meinen Gästen
+          gehabt, so daß er, wegen ähnlicher Flucht der dortigen Bauern in grosser Verlegenheit
+          würde gerahten seyn, wenn ihm nicht die Obrigkeit Beystand geleistet und die
+          erforderlichen Anstalten zur fortsetzung seiner Reise gemacht hätte.</p>
+        <p>Damit nun dergleichen Ungelegenheiten inskunftige möglichst vorgebeuget werden, hingegen
+          die unter Rußisch-Kayserlicher Flagge Fahrende in bedürfenden Umständen Hülfe und Beystand
+          genießen, auch überhaupt in aufkommender Gefahr, sowohl wegen ihrer Personen, als ihrer
+          Ladung sichere Zuflucht wißen und gute Begegnung nebst billigmäßiger Verpflegung gewiß
+          erwarten können, sollte ich nach meiner unvorgreiflichen Meinung dafür halten, daß, nach
+          dem Beyspiel der übrigen Nationen, </p>
+        <pb n="f. 9" />
+        <p> auch für die Rußische die Errichtung eines Kayserlichen Consulats im Königreiche
+          Norwegen{{o0125}} eine höchstnohtwendige und wichtige Sache sey. Dieses Consulat{{o0125}}
+          müste durch Unterstützung eines jeden Orts-Obrigkeit den Einwohnern längst den Seeküsten
+          Verhaltungs-Befehle ertheilen laßen, wornach sie sich genau zu richten wüsten, wenn ein
+          Rußisches Schiff entweder Schiffbruch, oder durch ein oder andern Zufall genötiget seyn
+          sollte, in irgend einen Norwegischen Hafen einzulauffen. Dabey wurde ein sehr durch
+          drohnende Ansprache und Strafen beßer, als durch die Sittlichkeit, sich ihrer Pflichten
+          erinnern und der Rußischen Nation das Recht wiederfahren laßen, welches derselben in einem
+          fremden Lande schon nach dem Gesetz der Natur, des allgemeinen Völker-Rechts Rußisches und
+          aller Billigkeit, wenigstens so lange zukommt, bis ihrem Rahtgeber und Anwald, dem Consul,
+          oder auch deßen nächstbelegenem Vice-Concul von dem einem Rußischen Schiffe begegneten
+          Zufall Nachricht gegeben werden und derselbe das weitere nach seiner abhabenden Pflicht
+          beobachten und veranstalten lassen kann.</p>
+        <p>Der Nutzen des Rußischen-Consulats{{o0125}} erstrecket sich, meines allerunterthänigsten
+          dafürhaltens, noch weiter, da die Handlung der Kayserlichen Unterthanen auf Norwegen
+          dadurch zugleich um ein großes befördert werden könnte, welche in Gegentheil nunmehro, </p>
+        <pb n="f. 9v" />
+        <p> in Ermangelung eines zuverläßigen Wegweisers, und da die Rußen weder von der Sprache,
+          noch von den Gesetzen und Gewohnheiten des Landes etwas wißen, auch wunderstelten jemand
+          in Norwegen finden, der etwas Russisch verstehet, gar schlecht betrieben und durch diese
+          und verschiedene andere Ungemächlichkeiten von allen Seiten fast gänzlich verhindert und
+          ersticket wird. Es ist dieses ein desto größerer Verlust für die Kayserlichen Unterthanen,
+          als Norwegen nicht allen oft ganz unumgänglich, sondern auch in großer Menge fast aller
+          Russischen Productenbedarf und die Kayserlichen Unterthanen mit eigenen Schiffen von der
+          ersten Hand den Normännere folgende Waaren selbst zuführen könnten: als Flachs, Hampf,
+          Herde, Hampfsamen, Leinensamen, Tauwerk, Pelzwerk, Segeltuch, fein und grobes Leinewand,
+          Drell und allerhand fabrique-Waaren; ja so gar Grütze, Mehl und alle Gattungen von
+          Getreyde |: wie mit lezterer Waare erst neulich ein Kaufmann in Trondheim es thate, als
+          der von <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName> 7000 Tonnen Rocken kommen ließ und
+          selbigen mit gutem Vortheile für billigen Preiß verkauften :/ ferner: gesalzenes Fleisch,
+          Häute, Juchten, Honig, Wachs, Talg, Licht, und andere dergleichen Waaren, womit im
+          abgewichenen Jahre </p>
+        <pb n="f. 10" />
+        <p> zwey Holländiche Schiffe in <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName> beladen in der
+          gefährlichen Bucht von <placeName
+            key="g0412"
+            ref="https://www.geonames.org/3133880">Trondheim</placeName> strandeten. Überhaupt
+          haben wir bey uns sehr wenige fabriquen und selbst an rohen Materialien großen Mangel,
+          daher nach meiner Einsicht wohl keine Regierung durch kluge Aufmunterung und beguem
+          einzurichtende Anstalten ihren Unterthanen zu einer ansehnlichen, vorteilhaften und
+          blühenden Handlung auf ein fremdes Land beßere Gelegenheit geben kann, als eben auf
+          Norwegen; denn die Absetzung der Landes-Producten mit eigenen Schiffen muß nohtwendig den
+          Reichthum der Unterthanen und die Zunahme der Seefahrt nach sich ziehen,wodurch die
+          Matrosen befahren werden und dem Vaterland bey entstehndem Krieg den größten Nutzen
+          leisten können.</p>
+        <p>Sollte es auch eintrefen, daß eine oder andere Gattung von Waaren wegen gar zu starker
+          Zufuhre in irgend einem Hafen zu einem vorteilhaften Preiß nicht sogleich abzusetzen wäre;
+          so könnte man entweder von der ganzen Ladung oder von dem rückständigen Theile derselben
+          bey dem Consul oder deßen Vice-Consuls einen Auf- oder Niederlage machen, welche darauf
+          von ihm oder ihnen des Winters oder auch im Frühjahr mit großem Nutzen verkauft würden,
+          indem zu diesen Jahreszeiten die mehresten Waaren hoch im </p>
+        <pb n="f. 10v" />
+        <p> Preiße sind. Bey Ankunft der Schiffe in Sommer könnte so von den vorhin zurückgelaßenen
+          Sаchen Rechnung abgeleget werden, zu welchem Ende der Consul dahin trachten müßte, in
+          denen Städten und zumahl in solchen, wo er selbst nicht sogleich hinkommen könnte, gute
+          und zuverläßige Leute zu Vice-Consuls anzunehmen.</p>
+        <p>Zur Retour-Ladung würden die Rußischen-Schiffe folgende Waaren einnehmen können, als:
+          Stockfisch, Rothscheer, Klipfisch, gesalzene-Fische, Titling, große Heringe, Fettheringe,
+          geräucherte Heringe, Anchois, eingemachte Austern, gebrannten Thran, Leber-Thran,
+          Herings-Thran, Speck-Thran und andere dergleichen Norwegische Landes-Producte, welche zur
+          rechten Zeit nach den gangbaren Preißen aufgekaufft werden und welche die Russen mit ihren
+          eigenen Schiffen abhohlen könnten, anstatt das bishero Fremde ihnen solche zugeführet. </p>
+        <p>Sollten nun diese meine allerunterthänigste Gedanken nicht nur ganz ungegründet angesehen
+          werden und es als IHRO KAYSERLICHE MAY[ESTÄ]TT.{{p0033}} im Königreiche Norwegen ein
+          Russisches Consulat{{o0125}} zu errichten Allergnädigst gefällig seyn, muß ich
+          nachfolgende Puncte höherer Beurtheilung hindurch unter-</p>
+        <pb n="f. 11" />
+        <p>werfen. Es wäre nemlich nothwendig:</p>
+        <p>Daß IHRO KAYSERLICHE MAY[ESTÄ]TT.{{p0033}} im Königreiche Norwegen einen General-Consul
+          mit einer convenablen Gage Allergnädigst bestelleten;</p>
+        <p>Daß diesem General-Consul die Befugniß beygeleget würde, in den Städten, wohin er selbst
+          nicht allezeit kommen könnte, und er solches für nötig und der Rußischen Handlung nützlich
+          erachtete, Vice-Consuls zu bestellen, welche er von der ihm Allergnädigst zugestandenen
+          Gage zu besolden hätte; </p>
+        <p>Daß er bey Veränderungen der Vice-Consuls solches sogleich dem am Königlichen Dänischen
+          Höfe residirenden Kayserlichen Ministre zu melden schuldig, damit die Namen derselben der
+          Russischen Nation bekannt wären;</p>
+        <p>Dass der General-Consul bey wichtigen, bedenklichen und unvermuhtet sich eräugnenden
+          Vorfällen und Begebenheiten sich sogleich an den hiesigen Rußisch-Kayserlichen
+          bevollmächtigten Gesandten zu wenden hätte, um von demselben, als seinem Vorgesezten,
+          desfals nähere Verhaltungs-Befehle zu erhalten.</p>
+        <p>Daß ebenermaßen die Vice-Consuls solches gegen den General-Consul beobachten und seinem
+          Raht oder seiner Anweisung die gebührende Folge leisten müste.</p>
+        <p>Der General-Consul würde zu seinem Aufenthalte am besten entweder <placeName
+            key="g0412"
+            ref="https://www.geonames.org/3133880">
+          Trondheim</placeName> oder Bergen zu wählen haben; doch </p>
+        <pb n="f. 11v" />
+        <p> wären die Stadt Trondheim, als ein fester-Haupt- und guter-Handelsort der Stadt <placeName
+            key="g0413"
+            ref="https://www.geonames.org/3161732">Bergen</placeName> weit vorzuziehen seyn, zumahlen, da dieses Trondheim in
+          der gefährlichen Bugt, wo die mehresten Schiffbrüche geschehen, belegen, auch <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName>, <placeName
+            key="g0415"
+            ref="https://www.geonames.org/2615911">Kola</placeName>, <placeName
+            key="g0414"
+            ref="https://www.geonames.org/515246">Onega</placeName>, Warbiga als wovon der Handel auf Norwegen am leichtesten
+          und vorteilhaftesten betrieben warden kann, am nächsten ist.</p>
+        <p>Da ich nichts sehnlicher wünsche, als mich den Diensten IHRO KAYSERLICHEN
+          MAY[ESTÄ]TT{{p0033}}. zum Besten Dero Unterthanen zu widmen: So bitte allerunterthänigst,
+          fals dieser wohlgemeinte Vorschlag zur Bestellung eines Rußischen General-Consuls im
+          Königreiche Norwegen Beyfall finden sollte, mir, als einem sowohl der Landes-Gesetze, als
+          des Norwegischen Handlungs-Wesen Kundigen, diese Bedienung allerhulderichst zu Conferiren,
+          da ich denn heiligst verspreche, selbige mit allem erdenklichen Fleiß und unwandelbarer
+          Treue zu verwalten, auch zu dem Ende meine in der Rußischen Sprache bereits erworbene
+          Kenntniß zur G[e]nüge zu erweitern.</p>
+        <p>Der seiner Rechtschaffenheit und andern großen Eigenschaften halber auch in seinem Grabe
+          noch immer verehrungswürdige Rußisch Kayserliche Minister, weyland freiherr von
+          Korff{{p0245}}, hat, da ich Ehre genoß, demselben bekannt zu werden nicht allein diesen
+          meinen allerunterthänigsten Vorschlag seines Beyfalls </p>
+        <pb n="f. 12" />
+        <p> gewürdiget; sondern mich so gar von Norwegen herunter beruffen laßen, um diese
+          Angelegenheit nicht Ihm persönlich zu behandeln und ich schmeichele mir, es würde solche
+          schon jezt ihre Endschaft erreichet haben, wenn uns der Tod diesen geliebten Herrn nicht
+          so frühe entrissen hätte. Gleichwohl habe ich nun einmahl darum diese Reise gethan und
+          werde daher die Allergnädigste Entschließung Ihro Kayserliche<hi rendition="#sup">n</hi>
+          May[estä]tt{{p0033}} hier, in <placeName
+            key="g0006"
+            ref="https://www.geonames.org/2618425">Copenhagen</placeName>,
+          ehrfurchtsvoll erwarten, in dem festen Zutrauen, daß, wenn ALLERHÖCHSTDIESELBE ihn zu
+          genehmigen geruhen, ich für diese erhebliche Bedienung die schon vorhin proponirte 1200.
+          Rubel an jährlicher Gage zu verhoffen haben könne.</p>
+        <p>
+          <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName>, den 6<hi
+            rendition="#sup">ten </hi>Febr.
+          1767.</p>
+        <p>Ist mit dem Dänishen Original in allem wesentlich gleichlautende.</p>
+        <p> Peter Friderich Koren{{p1512}}.</p>
+        <pb n="f. 12v" />
+        <p>Из реляции полномочнаго министра философова{{p1102}} из <placeName
+            key="g0006"
+            ref="https://www.geonames.org/2618425">
+          копенгагена</placeName> № 3. 1767</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_avpri_53_5_204_0002</note>
+          <note>ru_rgada_avpri_53_5_204_0003</note>
+          <note>ru_rgada_avpri_53_5_204_0004</note>
+          <note>ru_rgada_avpri_53_5_204_0005</note>
+          <note>ru_rgada_avpri_53_5_204_0006</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

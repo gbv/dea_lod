@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorial from the Russian Chancellor, Count Gavrila
+          Ivanovich Golovkin, to the Burgomasters (Mayors) of the City of Neustadt</title>
+        <author xml:lang="en">Gavrila</author>
+        <author xml:lang="en">Ivanoviсh</author>
+        <author xml:lang="en">Golovkin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>27 June 1716. – Memorial from <persName
+              key="p0071"
+              ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Russian Chancellor, Count Gavrila
+            Ivanovich Golovkin</persName>, to <persName key="p0000">the Burgomasters (Mayors) of the
+            City of Neustadt</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 53, opis 1, 1716, no. 20, f. 2–2v. Translation from Russian into
+              German.</bibl>
+          </note>
+        </head>
+        <pb n="f. 2" />
+        <p> An <persName key="p0000">die Burgermeister der Stadt Neustadt</persName>
+        </p>
+        <p>Ehrenfeste, und wohlEdle bürgerMeister –der Stadt Neustadt<hi rendition="#sup">–25</hi>
+        </p>
+        <p>Ich will hoffen daß Ew[er] WohlEdl[e] werden bereits die ordre von <persName
+            key="p0532"
+            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">ihro koniglichen M[ayestä]t Euren herrn</persName>
+          wegen Anschaffung der Transports Fahrzeugen vor <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ihro z[aarischen] M[ayestä]t Meinem
+          allergnädigsten herrn</persName> empfangen, und derselben nachgelebet haben maaßen
+          dieselbe <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">ihro
+          konigl[iche] M[ayestä]t</persName> deßhalb bereits ersuchet haben. Ich zweifle auch nicht
+          oder es werde <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Seiner
+          konigl[ichen] M[ayestä]t an ihro cz[aarischen] M[ayestä]t hofe subsistirender</persName>
+          <persName key="p0984">Envoyé Extraordinaire h[err] von Westphal</persName> wegen ged[achten]
+          anschaffung an Sie geschrieben. Weilen nun <persName
+            key="p0172"
+            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t die Czaarin</persName>, und <persName
+            key="p0071,p0494">d[as] czaar[ische] Ministerium</persName>
+          <hi rendition="#sup">–</hi>dieser
+          tagen<hi rendition="#sup">–36</hi> von hier auf <placeName
+            key="g0391"
+            ref="https://www.geonames.org/2927579">Femern</placeName>
+          <placeName
+            key="g0387"
+            ref="https://www.geonames.org/661883">Alandt</placeName> und so weiter nach <placeName
+            key="g0006"
+            ref="https://www.geonames.org/2618425">Copenhagen</placeName>
+          gehen werden: alß habe Ich <hi rendition="#sup">–</hi>auf befehl <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ihro cz[aarischen] M[ayestä]t</persName>
+          <hi rendition="#sup">–39 </hi>Ew[er] WohlEdl[en] durch gegenwärtigen Expressen davon </p>
+        <pb n="f. 2v" />
+        <p>part geben und anbey ersuchen wollen daß nicht allein der vorspahn <hi rendition="#sup">–</hi>dahin
+          möge<hi rendition="#sup">–42 </hi>gesezet sondern auch die Transports Fahrzeuge wegen <persName
+            key="p0172"
+            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t</persName>
+          übergehens zubereitet damit <persName
+            key="p0172"
+            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t</persName> niergends
+          aufgehalten werden.</p>
+        <p>Wegen anzahl der benöthigten pferde, zu lande zu waßer aber der Transports Fahrzeugen,
+          wirdt Ewer WohlEdl[en] gegenwätiger expresser communiciren. der Ich übrigens verharre</p>
+        <p>Ew[er] WohlEdl[en]</p>
+        <p>Freundwilliger</p>
+        <p>
+          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Graf Golowkin</persName>
+        </p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_53_1_1716_20_0001</note>
+          <note>ru_rgada_53_1_1716_20_0003</note>
+          <note>ru_rgada_53_1_1716_20_0004</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

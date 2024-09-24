@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en">Translation of a letter from Mr. Whitworth to Count
+          Golofkin, about the affront offerd to Mr. Matveoff</title>
+        <author xml:lang="en">Charles</author>
+        <author xml:lang="en">Whitworth</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>21 September / 2 October 1708. – Translation of a letter from Mr.
+            Whitworth{{p1255}} to Count Golofkin{{p0071}}, about the affront offerd to Mr.
+            Matveoff{{p0699}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-5, f. 96-99. English translation.</bibl>
+          </note>
+        </head>
+        <pb n="f. 96" />
+        <p>
+          <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>
+        </p>
+        <p>21. Sept[embe]r / </p>
+        <p>2 Oct[obe]r 1708</p>
+        <p>Translation of a letter from Mr. Whitworth{{p1255}} to Count Golofkin{{p0071}}, about the
+          affront offerd to Mr. Matveoff{{p0699}}</p>
+        <p />
+        <p>Last night I received the honour of your Excellencys Letter of the 16.th Inst[ant].
+          concerning the Extraordinary affront offer’d to His Excellency your Ambassador Mons[iue]r
+          Matveoff{{p0699}} in <placeName
+            key="g0003"
+            ref="https://www.geonames.org/2643743">London</placeName>, and the great concern of
+          His Czaarish Majesty{{p0174}} : I am very confident and dare give you the most positive
+          assurances, that H[is] C[zarish] M[ajesty]{{p0174}} himself cannot be more moved at this
+          unluky accident, than the Queen{{p0668}} is, and that nothing shall be last undone which
+          lyes in Her Majestys power, to let all the world see Her resentement on this occasion ;
+          and to convince His Majesty{{p0174}} of the great Esteem She has, and allways will have
+          for his person and friendship ; the annext copys of the two Letters from his Excellency
+          the Secretary of State M[iste]r Boyle{{p1969}} to your Ambassador{{p0699}} which I
+          received two days ago by a Courier from <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName>,
+          express the sentiments of the Court{{o0002}} so fully on this occasion, tat it is not
+          possible for me to find out Terms more strong or more oblidging ; you will theresee what
+          that seventeen persons are allready in prison, and will be prosecuted with the outmost
+          severity for this attempt : I own it is of such a nature that I shall not endeavour any
+          wise </p>
+        <pb n="f. 96v" />
+        <p> to excuse their insolence ; but I must observe, that the Ambassadors Relation seems to
+          be aggravated in so violent a manner, as is not usuall to persons of his prudence and
+          moderation, who instead of endeavouring to lessen the friendship of their Principals,
+          should soften the report of such inconveniences as may some times arrise throu the
+          ignorance or ill manners of inconsiderable people : as Her Majestys Ministers could not
+          expect to unkind a representation, after the many Civilitys he had received from them and
+          all persons of quality and Distincion, they have not taken the precaution to give me a
+          full information of the particulars ; however I shall write for one, and do not question
+          but that will clear the Court{{o0002}} from several imputations ; In the mean time I shall
+          onely observe, that his Excellency M[iste]r Secretary Boyle{{p1969}} in no less than three
+          Letters positively mentions his having sent Secretary to take care of the
+          Ambassador{{p0699}}, and get him released, as soon as ever he had notice of it, thou very
+          late at night ; which is very far from the unworthy suspicion of M[iste]r
+          Walpooles{{p1511}} coming of his own accord to divert himself at such a misfortune : I
+          also find by several private Letters to me and other persons here, that the
+          Ambassador{{p0699}} was not carryed to prison, but to the house of the Bailif, that not
+          onely two but above ten Tradesmen, who are now in prison, ware concern’d in arresting him
+          for debts, which ware much greater than he mentions, thou I cannot tell the particular sum
+          ; nor do I find nor can believe, that ever any public notice </p>
+        <pb n="f. 97" />
+        <p> was given, or day appointed to pay his creditors ; for it is unreasonable to think any
+          people should be so mad as to run themselves into these inconveniencys, when a time was
+          named and they inform’d they should receive satisfaction ; which particulars I do not
+          mention to excuse the fact, but onely to let you see, that some persons, who do not wish
+          well to the peace of both crowns, have <hi rendition="#s">tacken</hi> taken pains to give
+          His Exc[ellence] Mons[ieu]r Matveoff{{p0699}} as bad impression of this matter as ever
+          they would.</p>
+        <p>You will see by the inclosed copys that your Ambassador{{p0699}} was leaving great
+          Britain, and His Exc[ellency] the Secretary Boyle{{p1969}} informs me, that he had
+          declar’d [?] to receive a very valuable present from Her Majesty{{p0668}}, to make use of
+          a Yacht for his Transportation, or even to take his recredentials, notwithstanding all
+          possible diligence was using, according to the course of our Laws, for making reparation,
+          and his presence would have been very agreable till the wholle was effected ; for my part
+          I shall immediately give Her Majesty{{p0668}} an account of your desires &amp; by my
+          representations heartily contribute all that lyes in my power, towards procuring a
+          suitable satisfaction, and maintaining the old friendship between the two Dominions of
+          Great Britain and Great Russia ; hoping at the same time your Exc[ellence] will endeavour,
+          as you ware pleased to promiss, to moderate by your good officies His Czarish
+          Maj[esty]{{p0174}} resentement and facilitate the way on your side ; if I thought my
+          presence might be acceptable or of use to this good work; I hall willingly wait </p>
+        <pb n="f. 97v" />
+        <p> upon His Cz[arish] Maj[esty]{{p0174}} and your Exc[ellence]: with a great deal of
+          pleasure, at any time and place you may think fit to appoint me, both to give by word of
+          mouth the further assurances of Her Majestys great concern at this affair, and to
+          deliberate on the most proper means for bringing it to a [?] conclusion ; and Her
+          Majesty{{p0668}} has even under consideration if it be demanded to send person of quality
+          express to His Cz[arish] Maj[esty]{{p0174}} as a further proof of Her Esteem.</p>
+        <p>From all what I have here related I hope you will own such case is taking fir suitable
+          and speedy reparation, that you have no reason to think of any other method, or to impute
+          this unluky accident, which could not possibly be foreseen and therefor not prevented, to
+          Her Majesty{{p0668}} or the Government, much less to let it have any impression on the
+          present friendship and good Correspondence between the two Crowns ; which I hope is built
+          upon more solid principles, than to be shaken by such occasions, considering the vast
+          benefits that daily accrue and still may increase to this Empire from that of Great
+          Britain ; and as to Her Majestys Friendship and strength, it is too much valued in most
+          places of Europe to be slighted, especially in the present juncture, when you must be
+          sensible, that many people would gladly lay hold for any occasion, to make a breach or
+          even a coldness between the two Crowns ; but that, I am fully persuaded, as long as His
+          Cz[arish] Maj[esty]{{p0174}} has such prudent Councillors as you are, will never happen
+          and on the other side I shall allways do my best, to </p>
+        <pb n="f. 98" />
+        <p> find out opportunitys, whereby the Czar{{p0174}} may be induc’d to encrease the Esteem
+          he has often profess’d to me to have for Her Majestys, and that gracious regard He has
+          hitherto shown for Her Subjects, by whom he has several times own’d he is well serv’d.</p>
+        <p>After having detain’d Your Excellency thus long I shall be very short in those points,
+          which relate to me and the Consul{{p1252}} ; which thou it is true are not to be compared
+          with the great affront unlukely happen’d to M[iste]r Artemonowitz{{p0699}}, yet have been
+          of weight and might have been of more, if ill represented ; and as to the satisfaction
+          obtain’d, I am oblig’d to say it has never been without a great deal of pains and
+          disagreableness, and then not proportionable to the affronts : as for the people that
+          attack’d me and my servants with stones, they knew very well who I was, for my Equipage
+          was not so common as not to be easily distinguish’d, and my servants nam’d my character
+          several times ; that the stones did not hit me was my good <hi rendition="#s">look</hi>
+          luck and not their good manners, for they ware indifferently fluny [?], and two offer’d to
+          lay hoe’d on my bridle, and had my horse given way to them, I cannot tell how they might
+          have treated me then : as to their hard bodily punishment it was the commonest in this
+          Country, and then taken barely pro formû, my secretary onely permitting them to have four
+          of five blows, and that from the two alone, who would have seized my horse, thou above
+          twenty ware concern’d in the uproar ; as to my goods being seal’d up, </p>
+        <pb n="f. 98v" />
+        <p> I had not acquainted your Precasse{{o0064}} with the place whither I sent them, because
+          I left servants in Town to take care of them, they being onely laid in one of the Consuls
+          warehouses to avoid fire and thieves, against which I had no other place of security ; nor
+          could the Town Councill pretend ignorance whose they ware, since my servants appear’d
+          there in my Livery, to acquaint them of it before they ware sealed up, and thou I
+          represented this in <placeName
+            key="g0264"
+            ref="https://www.geonames.org/627904">Grodno</placeName>, yet the seals were not
+          taken off in some months, till after my arrival in <placeName
+            key="g0001"
+            ref="https://www.geonames.org/524894">Mosco</placeName>}
+          : it is true a Consul can be brought into no Comparison with Ambassadors and Envoys, that
+          is as to the rangs and other prerogatives, but the Laws of Nations also takes care for the
+          protection of their persons, their houses and servants, nor did the two Instances I
+          mention’d about M[iste]:r Goodfellow{{p1252}} Her Majestys Consul and Agent General any
+          wise relate to his Trafick or the pretensions of her precauses might have on him ; but
+          ware particular affronts done to his house ; but I avoid enlarging upon them, because they
+          cannot help the present business and only might make it worse.</p>
+        <p>As to the Recognition of King Stanislaus{{p0522}}, I find His Cz[arish]
+          Maj[esty]{{p0174}} takes most amiss, that it was done without giving him any previous
+          notice, at a time his Ministers ware treating a nearer allyance. All that I can at present
+          add to what I lately writ to your Excellency on this point, is, that t’is probable I may
+          have had orders to make such a notification a considerable time ago, if all the secretary
+          of </p>
+        <pb n="f. 99" />
+        <p> States Letters were come to my hands, but yours Exc[ellency]: very well knows that near
+          three months Letters from the 1. Febr[uary] to the las April are still missing nor have I
+          yet received any duplicats of them by the present irregularity of the posts, so that I am
+          entirely ignorant of all that was transacting at Court{{o0002}} in that time.</p>
+        <p>I congratulate your Exc[ellency]: once more on the happy success of your arms, and wish
+          the continuance thereof may crown all your endeavours ; for I am certain, Her Majesty the
+          Queen{{p0668}} will have a very great satisfaction in every thing which may contribute to
+          the wellfare of so good a friend and ally as She esteems His Cz[arish] Maj[esty]{{p0174}}
+          : it is with very particular pleasure that I give your Exc[ellency]: these many
+          assurances, to which I beg leave to add those of my being with great respect and Esteem</p>
+        <p>C[harles] W[hitworth]</p>
+        <p />
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-5_0009</note>
+          <note>en_na_russia_sp_91-5_0014</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

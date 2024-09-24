@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title
+          type="main"
+          xml:lang="en">Letter from the Russian agent in Venice Matteo Caretta to the chancellor Count Gavrila Ivanovich Golovkin</title>
+        <author xml:lang="en">Matteo</author>
+        <author xml:lang="en">Caretta</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>15 April 1712. – Letter from the Russian agent in Venice Matteo Caretta to the chancellor Count Gavrila Ivanovich Golovkin</title>
+          <note>
+            <bibl>RGADA, fond 41, opis 1, 1712, no. 2, f. 45-45v. Italian original; Russian translation: ibid. f. 47-49.</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 45" />
+        <p />
+        <p>Приложен перевод </p>
+        <p>Ill[ustrissi]:mo Ecc[elentissi]:mo Sig[nor]: Sig[nor]: Patr: Col:mo</p>
+        <p>Con lettere di nostri amici da Costantinopolli de 10 marzo scaduto mi dicano che dopo ano sentuto li Turchi de Asof sia nelle loro mani a rottato facia ogni afare con volare altre pretentioni sopra la Casachia e che il Gran Sig[no]:re volendo andare in campagna Lui in Persona ma che i Leggisti non vogliano ne il mufti non vuole dar il fetva con dire che non e di legge una volta che Sua Maesta Czariana a dato esegutione al Tratato Bisogna serar la Pace e che per tutta la Luna da marzo non si credeva che avrebevo masso fuori le Code ma tutto cio dico lo che mai bisogna fidarsi delli Turchi – In queste parti si dice per siguro che bene Sua Maesta Nostro Imperatore abia dato esegutione alli Tratati di Pace che li Turchi manchera e che seguira la guera particolarmente che qui si sente sempre gia li apasechi delli Turchi nella prosima Prima vera – Spero in <hi
+            rendition="#u">dio </hi>che averemo la Pace ma se incaso non sara credo che Sua Maesta aveva amemoria li Cristiani Montenegrini et Albanesi per che quando averano la Gracia del nostro Agu[stissi]:mo Imperatore farano une Grandissima diversione a Turchi – e lo sopra di questo </p>
+        <pb n="f. 45v" />
+        <p> non dico nulla perche de gia il nostro Sig[nor]: Console Bozzi a dello quando fa bisogno nelle sua che nelli tempi pasati a servito a vostra Ec[celenz]:a [?] sopra di questo non dico nulla sola staso qui aspetare li comandi di vostra Ec[celenz]:a – Lunedi venuto si parte de qui una nave da guerra di questa ripublica con diverti altri vaselli da mercantia la con soldati et biscoti e tutto per Morea – L’altro giorno e venuto lettere dall Zant adel Proveditore Generalle et da Durazo del Console veneto che nella Albania e tutta la Grecia li Turchi amasavano gran gente con dice che vano contro moscoviti – Questo e quanto si dice in queste parti – Li mando li soliti avisi da Statia mio che nelli medemi veda quello è alla giornata – il Conte Rassa tutta via sta qui in Venetia aspetare la risposta di quanto desidar da Sua Maesta e da Vostra Ec[celenz]:a cosi ancora quelli officialle da che de gia motivar nelle mie pasate a vostra Ec[celenz]:a dove di nono ne suplica una risposta e quando vostra Ec[celenz]:a non avere la comodita de scrivarmi in italiano pure facia scrivermi in francese [o] in lattino per che tanto a sue mi serve – Con che resto sempre pia desideroso della Gracia del nostro Agu[stissi]:mo Monarcha et del patrocinio della Ec[celenz]:a vostra restando divotamente vaciarli le mani</p>
+        <p>D: V[ostra]: Ec[celenz]:a				Hu[milissi]:mo et obl[igatissi]:mo servitore</p>
+        <p>Venetia 15 Aprille 1712					Mattio Caretta</p>
+      </div>
+    </body>
+  </text>
+</TEI>

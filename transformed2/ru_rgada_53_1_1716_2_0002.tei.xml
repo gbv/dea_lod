@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title
+          type="main"
+          xml:lang="en">Royal letter from the Tsar of Russia, Peter I, to the King of Denmark and Norway, Frederiсk IV</title>
+        <author xml:lang="en">Tsar</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia;</author>
+        <author xml:lang="en">Emperor</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Peter I</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>24 February 1716. – Royal letter from the <persName
+              key="p0174"
+              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar of Russia, Peter I,</persName> to <persName
+              key="p0532"
+              ref="a2ddef43-2638-4c94-a067-2fef15c6a879">the King of Denmark and Norway, Frederick IV</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 53, opis 1, 1716, no. 2, f. 14–15. Copy of translation from Russian into German.</bibl>
+          </note>
+        </head>
+        <pb n="f. 14" />
+        <p> Х <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">королю дацкому</persName>.</p>
+        <p>Ich habe von unterschiedl[ichen] Orthen her die Nachricht erhalten, daß die Schweden in <placeName
+            key="g0393"
+            ref="https://www.geonames.org/2711537">Gottenbourg</placeName> eine Esquadre Schiffe Equipiren umb damit Meinen unter Commando des <persName
+            key="p1461">Capitain Bredals</persName> befindlichen und aus der NordSee kommenden Schiffen auf den dienst zu paßen und wo möglich eines zu versetzen, Wann nun ged[achter] <persName
+            key="p1461">Capitain Bredaal</persName> mit denen wenigen bey sich habenden <hi
+            rendition="#sup">–</hi>und noch nicht völlig equipirten<hi
+            rendition="#sup">–12</hi> Schiffen dieser feindlichen Esquadre nicht gewachsen seyn, und gefolglich gefahr lauffen kann von derselben übernhauffen geworffen zu werden, alß habe ich </p>
+        <pb n="f. 14v" />
+        <p> Ew[er] M[ayestä]t, und L[ie]bd[en] hiermith freundtbrüderl[ich] ersuchen wollen, einige von dehro KriegsSchiffen ins Kattegath zu schicken, umb Ged[achte] in <placeName
+            key="g0393"
+            ref="https://www.geonames.org/2711537">Gottenburg</placeName> equipiret werdende Esquadre zu observiren, und den <persName
+            key="p1461">Capitain Bredaal</persName> mit denen bey sich habenden Schiffen nach <placeName
+            key="g0006"
+            ref="https://www.geonames.org/2618425">Coppenhagen</placeName> in salvo zu bringen,</p>
+        <p>Ich zweiffle nicht oder Ew[er] M[ayestä]t, und L[ie]bd[en] werden mir hierunter desto ehender willfahren, alß selbige Meine Schiffe </p>
+        <pb n="f. 15" />
+        <p> in der bevorstehenden Campagne Ew[er] M[ayestä]t, und L[ie]bd[en] noch guthe dienste leisten können, und überdehme unßer gemeinsahmes Interesse sehr viel leiden würde, wann diesen Schiffen einiges Unglück überkommen sollte; Ich beziehe mich auf das jenige so Mein bey Ew[er] M[ayestä]t, und L[ie]bd[en] <persName
+            key="p0729"
+            ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Subsistirender Ambassadeur</persName> dieser wegen weiters vortragen wird und verharre lebenslang p[erge]</p>
+        <p>З <placeName
+            key="g0014"
+            ref="https://www.geonames.org/3099434">Гданска</placeName> февраля 24 числа 1716 года.</p>
+        <p>Из <placeName
+            key="g0014"
+            ref="https://www.geonames.org/3099434">Гданска</placeName> февраля в 24 де[нь] 1716.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

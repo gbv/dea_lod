@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Note from the Foreign Department of the Kingdom of Denmark
+          to the Russian Chargé d’Affairs in Denmark, Johann Mestmacher on the appointment of a new
+          Foreign Minister</title>
+        <author xml:lang="en">Department of Foreign Affairs of Denmark</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>22 December 1770. – Circular from the Foreign Department of the
+              Kingdom of Denmark to the Russian Chargé d’Affairs in Denmark, Baron Johann von
+              Mestmacher, on the appointment of a new Foreign Minister</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 240, f. 70. French original</bibl>
+          </note>
+        </head>
+        <pb n="f. 70" />
+        <p>Note</p>
+        <p>Le Roi venant de nommer M[onsieu]r le Comte d’Osten Son, conseiller privé et Ministre du
+          Departement des Affaires étrangères, on a l’honneur d’en informer le Chargé des affaires
+          de Sa Majesté Imperiale de toutes les Russies M[onsieu]r de Mestmacher, et de l’avertir,
+          que ce sera à ce Ministre, qu’il aura dorenavant à s’adresser.</p>
+        <p>Du bureau des Affaires étrangères à Coppenhague le 22. Decembre 1770.</p>
+        <p>[Marx Johan] Ehlers. [Christian Frederik] Temler.
+          [Halfrig Peter] Sturtz.</p>
+        <p />
+        <p>À M[onsieu]r de Mestmacher chargé des </p>
+        <p>affaires de Sa M[ajes]té Imp[éria]le de toutes</p>
+        <p>les Russies, près le Roi.</p>
+        <noteGrp>
+          <note rendition="#b">Also see:</note>
+          <note>ru_avrpi_53_5_240_0001</note>
+          <note>ru_avrpi_53_5_240_0002</note>
+          <note>ru_avrpi_53_5_240_0003</note>
+          <note>ru_avrpi_53_5_240_0006</note>
+          <note>ru_avpri_53_5_208_0001</note>
+          <note>ru_avpri_53_5_208_0002</note>
+          <note>ru_avpri_53_5_233_0001</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

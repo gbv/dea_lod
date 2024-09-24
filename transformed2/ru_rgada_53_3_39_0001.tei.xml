@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Declaration of King Frederick IV of Denmark [and Norway],
+          made at Altenau at the request of His Majesty [Tsar of Russia,] Peter I, concerning the
+          cession of the City of Wismar to the Duke [Charles Leopold] of Mecklenburg-Schwerin, with
+          the consent of the Kings of England[,] [Georg I,] and in Prussia[,] [Frederick Wilhelm I,]
+          on condition that not only shall nothing be demanded for the fodder taken from his lands
+          for the Danish troops, but that all justice shall be done in the claim of the Queen of
+          Denmark[,] [Louise,] and her sisters to the inheritance</title>
+        <title type="main" xml:lang="ru">Декларация дацкого короля Фридриха IV, учиненная в Алтенау
+          по требованию государя Петра I об уступке с согласия королей англинского и прусского
+          города Висмара во владение герцогу Мекленбург-Шверинскому с таким условием, чтобы не токмо
+          за взятый для датских войск из его земель фураж ничего не требовать, но и в претензии
+          наследника королевы датской с ее сестрами учитывать всякую справедливость</title>
+        <author xml:lang="en">King</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Denmark</author>
+        <author xml:lang="en">and</author>
+        <author xml:lang="en">Norway</author>
+        <author xml:lang="en">Frederick IV</author>
+        <author xml:lang="en">Ditlev</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>3. Juni 1716. – Declaration of King Frederick IV of Denmark [and Norway], made at
+            Altenau at the request of souvereign [of Russia] Peter I, concerning the cession of the
+            City of Wismar to the Duke [Charles Leopold] of Mecklenburg-Schwerin, with the consent
+            of the Kings of England [Georg I] and Prussia [Frederick Wilhelm I], on condition that
+            not only shall nothing be demanded for the fodder taken from his lands for the Danish
+            troops, but that all justice shall be done in the claim of the Queen of Denmark [Louise]
+            and her sisters to the inheritance</title>
+          <note>
+            <bibl>RGADA, fond 53, opis 3, no. 39, f. 1–1v. German original.</bibl>
+            <bibl>RGADA, fond 53, opis 3, no. 39, f.6–6v. German copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p> Nachdemmahlen von Seiten Seiner Czaarischen May[estät] bey Unß der Antrag geschehen, Wir
+          möchten bey Unseren Hohen Mit-Alliirten, es in die Wege zu richten, Unß befleißigen, daß
+          die Stadt Wismar nach deren völligen demolirung des Herrn Hertzogen von Mecklenburg
+          Schwerin L[ie]bd[en] verbleiben möchte; So können Wir Unß nicht entlegen, Seiner
+          Czaarischen May[estät] und L[ie]bd[en] zu reiffter Erwegung vorzustellen, welchergestalt
+          Wir laut denen mit den Königen von Groß-Brittannien und Preußen May[estät] May[estät]
+          errichteten Tractaten, Sämbtlich verbunden, gedachte Stadt Wismar, nach deren occupirung
+          zu einer Reichs-Stadt gedeyen zu laßen; wie dann desfalß die Insinuationes beym
+          Keyserl[ichen] Hoffe bereits geschehen, wannenhero eine Veränderung, in einer aus
+          Tractaten herrührende Sache, zu machen, wohl bedencklich seyn würde; Nichts destoweniger
+          haben Wir auf Intercession und in Consideration Seiner Czaarischen May[estät] hiemit
+          versprechen wollen, Unsern officia bey denen Königen von Groß-Brittannien und Preußen
+          May[estät] May[estät] dahin anzuwenden, daß Wismar mit deßen Pertinentzien, nach vorhero
+          geschehener vollenkommenen Demolition, Seiner L[ie]bd[en] des Hertzogs von Schwerin
+          L[ie]bd[en], wegen der aus deßen Landen gehobene fourage und Subsistence für Unsere
+          Trouppen, wie es Nahmen haben möge, etwann gemacht, oder wegen des vorigen und </p>
+        <pb n="f. 1v" />
+        <p> dieses Jahres, noch zu machende prætensiones, würcklich cessiren, aufhören und deren ins
+          künfftige keine gemachet oder desfalß formiret, sondern vielmehr an erwehnten prætensionen
+          renuncieret werden soll. Nichtweniger stipuliren Wir gleichfalß hiebey, daß Unß eine
+          positive und zulängliche Versicherung, von Seiten des Hertzogs von Mecklenburg, Schwerin
+          L[ie]bd[en] gegeben werde, Unsere Gemahlnin der Königinn May[estät] und L[ie]bd[en] sambt
+          deren Geschwistern L[ie]bd[en] L[ie]bd[en] wegen Ihres Sehl[igen] Herrn Vatern des
+          Hertzogen von Mecklenburg Güstrow verlaßenschafft, sowohl die Außsteuer, alß die
+          Allodial-Güther betreffend, promptè und zwar in einer gewißen Zeit gehörige Justice
+          wiederfahren und einem Jeden das Seinige, so Ihm zukommet, reichen zu laßen. Uhrkundtlich
+          unter Unserm Königl[ichen] HandZeichen und fürgedrücktem Insiegel. Geben in Unserer Stadt
+          Altona, den 3<hi rendition="#sup">n</hi>. Junii, A[nn]o 1716./.</p>
+        <p>Friderich R[ex]</p>
+        <p />
+        <p>D Wibe</p>
+        <p />
+        <pb n="f. 2" />
+        <p> Переведено.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

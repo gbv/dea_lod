@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorandum to be submitted to the British Ministry by the
+          Minister Plenipotentiary of Russia to London, Count Chernyshev</title>
+        <title type="main" xml:lang="fr">Memoire que le Ministre Plenipotentiaire de Russie à
+          Londres Comte de Czernicheff doit remettre au Ministere de la Grande Bretagne</title>
+        <author xml:lang="en">Petr</author>
+        <author xml:lang="en">Grigor'evich</author>
+        <author xml:lang="en">Chernyshev</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>[Between July 1749 and January 1750]. – Memorandum to be submitted to the British
+            Ministry{{o139}} by the Minister Plenipotentiary of Russia to London, Count [Petr
+            Grigor’evich] Chernyshev{{p1440}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-51, s.f. French copy</bibl>
+          </note>
+        </head>
+        <p />
+        <p>Memoire que le Ministre </p>
+        <p>Plenipotentiaire de Russie à </p>
+        <p>Londres Comte de Czernicheff{{p1440}}</p>
+        <p>doit remettre au Ministere de la </p>
+        <p>Grande Bretagne{{o0139}}.</p>
+        <p />
+        <p>Sa Majesté Imperiale de toutes les Russies{{p0052}} a vu avec un plaisir sensible, et
+          toute la reconnaissance d’une bonne Alliée, par la reponse de Sa Majesté
+          Britannique{{p0063}} du 5/16 Juillet passé au memoire remis a Mons[ieu]<hi
+            rendition="#sup">r</hi> l’Ambassadeur Extraordinaire, Comte de Hyndford{{p0776}},
+          dernierement parti de Sa Cour{{o0008}}, en date du 14/25 Mars lequel contenoit la premiere
+          Declaration, faite de la part de Sa Majesté Imperiale de toutes les Russies{{p0052}} par
+          Son Ministre de Panin{{p0114}} à la Cour de Suede{{o0015}}, contre les changemens
+          premedités de la presente forme du Gouvernement, que Sa Majesté le Roy de la Grande
+          Bretagne{{p0063}}, regarde ces mesures, comme necessaires pour la Conservation du Repos,
+          et Sa Majesté Imperiale{{p0052}} reconnoit en meme tems les Sentimens justes et pacifiques
+          de Sa Majesté Britannique{{p0063}}, et comme bonne Alliée declare aussi de vouloir remplir
+          exactement en vertu du Traité d’Alliance defensive conclu l’An 1742. tous ses engagemens
+          en pretant effectivement, <hi rendition="#u">Casu existente</hi> le Secours y stipulé, et
+          dont Sa Majesté Imperiale{{p0052}} s’est faite une loix qu’Elle observera toujours
+          religieusement.</p>
+        <p>Mais comme la Reponse faite a cette premiere Declaration de la part de la Cour de
+          Suede{{o0015}}, ne repondoit en aucune maniere aux vuës pacifiques et salutaires de Sa
+          Majesté Imperiale{{p0052}}, ni ne donnoit la moindre seureté pour le futur ; Elle a fait
+          communiquer à l’Ambassadeur de Sa Majesté Britannique, Comte de Hyndford{{p0776}},
+          ci-devant accredité à Sa Cour{{o0008}}, par un autre memoire du 5/16 Juillet passé une
+          deuzieme Declaration, qu’Elle avoit jugé convenable de faire remettre par Son Envoyé de
+          Panin{{p0014}} à la Cour de Suede{{o0015}} pour le bien de la cause commune; dans la
+          supposition, où Elle continuoit d’etre, que Sa Majesté Britannique{{p0063}} en consequence
+          de l’ectroite Amitié et Union qui subsiste heureusement entre les deux Cours, et du
+          veritable interet, qu’Elle a, de prendre pareillement part à la Conservation du Repos dans
+          le Nord, ne seroit point eloignée non seulement d’approuver comme par le passé, cette
+          autre marque de l’Attention de Sa Majesté de toutes les Russies{{p0052}}, à menager tant
+          ses propres Interets, que ceux de Ses hauts Alliés, et qui naturellement y sont attachés,
+          mais aussi de s’expliquer plus precisement et conformement a Ses Engagements sur le <hi
+            rendition="#u">Casum foederis</hi>, et le Secours promis stipulé par le Traité, dans le
+          cas que le Parti dominant en Suede voulusse agir contre cette Declaration legitime, et
+          obliger par là Sa Majesté Imperiale{{p0052}} de mettre en Execution les Engagemens en
+          conformité du Traité de Nystadt.</p>
+        <p>Bienque Sa Majesté Imperiale{{p0052}} n’ait pas encore reçu de Reponse de la Cour de la
+          Grande Bretagne{{o0002}} sur le memoire ci-dessus, mentionné ; Elle a pourtant jugé a
+          propos d’envoyer Ordre au Soussigné Ministre Plenipotentiaire, et Chambellan actuel, de
+          donner à connoitre à Sa Majesté Britannique{{p0063}} d’une maniere convenable, que Sa
+          Majesté Imperiale de toutes les Russies{{p0052}} avoit fait faire à la Cour de
+          Suede{{o0015}} une nouvelle Declaration amiable par Son Ministre de Panin{{p0114}}, mais
+          cette Cour{{o0015}} derigée [sic] apparement par les conseils de quelques Puissances mal
+          intentionnées a donné la reponse suivante, qui ne repond nullement à la susditte
+          Declaration, a sçavoir : “Que comme la Declaration, que Son Altesse le Prince
+          Successeur{{p0232}} venoit de faire de Son propre mouvement, de ne vouloir point souffrir,
+          qu’il fut donné aucune atteinte à la forme du Gouvernement suffisoit pour oter tout
+          soupçon, et que si contre toute attente on s’apercevoit en suite de quelque tentative
+          contre la Liberté et les droits de la Nation, on trouveroit suffisamment dans tous les
+          points, dont ce cas pourroit etre susceptible de quoy y remedier dans la force de la
+          Couronne, et dans la Vigeur [sic] du Gouvernement. </p>
+        <p>Mais que si non obstant ces Considerations, Sa Majesté Imperiale{{p0052}} faissoit passer
+          à ses troupes les limites sans une Requisition prealable, et formelle de la Part de la
+          Suede, Sa Majesté{{p0052}} Nous a expressement ordonné de declarer, qu’une pareille
+          demarche, en quelque tems que ce soit, ne pourra etre regardée que comme une Violation du
+          droits de Gens, et une rupture ouverte, qui forcera la Suede, malgré le desir, qu’elle a
+          de cultiver une parfaite Intelligence avec la Cour de Russie{{o0008}}, à employer pour sa
+          Defence les moyens, que Dieu lui a mis en main, et que la Dignité et l’independance de la
+          Couronne exigent.”</p>
+        <p>Sa Majesté Britannique{{p0063}} s’aperçevera d’Elle meme, selon ses hautes lumieres,
+          combien peu cette Reponse est comforme et compatible avec les sentimens pacifiques, et les
+          bonnes Intentions de Sa Majesté de toutes les Russies{{p0052}}. Le Manifeste, qui y est
+          allegué, et qui a été publié seulement dans l’intention, de tranquilliser les Esprit des
+          Suedois, est conçu avec tant d’Ambiguité que le Prince Successeur{{p0232}} dans le cas
+          d’un Changement dans la presente forme du Gouvernement pourra toujours s’excuser sous le
+          pretexte que cela avoit eté fait par les Etats (dont quelques Uns des membres seroient
+          sans doutte prevenus, et gagnés) sans sa participation.</p>
+        <p>L’insinuation qu’on fait de plus dans la dite Reponse, que si Sa Majesté
+          Imperiale{{p0052}} faisoit passer les Limites à Ses Troupes ; on regarderoit cette
+          demarche, comme une Infraction de Paix et Violation du droit des Gens, contre laquelle on
+          sauroit employer les moyens convenables ne prouve pas seulement l’ancienne coutume du
+          parti dominant, de tourner et expliquer les meilleures intentions à ses vuës
+          particulieres, mais demontre aussi clairement, que non obstant toutes les assurances
+          données il medite encore un Changement de la presente forme du Gouvernement, vû qu’il
+          n’auroit pas eté necessaire de s’expliquer d’une maniere si peu amiable, si les pretenduёs
+          Intentions pour la conserver etoient veritables et sinceres, Sa Majesté Imperiale de
+          toutes les Russies{{p0052}} ayant assez nettement donné à connoitre dans sa derniere
+          Declaration, qu’Elle n’etoit point du tout intentionnée de faire ce Pas, auquel Elle est
+          authorisé par le traité de Nystadt à moins qu’on ne voulut opprimer la Liberté de toute la
+          Nation en general. N’est il dont [sic] pas evident, que l’Execution de la dite Declaration
+          depend uniquement de la maniere de se comporter du Parti dominant en Suede. </p>
+        <p>Cette Reponse peu satisfaisante, et de nulle assurance pour le Repos et la Sureté
+          futures, laissant donc Sa Majesté Imperiale{{p0052}} dans les memes inquietudes, et
+          souhaitant de sortir tout d’un coup de ces circonstances facheuses ; Elle à jugé
+          convenable a ses interets naturels, et à ceux de ses Alliés, et afin de decouvrir de plus
+          près à quoi pourroient aboutir en fin les vuёs de la Cour de Suede{{o0015}}, d’envoyer à
+          Son Envoyé de Panin{{p0114}} la Copie du ci-joint memoire, avec le très gracieux Ordre, de
+          la delivrer au Ministere de Suede dans une Conference à demander expressement pour cela.
+          Sa Majesté Britannique{{p0063}} n’y verra pas seulement la Continuation des sentimens
+          pacifiques et inviolables de ma très Auguste Souveraine, mais aussi, qu’Elle a fait faire
+          de nouveau une Proposition amiable, et conforme à Ses Engagemens avec la Cour de
+          Suede{{o0015}}, pour conclure avec Elle sur le pié des Engagemens anterieurs une
+          Convention, qui eut pour but la conservation de la presente forme de Gouvernement, Sa
+          Majesté Imperiale{{p0052}} s’engageant en meme tems de Sa Part de garantir non seulement
+          de la maniere la plus solemnelle, et de defendre contre qui, que ce soit cette forme de
+          Gouvernement, mais aussi l’ordre etabli pour la Succession future du Prince
+          Successeur{{p0232}} et de Ses Decendans, a laquelle, comme il est notoire, Elle a pris une
+          part très sincere.</p>
+        <p>Sa Majesté Imperiale de toutes les Russies{{p0052}} a tout lieu de se persuader, que
+          cette nouvelle Demarche servira d’epreuve inconstable [sic] à tout le Monde,
+          principalement à la Cour de Suede{{o0015}}, de Ses Intentions amiables et sinceres, et de
+          sa ferme Resolution, de serrer encore plus etroitement les liens de l’Amitié qui subsiste
+          entre les deux Royaumes, en maintenant tant la presente forme du Gouvernement, et le Repos
+          dans le Nord, qui y est inseparablement attaché, que l’Ordre de Succession etabli dans la
+          Personne de Son Altesse Royale le Prince Successeur{{p0232}}, et de rendre de cette
+          maniere ces liens indyssolubles en ecartant entierement toutes les Difficultés et
+          mesintelligences.</p>
+        <p>Cette Demarche n’est-elle dont [sic] pas suffisante pour detruire les faux bruits, qui
+          ont couru dans le monde, et principalement en Suede, comme si Sa Majesté Imperiale de
+          toutes les Russies{{p0052}}, conjointement avec quelques autres Puissances avoient taché
+          de detruire la Succession en Suede quoy qu’etablie par Elle meme et que les assurances les
+          plus positives du contraire ont été donnés a <placeName
+            key="g0017"
+            ref="https://www.geonames.org/2673730">Stockholme</placeName>
+          par un Memoire, que le conseiller Privé Baron de Korff{{p0245}}, Son Ambassadeur en ce
+          tems là a cette Cour{{o0015}}, y a presenté.</p>
+        <p>Il est evident, que le Parti dominant en Suede, n’a eu d’autres vuёs en semant des bruits
+          si mal fondés et si indecents, que de causer non seulement de la mefiance entre les Cours
+          voisines, pour faciliter l’Execution de <hi rendition="#s">leurs</hi> Ses vuёs
+          dangereuses, mais aussi de pallier avec ce Pretexte specieux, les demarches equivoques,
+          qu’il a faites jusqu’ici pour le Changement premedité dans la forme du Gouvernement et les
+          Depenses excessives qu’on a faites pour les preparatifs de Guerre, à la charge du Royaume,
+          et de tous les Sujets en general. </p>
+        <p>Si les assurances, que la couronne de Suede donne, qu’elle n’a jamais pensé a changer la
+          forme du Gouvernement, sont sinceres ; Elle ne sauroit refuser de -.-. conclure avec Sa
+          Majesté Imperiale de toutes les Russies{{p0052}} la convention proposée. C’est sans
+          contredit la Suede qui y trouve le plus d’avantage, se voyant par là tout d’un coup
+          delivrée de toute sorte d’inquietudes, et hors de la necessité de continuer les Depenses
+          onereusess aux quelles les exposent leurs preparatifs de Guerre.</p>
+        <p>C’est le seul moyen, qui reste à Sa Majesté Imperiale{{p0052}} de decouvrir avec plus de
+          certitude les veritables desseins de la Suede, et pour y regler en conformité les mesures,
+          qu’elle aura à prendre.</p>
+        <p>En consequence de la bonne harmonie et Union, qui subsiste heureusement entre les deux
+          Cours, Sa Majesté Imperiale{{p0052}} n’a pas voulu differer d’informer en confidence Sa
+          Majesté Britannique{{p0063}} de ses sentimens et Dispositions immuables, et qui lui sont
+          deja connus par avance, touchant les Affaires en Suede, et les moyens qu’Elle a jugé a
+          propos de faire proposer derechef à la Cour de Suede{{o0015}}, pour maintenir le Repos
+          dans le Nord ; dans la persuasion certaine ou Elle est, que Sa dite Majesté
+          Britannique{{p0063}}, regardera selon Sa haute et connüe Penetration d’un vrai point de
+          vuё l’importance des conjunctures critiques dans le Nord, et considera en meme tems
+          meurement, si un changement dans la forme de Gouvernement en Suede, pourroit s’accorder et
+          etre compatible, avec ses propres et plus naturels interets. La derniere Guerre en
+          Allemagne a suffisamment montré, avec quel empressement quelques Puissances ont taché, de
+          mettre la Cour Imperiale de Russie{{o0008}} hors de toute connexion avec les affaires en
+          Allemagne, et de l’empecher à remplir ses Engagemens, en l’enveloppant dans une Guerre
+          avec la Suede, aussi injustement commencée, qu’Elle a eu peu de Succés dans la suite.</p>
+        <p>Si contre toute attente le changement dans la forme du Gouvernement en Suede eut lieu;
+          cette Couronne poussée par les Insinuations de quelques Puissances mal intentionnés, ne
+          chercheroit elle pas de se meler dans toutes les Affaires etrangeres, et de semer la
+          discorde parmi les hauts Alliés? Cette presomtion paroit si bien fondée qu’on ne doute
+          nullement, que Sa Majesté Britannique{{p0063}} n’en soit pleinement convaincuё.</p>
+        <p>Il ne reste à present à Sa Majesté Imperiale{{p0052}} que de se raporter au memoire
+          presenté ci-devant touchant cette matiere et Elle continue de se flatter de l’esperance
+          que Sa Majesté Britannique{{p0052}} après tant de protestations d’amitié reiterées en
+          reponse au premier Memoire de ma très Auguste Souveraine{{p0052}}, ne sera plus eloignée à
+          present de seconder Sa Majesté Imperiale{{p0052}} dans cette importante Negotiation,
+          tendente uniquement au maintien du Repos dans le Nord, et par consequent au menagement de
+          ses propres interets et de soutenir la proposition amiable faite à la Cour de Suede, comme
+          aussi de lui faire offrir Sa Garantie de la forme presente du Gouvernement et de la
+          succession de Son Altesse Royale le Prince Successeur{{p0232}}, ou, dans le cas, que
+          contre toute attente, cette proposition fut rejettée, et le Parti dominant intentionné de
+          changer de quelque maniere ou d’autre cette forme de Gouvernement, et mettoit par là Sa
+          Majesté Imperiale{{p0052}} dans la neccessité indispensable, de remplir Ses Engagements en
+          conformité du Traité de Nystadt, Que Sa Majesté Britannique{{p0063 ne fera plus de
+          difficulté de reconnoitre le <hi rendition="#u">Casum foederis</hi>, et d’envoyer à Sa
+          Majesté Imperiale{{p0052}} dans l’exigeance du cas incessament le Secours stipulé par le
+          Traité.</p>
+        <p>Le Sousigné ministre Plenipotentiaire Imperial de Russie et Chambellan actuel{{p1440}},
+          se flatte, que le ministere Britannique{{o0139}} ne tardera pas, de faire Rapport de tout
+          ceci, à Sa Majesté le Roy de la Grande Bretagne{{p0063}}, et de faire en sorte, qu’il soit
+          au plustot possible pourvû d’une Reponse satisfaisante, et par ecrit, tant au ci-dessus
+          mentionné memoire du 5. Juillet passé, qu’a celuy ci.</p>
+        <p>Memoire que le Ministre </p>
+        <p>Plenipotentiaire de Russie à </p>
+        <p>Londres Comte de Czernicheff{{p1440}}</p>
+        <p>doit remettre au Ministere de la</p>
+        <p>Grande Bretagne{{o0139}}.</p>
+        <p />
+        <p>Memoire que le Comte de Czernichew doit remettre au Ministère de la Grande Bretagne.</p>
+        <p />
+        <p>In M<hi rendition="#sup">r</hi>. Guy Dicken’s{{p1439}}</p>
+        <p>Separate Letter of 28<hi rendition="#sup">th<hi rendition="#sub" />.</hi>
+        </p>
+        <p>Jan. 1749./50.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

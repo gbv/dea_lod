@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorial from the Russian Chancellor, Count Gavrila
+          Ivanovich Golovkin, to the Burgomasters (Mayors) of the City of Neustadt</title>
+        <author xml:lang="en">Gavrila</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Golovkin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>27 June 1716. – Memorial from <persName
+              key="p0071"
+              ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Russian Chancellor, Count Gavrila
+            Ivanovich Golovkin</persName>, to <persName key="p0000">the Burgomasters (Mayors) of the
+            City of Neustadt</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 53, opis 1, 1716, no. 20, f. 1–1v. Russian copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p>9 <placeName key="g0355" ref="https://www.geonames.org/2844588">Росток</placeName>.</p>
+        <p>К <persName key="p0000">бургамистрам города Нистата</persName>.</p>
+        <p>Я надеюсь, что уже (и проч[ая]) <persName
+            key="p0532"
+            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">г[о]с[у]д[а]ря своего, его к[оролевског]о
+          в[еличеств]а датцкого</persName>, указ о разставлении подвод и о приуготовлении
+          транспортных судов для шествия <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">его ц[арско]г[о] в[еличеств]а моего
+          всем[и]лостивейшаго г[о]с[у]д[а]ря</persName> получили и по оному управили, ибо <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">его ц[арско]е в[еличеств]о</persName>
+          <persName
+            key="p0532"
+            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">его к[оролевско]е в[еличеств]о</persName>
+          о том просить изволил, <hi rendition="#sup">–</hi>о чем мню, что <hi rendition="#sup">–</hi>
+          <persName key="p0984">его к[оролевско]г[о] в[еличеств]а<hi rendition="#sup">–2</hi> и чрезвычайной
+          посланник, пребывающей при дворе его ц[арско]г[о] в[еличества], <hi rendition="#sup">–</hi>господин
+          Вестфал<hi rendition="#sup">–3</hi>
+          </persName> о том предуготовлении писал<hi rendition="#sup">–1</hi>. Но понеже <persName
+            key="p0172"
+            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ее в[еличеству] г[о]с[у]д[а]р[ы]не ц[а]р[и]це</persName>
+          и <persName key="p0071,p0494">всему министериюму</persName> имеет ехат[ь] отсюды на <placeName
+            key="g0391"
+            ref="https://www.geonames.org/2927579">Фемерн</placeName>, <placeName
+            key="g0387"
+            ref="https://www.geonames.org/661883">Аланд</placeName>
+          <hi rendition="#sup">–</hi>и до <placeName
+            key="g0006"
+            ref="https://www.geonames.org/2618425">Копенгагена</placeName>
+          <hi rendition="#sup">–14</hi>, того ради я (...) чрез нарочного <hi rendition="#sup">–</hi>о
+          том<hi rendition="#sup">–19</hi> по указу его ц[арско]г[о] в[еличеств]а уведомляю </p>
+        <p />
+        <p>[footnote:] В 27 де[нь] июня 1716 из <placeName
+            key="g0355"
+            ref="https://www.geonames.org/2844588">Ростока</placeName> отпущено.</p>
+        <p />
+        <pb n="f. 1v" />
+        <p> и прошу, чтоб не токмо подводы по дороге розставлены, но и транспортные суды для
+          переезду <persName key="p0172" ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ее величеству</persName>
+          приготовлены были, <hi rendition="#sup">–</hi>дабы нигде <persName
+            key="p0172"
+            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ее в[еличеств]у</persName> за тем остановки
+          не было<hi rendition="#sup">–24</hi>. А коликое число потребно для переезду сухим путем
+          лошадей, а морем транспортных судов, о том сей посланной об[ъ]явить указ имеет.</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_53_1_1716_20_0002</note>
+          <note>ru_rgada_53_1_1716_20_0003</note>
+          <note>ru_rgada_53_1_1716_20_0004</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Report from the Russian Chargé d'Affaires in Copenhagen
+          Johann Mestmacher to Chief Chamberlain, Count Nikita Ivanovich Panin</title>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Mestmacher</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>
+            22 August 1770. - Report from the Russian Chargé d'Affaires in
+            Copenhagen Johann Mestmacher to the Chief Member of the College of Foreign Affairs,
+            Count Nikita Ivanovich Panin
+          </title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 5, no. 240, f. 36-38v. German original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 36" />
+        <p />
+        <p>Сиятелнейший Граф,</p>
+        <p />
+        <p />
+        <p>М[и]л[ос]тивый Г[осу]д[а]рь,</p>
+        <p />
+        <p> Пользуясь возвращением от сюда в Санкт-петербург бывшаго при Эскадре Господина
+          контр-Адмирала Арфа пакет-бота, я имею щастие Вашему Высокографскому Сиятелству всенижайше
+          донести, что оная Эскадра получа на конец в прошлую ночь благополучнаго ветру сего числа
+          по утру в семь часов здешную </p>
+        <pb n="f. 36v" />
+        <p> рейду оставила, быв принуждена, как значит в моих предидущих всенижайших доношении
+          [sic], в ожидании оного простоять целыя восемь суток или с 3/14 числа сего м[еся]ца, к
+          которому все как для Эскадры здесь нужды исправлены, так и щеты всех на то издержек уже
+          совсем окончаны были.</p>
+        <p> Из приложеннаго при отправленном к Вашему Высокографскому Сиятелству от Господина
+          контр-Адмирала писме генералнаго щета милостиво усмотреть соизволите, что издержанная
+          здесь им на все нужныя для Эскадры потребы Сумма простирается до шести десяти одной тысячи
+          трех сот шести десяти таллеров сорока штиверов дацких, или щитая по два с половиною талера
+          за голанской червонец, до дватцати четырех тысяч пяти сот сорока четырех с четвертью
+          червонных, которыя он Г[оспо]д[и]н контр-Адмирал и выдал, взяв в том подлежащия квитанции,
+          так что после сей </p>
+        <pb n="f. 37" />
+        <p>Экспедиции между обоими высокими дворами уже никаких щетов не осталось.</p>
+        <p> При сем я должностию себе поставляю Вашему Высокографскому Сиятелству всенижайше
+          донести, как по узнании здесь в городе, а потом и от самого Господина контр-Адмирала Арфа,
+          что за неполным будто весом имеющихся у него и у Экипажа голанских червонцов сперва и по
+          два с половиною здешних талеров за червонец давать не хотели, от чего как Ея
+          императорскаго величества казне так и всем тем, кои оныя себе в Санкт-петербурге по два
+          рубли по шестидесяти по пяти копеек выменили произошел бы немалой убыток, я принужден был
+          для узнания в том точной правды с согласия Господина контр-Адмирала зделать на здешнем
+          королевском монетном дворе пробу, где действително нашлось, что оныя червонцы хотя имея
+          свою полную в золоте доброту, однако весом по одному </p>
+        <pb n="f. 37v" />
+        <p> червонцу на каждой марке чистаго золота легче червонных 1767 и 1768<hi rendition="#sup">
+          го</hi>. годов, так что вместо шести десяти семи как обыкновенно, штемпеля 1769<hi
+            rendition="#sup">го</hi> года шестьдесят восемь червонных на марке пошли, как о том
+          явствует в приложенном при сем с переводом аттестате здешняго королевскаго монетнаго
+          мастера.</p>
+        <p> Такой оным червонцам недовес простирающейся до одного с половиною процента нетокмо на
+          болшую сумму причиняет казне немалой убыток, но и действително подал здесь в публике повод
+          к разным пустым ложным слухам и толкованиям, якобы оныя червонцы не в Голандии а в России
+          деланы, не разсуждая, что ни что иное как единое корыстолюбие может быть банкира или
+          комисионера тому притчиною, о чем всем я думаю и г[оспо]д[и]н контр-Адмирал Арф Ваше
+          Высокографское Сиятелство уведомить непреминул.</p>
+        <p> Я такожде оставить не могу дабы при </p>
+        <pb n="f. 38" />
+        <p> сем случае пред Вашим Высокографским Сиятелством не означить ту готовность и
+          рачителство, с которыми генерално как настоящее здешнее министерство, так и
+          адмиралитейской совет, а особливо персонално Г[оспо]д[и]н обергофмаршал Граф Молтке,
+          адмирал Граф Ларвиг да шеф здешняго порта командор и камерегер кос употреблялись в
+          скорейшем приискании и доставлении всего чего от сих потребовано было.</p>
+        <p> Правда после прибытия моего сюда от его дацкого величества и присланы были
+          возобновителныя и неограниченныя во всем для Эскадры потребном указы, но охотная и
+          ревностная сих особ к нам здесь податливость, по слабейшему моему мнению, ясно открывала
+          их устремление в заслужении себе высочайшей и Ея Императорскаго Величества апробации,
+          умалчивая о их неоднократно данных мне уверений о их искренно всенижайшей и Ея
+          Императорскому Величеству и всевысочайшим Ея интересам </p>
+        <pb n="f. 38v" />
+        <p> преданности, а к Вашему Высокографскому Сиятелству высокопочитании; я же повергаю себя
+          неоцененному Вашему отеческому покровителству, с наиглубочайшим респектом и вечною
+          преданностию пребываю.</p>
+        <p />
+        <p />
+        <p>Вашего Высокографскаго Сиятелства</p>
+        <p />
+        <p>М[и]л[ос]тиваго Г[осу]д[а]ря</p>
+        <p />
+        <p />
+        <p />
+        <p />
+        <p>из копенгагена </p>
+        <p>августа 11/22 дня 1770 года</p>
+        <p>всенижайший и всеобя-</p>
+        <p>заннейший Слуга</p>
+        <p>Иван Местмахер</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_avrpi_53_5_240_0001</note>
+          <note>ru_avrpi_53_5_240_0002</note>
+          <note>ru_avrpi_53_5_240_0003</note>
+          <note>ru_avrpi_53_5_240_0005</note>
+          <note>ru_avrpi_53_5_240_0006</note>
+          <note>ru_avrpi_53_5_240_0007</note>
+          <note>ru_avpri_53_5_168_0001</note>
+          <note>ru_avpri_53_5_168_0002</note>
+          <note>ru_avpri_53_5_188_0001</note>
+          <note>ru_avpri_53_5_189_0001</note>
+          <note>ru_avpri_53_5_189_0002</note>
+          <note>ru_avpri_53_5_197_0001</note>
+          <note>ru_avpri_53_5_204_0001</note>
+          <note>ru_avpri_53_5_204_0002</note>
+          <note>ru_avpri_53_5_204_0003</note>
+          <note>ru_avpri_53_5_204_0004</note>
+          <note>ru_avpri_53_5_204_0005</note>
+          <note>ru_avpri_53_5_204_0006</note>
+          <note>ru_avpri_53_5_208_0001</note>
+          <note>ru_avpri_53_5_208_0002</note>
+          <note>ru_avpri_53_5_233_0001</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

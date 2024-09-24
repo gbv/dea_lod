@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Secretary of State for the Northern
+          Department, Viscount of Weymouth, to Count Nikita Ivanovich Panin</title>
+        <author xml:lang="en">Thomas</author>
+        <author xml:lang="en">Thynne,</author>
+        <author xml:lang="en">3rd</author>
+        <author xml:lang="en">Viscount</author>
+        <author xml:lang="en">Weymouth</author>
+        <author xml:lang="en">Weymouth</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>4 May 1768. – Letter from the Secretary of State for the Northern Department,
+            Thomas Thynne, Viscount Weymouth{{p2060}}, to Count Nikita Ivanovich Panin{{p0114}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-79, f. 8-8v. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f.8" />
+        <p> A S<hi rendition="#sup">t</hi>. James ce 4<hi rendition="#sup">e</hi>: May 1768.</p>
+        <p>S.E.Monsieur Le Comte</p>
+        <p>de Panin{{p0114}}</p>
+        <p />
+        <p>Monsieur,</p>
+        <p>En attendant que My Lord Cathcart{{p2061}}, l’Ambassadeur destiné pour resider auprès de
+          Sa Majesté Imperiale{{p0033}} de la Part du Roy mon Maitre{{p0161}} puisse arriver à
+          S[ain].<hi rendition="#sup">t </hi>
+          <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>, Sa
+          Majesté{{p0161}} a jugé convenable de faire partir Mons[ieu].<hi rendition="#sup">r</hi>
+          De Visme{{p2062}} Son Secretaire pour cette Ambassade, pour annoncer le tems de l’Arrivée
+          de Son Excellence, et pour donner une marque publique de l’empressement de cette cour de
+          se lier de plus en plus avec celle de Russie. Comme Mons[ieu].<hi rendition="#sup">r</hi>
+          De Visme{{p2062}} se dirigera entierement par les conseils de Vôtre Excellence, J’espere
+          qu’Elle voudra bien avoir la bonté de Lui faciliter les moyens de faire Sa cour à
+          l’Imperatrice{{p0033}}, pour assurer Sa Majesté Imperiale{{p0033}} des Dispositions
+          sincéres du Roy{{p0161}} et de Son Ministére à cultiver </p>
+        <pb n="f. 8v" />
+        <p> et cimenter une heureuse et parfaite Union. Vôtre Excellence me permettera de profiter
+          de cette Occasion pour Lui assurer des sentimens de respect et de parfaite consideration
+          avec lesqueles etc.:</p>
+        <p>Weymouth{{p2060}}.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

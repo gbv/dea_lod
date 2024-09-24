@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorial from the Secretary of the Danish Embassy in
+          Russia, Peter Falck, to Tsar Peter I</title>
+        <author xml:lang="en">Peter</author>
+        <author xml:lang="en">Falck</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>5 February 1715. – Memorial from <persName key="p1452">the Secretary of the Danish
+            Embassy to Russia, Peter Falck</persName>, to <persName
+              key="p0174"
+              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 53, opis 1, 1715, no. 17, f. 1–2. German original.</bibl>
+            <bibl>Translation from German into Russian: RGADA, fond 53, opis 1, 1715, no. 17, f.
+              3–4.</bibl>
+            <bibl>Draft of the Russian translation: RGADA, fond 53, opis 1, 1715, no. 17, f. 5–6.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p>Grosmächtigster, Allerdurchläuchtigster</p>
+        <p>Czaar und Herr,</p>
+        <p>Nachdem <persName key="p0153" ref="f760d27a-4487-44d8-bcd3-7a79e8a77167">der König von
+          Schveden</persName> sich sowohl mit eigener Macht als anderer verdächtiger hülfe und
+          assistence in Pomeren sehr verstärchet, und nicht zu zweiffelen stehet, Er werde durch
+          hefftiges und inständiges anrathen der <orgName
+            key="o0119"
+            ref="fbae90e1-336e-4231-bb33-bc2e8ac81f41">Hohen Nordischen Alliirten</orgName>
+          öffentlichen und heimlichen Feinden, sein dessein unter andere haubtsichtlich auf <persName
+            key="p0532"
+            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro Königl[ichen] M[ajestä]t[e]n
+          in Dänem[arck], meinem allergn[ädigsten] Herrn und Könige</persName>, und auch Dehro
+          Holsteinische Lande gerichtet haben, umb dadurch dem gantzen gemeinen Nordischen Sache
+          einen sensiblen und auf alle Weiß sehr gefährlichen Stoß zu versetzen. Als haben
+          höchstged[achte] Königliche M[ajestä]t[e]n nöthig zu sein gefunden Ihro </p>
+        <pb n="f. 1v" />
+        <p>Czar[ischen] Majestäten durch untergeschriebenen vorstellen zu laßen die grose gefahr,
+          die der gantzen Nordischen Ligue unfehlbahr zu wachsen würde wem dieses vorhaben von <persName
+            key="p0153"
+            ref="f760d27a-4487-44d8-bcd3-7a79e8a77167">dem König von Schveden</persName>
+          ins Werck gerichtet, und Denenselben nicht in Zeiten mit gesambter Macht vorgebauet werden
+          solte. <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro Königliche
+          M[ajestä]t[e]n</persName> würden dehro Ortes zwar alle erdenkliche gegenverfaßung am hand
+          nehmen, und nechst Göttlichen Beystand so viel möglich alle gefahr abzuwenden trachten;
+          Sie ersuchten aber Ihro Czar[ische] M[ajestä]t[e]n, als zu Denen Sie jederzeit ein
+          sonderbahres vertrauen gesetzet, Dieselben geruhen möchten gleichfals auf die hierzu
+          erforderliche Mittel bedacht zu sein, und 1<hi rendition="#u">
+            <hi rendition="#sup">o</hi>
+          </hi> Das auf der Gräntzen von Chuurland
+          versamblete Corps so viel möglich verstärchen.</p>
+        <p>2<hi rendition="#u">
+            <hi rendition="#sup">do</hi>
+          </hi> Dem alda <persName key="p0000">commandirendem
+          General</persName> die positive ordre beylegen, sich allen fals auf die Ihme von <persName
+            key="p0525"
+            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">Ihro Königl[ichen] M[ajestä]t[e]n</persName>
+          in Dänem[arck] zukommende Nachricht, sogleich mit sothanem Corps ohne weiteres bedencken
+          durch Pomeren und Meklenburg zu begeben, und das jenige zu unterrechnen, was <persName
+            key="p0532,p0525">Ihro Königliche M[ajestäten]</persName> bey allen vorkommenden
+          begebenheiten Ihme aufzutragen nöthig erachten werden.</p>
+        <p />
+        <pb n="f. 2" />
+        <p> 3<hi rendition="#u">
+            <hi rendition="#sup">o</hi>
+          </hi> Das erwehntem <persName key="p0000">commandirenden
+          General</persName> in obengedachte casú eintzig und allein von <persName
+            key="p0532"
+            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro Königl[ichen] M[ajestä]t[e]n</persName>
+          in Däne[marck] und keines andern ordre zu dependiren injungiret werde.</p>
+        <p>Wie nun Ihro Czar[ische] M[ajestä]t[e]n folgends Dehro hocherläuchteten penetration wohl
+          erachten werden, wie weit dieses zu Dehro eigenen Nutzen gereichen werde, und wie hoch
+          Ihnen angelegen, das <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro
+          Königl[iche] M[ajestä]t</persName> in Dän[emarck] bey Macht erhalten, und nicht auser
+          Stand gesetzet werden Denen Selben weiter nützliche Dienste zu thun, als verhoffen <persName
+            key=""
+            ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ihro K[önigliche] M[ajestät]</persName>
+          auch, Dieselben werden sich desto eifriger Dieses Werck angelegen sein laßen, und Dehro
+          verlangen hierunter willfahren.</p>
+        <p>In erwartung willfähriger Antworth und resolution verbleibe in tiefster Demuth</p>
+        <p>Ihro Czarischer Majestäten</p>
+        <p>
+          <placeName key="g0002" ref="https://www.geonames.org/498817">S[anc]t Petersburg</placeName>
+        </p>
+        <p>d[en] 5 February st[ili] n[ovi] 1715/</p>
+        <p>Allerunterthänigster</p>
+        <p>und allerdemuthigster Diener <persName key="p1452">P[eter] Falch</persName>
+        </p>
+        <p />
+        <p />
+        <pb n="f. 2v" />
+        <p>Мемориал <persName key="p1452">Фалков</persName>, подан 26-го генваря 1715.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

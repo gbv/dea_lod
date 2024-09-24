@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en">Extract of a Relation from Mr. Matveoff His Czarish
+          Majesty's Ambassador dated in London the 23d of July 1708</title>
+        <author xml:lang="en">Andrei</author>
+        <author xml:lang="en">Artamonovich</author>
+        <author xml:lang="en">Matveev</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>23 July 1708. – Extract of a Relation from Mr. Matveoff{{p0699}} His Czarish
+            Majesty’s Ambassador dated in <placeName
+              key="g0003"
+              ref="https://www.geonames.org/2643743">London</placeName> the 23d of July
+            1708</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-5, f. 136-137v. English translation.</bibl>
+          </note>
+        </head>
+        <pb n="f. 136" />
+        <p>Extract of a Relation from Mr. Matveoff{{p0699}} His Czarish Majesty’s Ambassador dated
+          in <placeName
+            key="g0003"
+            ref="https://www.geonames.org/2643743">London</placeName> the 23d of July 1708</p>
+        <p />
+        <p>After I have received my Audience of Leave at <placeName
+            key="g0230"
+            ref="https://www.geonames.org/2633842">Windsor</placeName>
+          on the 18<hi rendition="#sup">th</hi>. Inst[ant]: from Her Majesty the Queen{{p0668}} with
+          all gracious Expressions of favours for my Person and great assurances of friendship to
+          His Czarish Majesty{{p0174}}, I return’d to <placeName
+            key="g0003"
+            ref="https://www.geonames.org/2643743">London</placeName>, and
+          made preparations for my voyage to Holland according to your orders ; but having been
+          oblig’d to contract some debts in the time my Bills of Exchange did not come on by the Hop
+          of the posts, as soon as ever they arrived, I begun to account with my Creditors, had
+          satisfied the most, as appears by their acquittances, and publickly fix’d the Term of the
+          22d. July for rekoning and paying the rest.</p>
+        <p>The 21<hi rendition="#sup">st</hi>. Inst[ant]: I went out of my house between eight and
+          nine in the Evening, to speak with the forreign Ministers, who usually meet together on
+          Wednesday every week in Sommerset house, to communicate the news, they received by the
+          posts, and converse one with an other ; but as I pass’d in my Coach throu the Street where
+          the Duke of Boltons{{p1970}} house stands, I was violently and cruelly attack’d at that
+          time of night by some persons, </p>
+        <pb n="f. 136v" />
+        <p> who without giving me notice of any order, or telling me any reason stop’d my Coach,
+          beat away my footmen, and then two forc’d themselves in to me, while the third set himself
+          by my Coachman on the box, and drove away a fast as he could : They that were in the Coach
+          took from <hi rendition="#s">my</hi> me my Sword, cane and hat and had the Confidence to
+          affront and beat me inhumanely, so that I expected to be lost in this murderous attack,
+          and therefore call’d out for help and assistance as loud as I could ; these Highwaymen
+          continuing in the mean time to beat me, to hold me fast by my coat and pockets, till they
+          ware quite torn, and to treat me barbarously beyond Expression : On my calling out, the
+          people in Charls Street came together, stop’d my Coach, took me out of these vilains
+          hands, and brought me in this ill Condition into a neighbouring Tavern, where these
+          Highwaymen acquainting them that I was seized by order of the Sheriff for a debt of fifty
+          pound, which I ow’d two Tradesmen for Laces etc: The people retir’d themselves and left me
+          to the Disertion of these Robbers, who carried me with force out of the Tavern flung me
+          into a Hackney Coach and brought me into a prison, where persons are used to be laid for
+          great debts ; and had not a French Surgeon call’d La Fache{{p1968}}, </p>
+        <pb n="f. 137" />
+        <p> whom I knew, been there to my good fortune, and set himself in the Coach with me these
+          vilains the Baylyfs had either murderd me, or carryed me to some distant place, that their
+          scandalous action might not be discover’d. As I had sent a person from the Tavern to the
+          forreign Ministers, who, as mention’d ware assembled in Sommerset house to acquaint them
+          with this unheard off affront, they immediately took it for a common cause, and the Envoy
+          of Florence{{p2135}} with Mylord Lyffort came to me into the prison, whilst the Envoy of
+          Portugal{{p1961}} with Mylord Feversham{{p1971}} went the same moment to the Secretary of
+          State M[iste]r Boyle{{p1969}} to acquaint him with this violent proceeding ; but not
+          finding him (thou they sought him up and down) they came back to me in the prison call’d
+          black Reff ; whither his Secretary M[iste]r Walpoole{{p1511}} likewise came, and finding
+          me arrested for such a small debt, and so affronted, contrary to the Law of Nations, he
+          took a memorandum of it, promising that the Secretary of State{{p1969}} would come to me
+          the next day, and make a very sharp inquiry into what had happen’d. Of all this cruell
+          treatment the forreign Ministers themselves </p>
+        <pb n="f. 137v" />
+        <p> were witness to their great astonishment, and stayd with me in the prison till two in
+          the morning ; in which time having learnt the reason of my arrest, and finding no
+          assistance from any one, I order’d the debt pretended from me to be immediately payd by
+          advice of the forreign Ministers to free myself from this shamefull prison, from where the
+          said Ministers and Lords being my particular friends carryed me home : Next morning all
+          the forreign Ministers came to condole with me for this affront, the like where is to be
+          found in no History, promisisng to engage in it as in the common cause etc: On which I
+          immediately sent a memorial to the Secretary of State M[iste]r Boyle{{p1969}},
+          representing this violation of the Law of Nations, and the affront done to His Czarish
+          Majesty{{p0174}} in my Person and Character, that it might be laid before Her
+          Mejesty{{p0668}}, and a suitable redress obtain’d : The said Secretary of State{{p1969}}
+          came himself to me in the Evening, expressing his great Concern at my misfortune and
+          affront, and promising to obtain me due Satisfaction from Her Majesty{{p0668}} without
+          delay, to whom I on the contrary declar’d that in case it did not follow immediately, and
+          in such a manner as was proportionable to the greatness of the unparallel’d affront, I
+          should be oblig’d to go away without receiving my recredentials : what will be the Issue
+          of this business, I shall hereafter give you an account</p>
+        <p />
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-5_0009</note>
+          <note> en_na_russia_sp_91-5_0013</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

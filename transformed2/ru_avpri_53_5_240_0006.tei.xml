@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Dispatch from the Russian Chargé d’Affairs in Denmark,
+          Johann Mestmacher to Chief Chamberlain, Count Nikita Ivanovich Panin</title>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Mestmacher</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>
+            25 December 1770. – Dispatch from the Russian Chargé d’Affairs in
+            Denmark, Baron Johann von Mestmacher, to the Chief Member of the College of Foreign
+            Affairs, Count Nikita Ivanovich Panin
+          </title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 240, f. 65–69v. Russian original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 65" />
+        <p>Сиятелнейший Граф,</p>
+        <p />
+        <p />
+        <p>М[и]л[ос]тивый Г[осу]д[а]рь,</p>
+        <p />
+        <p> При сем принимаю смелость приложить к Вашему Высокографскому Сиятелству копию с ноты
+          посланной третьяго дни ко всем здесь чужестранным министрам и поверенным в делах касателно
+          пожалования в тайныя Советники и определения в министры иностранного департамента </p>
+        <pb n="f. 65v" />
+        <p>Г[оспо]д[и]на Графа Остена, и чтоб они впредь по делам к нему адресовались.</p>
+        <p> Сей новой Министр предуспев уже привесть почитай всех в Государственных делах некоторое
+          участие имеющих людей в движение, он яко проницательной Интригант, наблюдая тесное свое с
+          находящеюся при дворе теперь еще в силе развратною шайкою сношение, под рукою однако всеми
+          силами старается приобресть к себе доверенность разумных и в нации кредит имеющих
+          благонамеренных, даже их со осторожностию приметить Его соболезнование, о настоящем
+          внутренном дворовом положении, с публичным оказанием своей ревности к сохранению </p>
+        <pb n="f. 66" />
+        <p> к вящему утверждению тесной между обоими высочайшими российским и дацким дворами дружбе,
+          яко как той подлинной единой к благополучию его отечества способ, оказывая однако при всем
+          том, знатно по нечистой от прежняго бывшаго его поведения совести, свое безпокойство,
+          каким образом его номинация от Ея Имп[ераторско]<hi rendition="#u">
+            <hi rendition="#sup">го</hi>
+          </hi> Вел[ичеств]<hi rendition="#u">
+            <hi rendition="#sup">а</hi>
+          </hi> принята будет, для узнания чего, третьяго дни
+          он наслал ко мне одну настоящей системе и по ближнему сродству с прежными министрами верно
+          преданную особу с инсинуациею мне будто от себя о сего министра ко всевысочайшему двору
+          истинно непоколебимой преданности, с прибавлением, чтоб я для акредитования себя у него,
+          яко настоящаго перваго министра у вашего высокографскаго Сият[ельст]<hi rendition="#u">
+            <hi rendition="#sup">ва</hi>
+          </hi> выходил к нему кредитивное </p>
+        <pb n="f. 66v" />
+        <p>обо мне писмо. Я быв уже по высокому повелению чрез Михайла Михайловича прямо у короля
+          поверенным в делах акредитован, и после того в сей должности двору представлен натурално
+          легко понимать мог, что такое с стороны графа Остена требование в самом деле замыкает в
+          себе ничто иное, как таким посредством узнать всевысочайшаго двора о его номинации мнении
+          и в следствии того за неимением о нем высочайши<hi rendition="#sup">х</hi> повелении,
+          дискурсивным образом ответствовал, что он по бытности в России здешним министром будучи
+          относительно его благонамеренных сентиментов от <hi rendition="#u">Ея Имп[ераторско] <hi
+              rendition="#sup">го</hi>
+            <hi rendition="#u" /> Вел[ичеств] <hi rendition="#sup">а </hi>
+          </hi>и
+          Вашего Сият[ельст]<hi rendition="#u">
+            <hi rendition="#sup">ва</hi>
+          </hi> сам персонально знаем, я нимало не
+          сумневаюсь чтоб ему с стороны всевысочайшаго двора всякая справедливость отдана была.</p>
+        <p />
+        <pb n="f. 67" />
+        <p />
+        <p>Сие мне изъяснение знатно не успокоя довольно Господина Графа Остена, он оказал желание
+          меня самаго видеть, по чему по такой от него мне о том инзинуации, я под образом первой
+          визите к нему прибыв и застав его еще одного, оказанием отличной ласковости от него принят
+          был; По обыкновенным взаимным комплиментам он начал свой разговор не министериално а
+          партикулярно, следующим образом: «вам де мое назначение в Министры иностранных дел
+          известно, и повинуясь соизволения моего Государя, сию должность на себя снял не инако, как
+          в единственном твердом намерении посвятить оную к вящему утверждению столь счастливо между
+          обеими высокими дворами общаю-<hi rendition="#u">щейся связи, а самаго</hi>
+        </p>
+        <pb n="f. 67v" />
+        <p>себя к вечной нелицемерной к Ея Им[ператорско]<hi rendition="#u">
+            <hi rendition="#sup">му</hi>
+          </hi> Вел[ичеств]<hi rendition="#u">
+            <hi rendition="#sup">у </hi>
+          </hi> преданности, правда я де имел нещастие что
+          мои неприятели успели навлекать на меня не милость Вашей Великой и премудрой Государыни и
+          Ея просвященнаго Министра. Я оставляю все оное в своем месте уверяя по чести, что оно ни в
+          чем не умалило мою с наиглубочайшим благоговением к Ея Им[ператорско]<hi rendition="#u">
+            <hi rendition="#sup">му</hi>
+          </hi> Вел[ичеств]<hi rendition="#u">
+            <hi rendition="#sup">у </hi>
+          </hi>наполненноя, а к его Сият[ельств]<hi
+            rendition="#sup">у </hi>Господину Графу Панину нелицемерное высокопочитание; я де
+          чувствую и всегда чувствовал возпоследуемую для всего севера от дацкой с Россиею тесной
+          связи, великую пользу, и хотел бы я и не претерпел от французскаго двора столь частыя
+          гонении; сие одно конечно достаточно было отвратить дух мой от </p>
+        <pb n="f. 68" />
+        <p>всякаго с сею гордо лукавою державою сношение из всего сего продолжал он, вы сами легко
+          разсудить можете сколь я себя нещастливым почитать буду, когда Ея Имп[ераторско]<hi rendition="#u">
+            <hi rendition="#sup">е</hi>
+          </hi> Вел[ичеств]<hi rendition="#u">
+            <hi rendition="#sup">о</hi>
+          </hi> в своих обо мне вышеобъявленных внушенных
+          импрессиях продолжить изволит. </p>
+        <p>По сему он мне оказал и свое сожаление о произшедшем здесь в последнем месте с Михайлом
+          Михайловичем и о том что он тогда еще здесь не был.</p>
+        <p> Услыша такия о сем неприятном произшествии Его мысли Ему объявил, что хотя оставляя все
+          оное на собственное Всевысочайшее решение ЕЯ Имп[ераторско]<hi rendition="#u">
+            <hi rendition="#sup">го</hi>
+          </hi> Вел[ичеств]<hi rendition="#u">
+            <hi rendition="#sup">а </hi>
+          </hi>, с моей стороны не могу от него скрыть,
+          сколь меня сие и все в последнее время здешнее поведение </p>
+        <pb n="f. 68v" />
+        <p>сокрушает, толь най паче что по моему слабейшему мнению, кажется якобы все оное тем кои
+          королю то советовали от самаго французскаго двора диктованной, что я от оказанной его
+          теперь благо намеренности ожидая, что он то достаточно поправить не оставит. Он возвыся
+          плеча дал мне возчувствовать крайную свою заботу, и сколько к тому теперь еще время не
+          способно, обещая однако все силы употребить и оное к полюбовному решению привести,
+          препоруча мне ваше Сиятельство всенижайше просить по сему делу еще теперь не весма строго
+          поступать, о котором последнем за два дни прежде и Господин Конференции Советник Шумахер,
+          с которым я потаенное свидание имел, вас Милостивый Государь не <hi rendition="#u">
+          отступно</hi>
+        </p>
+        <pb n="f. 69" />
+        <p>просит, представляя в резон, что настоящее дворовое положение долго на нынешнем основании
+          остатся [sic] не может, ибо Г[оспо]дин Остен приобретением себе дацкой доверенности
+          конечно не оставит скинуть с себя несносное и для Его сохранения не долго надворное ему от
+          молодых и безразсудных фаворитов его низвержением их самых, почему легче быть может и Его
+          самаго по нужде обстоятелств отдалять, в противном же случае, и когда теперь с стороны
+          всевысочайшаго двора строгая справедливая сатисфакция потребована будет, то будто лехко
+          статся может, что <hi rendition="#u">Граф Остен</hi> не будучи еще в силах и Король не
+          имев при своем часто реченном поступке перваго Министра на кого иногда бы вину свалить
+          мог, для </p>
+        <pb n="f. 69v" />
+        <p>избежание компрометирования себя взятием на себя самаго всю вину по
+          безразсудным советам Его известных безпутных фаворитов, по своей слабости слепо отдаватся
+          [sic] может в французския руки, не понимая вредительныя для своего толко Государства от
+          того следствии, и что Франция получит новой случай наслаждатся [sic] увеселением что таки
+          в своих злых в севере интригах желаемой успех приобрел.</p>
+        <p>В протчем повергая все вышеписанное на собственное Вашего Высокографскаго Сиятелства
+          высокопроницателное разсмотрение, самого ж себя неоцененному Вашему отеческому
+          покровителству с наиглубочайшим Респектом и вечною преданностию пребываю,</p>
+        <p>М[и]л[c]тивый Г[осу]д[а]рь,</p>
+        <p>Вашего Высокографскаго Сиятелства </p>
+        <p>Из Копенгагена</p>
+        <p>декабря 14/25 дня 1770 году.</p>
+        <p>Всенижайший и всеобязаннейший </p>
+        <p>слуга </p>
+        <p>Иван Местмахер</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_avrpi_53_5_240_0001</note>
+          <note>ru_avrpi_53_5_240_0002</note>
+          <note>ru_avrpi_53_5_240_0003</note>
+          <note>ru_avrpi_53_5_240_0004</note>
+          <note>ru_avrpi_53_5_240_0005</note>
+          <note>ru_avrpi_53_5_240_0007</note>
+          <note>ru_avpri_53_5_168_0001</note>
+          <note>ru_avpri_53_5_168_0002</note>
+          <note>ru_avpri_53_5_188_0001</note>
+          <note>ru_avpri_53_5_189_0001</note>
+          <note>ru_avpri_53_5_189_0002</note>
+          <note>ru_avpri_53_5_197_0001</note>
+          <note>ru_avpri_53_5_204_0001</note>
+          <note>ru_avpri_53_5_204_0002</note>
+          <note>ru_avpri_53_5_204_0003</note>
+          <note>ru_avpri_53_5_204_0004</note>
+          <note>ru_avpri_53_5_204_0005</note>
+          <note>ru_avpri_53_5_204_0006</note>
+          <note>ru_avpri_53_5_208_0001</note>
+          <note>ru_avpri_53_5_208_0002</note>
+          <note>ru_avpri_53_5_233_0001</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

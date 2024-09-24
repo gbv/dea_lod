@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en">Extract of the English Envoy's reply to Count Gollowin's
+          answer dated Mosco 14./25. May 1705 </title>
+        <author xml:lang="en">Charles</author>
+        <author xml:lang="en">Whitworth</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>14 / 25 May 1705. – Extract of the English Envoy's{{p1255}} reply to Count
+            Gollowin's{{p0277}} answer dated <placeName
+              key="g0001"
+              ref="https://www.geonames.org/524894">Mosco</placeName> 14./25. May
+            1705</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-5, f. 90v-92. English copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 90v" />
+        <p>Extract of the English Envoy's{{p1255}} reply to Count Gollowin's{{p0277}} answer dated <placeName
+            key="g0001"
+            ref="https://www.geonames.org/524894">Mosco</placeName> 14./25. May 1705</p>
+        <p />
+        <p>To the 3d. As if the Liberty granted to export the produce of their Tobacco Customfree
+          was a particular favour of the Czar{{p0174}}, and no obligation as it is said, the Envoy
+          might see from the words of the original Treaty, is answer’d : The Envoy has consulted the
+          Treaty, and does find that a Liberty was given them to <hi rendition="#u">export such
+          returns as they shall think fit, without laying any higher duty thereon than is payd at
+          present by forreign Merchants</hi>. Now it is very well known, that by a Custome
+          immemorial no forreign merchant ever did pay any duty for the Exportation of Russian
+          Commodities, which he bought with the produce of such goods as had payd duty at their
+          importation ; the Company{{o0137}} therefor having paid a very high duty for their Tobacco
+          when brought in viz: 4. Copiks p. pound by the natural meaning of that clause they ware
+          Customfree, especially since it was provided by the Treaty <hi rendition="#u">that if any
+          difficulty not foreseen may arise in and about the Execution of this present grant, or the
+          Const ruction thereof etc : all matters and things shall be favourably , liberally and
+          beneficially construed and decided in favour and on the part</hi>
+        </p>
+        <pb n="f. 91" />
+        <p>
+          <hi rendition="#u"> of the said M ar quis or his assigns</hi>. It is likewise very plain, that the
+          Czars Ministers themselves did for two years together own this to be the true intent of
+          the Treaty, since for that time the indisputed liberty was given to export their goods
+          Customfree, nor was it ever mention’d to be a new and particular grace of the
+          Czars{{p0174}} either in the orders themselves, or in any writing, or by word of mouth to
+          Mr. Goodfellow{{p1252}} ; thou had it been one, it was certainly great enough to deserve
+          being insinuated to the Company{{o0137}}, and received by them with all dutyfull
+          acknowledgment : from all which premises the Envoy is oblig’d to insist, that this
+          Exportation Customfree is not a favour, but a justice to the said Company{{o137}}, and
+          therefore he humbly hopes, it may still be complied with.</p>
+        <p>As to the Letter of Exchange, which Mr. Consul Goodfellow{{p1252}} gave for 20 m. Rubels,
+          it is said, not to have been done by force but voluntarily, in Consideration, that
+          severall parcells of goods ware taken as part of payment for the Tobacco dutys as high
+          rates, and other advantages allowed him and the Company{{o0137}} ; that the said Bill lay
+          a year and a half impay’d, and that it was put to the Tobacco account not at a low but a
+          reasonable price ; to all which is answerd : That the Envoy never said the Bill was taken
+          by </p>
+        <pb n="f. 91v" />
+        <p> force, but on promise of having ready money immediately pay’d for it, which was not
+          kept. As to the having given free carridges for the Tobacco ; that has hapned very
+          seldome, and in such places, as hoses could not well be hired ; however these and such
+          favours received, Mr. Goodfellow{{p1252}} allways was, and is still ready to acknowledge
+          with his most humble thanks and the respect due to so greate a Prince. As to the not
+          payment of this Bill, the Envoy begs leave to take notice, that there seems to be a small
+          mistake ; for this Bill for 20 m. R Dollars was dated in Decemb[e]r 1702. and was duely
+          pay’d in course ; but Mr. Goodfellow{{p1252}} gave in an other Bill for 24 m. Dollars in
+          May 1703. which for want of a due indorsement was not pay’d till a considerable time
+          afterwards. If this Bill for 20 m. R Dollars was plac’d on the Tobacco account not a t a
+          low but at a reasonable rate, the Envoy hopes no difficulty will be made of having that
+          reasonable rate replac’d by Russian money as it ought, and the Dollars henceforth
+          transferr’d to the account for potash as he at first desir’d.</p>
+        <p>As to the flax trade it is alleg’d, that this does not concern the Company{{o0137}}, but
+          was given as a particular favour to the consul, with a prospect of increasing the Trade in
+          the Esat Sea, whereof he gave some promices : to this answerd : </p>
+        <pb n="f. 92" />
+        <p> that the Envoy never said, this Trade concern’d the Company{{o0137}}, but begs leave to
+          take notice, that there may be probably some little mistake on the second point ; for this
+          patent was granted in July 1702. when the Czar{{p0174}} had no footing in Ingermanland,
+          and much less any Haven on the East Sea ; for <placeName
+            key="g0428"
+            ref="https://www.geonames.org/493970">Noteburgh</placeName>
+          was not taken till September 1702. Neuenshantz etc. in 1703. and <placeName
+            key="g0115"
+            ref="https://www.geonames.org/3247449">
+          Narva</placeName> not till 1704. In the patet it is likewise mention’d to carry out the
+          said flax by way of <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName>, which was the a great
+          piece of service, none having been ever sent thither before, and lastly the
+          Consul{{p1252}} had much ado, to obtain that the Town of <placeName
+            key="g0115"
+            ref="https://www.geonames.org/3247449">Narva</placeName>
+          should likewise be inserted in his grant, in hopes a peace might be made before that was
+          expired : however since His Excellence declares, that the common dutys ware onely order’d
+          to be taken from him, and not the new additional impositions, the Envoy has nothing to
+          desire, but that His Excellencys orders to this purpose may be signifyed to the
+          Precasse{{o0064}}, in the usuall manner.</p>
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-5_0011</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

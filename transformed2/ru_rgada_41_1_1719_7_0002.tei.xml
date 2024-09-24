@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Paolo Federici to the Russian agent in Venice,
+          Petr Ivanovich Beklemishev</title>
+        <author xml:lang="en">Paolo</author>
+        <author xml:lang="en">Federici</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>4 August 1719. – Letter from Paolo Federici to the Russian agent in Venice, Petr
+            Ivanovich Beklemishev</title>
+          <note>
+            <bibl>RGADA, fond 41, opis 1, 1719, no. 7, f. 2-2v. Russian translation; Italian
+              original: ibid., f. 1-1v.</bibl>
+          </note>
+        </head>
+        <pb n="f. 2" />
+        <p />
+        <p>В писме Паола Федеричи от числа 4. Августа 1719 написано.</p>
+        <p>К агенту Беклемишеву</p>
+        <p />
+        <p>С покорнейшим моим респектом имею честь приобщить В[а]шей М[и]л[ос]ти о нужнейшем деле
+          касающемся до дел Его Царскаго Величества противу котораго уведал я устрашителную
+          конспирацию или умыслу сочиненную в некоторой державе которую не могу имяновать на бумаге.
+          И понеже я при себе имею имена и прозвищи всех тех которые в сем деле употреблены: того
+          ради за должность свою почел сообщить В[а]шей М[и]л[ос]ти дабы вы мне дали ведать как я
+          умею в том поступить </p>
+        <pb n="f. 2v" />
+        <p> и с особою моею подвесть себя к ногам В[а]шей М[и]л[ос]ти. Ежели б иметь способ таковой
+          путь возмощ и отправить. И тако обявляю себя готова вам послушным быть когда В[а]ша
+          М[и]л[ос]ть соизволите меня о том уведомить. Сие дело не может значнее быть ниже завистнее
+          как сие я готов оное приобщить дабы В[а]ша М[и]л[ос]ть могли вскоре меры свои восприять
+          или уведомить Его Ц[арско]е В[еличеств]o чрез нарочнаго, или мне позволить чтоб иа сам
+          ехал: междо тем прошу В[а]шу М[и]л[ос]ть неотлагать вдаль ответу, понеже деликатство сего
+          дела отлагателства не позволяет.</p>
+        <p> Федеричи</p>
+        <noteGrp>
+          <note>See also:</note>
+          <note>ru_rgada_41_1_1719_7_0001</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

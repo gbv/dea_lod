@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the project of a defensive alliance, given to the
+          Ambassador Plenipotentiary of His Czarish Majesty, Prince Kurakin at Altenau on 20th of
+          May 1716 and which was then communicated by the same Ambassador at The Hague on 5th of
+          June 1716 to Mr Walpole, Minister of Great Britain</title>
+        <title type="main" xml:lang="fr">Copie du projet d'une alliance défensive, donnée à
+          l'Ambassadeur plenipotentiaire de Sa Majesté Czarienne le Prince de Courachin a Altenau le
+          20.e de May 1716 et qui a été après communiqué par le même Ambassadeur a La Haye le 5e de
+          Juin 1716 à Mons[ieur] Walpole Ministre de la Grande Bretagne </title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>20 May 1716. – Copy of the project of a defensive alliance, given to the Ambassador
+            Plenipotentiary of His Czarish Majesty, Prince [Boris Ivanovich] Kurakin{{p1190}} at <placeName
+              key="g0396"
+              ref="https://www.geonames.org/2957880">Altenau</placeName> on 20th of May 1716 and which was then communicated by
+            the same Ambassador at <placeName
+              key="g0004"
+              ref="https://www.geonames.org/2747373">The Hague</placeName> on 5th of June 1716
+            to M[iste]r [Robert] Walpole, Minister of Great Britain{{p1511}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-9, f. 39-41v. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f.39" />
+        <p> Copie du Projet d’une alliance defensive, donné a l’Ambassadeur</p>
+        <p>Plenipotentiaire de Sa Majesté Czarienne le Prince de</p>
+        <p>Courackin{{p1190}} a <placeName
+            key="g0396"
+            ref="https://www.geonames.org/2957880">Altenau</placeName> le 20.<hi
+            rendition="#sup">e</hi> de May 1716 et qui a été aprés </p>
+        <p>communiqué par le même Ambassadeur a La Haye le 5<hi rendition="#sup">e </hi>
+        </p>
+        <p>de Juin 1716 à Mons<hi rendition="#sup">r</hi> Walpole Ministre de la Grande </p>
+        <p>Bretagne{{p1511}}</p>
+        <p />
+        <p>Soit notoire a tous ceux qu’il appartiendra.</p>
+        <p>Comme il est evident que la guerre du Nord apporte a toute l’Europe un prejudice
+          considerable, et en particulier aux sujets de Sa Majesté Britannique{{p0727}} par rapport
+          a leurs commerces, ce qui a obligé Sa M[ajes]<hi rendition="#sup">té </hi>Britannique{{p0727}}
+          a faire demander plusiers [sic] fois au Roy de Suede{{p0193}} la reparation des pertes que
+          les sujets de la grande Bretagnes ont souffertes par la prise et confiscations que les
+          Suedois ont faites dans la mer Baltique de leurs vaisseaux et de leurs cargaisons. Sa
+          M[ajes]<hi rendition="#sup">té</hi> Br[itannique]: n’ayant pû avoir aucune reponse
+          satisfactoire du Roy de Suede{{p0193}}, au sujet de la dite reparation, et etant au
+          contraire informé que Le Roy de Suede{{p0193}} a renouvellé ses ordres pour faire saisir
+          les vaisseaux Anglois qui iroient trafiquer dans la mer Baltique, et non content de cela
+          il a formé d’autres desseins trés pernicieux contre La Couronne de la grande Bretagne,
+          Elle se trouve obligée tant pour empecher l’execution, que pour proteger dans la mer
+          Baltique le commerce de ses sujets, d’envoyer dans cette mer là une Escadre qui use de
+          repressailles sur les Vaisseaux appartenans au Roy de Suede{{p0193}}, ou a ses sujets, et
+          qui empeche que le Roy de Suede{{p0193}} ne transporte des trouppes en Allemagne ou en
+          d’autres Etats des Alliés du Nord, ou cela pourroit rallumer le feu de la guerre qu’on
+          tache d’eteindre pour </p>
+        <pb n="f. 39v" />
+        <p> le bien et le repos de toute l’Europe. </p>
+        <p>Mais pour faire voir combien Sa Maj[es]<hi rendition="#sup">té </hi>Britannique{{p0727}}
+          desire que la guerre du Nord soit promptement terminée; Elle ne manquera pas de faire en
+          même tems des fortes instances auprés du Roy de Suede{{p0193}} pour le disposer a conclure
+          la paix sur le pied que l’état present des affaires le permet et pour le porter a donner
+          aux sujets de la grande Bretagne la satisfaction et la reparation qui leur sont dües, et a
+          retablir un libre commerce dans la mer Baltique : Sa Majesté Brittanique{{p0727}} etant
+          persuadée que le meilleur moyen de reussir dans des vues si raisonnables, est de s’unir a
+          cette fin avec Les Puissances qui sont le plus en etat et en intention d’y contribuer ;
+          Elle a jugé a propos de convenir avec Sa Majesté Czarienne{{p0174}} d’une Alliance
+          defenisive, d’autant plus que Sa Majesté Britannique{{p0727}} est pleinement informée de
+          la sincere disposition ou S[a] M[ajesté] Cz[ari]enne{{p0174}} se trouve depuis long tems,
+          qui n’a été retardée que par l’opiniatreté du Roy de Suede{{p0193}}, et par la repugnance
+          qu’il a pour toute pensée pacifique.</p>
+        <p>Pour cet effet Sa Majesté Czarienne{{p0174}} a muni du pleinpouvoirs necessaires…</p>
+        <p>et Sa Majesté Britannique{{p0727}} ayant de son coté muni des semblales pleinpouvoirs…</p>
+        <p>Les dits Plenipotentiaires selon l’usage ordinaire sont tombés d’accord des conditions
+          suivantes.</p>
+        <p>(1.</p>
+        <p>Il y aura une amitié ferme et sincere et une alliance defensive entre Sa Majesté
+          Czarienne{{p0174}} et ses successeurs d’une part, et Sa Majesté Britannique{{p0727}} et
+          ses successeurs d’autre part, la quelle alliance sera entretenue de part et d’autre avec
+          tout le soin d’employer toutes </p>
+        <pb n="f. 40" />
+        <p> sortes des moyens pour detourner reciproquement ce qui pourroit leur etre prejudiciable,
+          et pour se procurer l’un et l’autre toutes sortes de bien et d’avantages.</p>
+        <p>(2.</p>
+        <p>Pour cet effet les Hauts contractans se preteront une mutuelle assistance par rapport a
+          leur diverses Negociations et interets dans les cours etrangeres, et ordonneront aux
+          Ministres qu’ils y auront de s’aider l’un et l’autre, et d’agir avec un parfait concert
+          dans les negociations dont ils seront chargés.</p>
+        <p>(3.</p>
+        <p>Que si l’un des Hauts Contractans est attaqué aprés la conclusion de la presente
+          Alliance, soit sans quelque pretexte que ce puisse être, sçavoir le Czar de toute la
+          Russie{{p0174}}, dans ses Etats voisins de la mer Baltique, qui sont a present
+          actuellement sous sa domination ; Et le Roy de la grande Bretagne{{p0727}} dans ses etats
+          en Europe ; L’autre Haut contractant s’oblige a Luy fournir en ce cas le secours specifié
+          cy dessous, en la maniere qui y est exprimée, et cela contre qui que ce puisse etre, selon
+          l’usage ordinaire des alliances defensives.</p>
+        <p>(4.</p>
+        <p>On conviendra d’un Traité de commerce, qui sera fait et reglé aprés la ratification de ce
+          Traité, et qui sera observé exactement de part et d’autre, en sorte que les sujets de Sa
+          Majesté Britannique{{p0727}} seront traités dans tous les etats de S[a] M[ajesté]
+          Cz[ari]enne{{p0174}} ut gens amicissima y jouissant de tous les privileges qui seront
+          accordés par rapport au commerce, a quelque autre nation que se puissse etre, ce qui sera
+          aussi observé en faveur des sujets de S[a] M[ajesté] Cz[ari]enne{{p0174}} dans tous les
+          états de S[a] M[ajesté] Britannique{{p0727}}.</p>
+        <p>(5.</p>
+        <p>Si Sa Majesté Britannique{{p0727}} ou Ses successeurs sont attaqués </p>
+        <pb n="f. 40v" />
+        <p> ou troublés dans leurs Etats, ou dans Leurs droits, soit a cause de leur succession
+          etablie par les loix de la grande Bretagne dans la ligne protestante, soit pour quelque
+          autre sujet que ce puisse être, Sa Majesté Cz[ari]enne{{p0174}} s’oblige pour Elle et pour
+          Ses successeurs a les assister a Ses depens, deux mois aprés la requisition faite, de
+          cinq, six, huit ou même dix mille fantassins, pour servir dans l’endroit ou Sa Majesté
+          Britannique{{p0727}} le desirera. Sa M[ajesté] Cz[ari]enne{{p0174}} envoyera ce corps sous
+          le commandement d’un de Ses Generaux, qui avec tous les autres generaux et officiers sera
+          sous le commandement du General en Chef de Sa M. Brittanique : Et Sa Majesté Czarienne se
+          reserve le droit de remplir les places des Officiers qui viendront a vaquer, pendant que
+          ce corps sera au service de S[a] M[ajesté] Britannique{{p0727}}, et pendant tout ce tems
+          là, le dit corps agira sous les ordres de Sa dite Majesté Britannique{{p0727}} et de Son
+          general.</p>
+        <p>(6.</p>
+        <p>Sa Majesté Czarienne{{p0174}} se charge de faire transporter a ses depens les trouppes
+          susdites jusqu’a <placeName
+            key="g0432"
+            ref="https://www.geonames.org/2821480">Travemunde</placeName> prés de <placeName
+            key="g0154"
+            ref="https://www.geonames.org/2875601">Lubeck</placeName> ou Sa Majesté Britannique{{p0727}} les fera recevoir et
+          transporter a Ses depens dans l’endroit ou Elle aura besoin de les employer, et pendant
+          tout le tems que ces trouppes demeureront a son service, a conter depuis le jour de Leur
+          arrivée a <placeName
+            key="g0432"
+            ref="https://www.geonames.org/2821480">Travemunde</placeName> ; Elle l’engage a leur fournir les
+          vivres, le fourage le quartier et les chariots, tout comme a ses propres trouppes, et
+          lorsqu’Elle n’en aura plus besoin, Elle s’oblige a les faire transporter a ses depens
+          jusqu’au dit <placeName
+            key="g0432"
+            ref="https://www.geonames.org/2821480">Travemunde</placeName>, ou S[a] M[ajesté]
+          Cz[ari]enne{{p0174}} les fera recevoir, et conduire dans ses Etats a ses depens. Sa
+          M[ajesté] Britanique{{p0727}} se charge ce cas existant de disposer le Magistrat de Lubeck
+          a recevoir dans leur havre de </p>
+        <pb n="f. 41" />
+        <p>
+          <placeName
+            key="g0432"
+            ref="https://www.geonames.org/2821480">Travemunde</placeName> le dit corps Rissien, lorsqu’il y
+          debarquera, en allant et en retournant, et a Luy donner toutes sortes d’assistance. </p>
+        <p>7.</p>
+        <p>Sa M[ajesté] Britanique{{p0727}} promet et s’oblige de Son coté que dans les negociations
+          de la paix avec la Couronne de Suede, Elle veut comme un bon allié assister S[a] M[ajesté]
+          Cz[ari]enne{{p0174}} de tout Son pouvoir, et de tout Son credit, pour qu’en vertu de cette
+          paix là, la Couronne de Suede cede et laisse a perpetuité a S[a] M[ajesté]
+          Cz[ari]enne{{p0174}}: et a Ses Successeurs les provinces qui sont a present actuellement
+          sous la domination de Sa dite M[ajes]<hi rendition="#sup">té</hi> Cz[ari]enne{{p0174}},
+          l’Ingrie, la Livonie, l’Estonie, la Carelie avec toutes les autres dependences,
+          inclusivement la ville de <placeName
+            key="g0433"
+            ref="https://www.geonames.org/470546">Wiburg</placeName> ; et si Sa M[ajesté]
+          Cz[ari]enne{{p0174}} ou Ses successeurs viennent a être attaqués et troublés dans ces
+          Provinces et places ; S[a] M[ajesté] Br[itanique]:{{p0727}} s’oblige pour Elle et pour Ses
+          Successeurs, de les assister a ses propres depens, deux mois aprés la requisition faite,
+          de quinze vaisseaux de ligné, qui seroient dans l’endroit ou Sa M[ajesté]
+          Cz[ari]enne{{p0174}} le desirera, et la dite Esquadre agira sous les ordres de Sa Majesté
+          Czarienne{{p0174}} et de Son Ammiral. </p>
+        <p>(8.</p>
+        <p>Si les Etats Generaux entrent dans ce Traité, ainsÿ qu’ils y sont invités, Sa M[ajesté]
+          Cz[ari]enne{{p0174}} promet de les assister pour la securité de leur Barriere, du même
+          nombre des trouppes cy dessus specifié, et de les admettre au même Traité de commerce.</p>
+        <p>(.9.</p>
+        <p>On est convenu qu’on tachera de part et d’autre de faire entrer les autres hauts Allies
+          du Nord dans ce Traité, et on leur reserve l’accession en vertu de cet article.</p>
+        <p>(10.</p>
+        <p>Le present Traité aura non seulement sa force entre les deux hauts Contractans, mais il
+          sera aussi conservé et perpetré entre Leurs Successeurs et Etats.</p>
+        <p>(11.</p>
+        <p>Les ratifications de ce present Traité seront echangées en deux mois de tems a conter du
+          jour de la signature de ce Traité, ou plûtôt s’il se peut fait a… ss.</p>
+        <pb n="f. 41v" />
+        <p> Article separé</p>
+        <p>Et afin que tant ce qui est contenu dans le preambule de ce Traité principal d’alliance
+          defensive et l’avantage commun de S[a] M[ajesté] Czarienne{{p0174}}, et de S[a] M[ajesté]
+          Royale de La Grande Bretagne{{p0727}}, de Leurs Royaumes et de Leurs sujets, puisse etre
+          executé tant a l’egard des repressailles, que pour procurer a La nation Angloise La
+          satisfaction duё pour les pertes et dommages qui Leurs ont été causées par les prises et
+          confiscations que La Couronne de Suede a fait faire de Leurs vaisseaux et effets. Comme
+          aussi pour mettre La Couronne de La Grande Bretagne entierement a couvert des desseins
+          vastes et prejudiciables que Le Roy de Suede{{p0193}} a formé contre Elle, et pour aider
+          Sa Majesté Czarienne{{p0174}} a obtenir une paix hereuse et generale afin qu’Elle soit
+          d’autant mieux en état de donner a Sa Majesté Br[itanique]{{p0727}}en cas de besoin
+          l’assistance promise.</p>
+        <p>Pour ces raisons Sa Majesté Royale de la Grande Bretagne{{p0727}} s’oblige de son coté
+          d’envoyer dans la mer Baltique la campagne prochaine de cette année cy aussitôt qu’il sera
+          possible et a ses propres depens une Escadre de quinze Vaisseaux d[e] Ligne, qui doit agir
+          offensivement conjointement avec la flotte de S[a] M[ajesté] Czarienne{{p0174}}, selon que
+          la raison de guerre l’exigera, a la disposition de S[a] M[ajesté] Cz[ari]enne{{p0174}}, de
+          la quelle, cette Escadre doit dependre.</p>
+        <p>Et si par les armes communes cette guerre ne sçauroit être terminée dans cette campagne,
+          et qu’on ne puisse reduire le Roy de Suede{{p0193}} a une paix telle que les alliés du
+          Nord la souhaitent, Sa Majesté le Roy de la grande Bretagne{{p0727}} promet par la
+          presente d’assister Sa Majesté Czarienne{{p0174}} d’un même nombre de vaisseaux, et de la
+          même maniere qu’il est dit cy dessus, jusqu’a la fin de cette guerre, et qu’on soit
+          parvenue a une hereuse paix ; Et les deux Hauts Contractans declarent icy l’un a l’autre,
+          que si l’une partie ou l’autre manquoit a present ou a l’avenir de donner effectivement
+          l’assistance stipulée tant, dans ce traité principal, que dans cet article separé, en ce
+          cas l’autre partie a la quelle on manque de donner cette assistance reelle ne sera pas non
+          plus tenüe a tout ce qui a été promis et accordé dans le Traité principal de l’alliance
+          defensive conclüe aujourd’huy, et dans cet article separé, mais tout le contenû d’içeux
+          sera reconnû nul sans valeur et sans aucune force.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

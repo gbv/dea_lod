@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorandum presented by the Resident of Great Britain to
+          Russia, James Bavington Jeffreys, to Tsar of Russia Peter I </title>
+        <author xml:lang="en">James</author>
+        <author xml:lang="en">Bavington</author>
+        <author xml:lang="en">Jeffreys</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 May / 6 June 1719. – Memorandum presented by the Resident of Great Britain to
+            Russia, James Bavington Jeffreys{{p1345}}, to Tsar of Russia Peter I{{p0174}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-9, f. 183-183v. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 183" />
+        <p> A Sa Majesté Czarienne etc. etc.</p>
+        <p />
+        <p>Le Soussigné Resident de Sa Maj[es]té Britannique represente tres humblement à Votre
+          Maj[es]té, que le Roy Son Auguste Maitre{{p0727}} ayant fait publier à la fin de l’année
+          passée un Edit, en vertu du quel tous les mariniers etc sujets naturels de Sa
+          Maj[es]té{{p0727}} sont reclames et rappeles du service des Puissances Etrangeres, il luy
+          a eté tres gracieusement ordonné, de faire la dessus Ses tres humbles remontrances à Votre
+          Maj[es]té a fin qu’Elle laisse aux dits sujets Brittaniques qui ont pris Service sur la
+          flotte de Votre Maj[es]té une entiere liberté de se retirer, conformement à l’ordre receu,
+          hors de Ses Etats, pour retourner dans leur patrie, au Service de Leur Roy, sans qu’il
+          soit donné à leur depart aucun empechement directe ou indirecte ; Sa Maj[es]té le Roy de
+          la Grande Bretagne{{p0727}} attend de l’equité de Votre Maj[es]té et comme un effet de la
+          bonne intelligence qui subsiste entre les deux couronnes, qu’Elle fera attention sur ce
+          que </p>
+        <pb n="f. 183v" />
+        <p> le dit Resident vient d’exposern et ne laissera pas d’en user reciproquement avec tous
+          les egards et toute la consideration possible pour Votre Majesté : Le Soussigné supplie
+          tres humblement Votre Maj[es]té de luy faire donner la dessus une resolution positive,
+          pour qu’il soit en etat d’en informer Sa cour{{o0002}}. Fait a <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">St
+          Petersburg</placeName> ce 26me May v[ieux]. s[tyle]. 1719.</p>
+        <p />
+        <p />
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-9_0010</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

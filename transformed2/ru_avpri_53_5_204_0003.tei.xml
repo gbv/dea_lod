@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the note from the Russian [Minister Plenipotentiary
+          and] Envoy [Extraordinary] to Denmark [Mikhail Mikhailovich Filosofov,] to the Danish
+          Ministry submitted on February 2, 1767</title>
+        <title type="main" xml:lang="ru">Копия с ноты посланника философова поданной дацкаму
+          министерству февраля 2го дня 1767. году.</title>
+        <author xml:lang="en">Mikhail</author>
+        <author xml:lang="en">Mikhailovich</author>
+        <author xml:lang="en">Filosofov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>2 February 1767. – Copy of the note submitted by [the Russian] Envoy
+              [Extraordinary and Minister Plenipotentiary to Denmark,] Mikhail Mikhailovich
+              Filosofov to the Foreign Ministry of Denmark on the 2<hi rendition="#sup">nd</hi> of
+              February, 1767</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 204, f. 18–18v. German original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 18" />
+        <p />
+        <p>Lit. A.</p>
+        <p>Копия с ноты посланника философова{{p1102}} поданной дацкому министерству{{o0126}}
+          февраля 2<hi rendition="#sup">го</hi> дня 1767. году.</p>
+        <p>Endes unterzeichneter Ihro Kayserl[ichen]: May[estät]: von allen Reußen Ministre
+          plenipotentiaire und Envoyé Extraordinaire{{p1102}}, hat die Ehre einem Hochgenießlichen
+          Königlich Dänischen Ministere{{o0126}} hiedurch geziemend anszuzeigen, daß auf die von der
+          wittwe Genti, eine Nichte{{p1519}} des in hiesigen Diensten verstorbenen Genéral von
+          Harbo{{p1518}}, wegen dem durch diesen Todesfall, ihr und ihren Schwestern, als nächsten
+          Erben, gemeinschaft[lich] zugefallenen Nachlaßes, in <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">St: Petersburg</placeName>
+          überreichte, und hier copeilich angesloßene Supplique /: welcher man noch zwo hier
+          hereinschlagende Beylagen Sub Lit: A: et B. angefüget :/ davon die originalia, sich annoch
+          hier befinden, und benötigten fals vorgezeiget worden können, Eingangserwehnter Ministre
+          von deßen allerhöchsten Höfe, befehliget worden, in Ersehung dieser Sache, hiesigen Orts
+          Anrege zuthun, und zuforderte hieinlängliche Information einzuholen. Da nun aber in
+          Erfahrung gebracht worden, wie daß der H[och-Wohlge[B[ohrne]r Stats-Rath Munch{{p1517}},
+          als dem die Administration gedachter Erbschaft aufgetragen gewesen; bereits vor einiger
+          Zeit mit Tode abgegangen, folglich Endes unterzeichneter von dem Zustande der Harzboeschen
+          Verlaßenschaft, keines weges zuverläßig unterrichtet zuwerden vermag; Als ersuchet solcher
+          gehorsamst ein hochpreißliches Königl: Dänisches Ministére, entweder </p>
+        <pb n="f. 18v" />
+        <p> ihm, oder dem in St: Petersburg befindlichen hiesigen Envoyé, H[och-Wohlge[B[ohrne]r
+          Baron von Assebourg{{p0009}}, nicht nur die nöthigen Erläuterungen in dieser
+          Angelegenheit, sondern auch die dießeitige Entschließung geneigtest mitzutheilen, was die
+          gedachte Wittwe Genti sich von dem Fortgange ihres Gesuchs zuversprechen haben.</p>
+        <p>Wargezeichnet. M: Filosofow{{p1102}}.</p>
+        <p />
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_avpri_53_5_204_0001</note>
+          <note>ru_rgada_avpri_53_5_204_0003</note>
+          <note>ru_rgada_avpri_53_5_204_0004</note>
+          <note>ru_rgada_avpri_53_5_204_0005</note>
+          <note>ru_rgada_avpri_53_5_204_0006</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>
