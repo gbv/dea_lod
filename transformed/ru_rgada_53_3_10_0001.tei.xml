@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -98,15 +99,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -115,8 +121,12 @@
     <body>
       <head>
         <title> September 1699. – Ratification of the Treaty of 1699 between Denmark and Russia by
-          the King of Denmark and Norway, <persName cert="high" evidence="internal" full="yes"
-            instant="unknown" key="p0532"
+          the King of Denmark and Norway, <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0532"
             xml:space="default">Frederick IV
           </persName>
         </title>
@@ -126,7 +136,12 @@
         </note>
       </head>
       <pb cert="high" n="f. 1" xml:space="default" />
-      <p>Wir <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0532"
+      <p>Wir <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0532"
           xml:space="default">Friederich der Virte
         </persName> von Gottes Gnaden, konig zu <placeName>
           Dennemarck</placeName> Norwegen, der Wenden und Gothen, hertzog zu Schleswig, hollstein,
@@ -134,20 +149,31 @@
         p[erge] Was gestalt Wir Uns, nach angetretener Unserer königlichen Erb-Regierung,
         allerunterthänigst referiren laßen, daß Unseres ietze in Gott glorwürdigst ruhenden h[errn]
         Vatters, des durchleuchtigsten, Grosmächtigsten Fürsten und herrn, h[errn] <persName
-          cert="high" evidence="internal"
-          full="yes" instant="unknown"
-          key="p0669" xml:space="default">
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0669"
+          xml:space="default">
           Christian des Fünfften</persName>, königs zu denenmarck, Norwegen, der Wenden undt Gothen,
         hertzogs zu Schlrswig, hollstein, Stormarn undt der Dithmarschen, Graffen zu Oldenburg undt
         delmenhorst, gewesener Cantzeley Rath und Envoyé Extraordinaire am Czaarischen hoffe, <persName
-          cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p0664" xml:space="default">
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0664"
+          xml:space="default">
           Paul Hein</persName>s, krafft gehabter ordre undt vollmacht, Eine gewiße alliance, nebst
         :2: Separat-articulen, mit dem durchleuchtigsten, Grosmächtigen, Unseren lieben Bruder,
         besonders guten Freundt und Nachbahren, von Gottes Gnaden, Großen herrn, Czaaren undt
-        GroßFürsten, h[errn] <persName cert="high" evidence="internal"
-          full="yes" instant="unknown"
-          key="p0174" xml:space="default">Peter
+        GroßFürsten, h[errn] <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0174"
+          xml:space="default">Peter
           Alexeiewitz</persName>, aller großen, kleinen undt weißen Rußen selbst Erhaltern, zu
         Mußkou, kiofscki, Woladimerscki, Nougorodscki, Czaaren zu kaßan, Czaaren zu Astrachan,
         Czaaren zu Sibirien, herrn zu Pleskaw, Grosfürsten zu Smolensko, Twerscki, Jugorscki,
@@ -159,8 +185,7 @@
         Tzerkoskisk undt Gorskischen Fürsten undt vieler anderen Herrschafften undt Landen in Osten,
         Westen, und Norden, Väterlich, Grosvätterlich und Erblichen Herrn und Regenten p[erge]
         verabredet undt geschloßen, undt daß höchstsehligstged[achter] unser h[err] Vatter, solche
-        Alliance, den 16: <hi
-          rendition="simple:superscript">
+        Alliance, den 16: <hi rendition="simple:superscript">
           <hi rendition="simple:underline">ten</hi>
         </hi> Juny dieses Jahrs eigenhändig
         ratificiret undt bestätiget. </p>
@@ -184,7 +209,12 @@
           Christi Unseres Erlößers gebuhrt, Ein Tausendt Sechs Hundert Neun undt Neuntzig </date> ,
           Unßerer königlichen Regierung im Ersten. </dateline>
         <signed>
-          <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0532"
+          <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0532"
             xml:space="default">Friderich
           </persName> K[önig] </signed>
         <signed>L: S:</signed>

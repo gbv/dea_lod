@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -181,7 +181,11 @@
     <body>
       <div type="letter">
         <head>
-          <title>3 / 14 April 1793. – Draft of the letter from <persName key="p1145" ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</persName>, to<persName key="p1094" ref="bf726845-29ed-455b-8aaf-b55924db6885"> the Ambassador Extraordinary and Plenipotentiary of Russia to the Holy Roman Empire, Count Andrei Kirillovich Razumovskii</persName>
+          <title>3 / 14 April 1793. – Draft of the letter from <persName
+              key="p1145"
+              ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</persName>, to<persName
+              key="p1094"
+              ref="bf726845-29ed-455b-8aaf-b55924db6885"> the Ambassador Extraordinary and Plenipotentiary of Russia to the Holy Roman Empire, Count Andrei Kirillovich Razumovskii</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1593-1594. French original.</bibl>
@@ -208,10 +212,41 @@
             Monsieur,
           </salute>
         </opener>
-        <p>Je profite de l’occasion sure que m’offre <persName key="p1167" ref="fbb2b75c-7816-4383-9071-8ad0e0254304">M[onsieu]r le Comte de Langeron</persName> pour faire part à V[otre] E[xcellence], qu’on fait naitre ici plus de difficultés, qu’il ne paroissoit d’abord les deux premiers jours, excités tant par les cabales du <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>, et ses liaisons avec les pretendus patriotes, que par l’esperance que des evenements dans l’étranger, et nommement le manque de concurrence de <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> font naitre dans ces tetes en partie exaltées en partie desesperées par leur situation : personne ne veut donner les Universaux pour les dietines, comme notre declaration le demande, c[‘est-]a[-]d[ire] ni la <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">Conf[édération]</orgName> ni <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">le Roi</persName>. Celle la voudroit en jetter le blame sur celui ci, <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">le Roi</persName> voudroit naturellement faire naitre un degré de haine de plus sur <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la Conf[édération]</orgName> qui l’a suspendu de toutes ses fonctions, et qui<hi rendition="#s">’elle</hi> ne paroit l’appeller que pour l’humilier encore d’avantage. Plusieures </p>
+        <p>Je profite de l’occasion sure que m’offre <persName
+            key="p1167"
+            ref="fbb2b75c-7816-4383-9071-8ad0e0254304">M[onsieu]r le Comte de Langeron</persName> pour faire part à V[otre] E[xcellence], qu’on fait naitre ici plus de difficultés, qu’il ne paroissoit d’abord les deux premiers jours, excités tant par les cabales du <persName
+            key="p0862"
+            ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>, et ses liaisons avec les pretendus patriotes, que par l’esperance que des evenements dans l’étranger, et nommement le manque de concurrence de <orgName
+            key="o0023"
+            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> font naitre dans ces tetes en partie exaltées en partie desesperées par leur situation : personne ne veut donner les Universaux pour les dietines, comme notre declaration le demande, c[‘est-]a[-]d[ire] ni la <orgName
+            key="o0085"
+            ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">Conf[édération]</orgName> ni <persName
+            key="p0862"
+            ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">le Roi</persName>. Celle la voudroit en jetter le blame sur celui ci, <persName
+            key="p0862"
+            ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">le Roi</persName> voudroit naturellement faire naitre un degré de haine de plus sur <orgName
+            key="o0085"
+            ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la Conf[édération]</orgName> qui l’a suspendu de toutes ses fonctions, et qui<hi
+            rendition="#s">’elle</hi> ne paroit l’appeller que pour l’humilier encore d’avantage. Plusieures </p>
         <pb n="f. 1594" />
-        <p> seances se sont passées en debats <hi rendition="#s">ici</hi>, qui ont fini par lui envoyer une deputation à <placeName key="g0328">Biallistok</placeName>, où ma lettre avec la declaration l’avoit rencontré, pour l’inviter à venir ici. Il est certain, que la declaration de <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> seroit <hi rendition="#s">ici</hi> d’un grand effet. Je n’ai point de nouvelles de <placeName key="g0291">Kaminiec</placeName>.</p>
-        <p>J’espere que mon <persName key="p1168">neveu</persName> a fait diligence pour porter à V[otre] E[xcellence] la premiere nouvelle de la declaration, &amp; que je le verrai bientôt revenir, avec <hi rendition="#s">la nouvelle desirée</hi> celle de la cooperation de <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName>. Si j’ai une <hi rendition="#s">f</hi> fois les Universaux, je n’en aurais que faire. J’ai recu depuis un couple de jours des depeches de <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">la Cour</orgName> par lesquelles je vois que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> approuve hautement les démarches que j’ai faites contre les emigrés, et surtout contre l’Emissaire François nommé <persName key="p1159">Bonneau</persName> à <placeName key="g0009">Varsovie</placeName>.</p>
+        <p> seances se sont passées en debats <hi
+            rendition="#s">ici</hi>, qui ont fini par lui envoyer une deputation à <placeName
+            key="g0328">Biallistok</placeName>, où ma lettre avec la declaration l’avoit rencontré, pour l’inviter à venir ici. Il est certain, que la declaration de <orgName
+            key="o0023"
+            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> seroit <hi
+            rendition="#s">ici</hi> d’un grand effet. Je n’ai point de nouvelles de <placeName
+            key="g0291">Kaminiec</placeName>.</p>
+        <p>J’espere que mon <persName
+            key="p1168">neveu</persName> a fait diligence pour porter à V[otre] E[xcellence] la premiere nouvelle de la declaration, &amp; que je le verrai bientôt revenir, avec <hi
+            rendition="#s">la nouvelle desirée</hi> celle de la cooperation de <orgName
+            key="o0023"
+            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName>. Si j’ai une <hi
+            rendition="#s">f</hi> fois les Universaux, je n’en aurais que faire. J’ai recu depuis un couple de jours des depeches de <orgName
+            key="o0008"
+            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">la Cour</orgName> par lesquelles je vois que <persName
+            key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> approuve hautement les démarches que j’ai faites contre les emigrés, et surtout contre l’Emissaire François nommé <persName
+            key="p1159">Bonneau</persName> à <placeName key="g0009">Varsovie</placeName>.</p>
       </div>
     </body>
   </text>

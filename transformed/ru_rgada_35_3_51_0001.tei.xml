@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Royal letter [of credence] from the King of Great Britain, [George I], to His Tsarist Majesty [Peter I], presented by [Friedrich Christian] Weber, concerning his diplomatic duties as Resident [in Russia]</title>
-        <title type="main" xml:lang="ru">Грамота к царскому величеству [Петру I] короля великобританского [Геогра I], которую подал резидент его [Фридрих Христиан] Вебер о характере своем резидентском [в России]</title>
+        <title
+          type="main"
+          xml:lang="en">Royal letter [of credence] from the King of Great Britain, [George I], to His Tsarist Majesty [Peter I], presented by [Friedrich Christian] Weber, concerning his diplomatic duties as Resident [in Russia]</title>
+        <title
+          type="main"
+          xml:lang="ru">Грамота к царскому величеству [Петру I] короля великобританского [Геогра I], которую подал резидент его [Фридрих Христиан] Вебер о характере своем резидентском [в России]</title>
         <author xml:lang="en">King</author>
         <author xml:lang="en">of</author>
         <author xml:lang="en">Great</author>
@@ -115,7 +119,13 @@
     <body>
       <div type="letter">
         <head>
-          <title>31 January / 11 February 1718. – Royal letter [of credence] from <persName key="p0727" ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">the King of Great Britain, [George I]</persName>, to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">His Tsarist Majesty [Peter I]</persName>, presented by <persName key="p0734" ref="0853e2ac-3b1c-48e2-830c-9190d2ba7bf6">[Friedrich Christian] Weber</persName>, concerning his diplomatic duties as Resident in Russia</title>
+          <title>31 January / 11 February 1718. – Royal letter [of credence] from <persName
+              key="p0727"
+              ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">the King of Great Britain, [George I]</persName>, to <persName
+              key="p0174"
+              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">His Tsarist Majesty [Peter I]</persName>, presented by <persName
+              key="p0734"
+              ref="0853e2ac-3b1c-48e2-830c-9190d2ba7bf6">[Friedrich Christian] Weber</persName>, concerning his diplomatic duties as Resident in Russia</title>
           <note>
             <bibl>RGADA, fond 35, opis 3, no. 51, f. 1, 2v. German original. Translation from German into Russian: RGADA, fond 35, opis 3, no. 51, f. 3–3v.</bibl>
           </note>
@@ -125,7 +135,9 @@
         <pb n="f. 1" />
         <p> Durchläuchtigster Großmächtigster Czaar</p>
         <p>und GroßFürst, vielgeliebter Bruder und Freund.</p>
-        <p>Ich habe mit sonderbahrem Vergnügen die gnädige reception womit Ewre May[estä]t meinen <persName key="p0734" ref="0853e2ac-3b1c-48e2-830c-9190d2ba7bf6">Secretarium Weber</persName> beehret und die Versicherungen von Dero intentionen zu Unterhaltung fernerer guten correspondentz mit mir, welche ihm von Ew[rer] May[estä]t gegeben worden, vernommen, wofür Deroselben ich mich sehr hoch verbunden erkenne. Solches beweget mich auch, ermeldeten meinen Secretarium als meinen Residenten bey Ewrer May[estä]t hiemit zu accreditiren, damit er zu unterhaltung der Correspondentz und vertraulicher Communication zwischen Deroselben und mir desto mehr im Stande seyn möge; Ich ersuche demnach Ewre May[estä]t Freundbrüderlich Sie belieben diesem meinen Residenten ferneres geneigtes gehöhr zu gönnen, in demjenigen was von meinentwegen er nach und nach vorbringen wird, ihm völligen Glauben zu geben und nach Bewandnis der Umbstände sich darauf gegen ihn vernehmen zu laßen. Ich werde allezeit erweisen, daß ich unveränderlich bin</p>
+        <p>Ich habe mit sonderbahrem Vergnügen die gnädige reception womit Ewre May[estä]t meinen <persName
+            key="p0734"
+            ref="0853e2ac-3b1c-48e2-830c-9190d2ba7bf6">Secretarium Weber</persName> beehret und die Versicherungen von Dero intentionen zu Unterhaltung fernerer guten correspondentz mit mir, welche ihm von Ew[rer] May[estä]t gegeben worden, vernommen, wofür Deroselben ich mich sehr hoch verbunden erkenne. Solches beweget mich auch, ermeldeten meinen Secretarium als meinen Residenten bey Ewrer May[estä]t hiemit zu accreditiren, damit er zu unterhaltung der Correspondentz und vertraulicher Communication zwischen Deroselben und mir desto mehr im Stande seyn möge; Ich ersuche demnach Ewre May[estä]t Freundbrüderlich Sie belieben diesem meinen Residenten ferneres geneigtes gehöhr zu gönnen, in demjenigen was von meinentwegen er nach und nach vorbringen wird, ihm völligen Glauben zu geben und nach Bewandnis der Umbstände sich darauf gegen ihn vernehmen zu laßen. Ich werde allezeit erweisen, daß ich unveränderlich bin</p>
         <p>Ewrer May[estä]t</p>
         <p>Freundwilliger Bruder</p>
         <p>
@@ -138,15 +150,25 @@
         <p>           11. febr[uarii]</p>
         <p>1718.							<persName key="p0727" ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">Georg R[ex]</persName>
         </p>
-        <p>An den <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Zaar</persName>.						<persName key="p0733" ref="4fb09b1f-0285-4785-9a9b-c168d933b062">Hattorf</persName>
+        <p>An den <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Zaar</persName>.						<persName
+            key="p0733"
+            ref="4fb09b1f-0285-4785-9a9b-c168d933b062">Hattorf</persName>
         </p>
         <p />
         <pb n="f. 2v" />
-        <p> An <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Czaarische Mayestet</persName>
+        <p> An <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Czaarische Mayestet</persName>
         </p>
         <p>Unserem vielgeliebten Bruder und Freund.</p>
-        <p>Грамота к <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ц[а]рскому в[еличеств]у</persName>
-          <persName key="p0727" ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">короля великобританского</persName>, которую подал <persName key="p0734" ref="0853e2ac-3b1c-48e2-830c-9190d2ba7bf6">резидент его Вебер</persName> о характере своем резидентском. Марта 18 1718.</p>
+        <p>Грамота к <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ц[а]рскому в[еличеств]у</persName>
+          <persName
+            key="p0727"
+            ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">короля великобританского</persName>, которую подал <persName
+            key="p0734"
+            ref="0853e2ac-3b1c-48e2-830c-9190d2ba7bf6">резидент его Вебер</persName> о характере своем резидентском. Марта 18 1718.</p>
       </div>
     </body>
   </text>

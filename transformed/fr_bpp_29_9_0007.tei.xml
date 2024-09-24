@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the minister plenipotentiary of Russia to the Netherlands, Stepan Alekseevich Kolychev</title>
+        <title
+          type="main"
+          xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the minister plenipotentiary of Russia to the Netherlands, Stepan Alekseevich Kolychev</title>
         <author xml:lang="en">Jacob</author>
         <author xml:lang="en">Johann</author>
         <author xml:lang="en">von</author>
@@ -105,7 +107,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>12 / 23 June 1793. – Draft of the letter from <persName key="p1145,p0581">the Ambassador Extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the Minister Plenipotentiary of Russia to the Netherlands, Stepan Alekseevich Kolychev</persName>
+          <title>12 / 23 June 1793. – Draft of the letter from <persName
+              key="p1145,p0581">the Ambassador Extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the Minister Plenipotentiary of Russia to the Netherlands, Stepan Alekseevich Kolychev</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1613–1615. French original.</bibl>
@@ -114,16 +117,40 @@
         <p />
         <pb n="f. 1613" />
         <p />
-        <p>A <persName key="p0581" ref="03531462-2d4a-4225-b30a-56d352172002">M[onsieu]r de Kalitcheff</persName>
+        <p>A <persName
+            key="p0581"
+            ref="03531462-2d4a-4225-b30a-56d352172002">M[onsieu]r de Kalitcheff</persName>
         </p>
         <p>à <placeName key="g0264">Grodno</placeName> ce 12/23 Juin 1793</p>
         <p>Monsieur,</p>
-        <p>Au moment meme du depart d’un courier pour <placeName key="g0002">S[ain]t Petersbourg</placeName>, j’ai eu l’honneur de recevoir la lettre, <hi rendition="#s">dont</hi> que V[otre] E[xcellence] a bien voulu m’ecrire du 27 de May / 7 de Juin, avec l’incluse sous cachet volant à <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">S[on] E[xcellence] M[onsieu]r le Vice-Chancellier</persName>, avec les annexes à celle-là. Par cet heureux hazard cette depeche importante en parvint plutot à sa destination, le courier ne prenant à present que cinq jours pour ce trajet.</p>
-        <p>Si d’un coté je puis avoir la satisfaction de faire part à V[otre] E[xcellence], que, sur ma representation au sujet d’un projet sur la liquidation des dettes du <persName key="p0862">Roy</persName> j’ai été muni </p>
+        <p>Au moment meme du depart d’un courier pour <placeName
+            key="g0002">S[ain]t Petersbourg</placeName>, j’ai eu l’honneur de recevoir la lettre, <hi
+            rendition="#s">dont</hi> que V[otre] E[xcellence] a bien voulu m’ecrire du 27 de May / 7 de Juin, avec l’incluse sous cachet volant à <persName
+            key="p0113"
+            ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">S[on] E[xcellence] M[onsieu]r le Vice-Chancellier</persName>, avec les annexes à celle-là. Par cet heureux hazard cette depeche importante en parvint plutot à sa destination, le courier ne prenant à present que cinq jours pour ce trajet.</p>
+        <p>Si d’un coté je puis avoir la satisfaction de faire part à V[otre] E[xcellence], que, sur ma representation au sujet d’un projet sur la liquidation des dettes du <persName
+            key="p0862">Roy</persName> j’ai été muni </p>
         <pb n="f. 1614" />
-        <p> des ordres de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> d’adopter tel projet, que je croirois le plus convenable pour <hi rendition="#s">la</hi> cette liquidation d’un autre coté, je dois avouer à V[otre] E[xcellence], que les demarches du <persName key="p0862">Roy</persName> à <orgName key="o0018" ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">cette Diete</orgName> me font craindre, que cette affaire, de meme que celle de la dette de l’Etat et celles des banquiers, qui font le principal objet du voyage de <persName key="p1174">M[onsieu]r Hasselgreen</persName>, traineront à <orgName key="o0018" ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la Diete</orgName>, et ne seront point regardées, comme elles le meriteroient sans une forte impulsion de <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">notre Cour</orgName>. Je ne manquerai pas de faire ce que je puis de ma part, et je ne doute pas, que je n'aye les ordres precis pour cet effet. Je suis trés persuadé, qu’il <hi rendition="#s">a</hi> est </p>
+        <p> des ordres de <persName
+            key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> d’adopter tel projet, que je croirois le plus convenable pour <hi
+            rendition="#s">la</hi> cette liquidation d’un autre coté, je dois avouer à V[otre] E[xcellence], que les demarches du <persName
+            key="p0862">Roy</persName> à <orgName
+            key="o0018"
+            ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">cette Diete</orgName> me font craindre, que cette affaire, de meme que celle de la dette de l’Etat et celles des banquiers, qui font le principal objet du voyage de <persName
+            key="p1174">M[onsieu]r Hasselgreen</persName>, traineront à <orgName
+            key="o0018"
+            ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la Diete</orgName>, et ne seront point regardées, comme elles le meriteroient sans une forte impulsion de <orgName
+            key="o0008"
+            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">notre Cour</orgName>. Je ne manquerai pas de faire ce que je puis de ma part, et je ne doute pas, que je n'aye les ordres precis pour cet effet. Je suis trés persuadé, qu’il <hi
+            rendition="#s">a</hi> est </p>
         <pb n="f. 1615" />
-        <p> de l’interet de notre <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName>, comme de toutes les autres Puissances, qui profitent des richesses des banquiers d’Hollande, et de leur esprit calculateur, que ces affaires soient terminées, de la maniere que <persName key="p1174">M[onsieu]r Hasslgreen</persName> le propose. Pour ce qui est des dettes de l’Etat, je n’en ai aucune [sic !] doute. Je ne manquerai pas d’informer V[otre] E[xcellence] de ce qui se passera à <orgName key="o0018" ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la Diete</orgName> sur ces differens objets.</p>
+        <p> de l’interet de notre <orgName
+            key="o0008"
+            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName>, comme de toutes les autres Puissances, qui profitent des richesses des banquiers d’Hollande, et de leur esprit calculateur, que ces affaires soient terminées, de la maniere que <persName
+            key="p1174">M[onsieu]r Hasslgreen</persName> le propose. Pour ce qui est des dettes de l’Etat, je n’en ai aucune [sic !] doute. Je ne manquerai pas d’informer V[otre] E[xcellence] de ce qui se passera à <orgName
+            key="o0018"
+            ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la Diete</orgName> sur ces differens objets.</p>
       </div>
     </body>
   </text>

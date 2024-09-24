@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Letter from  the painter, Jacob Philipp Hackert, to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <title
+          type="main"
+          xml:lang="en">Letter from  the painter, Jacob Philipp Hackert, to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
         <author xml:lang="en">Jacob</author>
         <author xml:lang="en">Philipp</author>
         <author xml:lang="en">Hackert</author>
@@ -104,7 +106,11 @@
     <body>
       <div type="letter">
         <head>
-          <title>2 October 1773. – Letter from <persName key="p0079" ref="0ecc494c-7d2a-4f40-aa1f-201253e02c48">the painter, Jacob Philipp Hackert</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>2 October 1773. – Letter from <persName
+              key="p0079"
+              ref="0ecc494c-7d2a-4f40-aa1f-201253e02c48">the painter, Jacob Philipp Hackert</persName>, to <persName
+              key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 889, f. 1–2. French original.</bibl>
@@ -116,14 +122,38 @@
         <p />
         <p>Monseigneur,</p>
         <p />
-        <p>J’ai bien des graces à rendre à Votre Altesse de la lettre obligeante dont elle m’a honnoree le 20 Aout ainsi que la remise de 80 Ducats qu’elle a eu l’attention d’envoier à <persName key="p0119" ref="42c08a00-2548-44d7-ae7a-57a97d7f36cd">M<hi rendition="#u">
+        <p>J’ai bien des graces à rendre à Votre Altesse de la lettre obligeante dont elle m’a honnoree le 20 Aout ainsi que la remise de 80 Ducats qu’elle a eu l’attention d’envoier à <persName
+            key="p0119"
+            ref="42c08a00-2548-44d7-ae7a-57a97d7f36cd">M<hi rendition="#u">
               <hi rendition="#sup">r</hi>
             </hi> de Reiffenstein</persName>. Je presume a l’heur qu’il est que le tableau en question sera actuellement au pouvoir de Votre Altesse et qu’il obtiendra l’honneur de son aprobation, rien au monde ne sauroit m’etre plus flateur que de la meriter et de trouver des occasions a la convaincre de mon respectueux attachement.</p>
-        <p>Je fini presentement les deux dernier tableaux de l'Affaire de <placeName key="g0089">Chisme</placeName>. Je me croirai recompencé bien grandement de mes peines et mes traveaux si cet ouvrage obtient le suffrage de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté]. l’Imperatrice</persName>
+        <p>Je fini presentement les deux dernier tableaux de l'Affaire de <placeName
+            key="g0089">Chisme</placeName>. Je me croirai recompencé bien grandement de mes peines et mes traveaux si cet ouvrage obtient le suffrage de <persName
+            key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté]. l’Imperatrice</persName>
         </p>
         <pb n="f. 1v" />
-        <p> et s’il peut ajouter quelque chose a la céléberité d’un evenement qui immortalise les armes de cette auguste Souveraine; parmi les nombres de succès qu’ils ont eprouvée il en est un qui seroit bien digne encore d’etre transmit à la posterité. Je veus parler de l’Affaire de <placeName key="g0091">Metteline</placeName> ou <persName key="p0241" ref="b797745c-bd22-4834-be23-404feedbc849">le Prince Dolgarouky</persName> commandant en chef se couvrit de gloire. Me trouvant dans ce tems à <placeName key="g0090">Pise</placeName>
-          <persName key="p0112" ref="5dcd88b3-399f-4885-9f8b-00e0d3ec9c5f">S[a].E[xcellence]. M<hi rendition="#sup">r</hi>. le Comte d’Orlow</persName> me donnat toutes les instructions relativement a cet objet, et en consequence je fi toutes les deux esquises qui furent aprouvés. <persName key="p0112" ref="5dcd88b3-399f-4885-9f8b-00e0d3ec9c5f">S[a].E[xcellence]. M<hi rendition="#sup">r</hi>. le Comte d’Orlow</persName> decida alors qu’on proposa l’execution de cette novette [=nouvelle?] ouvrage à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté]. l’Imperatrice</persName>. <persName key="p0131" ref="064b1e10-fa35-4056-9ecc-42c2355e2d82">S[on].E[xcellence]. M<hi rendition="#sup">r</hi> le General de Schouvaloff</persName> se charga meme de le proposer à la <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName> par <persName key="p0241" ref="b797745c-bd22-4834-be23-404feedbc849">le Prince Dolgarouky</persName> mais comme du dupuis il n’en a plus ette fait mention j’ignore si j’ai été asses heureux que l’on en ait fait part à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté l’Imperatrice</persName>.</p>
+        <p> et s’il peut ajouter quelque chose a la céléberité d’un evenement qui immortalise les armes de cette auguste Souveraine; parmi les nombres de succès qu’ils ont eprouvée il en est un qui seroit bien digne encore d’etre transmit à la posterité. Je veus parler de l’Affaire de <placeName
+            key="g0091">Metteline</placeName> ou <persName
+            key="p0241"
+            ref="b797745c-bd22-4834-be23-404feedbc849">le Prince Dolgarouky</persName> commandant en chef se couvrit de gloire. Me trouvant dans ce tems à <placeName
+            key="g0090">Pise</placeName>
+          <persName key="p0112" ref="5dcd88b3-399f-4885-9f8b-00e0d3ec9c5f">S[a].E[xcellence]. M<hi
+              rendition="#sup">r</hi>. le Comte d’Orlow</persName> me donnat toutes les instructions relativement a cet objet, et en consequence je fi toutes les deux esquises qui furent aprouvés. <persName
+            key="p0112"
+            ref="5dcd88b3-399f-4885-9f8b-00e0d3ec9c5f">S[a].E[xcellence]. M<hi
+              rendition="#sup">r</hi>. le Comte d’Orlow</persName> decida alors qu’on proposa l’execution de cette novette [=nouvelle?] ouvrage à <persName
+            key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté]. l’Imperatrice</persName>. <persName
+            key="p0131"
+            ref="064b1e10-fa35-4056-9ecc-42c2355e2d82">S[on].E[xcellence]. M<hi
+              rendition="#sup">r</hi> le General de Schouvaloff</persName> se charga meme de le proposer à la <orgName
+            key="o0008"
+            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName> par <persName
+            key="p0241"
+            ref="b797745c-bd22-4834-be23-404feedbc849">le Prince Dolgarouky</persName> mais comme du dupuis il n’en a plus ette fait mention j’ignore si j’ai été asses heureux que l’on en ait fait part à <persName
+            key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté l’Imperatrice</persName>.</p>
         <p />
         <p>faite lui faire ce tableau</p>
         <p />
@@ -146,7 +176,9 @@
         <p>de Votre Altesse </p>
         <p>le tres humble et tres obeissont serviteur</p>
         <p>
-          <persName key="p0079" ref="0ecc494c-7d2a-4f40-aa1f-201253e02c48">J[acob]. Philippe Hackert</persName>.</p>
+          <persName
+            key="p0079"
+            ref="0ecc494c-7d2a-4f40-aa1f-201253e02c48">J[acob]. Philippe Hackert</persName>.</p>
         <p>à <placeName key="g0007">Rome</placeName> le 2<hi rendition="#u">
             <hi rendition="#sup">m[e]</hi>
           </hi> Octobre 1773.</p>

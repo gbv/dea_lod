@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Memorial from the Imperial Resident, Otto Anton von Pleyer, to the Ambassadorial Chancellery</title>
+        <title
+          type="main"
+          xml:lang="en">Memorial from the Imperial Resident, Otto Anton von Pleyer, to the Ambassadorial Chancellery</title>
         <author xml:lang="en">Otto</author>
         <author xml:lang="en">Anton</author>
         <author xml:lang="en">Pleyer</author>
@@ -104,7 +106,11 @@
     <body>
       <div type="letter">
         <head>
-          <title>29 January 1714. – Memorial from the <persName key="p0672" ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">Imperial Resident, Otto Anton von Pleyer,</persName> to the <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Ambassadorial Chancellery</orgName>
+          <title>29 January 1714. – Memorial from the <persName
+              key="p0672"
+              ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">Imperial Resident, Otto Anton von Pleyer,</persName> to the <orgName
+              key="o0064"
+              ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Ambassadorial Chancellery</orgName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1714, no. 14, f. 2. German original. Translation from German into Russian: RGADA, fond 32, opis 1, 1714, no. 14, f. 3.</bibl>
@@ -114,16 +120,27 @@
         <pb n="f. 2" />
         <p />
         <p>Hochlöbl[iche] gesandten Canzley.</p>
-        <p>Ewer Excellenzen hat <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Ihro Röm[ischen] käy[serlichen] auch zu Hispanien, Hungarn, und Beheimb königl[ichen] Catholischen May[estät]</persName> Rath und Resident gebührend fürzutragen, d[aß] ich zu meines <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Allergnädigsten kaysers</persName> vnd herrn dienstlich fürträglich, und nöttig zu seyn befunden, d[aß] ich mich nunmehr zu <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">S[eine]r GroßCzarischen May[estät] hoff</orgName> naher <placeName key="g0002">Petersburg</placeName> begebe, umb welcher reiß desto sicherer, und schleiniger fortzusetzen ich einiger vorgespan pferd, od[er] Podwoden benötiget bin, Alß habe Euer<hi rendition="#sup" /> Excellenzen hiedurch gebührend ersuchen, und bitten wollen, d[aß] dieselbe mir 12 Podwoden Jämschiken pferd zu geben günstig verordnen wollen, welche freundschaft kay[serlichen] seits auf begehren, und ereigneten begebenheit entgegen willfahrig erkennet, und erwiedriget werden wird. verbleibe</p>
+        <p>Ewer Excellenzen hat <persName
+            key="p0163"
+            ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Ihro Röm[ischen] käy[serlichen] auch zu Hispanien, Hungarn, und Beheimb königl[ichen] Catholischen May[estät]</persName> Rath und Resident gebührend fürzutragen, d[aß] ich zu meines <persName
+            key="p0163"
+            ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Allergnädigsten kaysers</persName> vnd herrn dienstlich fürträglich, und nöttig zu seyn befunden, d[aß] ich mich nunmehr zu <orgName
+            key="o0008"
+            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">S[eine]r GroßCzarischen May[estät] hoff</orgName> naher <placeName
+            key="g0002">Petersburg</placeName> begebe, umb welcher reiß desto sicherer, und schleiniger fortzusetzen ich einiger vorgespan pferd, od[er] Podwoden benötiget bin, Alß habe Euer<hi
+            rendition="#sup" /> Excellenzen hiedurch gebührend ersuchen, und bitten wollen, d[aß] dieselbe mir 12 Podwoden Jämschiken pferd zu geben günstig verordnen wollen, welche freundschaft kay[serlichen] seits auf begehren, und ereigneten begebenheit entgegen willfahrig erkennet, und erwiedriget werden wird. verbleibe</p>
         <p>Ewer Excellenzen</p>
         <p>schuldigster diener</p>
         <p>
-          <persName key="p0672" ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">Otto Antoni[us] v[on] Pleyern</persName>
+          <persName
+            key="p0672"
+            ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">Otto Antoni[us] v[on] Pleyern</persName>
         </p>
         <p>M[anu] p[rop]ria</p>
         <p>weilen meine Pagage wid[er] vermuthen sich vermehret, alß bitte noch vmb zwey Podwoden, zusamben 14 pferd.</p>
         <p>[On the left margin:] Диак.</p>
-        <p>[After the postscript and signature:] Перевесть и против сего мемориялу выписат[ь] об отпуске и о д<hi rendition="#sup" /> Eu- is corrected from: S<hi rendition="#sup">r</hi>.аче подвод.</p>
+        <p>[After the postscript and signature:] Перевесть и против сего мемориялу выписат[ь] об отпуске и о д<hi
+            rendition="#sup" /> Eu- is corrected from: S<hi rendition="#sup">r</hi>.аче подвод.</p>
       </div>
     </body>
   </text>

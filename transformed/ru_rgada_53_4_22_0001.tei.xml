@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -97,15 +98,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -353,9 +359,17 @@
     <body>
       <head>
         <title> 23 December 1713. – Royal letter from the King of Denmark and Norway, <persName
-            cert="high" evidence="internal" full="yes" instant="unknown"
-            key="p0532" xml:space="default">Frederick IV</persName>, to the Tsar of Russia, <persName
-            cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0532"
+            xml:space="default">Frederick IV</persName>, to the Tsar of Russia, <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0174"
             xml:space="default">Peter I
           </persName>
         </title>
@@ -374,39 +388,72 @@
           translation.
         </note>
         <pb cert="high" n="f. 1" xml:space="default" />
-        <salute>Durchleuchtigster, Großmächtigster <persName cert="high" evidence="internal"
+        <salute>Durchleuchtigster, Großmächtigster <persName
+            cert="high"
+            evidence="internal"
             full="yes"
-            instant="unknown" key="p0174" xml:space="default">
+            instant="unknown"
+            key="p0174"
+            xml:space="default">
             Czaar</persName>, </salute>
         <salute> Freundlich vielgeliebter Bruder, Freund <lb /> und Nachbahr. </salute>
       </opener>
-      <p>Aus <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+      <p>Aus <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0174"
           xml:space="default">Ew[er] May[estät]
         </persName> und L[ie]bd[en] an Mich abgelaßenem
         Freund-Bruderlichen Schreiben vom 4<hi rendition="simple:superscript">ten</hi> vorigen
         Monahts Novembris habe Ich mit sonderbahrem Vergnügen die Nachricht und Umbstände von dem
-        letztern in Finnland bey dem Fluß <placeName key="Pälkäne Pirkanmaa Finland"
-          ref="https://geonames.org/642977" cert="medium">Pelcken
+        letztern in Finnland bey dem Fluß <placeName
+          key="Pälkäne Pirkanmaa Finland"
+          ref="https://geonames.org/642977"
+          cert="medium">Pelcken
         </placeName> vorgegangenen Combat zwischen Dero und denen
         Schwedischen Trouppen vernommen; Wie Wir nun nichtes Liebers noch angenehmers seyn kann, als
-        dergleichen fröliche Zeitung von <persName cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p0174" xml:space="default">
+        dergleichen fröliche Zeitung von <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0174"
+          xml:space="default">
           Ew[er] May[estät]
-        </persName> und <persName cert="high"
-          evidence="internal" full="yes" instant="unknown" key="p1131"
+        </persName> und <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1131"
           xml:space="default">L[ie]bd[en]
         </persName> zu erhalten, und damit offt und vielmahl erfreuet zu
         werden; Also gratulire Ich auch Dieselbe getreulichst zu solcher abermahligen erlangten
         Avantage, und wünsche von Grund der Seelen, daß dergleichen noch viele mehr erfolgen, und<persName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0174"
           xml:space="default">Sie
         </persName> alle Dero fernere Desseins mit stetem Glück zum besten der
         gemeinen Sache und Erhaltung eines Unß beederseits raisonnablen und beständigen Friedens,
-        ausführen und fortsetzen mögen. <persName cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p0174" xml:space="default">
+        ausführen und fortsetzen mögen. <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0174"
+          xml:space="default">
           Ew[er] May[estät]
-        </persName> und <persName cert="high"
-          evidence="internal" full="yes" instant="unknown" key="p1131"
+        </persName> und <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1131"
           xml:space="default">L[ie]bd[en]
         </persName> können </p>
       <pb cert="high" n="f. 1v" xml:space="default" />
@@ -418,32 +465,52 @@
       </p>
       <closer>
         <salute>
-          <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+          <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0174"
             xml:space="default">Ew[er] May[estät]
-          </persName> und <persName cert="high"
-            evidence="internal" full="yes" instant="unknown" key="p1131"
+          </persName> und <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p1131"
             xml:space="default">L[ie]bd[en]
           </persName>
                     <lb /> Getreuer Bruder, Freund und <lb />
           Nachbahr. </salute>
         <signed>
-          <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0532"
+          <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0532"
             xml:space="default">Friderich
           </persName> R[ex] </signed>
 
-        <dateline><placeName key="Copenhagen Capital Region Denmark"
-            ref="https://geonames.org/2618425">
-            Copenhagen</placeName>, <lb /> den <date when="1713-12-23">23 <hi
-              rendition="simple:superscript">
+        <dateline><placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425">
+            Copenhagen</placeName>, <lb /> den <date when="1713-12-23">23 <hi rendition="simple:superscript">
               <hi rendition="simple:underline">ten</hi>
             </hi> Decembris Anno 1713 </date>
           . </dateline>
-        <salute>An Ihr[o] May[estät] den <persName cert="high" evidence="internal" full="yes"
-            instant="unknown" key="p0174"
+        <salute>An Ihr[o] May[estät] den <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0174"
             xml:space="default">Czaaren
           </persName>
                     <lb /> in gantz Rußland. </salute>
-        <signed><persName cert="medium" evidence="internal" full="yes" instant="unknown"
+        <signed><persName
+            cert="medium"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
             xml:space="default"
             key="p1505">C: Sehested</persName>t. </signed>
         <pb cert="high" n="f. 2v" xml:space="default" />
@@ -451,7 +518,8 @@
           Groß-Fürsten in gantz Rußland. p[erge]
         </salute>
       </closer>
-      <note>Дацкая грамота поздравителная о виктории при <placeName key="Pälkäne Pirkanmaa Finland"
+      <note>Дацкая грамота поздравителная о виктории при <placeName
+          key="Pälkäne Pirkanmaa Finland"
           ref="https://geonames.org/642977">Пелкене <precision match="@ref" precision="medium" />
         </placeName>
         реке. Переведена генваря в 16 де[нь] 1714. </note>

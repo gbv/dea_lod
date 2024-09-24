@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -100,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -129,8 +134,7 @@
             <pb cert="high" n="f. 1" xml:space="default" />
           </note>
 
-          <salute>Monseigneur,  <persName cert="high" type="real"
-              ref="http://viaf.org/viaf/39569752" />
+          <salute>Monseigneur,  <persName cert="high" type="real" ref="http://viaf.org/viaf/39569752" />
           </salute>
         </opener>
         <p>J'ai l'honneur d'annoncer à Vôtre Excellence la triste nouvelle de la mort de <persName
@@ -169,8 +173,7 @@
           tendresse. Dans quelques jours, je me trouverai à même d'en parler plus positivement. </p>
         <p>Je me flatte, que Vôtre Excellence ne desapprouvera pas, que j'aye expedié ma lettre par
           estaffette, attendû que l'importance de l'événement, qui ne peut qu'influër sur la mission
-          de <persName
-            key="p0127">Monsieur Saldern</persName>, m'a fait regarder cet expedient comme
+          de <persName key="p0127">Monsieur Saldern</persName>, m'a fait regarder cet expedient comme
           indispensable. </p>
         <pb cert="high" n="f. 2v" xml:space="default" />
         <closer>
@@ -190,8 +193,7 @@
                     <date>Vôtre
           Excellence permettera, que je joigne ici une lettre de <persName key="p0234">Mr. de
           Bernstorff
-            </persName> pour <persName
-              key="p0009">Mr. le Baron d'Assebourg</persName>
+            </persName> pour <persName key="p0009">Mr. le Baron d'Assebourg</persName>
           </date>   </closer>
         <note />
       </div>

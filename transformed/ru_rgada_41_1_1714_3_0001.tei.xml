@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -99,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -142,7 +148,8 @@
           Превосходительства и как Вы требуете того на бумаге, то почитаю за долг, со всею
           покорностию Вам представить о том, по справедливости, правосудию и долгу Християнскому. </p>
         <p>И так я объявляю, что в помянутой бумаге содержатся дела бывшея прежде учиненной мною
-          29аго числа прошедшаго ноября в <placeName key="Istanbul Istanbul Türkiye"
+          29аго числа прошедшаго ноября в <placeName
+            key="Istanbul Istanbul Türkiye"
             ref="https://geonames.org/745044">
             Константинополе
           </placeName>
@@ -164,8 +171,7 @@
           Царского
             Величества</persName>, требуя от меня того, чтоб я по прежнему служил верно, усердно и
           ревностно. </p>
-        <p>Я был отправлен в <placeName key="Vienna Vienna Austria"
-            ref="https://geonames.org/2761369">
+        <p>Я был отправлен в <placeName key="Vienna Vienna Austria" ref="https://geonames.org/2761369">
             Вену</placeName>, где я получил патент на секретарской чин, с почтенными Вашего
           Превосходительства предписаниями, которыми Вы уверяли меня в милости <persName key="p0174">Его
           Царского Величества
@@ -179,8 +185,7 @@
           константинопольским, также и венским, во всем том что от них мне приказано было, сохраняя
           верность и послушание, которыми обязан вернейший слуга <persName key="p0174">Его Царского
           Величества</persName>. </p>
-        <p>Ваше Превосходительство (спустя восемь месяцев после моей присяги) приказали <persName
-            key="p0699">
+        <p>Ваше Превосходительство (спустя восемь месяцев после моей присяги) приказали <persName key="p0699">
             Его Превосходительству Матвееву
           </persName> сообщить мне, с
           надлежащею тайности, некоторыя публичныя дела, касающияся до союза, котораго искала
@@ -189,10 +194,16 @@
         <p>
           <persName key="p0699">Его Превосходительство Матвеев</persName> исполнил то, что ему было
           приказано. Он вручил мне письмо Вашего Превосходительства с деньгами посланны- <pb
-            cert="high" n="f. 2" xml:space="default" /> ми для сего путешествия, обнадежив меня в
-          том, что я при <orgName cert="high" evidence="internal"
-            full="yes" instant="unknown"
-            key="o0008" xml:space="default">
+            cert="high"
+            n="f. 2"
+            xml:space="default" /> ми для сего путешествия, обнадежив меня в
+          том, что я при <orgName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="o0008"
+            xml:space="default">
             Императорском дворе
           </orgName> буду гораздо щастливее. </p>
         <p>Я не преминул тот час повиноваться почтенным повелениям Вашего Превосходительства оставя
@@ -216,10 +227,11 @@
         <p>Я покорнейше прошу Ваше Превосходительство обратить ваши взоры на небо, и подумать о
           бывших мне гонениях; о бедности, до которой довели меня мои противники; о бедствиях, в
           которых теперь нахожусь, и о нещастиях и опасностях, которым подвержены мои стенящия дети,
-          которыя просят помилования от <persName
-            key="p0174">Его Царскаго Величества
+          которыя просят помилования от <persName key="p0174">Его Царскаго Величества
           </persName> и мщения от Бога. </p>
-        <p>Впрочем, Ваше Превосходительство, да удостоите <pb cert="high" n="f. 2v"
+        <p>Впрочем, Ваше Превосходительство, да удостоите <pb
+            cert="high"
+            n="f. 2v"
             xml:space="default" /> их снисходительностию к их нещастиям и утешите их моим
           освобождением и тем будете удостоверены в получении от Бога награду, как в здешней жизни,
           так и в вечной славе; иначе естьли мой патрон (я говорю об Апостоле Павле) принес жалобу
@@ -233,17 +245,16 @@
           отпуски писем публичных, писанных мною, сочиненных, представленных и наблюдаемых в то
           время, как я находился в службе Венецианской; также и отпуски писем посланных к министрам
           Его Цар[ского]. Вел[ичества]. бумаги им же представленныя, которыя никак не должны быть
-          сообщены или выданы упомянутому <persName
-            key="p1381">Его Превосходительству Савве
+          сообщены или выданы упомянутому <persName key="p1381">Его Превосходительству Савве
           </persName> моему противнику и гонителю. </p>
         <p>Тут же еще 4 книги историческия, 3 медицинския; тарифы о жаловании служащим в
           Венециянской флоте; одна книга о правлении оной же Республики, которую я хотел исправить
           от многих погрешностей, сделанных автором, который не был совершенно сведущ во всех
           судилищах, обыкновенных и чрезвычайных должностях Левантских, во флоте, в экономии, в
-          доходах. Сию книгу я хотел поднести моему <persName
-            key="p0174">Государю</persName>. </p>
+          доходах. Сию книгу я хотел поднести моему <persName key="p0174">Государю</persName>. </p>
         <p>Естьли же Ваше Превосходительство хотите обо всем узнать; то можете послать взять
-          следственное дело из <placeName key="Rijeka Primorje-Gorski Kotar Croatia"
+          следственное дело из <placeName
+            key="Rijeka Primorje-Gorski Kotar Croatia"
             ref="https://geonames.org/3191648">
             Фиума</placeName>, где найдете разныя обвинения совершенно ложныя, которыя безсовестно и
           без страха Божия взнесены были на меня; также от <persName key="p0494">Его
@@ -262,8 +273,7 @@
 
         <closer>
           <dateline>
-            <placeName key="Saint Petersburg St.-Petersburg Russia"
-              ref="https://geonames.org/498817">С.
+            <placeName key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">С.
               Петербург
             </placeName>
             <date when="1714-10-01">1714 года октяб[ря] 1 дня</date>

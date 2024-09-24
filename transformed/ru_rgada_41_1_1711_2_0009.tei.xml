@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -99,14 +99,18 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
         xmlns:fabio="https://purl.org/spar/fabio#"
         xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
@@ -355,8 +359,7 @@
       <head>
         <title> 20 November 1711. – Letter from the <persName key="p1366">Russian consul in
             Venice Demetrio Bozzis
-          </persName> to <persName
-            key="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
+          </persName> to <persName key="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
         </title>
       </head>
       <opener>
@@ -390,8 +393,7 @@
       <closer>
         <dateline>
           <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Venetiis</placeName>
-                    <date
-            when="1711-11-20">20 Novemb. 1711</date>. </dateline>
+                    <date when="1711-11-20">20 Novemb. 1711</date>. </dateline>
         <salute>Excellentiæ Tuæ</salute>
         <salute>Humil[li]mus obedient[issi]mus ac devot[issi]mus servus</salute>
         <signed>
@@ -399,12 +401,12 @@
         </signed>
       </closer>
       <pb cert="high" n="f. 54" xml:space="default" />
-      <note>О[т] Дими[т]рия Боцкия Полатин из <placeName key="Venice Veneto Italy"
+      <note>О[т] Дими[т]рия Боцкия Полатин из <placeName
+          key="Venice Veneto Italy"
           ref="https://geonames.org/3164603">Венеции
         </placeName> о[т] 20 ноября 1711 году </note>
       <note>О[т] ко[н]сола Боцция к Г[оспо]д[и]ну Графу</note>
-      <note>принято в <placeName key="Tallinn Harjumaa Estonia"
-          ref="https://geonames.org/588409">Ревеле
+      <note>принято в <placeName key="Tallinn Harjumaa Estonia" ref="https://geonames.org/588409">Ревеле
         </placeName> 14. декабря 1711. </note>
       <note>See also :</note>
       <note>ru_rgada_41_1_1711_2_0001</note>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Copy of the letter written by [Russian Minister Plenipotentiary to Spain,] Prince [Ivan Andreevich] Shcherbatov, to H[is].R[oyal].H[ighness]. Duke [Charles Frederick] of Schleswig-Holstein-Gottorp, on 13. 7bre.[September] 1728</title>
-        <title type="main" xml:lang="fr">Copie d’une Lettre que mr. le Prince Scherbatow a ecritte à S.A.R. le Duc Regnant de Sleswick et de Holstein en datte du 13.7bre. 1728.</title>
+        <title
+          type="main"
+          xml:lang="en">Copy of the letter written by [Russian Minister Plenipotentiary to Spain,] Prince [Ivan Andreevich] Shcherbatov, to H[is].R[oyal].H[ighness]. Duke [Charles Frederick] of Schleswig-Holstein-Gottorp, on 13. 7bre.[September] 1728</title>
+        <title
+          type="main"
+          xml:lang="fr">Copie d’une Lettre que mr. le Prince Scherbatow a ecritte à S.A.R. le Duc Regnant de Sleswick et de Holstein en datte du 13.7bre. 1728.</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -105,7 +109,11 @@
     <body>
       <div type="letter">
         <head>
-          <title>13 September 1728. – Copy of the letter written by <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> [Russian Minister Plenipotentiary to Spain,] Mr Prince [Ivan Andreevich] Shcherbatov, </persName>to<persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa"> H[is].R[oyal].H[ighness]. Duke [Charles Frederick] of Schleswig-Holstein-Gottorp,</persName> on 13. 7bre.[September] 1728</title>
+          <title>13 September 1728. – Copy of the letter written by <persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> [Russian Minister Plenipotentiary to Spain,] Mr Prince [Ivan Andreevich] Shcherbatov, </persName>to<persName
+              key="p0221"
+              ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa"> H[is].R[oyal].H[ighness]. Duke [Charles Frederick] of Schleswig-Holstein-Gottorp,</persName> on 13. 7bre.[September] 1728</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-1, f. 55–55v. Copy of French original.</bibl>
           </note>
@@ -113,13 +121,53 @@
         <p />
         <pb n="f. 55" />
         <p />
-        <p>Copie d’une Lettre que <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">mr. le Prince Scherbatow</persName> a ecritte à S.A.R. le <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">Duc Regnant de Sleswick et de Holstein</persName> en datte du 13.7bre. 1728.</p>
+        <p>Copie d’une Lettre que <persName
+            key="p0220"
+            ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">mr. le Prince Scherbatow</persName> a ecritte à S.A.R. le <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">Duc Regnant de Sleswick et de Holstein</persName> en datte du 13.7bre. 1728.</p>
         <p>Monseigneur</p>
-        <p>En Consequence des Ordres que j’ay reçeu de <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">ma Cour</orgName> de solliciter conjointement avec le Ministre de V[otre] A[ltesse] R[oya]lle le <persName key="p0291" ref="41e401d5-7dc8-4e58-95eb-a2e0465e57a3">Sieur Gumprecht</persName> les subsides annuels qui luy ont été promis par <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">celle-cy</orgName>, et d’engager cette Couronne à s’interesser véritablement au Congres pour la reussite des justes Prétentions de <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> je me suis abouché avec le <persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">Marquis de la Paz</persName>, et n’ay rien oublié pour lui faire entendre que <persName key="p0222" ref="0ed7d288-1bcf-441c-937e-7078f1d82279">l’Empereur de Russie mon maitre</persName> desiroit également l’accomplissement des Promesses faittes à <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oya]lle</persName> et son entière satisfaction sur ce qu’elle exige avec tant de justice.</p>
-        <p>L’interêt que <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">ma Cour</orgName> prend à tout ce qui regarde <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> ne me permet donc point de perdre un moment de veue tout ce qui touche sa gloire ; ainsy je me sens obligé de dire à <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> ce qui la ternit aujourd’huy d’avantage en <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette Cour</orgName>. Et c’est la mauvaise situation où s’y trouve le Ministre de V[otre] A[ltesse] R[oyale] reduit depuis son arrivée à vivre à credit dans un cabaret, et sans avoir ni maison, ni equipage qui corresponde </p>
+        <p>En Consequence des Ordres que j’ay reçeu de <orgName
+            key="o0008"
+            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">ma Cour</orgName> de solliciter conjointement avec le Ministre de V[otre] A[ltesse] R[oya]lle le <persName
+            key="p0291"
+            ref="41e401d5-7dc8-4e58-95eb-a2e0465e57a3">Sieur Gumprecht</persName> les subsides annuels qui luy ont été promis par <orgName
+            key="o0020"
+            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">celle-cy</orgName>, et d’engager cette Couronne à s’interesser véritablement au Congres pour la reussite des justes Prétentions de <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> je me suis abouché avec le <persName
+            key="p0218"
+            ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">Marquis de la Paz</persName>, et n’ay rien oublié pour lui faire entendre que <persName
+            key="p0222"
+            ref="0ed7d288-1bcf-441c-937e-7078f1d82279">l’Empereur de Russie mon maitre</persName> desiroit également l’accomplissement des Promesses faittes à <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oya]lle</persName> et son entière satisfaction sur ce qu’elle exige avec tant de justice.</p>
+        <p>L’interêt que <orgName
+            key="o0008"
+            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">ma Cour</orgName> prend à tout ce qui regarde <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> ne me permet donc point de perdre un moment de veue tout ce qui touche sa gloire ; ainsy je me sens obligé de dire à <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> ce qui la ternit aujourd’huy d’avantage en <orgName
+            key="o0020"
+            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette Cour</orgName>. Et c’est la mauvaise situation où s’y trouve le Ministre de V[otre] A[ltesse] R[oyale] reduit depuis son arrivée à vivre à credit dans un cabaret, et sans avoir ni maison, ni equipage qui corresponde </p>
         <pb n="f. 55v" />
         <p> au Caractere dont il est honnoré.</p>
-        <p>J’ay pris comme véritable serviteur de <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> et comme Connoisseur du genie et des maximes de <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette Cour</orgName>, la Liberté de représenter au <persName key="p0291" ref="41e401d5-7dc8-4e58-95eb-a2e0465e57a3">S. Gumprecht</persName> le tort infiny que pouvoit faire à l’avancement des affaires qu’il vient solliciter icy une situation si peu convenable à l’honneur et à la gloire de <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> Et je ne doutte point qu’il ne se soit expliqué avec Elle des Raisons qui l’ont empeché jusqu’icy d’en sortir. Je crois aussy qu’il n’aura pas manqué de l’informer du peu d’aparence (eu Egard à la situation presente des affaires de <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette Cour</orgName>) de pouvoir en exiger sitôt les subsides qu’Elles s’est engagé de fournir à <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName>. Et dans la persuasion où je suis que sur de telles representations Elle aura pris les arangements qui luy conviennent, je me contente de luy dire qu’il n’est point d’autre motif qui m’engage à narrer des faits si réels et si publics que le zele que je me sens pour sa gloire que je ne saurois sans peine voir ternir, et l’attachement sincer que j’ay à son service qui m’oblige à éviter tout ce qui peut y être le moindre obstacle. J’ay l’honneur d’etre avec un très profond respect Mgr de <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> le très h[umble] et très o[béi]s[sant] serviteur etc.</p>
+        <p>J’ay pris comme véritable serviteur de <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> et comme Connoisseur du genie et des maximes de <orgName
+            key="o0020"
+            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette Cour</orgName>, la Liberté de représenter au <persName
+            key="p0291"
+            ref="41e401d5-7dc8-4e58-95eb-a2e0465e57a3">S. Gumprecht</persName> le tort infiny que pouvoit faire à l’avancement des affaires qu’il vient solliciter icy une situation si peu convenable à l’honneur et à la gloire de <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> Et je ne doutte point qu’il ne se soit expliqué avec Elle des Raisons qui l’ont empeché jusqu’icy d’en sortir. Je crois aussy qu’il n’aura pas manqué de l’informer du peu d’aparence (eu Egard à la situation presente des affaires de <orgName
+            key="o0020"
+            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette Cour</orgName>) de pouvoir en exiger sitôt les subsides qu’Elles s’est engagé de fournir à <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName>. Et dans la persuasion où je suis que sur de telles representations Elle aura pris les arangements qui luy conviennent, je me contente de luy dire qu’il n’est point d’autre motif qui m’engage à narrer des faits si réels et si publics que le zele que je me sens pour sa gloire que je ne saurois sans peine voir ternir, et l’attachement sincer que j’ay à son service qui m’oblige à éviter tout ce qui peut y être le moindre obstacle. J’ay l’honneur d’etre avec un très profond respect Mgr de <persName
+            key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">V[otre] A[ltesse] R[oyale] </persName> le très h[umble] et très o[béi]s[sant] serviteur etc.</p>
         <p>à <placeName key="g0020">Madrid</placeName>
         </p>
         <p>le 13.7bre.1728</p>

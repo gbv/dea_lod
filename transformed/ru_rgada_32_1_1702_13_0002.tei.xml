@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Letter from Active Privy Councilor Johann Reinhold Patkul to the Russian Chancellor, Count Fedor Alekseevich Golovin</title>
+        <title
+          type="main"
+          xml:lang="en">Letter from Active Privy Councilor Johann Reinhold Patkul to the Russian Chancellor, Count Fedor Alekseevich Golovin</title>
         <author xml:lang="en">Johann</author>
         <author xml:lang="en">Reinhold</author>
         <author xml:lang="en">Patkul</author>
@@ -104,7 +106,11 @@
     <body>
       <div type="letter">
         <head>
-          <title>28 October 1702 (n.s.). – Letter from <persName key="p0655" ref="fe16370c-0541-4415-9ca6-8ffe259e2617">Active Privy Councilor Johann Reinhold Patkul </persName>to the <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Russian Chancellor, Count Fedor Alekseevich Golovin</persName>
+          <title>28 October 1702 (n.s.). – Letter from <persName
+              key="p0655"
+              ref="fe16370c-0541-4415-9ca6-8ffe259e2617">Active Privy Councilor Johann Reinhold Patkul </persName>to the <persName
+              key="p0277"
+              ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Russian Chancellor, Count Fedor Alekseevich Golovin</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1702, no. 13, f. 71–72v. German original. Translation from German into Russian: RGADA, fond 32, opis 1, 1702, no. 13, f. 73–75.</bibl>
@@ -117,17 +123,46 @@
         <p>[at the top:] 28 окт[ября].</p>
         <p>Hochwolgebohrner Herr,</p>
         <p>h[err] Groß-Cantzler.</p>
-        <p>Sieder mein letztes vom 2.<hi rendition="#sup">dern </hi>Septembris, welches wie Ich hoffe wird wol eingelanget seyn, habe Ich keine Gelegenheit Gehabt einen brief abzufertigen, weilen Ich eine reise indeßen vorgenommen, Und in der Nachbarschafft an den Polnischen Gräntzen Mich aufgehalten, Umb acht zu haben waß in Pohlen passiren mögte, Woselbst Ich in Abwesenheit des <persName key="p0659" ref="158f6632-2cf4-4673-880c-42eb9cd89916">h[err]n fürsten Dolgoruka</persName>, insonderheit bey der Pospolite zu Sendomir, <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarischen May[estä]t</persName> interesse fleißig habe obseruiren laßen, So daß dorten alles gar wol ist gegangen, Und eine Guhte Resolution vor die Gemeine Sache ausgefallen. Wir werden sehen in kurtzem, wohin die herren Pohlen incliniren oder vielmehr sich finaliter entschließen werden. Diese Ungewißheit halber, wesfals </p>
+        <p>Sieder mein letztes vom 2.<hi
+            rendition="#sup">dern </hi>Septembris, welches wie Ich hoffe wird wol eingelanget seyn, habe Ich keine Gelegenheit Gehabt einen brief abzufertigen, weilen Ich eine reise indeßen vorgenommen, Und in der Nachbarschafft an den Polnischen Gräntzen Mich aufgehalten, Umb acht zu haben waß in Pohlen passiren mögte, Woselbst Ich in Abwesenheit des <persName
+            key="p0659"
+            ref="158f6632-2cf4-4673-880c-42eb9cd89916">h[err]n fürsten Dolgoruka</persName>, insonderheit bey der Pospolite zu Sendomir, <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarischen May[estä]t</persName> interesse fleißig habe obseruiren laßen, So daß dorten alles gar wol ist gegangen, Und eine Guhte Resolution vor die Gemeine Sache ausgefallen. Wir werden sehen in kurtzem, wohin die herren Pohlen incliniren oder vielmehr sich finaliter entschließen werden. Diese Ungewißheit halber, wesfals </p>
         <pb n="f. 71v" />
         <p> alle auswärtige Höfe Ihre Sentiments auch zu geben aufgschoben, ist Ursache, daß Ich Mich so lange aufgehalten und Meine Rückreise nicht eher beschleuniget, zumahlen es Hochnötig gewesen, darauf Acht zu haben, weilen mann sonst bey dem Ungewißen zustande der Conjoncturen nicht richtige Mesures hätte faßen können.</p>
-        <p>Ich stehe nunmehro gantz reisefertig, Und erwarte nur den <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">h[err]n Heins</persName>, welcher ordre hat hirher zu Mir zu kom[m]en, Und daß Wir mit einander abreisen können. Der <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">H[err] Graff Kaunitz</persName> wird Morgen oder heute erwartet, Alßdann werden Wir mit einander in allem Richtigkeit treffen, Und Ich <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarischen May[estä]t</persName> eine positiue Antwort mitbringen, damit mann wißen könne, wie mann mit diesem Hofe dran sey, Welcher Große promessen an den <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">h[err]n Fürsten Galitzin</persName>
+        <p>Ich stehe nunmehro gantz reisefertig, Und erwarte nur den <persName
+            key="p0664"
+            ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">h[err]n Heins</persName>, welcher ordre hat hirher zu Mir zu kom[m]en, Und daß Wir mit einander abreisen können. Der <persName
+            key="p0644"
+            ref="48e51792-20fb-4494-9723-dae9b8b18b42">H[err] Graff Kaunitz</persName> wird Morgen oder heute erwartet, Alßdann werden Wir mit einander in allem Richtigkeit treffen, Und Ich <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarischen May[estä]t</persName> eine positiue Antwort mitbringen, damit mann wißen könne, wie mann mit diesem Hofe dran sey, Welcher Große promessen an den <persName
+            key="p0654"
+            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">h[err]n Fürsten Galitzin</persName>
         </p>
         <pb n="f. 72" />
         <p> bißhero getahn, aber Nie zu etwas reeles schreiten wollen. dißmahl aber muß es zu einem Ende heraus, Und werde Ich verläßliche Nachricht von allem mitbringen.</p>
         <p>
-          <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro kayserliche May[estä]t</persName> haben den <persName key="p0662" ref="ea52fff4-2ac5-4ee0-a59b-c3d82869b6e2">Herren Ogilvy</persName>, davon Ich in vorigem Schreiben gedacht, bey Ihrer eigenen armée in Teutschland zum Feldmarschall-Lieutenant declariret; Ich habe es aber doch soweit gebracht, daß Er die Capitulation mit Mir geschloßen, Und in <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarischen May[estä]t</persName> diensten Gehen wird auf 3 Jahr, Worüber nunmehro die kayserliche Ratification erfolgen soll. von seinen Qualiteten wil Ich nichts melden. Ich Hofe <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> werden ein Gnädiges vergnügen hirüber spüren laßen. Er kan die Sprache, so daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> keinen dolmetscher nötig haben Umb mit </p>
+          <persName
+            key="p0463"
+            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro kayserliche May[estä]t</persName> haben den <persName
+            key="p0662"
+            ref="ea52fff4-2ac5-4ee0-a59b-c3d82869b6e2">Herren Ogilvy</persName>, davon Ich in vorigem Schreiben gedacht, bey Ihrer eigenen armée in Teutschland zum Feldmarschall-Lieutenant declariret; Ich habe es aber doch soweit gebracht, daß Er die Capitulation mit Mir geschloßen, Und in <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarischen May[estä]t</persName> diensten Gehen wird auf 3 Jahr, Worüber nunmehro die kayserliche Ratification erfolgen soll. von seinen Qualiteten wil Ich nichts melden. Ich Hofe <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> werden ein Gnädiges vergnügen hirüber spüren laßen. Er kan die Sprache, so daß <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> keinen dolmetscher nötig haben Umb mit </p>
         <pb n="f. 72v" />
-        <p> Ihme zu reden. Ubrigens kan Ich Ew[er] Excellence versichern, daß Mir daß Werck, tüchtige leute in diensten hinzubringen, sehr schwer wird. viele die sich schon Resoluirt gehabt, sind zurücke getreten; Aus waß Ursach, mag Ich nicht melden. Ich erspare alles <hi rendition="#sup">–</hi>zu berichten<hi rendition="#sup">–4</hi> bis Ich selbst hinüber komme. Ich sende hirbey ein gedrucktes Exemplar von dem Patente so <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> zu publiciren befohlen. biß daher habe nicht die Ehre gehabt eines buchstabens von Ew[er] Excellence gewürdiget zu werden; Ich weiß nicht womit Ich solches zeichen der Vngüte Meritiret hätte, dahingegen die, welche die schädlichsten feinde von <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> sind Und selbige an Ehre und reputation auch dero Interesse gefährdet, sich aller Caressen und fleißig[en] Correspondencen rühmen. Ich verbleibe unterdeßen</p>
+        <p> Ihme zu reden. Ubrigens kan Ich Ew[er] Excellence versichern, daß Mir daß Werck, tüchtige leute in diensten hinzubringen, sehr schwer wird. viele die sich schon Resoluirt gehabt, sind zurücke getreten; Aus waß Ursach, mag Ich nicht melden. Ich erspare alles <hi
+            rendition="#sup">–</hi>zu berichten<hi
+            rendition="#sup">–4</hi> bis Ich selbst hinüber komme. Ich sende hirbey ein gedrucktes Exemplar von dem Patente so <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> zu publiciren befohlen. biß daher habe nicht die Ehre gehabt eines buchstabens von Ew[er] Excellence gewürdiget zu werden; Ich weiß nicht womit Ich solches zeichen der Vngüte Meritiret hätte, dahingegen die, welche die schädlichsten feinde von <persName
+            key="p0174"
+            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> sind Und selbige an Ehre und reputation auch dero Interesse gefährdet, sich aller Caressen und fleißig[en] Correspondencen rühmen. Ich verbleibe unterdeßen</p>
         <p>Ew[er] Excellence</p>
         <p>
           <placeName key="g0005">Wien</placeName>, d[en] 28 oct[obris] 1702.				Ergebenster diener</p>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Constantina to Senoret to Cadiz, written on July 14, 1730 through Gilles Pegne</title>
-        <title type="main" xml:lang="ru">В Кадикс к Сенорету из Константины 14 июля 1730 году писано чрез жилпеня etc.</title>
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Constantina to Senoret to Cadiz, written on July 14, 1730 through Gilles Pegne</title>
+        <title
+          type="main"
+          xml:lang="ru">В Кадикс к Сенорету из Константины 14 июля 1730 году писано чрез жилпеня etc.</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -105,7 +109,10 @@
     <body>
       <div type="letter">
         <head>
-          <title>14 July 1730. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] <hi rendition="#b">from </hi>
+          <title>14 July 1730. – [Letter from <persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] <hi
+              rendition="#b">from </hi>
             <placeName key="g0107">
               <hi rendition="#b">Constantina </hi>
             </placeName>to <persName key="p0000">Senoret </persName>
@@ -121,10 +128,17 @@
         <p />
         <pb n="f. 25v" />
         <p />
-        <p>В <placeName key="g0067">Кадикс</placeName> к <persName key="p0000">Сенорету</persName> из <placeName key="g0107">Константины</placeName> 14 июля 1730 году писано чрез <persName key="p0000">жилпеня</persName> etc.</p>
-        <p>J’ay reçeu la Lettre que vous avez pris la Peine de m’écrire le « 5 » de Ce mois, en reponse de laquelle je vous diray que je vous suis tres-obligé monsieur pour vos souhaits si avantageux pour moy, en vous asseurant de mon amitié Constante. Mon Eloignement d’icy ne faira pas aucun Changement dans mes sentimens que j’ay Conçeu pour vous monsieur, dont vous ressentirez par la suite du Temps. Mes Compliments je vous prie et les remerçiements à <persName key="p0000">Mr. d’Avout</persName> pour son souvenir. Je suis toujours tres-parfaitement etc.</p>
+        <p>В <placeName key="g0067">Кадикс</placeName> к <persName
+            key="p0000">Сенорету</persName> из <placeName
+            key="g0107">Константины</placeName> 14 июля 1730 году писано чрез <persName
+            key="p0000">жилпеня</persName> etc.</p>
+        <p>J’ay reçeu la Lettre que vous avez pris la Peine de m’écrire le « 5 » de Ce mois, en reponse de laquelle je vous diray que je vous suis tres-obligé monsieur pour vos souhaits si avantageux pour moy, en vous asseurant de mon amitié Constante. Mon Eloignement d’icy ne faira pas aucun Changement dans mes sentimens que j’ay Conçeu pour vous monsieur, dont vous ressentirez par la suite du Temps. Mes Compliments je vous prie et les remerçiements à <persName
+            key="p0000">Mr. d’Avout</persName> pour son souvenir. Je suis toujours tres-parfaitement etc.</p>
         <p>PS: Quand vous voudrez m’écrire apres mon depart d’Espagne pour quelque affaire interessante</p>
-        <p>soit pour vous même ou pour moy, vous pouvez envoyer vos Lettres à l’adresse de mess[ieurs] <persName key="p0321,p0322" ref="1d2e0e54-9d54-4ec3-b1df-62c5afd50dff">Brethous frères</persName> à <placeName key="g0020">Madrid</placeName> qui me les fairont tenir partout où je me trouveray.</p>
+        <p>soit pour vous même ou pour moy, vous pouvez envoyer vos Lettres à l’adresse de mess[ieurs] <persName
+            key="p0321,p0322"
+            ref="1d2e0e54-9d54-4ec3-b1df-62c5afd50dff">Brethous frères</persName> à <placeName
+            key="g0020">Madrid</placeName> qui me les fairont tenir partout où je me trouveray.</p>
       </div>
     </body>
   </text>

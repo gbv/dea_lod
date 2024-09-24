@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Écija to Count Cotorani to Cazalla de la Sierra written on June 13, 1730</title>
-        <title type="main" xml:lang="ru">В Касалю ко Графу Которани из Эссихи от 13 июня 1730 Году писано</title>
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Écija to Count Cotorani to Cazalla de la Sierra written on June 13, 1730</title>
+        <title
+          type="main"
+          xml:lang="ru">В Касалю ко Графу Которани из Эссихи от 13 июня 1730 Году писано</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -105,7 +109,10 @@
     <body>
       <div type="letter">
         <head>
-          <title>13 June 1730. – [Letter from<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] from É<placeName key="g0213">
+          <title>13 June 1730. – [Letter from<persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] from É<placeName
+              key="g0213">
               <hi rendition="#b">cija </hi>
             </placeName>to <persName key="p0000">Count Cotorani </persName>to <placeName key="g0093">
               <hi rendition="#b">Cazalla de la Sierra</hi>
@@ -117,8 +124,17 @@
         <p />
         <pb n="f. 5v" />
         <p />
-        <p>В <placeName key="g0093">Касалю</placeName> ко <persName key="p0000">Графу Которани</persName> из <placeName key="g0213">Эссихи</placeName> от 13 июня 1730 Году писано.</p>
-        <p>En Confiance de vôtre bonté que vous m’avez toujours temoigné je prens la Liberté de vous prier monsieur, C’est de vouloir bien m’éclaircir s’il-y-a quelque nouveauté touchant le Temps que <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">la Cour</orgName> restera à <placeName key="g0093">Cazalla</placeName> et si l’on sait pour positif l’endroit où elle ira de là aprés. En même Temps je vous dis monsieur que cette ma demende est fondée sur le bruit qui s’est rependu sur la route que <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">la Cour</orgName> apres deux ou trois jours du Sejour s’en ira de <placeName key="g0093">Cazalla</placeName> au <placeName key="g0214">Port de Ste Marie</placeName>. Je me suis donc arreté icy jusqu’à ce que j’en sois informé de la verité pour epargner quelques Lieux à faire inutilement. Pardonnez ma franchisse et Croyez mr: que j’ay l’honneur d’etre avec une Consideration tout-à-fait particuliere. etc.</p>
+        <p>В <placeName key="g0093">Касалю</placeName> ко <persName
+            key="p0000">Графу Которани</persName> из <placeName
+            key="g0213">Эссихи</placeName> от 13 июня 1730 Году писано.</p>
+        <p>En Confiance de vôtre bonté que vous m’avez toujours temoigné je prens la Liberté de vous prier monsieur, C’est de vouloir bien m’éclaircir s’il-y-a quelque nouveauté touchant le Temps que <orgName
+            key="o0020"
+            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">la Cour</orgName> restera à <placeName
+            key="g0093">Cazalla</placeName> et si l’on sait pour positif l’endroit où elle ira de là aprés. En même Temps je vous dis monsieur que cette ma demende est fondée sur le bruit qui s’est rependu sur la route que <orgName
+            key="o0020"
+            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">la Cour</orgName> apres deux ou trois jours du Sejour s’en ira de <placeName
+            key="g0093">Cazalla</placeName> au <placeName
+            key="g0214">Port de Ste Marie</placeName>. Je me suis donc arreté icy jusqu’à ce que j’en sois informé de la verité pour epargner quelques Lieux à faire inutilement. Pardonnez ma franchisse et Croyez mr: que j’ay l’honneur d’etre avec une Consideration tout-à-fait particuliere. etc.</p>
       </div>
     </body>
   </text>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Madrid to Minister of Sardinia [Ambassador to Spain], Marquis [Joseph Milliet] of Arvillars, written on August 26, 1730 [sent] through [Baron Hans Friedrich of] Sandreczky</title>
-        <title type="main" xml:lang="ru">К марки Дарвилярсу Министру Сардинскому из Мадрита от 26. Августа 1730 году писано чрез Сандраскова</title>
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Madrid to Minister of Sardinia [Ambassador to Spain], Marquis [Joseph Milliet] of Arvillars, written on August 26, 1730 [sent] through [Baron Hans Friedrich of] Sandreczky</title>
+        <title
+          type="main"
+          xml:lang="ru">К марки Дарвилярсу Министру Сардинскому из Мадрита от 26. Августа 1730 году писано чрез Сандраскова</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -105,10 +109,17 @@
     <body>
       <div type="letter">
         <head>
-          <title>26 August 1730. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov</persName>,] <hi rendition="#b">from </hi>
+          <title>26 August 1730. – [Letter from <persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov</persName>,] <hi
+              rendition="#b">from </hi>
             <placeName key="g0020">
               <hi rendition="#b">Madrid </hi>
-            </placeName>to <persName key="p0682" ref="e8565436-f5fb-488c-bd94-b68792c2fb69">Minister of Sardinia [Ambassador to Spain], Marquis [Joseph Milliet] of Arvillars, </persName>written on August 26, 1730 [sent] through<persName key="p0683" ref="624a1a86-778a-4e15-9097-f77d37d2ea45"> [Baron Hans Friedrich of] Sandreczky</persName>
+            </placeName>to <persName
+              key="p0682"
+              ref="e8565436-f5fb-488c-bd94-b68792c2fb69">Minister of Sardinia [Ambassador to Spain], Marquis [Joseph Milliet] of Arvillars, </persName>written on August 26, 1730 [sent] through<persName
+              key="p0683"
+              ref="624a1a86-778a-4e15-9097-f77d37d2ea45"> [Baron Hans Friedrich of] Sandreczky</persName>
           </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 41v–42. Copy of French original.</bibl>
@@ -117,12 +128,20 @@
         <p />
         <pb n="f. 41v" />
         <p />
-        <p>К марки <persName key="p0682" ref="e8565436-f5fb-488c-bd94-b68792c2fb69">Дарвилярсу Министру Сардинскому</persName>
+        <p>К марки <persName
+            key="p0682"
+            ref="e8565436-f5fb-488c-bd94-b68792c2fb69">Дарвилярсу Министру Сардинскому</persName>
         </p>
         <pb n="f. 42" />
-        <p> из <placeName key="g0020">Мадрита</placeName> от 26. Августа 1730 году писано чрез <persName key="p0683" ref="624a1a86-778a-4e15-9097-f77d37d2ea45">Сандраскова</persName>
+        <p> из <placeName key="g0020">Мадрита</placeName> от 26. Августа 1730 году писано чрез <persName
+            key="p0683"
+            ref="624a1a86-778a-4e15-9097-f77d37d2ea45">Сандраскова</persName>
         </p>
-        <p>Le porteur de Celle-cy est mon ami mr. <persName key="p0683" ref="624a1a86-778a-4e15-9097-f77d37d2ea45">le Baron de Sandrasky</persName>, marechal de Camp des armées de <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">sa majesté Catholique</persName>, qui souhaits fort d’etre Connu de vôtre Excellence et Comme je Connois son Caractere je me flatte qu’Elle ne sera pas faché de son Empresement à luy rendre ses Devoirs. Je suis si sur de votre Politesse que je l’ay asseuré qu’il trouvera tous les honneurs qu’il merite. En même Temps je supplie vôtre Excellence de me pardonner la Liberté que je prens de l’importuner, et de Croire que je suis avec tout le respect imaginable etc.</p>
+        <p>Le porteur de Celle-cy est mon ami mr. <persName
+            key="p0683"
+            ref="624a1a86-778a-4e15-9097-f77d37d2ea45">le Baron de Sandrasky</persName>, marechal de Camp des armées de <persName
+            key="p0208"
+            ref="f268d125-76a1-4a45-910f-95f794c640db">sa majesté Catholique</persName>, qui souhaits fort d’etre Connu de vôtre Excellence et Comme je Connois son Caractere je me flatte qu’Elle ne sera pas faché de son Empresement à luy rendre ses Devoirs. Je suis si sur de votre Politesse que je l’ay asseuré qu’il trouvera tous les honneurs qu’il merite. En même Temps je supplie vôtre Excellence de me pardonner la Liberté que je prens de l’importuner, et de Croire que je suis avec tout le respect imaginable etc.</p>
       </div>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -99,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -132,7 +138,8 @@
           de mes nouvelles, quil a une infinité de tems de navoir pas recu aucune lettre de vostre
           Altesse, mes dernieres ont esté pourtant par Monsieur de Litk et encor par un certain
           Residant que nous avons a la ville de <placeName
-            key="Hamburg Hamburg Germany" ref="https://geonames.org/2911298">Hambourg
+            key="Hamburg Hamburg Germany"
+            ref="https://geonames.org/2911298">Hambourg
           </placeName> ainsi la faute ne consiste pas dans mon silence et ie ne
           plains pas autant le sus dit <persName key="p1508">mons:[ieur] Meÿer</persName>, du long
           chemin qu'on luÿ a fait faire pour s'en aller chercher son expedition a <placeName
@@ -143,18 +150,16 @@
         </p>
         <pb n="f. 8v" />
         <p>peut estre a <placeName
-            key="Tallinn Harjumaa Estonia" ref="https://geonames.org/588409"
+            key="Tallinn Harjumaa Estonia"
+            ref="https://geonames.org/588409"
             cert="high">Revel <precision match="@ref" precision="high" />
           </placeName> , au
           lieu qu'on avoit peut faire un plus grand plaisir aux interets des allies, si l'on avoit
           depech[é] de bonheure les ordres necessaire [sic] pour faciliter le transport de quelque
-          troupes que <persName
-            key="p0174">Sa Majesté Zarienne
+          troupes que <persName key="p0174">Sa Majesté Zarienne
           </persName> eu promis a <persName key="p0532">Sa
-            Majesté de Dannemarc</persName> et de laquelle <persName
-            key="p1508">Mons:[ieur] Meÿer
-          </persName> s'en vient convenir avec <persName
-            key="p1131">Monseigneur le Prince de Mentzikow
+            Majesté de Dannemarc</persName> et de laquelle <persName key="p1508">Mons:[ieur] Meÿer
+          </persName> s'en vient convenir avec <persName key="p1131">Monseigneur le Prince de Mentzikow
           </persName> dans un temps bien avancé aux
           saisons pour en perdre lheur du soldat, ie veus dire la coniuncture favorable qui est
           toujours le plus a plaindre il est vraÿ qu'on m'a deux fois nommé pour estre envoyé avec
@@ -172,7 +177,9 @@
           de vôstre Altesse
         </p>
         <p>
-          <placeName key="Elbląg Warmia-Masuria Poland" ref="https://geonames.org/3099759"
+          <placeName
+            key="Elbląg Warmia-Masuria Poland"
+            ref="https://geonames.org/3099759"
             cert="high">Elbing <precision match="@ref" precision="high" />
           </placeName> le
           8tieme                                                                                                                

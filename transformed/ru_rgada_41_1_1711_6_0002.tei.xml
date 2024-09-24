@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -98,15 +99,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -123,7 +129,9 @@
           1-1v.
         </note>
         <pb cert="high" n="f. 2" xml:space="default" />
-        <p>О Церемониале, бывшем в <placeName key="Venice" ref="http://www.wikidata.org/entity/Q641"
+        <p>О Церемониале, бывшем в <placeName
+            key="Venice"
+            ref="http://www.wikidata.org/entity/Q641"
             cert="high">Венеции <precision match="@ref" precision="high" />
           </placeName> на
           отпускной аудиенции <persName key="p1369">Рос[сийского]: посланника Г. Урбиха</persName>
@@ -135,8 +143,7 @@
           schriftliche resolution ablesenlassen, welche nach der Audienz gedachter Secretarius in
           meinem Beyseyn, wie vormahls inder Capelle nahe an dem Collegio, dem meinigen wieder in
           die fedens dictirt und collationirtund habe damit meine völlige Abfertigung erhalten. Ich
-          bin wohl so weit content, dass man zu <persName
-            key="p0174">Ewre I:r Czaar: May:
+          bin wohl so weit content, dass man zu <persName key="p0174">Ewre I:r Czaar: May:
           </persName> mir alle distinction, den förmilichen
           Ambassadeurs gleich, gemacht, undmit meiner Conduite zufrieden geworden, wie ich dem eben
           mit dem regal einner guldenen Katotie von 1200 bis 1300 ducati di Venetia werth, welches

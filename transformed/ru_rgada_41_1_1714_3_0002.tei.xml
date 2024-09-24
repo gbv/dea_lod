@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -99,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -131,8 +137,7 @@
         </opener>
         <p>Sono li 27 Sett[emb]re spirante fui adomandato da uno delli fidelissimi Secretarij di
           V[ostra]: E[ccelenza]: sopra diversi capitoli contenuti in scrittura presentata contro di
-          me <persName
-            key="p1383">Paolo Arcoleo
+          me <persName key="p1383">Paolo Arcoleo
           </persName> Secretario, e servo ossequiossissimo dell'E[ccelenza]:
           V[ostra]: dall'Ecc[elentissi]:mo <persName
             key="p1383">S[ignor]: Co[nte]: Sava Vladislavich</persName>; Eperche io non intendo il
@@ -146,24 +151,29 @@
           da me prestato al mio <persName key="p0174">Clementissimo Imperatore</persName> sotto li
           29 Xbre prossimo passato nanti l'Immagine, e sopra l'Evangelio di Giuesù Christo Salvator
           del Mondo, coll'assistenza del Capellano, e Secretario <persName key="p0494">dell'E[ccelentissi]:mo
-          Baron Saffirof</persName> in <placeName key="Istanbul Istanbul Turkey"
-            ref="https://geonames.org/745044" cert="high"> Constantinopoli <precision match="@ref"
-              precision="high" />
+          Baron Saffirof</persName> in <placeName
+            key="Istanbul Istanbul Turkey"
+            ref="https://geonames.org/745044"
+            cert="high"> Constantinopoli <precision match="@ref" precision="high" />
           </placeName> , non per ciò posso in minimo punto
           rispondere alli corranti acuse del soprad[et]:to <persName
             key="p1381">E[ccelentissi]:mo S[ignor]: Sava</persName>, mentre di tutto, non solo
-          risposi nel Processo formatomi à <placeName key="Rijeka Primorje-Gorski Kotar Croatia"
+          risposi nel Processo formatomi à <placeName
+            key="Rijeka Primorje-Gorski Kotar Croatia"
             ref="https://geonames.org/3191648">Fiume</placeName>, ma vesi distinto conto al
           soprad[et]:to <persName key="p0494">Ministro Baron Saffirof</persName>. </p>
         <p>Del med[e]:mo <persName key="p0494">Ecc[elenstissi]:mo Baron Saffirof</persName>
-          all'incontro, (come poscia in <placeName key="Vienna Vienna Austria"
+          all'incontro, (come poscia in <placeName
+            key="Vienna Vienna Austria"
             ref="https://geonames.org/2761369">Vienna
           </placeName> dal <persName key="p0699">Ministro
             Plenipotentiario Ecc[elentissi]:mo S[ignor]:
             Matfeof</persName>) fui assicurato della Gratia di <persName key="p0174">Sua Czarea
           Maesta</persName>, pur che io serva con fideltà, en con quel servorato Zelo, che servij
           per il passato. </p>
-        <p>Fui spedito à <placeName key="Vienna Vienna Austria" ref="https://geonames.org/2761369"
+        <p>Fui spedito à <placeName
+            key="Vienna Vienna Austria"
+            ref="https://geonames.org/2761369"
             cert="high">Vienna <precision match="@ref" precision="high" />
           </placeName> ,
           dove mi giunse la Patenta di Secretario, accompagnatomi da riverite prescritioni di
@@ -180,8 +190,7 @@
           non mancai di servire, tanto gl'Ecc[elentisssi]:mi Ministri di Constantinopoli, quanto
           quella di Vienna <pb cert="high" n="f. 3v" xml:space="default" /> in tutto ciò che da
           medemi era ordinato, con quella fedeltà, et ubidienza ch'é dovuta ad'ogni fidelissimo
-          Servo di <persName
-            key="p0174">Sua Czarea M[aes]:ta</persName>. </p>
+          Servo di <persName key="p0174">Sua Czarea M[aes]:ta</persName>. </p>
         <p>Successe poi che Ecc[elen]:za V[ost]:ra ordinò (dopo otto mesi del prestato Giuramente) <persName
             key="p0699">all'Ecc[elentissi]:mo De Matveof
           </persName> di communicarmi con vito de
@@ -209,8 +218,7 @@
             Monarca</persName>, col servirsi de pretesti giudice, e servono di mal essempio, e
           d'obrobiro in tutto l'universo, ed in particolare presso l'infelice Nattione Greca tanto
           odiaba da Lattini, e peresuitata da Turchi, la speranza de quali non è, che primo in Dio,
-          e poscia in questo <persName
-            key="p0174">Orthodoxo Imperatore
+          e poscia in questo <persName key="p0174">Orthodoxo Imperatore
           </persName> [?]eve Sua Divina M[aes]:ta conceda di
           liberarli dalle Cattore di Barbari. </p>
         <p>L'E[ccelen]:za V[ost]:ra deve levare gl'occhi al Cielo (comme io sommesam[en]:te la
@@ -226,8 +234,7 @@
             key="p0174">Cesare di Russia</persName>, mentre [?] sicuro, che la <persName key="p0174">M[aes]:ta
           di li Clementissimo Imperatore</persName> non mancherà dalle fade datami per me di Suoi
           fidelissimi Ministri, come appare dalla <pb cert="high" n="f. 4" xml:space="default" />
-          Patente, e lessere de medesimi, che tutto se ritrova nel Baulo sigilatomi dal <persName
-            key="p1384">
+          Patente, e lessere de medesimi, che tutto se ritrova nel Baulo sigilatomi dal <persName key="p1384">
             S[ignor]: Secretario Curbatov</persName>, ove pure sussistano altre Patenti, Scritture,
           Leggi, Terminationi, et abozzi di Lettere publiche scrite da mè, formate praticate et
           osservate nel tempo che mi ritrovano al Servitio della Republica Veneta, come anco abozzi
@@ -243,7 +250,8 @@
           maneggi, e delle Publiche Rendite, per presentarlo poscia al mio <persName key="p0174">
           Sovrano</persName>. </p>
         <p>Se poi l'E[ccelen]:za V[ost]:ra vuò esser consapevole di tutto, potrà spedir a levar il
-          Processo da <placeName key="Rijeka Primorje-Gorski Kotar Croatia"
+          Processo da <placeName
+            key="Rijeka Primorje-Gorski Kotar Croatia"
             ref="https://geonames.org/3191648">
             Fiume</placeName>, ove ritroverà diferenti acuse, e di titta falsità, che senza scropolo
           di conscienza, e niente di timor de Dio, m'eran adossate, e <persName key="p0494">
@@ -258,11 +266,11 @@
         <closer>
           <salute>Di V[ost]:ra E[ccelen]:za</salute>
           <dateline>Dall'Aresto della Guardia di <placeName
-              key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">
+              key="Saint Petersburg St.-Petersburg Russia"
+              ref="https://geonames.org/498817">
             Peterburgh
             </placeName>
-                        <date
-              when="1714-10-01">li P[ri]mo ottobre 1714</date>
+                        <date when="1714-10-01">li P[ri]mo ottobre 1714</date>
           </dateline>
           <salute>Hum[ilissi]:mo, Dev[otissi]:mo et Obligat[issi]:mo Serv[itore]: fid[elissi]:mo</salute>
           <signed>

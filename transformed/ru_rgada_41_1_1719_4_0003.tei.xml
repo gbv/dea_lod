@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -97,15 +98,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -283,7 +289,11 @@
         </note>
         <dateline>Из <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима</placeName>
                     <date
-            cert="high" evidence="internal" instant="unknown" precision="high" unit="cm"
+            cert="high"
+            evidence="internal"
+            instant="unknown"
+            precision="high"
+            unit="cm"
             xml:space="default">октября 20: 1719 году
           </date>
         </dateline>
@@ -318,8 +328,7 @@
         благодаря В[аше]:му Пр[евосходительств]:у из глубины всех моих чувств, за старание Ваше о
         припоминании моего перваго писма, которым просил у <persName key="p0174">Его В[еличест]:ва
         </persName> одну милость, а обрящание той милости учинило
-        б безсмертное имя <persName key="p0174">Его В[еличест]:ва</persName> при сем <orgName
-          key="o0116">
+        б безсмертное имя <persName key="p0174">Его В[еличест]:ва</persName> при сем <orgName key="o0116">
           дворе</orgName>. А о реплике, что я <persName key="p0174">Его В[еличест]:ву</persName>
         учиню будет объявлено В[аше]:му Пр[евосходительств]:у понеже оную пошлю за оттворчетою
         печатью дабы и Вы по своей доброти с Вашим ходотайством по случаю возпомогли мои прошения.
@@ -334,7 +343,9 @@
           буду поспешествовати со всякою синчеритате и прилежностию В[а]шим желаниям и указаниям <persName
             key="p0174">Его В:[еличест]ва
           </persName> и с партиколарною удобностию <persName
-            key="p1376">Его Святейшества</persName>, который <pb cert="high" n="f. 13v"
+            key="p1376">Его Святейшества</persName>, который <pb
+            cert="high"
+            n="f. 13v"
             xml:space="default" /> вчера вечером прислал ко мне своего племянника <persName
             key="p1459">г[оспо]д[и]на Дон Карла Албани</persName> протестовать мне великий долг,
           который имеет и <persName key="p0174">Его В:[еличест]ву</persName> за богатые м[и]л[о]сти

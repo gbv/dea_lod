@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov,] from Constantinople to [his] uncle, major general Ivan Vasilievich Panin, to Moscow [written] on January 23, 1732</title>
-        <title type="main" xml:lang="ru">В Москву к дяде Ивану Васильевичю Панину из Константинополя от 23. генваря 1732. году писано</title>
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov,] from Constantinople to [his] uncle, major general Ivan Vasilievich Panin, to Moscow [written] on January 23, 1732</title>
+        <title
+          type="main"
+          xml:lang="ru">В Москву к дяде Ивану Васильевичю Панину из Константинополя от 23. генваря 1732. году писано</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -105,21 +109,33 @@
     <body>
       <div type="letter">
         <head>
-          <title>23 January 1732. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>,] from <placeName key="g0018">Constantinople</placeName> to [his] uncle, <persName key="p0809">major general Ivan Vasilievich Panin</persName>, to <placeName key="g0001">Moscow</placeName> [written] on January 23, 1732</title>
+          <title>23 January 1732. – [Letter from <persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>,] from <placeName
+              key="g0018">Constantinople</placeName> to [his] uncle, <persName
+              key="p0809">major general Ivan Vasilievich Panin</persName>, to <placeName
+              key="g0001">Moscow</placeName> [written] on January 23, 1732</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 212–212v. Copy of Russian original.</bibl>
           </note>
         </head>
         <p />
         <pb n="f. 212" />
-        <p>В <placeName key="g0001">Москву</placeName> к <persName key="p0809">дяде Ивану Васильевичю Панину</persName> из <placeName key="g0018">Константинополя</placeName> от 23. генваря 1732. году писано;</p>
-        <p>Почтеннейшее в[а]ше г[о]с[у]д[а]ря моего писмо от 12 декабря прошлого 1731 году я получил исправно за которое также и за сообщении вам г[о]с[у]д[а]рю моему по премногу благодарствую. отсельже н[ы]не токмо сие доношу, что я у <persName key="p0195">Салтана</persName> уже имел отпускную аудиэнцию, накоторой и ответную грамоту получил, а на днях надеюсь от <persName key="p0203">везиря</persName> иметь досталные две грамоты. рад бы д[у]шевно ехать отсюды н[ы]не, но путь худой препятствует, и для того я намерен в начале марта отправится. Впротчем </p>
+        <p>В <placeName key="g0001">Москву</placeName> к <persName
+            key="p0809">дяде Ивану Васильевичю Панину</persName> из <placeName
+            key="g0018">Константинополя</placeName> от 23. генваря 1732. году писано;</p>
+        <p>Почтеннейшее в[а]ше г[о]с[у]д[а]ря моего писмо от 12 декабря прошлого 1731 году я получил исправно за которое также и за сообщении вам г[о]с[у]д[а]рю моему по премногу благодарствую. отсельже н[ы]не токмо сие доношу, что я у <persName
+            key="p0195">Салтана</persName> уже имел отпускную аудиэнцию, накоторой и ответную грамоту получил, а на днях надеюсь от <persName
+            key="p0203">везиря</persName> иметь досталные две грамоты. рад бы д[у]шевно ехать отсюды н[ы]не, но путь худой препятствует, и для того я намерен в начале марта отправится. Впротчем </p>
         <pb n="f. 212v" />
         <p> желая вас найтить в добром здоровье пребываю с почтением, etc.</p>
-        <p>PS: примаю смелость поздравить г[о]с[у]д[а]р[ы]ню мою тетку <persName key="p0810">Агрофену Василевну</persName>, и притом нижайший мой поклон отдаю; и всем детям в[а]шим поздравление; а к г[о]с[у]д[а]р[ы]не моей <persName key="p0811">Сестре Анне Ивановне</persName> я особливо здесь пишу пофранцуски в ответ на ее ко мне писмо.</p>
+        <p>PS: примаю смелость поздравить г[о]с[у]д[а]р[ы]ню мою тетку <persName
+            key="p0810">Агрофену Василевну</persName>, и притом нижайший мой поклон отдаю; и всем детям в[а]шим поздравление; а к г[о]с[у]д[а]р[ы]не моей <persName
+            key="p0811">Сестре Анне Ивановне</persName> я особливо здесь пишу пофранцуски в ответ на ее ко мне писмо.</p>
         <p>Ma Chere Cousine,</p>
         <p>je me trouve fort honnoré des marques de vôtre amitié que vous m’avez donné par vôtre Lettre en françois. Je suis tres-charmé mademoiselle, que vous vous portez bien, et que vous Cultivez la Langue françoise. Je suis sur mon Depart vers la Russie, et je souhaits de vous trouver a mon retour en parfaite santé, ayant l’honneur d’être avec une Consideration tout-à-fait particuliere. etc.</p>
-        <p>PS: Je vous prie d’asseurer de mes respects <persName key="p0812">madame La Princesse de Kourakin</persName> vôtre sœur.</p>
+        <p>PS: Je vous prie d’asseurer de mes respects <persName
+            key="p0812">madame La Princesse de Kourakin</persName> vôtre sœur.</p>
       </div>
     </body>
   </text>

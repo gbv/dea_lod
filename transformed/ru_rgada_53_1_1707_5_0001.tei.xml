@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -100,15 +101,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -137,30 +143,33 @@
           Sa Majesté Czarienne
           </persName> du 27. du mois
           passé, a ordonné d'y faire repondre : que <persName key="p0532">Sa Majesté
-          </persName> prend l'ouverture que <persName cert="high"
-            key="p0174" type="real">Sa Majesté Czarienne
+          </persName> prend l'ouverture que <persName cert="high" key="p0174" type="real">Sa Majesté Czarienne
           </persName> luy a bien voulu faire par <persName
             key="p1432">son Ambassadeur</persName> sur divers points pour une marque évidente de son
           amitié, et que <persName cert="high" key="p0532" type="real">
             Sa Majesté
           </persName> y répondra en toute occasion par une
           parfaite reconnoissance; Quant à l'agnition du nouveau Eluë en Pologne, <persName
-            key="p0522">Stanislaus</persName>, <persName cert="high" key="p0532"
-            type="real">Sa Majesté
+            key="p0522">Stanislaus</persName>, <persName cert="high" key="p0532" type="real">Sa Majesté
           </persName> communiquera incessamment là dessus avec ses Alliés. Pour
           ce qui regarde la mediation de <persName key="p0532">Sa Majesté</persName>, que <persName
-            cert="high" key="p0174" type="real">Sa
+            cert="high"
+            key="p0174"
+            type="real">Sa
             Majesté Czarienne
           </persName> demande de la paix à faire avec le <persName
-            key="p0193">Roy de Suede</persName>, <persName
-            cert="high" key="p0532" type="real">Sa Majesté
-          </persName> ne negligera <pb cert="high" n="f. 1v"
+            key="p0193">Roy de Suede</persName>, <persName cert="high" key="p0532" type="real">Sa Majesté
+          </persName> ne negligera <pb
+            cert="high"
+            n="f. 1v"
             xml:space="default" /> rien de son costé, qui puisse contribuer à une bonne paix entre
           les parties en guerre, et donnera pour cette fin ordres et instructions nécessaires à son
           Ambassadeur, qui est présentement en Saxe ne doutant pas que l'un et l'autre ne soyent
           portés d'eux mesmes à faciliter le succès d'une affaire si salutaire. </p>
         <closer>Fait à <dateline>
-            <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425"
+            <placeName
+              key="Copenhagen Capital Region Denmark"
+              ref="https://geonames.org/2618425"
               cert="high">Copenhague <precision match="@ref" precision="high" />
             </placeName>
           ce <date>5e Fevrier 1707</date>. </dateline>

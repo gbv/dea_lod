@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Madrid to Captain General of the King’s armies, Duke [Michel Joseph] of Bournonville, written on August 28, 1730
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Madrid to Captain General of the King’s armies, Duke [Michel Joseph] of Bournonville, written on August 28, 1730
 </title>
-        <title type="main" xml:lang="ru">К дуку де бурнонвиль из Мадрита от 28 августа 1730 году писано</title>
+        <title
+          type="main"
+          xml:lang="ru">К дуку де бурнонвиль из Мадрита от 28 августа 1730 году писано</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -106,10 +110,15 @@
     <body>
       <div type="letter">
         <head>
-          <title>28 August 1730. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov</persName>,] <hi rendition="#b">from </hi>
+          <title>28 August 1730. – [Letter from <persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov</persName>,] <hi
+              rendition="#b">from </hi>
             <placeName key="g0020">
               <hi rendition="#b">Madrid</hi>
-            </placeName> to <persName key="p0684" ref="0be3e940-4f26-47c0-9b06-e7bacefbca21">Captain General of the King’s armies, Duke [Michel Joseph] of  Bournonville </persName>written on August 28, 1730</title>
+            </placeName> to <persName
+              key="p0684"
+              ref="0be3e940-4f26-47c0-9b06-e7bacefbca21">Captain General of the King’s armies, Duke [Michel Joseph] of  Bournonville </persName>written on August 28, 1730</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, fol. 43v. Copy of French original.</bibl>
           </note>
@@ -117,8 +126,17 @@
         <p />
         <pb n="f. 43v" />
         <p />
-        <p>К <persName key="p0684" ref="0be3e940-4f26-47c0-9b06-e7bacefbca21">дуку де бурнонвиль</persName> из <placeName key="g0020">Мадрита</placeName> от 28 августа 1730 году писано</p>
-        <p>Sachant Combien V[otre] E[xcellence] est porté de faire plaisir à tous, j’ose me flatter qu’Elle voudra bien m’obliger, c’est d’employer son Credit aupres mr: <persName key="p0685" ref="70de2d57-6ffd-4108-a864-9ae2a2d76451">le Duc de l’Arco</persName> en faveur de <persName key="p0686" ref="23d41c4b-5b3d-4870-89e5-e313c39784e0">Theodoro Lopez Moreno</persName>, qui m’a assisté toujours à la Chasse Comme un homme qui s’y entend, pour qui je me suis interessé aupres Ledit seigneur à fin [=afin] qu’il luy fasse la grace de l’accepter pour balestero du <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Roy</persName>, Comme je l’ay dejà prié. En même Temps je supplie tres-humblement V[otre] E[xcellence] de me pardonner la Liberté que j’ay pris dans Cette occasion, et de me croire que j’ay l’honneur d’être avec tout le respect possible etc.</p>
+        <p>К <persName
+            key="p0684"
+            ref="0be3e940-4f26-47c0-9b06-e7bacefbca21">дуку де бурнонвиль</persName> из <placeName
+            key="g0020">Мадрита</placeName> от 28 августа 1730 году писано</p>
+        <p>Sachant Combien V[otre] E[xcellence] est porté de faire plaisir à tous, j’ose me flatter qu’Elle voudra bien m’obliger, c’est d’employer son Credit aupres mr: <persName
+            key="p0685"
+            ref="70de2d57-6ffd-4108-a864-9ae2a2d76451">le Duc de l’Arco</persName> en faveur de <persName
+            key="p0686"
+            ref="23d41c4b-5b3d-4870-89e5-e313c39784e0">Theodoro Lopez Moreno</persName>, qui m’a assisté toujours à la Chasse Comme un homme qui s’y entend, pour qui je me suis interessé aupres Ledit seigneur à fin [=afin] qu’il luy fasse la grace de l’accepter pour balestero du <persName
+            key="p0208"
+            ref="f268d125-76a1-4a45-910f-95f794c640db">Roy</persName>, Comme je l’ay dejà prié. En même Temps je supplie tres-humblement V[otre] E[xcellence] de me pardonner la Liberté que j’ay pris dans Cette occasion, et de me croire que j’ay l’honneur d’être avec tout le respect possible etc.</p>
       </div>
     </body>
   </text>

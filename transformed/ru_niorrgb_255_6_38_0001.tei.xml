@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Alexander I, Emperor [of Russia]. Letter to [the Chancellor, Minister of Foreign Affairs,] Count Aleksandr Romanovich Vorontsov</title>
+        <title
+          type="main"
+          xml:lang="en">Alexander I, Emperor [of Russia]. Letter to [the Chancellor, Minister of Foreign Affairs,] Count Aleksandr Romanovich Vorontsov</title>
         <title type="main" xml:lang="ru">Александр I, имп. П-мо к Воронцову, гр. Александру Романовичу</title>
         <author xml:lang="en">Emperor</author>
         <author xml:lang="en">of</author>
@@ -106,16 +108,25 @@
     <body>
       <div type="letter">
         <head>
-          <title>16 January 1804. – <persName key="p0897" ref="9676e820-9a3c-445a-9610-ae3e5de01fa7">Alexander I, Emperor [of Russia]</persName>. Letter to <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">[the Chancellor, Minister of Foreign Affairs,] Count Aleksandr Romanovich Vorontsov</persName>
+          <title>16 January 1804. – <persName
+              key="p0897"
+              ref="9676e820-9a3c-445a-9610-ae3e5de01fa7">Alexander I, Emperor [of Russia]</persName>. Letter to <persName
+              key="p0144"
+              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">[the Chancellor, Minister of Foreign Affairs,] Count Aleksandr Romanovich Vorontsov</persName>
           </title>
           <note>
             <bibl>OR RGB, fond 255, karton 6, no. 38. Copy of the Russian original.</bibl>
           </note>
         </head>
         <p />
-        <pb n="f. 1"/>
-        <p>Граф Александр Романович! С соболезнованием усматривая из пиьсма вашего, что для возстановления разстроеннаго вашего здоровья. признаете вы необходимым взять некоторое успокоение от трудов и переменить место пребывания вашего: не могу я более затрудняться в отпуске вас на такое время, которое к тому будет нужно. Я уверен однако, что по усердию к общей пользе и лично ко мне, не отречетесь вы и в отсудствии вашем быть мне полезным советами опытностию в делах Государственных; и на сей конец представляю вам взять с собою по избранию вашему канцелярских служителей. А как вы остаетесь таким образом в должности с званием вашим сопряженной, то по сему производится будет как вам, так и чиновникам которых вы </p><pb n="f. 1v"/><p> возмете, полное жалованье и содержание во все время вашего отсудствия; от правление же дел по Министерству управлению вашему вверенному, соображено с манифестом 8го сентября 1802<hi rendition="#sup">го</hi> года, предоставите вы <persName key="p0903">товарищу вашему</persName>. При сем случае, приятно мне, за деятельное споспешествование ваше к пользе дел Государственных, возобновить изъявление совершенной Моей благодарности, и уверить в неизменности моего к вам благорасположения.</p>
-        <p>Подлинный подписан собственною Его ИВ рукою тако 		<persName key="p0897" ref="9676e820-9a3c-445a-9610-ae3e5de01fa7">Александр</persName>
+        <pb n="f. 1" />
+        <p>Граф Александр Романович! С соболезнованием усматривая из пиьсма вашего, что для возстановления разстроеннаго вашего здоровья. признаете вы необходимым взять некоторое успокоение от трудов и переменить место пребывания вашего: не могу я более затрудняться в отпуске вас на такое время, которое к тому будет нужно. Я уверен однако, что по усердию к общей пользе и лично ко мне, не отречетесь вы и в отсудствии вашем быть мне полезным советами опытностию в делах Государственных; и на сей конец представляю вам взять с собою по избранию вашему канцелярских служителей. А как вы остаетесь таким образом в должности с званием вашим сопряженной, то по сему производится будет как вам, так и чиновникам которых вы </p><pb
+          n="f. 1v" /><p> возмете, полное жалованье и содержание во все время вашего отсудствия; от правление же дел по Министерству управлению вашему вверенному, соображено с манифестом 8го сентября 1802<hi
+            rendition="#sup">го</hi> года, предоставите вы <persName
+            key="p0903">товарищу вашему</persName>. При сем случае, приятно мне, за деятельное споспешествование ваше к пользе дел Государственных, возобновить изъявление совершенной Моей благодарности, и уверить в неизменности моего к вам благорасположения.</p>
+        <p>Подлинный подписан собственною Его ИВ рукою тако 		<persName
+            key="p0897"
+            ref="9676e820-9a3c-445a-9610-ae3e5de01fa7">Александр</persName>
         </p>
         <p>
           <placeName key="g0002">С[анкт].П[етер].Бург</placeName>

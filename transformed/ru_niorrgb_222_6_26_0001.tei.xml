@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Russian Minister Extraordinary to Warsaw,] Baron Otto Magnus of  Stackelberg. Letter to [Active Privy Councilor of the 1st Class,] Count Nikita Ivanovich Panin </title>
-        <title type="main" xml:lang="ru">Штакельберг, гр. Отто Магнус. Письмо к Панину, гр. Никите Ивановичу</title>
+        <title
+          type="main"
+          xml:lang="en">[Russian Minister Extraordinary to Warsaw,] Baron Otto Magnus of  Stackelberg. Letter to [Active Privy Councilor of the 1st Class,] Count Nikita Ivanovich Panin </title>
+        <title
+          type="main"
+          xml:lang="ru">Штакельберг, гр. Отто Магнус. Письмо к Панину, гр. Никите Ивановичу</title>
         <author xml:lang="en">Otto</author>
         <author xml:lang="en">Magnus</author>
         <author xml:lang="en">Stackelberg</author>
@@ -105,20 +109,38 @@
     <body>
       <div type="letter">
         <head>
-          <title>20 March / 31 March 1774. – [Russian Minister Extraordinary to Warsaw,] <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Baron Otto Magnus of Stackelberg</persName>. Letter to [Active Privy Councilor of the 1st Class,] <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count Nikita Ivanovich Panin</persName>
+          <title>20 March / 31 March 1774. – [Russian Minister Extraordinary to Warsaw,] <persName
+              key="p0861"
+              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Baron Otto Magnus of Stackelberg</persName>. Letter to [Active Privy Councilor of the 1st Class,] <persName
+              key="p0114"
+              ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count Nikita Ivanovich Panin</persName>
           </title>
           <note>
             <bibl>OR RGB, fond 222, karton 6, no. 26, f. 69–69v. French original.</bibl>
           </note>
         </head>
         <p />
-        <pb n="f. 69"/>
+        <pb n="f. 69" />
         <p>Monseigneur,</p>
         <p />
-        <p>Votre Excellence connoit trop bien <persName key="p0865">Mr. de Boscamp ancien Conseiller privé</persName> du <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName> et actuellement au service de <persName key="p0862">Sa Majesté Polonoise</persName>, pour que j’aye besoin de le Lui recommender. Tout ce que je puis Vous dire, mon respectable bienfaiteur, c’est que j’ai eû quelque part à son voyage. Je suis bien aise qu’il accompagne <persName key="p0863">Mr. de Braniçki</persName> pour éclairer et peut être pour guider ses demarches. Si Votre Excellence trouve qu’il vaille la peine de Vous servir de <persName key="p0865">Mr. de Boscamp</persName> relativement au même objet, Elle peut se fier à lui, c’est un homme attaché à la Russie. Il desireroit entrer à notre service connoissant <placeName key="g0018">Constantinople</placeName> comme sa chambre, c’est lui qui a entretenû cette correspondance qui successivement a été envoyé en cour, sans en avoir voulû recevoir de gratification.</p>
-        <pb n="f. 69v"/>
-        <p>Pour ce qui est de <persName key="p0863">Mr. de Braniçki</persName>, je Vous supplie de lui faire sentir que j’ai dit du bien de lui. Votre Excellence le connoit. Il est capable de donner des marques réelles d’attachement tête levée, d’ailleurs vaut il mieux auprès du <persName key="p0862">Roi</persName> que les Czartorynski, qui haïssent la Russie sistematiquement. Il seroit bon encore pour les affaires, que Vous lui fassiés(?) connoitre Vos bontés et Votre confiance envers ma personne, et que tant <persName key="p0862">Sa Majesté</persName> que Votre Excellence s’en rapportent à moi sur les affaires et qu’il faut qu’elles benissent. Il seroit d’un grand effet si <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> vouloit en dire un mot aussi. <persName key="p0863">Braniçki</persName> n’est pas riche, il desireroit avoir quelque grosse pension à l’avenir pour faire nos affaires. Faites lui entendre, mon respectable bienfaiteur, que lorsqu’il sera tems [?] de parler d’un parti en Pologne, cette affaire pourra s’arranger pour moi.</p>
-        <p>Je suis avec les sentimens que je Vous ai consacrés pour le reste de mes jours, Monseigneur, de Votre Excellence le trés h[umble]. &amp; trés ob[edian]<hi rendition="#sup">t</hi> serv[iteu]<hi rendition="#sup">r</hi> le B[aron]. de Stackelberg</p>
+        <p>Votre Excellence connoit trop bien <persName
+            key="p0865">Mr. de Boscamp ancien Conseiller privé</persName> du <persName
+            key="p0061"
+            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName> et actuellement au service de <persName
+            key="p0862">Sa Majesté Polonoise</persName>, pour que j’aye besoin de le Lui recommender. Tout ce que je puis Vous dire, mon respectable bienfaiteur, c’est que j’ai eû quelque part à son voyage. Je suis bien aise qu’il accompagne <persName
+            key="p0863">Mr. de Braniçki</persName> pour éclairer et peut être pour guider ses demarches. Si Votre Excellence trouve qu’il vaille la peine de Vous servir de <persName
+            key="p0865">Mr. de Boscamp</persName> relativement au même objet, Elle peut se fier à lui, c’est un homme attaché à la Russie. Il desireroit entrer à notre service connoissant <placeName
+            key="g0018">Constantinople</placeName> comme sa chambre, c’est lui qui a entretenû cette correspondance qui successivement a été envoyé en cour, sans en avoir voulû recevoir de gratification.</p>
+        <pb n="f. 69v" />
+        <p>Pour ce qui est de <persName
+            key="p0863">Mr. de Braniçki</persName>, je Vous supplie de lui faire sentir que j’ai dit du bien de lui. Votre Excellence le connoit. Il est capable de donner des marques réelles d’attachement tête levée, d’ailleurs vaut il mieux auprès du <persName
+            key="p0862">Roi</persName> que les Czartorynski, qui haïssent la Russie sistematiquement. Il seroit bon encore pour les affaires, que Vous lui fassiés(?) connoitre Vos bontés et Votre confiance envers ma personne, et que tant <persName
+            key="p0862">Sa Majesté</persName> que Votre Excellence s’en rapportent à moi sur les affaires et qu’il faut qu’elles benissent. Il seroit d’un grand effet si <persName
+            key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> vouloit en dire un mot aussi. <persName
+            key="p0863">Braniçki</persName> n’est pas riche, il desireroit avoir quelque grosse pension à l’avenir pour faire nos affaires. Faites lui entendre, mon respectable bienfaiteur, que lorsqu’il sera tems [?] de parler d’un parti en Pologne, cette affaire pourra s’arranger pour moi.</p>
+        <p>Je suis avec les sentimens que je Vous ai consacrés pour le reste de mes jours, Monseigneur, de Votre Excellence le trés h[umble]. &amp; trés ob[edian]<hi
+            rendition="#sup">t</hi> serv[iteu]<hi rendition="#sup">r</hi> le B[aron]. de Stackelberg</p>
         <p />
         <p />
         <p>à <placeName key="g0009">Varsovi</placeName>

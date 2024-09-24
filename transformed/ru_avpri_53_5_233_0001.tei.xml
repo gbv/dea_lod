@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
   <teiHeader>
@@ -99,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -368,7 +374,11 @@
           подробно спознать прямыя обстоятелства фамилнаго всем доме учреждения о графстве
           ганавском. владеющей ландграф почитая сие учреждение обидным себе думает еще, что оно, как
           вынужденное отнего <persName
-            cert="high" evidence="internal" full="yes" instant="unknown" key="p0754"
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0754"
             xml:space="default">покойным родителем его</persName>, не может и по самым имперским
           законам, действително быть. со всем тем, не желает <del>он</del> и не требует он ни какой
           перемены  </p>
@@ -377,12 +387,19 @@
           ползоватся всеми доходами графства ганавскаго, а хочет толко <del>чтоб ему,</del> чтоб ему
           для одного лица и пристойности, возвращена была внешность верховной власти над сим
           графством  и что б еще по том выведен был из онаго гановерской гарнизон, <persName
-            cert="high" evidence="internal" full="yes"
-            instant="unknown" xml:space="default"
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            xml:space="default"
             key="p0061">его величество король пруской
           </persName> менажируя <persName
-            cert="high" evidence="internal" full="yes" instant="unknown"
-            key="p1520" xml:space="default">ландграфа</persName>, как одного из силнейших в германии </p>
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p1520"
+            xml:space="default">ландграфа</persName>, как одного из силнейших в германии </p>
         <p><pb cert="high" n="f. 46" xml:space="default" />принцов и стараясь удержать его от
           предания себя французским сетям и союзу, которой ему не однократно уже предсталяем был,
           адресовался к ея императорскому величеству с прозбою о употреблен[ии] посредства ея у
@@ -412,16 +429,23 @@
               xml:space="default">
               Бернсторфу</persName>, представили ему в то же время изустно мнение, что ест ли нет 
           во преки желаниям лантграфа каких препятствующих причин из существителных интересов
-          принцов сыновей его кои с <persName cert="high" evidence="internal" full="yes"
-              instant="unknown" key="p0868"
+          принцов сыновей его кои с <persName
+              cert="high"
+              evidence="internal"
+              full="yes"
+              instant="unknown"
+              key="p0868"
               xml:space="default">его датским в[величеств]ом
             </persName> соединены толь близким союзом
           родства, то кажется полза и поспешествование общего <del>
               нацей
             </del> нацей северной системы требовала бы для
           приласкания к оной его светлости оказать некоторое уважение к чинимому в пользу его от <persName
-              cert="high" evidence="internal"
-              full="yes" instant="unknown" key="p0061"
+              cert="high"
+              evidence="internal"
+              full="yes"
+              instant="unknown"
+              key="p0061"
               xml:space="default">короля прускаго
             </persName> у заступлению а особливо по пункту выведения
           гановерскаго гарнизона  </salute>
@@ -437,12 +461,19 @@
           ландграф <del>том одн</del> сею одною уступкою. </salute>
                     <salute>а равномерно по такому же
           ея в[еличеств]а высочайшему повелению в равной силе дано отсюда повеление и послу <persName
-              cert="high" evidence="internal" full="yes" instant="unknown"
-              key="p1521" xml:space="default">гр. чернышеву
+              cert="high"
+              evidence="internal"
+              full="yes"
+              instant="unknown"
+              key="p1521"
+              xml:space="default">гр. чернышеву
             </persName> о чем в[аш]е сеят[ельств]о гос[подина]  <persName
-              cert="high" evidence="internal"
-              full="yes" instant="unknown"
-              key="p0234" xml:space="default">
+              cert="high"
+              evidence="internal"
+              full="yes"
+              instant="unknown"
+              key="p0234"
+              xml:space="default">
               бернсторфа
             </persName> откровенно уведомить можете, а затем
           пребываю я  </salute>

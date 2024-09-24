@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Translation from Spanish into French of the Decree given in Madrid by H[is]. C[atholic]. M[ajesty]., dated 28 of May of the current year, for the form of admitting foreign vessels in the ports of his states in Spain, issued after the news received that the Island of Zante and several other places of the Levant are attacked by a contagious disease, and published in Cadiz on the 6th of June 1728</title>
-        <title type="main" xml:lang="fr">Traduction D’Espagnol en françois du Decret donné â Madrid par S.M.C. datté du 28. May de l’année Courante pour la forme d’admettre les vaisseaux Etrangers dans les ports de ses Etats en Espagne depuis la nouvelle reçeu que l’isle de Zante et plusieurs autres Endroits du Levant sont attaquez du mal Contagieux et publié â Cadiz le 6. Juin 1728</title>
+        <title
+          type="main"
+          xml:lang="en">Translation from Spanish into French of the Decree given in Madrid by H[is]. C[atholic]. M[ajesty]., dated 28 of May of the current year, for the form of admitting foreign vessels in the ports of his states in Spain, issued after the news received that the Island of Zante and several other places of the Levant are attacked by a contagious disease, and published in Cadiz on the 6th of June 1728</title>
+        <title
+          type="main"
+          xml:lang="fr">Traduction D’Espagnol en françois du Decret donné â Madrid par S.M.C. datté du 28. May de l’année Courante pour la forme d’admettre les vaisseaux Etrangers dans les ports de ses Etats en Espagne depuis la nouvelle reçeu que l’isle de Zante et plusieurs autres Endroits du Levant sont attaquez du mal Contagieux et publié â Cadiz le 6. Juin 1728</title>
         <author xml:lang="en">King</author>
         <author xml:lang="en">of</author>
         <author xml:lang="en">Spain</author>
@@ -107,7 +111,10 @@
     <body>
       <div type="letter">
         <head>
-          <title>6 June 1728. – Translation from Spanish into French of the Decree given in Madrid by <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">H[is]. C[atholic]. M[ajesty].,</persName> dated 28 of May of the current year, for the form of admitting foreign vessels in the ports of his states in Spain, issued after the news received that the Island of Zante and several other places of the Levant are attacked by a contagious disease, and published in <placeName key="g0067">
+          <title>6 June 1728. – Translation from Spanish into French of the Decree given in Madrid by <persName
+              key="p0208"
+              ref="f268d125-76a1-4a45-910f-95f794c640db">H[is]. C[atholic]. M[ajesty].,</persName> dated 28 of May of the current year, for the form of admitting foreign vessels in the ports of his states in Spain, issued after the news received that the Island of Zante and several other places of the Levant are attacked by a contagious disease, and published in <placeName
+              key="g0067">
               <hi rendition="#b">Cadiz </hi>
             </placeName>on the 6<hi rendition="#sup">th</hi> of June 1728 </title>
           <note>
@@ -118,18 +125,40 @@
         <p />
         <pb n="f. 34" />
         <p />
-        <p>Traduction D’Espagnol en françois du Decret donné â <placeName key="g0020">Madrid</placeName> par <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">S[a] M[ajesté] C[atolique]</persName> datté du 28. May de l’année Courante pour la forme d’admettre les vaisseaux Etrangers dans les ports de ses Etats en Espagne depuis la nouvelle reçeu que <placeName key="g0150">l’isle de Zante</placeName> et plusieurs autres Endroits du Levant sont attaquez du mal Contagieux et publié â <placeName key="g0067">Cadiz</placeName> le 6. Juin 1728.</p>
+        <p>Traduction D’Espagnol en françois du Decret donné â <placeName
+            key="g0020">Madrid</placeName> par <persName
+            key="p0208"
+            ref="f268d125-76a1-4a45-910f-95f794c640db">S[a] M[ajesté] C[atolique]</persName> datté du 28. May de l’année Courante pour la forme d’admettre les vaisseaux Etrangers dans les ports de ses Etats en Espagne depuis la nouvelle reçeu que <placeName
+            key="g0150">l’isle de Zante</placeName> et plusieurs autres Endroits du Levant sont attaquez du mal Contagieux et publié â <placeName
+            key="g0067">Cadiz</placeName> le 6. Juin 1728.</p>
         <p>
-          <persName key="p0354" ref="4930720c-b699-49f0-854d-3e888531149d">Don Antoine Alvarez de Bohorquez</persName> marechal de Camp des armées du Roy, Commandeur de l’ordre de St. Jacques, ayde major general des gardes du Corps de S[a] M[ajesté] Gouverneur </p>
+          <persName
+            key="p0354"
+            ref="4930720c-b699-49f0-854d-3e888531149d">Don Antoine Alvarez de Bohorquez</persName> marechal de Camp des armées du Roy, Commandeur de l’ordre de St. Jacques, ayde major general des gardes du Corps de S[a] M[ajesté] Gouverneur </p>
         <pb n="f. 34v" />
         <p> pour la police et pour la guerre en cette place etc.</p>
-        <p>Par la presente je fais savoir à tous les habitans qui sont et qui resident en <placeName key="g0067">cette ville</placeName>, naturels du pays Comme Etrangers que S[a] M[ajesté] C[hrétienne] Dieu la Conserve par son Royal Decret du 28. du mois de may dernier a daigné ordonner ce qui suit.</p>
+        <p>Par la presente je fais savoir à tous les habitans qui sont et qui resident en <placeName
+            key="g0067">cette ville</placeName>, naturels du pays Comme Etrangers que S[a] M[ajesté] C[hrétienne] Dieu la Conserve par son Royal Decret du 28. du mois de may dernier a daigné ordonner ce qui suit.</p>
         <p>
-          <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Philipe</persName> par La grace de Dieu Roy de Castille de Leon, Daragon etc. à tous les Corregidors, assistant, Gouverneurs, Commandans, Chefs, et autres ministres dans tous les ports et autres places de mer et de terre etc. salut et grace. Sachez que nous sommes informéz que <placeName key="g0150">l’isle de Zante</placeName> est attaquée du mal Contagieux de la peste, que ce mal s’est etendu dans La Morée particulierement dans <placeName key="g0103">Napoli</placeName> de Romanie et dans un Endroit qu’on appelle <placeName key="g0000">Gustany</placeName>, et quïl se fait aussy sentir à <placeName key="g0018">Constantinople</placeName> et dans <placeName key="g0151">l’isle de Corfou</placeName>, sans qu’on ait pu jusquicy decouvrir au iuste l’origine de ce mal rependu dans <placeName key="g0150">l’isle de Zante</placeName>, et qu’on croit avoir eté introduit par quelques marchandises qu’on a tiré d’un Bastiment turc qui a peri par la Tempeste dans le voisinage de cette isle; Ce qui a obligé le gouverneur de l’isle à ordonner qu’on brula la maison où l’on avoit retiré les dittes marchandises et les personnes qui etoient mortes dans cette maison, precaution qui n’a point empeché, que le mal n’ait fait beaucoup de progres dans d’autres habitations de la mesme </p>
+          <persName
+            key="p0208"
+            ref="f268d125-76a1-4a45-910f-95f794c640db">Philipe</persName> par La grace de Dieu Roy de Castille de Leon, Daragon etc. à tous les Corregidors, assistant, Gouverneurs, Commandans, Chefs, et autres ministres dans tous les ports et autres places de mer et de terre etc. salut et grace. Sachez que nous sommes informéz que <placeName
+            key="g0150">l’isle de Zante</placeName> est attaquée du mal Contagieux de la peste, que ce mal s’est etendu dans La Morée particulierement dans <placeName
+            key="g0103">Napoli</placeName> de Romanie et dans un Endroit qu’on appelle <placeName
+            key="g0000">Gustany</placeName>, et quïl se fait aussy sentir à <placeName
+            key="g0018">Constantinople</placeName> et dans <placeName
+            key="g0151">l’isle de Corfou</placeName>, sans qu’on ait pu jusquicy decouvrir au iuste l’origine de ce mal rependu dans <placeName
+            key="g0150">l’isle de Zante</placeName>, et qu’on croit avoir eté introduit par quelques marchandises qu’on a tiré d’un Bastiment turc qui a peri par la Tempeste dans le voisinage de cette isle; Ce qui a obligé le gouverneur de l’isle à ordonner qu’on brula la maison où l’on avoit retiré les dittes marchandises et les personnes qui etoient mortes dans cette maison, precaution qui n’a point empeché, que le mal n’ait fait beaucoup de progres dans d’autres habitations de la mesme </p>
         <pb n="f. 35" />
-        <p> Isle; et que pour se mettre à l’abry de ce mal et garantir le pays, l’on avoit donné à Genes, et à Venise differents ordres pour deffendre tout Commerce avec la Turquie et les isles de <placeName key="g0150">Zante</placeName> de <placeName key="g0152">Cefalonie</placeName> de <placeName key="g0000">Boniza</placeName>, de <placeName key="g0422">Ste Maure</placeName>, et de <placeName key="g0151">Corfou</placeName> en leur enjoignant de n’admettre aucun Bastiment venant de ces Endroits là sans les assujetir premierement à faire une rigoureuse quarantaine dont la prolongation est laissée à l’arbitre des Magistrats; Et qu’aussy le gouvernement de Milan avoit defendu pour apresent le Commerce aux Barques qui viennent de Venise. Sur L’attention que jay faitte que par la Communication d’Etoffes ou autres marchandises ce mal peut s’introduire dans nos Royaumes, et que la mer par son Etendue qui est de difficile gardé est la porte principale par où ce mal peut entrer, il est necessaire de prendre avec le tems des precautions qui puissent avec l’aide de Dieu nous garantir de ce fleau; aprés avoir Consulté Ceux de notre Conseil qui composent la junte de santé notre Royalle personne a resolu de deffendre absolument tout Commerce avec les Personnes, Effets et Bastimens qui viennent de la Morée, de <placeName key="g0150">l’isle de Zante</placeName>, de celle de <placeName key="g0151">Corfou</placeName>, de toutes les autres isles de l’archipel, et des autres provinces du Levant sans aucune distinction, pour que sous tel motif ou pretexte que ce puisse etre, quoique munis de patentes non suspectes ils soient exclus de tout Commerce </p>
+        <p> Isle; et que pour se mettre à l’abry de ce mal et garantir le pays, l’on avoit donné à Genes, et à Venise differents ordres pour deffendre tout Commerce avec la Turquie et les isles de <placeName
+            key="g0150">Zante</placeName> de <placeName key="g0152">Cefalonie</placeName> de <placeName
+            key="g0000">Boniza</placeName>, de <placeName key="g0422">Ste Maure</placeName>, et de <placeName
+            key="g0151">Corfou</placeName> en leur enjoignant de n’admettre aucun Bastiment venant de ces Endroits là sans les assujetir premierement à faire une rigoureuse quarantaine dont la prolongation est laissée à l’arbitre des Magistrats; Et qu’aussy le gouvernement de Milan avoit defendu pour apresent le Commerce aux Barques qui viennent de Venise. Sur L’attention que jay faitte que par la Communication d’Etoffes ou autres marchandises ce mal peut s’introduire dans nos Royaumes, et que la mer par son Etendue qui est de difficile gardé est la porte principale par où ce mal peut entrer, il est necessaire de prendre avec le tems des precautions qui puissent avec l’aide de Dieu nous garantir de ce fleau; aprés avoir Consulté Ceux de notre Conseil qui composent la junte de santé notre Royalle personne a resolu de deffendre absolument tout Commerce avec les Personnes, Effets et Bastimens qui viennent de la Morée, de <placeName
+            key="g0150">l’isle de Zante</placeName>, de celle de <placeName
+            key="g0151">Corfou</placeName>, de toutes les autres isles de l’archipel, et des autres provinces du Levant sans aucune distinction, pour que sous tel motif ou pretexte que ce puisse etre, quoique munis de patentes non suspectes ils soient exclus de tout Commerce </p>
         <pb n="f. 35v" />
-        <p> dans nos ports. Bien entendu, que dans cette deffense seront Compris tous les grains, et que l’on admettra uniquement les Bastimens, et les Effets qui viendront du port principal de <placeName key="g0149">Genes</placeName> en produisant leurs factures et les Certificats de leur chargement, et en faisant voir que les Effets qui font leur chargement ont eté purifiëz, que les Bastimens ont eté visitéz iusqu’à fond de Calle, et qu’ils ont fait une rigoureuse quarantaine […].</p>
+        <p> dans nos ports. Bien entendu, que dans cette deffense seront Compris tous les grains, et que l’on admettra uniquement les Bastimens, et les Effets qui viendront du port principal de <placeName
+            key="g0149">Genes</placeName> en produisant leurs factures et les Certificats de leur chargement, et en faisant voir que les Effets qui font leur chargement ont eté purifiëz, que les Bastimens ont eté visitéz iusqu’à fond de Calle, et qu’ils ont fait une rigoureuse quarantaine […].</p>
       </div>
     </body>
   </text>

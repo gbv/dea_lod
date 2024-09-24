@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -97,15 +98,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -286,33 +292,48 @@
           <cell>
             <p>
             </p>
-            <p>Copia offensiv=Alliantz tractats mit den könige von Dennemark <persName cert="high"
-                evidence="internal" full="yes" instant="unknown" key="p0532"
+            <p>Copia offensiv=Alliantz tractats mit den könige von Dennemark <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0532"
                 xml:space="default">Friederich den 4
               </persName>
-                            <hi
-                rendition="simple:superscript">
+                            <hi rendition="simple:superscript">
                 <hi rendition="simple:underline">ten</hi>
               </hi> durch die Russische und
               Dänische Minister im Jahre 1709. den 11 <hi rendition="simple:superscript">
                 <hi rendition="simple:underline">ten</hi>
               </hi> octobris zu <placeName
-                key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425"
+                key="Copenhagen Capital Region Denmark"
+                ref="https://geonames.org/2618425"
                 cert="high">Copenhagen
               </placeName> errichtet. </p>
             <p>Kund und zu wissen seye allen, welchen daran gelegen, daß Ihro May[es]tteten der <persName
-                cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                xml:space="default"
                 key="p0174">Czar aller Reussen
-              </persName> und der <persName cert="high"
-                evidence="internal" full="yes" instant="unknown"
-                key="p0532" xml:space="default">König von Dennemark und
+              </persName> und der <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0532"
+                xml:space="default">König von Dennemark und
                 Norwegen</persName>, reifflich erwegende die schädliche umbstände welche auß dem
               gehäßigen <note>
                 <p>ge- <hi rendition="simple:italic">is written above the
                     line</hi>. </p>
               </note> bösen und gewaltsamen Verfahren des <persName
-                cert="high" evidence="internal" full="yes"
-                instant="unknown" key="p0193"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0193"
                 xml:space="default">Königs von Schweden
               </persName> mit der Zeit zum grössesten præjuditz
               der einen sowol alß der andern Puissance entstehen könnte, vor nöthig erachtet, zur
@@ -321,17 +342,29 @@
                   <hi rendition="simple:italic">Then crossed out:</hi> decken. </p>
               </note>
               verwahren, das Band der Freundschafft und Alliance welches zwischen Ihnen furschwebet,
-              fester zu verknüpfen, deswegen I<persName cert="high" evidence="internal" full="yes"
-                instant="unknown" key="p0193" xml:space="default">
+              fester zu verknüpfen, deswegen I<persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0193"
+                xml:space="default">
                 hro Czarische May[es]t[ä]t
               </persName> dem Fürsten <persName
-                cert="high" evidence="internal" full="yes"
-                instant="unknown" key="p0729" xml:space="default">Wasileo
-                Lukinitz Dolgorucky</persName>, Herrn von Belo osercko Cammerherrn und I[hro]
-              C[zarische] May[es]t[ä]t bevollmächtigten gesandten am <persName cert="high"
+                cert="high"
                 evidence="internal"
-                full="yes" instant="unknown"
-                key="p0532" xml:space="default">
+                full="yes"
+                instant="unknown"
+                key="p0729"
+                xml:space="default">Wasileo
+                Lukinitz Dolgorucky</persName>, Herrn von Belo osercko Cammerherrn und I[hro]
+              C[zarische] May[es]t[ä]t bevollmächtigten gesandten am <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0532"
+                xml:space="default">
                 Königl[ich] Dennemarkischen
               </persName> Hofe Befehl
               ertheilende darüber in conferentz zu treten mit den Ministren I[hro] <persName
@@ -342,23 +375,35 @@
                 key="p0532"
                 xml:space="default">
                 Königl[ichen] May[es]t[ä]t von Dennemark</persName>, neml[ich] mit dem <persName
-                cert="high" evidence="internal" full="yes" instant="unknown" key="p1467"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p1467"
                 xml:space="default">Herrn Otto Grabe, Herrn von Ottholme Gard und
                 Otelholm</persName>, Rittern, geheimen Rath des Reichs Justitz collegii, Gouverneurn
               von Seeland, und ober ambt-Mannen des Districts von Rotschild, Vordenburg und
-              Trigeveld, mit dem H[er]rn <persName cert="high" evidence="internal" full="yes"
+              Trigeveld, mit dem H[er]rn <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
                 instant="unknown"
-                key="p1466" xml:space="default">Christian von Lente</persName>, H[er]rn von
+                key="p1466"
+                xml:space="default">Christian von Lente</persName>, H[er]rn von
               Carlhausen </p>
           </cell>
           <cell>
             <p>1709 окт[ября] 11/22.</p>
-            <p>Копия с наступателного трактату с королем дацким <persName cert="high"
+            <p>Копия с наступателного трактату с королем дацким <persName
+                cert="high"
                 evidence="internal"
-                full="yes" instant="unknown"
-                key="p0532" xml:space="default">
+                full="yes"
+                instant="unknown"
+                key="p0532"
+                xml:space="default">
                 Фридрихом Четвертым</persName>, учиненного чрез министров российского и дацких в
-              1709-м году октября 11-г[о] в <placeName key="Copenhagen Capital Region Denmark"
+              1709-м году октября 11-г[о] в <placeName
+                key="Copenhagen Capital Region Denmark"
                 ref="https://geonames.org/2618425">Копенгагене</placeName>. </p>
             <p>Ведомо да будет всем, которые в том интерес имеют, что их величества <persName
                 cert="high"
@@ -368,8 +413,12 @@
                 key="p0174"
                 xml:space="default">
                 ц[а]рь всероссийский
-              </persName> и<persName cert="high"
-                evidence="internal" full="yes" instant="unknown" key="p0532"
+              </persName> и<persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0532"
                 xml:space="default">король дацкий и норвежский</persName>, зрело <note>
                 <p>
                   <hi rendition="simple:italic">Above the word there is
@@ -377,9 +426,13 @@
                   </hi>
               reiff. </p>
               </note> разсудя вредителные посредства, которые бы ярость и
-              злобу насилственныя поступки <persName cert="high" evidence="internal"
-                full="yes" instant="unknown"
-                key="p0193" xml:space="default">
+              злобу насилственныя поступки <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0193"
+                xml:space="default">
                 короля шведского
               </persName> по времени произвесть
               могли к великому предосуждению единой и другой областям, за потребно разсудили, ради
@@ -393,9 +446,18 @@
               дружбы и союза, которой еще содержится междо ими, стеcнить <note>
                 <p><hi rendition="simple:italic">Written above the line</hi>. </p>
               </note>
-              , и <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+              , и <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0174"
                 xml:space="default">его ц[а]рское величество</persName>, дав указ ради сего кн[я]зю <persName
-                cert="high" evidence="internal" full="yes" instant="unknown" key="p0729"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0729"
                 xml:space="default">Василью Лукичю Долгорукову</persName>, наместнику белоозерскому,
               комнатному <note>
                 <p>
@@ -404,12 +466,24 @@
                   </hi>
               cammerherrn. </p>
               </note> и послу своему полномочному при дворе его <persName
-                cert="high" evidence="internal" full="yes" instant="unknown"
-                key="p0532" xml:space="default">королевского величества
-                дацкого</persName>, войти о сем в конференцию с министры его <persName cert="high"
-                evidence="internal" full="yes" instant="unknown" key="p0532"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0532"
+                xml:space="default">королевского величества
+                дацкого</persName>, войти о сем в конференцию с министры его <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0532"
                 xml:space="default">королевского ве[личеств]а дацкого</persName>, а имянно з <persName
-                cert="high" evidence="internal" full="yes" instant="unknown" key="p1467"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p1467"
                 xml:space="default">господином Отто Грабием, господином от Голмегарды и от
                 Елгголму</persName>, кавалером, тайным советником г[о]с[у]д[а]рственным
               справедливости <note>
@@ -433,9 +507,12 @@
           <cell>
             <p><pb n="f. 4v" /> Rittern, Ihro Königl[ichen] May[es]t[ä]t zu Dennemark geheimen Rath,
               ersten Reichs Kriegs Rath, Groß Ceremonien Meistern und Generalen Commissariats
-              deputirten, mit dem H[er]rn <persName cert="high"
-                evidence="internal" full="yes"
-                instant="unknown" key="p1468"
+              deputirten, mit dem H[er]rn <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p1468"
                 xml:space="default">Detleff
                 Wibe
               </persName> Herrn von Frenenfeld, Rittern
@@ -449,20 +526,30 @@
                 xml:space="default">
                 Christian Sehestädt</persName>, H[er]rn von Nilefgard und von Ravenhold, Rittern
               Ihro Königl[ichen] May[es]t[ä]t zu Dennemark Geheimen Rath und Reichs oberSecretairen
-              der <orgName cert="high"
+              der <orgName
+                cert="high"
                 evidence="internal"
-                full="yes" instant="unknown"
+                full="yes"
+                instant="unknown"
                 key="o0121"
                 xml:space="default">
                 Teutschen Cantzley</orgName>, haben Sie Sich endlich verglichen und folgende articul
               verabredet </p>
             <p>1.</p>
-            <p>Ihre May[es]tteten der<persName cert="high" evidence="internal" full="yes"
+            <p>Ihre May[es]tteten der<persName
+                cert="high"
+                evidence="internal"
+                full="yes"
                 instant="unknown"
-                key="p0174" xml:space="default">Czar von allen Reussen
+                key="p0174"
+                xml:space="default">Czar von allen Reussen
               </persName> und der <persName
-                cert="high" evidence="internal" full="yes" instant="unknown"
-                key="p0532" xml:space="default">konig von Dennemark und Norwegen
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0532"
+                xml:space="default">konig von Dennemark und Norwegen
               </persName> verpflichten sich die alte
               Alliance und Freundschafft zu erneuren, welche zu aller zeit zwischen dero Vorfahren
               Czaren von Russland und Königen von Dennemark gewesen ist, insonderheit <note>
@@ -475,29 +562,54 @@
           </cell>
           <cell>
             <p>Родскилского, Вординбурского и Тригевелского, его королевского ве[личеств]а дацкого з
-              господином <persName cert="high" evidence="internal"
-                full="yes" instant="unknown"
-                xml:space="default" key="p1466">
+              господином <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                xml:space="default"
+                key="p1466">
                 Крестияном Деленте</persName>, господином от Сарлгаузена, кавалером, тайным
               советником и г[о]с[у]д[а]рственным первым секретарем воинским, великим майстером
               церемонии и депутатом Генералного комисариатства, его королевского ве[личеств]а
-              дацкого з господином <persName cert="high" evidence="internal" full="yes"
-                instant="unknown" xml:space="default"
+              дацкого з господином <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                xml:space="default"
                 key="p1468">Детлеф Вибе</persName>, господином от Френенфелд, кавалером, тайным
               советником и первым секретарем Дацкой канцелярии его королевского ве[личеств]а
-              дацкого, и господином <persName cert="high" evidence="internal" full="yes"
-                instant="unknown" xml:space="default"
+              дацкого, и господином <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                xml:space="default"
                 key="p1505">Крестияном Сегестетом</persName>, господином от Нилефгаард и от
               Рафенголд, кавалером, тайным советником и г[о]с[у]д[а]рственным и первым секретарем <orgName
-                cert="high" evidence="internal" full="yes" instant="unknown" key="o0121"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="o0121"
                 xml:space="default">Немецкой канцелярии
               </orgName> его королевского ве[личеств]а дацкого,
               наконец соглашенося и договоренося на последующих артикулех. </p>
             <p>1.</p>
-            <p>Их величества <persName cert="high" evidence="internal" full="yes" instant="unknown"
-                key="p0174" xml:space="default">ц[а]р всеросийский
-              </persName> и <persName cert="high"
-                evidence="internal" full="yes" instant="unknown" key="p0532"
+            <p>Их величества <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0174"
+                xml:space="default">ц[а]р всеросийский
+              </persName> и <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0532"
                 xml:space="default">корол[ь] дацкий и норвежский
               </persName> обязуются обновить древний союз
               и дружбу, которая была во все времена между их предками, ц[а]рями всероссийскими и
@@ -538,9 +650,12 @@
             <p>2.</p>
             <p>Umb ein Merckmahl dieser vertraulich freundschafft so hier bestätiget werden, und
               wahrhaffte proben beständiger gemeinsahmer Vereinigung zu geben, verpflichten sich
-              Ihro Königl[iche] May[es]t[ä]t von Dennemark mit dem<persName cert="high"
-                evidence="internal" full="yes"
-                instant="unknown" key="p0193"
+              Ihro Königl[iche] May[es]t[ä]t von Dennemark mit dem<persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0193"
                 xml:space="default">Könige von
                 Sweden
               </persName> zu brechen und noch diesen
@@ -590,7 +705,12 @@
                 <p>
                   <hi rendition="simple:italic">Above the word there is written:</hi> brechen. </p>
               </note>
-              с <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0193"
+              с <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0193"
                 xml:space="default">королем шведцким</persName>, еще сея осени <note>
                 <p>
                   <hi rendition="simple:italic">Above the word there is written:</hi> herbst. </p>
@@ -655,9 +775,13 @@
                 <p><hi rendition="simple:italic">Written on the left</hi>. </p>
               </note>
               иными г[о]с[у]д[а]ри, но будут искренне сообщать не толко один другому, но такожде и
-              его вел[ичеств]у <persName cert="high" evidence="internal" full="yes"
+              его вел[ичеств]у <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
                 instant="unknown"
-                key="p0525" xml:space="default">королю полскому
+                key="p0525"
+                xml:space="default">королю полскому
               </persName> все оное, что им было или будет предложено
               сему касающееся, от ого-нибудь, обязуяся доброю верностию не чинить миру, разве
               согласно и з соизволением их союзников, которые действително обретатся будут войне

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -97,18 +97,22 @@
 			</sourceDesc>
 		</fileDesc>
 		<xenoData>
-			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#">
+			<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#">
 				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -670,8 +674,7 @@
 			<div>
 				<head>
 					<title> 1 October 1714. – Letter of <persName key="p1383">Paolo Arcoleo</persName>
-						to <persName
-							key="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
+						to <persName key="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
 					</title>
 					<note>
 						<bibl>RGADA, fond 41, opis 1, 1714, no. 3, f. 3-4. Italian original; Russian
@@ -700,43 +703,48 @@
 					Giuramento da me prestato al mio <persName key="p0174">Clementissimo Imperatore</persName>
 					sotto li 29 Xbre prossimo passato nanti l'Immagine, e sopra l'Evangelio di
 					Giuesù Christo Salvator del Mondo, coll'assistenza del Capellano, e Secretario <persName
-						key="p0494">dell'E[ccelentissi]:mo Baron Saffirof</persName> in <placeName
-						key="Istanbul Istanbul Turkey" ref="https://geonames.org/745044" cert="high">
+            key="p0494">dell'E[ccelentissi]:mo Baron Saffirof</persName> in <placeName
+            key="Istanbul Istanbul Turkey"
+            ref="https://geonames.org/745044"
+            cert="high">
 					Constantinopoli<precision match="@ref" precision="high" /></placeName>, non per
 					ciò posso in minimo punto rispondere alli corranti acuse del soprad[et]:to <persName
-						key="p1381">E[ccelentissi]:mo S[ignor]: Sava</persName>, mentre di tutto,
+            key="p1381">E[ccelentissi]:mo S[ignor]: Sava</persName>, mentre di tutto,
 					non solo risposi nel Processo formatomi à <placeName
-						key="Rijeka Primorje-Gorski Kotar Croatia"
-						ref="https://geonames.org/3191648">Fiume</placeName>, ma vesi distinto conto
+            key="Rijeka Primorje-Gorski Kotar Croatia"
+            ref="https://geonames.org/3191648">Fiume</placeName>, ma vesi distinto conto
 					al soprad[et]:to <persName key="p0494">Ministro Baron Saffirof</persName>.</p>
 				<p>Del med[e]:mo <persName key="p0494">Ecc[elenstissi]:mo Baron Saffirof</persName>
-					all'incontro, (come poscia in <placeName key="Vienna Vienna Austria"
-						ref="https://geonames.org/2761369">Vienna</placeName> dal <persName
-						key="p0699">Ministro Plenipotentiario Ecc[elentissi]:mo S[ignor]: Matfeof</persName>)
+					all'incontro, (come poscia in <placeName
+            key="Vienna Vienna Austria"
+            ref="https://geonames.org/2761369">Vienna</placeName> dal <persName
+            key="p0699">Ministro Plenipotentiario Ecc[elentissi]:mo S[ignor]: Matfeof</persName>)
 					fui assicurato della Gratia di <persName key="p0174">Sua Czarea Maesta</persName>,
 					pur che io serva con fideltà, en con quel servorato Zelo, che servij per il
 					passato.</p>
-				<p>Fui spedito à <placeName key="Vienna Vienna Austria"
-						ref="https://geonames.org/2761369" cert="high">Vienna<precision match="@ref"
-							precision="high" /></placeName>, dove mi giunse la Patenta di
+				<p>Fui spedito à <placeName
+            key="Vienna Vienna Austria"
+            ref="https://geonames.org/2761369"
+            cert="high">Vienna<precision
+              match="@ref"
+              precision="high" /></placeName>, dove mi giunse la Patenta di
 					Secretario, accompagnatomi da riverite prescritioni di V[ost]:ra E[ccelen]:za,
 					ne quali venivo assicurato, e della Gratia di <persName ref="0174">Su Czarea
 					M[aes]:ta mio Clementissimo Imperatore</persName>, e de maggiore
 					riconoscim[en]:to (à giusa della mia Servità) circa il Stabilitomi elumento de
 					Iafimchi quattrcento dall'anno, con dover manere cosà all'ubidienza dal narato <persName
-						key="p0699">Ecc[elenstissi]:mo Ministro Plenipotntiario De Matveof</persName>
+            key="p0699">Ecc[elenstissi]:mo Ministro Plenipotntiario De Matveof</persName>
 					.</p>
-				<p>Dimorai à <placeName key="Vienna Vienna Austria"
-						ref="https://geonames.org/2761369">Vienna</placeName> per il corso di mesi
+				<p>Dimorai à <placeName
+            key="Vienna Vienna Austria"
+            ref="https://geonames.org/2761369">Vienna</placeName> per il corso di mesi
 					5, et in questo tempo non mancai di servire, tanto gl'Ecc[elentisssi]:mi
 					Ministri di Constantinopoli, quanto quella di Vienna </p>
 				<pb n="f. 3v" />
 				<p> in tutto ciò che da medemi era ordinato, con quella fedeltà, et ubidienza ch'é
-					dovuta ad'ogni fidelissimo Servo di <persName
-						key="p0174">Sua Czarea M[aes]:ta</persName>.</p>
+					dovuta ad'ogni fidelissimo Servo di <persName key="p0174">Sua Czarea M[aes]:ta</persName>.</p>
 				<p> Successe poi che Ecc[elen]:za V[ost]:ra ordinò (dopo otto mesi del prestato
-					Giuramente) <persName
-						key="p0699">all'Ecc[elentissi]:mo De Matveof</persName> di communicarmi con
+					Giuramente) <persName key="p0699">all'Ecc[elentissi]:mo De Matveof</persName> di communicarmi con
 					vito de Secretezza alcuni Publici affari, concernenti di Lega, che chiedeva la
 					Republica Veneta dal mio <persName key="p0174">Sovrano</persName>, et che per
 					ciò era necessario, che Io mi portasse à questa <orgName key="o0008">
@@ -744,8 +752,7 @@
 				<p><persName key="p0699">Sua Ecc[elen]:za De Matveof</persName> non maneò da quanto
 					gl'era prescrito. Me consegnò la Lettera dell'Ecc[elen]:za V[ost]:ra col Danaro
 					per un tal viaggion speditomi, e mi assicurò de maggiori avanzamenti di fortuna
-					da questa <orgName
-						key="o0008">Imperial Corte</orgName>.</p>
+					da questa <orgName key="o0008">Imperial Corte</orgName>.</p>
 				<p>Io non mancai d'ubidire imediatam[en]:te gl'ossequiati Comandi di V[ostra]:
 					E[ccelenza]: lasciando il Filglio all'oste per pegno de Rubli dueceto che
 					gl'audavo debito.</p>
@@ -768,29 +775,26 @@
 					la supplico) e riffleter alle mie passate persecutioni et alla povertà che mi
 					ridussero i miei nemici, alle miserie, ne quali presentemente mi ritrovo, et
 					alle calamità e pericoli, che s'abovano le mie languenti Creature, le quali,
-					chiamano Misericordia di <persName
-						key="p0174">Sua Czarea M[aes]:ta</persName>, e vendeta da Dio.</p>
+					chiamano Misericordia di <persName key="p0174">Sua Czarea M[aes]:ta</persName>, e vendeta da Dio.</p>
 				<p>V[ost]:ra E[ccelen]:za si degni per tanto compatiò le loro sciagure, e renderli
 					consolati col meso della mie liberat[io]:ne che cosi l'assicuro dalla M[aes]:ta
 					del'Altissimo la ricompensa coi questa Vita, e nell'eterna gloria, altremente se
 					il mio Santo (parlo di Paolo Apostolo) s'é apelato dal Cesare di Roma, io sarò
-					astreto d'apelarmi dal <persName
-						key="p0174">Cesare di Russia</persName>, mentre [?] sicuro, che la <persName
-						key="p0174">M[aes]:ta
+					astreto d'apelarmi dal <persName key="p0174">Cesare di Russia</persName>, mentre [?] sicuro, che la <persName
+            key="p0174">M[aes]:ta
 						di li Clementissimo
 						Imperatore</persName> non mancherà dalle fade datami per me di Suoi
 					fidelissimi Ministri, come appare dalla </p>
 				<pb n="f. 4" />
 				<p> Patente, e lessere de medesimi, che tutto se ritrova nel Baulo sigilatomi dal <persName
-						key="p1384">S[ignor]:
+            key="p1384">S[ignor]:
 						Secretario
 						Curbatov</persName>, ove pure sussistano altre Patenti, Scritture, Leggi,
 					Terminationi, et abozzi di Lettere publiche scrite da mè, formate praticate et
 					osservate nel tempo che mi ritrovano al Servitio della Republica Veneta, come
 					anco abozzi diLettere spedite à Ministri di Sua Czarea M[aes]:ta e di scritture
 					pre[sen]tate à me[desi]:mi, che tutte queste non devono esser in modo alcuno
-					comunicate o eshibite al Sopranarato <persName
-						key="p1381">Ecc[elentissi]:mo
+					comunicate o eshibite al Sopranarato <persName key="p1381">Ecc[elentissi]:mo
 						S[ignor]: Sava</persName>, mio aversario et unico persecutore.</p>
 				<p>Si ritrovano cui oltre 4 libri d'Istorie, et 3 di Medicina, con una Tariffa di
 					pagamenti per li Serventi dal'Armata Veneta. Un libro che descrive il governo
@@ -801,8 +805,9 @@
 					Rendite, per presentarlo poscia al mio <persName key="p0174">
 						Sovrano</persName>.</p>
 				<p>Se poi l'E[ccelen]:za V[ost]:ra vuò esser consapevole di tutto, potrà spedir a
-					levar il Processo da <placeName key="Rijeka Primorje-Gorski Kotar Croatia"
-						ref="https://geonames.org/3191648">Fiume</placeName>, ove ritroverà
+					levar il Processo da <placeName
+            key="Rijeka Primorje-Gorski Kotar Croatia"
+            ref="https://geonames.org/3191648">Fiume</placeName>, ove ritroverà
 					diferenti acuse, e di titta falsità, che senza scropolo di conscienza, e niente
 					di timor de Dio, m'eran adossate, e <persName key="p0494">dall'E[ccelentissi]:mo
 					Baron Saffirof</persName> medemand:e haver esata rellatione delle mie
@@ -816,8 +821,8 @@
 			<div>
 				<p>                                  Di V[ost]:ra E[ccelen]:za</p>
 				<p>Dall'Aresto della Guardia di <placeName
-						key="Saint Petersburg St.-Petersburg Russia"
-						ref="https://geonames.org/498817">Peterburgh</placeName> li P[ri]mo ottobre
+            key="Saint Petersburg St.-Petersburg Russia"
+            ref="https://geonames.org/498817">Peterburgh</placeName> li P[ri]mo ottobre
 					1714</p>
 				<p>                                                                                 
 					Hum[ilissi]:mo, Dev[otissi]:mo et Obligat[issi]:mo Serv[itore]: fid[elissi]:mo</p>

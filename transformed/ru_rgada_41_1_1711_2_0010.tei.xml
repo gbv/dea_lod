@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -98,14 +99,18 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
         xmlns:fabio="https://purl.org/spar/fabio#"
         xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
@@ -692,7 +697,8 @@
             key="Durrës Durrës County Albania"
             ref="https://geonames.org/3185728">Durazzo
           </placeName> une Felucca spedita dal console di Francia con lettere di <placeName
-            key="Istanbul Istanbul Türkiye" ref="https://geonames.org/745044">
+            key="Istanbul Istanbul Türkiye"
+            ref="https://geonames.org/745044">
             Costantinopoli
           </placeName> spedite da lui per la Francia, il quale hà
           riempito delle Nove alla roversia di quelle é stato sia hora serito da tutta la Pollonia,
@@ -700,7 +706,9 @@
           apportate ; ché però devo con tutto il più vivo sentim[en]to supplicare V[ostra]
           E[ccellenza] subito ché habbia le certe particolarità favorirmi comé tutta cortesia si
           esibisse; che servivano, per la quietezza degl’animi perturbati, é ché stano in <pb
-            cert="high" n="f. 57v" xml:space="default" />
+            cert="high"
+            n="f. 57v"
+            xml:space="default" />
         </p>
         <p>equilibbrio por la credenza. Si sentono pure tuttavia li Montenegrini in armi, et
           avanzati nelli progressi con l’acquisto di <placeName
@@ -711,17 +719,19 @@
           </placeName> ; comé pure si hà che quattrocento Zuppani si siano uniti alli
           detti Montenegrini con due Pezzi di canone. Questa nuova si hà da un Fregadone Perastino
           capitato pur hoggi da <placeName
-            key="Durrës Durrës County Albania" ref="https://geonames.org/3185728">
+            key="Durrës Durrës County Albania"
+            ref="https://geonames.org/3185728">
             Durazzo</placeName>, e che si parti due giorni inani della soprad[ett]a Felucha; Il
           Capitano del quale riffersi publicamente, che in <placeName
             key="Durrës Durrës County Albania"
             ref="https://geonames.org/3185728">Duradzo
-          </placeName> correva vocce dalli Turchi medemi, che l’armata di <persName
-            key="p0174">S[ua] M[aesta]
+          </placeName> correva vocce dalli Turchi medemi, che l’armata di <persName key="p0174">S[ua] M[aesta]
             Z[area]
           </persName> haveva tottalm[en]te battuta l’armata
           Ottomana ; ondé si sta con méno giubilo per la nova contraria della felucca <pb
-            cert="high" n="f. 58" xml:space="default" />
+            cert="high"
+            n="f. 58"
+            xml:space="default" />
         </p>
         <p>Per ciò l’E[ccellenza] V[ostra] può figurarsi quale e quanta sia la brama che si
           hà qui

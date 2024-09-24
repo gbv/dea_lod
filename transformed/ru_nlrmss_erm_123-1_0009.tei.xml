@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Treaty between King of France, King of Spain, and King of Great Britain</title>
+        <title
+          type="main"
+          xml:lang="en">Treaty between King of France, King of Spain, and King of Great Britain</title>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -101,7 +103,13 @@
     <body>
       <div type="letter">
         <head>
-          <title>9 November 1729. – Copy of th treaty between <persName key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">the King of France Louis XV</persName>, <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">the King of Spain Philip V</persName>, and <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">the King of Great Britain George II</persName>
+          <title>9 November 1729. – Copy of th treaty between <persName
+              key="p0212"
+              ref="523d4704-5637-41c3-8cf7-115628dbe6a8">the King of France Louis XV</persName>, <persName
+              key="p0208"
+              ref="f268d125-76a1-4a45-910f-95f794c640db">the King of Spain Philip V</persName>, and <persName
+              key="p0063"
+              ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">the King of Great Britain George II</persName>
           </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-1, f. 181v–182v. Copy of French original.</bibl>
@@ -111,11 +119,35 @@
         <p />
         <pb n="f. 181v" />
         <p> Au nom de la tres-Sainte trinité, Pere fils et St: Esprit, trois personnes distinctes, et un seul vrai Dieu.</p>
-        <p>Leurs Serenissimes Majestés le <persName key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roy tres-chretien</persName>, <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Le Roy Catholique</persName>, et le <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy de la grande Bretagne</persName> desirant avec un égal empressement non seulement de renouveller [sic] et de serrer plus étroitement leur ancienne amitié, mais aussy d’éloigner tout ce qui pourroit la troubler pour l’avenir afin qu’êtant unies de sentimens, et d’Inclination elles puissent agir desormais en tout, Comme n’ayant qu’un même objet et un même interest et pour cet Effet le serenissime <persName key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roy tres-chretien</persName> ayant donné plein-pouvoir de traitter en son Nom au Sr. <persName key="p0357" ref="f1089270-45eb-4fbb-8dd6-7dcfbe158964">Marquis de Brancas</persName> Lieutenant general de ses armées chevalier de ses ordres, et de celuy de la Toison d’or, son Lieutenant general au Gouvernement de Provence, et son Ambassadeur Extraordinaire aupres de sa majesté Catholique. Le Serenissime <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Roy Catholique</persName> ayant donné plein Pouvoir de traitter en son Nom au Sr: Jean Baptiste de Orendayn <persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">Marquis de la Paz</persName>, son Conseiller d’Etat et premier secretaire d’Etat, et des depeches, et au Sr: Joseph Patino Commandeur de Alcuesca [ ?] dans l’ordre de St Jacques, Gouverneur du Conseil des finances et des Tribunaux en dependans, superintendant general des rentes generalles, et son secretaire d’Etat et des Depeches dans les affaires de Marine, des Indes, et des Finances, et le </p>
+        <p>Leurs Serenissimes Majestés le <persName
+            key="p0212"
+            ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roy tres-chretien</persName>, <persName
+            key="p0208"
+            ref="f268d125-76a1-4a45-910f-95f794c640db">Le Roy Catholique</persName>, et le <persName
+            key="p0063"
+            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy de la grande Bretagne</persName> desirant avec un égal empressement non seulement de renouveller [sic] et de serrer plus étroitement leur ancienne amitié, mais aussy d’éloigner tout ce qui pourroit la troubler pour l’avenir afin qu’êtant unies de sentimens, et d’Inclination elles puissent agir desormais en tout, Comme n’ayant qu’un même objet et un même interest et pour cet Effet le serenissime <persName
+            key="p0212"
+            ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roy tres-chretien</persName> ayant donné plein-pouvoir de traitter en son Nom au Sr. <persName
+            key="p0357"
+            ref="f1089270-45eb-4fbb-8dd6-7dcfbe158964">Marquis de Brancas</persName> Lieutenant general de ses armées chevalier de ses ordres, et de celuy de la Toison d’or, son Lieutenant general au Gouvernement de Provence, et son Ambassadeur Extraordinaire aupres de sa majesté Catholique. Le Serenissime <persName
+            key="p0208"
+            ref="f268d125-76a1-4a45-910f-95f794c640db">Roy Catholique</persName> ayant donné plein Pouvoir de traitter en son Nom au Sr: Jean Baptiste de Orendayn <persName
+            key="p0218"
+            ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">Marquis de la Paz</persName>, son Conseiller d’Etat et premier secretaire d’Etat, et des depeches, et au Sr: Joseph Patino Commandeur de Alcuesca [ ?] dans l’ordre de St Jacques, Gouverneur du Conseil des finances et des Tribunaux en dependans, superintendant general des rentes generalles, et son secretaire d’Etat et des Depeches dans les affaires de Marine, des Indes, et des Finances, et le </p>
         <pb n="f. 182" />
-        <p> serenissime Roy de la grande Bretagne ayant pareillement donné plein Pouvoir de traitter en son nom au Sr. <persName key="p0164" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">Guillaume Stanhoppe</persName> vice-chambellan de la maison de sa majesté Britannique Conseiller dans Les Conseils d’Etat et privé membre du Parlement de la grande Bretagne, Colonel d’un Regiment de Dragons, et Ambassadeur extraordinaire de saditte majesté aupres Sa Majesté Catholique, Comme aussy au <persName key="p0358" ref="ae8e5b0c-627e-45a9-b194-1ed9d64c2d75">Sr Benjamin Keene</persName> Ministre Plenipotentiaire de saditte majesté Britannique aupres de sa majesté Catholique, Les ministres susmentionnés sont Convenus des articles suivants.</p>
+        <p> serenissime Roy de la grande Bretagne ayant pareillement donné plein Pouvoir de traitter en son nom au Sr. <persName
+            key="p0164"
+            ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">Guillaume Stanhoppe</persName> vice-chambellan de la maison de sa majesté Britannique Conseiller dans Les Conseils d’Etat et privé membre du Parlement de la grande Bretagne, Colonel d’un Regiment de Dragons, et Ambassadeur extraordinaire de saditte majesté aupres Sa Majesté Catholique, Comme aussy au <persName
+            key="p0358"
+            ref="ae8e5b0c-627e-45a9-b194-1ed9d64c2d75">Sr Benjamin Keene</persName> Ministre Plenipotentiaire de saditte majesté Britannique aupres de sa majesté Catholique, Les ministres susmentionnés sont Convenus des articles suivants.</p>
         <p>Article Premier</p>
-        <p>Il-y-aura des-à present et pour toujours une Paix solide, une union êtroite, et une amitié sincere, et Constante entre le s[érénissi]me <persName key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roy tres-Chretien</persName>, et le s[érénissi]me <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Roy d’Espagne</persName>, et le s[érénissi]me <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy de la grande Bretagne</persName>, leurs heritiers, et successeurs, Comme aussy entre leurs Royaumes, et sujets pour l’assistance et defense reciproque de leurs Etats, et Interets, il-y-aura pareillement oubli de tout le passé, et tous les traittes et Conventions precedens de Paix, d’amitié et de Commerce Conclus entre les Puissances Contractantes respectivement, seront Comme ils le sont effectivement renouvelles, et Confirmes dans tous leurs Points auxquels il n’est pas derogé par le present traitté, d’une maniere aussy pleine, et aussy ample, Comme si lesdits traittés etoient inserés icy de mot à mot, Leurs dittes majestés promettant de ne rien faire, ni </p>
+        <p>Il-y-aura des-à present et pour toujours une Paix solide, une union êtroite, et une amitié sincere, et Constante entre le s[érénissi]me <persName
+            key="p0212"
+            ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roy tres-Chretien</persName>, et le s[érénissi]me <persName
+            key="p0208"
+            ref="f268d125-76a1-4a45-910f-95f794c640db">Roy d’Espagne</persName>, et le s[érénissi]me <persName
+            key="p0063"
+            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy de la grande Bretagne</persName>, leurs heritiers, et successeurs, Comme aussy entre leurs Royaumes, et sujets pour l’assistance et defense reciproque de leurs Etats, et Interets, il-y-aura pareillement oubli de tout le passé, et tous les traittes et Conventions precedens de Paix, d’amitié et de Commerce Conclus entre les Puissances Contractantes respectivement, seront Comme ils le sont effectivement renouvelles, et Confirmes dans tous leurs Points auxquels il n’est pas derogé par le present traitté, d’une maniere aussy pleine, et aussy ample, Comme si lesdits traittés etoient inserés icy de mot à mot, Leurs dittes majestés promettant de ne rien faire, ni </p>
         <pb n="f. 182v" />
         <p> souffrir qu’il soit rien fait, qui puisse être contraire directement ou indirectement. […]</p>
       </div>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -98,14 +99,18 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
         xmlns:fabio="https://purl.org/spar/fabio#"
         xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
@@ -372,21 +377,29 @@
 
           <salute>
             <pb cert="high" n="f. 1" xml:space="default" />
-            <persName cert="high" evidence="internal" full="yes" instant="unknown"
+            <persName
+              cert="high"
+              evidence="internal"
+              full="yes"
+              instant="unknown"
               key="p1384"
               xml:space="default">Гсдрь Мой
             </persName>
           </salute>
         </opener>
-        <p>В надежде вшей ко мне склонности принес я смелость трудить <persName cert="high"
+        <p>В надежде вшей ко мне склонности принес я смелость трудить <persName
+            cert="high"
             evidence="internal"
-            full="yes" instant="unknown"
-            key="p1384" xml:space="default">
+            full="yes"
+            instant="unknown"
+            key="p1384"
+            xml:space="default">
             вас
           </persName> моего Гсдаря малою коммисиею, И притом покорно просить вас
           ежели вам не в труд будет чтоб пожаловали купили для меня в <placeName
             key="The Hague South Holland The Netherlands"
-            ref="https://geonames.org/2747373" cert="high">Гаге
+            ref="https://geonames.org/2747373"
+            cert="high">Гаге
           </placeName> табаку ежели можно сыскать ?? Raper de la Violete, а ежели  не
           можно сыскать простой 20 прутков ценою до 3х гулденов за фунт толко чтоб был лехкой, и без
           духов. . Також прошу вас гсдря моего купить из кнг Methode pour apprendre lerire les
@@ -395,17 +408,22 @@
           издержать извольте к тому ж купцу на меня вексель прислать, которой прежде сего по вашему
           векселю днги платил, и нне изволте блгонадежны пребыть, что как скоро мне вексель ваш
           представлен будет <pb
-            cert="high" n="f. 1v" xml:space="default" /> того ж часу днги по нем всеохотно заплачу.
+            cert="high"
+            n="f. 1v"
+            xml:space="default" /> того ж часу днги по нем всеохотно заплачу.
           В протчем пребываю </p>
-        <p>Вшь <persName cert="high" evidence="internal" full="yes" instant="unknown"
+        <p>Вшь <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
             key="p1384"
             xml:space="default">Гсдря моего
           </persName>
         </p>
         <p />
         <p />
-        <p>Из <placeName key="London England United Kingdom"
-            ref="https://geonames.org/2643743">
+        <p>Из <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">
             Лондона
           </placeName>
         </p>
@@ -413,7 +431,10 @@
         <p>1733г[о]</p>
         <closer>
           <signed>всеохотно послушной слуга </signed>
-          <signed>К.[нязь] <persName cert="high" evidence="internal" full="yes"
+          <signed>К.[нязь] <persName
+              cert="high"
+              evidence="internal"
+              full="yes"
               instant="unknown"
               key="p0030"
               xml:space="default">Антиох Кантемир

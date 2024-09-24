@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov,] from Moscow to the Postmaster General, Baron Friedrich [Georg of] Asch to St. Petersburg, written on March 18, 1731</title>
-        <title type="main" xml:lang="ru">В Санкт Питербурх к почт Директору Фридерику Ашу из Москвы от 18. Марта 1731 году писано</title>
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov,] from Moscow to the Postmaster General, Baron Friedrich [Georg of] Asch to St. Petersburg, written on March 18, 1731</title>
+        <title
+          type="main"
+          xml:lang="ru">В Санкт Питербурх к почт Директору Фридерику Ашу из Москвы от 18. Марта 1731 году писано</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -105,15 +109,24 @@
     <body>
       <div type="letter">
         <head>
-          <title>18 March 1731. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName key="g0001">Moscow</placeName> to the Postmaster General, Baron Friedrich [Georg of] Asch to <placeName key="g0002">St. Petersburg</placeName>, written on March 18, 1731</title>
+          <title>18 March 1731. – [Letter from <persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the Ottoman Porte, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName
+              key="g0001">Moscow</placeName> to the Postmaster General, Baron Friedrich [Georg of] Asch to <placeName
+              key="g0002">St. Petersburg</placeName>, written on March 18, 1731</title>
           <note>
             <bibl>NLR Mss, fond Erm, no. 123-4, f. 125. Copy of French original.</bibl>
           </note>
         </head>
         <p />
         <pb n="f. 125" />
-        <p>В <placeName key="g0002">Санкт Питербурх</placeName> к почт <persName key="p0311">Директору Фридерику Ашу</persName> из <placeName key="g0001">Москвы</placeName> от 18. Марта 1731 году писано.</p>
-        <p>J’ay pris la Liberté de vous écrire le 1.er de ce mois, et de vous envoyer une Lettre pour <persName key="p0796" ref="f74d8c97-d346-43ca-8cc3-688a58b7fd5f">Thimothé Usik</persName> mon valet, qui garde ma Maison dans l'<placeName key="g0002">Isle Wasiliewskoy</placeName> autrement Preobragenskoy, mais Comme sa reponse me manque je vous prie monsieur de me dire un môt, si vous avez dejà reçeu laditte ma Lettre et si l’incluse a eté rendue selon son adressé, dont vous obligerez. etc.</p>
+        <p>В <placeName key="g0002">Санкт Питербурх</placeName> к почт <persName
+            key="p0311">Директору Фридерику Ашу</persName> из <placeName
+            key="g0001">Москвы</placeName> от 18. Марта 1731 году писано.</p>
+        <p>J’ay pris la Liberté de vous écrire le 1.er de ce mois, et de vous envoyer une Lettre pour <persName
+            key="p0796"
+            ref="f74d8c97-d346-43ca-8cc3-688a58b7fd5f">Thimothé Usik</persName> mon valet, qui garde ma Maison dans l'<placeName
+            key="g0002">Isle Wasiliewskoy</placeName> autrement Preobragenskoy, mais Comme sa reponse me manque je vous prie monsieur de me dire un môt, si vous avez dejà reçeu laditte ma Lettre et si l’incluse a eté rendue selon son adressé, dont vous obligerez. etc.</p>
       </div>
     </body>
   </text>

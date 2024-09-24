@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -99,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -118,8 +124,10 @@
         <head>
           <title>15 Novembre 1709. – Letter from <orgName cert="high" key="o0124">Franz Poppe and
             Sons
-            </orgName> to the <persName cert="high"
-              key="p0729" type="real">Russian Ambassador to Denmark, Prince Vasilii
+            </orgName> to the <persName
+              cert="high"
+              key="p0729"
+              type="real">Russian Ambassador to Denmark, Prince Vasilii
               Lukich Dolgorukov
             </persName>
           </title>
@@ -139,12 +147,16 @@
           bonté, de nous le faire payer au pris courant, nous pouvons neanmoins, Monseigneur,
           assurer Votre Excellence, que si nous avions reçu ce dit segle, et qu'il eut eté en notre
           pouvoir, nous aurions pû tirer 125 Ecus de chaque Lafce [?], comme nous en donons <pb
-            cert="high" n="f. 1v" xml:space="default" /> aujourd'hui une profonde relation à <persName
+            cert="high"
+            n="f. 1v"
+            xml:space="default" /> aujourd'hui une profonde relation à <persName
             key="p1258">Monsieur Wilhelm Edinger</persName>, lui envoyant les attestations, qu'il a
           exigées de nous, touchant le pris, que le segle valoit au tems d'Arrêt, et ce que nous en
           aurions pu avoir. C'est pourquoi, Monseigneur, nous prenons la liberté de prier humblement
           Votre Excellence de nous faire la grace de terminer encore heureusement notre affaire avec <persName
-            cert="high" key="p1258" type="real">Mons:[ieur] Edinger</persName>, ce que nous nous
+            cert="high"
+            key="p1258"
+            type="real">Mons:[ieur] Edinger</persName>, ce que nous nous
           flattons d'aprendre bientôt, nous vous sommes cependant infiniment obligés, Monseigneur,
           de la bienveillance toute particulier, que Votre Excellence nous temoigne, et de la peine,
           qu'elle s'est bien voulû doner dans cette affaire : En reconoissance nous prenons la
@@ -154,14 +166,14 @@
           savoir, si elle souhaite, que nous lui fassions tenir les 3000 Risdales Albert, que nous
           lui avons offerts; il y a longtemps, que nous avons reçu avis de Moscovie, qu'on a tiré
           sur nous des lettres de change de la dite some. Soit donc, que le payement de ce blé se
-          fasse à <placeName key="Copenhagen Capital Region Denmark"
-            ref="https://geonames.org/2618425" cert="high"> Copenhague <precision match="@ref"
-              precision="high" />
+          fasse à <placeName
+            key="Copenhagen Capital Region Denmark"
+            ref="https://geonames.org/2618425"
+            cert="high"> Copenhague <precision match="@ref" precision="high" />
           </placeName> , ou qu'on nous le fasse promtement ici,
           Votre Excellence poura recevoir cette some du dit Mons:[ieur] Edinger moyenant une double
           quitance, contenant, que ce payement est pour la valeur des lettres de changes de 3000 Rx
-          tirés sur nous de <placeName key="Moscow Moscow Russia"
-            ref="https://geonames.org/524901">Moscou
+          tirés sur nous de <placeName key="Moscow Moscow Russia" ref="https://geonames.org/524901">Moscou
           </placeName> et payable à Votre Excellence, et qu'à l'arrivée de ces
           dites lettres, n'étant d'aucun [sic] valeur, elles nous soient livrées, en remettant entre
           les mains de <pb cert="high" n="f. 2v" xml:space="default" /> Votre Excellence sa propre

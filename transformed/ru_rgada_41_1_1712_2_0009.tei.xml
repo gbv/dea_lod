@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -97,14 +98,18 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
         xmlns:fabio="https://purl.org/spar/fabio#"
         xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
@@ -508,8 +513,7 @@
           <title>15 April 1712. – Letter from <persName key="p1374">the Russian agent in
               Venice Matteo
               Caretta
-            </persName> to <persName
-              key="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
+            </persName> to <persName key="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
           </title>
         </head>
         <opener>
@@ -524,8 +528,7 @@
               почтеннейшему Его Превосходителству Головкину Великому Канцлеру и
               Первому министру
             </persName>
-            : – из <placeName key="Venice Veneto Italy"
-              ref="https://geonames.org/3164603">Венеции
+            : – из <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Венеции
             </placeName> в день 15 апреля 1712. </salute>
           <salute>Нижайший раб <persName key="p1374">Матфей Карета</persName>
           </salute>
@@ -534,16 +537,17 @@
           Константинополя
           </placeName> 10 числа марта чрез писма приятели наши мне
           сказывают когда услышали турки, что <placeName
-            key="Azov Rostov Russia" ref="https://geonames.org/580054">Азов
+            key="Azov Rostov Russia"
+            ref="https://geonames.org/580054">Азов
           </placeName> стал в их руках, всякое дело лице переменило. Понеже другое
-          претендуют о Крайне, и что <persName
-            key="p0305">султан
+          претендуют о Крайне, и что <persName key="p0305">султан
           </persName> хотел сам итти во обозе, но законники их того нехотят, и муфтий
           нехочет дать фетфы. (то есть приговор закона их) Понеже так говорити что несть тое по
           закону. Когда де уже <persName key="p0174">
             Его Ц[а]рское Величество
           </persName> учинил <pb
-            cert="high" n="f. 47v"
+            cert="high"
+            n="f. 47v"
             xml:space="default" /> уже окончение трактату, надобно заключить мир : и что во всю луну
           мартову ненадеялися, ежебы им выставлять вон бунчуки : Однакоже я говорю, что никогда
           ненадобно уверятися о турках : – </p>
@@ -555,11 +559,12 @@
         <p>Уповаю на Б[о]га, что будем иметь мир: а ежели по случаю не будет : то я мню, что <persName
             key="p0174">Его Ц[а]рское Величество
           </persName> будет памятовать хр[ис]тиан монтенегринов :
-           понеже когда получат <pb cert="high" n="f. 48"
+           понеже когда получат <pb
+            cert="high"
+            n="f. 48"
             xml:space="default" /> м[и]л[ос]ть от н[а]шего Августейшаго <persName
             key="p0163">Императора</persName>, то учинят они превеликую разволоку туркам : но иа о
-          сем деле уже ничего недоношу понеже уже н[а]ш <persName
-            key="p1366">Г[оспо]д[и]н консул Боций
+          сем деле уже ничего недоношу понеже уже н[а]ш <persName key="p1366">Г[оспо]д[и]н консул Боций
           </persName> донес колико есть потребно, во своих писмах в
           прошлых временех, написанных к В[а]шему Превозходителству:  того ради о том ничего я
           неговорю, толко буду ожидать здесь приказаний В[а]шего Превозходителства : – </p>
@@ -567,18 +572,22 @@
           со сногими иными
           кораблями купетцкими, с солдатами, и с сухарами и все то в Морею :
         </p>
-        <p>На другой пришли писма из <placeName key="Zakynthos Ionian Islands Greece"
+        <p>На другой пришли писма из <placeName
+            key="Zakynthos Ionian Islands Greece"
             ref="https://geonames.org/251280">Занте
           </placeName> от провианта мейстера генералного и из <placeName
             key="Durrës Durrës County Albania"
             ref="https://geonames.org/3185728">Дураца
-          </placeName> от консула венецкаго <pb cert="high"
-            n="f. 48v" xml:space="default" /> что по Албании, и по всей Греции турки собирали много
+          </placeName> от консула венецкаго <pb
+            cert="high"
+            n="f. 48v"
+            xml:space="default" /> что по Албании, и по всей Греции турки собирали много
           людей, говоря что идем на московитян : сие говорят в сих странах : </p>
         <p>Посылаю обыкновенные ведомости италианские, да изволите в них видеть гюрнал  :</p>
         <p>
           <persName key="p1379">Конте Рашов</persName> здесь в <placeName
-            key="Venice Veneto Italy" ref="https://geonames.org/3164603">Венеции</placeName> ожидает
+            key="Venice Veneto Italy"
+            ref="https://geonames.org/3164603">Венеции</placeName> ожидает
           ответа в том чего желает от <persName key="p0174">Его Величества</persName> и от В[а]шего
           Превозходителства : тож оффицер голанец о котором уже доносил в моих писмах В[а]шему
           Превозходителству, о чем паки прошу ответствования : </p>
@@ -588,15 +597,14 @@
         <closer>
           <salute>способности писать ко мне по италиански, да повелит писать ко мне по французки или
             по латински, понеже единако то мне служит :  притом застаю всегда желателнейше
-            м[о]л[и]ти <persName
-              key="p0174">Нашего Августейшего Монарха
+            м[о]л[и]ти <persName key="p0174">Нашего Августейшего Монарха
             </persName> и защищения В[а]шего Превозходителства,
             лобызая руки В[а]шего Превозходителства нижайший и обдолженнейший раб </salute>
           <signed><persName key="p1366">Матфей Карета</persName>: </signed>
-          <dateline>Из <placeName key="Venice Veneto Italy"
+          <dateline>Из <placeName
+              key="Venice Veneto Italy"
               ref="https://geonames.org/3164603">Венеции</placeName>
-                        <date
-              when="1712-04-15">15 апреля 1712</date>. </dateline>
+                        <date when="1712-04-15">15 апреля 1712</date>. </dateline>
         </closer>
         <note>Also see: ru_rgada_41_1_1712_2_0008</note>
       </div>

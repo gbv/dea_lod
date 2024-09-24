@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov] from Paris to [the Vice-Chancellor of Russia,] Count Andrei Ivanovich [Heinrich Johann Friedrich] Osterman, written on October 2/13, 1730, along with the [letters to] the College of Foreign Affairs, through the Director of the Riga Post Schiffer</title>
-        <title type="main" xml:lang="ru">В Москву к Графу Андрею Ивановичю остерману из Парижа от 2/13 октября 1730 году писано при коллежских чрез рижского почт директора Скиффера</title>
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov] from Paris to [the Vice-Chancellor of Russia,] Count Andrei Ivanovich [Heinrich Johann Friedrich] Osterman, written on October 2/13, 1730, along with the [letters to] the College of Foreign Affairs, through the Director of the Riga Post Schiffer</title>
+        <title
+          type="main"
+          xml:lang="ru">В Москву к Графу Андрею Ивановичю остерману из Парижа от 2/13 октября 1730 году писано при коллежских чрез рижского почт директора Скиффера</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -105,7 +109,14 @@
     <body>
       <div type="letter">
         <head>
-          <title>2/13 October 1730. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName key="g0019">Paris</placeName> to [the Vice-Chancellor of Russia,] Count<persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a"> Andrei Ivanovich [Heinrich Johann Friedrich] Osterman, </persName>written on October 2/13, 1730, along with the [letters to] the College of Foreign Affairs, through <persName key="p0830" ref="3930c4c8-a2e1-4bd5-8e4d-be25c9278499">the Director of the Riga Post Schiffer</persName>
+          <title>2/13 October 1730. – [Letter from <persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName
+              key="g0019">Paris</placeName> to [the Vice-Chancellor of Russia,] Count<persName
+              key="p0167"
+              ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a"> Andrei Ivanovich [Heinrich Johann Friedrich] Osterman, </persName>written on October 2/13, 1730, along with the [letters to] the College of Foreign Affairs, through <persName
+              key="p0830"
+              ref="3930c4c8-a2e1-4bd5-8e4d-be25c9278499">the Director of the Riga Post Schiffer</persName>
           </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 59v. Copy of Russian original.</bibl>
@@ -113,10 +124,19 @@
         </head>
         <p />
         <pb n="f. 59v" />
-        <p>В <placeName key="g0001">Москву</placeName> к Графу <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Андрею Ивановичю остерману</persName> из <placeName key="g0019">Парижа</placeName> от 2/13 октября 1730 году писано при коллежских чрез рижского почт директора <persName key="p0830">Скиффера</persName>.</p>
-        <p>Почтеннейшее в[а]шего Сиятелства писмо от 13. Августа сего году, и с приложенным от <persName key="p0793">матери</persName> </p>
+        <p>В <placeName key="g0001">Москву</placeName> к Графу <persName
+            key="p0167"
+            ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Андрею Ивановичю остерману</persName> из <placeName
+            key="g0019">Парижа</placeName> от 2/13 октября 1730 году писано при коллежских чрез рижского почт директора <persName
+            key="p0830">Скиффера</persName>.</p>
+        <p>Почтеннейшее в[а]шего Сиятелства писмо от 13. Августа сего году, и с приложенным от <persName
+            key="p0793">матери</persName> </p>
         <pb n="f. 60" />
-        <p> моей я Получил исправно за что в[а]шему Сиятелству Милостивому Г[о]с[у]д[а]рю моему Попремногу бл[а]годарствую. притом всепокорнейше прошу в[а]шего Сиятелства подать мне руку помощи в резолюции по посланным от меня в правителствующий <orgName key="o0058">Сенат</orgName> и в коллегию иностранных <orgName key="o0001">дел</orgName> от 17/28 июля Сего году реляциям о недоплатных мне денгах, как о том во оных реляциях показано, дабы я чрез ту резолюцию могл свободен быть от <orgName key="o0069">коммерц коллегии</orgName> в платеже взятых мною взайм из <persName key="p0795">бауровых</persName> денег, чем в[а]ше Сиятелство и вяще меня одолжит. в протчем пребываю Со всяким моим должным Почтением. etc.</p>
+        <p> моей я Получил исправно за что в[а]шему Сиятелству Милостивому Г[о]с[у]д[а]рю моему Попремногу бл[а]годарствую. притом всепокорнейше прошу в[а]шего Сиятелства подать мне руку помощи в резолюции по посланным от меня в правителствующий <orgName
+            key="o0058">Сенат</orgName> и в коллегию иностранных <orgName
+            key="o0001">дел</orgName> от 17/28 июля Сего году реляциям о недоплатных мне денгах, как о том во оных реляциях показано, дабы я чрез ту резолюцию могл свободен быть от <orgName
+            key="o0069">коммерц коллегии</orgName> в платеже взятых мною взайм из <persName
+            key="p0795">бауровых</persName> денег, чем в[а]ше Сиятелство и вяще меня одолжит. в протчем пребываю Со всяким моим должным Почтением. etc.</p>
       </div>
     </body>
   </text>

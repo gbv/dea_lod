@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -100,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -532,14 +537,17 @@
         побыть здесь несколько времени для некоторой ползы его <persName key="p0174">Ц[а]р[с]каго
         Величества</persName> а именно дожидаюсь иа Фрауштата некоего моего приятеля которой за
         делами цесарскими сюда приехал и помешкав несколко поехал в <placeName
-          key="Warsaw Mazovia Poland" ref="https://geonames.org/756135">Варшаву
+          key="Warsaw Mazovia Poland"
+          ref="https://geonames.org/756135">Варшаву
         </placeName> на Генералной Сейм которой в первых числах будущаго мца
-        по новому штилю будет следовать. Сей приятель обещал давать мне ведомости <pb cert="high"
-          n="f. 4v" xml:space="default" /> о всем что тамо, также и при <orgName key="o0023">цесарском
-        дворе</orgName> чиница будет[.] Он же мне сказывал, что <persName
-          key="p0525">Король Полской
+        по новому штилю будет следовать. Сей приятель обещал давать мне ведомости <pb
+          cert="high"
+          n="f. 4v"
+          xml:space="default" /> о всем что тамо, также и при <orgName key="o0023">цесарском
+        дворе</orgName> чиница будет[.] Он же мне сказывал, что <persName key="p0525">Король Полской
         </persName> хотя и поедет в <placeName
-          key="Warsaw Mazovia Poland" ref="https://geonames.org/756135">Варшаву</placeName> сейму
+          key="Warsaw Mazovia Poland"
+          ref="https://geonames.org/756135">Варшаву</placeName> сейму
         небудет за болезнию прилипчивой, и за несогласием иных малых сеймов. Еще и затем что поляки
         хотят подождать ответа какой будет от <persName key="p0174">Ц[а]р[с]кого
           Величества
@@ -551,7 +559,9 @@
         учинилось то, что <persName key="p0739">Король
           пруской
         </persName> с Швециею и с <persName key="p0727">Королем
-        аглинским</persName> имеет кореспонденцию добрую <pb cert="high" n="f. 5"
+        аглинским</persName> имеет кореспонденцию добрую <pb
+          cert="high"
+          n="f. 5"
           xml:space="default" /> и сии союзники нехотят никак уступить чтобы быть <placeName
           key="Tallinn Port Harjumaa Estonia"
           ref="https://geonames.org/9847693">ревельскому порту

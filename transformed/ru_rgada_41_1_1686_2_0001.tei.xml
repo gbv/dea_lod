@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -102,15 +103,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#" />
     </xenoData>
@@ -119,12 +125,17 @@
     <body>
       <head>
         <title>
-          <title> 30 June 1686. – Sending the envoy <persName cert="high" evidence="internal"
+          <title> 30 June 1686. – Sending the envoy <persName
+              cert="high"
+              evidence="internal"
               full="yes"
-              instant="unknown" key="p1308"
+              instant="unknown"
+              key="p1308"
               xml:space="default">Ivan Volkov
-            </persName> to <placeName key="Venice Veneto Italy"
-              ref="https://geonames.org/3164603" cert="high">
+            </persName> to <placeName
+              key="Venice Veneto Italy"
+              ref="https://geonames.org/3164603"
+              cert="high">
               Venice</placeName> with a petition concerning the Eternal Peace and Alliance
             contracted by Russia and Poland against the Turks and Tatars and demanding from the
             Venetians a written response as to their intentions to attack the Turks this spring and
@@ -149,12 +160,22 @@
         hæreditatis et possessionis pacificè gubernandi et conservandi in
         aviternum.
       </p>
-      <p>Nos Serenissimi ac Potentissimi Magni Domini Tzares et Magni Duces <persName cert="high"
-          evidence="internal" full="yes" instant="unknown" key="p0464" xml:space="default">
+      <p>Nos Serenissimi ac Potentissimi Magni Domini Tzares et Magni Duces <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0464"
+          xml:space="default">
           Iohannes Alexeiewitz
         </persName>
-                <persName cert="high"
-          evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">
+                <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0174"
+          xml:space="default">
           Petrus Alexeiewitz
         </persName> Totius Magnæ et Parvæ et Albæ Russiæ
         Autocratores, Moscoviæ, Kiioviæ, Vladimiriæ, Novogardiæ, Tzares Casani, Tzares Astarachani
@@ -165,12 +186,19 @@
         nec non Cabardiniæ Circassorum ac Montanorum Ducum, aliorumq[ue] multorum regnorum ac
         terrarum Orientalium et Occidentalium et Septentrionalium Paterni Avitiq[ue] hæredes et
         successores Domini et Dominatores. </p>
-      <p>Serenissimo, Potenti Principi ac Domino Domino Marco <persName cert="high"
-          evidence="internal" full="yes"
-          instant="unknown" key="p1062"
+      <p>Serenissimo, Potenti Principi ac Domino Domino Marco <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1062"
           xml:space="default">Antonio Iustiniano
         </persName> Dei Gratia Duci Dominii Veneti, totiq[ue] <orgName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="o0030"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="o0030"
           xml:space="default">
           Senatui Venetiarum
         </orgName> Nostram Tzareæ Maiestatis amicam
@@ -187,19 +215,31 @@
           Cæsareæ Maiestatis Romanorum
         </persName>
                 <persName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="p0468"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0468"
           xml:space="default">
           Regiæq[ue] Maiestatis Poloniæ
         </persName> susceptam inter se in hunc
-        hostem Fœderis coniunctionem cum <persName cert="high" evidence="internal"
-          full="yes" instant="unknown" key="p1062"
+        hostem Fœderis coniunctionem cum <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1062"
           xml:space="default">Vestra quoq[ue] Magnificentia
         </persName> intercedentem advocatâ Nobis autem, Magnis
         Dominis Tzareæ Nostræ Maiestati ipsorum Confœderatorum expeditas expressè tunc temporis ad
         Nos Magnos Dominos ad Nostram Tzaream Maiestatem Magnas Legationes insinuato suspirante
-        animitus desiderio multaq[ue] requisitione <persName cert="high"
-          evidence="internal" full="yes"
-          instant="unknown" key="p1062" xml:space="default">
+        animitus desiderio multaq[ue] requisitione <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1062"
+          xml:space="default">
           Vestræ quoq[ue] Magnificentiæ
         </persName> desiderativâ per eandem supra
         memoratam</p>
@@ -216,24 +256,33 @@
         Christianas in paganam ipsorum captivitatem adactas redimere, adhibito rigoroso iuvamine ex
         parte Nostrum Magnorum Dominorum Tzareæ Nostræ Maiestatis, quod Nos Magni Domini Tzarea
         Nostra Maiestas <persName
-          cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p1062"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1062"
           xml:space="default">Vestræ
           Magnificentiæ</persName>per Nostras Tzareæ Maiestatis litteras per eandem tunc Aulæ Nostræ
         Tzareæ Maiestatis supramemoratam legationem significare non obliti sumus, quod negotium
         etiam Tzar[eæ]. Nostræ Maiestatis supra dictum ex bono affectu susceptum et auxilium
         studiosissimum cum confidentia in Deum nunc luculenter et gloriosè coram tota Christianitate
         apparuit, siquidem Nos Magni Domini Nostra Tzarea Maiestas percepta notificatione per amicas
-        litteras <persName cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p0463"
+        litteras <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0463"
           xml:space="default">Magni Domini Cæsareæ
           Suæ Maiestatis
         </persName> de expugnatione ab
-        exercitibus Cæsareæ Suæ Maiestatis <placeName key="Buda Budapest Hungary"
+        exercitibus Cæsareæ Suæ Maiestatis <placeName
+          key="Buda Budapest Hungary"
           ref="https://geonames.org/3054667"
           cert="high">Budæ
         </placeName> Metropolis Basilicæ Regni Hungariæ iam dudum olim in Turcarum
-        Potestatem delapsæ et nunquam antehâc à copiis <persName cert="high"
+        Potestatem delapsæ et nunquam antehâc à copiis <persName
+          cert="high"
           evidence="internal"
           full="yes"
           instant="unknown"
@@ -241,34 +290,54 @@
           xml:space="default">
           Cæsareæ Suæ Maiestatis
         </persName> neq[ue] à prædecessoribus <persName
-          cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p0463" xml:space="default">
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0463"
+          xml:space="default">
           Cæsareæ Maiestatis
         </persName> beatæ memoriæ Imperatoribus Romanis
         Regibusq[ue] Hungaricis devictæ, similiter quoq[ue] hoc anno de felici Victoria ex parte
         Vestræ Magnificentiæ deq[ue] debellatione duorum celebrium fortalitionum, <placeName
-          key="Paleokastro Peloponnese Greece" ref="https://geonames.org/6942691" cert="high">
+          key="Paleokastro Peloponnese Greece"
+          ref="https://geonames.org/6942691"
+          cert="high">
         Novarinumi
         </placeName> puta et <placeName
-          key="Methoni castle Peloponnese Greece" ref="https://geonames.org/11809079" cert="high">
+          key="Methoni castle Peloponnese Greece"
+          ref="https://geonames.org/11809079"
+          cert="high">
         Modonemæ
         </placeName> unâ cum residentia Turcarum Bassæ magnaq[ue] parte
         Moreæ, quod ad lætitiam pertinens ex causa supradicti Sancti Fœderis, non pridem à Nobis
-        Magnis Dominis à Tzarea Nostra Maiestate cum <persName cert="high"
-          evidence="internal" full="yes" instant="unknown" key="p0468"
+        Magnis Dominis à Tzarea Nostra Maiestate cum <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0468"
           xml:space="default">Regia Sua Maiestate
         </persName> constituti, uti de hoc Testimonium Nobis Magnis
-        Dominis Tzareæ Nostræ Maiestati, perhibet, <persName cert="high" evidence="internal"
+        Dominis Tzareæ Nostræ Maiestati, perhibet, <persName
+          cert="high"
+          evidence="internal"
           full="yes"
-          instant="unknown" key="p0463" xml:space="default">
+          instant="unknown"
+          key="p0463"
+          xml:space="default">
           Cæsareæ Maiestatis Romanorum
         </persName> amicæ litteræ, ex quibus Nos
         Magni Domini Nostra Tzarea Maiestas intelligentes predicamus cum gaudio</p>
       <pb cert="high" n="f. 21" xml:space="default" />
       <p>quod illud Tzareæ Nostræ Maiestatis forte instigans adiumentum secundum constituta pacta
-        cum <persName cert="high" evidence="internal"
+        cum <persName
+          cert="high"
+          evidence="internal"
           full="yes"
-          instant="unknown" key="p0468" xml:space="default">
+          instant="unknown"
+          key="p0468"
+          xml:space="default">
           Regia Maiestate
         </persName> non inane fuit, adferens toti Christianitati
         nunc Magnam lætitiam, pro quo decet gloriam referre. Efficienti omnia comprehendenti in
@@ -278,38 +347,67 @@
         coërcendos hostes, victoriam et debellationem, Nobis autem Magnis Dominis Tzareæ Nostræ
         Maiestati, quemadmodum et toti Christianitati per acceptam de hoc exultationem. Qualis autem
         ex parte Tzareæ Nostræ Maiestatis vigilans et studiose indefesse conatur bellicis
-        præparationibus in auxilium cooperativum <persName cert="high" evidence="internal"
+        præparationibus in auxilium cooperativum <persName
+          cert="high"
+          evidence="internal"
           full="yes"
-          instant="unknown" key="p0463" xml:space="default">
+          instant="unknown"
+          key="p0463"
+          xml:space="default">
           Cæsareæ Maiestati Romanorum
         </persName>
                 <persName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="p0468"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0468"
           xml:space="default">
           Regiæq[ue] Maiestati Poloniæ
         </persName> nec non <persName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="p1062"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1062"
           xml:space="default">Vestræ Magnificentiæ
         </persName> in fiduciam ac in diruptionem hostilium virium fide
         præsenti tempore intercedit, ac in posterum in eosdem adversarios, quales actiones
         interesserint, de hoc, Nos Magni Domini Nostra Tzarea Maiestas hisce Tzareæ Nostræ
-        Maiestatis litteris, <persName cert="high" evidence="internal" full="yes" instant="unknown"
+        Maiestatis litteris, <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
           key="p1062"
           xml:space="default">Magnificentiæ Vestræ
         </persName> significare voluimus: quod videlicet Nos Magni
         Domini Nostra Tzarea Maiestas pro debito tenore constitutorum tractatuum Nobis Magnis
-        Dominis cum <persName cert="high" evidence="internal" full="yes" instant="unknown"
+        Dominis cum <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
           key="p0468"
           xml:space="default">Regia Maiestate Poloniæ
         </persName> intercedentium nec non in incolumitatem
         Christianitatis, atroci hosti, Turcarum verò fideli semper adiutori et ubiq[ue] de improviso
         vi rumpenti Cremensum Chano cum innumeris eius ordis vel agminibus, causati sumus
-        detentionem ac diversionem ab exercitibus <persName cert="high" evidence="internal"
-          full="yes" instant="unknown"
-          key="p0463" xml:space="default">Cæsareæ Maiestatis Romanorum
+        detentionem ac diversionem ab exercitibus <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0463"
+          xml:space="default">Cæsareæ Maiestatis Romanorum
         </persName>
-                <persName cert="high"
-          evidence="internal" full="yes" instant="unknown" key="p0468" xml:space="default">
+                <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0468"
+          xml:space="default">
         Regiæq[ue] Maiestatis Poloniæ</persName>, per expeditionem Nostrarum Tzareæ Maiestatis
         copiarum militarium. Quemadmodum etiam per missas expressè à Nobis Magnis Dominis à Tzarea
         Nostra Maiestate ad ipsum Chanum Tzareæ Nostræ Maiestatis offensivas litteras, quibus hostis
@@ -319,10 +417,10 @@
         Nostræ Maiestatis Boiari et Woiiwodæ cum multinumeris Nostris Imperialibus copiis, quibus ad
         actiones istas bellicas expeditionem suam sucipere, Deoq[ue] adiuvante illos hostes bello
         aggredi imperabimus sine mora ac imminente </p>
-      <pb cert="high" n="f. 21v"
-        xml:space="default" />
+      <pb cert="high" n="f. 21v" xml:space="default" />
       <p>[si DEUS voluerit] tempore verili hoc est, ab initio Mense Martis absq[ue] dilatione
-        fiduciâ in hoc nitentes, quod et <persName cert="high"
+        fiduciâ in hoc nitentes, quod et <persName
+          cert="high"
           evidence="internal"
           full="yes"
           instant="unknown"
@@ -331,7 +429,8 @@
           Vestra Magnificentia
         </persName> certior facta de hoc Nostro Tzareæ
         Maiestatis supra significato instituto, per has Nostras Tzareæ Maiestatis amicas litteras in
-        eundem hostem Christianitatis <persName cert="high"
+        eundem hostem Christianitatis <persName
+          cert="high"
           evidence="internal"
           full="yes"
           instant="unknown"
@@ -340,7 +439,8 @@
           Turcarum sultanum
         </persName> legiones suas, respectu bellicae
         impressionis expeditura fuerit in eodem constituto tempore. Nosq[ue] Magni Domini Tzarea
-        Nostra Maiestas animitus desideramus, quô <persName cert="high"
+        Nostra Maiestas animitus desideramus, quô <persName
+          cert="high"
           evidence="internal"
           full="yes"
           instant="unknown"
@@ -351,25 +451,41 @@
         Maiestatis supra significato instituto per has Nostras Tzareæ Maiestatis amicas litteras in
         vindictam sui, idem sedulo efficiatis, ac in determinatum tempus exercitibus suis terrâ
         mariq[ue] bellicam impressionem facere iubeatis, non differendo hoc ad aliud tempus. De hoc
-        Nos Magni Domini Nostra Tzarea Maiestas <persName cert="high"
-          evidence="internal" full="yes" instant="unknown" key="p0463" xml:space="default">
+        Nos Magni Domini Nostra Tzarea Maiestas <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0463"
+          xml:space="default">
           Cæsareæ Maiestati Romanorum
         </persName>
                 <persName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="p0468"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0468"
           xml:space="default">
           Regiæq[ue] Maiestati Poloniæ
         </persName> in Nostris Tzareæ Maiestatis
         amicis litteris, atque sive proponere voluimus, nec dubitamus Nos Magni Domini Nostra Tzarea
-        Maiestas, <persName cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p0463"
+        Maiestas, <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0463"
           xml:space="default">Cæsaream Maiestatem Regiamq[ue] Maiestatem
         </persName> hoc effecturos fore; quia Deo
         adiuvante respectuq[ue] Christianæ confœderationis, communisq[ue] bellicæ impressionis
         facile Nobis Magnis Dominis Christianis erit cum confidentia et sine periculo in illo
         suprascripto et determinato tempore ex omnibus partibus, uti et ex <persName
-          cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p1062"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1062"
           xml:space="default">Vestræ Magnificentiæ
         </persName> in hostem illum arma convertere; Qua communi
         Christiana coniunctura hostis ille superbus (positâ in Deum fiducia) devictus erit, neq[ue]

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -99,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -207,13 +213,18 @@
         </opener>
         <p>Je viens de recevoir du Secretaire de Votre Altesse une quittance de diamants que je luy
           ay envoyé à <placeName
-            key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425">Coppenhague
+            key="Copenhagen Capital Region Denmark"
+            ref="https://geonames.org/2618425">Coppenhague
           </placeName> il y a plus de cinq semaines, conformement à l'ordre de
           Votre Altesse et le memoire du Sr. Trefort. Ça n'a pa ete sans peine de les assortir <pb
-            cert="high" n="f. 73v" xml:space="default" /> et je ne doute pas, qu'ils ne fassent un
+            cert="high"
+            n="f. 73v"
+            xml:space="default" /> et je ne doute pas, qu'ils ne fassent un
           tres bel effet; Je les ay marchandé au mieux possible et si apres un an l'on voudroit les
           rendre, Mr. La Chambre qui me les a fait avoir, s'est offert à les reprendre toujours à 10
-          Rx de perte par piece; Je me flatte, que <pb cert="high" n="f. 74"
+          Rx de perte par piece; Je me flatte, que <pb
+            cert="high"
+            n="f. 74"
             xml:space="default" /> le Secretaire de Votre Altesse en ait deja donné rapport, &amp;
           qu'Elle veuille bien agréer ce qui a eté fait à ce sujet; J'ay cy-joint une petite notte,
           afin que Votre Altesse voit ce que j'ay payé pour chaque piece j'avois envoyé un diamant

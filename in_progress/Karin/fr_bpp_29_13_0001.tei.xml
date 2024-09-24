@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Letter from the councilor of the Russian legation in Warsaw Pavel Gavrilovich Divov to Arkadii Ivanovich Morkov</title>
+        <title
+          type="main"
+          xml:lang="en">Letter from the councilor of the Russian legation in Warsaw Pavel Gavrilovich Divov to Arkadii Ivanovich Morkov</title>
         <author xml:lang="en">Pavel</author>
         <author xml:lang="en">Gavrilovich</author>
         <author xml:lang="en">Divov</author>
@@ -94,20 +98,47 @@
           <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData><rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" /></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>18 / 29 March 1794. – Letter from <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1191" xml:space="default">the Councilor of the Russian legation in Warsaw, Pavel Gavrilovich Divov</persName> , to <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0440" xml:space="default">Arkadii Ivanovich Morkov</persName>
+          <title>18 / 29 March 1794. – Letter from <persName
+              cert="high"
+              evidence="internal"
+              full="yes"
+              instant="unknown"
+              key="p1191"
+              xml:space="default">the Councilor of the Russian legation in Warsaw, Pavel Gavrilovich Divov</persName> , to <persName
+              cert="high"
+              evidence="internal"
+              full="yes"
+              instant="unknown"
+              key="p0440"
+              xml:space="default">Arkadii Ivanovich Morkov</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 13, f. 1885-1888. French original.</bibl>
           </note>
         </head>
-        <pb n="[[f. 1885]]"/>
+        <pb n="[[f. 1885]]" />
         <opener>
           <dateline>
             <placeName key="g0009">Varsovie</placeName>
@@ -115,11 +146,31 @@
           </dateline>
           <salute>Monsieur !</salute>
         </opener>
-        <p>Je suis si las de voir la pusillanimité de <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1158" xml:space="default">M[onsieu]r le Baron Igelstrom</persName>, qui craint meme dans sa maison de parler seul à des personnes qu’il voit pour la première fois, que je m’estimerois l’homme du monde le plus satisfait si je ne le voyois plus et je n’exagere point lorsque j’aurai l’honneur de dire à Votre Excellence qu’il est absolument inepte &amp; incapable de rien </p>
-        <pb n="[[f. 1886]]"/>
-        <p> gerer dès que la moindre nouvelle arrive du coté de ce <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1192" xml:space="default">brigand de Magdalinsky</persName>, qu’il avoit pu prendre au commencement. Il est honteux en verité qu’un general russe à la tete de 40/m[ille] à 50/m[ille] hommes redoute tant un tas de vagabonds sans ordres &amp; sans canons, il est bien plus honteux encore que ce meme general dont l’ame degradée par la frayeur, fasse faire aux cours etrangeres des demarches qui compromettent &amp; notre influence &amp; nos armes. <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1055" xml:space="default">L’envoyé de Prusse</persName> lui saura sans doute grès de toutes les sottises qu’il a faites, et je </p>
-        <pb n="[[f. 1887]]"/>
-        <p> ne suis pas surpris qu’il prenne tant d’interet à sa personne. Lundi prochain le 20/31. on procedera à la confection du traité de commerce. Ce que <persName key="p1158">le general</persName> appelle une Revolution françoise à <placeName key="g0326">Cracovie</placeName> n’est qu’une absurde confederation qu’il pouvoit prevenir.</p>
+        <p>Je suis si las de voir la pusillanimité de <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p1158"
+            xml:space="default">M[onsieu]r le Baron Igelstrom</persName>, qui craint meme dans sa maison de parler seul à des personnes qu’il voit pour la première fois, que je m’estimerois l’homme du monde le plus satisfait si je ne le voyois plus et je n’exagere point lorsque j’aurai l’honneur de dire à Votre Excellence qu’il est absolument inepte &amp; incapable de rien </p>
+        <pb n="[[f. 1886]]" />
+        <p> gerer dès que la moindre nouvelle arrive du coté de ce <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p1192"
+            xml:space="default">brigand de Magdalinsky</persName>, qu’il avoit pu prendre au commencement. Il est honteux en verité qu’un general russe à la tete de 40/m[ille] à 50/m[ille] hommes redoute tant un tas de vagabonds sans ordres &amp; sans canons, il est bien plus honteux encore que ce meme general dont l’ame degradée par la frayeur, fasse faire aux cours etrangeres des demarches qui compromettent &amp; notre influence &amp; nos armes. <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p1055"
+            xml:space="default">L’envoyé de Prusse</persName> lui saura sans doute grès de toutes les sottises qu’il a faites, et je </p>
+        <pb n="[[f. 1887]]" />
+        <p> ne suis pas surpris qu’il prenne tant d’interet à sa personne. Lundi prochain le 20/31. on procedera à la confection du traité de commerce. Ce que <persName
+            key="p1158">le general</persName> appelle une Revolution françoise à <placeName
+            key="g0326">Cracovie</placeName> n’est qu’une absurde confederation qu’il pouvoit prevenir.</p>
         <p>J’ai l’honneur d’etre avec les sentimens du plus profond respect &amp; de la plus vive reconnoissance</p>
         <closer>
           <salute>Monsieur</salute>
@@ -128,7 +179,7 @@
           <salute>obeissant serviteur</salute>
           <signed><persName key="p1191" ref="5d403ea2-9f48-4110-a587-ffb863ccc903">Paul Divow</persName>
           </signed>
-          <pb n="[[f. 1888]]"/>
+          <pb n="[[f. 1888]]" />
           <address><addrLine>Его Высокопревосходительству</addrLine>
           <addrLine>Милостивому государю</addrLine>
           <addrLine><persName key="p0440"> Аркадию Ивановичу Моркову</persName></addrLine>

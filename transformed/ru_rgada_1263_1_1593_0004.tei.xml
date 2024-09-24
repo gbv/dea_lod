@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Letter from an Unknown to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <title
+          type="main"
+          xml:lang="en">Letter from an Unknown to the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
         <author xml:lang="en">Unknown</author>
       </titleStmt>
       <editionStmt>
@@ -102,7 +104,9 @@
     <body>
       <div type="letter">
         <head>
-          <title>21 September 1759. – Letter from an <persName key="p0000">Unknown</persName> to the <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian envoy extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>21 September 1759. – Letter from an <persName key="p0000">Unknown</persName> to the <persName
+              key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian envoy extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1593, f. 56. French original.</bibl>
@@ -116,8 +120,12 @@
           <placeName key="g0004">La Haye</placeName> du 21. Sept[emb]<hi rendition="#sup">re</hi>. 1759.</p>
         <p />
         <p>
-          <persName key="p0000">M<hi rendition="#sup">r</hi>. de Hellen</persName> est à <placeName key="g0010">Amsterdam</placeName> pour traiter avec des entrepreneurs de Livraisons immenses de bled, avoine et munitions pour <placeName key="g0095">Magdebourg</placeName>. Ce que Votre Excellence me mande des indices de quelques negotiations, m’inquiette extremement, et je la suplie de m’eclairer là dessus.</p>
-        <p>Je crains l’abandon du coté des Françeois, qui quoi que superieurs de beaucoup, se laissent doner des nazardes, et souffrent lâchement, que <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">le Prince Ferdinand</persName> envoye 12/m. homes en Saxe. Je crains tout de leur part; la foiblesse porte toujours sa peine avec elle, et on ne peut que rougir de celle, qu’ils montrent en tout et partout. A juger [*par le langage que] les Espagnols tiennent, il paroit, qu’il n’y a rien à esperer d’eux pour nous, ils ne parlent que des perfidies, qu’ils ont eprouvées de la part des François et de la [#puissance, que la maison d’Autriche va acquerir dans cette guerre.]</p>
+          <persName key="p0000">M<hi rendition="#sup">r</hi>. de Hellen</persName> est à <placeName
+            key="g0010">Amsterdam</placeName> pour traiter avec des entrepreneurs de Livraisons immenses de bled, avoine et munitions pour <placeName
+            key="g0095">Magdebourg</placeName>. Ce que Votre Excellence me mande des indices de quelques negotiations, m’inquiette extremement, et je la suplie de m’eclairer là dessus.</p>
+        <p>Je crains l’abandon du coté des Françeois, qui quoi que superieurs de beaucoup, se laissent doner des nazardes, et souffrent lâchement, que <persName
+            key="p0055"
+            ref="f07e0b86-f844-458e-ab06-ae8e8122132e">le Prince Ferdinand</persName> envoye 12/m. homes en Saxe. Je crains tout de leur part; la foiblesse porte toujours sa peine avec elle, et on ne peut que rougir de celle, qu’ils montrent en tout et partout. A juger [*par le langage que] les Espagnols tiennent, il paroit, qu’il n’y a rien à esperer d’eux pour nous, ils ne parlent que des perfidies, qu’ils ont eprouvées de la part des François et de la [#puissance, que la maison d’Autriche va acquerir dans cette guerre.]</p>
       </div>
     </body>
   </text>

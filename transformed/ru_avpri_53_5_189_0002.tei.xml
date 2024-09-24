@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -100,15 +100,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -284,7 +289,8 @@
             <p>AVPRI, fond 53, opis 53/5, no. 189, f. 40-40v. Russian original.</p>
             <pb cert="high" n="f. 40" xml:space="default" />
           </note>
-          <salute>Доношение в <orgName key="o0129">государственную канцелярию опекунства иностранных</orgName>,
+          <salute>Доношение в <orgName
+              key="o0129">государственную канцелярию опекунства иностранных</orgName>,
             о 14 обретающихся при посолской Ея Имераторского Величества в Копенгагене канцелярии <persName
               key="p0541">переводчика Якима Лизакевича</persName>
           </salute>
@@ -319,9 +325,9 @@
         </p>
         <pb cert="high" n="f. 40v" xml:space="default" />
         <p>меншаго состоявшей, однакож недоверяясь оному, просил находящегося в <placeName
-            key="Nykøbing Falster" ref="http://www.wikidata.org/entity/Q986435">Никопинге
-          </placeName> две мили от здешняго местечка, дацкаго флота капитана <persName
-            key="p1944">Штибалта
+            key="Nykøbing Falster"
+            ref="http://www.wikidata.org/entity/Q986435">Никопинге
+          </placeName> две мили от здешняго местечка, дацкаго флота капитана <persName key="p1944">Штибалта
           </persName> приехать сюда, и осмотреть, имеется ли какая нибудь надежда
           к снятию онаго бота. Сей старый и весма искусной офицер осмотря оной на мели стоящей бот,
           уверил меня, что онаго никоими мерами снять невозможно, и что он советует продать его
@@ -333,7 +339,8 @@
           которая ему сходна покажется. </p>
         <p> В протчем я уповаю что снятой бот в исходе сей недели осмотрен и починен быть имеет, и в
           состояние приведен быть может в назначенное ему место чрез восемь дней отправится. В <placeName
-            key="Nysted Zealand Denmark" ref="https://geonames.org/2615911">Ништате
+            key="Nysted Zealand Denmark"
+            ref="https://geonames.org/2615911">Ништате
           </placeName> июня. 28го / июля. 9го дня 1766 году </p>
         <p />
         <closer>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Constantina to [the Spanish general,] Duke [José María Téllez-Girón] of Osuna, to the farmhouse where he has been living [written] on July 11, 1730</title>
-        <title type="main" xml:lang="ru">Из Константины от 11 июля 1730 году к дуку де Оссуна в куртихо где он живет писано</title>
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Constantina to [the Spanish general,] Duke [José María Téllez-Girón] of Osuna, to the farmhouse where he has been living [written] on July 11, 1730</title>
+        <title
+          type="main"
+          xml:lang="ru">Из Константины от 11 июля 1730 году к дуку де Оссуна в куртихо где он живет писано</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -105,10 +109,15 @@
     <body>
       <div type="letter">
         <head>
-          <title>11 July 1730. – [Letter from<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov</persName>,] <hi rendition="#b">from </hi>
+          <title>11 July 1730. – [Letter from<persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov</persName>,] <hi
+              rendition="#b">from </hi>
             <placeName key="g0107">
               <hi rendition="#b">Constantina</hi>
-            </placeName> to [<persName key="p0323" ref="b97ef432-8fbe-46cc-bd53-19502c8c781d">the Spanish general,] Duke [José María Téllez-Girón] of Osuna</persName> to the farmhouse where he has been living [written] on July 11, 1730</title>
+            </placeName> to [<persName
+              key="p0323"
+              ref="b97ef432-8fbe-46cc-bd53-19502c8c781d">the Spanish general,] Duke [José María Téllez-Girón] of Osuna</persName> to the farmhouse where he has been living [written] on July 11, 1730</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 21. Copy of French original.</bibl>
           </note>
@@ -116,8 +125,13 @@
         <p />
         <pb n="f. 19" />
         <p />
-        <p>Из <placeName key="g0107">Константины</placeName> от 11 июля 1730 году к <persName key="p0323" ref="b97ef432-8fbe-46cc-bd53-19502c8c781d">дуку де Оссуна</persName> в куртихо где он живет писано</p>
-        <p>Je souhaiterois fort de voir V[otre] E[xcellence] pour luy remercier personellement de toutes les bontés et politesses, qu’elle a bien voulu de me temoigner pendant mon séjour en <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette cour</orgName>, et en même temps de prendre congé d’elle ; j’ay creu de m’en acquitter êtant la semaine passée à <placeName key="g0093">Cazalla</placeName> dans l’esperance que V[otre] E[xcellence] fut logé là, mais son eloignement de là, et particulierement d’icy m’a privé de cet honneur là, et m’oblige de prendre congé d’elle par celle-cy en reiterant mes asseurances de la respectueuse consideration avec laquelle j’ay l’honneur d’être etc.</p>
+        <p>Из <placeName key="g0107">Константины</placeName> от 11 июля 1730 году к <persName
+            key="p0323"
+            ref="b97ef432-8fbe-46cc-bd53-19502c8c781d">дуку де Оссуна</persName> в куртихо где он живет писано</p>
+        <p>Je souhaiterois fort de voir V[otre] E[xcellence] pour luy remercier personellement de toutes les bontés et politesses, qu’elle a bien voulu de me temoigner pendant mon séjour en <orgName
+            key="o0020"
+            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette cour</orgName>, et en même temps de prendre congé d’elle ; j’ay creu de m’en acquitter êtant la semaine passée à <placeName
+            key="g0093">Cazalla</placeName> dans l’esperance que V[otre] E[xcellence] fut logé là, mais son eloignement de là, et particulierement d’icy m’a privé de cet honneur là, et m’oblige de prendre congé d’elle par celle-cy en reiterant mes asseurances de la respectueuse consideration avec laquelle j’ay l’honneur d’être etc.</p>
       </div>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -98,15 +99,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -194,12 +200,25 @@
   <text>
     <body>
       <head> 10 November 1714. – Letter of credence from the King of Denmark and Norway, <persName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="p0532"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0532"
           xml:space="default">Frederick IV</persName>, to the Tsar of Russia, <persName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0174"
           xml:space="default">Peter
-          I</persName>, issued for the Danish Envoy Extraordinary to Russia, <persName cert="high"
-          evidence="internal" full="yes" instant="unknown" key="p0984" xml:space="default">
+          I</persName>, issued for the Danish Envoy Extraordinary to Russia, <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0984"
+          xml:space="default">
           Hans Georg Westfalen
         </persName>
 
@@ -213,15 +232,24 @@
           Russian.
         </note>
         <pb cert="high" n="f. 4" xml:space="default" />
-        <salute>Durchleuchtigste, Stormægtigste <persName cert="high" evidence="internal" full="yes"
-            instant="unknown" key="p0174" xml:space="default">
+        <salute>Durchleuchtigste, Stormægtigste <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0174"
+            xml:space="default">
             Czar</persName>, </salute>
         <salute>Elskelige Kiære Broder, Ven og Naboe,</salute>
       </opener>
       <p>Som nær værende Conjuncturer saaledes ere beskaffene, at Jeg, for der over, effter
-        anledning af dend Mig og <persName cert="high" evidence="internal" full="yes"
+        anledning af dend Mig og <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
           instant="unknown"
-          key="p0174" xml:space="default">Eders May[estæt]
+          key="p0174"
+          xml:space="default">Eders May[estæt]
         </persName> og Kierl[ighe]d imellem værende nære
         Alliance-Tractat med dennem udi Broder- og Naboevenlig Fortroelighed at kunde communicere,
         for nödvendig haver fundet, Een af mine Ministrer, som Min Envoyé Extraordinaire til Eders
@@ -249,32 +277,55 @@
       </p>
       <closer>
         <salute>
-          <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+          <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0174"
             xml:space="default">Eders May[estæ]ts
           </persName> og Kierl[ighe]ds <lb /> Tro Broder, Ven
           og Naboe. </salute>
 
-        <dateline><placeName key="Copenhagen Capital Region Denmark"
+        <dateline><placeName
+            key="Copenhagen Capital Region Denmark"
             ref="https://geonames.org/2618425"
             cert="high">Kiöbenhaffn</placeName>, <lb /> dend <date>10. Novembris <lb /> Anno 1714 </date>
           . </dateline>
         <signed>
-          <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0532"
+          <persName
+            cert="high"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
+            key="p0532"
             xml:space="default">F  riderich
           </persName> R[ex] </signed>
 
-        <signed><persName cert="medium" evidence="internal" full="yes" instant="unknown"
+        <signed><persName
+            cert="medium"
+            evidence="internal"
+            full="yes"
+            instant="unknown"
             xml:space="default"
             key="p1505">C: Sehestedt</persName>. </signed>
         <pb cert="high" n="f. 5" xml:space="default" />
-        <salute>Dend Durchleuchtigste, Stormægtigste <persName cert="high" evidence="internal"
+        <salute>Dend Durchleuchtigste, Stormægtigste <persName
+            cert="high"
+            evidence="internal"
             full="yes"
-            instant="unknown" key="p0174"
+            instant="unknown"
+            key="p0174"
             xml:space="default">Czar</persName>, og Stor Förste udi det hele Ryßland. p[erge] </salute>
       </closer>
-      <note>Грамота <persName cert="high" evidence="internal" full="yes" instant="unknown"
+      <note>Грамота <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
           key="p0174"
-          xml:space="default">г[о]с[у]д[а]рю</persName>от <persName cert="high"
+          xml:space="default">г[о]с[у]д[а]рю</persName>от <persName
+          cert="high"
           evidence="internal"
           full="yes"
           instant="unknown"
@@ -282,7 +333,11 @@
           xml:space="default">короля
           датцкого
         </persName> верющая посланника чрезвычайного <persName
-          cert="high" evidence="internal" full="yes" instant="unknown" key="p0984"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0984"
           xml:space="default">Вестфала
         </persName> в 1714-м году. Подал он, посланник 20-го февраля 1715. </note>
     </body>

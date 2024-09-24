@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Paris to the merchants Girard and Glan to Berlin, written on 13. 8bre: [October] 1730 along with the letters to the Chancellor of Russia, Count Gavrila Ivanovich Golovkin
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Paris to the merchants Girard and Glan to Berlin, written on 13. 8bre: [October] 1730 along with the letters to the Chancellor of Russia, Count Gavrila Ivanovich Golovkin
 </title>
-        <title type="main" xml:lang="ru">В берлин к купцам Жирарду и Глану из Парижа от 13. 8 bre : 1730 Году писано при писмах Графа Головкина</title>
+        <title
+          type="main"
+          xml:lang="ru">В берлин к купцам Жирарду и Глану из Парижа от 13. 8 bre : 1730 Году писано при писмах Графа Головкина</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -106,7 +110,15 @@
     <body>
       <div type="letter">
         <head>
-          <title>13 October 1730. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName key="g0019">Paris</placeName> to <persName key="p0000">the merchants Girard</persName> and <persName key="p0000">Glan</persName> to <placeName key="g0012">Berlin</placeName>, written on 13. 8bre: [October] 1730 along with the letters to <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Chancellor of Russia, Count Gavrila Ivanovich Golovkin</persName>
+          <title>13 October 1730. – [Letter from <persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName
+              key="g0019">Paris</placeName> to <persName
+              key="p0000">the merchants Girard</persName> and <persName
+              key="p0000">Glan</persName> to <placeName
+              key="g0012">Berlin</placeName>, written on 13. 8bre: [October] 1730 along with the letters to <persName
+              key="p0071"
+              ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Chancellor of Russia, Count Gavrila Ivanovich Golovkin</persName>
           </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 58v–59. Copy of French original.</bibl>
@@ -114,8 +126,18 @@
         </head>
         <p />
         <pb n="f. 58v" />
-        <p>В <placeName key="g0012">берлин</placeName> к купцам <persName key="p0000">Жирарду</persName> и <persName key="p0000">Глану</persName> из <persName key="g0019">Парижа</persName> от 13. 8 bre : 1730 Году писано при писмах <persName key="p0175">Графа Головкина</persName>.</p>
-        <p>C’est sous les auspices de S[o]n Ex[cellen]ce mr: Le <persName key="p0175">Comte de Golowkin</persName> que je prens la Liberté de vous envoyer cy-joint les deux incluses, dont l’une est pour mr: le <persName key="p0318">Prince de Galitzin</persName>, et l’autre pour mr: <persName key="p0293">Kalouchekin</persName>, et je vous prie messieurs en même Temps de vouloir bien faire rendre les dittes incluses en mains propres; En Cas que mr: le <persName key="p0318">Prince de Galitzin</persName> sera parti de <placeName key="g0012">Berlin</placeName> avant l’arrivée de mes Lettres, vous aurez la bonté de rendre l’incluse pour luy en mains de mr: <persName key="p0293">Kalouchekin</persName> qui à ce que je crois restera là encore quelque Temps. Supposé que mr: <persName key="p0293">Kalouchekin</persName> sera parti également soit pour son Pays ou ailleurs vous m’obligerez infiniment de faire retirer de la maison de Poste toutes Les Lettres que pourront venir à mon adresse, et de les garder chez vous jusqu’à un nouvel avis que je vous en donneray. En attendant de vous offrir </p>
+        <p>В <placeName key="g0012">берлин</placeName> к купцам <persName
+            key="p0000">Жирарду</persName> и <persName key="p0000">Глану</persName> из <persName
+            key="g0019">Парижа</persName> от 13. 8 bre : 1730 Году писано при писмах <persName
+            key="p0175">Графа Головкина</persName>.</p>
+        <p>C’est sous les auspices de S[o]n Ex[cellen]ce mr: Le <persName
+            key="p0175">Comte de Golowkin</persName> que je prens la Liberté de vous envoyer cy-joint les deux incluses, dont l’une est pour mr: le <persName
+            key="p0318">Prince de Galitzin</persName>, et l’autre pour mr: <persName
+            key="p0293">Kalouchekin</persName>, et je vous prie messieurs en même Temps de vouloir bien faire rendre les dittes incluses en mains propres; En Cas que mr: le <persName
+            key="p0318">Prince de Galitzin</persName> sera parti de <placeName
+            key="g0012">Berlin</placeName> avant l’arrivée de mes Lettres, vous aurez la bonté de rendre l’incluse pour luy en mains de mr: <persName
+            key="p0293">Kalouchekin</persName> qui à ce que je crois restera là encore quelque Temps. Supposé que mr: <persName
+            key="p0293">Kalouchekin</persName> sera parti également soit pour son Pays ou ailleurs vous m’obligerez infiniment de faire retirer de la maison de Poste toutes Les Lettres que pourront venir à mon adresse, et de les garder chez vous jusqu’à un nouvel avis que je vous en donneray. En attendant de vous offrir </p>
         <pb n="f. 59" />
         <p> mes services personnellement j’ay l’honneur de vous dire messieurs par celle-cy que j’auray un vray plaisir de vous temoigner dans toutes les occasions la bonne volonté que j’ay de vous servir, et que je suis tres-verit[ablement] etc.</p>
       </div>

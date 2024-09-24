@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -96,15 +97,20 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-        xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
         xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
@@ -226,17 +232,15 @@
           Рим
         </placeName> всеконечно освободит. </p>
       <p>К тому ж и <persName key="p1392">г[оспо]д[и]н агент Беклемишев</persName> прежде сего
-        ответа из <placeName
-          key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима
+        ответа из <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима
         </placeName> прошлой недели за то же дело в <placeName
-          key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим</placeName> поехал, за
+          key="Rome Lazio Italy"
+          ref="https://geonames.org/3169070">Рим</placeName> поехал, за
         наилутчую к В[ашем]:у В:[еличест]ву услугу, котораго иа римским приятелям рекомендовал, и
-        хотя б путешествия его в <placeName key="Rome Lazio Italy"
-          ref="https://geonames.org/3169070">Рим
+        хотя б путешествия его в <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим
         </placeName> не было, то б <persName key="p1387">г[оспо]д[и]н кардинал
         Отобони</persName> по возвращении <persName key="p1394">кардинала Албани</persName>
-                <pb
-          cert="high" n="f. 11v" xml:space="default" />
+                <pb cert="high" n="f. 11v" xml:space="default" />
       </p>
       <p>несумнително дело совершил как можно увидеть из вышеписаннаго его писма, который во истинну
         всем делам В[аше]:го В:[еличест]ва зело склонен, как В[ашем]:у В:[еличест]ву может быть
@@ -273,7 +277,8 @@
           Рима
         </placeName> не имею ни каких ведомостей, а ежели впред
         что услышу донести не оставлю. </p>
-      <p>Ведомости здесь что последна <placeName key="Messina Sicily Italy"
+      <p>Ведомости здесь что последна <placeName
+          key="Messina Sicily Italy"
           ref="https://geonames.org/2524170">
           крепость Мисинска
         </placeName> в Сицилии по жестоком осаде и
@@ -285,15 +290,16 @@
         шпаниолы ни откуду ничего. </p>
       <p>Из турецкой земли пишут, что превеликой мор, и что посланник В[аше]го: В:[еличеств]а всеми
         мерами добивается при <orgName key="o0011">дворе турецком</orgName>, дабы турки и паки <pb
-          cert="high" n="f. 12v" xml:space="default" />
+          cert="high"
+          n="f. 12v"
+          xml:space="default" />
       </p>
       <p>
         <persName key="p0163">цесарю</persName> войну зачали купно с В[а]шим Величеством, для того
         что <persName key="p0163">Цесарь</persName> учинил алеанцу с разными потентатами противу
         В[аше]го: В:[еличеств]а и буто сумневается что сие может произойти чрез интриги <persName
           key="p1162">принца Рагоци</persName>. </p>
-      <p>Знаю подлинно, что из <placeName key="Istanbul Istanbul Türkiye"
-          ref="https://geonames.org/745044">
+      <p>Знаю подлинно, что из <placeName key="Istanbul Istanbul Türkiye" ref="https://geonames.org/745044">
           Цариграда
         </placeName> о том не одна персона из рипрезентайтову
         пишет, а правда или нет о том не ведаю. А здешним сие не было б противно ибо от всюду, а
@@ -303,7 +309,9 @@
         и впред ссылаясь на его реляции
       </p>
       <closer>
-        <dateline>из <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Венеции</placeName>
+        <dateline>из <placeName
+            key="Venice Veneto Italy"
+            ref="https://geonames.org/3164603">Венеции</placeName>
                     <date>октября
           23: <lb /> 1719 году </date>
         </dateline>

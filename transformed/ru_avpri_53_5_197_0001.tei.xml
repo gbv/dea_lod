@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
   <teiHeader>
@@ -101,14 +102,18 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
         xmlns:fabio="https://purl.org/spar/fabio#"
         xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
@@ -513,8 +518,7 @@
               Prince Golitsyn</persName>] to <persName key="p1422">Baron von Fersen,
               councillor of the Embassy
               in Copenhagen</persName>, concerning the receipt of all his letters; the imminent
-          arrival of <persName
-              key="p0127">Saldern
+          arrival of <persName key="p0127">Saldern
             </persName> in <placeName
               key="Copenhagen Capital Region Denmark"
               ref="https://geonames.org/2618425">Copenhagen</placeName>; the impossibility of
@@ -547,18 +551,17 @@
           regarde cette succession. Ainsi Mr. Vous resterez tranquille jusqu'à son arrivée. Vous
           voudrez bien alors le seconder dans toutes les choses où il aura besoinde vos conseils. <pb
             cert="high"
-            n="f. 1v" xml:space="default" />
+            n="f. 1v"
+            xml:space="default" />
         </p>
         <p> Je vous prie seulement de veiller à la sureté des effets et surtout je Vous recommande
-          la bibliothèque comme une chose destinele [?] du reste par l'acquisition que <orgName
-            key="o0008">la
+          la bibliothèque comme une chose destinele [?] du reste par l'acquisition que <orgName key="o0008">la
             Cour
           </orgName> en a faite. </p>
         <p> Les desirs que j'ai eu et que je conserve toujours Monsieur, de contribuer à Votre bien
           être son[t] fondés sur l'estime et la justice que je rends à Votre application aux
           affaires. Ce seroit les connoître mal que de croire que la nomination d'un nouveau
-          ministre au Poste de <persName
-            key="p0245">Mr. de Korff
+          ministre au Poste de <persName key="p0245">Mr. de Korff
           </persName> y marque quelque altercation. J'aurais souhaité que le
           defunt eut vecu assez longtems pour ne pouvoir avec quelque espece de justice avoir
           d'autre successeur que Vous et telle a été mon intention en Vous faisant nommer Conseiller
@@ -569,7 +572,9 @@
             key="Copenhagen Capital Region Denmark"
             ref="https://geonames.org/2618425">Kopenhague</placeName>. C'etoit la meilleure ecole ou
           Vous puissiez Vous perfectionner dans la carriere des affaires. La mort prématurée de <persName
-            key="p0245">Mr. le Baron de Korff</persName> met actuellement <pb cert="high" n="f. 2"
+            key="p0245">Mr. le Baron de Korff</persName> met actuellement <pb
+            cert="high"
+            n="f. 2"
             xml:space="default" />
         </p>
         <p>un obstacle à mes vuës. Elle n'en mettra point à vos progrès parce que votre

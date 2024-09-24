@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Granada to Commandant Becar to Santa Fe , on June 2, 1730</title>
+        <title
+          type="main"
+          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Granada to Commandant Becar to Santa Fe , on June 2, 1730</title>
         <title type="main" xml:lang="ru">В Cанта Фе к бригадиру Бекару из Гранады 4 июня 1730</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
@@ -105,7 +107,10 @@
     <body>
       <div type="letter">
         <head>
-          <title>4 June 1730. – [Letter from<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] <hi rendition="#b">from </hi>
+          <title>4 June 1730. – [Letter from<persName
+              key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] <hi
+              rendition="#b">from </hi>
             <placeName key="g0102">
               <hi rendition="#b">Granada </hi>
             </placeName>to <persName key="p0000">Commandant Becar </persName>
@@ -120,8 +125,14 @@
         <p />
         <pb n="f. 3" />
         <p />
-        <p>В <placeName key="g0106">Cанта Фе</placeName> к <persName key="p0000">суббрегадиру Бекару</persName> из <placeName key="g0102">Гранады</placeName> 4 июня 1730 году писано</p>
-        <p>J’ay à vous demender monsieur de me faire plaisir, c’est de vouloir bien dire un môt à los Aposentadores de los Сaminos qu’ils me pourvoient d’une maison, soit à <placeName key="g0107">Constantina</placeName>, soit à <placeName key="g0093">Cazalla</placeName> selon qu’ils auront l’ordre de la <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName> de loger les ministres etrangers, dont je vous seray bien obligé. En même temps je vous prie monsieur de donner l’œil à cet logement qu’il soit capable pour ma famille et pour l’equipage dont le nombre vous est connu. J’ay l’honneur d’être tres veritablement etc.</p>
+        <p>В <placeName key="g0106">Cанта Фе</placeName> к <persName
+            key="p0000">суббрегадиру Бекару</persName> из <placeName
+            key="g0102">Гранады</placeName> 4 июня 1730 году писано</p>
+        <p>J’ay à vous demender monsieur de me faire plaisir, c’est de vouloir bien dire un môt à los Aposentadores de los Сaminos qu’ils me pourvoient d’une maison, soit à <placeName
+            key="g0107">Constantina</placeName>, soit à <placeName
+            key="g0093">Cazalla</placeName> selon qu’ils auront l’ordre de la <orgName
+            key="o0020"
+            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName> de loger les ministres etrangers, dont je vous seray bien obligé. En même temps je vous prie monsieur de donner l’œil à cet logement qu’il soit capable pour ma famille et pour l’equipage dont le nombre vous est connu. J’ay l’honneur d’être tres veritablement etc.</p>
       </div>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -98,14 +99,18 @@
       </sourceDesc>
     </fileDesc>
     <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:as="http://www.w3.org/ns/activitystreams#"
         xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
         xmlns:fabio="https://purl.org/spar/fabio#"
         xmlns:bf="http://www.openlinksw.com/schemas/bif#"
         xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
@@ -431,7 +436,8 @@
     <body>
       <head>
         <title> 26 May / 6 June 1711. – Treaty of <placeName
-            key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425"
+            key="Copenhagen Capital Region Denmark"
+            ref="https://geonames.org/2618425"
             cert="high">
             Copenhagen
           </placeName> between Denmark and Russia concerning the
@@ -447,26 +453,34 @@
           <cell>
             <p />
             <p>Concert</p>
-            <p>Zur kurz bevorstehenden heurigen, nehml[ich] der 1711<hi
-                rendition="simple:superscript">
+            <p>Zur kurz bevorstehenden heurigen, nehml[ich] der 1711<hi rendition="simple:superscript">
                 ten</hi>. Jahres Campagne. </p>
-            <p>Actum <placeName key="Copenhagen Capital Region Denmark"
-                ref="https://geonames.org/2618425">
+            <p>Actum <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425">
                 Coppenhagen
-              </placeName> am 6<hi
-                rendition="simple:superscript">ten</hi>. Juny 1711. </p>
+              </placeName> am 6<hi rendition="simple:superscript">ten</hi>. Juny 1711. </p>
             <p>in Præs[enti]</p>
             <p>des Conseils und</p>
-            <p>der Generalität <persName cert="high" evidence="internal" full="yes"
+            <p>der Generalität <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
                 instant="unknown"
-                key="p0525" xml:space="default">Ihr[o] K[öniglichen] Maj[estät]
+                key="p0525"
+                xml:space="default">Ihr[o] K[öniglichen] Maj[estät]
               </persName> von Dännemarck, ingl[eichen] </p>
-            <p>H[errn] Baron <persName cert="high" evidence="internal" full="yes"
+            <p>H[errn] Baron <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
                 instant="unknown"
-                key="p0726" xml:space="default">Schacks
+                key="p0726"
+                xml:space="default">Schacks
               </persName> alß abgehender Gesander zu <persName
-                cert="high" evidence="internal" full="yes"
-                instant="unknown" key="p0525"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0525"
                 xml:space="default">Ihr[o] K[öniglichen]
                 Maj[estät]
               </persName> in Pohlen. </p>
@@ -475,7 +489,10 @@
                 ref="https://geonames.org/524901"
                 cert="high">Moscow
               </placeName> General: Major von <persName
-                cert="high" evidence="internal" full="yes" instant="unknown"
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
                 key="p1470"
                 xml:space="default">Arnstedt
               </persName>
@@ -497,14 +514,21 @@
               Campagne durch Schonen und zwar folgender Gestalt eröffnet und
               geführet werden.
             </p>
-            <p>1. Ihro <persName cert="high" evidence="internal" full="yes"
-                instant="unknown" key="p0525"
+            <p>1. Ihro <persName
+                cert="high"
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0525"
                 xml:space="default">Majest[ät] der König von Pohlen</persName>, sezen Sich
               vermittelst dero reglirten und Ihro izt formirten Land Milice, nebst denen in Pohlen
               stehenden Moscowitern aufs möglichste in Defensions Standt, und halten auff solche Art <persName
                 cert="high"
-                evidence="internal" full="yes"
-                instant="unknown" key="p0174" xml:space="default">
+                evidence="internal"
+                full="yes"
+                instant="unknown"
+                key="p0174"
+                xml:space="default">
                 Ihr[o] Czaarl[ichen] Maj[estät]</persName>den Rücken frey, </p>
           </cell>
         </row>
@@ -535,8 +559,12 @@
         verlieren, und sich nebst der Provinz Pommern mercklich consumiren müßen. </p>
       <p>4. Muß nunmehro die Escadre nach Norwegen ohne fernern Anstandt zu Segel gehen, um den
         Transport derer noch dahin destinirten Trouppen aus Jütland zu facilitiren, damit der
-        General H[err] <persName cert="high" evidence="internal" full="yes"
-          instant="unknown" key="p1471"
+        General H[err] <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p1471"
           xml:space="default">Baron von
           Löwendahl</persName>, von dort aus die Diversiones zeitig anfangen, dadurch einen guten
         Theil derer Feinde auff sich ziehen, und solcher Gestalt ihre Forçe in Schonen desto mehr
@@ -562,19 +590,26 @@
       <p>alß Schonen gezogen werden solchen, in march fertigen Standte halten
         laßen, jedoch müßen die dieshalb ausgehende Ordres so abgefast seyn, daß die Regimenter
         selbst nicht wißen, wohin es eigentlich gehen solle. </p>
-      <p>8. Weil man sich auch bereits mit der Zeitung träget, daß <persName cert="high"
+      <p>8. Weil man sich auch bereits mit der Zeitung träget, daß <persName
+          cert="high"
           evidence="internal"
-          full="yes" instant="unknown"
-          key="p0532" xml:space="default">
+          full="yes"
+          instant="unknown"
+          key="p0532"
+          xml:space="default">
           Ihr[o] Königl[iche] Maj[estät]
         </persName> von hier, nacher Hollstein
         gehen wolten, so muß man dieses ferner zu debitiren suchen, und, so bald selbige zu
         Coldingen, um den Transport derer Trouppen nacher Norwegen und Schonen selbst in hiher
         Person zu pressiren, angelanget seyn werden, kan man der Sache mehrern Schein geben, wenn an
         einigen auff die Route nacher Mecklenburgk liegenden orthen Ordres gestellet werden, daß man
-        gegen eine gewiße Zeit zu Auffnehmung <persName cert="high" evidence="internal"
-          full="yes" instant="unknown"
-          key="p0525" xml:space="default">Ihr[o] Königl[ichen]
+        gegen eine gewiße Zeit zu Auffnehmung <persName
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0525"
+          xml:space="default">Ihr[o] Königl[ichen]
           Maj[estät]
         </persName> Anstalt machen solle. </p>
       <p>9. Zu mehrer Colorirung dieses Stratagematis aber wird hauptsächlich dienen, wan die
@@ -601,8 +636,11 @@
       <p>10. Das Hauptwerck nun an sich selbst anlangende, so ist vornehmlich nöthig die vorseyende
         Descente nacher Schonen wohl zu regliren. Weil man aber ratione Loci noch discrepant ist,
         und die Vota theils auff Ystedt, theils auff Helsingburg reflectiren; So soll darüber <persName
-          cert="high" evidence="internal"
-          full="yes" instant="unknown" key="p0525"
+          cert="high"
+          evidence="internal"
+          full="yes"
+          instant="unknown"
+          key="p0525"
           xml:space="default">Ihr[o] Königl[ichen]
           Maj[estät]
         </persName> Decisum erwartet, auch von
@@ -646,11 +684,14 @@
       </p>
       <p>16. <placeName key="Malmö socken Skåne Sweden" ref="https://geonames.org/8126779">
           Malmöe</placeName>, <placeName
-          key="Landskrona Skåne Sweden" ref="https://geonames.org/2697720" cert="medium">
+          key="Landskrona Skåne Sweden"
+          ref="https://geonames.org/2697720"
+          cert="medium">
           LandsCron
         </placeName> und <placeName
           key="Helsinki Uusimaa Finland"
-          ref="https://geonames.org/658225" cert="high">
+          ref="https://geonames.org/658225"
+          cert="high">
           Helsingburgk</placeName>, es koste was es wolle! zu emportiren suchen. </p>
       <p>17. Zu diesem Ende hat man einen gnugsamen belägerungs Etat
         vollkommen fertig zu halten.
@@ -670,10 +711,13 @@
       <postscript>
         <p>Additamentum.</p>
         <p>So bald die Schweden ihren Transport nacher Pommern gethan haben, muß man Unserer Seyten
-          auch die in Pohlen stehende und von <persName cert="high"
+          auch die in Pohlen stehende und von <persName
+            cert="high"
             evidence="internal"
-            full="yes" instant="unknown"
-            key="p0174" xml:space="default">
+            full="yes"
+            instant="unknown"
+            key="p0174"
+            xml:space="default">
             Czaarl[ichen] Maj[estät]
           </persName> hieher versprochene 6/m[ille]
           Moscowiter von danzig ab, zu Unserer Armee zu transportiren suchen, und wird sich dahero
