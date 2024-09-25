@@ -1,163 +1,274 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Rescript of the Empress of Russia Catherine II to the ambassador of Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von Keyserling</title>
-        <author xml:lang="en">Empress</author>
-        <author xml:lang="en">of</author>
-        <author xml:lang="en">Russia</author>
-        <author xml:lang="en">Catherine II</author>
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-08-30">30. August 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc>
-        <p>TODO</p>
-      </sourceDesc>
-    </fileDesc>
-    <xenoData>
-      <rdf:RDF />
-    </xenoData>
-    <profileDesc>
-        </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <head>
-          <title>
-            11 November 1763. – Rescript of <persName
-              key="p0033"
-              ref="e14a18da-55bf-476c-bee9-1ff5536450d7">the Empress of Russia, Catherine II</persName>, <persName
-              key="p0281"
-              ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">to the Ambassador of Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von Keyserling</persName>
-          </title>
-          <note>
-            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 383-386. Russian original.</bibl>
-          </note>
-        </head>
-        <pb n="[[f. 383]]" />
-        <p />
-        <opener>
-          <salute>Божиею милостию Мы <persName
-              key="p0033"
-              ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина Вторая, Императрица и Самодержица Всероссийская</persName>, и прочая, и прочая, и прочая :</salute>
-          <salute>Нашему действительному тайному советнику, чрезвычайному и полномочному послу <persName
-              key="p0281"
-              ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">Графу Кейзерлингу</persName>.</salute>
-        </opener>
-        <p>По отправленным к вам рескриптам нашим известны уже вы, что назначили мы при нынешних важных в Польше обстоятельствах для вспоможения вам в исправлении дел Наших, <persName
-            key="p0870"
-            ref="e33c5452-5236-43b9-801f-cbcf88d680c2">Генерала майора княз Николая Репнина</persName> в характере полномочнаго Нашего министра при Полской Республике. Мы избрали его к тому как по его способности, так паче по изведанной его к службе ревности. Теперь он действително в путь свой отъезжает, и Мы снабдили его надлежащею и с существителными интересами нашими сходственною инструкциею, которую повелели Мы ему по приезде его в <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Варшаву</placeName>, вручить Вам оригиналную за подписанием нашим и с зделанным здесь немецким переводом, потому что оная имеет служить руководством всех ваших </p>
-        <pb n="[[f. 384]]" />
-        <p> подвигов и поступков. Мы надеемся, что вы довольно из оной приметите, коим образом все способы и средства, кои только здесь пред'усмотреть возможно, не упущены ли из виду, для достижения положеннаго Нами намерения. И так зависит только от употребляемого вами во свое время старательства к умножению шефов партии, и к приуготовлению духов. Искуство ваше в политических делах и негоциациях, не менше же усердие и ревность ваша к службе Нашей, толико Нам известны, что Мы внутреннее удоволствие чувствуем поручая вам сию для интересов Наших весьма важную, а для Империи нашей славную комисию, в которой конечно надеемся пред'успеть тем несумнителнее, что будет она производится толь искусным и благоразумным министром. По прибытии в<placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Варшаву</placeName>
-          <persName
-            key="p0870"
-            ref="e33c5452-5236-43b9-801f-cbcf88d680c2">княз Николая Репнина</persName> имеете вы ему советом и наставлением вашим </p>
-        <pb n="[[f. 385]]" />
-        <p> вспомогать, в подаче кредитивной Нашей грамоты, и ознакомить его со всеми доброжелателными к Нам магнатами; а как мы повелели ему поступать во всем с вашего совета, и требовать вашего наставления и объяснения о всех настоящих в Польше обстоятелствах, то соизволение Наше есть, чтоб и вы равномерно ж показывали к нему совершенную откровенность как по делам Нашим, так и во всяких других случаях, дозволяя ему по желанию его все до ныне насланные к вам указы Наши, и весь министерской ваш архив прочитать, дабы он толь скорее приобрести себе мог настоящую идею о всех с Польшею делах Наших.</p>
-        <p>Что касается до отправляемых к Нам реляцей, то желаем мы чтоб оные подписывали вы вместе с <persName
-            key="p0870"
-            ref="e33c5452-5236-43b9-801f-cbcf88d680c2">князем Репниным</persName> как с полномочным министром Нашим, ибо от особливых от каждаго реляцей, лехко моглоб произойти какое недоразумение </p>
-        <pb n="[[f. 386]]" />
-        <p> и разногласие, а от того и затруднение в принимаемых нами резолюциях, чего при нынешних деликатных обстоятелствах весма избегать должно, и прибываем вам Императорскою Нашею милостию благосклонны. Дан в <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Санкт Петербурге</placeName> 11 ноября 1763го года.</p>
-        <closer>
-          <signed>
-            <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина</persName>
-          </signed>
-        </closer>
-      </div>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="en">
+					Rescript of the Empress of Russia Catherine II to the ambassador of Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von Keyserling
+				</title>
+				<author xml:lang="en">
+					Empress
+				</author>
+				<author xml:lang="en">
+					of
+				</author>
+				<author xml:lang="en">
+					Russia
+				</author>
+				<author xml:lang="en">
+					Catherine II
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Languages of Diplomacy Digital Edition
+				</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>
+							Rjeoutski
+						</surname>
+						<forename>
+							Vladislav
+						</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#borisov">
+						<surname>
+							Borisov
+						</surname>
+						<forename>
+							Viktor
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#kandakou">
+						<surname>
+							Kandakou
+						</surname>
+						<forename>
+							Dzianis
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#lavrinovich">
+						<surname>
+							Lavrinovich
+						</surname>
+						<forename>
+							Maya
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#sergeev">
+						<surname>
+							Sergeev
+						</surname>
+						<forename>
+							Mikhail
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#herzog">
+						<surname>
+							Herzog
+						</surname>
+						<forename>
+							André
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#wallner">
+						<surname>
+							Wallner
+						</surname>
+						<forename>
+							Karin
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#pipka">
+						<surname>
+							Rißler-Pipka
+						</surname>
+						<forename>
+							Nanette
+						</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">
+						qed.perspektivia.net
+					</orgName>
+				</publisher>
+				<authority>
+					MWS-Netzwerk Osteuropa
+				</authority>
+				<pubPlace>
+					Bonn
+				</pubPlace>
+				<date when="2024-08-30">
+					30. August 2024
+				</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">
+						lod
+					</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">
+					Languages of eighteenth-century diplomacy
+				</title>
+				<title type="sub" level="s">
+					Russia in a European context
+				</title>
+			</seriesStmt>
+			<sourceDesc>
+				<p>
+					TODO
+				</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>
+			<RDF />
+		</xenoData>
+		<profileDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>
+						11 November 1763. – Rescript of
+						<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+							the Empress of Russia, Catherine II
+						</persName>
+						,
+						<persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">
+							to the Ambassador of Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von Keyserling
+						</persName>
+					</title>
+					<note>
+						<bibl>
+							Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 383-386. Russian original.
+						</bibl>
+					</note>
+				</head>
+				<pb n="f. 383" />
+				
+				<opener>
+					<salute>
+						Божиею милостию Мы
+						<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+							Екатерина Вторая, Императрица и Самодержица Всероссийская
+						</persName>
+						, и прочая, и прочая, и прочая :
+					</salute>
+					<salute>
+						Нашему действительному тайному советнику, чрезвычайному и полномочному послу
+						<persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">
+							Графу Кейзерлингу
+						</persName>
+						.
+					</salute>
+				</opener>
+				<p>
+					По отправленным к вам рескриптам нашим известны уже вы, что назначили мы при нынешних важных в Польше обстоятельствах для вспоможения вам в исправлении дел Наших,
+					<persName key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2">
+						Генерала майора княз Николая Репнина
+					</persName>
+					в характере полномочнаго Нашего министра при Полской Республике. Мы избрали его к тому как по его способности, так паче по изведанной его к службе ревности. Теперь он действително в путь свой отъезжает, и Мы снабдили его надлежащею и с существителными интересами нашими сходственною инструкциею, которую повелели Мы ему по приезде его в
+					<placeName key="g0009" ref="https://www.geonames.org/756135">
+						Варшаву
+					</placeName>
+					, вручить Вам оригиналную за подписанием нашим и с зделанным здесь немецким переводом, потому что оная имеет служить руководством всех ваших
+				</p>
+				<pb n="f. 384" />
+				<p>
+					подвигов и поступков. Мы надеемся, что вы довольно из оной приметите, коим образом все способы и средства, кои только здесь пред'усмотреть возможно, не упущены ли из виду, для достижения положеннаго Нами намерения. И так зависит только от употребляемого вами во свое время старательства к умножению шефов партии, и к приуготовлению духов. Искуство ваше в политических делах и негоциациях, не менше же усердие и ревность ваша к службе Нашей, толико Нам известны, что Мы внутреннее удоволствие чувствуем поручая вам сию для интересов Наших весьма важную, а для Империи нашей славную комисию, в которой конечно надеемся пред'успеть тем несумнителнее, что будет она производится толь искусным и благоразумным министром. По прибытии в
+					<placeName key="g0009" ref="https://www.geonames.org/756135">
+						Варшаву
+					</placeName>
+					<persName key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2">
+						княз Николая Репнина
+					</persName>
+					имеете вы ему советом и наставлением вашим
+				</p>
+				<pb n="f. 385" />
+				<p>
+					вспомогать, в подаче кредитивной Нашей грамоты, и ознакомить его со всеми доброжелателными к Нам магнатами; а как мы повелели ему поступать во всем с вашего совета, и требовать вашего наставления и объяснения о всех настоящих в Польше обстоятелствах, то соизволение Наше есть, чтоб и вы равномерно ж показывали к нему совершенную откровенность как по делам Нашим, так и во всяких других случаях, дозволяя ему по желанию его все до ныне насланные к вам указы Наши, и весь министерской ваш архив прочитать, дабы он толь скорее приобрести себе мог настоящую идею о всех с Польшею делах Наших.
+				</p>
+				<p>
+					Что касается до отправляемых к Нам реляцей, то желаем мы чтоб оные подписывали вы вместе с
+					<persName key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2">
+						князем Репниным
+					</persName>
+					как с полномочным министром Нашим, ибо от особливых от каждаго реляцей, лехко моглоб произойти какое недоразумение
+				</p>
+				<pb n="f. 386" />
+				<p>
+					и разногласие, а от того и затруднение в принимаемых нами резолюциях, чего при нынешних деликатных обстоятелствах весма избегать должно, и прибываем вам Императорскою Нашею милостию благосклонны. Дан в
+					<placeName key="g0002" ref="https://www.geonames.org/498817">
+						Санкт Петербурге
+					</placeName>
+					11 ноября 1763го года.
+				</p>
+				<closer>
+					<signed>
+						<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+							Екатерина
+						</persName>
+					</signed>
+				</closer>
+			</div>
+		</body>
+	</text>
 </TEI>

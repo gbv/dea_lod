@@ -1,175 +1,293 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main" xml:lang="en">Letter from Count Nikita Ivanovich Panin to the minister
-          plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto Magnus von
-          Stackelberg</title>
-        <author xml:lang="en">Nikita</author>
-        <author xml:lang="en">Ivanovich</author>
-        <author xml:lang="en">Panin</author>
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-08-30">30. August 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc>
-        <p>TODO</p>
-      </sourceDesc>
-    </fileDesc>
-    <xenoData>
-      <rdf:RDF />
-    </xenoData>
-    <profileDesc>
-    </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <head>
-          <title> 13 May 1773. – Letter from <persName
-              key="p0114"
-              ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count Nikita Ivanovich Panin</persName> to
-            the Minister Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Otto
-              Magnus von Stackelberg</persName>
-          </title>
-          <note>
-            <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 643-644. French original.</bibl>
-          </note>
-        </head>
-        <pb n="[[f. 643]]" />
-        <opener>
-          <dateline>
-            <placeName key="g0192" ref="https://www.geonames.org/504003">Zarskoe Celo</placeName> ce <date
-              when="1773-05-13">13 mai 1773</date>
-            .</dateline>
-        </opener>
-        <p>Cette lettre, Monsieur, n’est que pour accompagner le pleinpouvoir de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName>, que j’ai
-          l’honneur de vous envoyer ci-joint. Vous le trouverez redigé dans des termes, qui Vous
-          autorisent à traiter tant avec les ministres des <orgName
-            key="o0023,o0034"
-            ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">deux Cours
-            alliées</orgName> qu’avec ceux de la Republique. Je ne vous envoye qu’un seul
-          exemplaire, et je crois que cela suffira ; quoiqu’on soit dans l’usage d’echanger les
-          pleins-pouvoirs, cet echange n’est point essentiel à une negociation et on peut se
-          contenter de la simple communication, vous pourrez en prevenir les deux autres ministres
-          et prendre là dessus vos arrangemens avec eux. Entre vous trois vous ferez seulement
-          mention dans vos actes, que vous vous êtes communiqué l’un à l’autre votre pleinpouvoir et
-          l’echange n’aura lieu, qu’avec les Plenipotentiaires de la Republique. Je vous envoye
-          aussi, Monsieur, une formule pour le préambule et la fin des traités, ce n’est qu’un à peu
-          près pour vous servir d’indication dans les actes que vous allez passer.</p>
-        <p>Je vous enverrai sous quelques jours des resolutions sur toutes vos depêches qui en
-          demandent, et les prescriptions propres à l’état actuel de vos operations, me bornant </p>
-        <pb n="[[f. 644]]" />
-        <p>ici à vous marquer par anticipation la parfaite approbation de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> pour tout ce que
-          vous avez effectué jusqu’à ce jour et à vous en feliciter comme votre ami.</p>
-        <closer>
-          <salute>J’ai l’honneur d’être avec une parfaite consideration, Monsieur,</salute>
-          <salute>Votre très humble et très</salute>
-          <salute>Obéissant serviteur</salute>
-          <signed>
-            <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">C[omt]e N Panin</persName>
-          </signed>
-          <note>à <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Monsieur le
-            Baron de
-              Stackelberg</persName>, à <placeName
-              key="g0009"
-              ref="https://www.geonames.org/756135">Warsovie</placeName>
-          </note>
-        </closer>
-        <noteGrp>
-          <note>Also see : </note>
-          <note>fr_bpp_29_4_0003</note>
-        </noteGrp>
-      </div>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="en">
+					Letter from Count Nikita Ivanovich Panin to the minister
+					plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto Magnus von
+					Stackelberg
+				</title>
+				<author xml:lang="en">
+					Nikita
+				</author>
+				<author xml:lang="en">
+					Ivanovich
+				</author>
+				<author xml:lang="en">
+					Panin
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Languages of Diplomacy Digital Edition
+				</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>
+							Rjeoutski
+						</surname>
+						<forename>
+							Vladislav
+						</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#borisov">
+						<surname>
+							Borisov
+						</surname>
+						<forename>
+							Viktor
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#kandakou">
+						<surname>
+							Kandakou
+						</surname>
+						<forename>
+							Dzianis
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#lavrinovich">
+						<surname>
+							Lavrinovich
+						</surname>
+						<forename>
+							Maya
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">
+						editor
+					</resp>
+					<persName ref="#sergeev">
+						<surname>
+							Sergeev
+						</surname>
+						<forename>
+							Mikhail
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#herzog">
+						<surname>
+							Herzog
+						</surname>
+						<forename>
+							André
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#wallner">
+						<surname>
+							Wallner
+						</surname>
+						<forename>
+							Karin
+						</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">
+						technical infrastructure
+					</resp>
+					<persName ref="#pipka">
+						<surname>
+							Rißler-Pipka
+						</surname>
+						<forename>
+							Nanette
+						</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">
+						qed.perspektivia.net
+					</orgName>
+				</publisher>
+				<authority>
+					MWS-Netzwerk Osteuropa
+				</authority>
+				<pubPlace>
+					Bonn
+				</pubPlace>
+				<date when="2024-08-30">
+					30. August 2024
+				</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>
+							CC BY-SA 4.0
+						</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">
+						lod
+					</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">
+					Languages of eighteenth-century diplomacy
+				</title>
+				<title type="sub" level="s">
+					Russia in a European context
+				</title>
+			</seriesStmt>
+			<sourceDesc>
+				<p>
+					TODO
+				</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>
+			<RDF />
+		</xenoData>
+		<profileDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>
+						13 May 1773. – Letter from
+						<persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">
+							Count Nikita Ivanovich Panin
+						</persName>
+						to
+						the Minister Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth,
+						<persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+							Otto
+							Magnus von Stackelberg
+						</persName>
+					</title>
+					<note>
+						<bibl>
+							Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 643-644. French original.
+						</bibl>
+					</note>
+				</head>
+				<pb n="f. 643" />
+				<opener>
+					<dateline>
+						<placeName key="g0192" ref="https://www.geonames.org/504003">
+							Zarskoe Celo
+						</placeName>
+						ce
+						<date when="1773-05-13">
+							13 mai 1773
+						</date>
+						.
+					</dateline>
+				</opener>
+				<p>
+					Cette lettre, Monsieur, n’est que pour accompagner le pleinpouvoir de
+					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+						Sa Majesté
+					</persName>
+					, que j’ai
+					l’honneur de vous envoyer ci-joint. Vous le trouverez redigé dans des termes, qui Vous
+					autorisent à traiter tant avec les ministres des
+					<orgName key="o0023,o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">
+						deux Cours
+						alliées
+					</orgName>
+					qu’avec ceux de la Republique. Je ne vous envoye qu’un seul
+					exemplaire, et je crois que cela suffira ; quoiqu’on soit dans l’usage d’echanger les
+					pleins-pouvoirs, cet echange n’est point essentiel à une negociation et on peut se
+					contenter de la simple communication, vous pourrez en prevenir les deux autres ministres
+					et prendre là dessus vos arrangemens avec eux. Entre vous trois vous ferez seulement
+					mention dans vos actes, que vous vous êtes communiqué l’un à l’autre votre pleinpouvoir et
+					l’echange n’aura lieu, qu’avec les Plenipotentiaires de la Republique. Je vous envoye
+					aussi, Monsieur, une formule pour le préambule et la fin des traités, ce n’est qu’un à peu
+					près pour vous servir d’indication dans les actes que vous allez passer.
+				</p>
+				<p>
+					Je vous enverrai sous quelques jours des resolutions sur toutes vos depêches qui en
+					demandent, et les prescriptions propres à l’état actuel de vos operations, me bornant
+				</p>
+				<pb n="f. 644" />
+				<p>
+					ici à vous marquer par anticipation la parfaite approbation de
+					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+						l’Imperatrice
+					</persName>
+					pour tout ce que
+					vous avez effectué jusqu’à ce jour et à vous en feliciter comme votre ami.
+				</p>
+				<closer>
+					<salute>
+						J’ai l’honneur d’être avec une parfaite consideration, Monsieur,
+					</salute>
+					<salute>
+						Votre très humble et très
+					</salute>
+					<salute>
+						Obéissant serviteur
+					</salute>
+					<signed>
+						<persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">
+							C[omt]e N Panin
+						</persName>
+					</signed>
+					<note>
+						à
+						<persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+							Monsieur le
+							Baron de
+							Stackelberg
+						</persName>
+						, à
+						<placeName key="g0009" ref="https://www.geonames.org/756135">
+							Warsovie
+						</placeName>
+					</note>
+				</closer>
+				<noteGrp>
+					<note>
+						Also see :
+					</note>
+					<note>
+						fr_bpp_29_4_0003
+					</note>
+				</noteGrp>
+			</div>
+		</body>
+	</text>
 </TEI>
