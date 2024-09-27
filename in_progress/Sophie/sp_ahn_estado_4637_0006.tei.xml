@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,51 +99,37 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>[September 1761] – Response of the Empress of Russia <persName key="p0052">Elisabeth
-            Petrovna</persName> to the speech of the minister plenipotentiary of Spain in Russia <persName
-              key="p0225"
-              ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Marquis of Almodovar</persName>
+          <title>[September 1761] – Response of the Empress of Russia Elisabeth
+            Petrovna to the speech of the minister plenipotentiary of Spain in Russia <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Marquis of Almodovar</persName>
           </title>
           <note>
             <bibl>Archivo Histórico Nacional, Estado, no. 4637, s. f. French original.</bibl>
           </note>
         </head>
-        <p />
+        <p/>
         <p>Réponse de la Part de <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa
-          Majesté Imperiale</persName> à la Harangue de Monsieur le <persName
-            key="p0225"
-            ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Marquis
+          Majesté Imperiale</persName> à la Harangue de Monsieur le <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Marquis
           d’Almodovar</persName>, <persName key="p0036" ref="ea287231-8c1a-4b60-a8c3-1c4885e94d54">Ministre
           Plénipotentiaire de Sa Majesté Catholique</persName>
         </p>
-        <p />
+        <p/>
         <p>L’heureux rétablissement d’une correspondance pretieuse aux deux Empires, est aussi
           agréable à <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">l’Imperatrice</persName>
-          que conforme à ses sentimens pour l’Espagne. Ils ont toujours été les mêmes et <persName
-            key="p0052"
-            ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté Imperiale</persName>
-          qui voit avec une satisfaction particuliere, le desir dont <persName
-            key="p0225"
-            ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Monsieur le Ministre Plénipotentiaire</persName>
-          est chargé de l’assurer de la part de <persName
-            key="p0036"
-            ref="ea287231-8c1a-4b60-a8c3-1c4885e94d54">Sa Majesté Catholique</persName>, de
+          que conforme à ses sentimens pour l’Espagne. Ils ont toujours été les mêmes et <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté Imperiale</persName>
+          qui voit avec une satisfaction particuliere, le desir dont <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Monsieur le Ministre Plénipotentiaire</persName>
+          est chargé de l’assurer de la part de <persName key="p0036" ref="ea287231-8c1a-4b60-a8c3-1c4885e94d54">Sa Majesté Catholique</persName>, de
           résserrer de plus en plus leur union, se fera un plaisir, d’y concourir et tout ce qui
           dépendra d’elle.</p>
         <closer>
-          <salute>En s’attachant â cultiver ces dispositions réciproques des deux cours, <persName
-              key="p0225"
-              ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Monsieur le Ministre
-            Plenipotentiaire</persName> pourra être assuré de la bien veillance de <persName
-              key="p0052"
-              ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">l’Imperatrice</persName> .</salute>
+          <salute>En s’attachant â cultiver ces dispositions réciproques des deux cours, <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Monsieur le Ministre
+            Plenipotentiaire</persName> pourra être assuré de la bien veillance de <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">l’Imperatrice</persName> .</salute>
         </closer>
       </div>
     </body>
