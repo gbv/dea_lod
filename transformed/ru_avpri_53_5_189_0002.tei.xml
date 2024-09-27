@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,10 +95,10 @@
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -131,9 +128,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_189_0002_ready.tei.xml?place_annotation_20240329132708249",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329132708249",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T12:27:08.249Z",
+	"dcterms:modified": "2024-03-29T12:27:08.249Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -144,10 +142,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_189_0002_ready.tei.xml?place_annotation_20240329132708249#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329132708249#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_189_0002_ready.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_avpri_53_5_189_0002.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -155,17 +153,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_189_0002_ready.tei.xml?place_annotation_20240329132708249#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329132708249#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[6]/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2615911",
+		"@id": "https://www.geonames.org/2615911",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -173,12 +171,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.5.0"
 	}
-}
-                </rdf:Description>
+}]]>
+        </rdf:Description>
+      
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -208,9 +207,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_189_0002_ready.tei.xml?place_annotation_20240329133154792",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329133154792",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T12:31:54.792Z",
+	"dcterms:modified": "2024-03-29T12:31:54.792Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -221,10 +221,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_189_0002_ready.tei.xml?place_annotation_20240329133154792#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329133154792#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_189_0002_ready.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_avpri_53_5_189_0002.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -232,31 +232,27 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_189_0002_ready.tei.xml?place_annotation_20240329133154792#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329133154792#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[5]/placeName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q986435",
-		"dc:format": "text/plain"
+		"@type": "cwrc:RealPlace"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.5.0"
 	}
-}
-                </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <div type="letter">
@@ -270,16 +266,13 @@
         <opener>
           <note cert="high" evaluate="all" place="top" xml:space="default">
             <p>AVPRI, fond 53, opis 53/5, no. 189, f. 40-40v. Russian original.</p>
-            <pb cert="high" n="f. 40" xml:space="default" />
+            <pb cert="high" n="f. 40" xml:space="default"/>
           </note>
-          <salute>Доношение в <orgName
-              key="o0129">государственную канцелярию опекунства иностранных</orgName>,
-            о 14 обретающихся при посолской Ея Имераторского Величества в Копенгагене канцелярии <persName
-              key="p0541">переводчика Якима Лизакевича</persName>
+          <salute>Доношение в <orgName key="o0129">государственную канцелярию опекунства иностранных</orgName>,
+            о 14 обретающихся при посолской Ея Имераторского Величества в Копенгагене канцелярии <persName key="p0541">переводчика Якима Лизакевича</persName>
           </salute>
         </opener>
-        <p>Хотя я в первом моем доношении от 13го/24го сего м[еся]ца и имел честь уведомить <orgName
-            key="o0129">благопомянутую канцелярию</orgName>, что <persName key="p1940">г[оспо]д[и]н
+        <p>Хотя я в первом моем доношении от 13го/24го сего м[еся]ца и имел честь уведомить <orgName key="o0129">благопомянутую канцелярию</orgName>, что <persName key="p1940">г[оспо]д[и]н
           мичман
             Поддубской
           </persName> обнадежил меня
@@ -305,10 +298,8 @@
         <p>Хотя я и имел честь писать, что я посылал корабельщика отсюда, невозможно ли будет снять
           бот в повелениях <persName key="p1943">мичмана Веляшева</persName>
         </p>
-        <pb cert="high" n="f. 40v" xml:space="default" />
-        <p>меншаго состоявшей, однакож недоверяясь оному, просил находящегося в <placeName
-            key="Nykøbing Falster"
-            ref="">Никопинге
+        <pb cert="high" n="f. 40v" xml:space="default"/>
+        <p>меншаго состоявшей, однакож недоверяясь оному, просил находящегося в Ни<placeName key="Nykøbing Falster">копинге
           </placeName> две мили от здешняго местечка, дацкаго флота капитана <persName key="p1944">Штибалта
           </persName> приехать сюда, и осмотреть, имеется ли какая нибудь надежда
           к снятию онаго бота. Сей старый и весма искусной офицер осмотря оной на мели стоящей бот,
@@ -320,11 +311,9 @@
           рставшегося здесь <persName key="p1940">мичмана Поддубскаго</persName>, по той цене
           которая ему сходна покажется. </p>
         <p> В протчем я уповаю что снятой бот в исходе сей недели осмотрен и починен быть имеет, и в
-          состояние приведен быть может в назначенное ему место чрез восемь дней отправится. В <placeName
-            key="g0415"
-            ref="https://www.geonames.org/2615911">Ништате
+          состояние приведен быть может в назначенное ему место чрез восемь дней отправится. В <placeName key="g0415" ref="https://www.geonames.org/2615911">Ништате
           </placeName> июня. 28го / июля. 9го дня 1766 году </p>
-        <p />
+        <p/>
         <closer>
           <signed>Переводчик <persName key="p0541">Яким Лизакевич</persName>
           </signed>
