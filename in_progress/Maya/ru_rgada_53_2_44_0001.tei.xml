@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,7 +102,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -114,12 +111,12 @@
         <head>
           <title>13 Mai 1676. – [Royal] Letter to Tsar [of Russia] Fedor Alekseevich from the King
             of Denmark [and Norway], Christian V, announcing his victory over the Swedish fleet and
-            the capture of the town of Visby</title>
+            the capture of the town of <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0468" xml:space="default">Visby</placeName></title>
           <note>
             <bibl>RGADA, fond 53, opis 2, no.44, f 1–1v. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p> Wii Christian Den Femte aff Guds Naade, Konge til Danmarck oc Norge, de Wenders oc
           Gothers; Hertug udi Slesvig, Holsten, Stormarn oc Dytmersten, Greffve udi Oldenborg oc
           Delmenhorst.</p>
@@ -144,7 +141,7 @@
           derpaa med bem[eld]te Voris Flode til Gullander henseiglet, dend 28 Aprilis diid ankommen
           oc om anden dagen U=anseet Gouverneuren oc Commendanten med en Sex hundrede Mand det sögte
           af afverge lyckeligen giort Landgang jaget Fienden paa flugten oc derpaa med bem[eld]te
-          Voris Flode lagt sig for Staden Vißbye hvis slot, som ligger paa en klippe oc med stercke
+          Voris Flode lagt sig for Staden <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0468" xml:space="default">Vißbye</placeName> hvis slot, som ligger paa en klippe oc med stercke
           mure er omringet, oc med ald nödtörfft var forsiuned, hand af trende Orlogs Skibe saaledis
           hafver ladet beskyde at Fienden blef obligered det ved accord at opgifve oc Landet at
           qvitere; saa at bem[eld]te Insul som A[nn]o 1645 ved da værenden= lyckelige conjuncturer
@@ -158,9 +155,9 @@
           lycksalig Regiering oc self begærlig velstand, Nabovenligen. Gifvet paa Vort slot
           Kiöbenhafn dend 13 May Anno 1676.</p>
         <p>Christian R[ex]</p>
-        <p />
-        <p />
-        <pb n="f. 1v" />
+        <p/>
+        <p/>
+        <pb n="f. 1v"/>
         <p>Dend Stormegtige Höybaarne Voris Elskelige Kiere Broder, besynderlige gode Ven oc Naboe
           af Guds Naade Store Herre Tzar oc Storförste Foeder Alexejwitz alle store smaa oc hvide
           Rydtzers self Erholder, Muschous, Kiofsckj, Woladimersckj, Naugorodsckj, Tzar til Kasan,
@@ -171,7 +168,7 @@
           Land, Kartalinsckj oc Grisinsckj Tzar oc Karbadinsckj Land Tzerkasckig oc Gorsckisk
           Förste, oc mange andre Herredömme oc Lande udj öster, Vester oc Nör, fæderlig, forfæderlig
           oc arfvelig Herre oc Regenter. Nabovenligen.</p>
-        <p />
+        <p/>
         <p>К ц[а]рю Феодору Алексиевичу. Датская 1676. Пишет самодержцем.</p>
       </div>
     </body>
