@@ -176,6 +176,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_nlrmss_erm_123-1_0002.tei.xml?place_annotation_20240928152205964",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-28T13:22:05.964Z",
+	"dcterms:modified": "2024-09-28T13:22:05.964Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_nlrmss_erm_123-1_0002.tei.xml?place_annotation_20240928152205964#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_nlrmss_erm_123-1_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_nlrmss_erm_123-1_0002.tei.xml?place_annotation_20240928152205964#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/title/placeName[3]/hi/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2520600",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
@@ -184,7 +263,7 @@
       <div type="letter">
         <head>
           <title>6 June 1728. – Translation from Spanish into French of the Decree given in <placeName key="g0020" ref="https://geonames.org/3117735">Madrid</placeName> by <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">H[is]. C[atholic]. M[ajesty].,</persName> dated 28 of May of the current year, for the form of admitting foreign vessels in the ports of his states in Spain, issued after the news received that the <placeName cert="high" key="g0150" ref="https://www.geonames.org/251279">Island of Zante</placeName> and several other places of the Levant are attacked by a contagious disease, and published in <placeName key="g0067" ref="https://www.geonames.org/2520600">
-              <hi rendition="#b">Cadiz </hi>
+              <hi rendition="#b"><placeName key="g0067" ref="https://geonames.org/2520600">Cadiz</placeName> </hi>
             </placeName>on the 6<hi rendition="#sup">th</hi> of June 1728 </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-1, f. 34–35v. French translation of Spanish original.</bibl>
