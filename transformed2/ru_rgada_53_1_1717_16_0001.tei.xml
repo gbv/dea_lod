@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorandum from the Danish Envoy to Russia, Hans Georg
+          Westphalen, to the Tsar of Russia, Peter I</title>
+        <author xml:lang="en">Hans</author>
+        <author xml:lang="en">Georg</author>
+        <author xml:lang="en">Westfalen</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>24 April 1717. – Memorandum from the Danish Envoy to Russia, Hans Georg Westphalen
+            {{p0984}}, to the Tsar of Russia, Peter I{{p01747}}</title>
+          <note>
+            <bibl>RGADA, fond 53, op. 1, 1717, no. 16, f. 15–16v. French original.</bibl>
+            <bibl>Russian translation from French: RGADA, fond 53, op. 1, 1717, no. 16, f. 17–18.</bibl>
+          </note>
+        </head>
+        <pb n="f. 15" />
+        <p>Sire;</p>
+        <p>Votre Majestè Czarienne, etant sur le point de se rendre à une Cour, qvi s’est fait,
+          jusqv’icy, de la conservation de la Svede, sur tout dans ce, qui a etè adiugè à cette
+          Couronne, par la Paix de Westphalie, un de ses premieres</p>
+        <pb n="f. 15" />
+        <p>maximes d’etat, Le sous signè Envoyè Extraordinaire de Sa Majestè, le Roy de Dannemarc,
+          et de Norvegue{{p0984}}, aupres de Vôtre Majestè, s’imagine pour certain, que La Cour de
+          France{{o0019}} ne manquera pas, de faire parler à Vôtre Majestè de La Paix avec Le Roy de
+          Svede{{p0193}}; et comme Le dit Envoyè Extraordinaire{{p0984}} se sent obligè de veiller
+          |:selon tout son possible:| à ce qui peut aucunnement regarder l’interet et le service Du
+          Roy son Maitre{{p0532}}, son devoir exige de Luy, de prier Vôtre Majestè, |:ce qu’il vient
+          de faire avec le plus profond respect à imaginer:| qu’il Luy plaire, de ne point êcouter
+          aucunne </p>
+        <pb n="f. 16" />
+        <p> proposition de Paix avec La Svede, que Ceux, qvi
+          Luy en voudroient faire, ne se soient aussi expliques d’une manière, que Sa Majestè, Le
+          Roy son Maitre{{p0532}}, en puisse être content, à l’ègard des restitutions, et cessions,
+          qvi doivent etre faites à Elle, par vertus de l’Alliance, qvi subsiste entre Sa Dite
+          Majestè{{p0532}}, et Vôtre Majestè Czarienne; </p>
+        <p>Le soussignè, se promet de Vôtre Majestè, une reponse à ce son memoire, qui le puisse
+          mettre en etat, de tranquiliser ces èsprits d’entre la Nation, dont il a l’honneur d’être,
+          qvi ne connoissant pas comme Luy au fond la puretè des sentiments de Vôtre Majestè,
+          n’auguerent rien de bon de son voyage à Paris </p>
+        <pb n="f. 16v" />
+        <p> dans la
+          present Conioncture, et de pouvoire donner de nouvelles assurances au Roy son
+          Maitre{{p0532}}, que rien est constamment plus à l’èpreuve, que la ferme resolution de
+          Vôtre Majestè, de ne pas vouloir mettre les armes bas, que La Svede ne soit reduite dans
+          ses anciennes bornes, affin que generalement Tous ses voisins puissent à l’avenire ètre à
+          couvert des insultes de cette fière, arrogante, et sanguinaire Nation, que la Svedoise;
+          etant au reste avec la plus submise devotion et veneration et le plus profond respect</p>
+        <p>Sire De Vôtre Majestè</p>
+        <p />
+        <p>à Dunkerque ce 24 d’Avril le tres humble et le tres</p>
+        <p> 1717. obeissant serviteur H G Westphalen{{p0984}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

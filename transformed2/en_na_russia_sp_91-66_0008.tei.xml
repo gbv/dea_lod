@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Note to Mister Keith, Envoy Extraordinary of His Britannic
+          Majesty</title>
+        <title type="main" xml:lang="fr">Note pour Monsieur de Keith, Envoyé Extraordinaire de Sa
+          Majesté Britannique</title>
+        <author xml:lang="en">Empress</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Elisabeth Petrovna</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13 / 24 March 1758. – Note to Mister [Robert Murray] Keith, Envoy Extraordinary of
+            His Britannic Majesty{{p0085}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-66, f. 46-46v. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 46" />
+        <p> Note </p>
+        <p>Pour Monsieur de Keith, Envoyé Extraordinaire de Sa Majesté Britannique{{p0085}}</p>
+        <p />
+        <p>Lorsque l’Eté passé les Troupes de l’Imperatrice marchoient vers la Prusse, et qu’on
+          songeoit à s’emparer des Places fortes de ce Royaume, sur tout de celles qui sont situées
+          sir la Côte, la Raison de Guerre exigeoit naturellement, d’empêcher qu’Elles ne puissent
+          être sécourues, en aucune façon, du côté de la Mer. Mais à present, que toute la Prusse
+          s’est soumise à l’Imperatrice, et que la susdite raison ne subsiste plus, Sa Majesté, ne
+          perdant pas de vuë l’accroissement, et la Liberté, du Commerce dans la Mer Baltique, Vous
+          qu’il soit toujours continué sur l’ancien Pied, non seulement avec le dit Royaume, mais
+          encore avec tous les autres Etats appartenants au Roy de Prusse{{p0061}}, </p>
+        <pb n="f. 46v" />
+        <p> sans que les Operations des Troupes Russiennes, ou celles de la Flotte, donnent le
+          moindre sujet de crainte aux Commerçants : Pourvû néanmoins, qu’aucun d’Eux ne se prête à
+          faire des Transports des Contrebandes pour l’usage de l’Ennemi, soit d’Hommes, Vivres, ou
+          Munitions ; et que l’on s’abstienne surtout, de porter du Sécours, de quelque nature qu’il
+          puisse être, aux Places assiégées ; Puisque, dans ce cas, on en agira, avec ceux qui y
+          contreviendront, selon la Rigueur du Droit de Guerre.</p>
+        <p>A S[ain]t <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersbourg</placeName> ce 13.e Mars 1758. V[ieux]
+          S[tyle].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

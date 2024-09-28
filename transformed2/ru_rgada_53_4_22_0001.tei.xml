@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Royal letter of congratulations from [the King of Denmark
+          and Norway,] Frederick IV[,] to [the Tsar of Russia,] Peter I[,] on the victory of the
+          Russian army over the Swedes in Finland at the River of Pälkäne</title>
+        <title type="main" xml:lang="ru">Поздравительная грамота Фридриха IV Петру I по случаю
+          победы российской армии над шведами в Финляндии на реке Пелкена</title>
+        <author xml:lang="en">King</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Denmark</author>
+        <author xml:lang="en">and</author>
+        <author xml:lang="en">Norway</author>
+        <author xml:lang="en">Frederick IV</author>
+        <author xml:lang="en">Christian</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>23 December 1713. – [Royal] Letter of congratulations from [King of Denmark and
+            Norway] Frederick IV to [Tsar] Peter I on the victory of the Russian army over the
+            Swedes in Finland at the River of Pälkäne</title>
+          <note>
+            <bibl>RGADA, fond 53, opis 4, no. 22, f. 1–1v, 2v. German original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p>Durchleuchtigster, Großmächtigster Czaar,</p>
+        <p>Freundlich vielgeliebter Bruder, Freund</p>
+        <p>und Nachbahr.</p>
+        <p>Aus Ew[er] May[estät] und L[ie]bd[en] an Mich abgelaßenem Freund-Bruderlichen Schreiben
+          vom 4<hi rendition="#sup">ten</hi> vorigen Monahts Novembris habe Ich mit sonderbahrem
+          Vergnügen die Nachricht und Umbstände von dem letztern in Finnland bey dem Fluß Pelcken
+          vorgegangenen Combat zwischen Dero und denen Schwedischen Trouppen vernommen; Wie Wir nun
+          nichtes Liebers noch angenehmers seyn kann, als dergleichen fröliche Zeitung von Ew[er]
+          May[estät] und L[ie]bd[en] zu erhalten, und damit offt und vielmahl erfreuet zu werden;
+          Also gratulire Ich auch Dieselbe getreulichst zu solcher abermahligen erlangten Avantage,
+          und wünsche von Grund der Seelen, daß dergleichen noch viele mehr erfolgen, und Sie alle
+          Dero fernere Desseins mit stetem Glück zum besten der gemeinen Sache und Erhaltung eines
+          Unß beederseits raisonnablen und beständigen Friedens, ausführen und fortsetzen mögen.
+          Ew[er] May[estät] und L[ie]bd[en] können </p>
+        <pb n="f. 1v" />
+        <p>versichert seyn, daß Ich hieran jederzeit besonderes theil nehmen, und ab meiner Seiten
+          mit willigen und auffrichtigem Hertzen alles mögliche zu Dero Vergnügen und der gantzen
+          gemeinen Sache beforderung contribuiren, auch sonsten Deroselben en particulier erweisen
+          werde, daß Ich mit vollenkommener Ergebenheit sey</p>
+        <p>Ew[er] May[estät] und L[ie]bd[en]</p>
+        <p>Getreuer Bruder, Freund und</p>
+        <p>Nachbahr.</p>
+        <p>Friderich R[ex]</p>
+        <p>Copenhagen,</p>
+        <p>den 23<hi rendition="#u">
+            <hi rendition="#sup">ten </hi>
+          </hi>Decembris</p>
+        <p>Anno 1713.</p>
+        <p />
+        <p>An Ihr[o] May[estät] den Czaaren C: Sehestedt.</p>
+        <p>in gantz Rußland.</p>
+        <p />
+        <p />
+        <pb n="f. 2v" />
+        <p> Dem Durchleuchtigsten, Großmächtigsten Czarn und Groß-Fürsten in gantz Rußland. p[erge]</p>
+        <p>Дацкая грамота поздравителная о виктории при Пелкене реке. Переведена генваря в 16 де[нь]
+          1714.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

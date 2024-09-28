@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Count Nikita Ivanovich Panin to the Ambassador
+          of Great Britain to Russia, Earl George McCartney</title>
+        <author xml:lang="en">Nikita</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Panin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>30 April / 11 May 1767. – Letter from Count Nikita Ivanovich Panin{{p0114}} to the
+            Ambassador of Great Britain to Russia, Earl George McCartney{{p1066}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-78, f. 89-91v. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 89" />
+        <p> Monsieur,</p>
+        <p />
+        <p>J’étoit prêt à répondre à la lettre que Vous m’avez fait l’honneur de m’ecrire le 2/13.
+          de ce mois, lorsque j’au reçû le courrier que Vous m’avez éxpedié pour m’apporter celle du
+          8/19. qui contenoit une depêche en original de M[onsieu].<hi rendition="#sup">r</hi> De
+          Convai{{p1068}} avec sa traduction. J’ai crû povoir m’arrêter alors pour me donner le têms
+          de faire rapport de cette dernier lettre à l’Imperatrice{{p0033}} et prendre Ses ordres
+          sur l’objet dont elle traite. L’ayant fait, monsieur, je les reprendrai l’une et l’autre
+          pour y repondre, par ordre.</p>
+        <p>Sa Majesté Imperiale{{p0033}} n’a trouvé rien que de naturel dans la permission que Vous
+          avez demandée à Vôtre Cour{{o0002}} de retourner dans Vôtre Patrie, et la facilité avec
+          laquelle Vous l’avez obtenuë. Il n’entrera point dans Son idée d’en chercher d’autre motif
+          que celui sur lequel Vous m’avez deja prevenû depuis longtêms et que Vous me repete encore
+          dans la premiere de Vos lettres. Le soupçon d’une moindre intimité entre les deux Cours ne
+          sauroit y trouver place, et j’aurois tort de m’y arrêter. </p>
+        <pb n="f. 89v" />
+        <p> Je ne m’attacherai qu’à Vous confirmer ce que j’ai souvent eû occasion de Vous dire
+          pendant Vôtre ministere auprès de l’Imperatrice{{p0033}}, de la satisfaction avec laquelle
+          Elle a vû Vôtre zêle pour la perfection de la bonne intelligence et de l’union entre les
+          deux États. Dans le moment où je Lui ai presenté Vos homages en Vous congediant de Sa
+          Cour{{o0008}}, j’ai reçû pour Vous, monsieur, les assurances les plus positives de Sa
+          benveillance, et je Vous les transmets avec un contentement qu’il Vous sera facile de Vous
+          representer. Sa Majesté Imperiale{{p0033}} ne veut point que Vous partiez sans en emporter
+          une marque distinguée. La maniere dont Vous Vous congediez sans produire de lettres de
+          rappel, nous engageant à Vous considerer toujours comme ministre actuel aupès de nôtre
+          Cour{{o0008}}, Vous n’étes pas encore dans le cas de recevoir le present d’étiquette que
+          nous faisons aux ministres, et nous le renvoyons au têms où il doit avoir lieu. Mais
+          independent de ce present Sa Majesté{{p0033}} m’a ordonné de Vous envoyer la bote que j’ai
+          l’honneur de joindre ici, comme un temoignage de Son approbation et de l’estime qu’Elle a
+          jugé que Vous meritez. Trouvez bon monsieur, que mes sentimens particuliers s’expriment
+          tous dans la satisfaction avec laquelle je vois ceux de ma Suveraine{{p0033}}. Je Vous
+          demande avec </p>
+        <pb n="f. 90" />
+        <p> empressement la continuation de Votre amitié et Vous prie de croire que l’attachement
+          que je Vous ai voué est aussi sincere qu’inviolable. </p>
+        <p>J’ai mis sous le yeux de l’Imperatrice{{p0033}} la depêche de Vôtre cour{{o0002}} à
+          laquelle je viens actuellement. Elle y a vû avec une reconnoissance proportionnée au desir
+          qu’Elle a toujours fait connoître pour l’union la plus etroite des deux nations, les
+          sentiments du Roy Vôtre maitre{{p0161}} pour le même but. La satisfaction de trouver des
+          dispositions si analogues aux Siennes que Vous savez, monsieur, fondés sur les maximes
+          invariables de Sa politique qui Lui font tenir un compte si distingué es liaisons étroites
+          de Son empire avec la Grande Bretagne, ne peut étre egalés que par ce contentement
+          interieur qu’Elle eprouve par le temoignage d’avoir tant fait pour cet objet.</p>
+        <p>Nous ne regardons point autrement que comme un malheur, l’imposibilité où nous sommes de
+          nous desister du casus foederis qui s’oppose depuis si longtêms a la confection de nôtre
+          traité d’alliance. Les raisons d’interet sont sensibles, la reciprocité sur ce point dans
+          des engagements entre Souverains parle à leur dignité, mais les devoirs de l’egalité à
+          observer entre Puissances, qui vient encore s’y joindre nous mettent dans un cercle étroit
+          dont nous ne pouvons sortir. </p>
+        <p>Je ne repeterai pas, monsieur, les moyens de conciliation, offerts de notre part sur ce
+          point ; </p>
+        <pb n="f. 90v" />
+        <p> ils doivent etre presents à Vôtre memoire. Il me suffira de Vous dire pour que Vous en
+          puissiez faire rapport au Ministere, qu’ils restent toujours ouverts et Vous y trouverez
+          les dispositions precises dans les quelles Vous laissez ma Cour{{o0008}}. Puissiez Vous
+          les faire valoir et lever l’obstacle qui suspend de Vôtre part la confection d’un ouvrage
+          egalement avantageux et egalement desiré des deux cotés.</p>
+        <p>Sa Majesté Imperiale{{p0033}} couvaincuё comme Elle est, de la solidité les motifs qui
+          doivent reeer et eterniser nôtre union, a les regrets les plus sensibles de la voir aussi
+          arrétée. Elle sent tout l’embarras et tout le prejudice d’une telle position, et Elle en
+          voit encore accroitre les inconveniens par la demarche même qui devoit le changer, par ce
+          concert d’une nomination reciproque d’Ambassadeur. </p>
+        <p>L’Europe entiere qui en apprenant cette nomination a crû le moment arrivé où la Russie et
+          l’Angleterre alloient mettre le dernier sceau à tous les rapports d’interêts et d’amitié
+          qui les , ne pourra que sentir diminuer ce degré d’attention singulїere qu’elle a dû
+          donner à un systeme commun de deux Grandes Puissances, en les voyant varier, et la
+          consideration dont elles jouissent devra souffrir de l’idée d’une moindre union entre
+          elles. L’Imperatrice{{p0033}} ne veut point Se le </p>
+        <pb n="f. 91" />
+        <p> ni le cacher au Roy{{p0161}}, et Elle le doit d’atant moins, qu’Elle n’a regardé Elle
+          même dans son principe la nomination d’un Ambassadeur auprès d’Elle, que comme une marque
+          de cette preference d’egards et d’attention que les deux Cours se doivent, et qu’Elle ne
+          l’a point crû restreinte au seul objet de la signature d’un traité d’alliance, sentiment
+          entretenû par tout ce qui nous a été dit soit ici soit à Londres par rapport à cette
+          Ambassade, et où on ne nous a presenté que des considerations sur le systéme general de
+          l’Europe. Quoiqu’il en soit, Sa Majesté{{p0033}} est du moins flattée d’avoir donné par
+          son attention à nommer de son côté un Ambassadeur, une preuve de ses sentiments au
+          Roy{{p0161}} et à la nation. Son Ambassadeur est toujours prêt. Elle au choix du
+          Roy{{p0161}} de faire partir le sien, et Elle n’attend que Sa repone pour donner ses
+          ordres pour le depart de celui qu’Elle a nommé. C’est à Vôtre Cour{{o0002}} à voir,
+          monsieur, lequel est preferable de s’arrêter peu à la sensation trop vive qu’une
+          revocation reciproque va faire, ou de la prevenir. Telle est nôtre façon d’envisager les
+          circonstances où nous nous trouvons. Nous la communiquons avec cette confiance et cette
+          franchise que l’amitié de deux souverains et les dispositions des deux ministres </p>
+        <pb n="f. 91v" />
+        <p> portent avec elles: nous n’avons aucun doute qu’on ne nous reponde de même.</p>
+        <p>Je suis avec une consideration très distinguée.</p>
+        <p>Monsieur,</p>
+        <p>votre tres humble et tres</p>
+        <p>obeissant serviteur</p>
+        <p>N[ikita]. Panin{{p0114}}</p>
+        <p>A <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName>
+        </p>
+        <p>Le 30. avril 176.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

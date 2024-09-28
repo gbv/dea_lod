@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Active Privy Councilor,] Count Nikita Ivanovich Panin.
+          Letter to Golitsyn, Prince [Sergei Fedorovich] [in reality, to Prince Dmitrii Mikhailovich
+          Golitsyn]</title>
+        <title type="main" xml:lang="ru">Панин, гр. Никита Иванович. Письмо к Голицыну, кн. /Сергею
+          Федоровичу/</title>
+        <author xml:lang="en">Nikita</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Panin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>
+            c. 1770. – <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">[Active
+            Privy Councilor,] Count Nikita Ivanovich Panin</persName>, Letter to <persName
+              key="p0558"
+              ref="cc1f18e6-a9f5-4bac-bedd-9fbe153aebd4">Golitsyn, Prince [Sergei Fedorovich]</persName> [in
+            reality, to <persName key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Prince
+            Dmitrii Mikhailovich Golitsyn</persName>]</title>
+          <note>
+            <bibl>OR RGB, fond 222, karton 2, no. 8, f. 25–26v. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 25" />
+        <p>Projet de lettre du <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Comte
+          Panin</persName> au <persName key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Prince
+          Galitzine</persName> à <placeName
+            key="g0005"
+            ref="https://www.geonames.org/2761367">Vienne</placeName>
+        </p>
+        <p />
+        <p>
+          <persName key="p0062" ref="6a072a5d-442a-4bc2-84f6-5e39a304a040">Le Duc Eugene de
+          Wurtemberg</persName> pere de <persName
+            key="p0439"
+            ref="0474f625-e852-4401-ac09-bb5d0dc41b9d">Son Altesse Imperiale Madame la Grande
+          Duchesse</persName> à deja donné avis à V.E. d’un procès entamé au <orgName
+            key="o0024"
+            ref="350f556b-7eb8-4ecf-b0b8-02d61f53e04f">conseil aulique</orgName> contre
+          l’acquisition qu’il a faite de <persName key="p0833">M[a]d[am]e de Gemingen</persName> de
+          la terre de Hochberg. Quelques membres de la noblesse immediate du même Canton sur le faux
+          exposé que <persName key="p0833">M[a]d[am]e de Gemingen</persName> n’avait point notifié
+          son intention de vendre ses terres comme il est d’usage, ont obtenu de ce tribunal un
+          conclusum, non encore insinué à la verité, qui annulle le contrat de vente, et ces
+          Messieurs de la noblesse immediate l’ont fait signifier avec leur protestation à <persName
+            key="p0833">M[a]d[am]e de Gemingen</persName> à Hochberg, au moment que <persName
+            key="p0062"
+            ref="6a072a5d-442a-4bc2-84f6-5e39a304a040">Son Altesse Serenissime</persName>
+          se trouvoit </p>
+        <pb n="f. 25v" />
+        <p> Elle même sur cette terre. Je ne doute point, Monsieur, que vous ne vous soyez deja
+          interessé à la resolution de cette affaire sur la demande directe que <persName
+            key="p0062"
+            ref="6a072a5d-442a-4bc2-84f6-5e39a304a040">M[onsei]g[neu]r le Duc</persName>
+          vous a fait de Vos bons offices, je me permettrai cependant d’y ajouter de mon chef et en
+          mon particulier les instances les plus vives pour engager Votre Ex[cellen]<hi
+            rendition="#sup">ce</hi> à porter avec chaleur les interets de <persName
+            key="p0062"
+            ref="6a072a5d-442a-4bc2-84f6-5e39a304a040">Son Altesse Serenissime</persName> non
+          directement au nom de <orgName>Sa Cour</orgName>, mais par ses liaisons, ses amis
+          et son propre credit. Cette reserve que j’ai l’honneur de lui recommander, de ne rien
+          faire d’office et en employant le nom de <persName
+            key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>
+          n’empechera cependant pas, qu’Elle ne puisse donner du relief à ses sollicitations, en
+          insinuant que <persName key="p0438,p0439">Leurs Altesses Imperiales</persName> prennent </p>
+        <pb n="f. 26" />
+        <p> naturellement à coeur les affaires de <persName
+            key="p0062"
+            ref="6a072a5d-442a-4bc2-84f6-5e39a304a040">Son Altesse Serenissime</persName>, et que ce
+          sera une chose, qui Leur sera très agreable, qu’Elle eprouve dans cette occasion de la
+          part du <orgName key="o0024" ref="350f556b-7eb8-4ecf-b0b8-02d61f53e04f">conseil aulique</orgName>
+          toute la justuice, qu’Elle peut se promettre de l’observation des loix, et dans le detail
+          des procedures toute la faveur, qui appartient à un Prince de son rang vis-à-vis de ces
+          Messieurs de la noblesse immediate, qui se sont permis toute sorte de manques d’égard et
+          d’attentions envers Elle. Je ne veux point laisser ignorer à V.E. qu’Elle fera un plaisir
+          sensible à <persName key="p0438" ref="b200d521-e964-435a-9090-11a5c4f0e590">Monseigneur le
+          Grand Duc</persName> et à <persName key="p0439" ref="0474f625-e852-4401-ac09-bb5d0dc41b9d">Madame
+          la Grand-Duchesse</persName> par l’interet et l’empressement, qu’Elle mettra à cette
+          affaire. Et comme c’est à Leur demande personnelle que j’ai l’honneur de lui en </p>
+        <pb n="f. 26v" />
+        <p> ecrire, je La prie de me marquer en particulier et non d’office les demarches, qu’Elle
+          se croira en etat de faire et quelle reussite Elle peut s’en promettre.
+          J’ai l’honneur d’être...</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_niorrgb_222_2_17_0001</note>
+          <note>ru_niorrgb_222_2_2_0001</note>
+          <note>ru_niorrgb_222_2_4_0001</note>
+          <note>ru_niorrgb_222_2_22_0001</note>
+          <note>ru_niorrgb_222_2_31_0001</note>
+          <note>ru_niorrgb_222_6_1_0001</note>
+          <note>ru_niorrgb_222_6_26_0001</note>
+          <note>ru_niorrgb_222_16_6_0001</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

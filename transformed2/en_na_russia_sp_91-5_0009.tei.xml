@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en">Translation of Count Golloffkin's Letter to Mr. Whitworth,
+          about the affront offerd [to] the Russian Ambassador in London, dated from the camp at
+          Grigorkow 16. Sept[ember] 1708 </title>
+        <author xml:lang="en">Gavriil</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Golovkin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>5 / 16 September 1708. – Translation of Count Golloffkin's{{p0071}} Letter to Mr.
+            Whitworth{{p1255}}, about the affront offerd [to] the Russian Ambassador in London,
+            dated from the camp at <placeName
+              key="g0427"
+              ref="https://www.geonames.org/628062">Grigorkow</placeName> 16. Sept[ember] 1708</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-5, f. 69-71v. English translation.</bibl>
+          </note>
+        </head>
+        <pb n="f. 69" />
+        <p> Duplicate</p>
+        <p>Translation of Count Golloffkin's{{p0071}} Letter to Mr. Whitworth{{p1255}}, about the
+          affront offerd [to] the Russian Ambassador in London, dated from the camp at <placeName
+            key="g0427"
+            ref="https://www.geonames.org/628062">Grigorkow</placeName> 16. Sept[ember] 1708</p>
+        <p />
+        <p>I have received your letter of the 3./14. Inst[ant] some days ago, by which I first was
+          surprised, but when the particular Relation of our Ambassador Mr. Matveoff{{p0699}}
+          afterwards came on, was quite astonish’d, to learn the unheard off inhuman Proceedings and
+          affront offer’d His Czarish Majesty{{p0174}} himself in the person of His Ambassador at
+          London, to the greatest violation of the Law of Nations. The Circumstances of this injury
+          as the Ambassador has given an account to His Czarish Majesty{{p0174}}, are so very
+          Extraordinary, that it must said to be an Instance without Example; namely that an
+          Ambassador of so great a Prince, under the pretence of orders from a justice of peace, was
+          permitted to be violently attack’d, in the open street, at night, by a parcel of Bailiffs
+          or to call them more properly Highwaymen, his footmen beat off, his coach forceably broke
+          open, these fellows placed by him, his person inhumanely treated with cudgelling, taking
+          away his Sword, cane, and Hat, and tearing his apparel; and when by repeated outerys he
+          had induced several persons to come to his assistance, who rescued him out of the hands of
+          these Highwaymen and brought him into a neighbouring Tavern, to inform themselves of the
+          busines ; the said fellows produced their orders, on which the Ambassador found himself
+          again abandon’d by every one, turn’d over to the </p>
+        <pb n="f. 69v" />
+        <p> Didcretion of these thieves, further abused by them, forceably slung into a Harkney
+          coach, hurried away to a scandalous prison, and there set fast ; and notwithstanding He
+          the Ambassador sent some foreign Ministers and English Lords, who were his personal
+          friends and took his part, to acquaint the Secretary of State with these unheard off
+          proceedings, yet he would not be found, but his secretary Walpole{{p1511}} came thither,
+          as he gave out of his own accord, and not as you report, dispatch’d by the Secretary of
+          State, much less to the Ambassadors assistance, but perhaps to divert himself with the
+          spectacle ; since he did not make the least offer for his release, nor once examin any
+          person, how they durst thus misuse an Ambassador against the Law of Nations, but went away
+          without doing any thing ; so that the Ambassador finding himself exposed without any
+          Protection from the Government, was obliged to buy himself out of this jayl and barbarous
+          hands, would He recover his Liberty, thou no other reason could be given him for this
+          inhumane treatment, than that it was done at the suit of two Tradesmen for fifty pound
+          Sterling, which the Ambass[ador] owd them, notwithstanding he had some time before
+          appointed the next day for the payment of all debts, recredentials, his passport, nor
+          procured a Jacht, son so that he could not have gone away from them. His Czarish
+          Majesty{{p0174}} cannot do otherwise, than look on this unexpected affront with the
+          greatest resentment, and therefore has graciously order’d me to write to you that you may
+          acquaint Her Majesty of Great Britain{{p0668}}, how </p>
+        <pb n="f. 70" />
+        <p> sensible His Czarish Majesty{{p0174}} is at this proceeding, and that he demands from
+          Her Majesty{{p0668}} a great satisfaction proportionable to the affront; to wit, that the
+          Criminals and first the Sheriff, the occasion of all this Mischief may ay least be
+          condemned to death, afterwards diverted of all his Employments and declared infamous that
+          his servants who attack’d the Ambassador as Highwaymen in the open street, and treated him
+          so barbarously, may be actually put to death as the most notorious Robbers and violators
+          of the Law of Nations ; and that the Tradesmen (: who probably made this attempt on the
+          Ambassador at the Instigation of some evil persons who were disposed to create a breach
+          between the two crowns :) as well as all others any ways concern’d in this matter, should
+          be also punished according to the severity of the Laws, that Her Majesty{{p0668}} may
+          hereby convince the world of Her love to justice, and Her sincere friendship for His
+          Czarish Majesty{{p0174}}, as well as wash off the scandal of violating the Law of Nations
+          from Her people, since such an exemple was never known in any Country and much less
+          amongst the Politer fort. For this affair cannot be repaired or made good in any other
+          manner, and in default of such a suitable satisfaction, His Czarish Majesty{{p0174}} shall
+          be oblig’d to do himself full justice, thou he would not willingly go so far, because of
+          the Esteem and friendship he has for Her Majesty{{p0668}} ; to prevent which ill
+          Consequences, you as an experienc’d Minister and true servant of the Queen{{p0668}}, will
+          use your best endeavours by your representations, both to Her Majesty{{p0668}} and Her
+          Ministers, that the old friendship </p>
+        <pb n="f. 70v" />
+        <p> and good correspondence, which has all along subsisted between the two Monarchs, and
+          Empires of Great Russia and Great Britain, may suffer no diminution ; and wee on our sides
+          shall likewise employ our best offices not to let it come to such ill effect.</p>
+        <p>As to the disagreable accident which you mention, happen’d to you in our Country, from
+          some ignorant people, you will easily judge they cannot be brought into comparison with
+          the unheard off affront offer’d to our Ambassador, nevertheless we by His Czarish
+          Majesty{{p0174}} orders have not suffer’d them to pass without giving you satisfaction ;
+          for the first, when certain people who did not know your servants, had the boldness to
+          fling stones at them; thou they did not touch your person in the least, yet the underwent
+          hard bodily punishment in the presence of one you deputed for that purpose, till he said
+          it was sufficient. As to the sealing up of your furniture in the Consuls warehouse, in the
+          market place, it cannot be construed as any affront to you, since before your journey you
+          did not inform the Posolsky Precasse{{o0064}} that your goods would be deposed there as is
+          usuall in like cases, and while the Town Councill had some pretensions on the
+          Consul{{p1252}} and other accounts to settle with him about the toll etc. They sealed up
+          the said warehouse not knowing your goods were there ; nevertheless His Czarish
+          Majesty{{p0174}} so soon as you complained thereof, reprimended the said Town Councill in
+          very severe Terms, and with Indignation let them understand that they should immediately
+          take off the seal from that warehouse where your things were : but for what relates to the
+          Consul{{p1225}} </p>
+        <pb n="f. 71" />
+        <p> his person cannot be brought into competition with an Envoy and much less an Ambassador,
+          and since he moreover drives a great Trade, he has sometimes disputes with several persons
+          and offices, nevertheless if any thing were put upon him indecently, and complained off by
+          him either to the Czar{{p0174}} or the Posolsky Precasse{{o0064}}, His Czarish
+          Majesty{{p0174}} would not have fail’d to order him sufficient reparation in consideration
+          of the Queen{{p0668}}.</p>
+        <p>Lastly for what relates to the Queens recognition of Lezinsky{{p0522}}, which you have
+          communicated to us, by the Queens orders ; but that it was done on repeated solicitations,
+          after a long delay and the example of other Princes, and that Her Majesty{{p0668}} had not
+          the last intention to prejudice the Czars interest thereby, but rather assured him of Her
+          unalterable friendship : His Czarish Majesty{{p0174}} receives this Declaration with
+          thanks but at the same time refers it to Her Majestys own mature reflection, whether it
+          must not be very sensible to him, that Her Majesty{{p0668}} would make this step without
+          any weighty reason, and without giving him any previous notice, in the very instant that
+          His Ministers in London and the Hague were treating of a nearer allyance and conjunction
+          between the two Crowns, and notwithstanding the Republick of Poland had desir’d Her
+          Majesty{{p0668}} to deferr it for some little time. It is very true that His Recognition
+          cannot in the least prejudice the Interest of His Czarish Majesty{{p0174}} or the common
+          wealth, only that it may awaken some small discontent in his friends, and some pleasure in
+          His Ennemys ; but being now pass’d it must be left </p>
+        <pb n="f. 71" />
+        <p> as it is, and the Decision thereof referr’d to the Will of God and chance of arms, which
+          alone can decide, who is to keep possession of the Polish throne, and have of late been
+          very favourable to His Majesty ; the Most High God give his further blessin and happy
+          conclusion hereof, to whose allmighty protection &amp; recommend you and remain.</p>
+        <p />
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-5_0013 ; </note>
+          <note> en_na_russia_sp_91-5_0014</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

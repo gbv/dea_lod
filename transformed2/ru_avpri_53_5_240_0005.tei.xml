@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Gold coin's weight verification certificate</title>
+        <author xml:lang="en">Knopf</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>15 August 1770. – Gold coin weight verification certificate</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 240, f. 45. French original.</bibl>
+            <bibl>Danish original: AVPRI, fond 53, opis 53/5, no. 240, f. 43–43v</bibl>
+            <bibl>sealed copy in Danish: AVPRI, fond 53, opis 53/5, no. 240, f. 44–44v.</bibl>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 240, f. 42. Signature in Latin.</bibl>
+          </note>
+        </head>
+        <pb n="f. 45" />
+        <p>
+          <hi rendition="#b">N<hi rendition="#sup">o </hi>
+            <hi rendition="#i" />7367</hi>
+        </p>
+        <p>
+          <hi rendition="#b">No. 20. Tire og Ihre Skissing</hi>
+        </p>
+        <p>
+          <hi rendition="#b">1770</hi>
+        </p>
+        <p>Translatum ex Danico</p>
+        <p>Monsieur Mestmacker, Secretaire de Sa Majesté de tous les Russes, me remit hier entre les
+          mains 68 Ducats en espèces, lesquels Ducats je fit [sic !] peser en biqueter en Sa
+          presence et celle du Marchand Brown, et nous es avons trouvé netto 1 Mg de Cologne pesant,
+          et par conséquent 1 St: trop leger p[ou]r Marc[handise]. Il fut même pesé en leur presence
+          quelques uns de ces ducats en detail, ou un à un ; les uns en furent trouvés de juste
+          poids, les autres 1-2 à 3 As trop légers. Le Guardien Roÿal de la fabrique de monnoie en a
+          pris un pour l’eprouver, les autres 67 envoÿés par ceci sous mon sceau.</p>
+        <p>À la fabrique Roÿale de Knopf</p>
+        <p>Monnoie à Copenhague Monnoÿer Royal</p>
+        <p>ce 15 Aout 1770</p>
+        <p>À la demande du Secretaire Mestmacker j’ai pris sous choix 1 ducat des susdits pour en
+          faire l’essai, et je l’ai trouvé juste, savoir comme des ducats en espèces en 23 Karat 6
+          Grains fin pr. Ms Brutto. Le reste du ducat, de meme que la preuve sont renvoÿés par ceci
+          sous mon sceau.</p>
+        <p>Lyng</p>
+        <p>Guardien Roÿal de </p>
+        <p>Monnoie.</p>
+        <p>Je soussigné Christian Schmidt, notaire Roÿal pour cette ville de Copenhague certifie et
+          atteste par ceci, selon la Reclamation de Monsieur Mestmacker, Chargé des affaires de Sa
+          Majesté Imperiale de tous les Russes, que les Srs Knopf &amp; Lÿng ont avec l</p>
+        <p>eur propres mains signé l’attestation ci-dessus, &amp; que le premier est Monnoier Royal,
+          &amp; l’autre Guardien Royal de Monnoie dans cette ville. En foi de quoi j’ai passé cet<hi
+            rendition="#s">te</hi> Instrument sous ma main &amp; mon sceau denotaire à Copenhague le
+          15 Aout 1770 C Schmidt</p>
+        <p>Pro vera versione ex originali, attestor</p>
+        <p>Haunio ut ante</p>
+        <p>SCHMIDT Not[…]</p>
+        <p />
+        <pb n="f. 42" />
+        <p>
+          <hi rendition="#b">N<hi rendition="#sup">o </hi>
+            <hi rendition="#i" />7365</hi>
+        </p>
+        <p>
+          <hi rendition="#b">No. 20. Tire og Ihre Skissing</hi>
+        </p>
+        <p>
+          <hi rendition="#b">1770</hi>
+        </p>
+        <p>Chartum hani ligillatam ad appensum attestationem pertinese, attestor, Haunio die 15to
+          Aug. 1770</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_avrpi_53_5_240_0001</note>
+          <note>ru_avrpi_53_5_240_0002</note>
+          <note>ru_avrpi_53_5_240_0003</note>
+          <note>ru_avrpi_53_5_240_0004</note>
+          <note>ru_avrpi_53_5_240_0006</note>
+          <note>ru_avrpi_53_5_240_0007</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

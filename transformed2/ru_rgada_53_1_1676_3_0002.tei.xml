@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from State Councilor Conrad Bierman, to the Danish
+          Envoy to Russia, Frederik von Gabel</title>
+        <author xml:lang="en">Conrad</author>
+        <author xml:lang="en">Bierman</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>June 4, 1677. – Letter from <persName key="p1428">State Councilor Conrad Bierman </persName>
+            to <persName key="p1426">the Danish Envoy to Russia, Frederik von Gabel</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 53, opis 1, 1676, no. 3, f. 124–125. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 124" />
+        <p />
+        <p>Monsieur</p>
+        <p>Le temps ne me permet pas de vous dire presentement d’avantage si non que Sa
+          Majesté{{p0669}} estant partye, il y a aujourdhuy dix jours avec son Armee d’aupres de <placeName>
+          Landscron</placeName> marcha tout droit vers les Ennemys qui s’estoient retranchés sur une
+          hauteur a une petite demye lieüe de la ville en un lieu extremement avantageux. jls firent
+          d’abord mine de sy vouloir maintenir, mais la [n]uict estant survenüe, ils se retirerent
+          sans bruit prennants leur marche vers <placeName
+            key="g0381"
+            ref="https://www.geonames.org/2699310">Christianstatt</placeName>, dont on ne
+          s’apperceust que de l’endemain matin. Sa Majeste en ayant eu avis les suivoit incontinent
+          et ne cessa de leur donner la Chasse susques au de la de <placeName
+            key="g0381"
+            ref="https://www.geonames.org/2699310">Christianstatt</placeName> ou ils se retirerent
+          dans les bois sans que lon les ayt pu suivre d’avantage a cause du manquement de vivres. <persName
+            key="p1428">Le General Major Meerheim</persName> s’appercevant de leur retraitte a fait
+          une sortie sur eux avec tant de vigeur quil leur enleva 21. pieces de Canons de Campagne,
+          tua beaucoup de leur monde et fist quantité de Prison-</p>
+        <pb n="f. 124v" />
+        <p>niers. Vous juegerez aisement Monsieur que cette retraitte des Ennemys devant l’Armee de <persName
+            key="p0669"
+            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Sa Majesté</persName> ne sest pu
+          faire quavec beaucoup de perte de leur Costè-estant certain quon leur a tué ou pris plus
+          de 1500. hommes sans ceux qui ont esté assommés par les Schnaphans dans les bois. Enfin <placeName
+            key="g0381"
+            ref="https://www.geonames.org/2699310">Christianstatt</placeName> est
+          delivré et on ne sçait jusques ou l’espouvante a emporté les Ennemys. je ne diray rien icy
+          de la Victoire que 12. Vaisseaux de la Flotte de <persName
+            key="p0669"
+            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Sa
+            Majesté</persName> a emportée sur l’Esquadre Ennemy qui estoit dans le Belth puisque
+          vous en aurez sans doute deja appris les Particu[lari]tés d’ailleurs. <persName key="p1429">M.
+            l’Admiral Nels juell</persName> en a pris 5. Vaisseaux et estoit encores a la chasse des
+          autres par les lettres quon en a receues. je suis avec respect </p>
+        <p>Monsieur</p>
+        <p>au Camp a Rurop le</p>
+        <p>4. juin 1677.</p>
+        <p>Vostre tr[ès] humble et</p>
+        <p>tres obeissant serviteur</p>
+        <p>
+          <persName key="p1426">C[onrad] Bierman</persName>
+        </p>
+        <p />
+        <p>a <persName key="p1424">M[onsieu]r. Gabell</persName>.</p>
+        <p />
+        <pb n="f. 125" />
+        <p> Писмо <persName key="p1426">датского посланника Фридриха фон Габеля</persName> прислано
+          в <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Посолской приказ</orgName>
+          с <persName key="p1475">переводчиком и маеором Юрьем Боем</persName> в нынешнем 185-м году
+          июля в 6 де[нь].</p>
+        <p />
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_53_1_1676_3_0001</note>
+          <note>ru_rgada_53_1_1676_3_0003</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

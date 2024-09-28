@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Declaration of the King of Denmark, Frederick IV,
+          recognizing the Elector Frederick III of Brandenburg as King Frederick I in Prussia</title>
+        <author xml:lang="en">King</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Denmark</author>
+        <author xml:lang="en">and</author>
+        <author xml:lang="en">Norway</author>
+        <author xml:lang="en">Frederiсk IV</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13 Deсember 1700. – Declaration of <persName
+              key="p0532"
+              ref="a2ddef43-2638-4c94-a067-2fef15c6a879">the King of Denmark, Frederick IV, </persName>recognizing
+            Frederick III, the Elector of Brandenburg, as <persName
+              key="p0524"
+              ref="86db824a-17c7-4f94-8d21-6c4d0c8f4e8a">King Frederick I in Prussia</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 53, opis 1, 1700, no. 7, f. 1–1v. German copy.</bibl>
+            <bibl>Translation into Russian: RGADA, fond 53, opis 1, 1700, no. 7, f. 2–3.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p>
+          <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Wir Friedrich der Vierdte
+          von Gottes Gnaden König zu Denn[emarck] Norweg[en] &amp; cet: cet</persName>: thun kund
+          hirmit  Nachdem Uns von <persName key="p0524" ref="86db824a-17c7-4f94-8d21-6c4d0c8f4e8a">des
+          Churfürste zu Brandenb[urg]</persName> d[urc]hl[aucht] und L[ieben] zu erkennen gegeben
+          worden, was gestalt derselbe entschloßen innerhalb wenig Wochen nach dero <persName
+            key="p0524"
+            ref="86db824a-17c7-4f94-8d21-6c4d0c8f4e8a">Souvrainen Herzogthum Preussen</persName>
+          sich zu begeben und sich daselbst pro Rege declariren zu laßen mit dem FreundVetterlichen
+          begehren, daß Wir alsdann und wann Uns von S[einer] d[urc]hl[aucht] und L[ieben] solcher
+          angenommenen Neuen Dignität halber behörige Notification gethan wird, selbige auch so fort
+          vor einen König cum plenis honoribus erkennen möchten, Als haben Wir Ihr[er]
+          d[urc]hl[aucht] und L[ieben] in ansehung der mit derselben pflegenden genauen
+          correspondenz und Freundschafft in diesen Ihren desiderio gerne Willfahren, auch Ihm
+          hiemit die feste Versprechung thun wollen, daß so bald Sie sich in Pressen vor einen König
+          ercklehren, Wir Ihr[e] d[urc]hl[aucht] und L[ieben] nicht allein in Unsern an Dieselbe auf
+          Ihrer beschehenen Notification ablaßenden Schreiben, sondern auch durch Unsern an
+          deroselben Hoffe habenden Minister und sonst überall Ein König tituliren auch Sie also
+          tractiren und alle von solcher Dignität dependirende honores Ihme und Ihren Ministris
+          erwisen nicht weniger auch bey dem <persName key="p1434">Könige von Franckreich</persName>
+          und andern </p>
+        <pb n="f. 1v" />
+        <p>Puissancen, daß von derselben desgleichen geschehe, befodern, und im fall Seine
+          d[urc]hl[aucht] und L[ieben], wie doch nicht zu vermüthen ist, darüber mit Jemand in
+          Weiterung verfallen solten, solches Pro Casu Communis garantiæ et foederis halten wollen,
+          dessen zu Urkund haben Wir die Versicherung mit eigener Königl[ichen] Hand unterschrieben
+          und solches mit Unserm geheim[en] Calirt[en] insiegel bedrücken laßen. So geschehen auf
+          Unserer Residenz zu <placeName
+            key="g0006"
+            ref="https://www.geonames.org/2618425">Coppenhagen</placeName> den 13 ... [December]
+          1700.</p>
+        <p>
+          <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Friderich Rex</persName>
+        </p>
+        <p>L. S.</p>
+        <p />
+        <p>Генваря в 29 де[нь].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

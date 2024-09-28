@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title
+          type="main"
+          xml:lang="en">Royal letter of congratulations from [the King of Denmark and Norway,] Frederick IV[,] to [the Tsar of Russia,] Peter I[,] on the birth of his daughter[,] [Grand Duchess] Nataliia [in fact: Margarita Petrovna]</title>
+        <title
+          type="main"
+          xml:lang="ru">Поздравительная грамота Фридриха IV Петру I к рождению дочери Натальи [в действительности: Маргариты Петровны]</title>
+        <author xml:lang="en">King</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Denmark</author>
+        <author xml:lang="en">and</author>
+        <author xml:lang="en">Norway</author>
+        <author xml:lang="en">Frederick IV</author>
+        <author xml:lang="en">Christian</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>17 November 1714. – [Royal] Letter of congratulations from [King of Denmark and Norway] Frederick IV to [Tsar] Peter I on the birth of his daughter [Grand Duchess] Natal’ia [Nataliia Petrovna]</title>
+          <note>
+            <bibl>RGADA, fond 53, opis 4, no. 27, f. 8, 10v. Danish original.</bibl>
+            <bibl>RGADA, fond 53, opis 4, no. 27, f. 9. Translation from Danish into German.</bibl>
+          </note>
+        </head>
+        <pb n="f. 8" />
+        <p>N 16.</p>
+        <p>Durchleuchtigste Stormægtigste Czar</p>
+        <p>Elskelige Kiere Broder Ven og Naboe:</p>
+        <p>Wj have af Eders May[es][tæ]ts og Kierl[ighed]s til oß afladte Skrivelse af den 27 nestafvigte Maaned Septemb[ris] med besynderlig Fornöyelse fornummet, hvorleedis den allerhöyeste Gud Czarinden, Eders May[es][tæ]ts og Kierl[ighed]s HöytElskelig Gemahlindes Kierl[ighed] den 8 af bemelte Maaned med een ung Princesse haver velsignet. Som Wj nu af ald det, hvad som til Eders May[es][tæ]ts og Kierl[ighed]s bestandige Welgaaende kand geraade, Deel tage; Saa önske Wj af Hiertet at denne Unge Princesse til Eders May[es][tæ]ts og Kierl[ighed]s Höye Czaariske Huuses Glæde maa opwoxe, og een velsignet alder opnaae. Forblivendis bestandig med ald sinceritet</p>
+        <p>Eders May[es][tæ]ts og Kierl[ighed]s</p>
+        <p>Tro Broder Ven og Naboe:</p>
+        <p>Kiöbenhaun</p>
+        <p>den 17 Novemb[ris]</p>
+        <p>A[nn]o 1714			Friderich R[ex]</p>
+        <p />
+        <p>				C: Sehestedt.</p>
+        <p />
+        <p>Til Hans May[es][tæ]t Czarn</p>
+        <p>udi Ryßland:</p>
+        <p />
+        <pb n="f. 10v" />
+        <p>Dend Durchleuchtigste Stormægtigste</p>
+        <p>Czar og Storförste udi det Heele Ryßland:</p>
+        <p />
+        <p>Грамота от короля датцкого поздравителная о счастливом разрешении г[о]с[у]д[а]рыни ц[а]рицы. Подал Фалк в Петербурге декабря в 17 д[ень] 1714.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

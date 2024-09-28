@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en">Extract of Count Gollowin's answer to the said Memorial
+          dated Mosco 5./16. May 1705</title>
+        <author xml:lang="en">Fedor</author>
+        <author xml:lang="en">Alekseevich</author>
+        <author xml:lang="en">Golovin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>5 / 16 May 1705. – Extract of Count Gollowin's{{p0277}} answer to the said Memorial
+            dated <placeName
+              key="g0001"
+              ref="https://www.geonames.org/524894">Mosco</placeName> 5./16. May 1705</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-5, f. 89v-90v. English copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 89v" />
+        <p>Extract of Count Gollowin's{{p0277}} answer to the said Memorial dated <placeName
+            key="g0001"
+            ref="https://www.geonames.org/524894">Mosco</placeName> 5./16. May 1705</p>
+        <p />
+        <p>Concerning the Exportation of goods Customfree according to the Contract, althou this was
+          allowed by the Czars especiall grace for the produce of the Tobacco, in hopes to increase
+          that Trade for the advantage of both dominions ; yet since so many disorders were
+          committed by the Company{{o0137}} and their factors, as renderd the Contract null, as well
+          by their own not importing the full quantity stipulated in the Treaty, as by the abuses of
+          their factors and retalers, who sold Circassian Tobacco instead of English ; and that by
+          such unwarantable practices their Treaty was entirely broke, the Czar{{p0174}} did not
+          think convenient to make good the gace he had promisd them, for by the Treaty itself, it
+          was not agreed, that the goods should be exported without any dutys at all, but only on
+          paying the moderate and usuall Customs as the Envoy himself may plainly see out of the
+          original English Contract.</p>
+        <pb n="f. 90" />
+        <p> What concerns the Letter of Exchange, which Mr. Goodfellow{{p1252}} gave for 20 m.
+          Dollars, he was not constraind to it, but he did it for his free will, because several
+          Commodities had been taken of him, as part of the Tobacco duties at very high rates,
+          several other andvantages had been also allowed to the Company{{o0137}} and to the
+          Consul{{p1252}} himself in particular ; as the giving of Podwodes or free carridges for
+          the Tobacco, and such like helps as were not stipulated in the Treaty. All which might
+          have more than made good the little advantage of this bill of Exchange ; the said bill lay
+          also above a year and a half unpayd, and the money was taken up at great loss, and these R
+          Dollars have been plac’d to his account instead of Russian money due for Customs at a
+          reasonable price ; and not at an underate.</p>
+        <p>What relates to the Contract for flax ; this does not in the least concern the
+          Company{{o0137}}, but was given to the Consul{{p1252}} himself as a particular mark of the
+          Czars favour, to encourage him in a Commerce on the East Sea, whereof the Consul{{p1252}}
+          gave some hopes ; as to the duty thereof, it was order’d to be taken accordingly to the
+          usuall Customs, which were pay’d by all Merchants, and not according to the new
+          impositions laid on that commodity. Notwithstanding which several </p>
+        <pb n="f. 90v" />
+        <p> particular favours beyond what was agreed to in the first Traety, all has been to no
+          purpose.</p>
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-5_0010</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

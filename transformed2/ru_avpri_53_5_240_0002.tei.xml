@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of a letter from the Royal Danish Admiral Count
+          [Christian Conrad Danneskiold-]Laurwig to the Russian Imperial Legation Secretary,
+          [Johann] Mestmacher de dato Copenhagen, den 6. July st. n. 1770</title>
+        <title type="main" xml:lang="de">Copie eines Schreibens von dem Königl[ichen]: dänischen
+          Admiralen Grafen Laurwig an den Russisch Kayserl[ichen]. Legations Secretarien Mestmacher,
+          de dato Copenhagen den 6. July S.n. 1770</title>
+        <author xml:lang="en">Christian</author>
+        <author xml:lang="en">Conrad</author>
+        <author xml:lang="en">Danneskiold-Laurwig</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>6 July 1770. – Copy of a letter from the Royal Danish Admiral, Count
+              [Christian Conrad Danneskiold-]Laurwig, to the Russian Imperial Legation Secretary,
+              [Baron Johann von] Mestmacher, from Copenhagen, dated July 6, 1770 n.s.</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 5, no. 240, f. 6-6v. German original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 6" />
+        <p />
+        <p>Copie eines Schreibens von dem König[lich]: dänischen Admiralen Grafen Laurwig an den
+          Russisch Kayser[lichen]. Legations Secretairen Mestmacher de dato Coppenhagen d[en] 6.
+          July st.n. 1770. __</p>
+        <p>Da Ihro König[lichen]. May[e]st[ät]. vor Dero Abreise mir allergnädigst befohlen, daß die
+          erwartende Rußisch Kayser[liche]. Escadre wenn selbige auf hiesiger Rheede käme, auf
+          Verlangen Ihro Russisch Kayser[lichen]. M[aje]s[tä]t. mit 400. Matrosen versehen werden
+          sollten, zugleich auch allergnädigst befohlen daß selbige lauter freywillige und nicht
+          commendirte seyn müßen; So habe nicht ermangeln sollen Ew[e]r. HochEdelgeb[ohren]. die
+          Besoldung der Dähnischen Matrosen, wenn selbige auf der König[lichen]. Flotte dienen /:
+          ihr Kost, Bier und Brannteweine so besonders gut ist nicht miteinberechnet :/ zu
+          communuiciren, neml[ich].</p>
+        <p>Ein ganz befahrner Matroß beköm[m]t Monatlich gage _ _ _ _ 5. R[igsda]l[er].</p>
+        <p>Ein halb befahrner _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 3 ½.
+          ___</p>
+        <p>Wenn selbige Frau und Kinder haben pflegen die Frauens des Mannes halbe gage, so lange
+          sie auf der Reise sind, zu ihrer Unterhaltung zu erhalten; wann sie König[liches]. hauß
+          oder in den so genandten Cassernen wohnen, wird von ihrer gage für die Wohnung jährlich 4
+          R[igsda]l[er]. eingehalten.</p>
+        <p> Damit die Matrosen sich zu der Reise im Stande setzen können wird einem jeden allerzeit
+          3. Monaths gage vorgeschoßen.</p>
+        <pb n="f. 6v" />
+        <p> </p>
+        <p>Ich laße eine Liste verfertigen über die zu der Escadre bestimmten 400: Mann, und selbige
+          in denen rubriquen nach ihren Character von ganze und halb befahrnen setzen, auch darin
+          die drey Monathe Avance anführen laßen.</p>
+        <p>Als für 200. Mann befahrne Matrosen durch Monath avance macht à Monath 5. R[igsda]l[er]
+          __ __ _ 3000. R[igsda]l[er].</p>
+        <p>Noch zwey hundert Mann halb befahrne à Monath 3 1/3 R[ube]l 2100. _ .</p>
+        <p> Hernach kömt die rubrique von denen, welche Frauen und Kinder haben und in den Cassernen
+          wohnen.</p>
+        <p> Damit nun aber die Rußisch Kayser[liche]. Escadre sich nach disen Leuten nicht aufhalten
+          solle, wenn selbige auf hiesige Rheede komt, so sollen die Matrosen 8 Tage nach dem sie
+          ihren Avance empfangen haben alle Stunde zum Embarquement fertig seyn. Der ich p[erge]</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_avpri_53_5_240_0001</note>
+          <note>ru_avpri_53_5_240_0003</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

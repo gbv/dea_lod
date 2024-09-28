@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Memorial of what happened in the case of Edwards, Bell and
+          Perry </title>
+        <title type="main" xml:lang="fr">Memoire, contenant ce qui s'est passé dans l'affaire
+          d'Edwards, Bell et Perry </title>
+        <author xml:lang="en">Charles</author>
+        <author xml:lang="en">Whitworth</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>8 / 19 March 1712. – Memorial of what happened in the case of Edwards, Bell and
+            Perry</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-7, f. 318-320v. French copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 318" />
+        <p> Memoire, contenant ce qui s’est passé dans l’affaire d’Edwards, Bell at Perry</p>
+        <p />
+        <p>Bell{{p2012}} est un Anglois Agent en Moscovie pour quelques Marchands de <placeName
+            key="g0003"
+            ref="https://www.geonames.org/2643743">Londres</placeName> ; Il a eu des disputes avec un de ses principaux, Son
+          oncle nomme Edwards{{p2010}}, pour des sommes considerables ; cette dispute est arrivée
+          pour le conte d’un autre Anglois mort ici il y a quelques ans, cependent ils ont continué
+          leur negoce ensemble jusques à 1709. alors Edwards{{p2010}} renvoya avec proteste quelques
+          lettres d’echange tirées sur luy par Bell{{p2012}} pour le conte du Defunt, et mécontent
+          de la conduite de son neveu, envoya ses marchandises l’an 1710. montant à plus de m/40.
+          Rubles à un autre Agent nomme Gartside{{p2015}}, et pour eviter toute confusion, que
+          Bell{{p2012}} luy pourroit susciter, fit passer ces marchandises sous le nom d’un (<hi
+            rendition="#u">Robinson</hi>) troisiéme nommé <hi rendition="#u">Perry</hi>{{p2011}}
+          dont il avoit acheté la plus grande partie en premier lieu, mais peu de temps aprés étant
+          informé que Bell{{p2012}} vouloit arrêter tout ce qui appartenoit à luy, Il vend toutes
+          les marchandises au méme Perry{{p2011}} à <placeName
+            key="g0003"
+            ref="https://www.geonames.org/2643743">Londres</placeName> le 1<hi
+            rendition="#sup">er</hi>. du mois d’août 1710. comme il paroit par les contes ajustés
+          sous serment ce méme jour, et aussi par les serments particuliers de Perry{{p2011}} et
+          d’Edwards{{p2010}} fait à <placeName
+            key="g0003"
+            ref="https://www.geonames.org/2643743">Londres</placeName> le 1<hi
+            rendition="#sup">er</hi>. de Juin 1711.</p>
+        <p>Bell{{p2012}} en attendant avoit trouvé moyen l’an 1708 d’emprunter d’un des Tresors de
+          Sa Majesté Czarienne{{p0174}} la somme de 13998. Roubles, ce qu’il fit sans ordre de son
+          oncle à ce qu’Edwards{{p2010}} soutient, en son propre nom, et sous la caution de quelques
+          personnes, qui pour lors n’avoient pas pour cinq cents êcus valants. </p>
+        <pb n="f.318v" />
+        <p> L’an 1709. il livra dans le Tresor dix pude de [?] en partie de cet argent, mais ne
+          pouvant pas remplacer les 20. autres pudes l’année après comme il s’etoit obligé, son
+          oncle ayant protesté ses lettres d’echange comme dejà dit, il donnoit une supplique au
+          Senat{{o0058}} le 22<hi rendition="#sup">e</hi>. Juillet 1710 il dit avoir emprunté cet
+          argent par ordre de son oncle, sans en donner aucune preuve et obtint un ordre daté du 23<hi
+            rendition="#sup">e</hi>. d’aout portant que les marchandises de son oncle seroient
+          saisies et vendües pour le payement de cette somme.</p>
+        <p>Cette saisie soit faite en vertue de cet ordre mais d’une maniere tout a fait
+          extraordinaire car on a dabord scellé tous les ambars de l’agent Gartside{{p2015}}, on a
+          visité tous ses livres et ses papiers par force, on a examiné toutes ses lettres, ce que
+          ne se pratique pas que pour crimes d’Etat et pas dans des procés civiles, et on n’a pas
+          obligé Bell{{p2012}} de donner la moindre caution pour le dommage qu’il pouvoit causer si
+          son occupation seroit trouvé injuste. </p>
+        <p>On dit dans le rapport du Senat{{o0058}} pour justifier cette saisie, que les lettres de
+          vente furent trovées fausses par le temoignage de quelques etrangers mais ces etrangers ne
+          sont pas nommés, car on ne fait pas la moindre mention en quoi ce pretendüe témoignage
+          consistoit.</p>
+        <p>Ils disent bien qu’on trouva par des lettres que ces marchandises au temps de leur
+          embarquement </p>
+        <pb n="f. 319" />
+        <p> appartenoient à Edwards{{p2010}}, et étoient mis sous le nom de Perry{{p2011}} <hi
+            rendition="#u">pro forma</hi>, mais ils ne prennent pas garde que cette vente soit faite
+          quelques semaines aprés l’ecriture de dites lettres, mais avant la saisie.</p>
+        <p>Le 18<hi rendition="#sup">e</hi>. Novemb<hi rendition="#sup">r</hi>. Paul
+          Westhoff{{p2016}} et quelques autres marchands donnerent une supplique, que Bell{{p2012}}
+          leur devoit beaucoup d’argent, et qu’Edwards{{p2010}} devoit aussi a luy Bell{{p2012}}
+          beaucoup, et qu’ainsi ils prient d’avoir leur payement sur lesdites marchandises, ce qui
+          leur étoit accordé au mois de Fevrier 1711. et l’ordre donné de livrer les marchandises
+          entre les mains de Bell{{p2012}}, sans que la moindre dette fut encore prouvée.</p>
+        <p>Sur ces rapports peu fondés le Senat ordonna le 4<hi rendition="#sup">e</hi>. Juillet
+          1711. que ces dites marchandises s’etoient remises à la discretion de Bell{{p2012}} comme
+          auparavent ; cet ordre du Senat{{o0058}} étoit reveüe par le secretaire Anisin
+          Schukin{{p1228}} et envoyé à Mons<hi rendition="#sup">r</hi>. Curbatoff{{p1384}} le 31<hi
+            rendition="#sup">e</hi>. de Juillet 1711.</p>
+        <p>Durant ces entrefaites le dit Perri{{p2011}} étant averti à <placeName
+            key="g0003"
+            ref="https://www.geonames.org/2643743">
+          Londres</placeName> qu’on s’etoit saisie de toutes ses marchandises à <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName>, obtint par son supplique les instructions de la Reine
+          de la Grande Bretagne{{p0668}} au secretaire d’Ambassade Weisbrod{{p1354}} de l’informer
+          de l’affaire, et d’obtenir un ordre de Sa Majesté Czarienne{{p0174}}, que les marchandises
+          (: de peur d’etre gatées :) pourroient etre rendües à Gartside{{p2015}}, sous caution </p>
+        <pb n="f.319v" />
+        <p> suffisante pour leur valeur, jusques à la fin du procès, et que le tout pourroit étre
+          examiné et terminé entre ces marchands selon les voyes ordinaires de la justice.</p>
+        <p>Le dit Weisbrod{{p1354}} au mois de Janvier 1711. ordonna aux deux pretendants
+          Gartside{{p2015}} et Bell{{p2012}} de luy donner immediatement l’etat de cette affaire
+          chacun à part pour l’information de la Reine{{p0668}} ; ce que ces Messieurs ne firent pas
+          qu’au mois d’avril, et dans le sien Bell{{p2012}} n’apporte pas la moindre preuve que son
+          oncle luy est aucunement endetté. </p>
+        <p>Il donna aussi un memoire en consequence de ces ordres au Posolsky Precase{{o0064}} le 3.<hi
+            rendition="#sup">e</hi>/14. de Mars 1711. avec beaucoup d’attestations formiel de
+          serments touchant la vente faite de marchandises entre Edwards{{p2010}} et Perry{{p2011}}.</p>
+        <p>Le secretaire continua de renouveller ses instances à ditte ventes reprises, et le 23.<hi
+            rendition="#sup">e</hi> d’Aout, ayant quelque information que la resolution avoit êté
+          prise par le Senat{{o0058}} de donner les marchandises en question à Bell{{p2012}} sans
+          autre formes de procés, il alla protester contre cette procedure, et prit avec luy le
+          Secretaire Imperial pour témoign, et le 10.<hi rendition="#sup">e</hi> du mois de novembre
+          il leur presenta un memoire par êcrit au méme éfect et pour empécher ces procedures
+          prematurés.</p>
+        <p>Pendant ce temps L’Ambassadeur ayant receu </p>
+        <pb n="f.320" />
+        <p> de nouvelles instructions de la Reine{{p0668}}, obtint un ordre de Sa Majesté
+          Czarienne{{p0174}} à <placeName
+            key="g0215"
+            ref="https://www.geonames.org/3073803">Carlsbad</placeName> vers la fin du mois de
+          septembre, que lesdites marchandises seroient rendües à Gartside{{p2015}} sans caution
+          pour la valeur jusques à ce que le procés viendroit étre decidé. </p>
+        <p>Le 16.<hi
+            rendition="#sup">e</hi> de Novembre mon secretaire receut l’avis de cet ordre à <placeName
+            key="g0001"
+            ref="https://www.geonames.org/524894">Mosco</placeName> par mes lettres, le 19.<hi
+            rendition="#sup">e</hi> il le
+          rendit auprez du Senat{{o0058}}, et trouva que lesdits ordres de Sa Majesté
+          Czarienne{{p0174}} y étoient dejà arrivés il y a quelque temps, et on Luy promit d’envoyer
+          un Ucase au Gouverneur d’Archangel, en consequence de cela sans perte de temps ; Mais quoi
+          qu’il y alla ou envoya de jour en jour, on le differa de le faire jusques au 28.<hi
+            rendition="#sup">e</hi> de Novembre. </p>
+        <p>Mon secretaire cependant avoit donné avis des ordres de Sa Majesté Czarienne{{p0174}}, et
+          de ce que le Senat{{o0058}} luy avoit promis à Gartside{{p2015}} à <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">
+          Archangel</placeName>, qui le receut avant que les Marchandises avoient êté données à
+          Bell{{p2012}}, comme il paroit par Sa lettre du 29.<hi rendition="#sup">e</hi> de Novembre
+          ; Il alla méme en porter l’avis à Mons.<hi rendition="#sup">r</hi> le vice Gouverneur
+          Gurbatoff{{p1384}}, qui disoit de n’avoir pas receu aucun tel ordre du Senat{{o0058}}, et
+          que luy Gartside{{p2015}} avoit souvant dit la méme chose tant qu’il en fut arrivé rien,
+          de sorte qu’il se trouva obligé de donner les marchandises à Bell{{p2012}}. </p>
+        <pb n="f.320v" />
+        <p> Sans plus attendre, comme il fit avant le 6.<hi rendition="#sup">e</hi> de Decembre sans
+          obliger Bell{{p2012}} de donner la moindre caution pour la valeur, en cas qu’il fut
+          poursuivi, de sorte que les ordres du Senat{{o0058}} arrivent trop tard.</p>
+        <p>Par la datte de toutes ces lettres il paroit indisputablement que les ordres de Sa
+          Majesté Czarienne{{p0174}} arrivent à temps de <placeName
+            key="g0215"
+            ref="https://www.geonames.org/3073803">Carlsbad</placeName>,
+          et que leur Execution n’a manque que par la negligence ou par le dessein de personnes
+          interessés.</p>
+        <p>à <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName> le 8.<hi
+            rendition="#sup">e</hi>/19. de
+          Mars 1711./12.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

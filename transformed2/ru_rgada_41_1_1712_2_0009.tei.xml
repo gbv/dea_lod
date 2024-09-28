@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian agent in Venice Matteo Caretta to
+          the chancellor Count Gavrila Ivanovich Golovkin</title>
+        <author xml:lang="en">Matteo</author>
+        <author xml:lang="en">Caretta</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>15 April 1712. – Letter from the Russian agent in Venice Matteo Caretta to the
+          chancellor Count Gavrila Ivanovich Golovkin</title>
+          <note>
+            <bibl>RGADA, fond 41, opis 1, 1712, no. 2, f. 47-49. Russian translation; Italian original
+            : ibid., f. 45-45v. </bibl>
+          </note>
+        </head>
+        <pb n="f. 47" />
+        <p />
+        <p>Сиятелнейшему Превозходителнейшему Г[оспо]д[и]ну Г[оспо]д[и]ну почтеннейшему Его
+        Превосходителству Головкину Великому Канцлеру и Первому министру : – из Венеции в день 15
+        апреля 1712.</p>
+        <p>Нижайший раб Матфей Карета</p>
+        <p>Из Константинополя 10 числа марта чрез писма приятели наши мне сказывают когда услышали
+        турки, что Азов стад в их руках, всякое дело лице переменило. Понеже другое претендуют о
+        Крайне, и что султан хотел сам итти во обозе, но законники их того нехотят, и муфтий нехочет
+        дать фетфы. [то есть приговор их закона их] Понеже так говорити что несть тое по закону.
+        Когда де уже Его Ц[а]рское Величество учинил </p>
+        <pb n="f. 47v" />
+        <p> уже окончение трактату, надобно заключить мир : и что во всю луну мартову ненадеялися,
+        ежебы им выставлять вон бунчуки : Однакоже я говорю, что никогда ненадобно уверятися о
+        турках : –</p>
+        <p>В сих странах, говорят за известно: хотя де Его Величество Наш Император и подал окончение
+        трактатом мирным, но турки изменят и будет последовать война : а особливо, что здесь всегда
+        слышится больши о приуготовлениях турецких на наступающую весну :</p>
+        <p>Уповаю на Б[о]га, что будем иметь мир: а ежели по случаю не будет : то я мню, что Его
+        Ц[а]рское Величество будет памятовать хр[ис]тиан монтенегринов : понеже когда получат </p>
+        <pb n="f. 48" />
+        <p> м[и]л[ос]ть от н[а]шего Августейшаго Императора, то учинят они превеликую разволоку туркам
+        : но иа о сем деле уже ничего недоношу понеже уже н[а]ш Г[оспо]д[и]н консул Боций донес
+        колико есть потребно, во своих писмах в прошлых временех, написанных к В[а]шему
+        Превозходителству: того ради о том ничего я неговорю, толко буду ожидать здесь приказаний
+        В[а]шего Превозходителства : –</p>
+        <p>В приидущей понеделник пойдет отсюду един карабль воинской сея Речи Посполитыя, со сногими
+        иными кораблями купетцкими, с солдатами, и с сухарами и все то в Морею :</p>
+        <p>На другой пригли писма из Занте от провианта мейстера генералного и из Дурайа от консула
+        венецкаго </p>
+        <pb n="f. 48v" />
+        <p> что по Албании, и по всей Греции турки собирали много людей, говоря что идем на московитян
+        : сие говорят в сих странах :</p>
+        <p>Посылаю обыкновенныя ведомости италианския, да изволите в них видеть гюрнал :</p>
+        <p>Конте Рашов здесь в Венеции ожидает ответа в том чего желает от Его Величества и от
+        В[а]шего Превозходителства : тож оффицер голанец о котором уже доносил в моих писмах
+        В[а]шему Превозходителству, о чем паки прошу ответствования :</p>
+        <p>А еже ли В[а]ше Превозходителство неимеет </p>
+        <pb n="f. 49" />
+        <p> способности писать ко мне по италиански, да повелит писать ко мне по французки или по
+        латински, понеже единако то мне служит : притом застаю всегда желателнейше м[о]л[и]ти Нашего
+        Августейшего Монарха и защищения В[а]шего Превозходителства, лобызая руки В[а]шего
+        Превозходителства нижайший и обдолженнейший раб Матфей Карета :</p>
+        <p>Из Венеции 15 апреля 1712.</p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_41_1_1712_2_0008</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>
