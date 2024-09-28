@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,16 +96,13 @@
         </p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF />
-    </xenoData>
-  </teiHeader>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <div>
         <head>
-          <title>1 October 1714. – Letter of <persName key="p1383">Paolo Arcoleo</persName> to <persName
-              key="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
+          <title>1 October 1714. – Letter of <persName key="p1383">Paolo Arcoleo</persName> to <persName key="p0071">the chancellor Count Gavrila Ivanovich Golovkin</persName>
           </title>
         </head>
         <opener>
@@ -116,14 +110,13 @@
             ibid., f.
             3-4v.
           </note>
-          <pb cert="high" n="f. 1" xml:space="default" />
+          <pb cert="high" n="f. 1" xml:space="default"/>
           <note>Перевод</note>
-          <salute>Сиятелнейший и Превосходителнейший <lb /> Граф, тайный советник Его Царского
-            Величества и Великий Канцлер Империи, <lb /> Милостивый Государь ! </salute>
+          <salute>Сиятелнейший и Превосходителнейший <lb/> Граф, тайный советник Его Царского
+            Величества и Великий Канцлер Империи, <lb/> Милостивый Государь ! </salute>
         </opener>
         <p>Прошедшаго 27аго Сентября был я спрошен одним из вернейших секретарей Вашего
-          Превосходительства о некоторых артикулах, содержащихся в бумаге представленной от <persName
-            key="p1381">Его
+          Превосходительства о некоторых артикулах, содержащихся в бумаге представленной от <persName key="p1381">Его
             Превосходительства Саввы Владиславича
           </persName> против меня
           секретаря <persName key="p1383">Павла Арколея</persName>, преданнейшего слуги Вашего
@@ -141,11 +134,10 @@
           Превосходительства
             барона Шафирова</persName>; а потому и не могу во всей точности ответствовать на
           настоящия обвинения <persName key="p1381">Его Превосходительства Саввы</persName>; ибо я
-          при произведенном надо мною в <placeName ref="">Фиуме</placeName>
-          следствии не только обо всем ответствовал, но и дал точной отчет помянутому <persName
-            key="p0494">министру барону
+          при произведенном надо мною в <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0399" xml:space="default" ref="https://www.geonames.org/3191648">Фиуме</placeName>
+          следствии не только обо всем ответствовал, но и дал точной отчет помянутому <persName key="p0494">министру барону
             Шафирову</persName>. </p>
-        <pb cert="high" n="f. 1v" xml:space="default" />
+        <pb cert="high" n="f. 1v" xml:space="default"/>
         <p>
           <persName key="p0494">Его Превосходительство барон Шафиров</persName> при свидании его со
           мною, (также после того <persName key="p0699">Его Превосходительство полномочной
@@ -175,17 +167,8 @@
           был я ехать к сему <orgName key="o0008">двору</orgName>. </p>
         <p>
           <persName key="p0699">Его Превосходительство Матвеев</persName> исполнил то, что ему было
-          приказано. Он вручил мне письмо Вашего Превосходительства с деньгами посланны- <pb
-            cert="high"
-            n="f. 2"
-            xml:space="default" /> ми для сего путешествия, обнадежив меня в
-          том, что я при <orgName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="o0008"
-            xml:space="default">
+          приказано. Он вручил мне письмо Вашего Превосходительства с деньгами посланны- <pb cert="high" n="f. 2" xml:space="default"/> ми для сего путешествия, обнадежив меня в
+          том, что я при <orgName cert="high" evidence="internal" full="yes" instant="unknown" key="o0008" xml:space="default">
             Императорском дворе
           </orgName> буду гораздо щастливее. </p>
         <p>Я не преминул тот час повиноваться почтенным повелениям Вашего Превосходительства оставя
@@ -194,8 +177,7 @@
         </p>
         <p>Теперь же, находясь при <orgName key="o0008">дворе</orgName>, вижу что с собою совсем
           противно; и хотя Ваше Превосходительство вознамерились таким образом обмануть меня в
-          угодность <persName
-            key="p1381">Его Превосходительству Савве</persName>: однако не можете обмануть Бога,
+          угодность <persName key="p1381">Его Превосходительству Савве</persName>: однако не можете обмануть Бога,
           видящаго тайныя сокровенности сердец человеческих. </p>
         <p>Я никогда не поверю чтобы Ваше Превосходительство (боясь Бога, будучи исполнены милости и
           правил Християнских) захотели утеснить беднаго человека, которой всегда старался служить
@@ -203,23 +185,18 @@
           возможною верностию, употребив лживыя предлоги, которыя строго наказываются перед страшным
           судилищем Вечнаго Судии, и служат худым примером и поношением всему свету, в особенности
           же нещастной Греческой нации, столь ненавидимой Латинцами и преследуемой турками, которая
-          всю свою надежду имеет во первых на Бога, а потом на сего <persName
-            key="p0174">Православного Императора</persName>, чрез котораго Всевышний да благоволит
+          всю свою надежду имеет во первых на Бога, а потом на сего <persName key="p0174">Православного Императора</persName>, чрез котораго Всевышний да благоволит
           освободить оную от ига варварскаго. </p>
         <p>Я покорнейше прошу Ваше Превосходительство обратить ваши взоры на небо, и подумать о
           бывших мне гонениях; о бедности, до которой довели меня мои противники; о бедствиях, в
           которых теперь нахожусь, и о нещастиях и опасностях, которым подвержены мои стенящия дети,
           которыя просят помилования от <persName key="p0174">Его Царскаго Величества
           </persName> и мщения от Бога. </p>
-        <p>Впрочем, Ваше Превосходительство, да удостоите <pb
-            cert="high"
-            n="f. 2v"
-            xml:space="default" /> их снисходительностию к их нещастиям и утешите их моим
+        <p>Впрочем, Ваше Превосходительство, да удостоите <pb cert="high" n="f. 2v" xml:space="default"/> их снисходительностию к их нещастиям и утешите их моим
           освобождением и тем будете удостоверены в получении от Бога награду, как в здешней жизни,
           так и в вечной славе; иначе естьли мой патрон (я говорю об Апостоле Павле) принес жалобу
           Цесарю Римскому, буду я принужден приносуть [sic!] жалобу <persName key="p0174">Царю
-          Российскому</persName>, одушевляясь надеждою, что <persName
-            key="p0174">Его Величество Всемилостивейший Император
+          Российскому</persName>, одушевляясь надеждою, что <persName key="p0174">Его Величество Всемилостивейший Император
           </persName> сдержит слово данное мне
           посредством его вернейших министров; как то видно из патентов и писем их, что все
           находится в сундуке, запечатанном секретарем <persName key="p1384">
