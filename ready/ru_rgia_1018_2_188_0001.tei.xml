@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,15 +98,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1827. – Translation of a letter from <persName
-              key="p0847">Mehdigulu Khan Javanshir</persName>
+          <title>1827. – Translation of a letter from <persName key="p0847">Mehdigulu Khan Javanshir</persName>
             to <persName key="p0846" ref="81979f75-1b37-4a43-a2e4-1d57e63d9258">the Military
               District Commander, Sir Colonel and Commander [of the Order of St. George], Prince
             [Ivan Nikolaievich] Abkhazov</persName>
@@ -118,32 +114,20 @@
             <bibl>RGIA, fond 1018, opis 2, no. 188, f. 8–8v. Translation from Persian into Russian.</bibl>
           </note>
         </head>
-        <pb n="f. 8" />
-        <p>Перевод с письма <persName key="p0847">Мехти-Кули-Хана</persName>, <persName
-            key="p0846">Военно-окружному
+        <pb n="f. 8"/>
+        <p>Перевод с письма <persName key="p0847">Мехти-Кули-Хана</persName>, <persName key="p0846">Военно-окружному
           начальнику Г. Полковнику и кавалеру Князю Абхазову</persName>.</p>
-        <p />
-        <p> Почтенный <persName key="p0000">Аеверди-бек</persName>, удалившись из заграничнаго
-          города <placeName
-            key="g0252"
-            ref="https://www.geonames.org/549320">Хой</placeName>, и прибыв ко мне, объявляет о нижеследующем: <persName
-            key="p0852">Шах Персидский</persName> прибыл в город <placeName
-            key="g0251"
-            ref="https://www.geonames.org/805343">Марант</placeName>,
-          а <persName key="p0849">Амир-низам-мамад-хан</persName> с 4000 сарбазами отправился в <placeName
-            key="g0086"
-            ref="https://www.geonames.org/616052">Ереван</placeName>; равным образом и <persName
-            key="p0855">Шахзада</persName>
+        <p/>
+        <p> Почтенный <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2193" xml:space="default">Аеверди-бек</persName>, удалившись из заграничнаго
+          города <placeName key="g0252" ref="https://www.geonames.org/549320">Хой</placeName>, и прибыв ко мне, объявляет о нижеследующем: <persName key="p0852">Шах Персидский</persName> прибыл в город <placeName key="g0251" ref="https://www.geonames.org/805343">Марант</placeName>,
+          а <persName key="p0849">Амир-низам-мамад-хан</persName> с 4000 сарбазами отправился в <placeName key="g0086" ref="https://www.geonames.org/616052">Ереван</placeName>; равным образом и <persName key="p0855">Шахзада</persName>
           с 15000 конными людьми уже 5 дней как проехал чрез Шерурскую область, направляя путь туда
-          же к <placeName key="g0086" ref="https://www.geonames.org/616052">Еревану</placeName>. <persName
-            key="p0850">Керим-хан же
+          же к <placeName key="g0086" ref="https://www.geonames.org/616052">Еревану</placeName>. <persName key="p0850">Керим-хан же
           Кенкерлинский</persName> с кон-</p>
-        <pb cert="high" n="f. 8v" xml:space="default" />
+        <pb cert="high" n="f. 8v" xml:space="default"/>
         <p>ницею находится против ордубата в Керкерском магале, так же и <persName key="p0853">Али-наги-мурза,
-          сын шаха</persName>, с <persName key="p0851">Гасан Ханом</persName> находится в <placeName
-            key="g0000"
-            ref="">Чорсе</placeName>, о чем вашего сиятельства уведомляю.</p>
-        <p />
+          сын шаха</persName>, с <persName key="p0851">Гасан Ханом</persName> находится в <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0472" xml:space="default">Чорсе</placeName>, о чем вашего сиятельства уведомляю.</p>
+        <p/>
         <p> Перевел <persName key="p0848">Прапорщик Шахназаров</persName>
         </p>
         <noteGrp>
