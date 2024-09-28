@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,202 +96,121 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 17 July 1759. – Letter from <persName
-              key="p0084"
-              ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Saxon Resident in The Hague, Johann
-            Heinrich Kauderbach</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title> 17 July 1759. – Letter from <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Saxon Resident in The Hague, Johann
+            Heinrich Kauderbach</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1593, f. 10–12v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 10" />
-        <p />
+        <pb n="f. 10"/>
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 17. Juillet. 1759.</p>
-        <p />
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 17. Juillet. 1759.</p>
+        <p/>
         <p>J’ai bien reçu la très gracieuse lettre dont Vous m’avez honoré, mon Prince, le 10. d.c.
-          Nous savons bien mieux, Monseigneur, surtout ce que <persName
-            key="p0122"
-            ref="ac89203d-cb64-4844-bd3d-c932f37815d7">Mons Rodney</persName> voudroit bien faire
+          Nous savons bien mieux, Monseigneur, surtout ce que <persName key="p0122" ref="ac89203d-cb64-4844-bd3d-c932f37815d7">Mons Rodney</persName> voudroit bien faire
           croire au Public de son Expédition de Don <hi rendition="#u">Quixot</hi>. Le domage qu’il
           a fait est si peu de chose, qu’il n’est pas la peine d’en parler. Il est faux que cet
           homme ait brulé ou même entamé un seul batteau plat. Il a brulé une seule Maison, qui est
           une Auberge hors des Portes de la Ville, et que sa berlue lui a fait prendre pour un
           Magazin. Si les Anglois font encore beaucoup d’expéditions pareilles ils iront loin. Mais
           ils ne se vanteront pas de la perte qu’ils ont fait eux mêmes devant le havre. C’est
-          domage qu’ils se soient retirez si tôt; mais force leur a été de le faire. <orgName
-            key="o0019"
-            ref="2cb37494-d43a-434e-8e34-efaf283c99a0">La Cour</orgName> avoit envoyé <persName
-            key="p0123"
-            ref="94641c78-6622-4857-a244-2bc87e1557cd">M<hi rendition="#sup">r</hi>.
+          domage qu’ils se soient retirez si tôt; mais force leur a été de le faire. <orgName key="o0019" ref="2cb37494-d43a-434e-8e34-efaf283c99a0">La Cour</orgName> avoit envoyé <persName key="p0123" ref="94641c78-6622-4857-a244-2bc87e1557cd">M<hi rendition="#sup">r</hi>.
           Rostaing</persName> excellent Officier d’Artillerie, pour tâcher de les regaler d’un petit
           feu d’Artifice qui les attend à la première occasion. Malheureusement cet Officier les a
           trouvez partis.</p>
         <p>
           <persName key="p0041" ref="1598261e-f04e-4a59-b451-20f826622503">M<hi rendition="#sup">r</hi>.
-          le Mã[récha]l. de Conflans</persName> est arrivé à <placeName
-            key="g0117"
-            ref="https://www.geonames.org/3030300">Brest</placeName>,
+          le Mã[récha]l. de Conflans</persName> est arrivé à <placeName key="g0117" ref="https://www.geonames.org/3030300">Brest</placeName>,
           et il va mettre </p>
-        <pb n="f. 10v" />
-        <p> son vaisseau en <placeName key="g0000" ref="">Rade</placeName>. On y arme actuellement le
+        <pb n="f. 10v"/>
+        <p> son vaisseau en Rade. On y arme actuellement le
           Palmier pour le joindre à la flotte. Après le mauvais succès des Armes françoises en
           Amerique, il paroit qu’on cherche serieusement à reparer les pertes, que l’on y a faites,
-          par la vigueur que l’on mettra à bien exécuter le Projet formé pour la Descente en Angl<hi
-            rendition="#sup">e</hi>. C’est en effet le seul moyen qui reste pour pouvoir se retablir
+          par la vigueur que l’on mettra à bien exécuter le Projet formé pour la Descente en Angl<hi rendition="#sup">e</hi>. C’est en effet le seul moyen qui reste pour pouvoir se retablir
           de ces pertes, et c’est cette reflexion qui me fait croire plus qu’aucune autre chose que
           l’Intention est de réaliser ce dessein; et de la façon dont il paroit, qu’il est
           concerté ; je crois qu’il peut avec raison donner à penser aux Anglois, et qu’ils n’en
           seront pas quitte pour la peur.</p>
         <p> L’Inaction du <persName key="p0044" ref="6226fb75-94c9-49de-9b57-5f30507d93d5">Ma[réch]ãl.
           Daun</persName> ne doit plus surprendre personne après qu’on verra présentement les
-          raisons qui l’ont occasioné. Il étoit nécessaire de couvrir les Etats de <persName
-            key="p0100"
-            ref="58e95bc6-e008-4f45-8f4d-1cb58e816d5e">l’Imp[erial]<hi rendition="#sup">
-          e</hi>. Reine</persName>, et d’empecher <persName
-            key="p0066"
-            ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">le Roi de Prusse </persName> de prévenir les
+          raisons qui l’ont occasioné. Il étoit nécessaire de couvrir les Etats de <persName key="p0100" ref="58e95bc6-e008-4f45-8f4d-1cb58e816d5e">l’Imp[erial]<hi rendition="#sup">
+          e</hi>. Reine</persName>, et d’empecher <persName key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">le Roi de Prusse </persName> de prévenir les
           Arrangemens que demandoit le Plan des Operations arrêté parmi les Alliez. Il falloit
           surtout laisser gagner aux Russes le tems nécessaire pour se mettre à portée d’y
-          concourrir efficacement aussi <persName
-            key="p0044"
-            ref="6226fb75-94c9-49de-9b57-5f30507d93d5">le Mã[récha]l. Daun</persName> eût il à peine
+          concourrir efficacement aussi <persName key="p0044" ref="6226fb75-94c9-49de-9b57-5f30507d93d5">le Mã[récha]l. Daun</persName> eût il à peine
           reçu l’avis certain, que ceux-ci </p>
-        <pb n="f. 12" />
-        <p> seroient rassemblez entre le 22. et le 23. d.p. à <placeName
-            key="g0294"
-            ref="https://www.geonames.org/3088171">Posen</placeName>
-          qu’il se mit en mouvement, et marcha sur plusieurs colonnes par sa gauche pour se porter à <placeName
-            key="g0129"
-            ref="https://www.geonames.org/2849091">Reichenberg</placeName>, et de là sur la <placeName
-            key="g0130"
-            ref="https://www.geonames.org/2851455">Queiss</placeName>;
+        <pb n="f. 12"/>
+        <p> seroient rassemblez entre le 22. et le 23. d.p. à <placeName key="g0294" ref="https://www.geonames.org/3088171">Posen</placeName>
+          qu’il se mit en mouvement, et marcha sur plusieurs colonnes par sa gauche pour se porter à <placeName key="g0129" ref="https://www.geonames.org/2849091">Reichenberg</placeName>, et de là sur la <placeName key="g0130" ref="https://www.geonames.org/2851455">Queiss</placeName>;
           d’où il continuera a marche en force, après deux ou trois jours de repos. Ilété joint par
-          le Corps du General Gemmingen. Il a fallu preferer ce parti à celui de s’aprocher du <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>, en
-          penetrant par les Gorges de <placeName
-            key="g0124"
-            ref="https://www.geonames.org/3063907">Trautenau</placeName>
-          <placeName
-            key="g0125"
-            ref="https://www.geonames.org/3078577">Braunau</placeName>; ces Debouchez étant trop bien defendu et soutenus par
-          des places fortes. Pour la sureté des frontières <persName
-            key="p0044"
-            ref="6226fb75-94c9-49de-9b57-5f30507d93d5">M<hi rendition="#sup">r</hi>. de Daun</persName>
+          le Corps du General Gemmingen. Il a fallu preferer ce parti à celui de s’aprocher du <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>, en
+          penetrant par les Gorges de <placeName key="g0124" ref="https://www.geonames.org/3063907">Trautenau</placeName>
+          <placeName key="g0125" ref="https://www.geonames.org/3078577">Braunau</placeName>; ces Debouchez étant trop bien defendu et soutenus par
+          des places fortes. Pour la sureté des frontières <persName key="p0044" ref="6226fb75-94c9-49de-9b57-5f30507d93d5">M<hi rendition="#sup">r</hi>. de Daun</persName>
           a laissé en Bohème <persName key="p0081" ref="95cc099f-88b2-4331-b57f-4901c01a77d4">le
-          Gaãl[General]. Harsch</persName>, et dans la haute Silesie le <persName
-            key="p0141"
-            ref="9d14b2fc-e2d9-4b89-94a1-ec6cd4d43ed2">General de Ville</persName>. Leur Destination
-          ulterieure se règlera sur la suite des Operations de la Grande Armée. Le <persName
-            key="p0080"
-            ref="da801199-a0dd-42fc-ab18-55819ad110db">Gaãl[General]. Haddyck</persName>
-          se trouve du coté des frontières de la Saxe, tant pour observer <persName
-            key="p0060"
-            ref="d68836c6-71de-4edb-a729-46f1086a7313">le Prince Henry</persName>, que pour couvrir
-          le flanc et le Dos de l’Armée du <persName
-            key="p0044"
-            ref="6226fb75-94c9-49de-9b57-5f30507d93d5">Ma[réch]ãl. Daun</persName>.</p>
-        <p>Nous esperons d’aprendre par les premières lettres, que les Russes auront depassé <placeName
-            key="g0294"
-            ref="https://www.geonames.org/3088171">Posen</placeName>. Il s’est avancé à la verité un Corps de 30/m. Prussiens
+          Gaãl[General]. Harsch</persName>, et dans la haute Silesie le <persName key="p0141" ref="9d14b2fc-e2d9-4b89-94a1-ec6cd4d43ed2">General de Ville</persName>. Leur Destination
+          ulterieure se règlera sur la suite des Operations de la Grande Armée. Le <persName key="p0080" ref="da801199-a0dd-42fc-ab18-55819ad110db">Gaãl[General]. Haddyck</persName>
+          se trouve du coté des frontières de la Saxe, tant pour observer <persName key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">le Prince Henry</persName>, que pour couvrir
+          le flanc et le Dos de l’Armée du <persName key="p0044" ref="6226fb75-94c9-49de-9b57-5f30507d93d5">Ma[réch]ãl. Daun</persName>.</p>
+        <p>Nous esperons d’aprendre par les premières lettres, que les Russes auront depassé <placeName key="g0294" ref="https://www.geonames.org/3088171">Posen</placeName>. Il s’est avancé à la verité un Corps de 30/m. Prussiens
           aux ordres du <persName key="p0046" ref="12582628-4756-42a7-b8ad-87b92e577e8e">G[ener]ãl.
-          Dohna</persName>, pour s’aprocher de la <placeName
-            key="g0131"
-            ref="https://www.geonames.org/2813911">Warthe</placeName>; Mais
+          Dohna</persName>, pour s’aprocher de la <placeName key="g0131" ref="https://www.geonames.org/2813911">Warthe</placeName>; Mais
           ils ont deja rebroussé chemin ayant trouvé toute l’Armée Russe assemblée, et du double
           plus </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p> forts qu’eux ; de sorte qu’ils ne mettront pas un Obstacle invincible à la Marche de
           votre Armée.</p>
         <p>
           <orgName key="o0038" ref="242d004f-9512-44d3-89bf-efb7bf477989">La Gazette de Cologne</orgName>
-          annonce <placeName
-            key="g0132"
-            ref="https://www.geonames.org/2871039">Minden</placeName> pris l’épée à la main la nuit du 10. à
-          l’11. et la Garnison prisonière. Nous venons de recevoir la même nouvelle de <placeName
-            key="g0035"
-            ref="https://www.geonames.org/2800866">Bruxelles</placeName>. Cela n’empêche pas, que je ne la regarde comme une
+          annonce <placeName key="g0132" ref="https://www.geonames.org/2871039">Minden</placeName> pris l’épée à la main la nuit du 10. à
+          l’11. et la Garnison prisonière. Nous venons de recevoir la même nouvelle de <placeName key="g0035" ref="https://www.geonames.org/2800866">Bruxelles</placeName>. Cela n’empêche pas, que je ne la regarde comme une
           Bourde ; parce que j’y ai vû une Lettre de <persName key="p0000">M<hi rendition="#sup">r</hi>.
           d’Armantières</persName> du 19. qui n’en sonne mot.</p>
-        <p>Il a passé ici successivement deux courriers prussiens pour Londres. <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">S[a].M[ajest]<hi rendition="#sup">
+        <p>Il a passé ici successivement deux courriers prussiens pour Londres. <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">S[a].M[ajest]<hi rendition="#sup">
           é</hi>. Pr[ussien].</persName> auroit elle besoin d’argent ? Ce ne sera pas sa faute s’il
           ne tire des Anglois tout ce qu’il pourra, sans qu’ils tireront jamais de lui que de très
           mauvais services. Ils n’accepteront peutêtre pas l’augure aujourd’hui; Mais cet oracle est
           plus sûr que chose au monde. <persName key="p0000">M<hi rendition="#sup">r</hi>. v[an].
-          Hellen</persName> brille ici avec une épée d’acier faite à <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>,
+          Hellen</persName> brille ici avec une épée d’acier faite à <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>,
           qui efface toutes les fabriques d’Angl[eterr]<hi rendition="#sup">e</hi>. Aussi y a. t. on
           debauché le meilleur ouvrier Anglois. <hi rendition="#u">Ex ungue </hi>
           <hi rendition="#u">
           leonem </hi>! Daignez, Monseigneur, agréer les assurances ordinaires de mon profond
           respect.</p>
-        <p />
-        <pb n="f. 11" />
-        <p />
+        <p/>
+        <pb n="f. 11"/>
+        <p/>
         <p>P.S.</p>
-        <p>Dans ce moment <persName key="p0003" ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi
-              rendition="#sup">r</hi>. l’Ambassadeur de France</persName> vient de me faire dire,
-          qu’il a passés hier un Courrier du <persName
-            key="p0042"
-            ref="8c60e6a9-1065-4ada-9e91-62f08e21c688">M[arech]ãl des Contades</persName> à <placeName
-            key="g0035"
-            ref="https://www.geonames.org/2800866">Bruxelles</placeName>, avec la Nouvelle certaine, que <placeName
-            key="g0132"
-            ref="https://www.geonames.org/2871039">
+        <p>Dans ce moment <persName key="p0003" ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>. l’Ambassadeur de France</persName> vient de me faire dire,
+          qu’il a passés hier un Courrier du <persName key="p0042" ref="8c60e6a9-1065-4ada-9e91-62f08e21c688">M[arech]ãl des Contades</persName> à <placeName key="g0035" ref="https://www.geonames.org/2800866">Bruxelles</placeName>, avec la Nouvelle certaine, que <placeName key="g0132" ref="https://www.geonames.org/2871039">
           Minden</placeName> a été pris l’epée à la main, et qu’on y a fait mille quatre cent
-          prisonniers, et parmi eux le commandant, qu’on dit être le fils du <persName
-            key="p0153"
-            ref="f760d27a-4487-44d8-bcd3-7a79e8a77167">G[ener]ãl Zastrow</persName>. Voilà donc <persName
-            key="p0055"
-            ref="f07e0b86-f844-458e-ab06-ae8e8122132e">le P[rinc]<hi rendition="#sup">e</hi>.
-          Ferdinand</persName> coupé d’<placeName
-            key="g0008"
-            ref="https://www.geonames.org/2910831">hannovre</placeName>. <placeName
-            key="g0138"
-            ref="https://www.geonames.org/2867543"> Munster </placeName>ne peut pas tenir. Cette place est investie de tous
-          cotez. On n’attend que la grosse Artillerie de <placeName
-            key="g0046"
-            ref="https://www.geonames.org/2810678">Wesel</placeName>
-          pour la battre. Il s’y trouve 4 mille h.<hi rendition="#sup">s</hi> sous le <persName
-            key="p0153"
-            ref="f760d27a-4487-44d8-bcd3-7a79e8a77167">Gãal[General]. Zastrow</persName>.
+          prisonniers, et parmi eux le commandant, qu’on dit être le fils du <persName key="p0153" ref="f760d27a-4487-44d8-bcd3-7a79e8a77167">G[ener]ãl Zastrow</persName>. Voilà donc <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">le P[rinc]<hi rendition="#sup">e</hi>.
+          Ferdinand</persName> coupé d’<placeName key="g0008" ref="https://www.geonames.org/2910831">hannovre</placeName>. <placeName key="g0138" ref="https://www.geonames.org/2867543"> Munster </placeName>ne peut pas tenir. Cette place est investie de tous
+          cotez. On n’attend que la grosse Artillerie de <placeName key="g0046" ref="https://www.geonames.org/2810678">Wesel</placeName>
+          pour la battre. Il s’y trouve 4 mille h.<hi rendition="#sup">s</hi> sous le <persName key="p0153" ref="f760d27a-4487-44d8-bcd3-7a79e8a77167">Gãal[General]. Zastrow</persName>.
           Le Coup de filet sera bon: et surement il n’échapera pas. Il est resolu de faire tout
-          prisonnier, et de ne plus accorder d’autre capitulation. <persName
-            key="p0020"
-            ref="2c611cd8-c389-4e52-af28-2a28d522064a">M<hi rendition="#sup">rs</hi>. de Broglio</persName>
+          prisonnier, et de ne plus accorder d’autre capitulation. <persName key="p0020" ref="2c611cd8-c389-4e52-af28-2a28d522064a">M<hi rendition="#sup">rs</hi>. de Broglio</persName>
           se distinguent bien.</p>
-        <p> Lux fait bien courrir pour donner son compte. J’espère de l’envoyer à Votre Excell[enc]<hi
-            rendition="#sup">e</hi>. par le courrier prochain.</p>
+        <p> Lux fait bien courrir pour donner son compte. J’espère de l’envoyer à Votre Excell[enc]<hi rendition="#sup">e</hi>. par le courrier prochain.</p>
         <p>
-          <placeName
-            key="g0132"
-            ref="https://www.geonames.org/2871039">Minden</placeName> pris fera faire de vilaines grimaces dans un
+          <placeName key="g0132" ref="https://www.geonames.org/2871039">Minden</placeName> pris fera faire de vilaines grimaces dans un
           certain endroit. Nous voyons ici certain personnage grincer des Dents en pareille
           occasion.</p>
-        <p />
-        <pb n="f. 11v" />
-        <p />
+        <p/>
+        <pb n="f. 11v"/>
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 17. Juillet 1759.</p>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 17. Juillet 1759.</p>
         <p>de <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">M<hi rendition="#sup">
           r</hi>. Kauderbach</persName>
         </p>
