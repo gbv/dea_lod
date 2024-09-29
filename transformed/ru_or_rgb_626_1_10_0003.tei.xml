@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,29 +94,15 @@
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF />
-    </xenoData>
-  </teiHeader>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>Letter from the Russian Ambassador to London, Prince <persName
-              cert="high"
-              evidence="internal"
-              full="yes"
-              instant="unknown"
-              key="p0030"
-              xml:space="default">Antiochus
+          <title>Letter from the Russian Ambassador to London, Prince <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default">Antiochus
           Dmitrievich Cantemir,
-            </persName> to <persName
-              cert="high"
-              evidence="internal"
-              full="yes"
-              instant="unknown"
-              xml:space="default"
-              key="p2518">the employee of the Russian Embassy in The Hague, Petr
+            </persName> to <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" key="p2518">the employee of the Russian Embassy in The Hague, Petr
           Petrovich Kurbatov
             </persName>
           </title>
@@ -129,17 +112,11 @@
             <p>OR RGB, fond 626, karton 1, no. 10, f. 7-7v.</p>
           </note>
           <salute>
-            <pb cert="high" n="f. 3" xml:space="default" />
+            <pb cert="high" n="f. 3" xml:space="default"/>
             <persName cert="high" type="real" key="p1384">Гсдрь мой  Петр Петрович.</persName>
           </salute>
         </opener>
-        <p>Вам гсдрю моему чаю памятно что в прошлом годе я  подписался на континуацию <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p1543"
-            xml:space="default">
+        <p>Вам гсдрю моему чаю памятно что в прошлом годе я  подписался на континуацию <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1543" xml:space="default">
             Рапиновой
           </persName> аглицкой истории заплатив половину того что
           должно дать за два новые томы. Оные от книжников обещаны были к прошедшему марту. тогоради
@@ -166,15 +143,9 @@
             Лондон</placeName>. 1734. </p>
         <p>Июня .25.</p>
         <closer>
-          <salute />
+          <salute/>
           <signed>Послушной слуга</signed>
-          <signed>К.[нязь] <persName
-              cert="high"
-              evidence="internal"
-              full="yes"
-              instant="unknown"
-              key="p0030"
-              xml:space="default">Антиох Кантемир</persName>. </signed>
+          <signed>К.[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default">Антиох Кантемир</persName>. </signed>
         </closer>
         <postscript>
           <p>P.S.  росписку кнжника я сыскать у себя не мог: нелзя [Written above the line: pas
@@ -182,11 +153,11 @@
             is written on the left
               side of the folio</note>
           </p>
-          <p />
+          <p/>
           <p>
-            <pb cert="high" generatedBy="human" n="[f. 7]" xml:space="default" />Государю моему
+            <pb cert="high" generatedBy="human" n="[f. 7]" xml:space="default"/>Государю моему
             Петру Петровичю Курбатову. </p>
-          <p>В Гагу</p>
+          <p>В <placeName cert="high" key="g0004" ref="https://www.geonames.org/2747373">Гагу</placeName></p>
           <p>[two stamps of red wax]</p>
           <p>La continuation de Rapin </p>
           <p>Tomes XI &amp; XII. paroitront </p>
