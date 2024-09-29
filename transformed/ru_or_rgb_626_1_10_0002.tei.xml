@@ -395,7 +395,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531172233373#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/note/note"
+			"rdf:value": "TEI/text/body/div/note"
 		}
 	},
 	"oa:hasBody": {
@@ -474,7 +474,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531172528956#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/note/note[2]"
+			"rdf:value": "TEI/text/body/div/note[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -501,8 +501,8 @@
               Petrovich Kurbatov</persName>
           </title>
         </head>
-        <note>OR RGB, fond 626, karton 1, no. 10, ff. 3-3<note type="researchNote"/>v <note/>
-        </note>
+        OR RGB, fond 626, karton 1, no. 10, f. 3-3<note type="researchNote"/>v <note/>
+        
         <opener>
           <salute>
             <pb cert="high" n="f. 3" xml:space="default"/>
