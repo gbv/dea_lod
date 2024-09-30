@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -169,25 +166,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 October 1779. – Letter from <persName
-              key="p1058"
-              ref="fc05fcef-ff09-46e1-93af-5f6a891d33e3">Józef Hurko</persName> to <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of
+          <title>20 October 1779. – Letter from <persName key="p1059" ref="fc05fcef-ff09-46e1-93af-5f6a891d33e3">Józef Hurko</persName> to <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of
             Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 7, f. 1319-1320. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1319" />
+        <pb n="f. 1319"/>
         <opener>
           <salute>
             Monseigneur !
@@ -195,25 +188,17 @@
         </opener>
         <p>Pardonnez Monseigneur la hardiesse que je prends de Vous impatienter avec mes plaintes
           contre <persName key="p1089" ref="fba4f49b-ffb9-4784-8c7a-c96a30c22989">l’abbé Bohusz</persName>
-          qui ne voulant finir amiablement une affaire qui regarde directement <persName
-            key="p1075"
-            ref="5f467b08-ca94-48d8-be97-05551f56e0f7">le Prince Palatin de Vilna</persName> a
+          qui ne voulant finir amiablement une affaire qui regarde directement <persName key="p1075" ref="5f467b08-ca94-48d8-be97-05551f56e0f7">le Prince Palatin de Vilna</persName> a
           recomancé derechef par les plus injustes chicannes un Proces, et surpris en sa faveur
-          contre moi un Decret en contumace tandis, que je compte sur sa parole donné [sic !] au <persName
-            key="p1075"
-            ref="5f467b08-ca94-48d8-be97-05551f56e0f7">Prince Radziwill</persName> et
+          contre moi un Decret en contumace tandis, que je compte sur sa parole donné [sic !] au <persName key="p1075" ref="5f467b08-ca94-48d8-be97-05551f56e0f7">Prince Radziwill</persName> et
           sur la negociation de celui-ci avec lui. Je ne puis mieux Vous prouver Monseigneur le tort
-          qu’il me fait qu’en Vous presentant une lettre du meme <persName
-            key="p1075"
-            ref="5f467b08-ca94-48d8-be97-05551f56e0f7">Prince</persName>, que je prends la liberte
+          qu’il me fait qu’en Vous presentant une lettre du meme <persName key="p1075" ref="5f467b08-ca94-48d8-be97-05551f56e0f7">Prince</persName>, que je prends la liberte
           de Vous joindre.</p>
         <p>Je me vois entierement perdüe sans sans Votre Protection, daignez Monseigneur ne me la
           refuser et comme <persName key="p1075" ref="5f467b08-ca94-48d8-be97-05551f56e0f7">le
-          Prince Radziwill</persName> n’est pas en etat ni de me satisfaire ni de rembourser <persName
-            key="p1089"
-            ref="fba4f49b-ffb9-4784-8c7a-c96a30c22989">l’abbé Bohusz</persName> j’ose
+          Prince Radziwill</persName> n’est pas en etat ni de me satisfaire ni de rembourser <persName key="p1089" ref="fba4f49b-ffb9-4784-8c7a-c96a30c22989">l’abbé Bohusz</persName> j’ose
           implorer Votre Clemence de me vouloir garantir </p>
-        <pb n="f. 1320" />
+        <pb n="f. 1320"/>
         <p>contre ses poursuites, et de ne permettre point a ma ruine et desolation de mes terres.</p>
         <closer>
           <salute>
@@ -229,7 +214,7 @@
             tres-obeissant Serviteur
           </salute>
           <signed>
-            <persName key="p1058" ref="fc05fcef-ff09-46e1-93af-5f6a891d33e3">
+            <persName key="p1059" ref="fc05fcef-ff09-46e1-93af-5f6a891d33e3">
               J[ózef] Hurko
             </persName>
           </signed>
