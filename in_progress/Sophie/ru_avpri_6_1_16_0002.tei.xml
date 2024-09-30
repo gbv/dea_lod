@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,7 +103,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -115,58 +112,35 @@
         <head>
           <title>
             13/24 August 1743. – Copy of a letter from [<persName key="p0759">the Imperial and
-            Bavarian Minister in St. Petersburg,] Baron [Joseph von] Neuhaus,</persName> to <persName
-              key="p0752"
-              ref="5b46c147-2c3e-4913-8745-a6ac784a3296">the Imperial minister
-            plenipotentiary in The Hague, Count [Joseph] von Seinsheim. From St. Petersburg, August
-            24/13 1743</persName>
-          </title>
-          <note>
+            Bavarian Minister in St. Petersburg,] Baron [Joseph von] Neuhaus,</persName> to <persName key="p0752" ref="5b46c147-2c3e-4913-8745-a6ac784a3296">the Imperial minister
+            plenipotentiary in The Hague, Count [Joseph] von Seinsheim. </persName> <persName key="p0752" ref="5b46c147-2c3e-4913-8745-a6ac784a3296">From St. Petersburg, August 24/13 1743</persName></title><note>
             <bibl>AVPRI, fond 6, opis 1, no. 16, f. 21–22; translation into Russian: ibid, f.
               23—24v.</bibl>
           </note>
         </head>
-        <pb n="f. 21" />
-        <p />
-        <p>Копия с писма <persName key="p0759">барона Нейгауза</persName> к <persName
-            key="p0752"
-            ref="5b46c147-2c3e-4913-8745-a6ac784a3296">цесарскому полномочному Министру Графу
-          Сейнсгейму в Гаге</persName> из <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">С:Петербурга</placeName> от 24/13 августа
+        <pb n="f. 21"/>
+        <p/>
+        <p>Копия с писма <persName key="p0759">барона Нейгауза</persName> к <persName key="p0752" ref="5b46c147-2c3e-4913-8745-a6ac784a3296">цесарскому полномочному Министру Графу
+          Сейнсгейму в Гаге</persName> из <placeName key="g0002" ref="https://www.geonames.org/498817">С:Петербурга</placeName> от 24/13 августа
           1743.</p>
         <p>L’armée qui depuis presque deux ans se trouve dans la Silesie du côté de Courlande, n’est
           nullement destinée pour aller en Allemagne comme V.Excell<hi rendition="#sup">ce</hi> me
           fait l’honeur de me marquer dans la dernière du 3. du courant, mais elle y étoit pour
           empecher, que les Suédois ne fassent une descente de ce côté-là, et si même l’echange du
           traité de paix sera fait, comme on dit qu’hier un courier en a aporté les articles, je
-          crois que cette armée y restera jusqu’à ce qu’on est sur des intentions du <persName
-            key="p0186"
-            ref="ca581c30-a11b-4a8d-8453-cd7b46858713">Roi de Danemarc</persName>, qui
+          crois que cette armée y restera jusqu’à ce qu’on est sur des intentions du <persName key="p0186" ref="ca581c30-a11b-4a8d-8453-cd7b46858713">Roi de Danemarc</persName>, qui
           avec 20. vaisseaux de ligne est dans la mer, si tout cela n’etoit point, j’ai encore des
-          autres raisons très convainquantes, que <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">la Cour d’ici</orgName> n’envoyera point des
+          autres raisons très convainquantes, que <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">la Cour d’ici</orgName> n’envoyera point des
           troupes auxiliaires à <persName key="p0100" ref="58e95bc6-e008-4f45-8f4d-1cb58e816d5e">la
           Gr[an]de Duchesse de Toscane</persName>. Si la chose n’est pas encore parvenuë à la
           connoissance de V<hi rendition="#sup">re</hi> Excellence, Elle ne tardera pas de les
           savoir : par là on verra clairement </p>
-        <pb n="f. 21 v" />
-        <p> que tout ce qu’on debite des subsides et étroite liaison entre <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> et <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">celle ici</orgName> n’a aucun
+        <pb n="f. 21 v"/>
+        <p> que tout ce qu’on debite des subsides et étroite liaison entre <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> et <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">celle ici</orgName> n’a aucun
           fondement, mais que cela est fait pour encourager les uns et intimider les autres.</p>
         <p>Un<hi rendition="#u">e</hi> pareil<hi rendition="#u">le</hi> but<hi rendition="#u">e</hi>
-          [sic] aura, je crois, la declaration de <persName
-            key="p0120"
-            ref="4f71a573-7531-45f0-9e4f-460d730ecda6">Mr le Br de Reischach</persName> faite en
-          dernier lieu à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">la Haye</placeName>, pour animer <orgName
-            key="o0017"
-            ref="b0400cb7-f2c5-4ab9-9a44-5950db922b27">les Etats Generaux</orgName>, à
+          [sic] aura, je crois, la declaration de <persName key="p0120" ref="4f71a573-7531-45f0-9e4f-460d730ecda6">Mr le Br de Reischach</persName> faite en
+          dernier lieu à <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName>, pour animer <orgName key="o0017" ref="b0400cb7-f2c5-4ab9-9a44-5950db922b27">les Etats Generaux</orgName>, à
           faire marcher leurs Troupes, et à se declarer ouvertement contre la France ; mais s’ils se
           laisseront persuader à cela, plusieurs en veulent douter ; de cette façon la paix tant
           desirée et si necessaire pour nous, seroit encore bien eloignée, pourtant elle est toute
@@ -175,12 +149,10 @@
           semaines nouveaux ordres pour lever les difficultés qui se trouvent par raport au tître
           entre notre Cour et celle-d’ici où je crois de reussir, ainsi au moins ; mais si je
           recevrai d’autres ordres, je ne manquerai point d’en donner part </p>
-        <pb n="f. 22" />
+        <pb n="f. 22"/>
         <p> à V<hi rendition="#sup">re</hi> Excellence, ayant en attendant l’honeur</p>
         <p>P.S. <persName key="p0757">Monsieur le Baron de Haslang</persName> m’a pas fait l’honeur
-          de m’aviser de son depart de <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>, j’etois sur le
+          de m’aviser de son depart de <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>, j’etois sur le
           point de lui écrire pour une affaire importante et j’en attende une sur pareille matière.</p>
         <noteGrp>
           <note>ru_avpri_6_1_16_0001</note>
