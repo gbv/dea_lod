@@ -1,697 +1,583 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>
-          30 October 1714. – Royal letter from the King of Denmark and
-          Norway, Frederick IV, to the Tsar of Russia, Peter I
-        </title>
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-08-30">30. August 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc>
-        <p>ru_rgada_53_4_27_0003.docx</p>
-      </sourceDesc>
-    </fileDesc>
-    <xenoData>
-      <rdf:RDF>
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205094937040",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-05T08:49:37.040Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205094937040#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205094937040#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/dateline/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}
-                </rdf:Description>
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205110034984",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-05T10:00:34.984Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205110034984#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205110034984#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2897132",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
-}
-                </rdf:Description>
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205184755442",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-05T17:47:55.442Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205184755442#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205184755442#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2944388",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
-}
-                </rdf:Description>
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205185018208",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-05T17:50:18.208Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205185018208#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205185018208#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/placeName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2817599",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	},
-	"cwrc:hasCertainty": "cwrc:medium"
-}
-                </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
-  <text>
-    <body>
-      <head>
-        <title>30 October 1714. – Royal letter from the King of Denmark and Norway, <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0532"
-            xml:space="default">Frederick IV</persName>, to the Tsar of Russia, <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0174"
-            xml:space="default">Peter I
-          </persName>
-        </title>
-      </head>
-      <opener>
-        <note>
-          RGADA, fond 53, opis 4, no 27, f. 1–2.
-          Danish original.
-        </note>
-        <pb cert="high" n="f. 1" xml:space="default" />
-        <salute>Durchleuchtigster Großmæghtigste <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0174"
-            xml:space="default">
-            Czar</persName>,<lb />Elskelige Kiære Broder, Ven og Naboe. </salute>
-      </opener>
-      <p>Saa Kiært og angenem mig det haver været, udaf <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">Eders May[estæ]ts
-        </persName> og Kierl[ighe]ds til Mig afgangne begge Skrivelser
-        af dato den 20. Septembris styl[i] vet[eris] de Omstændigheder af dend, under deris
-        selffegne Höye Persons Anföring befægtede glorieuse victorie imod de Svenske at fornemme, og
-        hvor til Jeg fremdeles Lycke samt mere deßlige Progresser af Hiertet ynsker, saa smertelig
-        finder Jeg det, som <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">
-          Eders May[estæ]t
-        </persName> og Kierl[ighe]d om det
-        engagement med dend itzige <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0727"
-          xml:space="default">Konge af Store Brittannien
-        </persName> haver behaget at anföre, i det de
-        formeene mig skylden, at Tractaten med ermelte <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0727"
-          xml:space="default">Konge
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					30 October 1714. – Royal letter from the King of Denmark and
+					Norway, Frederick IV, to the Tsar of Russia, Peter I
+				</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>Languages of Diplomacy Digital Edition</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>Rjeoutski</surname>
+						<forename>Vladislav</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+					<persName ref="#borisov">
+						<surname>Borisov</surname>
+						<forename>Viktor</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+					<persName ref="#kandakou">
+						<surname>Kandakou</surname>
+						<forename>Dzianis</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+					<persName ref="#lavrinovich">
+						<surname>Lavrinovich</surname>
+						<forename>Maya</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+					<persName ref="#sergeev">
+						<surname>Sergeev</surname>
+						<forename>Mikhail</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+					<persName ref="#herzog">
+						<surname>Herzog</surname>
+						<forename>André</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+					<persName ref="#wallner">
+						<surname>Wallner</surname>
+						<forename>Karin</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+					<persName ref="#pipka">
+						<surname>Rißler-Pipka</surname>
+						<forename>Nanette</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+				</publisher>
+				<authority>MWS-Netzwerk Osteuropa</authority>
+				<pubPlace>Bonn</pubPlace>
+				<date when="2024-08-30">30. August 2024</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>CC BY-SA 4.0</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>CC BY-SA 4.0</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">lod</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+				<title type="sub" level="s">Russia in a European context</title>
+			</seriesStmt>
+			<sourceDesc>
+				<p>ru_rgada_53_4_27_0001.docx</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>
+			<rdf:RDF>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					{
+					"@context": {
+					"dcterms:created": {
+					"@type": "xsd:dateTime",
+					"@id": "dcterms:created"
+					},
+					"dcterms:issued": {
+					"@type": "xsd:dateTime",
+					"@id": "dcterms:issued"
+					},
+					"oa:motivatedBy": {
+					"@type": "oa:Motivation"
+					},
+					"@language": "en",
+					"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+					"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+					"as": "http://www.w3.org/ns/activitystreams#",
+					"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+					"dc": "http://purl.org/dc/elements/1.1/",
+					"dcterms": "http://purl.org/dc/terms/",
+					"foaf": "http://xmlns.com/foaf/0.1/",
+					"geo": "http://www.geonames.org/ontology#",
+					"oa": "http://www.w3.org/ns/oa#",
+					"schema": "http://schema.org/",
+					"xsd": "http://www.w3.org/2001/XMLSchema#",
+					"fabio": "https://purl.org/spar/fabio#",
+					"bf": "http://www.openlinksw.com/schemas/bif#",
+					"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+					"org": "http://www.w3.org/ns/org#"
+					},
+					"id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205094937040",
+					"type": "oa:Annotation",
+					"dcterms:created": "2024-02-05T08:49:37.040Z",
+					"dcterms:creator": {
+					"@id": "https://github.com/drVEBB",
+					"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+					],
+					"cwrc:hasName": "Viktor Borisov"
+					},
+					"oa:motivatedBy": "oa:identifying",
+					"oa:hasTarget": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205094937040#Target",
+					"@type": "oa:SpecificResource",
+					"oa:hasSource": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml",
+					"@type": "dctypes:Text",
+					"dc:format": "text/xml"
+					},
+					"oa:renderedVia": {
+					"@id": "https://leaf-writer.leaf-vre.org",
+					"@type": "as:Application",
+					"rdfs:label": "LEAF-Writer",
+					"schema:softwareVersion": "3.4.0"
+					},
+					"oa:hasSelector": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205094937040#Selector",
+					"@type": "oa:XPathSelector",
+					"rdf:value": "TEI/text/body/closer/dateline/placeName"
+					}
+					},
+					"oa:hasBody": {
+					"@type": "cwrc:RealPlace",
+					"@id": "https://geonames.org/2618425",
+					"dc:format": "text/plain"
+					},
+					"as:generator": {
+					"@id": "https://leaf-writer.leaf-vre.org",
+					"@type": "as:Application",
+					"rdfs:label": "LEAF-Writer",
+					"schema:url": "https://leaf-writer.lincsproject.ca/",
+					"schema:softwareVersion": "3.4.0"
+					},
+					"cwrc:hasCertainty": "cwrc:high"
+					}
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					{
+					"@context": {
+					"dcterms:created": {
+					"@type": "xsd:dateTime",
+					"@id": "dcterms:created"
+					},
+					"dcterms:issued": {
+					"@type": "xsd:dateTime",
+					"@id": "dcterms:issued"
+					},
+					"oa:motivatedBy": {
+					"@type": "oa:Motivation"
+					},
+					"@language": "en",
+					"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+					"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+					"as": "http://www.w3.org/ns/activitystreams#",
+					"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+					"dc": "http://purl.org/dc/elements/1.1/",
+					"dcterms": "http://purl.org/dc/terms/",
+					"foaf": "http://xmlns.com/foaf/0.1/",
+					"geo": "http://www.geonames.org/ontology#",
+					"oa": "http://www.w3.org/ns/oa#",
+					"schema": "http://schema.org/",
+					"xsd": "http://www.w3.org/2001/XMLSchema#",
+					"fabio": "https://purl.org/spar/fabio#",
+					"bf": "http://www.openlinksw.com/schemas/bif#",
+					"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+					"org": "http://www.w3.org/ns/org#"
+					},
+					"id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205110034984",
+					"type": "oa:Annotation",
+					"dcterms:created": "2024-02-05T10:00:34.984Z",
+					"dcterms:creator": {
+					"@id": "https://github.com/drVEBB",
+					"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+					],
+					"cwrc:hasName": "Viktor Borisov"
+					},
+					"oa:motivatedBy": "oa:identifying",
+					"oa:hasTarget": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205110034984#Target",
+					"@type": "oa:SpecificResource",
+					"oa:hasSource": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml",
+					"@type": "dctypes:Text",
+					"dc:format": "text/xml"
+					},
+					"oa:renderedVia": {
+					"@id": "https://leaf-writer.leaf-vre.org",
+					"@type": "as:Application",
+					"rdfs:label": "LEAF-Writer",
+					"schema:softwareVersion": "3.4.0"
+					},
+					"oa:hasSelector": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205110034984#Selector",
+					"@type": "oa:XPathSelector",
+					"rdf:value": "TEI/text/body/p/placeName"
+					}
+					},
+					"oa:hasBody": {
+					"@type": "cwrc:RealPlace",
+					"@id": "https://geonames.org/2897132",
+					"dc:format": "text/plain"
+					},
+					"as:generator": {
+					"@id": "https://leaf-writer.leaf-vre.org",
+					"@type": "as:Application",
+					"rdfs:label": "LEAF-Writer",
+					"schema:url": "https://leaf-writer.lincsproject.ca/",
+					"schema:softwareVersion": "3.4.0"
+					}
+					}
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					{
+					"@context": {
+					"dcterms:created": {
+					"@type": "xsd:dateTime",
+					"@id": "dcterms:created"
+					},
+					"dcterms:issued": {
+					"@type": "xsd:dateTime",
+					"@id": "dcterms:issued"
+					},
+					"oa:motivatedBy": {
+					"@type": "oa:Motivation"
+					},
+					"@language": "en",
+					"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+					"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+					"as": "http://www.w3.org/ns/activitystreams#",
+					"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+					"dc": "http://purl.org/dc/elements/1.1/",
+					"dcterms": "http://purl.org/dc/terms/",
+					"foaf": "http://xmlns.com/foaf/0.1/",
+					"geo": "http://www.geonames.org/ontology#",
+					"oa": "http://www.w3.org/ns/oa#",
+					"schema": "http://schema.org/",
+					"xsd": "http://www.w3.org/2001/XMLSchema#",
+					"fabio": "https://purl.org/spar/fabio#",
+					"bf": "http://www.openlinksw.com/schemas/bif#",
+					"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+					"org": "http://www.w3.org/ns/org#"
+					},
+					"id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205184755442",
+					"type": "oa:Annotation",
+					"dcterms:created": "2024-02-05T17:47:55.442Z",
+					"dcterms:creator": {
+					"@id": "https://github.com/drVEBB",
+					"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+					],
+					"cwrc:hasName": "Viktor Borisov"
+					},
+					"oa:motivatedBy": "oa:identifying",
+					"oa:hasTarget": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205184755442#Target",
+					"@type": "oa:SpecificResource",
+					"oa:hasSource": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml",
+					"@type": "dctypes:Text",
+					"dc:format": "text/xml"
+					},
+					"oa:renderedVia": {
+					"@id": "https://leaf-writer.leaf-vre.org",
+					"@type": "as:Application",
+					"rdfs:label": "LEAF-Writer",
+					"schema:softwareVersion": "3.4.0"
+					},
+					"oa:hasSelector": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205184755442#Selector",
+					"@type": "oa:XPathSelector",
+					"rdf:value": "TEI/text/body/p[2]/placeName"
+					}
+					},
+					"oa:hasBody": {
+					"@type": "cwrc:RealPlace",
+					"@id": "https://geonames.org/2944388",
+					"dc:format": "text/plain"
+					},
+					"as:generator": {
+					"@id": "https://leaf-writer.leaf-vre.org",
+					"@type": "as:Application",
+					"rdfs:label": "LEAF-Writer",
+					"schema:url": "https://leaf-writer.lincsproject.ca/",
+					"schema:softwareVersion": "3.4.0"
+					}
+					}
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					{
+					"@context": {
+					"dcterms:created": {
+					"@type": "xsd:dateTime",
+					"@id": "dcterms:created"
+					},
+					"dcterms:issued": {
+					"@type": "xsd:dateTime",
+					"@id": "dcterms:issued"
+					},
+					"oa:motivatedBy": {
+					"@type": "oa:Motivation"
+					},
+					"@language": "en",
+					"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+					"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+					"as": "http://www.w3.org/ns/activitystreams#",
+					"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+					"dc": "http://purl.org/dc/elements/1.1/",
+					"dcterms": "http://purl.org/dc/terms/",
+					"foaf": "http://xmlns.com/foaf/0.1/",
+					"geo": "http://www.geonames.org/ontology#",
+					"oa": "http://www.w3.org/ns/oa#",
+					"schema": "http://schema.org/",
+					"xsd": "http://www.w3.org/2001/XMLSchema#",
+					"fabio": "https://purl.org/spar/fabio#",
+					"bf": "http://www.openlinksw.com/schemas/bif#",
+					"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+					"org": "http://www.w3.org/ns/org#"
+					},
+					"id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205185018208",
+					"type": "oa:Annotation",
+					"dcterms:created": "2024-02-05T17:50:18.208Z",
+					"dcterms:creator": {
+					"@id": "https://github.com/drVEBB",
+					"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+					],
+					"cwrc:hasName": "Viktor Borisov"
+					},
+					"oa:motivatedBy": "oa:identifying",
+					"oa:hasTarget": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205185018208#Target",
+					"@type": "oa:SpecificResource",
+					"oa:hasSource": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml",
+					"@type": "dctypes:Text",
+					"dc:format": "text/xml"
+					},
+					"oa:renderedVia": {
+					"@id": "https://leaf-writer.leaf-vre.org",
+					"@type": "as:Application",
+					"rdfs:label": "LEAF-Writer",
+					"schema:softwareVersion": "3.4.0"
+					},
+					"oa:hasSelector": {
+					"@id":
+					"https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_27_0001_ready.tei.xml?place_annotation_20240205185018208#Selector",
+					"@type": "oa:XPathSelector",
+					"rdf:value": "TEI/text/body/p[2]/placeName[2]"
+					}
+					},
+					"oa:hasBody": {
+					"@type": "cwrc:RealPlace",
+					"@id": "https://geonames.org/2817599",
+					"dc:format": "text/plain"
+					},
+					"as:generator": {
+					"@id": "https://leaf-writer.leaf-vre.org",
+					"@type": "as:Application",
+					"rdfs:label": "LEAF-Writer",
+					"schema:url": "https://leaf-writer.lincsproject.ca/",
+					"schema:softwareVersion": "3.4.0"
+					},
+					"cwrc:hasCertainty": "cwrc:medium"
+					}
+				</rdf:Description>
+			</rdf:RDF>
+		</xenoData>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>30 October 1714. – Royal letter from the King of Denmark and Norway, <persName
+						cert="high" evidence="internal" full="yes" instant="unknown" key="p0532"
+						xml:space="default">Frederick IV</persName>, to the Tsar of Russia, <persName
+						cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+						xml:space="default">Peter I
+					</persName>
+				</title>
+			</head>
+			<opener>
+				<note>
+					RGADA, fond 53, opis 4, no 27, f. 1–2.
+					Danish original.
+				</note>
+				<pb cert="high" n="f. 1" xml:space="default" />
+				<salute>Durchleuchtigster Großmæghtigste <persName cert="high" evidence="internal"
+						full="yes" instant="unknown" key="p0174" xml:space="default">
+						Czar</persName>,<lb />Elskelige Kiære Broder, Ven og Naboe. </salute>
+			</opener>
+			<p>Saa Kiært og angenem mig det haver været, udaf <persName cert="high"
+					evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">Eders
+				May[estæ]ts
+				</persName> og Kierl[ighe]ds til Mig afgangne begge
+				Skrivelser af dato den 20. Septembris styl[i] vet[eris] de Omstændigheder af dend,
+				under deris selffegne Höye Persons Anföring befægtede glorieuse victorie imod de
+				Svenske at fornemme, og hvor til Jeg fremdeles Lycke samt mere deßlige Progresser af
+				Hiertet ynsker, saa smertelig finder Jeg det, som <persName cert="high"
+					evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">
+				Eders May[estæ]t
+				</persName> og Kierl[ighe]d om det engagement
+				med dend itzige <persName cert="high" evidence="internal" full="yes"
+					instant="unknown" key="p0727" xml:space="default">Konge af Store Brittannien
+				</persName> haver behaget at anföre, i det de
+				formeene mig skylden, at Tractaten med ermelte <persName cert="high"
+					evidence="internal" full="yes" instant="unknown" key="p0727" xml:space="default">
+				Konge
         </persName> ey er kommen til stand, at bilegge. Det er <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">Eders
-          May[estæ]t og Kierl[ighe]d
-        </persName> vel
-        erinnerlig, hvor offte Jeg dennem, ved deris Nærværelse i <placeName
-          key="g0397"
-          ref="https://www.geonames.org/2897132">Husum</placeName>
-        mit Forsæt mig med <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0739"
-          xml:space="default">Kongen i Preußen
-        </persName> og dend da værende Chur <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0727"
-          xml:space="default">
-          Förste af Braunsvig
-        </persName> nærmere at sætte, haver
-        temoigneret: At Jeg siden dend tid paa min Side intet haver forsömmet, sligt at bringe til
-        Ende, kand ingen bedre end <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">
-          Eders May[estæ]ts og Kierl[ighe]ds
-        </persName> Ministre <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0732"
-          xml:space="default">von Schleunitz
-        </persName> være vitterligt, efftersom hand over denne
-        materie med min udi Brunswig subsisterende Ministre Plenipotentiaire von <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p1473"
-          xml:space="default">
-          Rosencrantz</persName>meget offte har hafft Samtale, og kand Jeg ey Mig andre Tancker
-        giöre, end at hand jo saa vel som deris Ambassadeur Försten <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0729"
-          xml:space="default">Dolgoroucki
-        </persName> de egentlige Omstændigheder af det, hvorpaa Sagen
-        sig haver accrocheret, tydeligen haver refereret, og som de begge til Trittow de af <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0727"
-          xml:space="default">
-          Kongen i Store Brittannien
-        </persName> formerede
-        Prætensioner ey aldeles have fundet billige, og til ey Expedientier </p>
-      <pb cert="high" n="f. 1v" xml:space="default" />
-      <p>at finde, propositioner have giorte, som dog alligevel paa <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0727"
-          xml:space="default">Kongens af Store Brittanniens
-        </persName> side ey indtil Dato ere komne til
-        Forskin, saa kand Jeg ey anderledes slutte, end at ellers Nogen min gode og sincere
-        Intention hos <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">
-          Eders May[estæ]t og Kierl[ighe]d</persName>een gandske anden sensum har villet give. Mens
-        Jeg vil mig kortelig til Sagen selff vende, og Mig paa det hos föyede Project, saasom det
-        samme er bleven forfattet og communiceret, allene referere, ey paatvivlendes <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">Eders
-          May[estæ]t og Kierl[ighe]d</persName>jo, naar de det igiennemseet og Omstændighederne
-        overveyet have, effter deris sædvanlige Justice og bekiendte penetration, Mig fremdeles
-        skylden af dette retardement ey mere imputerendes, mens langt heller tilstaaendes vorder, at
-        Jeg alt hvis mig mueligt været, haver giort. Det kommer ogsaa, effterdi mand over Puncterne
-        er eenig, alleene paa Tiden an, saasom <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0727"
-          xml:space="default">Kongen af Store Brittannien
-        </persName> extraditionen af det <placeName
-          key="g0140"
-          ref="https://www.geonames.org/2944388">Brehmische
-        </placeName> og <placeName
-          key="Verden Lower Saxony Germany"
-          ref=""
-          cert="medium">Vehrdische</placeName>, saa snart hand med Sverrig har brudt, straxen
-        prætenderer, og Jeg, saa længe Krigen varer, ermelte Provintz, for Indquartering og
-        Subsistence af mine Trouppers skyld, hvoraf Jeg ellers een deel maa aftacke, ingenlunde kand
-        miste, og des foruden dend sunde Fornufft dicterer, at mand for een forventelig u-viß Ting
-        ey bör eller kand saa snart udaf Hænderne lade slippe det, som jure belli med saa stor Möye
-        og Bekostning er bleven acquireret, <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0727"
-          xml:space="default">
-          Kongen i Store Brittannien
-        </persName> ogsaa ved slig
-        trainering ey lider nogen Fare, efftersom Jeg gierne er tilfreds, at hand <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">Eders May[estæ]t og Kierl[ighe]d
-        </persName> samt andre Puissancer til
-        Garants dertil annammer, hand ogsaa sig </p>
-      <pb cert="high" n="f. 2" xml:space="default" />
-      <p>Selff dend beste Garantie kand præstere. Hvorudaf da <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">Eders May[estæ]t og
-          Kierl[ighe]d</persName>Selff kand slutte, at Jeg min egen og mine Med-Allieredes Interesse
-        heel vel considererer, og ingenlunde er affgenegen, Mig med <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0727"
-          xml:space="default">Kongen i Store
-          Brittannien
-        </persName> nærmere at sætte,
-        Jeg vil ogsaa gierne paa ny igien derover lade tractere, Mens at Jeg mig udaf Possessionen
-        af een acquirerede Provintz saa længe Krigen varer, skulde lade sætte, det kand Mig med
-        Billighed ey vel anmodes, effterdi Jeg derudinden ey anden end <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">
-          Eders May[estæ]ts og Kierl[ighe]ds
-        </persName> eget
-        Exempel, i regard af Liiffland, fölger, og det derforuden er tungt, sig Een andens
-        Discretion at underkaste, da mand offte ickun det blotte Bagsiun haver, og mand ey kand
-        vide, hvad for fatis mand ved dend u-bestandige kriegs Lycke kand blive exponeret. Jeg
-        forbliver med bestandig og oprigtig passion sedse </p>
-      <closer>
-        <salute>
-          <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0174"
-            xml:space="default">Eders May[estæ]ts
-          </persName> og Kierl[ighe]ds <lb /> Tro Broder, Ven
-          og Naboe. <lb />
-        </salute>
-        <signed>
-          <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0532"
-            xml:space="default">Friderich
-          </persName> R[ex] </signed>
-        <dateline>
-          <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425"
-            cert="high">Kiöbenhafn</placeName>, <lb /> dend <date when="1714-10-30">30. Octobris <lb />
-          Anno 1714 </date> . <lb />
-          <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            xml:space="default"
-            key="p1468">D Wibe
-          </persName>
-        </dateline>
-        <pb cert="high" n="f. 3" xml:space="default" />
-        <salute>Dend Durchläuchtigste Stormägtigste Czar og
-          Stor-Förste utj det heele Ryßland p[erge].
-        </salute>
-      </closer>
-    </body>
-  </text>
+					cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+					xml:space="default">Eders
+					May[estæ]t og Kierl[ighe]d
+				</persName> vel erinnerlig, hvor
+				offte Jeg dennem, ved deris Nærværelse i <placeName key="g0397"
+					ref="https://www.geonames.org/2897132">Husum</placeName> mit Forsæt mig med <persName
+					cert="high" evidence="internal" full="yes" instant="unknown" key="p0739"
+					xml:space="default">Kongen i Preußen
+				</persName> og dend da værende Chur <persName cert="high"
+					evidence="internal" full="yes" instant="unknown" key="p0727" xml:space="default">
+				Förste af Braunsvig
+				</persName> nærmere at sætte, haver
+				temoigneret: At Jeg siden dend tid paa min Side intet haver forsömmet, sligt at
+				bringe til Ende, kand ingen bedre end <persName cert="high" evidence="internal"
+					full="yes" instant="unknown" key="p0174" xml:space="default">
+					Eders May[estæ]ts og Kierl[ighe]ds
+				</persName> Ministre <persName
+					cert="high" evidence="internal" full="yes" instant="unknown" key="p0732"
+					xml:space="default">von Schleunitz
+				</persName> være vitterligt, efftersom hand over denne
+				materie med min udi Brunswig subsisterende Ministre Plenipotentiaire von <persName
+					cert="high" evidence="internal" full="yes" instant="unknown" key="p1473"
+					xml:space="default">
+					Rosencrantz</persName>meget offte har hafft Samtale, og kand Jeg ey Mig andre
+				Tancker giöre, end at hand jo saa vel som deris Ambassadeur Försten <persName
+					cert="high" evidence="internal" full="yes" instant="unknown" key="p0729"
+					xml:space="default">Dolgoroucki
+				</persName> de egentlige Omstændigheder af det, hvorpaa Sagen
+				sig haver accrocheret, tydeligen haver refereret, og som de begge til Trittow de af <persName
+					cert="high" evidence="internal" full="yes" instant="unknown" key="p0727"
+					xml:space="default">
+					Kongen i Store Brittannien
+				</persName> formerede Prætensioner ey
+				aldeles have fundet billige, og til ey Expedientier </p>
+			<pb cert="high" n="f. 1v" xml:space="default" />
+			<p>at finde, propositioner have giorte, som dog alligevel paa <persName cert="high"
+					evidence="internal" full="yes" instant="unknown" key="p0727" xml:space="default">Kongens
+				af Store Brittanniens
+				</persName> side ey indtil Dato ere komne til
+				Forskin, saa kand Jeg ey anderledes slutte, end at ellers Nogen min gode og sincere
+				Intention hos <persName cert="high" evidence="internal" full="yes" instant="unknown"
+					key="p0174" xml:space="default">
+					Eders May[estæ]t og Kierl[ighe]d</persName>een gandske anden sensum har villet
+				give. Mens Jeg vil mig kortelig til Sagen selff vende, og Mig paa det hos föyede
+				Project, saasom det samme er bleven forfattet og communiceret, allene referere, ey
+				paatvivlendes <persName cert="high" evidence="internal" full="yes" instant="unknown"
+					key="p0174" xml:space="default">Eders
+					May[estæ]t og Kierl[ighe]d</persName>jo, naar de det igiennemseet og
+				Omstændighederne overveyet have, effter deris sædvanlige Justice og bekiendte
+				penetration, Mig fremdeles skylden af dette retardement ey mere imputerendes, mens
+				langt heller tilstaaendes vorder, at Jeg alt hvis mig mueligt været, haver giort.
+				Det kommer ogsaa, effterdi mand over Puncterne er eenig, alleene paa Tiden an,
+				saasom <persName cert="high" evidence="internal" full="yes" instant="unknown"
+					key="p0727" xml:space="default">Kongen af Store Brittannien
+				</persName> extraditionen af det Brehmische og
+				Vehrdische, saa snart hand med Sverrig har brudt, straxen prætenderer, og Jeg, saa
+				længe Krigen varer, ermelte Provintz, for Indquartering og Subsistence af mine
+				Trouppers skyld, hvoraf Jeg ellers een deel maa aftacke, ingenlunde kand miste, og
+				des foruden dend sunde Fornufft dicterer, at mand for een forventelig u-viß Ting ey
+				bör eller kand saa snart udaf Hænderne lade slippe det, som jure belli med saa stor
+				Möye og Bekostning er bleven acquireret, <persName cert="high" evidence="internal"
+					full="yes" instant="unknown" key="p0727" xml:space="default">
+					Kongen i Store Brittannien
+				</persName> ogsaa ved slig trainering
+				ey lider nogen Fare, efftersom Jeg gierne er tilfreds, at hand <persName cert="high"
+					evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">Eders
+				May[estæ]t og Kierl[ighe]d
+				</persName> samt andre Puissancer til
+				Garants dertil annammer, hand ogsaa sig </p>
+			<pb cert="high" n="f. 2" xml:space="default" />
+			<p>Selff dend beste Garantie kand præstere. Hvorudaf da <persName cert="high"
+					evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">Eders
+				May[estæ]t og
+					Kierl[ighe]d</persName>Selff kand slutte, at Jeg min egen og mine Med-Allieredes
+				Interesse heel vel considererer, og ingenlunde er affgenegen, Mig med <persName
+					cert="high" evidence="internal" full="yes" instant="unknown" key="p0727"
+					xml:space="default">Kongen i Store
+					Brittannien
+				</persName> nærmere at sætte, Jeg vil
+				ogsaa gierne paa ny igien derover lade tractere, Mens at Jeg mig udaf Possessionen
+				af een acquirerede Provintz saa længe Krigen varer, skulde lade sætte, det kand Mig
+				med Billighed ey vel anmodes, effterdi Jeg derudinden ey anden end <persName
+					cert="high" evidence="internal" full="yes" instant="unknown" key="p0174"
+					xml:space="default">
+					Eders May[estæ]ts og Kierl[ighe]ds
+				</persName> eget Exempel, i
+				regard af Liiffland, fölger, og det derforuden er tungt, sig Een andens Discretion
+				at underkaste, da mand offte ickun det blotte Bagsiun haver, og mand ey kand vide,
+				hvad for fatis mand ved dend u-bestandige kriegs Lycke kand blive exponeret. Jeg
+				forbliver med bestandig og oprigtig passion sedse </p>
+			<closer>
+				<salute><persName cert="high" evidence="internal" full="yes" instant="unknown"
+						key="p0174" xml:space="default">Eders May[estæ]ts
+					</persName> og Kierl[ighe]ds <lb /> Tro Broder, Ven
+					og Naboe. <lb />
+				</salute>
+				<signed><persName cert="high" evidence="internal" full="yes" instant="unknown"
+						key="p0532" xml:space="default">Friderich
+					</persName> R[ex] </signed>
+				<dateline><placeName key="g0006" ref="https://www.geonames.org/2618425" cert="high">
+					Kiöbenhafn</placeName>, <lb /> dend <date when="1714-10-30">30. Octobris <lb />
+					Anno 1714 </date> . <lb />
+          <persName cert="high" evidence="internal" full="yes"
+						instant="unknown" xml:space="default" key="p1468">D Wibe
+					</persName>
+				</dateline>
+				<pb cert="high" n="f. 3" xml:space="default" />
+				<salute>Dend Durchläuchtigste Stormägtigste Czar og
+					Stor-Förste utj det heele Ryßland p[erge].
+				</salute>
+			</closer>
+		</body>
+	</text>
 </TEI>
