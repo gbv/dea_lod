@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -176,16 +173,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 15 November 1779. – Draft of the letter from <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+          <title> 15 November 1779. – Draft of the letter from <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
               the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count
             Otto Magnus von Stackelberg
             </persName>,
@@ -197,7 +192,7 @@
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 6, f. 1281. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1281" />
+        <pb n="f. 1281"/>
         <opener>
           <address n="recipient">
             <addrLine> à <persName key="p1064" ref="60b94a86-575e-41cf-b466-c45d2825d643">
@@ -214,12 +209,9 @@
         </opener>
         <p>Après l’interet vif que j’ai temoigné prendre <hi rendition="#s">à l’affaire de</hi> aux
           affaires de <persName key="p1073" ref="d233402d-20e9-4059-8c89-d75bff37488d">M[onsieu]r de
-          Tyzenhaus</persName>, je ne puis que Vous temoigner, Monsieur, ma surprise <hi
-            rendition="#s">que Vous payés si peu d’égards pour mes recommandations et que</hi> que
+          Tyzenhaus</persName>, je ne puis que Vous temoigner, Monsieur, ma surprise <hi rendition="#s">que Vous payés si peu d’égards pour mes recommandations et que</hi> que
           jusqu’à present rien n’a été regle <hi rendition="#s">entre Vous</hi> de Votre part.
-          L’affaire etant claire comme le jour, et <persName
-            key="p1073"
-            ref="d233402d-20e9-4059-8c89-d75bff37488d">M[onsieu]r Tyzenhaus</persName> ne faisant
+          L’affaire etant claire comme le jour, et <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1073" xml:space="default" ref="d233402d-20e9-4059-8c89-d75bff37488d">M[onsieu]r Tyzenhaus</persName> ne faisant
           aucune difficulté de Vous payer ce qui Vous reviendra de justice, ayant aussi envoyé pour
           cet effet trois blanquets à Son Plenipotentiaire, je Vous prie, Monsieur, de terminer une
           fois cette affaire pour Vous seul, sans y entrainer les autres creanciers, qui peuvent
