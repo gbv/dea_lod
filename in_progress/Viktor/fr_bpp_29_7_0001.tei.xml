@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -173,33 +170,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>22 March 1779. – Letter from <persName
-              key="p1087"
-              ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">the Chancellor of the Grand Duchy of
-            Lithuania, Prince Aleksander Michał Sapieh</persName>, to <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to
+          <title>22 March 1779. – Letter from <persName key="p1087" ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">the Chancellor of the Grand Duchy of
+            Lithuania, Prince Aleksander Michał Sapieh</persName>, to <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to
             the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 7, f. 1295-1296. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1295" />
+        <pb n="f. 1295"/>
         <opener>
           <salute>
             Monseigneur !
           </salute>
         </opener>
         <p>
-          <persName key="p0000">M[onsieu]r Brąski</persName>, connû sous le titre d’un homme rempli
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2455" xml:space="default">M[onsieu]r Brąski</persName>, connû sous le titre d’un homme rempli
           de chicannes, a obtenu du <orgName key="o0093" ref="7369318a-0591-4b6d-b8c3-472e3d9fb09b">Conseil
           Permanent</orgName> une résolution favorable pour lui, et très préjudiciable au Public en
           général ; d’autant que la ditte résolution casse des milliers de Décrets rendus par les
@@ -209,14 +202,12 @@
           terminés, seront obligés de les recommencer. Les causes jugées de M[essieu]rs les
           Décidents [sic !] auront le même sort. C’est à ce sujet, Monseigneur, que j’ai l’honneur
           d’adresser la présente à Votre Excellence, </p>
-        <pb n="f. 1296" />
+        <pb n="f. 1296"/>
         <p> pour lui représenter que, comme Président de ces jugements, je dois être sensible à une
           pareille décision ; et j’ose la prier instament de s’intéresser vivement pour arranger
           cette affaire qui n’a pas d’exemple, et qui ne peut avoir que des suites très facheuses en
           ce qu’elle abolit nonseulement les jugements rendus anciennement, mais encore arrête ceux
-          qui se tiennent actuellement à <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Varsovie</placeName>, et qui sont à
+          qui se tiennent actuellement à <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>, et qui sont à
           la suite des autres.</p>
         <closer>
           <salute>
