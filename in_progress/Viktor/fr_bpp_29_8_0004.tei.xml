@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Letter from the Emperess of Russia Catherine II to the minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Iakov Ivanovich Bulgakov</title>
+        <title type="main" xml:lang="en">Letter from the Emperess of Russia Catherine II to the minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Iakov Ivanovich Bulgakov</title>
         <author xml:lang="en">Empress</author>
         <author xml:lang="en">of</author>
         <author xml:lang="en">Russia</author>
@@ -100,36 +95,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 November 1790. – Letter from <persName
-              key="p0033"
-              ref="e14a18da-55bf-476c-bee9-1ff5536450d7">the Empress of Russia Catherine II, </persName>to <persName
-              key="p0894">the Minister Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Iakov Ivanovich Bulgakov</persName>
+          <title>6 November 1790. – Letter from <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">the Empress of Russia Catherine II, </persName>to <persName key="p0894">the Minister Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Iakov Ivanovich Bulgakov</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 8, f. 1385-1387. Russian original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1385" />
-        <p />
-        <p>Яков Иванович. В двух моих письмах пред сим к вам отправленных имеете вы достаточные наставления по делам служения вашего; и Я совершенно уверена, что вы ничего не упустите, что может поспособствовать к обращению умов польских на путь желаемый, к составлению сильной партии для нас, к недопущению посредством ея производить в действо разныя вредныя для нас перемены и новости, и к возстановлению там нашей силы и связи. Естьли бы приятели ваши представляли вам о надобности для успокоения одних и привлечения других обещать гарантии, свободу распоряжать внутренние их дела и союз Наш, в таком случае дайте им чувствовать, что <orgName
-            key="o0018"
-            ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">Сейм</orgName> настоящий торжественным своим актом испровергши всякое ручательство, положил в том преграду, внушите что вы надеетеся, как скоро добрые патриоты предуспеют образумить прочих в их заблуждении, и обратить по связи с Нами самой спокойственной для их целости и пользы, то Я не отрекуся по востребованию их дать такое ручательство, которое самым верным образом обезпечило бы их бытие, целость владений и свободу учреждать внутренния их дела; что же касается до союза, известно что он </p>
-        <pb n="f. 1386" />
+        <p/>
+        <pb n="f. 1385"/>
+        <p/>
+        <p><persName key="p0894">Яков Иванович</persName>. В двух моих письмах пред сим к вам отправленных имеете вы достаточные наставления по делам служения вашего; и Я совершенно уверена, что вы ничего не упустите, что может поспособствовать к обращению умов польских на путь желаемый, к составлению сильной партии для нас, к недопущению посредством ея производить в действо разныя вредныя для нас перемены и новости, и к возстановлению там нашей силы и связи. Естьли бы приятели ваши представляли вам о надобности для успокоения одних и привлечения других обещать гарантии, свободу распоряжать внутренние их дела и союз Наш, в таком случае дайте им чувствовать, что <orgName key="o0018" ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">Сейм</orgName> настоящий торжественным своим актом испровергши всякое ручательство, положил в том преграду, внушите что вы надеетеся, как скоро добрые патриоты предуспеют образумить прочих в их заблуждении, и обратить по связи с Нами самой спокойственной для их целости и пользы, то Я не отрекуся по востребованию их дать такое ручательство, которое самым верным образом обезпечило бы их бытие, целость владений и свободу учреждать внутренния их дела; что же касается до союза, известно что он </p>
+        <pb n="f. 1386"/>
         <p>от Меня предложен им был во свое время с различными выгодами, от чего они уклонилися предався слепо посторонним видам. Путь к тому всегда отверст будет, естьли токмо они не найдутся противными Нашим интересам, в коих ни чего для них вреднаго заключаться не может. Подобныя внушения делайте им с крайнею осторожностию дабы безвременно незавести неприятных хлопот, когда еще дела Наши в другом краю не кончены, и когда и в самой Польше враждебная Нам сторона толь сильный перевес имеет.</p>
         <p>А как для отвращения разных вредных новостей, и для умножения прилепляющихся к видам Нашим нужно действовать и по провинциям; то сие надлежит вам производить под рукою чрез посредство друзей ваших. Для расходов в подобном случае потребных назначено от Меня в распоряжение ваше пятдесят тысяч червонных, на которыя кредитив при сем вложен, включая в то число и те двадцать тысяч червонных, что вам от князя </p>
-        <pb n="f. 1387" />
+        <pb n="f. 1387"/>
         <p>
-          <persName
-            key="p0560"
-            ref="cfbc947c-5df5-4020-9b0f-5a54a597d86d">Григория Александровича</persName> дозволено употребить, и кои в суммы ведомству его принадлежащия возвратить следует. Имев опыты вашей бережливости в казенных издержках, знаю что вы и тут оную в полной мере наблюсти неоставите. Пребываю впрочем вам доброжелательная</p>
+          <persName key="p0560" ref="cfbc947c-5df5-4020-9b0f-5a54a597d86d">Григория Александровича</persName> дозволено употребить, и кои в суммы ведомству его принадлежащия возвратить следует. Имев опыты вашей бережливости в казенных издержках, знаю что вы и тут оную в полной мере наблюсти неоставите. Пребываю впрочем вам доброжелательная</p>
         <p>
           <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина</persName>
         </p>
