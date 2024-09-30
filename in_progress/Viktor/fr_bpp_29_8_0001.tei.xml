@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,16 +96,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>19 July 1790. – Letter from <persName
-              key="p0893"
-              ref="6a68c12a-8133-4e0e-9edc-c4ad60b686ad">the 2nd member of the College of Foreign
+          <title>19 July 1790. – Letter from <persName key="p0893" ref="6a68c12a-8133-4e0e-9edc-c4ad60b686ad">the 2nd member of the College of Foreign
             affairs, Count Aleksandr Andreevich Bezborodko</persName>, to <persName key="p0894">the
             Minister Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Iakov
             Ivanovich Bulgakov</persName>
@@ -117,15 +112,13 @@
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 8, f. 1339. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 1339" />
-        <p />
-        <p>Милостивый государь мой Яков Иванович.</p>
+        <pb n="f. 1339"/>
+        <p/>
+        <p><persName key="p0894">Милостивый государь мой Яков Иванович</persName>.</p>
         <p>По высочайшему <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея
           Императорскаго Величества</persName> соизволению препровождаются к вашему
           превосходительству для известнаго вам по службе употребления разныя вещи в приложенном при
-          сем реестре показанныя, ценою на пятнадцать тысяч рублей. <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величеству</persName> угодно чтоб вы,
+          сем реестре показанныя, ценою на пятнадцать тысяч рублей. <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величеству</persName> угодно чтоб вы,
           милостивый государь мой неоставили, по мере как из оных вещей делаемо будет употребление,
           доставлять мне краткое уведомление помесячно или по третям года, которые именно из них и
           куда вышли; дабы потому записав их в действительный расход можно было дать знать кабинету.
