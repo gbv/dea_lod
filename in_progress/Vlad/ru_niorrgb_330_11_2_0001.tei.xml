@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -124,10 +127,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_niorrgb_330_11_2_0001.tei.xml?place_annotation_20240921141604725",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Vlad/ru_niorrgb_330_11_2_0001.tei.xml?place_annotation_20240921141604725",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-09-21T12:16:04.725Z",
-	"dcterms:modified": "2024-09-21T12:16:04.725Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -138,10 +140,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_niorrgb_330_11_2_0001.tei.xml?place_annotation_20240921141604725#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Vlad/ru_niorrgb_330_11_2_0001.tei.xml?place_annotation_20240921141604725#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_niorrgb_330_11_2_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Vlad/ru_niorrgb_330_11_2_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -152,14 +154,14 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_niorrgb_330_11_2_0001.tei.xml?place_annotation_20240921141604725#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Vlad/ru_niorrgb_330_11_2_0001.tei.xml?place_annotation_20240921141604725#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[6]/placeName/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2891122",
+		"@id": "https://www.geonames.org/2891122",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -179,9 +181,9 @@
       <div type="letter">
         <head>
           <title> 10 January 1814. – Letter from <persName key="p1615">
-              <persName cert="high" ref="p1615">Crown Prince of Sweden Carl John</persName>
+              <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p1615">Crown Prince of Sweden Carl John</persName>
             </persName> to <persName key="p1508">
-              <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p1508"><persName cert="high" key="p1508"><persName cert="high" ref="p1507">Major General Aleksandr Ivanovich Chernyshev</persName></persName></persName>
+              <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p1508"><persName cert="high" key="p1508"><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p1507">Major General Aleksandr Ivanovich Chernyshev</persName></persName></persName>
             </persName>
           </title>
           <note>
