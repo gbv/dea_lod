@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,70 +99,43 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 July 1792. – Copy of the letter from <persName
-              key="p0025"
-              ref="4d6ea4fd-7523-4611-9334-f702e7ce0edf">[the Minister Plenipotentiary of Russia to
-            the Targowica Confederation,] Baron of Bühler</persName>, to <persName
-              key="p0113"
-              ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">the Vice-Chancellor [of Russia],
-              Count [Ivan Andreevich] Osterman</persName>, dated <placeName
-              key="g0322"
-              ref="https://www.geonames.org/709540">Dubno</placeName>,
+          <title>21 July 1792. – Copy of the letter from <persName key="p0025" ref="4d6ea4fd-7523-4611-9334-f702e7ce0edf">[the Minister Plenipotentiary of Russia to
+            the Targowica Confederation,] Baron of Bühler</persName>, to <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">the Vice-Chancellor [of Russia],
+              Count [Ivan Andreevich] Osterman</persName>, dated <placeName key="g0322" ref="https://www.geonames.org/709540">Dubno</placeName>,
             21 July 1792 </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 8, f. 1495-1496. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1495" />
-        <p />
+        <pb n="f. 1495"/>
+        
         <p>Copie de la lettre du <persName key="p0025" ref="4d6ea4fd-7523-4611-9334-f702e7ce0edf">Baron
-          Bühler</persName> au Vice Chancelier <persName
-            key="p0113"
-            ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">Comte d’Ostermann</persName> en date de <placeName
-            key="g0322"
-            ref="https://www.geonames.org/709540">Dubno</placeName> le 21. Juillet 1792.</p>
-        <p>Avant hier matin je reçus de la part de M[onsieu]r le general en chef de <persName
-            key="p1142">Kochowsky</persName> la nouvelle importante, que <persName key="p0862">S[a]
-          M[ajesté] le Roi de Pologne</persName> s’est enfin decidé d’acceder avec l’armée à <orgName
-            key="o0085"
-            ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confedération générale</orgName>
-          faite à <placeName
-            key="g0323"
-            ref="https://www.geonames.org/691370">Targowica</placeName> le 3/14 may dernier.</p>
+          Bühler</persName> au Vice Chancelier <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">Comte d’Ostermann</persName> en date de <placeName key="g0322" ref="https://www.geonames.org/709540">Dubno</placeName> le 21. Juillet 1792.</p>
+        <p>Avant hier matin je reçus de la part de M[onsieu]r le general en chef de <persName key="p1142">Kochowsky</persName> la nouvelle importante, que <persName key="p0862">S[a]
+          M[ajesté] le Roi de Pologne</persName> s’est enfin decidé d’acceder avec l’armée à <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confedération générale</orgName>
+          faite à <placeName key="g0323" ref="https://www.geonames.org/691370">Targowica</placeName> le 3/14 may dernier.</p>
         <p>
           <persName key="p0969">Le Marechal général</persName> étant arrivé ici le même soir avec
           toute la généralité, je n’ai rien eû de plus pressé que de me rendre chés lui. Je l’ai
-          trouvé entouré d’une noblesse nombreuse, qui étoit venuë se joindre à <orgName
-            key="o0085"
-            ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation générale</orgName> sur sa
-          route de <placeName
-            key="g0324"
-            ref="https://www.geonames.org/692818">Constantinow</placeName> à <placeName
-            key="g0322"
-            ref="https://www.geonames.org/709540">Dubno</placeName>,
-          d’autres l’avoient attendû ici et je puis dire, M[onsieu]r le Comte, que <orgName
-            key="o0085"
-            ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation générale</orgName>
+          trouvé entouré d’une noblesse nombreuse, qui étoit venuë se joindre à <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation générale</orgName> sur sa
+          route de <placeName key="g0324" ref="https://www.geonames.org/692818">Constantinow</placeName> à <placeName key="g0322" ref="https://www.geonames.org/709540">Dubno</placeName>,
+          d’autres l’avoient attendû ici et je puis dire, M[onsieu]r le Comte, que <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation générale</orgName>
           n’avoit pris un certain air de grandeur et de consistance qu’au moment, où le puissant
           bras de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté]
           I[mpériale]</persName> avoit déja décidé du sort de toute la République.</p>
         <p>Après avoir eû avec M[onsieu]r <persName key="p0969">le Marechal général</persName> un
           entretien particulier, dans lequel je lui ai communiqué cette heureuse nouvelle </p>
-        <pb n="f. 1496" />
-        <p> ainsi que les extraits des deux lettres de M[onsieu]r de <persName
-            key="p0894">Boulgakow</persName>
+        <pb n="f. 1496"/>
+        <p> ainsi que les extraits des deux lettres de M[onsieu]r de <persName key="p0894">Boulgakow</persName>
           écrites à ce sujet à M[onsieu]r le general de chef de <persName key="p1142">Kochowsky</persName>,
-          il sortit de son cabinet pour annoncer à toute l’assemblée l’accession du <persName
-            key="p0862">Roi</persName> et de l’armée à <orgName
-            key="o0085"
-            ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la
+          il sortit de son cabinet pour annoncer à toute l’assemblée l’accession du <persName key="p0862">Roi</persName> et de l’armée à <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la
             confederation générale</orgName>. Dans un instant toute la salle étoit remplie de joie
           et d’allegresse, mais le premier mouvement de tous c’étoient mille bénédictions, que
           chacun donna à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Auguste
@@ -173,8 +143,7 @@
           se seroit jamais relevée de son abaissement.</p>
         <p>Quelques heures après arriva ici M[onsieu]r <persName key="p1144">Ozarowsky</persName>,
           Castellan de Voyck, qui apporta au <persName key="p0969">Marechal général</persName> de la
-          confederation une lettre du <persName key="p0862">Roi</persName>, laquelle M[onsieu]r le <persName
-            key="p0969">Comte de Potocky</persName> ne decacheta que le lendemain en pleine séance
+          confederation une lettre du <persName key="p0862">Roi</persName>, laquelle M[onsieu]r le <persName key="p0969">Comte de Potocky</persName> ne decacheta que le lendemain en pleine séance
           de la généralité.</p>
         <p>M[onsieu]r d’<persName key="p1144">Ozarowsky</persName> après avoir prêté son serment a
           été reçu conseiller et assistat à la séance.</p>
