@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the Primate of Poland, Michał Jerzy Poniatowski</title>
+        <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the Primate of Poland, Michał Jerzy Poniatowski</title>
         <author xml:lang="en">Jacob</author>
         <author xml:lang="en">Johann</author>
         <author xml:lang="en">von</author>
@@ -100,49 +95,31 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>3 July 1793. – Draft of the letter from <persName
-              key="p1145,p1170">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the Primate of Poland, Michał Jerzy Poniatowski</persName>
+          <title>3 July 1793. – Draft of the letter from <persName key="p1145,p1170">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to the Primate of Poland, Michał Jerzy Poniatowski</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1603-1605. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1603" />
-        <p />
+        <p>p1145,p1170</p>
+        <pb n="f. 1603"/>
+        <p/>
         <p>Au <persName key="p1170">Primat</persName>.</p>
         <p>
-          <placeName
-            key="g0264"
-            ref="https://www.geonames.org/627904">Grodno</placeName> le 3 Juillet 1793.</p>
+          <placeName key="g0264" ref="https://www.geonames.org/627904">Grodno</placeName> le 3 Juillet 1793.</p>
         <p>Monseigneur</p>
-        <p>Après avoir reçu la reponse dont V[otre] A[ltesse] m’a honoré du 28 de Juin, je restai quelques jours indecis sur ma replique dans l’esperance que <persName
-            key="p0862">le Roi</persName> reviendroit de l’erreur où une fausse gloriole l’a fait tomber, en manquant en même tems à sa promesse et à ce qu’il devoit à <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> et par là au vrai bien de sa patrie ; mais voyant que le mal va en empirant et ayant consulté <persName
-            key="p1055">M[onsieu]r de Buchholtz</persName> comme egalement interessé, je dois réiterer mes instances auprès de V[otre] A[ltesse] afin qu’elle se rende incessament ici dans l’esperance qu’elle fera entrevoir le mal au <persName
-            key="p0862">Roi</persName> et à son parti des pretendus patriotes en reprimant en même tems la folie de son neveu, <persName
-            key="p1053">le G[ran]d Marechal Tyszkiewicz</persName>.</p>
-        <p />
-        <pb n="f. 1604" />
-        <p> Si V[otre] A[ltesse] se refuse encore à ces instances, elle aura certainement à se reprocher de<hi
-            rendition="#s">s</hi> grands malheurs inévitables tant pour <persName
-            key="p0862">le Roi</persName> que pour sa famille. Je n’ai pas le tems d’entrer dans un detail succint des desordres que <orgName
-            key="o0018"
-            ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la diete</orgName>, <hi
-            rendition="#s">s’est permise</hi> visiblement encouragée par <persName
-            key="p0862">le Roi</persName>, s’est permise ces jours-ci. 14 séances sont absolument perdues sans rien faire pour le but principal de <orgName
-            key="o0018"
-            ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la diete</orgName>. Je serois bien mortifié si l’on m’oblige à des moyens qui paroitront violent, et qui ne seront que justes pour parvenir à tranquiliser les restes de ce malheureux pays. Je n’ajoute rien aux raisons que pourroit alleguer <persName
-            key="p1055">M[onsieu]r de Buchholtz</persName> ; j’espère que V[otre] A[ltesse] en sentira toute l’energie et l’exigence, et que j’aurai parconsequent bientôt </p>
-        <pb n="f. 1605" />
+        <p>Après avoir reçu la reponse dont V[otre] A[ltesse] m’a honoré du 28 de Juin, je restai quelques jours indecis sur ma replique dans l’esperance que <persName key="p0862">le Roi</persName> reviendroit de l’erreur où une fausse gloriole l’a fait tomber, en manquant en même tems à sa promesse et à ce qu’il devoit à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> et par là au vrai bien de sa patrie ; mais voyant que le mal va en empirant et ayant consulté <persName key="p1055">M[onsieu]r de Buchholtz</persName> comme egalement interessé, je dois réiterer mes instances auprès de V[otre] A[ltesse] afin qu’elle se rende incessament ici dans l’esperance qu’elle fera entrevoir le mal au <persName key="p0862">Roi</persName> et à son parti des pretendus patriotes en reprimant en même tems la folie de son neveu, <persName key="p1053">le G[ran]d Marechal Tyszkiewicz</persName>.</p>
+        <p/>
+        <pb n="f. 1604"/>
+        <p> Si V[otre] A[ltesse] se refuse encore à ces instances, elle aura certainement à se reprocher de<hi rendition="#s">s</hi> grands malheurs inévitables tant pour <persName key="p0862">le Roi</persName> que pour sa famille. Je n’ai pas le tems d’entrer dans un detail succint des desordres que <orgName key="o0018" ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la diete</orgName>, <hi rendition="#s">s’est permise</hi> visiblement encouragée par <persName key="p0862">le Roi</persName>, s’est permise ces jours-ci. 14 séances sont absolument perdues sans rien faire pour le but principal de <orgName key="o0018" ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">la diete</orgName>. Je serois bien mortifié si l’on m’oblige à des moyens qui paroitront violent, et qui ne seront que justes pour parvenir à tranquiliser les restes de ce malheureux pays. Je n’ajoute rien aux raisons que pourroit alleguer <persName key="p1055">M[onsieu]r de Buchholtz</persName> ; j’espère que V[otre] A[ltesse] en sentira toute l’energie et l’exigence, et que j’aurai parconsequent bientôt </p>
+        <pb n="f. 1605"/>
         <p> l’honneur de la voir ici où je lui réitererai de bouche et par des preuves de fait les sentimens d’attachement et de la plus haute consideration avec lesquels j’ai l’honneur d’etre etc.</p>
       </div>
     </body>
