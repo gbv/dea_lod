@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to Maximilian Magnus Alopaeus</title>
+        <title type="main" xml:lang="en">Draft of the letter from the ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers, to Maximilian Magnus Alopaeus</title>
         <author xml:lang="en">Jacob</author>
         <author xml:lang="en">Johann</author>
         <author xml:lang="en">von</author>
@@ -100,67 +95,34 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>11 April 1793. – Draft of the letter from <persName
-              key="p1145,p0269"
-              ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</persName>, to <persName
-              key="p0269"
-              ref="5d591c63-ed1c-4216-91e4-4108872629b0">Maximilian Magnus Alopaeus</persName>
+          <title>11 April 1793. – Draft of the letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1145" xml:space="default" ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</persName>, to <persName key="p0269" ref="5d591c63-ed1c-4216-91e4-4108872629b0">Maximilian Magnus Alopaeus</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 9, f. 1595–1596. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1595" />
+        <pb n="f. 1595"/>
         <opener>
-          <salute>A <persName
-              key="p0269"
-              ref="5d591c63-ed1c-4216-91e4-4108872629b0">M[onsieu]r Alapeus</persName> à
+          <salute>A <persName key="p0269" ref="5d591c63-ed1c-4216-91e4-4108872629b0">M[onsieu]r Alapeus</persName> à
         <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>
           </salute>
           <dateline>
-            <placeName key="g0264" ref="https://www.geonames.org/627904">Grodno</placeName> ce <date
-              when="1793-04-11">11 d’Avril 1793</date>.</dateline>
+            <placeName key="g0264" ref="https://www.geonames.org/627904">Grodno</placeName> ce <date when="1793-04-11">11 d’Avril 1793</date>.</dateline>
         </opener>
-        <p />
-        <p>Au moment de l’expedition du courrier de <persName
-            key="p1055">M[onsieu]r Bucholtz</persName> je n’ai rien a dire à V[otre] E[xcellence] sinon que tout est tranquille ici ; que la sensation a eté vive &amp; douloureuse &amp; n’aura probablement point de suite on parroit même deja se calmer &amp; beaucoup de Lithuanien [sic !] me disent, que n’avez Vous tout pris.</p>
-        <p>Je viens de recevoir une lettre du <persName
-            key="p0862"
-            ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>, qui me peint son extreme douleur. Je lui avois envoyé la copie avec une reponse à une lettre qu’il m’avoit ecri [sic !] au moment de son depart de <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Varsovie</placeName>. Il restera quelques jours à <placeName
-            key="g0328"
-            ref="https://www.geonames.org/776069">Bielstok</placeName>, terre de sa fam[ille ?] à 12. lieux d’ici. Tant à cause que son palais n’est point pret, que pour calmer sa douleur je serais aller le voir des aujourd’hui si une fluxion ne m’en eût empechée.</p>
-        <p>Depuis même que nous avons fait remettre la declaration <orgName
-            key="o0085"
-            ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation</orgName> me deputa ses deux Marechaux, pour me dira de sa part, qu’elle mettoit toute sa confiance dans la magnanimité de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> ; qu’elle me demandoit la permission d’envoyer un courrier au <persName
-            key="p0969">C[om]te Potocki</persName> à <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName> ; qu’elle me prioit encore de ne point la presser de </p>
-        <pb n="f. 1596" />
-        <p> repondre jusqu’à l’arrivée du <persName
-            key="p0862"
-            ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName> &amp; du ministre qui se trouve encore à <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Varsovie</placeName>. Cela fait retarder la reponse de quelques jours. Il n’y a point de mal à ceci, car elle n’en sera que plus calme, <orgName
-            key="o0085"
-            ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation</orgName> liée par son serment, croit ne pas pouvoir donner les Universaux pour la diète. Elle peut nommer un conseiller au <persName
-            key="p0862"
-            ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>, qui l’avisera sur les mesures à prendre. J’ai acquiescé à cette démarche qui ne plaira gueres au <persName
-            key="p0862"
-            ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>.</p>
-        <p>Je remercie très humblement V[otre] E[xcellence] pour la lettre qu’elle m’a fait parvenir de ma fille <persName
-            key="p1170"
-            ref="da3c2c72-27bc-458c-9c42-5603721abfaf">la Comtesse de Schönbourg</persName> et de l’amitié qu’elle a bien voulu lui témoigner à son passage.</p>
+        <p/>
+        <p>Au moment de l’expedition du courrier de <persName key="p1055">M[onsieu]r Bucholtz</persName> je n’ai rien a dire à V[otre] E[xcellence] sinon que tout est tranquille ici ; que la sensation a eté vive &amp; douloureuse &amp; n’aura probablement point de suite on parroit même deja se calmer &amp; beaucoup de Lithuanien [sic !] me disent, que n’avez Vous tout pris.</p>
+        <p>Je viens de recevoir une lettre du <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>, qui me peint son extreme douleur. Je lui avois envoyé la copie avec une reponse à une lettre qu’il m’avoit ecri [sic !] au moment de son depart de <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>. Il restera quelques jours à <placeName key="g0328" ref="https://www.geonames.org/776069">Bielstok</placeName>, terre de sa fam[ille ?] à 12. lieux d’ici. Tant à cause que son palais n’est point pret, que pour calmer sa douleur je serais aller le voir des aujourd’hui si une fluxion ne m’en eût empechée.</p>
+        <p>Depuis même que nous avons fait remettre la declaration <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation</orgName> me deputa ses deux Marechaux, pour me dira de sa part, qu’elle mettoit toute sa confiance dans la magnanimité de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale]</persName> ; qu’elle me demandoit la permission d’envoyer un courrier au <persName key="p0969">C[om]te Potocki</persName> à <placeName key="g0002" ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName> ; qu’elle me prioit encore de ne point la presser de </p>
+        <pb n="f. 1596"/>
+        <p> repondre jusqu’à l’arrivée du <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName> &amp; du ministre qui se trouve encore à <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>. Cela fait retarder la reponse de quelques jours. Il n’y a point de mal à ceci, car elle n’en sera que plus calme, <orgName key="o0085" ref="d7f6db81-dfcc-4c67-85c6-119f5c49ab84">la confederation</orgName> liée par son serment, croit ne pas pouvoir donner les Universaux pour la diète. Elle peut nommer un conseiller au <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>, qui l’avisera sur les mesures à prendre. J’ai acquiescé à cette démarche qui ne plaira gueres au <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">Roi</persName>.</p>
+        <p>Je remercie très humblement V[otre] E[xcellence] pour la lettre qu’elle m’a fait parvenir de ma fille <persName key="p1170" ref="da3c2c72-27bc-458c-9c42-5603721abfaf">la Comtesse de Schönbourg</persName> et de l’amitié qu’elle a bien voulu lui témoigner à son passage.</p>
       </div>
     </body>
   </text>
