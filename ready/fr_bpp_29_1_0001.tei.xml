@@ -1,317 +1,260 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
-    <fileDesc>
+    <fileDesc xml:id="fr_bpp_29_1_00001" >
       <titleStmt>
-        <title type="main" xml:lang="en">
-					Copy of a letter from the Elector of Saxony [Frederick
-					Christian] to Her Imperial Majesty [the Empress of Russia Catherine II]
-				</title>
-        <title type="main" xml:lang="fr">
-					Copie d’une lettre à Sa Majesté Impériale de Son Altesse
-					Royale l’Electeur de Saxe
-				</title>
-        <author xml:lang="en">
-					Elector
-				</author>
-        <author xml:lang="en">
-					of
-				</author>
-        <author xml:lang="en">
-					Saxony
-				</author>
-        <author xml:lang="en">
-					Frederick Christian
-				</author>
+        <title level="a" type="main" xml:lang="en">
+          Copy of a letter from the Elector of Saxony [Frederick Christian] to Her Imperial Majesty
+          [the Empress of Russia Catherine II]
+        </title>
+        <title level="a" type="original" xml:lang="fr">
+          Copie d’une lettre à Sa Majesté Impériale de Son Altesse Royale l’Electeur de Saxe
+        </title>
+        <author>
+          <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">
+            <forename xml:lang="en">Frederick Christian</forename>
+            <surname xml:lang="en">Elector of Saxony</surname>
+            <forename xml:lang="de">Friedrich Christian</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <resp>Author of description</resp>
+          <name role="exp" ref="#kandakou">D. Kandakou</name>
+        </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>
-					Languages of Diplomacy Digital Edition
-				</edition>
+        <edition>Languages of Diplomacy Digital Edition</edition>
         <editor>
           <persName ref="#rjeoutski">
-            <surname>
-							Rjeoutski
-						</surname>
-            <forename>
-							Vladislav
-						</forename>
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
           </persName>
         </editor>
         <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-          <persName ref="#borisov">
-            <surname>
-							Borisov
-						</surname>
-            <forename>
-							Viktor
-						</forename>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName xml:id="borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
           </persName>
         </respStmt>
         <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-          <persName ref="#kandakou">
-            <surname>
-							Kandakou
-						</surname>
-            <forename>
-							Dzianis
-						</forename>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName xml:id="kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
           </persName>
         </respStmt>
         <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-          <persName ref="#lavrinovich">
-            <surname>
-							Lavrinovich
-						</surname>
-            <forename>
-							Maya
-						</forename>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName xml:id="lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
           </persName>
         </respStmt>
         <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">
-						editor
-					</resp>
-          <persName ref="#sergeev">
-            <surname>
-							Sergeev
-						</surname>
-            <forename>
-							Mikhail
-						</forename>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName xml:id="sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
           </persName>
         </respStmt>
         <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-          <persName ref="#herzog">
-            <surname>
-							Herzog
-						</surname>
-            <forename>
-							André
-						</forename>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName xml:id="herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
           </persName>
         </respStmt>
         <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-          <persName ref="#wallner">
-            <surname>
-							Wallner
-						</surname>
-            <forename>
-							Karin
-						</forename>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName xml:id="wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
           </persName>
         </respStmt>
         <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">
-						technical infrastructure
-					</resp>
-          <persName ref="#pipka">
-            <surname>
-							Rißler-Pipka
-						</surname>
-            <forename>
-							Nanette
-						</forename>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName xml:id="pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
           </persName>
         </respStmt>
       </editionStmt>
+      <extent>
+        <measure type="images">56</measure>
+      </extent>
       <publicationStmt>
         <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">
-						qed.perspektivia.net
-					</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
         </publisher>
-        <authority>
-					MWS-Netzwerk Osteuropa
-				</authority>
-        <pubPlace>
-					Bonn
-				</pubPlace>
-        <date when="2024-08-30">
-					30. August 2024
-				</date>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
         <availability xml:id="availability-textsource-1" corresp="#textsource-1">
           <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>
-							CC BY-SA 4.0
-						</p>
+            <p>CC BY-SA 4.0</p>
           </licence>
         </availability>
         <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
           <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>
-							CC BY-SA 4.0
-						</p>
+            <p>CC BY-SA 4.0</p>
           </licence>
         </availability>
         <idno>
-          <idno type="project_id">
-						lod
-					</idno>
+          <idno type="project_id">lod</idno>
         </idno>
       </publicationStmt>
       <seriesStmt>
-        <title type="main" level="s">
-					Languages of eighteenth-century diplomacy
-				</title>
-        <title type="sub" level="s">
-					Russia in a European context
-				</title>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
       </seriesStmt>
       <sourceDesc>
-        <p>
-					TODO
-				</p>
+        <msDesc>
+          <msIdentifier>
+            <repository n="BPP">Bibliothèque polonaise de Paris</repository>
+            <idno type="shelfmark">fonds 29, no. 1, f. 1</idno>
+          </msIdentifier>
+          <physDesc>
+            <p>copy</p>
+          </physDesc>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
-    
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
-		</profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>[details of the transcription and annotation guidelines]</p>
+        <p>[further details of the transcription and annotation guidelines]</p>
+      </editorialDecl>
+    </encodingDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+        xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
+      <abstract>
+        <p>request for support to his claim to the Polish crown</p>
+      </abstract>
+      <langUsage>
+        <language ident="fr">french</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="DANTE_URL_TEXTCLASS/diplomatic_document">diplomatic document</classCode>
+        <classCode scheme="DANTE_URL_TEXTCLASS/royal_letter">royal letter</classCode>
+      </textClass>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">
+          <forename xml:lang="en">Frederick Christian</forename>
+          <surname xml:lang="en">Elector of Saxony</surname>
+          <forename xml:lang="de">Friedrich Christian</forename>
+          <settlement key="g0013" ref="https://www.geonames.org/2935022">Dresden</settlement>
+          <date when="1763-09-25">06/10/1763 (n.s.)</date>
+          </persName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="p0033" ref="URL_DANTE_PERSNAME/e14a18da-55bf-476c-bee9-1ff5536450d7">
+            <forename xml:lang="en">Catherine II</forename>
+            <surname xml:lang="en">Empress of Russia</surname>
+            <forename xml:lang="ru">Екатерина II</forename>
+            <surname xml:lang="ru">императрица России</surname>
+          </persName>
+        </correspAction>
+        <correspContext>
+          <p>See also:
+            <listRef>
+              <ref type="see_also" target="fr_bpp_29_1_0002.tei.xml">fr_bpp_29_1_0002</ref>
+              <ref type="see_also" target="fr_bpp_29_1_0004.tei.xml">fr_bpp_29_1_0004</ref>
+            </listRef>
+          </p>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>
-						6 October 1763. – Copy of the letter from
-						<persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">
-							the Elector of Saxony,
-							Frederick Christian
-						</persName>, to <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						the Empress of Russia
-							Catherine II
-						</persName>
+          <title>6 October 1763. – Copy of the letter from <persName key="p0995"
+              ref="bd099ce3-9457-4d40-9876-c812ee4282d0">the Elector of Saxony, Frederick Christian</persName>,
+            to <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+              the Empress of Russia Catherine II</persName>
           </title>
           <note>
-            <bibl>
-							Bibliothèque polonaise de Paris, fonds 29, no. 1, f. 1. French original.
-						</bibl>
+            <bibl type="MAN">Bibliothèque polonaise de Paris, fonds 29, no. 1, f. 1. French
+              original.</bibl>
           </note>
         </head>
         <pb n="f. 1"/>
         <noteGrp>
-          <note>
-						Copie d’une lettre à
-						<persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0033" xml:space="default" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-							Sa Majesté Impériale
-						</persName>
-          </note>
-          <note>
-						de
-						<persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">
-							Son Altesse
-							Royale l’Electeur de Saxe
-						</persName>
+          <note> Copie d’une lettre à <persName cert="high" evidence="internal" full="yes"
+              generatedBy="human"
+              instant="unknown" key="p0033" xml:space="default"
+              ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>
+               de <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">Son Altesse
+            Royale l’Electeur de Saxe</persName>
           </note>
         </noteGrp>
         <opener>
           <salute>
             <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-							Madame
-						</persName>
+              Madame
+            </persName>
           </salute>
         </opener>
-        <p>
-					Je viens de perdre un bon
-					<persName key="p0057" ref="36412e88-60df-4a3e-b302-3fde5962cda6">
-						Roi
-					</persName>
-					et le plus tendre pere ;
-					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						Votre
-						Majesté
-					</persName>
-					compatira à ma juste douleur : je viens de la déposer dans Votre
-					sein : et vous confier mes vuës sur la Couronne de Pologne, l’assistance de
-					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						V[otre]
-						M[ajesté]
-					</persName>
-					peut seule en assurer le succès, et j’ose me la promettre de ce
-					caractere genereux et magnanime qui vous attire l’admiration de l’Univers. J’ai l’honneur
-					d’appartenir à
-					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						V[otre]
-						M[ajesté]
-					</persName>
-					par les liens de sang, et de puis [sic !] plus de soixante ans ma
-					Maison est inviolablement attachée à Votre Empire. Daignés seulement Vous persuader,
-					<persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7" xml:space="default">
-						Madame
-					</persName>
-					,
-					que
-					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						V[otre]
-						M[ajesté]
-					</persName>
-					trouvera toujours en moy le même attachement la même fidelité, et
-					la même reconnoissance que Vos predecesseurs ont reconnû dans les miens et mes vœux seront
-					remplis. Je meriterai la precieuse amitié de
-					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						Votre Majesté
-					</persName>
-					par mon attention à
-					Lui complaire, et à resserer avec Elle les nœuds de la plus etroite alliance : la
-					reconnoissance achevera ce qu’une admiration sincere a commencé. Le Ministre que
-					j’enverrai incessament [sic !] auprès de
-					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						V[otre] M[ajesté]
-					</persName>
-					aura l’honneur
-					de lui exposer mes vuës plus endetail [sic !]. Dans ces dispositions je suis avec le plus
-					inviolable et le plus respectueux attachement.
-				</p>
+        <p> Je viens de perdre un bon <persName key="p0057"
+            ref="36412e88-60df-4a3e-b302-3fde5962cda6"> Roi </persName> et le plus tendre pere ; <persName
+            key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7"> Votre Majesté</persName>
+          compatira à ma juste douleur : je viens de la déposer dans Votre sein : et vous confier
+          mes vuës sur la Couronne de Pologne, l’assistance de <persName key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7"> V[otre] M[ajesté] </persName> peut seule en
+          assurer le succès, et j’ose me la promettre de ce caractere genereux et magnanime qui vous
+          attire l’admiration de l’Univers. J’ai l’honneur d’appartenir à <persName key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7"> V[otre] M[ajesté] </persName> par les liens
+          de sang, et de puis [sic !] plus de soixante ans ma Maison est inviolablement attachée à
+          Votre Empire. Daignés seulement Vous persuader, <persName cert="high" evidence="internal"
+            full="yes" generatedBy="human" instant="unknown" key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7" xml:space="default"> Madame </persName> , que <persName
+            key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7"> V[otre] M[ajesté] </persName>
+          trouvera toujours en moy le même attachement la même fidelité, et la même reconnoissance
+          que Vos predecesseurs ont reconnû dans les miens et mes vœux seront remplis. Je meriterai
+          la precieuse amitié de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+          Votre Majesté </persName> par mon attention à Lui complaire, et à resserer avec Elle les
+          nœuds de la plus etroite alliance : la reconnoissance achevera ce qu’une admiration
+          sincere a commencé. Le Ministre que j’enverrai incessament [sic !] auprès de <persName
+            key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7"> V[otre] M[ajesté] </persName>
+          aura l’honneur de lui exposer mes vuës plus endetail [sic !]. Dans ces dispositions je
+          suis avec le plus inviolable et le plus respectueux attachement. </p>
         <closer>
-          <salute>
-            <persName key="p0033">
-							Madame
-						</persName>
-						de Votre Majesté
-					</salute>
-          <salute>
-						e très humble serviteur
-					</salute>
+          <salute><persName key="p0033">Madame</persName> de Votre Majesté </salute>
+          <salute>e très humble serviteur</salute>
           <signed>
-            <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">
-							Frideric
-						</persName>
+            <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">Frideric</persName>
           </signed>
-          <dateline>
-						à
-						<placeName key="g0013" ref="https://www.geonames.org/2935022">
-							Dresde
-						</placeName>
-            <date when="1763-10-06">
-							le 6 8bre 1763
-						</date>
-						.
-					</dateline>
+          <dateline> à <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>
+            <date
+              when="1763-10-06" calendar="#gregorian">le 6 8bre 1763</date>. </dateline>
         </closer>
-        <noteGrp>
-          <note>
-						Also see:
-					</note>
-          <note>
-						fr_bpp_29_1_0002
-					</note>
-          <note>
-						fr_bpp_29_1_0004
-					</note>
+        <noteGrp resp="#kandakou" place="bottom">
+          <desc>Also see: </desc>
+          <note n="1" target="fr_bpp_29_1_0002.tei.xml">6 October 1763. – Copy of the letter from the 
+            Electress of Saxony, Maria Antonia, to the Empress of Russia, Catherine II
+          </note>
+          <note n="2" target="fr_bpp_29_1_0004.tei.xml">11 October 1763. – Copy of the letter from
+              the Empress of Russia, Catherine II, to the Elector of Saxony,Frederick Christian
+          </note>
         </noteGrp>
       </div>
     </body>
