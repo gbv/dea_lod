@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,28 +97,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>23 November / 4 December 1727. – Letter from the Spanish ambassador to Russia, <persName
-              key="p0215">Duke of Liria</persName> to the Russian vice-chancellor <persName
-              key="p0167"
-              ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Heinrich Ostermann</persName>
+          <title>23 November / 4 December 1727. – Letter from the Spanish Ambassador to Russia, <persName key="p0215">Duke of Liria,</persName> to the Russian Vice-chancellor <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Heinrich Ostermann</persName>
           </title>
           <note>
             <bibl>Archivo General de Simancas, Estado, no. 6611, f. 70. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 70" />
+        <pb n="f. 70"/>
         <opener>
           <note>Copie</note>
-          <dateline>A <placeName
-              key="g0002"
-              ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName>
+          <dateline>A <placeName key="g0002" ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName>
             <date when="1727-11-23">
             le 23 Novembre / 4 Decem[bre] 1727</date>
           </dateline>
@@ -129,18 +121,12 @@
         </opener>
         <p>Ayant fait réflexion sur la conversation que j’ai eu l’honneur d’avoir hier avec V[otre]
           E[xcellence] au sujet du traité d’alliance entre les deux Couronnes, il m’a paru qu’il n’y
-          a presque point de changement a faire a celuy conclu a <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Vienne</placeName>
+          a presque point de changement a faire a celuy conclu a <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName>
           le 6 d’aout, N[ouveau] S[tyle] de l’année passée que dans le 8me article ou il s’agit des
-          secours mutuels en cas de guerre. Comme je ne scai pas quels secours <persName
-            key="p0222"
-            ref="0ed7d288-1bcf-441c-937e-7078f1d82279">S.M Czarienne</persName>pourroit
+          secours mutuels en cas de guerre. Comme je ne scai pas quels secours <persName key="p0222" ref="0ed7d288-1bcf-441c-937e-7078f1d82279">S.M Czarienne</persName>pourroit
           désirer en cas de rupture, et que c’est la le principal point du traité, je supplie
           V[otre] E[xcellence] de vouloir avoir la bonté de faire former le projet, et quand elle me
-          l’aura communiqué j’aurai l’honneur de luy dire le secours que le <persName
-            key="p0208"
-            ref="f268d125-76a1-4a45-910f-95f794c640db">Roy</persName> mon Maitre desirera de son
+          l’aura communiqué j’aurai l’honneur de luy dire le secours que le <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Roy</persName> mon Maitre desirera de son
           coté, contre les ennemis qui l’attaqueront.</p>
         <closer>
           <salute>
