@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,47 +102,37 @@
       <div type="letter">
         <head>
           <title>
-            August 1763. – Protocol for conferences held in the [Polish] Primate’s Palace on
+            August 1763. – Protocol for conferences held in the [Polish] Primas’s Palace on
             [?] August 1763
           </title>
           <note>
             <bibl>Archivo General de Simancas, Estado, no. 6585, s. f. French copy.</bibl>
           </note>
         </head>
-        <p />
+        <p/>
         <p>Num 1<hi rendition="#sup">o</hi>
         </p>
         <p>Protocolle des conferences tenues dans le Palais du Primat le [?] d’Aout 1763.</p>
-        <p />
+        <p/>
         <p>En conformité de l’invitation faite par <persName key="p0996">Leurs Altesse le Primat du
           Royaume</persName> et le <persName key="p1888">Castellan de Cracovie Grand Général de la
-          Couronne</persName>; l’Ambassadeur Extraordinaire et Plenipotentiaire de <persName
-            key="p0281"
-            ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S[a] M[ajesté] Imp[éria]le de Russie</persName> se rendit à l’heure marquée
+          Couronne</persName>; l’Ambassadeur Extraordinaire et Plenipotentiaire de <persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S[a] M[ajesté] Imp[éria]le de Russie</persName> se rendit à l’heure marquée
           au Palais de <persName key="p0996">S[on] A[ltesse] le Primat</persName>, qui a faite
-          l’ouverture de cette Conference de la Manière, qui suit : <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
+          l’ouverture de cette Conference de la Manière, qui suit : <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
           M[ajesté] l’Imperatrice de Russie</persName> a montré dès Son avenement au trône, qu’elle
           est penetrée de l’amour de la Paix, et pour consequent du plus solide bonheur des Peuples
-          d’une manière si convaincante, qu’il n’y a aucun doute, que <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
+          d’une manière si convaincante, qu’il n’y a aucun doute, que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
           M[ajesté] Imp[éria]le</persName> n’ait les mêmes sentimens pacifiques vis-a-vis d’une
           Republique Voisine et Amie. Mais comme l’entrée de quelques Regimens Russes en Lithuanie
           semble allarmer le [sic] Noblesse au point qu’il est à craindre, que l’esprit de partie
           n’occasionné des Troubles dans la Republique. <persName key="p0996">Leurs Altesses le
           Primat
             du Royaume</persName> et le <persName key="p1888">Castellan de Cracovie Grand Général de
-          la Couronne</persName> prient <persName
-            key="p0281"
-            ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S[on] E[xcellence] l’Ambassadeur de
+          la Couronne</persName> prient <persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S[on] E[xcellence] l’Ambassadeur de
           Russie</persName> d’employer ses soins, pour prevenir ces malheurs de la Republique, pour
           moyenner le retour des dites Troupes Russes qui se trouvent en Lithuanie par le chemin le
           plus court, et pour oter tout ce qui pourroit causer de l’inquietude.</p>
-        <p>Sur cela <persName
-            key="p0281"
-            ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S.E. l’Ambassadeur Extraordinaire et Plenipotentiaire de
+        <p>Sur cela <persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S.E. l’Ambassadeur Extraordinaire et Plenipotentiaire de
           Russie</persName> a fait connoitre, ce qui suit:</p>
         <p>Les raisons pour lesquelles Leurs Altesses se sont rendues ici ne sont pas moins louables
           que necessaires. La desunion entre quelques familles est grande, et il paroit à craindre,
@@ -166,13 +153,9 @@
           cela est prouvé par la lettre de requisition du <persName key="p2092">Maréchal Solticoff</persName>
           au <persName key="p2097">Grand
             Général de Lithuanie</persName>. Il est d’ailleurs connû, que cela se pratique tous les
-          jours entre les Puissances amies et Alliées. Neanmoins <persName
-            key="p0281"
-            ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S.E.
+          jours entre les Puissances amies et Alliées. Neanmoins <persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S.E.
           l’Ambassadeur Extraordinaire
-            et Plenipotentiaire de Russie</persName> sachant le cas, que <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa
+            et Plenipotentiaire de Russie</persName> sachant le cas, que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa
           très gracieuse
             Souveraine</persName> fait de l’amitié et de la conservation de la tranquilité de la
           Republique, s’emploïera pour que les dites Trouppes retournent dans leur Païs par le
@@ -181,9 +164,7 @@
         <p>Pour concourir à un but aussi salutaire, l’Ambassadeur de Russie ne doute point, que
           Leurs Altesses, qui veillent à la tranquilité publique n’effectueront leur soins
           Patriotiques.</p>
-        <p>) Que le <persName
-            key="p1075"
-            ref="5f467b08-ca94-48d8-be97-05551f56e0f7">Prince Radziwil</persName> et le Tribunal n’accablent ni
+        <p>) Que le <persName key="p1075" ref="5f467b08-ca94-48d8-be97-05551f56e0f7">Prince Radziwil</persName> et le Tribunal n’accablent ni
           poursuivent de Decrets et de Condemnats les Amis de la Russie, et ceux qui ont été
           contraries au dit Tribunal.</p>
         <p>) Que les Decrets et Condemnats dont l’Execution a été remis Ad tempus benevisum n’aient
@@ -198,30 +179,19 @@
           pretera de bon gré, et qu’il ne repugnera point aux Loix de sa Patrie. Et par là il est
           clair, que si par qui que ce soit il avoit déja etoit pris quelque arrangement, à ce sujet
           il faudroit rappeller les Trouppes qui pourroit donner de l’ombrage.</p>
-        <p>La dessus <persName key="p0996">Leurs Altesses le Primat du Royaume</persName> et le <persName
-            key="p1888">Castellan de Cracovie Grand
+        <p>La dessus <persName key="p0996">Leurs Altesses le Primat du Royaume</persName> et le <persName key="p1888">Castellan de Cracovie Grand
             General de la Couronne</persName> ont accepté avec reconnaissance la Declaration de la
           sortie des Trouppes Russes et de Leur Côté ils employeront conformement aux devoirs de
           leurs Charges tous les soins, pour que le repos et la tranqulité dans la Republique ne
           soient troublés en aucune maniere. Comme M[onsei]g[neu]r le Vice Chancelier de la Couronne
-          fait part à Leurs Altesses d’un Memoire donné à <persName
-            key="p0281"
-            ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">M[onsieu]r
-          l’Ambassadeur</persName>, pour lui notifier ministerialement la Nomination de <persName
-            key="p0057">S[a] M[ajesté] le Roi</persName> des Commissaires Polonois pour la
-          Commission, que <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] Imp[éria]le</persName> a eû la bonté
+          fait part à Leurs Altesses d’un Memoire donné à <persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">M[onsieu]r
+          l’Ambassadeur</persName>, pour lui notifier ministerialement la Nomination de <persName key="p0057">S[a] M[ajesté] le Roi</persName> des Commissaires Polonois pour la
+          Commission, que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] Imp[éria]le</persName> a eû la bonté
           d’accorder pour le reglement et bonification des dommages causés par les Trouppes dans le
-          Païs, Leurs Altesses prient <persName
-            key="p0281"
-            ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S[on] E[xcellence] M[onsieu]r
+          Païs, Leurs Altesses prient <persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">S[on] E[xcellence] M[onsieu]r
           l’Ambassad[eu]r</persName> de procurer de Sa <orgName key="o0008">Cour</orgName> la
-          Nomination de M[essieu]rs le <persName key="p2095">Prince Putatin</persName> et <persName
-            key="p2096">Colonel Putzchow</persName>, qu’on souhaite d’avoir pour Commissaires
-          Russes, afin que la gracieuse Declaration de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté]
+          Nomination de M[essieu]rs le <persName key="p2095">Prince Putatin</persName> et <persName key="p2096">Colonel Putzchow</persName>, qu’on souhaite d’avoir pour Commissaires
+          Russes, afin que la gracieuse Declaration de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté]
           Imp[éria]le</persName> ait son effet. </p>
         <p>En suite de quoi on a expedié des Exemplaires signés de part et d’autre.</p>
       </div>
