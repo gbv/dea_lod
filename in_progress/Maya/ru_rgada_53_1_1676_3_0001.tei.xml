@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,29 +95,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>7 November1676. – Memorial from <persName key="p1424">the Danish Envoy to Russia,
-            Frederik von Gabel</persName>, to the <persName key="p1425">Duma Dyak, Larion Ivanovich
+          <title>7 November 1676. – Memorial from <persName key="p1424">the Danish Envoy to Russia,
+            Frederik von Gabel</persName>, to  <persName key="p1425">the Duma Dyak, Larion Ivanovich
             Ivanov</persName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1676, no. 3, f. 36–36v, 37, 38. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 36" />
+        <pb n="f. 36"/>
         <p>Monsieur</p>
-        <p>Demnach ich in erfahrung kommen daß mein hochgeehrter herr in deß <persName
-            key="p0605"
-            ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">herrn Artemon Sergewitz</persName>
-          <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Stelle anitzo die Fremde affaires</orgName>
+        <p>Demnach ich in erfahrung kommen daß mein hochgeehrter herr in deß <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">herrn Artemon Sergewitz</persName>
+          <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Stelle anitzo die Fremde affaires</orgName>
           auff <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen
           May[es]tet</persName> hohen Allergnädigsten befehl, unter seiner direction habe; als kan
           ich zuforderst nicht umhin demselben zu bezeugen wie ich darüber sonderlich erfrewet;
@@ -131,40 +124,28 @@
           Zarische May[es]tet</persName> wißen daß ich schon eine zeitlang in Dero Reiche undt
           gebiet angekommen, undt mich schon ettliche tage alhir auffgehalten als habe ich meinen
           hochge- </p>
-        <pb n="f. 36v" />
-        <p>ehrten herren hirmitt dienstlich ersuchen wollen, meine einhohlung bey <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen May[es]tet</persName>
+        <pb n="f. 36v"/>
+        <p>ehrten herren hirmitt dienstlich ersuchen wollen, meine einhohlung bey <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen May[es]tet</persName>
           zu befordern daß Sie morgen geschehen möge, weiln ich hir nicht nuhr allein gar zu Elend
           logiret, sondern auch für mein geld nichts zu meinem unterhalt bekommen kan, weiln ich
           keine cupeken habe undt die leute keine Ducaten nehmen wollen, auch fast nichts guttes so
           man eßen oder Trincken kan hir zu bekommen ist,  Ich verlaß mich auff meines hochgeerter
-          gewohnlige Civilitet  Er werde eß so dirigiren daß daß schlechte leben so ich biß dato in <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscow</placeName> habe verlieb
+          gewohnlige Civilitet  Er werde eß so dirigiren daß daß schlechte leben so ich biß dato in <placeName key="g0001" ref="https://www.geonames.org/524894">Moscow</placeName> habe verlieb
           nehmen müßen morgen möge geendiget werden, undt es darhin dirigiren daß ich ohne langen
-          auffschub bald die gnade haben möge <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen May[es]tet</persName> klare
+          auffschub bald die gnade haben möge <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen May[es]tet</persName> klare
           augen zu schauen, undt die Freundschafft so Ihre Zarische May[es]tet Ihrer königl[ichen]
           May[es]tet meinem Allergnädigsten könige undt herrn versichern laßen in der that spüren
           möge, welches nicht beßer als durch gewühri- </p>
-        <pb n="f. 38" />
-        <p>ge undt geschwinde expedition geschehen kan, maßen <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihr May[este]ten</persName>
+        <pb n="f. 38"/>
+        <p>ge undt geschwinde expedition geschehen kan, maßen <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihr May[este]ten</persName>
           <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">meinen Allergnädigster könig undt
           herr</persName> mir mitt sonderbahren Gnaden zugethan undt gerne bald mich wieder bey sich
           haben wolte, würde mich auch nicht von sich gelaßen haben wen Er nicht sonderbahre
-          Inclination zu fortsetzung der Freundschafft mitt <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen May[es]tet</persName> hette,
+          Inclination zu fortsetzung der Freundschafft mitt <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen May[es]tet</persName> hette,
           undt keinem anderen deßhalben solches lieber mitt vollenkommener volmacht zu thun undt zu
           laßen anvertrauen wollen als Eben mir, der ich meines Allergnädigsten königs Freundschafft
           gegen <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Zarische
-          May[es]tet</persName>, durch <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen May[es]tet</persName>
+          May[es]tet</persName>, durch <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen May[es]tet</persName>
           verhoffendlich so angenehme, als nützliche forschläge; als auch durch meine unterthänigste
           dienste in allem werde spühren laßen, so auch wie sehr ich bin</p>
         <p>
@@ -174,16 +155,14 @@
         <p>
           <persName key="p1424">Friedrich von Gabell</persName>
         </p>
-        <p />
-        <p>P. S. Solte ich morgen noch nicht in die <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Statt Moscaw</placeName> kommen können, so
+        <p/>
+        <p>P. S. Solte ich morgen noch nicht in die <placeName key="g0001" ref="https://www.geonames.org/524894">Statt Moscaw</placeName> kommen können, so
           bitte ich daß ordre an dem Pristaf möge gegeben daß Er meinen Leuten möge freyheit geben
           nach <placeName key="g0001" ref="https://www.geonames.org/524894">Moscaw</placeName>
           zu fahren undt mir Eßen einzukauffen, den ich zu solchem Elenden leben nicht gewohnt</p>
-        <p />
-        <p />
-        <pb n="f. 37" />
+        <p/>
+        <p/>
+        <pb n="f. 37"/>
         <p>A Monsieur</p>
         <p>
           <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Monsieur Lorivan Ivanowitz</persName>
@@ -199,10 +178,10 @@
         <p>
           <placeName key="g0001" ref="https://www.geonames.org/524894">Moscaw</placeName>
         </p>
-        <p />
-        <p />
-        <pb n="f. 37" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 37"/>
+        <p/>
         <p>185-г[о] ноября в 8 де[нь]. Лист <persName key="p1424">датцкого посланника</persName>,
           писан к <persName key="p1425">думному дьяку Лариону Иванову</persName>. Переведен.</p>
         <noteGrp>
