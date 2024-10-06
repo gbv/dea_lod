@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,32 +95,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>23 July 1725. – Letter from the Russian envoy to Spain, <persName
-              key="p0318">Prince Sergei Dmitrievich Golitsyn</persName> to the Spanish secretary of State, <persName
-              key="p0214"
-              ref="c0b34bcd-1281-41d2-9eba-4562dd902687">Marquis of Grimaldo</persName>
+          <title>23 July 1725. – Letter from the Russian Envoy to Spain, <persName key="p0318">Prince Sergei Dmitrievich Golitsyn,</persName> to the Spanish Secretary of State, <persName key="p0214" ref="c0b34bcd-1281-41d2-9eba-4562dd902687">Marquis of Grimaldo</persName>
           </title>
           <note>
             <bibl>Archivo General de Simancas, Estado, no. 6610, f. 5. Spanish original.</bibl>
           </note>
         </head>
-        <pb n="f. 5" />
+        <pb n="f. 5"/>
         <opener>
           <salute>Ex[celentissi]mo S[eñ]or</salute>
         </opener>
-        <p>Señor mio Por sabea que de un día a otro se estan esperando a <placeName
-            key="g0067"
-            ref="https://www.geonames.org/2520600">Cadiz</placeName>
-          tres naníos mercantes que han salido de <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">San Petersburg</placeName>, suplío a
+        <p>Señor mio Por sabea que de un día a otro se estan esperando a <placeName key="g0067" ref="https://www.geonames.org/2520600">Cadiz</placeName>
+          tres naníos mercantes que han salido de <placeName key="g0002" ref="https://www.geonames.org/498817">San Petersburg</placeName>, suplío a
           V[uestra] Ex[celenci]a se sirua participanme la dererminacion qua haurà formado su
           Maj[esta]d tocante al memoríal que puse en sus Reales manos p[o]r este fin el día doze del
           corríente he de dever a V[uestra] Ex[celenci]a essa honra, y vepe tíendome con verdadero
@@ -138,9 +128,7 @@
           <salute>B: L: M: de V[uestra] Ex[celenci]a</salute>
           <salute>Su major Servidor</salute>
           <signed>
-            <persName
-              key="p0318"
-              ref="5175d188-5b53-45d6-a69b-1f226c9a99bb">El Pr[incipe] de Gallitzin</persName>
+            <persName key="p0318" ref="5175d188-5b53-45d6-a69b-1f226c9a99bb">El Pr[incipe] de Gallitzin</persName>
           </signed>
         </closer>
         <noteGrp>
