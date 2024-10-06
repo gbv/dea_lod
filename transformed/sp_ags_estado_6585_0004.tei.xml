@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,16 +103,15 @@
       <div type="letter">
         <head>
           <title>
-            22 January 1764. – Declaration [of the Prussian resident to Warsaw <persName
-              key="p0291">Gédéon Benoît</persName> to the Polish-Lithuanian Commonwealth]
+            22 January 1764. – Declaration [of the Prussian Resident to Warsaw <persName key="p0291">Gédéon Benoît</persName> to the Polish-Lithuanian Commonwealth]
             </title>
           <note>
             <bibl>Archivo General de Simancas, Estado, no. 6585, s. f. French copy.</bibl>
           </note>
         </head>
-        <p />
+        <p/>
         <p>Declaration</p>
-        <p />
+        <p/>
         <p>Les faux bruits qui se sont répandus dans le Roiaume, et que les ennemis de la
           tranquillité publique ne cessent pas de divulguer de plus en plus, comme quoi les cours de
           Prusse et de Russie vouloient profiter des circonstances présentes pour demembrer la
@@ -124,8 +120,7 @@
           de vraisemblance que de fondement, ont porté le soussigné Resident de S[a] M[ajesté] le
           Roi de Prusse, près la Serenissime Republique de Pologne à y contredire non seulement de
           bouche, mais aussi par une Note préalable remise à <persName key="p0996">S[on] A[ltesse]
-          le Primat</persName>. Et le Soussigné en ayant tout de suite fait son rapport au <persName
-            key="p0061">Roi son Maitre</persName>, S[a] M[ajesté] justement indignée de ces sortes
+          le Primat</persName>. Et le Soussigné en ayant tout de suite fait son rapport au <persName key="p0061">Roi son Maitre</persName>, S[a] M[ajesté] justement indignée de ces sortes
           de bruits si contraire à sa façon de penser, a non seulement approuvé tout le contenû de
           la susdite Note, mais Elle a aussi chargé le soussigné de la renouveller et de la
           confirmer par une Declaration solennelle faite en Son Nom. C’est en consequence de ces
@@ -138,30 +133,23 @@
           M[ajesté] le Roi de
             Prusse</persName> ne travaille et ne travaillera constamment qu’à maintenir les Etats de
           la Republique en leur entier, et à conserver les Constitutions et les libertés de la
-          Nation Polonoise. <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] l’Imperatrice de toutes les Russies</persName>
+          Nation Polonoise. <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] l’Imperatrice de toutes les Russies</persName>
           ayant le même objet pour but, ce n’est que dans une pareille vuë, que le Roi s’est
           concerté avec cette Souveraine, et ces deux Puissances étant guidées par un principe aussi
           salutaire, il n’est pas à douter que leur union ne contribue à procurer à la Pologne une
           sureté et une tranquillité parfaite.</p>
-        <p>Et comme en vertu du proche depuis un tems immemoriale entre les Etats de <persName
-            key="p0061">S[a] M[ajesté]
+        <p>Et comme en vertu du proche depuis un tems immemoriale entre les Etats de <persName key="p0061">S[a] M[ajesté]
             le Roi de Prusse</persName> et ceux de la Serenissime Republique, S[a] M[ajesté] liée
           d’ailleurs à la Republique par une alliance éternelle, doit naturellement prendre beaucoup
           de part à tout ce qui peut arriver de salutaire à la Pologne. Le Soussigné ne sauroit se
           dispenser en vertu des Ordres qu’il a reçus de faire connoitre à l’occasion du present
           Interregne, que le Roi n’entrevoit pas de plus grand avantage pour la Republique, que si
           elle profitoit de cette Epoque, pour se choisir un Roi qui fût de Corps de la Nation
-          Polonoise, issû de coté du Pere et de la Mere du sang de la Noblesse Nationale, ainsi que <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale] de Russie</persName> l’a fait connaitre par Sa
+          Polonoise, issû de coté du Pere et de la Mere du sang de la Noblesse Nationale, ainsi que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] I[mpériale] de Russie</persName> l’a fait connaitre par Sa
           Declaration, qui a été faite dans les mêmes vuës que celle ci. Le lustre dans lequel la
           Republique s’est vuë sous les regnes des Rois Piastes, fournit assez d’examples du
           bonheur, au quel peut s’attendre la Nation à l’avenir, si dans la future Election Elle
-          tourne ses vuës du coté de ses ancêtres. <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté]
+          tourne ses vuës du coté de ses ancêtres. <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté]
           l’Imperatrice de Russie</persName> étant animée des mêmes sentimens à cet égard, et
           reconnoissant également tout le bien que la Nation retirera d’une demarche aussi louable
           que digne des beaux Privileges dont elle jouit ; il sera aisé à chaque Citoyen
@@ -172,9 +160,7 @@
           sinceres et invariables du <persName key="p0061">Roi son Maitre</persName>, et c’est par
           là, qu’il a dû s’acquitter des Ordres exprès et précis, qu’il vient de recevoir de S[a]
           M[ajesté].</p>
-        <p>À <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Varsovie</placeName> le 22. Janvier 1764.</p>
+        <p>À <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName> le 22. Janvier 1764.</p>
         <p>
           <persName key="p2091">Benoit</persName>
         </p>
