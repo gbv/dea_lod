@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,15 +96,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>10 May 1727. – Letter from the minister plenipotentiary of Russia in Spain, <persName
-              key="p0220">Prince Ivan Andreevich Shcherbatov</persName> to the Spanish secretary of
+          <title>10 May 1727. – Letter from the Minister Plenipotentiary of Russia in Spain, <persName key="p0220">Prince Ivan Andreevich Shcherbatov,</persName> to the Spanish Secretary of
             State, <persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">Marquis de la
             Paz</persName>
           </title>
@@ -115,7 +111,7 @@
             <bibl>Archivo General de Simancas, Estado, no. 6610, f. 25-25v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 25" />
+        <pb n="f. 25"/>
         <opener>
           <salute>Monsieur</salute>
         </opener>
@@ -123,24 +119,16 @@
           <persName key="p0172" ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">L’Imperatrice de Russie
           ma
             Souveraine</persName> surprise avec juste raison de la harangue du <persName key="p0727">Roy
-          de la Grande Bretagne</persName> a l’ouverture de son <orgName
-            key="o0010"
-            ref="1f012320-1886-4cbd-8799-2ad7ad0e47c8">Parlement</orgName>, et indignée contre
-          certains Libels injurieux a son Gouvernement, imprimez a <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>,
+          de la Grande Bretagne</persName> a l’ouverture de son <orgName key="o0010" ref="1f012320-1886-4cbd-8799-2ad7ad0e47c8">Parlement</orgName>, et indignée contre
+          certains Libels injurieux a son Gouvernement, imprimez a <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>,
           et rependus dans le public où on luy impute des faits qu’on ose caracteriser de vrais, et
           avancer comme certains, sans qu’Elle y ait jamais eû part, m’ordonne de faire inserer sous
           le bon plaisir de <persName key="p0208">Sa Majesté Catholique</persName> en forme de
-          nouvelle ecrite de <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName> l’article cy
+          nouvelle ecrite de <placeName key="g0002" ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName> l’article cy
           joint dans la <orgName key="o0087">gazette de Madrid</orgName>. J’espere</p>
-        <pb n="f. 25v" />
+        <pb n="f. 25v"/>
         <p> de vôtre politesse et de vôtre attachement a l’interest commun Monsieur que vous voudrés
-          bien donner vos ordres pour satisfaire le juste empressement de ma <persName
-            key="p0172"
-            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">Souveraine</persName> a detruire le faux et a
+          bien donner vos ordres pour satisfaire le juste empressement de ma <persName key="p0172" ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">Souveraine</persName> a detruire le faux et a
           manifester la verité, et vous me mettrés en mesme tems en etat de luy rendre compte de
           l’execution des ordres dont Elle daigne m’honorer.</p>
         <closer>
