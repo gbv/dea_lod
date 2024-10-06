@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,23 +94,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2 October 1677. – Letter from <persName key="p1424">the Danish Envoy to Russia,
-            Frederik von Gabel</persName>, to <persName
-              key="p0461"
-              ref="e506d42b-510f-45fe-981e-40f58858e6e2">the Tsar of Russia, Fedor Alekseevich</persName>
+          <title>2 October 1677. – Memorial from <persName key="p1424">the Danish Envoy to Russia,
+            Frederik von Gabel</persName>, to <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">the Tsar of Russia, Fedor Alekseevich</persName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1676, no.3, f. 208–208v, 211–213. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 208" />
+        <pb n="f. 208"/>
         <p> Allerdurchleuchtigster Großmächtigster GroßHerr, Tzar, vndt Großfürste Foeder
           Alexeiwitz, von Gottes Gnaden, Aller Großen, kleinen, vnndt weißen Reußen SelbstErhalter,
           Muscows, kioffski, Woladimerski, Novgorodski, Tzar zu Casan, Tzar zu Astracan, Tzar zu
@@ -125,171 +120,105 @@
           vieler anderen Herrschafften vnndt Lande Gegen Osten, Westen, vnndt Norden Väterlicher
           VorVäterlicher vnndt Erblicher Herr vnndt Regente.</p>
         <p>Demnach <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ihr May[este]ten</persName>
-          <persName
-            key="p0669,p0461">Mein Allergnädigster könig vnndt Herr, Ewerer Tzarischen May[es]tet</persName>
-          versprechen So Sie mir den 24 July in <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">der Posolsten Precase</orgName>
+          <persName key="p0669,p0461">Mein Allergnädigster könig vnndt Herr, Ewerer Tzarischen May[es]tet</persName>
+          versprechen So Sie mir den 24 July in <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">der Posolsten Precase</orgName>
         </p>
-        <pb n="f. 208v" />
+        <pb n="f. 208v"/>
         <p> andeuten laßen vernommen, wie Nemblich Ewere Tzarische May[es]tet nicht länger nach der
           Schweden Andtwordt auff Dero Tzarisches Schreiben wahrten. Besondern also baldt Dero Armée
           bey <placeName key="g0194" ref="https://www.geonames.org/504341">Pleskaw</placeName>
-          auff die Schwedische Gräntzen rücken laßen wollen, vnndt wie <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Tzarische May[es]tet</persName> alßdan
+          auff die Schwedische Gräntzen rücken laßen wollen, vnndt wie <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Tzarische May[es]tet</persName> alßdan
           mir Ferner würden kundt thun laßen waß Sie mit Selbiger Armée weiter fürzunehmen Gesonnen
           wehren.</p>
         <p>Alß haben <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr
           May[este]ten Mein Allergnädigster könig vndt Herr</persName>, Sich über solche andeutung
-          vnndt versprechen vmb so viel mehr Erfrewet, alß <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Tzarische May[es]tet</persName> darbey
+          vnndt versprechen vmb so viel mehr Erfrewet, alß <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Tzarische May[es]tet</persName> darbey
           vermelden laßen, Daß Solches bloß in Consideration der Brüderlichen Freundtschafft
           Geschehe, So <persName key="p0461,p0669">Ewere Tzarische May[es]tet allerHöchstgemeldeter
-          Ihrer königl[ichen] May[es]tet</persName> zutrügen, vndt haben <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihre königl[iche] May[es]tet</persName>
+          Ihrer königl[ichen] May[es]tet</persName> zutrügen, vndt haben <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihre königl[iche] May[es]tet</persName>
           vermuhtet, daß <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre
           Tzarische May[es]tet</persName> nicht nur allein mir Schon würden haben wißen laßen, waß
           Sie mit Solcher Armée weiter fürzunehmen Gesonnen wehren, Sondern auch daß Solche Schon
           für ankunfft <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihrer
           königl[ichen] May[es]tet</persName> letzten Ordre an mir, zur würcklichen Action mit
-          Schweden würde Getretten sein, vnndt <placeName
-            key="g0015"
-            ref="https://www.geonames.org/456172">Riga</placeName> attaquiret
+          Schweden würde Getretten sein, vnndt <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName> attaquiret
           haben, Maßen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr
-          May[este]ten Mein Allergnädigster könig</persName> sich Gewi[ß v]ersichert <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName>
+          May[este]ten Mein Allergnädigster könig</persName> sich Gewi[ß v]ersichert <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName>
           würden bey so guter Gelegenheit EinMahl Dero rechtmäßige ungedult gegen Schweden in der
           That, Ihr Selbsten zum höchsten Ruhm, vnndt Dero alten Getrewen Freunden zur </p>
-        <pb n="f. 211" />
+        <pb n="f. 211"/>
         <p> Höchsten Freundtschafft haben blicken laßen. </p>
         <p>Wie nun <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten
           Mein Allergnädigster könig</persName> an obigem keines weges weiter Gezweiffelt, alß haben
-          Ihr May[este]ten Mein Allergnädigster könig vnndt Herr mir Allergnädigst anbefohlen, <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
+          Ihr May[este]ten Mein Allergnädigster könig vnndt Herr mir Allergnädigst anbefohlen, <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
           zuforderst anzuzeigen, wie Ihr May[este]ten Mein Allergnädigster könig vnndt herr Solche
           von <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen
           May[es]tet</persName> Geschehene zusage vnndt Erklährung mit allem FreundtBrüderlichen
           vnndt Nachbahrlichen Danck annehmen thäten, vnndt mit allem Brüderlichen Willen vnndt
           würckliche Freundtschafft erkennen würden. hetten auch Dero kriegs Operationes welche Sie
           Sonsten auß Schonen nacher Lieflandt zu uersetzen, vnndt Sich der, in so Schlechten
-          zustande befindenden Stadt <placeName
-            key="g0015"
-            ref="https://www.geonames.org/456172">Riga</placeName> zu bemeistern Gesonnen
+          zustande befindenden Stadt <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName> zu bemeistern Gesonnen
           gewesen wehren, Deßwegen zu Endern sich geresoluiret, weilln Sie gemuhtmaßet, Daß Ihrer
           Tzarischen May[es]tet Armée sich solcher Guten Gelegenheit bedienet, vnndt Selbige Stadt
-          Schon berennet haben, oder doch nicht weit mehrdarvon Stehen würde,  Auß welchen Uhrsachen <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
+          Schon berennet haben, oder doch nicht weit mehrdarvon Stehen würde,  Auß welchen Uhrsachen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
           Allergnädigster könig</persName>, obwohln Sie Schon alle anstaldt darzu gemachet, vnndt
           Dero Armée [zu] dem Ende einzuschiffen auch außerdehm Damit man Sie in Lieflandt desto
           weiniger vermuhten sein möchte, Schon unterschiedene Diversiones in Schweden zu waßer
           vnndt zu Lande zu machen befohlen. Dennoch </p>
-        <pb n="f. 211v" />
-        <p> Sich eines anderen resoluiret; vnndt damit <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
-          Lieflandt desto freyer Bleiben möchten, alß Erwahrten <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein Allergnädigster könig</persName>
+        <pb n="f. 211v"/>
+        <p> Sich eines anderen resoluiret; vnndt damit <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
+          Lieflandt desto freyer Bleiben möchten, alß Erwahrten <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein Allergnädigster könig</persName>
           vnndt Herr nur noch auff Nachricht, wie Sich die Schweden bey denen Ihnen an so vielen
           Ohrten Gemachten einfällen, verhalten, Darauff Sie Sich den alsobaldt werden resoluiret,
           vnndt mit Dero Gantzen Armée |:die Reuterey außgenommen:| an Statt Da Sie Sonsten auf
           Lieflandt zugehen wollen Sich anders wohrhin da Sie denen Schweden den Meisten Abbruch
           werden thun können, werden gewendet haben.</p>
-        <p>Inmittelst aber solte ich Ihrer Tzarischen May[es]tet versichern daß Ihr <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
+        <p>Inmittelst aber solte ich Ihrer Tzarischen May[es]tet versichern daß Ihr <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
           Allergnädigster könig</persName> dermaßen Seine kriegs Operationes anstellen würde, Damit
           die Progressen <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer
           Tzarischen May[es]tet</persName> wapffen in Lieflandt ungehindert bleiben vnndt die
-          Liefländer von denen Schweden nicht geholffen werden könten. Maßen <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein Allergnädigster könig</persName>
-          Solche Provintz unmöglich länger in der Schweden Hände zu dulden vermagk, weßweg[en] <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
-          Allergnädigster könig</persName> den von <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
+          Liefländer von denen Schweden nicht geholffen werden könten. Maßen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein Allergnädigster könig</persName>
+          Solche Provintz unmöglich länger in der Schweden Hände zu dulden vermagk, weßweg[en] <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
+          Allergnädigster könig</persName> den von <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
           vermuhtenden würcklichen Einfall in Lieflandt mit allem Brüderlichen Danck vnndt
           Freundtschafft höchstens erkennen würden. </p>
-        <pb n="f. 212" />
+        <pb n="f. 212"/>
         <p> Eß würden auch <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr
-          May[este]ten Mein Allergnädigster könig</persName> von allem waß fürfallen würden, an <persName
-            key="p1267">Henrich Buetenandt</persName> |:welchen Sie yu Dero Factor alhier ernant,
-          vnndt vermuhteten daß es von <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName> Sey
-          beliebet worden:| außfürliche Nachricht für <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName>
-          einskicken laßen, welches Sie von <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName> Seite
-          auch vermuhteten, wie dan nicht weiniger daß <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName> die
+          May[este]ten Mein Allergnädigster könig</persName> von allem waß fürfallen würden, an <persName key="p1267">Henrich Buetenandt</persName> |:welchen Sie yu Dero Factor alhier ernant,
+          vnndt vermuhteten daß es von <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName> Sey
+          beliebet worden:| außfürliche Nachricht für <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName>
+          einskicken laßen, welches Sie von <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName> Seite
+          auch vermuhteten, wie dan nicht weiniger daß <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName> die
           bewusten zehen Tausendt Setwehrt Rocken, ohnfehlbahr zu künfftiges Jahr möchten Dero
-          versprechen nach außSchiffen laßen, welche Brüderliche bezeigungen <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein Allergnädigster könig</persName>
-          nicht weiniger alß die Obige mit allem Brüderlichen Willen erkennen wirdt, deßen <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
-          Allergnädigster könig</persName> sich auff <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName> wordt
+          versprechen nach außSchiffen laßen, welche Brüderliche bezeigungen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein Allergnädigster könig</persName>
+          nicht weiniger alß die Obige mit allem Brüderlichen Willen erkennen wirdt, deßen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
+          Allergnädigster könig</persName> sich auff <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName> wordt
           verlaßendt, Sie nebst abstattung aller Danckbahren bezeugungen zu uersicher[n] mir
           allergnädigst anbefohlen hat. Unndt obwohln mir annoch nicht bewust, daß Ewerer Tzarischen
           May[es]tet Armée würcklich in Lieflandt eingefallen Sey. So habe ich doch die auff solchen
           fall mir anbefohlene Danckbahrkeit nicht minder </p>
-        <pb n="f. 212v" />
-        <p> alß Selbe für die zusammenziehung Ihrer Tzarischen May[es]tet Armée bey <placeName
-            key="g0194"
-            ref="https://www.geonames.org/504341">Pleskow</placeName> hiermit im
+        <pb n="f. 212v"/>
+        <p> alß Selbe für die zusammenziehung Ihrer Tzarischen May[es]tet Armée bey <placeName key="g0194" ref="https://www.geonames.org/504341">Pleskow</placeName> hiermit im
           Nahmen vnndt vonwegen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr
           May[este]ten Meines Allergnädigsten königs</persName>
-          <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
-          andeuten sollen, nicht zweifflendt <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName> werden
+          <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
+          andeuten sollen, nicht zweifflendt <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName> werden
           die Gute Gelegenheit so <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr
-          May[este]ten Mein Allergnädigster könig</persName> bloß in hinsehung der von <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
+          May[este]ten Mein Allergnädigster könig</persName> bloß in hinsehung der von <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
           am 24 July gegebenen zusage vnndt Eröffnung auß den händen gelaßen, Selbsten annoch auff
-          daß Schleunigste ergreiffen, damit <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein Allergnädigster könig</persName>,
+          daß Schleunigste ergreiffen, damit <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein Allergnädigster könig</persName>,
           welcher Sich anitzo Schon anderwerts mit seiner Armée würcklich wirdt hingewandt haben,
-          nicht so gahr vergebens eine so herliche Gelegenheit in Meynung daß Sie <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
-          zu Nütze kommen würde möge haben fahren laßen, vnndt über vermuhten Lieflandt, so <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
+          nicht so gahr vergebens eine so herliche Gelegenheit in Meynung daß Sie <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
+          zu Nütze kommen würde möge haben fahren laßen, vnndt über vermuhten Lieflandt, so <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten Mein
           Allergnädigster könig</persName> am liebsten von allen Schwedischen Provintzien
           beunruhiget zu sein wünschet noch länger dardurch in Ruhe möge gesetzet Sein.</p>
-        <p>Dieses habe ich nur noch für Meiner Abreiße <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
-          Allerunterthänigst vorzutragen nicht umbhin gekondt, nicht zweiffelendt <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName>
+        <p>Dieses habe ich nur noch für Meiner Abreiße <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
+          Allerunterthänigst vorzutragen nicht umbhin gekondt, nicht zweiffelendt <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewere Tzarische May[es]tet</persName>
           werden, es Dero eigenen Allerhöchst Erleuchteten Tzarischen Nachsinnens </p>
-        <pb n="f. 213" />
+        <pb n="f. 213"/>
         <p> vnndt Uhrtheilß, Dero Hohen Boyaren aber hoch=weißen= vnndt= Erleuchteten Rahts, Sowohl
           zu <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr May[este]ten
-            Meines Allergnädigsten königs</persName> alß zu <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
+            Meines Allergnädigsten königs</persName> alß zu <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewerer Tzarischen May[es]tet</persName>
           Eigenen bestens beförderung, würdig Schätzen, vnndt den Nutzen so von Einer so
           aufrichtigen großen Brüderlichen Freundtschafft anitzo zu Schöpfen Stehet, nicht zugleich
           mit dieser guten Gelegenheit verbeygehen laßen.</p>
@@ -312,16 +241,13 @@
           <persName key="p1424">Friedrich von Gabell</persName>
           <hi rendition="#sup">–8</hi>
         </p>
-        <p />
-        <p />
-        <pb n="f. 213v" />
-        <p>186-го октября в 2 день пис[ь]мо <persName
-            key=""
-            ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">прислал дацкой посланник</persName>
-          <persName key="p1424">Фридрих фон Габель</persName>. Переводил <persName
-            key="p1401">Леонтей Грос</persName>
+        <p/>
+        <p/>
+        <pb n="f. 213v"/>
+        <p>186-го октября в 2 день пис[ь]мо <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">прислал дацкой посланник</persName>
+          <persName key="p1424">Фридрих фон Габель</persName>. Переводил <persName key="p1401">Леонтей Грос</persName>
           .</p>
-        <p />
+        <p/>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_rgada_53_1_1676_3_0001</note>
