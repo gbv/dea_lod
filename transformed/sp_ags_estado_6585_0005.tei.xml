@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,7 +100,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -111,21 +108,16 @@
       <div type="letter">
         <head>
           <title>
-            8 June 1762 – 2 November 1762. – The defensive treaty between Russia and Prussia
-          </title>
-          <note>
-            <bibl>Archivo General de Simancas, Estado, no. 6585, s. f. French copy.</bibl>
+            8 June 1762 – 2 November 1762. – The defensive treaty between Russia and Prussia, signed on 8 June 1762 by Count Vorontsov and Baron von der Goltz, and was to be confirmed by Her Majesty the Empress, now reigning, on 2 November of the same year. It comprises nineteen separate articles, all of which are equally signed by the two Ministers mentioned, and all of which are to have the same value as the treaty </title><note><bibl>Archivo General de Simancas, Estado, no. 6585, s. f. French copy.</bibl>
           </note>
         </head>
         <p>Le traité defensif, conclu entre la Russie et la Prusse, est signé le 8. Juin 1762. par
           le <persName key="p0145">Comte de Woronzow</persName>, et le <persName key="p0072">Baron
-            de Goltz</persName>, et doit être confirmé par Sa Maj[es]té <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">L’Imperatrice</persName>,
+            de Goltz</persName>, et doit être confirmé par Sa Maj[es]té <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">L’Imperatrice</persName>,
           aujourd’hui regnante le 2. Novembre de la même année. Il comprend dix neuf articles
           separés, qui tous sont pareillement signés par les deux Ministres mentionnés et doivent
           tous avoir la meme valeur, que le Traité.</p>
-        <p />
+        <p/>
         <p>Le contenu du Traité est, que ces deux Puissances font une paix éternelle, et promettent
           de donner l’une à l’autre, quand elles sont attaquées 15000. hommes savoir: dix mille en
           Infanterie, et 5000. en Cavallerie avec l’Artillerie requise. Ce Corps doit dependre des
@@ -140,15 +132,11 @@
           attaquée, ne soit entierement dedommagée par son ennemi. Le payement de la somme
           mentionnée doit aussi être continués sur le meme pied. Aucune de ces deux Puissances doit
           entrer en Paix ou en quelque negotiation, sans en premeirement informer l’autre. Si la
-          Prusse a la guerre avec la France, ou la Russie est attaqué par la Perse ou la Turquie, le <persName
-            key="p0061">Roi de Prusse</persName> ne donne point de Trouppes, mais la somme stipulée.</p>
+          Prusse a la guerre avec la France, ou la Russie est attaqué par la Perse ou la Turquie, le <persName key="p0061">Roi de Prusse</persName> ne donne point de Trouppes, mais la somme stipulée.</p>
         <p>S’il devoit arriver, ce qu’on ne doit pourtant jamais esperer, que la Prusse devoit avoir
-          la guerre avec Angleterre, la Russie ne donne ni argent ni Trouppes. La Russie garantit au <persName
-            key="p0061">Roi de Prusse</persName> tous les Etats, selon la Paix de Dresde et celle de
+          la guerre avec Angleterre, la Russie ne donne ni argent ni Trouppes. La Russie garantit au <persName key="p0061">Roi de Prusse</persName> tous les Etats, selon la Paix de Dresde et celle de
           Breslau, mais surtout à jamais la Silesie et la Comté de Glatz. <persName key="p0061">Le
-          Roi de Prusse</persName> de son coté, soutiendra <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">L’Imperatrice</persName> aujourd’hui regnante
+          Roi de Prusse</persName> de son coté, soutiendra <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">L’Imperatrice</persName> aujourd’hui regnante
           sur le Trone du Russie et garantit en meme tems toutes les Provinces, que la Russie
           possede actuellement. Ce Traite doit durer 20. ans, et doit ensuite être renouvellé, on y
           invitera aussi des autres Puissances.</p>
@@ -177,15 +165,12 @@
           leurs an[ciennes] prerogatives, dont ils ont joui autrefois, soit quant au spirituel qu’au
           temporel.</p>
         <p>5.) <persName key="p0061">Le Roi de Prusse</persName> promet de vouloir laisser l’eglise
-          Grecque etablie à <placeName
-            key="g0094"
-            ref="https://www.geonames.org/554234">Konigsberg</placeName> et d’accorder aux Russes la liberté de conscience, il
+          Grecque etablie à <placeName key="g0094" ref="https://www.geonames.org/554234">Konigsberg</placeName> et d’accorder aux Russes la liberté de conscience, il
           s’enyage même de donner une maison plus commode pour l’eglise, si les circonstances le
           demandent.</p>
         <p> La Russie de son coté donne toute liberté aux vaisseaux et navires Prussiens, qu’ils
           peuvent entrer dans tous les ports, qui dependent de la domination de la Russie[,] les
-          navires Russes ont la meme liberté par rapport aux Ports et Havres, qui sont au <persName
-            key="p0061">Roi de
+          navires Russes ont la meme liberté par rapport aux Ports et Havres, qui sont au <persName key="p0061">Roi de
             Prusse</persName>. Si la Prusse a besoin d’une flotte la Russie s’engage d’envoyer une
           pour mettre en sureté les cotes de <persName key="p0061">S[a] M[ajesté] Prussienne</persName>
           et de les defendre contre toute attaque.</p>
