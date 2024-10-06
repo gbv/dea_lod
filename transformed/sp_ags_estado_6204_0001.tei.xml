@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,23 +98,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>11 July 1726. – Memorial of the Russian minister plenipotentiary, <persName
-              key="p0176">Count Aleksandr
+          <title>11 July 1726. – Memorial of the Russian Minister Plenipotentiary, <persName key="p0176">Count Aleksandr
               Gavriilovich Golovkin</persName> presented to the States General of the Netherlands</title>
           <note>
             <bibl>Archivo General de Simancas, Estado, no. 6204, s. f. French original.</bibl>
           </note>
         </head>
-        <p />
-        <p>Memoire du <persName key="p0176">Comte de Goloffkin</persName>, presenté aux <orgName
-            key="o0017">Seigneurs les Etats
+        <p/>
+        <p>Memoire du <persName key="p0176">Comte de Goloffkin</persName>, presenté aux <orgName key="o0017">Seigneurs les Etats
             Generaux</orgName> ce 11me Juil[let] 1726. </p>
         <p>Hauts et Puissans Seigneurs,</p>
         <p>Le soussigné Ministre Plenipotentiaire de Sa Maj[es]té Imper[ia]le de toutes les Russies
@@ -134,8 +129,7 @@
           Elle espere par consequent, que Vos Hautes Puissances prendront d’autant plus à cœur les
           interêts de <persName key="p0221">S[on]
             A[ltesse] R[oyale]</persName> et qu’Elles n’entreront dans aucun engagement, qui puisse
-          y prejudicier, ou être contraire à la garantie promise par le Traité de Travendahe, que <persName
-            key="p0172">Sa
+          y prejudicier, ou être contraire à la garantie promise par le Traité de Travendahe, que <persName key="p0172">Sa
             Majesté Imperiale</persName> est tres-persuadée de Leur attention pour la justice, et
           pour le repos public, dont Vos Hautes Puissances ont donné si souvent des marques
           éclatantes.</p>
@@ -152,9 +146,7 @@
           qui en peut revenir à Leur sujêts.</p>
         <p>Le soussigné ne doute point, que Vos Hautes Puissances ne respondent au plus tôt
           favorablement à l’attante, que <persName key="p0172">Sa Majesté Imperiale</persName> a
-          conçuë de Leurs bonnes intentions à cet égard. Fait à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haïe</placeName>,
+          conçuë de Leurs bonnes intentions à cet égard. Fait à <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haïe</placeName>,
           le 11 Juillet 1726. </p>
       </div>
     </body>
