@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,19 +95,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>5 March 1728. – Translation from French to Russian of the declaration of <persName
-              key="p0218"
-              ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">the Spanish Secretary of State,
-            Marquis De La Paz</persName>, to <persName
-              key="p0216"
-              ref="dad8ac12-c22a-431e-80ea-926d6d17b654">the Minister Plenipotentiary of France to
+          <title>5 March 1728. – Translation from French to Russian of the declaration of <persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">the Spanish Secretary of State, Juan Bautista de Orendáin y Azpilicueta,        Marquis de la Paz</persName>, to <persName key="p0216" ref="dad8ac12-c22a-431e-80ea-926d6d17b654">the Minister Plenipotentiary of France to
             Spain, Count Conrad Alexandre of Rothenburg</persName>
           </title>
           <note>
@@ -118,24 +110,18 @@
               original.</bibl>
           </note>
         </head>
-        <pb n="f. 36" />
-        <p />
+        <pb n="f. 36"/>
+        <p/>
         <p>И я нижеподписавшейся <persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">маркиз
-          Деляпац</persName> декларую имянным указом, и королевским имянем <persName
-            key="p0208"
-            ref="f268d125-76a1-4a45-910f-95f794c640db">короля Г[осу]д[а]ря моего</persName>, и по
+          Деляпац</persName> декларую имянным указом, и королевским имянем <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">короля Г[осу]д[а]ря моего</persName>, и по
           силе его полной мочи, что его величество следуя постоянному своему желанию и
           способствованию тех негоциацей и постоянно и генералному и продолжителному миру соизволяет
           принимать </p>
-        <pb n="f. 36v" />
-        <p> и действително допускает и приемлет недавно учиненное предложение <persName
-            key="p0216"
-            ref="dad8ac12-c22a-431e-80ea-926d6d17b654">Г[оспо]д[и]на Графа Роттембурга</persName>
+        <pb n="f. 36v"/>
+        <p> и действително допускает и приемлет недавно учиненное предложение <persName key="p0216" ref="dad8ac12-c22a-431e-80ea-926d6d17b654">Г[оспо]д[и]на Графа Роттембурга</persName>
           полномочного министра <persName key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">его
           Христианнейшаго величества</persName> как оное выше сего внесено по силе которой я сие
-          подписую и свою печать прилагаю в <placeName
-            key="g0020"
-            ref="https://www.geonames.org/3117735">Пардо</placeName> 5: Марта 1728
+          подписую и свою печать прилагаю в <placeName key="g0020" ref="https://www.geonames.org/3117735">Пардо</placeName> 5: Марта 1728
           году.</p>
         <p>
           <persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">Марки Деляпац</persName>
