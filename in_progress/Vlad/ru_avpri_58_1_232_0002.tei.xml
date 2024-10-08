@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,77 +95,49 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>12 July 1792. – Translation from Spanish to French of the letter from the Spanish
+          <title>12 July 1792. – Translation from Spanish to French of a letter from the Spanish
             Secretary of State, <persName key="p0007" ref="8f3615cd-8ca1-4039-a8cc-81d1dd39c084">Count
-            of Aranda</persName>, to <persName
-              key="p0113"
-              ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">the Vice-chancellor of the Russian Empire,
+            of Aranda</persName>, to <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">the Vice-chancellor of the Russian Empire,
             Count Ivan Andreevich Osterman</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 58, opis 1, no. 232, f. 3–4. French translation of Spanish original.</bibl>
           </note>
         </head>
-        <pb n="f. 3" />
+        <pb n="f. 3"/>
         <p>Monsieur!</p>
-        <p>Comme d’après l’usage établi, lorsque les Ministre de <orgName
-            key="o0020"
-            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette Cour</orgName> aupres de toutes les
-          autres de l’Europe, et respectivement ceux des autres Puissances aupres de celle de <placeName
-            key="g0020"
-            ref="https://www.geonames.org/3117735">Madrid</placeName> vienent à
+        <p>Comme d’après l’usage établi, lorsque les Ministre de <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">cette Cour</orgName> aupres de toutes les
+          autres de l’Europe, et respectivement ceux des autres Puissances aupres de celle de <placeName key="g0020" ref="https://www.geonames.org/3117735">Madrid</placeName> vienent à
           s’absenter, les Personnes qui sont des tenus à rester pendant leur absence chargées des
           Affaires doivent entre pourvues d’une lettre de creance du Ministre d’Etat de la Cour à
           laquelle elles apartiennent pour celui de l’endroit où elles doivent exercer leurs
           fonctions, afin qu’elles puissent par ce moyen être presentées au Souverain. J’ai
-          l’honneur de faire part à Votre Excellence que <persName
-            key="p0157"
-            ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">le
+          l’honneur de faire part à Votre Excellence que <persName key="p0157" ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">le
             Roy</persName> ayant accordé la permission </p>
-        <pb n="f. 3v" />
+        <pb n="f. 3v"/>
         <p> à Mr <persName key="p0158" ref="a9c2a8ea-f628-4e58-bd11-7e7e07e21029">D[o]n Michel de
-          Galvez</persName> de passer à des climats plus doux pour rétablir sa santé; <persName
-            key="p0157"
-            ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">S[a] M[ajesté]</persName> a nommé
-          Chargé de ses Affaires aupres de la <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour de Russie</orgName> la <persName
-            key="p0223"
-            ref="5d817a94-d036-41e8-848b-1ad4872d7d69">Chevalier D[o]n Philippe d’Amat</persName>,
-          &amp; d’observer à V.E. en même tems que <persName
-            key="p0154"
-            ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">Mr D[o]n Etienne de Zinowieff</persName>
+          Galvez</persName> de passer à des climats plus doux pour rétablir sa santé; <persName key="p0157" ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">S[a] M[ajesté]</persName> a nommé
+          Chargé de ses Affaires aupres de la <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour de Russie</orgName> la <persName key="p0223" ref="5d817a94-d036-41e8-848b-1ad4872d7d69">Chevalier D[o]n Philippe d’Amat</persName>,
+          &amp; d’observer à V.E. en même tems que <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">Mr D[o]n Etienne de Zinowieff</persName>
           desirant presenter <persName key="p0224" ref="f73d549a-9f17-4ac4-a89f-c63aec05c792">Mr
-          Butzoff</persName> au <persName
-            key="p0157"
-            ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">Roy</persName>
-          comme chargé des Affaires de Russie pendant son absence; <persName
-            key="p0157"
-            ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">S[a] M[ajesté]</persName> a bien voulu
-          l’agreer dès à present soit que la presentation ait lieu par <persName
-            key="p0154"
-            ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">Mr de Zinowieff</persName> soit par tout
+          Butzoff</persName> au <persName key="p0157" ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">Roy</persName>
+          comme chargé des Affaires de Russie pendant son absence; <persName key="p0157" ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">S[a] M[ajesté]</persName> a bien voulu
+          l’agreer dès à present soit que la presentation ait lieu par <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">Mr de Zinowieff</persName> soit par tout
           autre Ministre; <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">Mr de
-          Zinowieff</persName> ayant offert que <persName
-            key="p0224"
-            ref="f73d549a-9f17-4ac4-a89f-c63aec05c792">Mr Butzoff</persName> sera muni d’une lettre
-          de creance pareille à celle qui vient d’être expediée pour le <persName
-            key="p0223"
-            ref="5d817a94-d036-41e8-848b-1ad4872d7d69">Chevalier d’Amat</persName>.</p>
-        <p>J’espère que V.E. en voudra bien faire part à <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName> &amp;
+          Zinowieff</persName> ayant offert que <persName key="p0224" ref="f73d549a-9f17-4ac4-a89f-c63aec05c792">Mr Butzoff</persName> sera muni d’une lettre
+          de creance pareille à celle qui vient d’être expediée pour le <persName key="p0223" ref="5d817a94-d036-41e8-848b-1ad4872d7d69">Chevalier d’Amat</persName>.</p>
+        <p>J’espère que V.E. en voudra bien faire part à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName> &amp;
           procurera au nouveau Chargé des Affaires l’honneur de Lui être presenté en cette qualité
           soit par le même <persName key="p0158" ref="a9c2a8ea-f628-4e58-bd11-7e7e07e21029">Chevalier
           de Galvez</persName> soit par </p>
-        <pb n="f. 4" />
+        <pb n="f. 4"/>
         <p> quelque autre Ministre ami de l’Espagne.</p>
         <p>Je profite de cette occasion pour témoigner à V.E. mes respects, et la consideration avec
           laquelle je suis</p>
@@ -178,9 +147,7 @@
           <persName key="p0007" ref="8f3615cd-8ca1-4039-a8cc-81d1dd39c084">Le Comte d’Aranda</persName>
         </p>
         <p>
-          <placeName
-            key="g0020"
-            ref="https://www.geonames.org/3117735">Madrid</placeName> le 12 Juillet 1792</p>
+          <placeName key="g0020" ref="https://www.geonames.org/3117735">Madrid</placeName> le 12 Juillet 1792</p>
         <p>A S.E. <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">Monsieur Le Comte
           d’Osterman</persName>
         </p>
