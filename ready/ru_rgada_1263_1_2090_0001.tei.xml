@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,49 +95,34 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF />
-    </xenoData>
-    <profileDesc>
+    
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>18/29 April 1763. – Letter from<persName
-              key="p0096"
-              ref="eef89b4a-5489-4631-86c6-21cbb2895091"> the employee of the Russian Embassy in
-            London, Petr Semenovich Mal’tsov</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>18/29 April 1763. – Letter from<persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091"> the employee of the Russian Embassy in
+            London, Petr Semenovich Mal’tsov</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2090, f. 1. French original with a remark in Russian.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <opener>
           <note>получено 23 маия</note>
           <salute>Monseigneur!</salute>
         </opener>
-        <p
-          cert="high"
-          part="Y"
-          rend="bold"
-          xml:space="default"> Je suplie très humblement Votre Excellence de vouloir bien me pardonner la liberté, que
-          j’ai osé prendre de mettre sur son compte les débours, que j’ai fait pour <persName
-            key="p1101"
-            ref="ac4012a2-84a7-427f-b651-a96ad13dbd09">Mr Tatischef</persName> à qui
-          j’envoye cet ordinaire une specification détaillée de tout ce qui m’a été avancé par <persName
-            key="p0000">M<hi rendition="#u">
+        <p cert="high" part="Y" rend="bold" xml:space="default"> Je suplie très humblement Votre Excellence de vouloir bien me pardonner la liberté, que
+          j’ai osé prendre de mettre sur son compte les débours, que j’ai fait pour <persName key="p1101" ref="ac4012a2-84a7-427f-b651-a96ad13dbd09">Mr Tatischef</persName> à qui
+          j’envoye cet ordinaire une specification détaillée de tout ce qui m’a été avancé par <persName key="p0000">M<hi rendition="#u">
               <hi rendition="#sup">r</hi>
             </hi> Thomson</persName>. Je connois trop Monseigneur, Votre générosité, pour
           ne pas me flatter de Votre gracieux pardon à cet égard.</p>
-        <p> Votre Excellence me permettra bien encore de la suplier de vouloir bien ordoner au <orgName
-            key="o0001"
-            ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">college</orgName> d’envoyer ici
+        <p> Votre Excellence me permettra bien encore de la suplier de vouloir bien ordoner au <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">college</orgName> d’envoyer ici
           Vos apointemens pour cette anée dans le courant du mois de may. Elle conoit trop ma
           situation, pour n’être pas persuadée de l’urgente nécessité, où je serai sans cela.</p>
         <p> J’ai l’honneur d’assurer Votre Excessence, que mon bonheur sera parfait, si Elle vouloit
@@ -152,15 +134,7 @@
           <salute>obligé serviteur <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">P[etr].
             Malsof</persName>
           </salute>
-          <dateline>à <placeName
-              cert="high"
-              evidence="internal"
-              full="yes"
-              instant="unknown"
-              key="g0003"
-              xml:space="default"
-              ref="https://www.geonames.org/2643743">Londres</placeName>ce <date
-              when="1763-04-18"> 18./29 avril
+          <dateline>à <placeName cert="high" evidence="internal" full="yes" instant="unknown" key="g0003" xml:space="default" ref="https://www.geonames.org/2643743">Londres</placeName>ce <date when="1763-04-18"> 18./29 avril
             1763./</date>
           </dateline>
         </closer>
