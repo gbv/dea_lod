@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,7 +100,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -111,35 +108,29 @@
       <div type="letter">
         <head>
           <title>
-            13/24 October 1762. – Letter from <persName
-              key="p0225"
-              ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">the Minister Plenipotentiary of Spain to
-            the Russian Empire, Marquis of Almodovar</persName>, to <persName
-              key="p0145"
-              ref="d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">the Vice-chancellor of the Russian Empire,
+            13/24 October 1762. – Letter from <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">the Minister Plenipotentiary of Spain to
+            the Russian Empire, Marquis of Almodovar</persName>, to <persName key="p0145" ref="d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">the Vice-chancellor of the Russian Empire,
             Count Mikhail Illarionovich Vorontsov</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 58, opis 1, no. 519, f. 1–1v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
+        <pb n="f. 1"/>
+        <p/>
         <p>Monsieur</p>
         <p>J’ai reçu des depeches de <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">ma
           cour</orgName> qui me procurent l’avantage d’avoir un moment d’entretient avec votre
           excellence ; j’ai ete chez elle et je n’ai pas eu l’honneur de la trouver : je la prie </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> de vouloir bien m’indiquer l’heure, et s’il est possible, dans la journée de demain,
           dans laquelle je pourrai avoir cet honneur. J’ai celui d’etre avec beaucoup d’atachement</p>
         <p>Monsieur</p>
         <p>Votre tres humble et tres obeissant serviteur</p>
-        <p>
+        <signed>
           <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Marquis Almodovar</persName>
-        </p>
-        <p>à <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscou</placeName> ce 13/24 8bre 1762</p>
+        </signed>
+        <p>à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> ce 13/24 8bre 1762</p>
         <p>Получено 14го октября</p>
         <noteGrp>
           <note>Also see: ru_avpri_58_1_519_0002</note>
