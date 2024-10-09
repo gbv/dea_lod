@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Letter from the Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz, to the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
+        <title type="main" xml:lang="en">Letter from the Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz, to the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
         <author xml:lang="en">Dominik</author>
         <author xml:lang="en">Andreas</author>
         <author xml:lang="en">Kaunitz </author>
@@ -99,39 +94,31 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 March 1699 (n.s.). – Letter from the <persName
-              key="p0644"
-              ref="48e51792-20fb-4494-9723-dae9b8b18b42">Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz</persName>, to the <persName
-              key="p0635"
-              ref="965e8d6d-1671-4ac1-8276-a527cf471c59">Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</persName>
+          <title>21 March 1699 (n.s.). – Letter from <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Ithe Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz</persName>, to <persName key="p0635" ref="965e8d6d-1671-4ac1-8276-a527cf471c59">the Russian Grand Ambassador, Prokopii Bogdanovich Voznitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1698, no. 68, f. 115. Latin original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 115" />
-        <p />
+        <p/>
+        <pb n="f. 115"/>
+        <p/>
         <p>Ill[ustrissi]me ac Ecc[ellentissi]me D[omi]né</p>
         <p>D[omi]né mihi Call[endissi]me.</p>
-        <p>V[est]ræ Exc[ellenti]æ maximas refero gratias pro continuatione suæ confidentiæ erga me, et doleo quod in negotio mihi recommendato secundum meum desiderium V[estram] E[xcellentiam] servire non valeam, cum post obitum <persName
-            key="p0645"
-            ref="a1087d45-2abc-4c98-96dd-5f31111fa9bf">Domini Comitis Kinski</persName> qui sibi negotia trānsilvancia commissa habuit, quantum mihi constat, ad huc nulli ministrorum fuerint de mandata, quap[ro]p[ter] mihi vitio V[estra] E[xcellentia] non vertet, si me ysdem utro ingerere abstineam, qui de reliquo sum</p>
+        <p>V[est]ræ Exc[ellenti]æ maximas refero gratias pro continuatione suæ confidentiæ erga me, et doleo quod in negotio mihi recommendato secundum meum desiderium V[estram] E[xcellentiam] servire non valeam, cum post obitum <persName key="p0645" ref="a1087d45-2abc-4c98-96dd-5f31111fa9bf">Domini Comitis Kinski</persName> qui sibi negotia trānsilvancia commissa habuit, quantum mihi constat, ad huc nulli ministrorum fuerint de mandata, quap[ro]p[ter] mihi vitio V[estra] E[xcellentia] non vertet, si me ysdem utro ingerere abstineam, qui de reliquo sum</p>
         <p>Excellentiæ V[est]ræ</p>
         <p>ex ædibus 21 Marty 1699		ad servitea paratissimus</p>
         <p>
           <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">D A C[omes] á Kaunitz</persName>
         </p>
-        <p>[Along the left margin from bottom to top:] <persName
-            key="p0644"
-            ref="48e51792-20fb-4494-9723-dae9b8b18b42">Кауниц</persName>. 21 день марта 1699. К.</p>
+        <p>[Along the left margin from bottom to top:] <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Кауниц</persName>. 21 день марта 1699. К.</p>
       </div>
     </body>
   </text>
