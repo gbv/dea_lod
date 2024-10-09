@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,40 +103,26 @@
       <div type="letter">
         <head>
           <title>June 1681. – Letter from <persName key="p1427">the Danish diplomatic representative
-            in Russia, Secretary Hildebrandt von Horn,</persName> to the <persName key="p1425">Duma
+            in Russia, Secretary Hildebrandt von Horn,</persName> to  <persName key="p1425">the Duma
             Dyak, Larion Ivanovich Ivanov</persName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1681, no. 4, f. 1–2. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>Wohlgebohner Erleuchteter <persName key="p1425">Herr Cantzeler</persName>
         </p>
         <p>Nach dehm mahlen <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre
-          Zarische Majestet</persName> in dehro jünge an <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">meinem Allergnädigsten König</persName>
-          abgelaßen Schreiben Begehret, daß <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihr May[esteten]</persName>
-          <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">mein allergnädigster König</persName>
-          Dehro zu der Androzofschen Commission gedeputirte Ministros zuforderst nach <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscau</placeName> an <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Zarschen Majestet</persName>
+          Zarische Majestet</persName> in dehro jünge an <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">meinem Allergnädigsten König</persName>
+          abgelaßen Schreiben Begehret, daß <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihr May[esteten]</persName>
+          <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">mein allergnädigster König</persName>
+          Dehro zu der Androzofschen Commission gedeputirte Ministros zuforderst nach <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName> an <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Zarschen Majestet</persName>
           abschicken wolte, solches aber wegen Kurtze der Zeit des angesetzten termini selbiger
-          Commission nicht geschehen können, alß Haben <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Majesteten mein allergnädigster könig und
+          Commission nicht geschehen können, alß Haben <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Majesteten mein allergnädigster könig und
           Herr</persName> zuforderst alleß zu solcher Ambassade prepariren laßen, und mich nach
           gehents an <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarschen
-          Majestet</persName> aufß Schleunigste absenden wollen, damit ich der zwischen <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre zarschen Majesteten</persName>
+          Majestet</persName> aufß Schleunigste absenden wollen, damit ich der zwischen <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre zarschen Majesteten</persName>
           undt der Krohn Pohlen Schwebenden Mißverständniß gründtliche Nachricht einhohlen, von
           allen zulänglichen mitteln Selbige zu einen gewünschten Ende zu bringen mich informiren
           Laßen, undt dan ferner <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer
@@ -147,56 +130,35 @@
         <p>Mann Hat gleichfals für nötig erachtet Sich durch mich zu erkundigen ob schon zu
           gebührendern unterhalt und Sicherheit Ihr Majesteten meines allergnädisten königß Groß
           gesandten zulängliche mittel Herbey geschafft und Nötige anstalten gemacht sein.</p>
-        <p />
-        <pb n="f. 1v" />
+        <p/>
+        <pb n="f. 1v"/>
         <p>Weiln auch bey der Reception der Ministern item der Titulatur der in undt supscription
-          der Brieffe undt sonsten wie aus beygehenden puncten mit mehren zu ersehen, zwischen <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Majesteten meinem
-          Allergnädigsten Könige</persName> undt <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarschen Majesteten</persName> eine
+          der Brieffe undt sonsten wie aus beygehenden puncten mit mehren zu ersehen, zwischen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Majesteten meinem
+          Allergnädigsten Könige</persName> undt <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarschen Majesteten</persName> eine
           große ohngleichheit enthalten Wordurch dan Beyderseits offtermahls auch gahr in Beider
           Großen Herrn Gegenwart verdrießliche Disputen und Contestationes entstanden, so Hinfüro
-          besorglich zu mehrer Collision anlaß geben könten. Als haben <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Majesteten mein allergnädigster König</persName>
-          für nätig erachtet solches bey dieser Gelegenheit <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarschen Majestet</persName> freundt
+          besorglich zu mehrer Collision anlaß geben könten. Als haben <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Majesteten mein allergnädigster König</persName>
+          für nätig erachtet solches bey dieser Gelegenheit <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarschen Majestet</persName> freundt
           Brüderlich remonstriren zu Laßen, damit man eine Enderung darin vornehmen undt daß
-          ceremonial auf einen Beständigen und gewißen fürssetzen mögte. Eß zweiffelt <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Majesteten mein
-          allergnädigster König</persName> im geringsten nicht Eß werde <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Zarische Majestet</persName> gleichfals
+          ceremonial auf einen Beständigen und gewißen fürssetzen mögte. Eß zweiffelt <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Majesteten mein
+          allergnädigster König</persName> im geringsten nicht Eß werde <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Zarische Majestet</persName> gleichfals
           zu diesen wercke ebenmäßige zuneigung tragen zu mahlen eß nicht allein der raison und
           Billigkeit gemeß sondern auch bey allen Christlichen Potentaten also hergebracht und
-          gehalten wird. In wiedrigen fall werden <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Zarische Majestet</persName> meinem
+          gehalten wird. In wiedrigen fall werden <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihre Zarische Majestet</persName> meinem
           allergnädigsten könige nicht verdencken, daß Er Hinfüro, wie Er dan gäntzlich zu thun
-          entschloßen, in dem Ceremonial undt bey der Cantzeley eine <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">ihrer Zarischen Majesteten</persName>
+          entschloßen, in dem Ceremonial undt bey der Cantzeley eine <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">ihrer Zarischen Majesteten</persName>
           gebrauchen allerdingß gleichmeßig verordnung einführen Laßen. Alß sonsten auch Ihr
           Majesteten meines allergnädigsten königß unterthanen sich zum Höchsten beschweret </p>
-        <pb n="f. 2" />
-        <p>daß die zehenden und ander Imposten bey der Fisch-Handeling zu Kola unerträglich undt <persName
-            key="p1430">Ihr Majesten meines allergnädigsten Königß Hiesiges ohrts geweßener Envoye
-          der Herr Giöe</persName> desfals auf seinen verschiedenen memorialen so er darüber an die <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Posolsche Precose</orgName>
+        <pb n="f. 2"/>
+        <p>daß die zehenden und ander Imposten bey der Fisch-Handeling zu Kola unerträglich undt <persName key="p1430">Ihr Majesten meines allergnädigsten Königß Hiesiges ohrts geweßener Envoye
+          der Herr Giöe</persName> desfals auf seinen verschiedenen memorialen so er darüber an die <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Posolsche Precose</orgName>
           eingegeben gute vertröstung erhalten, Biß Hieher aber von dieser Seiten noch nichteß
           würcklich erfolget.</p>
         <p>So verlangen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr
           Majestet mein allergnädigster König</persName> daß man endtlich dehnen guten versprechen
           nachkommen unndt solchen Billigen Begehren nicht mir mit worten sondern auch in der thadt
           durch abschaffung solcher zehenden ein genugen Leisten wolle. Eß werden Ewer Wohlgebohrnen
-          ohn mein erwidern die Fürsorge tragen daß alles oberwehnter <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen Majestet[en]</persName> auffß
+          ohn mein erwidern die Fürsorge tragen daß alles oberwehnter <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ihrer Zarischen Majestet[en]</persName> auffß
           Geschwindeste als müglich fürtragen, und werde, damit ich darauß Ihr Majesteten meinen
           allergnädigsten Könige allerunterthänigst referiren könne.</p>
         <p>Ich bin indeßen</p>
@@ -209,16 +171,14 @@
         <p>
           <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Hildebrand Von Horrn</persName>
         </p>
-        <p />
-        <p />
-        <pb n="f. 2v" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 2v"/>
+        <p/>
         <p>Июня 1681.</p>
         <p>
           <persName key="p1427">Г[о]с[по]д[и]н фон Горн</persName> представляет, что прислан
-          уведомит[ь]ся о несогласии между <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">его царскаго велич[ества]</persName> да
+          уведомит[ь]ся о несогласии между <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">его царскаго велич[ества]</persName> да
           польскою короною о титулах, о рыбной ловле в Коле и о съезде на Андрусовской конгрес.</p>
       </div>
     </body>
