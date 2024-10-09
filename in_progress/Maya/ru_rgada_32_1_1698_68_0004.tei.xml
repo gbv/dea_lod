@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Reply of the Imperial Ambassadors to the articles proposed for the peace treaty by the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
+        <title type="main" xml:lang="en">Reply of the Imperial Ambassadors to the articles proposed for the peace treaty by the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
         <author xml:lang="en">Wolfgang</author>
         <author xml:lang="en">Oettinger Wallerstein</author>
         <author xml:lang="en">Leopold</author>
@@ -99,29 +94,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2 - 5  July 1698. – Reply of the <persName
-              key="p0651,p0652"
-              ref="7c880934-a960-4ca5-a7d5-d5e47557763d">Imperial Ambassadors</persName> to the articles proposed for the peace treaty by the
-<persName
-              key="p0635"
-              ref="965e8d6d-1671-4ac1-8276-a527cf471c59">Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</persName>
+          <title>2 - 5  July 1698. – Response of the <persName key="p0651,p0652" ref="7c880934-a960-4ca5-a7d5-d5e47557763d">Imperial Ambassadors</persName> to the articles proposed for the peace treaty by the
+<persName key="p0635" ref="965e8d6d-1671-4ac1-8276-a527cf471c59">Russian Grand Ambassador, Prokopii Bogdanovich Voznitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1698, no. 68, f. 150–151v. German original.</bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <p>1-е. Соответствующие статьи переведены июня в 25 [день] 169[8] в <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Вене</placeName>. </p>
+        <p/>
+        <p/>
+        <p>1-е. Соответствующие статьи переведены июня в 25 [день] 169[8] в <placeName key="g0005" ref="https://www.geonames.org/2761367">Вене</placeName>. </p>
       </div>
     </body>
   </text>
