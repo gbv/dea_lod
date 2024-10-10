@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,54 +96,32 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>22 December 1721. – Letter from <persName
-              key="p0208"
-              ref="f268d125-76a1-4a45-910f-95f794c640db">King Philip V of Spain </persName> to <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Peter I, Emperor of Russia</persName>
+          <title>22 December 1721. – Letter from <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">King Philip V of Spain </persName> to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Peter I, Emperor of Russia</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 58, opis 1, no. 59, f. 1. French translation of Spanish (?) original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
+        <p/>
+        <pb n="f. 1"/>
+        <p/>
         <p>
-          <persName
-            key="p0209"
-            ref="d926f373-cb6c-4525-8b9b-c898035487c5">Le Prince mon fils</persName> etant en âge de se marier, son mariage avec ma cousine la <persName
-            key="p0210"
-            ref="7b23c078-e1c5-4f76-8c96-0b0d0b777c15">Princesse d’Orleans</persName> quatrième fille du <persName
-            key="p0211"
-            ref="3342d40d-a598-4786-bd5c-454f77f7956e">Duc Regent de France</persName> mon oncle a été conclû, et on est convenû aussi en même tems de celuy du <persName
-            key="p0212"
-            ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roy Très Chrétien</persName> mon neveu, avec l’Infante <persName
-            key="p0213"
-            ref="10edac6b-1e82-46fd-a8e5-781df7e1ad4c">Duchesse Marie Anne Victoire</persName> ma fille. J’ay desiré notiffier l’un et l’autre mariage à <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Votre Serenissime Majesté Cz[a]rienne</persName>, afin de continuer de luy donner des marques de l’attention et de la juste confiance que j’ay en Elle. Je ne doutte pas que <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">V[otre] S[érénissi]me M[a]j[es]té Cz[arien]ne</persName> n’aprenne avec plaisir les notiffication de ces mariages qui me sont d’une vraye satisffaction, et qui conviennent également aux interêts de ma Couronne. Si je pouvois trouver de semblables occasions de Luy temoigner combien je prends de part à tout ce qui regarde <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">V[otre] S[érénissi]me M[a]j[es]té Cz[arien]ne</persName>, Elle eprouveroit alors, de même en touttes celles qui se presenteroint, que je ne souhaite rien tant, que d’augmanter la correspondance et la bonne amitié qui est etablie entre nous.</p>
+          <persName key="p0209" ref="d926f373-cb6c-4525-8b9b-c898035487c5">Le Prince mon fils</persName> etant en âge de se marier, son mariage avec ma cousine la <persName key="p0210" ref="7b23c078-e1c5-4f76-8c96-0b0d0b777c15">Princesse d’Orleans</persName> quatrième fille du <persName key="p0211" ref="3342d40d-a598-4786-bd5c-454f77f7956e">Duc Regent de France</persName> mon oncle a été conclû, et on est convenû aussi en même tems de celuy du <persName key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roy Très Chrétien</persName> mon neveu, avec l’Infante <persName key="p0213" ref="10edac6b-1e82-46fd-a8e5-781df7e1ad4c">Duchesse Marie Anne Victoire</persName> ma fille. J’ay desiré notiffier l’un et l’autre mariage à <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Votre Serenissime Majesté Cz[a]rienne</persName>, afin de continuer de luy donner des marques de l’attention et de la juste confiance que j’ay en Elle. Je ne doutte pas que <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">V[otre] S[érénissi]me M[a]j[es]té Cz[arien]ne</persName> n’aprenne avec plaisir les notiffication de ces mariages qui me sont d’une vraye satisffaction, et qui conviennent également aux interêts de ma Couronne. Si je pouvois trouver de semblables occasions de Luy temoigner combien je prends de part à tout ce qui regarde <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">V[otre] S[érénissi]me M[a]j[es]té Cz[arien]ne</persName>, Elle eprouveroit alors, de même en touttes celles qui se presenteroint, que je ne souhaite rien tant, que d’augmanter la correspondance et la bonne amitié qui est etablie entre nous.</p>
         <p>
           <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">yo el Rey</persName>
         </p>
         <p>
-          <placeName
-            key="g0045"
-            ref="https://www.geonames.org/3118511">Lerma</placeName> le 22. de Decembre 1721</p>
-        <p>
+          <placeName key="g0045" ref="https://www.geonames.org/3118511">Lerma</placeName> le 22. de Decembre 1721</p>
+        <signed>
           <persName key="p0214" ref="c0b34bcd-1281-41d2-9eba-4562dd902687">Joseph de Grimaldo</persName>
-        </p>
+        </signed>
       </div>
     </body>
   </text>
