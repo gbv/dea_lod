@@ -1,16 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">List of goods and products imported by Marquis of Almodovar with taxes to pay for them</title>
-        <title
-          type="main"
-          xml:lang="fr">Compte des droits  à payer par S.E. Mr le Marquis d’Almodovar pour les articles suivant</title>
+        <title type="main" xml:lang="en">List of goods and products imported by Marquis of Almodovar with taxes to pay for them</title>
+        <title type="main" xml:lang="fr">Compte des droits  à payer par S.E. Mr le Marquis d’Almodovar pour les articles suivant</title>
         <author xml:lang="en">Pedro</author>
         <author xml:lang="en">Francisco</author>
         <author xml:lang="en">Jiménez</author>
@@ -107,40 +100,30 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1 July 1763. – List of goods and products imported into Russia by <persName
-              key="p0225"
-              ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">the Minister Plenipotentiary of Spain to the Russian Empire, Marquis of Almodovar</persName>, with taxes to pay for them in rubles</title>
+          <title>1 July 1763. – Account of the duties to be paid by His Excellency, [Minister Plenipotentiary of Spain to the Russian Empire, Pedro Francisco] Marquis of Almodovar, for the following items</title></head><head><title>List of goods and products imported into Russia by <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">the Minister Plenipotentiary of Spain to the Russian Empire, Marquis of Almodovar</persName>, with taxes to pay for them in rubles</title>
           <note>
             <bibl>AVPRI, fond 58, opis 1, no. 523, f. 7–7v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 7" />
-        <p />
-        <p>Compte des droits  à payer par S.E. Mr le <persName
-            key="p0255"
-            ref="7f2d724a-ed03-4e37-8128-8527237ef2de">Marquis d’Almodovar</persName> pour les articles suivant</p>
+        <p/>
+        <pb n="f. 7"/>
+        <p/>
+        <p>Compte des droits  à payer par S.E. Mr le <persName key="p0255" ref="7f2d724a-ed03-4e37-8128-8527237ef2de">Marquis d’Almodovar</persName> pour les articles suivant</p>
         <p>Les quelles 4995 Rixdalers et 47 Sttüvers, en les comptant au prix actuel à Ro[ubles] 1 30 Cop.</p>
         <p>la piece fait ......................... Ro[ubles] 6494 : 60</p>
         <p>Droits interieures ..................       3396 : 98</p>
         <p>feu et accidents .....................         287 : 29</p>
         <p>				___________</p>
         <p>Reste encore à payer .......     Ro[ubles] 10178 :87</p>
-        <p>Outre les Declarations mentionnées, dont tous les effets sont arrivée par un Vaisseau d’Espagne, Mr le <persName
-            key="p0225"
-            ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Marquis d’Almodovar</persName> a encore payé, au de là de Ro[ubles] 1000, de droits, pour d’autres Effets arrivée depuis tant par mer que par terre.</p>
-        <p>Сие сообщено от гишпанского министра <persName
-            key="p0225"
-            ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Альмодовара</persName>, к <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея императорскому величеству</persName> доклад дан июля 1 дня 1763 года.</p>
+        <p>Outre les Declarations mentionnées, dont tous les effets sont arrivée par un Vaisseau d’Espagne, Mr le <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Marquis d’Almodovar</persName> a encore payé, au de là de Ro[ubles] 1000, de droits, pour d’autres Effets arrivée depuis tant par mer que par terre.</p>
+        <p>Сие сообщено от гишпанского министра <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Альмодовара</persName>, к <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея императорскому величеству</persName> доклад дан июля 1 дня 1763 года.</p>
       </div>
     </body>
   </text>
