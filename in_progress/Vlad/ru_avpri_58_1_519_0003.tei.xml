@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,32 +103,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
-        <head>
-          <title>16/27 October 1762. – Translation from French to Russian of the letter from <persName
-              key="p0225"
-              ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">the Minister Plenipotentiary of
-            Spain to the Russian Empire, Marquis of Almodovar</persName>, to <persName
-              key="p0145"
-              ref="d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">the Vice-chancellor of the Russian Empire,
-            Count Mikhail Illarionovich Vorontsov</persName>
-          </title>
-          <note>
+        <head> <title> Translation from French to Russian of the letter from <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">the Minister Plenipotentiary of
+            Spain to the Russian Empire, Marquis of Almodovar</persName>, to <persName key="p0145" ref="d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">the Vice-chancellor of the Russian Empire,
+            Count Mikhail Illarionovich Vorontsov</persName> 16/27 October 1762.</title><note>
             <bibl>AVPRI, fond 58, opis 1, no. 519, f. 4. Russian translation of French original.</bibl>
           </note>
         </head>
-        <pb n="f. 4" />
-        <p />
-        <p>Перевод с письма к его сиятельству <persName
-            key="p0145"
-            ref="d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">канцлеру</persName> от гишпанского министра <persName
-            key="p0225"
-            ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Марки Далмодовара</persName> от
+        <pb n="f. 4"/>
+        <p/>
+        <p>Перевод с письма к его сиятельству <persName key="p0145" ref="d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">канцлеру</persName> от гишпанского министра <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Марки Далмодовара</persName> от
           16/27 октября 1762 года</p>
         <p>В следствие третьегоднишнего нашего разговора касательно моих аудиенций и требования
           реверсала императорскому титулу, имею честь ваше сиятельство сим просить о сообщении мне
@@ -141,9 +127,7 @@
           что <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">здешний двор</orgName>
           завтра отъезжает в <orgName key="o0042" ref="a7e0084f-80a5-4d31-8665-8d4486c0d22e">троицкий
           монастырь</orgName>, то приемлю смелость, не застав вас дома, сие к вашему сиятельству
-          написать, дабы я мог как наискорее точное и формальное по сему делу доношение к <orgName
-            key="o0020"
-            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">моему двору</orgName> послать.</p>
+          написать, дабы я мог как наискорее точное и формальное по сему делу доношение к <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">моему двору</orgName> послать.</p>
         <p>В прочем имею честь быть с великой преданностью</p>
         <p>
           <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">Марки Далмодовар</persName>
