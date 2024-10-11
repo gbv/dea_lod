@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,27 +94,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>[Not earlier than 27 July (o.s.) / 6 August 1697 (n.s.)]. – List of gifts
-            preseneted to the <persName key="p0624" ref="88a47bc2-201a-463c-81c7-857cc9db9b8e">Electresses
-            of Brandenburg</persName> and <persName
-              key="p0625"
-              ref="91b12125-9068-4b9e-a3bd-b2cc46f3268d">Hanover</persName>, the <persName
-              key="p0000">Ladies of the Brandenburg court</persName>, and <persName
-              key="p0626"
-              ref="da3242b1-f5ae-4ce9-a114-432a57c66cd1">Bishop of Hildesheim</persName>
+          <title>[27 July (o.s.) / 6 August 1697 (n.s.), or later]. – List of gifts
+            presented to the <persName key="p0624" ref="88a47bc2-201a-463c-81c7-857cc9db9b8e">Electresses
+            of Brandenburg</persName> and <persName key="p0625" ref="91b12125-9068-4b9e-a3bd-b2cc46f3268d">Hanover</persName>, the <persName key="p0000">Ladies of the Brandenburg court</persName>, and <persName key="p0626" ref="da3242b1-f5ae-4ce9-a114-432a57c66cd1">Bishop of Hildesheim</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1697, no. 49, f. 3. Draft in German.</bibl>
           </note>
         </head>
-        <pb n="f. 3" />
+        <pb n="f. 3"/>
         <p> Specificatio der Præsenten</p>
         <p>an die <persName key="p0624" ref="88a47bc2-201a-463c-81c7-857cc9db9b8e">Churfürstin zu
           Brandenburg</persName>
