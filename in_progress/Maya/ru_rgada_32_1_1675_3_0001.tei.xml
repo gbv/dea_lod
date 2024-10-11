@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,34 +100,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>19 October 1675 [n.s.]. – Agreement between the <persName
-              key="p0599"
-              ref="3fefa5d1-c538-4737-a2c2-1717e481f1f8">Imperial Envoys Extraordinary Annibale
-            Francesco de Bottoni</persName>, <persName
-              key="p0600"
-              ref="36f71694-ef6b-4b69-9cd1-ef8076dcf975">Johann Karl Terlinger</persName> and the <persName
-              key="p0605"
-              ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Near Boiar Artemon Sergeevich
-            Matveev</persName>, the <persName key="p0514" ref="831e97bb-c07c-43cf-af78-2c08d8c5a71f">Duma
-            D’iak Grigorii Karpovich Bogdanov</persName>, the <persName
-              key="p0509"
-              ref="9e8e61e5-bffe-4e58-a0ad-531767a70c37">D’iaks Vasilii Bobinin</persName> and <persName
-              key="p0457"
-              ref="fa668dae-67be-445d-835a-1e9e855840d2">Emel’ian Ivanovich Ukraintsev</persName>
-          </title>
-          <note>
+          <title>19 October 1675 [n.s.]. – Agreement between the <persName key="p0599" ref="3fefa5d1-c538-4737-a2c2-1717e481f1f8">Imperial Extraordinary </persName></title>Envoys, <persName key="p0599" ref="3fefa5d1-c538-4737-a2c2-1717e481f1f8">Annibale
+            Francesco de Bottoni and</persName> <persName key="p0600" ref="36f71694-ef6b-4b69-9cd1-ef8076dcf975">Johann Karl Terlinger,</persName> and <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Near Boyar Artemon Sergeevich
+            Matveev</persName>, <persName key="p0514" ref="831e97bb-c07c-43cf-af78-2c08d8c5a71f">Duma
+            Dyak Grigorii Karpovich Bogdanov and </persName><persName key="p0509" ref="9e8e61e5-bffe-4e58-a0ad-531767a70c37">Dyaks Vasilii Bobinin</persName> and <persName key="p0457" ref="fa668dae-67be-445d-835a-1e9e855840d2">Emel’ian Ivanovich Ukraintsev</persName></head><head><note>
             <bibl>RGADA, fond 32, opis 1, 1675, no. 3, f. 16–21. German original. Copy from the
               Russian original: RGADA, fond 32, opis 1, 1675, no. 3, f. 22–35v.</bibl>
           </note>
         </head>
-        <pb n="f. 16" />
+        <pb n="f. 16"/>
         <p> Deß <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Durchleuchtigsten,
           Grosmächtigisten, Vnüberwindlichisten Fürsten vnd Grossen Herren H[errn] Leopoldi von
           Gottes genaden erwöhlten Römischen käysers</persName>, zue allen zeiten Mehreren des
@@ -146,9 +131,7 @@
             vnd gevolmächtigten Annibali Francisco von Bottoni des Heyligen Romischen Reichß-Rittern
           vnd würcklichen käyserl[ichen] Rath vnd Regenten deß Regiments der Nider Osterreichischer
           Landten, vnd Joanni Carolo Terlingereno auch käyserlichen Rath</persName>, geben</p>
-        <p>Deß von Gottes Genaden <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Durchleuchtigisten,
+        <p>Deß von Gottes Genaden <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Durchleuchtigisten,
           vnd Grosmächtigisten Grosen Herren Czaren vnd GrosFursten H[errn] Alexei Michailovitz</persName>,
           des gantzen, Grossen, Kleinen vnd weissen Reusslandß selbst Halterß, zue Moscau, Kyow,
           Wladymir, vnd Nowgarden, Czaren zue Cassan, Czaren zue Astrachan, Czaren von Sybirien,
@@ -158,14 +141,12 @@
           gantzen Nordseite Gebieterß, vnd Herren deß Iwerischen Landteß, der Cartalischen vnd
           Grusinischen Czaren vnd des Cabardinischen Landes, der Cyrkesischen, vnd Görischen
           Fursten, </p>
-        <pb n="f. 16v" />
+        <pb n="f. 16v"/>
         <p> vnd anderer vieler gegen Osten, Westen vnd Norden gelegenen Herrschafften vnd Länder von
           vatter vnd Grosvatter, ErbHerren vnd beherrscherß p[erge] <persName key="p0605,p0514">Seiner
           Czarischen May[estät] Naher Bojarin, vnd statthalter zu Serpugow, Artemon Sergeivitz
           Matpheov, vnd gehaimbde Cantzler Gregorius Cypriani Bugelanov</persName>, nebst Ihren
-          Collegen <persName
-            key="p0509"
-            ref="9e8e61e5-bffe-4e58-a0ad-531767a70c37">Basilio Bobinin</persName>,
+          Collegen <persName key="p0509" ref="9e8e61e5-bffe-4e58-a0ad-531767a70c37">Basilio Bobinin</persName>,
           vnd <persName key="p0457" ref="fa668dae-67be-445d-835a-1e9e855840d2">Aemiliano Okrainzow</persName>
           zuerkennen.</p>
         <p>In diesem 184<hi rendition="#sup">sten</hi>. |:1675:| Jahr, den 4<hi rendition="#sup">ten</hi>.
@@ -176,66 +157,39 @@
           vnseren Collegen, mit Euch des <persName key="p0599,p0600">Grossen Herren Seiner
           käy[serlichen] May[estät] Extraordinari Abgessandten</persName> in conferentz gewesen,
           vnndt haben auff befelch <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner
-          Czarischen May[estät]</persName> nach beschehener annembung von <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Euch der käy[serlichen] May[estät]</persName>
+          Czarischen May[estät]</persName> nach beschehener annembung von <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Euch der käy[serlichen] May[estät]</persName>
           Creditiv=schreiben, in einigen geschäfften vnnß vnterredet, vnd haben vnter anderen Wür
           Euch <persName key="p0599,p0600">Extraordinari Abgessandten</persName> auch diesen bericht
           gegeben, wie daß Wan bey <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner
           Czarischen May[estät]</persName>
-          <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seiner kay[serlichen] May[estät]</persName>
-          Gessandte vnd Abgessandte in der ersten vnd Letzten Audientz erschienen, nemben seine <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Czarische May[estät]</persName>
+          <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seiner kay[serlichen] May[estät]</persName>
+          Gessandte vnd Abgessandte in der ersten vnd Letzten Audientz erschienen, nemben seine <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Czarische May[estät]</persName>
           von Ihnen dero <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kay[serlichen]
           May[estät]</persName> briefe selbst, vnd geben auch Ihre Czarische briefe an die
           kay[serlichen] May[estät] denen Gessandten vnd Abgessandten selbst auß Ihren Czarischen
-          händten. Eß haben auch die Abgessandte <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>
+          händten. Eß haben auch die Abgessandte <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>
           welche zue <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihrer
-          kay[serlichen] May[estät]</persName> von diesen abgefertiget worden, Allzumahl <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>
-          angedeutet vnd in Ihren Relationen geschrieben, wie das <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche] May[estät]</persName> der <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Czarischen May[estät]</persName>
+          kay[serlichen] May[estät]</persName> von diesen abgefertiget worden, Allzumahl <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>
+          angedeutet vnd in Ihren Relationen geschrieben, wie das <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche] May[estät]</persName> der <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Czarischen May[estät]</persName>
           briefe von Ihnen, Hochfürstlichen gebrauch nach, selbst angenomben, Eben auff solche weiß,
           alß alle Andere Christliche Potentaten dieselbe anzunemben pflegen, vnd zu </p>
-        <pb n="f. 17" />
+        <pb n="f. 17"/>
         <p> deme hette auch <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine
-          kay[serliche] May[estät]</persName> beliebet dero briefe, an <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> selbst
+          kay[serliche] May[estät]</persName> beliebet dero briefe, an <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> selbst
           Ihnen abzugeben aus Ihren käyserl[ichen] händen. die Letzte Abgessandte aber, nemblich der
           TrugsEß <persName key="p0606" ref="b29a06e0-ccb5-451c-a396-229ab088437f">Petrus Potemkin</persName>
           vnd <persName key="p0610" ref="62c4148d-14ba-4477-baba-df24310dd45c">Cantzler Jacob
-            Zernzow</persName> haben referirt, das <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche] May[estät]</persName>
+            Zernzow</persName> haben referirt, das <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche] May[estät]</persName>
           auff Ihr villfältigeß bitten, beliebet hette Ihr käy[serliches] schreiben durch einen
           Nahen Minister Ihnen uberreichen zu Lassen, vnd sich geweigert hette denselben, auß Ihren
-          käyserlichen handen zu geben, da doch alle andere Christliche Potentaten <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">seiner Czarischen May[estät]</persName>
+          käyserlichen handen zu geben, da doch alle andere Christliche Potentaten <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">seiner Czarischen May[estät]</persName>
           briefe, von dero Gessandten vnd Abgessandten, auch von Currireren nit allein selbst
-          annemben, sondern auch bey Ihrer abfertigung die briefe an <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> dero
+          annemben, sondern auch bey Ihrer abfertigung die briefe an <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> dero
           Gessandten vnd Abgessandten aus Ihren händen ubergeben. Eben dasselbe thuen auch die
-          Maometanische Potentaten, der Turckische sultan, vnd Persische Schach, vnd nemben <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">seiner Czarischen May[estät]</persName>
+          Maometanische Potentaten, der Turckische sultan, vnd Persische Schach, vnd nemben <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">seiner Czarischen May[estät]</persName>
           briefe von dero Gessandten, Abgessandten Currireren selbsten an, geben auch Ihnen, bey
-          Ihrer abfertigung ihre briefe selbst mit äigenen händen. Derentwegen <persName
-            key="p0599,p0600">Euch käyserl[ichen] Extraordinari Abgessandten</persName>, angemuthet
-          werden, mit vnns hieruber also zu schliessen: Das hinfüro <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
+          Ihrer abfertigung ihre briefe selbst mit äigenen händen. Derentwegen <persName key="p0599,p0600">Euch käyserl[ichen] Extraordinari Abgessandten</persName>, angemuthet
+          werden, mit vnns hieruber also zu schliessen: Das hinfüro <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
           belieben wolle, der Czarischen May[estät] Gessandten vnd Abgessandten Ihre käyserl[iche]
           briefe an <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische
           May[estät]</persName> aus Ihren käyserlichen händen selbst zu geben, damit hierinnen so
@@ -245,35 +199,23 @@
           grosse Herren gegen einander eine freindbruederliche Liebe vnd affection tragen, vnd in
           Ihren briefen sich brueder nennen. Wofern aber der käy[serlichen] May[estät] Abgessandte
           mit vnns der </p>
-        <pb n="f. 17v" />
+        <pb n="f. 17v"/>
         <p>
           <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischen May[estät]
           Nahen Bojarin, vnd geheimbden Cantzler</persName>, nebst vnseren Collegen in dieser sach
-          einen schluß zu machen Euch weigeret, so würden <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
-          ebensfals auch dero Czarische briefe, an <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
+          einen schluß zu machen Euch weigeret, so würden <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
+          ebensfals auch dero Czarische briefe, an <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
           dero käyserl[ichen] Gessandten vnd Abgessandten durch einen Ihnen Nahen Minister abgeben
-          Lassen, vnndt man würdet auch Euch käyserl[ichen] Extraordinari Abgessandten, <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>
+          Lassen, vnndt man würdet auch Euch käyserl[ichen] Extraordinari Abgessandten, <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>
           brieff, gleich wie <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine
           kay[serliche] May[estät]</persName> thuen durch ein Nahen Minister ubergeben.</p>
         <p>Worauff <persName key="p0599,p0600">Ihr käy[serlichen] May[estät] Extraordinari
-          Abgessandte</persName> vnnß <persName
-            key="p0605"
-            ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischer May[estät] Bojarin, geheimbden
+          Abgessandte</persName> vnnß <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischer May[estät] Bojarin, geheimbden
           Cantzlern</persName>, vnd vnnseren Collegen geandtwortet: Eß seye anietzo keine zeit vom
           pucto der angezogenen gleichheit vnter beeden Grossen Potentaten zu reden, Ihr woltet von
-          diesen der zeit abstrahiret haben. Das aber <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche] May[estät]</persName> die
+          diesen der zeit abstrahiret haben. Das aber <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche] May[estät]</persName> die
           käyserliche Recreditiv-schreiben, denen Czarischen Abgessandten, durch einen Secretario in
-          das hauß schicken thetten, herentgegen <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihre Czarische May[estät]</persName> seine
+          das hauß schicken thetten, herentgegen <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihre Czarische May[estät]</persName> seine
           brief, den kayserl[ichen] Abgessandten, mit ihren Czarischen händen selbst ubergeben,
           beedes seye in der hergebrachten gewonheit gegründtet, welche allbereit uber hundert Jahr
           also beederseitß observirt, vnd approbirt werden, müeste also einß vnd anders noch darbey
@@ -281,166 +223,103 @@
           veränderung alten gebrauchß, wider alles verhoffen, mit Euch angefangen werden wolle,
           wurdet Ihr getrungen sein, ehenter ohne Audientz vnd ohne den Czarischen brief von hier
           zue raissen, als dieselbe von einen anderen, als von </p>
-        <pb n="f. 18" />
+        <pb n="f. 18"/>
         <p>
-          <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihr Czarischen May[estät]</persName>
+          <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihr Czarischen May[estät]</persName>
           händen anzunemben. Ihr woltet aber ein solches von dero grossen vernunfft vnd Clementz nit
-          hoffen. Anderer Christlichen wie auch der Musulmanischen Fursten exempla, khönten <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
-          nit binden, vnd hetten anderer Höffe gebräuche, mit den gewohnheiten des <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">käyserlichen Hoffs</orgName>,
-          keine gemainschafft; das aber die vorige zue <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Wien</placeName>
+          hoffen. Anderer Christlichen wie auch der Musulmanischen Fursten exempla, khönten <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
+          nit binden, vnd hetten anderer Höffe gebräuche, mit den gewohnheiten des <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">käyserlichen Hoffs</orgName>,
+          keine gemainschafft; das aber die vorige zue <placeName key="g0005" ref="https://www.geonames.org/2761367">Wien</placeName>
           geweste Czarische Abgessandte, in Ihren Relationen vermeldt haben solten, das sie die
           käyserl[iche] briefe, von <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seiner
           kay[serlichen] May[estät]</persName> selbst empfangen hetten, were falsch vnd wider die
-          warheit berichtet worden; Weillen <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihr käy[serliche] May[estät]</persName>
+          warheit berichtet worden; Weillen <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihr käy[serliche] May[estät]</persName>
           niemahlen im gebrauch gehabt, Ihre käyserliche briefe den Czarischen, oder auch anderer
           Potentaten Abgessandten, mit Ihren aigenen händen zu geben, sonderen es weren dieselbe,
           denen Abgessandten iederzeit, in das Logiament, durch einen Secretarium gebracht worden.
           Das aber <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine
-          kay[serliche] May[estät]</persName> allergnedigist gewilliget dem <persName
-            key="p0606"
-            ref="b29a06e0-ccb5-451c-a396-229ab088437f">Potemkin</persName> in Seiner käyserlichen
+          kay[serliche] May[estät]</persName> allergnedigist gewilliget dem <persName key="p0606" ref="b29a06e0-ccb5-451c-a396-229ab088437f">Potemkin</persName> in Seiner käyserlichen
           præsentz von einen Ministro, das käyserl[iche] Recreditiv-schreiben einhändigen zu Lassen,
-          dasselbe seye auff seine, des <persName
-            key="p0606"
-            ref="b29a06e0-ccb5-451c-a396-229ab088437f">Potemkin</persName> inständige bitt, zue
+          dasselbe seye auff seine, des <persName key="p0606" ref="b29a06e0-ccb5-451c-a396-229ab088437f">Potemkin</persName> inständige bitt, zue
           zeugung Ihrer gegen <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner
           Czarischen May[estät]</persName> tragenden affection, vnd dergestalt beschehen; das es
           ohne consequentz vnd dem üblichen Stylo vnpræiudicirlich sein solte, mit der zuversicht,
           das hinfüro keine fernere novitäten in dergleichen curialibus solten prætendirt werden,
-          massen das es mit solcher Reservation vnd anderster nit geschehen, wie auch das Ihme <persName
-            key="p0606"
-            ref="b29a06e0-ccb5-451c-a396-229ab088437f">Potemkin</persName>, vnd seinen
+          massen das es mit solcher Reservation vnd anderster nit geschehen, wie auch das Ihme <persName key="p0606" ref="b29a06e0-ccb5-451c-a396-229ab088437f">Potemkin</persName>, vnd seinen
           Collegæ, darüber ein ordentlicheß Decret zugestelt werden solten, denselben </p>
-        <pb n="f. 18" />
+        <pb n="f. 18"/>
         <p> vor der Audientz intimirt worden, mit welchen Sie vergnüget gewesen, vnd hetten darauff
           den Käyserlichen brief in der Audientz vom dem kayserlichen Ministro angenomben. Nun wan
           war were, das die vorige Seiner Czarischen May[estät] Abgessandte, den Käyserl[ichen]
           brief, auß <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihrer
           Kay[serlichen] May[estät]</persName> handen, iemallen wie sie mit vngrundt berichtet,
-          empfangen hetten, wurde gewißlich der <persName
-            key="p0606"
-            ref="b29a06e0-ccb5-451c-a396-229ab088437f">Potemkin</persName>, welcher zweiffelß ohne,
+          empfangen hetten, wurde gewißlich der <persName key="p0606" ref="b29a06e0-ccb5-451c-a396-229ab088437f">Potemkin</persName>, welcher zweiffelß ohne,
           ohne Instruction vnd befelch hierin nit gehandtelt, sich nit contentirt haben, den
           käyserl[ichen] brief auß aines Ministri handen zu nemben. Weillen dan, wie vermeldt,
-          dieser ein alter gebrauch beym <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">Käyserl[ichen] Hoff</orgName> seye, das den
+          dieser ein alter gebrauch beym <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">Käyserl[ichen] Hoff</orgName> seye, das den
           Abgessandten die käyserl[iche] briefe ins Haus nach der Audientz geschikhet werden,
-          hingegen auch vermüg des alten gebrauchß beym <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Czarischen Hoff</orgName>, <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>
+          hingegen auch vermüg des alten gebrauchß beym <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Czarischen Hoff</orgName>, <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>
           briefe, anderer Potentaten Abgessandten, bey der Audientz mit aigenen Czarischen händen
           gegeben wurden, als müeste es billich darbey beeder seitß sein verbleiben haben,
-          alldieweillen solche alte gebräuch, ohne grosser confusion, nit khönten verändert werden. <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
+          alldieweillen solche alte gebräuch, ohne grosser confusion, nit khönten verändert werden. <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
           auch viller wichtigen vrsachen vnd consequentzien halber, auß der alten observantz, in
-          dergleichen curialibus nit schreitten khönten. vnd gleichwie <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName> von <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihrer Czarischen May[estät]</persName>,
-          deshalben niemalß keine dergleichen Neuerung hetten begehrt, also seye billich, das <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihre Czarische May[estät]</persName>
-          es auch bey deme was bishero gegen den käyserlichen Abgessandten, zu <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscua</placeName> vblich vnd
+          dergleichen curialibus nit schreitten khönten. vnd gleichwie <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName> von <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihrer Czarischen May[estät]</persName>,
+          deshalben niemalß keine dergleichen Neuerung hetten begehrt, also seye billich, das <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihre Czarische May[estät]</persName>
+          es auch bey deme was bishero gegen den käyserlichen Abgessandten, zu <placeName key="g0001" ref="https://www.geonames.org/524894">Moscua</placeName> vblich vnd
           gebrauchlich gewesen, verbleiben vnd annoch hinfuro widerfahren Lassen wolten.</p>
-        <p />
-        <pb n="f. 19" />
+        <p/>
+        <pb n="f. 19"/>
         <p> Den angetragenen vergleich betreffent, khöntet <persName key="p0599,p0600">Ihr
           käy[serliche] Extraordinari Abgessandte</persName>, denselben keineß wegß eingehen,
           weillen sich nit gezümete, das Ihr Euren, Allergnedigisten Herren ainige maß oder ordnung
           verschreiben thettet, darzue Ihr auch weder befelch, weder instruction hettet. Vber diß
           haben wür der <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischen
-          May[estät] Naher Bojar, gehaimber Cantzler</persName>, vnd vnsere Collegen gesprochen, <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
+          May[estät] Naher Bojar, gehaimber Cantzler</persName>, vnd vnsere Collegen gesprochen, <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
           hetten geschlossen, <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Euch
             käyserl[ichen] Extraordinari Abgessandten</persName>, in der abschied audientz seinen
           brief auß Ihren Czarischen händen zu geben, damit Ihr nit ohne Czarischen brief abreiset,
-          vnd habe es sich befunden, das die vorige Czarische Abgessandte, <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihre Czarische May[estät]</persName> nicht
+          vnd habe es sich befunden, das die vorige Czarische Abgessandte, <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Ihre Czarische May[estät]</persName> nicht
           recht berichtet haben, das Sie die brief aus den käyserlichen händen empfangen hetten. Ihr
           wollet aber <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seiner
-          käy[serlichen] May[estät]</persName> dieses vortragen, vnd vermelden, das wofern <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche] May[estät]</persName>
+          käy[serlichen] May[estät]</persName> dieses vortragen, vnd vermelden, das wofern <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche] May[estät]</persName>
           dero briefe, Seiner Czarischen May[estät] Gessandten, vnd Abgessandten, aus Ihren
-          käyserlichen händen abzuegeben hinfuro nit beliebete, so wurde auch <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
+          käyserlichen händen abzuegeben hinfuro nit beliebete, so wurde auch <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
           ebensfalß, Seiner kay[serlichen] May[estät] Gessandten, vnd Abgessandten, Ihre briefe
           durch einen nahen Minister ubergeben Lassen. damit diese beede hoche Potentaten an
           hochfürstl[ichen] Ehre mächten gleich geachtet seyn.</p>
         <p>Darauff habt <persName key="p0599,p0600">Ihr käyserl[iche] Abgessandte</persName> ferner
-          geandtwortet: Eß khönte woll <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
+          geandtwortet: Eß khönte woll <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
           deswegen an <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine
           käy[serliche] May[estät]</persName> schreiben, vnd Ihr wollet auch dasselbe zu Eurer
           anheimbkunfft <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seiner
           kayserlichen May[estät]</persName> referiren allermassen Ihr albereit, durch schreiben,
           auff der post meldung darumb gethan.</p>
-        <p />
-        <pb n="f. 19v" />
-        <p> Vber daß haben in gepflogener conferentz circa curialia wür deß <persName
-            key="p0605"
-            ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Grossen Herren Seiner Czarischen May[estät]
-          Naher Bojarin, vnd geheimbder Cantzler</persName> nebst vnseren Collegen gegen Euch, des <persName
-            key="p0599,p0600">Grossen Herren Seiner käy[serlichen] May[estät] Extraordinari
-          Abgessandten</persName> erwehnet, wie daß <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName> in
+        <p/>
+        <pb n="f. 19v"/>
+        <p> Vber daß haben in gepflogener conferentz circa curialia wür deß <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Grossen Herren Seiner Czarischen May[estät]
+          Naher Bojarin, vnd geheimbder Cantzler</persName> nebst vnseren Collegen gegen Euch, des <persName key="p0599,p0600">Grossen Herren Seiner käy[serlichen] May[estät] Extraordinari
+          Abgessandten</persName> erwehnet, wie daß <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName> in
           dero briefen, an seine <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Czarische
           May[estät]</persName> mit dem Titul von Serenität vnd nit von Mayestät schreiben, da doch
-          alle Andere Christliche Potentaten in Ihren briefen an <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> mit dem
+          alle Andere Christliche Potentaten in Ihren briefen an <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> mit dem
           Titul von Czarischen May[estät] schreiben, vnd zwar der gebühr nach, weyl solche Ehr von
           Gott gegeben ist; vnd sindt diese anderer Grosser Potentaten briefe Euch Abgessandten zu
           einem beweißthumb hieruber vorgezeiget worden, dahero wür vor nothwendig erachtet, mit
-          Euch käyserl[ichen] Abgessandten einen vergleich zu treffen, daß <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
-          hinfuro gelieben wolle in dero briefen an <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> zu
+          Euch käyserl[ichen] Abgessandten einen vergleich zu treffen, daß <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
+          hinfuro gelieben wolle in dero briefen an <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> zu
           schreiben, mit gebuhrenden titul von Mayestät, nit aber von Serenität, vnd zu dem, dero
           Gessandten vnd Abgessandten zuebefehlen, damit Sie in allen schrifften, ia in ihren reden
-          ebenmäßig verfahren vnd dergleichen auch beobachten sollen; Wie <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> thuen,
+          ebenmäßig verfahren vnd dergleichen auch beobachten sollen; Wie <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName> thuen,
           die bey nennung Ihrer käy[serlichen] May[estät] allzeit in dero briefen den titul von
           Mayestät, vnd nicht von Serenität gebrauchen. Wo aber Ihr zu solchen vergleich Euch nit
-          verstehen wolltet, vnd hinfuro geschähe, das käy[serliche] May[estät] in Ihren briefen, an <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
-          schreiben möchte, mit dem titul von Serenität, vnd nit von Mayestät, so wurden <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
+          verstehen wolltet, vnd hinfuro geschähe, das käy[serliche] May[estät] in Ihren briefen, an <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
+          schreiben möchte, mit dem titul von Serenität, vnd nit von Mayestät, so wurden <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
           sich auch dahin entschliessen müessen, in dero briefen </p>
-        <pb n="f. 20" />
+        <pb n="f. 20"/>
         <p> an <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine kay[serliche]
           May[estät]</persName> zue schreiben mit dem Titul von Serenität, nicht aber von Mayestät.</p>
         <p>Worauff <persName key="p0599,p0600">Ihr dero käy[serlichen] May[estät] Extraordinari
-          Abgessandte</persName>, vnns dero <persName
-            key="p0605"
-            ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischen May[estät] nahen Bojarin,
+          Abgessandte</persName>, vnns dero <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischen May[estät] nahen Bojarin,
             gehaimben Cantzler</persName>, vnd vnseren Collegen geandtwortet, den titulum Maiestatis
           betreffendt, seye derselbe der Römischen käyser allzeit aigen gewesen, vnd hette sich noch
           niemandt gefundten, der denen Käyseren solchen hette controvertirt, vnd in disputat
@@ -449,132 +328,100 @@
           tractireten <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine
           käy[serliche] May[estät]</persName> dieselbe mit dem titulo Serenitatis, vermüg des
           vralten Styli Cancellariæ Imperialis, welcher nit so Leicht khönte verändert werden. Eß
-          wunderte Euch auch, daß man anietzo den titulum Majestatis begehren thete, nach dem <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
+          wunderte Euch auch, daß man anietzo den titulum Majestatis begehren thete, nach dem <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine Czarische May[estät]</persName>
           sich mit dem titulo Serenitatis gleich anderen konigen allbereit von villen Jahren hero in
           welchen die Correspondentz zwischen denen Römischen käyseren vnd denen Czaren wehrete,
-          continuirt hetten. Denselben titulum Serenitatis hette gegeben <persName
-            key="p0607"
-            ref="ce4a58fd-a089-4bf9-aac7-29556ad0be02">käyser Rudolphus 2<hi rendition="#sup">s</hi>
-          .</persName> noch A[nn]o 1600. den damahligen Czaren vnd <persName
-            key="p0608"
-            ref="ebb43a9e-45ed-4c2b-aa32-d6b92e220509">GrosFursten Boris Fiederowitz</persName> wie
+          continuirt hetten. Denselben titulum Serenitatis hette gegeben <persName key="p0607" ref="ce4a58fd-a089-4bf9-aac7-29556ad0be02">käyser Rudolphus 2<hi rendition="#sup">s</hi>
+          .</persName> noch A[nn]o 1600. den damahligen Czaren vnd <persName key="p0608" ref="ebb43a9e-45ed-4c2b-aa32-d6b92e220509">GrosFursten Boris Fiederowitz</persName> wie
           auch A[nn]o 1607. dem <persName key="p0609" ref="9beae8f3-032d-4c7f-83be-bef9618436b8">Czaren
-          Basilio Iwanowitz</persName>, vnd nach Ihme Seine Nachfolger, biß auff ietz regirente <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kay[serliche] May[estät] vnser
+          Basilio Iwanowitz</persName>, vnd nach Ihme Seine Nachfolger, biß auff ietz regirente <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kay[serliche] May[estät] vnser
           Grosser Herr</persName>
           <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seine
           Czarische May[estät]</persName> selbst hetten A[nn]o 1655. nit allein in briefen, sonderen
           auch mundtlich, von dem <persName key="p0611" ref="69d9425a-ad76-473f-8d64-df6203ca1ed2">Allegretti
           damahligen käyserl[ichen] Abgessandten</persName> den titulum Serenitatis angenemben, vnd
           allein begerth, das man daß </p>
-        <pb n="f. 20v" />
+        <pb n="f. 20v"/>
         <p> Wordt Czarische hinzue setzen wolte, welches geschehen; vnd haben Seine käy[serliche]
-          May[estät] diesen titulum allzeit gegen <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>, die
+          May[estät] diesen titulum allzeit gegen <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner Czarischen May[estät]</persName>, die
           denselben ohne widerredt acceptirt, gebraucht, vnangesehen daß andere könig vnd Potentaten
-          derselben die Mayestät gegeben. Eß khönten auch deren Exempel <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine Kayserl[iche] May[estät]</persName> nit
-          binden, noch bewegen, den alten Stylum der <orgName
-            key="o0061"
-            ref="b51ed9c7-dc7a-4d18-8a85-eb420c527441">Reichß Cancelley</orgName> also gleich
+          derselben die Mayestät gegeben. Eß khönten auch deren Exempel <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine Kayserl[iche] May[estät]</persName> nit
+          binden, noch bewegen, den alten Stylum der <orgName key="o0061" ref="b51ed9c7-dc7a-4d18-8a85-eb420c527441">Reichß Cancelley</orgName> also gleich
           zuveränderen. Die Ministros vnd käyserl[iche] Abgessandte anlangendt, hetten die Czarische
           Abgessandte hernach, von den kayserl[ichen] Ministris, so woll mundtlich, als
-          schrifftlich, solchen titulum acceptirt. Ia was noch mehr were, hettet <persName
-            key="p0599,p0600">Ihr käyserl[iche] Extraordinari Abgessandte</persName>, in Euer sieben
-          tag vor der ersten Audientz den <persName
-            key="p0605"
-            ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischen Ministern</persName>, auff
+          schrifftlich, solchen titulum acceptirt. Ia was noch mehr were, hettet <persName key="p0599,p0600">Ihr käyserl[iche] Extraordinari Abgessandte</persName>, in Euer sieben
+          tag vor der ersten Audientz den <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischen Ministern</persName>, auff
           begehren, schrifftlich communicirten oration gedachten titulum Serenitatis gesetzt, vnd
           als alles approbirt, vnd nichts darwider opponirt wurde, in der Audientz, vnd Conferentz
-          hernach Euch dessen gebraucht. Were dem nach <persName
-            key="p0599,p0600">Euch Abgessandten</persName>
-          vnmöglich, mit vnnß herüber ein vergleich zu treffen, vnd zueschliessen, das <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
+          hernach Euch dessen gebraucht. Were dem nach <persName key="p0599,p0600">Euch Abgessandten</persName>
+          vnmöglich, mit vnnß herüber ein vergleich zu treffen, vnd zueschliessen, das <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seine käy[serliche] May[estät]</persName>
           in dero briefen, Ihro Czarischen May[estät] den titulum Maiestatis geben möchten, dan Ihr
           zu diesen austrucklichen befelch haben müesset. Wan es aber umb dieses zu thuen, das Ihr
           den titulum Majestatis <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Seiner
           Czarischen May[estät]</persName> Eurer seits geben sollet, so weret Ihr nit zu wider,
-          sondern beräit vnd willich seiner <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Czarischen May[estät]</persName> hinfuro
-          denselben zuegeben: Jedoch mit zierlicher protestation das hierdurch <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seiner käy[serlichen] May[estät]</persName>
+          sondern beräit vnd willich seiner <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Czarischen May[estät]</persName> hinfuro
+          denselben zuegeben: Jedoch mit zierlicher protestation das hierdurch <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seiner käy[serlichen] May[estät]</persName>
           kein præiudicium erwacksen solle. <hi rendition="#sup">–</hi>In vbrigen<hi rendition="#sup">–5</hi>
         </p>
-        <pb n="f. 21" />
+        <pb n="f. 21"/>
         <p> thet Ihr wunschen das zwischen beeden Grossen Potentaten die bruderliche Freindschafft
           vnd Liebe möchte conservirt werden.</p>
-        <p>Auff solcheß von Euch käyserl[ichen] Abgessandten beschehene erbietten, haben Wür <persName
-            key="p0605"
-            ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Seiner Czarischen May[estät]
+        <p>Auff solcheß von Euch käyserl[ichen] Abgessandten beschehene erbietten, haben Wür <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Seiner Czarischen May[estät]
             Naher Bojarin, gehaimber Cantzler</persName>, vnd vnsere Collegen, vns befriediget, vnd
           gesagt, zu Euch käyserl[ichen] Extraordinari Abgessandten, Ihr wollet nur die eingebene
           proposition veränderen, vnd an statt des tituli Serenität, den titulum Mayestät in der
           selben setzen: dan was die Czarische vnd kayserliche Mayestäten beede hoche personen, vnd
           das tractament vnter Ihnen anbetriefft, hat es seinen geweisten weg. Weiter haben wür Euch
-          ersucht, das Ihr alles dieses Euren <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Grossen Herren Seiner kay[serlichen]
+          ersucht, das Ihr alles dieses Euren <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Grossen Herren Seiner kay[serlichen]
           May[estät]</persName> treulich referiren wollet: vnd habt <persName key="p0599,p0600">Ihr
           käyserl[iche] Abgessandte</persName> vnns beedes zu thuen versprochen.</p>
-        <p>Hierauff verlangen wür der <persName
-            key="p0605"
-            ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischen May[estät] Naher Bojarin vnd
+        <p>Hierauff verlangen wür der <persName key="p0605" ref="4646e15e-a5a3-4295-966a-0bfae4a5aa8f">Czarischen May[estät] Naher Bojarin vnd
           geheimber Cantzler</persName>, neben vnsern Collegen von Euch <persName key="p0599,p0600">Seiner
           kay[serlichen] May[estät] Extraordinari Abgessandten</persName> einen gegenbericht vnd
           vrkundt mit Eurer handtunterschrifft zuerhalten. </p>
         <p>Geschrieben in vnserß <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Grossen
           Herren Seiner Czarischen May[estät]</persName>
-          <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Residentzstatt Moscau</placeName>. Im Jahr on
+          <placeName key="g0001" ref="https://www.geonames.org/524894">Residentzstatt Moscau</placeName>. Im Jahr on
           erschaffung der welt 7189. Nach Christi geburth 1675. den 19<hi rendition="#sup">ten</hi>.
           Monathß Octobris.</p>
         <p>[Text written starting f. 16 to f. 21:] </p>
-        <pb n="f. 16" />
+        <pb n="f. 16"/>
         <p> Dieses mit dem vnter heutigen dato </p>
-        <pb n="f. 17" />
+        <pb n="f. 17"/>
         <p> Dato von vnnß vnterschribnen Russischen </p>
-        <pb n="f. 18" />
+        <pb n="f. 18"/>
         <p> gleichlautende Original, thun </p>
-        <pb n="f. 19" />
+        <pb n="f. 19"/>
         <p> Wür zu vrkhundt der warheit </p>
-        <pb n="f. 20" />
+        <pb n="f. 20"/>
         <p> Mit aignen handen vnterschreiben </p>
-        <pb n="f. 21" />
+        <pb n="f. 21"/>
         <p>
           <persName key="p0599,p0600">Seiner kay[serlichen] May[estät] Extraordinari Abgessandte
             Annibal Franz v[on] Bottonj Johan Carl Terlinger</persName>
         </p>
-        <p />
-        <pb n="f. 16v" />
+        <p/>
+        <pb n="f. 16v"/>
         <p>
           <persName>Великог[о] г[о]с[у]д[а]ря Великог[о] г[о]с[у]д[а]ря</persName>
         </p>
-        <pb n="f. 17v" />
+        <pb n="f. 17v"/>
         <p>
           <persName>его ц[а]рског[о] его ц[а]рского</persName>
         </p>
-        <pb n="f. 18v" />
+        <pb n="f. 18v"/>
         <p>
           <persName>величества величества</persName>
         </p>
-        <pb n="f. 19v" />
+        <pb n="f. 19v"/>
         <p>
           <persName>Посолской Посолской</persName>
         </p>
-        <pb n="f. 20v" />
+        <pb n="f. 20v"/>
         <p>
           диак диак
         </p>
-        <pb n="f. 21v" />
+        <pb n="f. 21v"/>
         <p>
           <persName key="p0509" ref="9e8e61e5-bffe-4e58-a0ad-531767a70c37">Василей Бобинин</persName>
           <persName key="p0457" ref="fa668dae-67be-445d-835a-1e9e855840d2">Емельян Украинцов</persName>
