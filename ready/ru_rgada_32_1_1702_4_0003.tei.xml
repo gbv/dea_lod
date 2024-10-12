@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,20 +100,16 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 January 1702 [o.s.]. – Proposal made to His <persName
-              key="p0463"
-              ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Imperial Majesty [Leopold
+          <title>20 January 1702 [o.s.]. – Proposal made to <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">His Imperial Majesty [Leopold
               I]</persName> by <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Prince
-            [Petr Alekseevich] Golitsyn</persName> through <persName
-              key="p0644"
-              ref="48e51792-20fb-4494-9723-dae9b8b18b42">Sir Imperial Vice-Chancellor, Count
+            [Petr Alekseevich] Golitsyn</persName> through <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Sir Imperial Vice-Chancellor, Count
               [Dominik Andreas] Kaunitz</persName>
           </title>
           <note>
@@ -124,44 +117,26 @@
               Russian copy.</bibl>
           </note>
         </head>
-        <pb n="f. 5" />
+        <pb n="f. 5"/>
         <p> Proposition, welche an <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">S[ein]e
-          Kayserliche May[estä]t</persName>, durch den <persName
-            key="p0644"
-            ref="48e51792-20fb-4494-9723-dae9b8b18b42">herren Reichs vice-Cantzler Grafen von
-            Kaunitz</persName> von dem <persName
-            key="p0654"
-            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürsten Galizin</persName> getahn worden.</p>
+          Kayserliche May[estä]t</persName>, durch den <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">herren Reichs vice-Cantzler Grafen von
+            Kaunitz</persName> von dem <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürsten Galizin</persName> getahn worden.</p>
         <p>1. Alß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische
           May[setä]t</persName> den zweyjährigen Stilstand mit den Türcken und Tartern geschloßen,
-          haben dieselbe sich erinnert, daß <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro kayserliche May[estä]t</persName> Mit
+          haben dieselbe sich erinnert, daß <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro kayserliche May[estä]t</persName> Mit
           dem <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">durchl[auchtigsten]
           könige</persName> und der Respublic Pohlen. d[en] 31 Marty 1683, bey allgemeinen
-          Reichßtage zu <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Warschau</placeName>, ein Off- und Defensiv-Alliance
+          Reichßtage zu <placeName key="g0009" ref="https://www.geonames.org/756135">Warschau</placeName>, ein Off- und Defensiv-Alliance
           aufgerichtet, Und sich dabey verbindlich gemachet, daß Sie beyderseits die
           durchlauchtigste Zaaren von Moscau zu accession sotahner Alliance wolten einladen und
-          bewegen. Alß nun nach abgestiltem innerlichen Unwesen, auf beschehnes Ansuchen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[ein]e Zaarische May[estä]t</persName>
-          die Gesandschafft nach <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Wien</placeName> abgefertiget, Umb die
-          Conditiones der Alliance einzurichten und anzuhören, So hat der Abgesandte <persName
-            key="p0713"
-            ref="8c8db2a9-ae53-491b-a148-795b467cb193">Kosmas Nikititz Neffimanoff</persName>,
+          bewegen. Alß nun nach abgestiltem innerlichen Unwesen, auf beschehnes Ansuchen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[ein]e Zaarische May[estä]t</persName>
+          die Gesandschafft nach <placeName key="g0005" ref="https://www.geonames.org/2761367">Wien</placeName> abgefertiget, Umb die
+          Conditiones der Alliance einzurichten und anzuhören, So hat der Abgesandte <persName key="p0713" ref="8c8db2a9-ae53-491b-a148-795b467cb193">Kosmas Nikititz Neffimanoff</persName>,
           in der 3ten Conference den 30 May 1696 auf die Antwohrt des kayserlichen Ministery, zu
           Ende des 6ten und zu anfange des 7<hi rendition="#sup">den </hi>paragraphi schließlich
           also repliciret, Wann die in der Alliance benandte 3 jahren verfloßen, soll doch bey
           beyden theilen die alte brüderliche liebe, und freundliche correspondance bey ihrer alten
-          krafft verbleiben. Wann aber beyden, so wol <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarischen</persName>= alß <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro kayserlichen May[estä]t</persName>
+          krafft verbleiben. Wann aber beyden, so wol <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarischen</persName>= alß <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro kayserlichen May[estä]t</persName>
           Magt gefallen mögte, diese Alliance gefällig, Und der feind gegen ein oder ander theil ein
           Offensiv-Krieg erheben würde, Und die 3 jahren wären verfloßen, so soll zwischen beyde
           theile, durch Abgesandte, so wol wegen verlängerung der Alliance als der Jahren weitere
@@ -169,18 +144,14 @@
         <p>Weilen dann nun sotahne Proposition geschehen, darauf von dem kayserlich[en] Ministerio
           referiret, Und <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro
           kayserliche May[estä]t</persName> es also beliebet, und also gleichsam eine Anfrage und
-          Einwilligung vorgegangen; So haben <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro Zaarische May[estä]t</persName> den
+          Einwilligung vorgegangen; So haben <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro Zaarische May[estä]t</persName> den
           wahren Sin und die Meinung der Alliance; |Nehmlich, wann der feind gegen ein oder ander
           theil ein Offensiv-krieg erheben würde:| nicht in die Gefahr setyen wollen, </p>
-        <pb n="f. 5v" />
+        <pb n="f. 5v"/>
         <p> es biß auf die Nachkommen auszustellen, sondern vielmehr Unter itziger Regierung der
           alten Und deren Ministros, auf allen fall nötige vorsichtigkeit gebrauchen. Maßen die
           Pforte mit <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Seiner
-          kayserl[iche]n May[estä]t</persName> nur auf 25 jahren mit <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r Zaarischen May[estä]t</persName>
+          kayserl[iche]n May[estä]t</persName> nur auf 25 jahren mit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r Zaarischen May[estä]t</persName>
           aber auf 30 Jahren Stilstand gemachet, Und dadurch beyde voraus zu verstehen gegeben, daß
           daß Absehen sey, nach verfließung des Stilstandes, daß verlohrne <hi rendition="#sup">–</hi>der
           Gewohnheit nach<hi rendition="#sup">–29 </hi>wieder zu gewinnen, Und dahin bedacht zu seyn
@@ -188,8 +159,7 @@
           allein die Alliance-tractaten wieder vor die hand zu nehmen, Und die jahre zu verlängern,
           biß daß die kayserliche Alliance mit Pohlen Ihre vollige würckung erlanget, welche also
           lautet: Eß soll Unter beyde Majesteten Und deren Nachfolgere in der regirung, dero reiche
-          und länder, eine off- und defensiv verbündnüs, Jene, nehmlich die offensiv-bündnüs, <hi
-            rendition="#sup">–</hi>biß daß mann<hi rendition="#sup">–31 </hi>einen gloriosen und
+          und länder, eine off- und defensiv verbündnüs, Jene, nehmlich die offensiv-bündnüs, <hi rendition="#sup">–</hi>biß daß mann<hi rendition="#sup">–31 </hi>einen gloriosen und
           sichern frieden mit dem Gemeinen feinde zu erhalten; diese, nehmlich die
           defensiv-alliance, damit der frieden beständig und ewig währen solte. So hat auch daß
           Instrument der kayserlich[en] und Polnischen Alliance, sotahnes Engagement dahin
@@ -199,34 +169,24 @@
           May[estä]t</persName> solche Alliance, entweder nun oder nechst hernach :|alß auf welche
           fälle der <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürst</persName>
           mit gnugsahmer vollmacht u[nd] Instruction zu tractiren und zu schließen versehen ist|:
-          auf mehrere theile der Weld extendiren wollen, solches überläßet der <persName
-            key="p0654"
-            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürst</persName> der wohl und dem belieben <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro kayserlich[en] May[estä]t</persName>,
+          auf mehrere theile der Weld extendiren wollen, solches überläßet der <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürst</persName> der wohl und dem belieben <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro kayserlich[en] May[estä]t</persName>,
           Und wil nach erhaltener Antwohrt darüber sich weiter zu erklähren Gelegenheit nehmen.</p>
-        <p>Wird es der jnclination und dem belieben <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">S[eine]r kayserlich[en] May[estä]t</persName>
+        <p>Wird es der jnclination und dem belieben <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">S[eine]r kayserlich[en] May[estä]t</persName>
           heimgestellet, Ob es bey so guhten willen so wol der regirenden Herschafften und
           Ministern, die Sie gegen ein ander blicken laßen, rahtsahm sey, daß Sie beyderseits </p>
-        <pb n="f. 6" />
+        <pb n="f. 6"/>
         <p> durch gestiftete Schwägerschafft und verheyrahtungen sich je mehr und mehr verbindlich
           machen mögten, biß daß nach gemachten præparatorien und Anstalten zu allem so ins
           künfftige nötig seyn mögte, die Stilstands Jahren verfließen und der Glückliche Wunsch
           erfüllet werde, beyde kirchen, Nehmlich die Römische und Griechische Mit Sieges zeichen zu
           becrönen. daß Ubrige, so zu befestigung beyder Sicherheit Und auf allen fall zu einer
           vorsichtigkeit gereichen mögte, solches wird biß zu dem Eingange der zukünfftigen
-          Tractaten vorbehalten. Gegeben <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Wien</placeName>, d[en] 20 January
+          Tractaten vorbehalten. Gegeben <placeName key="g0005" ref="https://www.geonames.org/2761367">Wien</placeName>, d[en] 20 January
           von der Gebuhrt Unsers Erlösers 1702.</p>
-        <p />
-        <pb n="f. 6v" />
+        <p/>
+        <pb n="f. 6v"/>
         <p> Список с предложения <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">к[нязя]
-          Петра Голицына</persName>. Подал <persName
-            key="p0656"
-            ref="1bcbaa4f-ff61-4e33-995c-16095e7f0f5f">Паткул[ь]</persName>.</p>
+          Петра Голицына</persName>. Подал <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0655" xml:space="default" ref="1bcbaa4f-ff61-4e33-995c-16095e7f0f5f">Паткул[ь]</persName>.</p>
       </div>
     </body>
   </text>
