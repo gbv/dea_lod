@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">The first proposal submitted by the Russian Minister, Prince Petr Alekseevich Golitsyn, to the Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz</title>
+        <title type="main" xml:lang="en">The first proposal submitted by the Russian Minister, Prince Petr Alekseevich Golitsyn, to the Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz</title>
         <author xml:lang="en">Petr</author>
         <author xml:lang="en">Alekseevich</author>
         <author xml:lang="en">Golitsyn</author>
@@ -99,77 +94,32 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 January 1702 (o.s.). – The first proposal submitted by <persName
-              key="p0654"
-              ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">the Russian Minister, Count Petr Alekseevich Golitsyn</persName>, to the <persName
-              key="p0644"
-              ref="48e51792-20fb-4494-9723-dae9b8b18b42">Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz</persName>
+          <title>20 January 1702 (o.s.). – The first proposal submitted by <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">the Russian Minister, Count Petr Alekseevich Golitsyn</persName>, to <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">the Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1702, no. 4, f. 1v–2v. Translation into Latin from a Russian copy. </bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <pb n="f. 1v" />
-        <p />
-        <p>Post Exhibitionem Creditivj ad <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Sacram Cæsaream Majestatem</persName>, et Super Negotia Com[m]issa interrogatus, in Manus <persName
-            key="p0644"
-            ref="48e51792-20fb-4494-9723-dae9b8b18b42">Excellentissimj Domini Vice-Cancellary Imperialis, Comitis de Kaunitz</persName>, Mensem <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">suæ Czareæ Majestatis</persName> hisce declarat</p>
+        <p/>
+        <p/>
+        <pb n="f. 1v"/>
+        <p/>
+        <p>Post Exhibitionem Creditivj ad <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Sacram Cæsaream Majestatem</persName>, et Super Negotia Com[m]issa interrogatus, in Manus <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Excellentissimj Domini Vice-Cancellary Imperialis, Comitis de Kaunitz</persName>, Mensem <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">suæ Czareæ Majestatis</persName> hisce declarat</p>
         <p>
           <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Princeps Gallizin</persName>.</p>
         <p>
-          <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Sua Czarea Majestas</persName> subter Conclusionem Biennalis Armistity Turcico Tartarici, in memoriam reuocavit: quōd <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">sacra Cæsarea Majestas</persName>, cum <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">Serenissimo Rege</persName> et Republ[ica] Poloniarum die .31. Marty Anno .1683. Generalium Comitiorum, <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Varsaviæ</placeName> percusserit Foedus Offensivum et Defensiuum, se invicem taliter exhortantes: quatenus Utraq[ue] Pars serenissimos Moscorum </p>
-        <pb n="f. 2" />
-        <p> Czaros Omni Curā ad hanc societatem invitarent, flecterentq[ue]. Posteaquam igitur rebus Domi Compositis, ex inuitatu, <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">sua Czarea Majestas</persName> Legationem <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Viennam</placeName> expediuisset, Foederis Conditiones audiendi amplectendi; <persName
-            key="p0713"
-            ref="8c8db2a9-ae53-491b-a148-795b467cb193">Ablegatus Cosmas Nikiticz Nefimōnow</persName>, in Tercia Conferentia die .30. May 1696. ad Responsionem Excel[lenti]s[sim]j Ministery Cæsarei, paragraphis fin .6.<hi
-            rendition="#sup">ti</hi> initio .7.<hi
-            rendition="#sup">mi</hi> Conclusive, regessit. tribus Annis Foederis exspirantibus, utrique Parti, Magnis Dominis, Fraternus pristinus Amor, et Amicabile Commercium Correspondentiæ manebunt in suo pristino Vigore et affectu; si autem utrisq[ue] Magnis Dominis, tam <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">suæ Czareæ</persName>, quam <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Cæsaræ Majestati</persName>, cordi esset, acceptabile hoc Foedus? et Inimicus intenderet adversūs utramq[ue] Partem Offensivum Bellum promouere? et jam elapsi essent Illi Tres Anni? tunc inter Utramq[ue] Partem, tam de Foederis, quām Annorum Prolongatione, posset fieri per Internuntios ulterios Tractatio et Prolongatio. Juxta quam Propositionem, et desuper factam Excelsi Ministery Relationem, atq[ue] subsecutam sacræ <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Cæsareæ Majestis</persName> Ratihabitionem, tanquam stipulationis et Compromissionis antecedentis, sua <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czarea Majestas</persName> sensum Foederis |:si Inimicus intenderet, adversūs utramq[ue] Partem, Offensiuum Bellum promovere:| nequaquam uellet periculo Posteritatis exponere; sed nunc potiūs inter senes Regnantes et Ministros, euentualiter in Cautelam prævenire, posteaquam Fulgida Porta Cum <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">sacra Cæsarea Majestate</persName> ad 25 Annos Armistitium pepegit; Ambos igitur jam præmonuit: sibi præfixum et præconceptum esse, Finitis Armistitys, Amissa repetendi more pristino, dum pugnarent singuli uincerentur omnes. Quamobrem tam Foederis Reassumptionem, quam Annorum Prolongationem anticipandi Cara superest, usq[ue] ad plenum effectum, Foedere Cæsareo-Polonico expressum: sit ergo </p>
-        <pb n="f. 2v" />
-        <p> Inter altē memoratas Majestates Eorumq[ue] in Throno successores, Regna et Provincias, Offensivj et Defensiuj Belli societas! Prima |:scilicet Offensivj:| ad gloriosam et stabilem cum Hoste Communj utriusq[ue] Partis Pacificationem duratura. Altera |:Defensivj:| ad ejusdem Pacis perennem Conseruationem perpetuum permansura. Porrō Instrumentum Cæsareo Polonicum Foedus quidem ita restrinxit: Eadem Belli societas limitatur solius Bellj Turcicj necessitate; nec ad aliud qodvis Bellum ullo prorsūs Colore et prætu extendi unquam poterit; an verō nunc, vel proximē imposterum |:prout eventualiter <persName
-            key="p0654"
-            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Princeps</persName> jam sufficientem Instructionem et Plenipotentiam ad tractandum et concludendum habet:| <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">sua Cæsarea Majestas</persName> Foedus in plures Mundi Partes gratiosissime extensum esse velit: id <persName
-            key="p0654"
-            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Princeps</persName> optionj et Arbitrio submittit. Desuper ex Responsis ulteriorem Ansam prensaturus. Actum <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Viennæ</placeName> di 20. January a Nativitate saluatoris Nostri Anno .1702. ab orbe Condito <hi
-            rendition="#sup">–</hi>.7210. ./.<hi rendition="#sup">–18</hi>
+          <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Sua Czarea Majestas</persName> subter Conclusionem Biennalis Armistity Turcico Tartarici, in memoriam reuocavit: quōd <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">sacra Cæsarea Majestas</persName>, cum <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">Serenissimo Rege</persName> et Republ[ica] Poloniarum die .31. Marty Anno .1683. Generalium Comitiorum, <placeName key="g0009" ref="https://www.geonames.org/756135">Varsaviæ</placeName> percusserit Foedus Offensivum et Defensiuum, se invicem taliter exhortantes: quatenus Utraq[ue] Pars serenissimos Moscorum </p>
+        <pb n="f. 2"/>
+        <p> Czaros Omni Curā ad hanc societatem invitarent, flecterentq[ue]. Posteaquam igitur rebus Domi Compositis, ex inuitatu, <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">sua Czarea Majestas</persName> Legationem <placeName key="g0005" ref="https://www.geonames.org/2761367">Viennam</placeName> expediuisset, Foederis Conditiones audiendi amplectendi; <persName key="p0713" ref="8c8db2a9-ae53-491b-a148-795b467cb193">Ablegatus Cosmas Nikiticz Nefimōnow</persName>, in Tercia Conferentia die .30. May 1696. ad Responsionem Excel[lenti]s[sim]j Ministery Cæsarei, paragraphis fin .6.<hi rendition="#sup">ti</hi> initio .7.<hi rendition="#sup">mi</hi> Conclusive, regessit. tribus Annis Foederis exspirantibus, utrique Parti, Magnis Dominis, Fraternus pristinus Amor, et Amicabile Commercium Correspondentiæ manebunt in suo pristino Vigore et affectu; si autem utrisq[ue] Magnis Dominis, tam <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">suæ Czareæ</persName>, quam <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Cæsaræ Majestati</persName>, cordi esset, acceptabile hoc Foedus? et Inimicus intenderet adversūs utramq[ue] Partem Offensivum Bellum promouere? et jam elapsi essent Illi Tres Anni? tunc inter Utramq[ue] Partem, tam de Foederis, quām Annorum Prolongatione, posset fieri per Internuntios ulterios Tractatio et Prolongatio. Juxta quam Propositionem, et desuper factam Excelsi Ministery Relationem, atq[ue] subsecutam sacræ <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Cæsareæ Majestis</persName> Ratihabitionem, tanquam stipulationis et Compromissionis antecedentis, sua <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czarea Majestas</persName> sensum Foederis |:si Inimicus intenderet, adversūs utramq[ue] Partem, Offensiuum Bellum promovere:| nequaquam uellet periculo Posteritatis exponere; sed nunc potiūs inter senes Regnantes et Ministros, euentualiter in Cautelam prævenire, posteaquam Fulgida Porta Cum <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">sacra Cæsarea Majestate</persName> ad 25 Annos Armistitium pepegit; Ambos igitur jam præmonuit: sibi præfixum et præconceptum esse, Finitis Armistitys, Amissa repetendi more pristino, dum pugnarent singuli uincerentur omnes. Quamobrem tam Foederis Reassumptionem, quam Annorum Prolongationem anticipandi Cara superest, usq[ue] ad plenum effectum, Foedere Cæsareo-Polonico expressum: sit ergo </p>
+        <pb n="f. 2v"/>
+        <p> Inter altē memoratas Majestates Eorumq[ue] in Throno successores, Regna et Provincias, Offensivj et Defensiuj Belli societas! Prima |:scilicet Offensivj:| ad gloriosam et stabilem cum Hoste Communj utriusq[ue] Partis Pacificationem duratura. Altera |:Defensivj:| ad ejusdem Pacis perennem Conseruationem perpetuum permansura. Porrō Instrumentum Cæsareo Polonicum Foedus quidem ita restrinxit: Eadem Belli societas limitatur solius Bellj Turcicj necessitate; nec ad aliud qodvis Bellum ullo prorsūs Colore et prætu extendi unquam poterit; an verō nunc, vel proximē imposterum |:prout eventualiter <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Princeps</persName> jam sufficientem Instructionem et Plenipotentiam ad tractandum et concludendum habet:| <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">sua Cæsarea Majestas</persName> Foedus in plures Mundi Partes gratiosissime extensum esse velit: id <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Princeps</persName> optionj et Arbitrio submittit. Desuper ex Responsis ulteriorem Ansam prensaturus. Actum <placeName key="g0005" ref="https://www.geonames.org/2761367">Viennæ</placeName> di 20. January a Nativitate saluatoris Nostri Anno .1702. ab orbe Condito <hi rendition="#sup">–</hi>.7210. ./.<hi rendition="#sup">–18</hi>
         </p>
         <p>Сие латинское писмо писано против вышеписанного руского слово в слово.</p>
         <p>[Down below:] Пропозицыя первая.</p>
