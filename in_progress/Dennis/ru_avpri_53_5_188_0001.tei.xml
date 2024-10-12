@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,10 +94,10 @@
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -130,9 +127,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_188_0001_ready.tei.xml?place_annotation_20240306170916376",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_188_0001.tei.xml?place_annotation_20240306170916376",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-06T16:09:16.376Z",
+	"dcterms:modified": "2024-03-06T16:09:16.376Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -143,10 +141,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_188_0001_ready.tei.xml?place_annotation_20240306170916376#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_188_0001.tei.xml?place_annotation_20240306170916376#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_188_0001_ready.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_188_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -154,17 +152,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_avpri_53_5_188_0001_ready.tei.xml?place_annotation_20240306170916376#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_188_0001.tei.xml?place_annotation_20240306170916376#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/date/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
+		"@id": "https://www.geonames.org/2618425",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -172,13 +170,11 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.6.0"
 	}
-}
-                </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <div type="letter">
@@ -190,10 +186,10 @@
           </title>
         </head>
         <opener>
-          <note type="setting">
+          
             <p>AVPRI, fond 53, opis 53/5, no. 188, f. 12-13. French original.</p>
-            <pb cert="high" n="f. 12" xml:space="default" />
-          </note>
+            <pb cert="high" n="f. 12" xml:space="default"/>
+          
           <salute>Monsieur,</salute>
         </opener>
         <p>Je ne croyois pas de parvenir sitôt à satisfaire aux demandes de Vôtre Excellence,
@@ -209,7 +205,7 @@
           mette seulement
           à l'occasion du
         </p>
-        <pb cert="high" n="f. 12v" xml:space="default" />
+        <pb cert="high" n="f. 12v" xml:space="default"/>
         <p>decés d'un Roi de Dannemarc. Elle se réfere de ce qui concerne celui des Reines, Princes
           héréditaires, d'autres Princes et Princesses, comme aussi les Princes du sang; à
           l'ordonance Sub
@@ -233,12 +229,12 @@
               Copenhague
             </placeName>
           </date>
-          <date />
+          <date/>
           <date>ce 7. / 18. mars 1766.</date>
           <signed>Serviteur</signed>
           <signed>
             <persName key="p0245">Jean Albert Korff</persName>
-            <pb cert="high" n="f. 13" xml:space="default" />
+            <pb cert="high" n="f. 13" xml:space="default"/>
           </signed>
           <signed>P:S: C'est dans la nuit d'aujourd'hui, que les ceremonies de l'enterrement se
             feront ici.
