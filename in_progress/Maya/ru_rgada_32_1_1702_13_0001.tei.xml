@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,19 +95,15 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2 September 1702 (n.s.). – Letter from <persName
-              key="p0655"
-              ref="fe16370c-0541-4415-9ca6-8ffe259e2617">Active Privy Councilor Johann Reinhold
-            Patkul</persName> to the <persName
-              key="p0277"
-              ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Russian Chancellor, Count Fedor Alekseevich
+          <title>2 September 1702 (n.s.). – Letter from <persName key="p0655" ref="fe16370c-0541-4415-9ca6-8ffe259e2617">Active Privy Councilor Johann Reinhold
+            Patkul</persName> to  <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian Chancellor, Count Fedor Alekseevich
             Golovin</persName>
           </title>
           <note>
@@ -118,133 +111,77 @@
               German into Russian: RGADA, fond 32, opis 1, 1702, no. 13, f. 18–29v.</bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <pb n="f. 12" />
+        <p/>
+        <p/>
+        <pb n="f. 12"/>
         <p> Hochwolgebohrner Herr,</p>
         <p>hochgeehrter herr Groß-Cantzler,</p>
         <p>hoher Gönner.</p>
-        <p>Nach der Unglücklichen battaille zwischen Pohlen und Schweden, bib Ich von dem <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige von Pohlen</persName> so
-          separirt worden, daß es Unmöglich gewesen ist, zu Ihme zu kommen, wie dann auch der <persName
-            key="p0659"
-            ref="158f6632-2cf4-4673-880c-42eb9cd89916">Fürst Dolgoruka</persName> sich
+        <p>Nach der Unglücklichen battaille zwischen Pohlen und Schweden, bib Ich von dem <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige von Pohlen</persName> so
+          separirt worden, daß es Unmöglich gewesen ist, zu Ihme zu kommen, wie dann auch der <persName key="p0659" ref="158f6632-2cf4-4673-880c-42eb9cd89916">Fürst Dolgoruka</persName> sich
           desfals nacher Schlesien hat begeben müßen, und, ob Er es schon einige mahlen versuchet,
           ists Ihme dennoch unmöglich gewesen durchzukom[m]en, zumahlen der Feind sich so gesetzet
           hat, daß der <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig von
           Pohlen</persName> von Sachsen gantz abgeschnitten ist, auch so, daß mann die Communication
           der Posten nicht mehr haben kan. Unterdeßen habe Ich nicht unterlaßen Mich hirher zu
-          begeben, umb hiesigen hofes Conduite, wie weit derselbe bey jetzig[en] Conjoncturen zu <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          begeben, umb hiesigen hofes Conduite, wie weit derselbe bey jetzig[en] Conjoncturen zu <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           desseins könte oder wolte concurriren, zu obseruiren. Anfänglich habe gefunden, daß mann
           alhir gantz bestürtzt und furchtsam gewesen ist, weilen der Schwede mit zwey arméen so
-          nahe an die kayserlichen Erblande stehet, und der <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> dieselben von trouppen so
+          nahe an die kayserlichen Erblande stehet, und der <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> dieselben von trouppen so
           entblößet hat, daß die Schweden biß an Wien gehen könten </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p> ohne den allergeringesten Wiederstand zu befürchten. Wesfals Sie sich in allem gantz
           kaltsinnig angestellet, und hochbeteuret, daß Sie recht übel dran wären, weil der
           Polnische hof Sie heßlich verleitet und versichert hätte, daß der Frieden mit Schweden
-          erfolgen würde, so daß der <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> keine Ungelegenheit zu
+          erfolgen würde, so daß der <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> keine Ungelegenheit zu
           fürchten solte haben. Insonderheit sind Sie alhir auf den Polnischen hof desfals
           Ungehalten, daß der <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig
-          von Pohlen</persName> die Alliance mit <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">dem kayser</persName>, ins feld mit geführet,
+          von Pohlen</persName> die Alliance mit <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">dem kayser</persName>, ins feld mit geführet,
           welches die Schweden bey der letzten battaille bekom[m]en, und ist nunmehro alles
           verrahten; Wesfals der <persName key="p0193" ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">könig
           von Schweden</persName>
           <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">dem
-          kayser</persName> sagen laßen, daß Er nunmehro wol sehe, wie <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">der kayser</persName> gegen Ihme gesonnen
-          wäre, und wolte Er sich darnach auch richten. Mann hat auch Nachricht, daß der <persName
-            key="p0658"
-            ref="9cf691c0-10e4-4326-872c-6408a74b463a">Schwedische Minister</persName>
-          der im <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">Haag</placeName> ist, eine Geheime Conference mit einem <persName
-            key="p0657"
-            ref="05f39ffa-6ed2-429b-bf79-cdce1b8aaab1">frantzösischen Ministro</persName>
+          kayser</persName> sagen laßen, daß Er nunmehro wol sehe, wie <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">der kayser</persName> gegen Ihme gesonnen
+          wäre, und wolte Er sich darnach auch richten. Mann hat auch Nachricht, daß der <persName key="p0658" ref="9cf691c0-10e4-4326-872c-6408a74b463a">Schwedische Minister</persName>
+          der im <placeName key="g0004" ref="https://www.geonames.org/2747373">Haag</placeName> ist, eine Geheime Conference mit einem <persName key="p0657" ref="05f39ffa-6ed2-429b-bf79-cdce1b8aaab1">frantzösischen Ministro</persName>
           zu Aken gehabt, und daß zwischen Schweden und bäyern einige Intriguen obhanden sind. Bey
           so gestalten Sachen habe Ich diesem Hofe daß Expediens vorgeschlagen, daß Sie zwahr
           Schweden wegen der Gegenwärtigen Gefahr caressiren und öfentlich nichts tuhn oder sich
           mercken laßen solten; Sie solten aber heimlich Dännemarck und Brandenburg disponi- </p>
-        <pb n="f. 13" />
-        <p> ren, daß Sie mit Schweden auch brechen mögten; So wolten <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> es so
+        <pb n="f. 13"/>
+        <p> ren, daß Sie mit Schweden auch brechen mögten; So wolten <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> es so
           hoch achten, als wann <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">der
-          kayser</persName> selbst gebrochen hätte, Und desfals würden <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          kayser</persName> selbst gebrochen hätte, Und desfals würden <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">dem kayser</persName> solche
-          Freundschafften in seinen Angelegenheiten wiederumb erweisen, daß <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">der kayser</persName> dabey daß Exempel eines
-          treuen Freundes und Allyrten würde spüren. Uber solche Sache habe Ich müßen <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">dem kayser</persName> ein projet
-          ins Geheim geben, wobey Er nicht mehr als einen einigen Minister, nehmlich den <persName
-            key="p0644"
-            ref="48e51792-20fb-4494-9723-dae9b8b18b42">Grafen Caunitz</persName> zu sich
+          Freundschafften in seinen Angelegenheiten wiederumb erweisen, daß <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">der kayser</persName> dabey daß Exempel eines
+          treuen Freundes und Allyrten würde spüren. Uber solche Sache habe Ich müßen <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">dem kayser</persName> ein projet
+          ins Geheim geben, wobey Er nicht mehr als einen einigen Minister, nehmlich den <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Grafen Caunitz</persName> zu sich
           genom[m]en, Und Mir befehlen laßen, es solte daß Werck in Höchstem Geheim gehalten werden,
-          weil Sie sich vorsehen müsten. Und ist die Sache so weit gedyen, daß <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> ein
+          weil Sie sich vorsehen müsten. Und ist die Sache so weit gedyen, daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> ein
           gnädiges Gefallen werden empfinden, zumahlen mann, nachdem Ich Ihnen gewiesen, wie große
-          hülfe und Freundschafften Sie von <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> könten
-          genießen, gespüret hat, daß Sie sich werden laßen angelegen seyn mit <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> wol zu
+          hülfe und Freundschafften Sie von <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> könten
+          genießen, gespüret hat, daß Sie sich werden laßen angelegen seyn mit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> wol zu
           stehen. Auf den Polnischen hof aber sind Sie sehr Ungehalten, und klagen, daß mann hir
-          groß versprechen getahn und nichts gehalten denn der <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig von Pohlen</persName> hat versichern
+          groß versprechen getahn und nichts gehalten denn der <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig von Pohlen</persName> hat versichern
           laßen, Er wolte 8000 </p>
-        <pb n="f. 13v" />
+        <pb n="f. 13v"/>
         <p> Man nach Italien zu des kaysers dienst marchiren laßen, weil Er ohne dem 28000 Man gegen
-          Schweden ins feld stellen wolte. Auf solche versicherung hat der <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> 300000 R[eichs]th[a]l[e]r
+          Schweden ins feld stellen wolte. Auf solche versicherung hat der <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> 300000 R[eichs]th[a]l[e]r
           an den <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig von Pohlen</persName>
-          würcklich zahlen laßen, in hofnung, daß die Sächsische armée, des <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">königs von Pohlen</persName> versprechen
+          würcklich zahlen laßen, in hofnung, daß die Sächsische armée, des <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">königs von Pohlen</persName> versprechen
           gemäß 36 m[ilia] Man starck seyn würde. Unverhoft aber findet sich daß Gegenspiel, und
           läßet der <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig von
             Pohlen</persName> die 8 m[ilia] Man nach Pohlen marchiren, welche vor des kaysers Geld
           gerichtet sind. desfals ist die kayserliche armée in Italien so schwach geworden, daß Sie
-          diß Jahr ihre desseins nicht haben volführen können. Sie wündschen nur einmal von dem <orgName
-            key="o0012"
-            ref="76593cc3-a621-46b7-8e1c-532ad73e99af">Polnischen hofe</orgName> loß zu
+          diß Jahr ihre desseins nicht haben volführen können. Sie wündschen nur einmal von dem <orgName key="o0012" ref="76593cc3-a621-46b7-8e1c-532ad73e99af">Polnischen hofe</orgName> loß zu
           seyn, so wollen Sie hernach nichts mehr mit demselben zu tuhn haben so lange der beuchling
           dort ist, welchen Sie hir vor einen betrieger und Ertz-Schweden halten. die Polnischen
-          Ministri haben hir und allenthalben vorgegeben, der <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig von Pohlen</persName> hätte nicht von <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
-          solche assistence als Er haben solte. Weilen nun solches <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          Ministri haben hir und allenthalben vorgegeben, der <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig von Pohlen</persName> hätte nicht von <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          solche assistence als Er haben solte. Weilen nun solches <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           reputation sehr præjudicirlich war an diesem </p>
-        <pb n="f. 14" />
-        <p> hofe nicht allein, sondern auch allenthalben; So habe Ich dem <persName
-            key="p0654"
-            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürsten Galitzin</persName> eine volkom[m]ene
-          information gegeben, von allem, waß zwischen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> und dem <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige von Pohlen</persName>
+        <pb n="f. 14"/>
+        <p> hofe nicht allein, sondern auch allenthalben; So habe Ich dem <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürsten Galitzin</persName> eine volkom[m]ene
+          information gegeben, von allem, waß zwischen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> und dem <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige von Pohlen</persName>
           Gehandelt worden, und wie mann zu birsen einen Tractat gemachet hätte, darin versprochen
           worden, daß Sie beyde wieder Schweden den krieg mit Macht fortsetzen, sich conjungiren,
           Und Niemand ohne des andern vorwißen friedens-propositiones anhören solte; deme allen aber
@@ -255,119 +192,73 @@
           Geld von <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische
           May[estä]t</persName> empfangen und allerhand andere Sachen getahn die mann nicht sagen
           mögte. darüber hat der <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">
-          kayser</persName> solche satisfaction gehabt, Und saget anitzo der gantze <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">käyserliche hof</orgName>, daß
+          kayser</persName> solche satisfaction gehabt, Und saget anitzo der gantze <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">käyserliche hof</orgName>, daß
           der <orgName key="o0012" ref="76593cc3-a621-46b7-8e1c-532ad73e99af">Polnische hof</orgName>
           mit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische
-          May[estä]t</persName> gahr übel verfahren sey. Und daß hingegen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> als ein
+          May[estä]t</persName> gahr übel verfahren sey. Und daß hingegen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> als ein
           redlicher und treuer Allyrter sich ver- </p>
-        <pb n="f. 14v" />
+        <pb n="f. 14v"/>
         <p> halten habe. Darüber sind nun die Polnische Ministri sehr corrumpirt im kopfe, weil Sie
-          sehen, daß Ihre betriegereyen nicht haben wollen angehen, indehme Sie alle Schuld auf <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          sehen, daß Ihre betriegereyen nicht haben wollen angehen, indehme Sie alle Schuld auf <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           haben werfen wollen, welches Ihnen aber nicht gelungen ist, so daß Sie selbst Schande
           davon haben, und Ihnen allenthalben vorgeworfen wird, daß mann nicht redlich mit
           Zaarischer May[estä]t Umbgangen wäre.</p>
         <p>Ew[er] Excellence wißen gar wohl, daß dieser hof natürlicher weise leicht ombrage faßet
-          und jaloux ist. derowegen habe Ich getrachtet, Ihnen alle Impressiones, die Sie sich über <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          und jaloux ist. derowegen habe Ich getrachtet, Ihnen alle Impressiones, die Sie sich über <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           aggrandissement mögten figuriren, zu benehmen. Mann hat Mir viele objectiones gemachet,
           die Ich Ihnen aber solchergestalt resoluiret habe, daß Sie zufrieden sind. denn, weil mit
-          dem Polnischen hofe, nichts solides und sichers vor <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> zu hofen
+          dem Polnischen hofe, nichts solides und sichers vor <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> zu hofen
           ist, zumahlen der <persName key="p0665" ref="76a270c4-64b6-42d3-bc77-38b76e7b8008">
           beichling</persName> in die Schwedische und Hannoversche Parthey stecket, Und nim[m]er
-          etwas Guhtes von dem Menschen zu hoffen ist; So ist hochnötig, daß <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> durch
-          dännemarck und den <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName>
+          etwas Guhtes von dem Menschen zu hoffen ist; So ist hochnötig, daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> durch
+          dännemarck und den <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName>
           zu Ihrem zweg gereichen mögen. Mit Franckreich ist absolutè nichts </p>
-        <pb n="f. 15" />
+        <pb n="f. 15"/>
         <p> zu tuhn, weil deßen Interesse mit Schweden und der Ottomanischen Pforte so verknüpfet
           ist, daß franckreich sich nicht davon abgeben wil, noch ein solides Concert mit demselben
           vor <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische
           May[estä]t</persName> zu machen ist. denn Ich habe schon eine Conference vermöge
           Zaarischen May[estä]t ordre gehalten, und werde mündlich relation von allem abstatten.
-          Gleichfals werde Ich von beschaffenheit und disposition dieses hofes, <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          Gleichfals werde Ich von beschaffenheit und disposition dieses hofes, <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           solche Nachricht bringen, daß Sie darnach Ihre mesures werden faßen Und verläßliche
           Anstalten in vielen stücken machen können.</p>
         <p>den <orgName key="o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">brandenburgischen hof</orgName>
-          trauet mann hir nicht im geringsten, und hält mann Ihn Alhir viel Gefährlicher als den <orgName
-            key="o0015"
-            ref="aa7d6cf5-0a45-4686-955d-58ada08fd860">Schwedischen</orgName> selbst.
-          denn es Gahr gewiß, daß brandenburg heimlich in <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">paris</placeName>
-          tractaten machet, Ob es schon mit dem <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> und den Allyrten eine
-          Alliance hat. Mit dännemarck aber stehet dieser <orgName
-            key="o0034"
-            ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">hof</orgName> sehr wol, und sind geneigt sich
-          noch beßer zu setzen, Nachdemmahlen der <persName
-            key="p0668"
-            ref="8186b75b-6610-4809-a694-032b6ab22399">königin in Engelland</persName>
-          <persName
-            key="p0667"
-            ref="2ee17b9b-80e2-4ef6-917f-0b45beedcd2e">Ihr Gemahl, Prince Georg</persName>,
+          trauet mann hir nicht im geringsten, und hält mann Ihn Alhir viel Gefährlicher als den <orgName key="o0015" ref="aa7d6cf5-0a45-4686-955d-58ada08fd860">Schwedischen</orgName> selbst.
+          denn es Gahr gewiß, daß brandenburg heimlich in <placeName key="g0019" ref="https://www.geonames.org/2988507">paris</placeName>
+          tractaten machet, Ob es schon mit dem <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> und den Allyrten eine
+          Alliance hat. Mit dännemarck aber stehet dieser <orgName key="o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">hof</orgName> sehr wol, und sind geneigt sich
+          noch beßer zu setzen, Nachdemmahlen der <persName key="p0668" ref="8186b75b-6610-4809-a694-032b6ab22399">königin in Engelland</persName>
+          <persName key="p0667" ref="2ee17b9b-80e2-4ef6-917f-0b45beedcd2e">Ihr Gemahl, Prince Georg</persName>,
           welcher des <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">königs von
           dännemarck</persName>
           <persName key="p0699" ref="01a504c7-90c8-43c7-be64-a9f482f7c564">
           Vatter</persName> bruder ist, hofentlich </p>
-        <pb n="f. 15v" />
-        <p> zum könige von Engelland wird declariret werden, woran der <persName
-            key="p0463"
-            ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> nach allen kräfften mit
+        <pb n="f. 15v"/>
+        <p> zum könige von Engelland wird declariret werden, woran der <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName> nach allen kräfften mit
           arbeitet. Wann daß geschiehet, so wird dännemarck sehr considerabel werden, Und nicht
           Unterlaßen gegen Schweden daß jetzige tempo zu obseruiren, Insonderheit, da der könig von
-          Schweden nach Absterben des <persName
-            key="p0670"
-            ref="27fb9a0a-b96f-46da-b52a-bc393a271dc3">Hertzogs von Holstein</persName>, die
+          Schweden nach Absterben des <persName key="p0670" ref="27fb9a0a-b96f-46da-b52a-bc393a271dc3">Hertzogs von Holstein</persName>, die
           Vormundschafft sich anmaßet über daß Hertzogtuhm, welches dännemarck nim[m]ermehr leiden
           kan. Und deshalben wird nicht unterlaßen hirdurch dännemarck zu animiren.</p>
         <p>der <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig von Pohlen</persName>
           hat nach verlorner battaille alle Mühe angewand, Umb mit Schweden seinen frieden zu
           machen. Ich aber hofe es soll nicht angehen, weil Ich alhir diesen hof schon so disponiret
           habe, daß Mir der <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kayser</persName>
-          versprochen, Er wolle nach allen kräften verhindern, daß der friede nicht erfolge, damit <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          versprochen, Er wolle nach allen kräften verhindern, daß der friede nicht erfolge, damit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           bey diesen Conjuncturen zu ihrem dessein gerahten und an der Ostsee fästen fuß setzen
           mögen. Wie mann dann auch von hir aus den könig von Schweden durch andere wird animiren
           laßen, daß Er nicht nachgeben, sondern Churland und Polnisch liefland zu behaubten
           trachten solle, Welches hingegen die Pohlen nicht leiden werden, denen mann auch unter der
           hand zusprechen wird. Solches alles </p>
-        <pb n="f. 16" />
-        <p> aber wird sehr Geheim tractiret. Und weil der <persName
-            key="p0659"
-            ref="158f6632-2cf4-4673-880c-42eb9cd89916">Fürst Dolgoruka</persName> Nicht kan nach
-          Pohlen durchkom[m]en, so hat hiesiger hof vor Guht befunden, und ist es auch mit dem <persName
-            key="p0654"
-            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürsten Galizin</persName>
-          überleget worden, daß Wir von hir ab einen teutschen, welcher Assistence Raht ist, und dem <persName
-            key="p0654"
-            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">fürsten Gallizin</persName> große
-          dienste hir getahn, Nahmens von <persName
-            key="p0660"
-            ref="26bd5ed8-ff79-4eca-97a4-41ae07958b2d">Schierendorf</persName> zum <persName
-            key="p0660"
-            ref="26bd5ed8-ff79-4eca-97a4-41ae07958b2d">Cardinal</persName> senden,
+        <pb n="f. 16"/>
+        <p> aber wird sehr Geheim tractiret. Und weil der <persName key="p0659" ref="158f6632-2cf4-4673-880c-42eb9cd89916">Fürst Dolgoruka</persName> Nicht kan nach
+          Pohlen durchkom[m]en, so hat hiesiger hof vor Guht befunden, und ist es auch mit dem <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Fürsten Galizin</persName>
+          überleget worden, daß Wir von hir ab einen teutschen, welcher Assistence Raht ist, und dem <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">fürsten Gallizin</persName> große
+          dienste hir getahn, Nahmens von <persName key="p0660" ref="26bd5ed8-ff79-4eca-97a4-41ae07958b2d">Schierendorf</persName> zum <persName key="p0660" ref="26bd5ed8-ff79-4eca-97a4-41ae07958b2d">Cardinal</persName> senden,
           woselbst Er <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
             Zaarische May[estä]t</persName> jnteresse obseruiren, den frieden hindern, Und trachten
           solle den Cardinal zu disponiren, als welcher des h[err]n Schierendorfs guhter freund ist
-          und sich seines Guhtfinden des fürsten <persName
-            key="p0654"
-            ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Galizin</persName>, welcher anitzo kein Geld
+          und sich seines Guhtfinden des fürsten <persName key="p0654" ref="3f03a603-a4ed-4cf6-a7d6-f05d8f6a2e17">Galizin</persName>, welcher anitzo kein Geld
           hat, 1000 R[eichs]th[a]l[e]r vorgeschoßen, weil an der Sache viel gelegen ist, daß mann
           bey dem Cardinal jemand habe. Ich habe Ew[er] Excellence letztmahlen gemeldet, daß Ich
           bemühet wäre den <persName key="p0662" ref="ea52fff4-2ac5-4ee0-a59b-c3d82869b6e2">General
@@ -375,91 +266,61 @@
           Zaarische May[estä]t</persName> dienste zu bringen. Er ist hir anitzo, Und kan Ich
           versichern daß es ein Man von Großer merite und in Großer estime ist. Ich habe schon
           seinetwegen bey dem <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">
-          kayser</persName> die proposition tuhn laßen, und gibt <persName
-            key="p0644"
-            ref="48e51792-20fb-4494-9723-dae9b8b18b42">Mir h[err] Graf</persName>
+          kayser</persName> die proposition tuhn laßen, und gibt <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Mir h[err] Graf</persName>
         </p>
-        <pb n="f. 16v" />
+        <pb n="f. 16v"/>
         <p>
           <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Caunitz</persName> guhter
-          hofnung dazu. Wo es angehet, so kan Ich Mich rühmen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> großen
+          hofnung dazu. Wo es angehet, so kan Ich Mich rühmen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> großen
           dienst getahn zu haben. Mit einem wohrte zu sagen, Er ist einer von den allerbesten
           kayserlichen Generalen bey der Infanterie, Und redet die bömische sprache. Auch ist Er
           schon bekand mit dem <persName key="p0663" ref="63daef52-f7f5-4912-bdce-9f23c17ea3de">General
           Trampe</persName>, welchen Ich zum Feldmarschall=Lieutenant habe destiniret, weil Sie in
           Ungarn zusammen commendiret haben. Sonsten können Ewer Excellence selbst gedencken, wie
           schwer es zugehet anitzo tüchtige Generals und leute zu bekommen, da alle Potentaten
-          selbst krieg haben, und die Guhten Generals allenthalben ohne dem rar sind. Mit <persName
-            key="p0536"
-            ref="b39dbd41-7e05-46e7-9540-04206e594a9d">Flemming</persName> habe Mich
-          nicht wollen einlaßen, wovon Ich bey Meiner zurückkunfft nach <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscau</placeName> solche rationes beybringen
+          selbst krieg haben, und die Guhten Generals allenthalben ohne dem rar sind. Mit <persName key="p0536" ref="b39dbd41-7e05-46e7-9540-04206e594a9d">Flemming</persName> habe Mich
+          nicht wollen einlaßen, wovon Ich bey Meiner zurückkunfft nach <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName> solche rationes beybringen
           werde, daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische
           May[estä]t</persName> billigen werden, daß Ich Mich nicht darin engagiret habe. Wegen die
-          andern Generals habe Ich vom <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige von Pohlen</persName> zwahr guhte
+          andern Generals habe Ich vom <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige von Pohlen</persName> zwahr guhte
           promessen gehabt, Ich weiß aber nicht ob Er nicht wird </p>
-        <pb n="f. 17" />
+        <pb n="f. 17"/>
         <p> difficil werden, die Generals zu erlaßen, weil Er keinen frieden haben kan.
           Nichtsdestoweniger wil Ich schon Raht schaffen, weil Ich von andern auch Zusage habe,
-          insonderheit von leuten welche die sprache verstehen, mit welchen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> am
+          insonderheit von leuten welche die sprache verstehen, mit welchen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> am
           besten gedienet ist.</p>
         <p>die kayserlichen haben eine Große battaille gewonnen in Italien, Wovon Ich die gedruckte
           Relation sende.</p>
-        <p>Wegen befreyung des <persName
-            key="p0656"
-            ref="1bcbaa4f-ff61-4e33-995c-16095e7f0f5f">General-Lieutenant
+        <p>Wegen befreyung des <persName key="p0656" ref="1bcbaa4f-ff61-4e33-995c-16095e7f0f5f">General-Lieutenant
           Allards</persName> ist schlechte hofnung; Er hat sich aus sein Gefängnüs in Schweden
           heimlich wegbegeben wollen, wie Er auch schon herausgewesen; mann hat Ihn aber wieder
           erwischet, dannenhero zu vermuhten, daß mann Ihn harter verwahren und tractiren wird.</p>
         <p>Eß können sich <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
-          Zaarische May[estä]t</persName> sicher darauf verlaßen, daß der <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">kayserliche hof</orgName> so disponiret ist
+          Zaarische May[estä]t</persName> sicher darauf verlaßen, daß der <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">kayserliche hof</orgName> so disponiret ist
           anitzo; da Er vorhin den frieden nach allen kräfften zu befodern getrachtet, wird Er
           anitzo daß Gegentheil suchen, Wie dann schon in Pohlen auch hin und wieder davon die
           Effecten bald werden zu spüren seyn. So daß Ich hofe, Meine reise hirher sey nicht
           Umbsonsten </p>
-        <pb n="f. 17v" />
+        <pb n="f. 17v"/>
         <p> gewesen. Wofern der <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könig
           von Pohlen</persName> mit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
-          Zaarischen May[estä]t</persName> neue Concerts machen wil; So ist hochnötig, daß <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          Zaarischen May[estä]t</persName> neue Concerts machen wil; So ist hochnötig, daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           wieder des <persName key="p0665" ref="76a270c4-64b6-42d3-bc77-38b76e7b8008">beuchlings
-          Person</persName> ofentlich protestiren laßen. Ich habe dem <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige von Pohlen</persName> deutlich
+          Person</persName> ofentlich protestiren laßen. Ich habe dem <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige von Pohlen</persName> deutlich
           gesaget, wie boßhafft der <persName key="p0665" ref="76a270c4-64b6-42d3-bc77-38b76e7b8008">
-          beuchling</persName> wieder <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
+          beuchling</persName> wieder <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName>
           gehandelt, und daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
           Zaarische May[estä]t</persName> Nie etwas schließen oder abreden können mit dem könige so
-          lange der Mensch daß Ministerium hat. Und wann <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> darauf
-          feste bestehen, so wird sich daß Werck schon geben. Sonsten sind <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> von
+          lange der Mensch daß Ministerium hat. Und wann <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> darauf
+          feste bestehen, so wird sich daß Werck schon geben. Sonsten sind <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zaarische May[estä]t</persName> von
           keiner betriegerey sicher. Alhir sind Sie auch von dem sentiment, wie auch in dännemarck,
           und sagen ofentlich, es sey nichts mit dem <persName key="0525">könige von Pohlen</persName>
           zu tuhn, wo Er nicht andre leute in sein Conseil nimbt. Ich werde im übrig[en] auf alles
-          weiter acht haben, Und darnach trachten ehestens nach <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscau</placeName> wieder zu gehen,
+          weiter acht haben, Und darnach trachten ehestens nach <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName> wieder zu gehen,
           verbleibende indeßen</p>
         <p>Ew[er] Excellence</p>
         <p>
-          <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Wien</placeName>, d[en] 2 Sept[embris] 1702. Ergebenster diener</p>
+          <placeName key="g0005" ref="https://www.geonames.org/2761367">Wien</placeName>, d[en] 2 Sept[embris] 1702. Ergebenster diener</p>
         <p>
           <persName key="p0655" ref="fe16370c-0541-4415-9ca6-8ffe259e2617">J R Patkul</persName>.</p>
         <p>Wann Ich Nach <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName>
