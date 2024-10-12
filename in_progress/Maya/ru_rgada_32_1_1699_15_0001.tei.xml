@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Letter from the Governor General of Livonia, Erik Dahlberg, to the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
+        <title type="main" xml:lang="en">Letter from the Governor General of Livonia, Erik Dahlberg, to the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
         <author xml:lang="en">Erik</author>
         <author xml:lang="en">Joensson</author>
         <author xml:lang="en">Dahlbergh</author>
@@ -99,56 +94,35 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>13 May 1699 (o.s.). – Letter from the <persName
-              key="p0653"
-              ref="69a01502-225d-4f84-8a37-5665c39a42fc">Governor General of Livonia, Erik Dahlberg</persName>, to the <persName
-              key="p0635"
-              ref="965e8d6d-1671-4ac1-8276-a527cf471c59">Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</persName>
+          <title>13 May 1699 (o.s.). – Letter from the <persName key="p0653" ref="69a01502-225d-4f84-8a37-5665c39a42fc">Governor General of Livonia, Erik Dahlberg</persName>, to <persName key="p0635" ref="965e8d6d-1671-4ac1-8276-a527cf471c59">the Russian Grand Ambassador, Prokopii Bogdanovich Voznitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1699, no. 15, f. 1–2. German original.</bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <pb n="f. 1" />
+        <p/>
+        <p/>
+        <pb n="f. 1"/>
         <p> Hochwollgebohrner Ihrer Zaar[ischen] May[estä]tt Geheimer Raht, Statthalter Extraordinair Großgesandter und Gevollmächtiger Commissaire.</p>
         <p>Insonders Hochgeehrter Herr.</p>
-        <p>Ew[er] Excell[en]tz beliebte Notification vom 12 dieses lauffenden Monahts May hat mir dero glückliche Retour von dero auf <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Zaar[ischen] May[estä]tt</persName> befehl an unterschiedlichen Europæischen Höfen abgelegten Gesandschafft, und dero Ankunfft nach <placeName
-            key="g0042"
-            ref="https://www.geonames.org/459279">Mitau</placeName> zugleich auch daneben zu verstehen gegeben, daß Sie mit dero rückweg <persName
-            key="p0193"
-            ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Ihrer königl[iche]n May[estä]tt meines allegnädigsten königes und Herrn</persName> Grentzen beehren, und auf dero durchreise mit gebührl[ichen] Ehren bezeigung, Qvartier, Wacht, Vorspan und Convoy biß an die grentze des Reußischen Reiches nicht nur wegen Schuldigkeit der Tractaten, sondern auch vielmehr der festen Freundschafft und affection halber zwischen beyden hohen Potentaten contentiret zu werden verlangen und ersuchen. Wie Ich nun zu dero so weit </p>
-        <pb n="f. 1v" />
-        <p> glücklich abgelegten reise gebürend gratuliren So bin Ich iederzeit nach <persName
-            key="p0193"
-            ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Ihrer königl[ichen] May[estä]tt meines allergnädigsten königes und Herrn</persName> befehl so wohl die schuldigkeit der mutuellen Tractaten alß der festen freundschafft und affection so <persName
-            key="p0193"
-            ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Ihre königl[iche] May[estä]tt</persName> mit <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Zaar[ischen] May[estä]tt</persName> haben, in genaue beobachtung zu nehemen, habe auch desfalß so fort gehörige anstalt gemachet, daß die gebührliche Recipirung mit aller Ehren bezeigung und providirung zur beforderung dero reise nach dieses ohrtes Zustand und gelegenheit geschehen soll. Ew[er] Excell[en]tz beliebe nur dero aufbruch auß <placeName
-            key="g0042"
-            ref="https://www.geonames.org/459279">Mitau</placeName> so einzurichten, daß Sie gegen bevorstehenden dienstag Mittag an der grentze seyn können; dagegen hier die Vorsorge getragen werden soll, daß alles, so viel müglich alda parat seyn möge, waß zur weitern beforderung dero Reise hieher beygetragen werden kan, der Ich Ew[er] Excell[en]tz </p>
-        <pb n="f. 2" />
+        <p>Ew[er] Excell[en]tz beliebte Notification vom 12 dieses lauffenden Monahts May hat mir dero glückliche Retour von dero auf <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Zaar[ischen] May[estä]tt</persName> befehl an unterschiedlichen Europæischen Höfen abgelegten Gesandschafft, und dero Ankunfft nach <placeName key="g0042" ref="https://www.geonames.org/459279">Mitau</placeName> zugleich auch daneben zu verstehen gegeben, daß Sie mit dero rückweg <persName key="p0193" ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Ihrer königl[iche]n May[estä]tt meines allegnädigsten königes und Herrn</persName> Grentzen beehren, und auf dero durchreise mit gebührl[ichen] Ehren bezeigung, Qvartier, Wacht, Vorspan und Convoy biß an die grentze des Reußischen Reiches nicht nur wegen Schuldigkeit der Tractaten, sondern auch vielmehr der festen Freundschafft und affection halber zwischen beyden hohen Potentaten contentiret zu werden verlangen und ersuchen. Wie Ich nun zu dero so weit </p>
+        <pb n="f. 1v"/>
+        <p> glücklich abgelegten reise gebürend gratuliren So bin Ich iederzeit nach <persName key="p0193" ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Ihrer königl[ichen] May[estä]tt meines allergnädigsten königes und Herrn</persName> befehl so wohl die schuldigkeit der mutuellen Tractaten alß der festen freundschafft und affection so <persName key="p0193" ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Ihre königl[iche] May[estä]tt</persName> mit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Zaar[ischen] May[estä]tt</persName> haben, in genaue beobachtung zu nehemen, habe auch desfalß so fort gehörige anstalt gemachet, daß die gebührliche Recipirung mit aller Ehren bezeigung und providirung zur beforderung dero reise nach dieses ohrtes Zustand und gelegenheit geschehen soll. Ew[er] Excell[en]tz beliebe nur dero aufbruch auß <placeName key="g0042" ref="https://www.geonames.org/459279">Mitau</placeName> so einzurichten, daß Sie gegen bevorstehenden dienstag Mittag an der grentze seyn können; dagegen hier die Vorsorge getragen werden soll, daß alles, so viel müglich alda parat seyn möge, waß zur weitern beforderung dero Reise hieher beygetragen werden kan, der Ich Ew[er] Excell[en]tz </p>
+        <pb n="f. 2"/>
         <p> mit Hertzlicher anwünschung alles wohlergehens der göttlichen beschirmung ergebe.</p>
         <p>Ew[e]r Excell[en]tz meines Hochgeehrten Herrn</p>
         <p>Dienstwilliger</p>
         <p>
-          <persName
-            key="p0653"
-            ref="69a01502-225d-4f84-8a37-5665c39a42fc">E J v[on] Dahlbergh</persName> M[anu] Pr[opr]ià</p>
+          <persName key="p0653" ref="69a01502-225d-4f84-8a37-5665c39a42fc">E J v[on] Dahlbergh</persName> M[anu] Pr[opr]ià</p>
         <p>
-          <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName> d[en] 13<hi
-            rendition="#u">. May</hi>
+          <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName> d[en] 13<hi rendition="#u">. May</hi>
         </p>
         <p>           1699.</p>
       </div>
