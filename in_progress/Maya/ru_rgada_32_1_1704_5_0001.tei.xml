@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Letter from the Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz, to the Russian Сhancellor, Count Fedor Alekseevich Golovin</title>
+        <title type="main" xml:lang="en">Letter from the Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz, to the Russian Сhancellor, Count Fedor Alekseevich Golovin</title>
         <author xml:lang="en">Dominik</author>
         <author xml:lang="en">Andreas</author>
         <author xml:lang="en">von</author>
@@ -100,44 +95,33 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>12 January 1704 (n.s.). – Letter from the <persName
-              key="p0644"
-              ref="48e51792-20fb-4494-9723-dae9b8b18b42">Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz</persName>, to the <persName
-              key="p0277"
-              ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Russian Сhancellor, Count Fedor Alekseevich Golovin</persName>
+          <title>12 January 1704 (n.s.). – Letter from the <persName key="p0644" ref="48e51792-20fb-4494-9723-dae9b8b18b42">Imperial Vice-Chancellor, Count Dominik Andreas Kaunitz</persName>, to <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian Сhancellor, Count Fedor Alekseevich Golovin</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1704, no. 5, f. 1. Latin original. Translation from Latin original into Russian: RGADA, fond 32, opis 1, 1704, no. 5, f. 2–2v.</bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <pb n="f. 1" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 1"/>
+        <p/>
         <p>Illustrissime ac Exce[llentissi]me Sac[ri] Rom[ani]</p>
         <p>Impery Comes</p>
-        <p>Dominas Excell[entiæ] V[est]ræ 28. 7.<hi rendition="#sup">bris</hi> et 21. 8.<hi
-            rendition="#sup">bris </hi>Anni Nuper lapsi ad me datas accepi. Feci in ys, quæ ā me desiderata sunt; omne id, quod virium mearum fuit, prouti ā <persName
-            key="p0488"
-            ref="cdcac43a-948f-4f36-a3b9-6671ac3ce984">D[omi]no Principe de Galliczin</persName> intellectura est uberiūs Exce[llenti]a V[est]ra, cujus mandata ulteriūs quoq[ue] exequi honori  mihi ducam, semper Mansurus</p>
+        <p>Dominas Excell[entiæ] V[est]ræ 28. 7.<hi rendition="#sup">bris</hi> et 21. 8.<hi rendition="#sup">bris </hi>Anni Nuper lapsi ad me datas accepi. Feci in ys, quæ ā me desiderata sunt; omne id, quod virium mearum fuit, prouti ā <persName key="p0488" ref="cdcac43a-948f-4f36-a3b9-6671ac3ce984">D[omi]no Principe de Galliczin</persName> intellectura est uberiūs Exce[llenti]a V[est]ra, cujus mandata ulteriūs quoq[ue] exequi honori  mihi ducam, semper Mansurus</p>
         <p>Esce[llenci]æ V[est]ræ</p>
         <p>P. S. Hac occasione transmitto diploma Cæsareum S[acri] R[omani] Impery Comitis cum omnibus plane solemnitatib[us] in optima |qua fieri potest forma| jam pridem expeditum</p>
         <p>
-          <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Viennæ</placeName> 12 Jan[uary]			ad quævis officia devinctissimus</p>
+          <placeName key="g0005" ref="https://www.geonames.org/2761367">Viennæ</placeName> 12 Jan[uary]			ad quævis officia devinctissimus</p>
         <p>A[nn]o 1704						et paratissimus</p>
         <p>
-          <persName
-            key="p0277"
-            ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Domino Com[iti] de Golovin</persName>
+          <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Domino Com[iti] de Golovin</persName>
           <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">D A C[omes] à Kaunitz</persName>
         </p>
       </div>
