@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Confrontation between the Secretary of the Imperial Embassy, Jean-Ferdinand Malaise du Verly, with the Pole Romanowski, in the Ambassadorial Chancellery</title>
+        <title type="main" xml:lang="en">Confrontation between the Secretary of the Imperial Embassy, Jean-Ferdinand Malaise du Verly, with the Pole Romanowski, in the Ambassadorial Chancellery</title>
         <author xml:lang="en">Verly</author>
         <author xml:lang="en">Malaise</author>
         <author xml:lang="en">du</author>
@@ -100,86 +95,47 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>19/30 November 1711. – Confrontation between the <persName
-              key="p0675"
-              ref="f3e7f537-1a54-4c4d-b176-e19ff8f8539d">Secretary of the Imperial Embassy, Jean-Ferdinand Malaise du Verly</persName>, and the <persName
-              key="p0000">Pole Romanowski</persName>, in the Ambassadorial <orgName
-              key="o0064"
-              ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Chancellery</orgName>
+          <title>19/30 November 1711. – Confrontation between the <persName key="p0675" ref="f3e7f537-1a54-4c4d-b176-e19ff8f8539d">Secretary of the Imperial Embassy, Jean-Ferdinand Malaise du Verly</persName>, and the <persName key="p0000">Pole Romanowski</persName>, in the Ambassadorial <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Chancellery</orgName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1711, no. 11, f. 31–32. German original. Translation from the German original : RGADA, fond 32, opis 1, 1711, no. 11, f. 33–36.</bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <pb n="f. 31" />
+        <p/>
+        <p/>
+        <pb n="f. 31"/>
         <p> Hochlöbl[iche] Abgesandten Cantzley</p>
-        <p>Auff Jüngst geschehener confrontation des <persName
-            key="p0000">polackhen Romanowski</persName> undt Meiner geweßenen <persName
-            key="p0000">Wascherin Mariæ</persName>, gegen meine undt aller meiner nun habenden bedienten, vor dieser hochlöbl[ichen] <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Cantzley</orgName>, gestelte persohnen: nicht weniger auch auff Ernanten <persName
-            key="p0000">Romanowski</persName> undt <persName
-            key="p0000">Mariæ</persName> gethanen gerichtlich außsag; habe Ewre Ex[ce]ll[en]zen mit nachfolgender güttlich= unverfänglich= undt meinem von völckher rechts wegen privilegirten Caracteri unprejudicirlich Errinner= undt Erörterung dieses facti, gebührender massen bedienen wollen:</p>
-        <p>1. Daß nemblichen, die zwey unmündige kinder, welche ich den 15/26<hi
-            rendition="#sup">ten</hi> July dieses Jahrs, an Einem sonntag, meiner, wie besagt, geweßenen <persName
-            key="p0000">Wascherin Mariæ</persName>, die in dem so genanten Abgesandten hoff gewohnet, zu ihrer verpflegung, auff ettlich wenigen tagen übergeben, zwey arme verlassene Waißlein von pollnischen erlösten Elteren geweßen, deren Mutter nur zwey tagen, der vatter aber schon ettlichen monathen zuvor, gestorben.</p>
-        <p>2. Es haben Ein pollack undt Ein frawens persohn, die Jener für sein Weib außgab, undt die ich vorhero bey der <persName
-            key="p0681"
-            ref="2cafbe10-451b-4c4c-b3a7-b6f12164f0b8">kayserl[ichen] Residentin frawen von pleyer</persName> |:allwo selbige für Eine säugamme gedienet, ohne deroselben vorwissen auß diensten gewichen undt geheurathet:| zum öfftesten gesehen undt gar wohl gekhent, diese zwey Waißlein, an obbbemeldten tag, in aller frühe, zu mir in der schüsten prut gebracht; undt fußfällig gebetten; daß ich dieselbe, auß Christlichen mitleyden undt barmhertzigkheit, nur auff wenig tagen verpflegen lassen mögte; biß sie beyde Eheleuthe mit anderen gefährten, auch erlösten polacken, nach pohlen reyßen, undt diese unmündige kinder mit sich nehmen wurden.</p>
-        <p>3. Weillen nun darbey khein bedenckhen tragen, noch den geringsten verdacht darinnen muthmassen khonnen; sonsten auch kheine weibsbilder oder gelegenheit in meinem damahligen quartier hatte diese Waißlein bey mir verpflegen zu lassen; habe ich selbige besagter <persName
-            key="p0000">Wasserin Mariæ</persName> angetragen, undt übergeben;</p>
+        <p>Auff Jüngst geschehener confrontation des <persName key="p0000">polackhen Romanowski</persName> undt Meiner geweßenen <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2328" xml:space="default">Wascherin Mariæ</persName>, gegen meine undt aller meiner nun habenden bedienten, vor dieser hochlöbl[ichen] <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Cantzley</orgName>, gestelte persohnen: nicht weniger auch auff Ernanten <persName key="p0000">Romanowski</persName> undt <persName key="p0000">Mariæ</persName> gethanen gerichtlich außsag; habe Ewre Ex[ce]ll[en]zen mit nachfolgender güttlich= unverfänglich= undt meinem von völckher rechts wegen privilegirten Caracteri unprejudicirlich Errinner= undt Erörterung dieses facti, gebührender massen bedienen wollen:</p>
+        <p>1. Daß nemblichen, die zwey unmündige kinder, welche ich den 15/26<hi rendition="#sup">ten</hi> July dieses Jahrs, an Einem sonntag, meiner, wie besagt, geweßenen <persName key="p0000">Wascherin Mariæ</persName>, die in dem so genanten Abgesandten hoff gewohnet, zu ihrer verpflegung, auff ettlich wenigen tagen übergeben, zwey arme verlassene Waißlein von pollnischen erlösten Elteren geweßen, deren Mutter nur zwey tagen, der vatter aber schon ettlichen monathen zuvor, gestorben.</p>
+        <p>2. Es haben Ein pollack undt Ein frawens persohn, die Jener für sein Weib außgab, undt die ich vorhero bey der <persName key="p0681" ref="2cafbe10-451b-4c4c-b3a7-b6f12164f0b8">kayserl[ichen] Residentin frawen von pleyer</persName> |:allwo selbige für Eine säugamme gedienet, ohne deroselben vorwissen auß diensten gewichen undt geheurathet:| zum öfftesten gesehen undt gar wohl gekhent, diese zwey Waißlein, an obbbemeldten tag, in aller frühe, zu mir in der schüsten prut gebracht; undt fußfällig gebetten; daß ich dieselbe, auß Christlichen mitleyden undt barmhertzigkheit, nur auff wenig tagen verpflegen lassen mögte; biß sie beyde Eheleuthe mit anderen gefährten, auch erlösten polacken, nach pohlen reyßen, undt diese unmündige kinder mit sich nehmen wurden.</p>
+        <p>3. Weillen nun darbey khein bedenckhen tragen, noch den geringsten verdacht darinnen muthmassen khonnen; sonsten auch kheine weibsbilder oder gelegenheit in meinem damahligen quartier hatte diese Waißlein bey mir verpflegen zu lassen; habe ich selbige besagter <persName key="p0000">Wasserin Mariæ</persName> angetragen, undt übergeben;</p>
         <p>4. Welche gleichfals nicht anderst gewust, noch wissen khönnen noch auch bekhennet hat, oder bekhennen wirdt, alß daß diese, ihro dergestalten anvertraute unmündige kinder, arme Waißlein von vatter undt Mutter Waren.</p>
-        <p>5. Welche waißlein von besagten 15<hi rendition="#sup">ten</hi>. July an biß den 8<hi
-            rendition="#sup">ten</hi>. des darauff gefolgten monaths Augusti, in allem drey wochen undt vier tagen bey Erwehnten <persName
-            key="p0000">Wasserin</persName> in der ver[p]flegung gestanden: für welche sie wochentlich siben grieben von mir Empfangen.</p>
-        <p>6. Vndt sollen, wie Es mir nachgehendts referirt worden, letztberührter pollack, oder sein Weib, besagte kinder, den 8<hi
-            rendition="#sup">ten</hi>. d[it]o, an Einem Mittwoch, von bemeldter <persName
-            key="p0000">Wasserin</persName> abgenommen, undt den anderen darauff, alß den 9<hi
-            rendition="#sup">ten</hi>. d[it]o, mit sich undt anderen Erlösten polackhen, nacher pohlen geführt haben.</p>
-        <p>7. Daß aber, offtbesagter <persName
-            key="p0000">Wasserin</persName> gethanen außsag nach, Ein von meinen bedienten bey sothaner abhollung geweßen; dieses ist mir gar nicht bewust; in deme ich Es weder gesehen, weder befohlen, noch solches sonsten von Jemandt anderen gehört.</p>
-        <p />
-        <pb n="f. 31v" />
-        <p> 8. Von selbigem tag an, nemblich den 9<hi
-            rendition="#sup">ten</hi>. Augusti, biß dato, habe weder von diesen pollackischen Eheleuthen, weder von den Waißleinen, nicht daß geringste mehr gesehen oder gehört.</p>
-        <p>9. gewiß ist Es, daß diese Waißlein, bey wehrendes Erwehnten zeit, in besagten Abgesandten hoff, alß Einer, under dieser hochlöbl[ichen] <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Cantzley</orgName> obsicht und ressort stehenden behaußung, auch <persName
-            key="p0163"
-            ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Seiner groß czarl[ichen] May[estät]</persName> zuegehörigen wohnung, offentlich, undt vor Jedermans augen, verpfleget worden: Also, daß, Wan sie schwedische oder sonst verdächtige kinder |:gleich man sie jetzt fürgeben will:| geweßen wären, welches mir dannoch unbewust, allezeit in Ewer Ex[ce]ll[en]zen gewalt gestanden, sich derselben zu versichern undt zu bemächtigen.</p>
+        <p>5. Welche waißlein von besagten 15<hi rendition="#sup">ten</hi>. July an biß den 8<hi rendition="#sup">ten</hi>. des darauff gefolgten monaths Augusti, in allem drey wochen undt vier tagen bey Erwehnten <persName key="p0000">Wasserin</persName> in der ver[p]flegung gestanden: für welche sie wochentlich siben grieben von mir Empfangen.</p>
+        <p>6. Vndt sollen, wie Es mir nachgehendts referirt worden, letztberührter pollack, oder sein Weib, besagte kinder, den 8<hi rendition="#sup">ten</hi>. d[it]o, an Einem Mittwoch, von bemeldter <persName key="p0000">Wasserin</persName> abgenommen, undt den anderen darauff, alß den 9<hi rendition="#sup">ten</hi>. d[it]o, mit sich undt anderen Erlösten polackhen, nacher pohlen geführt haben.</p>
+        <p>7. Daß aber, offtbesagter <persName key="p0000">Wasserin</persName> gethanen außsag nach, Ein von meinen bedienten bey sothaner abhollung geweßen; dieses ist mir gar nicht bewust; in deme ich Es weder gesehen, weder befohlen, noch solches sonsten von Jemandt anderen gehört.</p>
+        <p/>
+        <pb n="f. 31v"/>
+        <p> 8. Von selbigem tag an, nemblich den 9<hi rendition="#sup">ten</hi>. Augusti, biß dato, habe weder von diesen pollackischen Eheleuthen, weder von den Waißleinen, nicht daß geringste mehr gesehen oder gehört.</p>
+        <p>9. gewiß ist Es, daß diese Waißlein, bey wehrendes Erwehnten zeit, in besagten Abgesandten hoff, alß Einer, under dieser hochlöbl[ichen] <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Cantzley</orgName> obsicht und ressort stehenden behaußung, auch <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Seiner groß czarl[ichen] May[estät]</persName> zuegehörigen wohnung, offentlich, undt vor Jedermans augen, verpfleget worden: Also, daß, Wan sie schwedische oder sonst verdächtige kinder |:gleich man sie jetzt fürgeben will:| geweßen wären, welches mir dannoch unbewust, allezeit in Ewer Ex[ce]ll[en]zen gewalt gestanden, sich derselben zu versichern undt zu bemächtigen.</p>
         <p>10. Wan sich aber Jemandt finden solte, welcher diese kinder damahlens für schwedisch Erkhent, undt Es Ewren Ex[ce]ll[en]zen nicht beygebracht, Ein solcher khan von rechts wegen darumben responsabel stehen.</p>
         <p>11. dieses gehet mich aber nichts an; der nicht anderst gewust, noch wissen khönnen, noch biß dato waiß; alß daß diese unmündige kinder arme pollnische Waißlein geweßen;</p>
         <p>12. über welche ich nicht allein ein christliches werck der barmhertzigkheit |:welches einem Jeden rechtschaffenen christen oblieget:| gewürcket; sondern auch dieselbe, mit aller redtlichkheit, offentlich under Ewer Ex[ce]ll[en]zen macht undt gewalt, so lang ich für diese kinder gesorget, vorgestellet habe:</p>
         <p>13. Ein mehreres hätte man von mir nicht prætendiren khönnen, Wan ich auch würcklich solte gewust haben |:welches aber nicht ist:| daß Es verdächtige kinder geweßen Wären.</p>
-        <p>14. Im übrigen: Waß der <persName
-            key="p0000">polack Romanowski</persName> |:den ich vorhero niemahlens noch gesehen noch hören nennen:| ettwan durch betrohungen, versprechungen, oder sonst anderen antrieben, von Mir gerichtlich außgesagt, bringet mir kheinen præJuditz</p>
+        <p>14. Im übrigen: Waß der <persName key="p0000">polack Romanowski</persName> |:den ich vorhero niemahlens noch gesehen noch hören nennen:| ettwan durch betrohungen, versprechungen, oder sonst anderen antrieben, von Mir gerichtlich außgesagt, bringet mir kheinen præJuditz</p>
         <p>15. E contra: bey confrontation meiner persohn, die Er seiner anfänglichen außsag undt irrenden meynung nach gar wohl khennen solte, hat Er offentlich bekhennet, undt seine bekantnüß mit aigener handt underschrieben, daß Er meine ihme confrontirte persohn nicht khenne, noch Jemahlens gesehen habe. Welches ich hiemit contra quoscumq[ue] für gerichtlich bekhant annehme.</p>
-        <p>16. Waß besagter <persName
-            key="p0000">Romanowski</persName> sonsten von meinem prætendirten kutscher pferdt, undt Wagen, bey der vermeynten abhollung Einer schwedischen Damen undt ihrer kinderen, auß h[errn] v[on] springer behaußung, so vermessentlich alß fälschlich vorgeben, khan alhier in gefolge seiner vorberührten bekantnüß, weder im rechten bestehen, noch bey vernünfftigen gemütheren die geringste reflexion meritiren:</p>
+        <p>16. Waß besagter <persName key="p0000">Romanowski</persName> sonsten von meinem prætendirten kutscher pferdt, undt Wagen, bey der vermeynten abhollung Einer schwedischen Damen undt ihrer kinderen, auß h[errn] v[on] springer behaußung, so vermessentlich alß fälschlich vorgeben, khan alhier in gefolge seiner vorberührten bekantnüß, weder im rechten bestehen, noch bey vernünfftigen gemütheren die geringste reflexion meritiren:</p>
         <p>17. Allermassen: da Er gerichtlich bekhent hat, undt in der that undt wahrheit selbsten allezeit wirdt bekhennen müssen daß Er mich nicht khenne, selbiger folglich mit kheiner wahrscheinlichkheit beglaubet werden solte, daß Er, kutscher, Wagen, undt pferdte Eines ihme unbekanten undt niemahls vor augen gekhommenen herren, habe khönnen gekhent haben.</p>
-        <p>18. Waß alhier in specie zu bemerckhen, undt dieses <persName
-            key="p0000">Romanowski</persName> im [16<hi
-            rendition="#sup">ten</hi>] ar[ticu]lo hieroben eingeführte außsag noch mehrer zernichtiget, ist vornemblich dieses: daß von zweyen alleinigen kutschers leuthen die all[e] damahlens mich in der schüsten pruth bedienet, der Eine m[it] </p>
-        <pb n="f. 32" />
-        <p> nahmen <persName
-            key="p0676"
-            ref="0e456900-d35e-47bb-8972-0ae6323e6c95">Michel gall</persName> ihme persöhnlich vorgestellet undt confrontirt, auch für unbekant von ihme erklärt worden. welches ich gleichfals acceptire.</p>
-        <p>19. dahero nicht möglich seyn khan, daß dieser <persName
-            key="p0000">Romanowski</persName> den andern kutscher, pferdt undt Wagen, alß mir zuegehörige, solte gekhent haben: In deme Er weder den ihme gerichtlich vorgestelten <persName
-            key="p0676"
-            ref="0e456900-d35e-47bb-8972-0ae6323e6c95">Michel gall</persName> alß anderen kutscher, weder mich selbsten, alß beyder kutschern herren, khennet undt niemahlens gesehen. actum <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscau</placeName> den 19/30<hi
-            rendition="#sup">ten</hi> 9bris 1711.</p>
+        <p>18. Waß alhier in specie zu bemerckhen, undt dieses <persName key="p0000">Romanowski</persName> im [16<hi rendition="#sup">ten</hi>] ar[ticu]lo hieroben eingeführte außsag noch mehrer zernichtiget, ist vornemblich dieses: daß von zweyen alleinigen kutschers leuthen die all[e] damahlens mich in der schüsten pruth bedienet, der Eine m[it] </p>
+        <pb n="f. 32"/>
+        <p> nahmen <persName key="p0676" ref="0e456900-d35e-47bb-8972-0ae6323e6c95">Michel gall</persName> ihme persöhnlich vorgestellet undt confrontirt, auch für unbekant von ihme erklärt worden. welches ich gleichfals acceptire.</p>
+        <p>19. dahero nicht möglich seyn khan, daß dieser <persName key="p0000">Romanowski</persName> den andern kutscher, pferdt undt Wagen, alß mir zuegehörige, solte gekhent haben: In deme Er weder den ihme gerichtlich vorgestelten <persName key="p0676" ref="0e456900-d35e-47bb-8972-0ae6323e6c95">Michel gall</persName> alß anderen kutscher, weder mich selbsten, alß beyder kutschern herren, khennet undt niemahlens gesehen. actum <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName> den 19/30<hi rendition="#sup">ten</hi> 9bris 1711.</p>
         <p>
           <persName key="p0675" ref="f3e7f537-1a54-4c4d-b176-e19ff8f8539d">Malaise du Verly</persName>
         </p>
