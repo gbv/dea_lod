@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,10 +95,87 @@
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF />
-    </xenoData>
-  </teiHeader>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_189_0001.tei.xml?note_annotation_20241013190114484",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-13T17:01:14.484Z",
+	"dcterms:modified": "2024-10-13T17:01:14.484Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_189_0001.tei.xml?note_annotation_20241013190114484#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_189_0001.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_189_0001.tei.xml?note_annotation_20241013190114484#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "\n            AVPRI, fond 53, opis 53/5, no. 189, f. 1-2v. French original.\n            \n          "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <div type="letter">
@@ -114,20 +188,19 @@
         </head>
         <opener>
           <note cert="high" evaluate="all" place="top" xml:space="default">
-            <p>AVPRI, fond 53, opis 53/5, no. 189, f. 1-2v. French original.</p>
-            <pb cert="high" n="f. 1" xml:space="default" />
+            AVPRI, fond 53, opis 53/5, no. 189, f. 1-2v. French original.
+            <pb cert="high" n="f. 1" xml:space="default"/>
           </note>
-          <salute>Monseigneur,  <persName cert="high" type="real" ref="http://viaf.org/viaf/39569752" />
+          <salute>Monseigneur,  <persName cert="high" type="real" ref="http://viaf.org/viaf/39569752"/>
           </salute>
         </opener>
-        <p>J'ai l'honneur d'annoncer à Vôtre Excellence la triste nouvelle de la mort de <persName
-            key="p0245">
+        <p>J'ai l'honneur d'annoncer à Vôtre Excellence la triste nouvelle de la mort de <persName key="p0245">
             Monsieur le Baron de Korff</persName>, arrivée hier à 4. heures après midi. Sa maladie
           aussi violente que douloureuse, n'a durée que 9. jours. Les Médecins, qui avoient crû
           d'abord, que ce n'étoit qu'une fievre tierce, n'ont pas cessé de Nous donner des meilleurs
           espérances pour sa guérison. Ce n'est que le 7.me jours, c'est à dire, lorsque le malade
           eût perdû connoissance, et que la gangrène  </p>
-        <pb cert="high" n="f. 1v" xml:space="default" />
+        <pb cert="high" n="f. 1v" xml:space="default"/>
         <p>se fut déclarée, qu'ils nous ont préparés au coup fatal qui vient de nous frapper.
           Quoique j'en sois accablé Monseigneur, je tache néanmoins de remplir mon devoir le mieux
           qu'il m'est possible. Aussitôt après le déçès de <persName key="p0245">Mr. le Baron de
@@ -141,7 +214,7 @@
           sera d'informer Vôtre Excellence de la situation des affaires de ce païs-ci. Chargé de
           celle de <orgName key="o0008">Notre Cour</orgName>, Vous pouvez compter Monseigneur, que
           je les </p>
-        <pb cert="high" n="f. 2" xml:space="default" />
+        <pb cert="high" n="f. 2" xml:space="default"/>
         <p>gérerai avec toute l'assiduité et l'application dont mon zêle pour le bien du service me
           rend
           capable.
@@ -149,16 +222,14 @@
         <p>Comme je n'ai pas encore eû le tems d'examiner les papiers de feu <persName key="p0245">Mr.
           le Baron
             de Korff</persName>, j'ignore, s'il a laissé une disposition par écrit, relativement à
-          sa succession. S'il en existe une, il est probable, qu'il aura institué son héritier <persName
-            key="p1920">Mr. de Fircks
-          </persName> son neveu, Chambellan et Colonel au service de <orgName
-            key="o0009">cette Cour</orgName>, pour lequel il a toujours parû avoir beaucoup de
+          sa succession. S'il en existe une, il est probable, qu'il aura institué son héritier <persName key="p1920">Mr. de Fircks
+          </persName> son neveu, Chambellan et Colonel au service de <orgName key="o0009">cette Cour</orgName>, pour lequel il a toujours parû avoir beaucoup de
           tendresse. Dans quelques jours, je me trouverai à même d'en parler plus positivement. </p>
         <p>Je me flatte, que Vôtre Excellence ne desapprouvera pas, que j'aye expedié ma lettre par
           estaffette, attendû que l'importance de l'événement, qui ne peut qu'influër sur la mission
           de <persName key="p0127">Monsieur Saldern</persName>, m'a fait regarder cet expedient comme
           indispensable. </p>
-        <pb cert="high" n="f. 2v" xml:space="default" />
+        <pb cert="high" n="f. 2v" xml:space="default"/>
         <closer>
           <salute>J'ai l'honneur d'être avec un profond respect</salute>
           <signed>Monseigneur</signed>
@@ -179,7 +250,7 @@
             </persName> pour <persName key="p0009">Mr. le Baron d'Assebourg</persName>
           </date>
         </closer>
-        <note />
+        <note/>
       </div>
     </body>
   </text>
