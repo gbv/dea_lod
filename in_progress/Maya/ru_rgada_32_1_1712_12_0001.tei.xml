@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,71 +92,44 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 October 1712 (n.s.). – Letter from the <orgName
-              key="o0066"
-              ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Bohemian Royal Government</orgName> to <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
+          <title>17 October 1712 (n.s.). – Letter from the <orgName key="o0066" ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Bohemian Royal Government</orgName> to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1712, no. 12, f. 1–1v, 2. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p> Durchleuchtigst=Großmächtigster Groß=Czar p[erge]</p>
-        <p>Gnädigster Herr p[erge] Es haben <persName
-            key="p0163"
-            ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Ihro Röm[ische] Kay[serliche] in Germanien,
+        <p>Gnädigster Herr p[erge] Es haben <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Ihro Röm[ische] Kay[serliche] in Germanien,
           Hispanien, auch zu Hungarn und Boheimb Königl[ich]e May[estä]t Unser Allergnädigster Herr</persName>
-          p[erge] auf eingeloffene nachricht, daß <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euere Groß=Czarische May[estä]t</persName>
-          sich in das unter Unser <orgName
-            key="o0066"
-            ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Königl[ich]es
-          Gouverno</orgName> gehörige Kayser <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">Carlsbaad</placeName> zu
+          p[erge] auf eingeloffene nachricht, daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euere Groß=Czarische May[estä]t</persName>
+          sich in das unter Unser <orgName key="o0066" ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Königl[ich]es
+          Gouverno</orgName> gehörige Kayser <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbaad</placeName> zu
           verfügen, und alda die Cur zu gebrauchen gnädigst gesonnen wären, bey Uns allergnädigst
           verordnet, zu <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euer
-          Czarischen May[estä]t</persName> daselbtiger bedienung, <persName
-            key="p0689"
-            ref="e3c6e40e-7f3f-42a5-bf9f-df4c1f4f3066">Ihro geheimben Rath, Cam[m]erern,
+          Czarischen May[estä]t</persName> daselbtiger bedienung, <persName key="p0689" ref="e3c6e40e-7f3f-42a5-bf9f-df4c1f4f3066">Ihro geheimben Rath, Cam[m]erern,
           Königl[iche]n Statthaltern, und grösern LandRechts beysitzern in diesem Erb KönigReich
           Böheimb, den Hoch und Wohlgebohrnen Frantz Ignatium Wratischlaw Graffen von Mitrowitz</persName>,
-          herrn auf <placeName
-            key="g0217"
-            ref="https://www.geonames.org/3072867">Schönwaldt</placeName>, <placeName
-            key="g0218"
-            ref="https://www.geonames.org/3068350">
-          Peterswaldt</placeName>, und <placeName
-            key="g0219"
-            ref="https://www.geonames.org/11609373">Netlukh</placeName> p[erge] pro
+          herrn auf <placeName key="g0217" ref="https://www.geonames.org/3072867">Schönwaldt</placeName>, <placeName key="g0218" ref="https://www.geonames.org/3068350">
+          Peterswaldt</placeName>, und <placeName key="g0219" ref="https://www.geonames.org/11609373">Netlukh</placeName> p[erge] pro
           Com[m]issario abzuordnen, deme zu folge Er Sich dann auch dahin unverzüglich begaben, und
           deroselben mittler zeit das jenige, was der orth zu Ihro vergnüglichen accom[m]odation
-          vermag, willfährigst anzutragen hat. Im übrigen thuen wegen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euer Groß Czarischen May[estä]t</persName> in
+          vermag, willfährigst anzutragen hat. Im übrigen thuen wegen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euer Groß Czarischen May[estä]t</persName> in
           dieses </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> KönigReich gliklich beschehener ankunfft Wir alß Königl[ich]es Gouverno Uns hiemit
           hertzinniglich erfreyen, mit angeheffter treugehorsambsten anwünschung, womit diese
-          angesinnte <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">Baad Cur</placeName> deroselben zu langwührig= und
+          angesinnte <placeName key="g0215" ref="https://www.geonames.org/3073803">Baad Cur</placeName> deroselben zu langwührig= und
           beständigster gesundtheit angedeuen möge; Worbey zu beharrenden hulden und Gnaden Uns
           unterthänigst empfehlende, verbleiben.</p>
-        <p>Geben ob dem <placeName
-            key="g0220"
-            ref="https://www.geonames.org/6290257">Königl[iche]n Prager Schloß</placeName> d[en] 17<hi
-            rendition="#sup">ten</hi>. Octo[bris] A[nn]o 1712.</p>
+        <p>Geben ob dem <placeName key="g0220" ref="https://www.geonames.org/6290257">Königl[iche]n Prager Schloß</placeName> d[en] 17<hi rendition="#sup">ten</hi>. Octo[bris] A[nn]o 1712.</p>
         <p>
           <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Euer Groß-Czarischen
             May[estä]t</persName>
@@ -169,7 +139,7 @@
           <persName key="p0690" ref="727475cb-7250-441b-8bf1-4ec94311b225">J: Graff von Wrttby</persName>
         </p>
         <p>
-          <persName key="p0000">Max g[raff] v[on] Kollowrat</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2201" xml:space="default">Max g[raff] v[on] Kollowrat</persName>
         </p>
         <p>
           <persName key="p0691" ref="cb895c21-8a6f-4ce6-a00e-47640713217c"> Hieronymus Graff
@@ -184,9 +154,7 @@
             Schlikh</persName>
         </p>
         <p>
-          <persName
-            key="p0694"
-            ref="c7443943-13b6-46db-8fd4-aa80e33e2688">Adolf graff von Martinitz</persName>
+          <persName key="p0694" ref="c7443943-13b6-46db-8fd4-aa80e33e2688">Adolf graff von Martinitz</persName>
         </p>
         <p>
           <persName key="p0695" ref="29732b7a-c8d2-49ab-9c17-e8bf82ef640c">Wentzl Ernst Markwart von
@@ -195,12 +163,10 @@
         <p>
           <persName key="p0696" ref="92d321a1-43c9-4ab9-be78-26b230728b70">Johan Hubert von Hartig</persName>
         </p>
-        <p>[Along the left margin from bottom to top:] 4. <orgName
-            key="o0066"
-            ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Ческого правителства</orgName>. 712 окт[ября]
+        <p>[Along the left margin from bottom to top:] 4. <orgName key="o0066" ref="3eb63978-4c88-4eac-92da-9c4b4593c282">Ческого правителства</orgName>. 712 окт[ября]
           17.</p>
-        <p />
-        <pb n="f. 2" />
+        <p/>
+        <pb n="f. 2"/>
         <p> Dem Durchleuchtigst=Großmächtigsten Grossen Herrn, Czaar und GroßFürsten des gantzen
           grossen, Kleinen, und weissen Reußlandes Selbsthaltern, zu Moscau, Kiow, Wolodimer,
           Novogrod, Czaar zu Casan, Astrachan, und Siberien, Herrn zu Pleßkow, Großfürsten zu
@@ -214,9 +180,7 @@
           <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Groß=Czaarischen
           May[estä]t</persName>./.</p>
         <p>[note:] Писмо от <orgName key="o0066" ref="3eb63978-4c88-4eac-92da-9c4b4593c282">ческаго
-          правителства</orgName> к его царскому. Подано в <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">Карлсбаде</placeName>
+          правителства</orgName> к его царскому. Подано в <placeName key="g0215" ref="https://www.geonames.org/3073803">Карлсбаде</placeName>
           от <persName key="p0689" ref="e3c6e40e-7f3f-42a5-bf9f-df4c1f4f3066">Вратислава</persName>
           в 11 де[нь] октября 1712 и переведено.</p>
       </div>
