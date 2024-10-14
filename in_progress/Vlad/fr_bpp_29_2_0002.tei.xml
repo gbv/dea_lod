@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -191,10 +188,8 @@
 				</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>
-			<RDF />
-		</xenoData>
-		<profileDesc>
+		
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
 		</profileDesc>
 	</teiHeader>
 	<text>
@@ -202,23 +197,18 @@
 			<div type="letter">
 				<head>
 					<title>
-						5 July 1763. – Order of
+						5 July 1763. – Order [of
 						<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-							the Empress of Russia, Catherine II
-						</persName>
-						,
-						to the Ambassador of Russia to the Polish-Lithuanian Commonwealth, Count
+							the Empress of Russia, Catherine II</persName> ],
+						to Our Privy Counsellor, the Ambassador Plenipotentiary and Extraordinary [of Russia to the Polish-Lithuanian Commonwealth], Count
 						<persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">
-							Hermann Karl von Keyserling
-						</persName>
-					</title>
-					<note>
+							Hermann Karl von Keyserling</persName> </title><note>
 						<bibl>
 							Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 165. Russian original.
 						</bibl>
 					</note>
 				</head>
-				<pb n="f. 165" />
+				<pb n="f. 165"/>
 				<opener>
 					<salute>
 						Указ нашему действителному тайному советнику, чрезвычайному и полномочному послу графу
