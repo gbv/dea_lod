@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -176,19 +176,16 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 26 August / 6 September 1783. – Draft of the response of <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
-              the ambassador extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count
-            Otto Magnus von Stackelberg
-            </persName>,
+          <title> 26 August / 6 September 1783. – Draft of the response of <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+              the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count
+            Otto Magnus von Stackelberg</persName>,
             to the rescript of <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
               the Empress of Russia, Catherine II
             </persName>
@@ -197,27 +194,19 @@
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 5, f. 1211. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1211" />
+        <pb n="f. 1211"/>
         <opener>
           <salute>
             Madame,
           </salute>
         </opener>
-        <p>En consequence des ordres de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Votre Majesté Imperiale</persName>, contenus
-          dans son rescript du 5. Août, j’ai pris <hi rendition="#s">mon</hi> une audience chez <persName
-            key="p0862">le Roi</persName>, et lui ai remis <hi rendition="#s">la l</hi> avec <hi
-            rendition="#s">des</hi> le compliment usité la lettre, par laquelle <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Votre Majesté Imperiale</persName>
+        <p>En consequence des ordres de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Votre Majesté Imperiale</persName>, contenus
+          dans son rescript du 5. Août, j’ai pris <hi rendition="#s">mon</hi> une audience chez <persName key="p0862">le Roi</persName>, et lui ai remis <hi rendition="#s">la l</hi> avec <hi rendition="#s">des</hi> le compliment usité la lettre, par laquelle <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Votre Majesté Imperiale</persName>
           a bien voulu lui notifier l’heureux evenement, dont il a plû à la Providence de benir Sa
           Maison Imperiale. <persName key="p0862">Sa Majesté Polonoise</persName> a reçû cette
           nouvelle avec les demonstrations de la joie la plus vive, <hi rendition="#s">que lui fait
           partager sincerement l’augmentatin de l’Auguste Famille de Votre Majesté Imperiale</hi>
-          qu’Elle prend à l’augmentation de l’Auguste famille de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">V[otre] M[ajesté] I[mpériale]</persName>.</p>
+          qu’Elle prend à l’augmentation de l’Auguste famille de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">V[otre] M[ajesté] I[mpériale]</persName>.</p>
         <closer>
           <salute>
             J’ai l’honneur d’être avec le plus profond respect
@@ -232,9 +221,9 @@
           </salute>
         </closer>
         <noteGrp>
-          <note>Also see :</note>
-          <note>fr_bpp_29_4_0011</note>
-          <note>fr_bpp_29_4_0012</note>
+          <note>Also see : fr_bpp_29_4_0011, fr_bpp_29_4_0012</note>
+          
+          
         </noteGrp>
       </div>
     </body>

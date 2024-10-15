@@ -175,10 +175,8 @@
 				</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>
-			<RDF />
-		</xenoData>
-		<profileDesc>
+		
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
 		</profileDesc>
 	</teiHeader>
 	<text>
@@ -203,7 +201,7 @@
 						</bibl>
 					</note>
 				</head>
-				<pb n="f. 643" />
+				<pb n="f. 643"/>
 				<opener>
 					<dateline>
 						<placeName key="g0192" ref="https://www.geonames.org/504003">
@@ -219,9 +217,7 @@
 				<p>
 					Cette lettre, Monsieur, n’est que pour accompagner le pleinpouvoir de
 					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-						Sa Majesté
-					</persName>
-					, que j’ai
+						Sa Majesté</persName>, que j’ai
 					l’honneur de vous envoyer ci-joint. Vous le trouverez redigé dans des termes, qui Vous
 					autorisent à traiter tant avec les ministres des
 					<orgName key="o0023,o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">
@@ -242,7 +238,7 @@
 					Je vous enverrai sous quelques jours des resolutions sur toutes vos depêches qui en
 					demandent, et les prescriptions propres à l’état actuel de vos operations, me bornant
 				</p>
-				<pb n="f. 644" />
+				<pb n="f. 644"/>
 				<p>
 					ici à vous marquer par anticipation la parfaite approbation de
 					<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
@@ -266,26 +262,21 @@
 							C[omt]e N Panin
 						</persName>
 					</signed>
-					<note>
+					
 						à
 						<persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
 							Monsieur le
 							Baron de
-							Stackelberg
-						</persName>
-						, à
+							Stackelberg</persName>, à
 						<placeName key="g0009" ref="https://www.geonames.org/756135">
 							Warsovie
 						</placeName>
-					</note>
+					
 				</closer>
 				<noteGrp>
 					<note>
-						Also see :
-					</note>
-					<note>
-						fr_bpp_29_4_0003
-					</note>
+						Also see : fr_bpp_29_4_0001, <noteGrp>fr_bpp_29_4_0002, fr_bpp_29_4_0003</noteGrp></note>
+					
 				</noteGrp>
 			</div>
 		</body>

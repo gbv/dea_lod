@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -99,33 +99,24 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF />
-    </xenoData>
-    <profileDesc>
+    
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>15 February 1773. – Letter from <persName
-              key="p0114"
-              ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count Nikita Ivanovich Panin</persName> to <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Minister Plenipotentiary of Russia to the Polish-Lithuanian
+          <title>15 February 1773. – Letter from <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count Nikita Ivanovich Panin</persName> to <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Minister Plenipotentiary of Russia to the Polish-Lithuanian
             Commonwealth, Baron Otto Magnus von Stackelberg</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 619. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 619" />
+        <pb n="f. 619"/>
         <opener>
-          <dateline>À <placeName
-              key="g0002"
-              ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName>, ce <date
-              when="1773-02-15">15 fevrier 1773</date>.</dateline>
+          <dateline>À <placeName key="g0002" ref="https://www.geonames.org/498817">S[ain]t Petersbourg</placeName>, ce <date when="1773-02-15">15 fevrier 1773</date>.</dateline>
         </opener>
         <p>Le Rescript ostensible que j’accompagne ici, Monsieur, est un adoucissement à la rigueur
           des termes fixés pour la prestation de serment de chacun des habitans dans l’etenduë de
@@ -143,17 +134,14 @@
           <signed>
             <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">C[omt]e N Panin</persName>
           </signed>
-          <note>À M[onsieu]r <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">le
+          À M[onsieu]r <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">le
             Baron
               de
               Stakelberg</persName>
-          </note>
+          
         </closer>
         <noteGrp>
-          <note>Also see : </note>
-          <note>fr_bpp_29_4_0001</note>
-          <note>fr_bpp_29_4_0002</note>
-          <note>fr_bpp_29_4_0004</note>
+          <note>Also see : fr_bpp_29_4_0001, fr_bpp_29_4_0002, fr_bpp_29_4_0004</note>
         </noteGrp>
       </div>
     </body>

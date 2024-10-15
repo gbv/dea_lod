@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,20 +100,16 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 14 / 25 June 1783. – Draft of the letter from <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+          <title> 14 / 25 June 1783. – Draft of the letter from <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
               the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count
-            Otto Magnus von Stackelberg
-            </persName>
-            , to <persName key="p1028" ref="10db47f0-0a6b-4bd9-a9ea-f1246485910c">
+            Otto Magnus von Stackelberg</persName>, to <persName key="p1028" ref="10db47f0-0a6b-4bd9-a9ea-f1246485910c">
               the Governor General of White Russia, Petr Bogdanovich Passek
             </persName>
           </title>
@@ -123,7 +119,7 @@
             </bibl>
           </note>
         </head>
-        <pb n="f. 1191" />
+        <pb n="f. 1191"/>
         <opener>
           <address n="recipient">
             <addrLine> à S[on] E[xcellence] <persName key="p1028" ref="10db47f0-0a6b-4bd9-a9ea-f1246485910c">
@@ -132,8 +128,7 @@
             </addrLine>
           </address>
           <dateline> ce <date when="1783-06-25">
-              14/25. juin 1783
-            </date> . </dateline>
+              14/25. juin 1783</date>. </dateline>
           <salute>
             Monsieur
           </salute>
@@ -141,14 +136,11 @@
         <p> Ayant deja rendu compte à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
             S[a] M[ajesté] I[mpériale]
           </persName> des demarches, que j’ai
-          faites auprès du Gouvernement d’ici, en consequence du rescript du 19 mai, pour obvier <hi
-            rendition="#s">à l’inconvenient si dangereux de</hi> à l’emigration de la Russie
+          faites auprès du Gouvernement d’ici, en consequence du rescript du 19 mai, pour obvier <hi rendition="#s">à l’inconvenient si dangereux de</hi> à l’emigration de la Russie
           Blanche, ainsi que des mesures qu’on a prises ici pour le même objet, je crois de mon
           devoir d’en faire part aussi à Votre Excellence. Pour cet effet, j’ai l’honneur de Lui
           remettre ci-joint la copie de ma note, ainsi que celle de la reponse, <hi rendition="#s">que
-          je viens de recevoir</hi> et de l’universal expédié par <orgName
-            key="o0093"
-            ref="7369318a-0591-4b6d-b8c3-472e3d9fb09b">
+          je viens de recevoir</hi> et de l’universal expédié par <orgName key="o0093" ref="7369318a-0591-4b6d-b8c3-472e3d9fb09b">
             le Conseil
           </orgName> très flatté de pouvoir convenir avec Vous,
           Monsieur, à arrêter <hi rendition="#s">cet abus</hi> ces entreprises tendantes à depeupler
