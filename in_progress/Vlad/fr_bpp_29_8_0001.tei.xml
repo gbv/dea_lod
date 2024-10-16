@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -121,7 +124,7 @@
           сем реестре показанныя, ценою на пятнадцать тысяч рублей. <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величеству</persName> угодно чтоб вы,
           милостивый государь мой неоставили, по мере как из оных вещей делаемо будет употребление,
           доставлять мне краткое уведомление помесячно или по третям года, которые именно из них и
-          куда вышли; дабы потому записав их в действительный расход можно было дать знать кабинету.
+          куда вышли; дабы потому записав их в действительный расход можно было дать знать <orgName key="o0104">кабинету</orgName>.
           К сим же вещам для равномернаго с прочими употребления причислены и те, которые из
           оставшихся от <orgName key="o0079" ref="838c2acb-4a07-49d4-857c-cdbcb66b83e9">константинопольской
           миссии</orgName> вами представлены, и тут же в реестре означены. Пребываю впрочем с
@@ -133,10 +136,10 @@
         </p>
         <p>В <placeName key="g0192" ref="https://www.geonames.org/504003">Царском Селе</placeName>.</p>
         <p>Июля 19го 1790го года.</p>
-        <p>15. генв[аря] 1791.</p>
+        <p>15. генв[аря] 1791.</p><p/>
         <noteGrp>
-          <note>Also see :</note>
-          <note>fr_bpp_29_8_0002</note>
+          <note>Also see : fr_bpp_29_8_0002</note>
+          
         </noteGrp>
       </div>
     </body>
