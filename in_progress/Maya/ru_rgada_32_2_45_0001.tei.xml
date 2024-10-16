@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,7 +100,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -111,18 +108,16 @@
       <div type="letter">
         <head>
           <title>
-            20 April 1670 (n.s.). – Royal letter from <persName
-              key="p0463"
-              ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">the Holy Roman Emperor [Leopold I]</persName>
+            20 April 1670 (n.s.). – Royal letter from <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">the Holy Roman Emperor [Leopold I]</persName>
             to <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">the Great Sovereign,
-            Tsar and Grand Duke of All Great and Little and White Russia Autocrat Alexis
+            Tsar and Grand Duke of All Great and Little and White Russia Autocrat, Alexis
             Mikhailovich</persName>. [...] 1670.</title>
           <note>
             <bibl>RGADA, fond 32, opis 2, no. 45, f. 1–1v. Latin original. </bibl>
             <bibl>Latin copy: RGADA, fond 32, opis 2, no. 45, f. 2–3.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>
           <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Leopoldus Divina Favente
           Clementia Electus Romanorum Imperator semper Augustus, ac Germaniæ, Hungariæ, Bohemiæ,
@@ -131,9 +126,7 @@
           inferioris Silesiæ, Wirttembergæ et Teckæ, Princeps Sueviæ, Comes Habsburgi, Tyrolis,
           Ferretis, Kyburgi et Goritiæ, Landgravius Alsatiæ, Marchio Sacri Romani Impery Burgoviæ,
           ac superioris et inferioris Lusatiæ, Dominus Marchiæ Sclavonicæ, Portus Naonis et
-          Salinarum</persName> p[erge] <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Serenissimo et Potentissimo Domino Czar et
+          Salinarum</persName> p[erge] <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Serenissimo et Potentissimo Domino Czar et
           Magno Duci Alexio Michaeloviz, totius magnæ, parvæ et albæ Russiæ Autocratori, Moscoviæ,
           Kioviæ, Volodomiriæ, Novagardiæ, Czar Casani, Czar Astracani, Czar Siberiæ, Pleskoviæ,
           Tweriæ, Woliniæ, Podoliæ, Iugoriæ, Permiæ, Veatkæ, Bolgariæ, aliorumq[ue] Domino et magno
@@ -144,24 +137,16 @@
           orientalium, occidentalium et Septentrionalium Dominiorum et Ditionum Paterno et auito
           hæredi</persName>, Successori Domino et Dominatori, Amico et Fratri n[ost]ro charissimo
           salutem et amicitiam n[ost]ram cum omnis boni incremento, Serenissime et Potentissime
-          Princeps, Amice et Fratres char[issi]me. Humillimē Nobis exposuit <persName
-            key="p0707"
-            ref="79cd7bae-f895-42a5-bfa9-74bb3a5c87bd">Wilhelmus de Herttoge</persName> mercator
-          Civitatis nostræ Imp[eria]lis <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hamburgensis</placeName> quem in
-          modum anno adhuc superiore mill[essi]mo sexcentisimo sexagesimo primo famulum olim suum <persName
-            key="p0708"
-            ref="1aa002c6-ae42-49a3-8c4d-568d828465b7">Martinum Wevezer Ioannis filium</persName>,
+          Princeps, Amice et Fratres char[issi]me. Humillimē Nobis exposuit <persName key="p0707" ref="79cd7bae-f895-42a5-bfa9-74bb3a5c87bd">Wilhelmus de Herttoge</persName> mercator
+          Civitatis nostræ Imp[eria]lis <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburgensis</placeName> quem in
+          modum anno adhuc superiore mill[essi]mo sexcentisimo sexagesimo primo famulum olim suum <persName key="p0708" ref="1aa002c6-ae42-49a3-8c4d-568d828465b7">Martinum Wevezer Ioannis filium</persName>,
           in <placeName key="g0001" ref="https://www.geonames.org/524894">Moscoviam</placeName>
           ad Institorem suum <persName key="p0709" ref="b8fc9f3e-5056-4ad0-be9c-7dc9f6e3bfa0">Erdmannum
           Schwellengrebel</persName> cum certo armorum, in sclopetis majoribus minoribusq[ue]
           consistentium numero ut Ser[eni]ti V[est]ræ expacto convento ab eodem extraderentur,
           miserit: Quorum armorum pars etiam Eidem Ser[eni]ti V[est]ræ consignata, pars verō apud
           memoratum Institorem suum Schwellengrebel hucusq[ue] in residuo manserit: Accidisse autem
-          ut cum prædictus quondam famulus suus <persName
-            key="p0708"
-            ref="1aa002c6-ae42-49a3-8c4d-568d828465b7">Martinus Wevezer</persName> inde ad se non
+          ut cum prædictus quondam famulus suus <persName key="p0708" ref="1aa002c6-ae42-49a3-8c4d-568d828465b7">Martinus Wevezer</persName> inde ad se non
           reverteretur, eum ex servitio suo dimiserit, nec eodem iam ab anno mill[essi]mo
           sexcent[isi]mo sexagesimo quinto in negociationibus ibidem suis aliter quam pro Institore
           ac propry juris homine usus fuerit; ut vel eo iniquiūs sibi fiat, quod pro debitis ab ipso
@@ -178,12 +163,8 @@
           prædictis supplicantis precibus eō libentiūs annuimus; Ac proinde Ser[eni]te[m] V[est]ram
           pro ea fiducia nostra benevolē fraterneq[ue] requirimus, ut, rebus supradicto modo se
           habentibus, prælibatas supplicantis merces ab ejusmodi impetitione liberas decernendo,
-          supramemorato ejusdem Institori <persName
-            key="p0709"
-            ref="b8fc9f3e-5056-4ad0-be9c-7dc9f6e3bfa0">Erdmanno Schwellengrebel</persName>, quō eas
-          citra ulteriorem detentionem plenipotentiario negotiatori suo <persName
-            key="p0710"
-            ref="24f30f02-0603-4800-9db4-c6d223db72ae">Ioanni Plusio</persName> quam primum
+          supramemorato ejusdem Institori <persName key="p0709" ref="b8fc9f3e-5056-4ad0-be9c-7dc9f6e3bfa0">Erdmanno Schwellengrebel</persName>, quō eas
+          citra ulteriorem detentionem plenipotentiario negotiatori suo <persName key="p0710" ref="24f30f02-0603-4800-9db4-c6d223db72ae">Ioanni Plusio</persName> quam primum
           extradat, efficaciter demandare velit. Id uti æquitati omnino congruum fuerit; Ita ad
           pergratum non minus animi nostri sensum, quam ad Nominis charitatem Ser[eni]ti v[est]ræ
           apud Sacrum Imperium, quocum perpetuum subditis ipsius est commercium, conciliandam
@@ -206,8 +187,8 @@
         <p>
           <persName key="p0712" ref="56982eb5-37e2-43f6-8b6a-f459d68a75bf">Christoph: Beuer</persName>
           m[anu] p[ropria]</p>
-        <p />
-        <pb n="f. 1v" />
+        <p/>
+        <pb n="f. 1v"/>
         <p>
           <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Serenissimo et
           Potentissimo Domino Czar et Magno Duci Alexio Michäeloviz, totius magnæ, parvæ et alba
@@ -221,14 +202,8 @@
           Dominiorum et Ditionum Paterno et avito Hæredi successori Domino et Dominatori, Amico et
           Fratri Nostro char[issi]mo</persName> ./.</p>
         <p>Грамота от <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">цесаря
-          римского</persName> к великому г[о]с[у]д[а]рю ц[а]рю и <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">великому кн[я]зю Алексею Михайловичю</persName>,
-          всеа Великия и Малыя и Белыя Росии самодержцу 1670-г[о] году. Прислана с артухом о <persName
-            key="p0708"
-            ref="1aa002c6-ae42-49a3-8c4d-568d828465b7">Веверчеве</persName> деле с <persName
-            key="p0709"
-            ref="b8fc9f3e-5056-4ad0-be9c-7dc9f6e3bfa0">Артемоном Швалингреберем</persName>.
+          римского</persName> к великому г[о]с[у]д[а]рю ц[а]рю и <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">великому кн[я]зю Алексею Михайловичю</persName>,
+          всеа Великия и Малыя и Белыя Росии самодержцу 1670-г[о] году. Прислана с артухом о <persName key="p0708" ref="1aa002c6-ae42-49a3-8c4d-568d828465b7">Веверчеве</persName> деле с <persName key="p0709" ref="b8fc9f3e-5056-4ad0-be9c-7dc9f6e3bfa0">Артемоном Швалингреберем</persName>.
           1670.</p>
       </div>
     </body>
