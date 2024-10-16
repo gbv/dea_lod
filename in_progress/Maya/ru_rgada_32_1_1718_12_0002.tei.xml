@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,16 +95,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 8 November 1718. – Petition submitted by the <persName
-              key="p0672"
-              ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">Imperial Resident Otto von Pleyer</persName>
+          <title> 8 November 1718. – Petition submitted by  <persName key="p0672" ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">the Imperial Resident Otto von Pleyer</persName>
             to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
           </title>
           <note>
@@ -119,12 +114,10 @@
               12, f. 11–12.</bibl>
           </note>
         </head>
-        <pb n="f. 5" />
-        <p />
+        <pb n="f. 5"/>
+        <p/>
         <p>Мемориал <persName key="p0672" ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">резидента
-          цесарскаго Блейера</persName> о обиде, ему зделанной от <persName
-            key="p0703"
-            ref="a1b2551d-0988-41e5-afce-635c24f92868">адютанта Дубровскова</persName>.</p>
+          цесарскаго Блейера</persName> о обиде, ему зделанной от <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">адютанта Дубровскова</persName>.</p>
         <p>Aller Durchlauchtigster Großmächtigster </p>
         <p>Zar, Allergnädigster Herr Herr.</p>
         <p>Die Gestern sich zugetragene verdrießliche begebenheit, veranlasset den Endes
@@ -132,35 +125,23 @@
             Groß Zarischen Majest[et]</persName> allerunterthänigst vorzutragen, waß massen gestern
           vormittagß ich einen meiner bedienten wegen Meiner Nothdurfft auff die andere Seiten über
           wasser sendete, derselbe sich auff eine Ordinair=Schluppe begabe, und daß gebührende
-          Überfahrt Geld bezahlte. Allß aber die Schluppe schon abstosssen wollte, kam der <persName
-            key="p0703"
-            ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant deß Herrn General Weyden
+          Überfahrt Geld bezahlte. Allß aber die Schluppe schon abstosssen wollte, kam der <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant deß Herrn General Weyden
           Excell[enz] nahmens Dubrofski</persName>, indeme aber daß Fahrzeug schon voll menschen,
           und kein plaz mehr übrig gewesen, dringte er sich doch hinein, sagte zu meinem diener er
           sollte wiederum heraußsteigen, indeme er nur ein Laquei wäre. Mein Diener aber hat ihme
           geantwortet: daß er von seinem Herrn in Affairen geschiket, und seine Gebühr auch schon
-          entrichtet hätte, er möchte sich auff ein anderß Fahrzeug begeben, worauff der <persName
-            key="p0703"
-            ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> meinen diener
+          entrichtet hätte, er möchte sich auff ein anderß Fahrzeug begeben, worauff der <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> meinen diener
           einen Hund schalt, und anß Ohr schlug. welchen mein Diener, der in einem Allgemeinen
           transport für sein, oder seines Herrn Geld eben so viel macht alß ein anderer, sonderlich
           einer der zu spat gekom[m]en, zu haben vermeinte, und von einem Fremden Ohnbekanten
           Ohrfeigen zu er= </p>
-        <pb n="f. 5v" />
-        <p> tragen nicht gewohnet ist, wiederum beym kopf bekame. worauff der <persName
-            key="p0703"
-            ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> drey dabey stehenden
+        <pb n="f. 5v"/>
+        <p> tragen nicht gewohnet ist, wiederum beym kopf bekame. worauff der <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> drey dabey stehenden
           Soldaten 5 Rub[el] Geld versprochen, meinen diener zu greiffen, welche selben auß der
           Schluppe zogen, ihme den Degen von der Seiten gerissen, und ohne verschonung meiner
-          Lieberey offentlich alß einen Missethäter in deß <persName
-            key="p0702"
-            ref="e6d268af-276f-4e72-92fc-1d20fcb5fb03">h[errn] General Weyde</persName> hauß in
+          Lieberey offentlich alß einen Missethäter in deß <persName key="p0702" ref="e6d268af-276f-4e72-92fc-1d20fcb5fb03">h[errn] General Weyde</persName> hauß in
           Arrest führeten. Allwo zwar der Unter Officier welcher auff der wache war, alß er die
-          Lieberey sahe, denselben nicht an[n]ehmen wollen. der <persName
-            key="p0703"
-            ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> aber ihme in deß <persName
-            key="p0702"
-            ref="e6d268af-276f-4e72-92fc-1d20fcb5fb03">h[errn] Generalen</persName>
+          Lieberey sahe, denselben nicht an[n]ehmen wollen. der <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> aber ihme in deß <persName key="p0702" ref="e6d268af-276f-4e72-92fc-1d20fcb5fb03">h[errn] Generalen</persName>
           nahmen ihne zu halten anbefohlen. Nachdeme mein diener nun schon unter der wache war, kam
           der <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName>
           zu mir, klagend: daß mein Diener ihne hätte geschlagen, welchen er zwar hätte kön[n]en in
@@ -170,43 +151,27 @@
           lassen wolte. Waß aber den angedroheten Arrest anlangete, würde eß ihme schwer fallen
           solches zu thun. weilen er alß ein Officier wohl wissen würde, den Respect, so eineß
           kayserl[ichen] Ministri Lieberey gebührte. Da aber kaum der </p>
-        <pb n="f. 6" />
+        <pb n="f. 6"/>
         <p>
           <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> auß
           meinem Hauß hinauß ware, erfuhre ich, daß er meinen bedienten gerades wegeß auß der
           Schluppe unter die wacht gezogen habe, daß er mir allso die sache Mit Falscheit und
           unwahrheit berichtet. zu welcher that ich aber unpartheische zeugen stellen kan. Nach dem
           nun <persName key="p0702" ref="e6d268af-276f-4e72-92fc-1d20fcb5fb03">Ihr[o] Excell[enz]
-            der Herr General Weyde</persName> auß dem <orgName
-            key="o0058"
-            ref="c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName> nacher Hause kam, sandte ich
-          zu ihme, mit ersuchen Meinen Diener loß zu lassen, und mir von dem <persName
-            key="p0703"
-            ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> gebührende Satisfaction
-          zu schaffen. nach langem warten deß abgeschikten, sandte der <persName
-            key="p0702"
-            ref="e6d268af-276f-4e72-92fc-1d20fcb5fb03">h[err] General Weyde</persName> meinen Diener
-          wiederum mit offentlicher wacht nach meinem Hauße, und forderte wegen seines <persName
-            key="p0703"
-            ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> von Mir
+            der Herr General Weyde</persName> auß dem <orgName key="o0058" ref="c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName> nacher Hause kam, sandte ich
+          zu ihme, mit ersuchen Meinen Diener loß zu lassen, und mir von dem <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> gebührende Satisfaction
+          zu schaffen. nach langem warten deß abgeschikten, sandte der <persName key="p0702" ref="e6d268af-276f-4e72-92fc-1d20fcb5fb03">h[err] General Weyde</persName> meinen Diener
+          wiederum mit offentlicher wacht nach meinem Hauße, und forderte wegen seines <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> von Mir
           Satisfaction, deme ich aber antworten ließe, wie daß ich ihme keine Satisfaction zu geben
           schuldig, sondern solche selber forderen. Nach deme aber Mir dieselbe versagt worden, seye
           ich gemüssiget, über den <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">
-          Adjutant</persName> ein Memorial an <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[e]r Groß-Zarische Majest[et]</persName> zu
-          übergeben, indeme durch diesen frevel, <persName
-            key="p0163"
-            ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Ihro kayserl[ichen] Majest[et] meineß
+          Adjutant</persName> ein Memorial an <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[e]r Groß-Zarische Majest[et]</persName> zu
+          übergeben, indeme durch diesen frevel, <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Ihro kayserl[ichen] Majest[et] meineß
           Allergnädigsten Herrn</persName> hoher Respect offentlich cediret, und die einem Ministro,
           samt dessen bedienten zustehende Invio= </p>
-        <pb n="f. 6v" />
-        <p> labilitet durch ermeldeten <persName
-            key="p0703"
-            ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> gebrochen, und ich
-          solcheß ohne grosse verantwortung nicht ohngeandet lassen kan, Alß gelanget an <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[e]r Groß-Zarische Majest[et]</persName>
+        <pb n="f. 6v"/>
+        <p> labilitet durch ermeldeten <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName> gebrochen, und ich
+          solcheß ohne grosse verantwortung nicht ohngeandet lassen kan, Alß gelanget an <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[e]r Groß-Zarische Majest[et]</persName>
           meine allerunterthänigste bitte, Dieselben wollen Allergnädigst geruhen, zu befehlen, Daß
           dieser <persName key="p0703" ref="a1b2551d-0988-41e5-afce-635c24f92868">Adjutant</persName>
           gebührend abgestrafft werde. Übrigens Mich alleruntethänigst empfehlend</p>
@@ -215,8 +180,7 @@
             Majestet</persName>
         </p>
         <p>
-          <placeName key="g0002" ref="https://www.geonames.org/498817">S[ank]t Petersburg</placeName> 8<hi
-            rendition="#u">
+          <placeName key="g0002" ref="https://www.geonames.org/498817">S[ank]t Petersburg</placeName> 8<hi rendition="#u">
             <hi rendition="#sup">ten </hi>
           </hi>Novembr[is]</p>
         <p>1718.</p>
