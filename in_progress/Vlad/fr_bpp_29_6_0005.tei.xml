@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -182,8 +185,7 @@
         <head>
           <title> 15 November 1779. – Draft of the letter from <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
               the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count
-            Otto Magnus von Stackelberg
-            </persName>,
+            Otto Magnus von Stackelberg</persName>,
             to <persName key="p1064" ref="60b94a86-575e-41cf-b466-c45d2825d643">
               the Great Scribe of Lithuania, Count Benedykt Morykoni
             </persName>
@@ -204,10 +206,9 @@
             </addrLine>
           </address>
           <dateline> ce <date when="1779-11-15">
-              15. Nov[embre] 1779
-            </date> . </dateline>
+              15. Nov[embre] 1779</date>. </dateline>
         </opener>
-        <p>Après l’interet vif que j’ai temoigné prendre <hi rendition="#s">à l’affaire de</hi> aux
+        <p>Après l’interet vif que j’ai temoigné prendre <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">à l’affaire de</hi> aux
           affaires de <persName key="p1073" ref="d233402d-20e9-4059-8c89-d75bff37488d">M[onsieu]r de
           Tyzenhaus</persName>, je ne puis que Vous temoigner, Monsieur, ma surprise <hi rendition="#s">que Vous payés si peu d’égards pour mes recommandations et que</hi> que
           jusqu’à present rien n’a été regle <hi rendition="#s">entre Vous</hi> de Votre part.
@@ -215,7 +216,7 @@
           aucune difficulté de Vous payer ce qui Vous reviendra de justice, ayant aussi envoyé pour
           cet effet trois blanquets à Son Plenipotentiaire, je Vous prie, Monsieur, de terminer une
           fois cette affaire pour Vous seul, sans y entrainer les autres creanciers, qui peuvent
-          traiter separamment [ ?], si Vous faites quelque cas de mon amitié.</p>
+          traiter separamment [?], si Vous faites quelque cas de mon amitié.</p>
         <closer>
           <salute>
             J’ai l’honneur d’être avec une consid[éra]tion parfaite
