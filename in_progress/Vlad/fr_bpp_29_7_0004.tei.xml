@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -176,35 +176,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>23 April 1779. – Draft of the letter from <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to
-            the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>, to <persName
-              key="p1087"
-              ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">the Chancellor of the Grand
+          <title>23 April 1779. – Draft of the letter from <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to
+            the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>, to <persName key="p1087" ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">the Chancellor of the Grand
             Duchy of Lithuania, Prince Aleksander Michał Sapieha</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 7, f. 1307. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1307" />
-        <opener> au <address n="recipient">
-            <persName key="p1087">
-              Pr[ince] Sapieha Gr[and] Chancelier de Lithuanie
+        <pb n="f. 1307"/>
+        <opener><address n="recipient">
+            au <persName key="p1087">Pr[ince] Sapieha Gr[and] Chancelier de Lithuanie
             </persName>
           </address>
           <dateline>
           le <date when="1779-04-23">
-              23. avril 1779
-            </date> . </dateline>
+              23. avril 1779</date>. </dateline>
           <salute>
             Mon Prince !
           </salute>
@@ -213,12 +207,7 @@
           intercedé <hi rendition="#s">envain</hi> inutilement auprès d’Elle en faveur du clergé
           Grec non-uni de la Province de Lithuanie.</p>
         <p>Les Predecesseurs de V[otre] A[ltesse] avoient conferé à l’Eglise Grecque non-unie située
-          à <placeName
-            key="g0309"
-            ref="https://www.geonames.org/628871">Druy</placeName> deux arpens de terre dans le village de <placeName
-            key="g0310"
-            ref="https://www.geonames.org/8207677">Zalesie</placeName>. Maintenant ces arpens viennent <hi
-            rendition="#s">
+          à <placeName key="g0309" ref="https://www.geonames.org/628871">Druy</placeName> deux arpens de terre dans le village de <placeName key="g0310" ref="https://www.geonames.org/8207677">Zalesie</placeName>. Maintenant ces arpens viennent <hi rendition="#s">
           actuellement</hi> par les dispositions de l’administrateur de V[otre] A[ltesse] et sans
           doute à son insçû d’être occupés par une metairie qu’on a bati dessus. Je vous prie donc
           très instamment <hi rendition="#s">V.A. </hi>mon Prince de vouloir bien ordonner ou de
