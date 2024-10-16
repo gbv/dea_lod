@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,16 +100,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>22 August 1717. – [Royal letter] to <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">His Tsarist Majesty [Peter I] </persName>
+          <title>22 August 1717. – [Royal letter] to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">His Tsarist Majesty [Peter I] </persName>
             from <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">[the Holy Roman]
             Emperor [Charles VI]</persName>. [...] On the victory over the Turks</title>
           <note>
@@ -120,7 +115,7 @@
             <bibl>Translation from Latin into Russian: RGADA, fond 32, opis 4, no. 39, f. 1–1v.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>
           <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Carolus Sextus Diuinā</persName>
           favente clementiā Electus Romanorum Imperator Semper Augustus, ac Rex Germaniæ, Castellæ,
@@ -147,33 +142,26 @@
           Nostro charissimo Salutem et amicitiam Nostram cum omnis boni incremento Serenissime et
           Potentissime Princeps, Amice et Frater charissime. Habet quōd Summoperē lætetur universa
           christianitas de insigni vicrtoria, quam Dei optimi Maximi auxilio die decimā Sextā hujus
-          mensis post cruentum Septem horarum prælium prope <placeName
-            key="g0110"
-            ref="https://www.geonames.org/792680">Albam Græcam</placeName>
+          mensis post cruentum Septem horarum prælium prope <placeName key="g0110" ref="https://www.geonames.org/792680">Albam Græcam</placeName>
           ā Turcis ad eō completē reportavimus, ut Eorundem multis millibus trucidatis, et castris
           Suis cum omnibus tormentis bellicis alysque impedimentis victorioso Militi Nostro in
-          prædam datis reliqui fugam arripuerint, eaquepropter paulō post etiam prædicta <placeName
-            key="g0110"
-            ref="https://www.geonames.org/792680">Alba Græca</placeName> deditione in potestatem Nostram venerit; Nihil itaque
+          prædam datis reliqui fugam arripuerint, eaquepropter paulō post etiam prædicta <placeName key="g0110" ref="https://www.geonames.org/792680">Alba Græca</placeName> deditione in potestatem Nostram venerit; Nihil itaque
           Nobis cunctandum existimavimus, quin Serenitatem Vestram, Cui tam fortunatos Rei
           Christianæ eventus jucundissimos fore confidimus, de ys mox certiorem redderemus, Eidem de
-          reliquo prospera quævis ex animo cupientes. Datum in Civitate Nostra <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Viennæ</placeName> die vigesimā Secundā mensis Augusti Anno Domini Millesimo
+          reliquo prospera quævis ex animo cupientes. Datum in Civitate Nostra <placeName key="g0005" ref="https://www.geonames.org/2761367">Viennæ</placeName> die vigesimā Secundā mensis Augusti Anno Domini Millesimo
           Septingentesimo decimo Septimo, Regnorum Nostrorum, Romani Sexto, Hispanicorum decimo
           quarto, Hungarici et Bohemici verō Septimo.</p>
         <p>Serenitatis Vestræ</p>
         <p>Bonus Frater </p>
-        <p>
-          <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Carolus</persName> m[anu
-          propria]</p>
-        <p>V[idi]t <persName key="p0721" ref="d5abce94-ae8b-402c-b9a2-d1566837c9bf">Carolus
-          Ludovicus Comes ā Sinzendorff</persName>.~. </p>
-        <p>
-          <persName key="p0724" ref="37d15573-af8f-4b88-8331-4cb030dbc136">Petrus Josephus Dolberg </persName>
-          m[anu] p[ropr]ia</p>
-        <p />
-        <pb n="f. 1v" />
+        <signed>
+          <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Carolus</persName></signed> 
+                                                                        <p>m[anu] p[ropria]</p>
+                                                        <p>V[idi]t</p> 
+                  <signed><persName key="p0721" ref="d5abce94-ae8b-402c-b9a2-d1566837c9bf">Carolus
+          Ludovicus Comes ā Sinzendorff</persName></signed>.~.
+        <signed><persName key="p0724" ref="37d15573-af8f-4b88-8331-4cb030dbc136">Petrus Josephus Dolberg </persName></signed>
+                                                                        <p>m[anu] p[ropr]ia</p>
+                <pb n="f. 1v"/>
         <p>
           <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Serenissimo et
           Potentissimo Domino Tzaro et Magno Duci Petro Alexievicio</persName> totius magnæ, parvæ
@@ -188,9 +176,7 @@
           charissimo.~.</p>
         <p>К его <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ц[а]рскому
           величеству</persName> от <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">
-          цесаря</persName>. Получена в <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Берлине</placeName> сентября в 9 день
+          цесаря</persName>. Получена в <placeName key="g0012" ref="https://www.geonames.org/2950159">Берлине</placeName> сентября в 9 день
           1717 году. О виктории, полученной над турками.</p>
       </div>
     </body>
