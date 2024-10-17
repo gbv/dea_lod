@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,7 +101,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -112,13 +109,13 @@
       <div type="letter">
         <head>
           <title>5 September 1699. – Ratification by King Frederick IV of Denmark of the treaties of
-            defence alliance with two separate articles concluded in Moscow on 16 July of the same
+            defence alliance  concluded in Moscow on 16 July of the same
             year [1699] by the Danish Envoy Extraordinary Paul Heins</title>
           <note>
             <bibl>RGADA, fond 53, opis 3, no. 10, f. 1–2. German copy.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>Wan Wir nun auch unseres Ohrts begierig undt geschloßen seyndt, angeregte Alliance, casu
           existente, in allen stücken zu exequiren, So haben Wir für uns undt unsere konigliche
           Erb=Successoren, an der Regierung, solche, sambt denen beliebten, 2. Separat=articulen, in
@@ -127,7 +124,7 @@
           Erb=Successoren, an der Regierung, bey Unserem königlichen worte, daß Wir, undt Sie,
           solchem allen nachkommen, undt in keine Wege, auch zu keinen Zeiten, dagegen handeln, noch
           daß es von Unß= oder Ihrentwegen geschehe, </p>
-        <pb n="f. 2" />
+        <pb n="f. 2"/>
         <p>gestatten wollen; Alles getreulich undt ohne gefährde. Zu Uhrkundt deßen haben
           Wir diese Ratification eigenhändig unterschrieben, undt mit unserem Cabinet-Insingel
           bekräfftiget. So geschehen auf unserer Residentz zu Copenhagen den 5<hi rendition="#u">
@@ -136,9 +133,9 @@
           Erlößers gebuhrt, Ein Tausendt Sechs Hundert Neun undt Neuntzig, Unßerer königlichen
           Regierung im Ersten.</p>
         <p>Friderich K[önig]</p>
-        <p />
+        <p/>
         <p>L: S:</p>
-        <p />
+        <p/>
         <p>Ratification. p[erge] J[ohan]: B[altazar]: von Lessen.</p>
       </div>
     </body>
