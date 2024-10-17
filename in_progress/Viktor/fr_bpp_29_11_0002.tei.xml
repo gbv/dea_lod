@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +97,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -108,42 +105,34 @@
       <div type="letter">
         <head>
           <title>7 / 18 September 1793. – Draft of the letter from <persName key="p1145">the
-            ambassador extraordinary and plenipotentiary of Russia to the Polish-Lithuanian
+            Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian
             Commonwealth, Count Jacob Johann von Sievers, to the </persName>general field marshal
             Count Wichard Joachim Heinrich von Möllendorf</title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 11, f. 1724-1727. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1724" />
-        <p />
+        <p/>
+        <pb n="f. 1724"/>
+        <p/>
         <p>à S[on] E[xcellence] <persName key="p1182">M[onsieur] Möllendorff</persName>
         </p>
         <p>
-          <placeName
-            key="g0264"
-            ref="https://www.geonames.org/627904">Grodno</placeName> ce 7/18 7bre [1793]</p>
+          <placeName key="g0264" ref="https://www.geonames.org/627904">Grodno</placeName> ce 7/18 7bre [1793]</p>
         <p>Monsieur,</p>
-        <p>Autant la lettre si pleine de bonté dont V[otre] E[xcellence] a bien voulu m’honorer par <persName
-            key="p0000">M[onsieu]r de Meyerincs</persName> a du m’etre agréable, par l’assurance de
+        <p>Autant la lettre si pleine de bonté dont V[otre] E[xcellence] a bien voulu m’honorer par <persName key="p0000">M[onsieu]r de Meyerincs</persName> a du m’etre agréable, par l’assurance de
           l’aprobation du <persName key="p0884">Roy</persName>, de ce que <persName key="p1055">M[onsieur]
           de B[uchholtz]</persName> et moi avons faîs ici, autant je dusse sentir de peine,
           d’apprendre presqu’en meme tems, celle où se trouve V[otre] E[xcellence] par la sensation
-          des habitans au sujet de l’image de la S[ain]t[e] Vierge de <placeName
-            key="g0332"
-            ref="https://www.geonames.org/7530964">
+          des habitans au sujet de l’image de la S[ain]t[e] Vierge de <placeName key="g0332" ref="https://www.geonames.org/7530964">
           Czenstochow</placeName>. La bonté de Votre cœur doit en souffrir extremement, et
-          particulierement par l’opinion de ces bon<hi
-            rendition="#s">s</hi>nes gens, que par la capitulation de <placeName
-            key="g0332"
-            ref="https://www.geonames.org/7530964">
+          particulierement par l’opinion de ces bon<hi rendition="#s">s</hi>nes gens, que par la capitulation de <placeName key="g0332" ref="https://www.geonames.org/7530964">
           Czenst[ochowa]</placeName>.</p>
         <p>V[otre] E[xcellence] se trouve personnellement engagé, à leur répondre de la conservation
           de cette image chérie. Quoique dans le fond ce soit une affaire de Souverain à Souverain,
-          et tout au plus à la décision du <persName> key="p1188"&gt;S[ain]t Père à Rome</persName> qui
+          et tout au plus à la décision du <persName> key="p1188"&amp;gt;S[ain]t Père à Rome</persName> qui
           ne </p>
-        <pb n="f. 1725" />
+        <pb n="f. 1725"/>
         <p> seroit pas bien aise d’etre obligé à faire une telle decision. Il est triste d’avoir à
           combattre de tels prejugés en fait de croyance, mais il n’est pas moins vrai, qu’il est du
           devoir de ceux qui gouvernent d’eviter d’e ne heurter [ ?] l’effront. J’ai été dans le
@@ -155,37 +144,29 @@
           terrible sur la seule proposition de <persName key="p1055">M[onsieur] de B[uchholtz]</persName>
           selon les ordres qu’il en a, d’en remettre la decision au <persName key="p1188">Pape</persName>
           .</p>
-        <p />
-        <pb n="f. 1726" />
+        <p/>
+        <pb n="f. 1726"/>
         <p> C’est que nous ferons je crois dans un couple de jours, si <persName key="p1055">M[onsieur]
-          de B[uchholtz]</persName> aura reçu le courier qu’il attend de <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">
+          de B[uchholtz]</persName> aura reçu le courier qu’il attend de <placeName key="g0012" ref="https://www.geonames.org/2950159">
           Berlin</placeName>, tant à ce sujet qu’à celui de ratification. Je me flatte qu’à ce point
           le Ministère aura daigné s’en rapporter à moi et à leur facilité de finir le traité de
           commerce en 6 semaines de tems, qui finiroit en meme tems toute la negociation. Mais il
           faut sans doute une confiance reciproque, pour le pénible office de mediateur.</p>
-        <p>Quant à la frontière vis-à vis de <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Varsovie</placeName>, il est
+        <p>Quant à la frontière vis-à vis de <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>, il est
           certain qu’on m’a trompé sur les noms des petites rivieres. J’en ai parlé hier dans la
-          deputation d’une manière qui leur aura fait bien peur<hi rendition="#s">e</hi>. Le <persName
-            key="p0862">Roy</persName> sortit de table pour me parler à ce sujet, et me pria presque
+          deputation d’une manière qui leur aura fait bien peur<hi rendition="#s">e</hi>. Le <persName key="p0862">Roy</persName> sortit de table pour me parler à ce sujet, et me pria presque
           la larme à l’œil de laisser les choses comme elles étoient ; je ne lui ai rien dis de
           positif </p>
-        <pb n="f. 1727" />
+        <pb n="f. 1727"/>
         <p> car il est certain, que la chose est très embarrassante, et je ne sais pas comment je
           m’en tirerois. Il vouloit envoyer un ingenieur sur ces lieux, c’est ce que je refusois,
           car cela eut couté 10 jours au moins. Avouer à la <orgName key="o0018">Diète</orgName>
           qu’on m’a trompé est bien embarrassant, nommer les trois personnes qui ont contribuées à
           me tromper, l’est encore plus.</p>
         <p>Tous <hi rendition="#s">ces </hi>ce revient contre l’idée de ceder encore quelque chose
-          vis à vis de <placeName
-            key="g0332"
-            ref="https://www.geonames.org/7530964">Czenst[ochow]</placeName>. Je ne sais donc en verité
+          vis à vis de <placeName key="g0332" ref="https://www.geonames.org/7530964">Czenst[ochow]</placeName>. Je ne sais donc en verité
           par comment cette affaire se finira. V[otre] E[xcellence] daignera etre persuadé que je
-          ferai mon possible et <hi rendition="#s">je</hi> si <hi
-            rendition="#s">je</hi> j’y puis rien changer, je tacherai
+          ferai mon possible et <hi rendition="#s">je</hi> si <hi rendition="#s">je</hi> j’y puis rien changer, je tacherai
           au moins, de leur faire payer cette tricherie dans le traité de commerce.</p>
         <p>Je prendrai la liberté de faire sejourner <persName key="p0000">M[onsieu]r de Meyerincs</persName>
           encore quelque peu de tems ici.</p>
