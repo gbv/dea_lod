@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,20 +101,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 June 1719. – Recredential , for the [Russian] Envoy [to the Danish KingCount]
+          <title>6 June 1719. – Recredential for the [Russian] Envoy [to the Danish King,  Count]
             Platon [Ivanovich] Musin-Pushkin</title>
           <note>
             <bibl>RGADA, fond 53, opis 4, no. 41, f. 8–8v, 9v. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 8" />
+        <pb n="f. 8"/>
         <p>Durchleuchtigste, Stormægtigste Czar,</p>
         <p>Elskelig Kiære Broder, Ven og Naboe.</p>
         <p>Mig haver Eders May[estæ]ts og Kierligheds afskickede Lieutenant af Garden, Greve Musin
@@ -131,7 +128,7 @@
           tuifler ey paa, at bemelte Eders May[estæ]ts og Kierl[ighe]ds Ambassadeur conjunctim med
           Deris Propositioner ved Mine Ministros af Conseillet, effter diße Tiders Beskaffenhed,
           Mundtligen haver ladet svare, dennem fideliter </p>
-        <pb n="f. 8v" />
+        <pb n="f. 8v"/>
         <p>refereret have, og at Eders May[estæ]t og Kierlighed dermed skal være fornöyede; Mig udi
           det öffrige paa Grevens Puskin Mundtlig rapport, som Eders May[estæ]t og Kierl[ighe]d hand
           ved sin retour giörendes, og ellers Dennem min Estats-Raad og ved Deris Hoff værende
@@ -145,13 +142,13 @@
         <p>A[nn]o 1719.</p>
         <p>C: Sehestedt.</p>
         <p>til Czaren udi det hele Ryßland.</p>
-        <p />
-        <p />
-        <pb n="f. 9v" />
+        <p/>
+        <p/>
+        <pb n="f. 9v"/>
         <p>Dend Durchleuchtigste, Stormægtigste </p>
         <p>Czar, og Stor Förste udi</p>
         <p>det hele Ryßland. p[erge]</p>
-        <p />
+        <p/>
         <p>Рекредитив г[о]с[по]д[и]ну графу Платону Пушкину. Получен на Аландских островах в 2
           де[нь] авг[уста] 1719.</p>
       </div>
