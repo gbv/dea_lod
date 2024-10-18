@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Reply of the Imperial Ambassadors to the articles proposed for the peace treaty by the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
+        <title type="main" xml:lang="en">Reply of the Imperial Ambassadors to the articles proposed
+          for the peace treaty by the Russian Great Ambassador, Prokopii Bogdanovich Voznitsyn</title>
         <author xml:lang="en">Wolfgang</author>
         <author xml:lang="en">Oettinger Wallerstein</author>
         <author xml:lang="en">Leopold</author>
@@ -94,30 +96,184 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
-        </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2 - 5  July 1698. – Response of the <persName key="p0651,p0652" ref="7c880934-a960-4ca5-a7d5-d5e47557763d">Imperial Ambassadors</persName> to the articles proposed for the peace treaty in Karlovicz by the
-<persName key="p0635" ref="965e8d6d-1671-4ac1-8276-a527cf471c59">Russian Grand Ambassador, Prokopii Bogdanovich Voznitsyn</persName>
+          <title>2 - 5 July 1698. – Response of the <persName key="p0651,p0652"
+              ref="7c880934-a960-4ca5-a7d5-d5e47557763d">Imperial Ambassadors</persName> to the
+            articles proposed for the peace treaty in Karlovicz by the <persName key="p0635"
+              ref="965e8d6d-1671-4ac1-8276-a527cf471c59">Russian Grand Ambassador, Prokopii
+            Bogdanovich Voznitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1698, no. 68, f. 150–151v. German original.</bibl>
           </note>
         </head>
-        <p/>
-        <p/>
-        <p>1-е. Соответствующие статьи переведены июня в 25 [день] 169[8] в <placeName key="g0005" ref="https://www.geonames.org/2761367">Вене</placeName>. </p>
-        <noteGrp><note>Also see:</note>
-        <note>ru_rgada_32_1_1698_68_0001</note>
-        <note>ru_rgada_32_1_1698_68_0002</note>
-        <note>ru_rgada_32_1_1698_68_0003</note>
-        <note>ru_rgada_32_1_1698_68_0005</note>
-        <note>ru_rgada_32_1_1698_43_0001</note>
-        <note>ru_rgada_32_1_1698_43_0002</note></noteGrp>
+        <pb n="f. 4" />
+        <table>
+          <row>
+            <cell>
+              <p>
+                [f. 150] Beandtworttung d[er] Moscovitischen puncten</p>
+              <p> ad 1<hi rend="sup">mum</hi>:</p>
+              <p> Es hetten <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro
+                kay[serliche] May[estä]tt</persName> zu dato keinen Frieden gesuchet hetten auch zu
+                solchen gesuch bey dem reichen seegen Gottes, und ihrer continuirlich bißhero
+                victoriosen waffen, keine ursach gehabt, und könte man gesiechert seyen, daß solche
+                ohne erhaltung eines reputirlichen und siecheren Friedens sowohl für <persName
+                  key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Iihro
+                  kay[serliche] May[estä]tt</persName> selbsten, alß dero allyrte hohe potentien nie
+                wurden geleget, sondern der krieg biß dahin continuiret werden.</p>
+              <p> ad 2<hi rend="sup">dum</hi>.</p>
+              <p> Were theils schon vorhero geandtworttet worden, die conditiones aber des
+              angetragenen Friedens betr[äfflich] konten solche keine andere seyen, alß das,
+              zwischen
+              <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">ihro kay[serliche]
+                May[estä]tt</persName> und dero glorwürdigsten vorfahren
+              einer: dan denen
+              <persName key="p0649" ref="baefccb7-57ee-4dee-8cdd-1b2cd58d47fe">Türckischen kayßeren</persName>
+            </cell>
+            <cell>
+              <p>
+                Anfrags puncta S[eine]r Czarischen May[estä]tt de præs[enta]to 2 July 1698.</p>
+              <p>1°.</p>
+              <p> Waß für eine jntention <persName key="p0463"
+                  ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">ihro kay[serliche] May[estä]tt</persName>
+                wegen des jetzigen Türcken kriegs haben, und ob Sie denselben ferner zu continuiren,
+                od[er] Frieden zu suchen belieben? </p>
+              <p />
+              <p />
+              <p>2°.</p>
+              <p> Wan <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">Ihro
+                kay[serliche] May[estä]tt</persName> jntentionirt weren, Frieden zu suchen, auf waß
+                für conditiones, daß Sie sich alßdan contentiren wolten. </p>
+              <p>
+              </p>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <p>[f. 150v] andererseiths alleyeith observirt= und hergebrachte uti possidentis
+                krafft deßen ein jeder theil in dem besitz des eroberten zu verbleiben hette, worauf
+                dan <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">ihro
+                kay[serliche] May[estä]tt</persName> sowohl vor sich selbsten, alß für dero hohe
+                Allyrten, nemblich die <persName key="p0174"
+                  ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czarische May[estä]tt</persName>, den <persName
+                  key="p0620"
+                  ref="4688798e-e2f2-44ba-a7c5-023eb124d1ed">könig</persName>, und Republic zu
+                Pohlen, wie auch die Republic von Venedig in allen deren an die Türckische Portten
+                gestelten beandtworttungen beständig angetragen hetten, auch noch biß dato davon
+                abzulaßen nicht gemeinet weren.</p>
+              <p>
+              <p>ad 3<hi rend="sup">tium</hi></p>
+              <p> Seye nicht ohne, daß vermittels des <persName key="p0620"
+                  ref="4688798e-e2f2-44ba-a7c5-023eb124d1ed">königs in Engellandt</persName> von
+                seithen <persName key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">röm[ischer]
+                kay[serlicher] May[estä]tt</persName> und der Republic von Venedig, annoch vor dem,
+                mit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r
+                Czarischen May[estä]tt</persName> getroffenen foedere zum theil angenombenen
+                mediation, von dem <persName key="p0649" ref="baefccb7-57ee-4dee-8cdd-1b2cd58d47fe">
+                Sultan</persName> an den <persName key="p0620"
+                  ref="4688798e-e2f2-44ba-a7c5-023eb124d1ed">könig in Engellandt</persName></p>
+              <p />
+              <p>[Down below:] Т. Статьи к мирным договорам 2 июл[я] 1698.</p>
+            </cell>
+            <cell>
+              <p>3°.</p>
+              <p> Es ist kundt, daß der <persName key="p0649"
+                  ref="baefccb7-57ee-4dee-8cdd-1b2cd58d47fe">Türckische Sultan</persName> durch
+                mediation des <persName key="p0620"
+                  ref="4688798e-e2f2-44ba-a7c5-023eb124d1ed">königs von Engellandt</persName> bey <persName
+                  key="p0463"
+                  ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">ihro kay[serlichen] May[estä]tt</persName>
+                den Frieden suchet, wie dan bereiths einige propositiones von den Türcken verhanden
+                sindt, waß für eine satisfaction dan darinnen für <persName key="p0463"
+                  ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">ihro kay[serliche] May[estä]tt</persName>,
+                und denen anderen Allyrten Potentaten enthalten, solches alleß möchten <persName
+                  key="p0463" ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">ihro kay[serliche]
+                May[estä]tt</persName>, seiner gutten jnclination nach gegen <persName key="p0174"
+                  ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r Czarischen
+                  May[estä]tt</persName>, alß seinen aufrichtigen Allyrten und einen helffer in
+                dießem krieg, zu communiciren sich belieben laßen.</p>
+              <p>
+              </p>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <p> [[f. 151]] einige Friedens propositiones geschickt und von <persName key="p0620"
+                  ref="4688798e-e2f2-44ba-a7c5-023eb124d1ed">S[eine]r königl[ichen]
+                  May[estä]tt</persName> anhero weren remittiret worden. Man hette aber alßo gleich
+                deren communication an <persName key="p0174"
+                  ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine] Czarische May[estä]tt</persName>
+                sowohl, alß den könig und Republic zu Pohlen, und Republic von Venedig ohne anstandt
+                gepflogen, und weren solche acta annoch untern 25 Aprilis nechsthin an den <persName
+                  key="p0650" ref"98a8675e-1fea-4634-9935-2584455a4383">kay[serlichen] Abgesandten in Pohlen Graffen Sedleitzky</persName>,
+                umb selbige dem auch daselbst befindtlichen Moscovitischen Residenten |:wie es lauth
+                hierüber von <persName key="p0650" ref"98a8675e-1fea-4634-9935-2584455a4383">ihme Graffen Sedleitzky</persName> gegebenen
+                beandtworttung geschehen:| zu bestellen, addressiret worden, were auch alhier der
+                beständigen meinung geweßen, daß <persName
+                  key="p0174"
+                  ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine] Czarische May[estä]tt</persName>>
+                von dero Residenten solche zugeschickter schon wurden empfangen haben. Nachdeme man
+                aber alhier vernomben, daß solches annoch </p>
+            </cell>
+            <cell>
+              <p />
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <p>[[f. 151v]] nit erfolget, so trageten allerhochst: und mehrgedachte <persName
+                  key="p0463"
+                  ref="564d62b6-cb43-468d-ae7b-49f4c6d523d7">kay[serliche]
+                  May[estä]tt</persName> kein bedencken hetten auch dero <persName key="p0645"
+                  ref="a1087d45-2abc-4c98-96dd-5f31111fa9bf">Boheimbischen Obristen
+                  Cantzlern Graffen Khinßky</persName> allergnädigst anbefohlen sowohl vorgedachte
+                erstere acta lauth n. 1° zu reproduiren, alß auch das jenige waß untern 3ten Juny
+                iüngsthin auß Türckey fernerweith überbracht, und dahin wiederumb geandtworttet
+                worden. <persName key="p0174"
+                  ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r Czarischen May[estä]tt</persName>
+                n. 2°. zu behändigen, auß welchen allen waß obengemeldet, mit mehreren bekräfftiget,
+                und <persName key="p0174"
+                  ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ihro Czarischen May[estä]tt</persName>
+                von der aufrichtigkeit, mit welcher der kay[serlichen] hohen Allyrten jnteresse dem
+                eigenen gleich beobachtet worden, völlig persvadiret seyen wurden. </p>
+            </cell>
+            <cell>
+              <p />
+            </cell>
+          </row>
+        </table>
+        <p />
+        <p>1-е. Соответствующие статьи переведены июня в 25 [день] 169[8] в <placeName key="g0005"
+            ref="https://www.geonames.org/2761367">Вене</placeName>. </p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_32_1_1698_68_0001</note>
+          <note>ru_rgada_32_1_1698_68_0002</note>
+          <note>ru_rgada_32_1_1698_68_0003</note>
+          <note>ru_rgada_32_1_1698_68_0005</note>
+          <note>ru_rgada_32_1_1698_43_0001</note>
+          <note>ru_rgada_32_1_1698_43_0002</note>
+        </noteGrp>
       </div>
     </body>
   </text>
