@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -94,49 +91,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 November 1700. – Memorial from <persName
-              key="p0664"
-              ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">the Danish Envoy to Russia, Paul Heins</persName>, to <orgName
-              key="o0064"
-              ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">the Russian Ambassadorial Office</orgName>
+          <title>17 November 1700. – Memorial from <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">the Danish Envoy to Russia, Paul Heins</persName>, to <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">the Russian Ambassadorial Office</orgName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1700, no. 1, f. 37, 38v. German original.</bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <pb n="f. 37" />
-        <p>Weilen <persName
-            key="p0664"
-            ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">Ihro Königl[ichen] Mayestät zu Dennemarck und Norgen Tit: Tit: Envoyé Extraordinaire</persName> mit letzter post ordre erhalten sich cito und ungesäumet nach Ihrer Großen Czaarischen Mayestät Tit: Tit: Feldtlager zu begeben, umb daselbst einigen affairen woran <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czarischen Mayestäten</persName> Selber gelegen mit beyzuwohnen, So kan erwehnter <persName
-            key="p0664"
-            ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">Envoyé Extraordinaire</persName> nicht unterlaßen selbiges an die Hohe respective Herrn Rähte und Cantzlers von der <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Gesandten Cantzley</orgName>, welchen, in abwesenheit <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czarischen Mayestät</persName>, die Außländische affaires betrauwet worden, durch gegenwertiges Memorial gelangen zu laßen, mit Dienstfreundtlicher Bitte solche ordres zu stellen, damit erwehnter <persName
-            key="p0664"
-            ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">Envoyé Extraordinaire</persName> abgelaßen und mit behörigen fuhren und Podwodden umb seine Reiße nach Ihrer Czarischen Mayestät Feldtlager auf schleunigste fortzussetzen möchte versehen werden.</p>
-        <p>Hierauf erwartet Ermelter <persName
-            key="p0664"
-            ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">Envoyé Extraordinaire</persName> Eine schleunige und schrifftliche resolution, umb allerdings entschuldiget zu sein, im fal man die zeit verlieren, und wieder seine obhabende Reise etwas einzuwenden haben möchte. <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscou</placeName> d[en] 17= Novembr[is] 1700.</p>
+        <p/>
+        <p/>
+        <pb n="f. 37"/>
+        <p>Weilen <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">Ihro Königl[ichen] Mayestät zu Dennemarck und Norgen Tit: Tit: Envoyé Extraordinaire</persName> mit letzter post ordre erhalten sich cito und ungesäumet nach Ihrer Großen Czaarischen Mayestät Tit: Tit: Feldtlager zu begeben, umb daselbst einigen affairen woran <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czarischen Mayestäten</persName> Selber gelegen mit beyzuwohnen, So kan erwehnter <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">Envoyé Extraordinaire</persName> nicht unterlaßen selbiges an die Hohe respective Herrn Rähte und Cantzlers von der <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Gesandten Cantzley</orgName>, welchen, in abwesenheit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czarischen Mayestät</persName>, die Außländische affaires betrauwet worden, durch gegenwertiges Memorial gelangen zu laßen, mit Dienstfreundtlicher Bitte solche ordres zu stellen, damit erwehnter <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">Envoyé Extraordinaire</persName> abgelaßen und mit behörigen fuhren und Podwodden umb seine Reiße nach Ihrer Czarischen Mayestät Feldtlager auf schleunigste fortzussetzen möchte versehen werden.</p>
+        <p>Hierauf erwartet Ermelter <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">Envoyé Extraordinaire</persName> Eine schleunige und schrifftliche resolution, umb allerdings entschuldiget zu sein, im fal man die zeit verlieren, und wieder seine obhabende Reise etwas einzuwenden haben möchte. <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> d[en] 17= Novembr[is] 1700.</p>
         <p>
           <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">P[aul] Heins</persName>
         </p>
-        <p />
-        <pb n="f. 38v" />
+        <p/>
+        <pb n="f. 38v"/>
         <p>Memorial</p>
         <p>an</p>
         <p>Die allerseits respective</p>
@@ -145,12 +122,12 @@
         </p>
         <p>
           <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">oder Cantzley</orgName>.</p>
-        <p />
-        <p>1700 г[од]. Мемориал датскаго посланника <persName
-            key="p0664"
-            ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">П[ауля]. Гейнса</persName>. Просит, чтоб ему поизволено было ехать в лагерь к <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">г[о]с[у]д[а]рю</persName> и подводы даны б были. Датц[кое] повы[тье].</p>
+        <p/>
+        <p>1700 г[од]. Мемориал датскаго посланника <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">П[ауля]. Гейнса</persName>. Просит, чтоб ему поизволено было ехать в лагерь к <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">г[о]с[у]д[а]рю</persName> и подводы даны б были. Датц[кое] повы[тье].</p>
+        <noteGrp><note>Also see:</note>
+        <note>ru_rgada_53_1_1701_4_0001</note>
+        <note>rgada_53_1_1705_4_0001</note>
+        <note>ru_rgada_53_3_10_0001</note></noteGrp>
       </div>
     </body>
   </text>
