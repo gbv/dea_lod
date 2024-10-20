@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,34 +98,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>13 Deсember 1700. – Declaration of <persName
-              key="p0532"
-              ref="a2ddef43-2638-4c94-a067-2fef15c6a879">the King of Denmark, Frederick IV, </persName>recognizing
-            Frederick III, the Elector of Brandenburg, as <persName
-              key="p0524"
-              ref="86db824a-17c7-4f94-8d21-6c4d0c8f4e8a">King Frederick I in Prussia</persName>
-          </title>
-          <note>
+          <title>13 Deсember 1700. – Declaration of <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">the King of Denmark and Norway, Frederick IV, </persName>recognizing </title> Elector of Brandenburg            Frederick III <persName key="p0524" ref="86db824a-17c7-4f94-8d21-6c4d0c8f4e8a">as King Frederick I in Prussia</persName> </head><head><note>
             <bibl>RGADA, fond 53, opis 1, 1700, no. 7, f. 1–1v. German copy.</bibl>
             <bibl>Translation into Russian: RGADA, fond 53, opis 1, 1700, no. 7, f. 2–3.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>
           <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Wir Friedrich der Vierdte
           von Gottes Gnaden König zu Denn[emarck] Norweg[en] &amp; cet: cet</persName>: thun kund
           hirmit  Nachdem Uns von <persName key="p0524" ref="86db824a-17c7-4f94-8d21-6c4d0c8f4e8a">des
           Churfürste zu Brandenb[urg]</persName> d[urc]hl[aucht] und L[ieben] zu erkennen gegeben
-          worden, was gestalt derselbe entschloßen innerhalb wenig Wochen nach dero <persName
-            key="p0524"
-            ref="86db824a-17c7-4f94-8d21-6c4d0c8f4e8a">Souvrainen Herzogthum Preussen</persName>
+          worden, was gestalt derselbe entschloßen innerhalb wenig Wochen nach dero <persName key="p0524" ref="86db824a-17c7-4f94-8d21-6c4d0c8f4e8a">Souvrainen Herzogthum Preussen</persName>
           sich zu begeben und sich daselbst pro Rege declariren zu laßen mit dem FreundVetterlichen
           begehren, daß Wir alsdann und wann Uns von S[einer] d[urc]hl[aucht] und L[ieben] solcher
           angenommenen Neuen Dignität halber behörige Notification gethan wird, selbige auch so fort
@@ -142,22 +130,34 @@
           tractiren und alle von solcher Dignität dependirende honores Ihme und Ihren Ministris
           erwisen nicht weniger auch bey dem <persName key="p1434">Könige von Franckreich</persName>
           und andern </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p>Puissancen, daß von derselben desgleichen geschehe, befodern, und im fall Seine
           d[urc]hl[aucht] und L[ieben], wie doch nicht zu vermüthen ist, darüber mit Jemand in
           Weiterung verfallen solten, solches Pro Casu Communis garantiæ et foederis halten wollen,
           dessen zu Urkund haben Wir die Versicherung mit eigener Königl[ichen] Hand unterschrieben
           und solches mit Unserm geheim[en] Calirt[en] insiegel bedrücken laßen. So geschehen auf
-          Unserer Residenz zu <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Coppenhagen</placeName> den 13 ... [December]
+          Unserer Residenz zu <placeName key="g0006" ref="https://www.geonames.org/2618425">Coppenhagen</placeName> den 13 ... [December]
           1700.</p>
         <p>
           <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Friderich Rex</persName>
         </p>
         <p>L. S.</p>
-        <p />
+        <p/>
         <p>Генваря в 29 де[нь].</p>
+        <noteGrp><note>Also see:</note>
+<note>ru_rgada_53_3_10_0001</note>
+<note>ru_rgada_53_3_39_0001</note>
+<note>ru_rgada_53_3_16_0001</note> 
+<note>ru_rgada_53_3_21_0001</note>
+<note>ru_rgada_53_4_2_0001</note>
+<note>ru_rgada_53_4_2_0002</note>
+<note>ru_rgada_53_4_18_0001</note>
+<note>ru_rgada_53_4_22_0001</note>
+<note>ru_rgada_53_4_27_0001</note>
+<note>ru_rgada_53_4_27_0002</note>
+<note>ru_rgada_53_4_27_0003</note>
+<note>ru_rgada_53_4_39_0001</note>
+<note>ru_rgada_53_4_41_0001</note></noteGrp>
       </div>
     </body>
   </text>
