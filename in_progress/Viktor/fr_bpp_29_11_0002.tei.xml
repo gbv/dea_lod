@@ -132,7 +132,6 @@
 	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/fr_bpp_29_11_0002.tei.xml?place_annotation_20241017120501317",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-17T10:05:01.317Z",
-	"dcterms:modified": "2024-10-17T10:05:01.317Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -151,15 +150,15 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/fr_bpp_29_11_0002.tei.xml?place_annotation_20241017120501317#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[7]/placeName"
+			"rdf:value": "TEI/text/body/div/p[5]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -168,11 +167,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -183,22 +182,20 @@
     <body>
       <div type="letter">
         <head>
-          <title>7 / 18 September 1793. – Draft of the letter from <persName key="p1145">the
-            Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian
-            Commonwealth, Count Jacob Johann von Sievers, to the </persName>General Field Marshal, Count Wichard Joachim Heinrich von Möllendorf</title>
+          <title>7 / 18 September 1793. – Draft of the letter from <persName key="p1145">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von Sievers</persName>, to <persName key="p1182">the General Field Marshal, Count Wichard Joachim Heinrich von Möllendorf</persName></title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 11, f. 1724-1727. French original.</bibl>
           </note>
         </head>
-        <p/>
+        
         <pb n="f. 1724"/>
-        <p/>
+        
         <p>à S[on] E[xcellence] <persName key="p1182">M[onsieur] Möllendorff</persName>
         </p>
         <p>
           <placeName key="g0264" ref="https://www.geonames.org/627904">Grodno</placeName> ce 7/18 7bre [1793]</p>
         <p>Monsieur,</p>
-        <p>Autant la lettre si pleine de bonté dont V[otre] E[xcellence] a bien voulu m’honorer par <persName key="p0000">M[onsieu]r de Meyerincs</persName> a du m’etre agréable, par l’assurance de
+        <p>Autant la lettre si pleine de bonté dont V[otre] E[xcellence] a bien voulu m’honorer par <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2464" xml:space="default">M[onsieu]r de Meyerincs</persName> a du m’etre agréable, par l’assurance de
           l’aprobation du <persName key="p0884">Roy</persName>, de ce que <persName key="p1055">M[onsieur]
           de B[uchholtz]</persName> et moi avons faîs ici, autant je dusse sentir de peine,
           d’apprendre presqu’en meme tems, celle où se trouve V[otre] E[xcellence] par la sensation
@@ -246,7 +243,7 @@
           par comment cette affaire se finira. V[otre] E[xcellence] daignera etre persuadé que je
           ferai mon possible et <hi rendition="#s">je</hi> si <hi rendition="#s">je</hi> j’y puis rien changer, je tacherai
           au moins, de leur faire payer cette tricherie dans le traité de commerce.</p>
-        <p>Je prendrai la liberté de faire sejourner <persName key="p0000">M[onsieu]r de Meyerincs</persName>
+        <p>Je prendrai la liberté de faire sejourner <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2464" xml:space="default">M[onsieu]r de Meyerincs</persName>
           encore quelque peu de tems ici.</p>
         <p>J’ai l’honneur d’etre</p>
         <noteGrp>
