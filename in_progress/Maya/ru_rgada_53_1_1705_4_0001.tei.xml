@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -94,28 +91,24 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>27 July 1705. – Memorial from the Secretary of the Danish embassy in Russia, Paul Schritzmeier{{p1731}} to the Tsar of Russia, Peter I{{p0174}}</title>
+          <title>27 July 1705. – Memorial from <persName key="p1731">the Secretary of the Danish embassy in Russia, Paul Schritzmeier</persName> , to the Tsar of Russia, Peter I{{p0174}}</title>
           <note>
-            <bibl>RGADA, fond 53, opis 1, 1705, no. 4, f. 1–1v, 2v. Danish original</bibl>&gt;
+            <bibl>RGADA, fond 53, opis 1, 1705, no. 4, f. 1–1v, 2v. Danish original</bibl>&amp;gt;
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>Allerdurchläuchtigster Grosmechtigster Czaar</p>
         <p>Gnädigster Herr.</p>
-        <p>Es wird Ihro Czaariske Mayestet schon bekant sein das Ihro Excellentz der Wohlgebohrne Extraordinaire Envoyé von Dennemarck{{p0664}}, aus diesen vergänglichen Leben abgefordert, und in die Seel[ige] Ewigkeit versetzet worden. Wann denn der Seel[ige] Herr etliche Tage vor seinem Abscheid mir befohlen, das wenn der Höchste nach seinem Unerforschlichen Raht und willen Ihn von dieser Welt wehnehmen solte; Ich alsdann dahin bemühet sein mögen, das mit der ersten gelegenheit der Herr von Müller{{p2525}}, und der Hoffmeister Gottlob Kesler{{p2166}} nebenst einen Jungen nach <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhagen</placeName> wegen etlicher affairs verreysen mögen, dieweilen aber bey dieser Krieges Zeit keine andere Gelegenheit verhanden </p>
-        <pb n="f. 1v" />
-        <p> als mit Archangelschen Schiffen fortzugehen; So ist an Ihro Czaarisken May[este]t mein Unterthänigst Ersuchen und Bitten in Consideration des Sehl[igen] Herrns, die gnade zu erzeigen, das obgemeldte officiers, mit einem Pass, auch zu fortbringung etlich Sachen mit 8 Pferden Podwodden, bis nach <placeName
-            key="g0191"
-            ref="https://www.geonames.org/472459">Wolgoda</placeName> mögen versehen werden. Solche Gnädige willfahrung werde Lebens Lang mit Unterthänigsten Danck erkennen, verbleibende</p>
+        <p>Es wird Ihro Czaariske Mayestet schon bekant sein das Ihro Excellentz der Wohlgebohrne Extraordinaire Envoyé von Dennemarck{{p0664}}, aus diesen vergänglichen Leben abgefordert, und in die Seel[ige] Ewigkeit versetzet worden. Wann denn der Seel[ige] Herr etliche Tage vor seinem Abscheid mir befohlen, das wenn der Höchste nach seinem Unerforschlichen Raht und willen Ihn von dieser Welt wehnehmen solte; Ich alsdann dahin bemühet sein mögen, das mit der ersten gelegenheit der Herr von Müller{{p2525}}, und der Hoffmeister Gottlob Kesler{{p2166}} nebenst einen Jungen nach <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName> wegen etlicher affairs verreysen mögen, dieweilen aber bey dieser Krieges Zeit keine andere Gelegenheit verhanden </p>
+        <pb n="f. 1v"/>
+        <p> als mit Archangelschen Schiffen fortzugehen; So ist an Ihro Czaarisken May[este]t mein Unterthänigst Ersuchen und Bitten in Consideration des Sehl[igen] Herrns, die gnade zu erzeigen, das obgemeldte officiers, mit einem Pass, auch zu fortbringung etlich Sachen mit 8 Pferden Podwodden, bis nach <placeName key="g0191" ref="https://www.geonames.org/472459">Wolgoda</placeName> mögen versehen werden. Solche Gnädige willfahrung werde Lebens Lang mit Unterthänigsten Danck erkennen, verbleibende</p>
         <p>Ihro Czaariske Mayestéts</p>
         <p>Allerunterthänigster</p>
         <p>Knegt</p>
@@ -123,10 +116,10 @@
           <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> d[en] 27 July</p>
         <p>Stil[i] Vet[e]r[is] 1705.					Paul Schritzmejer.</p>
         <p>Secretarius{{p1731}}.</p>
-        <p />
-        <p />
-        <pb n="f. 2v" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 2v"/>
+        <p/>
         <p>Мемориал датскаго секретаря Шрицмеера{{p1731}}. Просит о пашпорте и подводах отправляющим афицерам после покойнаго министра{{p1731}} оставшим с багажем.</p>
         <p>Дат[ское] повыт[ье].</p>
       </div>
