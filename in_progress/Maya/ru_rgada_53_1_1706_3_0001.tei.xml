@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,17 +94,15 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>25 January / 5 February 1706. – Memorial from <persName key="p1445">the Danish
-            Envoy to Russia, Georg Grund</persName>, to <persName
-              key="p0277"
-              ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian Chancellor, Count Fedor
+          <title>25 January / 5 February 1706. – Memorial from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1445" xml:space="default">the Danish
+            Envoy to Russia, Georg Grund</persName>, to <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian Chancellor, Count Fedor
             Alekseevich Golovin</persName>
           </title>
           <note>
@@ -116,23 +111,17 @@
               20–21v.</bibl>
           </note>
         </head>
-        <pb n="f. 19" />
+        <pb n="f. 19"/>
         <p>Hochgebohrner Herr Graf und</p>
         <p>Gros Cantzler.</p>
         <p>Ew[er] Hochgräffl[ichen] Excellentz habe hiemit vorzutragen, wie das für einigen tagen
-          sich ein bürger und Schiffer aus <placeName
-            key="g0386"
-            ref="https://www.geonames.org/3149318">Christians Sand</placeName> in
+          sich ein bürger und Schiffer aus <placeName key="g0386" ref="https://www.geonames.org/3149318">Christians Sand</placeName> in
           Norwegen nahmens <persName key="1446">Johan Paulsen</persName> bey mir als Ihre
           Königlichen May[es]t[ä]t zu Dennemark Norwegen hiesigen Envoyé Extraordinaire angegeben
           und geklaget, das sein Schiff Christina Magreta genand von 47<hi rendition="#sup">n </hi>lasten
-          in <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> arrestiret ist, und zwar, wie Er nach
+          in <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> arrestiret ist, und zwar, wie Er nach
           beygeschloßenen bericht Eidlich zu bekräfftigen erböthig, und dem <persName key="p1449">H[er]rn
-          Isebrand</persName>, so dahmahls in <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> gewesen,
+          Isebrand</persName>, so dahmahls in <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> gewesen,
           auch mit bekand ist, aus nachfolgender Ursa[che].</p>
         <p>Das Ihm ein <persName key="1447">Commiss fahrer nahmens Hester</persName> in See ni[cht]
           weit von der Nord Cape angetroffen, und daselbst zu sich an bord kommen laßen, umb seinen
@@ -140,19 +129,15 @@
           frey fahren laßen, nur das Er Ihn einen Mann mit auf sein Schiff gegeben zu was End, sey
           Ihm nicht wohl wißend, Er hätte es aber also geschehen laßen, weilen man sich erbothen Ihn
           die kost da für zu bezahlen, und habe darauf seine Segel wieder aufgezogen, und den Haven
-          von <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> glückl[ich] erreichet, auch daselbst
-          nicht allein seinen Pass und übrige attesten bey <persName
-            key=""
-            ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">dem dortigen</persName>
+          von <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> glückl[ich] erreichet, auch daselbst
+          nicht allein seinen Pass und übrige attesten bey <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">dem dortigen</persName>
           <persName key="p1446">
           Gouverneur</persName> und <persName key="p0000">zoll Inspecteur</persName> ohne einige
           wieder rede oder Erinnerung des Engeländers so auf seinen Schiff gewesen, produciret,
           sondern auch nachdehm Er sich solcher gestalt legitimiret, seine ladung zu loßen
           angefangen, da erstl[ich] obgedachter <persName key="p1446">Commis fahrer</persName>
           darauf </p>
-        <pb n="f. 19v" />
+        <pb n="f. 19v"/>
         <p>zu prætendiren angefangen, und eigenmächtig seine Matrosen mit gewehr an bord geschicket,
           auch nachgehendes Ihre Tzaarische May[e]stät Soldaten davon abgehalten, und durch
           ungestühmes wesen es dahin gebracht, das dieses Schiff in arrest genommen, auch sich noch
@@ -169,13 +154,12 @@
           für gedachten <persName key="p1446">Schiffer Paulsen</persName>, das deßen Schiff
           fodersamst möge wieder frey erkläret, demjenigen aber, so für dem erhaltenen arrest
           einstehet, injungiret werden, dem Schiffer für seinen Schaden und Nachtheil, nach dem gut
-          befinden zweyer unparteyischen kauffleuthe gerecht zu werden; und da sonst <persName
-            key="p1446">der Commiss fahrer</persName> etwas prætendiret, weilen Er das Schiff in der
+          befinden zweyer unparteyischen kauffleuthe gerecht zu werden; und da sonst <persName key="p1446">der Commiss fahrer</persName> etwas prætendiret, weilen Er das Schiff in der
           See rencontriret, damit nach Dennemark zu verweisen, alwo selbst Ihm guthe Justice
           wiederfahren soll.</p>
         <p>Wo mit stets mit aller Ergebenheit verharre</p>
         <p>Ew[er] HochGräffl[ichen] Excellentz</p>
-        <p />
+        <p/>
         <p>
           <placeName key="g0001" ref="https://www.geonames.org/524894">Moscow</placeName> d[en]
           25 Jan[uarii] / 5 Febr[uarii] 1706 Gehorsamster bereitwilligster</p>
