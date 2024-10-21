@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,16 +94,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>7 May 1701. – Memorial from <persName
-              key="p0664"
-              ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">the Danish Envoy to Russia, Paul Heins</persName>,
+          <title>7 May 1701. – Memorial from <persName key="p0664" ref="29c3eee5-ea48-41b2-862f-834f424fe2f2">the Danish Envoy to Russia, Paul Heins</persName>,
             to <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian
             Chancellor, Count Fedor Alekseevich Golovin</persName>
           </title>
@@ -116,41 +111,30 @@
               23–23v.</bibl>
           </note>
         </head>
-        <pb n="f. 20" />
+        <pb n="f. 20"/>
         <p>Wollgebohrner Herr General Admiral und Boyar,</p>
         <p>Insonders Hochgeneigter Gönner</p>
         <p>Wiewohl Ihre Groß Czaarische Mayestät Zweiffels ohne von Ihren an Dero königlichen
-          Mayestäten Meines Allergnädigsten Königs und Herren Hoffe sich aufhaltenden <persName
-            key="p1432">Ambassadeuren Andreas Petrowitz Ismailoff</persName> gnugsahm werden
+          Mayestäten Meines Allergnädigsten Königs und Herren Hoffe sich aufhaltenden <persName key="p1432">Ambassadeuren Andreas Petrowitz Ismailoff</persName> gnugsahm werden
           informiret sein von der antwort so Ihm auf Sein letzteres eingegebenes Memorial auf Hohe
           Königliche ordre loco resolutionis ertheilet worden, so habe doch nicht manquiren wollen
           Ewr[er] Excellentz hiebey eine Copiam desselben so mir mit letzterer Post </p>
-        <pb n="f. 20v" />
+        <pb n="f. 20v"/>
         <p>zugesandt, zu mehrer versicherung zu insinuiren; Und kan da benebenst laut meiner
           letzteren ordre in nahmen <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Meines
           Allergnädigsten Königs und Herrn</persName> versichern, das Selbe Höchstgedachte Mayestät
-          nicht nur allein beständig gesonnen von den mit <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czaarischen Mayestät</persName>
+          nicht nur allein beständig gesonnen von den mit <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czaarischen Mayestät</persName>
           geschloßenen alliance Tractaten nicht in geringsten abzutreten, sondern nur eine sichere
           und <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czaarischen
-          Mayestät</persName> eigenen interesse vorträgliche gelegenheit Höchstbegierig verlangen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czaarischen Mayestät</persName>
+          Mayestät</persName> eigenen interesse vorträgliche gelegenheit Höchstbegierig verlangen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer Czaarischen Mayestät</persName>
           in allen so immer practicuabel sein kan zu wilfahren und dero Brüderlichen Freundschafft
-          gemäß Ihre sincere intention würcklich in effectu an den Tag zu legen; Wie den <persName
-            key="p0532"
-            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihre Königl[iche] Mayestätt</persName>
-          der Hofnung Leben, es werden <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihre Gros Czaarischen Mayestät</persName>
+          gemäß Ihre sincere intention würcklich in effectu an den Tag zu legen; Wie den <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihre Königl[iche] Mayestätt</persName>
+          der Hofnung Leben, es werden <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihre Gros Czaarischen Mayestät</persName>
           gleichfals die Gemachte vertrauwliche Brüderliche Freundschafft und Bündtnyßen zu
           beyderseits Hoher Herren und Dero Reichen, Herschafften und Ländern </p>
-        <pb n="f. 21" />
+        <pb n="f. 21"/>
         <p>Gloire und aufnehmen, beständig und unverbruchlich zu unterhalten gesonnen bleiben.
-          Welches Ewr[e] Excellentz geneigt bleiben werden an dero <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Groß Czaarischen Mayestät</persName>
+          Welches Ewr[e] Excellentz geneigt bleiben werden an dero <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Groß Czaarischen Mayestät</persName>
           gebührender maßen gelangen zu laßen. Übrigens verharre mit stehts ergebenen Gemühte</p>
         <p>Ewr[er] Excellentz</p>
         <p>gantz gehohrsambster und</p>
@@ -161,9 +145,9 @@
           Heins</persName>
         </p>
         <p>1701.</p>
-        <p />
-        <p />
-        <pb n="f. 21v" />
+        <p/>
+        <p/>
+        <pb n="f. 21v"/>
         <p>A Son Excellence</p>
         <p>
           <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Monseigneur Foedro Allexiewitz
@@ -182,8 +166,13 @@
             Siberie</persName>
         </p>
         <p>a Son Hostel.</p>
-        <p />
-        <p>Пис[ь]мо датцкого посланника об[ъ]явител[ь]ное подлинное.</p>
+        <p/>
+        <p>Пис[ь]мо <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0664">датцкого посланника</persName> об[ъ]явител[ь]ное подлинное.</p>
+        <noteGrp><note>Also see:</note>
+        <note>ru_rgada_53_1_1700_1_0001</note>
+        <note>rgada_53_1_1705_4_0001</note>
+        <note>ru_rgada_53_3_10_0001</note>
+        <note>ru_rgada_53_1_1706_3_0001</note></noteGrp>
       </div>
     </body>
   </text>
