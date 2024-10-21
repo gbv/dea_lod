@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Letter from the envoy extraordinary and minister plenipotentiary of Russia to Saxony, Baron Johann Mestmacher, to the minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto Heinrich Igelström</title>
+        <title type="main" xml:lang="en">Letter from the envoy extraordinary and minister plenipotentiary of Russia to Saxony, Baron Johann Mestmacher, to the minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto Heinrich Igelström</title>
         <author xml:lang="en">Johann</author>
         <author xml:lang="en">Mestmacher</author>
       </titleStmt>
@@ -98,91 +93,45 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>28 March / 8 April 1794. – Letter from <persName
-              key="p0569,p1158">the Envoy Extraordinary and Minister Plenipotentiary of Russia to Saxony, Baron Johann Mestmacher, to the Minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto Heinrich Igelström</persName>
+          <title>28 March / 8 April 1794. – Letter from <persName key="p0569,p1158">the Envoy Extraordinary and Minister Plenipotentiary of Russia to Saxony, Baron Johann Mestmacher, to the Minister plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto Heinrich Igelström</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 13, f. 1889-1892. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1889" />
-        <p />
+        <p/>
+        <pb n="f. 1889"/>
+        <p/>
         <p>à <persName key="p1158">S[on] E[xcellence] Monsieur le Baron d’Igelstrom</persName>
         </p>
         <p>Monsieur le Baron,</p>
-        <p>Ce fût avanthier au soir que j’eûs l’honneur de recevoir la depèche que Votre Excellence a bien voulû m’addresser par estafette en date du 22 Mars / 2 Avril. J’ai trouvé moyen de faire parvenir dans le même instant par la voye du <orgName
-            key="o0109"
-            ref="20d4bba9-1875-45c6-a3c3-19c3ddc2b810">Ministère</orgName> à <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> son contenû, dont les argumens victorieux en tout sens ont fait d’après les assurances des Ministres de <orgName
-            key="o0109"
-            ref="20d4bba9-1875-45c6-a3c3-19c3ddc2b810">Cabinet</orgName> une profonde impression sur la bonne volonté de <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">ce Prince</persName>. Dans les entretiens que j’ai eûs hier et aujourd’hui avec M[essieu]rs de <persName
-            key="p1204">Loss</persName> et <persName
-            key="p1205">Gudschmidt</persName> sur les moyens à prendre pour empêcher que M[essieu]rs <persName
-            key="p1206">Ignace</persName> et <persName key="p0969">Stanislas Potocki</persName> et <persName
-            key="p1207">Colontay</persName> ne puissent aller se reunir aux rebelles de <placeName
-            key="g0326"
-            ref="https://www.geonames.org/3094802">Cracovie</placeName>, ou qu’ils ne secondassent de quelque manière que ce soit, la revolte qui vient d’y éclater, ils me parlerent de l’embarras, où se trouvoient <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName>, / : qui a passé hier toute la journée à la chasse :/ à l’égard de ces personnes, à qui il avoit accordé l’hospitalité et qui s’etoient conduits sans reproches, malgré la surveillance la plus suivie. Ils medisoient encore, qu’il seroit difficile d’entreprendre quelque </p>
-        <pb n="f. 1890" />
-        <p> chose contre ces Polonois avant la requisition directe de la part de <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">notre auguste Cour</orgName> ou de celle du <persName
-            key="p0862">Roi</persName> et du <orgName
-            key="o0093"
-            ref="7369318a-0591-4b6d-b8c3-472e3d9fb09b">Conseil permanent de la République</orgName>.</p>
-        <p>Quoiqu’il n’y eut rien à ajouter aux argumens exprimés dans la depeche de Votre Excellence, j’ai crû cependant devoir leur repeter que l’explosion qui vient d’avoir lieu en Pologne a toute apparence d’être l’effet d’un plan medité même avec les Jacobins et France ; que dans ce cas, dont M[essieu]rs de <persName
-            key="p1204">Loss</persName> et <persName
-            key="p1205">Gudschmidt</persName> doutoient nullement, on ne pouvoit que de la regarder comme une diversion aux Puissances alliées en faveur des François ; que ces motifs, qui ne pouvoient qu’interesser de bien près <orgName
-            key="o0110"
-            ref="5187e244-5f2c-4fb8-ba58-a491a920b4bf">la Cour de Saxe</orgName> ainsi que celui de prevenir tout soupçon même dans le public, comme si on avoit toleré ici les chefs des factieux, sembloient être suffisans pour prendre des mesures aussi promptes que serieuses, pour s’assurer du moins des deux <persName
-            key="p1206,p0969">Potocky</persName> et de <persName key="p1207">Colontay</persName>.</p>
-        <p>Encore ce matin en conferant avec <persName
-            key="p1204">M[onsieu]r le Comte de Loss</persName> sur ce sujet, je lui fis comprendre, que selon moi, le plus salutaire seroit de se saisir de ces trois personnes et des les loger, jusqu’à ce que l’on verroit plus clair, au <placeName
-            key="g0333"
-            ref="https://www.geonames.org/2885766">Königstein</placeName>, sous prétexte de leur propre sureté. Il me promit de rendre compte à <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> du contenû de notre entretien et pendant que j’attendois sa </p>
-        <pb n="f. 1891" />
-        <p> reponse, j’ai appris que <persName
-            key="p1206">le Comte Ignace</persName> etoit parti la nuit passée pour se rendre, dit-on, à ses terres en Gallicie. En en marquant ce soir à <persName
-            key="p1204">M[onsieu]r le Comte de Loss</persName> dans un billet mon étonnement et que cette fuite confirmoit bien les preuves de sa complicité avec le chef des rebelles <persName
-            key="p0924">Kosciusko</persName>, je lui predis que si on ne prenoit pas des precautions, je pensois que <persName
-            key="p0969">le Comte Stanislas</persName> et <persName
-            key="p1207">Colontay</persName> ne tarderoient pas de le suivre bien vite. Sa reponse que je viens de recevoir, ne contient si non, qu’il n’a pas eû le moindre avis du depart du <persName
-            key="p1206">Comte Ignace</persName> et que <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName>, sur le compte que ce <persName
-            key="p1204">Ministre</persName> lui avoit rendû de notre entretien, s’étoit borné à lui dire, que dans peu Il donneroit sa resolution. Si les deux autres complices s’enfueront de même, comme je suis tenté de le croire, il est à présumer que <orgName
-            key="o0110"
-            ref="5187e244-5f2c-4fb8-ba58-a491a920b4bf">la Cour de Saxe</orgName>, pour eviter un embarras factice le leur aura fait comprendre sans doute indirectement ; car je ne me suis ouvert sur cette matière qu’à M[essieu]rs <persName
-            key="p1204">le Comte de Loss</persName> et <persName
-            key="p1205">Baron de Gudschmidt</persName>, après en avoir fait part au <persName
-            key="p1211">Ministre de Prusse, Comte d’Arnim</persName>.</p>
+        <p>Ce fût avanthier au soir que j’eûs l’honneur de recevoir la depèche que Votre Excellence a bien voulû m’addresser par estafette en date du 22 Mars / 2 Avril. J’ai trouvé moyen de faire parvenir dans le même instant par la voye du <orgName key="o0109" ref="20d4bba9-1875-45c6-a3c3-19c3ddc2b810">Ministère</orgName> à <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> son contenû, dont les argumens victorieux en tout sens ont fait d’après les assurances des Ministres de <orgName key="o0109" ref="20d4bba9-1875-45c6-a3c3-19c3ddc2b810">Cabinet</orgName> une profonde impression sur la bonne volonté de <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">ce Prince</persName>. Dans les entretiens que j’ai eûs hier et aujourd’hui avec M[essieu]rs de <persName key="p1204">Loss</persName> et <persName key="p1205">Gudschmidt</persName> sur les moyens à prendre pour empêcher que M[essieu]rs <persName key="p1206">Ignace</persName> et <persName key="p0969">Stanislas Potocki</persName> et <persName key="p1207">Colontay</persName> ne puissent aller se reunir aux rebelles de <placeName key="g0326" ref="https://www.geonames.org/3094802">Cracovie</placeName>, ou qu’ils ne secondassent de quelque manière que ce soit, la revolte qui vient d’y éclater, ils me parlerent de l’embarras, où se trouvoient <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName>, / : qui a passé hier toute la journée à la chasse :/ à l’égard de ces personnes, à qui il avoit accordé l’hospitalité et qui s’etoient conduits sans reproches, malgré la surveillance la plus suivie. Ils medisoient encore, qu’il seroit difficile d’entreprendre quelque </p>
+        <pb n="f. 1890"/>
+        <p> chose contre ces Polonois avant la requisition directe de la part de <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">notre auguste Cour</orgName> ou de celle du <persName key="p0862">Roi</persName> et du <orgName key="o0093" ref="7369318a-0591-4b6d-b8c3-472e3d9fb09b">Conseil permanent de la République</orgName>.</p>
+        <p>Quoiqu’il n’y eut rien à ajouter aux argumens exprimés dans la depeche de Votre Excellence, j’ai crû cependant devoir leur repeter que l’explosion qui vient d’avoir lieu en Pologne a toute apparence d’être l’effet d’un plan medité même avec les Jacobins et France ; que dans ce cas, dont M[essieu]rs de <persName key="p1204">Loss</persName> et <persName key="p1205">Gudschmidt</persName> doutoient nullement, on ne pouvoit que de la regarder comme une diversion aux Puissances alliées en faveur des François ; que ces motifs, qui ne pouvoient qu’interesser de bien près <orgName key="o0110" ref="5187e244-5f2c-4fb8-ba58-a491a920b4bf">la Cour de Saxe</orgName> ainsi que celui de prevenir tout soupçon même dans le public, comme si on avoit toleré ici les chefs des factieux, sembloient être suffisans pour prendre des mesures aussi promptes que serieuses, pour s’assurer du moins des deux <persName key="p1206,p0969">Potocky</persName> et de <persName key="p1207">Colontay</persName>.</p>
+        <p>Encore ce matin en conferant avec <persName key="p1204">M[onsieu]r le Comte de Loss</persName> sur ce sujet, je lui fis comprendre, que selon moi, le plus salutaire seroit de se saisir de ces trois personnes et des les loger, jusqu’à ce que l’on verroit plus clair, au <placeName key="g0333" ref="https://www.geonames.org/2885766">Königstein</placeName>, sous prétexte de leur propre sureté. Il me promit de rendre compte à <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> du contenû de notre entretien et pendant que j’attendois sa </p>
+        <pb n="f. 1891"/>
+        <p> reponse, j’ai appris que <persName key="p1206">le Comte Ignace</persName> etoit parti la nuit passée pour se rendre, dit-on, à ses terres en Gallicie. En en marquant ce soir à <persName key="p1204">M[onsieu]r le Comte de Loss</persName> dans un billet mon étonnement et que cette fuite confirmoit bien les preuves de sa complicité avec le chef des rebelles <persName key="p0924">Kosciusko</persName>, je lui predis que si on ne prenoit pas des precautions, je pensois que <persName key="p0969">le Comte Stanislas</persName> et <persName key="p1207">Colontay</persName> ne tarderoient pas de le suivre bien vite. Sa reponse que je viens de recevoir, ne contient si non, qu’il n’a pas eû le moindre avis du depart du <persName key="p1206">Comte Ignace</persName> et que <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName>, sur le compte que ce <persName key="p1204">Ministre</persName> lui avoit rendû de notre entretien, s’étoit borné à lui dire, que dans peu Il donneroit sa resolution. Si les deux autres complices s’enfueront de même, comme je suis tenté de le croire, il est à présumer que <orgName key="o0110" ref="5187e244-5f2c-4fb8-ba58-a491a920b4bf">la Cour de Saxe</orgName>, pour eviter un embarras factice le leur aura fait comprendre sans doute indirectement ; car je ne me suis ouvert sur cette matière qu’à M[essieu]rs <persName key="p1204">le Comte de Loss</persName> et <persName key="p1205">Baron de Gudschmidt</persName>, après en avoir fait part au <persName key="p1211">Ministre de Prusse, Comte d’Arnim</persName>.</p>
         <p>Trouvant de mon devoir de faire à Votre Excellence tout ce detail afin qu’Elle puisse </p>
-        <pb n="f. 1892" />
+        <pb n="f. 1892"/>
         <p> prendre Ses mesures en consequence, j’ai l’honneur d’etre avec un respectueux devouement</p>
         <p>Monsieur le Baron</p>
         <p>de Votre Excellence</p>
         <p>à <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>
         </p>
         <p>à minuit le 28 Mars / 8 Avril 1794</p>
-        <p />
+        <p/>
         <p>Le très-humble &amp; très-</p>
         <p>obeissant serviteur</p>
         <p>
-          <persName key="p0569" ref="9d787ae7-4688-4665-a295-ee6ff5962bca">Bar[on] Mestmacher</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0569" xml:space="default" ref="9d787ae7-4688-4665-a295-ee6ff5962bca" type="signature">Bar[on] Mestmacher</persName>
         </p>
       </div>
     </body>
