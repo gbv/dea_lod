@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,7 +103,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -120,7 +117,7 @@
             <bibl>RGADA, fond 53, opis 4, no 27, f. 1–2. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p> Durchleuchtigster Großmæghtigste Czar,</p>
         <p>Elskelige Kiære Broder, Ven og Naboe.</p>
         <p>Saa Kiært og angenem mig det haver været, udaf Eders May[estæ]ts og Kierl[ighe]ds til Mig
@@ -141,7 +138,7 @@
           sig haver accrocheret, tydeligen haver refereret, og som de begge til Trittow de af Kongen
           i Store Brittannien formerede Prætensioner ey aldeles have fundet billige, og til ey
           Expedientier </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> at finde, propositioner have giorte, som dog alligevel paa Kongens af Store Brittanniens
           side ey indtil Dato ere komne til Forskin, saa kand Jeg ey anderledes slutte, end at
           ellers Nogen min gode og sincere Intention hos Eders May[estæ]t og Kierl[ighe]d een
@@ -161,7 +158,7 @@
           Brittannien ogsaa ved slig trainering ey lider nogen Fare, efftersom Jeg gierne er
           tilfreds, at hand Eders May[estæ]t og Kierl[ighe]d samt andre Puissancer til Garants
           dertil annammer, hand ogsaa sig </p>
-        <pb n="f. 2" />
+        <pb n="f. 2"/>
         <p>Selff dend beste Garantie kand præstere. Hvorudaf da Eders May[estæ]t og Kierl[ighe]d
           Selff kand slutte, at Jeg min egen og mine Med-Allieredes Interesse heel vel considererer,
           og ingenlunde er affgenegen, Mig med Kongen i Store Brittannien nærmere at sætte, Jeg vil
@@ -179,9 +176,9 @@
         <p>dend 30. Octobris</p>
         <p>Anno 1714.</p>
         <p>D Wibe</p>
-        <p />
-        <pb n="f. 3" />
-        <p>Dend Durchläuchtigste Stormägtigste Czar og Stor-Förste utj det heele Ryßland p[erge].</p>
+        <p/>
+        <pb n="f. 3"/>
+        <p>Dend <persName key="p0174">Durchläuchtigste Stormägtigste Czar og Stor-Förste utj det heele Ryßland</persName> p[erge].</p>
       </div>
     </body>
   </text>
