@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,29 +102,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>10 November 1714. – Letter of credence [from the King of Denmark and Norway,
-            Frederick IV, to the Tsar of Russia, Peter I,] for the Danish Envoy [Hans Georg]
-            Westfalen sent to Russia to negotiate and conclude a treaty</title>
+          <title>10 November 1714. – Letter of credence for <persName key="p0984">the Danish Envoy, [Hans Georg] Westfalen</persName>, sent to Russia to negotiate and conclude a treaty</title>
           <note>
-            <bibl>RGADA, fond 53, op. 4, no. 27, f. 4–4v, 5v. Danish original.</bibl>
+            <bibl>RGADA, fond 53, opis 4, no. 27, f. 4–4v, 5v. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 4" />
+        <pb n="f. 4"/>
         <p>Durchleuchtigste, Stormægtigste Czar,</p>
         <p>Elskelige Kiære Broder, Ven og Naboe,</p>
         <p>Som nær værende Conjuncturer saaledes ere beskaffene, at Jeg, for der over, effter
           anledning af dend Mig og Eders May[estæt] og Kierl[ighe]d imellem værende nære
           Alliance-Tractat med dennem udi Broder- og Naboevenlig Fortroelighed at kunde communicere,
           for nödvendig haver fundet, Een af mine Ministrer, som Min Envoyé Extraordinaire til Eders
-          May[estæ]t og Kierl[ighe]d igien at affærdige, og Jeg da dertil min Estats-Raad, Hans
-          Georg Westphal haver udvalt: Altsaa anmoder Jeg Eders May[estæ]t og Kierl[ighe]d hermed
+          May[estæ]t og Kierl[ighe]d igien at affærdige, og Jeg da dertil min <persName key="p0984">Estats-Raad, Hans Georg Westphal</persName> haver udvalt: Altsaa anmoder Jeg Eders May[estæ]t og Kierl[ighe]d hermed
           Broder- og Naboevenligen, at de bemelte min Estats-Raad, som min Envoyé Extraordinaire
           velvilligen, saa offte hand det forlanger, til Audientz ville admittere, og hannem udi
           alt, hvis hand tiid effter anden paa mine Vegne forebringendes vorder, saa fuldkommen Troe
@@ -135,21 +129,36 @@
           oprigtige Affection og Venskab det sichere og faste Fortroende, at de hannem paa hans
           Anbringende Propositioner hver gang med saa fornöyelige Resolutioner forsynendes vorder,
           som Tidernes omstændigheder og Voris mutuelle Convenience og Interesse det udkræver. </p>
-        <pb n="f. 4v" />
+        <pb n="f. 4v"/>
         <p>Jeg vil derimod ved alle forekommende Hændelser söge at beviise, at Jeg af gandske
           Hiertet er og stedse forblifver</p>
-        <p>Eders May[estæ]ts og Kierl[ighe]ds</p>
-        <p>Tro Broder, Ven og Naboe.</p>
-        <p>Kiöbenhaffn,</p>
-        <p>dend 10. Novembris Friderich R[ex]</p>
+        <p><persName key="p0532">Eders May[estæ]ts og Kierl[ighe]ds</persName></p>
+        <p><persName key="p0532">Tro Broder, Ven og Naboe</persName>.</p>
+        <p><placeName key="g0006">Kiöbenhaffn</placeName>,</p>
+        <p>dend 10. Novembris <persName key="p0532" type="signature">Friderich R[ex]</persName></p>
         <p>Anno 1714.</p>
-        <p>C: Sehestedt.</p>
-        <p />
-        <p />
-        <pb n="f. 5v" />
+        <p><persName key="p1505">C: Sehestedt</persName>.</p>
+        <p/>
+        <p/>
+        <pb n="f. 5v"/>
         <p>Dend Durchleuchtigste, Stormægtigste Czar, og Stor Förste udi det hele Ryßland. p[erge]</p>
         <p>Грамота г[о]с[у]д[а]рю от короля датцкого верющая посланника чрезвычайного Вестфала в
           1714-м году. Подал он, посланник 20-го февраля 1715.</p>
+          <noteGrp><note>Also see:</note>
+<note>ru_rgada_53_1_1700_7_0001</note>
+<note>ru_rgada_53_3_10_0001</note>
+<note>ru_rgada_53_3_39_0001</note>
+<note>ru_rgada_53_3_16_0001</note> 
+<note>ru_rgada_53_3_21_0001</note>
+<note>ru_rgada_53_4_2_0001</note>
+<note>ru_rgada_53_4_2_0002</note>
+<note>ru_rgada_53_4_18_0001</note>
+<note>ru_rgada_53_4_22_0001</note>
+<note>ru_rgada_53_4_27_0001</note>
+<note>ru_rgada_53_4_27_0003</note>
+<note>ru_rgada_53_4_39_0001</note>
+<note>ru_rgada_53_4_41_0001</note></noteGrp>
+
       </div>
     </body>
   </text>
