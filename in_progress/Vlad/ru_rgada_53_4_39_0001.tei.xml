@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,20 +107,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1 May 1717. – [Royal] Letter from [<persName key="p0532">the King of Denmark and Norway,] Frederick IV</persName>[,] to <persName key="p0174">the Tsar [of Russia,] Peter I</persName>[,] concerning the Tsar's granting to the Danes duty-free trade in rye and flour for
-            the Russian troops preparing for the landing, and for the future military campaign</title>
+          <title>1 May 1717. – [Royal] Letter from [King of Denmark and Norway] Frederick IV to Tsar
+            Peter I concerning the Tsar's granting to the Danes duty-free trade in rye and flour for
+            the Russian troops preparing for the landing and for a future military campaign</title>
           <note>
-            <bibl>RGADA, fond 53, opis 4, no. 39, f. 1–2v. German original.</bibl>
+            <bibl>RGADA, fond 53, opis 4, no. 39, f. 1–2v. German original</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         <p>Durchlauchtigster Großmächtigster Czaar,</p>
         <p>Freundlich vielgeliebter Bruder, Freund und Nachbahr,</p>
         <p>Eurer May[es]t[ä]t und L[ie]bd[en] an Mich unterm 23<hi rendition="#u">
@@ -137,7 +141,7 @@
           willfahren, und Deroselben dadurch die, zu deren Transportirung anhero, angewandte
           Unkosten, so viel leichter machen, wann nicht solches etwas, in Meiner Residentz gantz
           ungewöhnliches und nur zu einer Meinen Revenuen </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <p>gar zu schädlichen consequence gereichen, mithin zu vielen Collusionen, die
           Mir in dieser an sich wenig importanten Sache, mehr Schaden, alß Eurer May[es]t[ä]t und
           L[ie]bd[en] Vortheil bringen könten, Anlaß geben würde. Es stehet aber einem Jeden frey,
@@ -157,7 +161,7 @@
           Kräfften, zu cultiviren. Wann auch sonsten Ew[re] May[estä]t und L[ie]bd[en] in
           obangeregtem Dero Schreiben, darüber, daß Sie ohngeachtet aller Ihrer gethanen
           raisonnablen </p>
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         <p>offerten und propositionen zu einem neuen Concert mit Mir nicht gelangen können, Sich
           beyläuffig zu beschwehren und Mir desfals die Schuld gleichsahm beyzumeßen belieben; So
           weiß Ich Mich Meines Ohrts daran im geringsten nicht Schuldig zu seyn und es ist Mir leid
@@ -170,35 +174,22 @@
           doch nichtes destoweniger, so viel sothane der sachen Situation es zu laßen kan, Main
           äußerstes, umb Unserm opiniatren Feinde Abbruch zu thun, anwenden, deßen Ich Mich auch
           dero Ohrts zu Eurer May[estä]t und L[ie]bd[en] bekandten Fermeté und Eyffer zu der
-          <orgName key="o0119">Nordischen Ligue</orgName> Bestem festiglich versehe und übrigens alstets verharre</p>
+          Nordischen Ligue Bestem festiglich versehe und übrigens alstets verharre</p>
         <p>Ew[rer] May[estä]t und L[ie]bd[en]</p>
         <p>Getreuer Bruder, Freund und Nachbahr.</p>
-        <p><placeName key="g0006">Copenhagen</placeName>,</p>
+        <p>Copenhagen,</p>
         <p>den 1<hi rendition="#u">
             <hi rendition="#sup">ten </hi>
           </hi>Maji</p>
-        <p>Anno 1717. <persName key="p0532">Friderich R[ex]</persName></p>
-        <p><persName key="p1505">C: Sehestedt</persName>.</p>
-        <pb n="f. 2v"/>
-        <p>An <persName key="p0174">Ihre Czaarische May[estä]t von</persName></p>
-        <p><persName key="p0174">gantz Rußland</persName> p[erge] Unserm</p>
+        <p>Anno 1717. Friderich R[ex]</p>
+        <p>C: Sehestedt.</p>
+        <pb n="f. 2v" />
+        <p>An Ihre Czaarische May[estä]t von</p>
+        <p>gantz Rußland p[erge] Unserm</p>
         <p>Freundlich vielgeliebten</p>
         <p>Bruder, Freund und Nachbahr.</p>
-        <p/>
-        <p>Грамота к <persName key="p0174">царскому величеству</persName> <persName key="p0532">короля датцкого</persName> 1717-г[о] году.</p>
-        <noteGrp><note>Also see:</note>
-<note>ru_rgada_53_3_10_0001</note>
-<note>ru_rgada_53_3_39_0001</note>
-<note>ru_rgada_53_3_16_0001</note> 
-<note>ru_rgada_53_3_21_0001</note>
-<note>ru_rgada_53_4_2_0001</note>
-<note>ru_rgada_53_4_2_0002</note>
-<note>ru_rgada_53_4_18_0001</note>
-<note>ru_rgada_53_4_22_0001</note>
-<note>ru_rgada_53_4_27_0001</note>
-<note>ru_rgada_53_4_27_0002</note>
-<note>ru_rgada_53_4_27_0003</note>
-<note>ru_rgada_53_4_41_0001</note></noteGrp>
+        <p />
+        <p>Грамота к царскому величеству короля датцкого 1717-г[о] году.</p>
       </div>
     </body>
   </text>
