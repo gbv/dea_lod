@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -179,7 +182,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>7 / 18 March 1766. – Letter from the <persName key="p0245">minister plenipotentiary
+          <title>7 / 18 March 1766. – Letter from <persName key="p0245">the Minister Plenipotentiary
             of Russia
               to Denmark, Baron Johann Albrecht von Korff</persName>, to <persName key="p0114">Count
             Nikita Ivanovich Panin</persName>
@@ -217,22 +220,20 @@
         <p>J'ai l'honneur d'être avec la consideration la plus distinguée,</p>
         <closer>
           <salute>Monsieur, de Vôtre Excellence</salute>
-          <signed>le tres humble et tres obeissant</signed>
+          <signed>le tres humble et tres obeissant </signed><signed>Serviteur</signed>
           <date>A <placeName key="g0006" ref="https://www.geonames.org/2618425">
               Copenhague
             </placeName>
           </date>
           <date/>
           <date>ce 7. / 18. mars 1766.</date>
-          <signed>Serviteur</signed>
+          
           <signed>
             <persName key="p0245">Jean Albert Korff</persName>
             <pb cert="high" n="f. 13" xml:space="default"/>
           </signed>
-          <signed>P:S: C'est dans la nuit d'aujourd'hui, que les ceremonies de l'enterrement se
-            feront ici.
-          </signed>
-        </closer>
+          P:S: C'est dans la nuit d'aujourd'hui, que les ceremonies de l'enterrement se
+            feront ici.</closer><note>Also see: ru_avpri_53_5_188_0002</note>
       </div>
     </body>
   </text>
