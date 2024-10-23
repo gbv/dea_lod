@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,24 +95,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>5 December 1746. – Exercise letter in French by <persName
-              key="p0829"
-              ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Prince Aleksandr Sergeevich
+          <title>5 December 1746. – Exercise letter in French by <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Prince Aleksandr Sergeevich
               Dolgorukov</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 9-9v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 9" />
-        <p />
+        <pb n="f. 9"/>
+        
         <p>Monsieur,</p>
         <p>L’amitié dont vous m’avez toujours honoré et le parfait attachement que je n’ai jamais
           cessé d’avoir pour vous, me portent à vous en donner un témoignage en vous offrant les
@@ -123,9 +118,7 @@
           être, M[onsieu]r, qu’une courte description de mes voyages et des agrémens que l’on trouve
           dans les paÿs étrangers, aussi bien que des avantages que l’on en retire tant pour le
           commerce et la connoissance du monde, que pour les sciences, vous donneront quelque envie
-          de les aller voir. C’est à <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Paris</placeName> que j’ai fait
+          de les aller voir. C’est à <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0019" xml:space="default" ref="https://www.geonames.org/2968815">Paris</placeName> que j’ai fait
           principalement mon séjour pendant le long tems de mon absence. C’est une ville très
           agréable pour la société, et l’on peut dire, que l’on y trouve tout ce que l’on souhaite
           pour quelque genre d’état que l’on veuille embrasser. Les savans y abondent et y sont
@@ -139,12 +132,10 @@
           cérémonie ni de fête publique, où les étrangers n’ayent leurs places marquées. Ils sont
           reçus avec accueil dans les meilleures maisons et l’on trouve partotu une certaine aisance
           qui vous attire </p>
-        <pb n="f. 9v" />
+        <pb n="f. 9v"/>
         <p> sans que vous puissiés vous en défendre, et qui ne dégenére jamais en familiarité. Je
           n’aurois jamais fini, M[onsieu]r, si je vous faisois un détail exact de tout ce que l’on
-          trouve à <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Paris</placeName> ; je souhaite que le peu que je vous en
+          trouve à <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0019" xml:space="default" ref="https://www.geonames.org/2968815">Paris</placeName> ; je souhaite que le peu que je vous en
           dis, vous fasse naître le désir d’y aller, aussi bien que dans les autres paÿs que je n’ai
           vûs quen passant, mais où malgré le peu de séjour que j’y ai fait, je n’ai pas laissé de
           remarquer bien des avantages et des agrémens qui leur sont particuliers. Le loisir dont
