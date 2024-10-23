@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,37 +95,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>12 December 1746. – Evaluation sheet of Princes <persName
-              key="p0829"
-              ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Aleksandr Sergeevich</persName> and <persName
-              key="p0240"
-              ref="c16ea97f-9174-48d6-b400-c17471adbc88">Vladimir Sergeevich Dolgorukov</persName>
-            by the teacher of the French language at Land <orgName
-              key="o0006"
-              ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des Cadets</orgName>, <persName
-              key="p0787"
-              ref="cc976f6f-000d-44db-9fa6-efc17a5dafa5">Louis Boujot</persName>
+          <title>12 December 1746. – Evaluation sheet of Princes <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Aleksandr Sergeevich</persName> and <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Vladimir Sergeevich Dolgorukov</persName>
+            by the teacher of the French language at <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0006" xml:space="default">Land Noble Corps des Cadets</orgName>, <persName key="p0787" ref="cc976f6f-000d-44db-9fa6-efc17a5dafa5">Louis Boujot</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 11. French original and Russian
               translation.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 11" />
-        <p />
-        <p>Ayant examiné les Princes <persName
-            key="p0829"
-            ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Alexandre</persName> et <persName
-            key="p0240"
-            ref="c16ea97f-9174-48d6-b400-c17471adbc88">Valadimir Dolgorouky</persName> dans la
+        <p/>
+        <pb n="f. 11"/>
+        <p/>
+        <p>Ayant examiné les Princes <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Alexandre</persName> et <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Valadimir Dolgorouky</persName> dans la
           langue françois, j’ai trouvé, qu’ils parlent cette langue dans toute sa pureté, et avec
           une facilité admirable. Leurs traductions sont fort exactes : leur stile de lettres est
           coulant, les phrases bien tournées, et leurs pensées exprimées avec autant de justesse que
@@ -137,9 +122,7 @@
         <p>Pour l’Italien, leurs traductions feront foi du progrès qu’ils ont fait en cette langue ;
           et il y a lieu d’espérer, qu’ils s’y perfectionneront facilement</p>
         <closer>
-          <dateline>à <placeName
-              key="g0002"
-              ref="https://www.geonames.org/498817">St. Petersbourg</placeName> ce <date when="1746-12-12">12
+          <dateline>à <placeName key="g0002" ref="https://www.geonames.org/498817">St. Petersbourg</placeName> ce <date when="1746-12-12">12
             décembre 1746</date>
           </dateline>
           <salute>
@@ -152,11 +135,7 @@
         </closer>
         <note type="translation">
           <p>Перевод</p>
-          <p>Я нижеподписавшийся экзаменовав во француском языке князей <persName
-              key="p0829"
-              ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Александра</persName> и <persName
-              key="p0240"
-              ref="c16ea97f-9174-48d6-b400-c17471adbc88">Володимира Долгоруких</persName>, нашел что
+          <p>Я нижеподписавшийся экзаменовав во француском языке князей <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Александра</persName> и <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Володимира Долгоруких</persName>, нашел что
             оне говорят пофранцуски весма чисто скоро и хорошо, а их переводы очень исправны, что ж
             касается до их писем, то они имеют штиль без притворный, речи употребляют изрядные, а
             мысли изъясняют чисто и исправно, как то усмотреть можно из приложенных при сем
