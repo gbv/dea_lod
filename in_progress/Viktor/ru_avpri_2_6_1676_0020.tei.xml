@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,23 +95,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 9 December 1746. – Exercise letter in French by <persName
-              key="p0889"
-              ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Prince Petr Vasil’evich Khovanskii</persName>
+          <title> 9 December 1746. – Exercise letter in French by <persName key="p0889" ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Prince Petr Vasil’evich Khovanskii</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 28-28v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 28" />
-        <p />
+        <pb n="f. 28"/>
+        
         <p>Monsieur,</p>
         <p>Ne croyez pas que c’est la vanité de vous faire voir combien j’ay profité dans cette
           langue, qui me porte a vous écrire, non en verité,si ce n’etoit que dans cette seule vuë,
@@ -129,13 +124,13 @@
           voyageurs ont, je me contente donc pour le present de vous prouver, par la construction de
           cette seule lettre qui doit vous convaincre, que celui qui n’a pas voyagé n’auroit jamais
           pu atteindre a cette facilité que j’ay acquise, vous aurez la bontez de vous contenter </p>
-        <pb n="f. 28v" />
+        <pb n="f. 28v"/>
         <p> de cette seule preuve jusqu’a ce que j’aye l’honneur de vous en donner d’autres en
           attendant j’ay celui d’etre avec une parfaitte consideration</p>
         <p>Monsieur</p>
         <p>Votre tres humble et tres obeissant serviteur</p>
         <p>
-          <persName key="p0889" ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Pierre Prince Hovanskÿ</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0889" xml:space="default" ref="c7562a9c-6a02-4619-9b23-52432dfdeac2" type="signature">Pierre Prince Hovanskÿ</persName>
         </p>
         <p>Fait au <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des
           Cadets</orgName>
