@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Exercise letter in French by Prince Aleksandr Vasil’evich Khovanskii</title>
+        <title type="main" xml:lang="en">Exercise letter in French by Prince Aleksandr Vasil’evich Khovanskii</title>
         <author xml:lang="en">Aleksandr</author>
         <author xml:lang="en">Vasil'evich</author>
         <author xml:lang="en">Khovanskii</author>
@@ -99,42 +94,36 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9 December 1746. – Exercise letter in French by <persName
-              key="p0888"
-              ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Prince Aleksandr Vasil’evich Khovanskii</persName>
+          <title>9 December 1746. – Exercise letter in French by <persName key="p0888" ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Prince Aleksandr Vasil’evich Khovanskii</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 25-25v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 25" />
-        <p />
+        
+        <pb n="f. 25"/>
+        
         <p>Monsieur,</p>
         <p>Je vous aprand par la presente mon arrivée dans ma Patrie, vous savéz mieux que personne quels ont été mes amusements et les plaisirs que j’ai goutés par tous ou je fait quelque sejour, vous connoissé aussi toutte l’importence du reterdement [retardement] de mon retour ; je suis enfin quitte de tout, et le depart de lendroit P. ne m’embarasse plus puisque me voila enfin dans ce Païs, que malgrez tous les agremants dans mon voÿage je ne pu oublier, je suis donc au comble de ma joië j’ai revû tous ce qui m’interesse le plus dansle monde, il ne me reste cher amÿ pour parfaitement content que de vous voire, vous faire part de tous ce qui mest [m’est] arrivé depuis que j’ai vous ai quitté ensuitte vous prouver combien il est agreable de revoir ce quon a desiré depuis longtemps vous dire enfin quil est bien avantageux pour un jeune homme d’avoir vû tant de paÿs differents que je eut l’occasion de voire bien plus encore quand on a eut assé de temps de faire quelque sejour par tout ou lon a passé…</p>
-        <p />
-        <pb n="f. 25v" />
+        
+        <pb n="f. 25v"/>
         <p> Je reserve cher amÿ a la premiere occasion de vous détailler un peu plus au long tous ce qui regarde les faittes de mon arrivée mais apresent je finirai par vous dire que je suis avec beaucoup d’estime</p>
         <p>Votre tres humble et tres obeissant serviteur</p>
         <p>
-          <persName
-            key="p0888"
-            ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Alexandre Prince de Hovanskÿ</persName>
+          <persName key="p0888" ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Alexandre Prince de Hovanskÿ</persName>
         </p>
-        <p>Fait au <orgName
-            key="o0006"
-            ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des Cadets</orgName>
+        <p>Fait au <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des Cadets</orgName>
         </p>
         <p>1746. ce 9. decembre.</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>See also:  ru_avpri_2_6_1676_0015</p>
         <p>	   ru_avpri_2_6_1676_0016</p>
         <p>	   ru_avpri_2_6_1676_0017</p>
