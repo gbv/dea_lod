@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,35 +96,27 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 February 1767. – Memorial submitted by the Russian Consul in Norway, Auditor
-            General Peter Fredrik Koren{{p1512}}, to the Russian Envoy to Denmark, Mikhail
-            Mikhailovich Filosofov{{p1102}} </title>
-          <note>
+          <title>6 February 1767. – Memorial submitted by <persName key="p1512">the Russian Consul in Norway, Auditor General Peter Fredrik Koren</persName>, to <persName key="p1102">the Russian Envoy to Denmark, Mikhail Mikhailovich Filosofov</persName> </title><note>
             <bibl>AVPRI, fond 53, opis 53/5, no. 204, f. 7–12v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 7" />
+        <pb n="f. 7"/>
         <p>Allerunterthänigstes Pro Memoria</p>
         <p>Mit dem nunmehro in die Ewigkeit gegangenen Russisch Kayserlichere außerordentlichen
-          Gesandten, Freyherrn von Korff{{p0245}}, habe ich vor diesem wegen einer den 18ten Octob<hi
-            rendition="#sup">r</hi> 1760 verunglückten Russischen Pinke zu correspondieren die Ehre
+          Gesandten, Freyherrn von Korff{{p0245}}, habe ich vor diesem wegen einer den 18ten Octob<hi rendition="#sup">r</hi> 1760 verunglückten Russischen Pinke zu correspondieren die Ehre
           gehabt. Besagtes Schiff, Jedinarog genannt, geführt von Capitaine Wasilli Petrow
           Bulgakoff{{p1514}}, hatte das klägliche Schiсksahl, ungeachtet es 5. Anker fallen ließ und
           mit 3. erfahrenen Lootsen versehen war, sich mit vielen darauf befindlichen Personen
           loszureißen und durch die Wucht der Wellen an einer Klippe zu scheitern, wo es in tausend
-          Stücken zerschmettert wurde. Dieses geschahe in der Bugt von <placeName
-            key="g0412"
-            ref="https://www.geonames.org/3133880">
-          Trondheim</placeName>, eine halbe Miele von meinem Landguhte <placeName
-            key="g0411"
-            ref="https://www.geonames.org/3138114">Smölen</placeName>.
+          Stücken zerschmettert wurde. Dieses geschahe in der Bugt von <placeName key="g0412" ref="https://www.geonames.org/3133880">
+          Trondheim</placeName>, eine halbe Miele von meinem Landguhte <placeName key="g0411" ref="https://www.geonames.org/3138114">Smölen</placeName>.
           Nur allein 11 Mann, welche nach dem Lande, um daselbst der durch den Stoß einer Canone
           schadhaft gewordene Chaluppe auszubeßern, beordert waren, entgiengen ihrem
           wahrscheinlichen Untergange. Doch würden Sie auch hier aus Hunger, Durst und Kälte ihren
@@ -135,7 +124,7 @@
           andern billig-denkenden und menschlich gesinnten Mann zugeführt hätte, der sich zu ihrer
           Rettung eben auf der Grenze befinden muste. Gleichwohl dauerte es zwei ganzer Tage, bis
           ich erfuhr, daß Leute von dem verunglückten Schiffe eine halbe Meile </p>
-        <pb n="f. 7v" />
+        <pb n="f. 7v"/>
         <p> von meiner Wohnung ans Land gekommen waren. Sogleich musten zwey von meinen Leuten sich
           im Sturm und Regen über Moräste und Möhre wagen, um diese Elenden auszuforschen und solche
           zu mir zu bringen. Nach vielem Suchen fanden sie selbige endlich unter der Chaluppe,
@@ -152,7 +141,7 @@
           ergriffen. Von denen, die auf dem Schiffe waren, ist es bekannt genug, daß einige davon
           das Land zwar erreichten, wie es ihnen aber gegangen und wie man ihnen nachhero begegnet,
           ist mir ohne vom Hörensagen eben so wenig </p>
-        <pb n="f. 8" />
+        <pb n="f. 8"/>
         <p> bewust, als ich unberechtiget gewesen bin, solches zu untersuchen. Indeßen ist es nur
           gar zu wahr, daß in einem Lande, wie Norwegen und besonders Nordenfields, oder in
           nordlichen Theile desselben, wo die Küsten wenig bebauet, wo die Bauerhäuser weit von
@@ -170,7 +159,7 @@
           gefunden hatte. Nachher bin ich in Anwesenheit der Obrigkeit zu zweyenmahlen mit den
           Leuten bey der Besichtigung gewesen: da man mich aber nicht berechtiget fand, mich der
           Sache weiter anzunehmen und mein wohl=</p>
-        <pb n="f. 8v" />
+        <pb n="f. 8v"/>
         <p>gemeinter Raht nicht allezeit derjennige war, dem man folgen wollte, blieb ich nachhero
           weg.</p>
         <p>Der Capitaine Lieutenant Holosoff{{p0513}}, welcher ohngefehr zur selbigen Zeit, da sich
@@ -187,7 +176,7 @@
           Ladung sichere Zuflucht wißen und gute Begegnung nebst billigmäßiger Verpflegung gewiß
           erwarten können, sollte ich nach meiner unvorgreiflichen Meinung dafür halten, daß, nach
           dem Beyspiel der übrigen Nationen, </p>
-        <pb n="f. 9" />
+        <pb n="f. 9"/>
         <p> auch für die Rußische die Errichtung eines Kayserlichen Consulats im Königreiche
           Norwegen{{o0125}} eine höchstnohtwendige und wichtige Sache sey. Dieses Consulat{{o0125}}
           müste durch Unterstützung eines jeden Orts-Obrigkeit den Einwohnern längst den Seeküsten
@@ -204,7 +193,7 @@
         <p>Der Nutzen des Rußischen-Consulats{{o0125}} erstrecket sich, meines allerunterthänigsten
           dafürhaltens, noch weiter, da die Handlung der Kayserlichen Unterthanen auf Norwegen
           dadurch zugleich um ein großes befördert werden könnte, welche in Gegentheil nunmehro, </p>
-        <pb n="f. 9v" />
+        <pb n="f. 9v"/>
         <p> in Ermangelung eines zuverläßigen Wegweisers, und da die Rußen weder von der Sprache,
           noch von den Gesetzen und Gewohnheiten des Landes etwas wißen, auch wunderstelten jemand
           in Norwegen finden, der etwas Russisch verstehet, gar schlecht betrieben und durch diese
@@ -216,19 +205,13 @@
           Herde, Hampfsamen, Leinensamen, Tauwerk, Pelzwerk, Segeltuch, fein und grobes Leinewand,
           Drell und allerhand fabrique-Waaren; ja so gar Grütze, Mehl und alle Gattungen von
           Getreyde |: wie mit lezterer Waare erst neulich ein Kaufmann in Trondheim es thate, als
-          der von <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> 7000 Tonnen Rocken kommen ließ und
+          der von <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> 7000 Tonnen Rocken kommen ließ und
           selbigen mit gutem Vortheile für billigen Preiß verkauften :/ ferner: gesalzenes Fleisch,
           Häute, Juchten, Honig, Wachs, Talg, Licht, und andere dergleichen Waaren, womit im
           abgewichenen Jahre </p>
-        <pb n="f. 10" />
-        <p> zwey Holländiche Schiffe in <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> beladen in der
-          gefährlichen Bucht von <placeName
-            key="g0412"
-            ref="https://www.geonames.org/3133880">Trondheim</placeName> strandeten. Überhaupt
+        <pb n="f. 10"/>
+        <p> zwey Holländiche Schiffe in <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> beladen in der
+          gefährlichen Bucht von <placeName key="g0412" ref="https://www.geonames.org/3133880">Trondheim</placeName> strandeten. Überhaupt
           haben wir bey uns sehr wenige fabriquen und selbst an rohen Materialien großen Mangel,
           daher nach meiner Einsicht wohl keine Regierung durch kluge Aufmunterung und beguem
           einzurichtende Anstalten ihren Unterthanen zu einer ansehnlichen, vorteilhaften und
@@ -243,7 +226,7 @@
           bey dem Consul oder deßen Vice-Consuls einen Auf- oder Niederlage machen, welche darauf
           von ihm oder ihnen des Winters oder auch im Frühjahr mit großem Nutzen verkauft würden,
           indem zu diesen Jahreszeiten die mehresten Waaren hoch im </p>
-        <pb n="f. 10v" />
+        <pb n="f. 10v"/>
         <p> Preiße sind. Bey Ankunft der Schiffe in Sommer könnte so von den vorhin zurückgelaßenen
           Sаchen Rechnung abgeleget werden, zu welchem Ende der Consul dahin trachten müßte, in
           denen Städten und zumahl in solchen, wo er selbst nicht sogleich hinkommen könnte, gute
@@ -258,7 +241,7 @@
           werden und es als IHRO KAYSERLICHE MAY[ESTÄ]TT.{{p0033}} im Königreiche Norwegen ein
           Russisches Consulat{{o0125}} zu errichten Allergnädigst gefällig seyn, muß ich
           nachfolgende Puncte höherer Beurtheilung hindurch unter-</p>
-        <pb n="f. 11" />
+        <pb n="f. 11"/>
         <p>werfen. Es wäre nemlich nothwendig:</p>
         <p>Daß IHRO KAYSERLICHE MAY[ESTÄ]TT.{{p0033}} im Königreiche Norwegen einen General-Consul
           mit einer convenablen Gage Allergnädigst bestelleten;</p>
@@ -275,21 +258,11 @@
           desfals nähere Verhaltungs-Befehle zu erhalten.</p>
         <p>Daß ebenermaßen die Vice-Consuls solches gegen den General-Consul beobachten und seinem
           Raht oder seiner Anweisung die gebührende Folge leisten müste.</p>
-        <p>Der General-Consul würde zu seinem Aufenthalte am besten entweder <placeName
-            key="g0412"
-            ref="https://www.geonames.org/3133880">
+        <p>Der General-Consul würde zu seinem Aufenthalte am besten entweder <placeName key="g0412" ref="https://www.geonames.org/3133880">
           Trondheim</placeName> oder Bergen zu wählen haben; doch </p>
-        <pb n="f. 11v" />
-        <p> wären die Stadt Trondheim, als ein fester-Haupt- und guter-Handelsort der Stadt <placeName
-            key="g0413"
-            ref="https://www.geonames.org/3161732">Bergen</placeName> weit vorzuziehen seyn, zumahlen, da dieses Trondheim in
-          der gefährlichen Bugt, wo die mehresten Schiffbrüche geschehen, belegen, auch <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName>, <placeName
-            key="g0415"
-            ref="https://www.geonames.org/2615911">Kola</placeName>, <placeName
-            key="g0414"
-            ref="https://www.geonames.org/515246">Onega</placeName>, Warbiga als wovon der Handel auf Norwegen am leichtesten
+        <pb n="f. 11v"/>
+        <p> wären die Stadt Trondheim, als ein fester-Haupt- und guter-Handelsort der Stadt <placeName key="g0413" ref="https://www.geonames.org/3161732">Bergen</placeName> weit vorzuziehen seyn, zumahlen, da dieses Trondheim in
+          der gefährlichen Bugt, wo die mehresten Schiffbrüche geschehen, belegen, auch <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName>, <placeName key="g0415" ref="https://www.geonames.org/2615911">Kola</placeName>, <placeName key="g0414" ref="https://www.geonames.org/515246">Onega</placeName>, Warbiga als wovon der Handel auf Norwegen am leichtesten
           und vorteilhaftesten betrieben warden kann, am nächsten ist.</p>
         <p>Da ich nichts sehnlicher wünsche, als mich den Diensten IHRO KAYSERLICHEN
           MAY[ESTÄ]TT{{p0033}}. zum Besten Dero Unterthanen zu widmen: So bitte allerunterthänigst,
@@ -303,28 +276,23 @@
           noch immer verehrungswürdige Rußisch Kayserliche Minister, weyland freiherr von
           Korff{{p0245}}, hat, da ich Ehre genoß, demselben bekannt zu werden nicht allein diesen
           meinen allerunterthänigsten Vorschlag seines Beyfalls </p>
-        <pb n="f. 12" />
+        <pb n="f. 12"/>
         <p> gewürdiget; sondern mich so gar von Norwegen herunter beruffen laßen, um diese
           Angelegenheit nicht Ihm persönlich zu behandeln und ich schmeichele mir, es würde solche
           schon jezt ihre Endschaft erreichet haben, wenn uns der Tod diesen geliebten Herrn nicht
           so frühe entrissen hätte. Gleichwohl habe ich nun einmahl darum diese Reise gethan und
           werde daher die Allergnädigste Entschließung Ihro Kayserliche<hi rendition="#sup">n</hi>
-          May[estä]tt{{p0033}} hier, in <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhagen</placeName>,
+          May[estä]tt{{p0033}} hier, in <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName>,
           ehrfurchtsvoll erwarten, in dem festen Zutrauen, daß, wenn ALLERHÖCHSTDIESELBE ihn zu
           genehmigen geruhen, ich für diese erhebliche Bedienung die schon vorhin proponirte 1200.
           Rubel an jährlicher Gage zu verhoffen haben könne.</p>
         <p>
-          <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName>, den 6<hi
-            rendition="#sup">ten </hi>Febr.
+          <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName>, den 6<hi rendition="#sup">ten </hi>Febr.
           1767.</p>
         <p>Ist mit dem Dänishen Original in allem wesentlich gleichlautende.</p>
         <p> Peter Friderich Koren{{p1512}}.</p>
-        <pb n="f. 12v" />
-        <p>Из реляции полномочнаго министра философова{{p1102}} из <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">
+        <pb n="f. 12v"/>
+        <p>Из реляции полномочнаго министра философова{{p1102}} из <placeName key="g0006" ref="https://www.geonames.org/2618425">
           копенгагена</placeName> № 3. 1767</p>
         <noteGrp>
           <note>Also see:</note>
