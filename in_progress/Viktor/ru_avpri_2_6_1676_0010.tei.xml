@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,25 +97,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>[Mid-]December 1746. – Certificate of achievement of the Embassy’s nobleman <persName
-              key="p0240"
-              ref="c16ea97f-9174-48d6-b400-c17471adbc88">Prince Vladimir [Sergeevich]
+          <title>[Mid-]December 1746. – Certificate of achievement of the Embassy’s nobleman <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Prince Vladimir [Sergeevich]
             Dolgorukov</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 14. Russian original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 14" />
-        <p />
+        
+        <pb n="f. 14"/>
+        <p/>
         <p>Атестат</p>
         <p>Дворянину посолства князь <persName key="p0240">Володимиру Долкорукову</persName>,
           изъявляющей что оной по произведенному сего декабря дня 1746. года моему свидетелству
@@ -127,7 +122,7 @@
         <p>в плангеометрии</p>
         <p>штериометрии что до основания и правил оных</p>
         <p>трегонометрии наук касается знает изрядно,</p>
-        <p />
+        <p/>
         <p>в фортификации ... что касается до начальных оснований сея науки знает нарочито,</p>
         <p>в механике ... главные онаго искусства и касающияся до одинаких машин основания знает
           весма изрядно</p>
