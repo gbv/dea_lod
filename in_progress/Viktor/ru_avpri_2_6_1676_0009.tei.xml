@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,36 +93,33 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>12 December 1746. – Certificate of achievement in the German language of <persName
-              key="p0829">Prince Aleksandr [Sergeevich] Dolgorukov</persName>
+          <title>12 December 1746. – Certificate of achievement in the German language of <persName key="p0829">Prince Aleksandr [Sergeevich] Dolgorukov</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 12. Russian original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 12" />
-        <p />
+        
+        <pb n="f. 12"/>
+        
         <p>Я нижеподписавшейся экзаминовав князя <persName key="p0829">Александра Долгорукова</persName>
           в немецком языке, нашел что он по немецки разумеет и говорит, а в переводах он имеет весма
           хорошое начало: Сегодня в рассуждении преизряднаго ево [?] к языкам, должно уповать, что
           ежели он хоть малое время в немецком еще станет упражнятся: то он сему языку основательно
-          может обучиться. В чем и дан сей атестат. В <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Санкт-Петербурге</placeName>
+          может обучиться. В чем и дан сей атестат. В <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт-Петербурге</placeName>
           1746 года декабря 12 дня</p>
         <closer>
           <salute>
             <orgName key="o0006">Шляхетнаго кадетскаго корпуса</orgName>
           </salute>
-          <signed>адв <persName key="p0000">Модрах</persName>
+          <signed>адв <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2433" xml:space="default">Модрах</persName>
           </signed>
         </closer>
         <noteGrp>
