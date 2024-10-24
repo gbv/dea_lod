@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,68 +95,46 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>12 December 1746. – Evaluation sheet of <persName
-              key="p0888"
-              ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Princes Aleksandr Vasil’evich</persName>
+          <title>12 December 1746. – Evaluation sheet of <persName key="p0888" ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Princes Aleksandr Vasil’evich</persName>
             and <persName key="p0889" ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Petr Vasil’evich
-            Khovanskii</persName> by the professor of humanities <persName
-              key="p0904"
-              ref="97fd4782-f4c7-49f3-b685-15fba170dd36">Johann Ernst Gretsch</persName>
+            Khovanskii</persName> by the professor of humanities <persName key="p0904" ref="97fd4782-f4c7-49f3-b685-15fba170dd36">Johann Ernst Gretsch</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 22. German original and Russian
               translation.</bibl>
           </note>
         </head>
-        <pb n="f. 22" />
-        <p>In dem, auf hohen Befehl, mit den <persName
-            key="p0888"
-            ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Prinzen Alexander</persName> und <persName
-            key="p0889"
-            ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Peter Chovanskoi</persName>
-          angestelten examine habe befunden, daß der <persName
-            key="p0888"
-            ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Prinz Alexander Chovanskoi</persName> von der
-          Geographie und Historie; der <persName
-            key="p0889"
-            ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Prinz Peter Chovanskoi</persName> ausser der
+        <pb n="f. 22"/>
+        <p>In dem, auf hohen Befehl, mit den <persName key="p0888" ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Prinzen Alexander</persName> und <persName key="p0889" ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Peter Chovanskoi</persName>
+          angestelten examine habe befunden, daß der <persName key="p0888" ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Prinz Alexander Chovanskoi</persName> von der
+          Geographie und Historie; der <persName key="p0889" ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Prinz Peter Chovanskoi</persName> ausser der
           Geographie und Historie auch von der Politik einige Kentniß besitzen. Welches hiedurch
-          bezeuge. <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">St.Petersburg</placeName> d[en] 12. Decembr[is] 1746.</p>
+          bezeuge. <placeName key="g0002" ref="https://www.geonames.org/498817">St.Petersburg</placeName> d[en] 12. Decembr[is] 1746.</p>
         <p>
-          <persName key="p0904" ref="97fd4782-f4c7-49f3-b685-15fba170dd36">Joh[ann] Ernst Gretsch</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0904" xml:space="default" ref="97fd4782-f4c7-49f3-b685-15fba170dd36" type="signature">Joh[ann] Ernst Gretsch</persName>
           ,</p>
         <p>Professor Humaniorum.</p>
-        <p />
+        <p/>
         <p>Перевод</p>
-        <p>По высочайшему приказу экзаменовав князей <persName
-            key="p0888"
-            ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Александра</persName> и <persName
-            key="p0889"
-            ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Петра Хованских</persName> нашел я что они
-          оба историю и географию несколко знают, а князь <persName
-            key="p0889"
-            ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Петр Хованский</persName> кроме того и имеет
-          некоторое знание в политике, в чем я чрез сие им и атестую в <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Санкт
+        <p>По высочайшему приказу экзаменовав князей <persName key="p0888" ref="3f24a6d9-45c0-4683-8db9-a7b7d95dffca">Александра</persName> и <persName key="p0889" ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Петра Хованских</persName> нашел я что они
+          оба историю и географию несколко знают, а князь <persName key="p0889" ref="c7562a9c-6a02-4619-9b23-52432dfdeac2">Петр Хованский</persName> кроме того и имеет
+          некоторое знание в политике, в чем я чрез сие им и атестую в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт
           Питербурхе</placeName> 1746 года декабря 12 дня;</p>
-        <p>Профессор гуманорум Еган Эрнст Гречp0904</p>
-        <p />
+        <p>Профессор гуманорум Еган Эрнст Греч</p>
+        <p/>
         <p>See also: ru_avpri_2_6_1676_0016</p>
         <p> ru_avpri_2_6_1676_0017</p>
         <p> ru_avpri_2_6_1676_0018</p>
         <p> ru_avpri_2_6_1676_0019</p>
         <p> ru_avpri_2_6_1676_0020</p>
-        <p />
+        <p/>
       </div>
     </body>
   </text>
