@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,30 +99,24 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>19 October 1718. – Royal letter from <persName
-              key="p0163"
-              ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">the Holy Roman Emperor,
-              Charles VI</persName>, to <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
+          <title>19 October 1718. – Royal letter from <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">the Holy Roman Emperor,
+              Charles VI</persName>, to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 4, no. 45, f. 1–1v. Latin original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
+        <p/>
+        <pb n="f. 1"/>
         <p>
-          <persName
-            key="p0163"
-            ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Carolus sextus Divinā favente
+          <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Carolus sextus Divinā favente
             clementiā Electus Romanorum Imperator Semper Augustus</persName>, ac Rex Germaniæ,
           Aragoniæ, Castellæ, Legionis, utriūsque Siciliæ, Hierusalem, Hungariæ, Bohemiæ, Dalmatiæ,
           Croatiæ, Sclavoniæ, Navarræ, Granatæ, Toleti, Valentiæ, Gallitiæ, Majoricarum, Seviliæ,
@@ -148,21 +139,15 @@
           Septentrionalium dominiorum et ditionum paterno et Avito Hæredi, Successori, Domino et
           Dominatori, Amico et Fratri Nostro charissimo salutem et amicitiam Nostram cum omnis boni
           incremento serenissime et Potentissime Princeps, Amice et Frater charissime. Quanquam ex
-          literis serenitatis Vestræ de sexto Iulio nuper elapso Nobis ab Eiusdem <persName
-            key="p0725"
-            ref="26449433-5092-476a-a0ce-2e8fd92fc26f">Officiale Lewolda</persName> traditis non
+          literis serenitatis Vestræ de sexto Iulio nuper elapso Nobis ab Eiusdem <persName key="p0725" ref="26449433-5092-476a-a0ce-2e8fd92fc26f">Officiale Lewolda</persName> traditis non
           satis colligi potuerit, an Responsoriæ essent ad eas, quibus die octavo May anni currentis
-          circa querelas contra <persName
-            key="p0672"
-            ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">Cæsareum Nostrum Residentem
+          circa querelas contra <persName key="p0672" ref="4a6cbdb1-08ea-4ca3-88bf-1808291590d8">Cæsareum Nostrum Residentem
             Ottonem Pleyer</persName> huc delatas Nos jam Cæsaream Mentem Nostram satis aperuisse
           arbitramur: nihilominus prædicto suo Officiali tam de hac, qūam de alys rebus ab eodem
           propositis illam denūo disertim declarari jussimus de Singulis, uti confidimus, ad
           Serenitatem Vestram probē relaturo. Unicum adhuc est, quod hic intactum relinquere non
           possumus, nimirūm non absque justa animi commotione Nobis innotuisse, in Secunda Apologia,
-          Super instituta in quondam <persName
-            key="p0698"
-            ref="c8246616-0efe-4a64-a3df-890af9609b34">Serenissimum Principem Alexium</persName>
+          Super instituta in quondam <persName key="p0698" ref="c8246616-0efe-4a64-a3df-890af9609b34">Serenissimum Principem Alexium</persName>
           inquisitione, editā, et, sicuti ab eius inscriptione patet, ex mandato Serenitatis Vestræ
           prelo Subjectā passim de Nobis et Aula Nostra, |:quod tamen usque ad pleniorem facti
           notitiam vel planē prætermitti, vel pro consueta inter Gentes comitate aliter exprimi
@@ -171,35 +156,25 @@
           cognoscendum totius rei statum cumprimis pertinent, plerumque omissa fuisse, quapropter,
           ut Serenitas Vestra Se mutilatis eiusmodi relationibus circumventam tandem aliquando
           intelligat, ac imposterum de Nobis et Aula Nostra, quæ Nostro Iussu tantūm agit, rectius
-          sentiat, succinctam et genuinam veritatem de Supradicti <persName
-            key="p0698"
-            ref="c8246616-0efe-4a64-a3df-890af9609b34">Principis Alexy</persName> adventu,
+          sentiat, succinctam et genuinam veritatem de Supradicti <persName key="p0698" ref="c8246616-0efe-4a64-a3df-890af9609b34">Principis Alexy</persName> adventu,
           commoratione et discessu ex Provincys Nostris conscribi curabimus Serenitati Vestræ
           proximē transmittendam; cui interēa penitūs persuasum esse cupimus, Nos Eiusdem erga Nos
           amicitiæ in omnes occasiones ex asse responsuros esse, quemadmodūm Eidem jam nunc grata
-          quævis ac prospera ex animo precamur. Datum in Civitate Nostra <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Viennæ</placeName> die decimā nonā mensis
+          quævis ac prospera ex animo precamur. Datum in Civitate Nostra <placeName key="g0005" ref="https://www.geonames.org/2761367">Viennæ</placeName> die decimā nonā mensis
           Octobris, Anno Domini Millesimo Septingentesimo decimo octavo, Regnorum Nostrorum, Romani
           octavo, Hispanicorum decimo Sexto, Hungarici et Bohemici verō pariter octavo.~.</p>
         <p>Serenitatis Vestræ</p>
         <p>Bonus Frater </p>
         <p>
-          <persName
-            key="p0163"
-            ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">Carolus</persName> m[anu propria]</p>
-        <p>V[idi]t <persName
-            key="p0722"
-            ref="9a83155d-aeaf-47c9-8f0d-ccbaa220c82f">Frid[ericus] Car[olus] Com[es] de
+          <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1" type="signature">Carolus</persName> m[anu propria]</p>
+        <p>V[idi]t <persName key="p0722" ref="9a83155d-aeaf-47c9-8f0d-ccbaa220c82f" type="signature">Frid[ericus] Car[olus] Com[es] de
             Schönborn</persName> pro[pria] m[anu]</p>
         <p>
-          <persName
-            key="p0724"
-            ref="37d15573-af8f-4b88-8331-4cb030dbc136">Petrus Josephus Dolberg</persName> m[anu]
+          <persName key="p0724" ref="37d15573-af8f-4b88-8331-4cb030dbc136" type="signature">Petrus Josephus Dolberg</persName> m[anu]
           p[ropr]ia</p>
-        <p />
-        <pb n="f. 1v" />
-        <p> Serenissimo et Potentissimo Domino Tzaro et Magno Duci Petro Alexievicio totius,
+        <p/>
+        <pb n="f. 1v"/>
+        <p> <persName key="p0174">Serenissimo et Potentissimo Domino Tzaro et Magno Duci Petro Alexievicio</persName> totius,
           magnæ, parvæ et albæ Russiæ, Autocratori Moscoviæ, Kyoviæ, Volodomiriæ,
           Novogardiæ, Tzaro Casani, Tzaro Astracani, Tzaro Sibiriæ, Domino Pleskoviæ, et
           Magno Smolensciæ, Tweriæ, Permiæ, Iugoriæ, Veatkæ, Bolgariæ aliorumque Domino et
@@ -210,12 +185,8 @@
           multorum Orientaliu[m], Occidentalium et Septentrionalium dominiorum et ditionum
           paterno et Avito Hæredi, Successori, Domino et Dominatori, Amico et Fratri
           Nostro charissimo.~.</p>
-        <p>К его ц[а]рскому величеству грамота цесарская, присланная с бароном <persName
-            key="p0725"
-            ref="26449433-5092-476a-a0ce-2e8fd92fc26f">Леволдом</persName>, ответная на грамоту, с
-          ним же посланную. Получена в <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Санкт-Петербурге</placeName> декабря ... дня 1718
+        <p>К <persName key="p0174">его ц[а]рскому величеству</persName> грамота цесарская, присланная с бароном <persName key="p0725" ref="26449433-5092-476a-a0ce-2e8fd92fc26f">Леволдом</persName>, ответная на грамоту, с
+          ним же посланную. Получена в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт-Петербурге</placeName> декабря ... дня 1718
           году.</p>
       </div>
     </body>
