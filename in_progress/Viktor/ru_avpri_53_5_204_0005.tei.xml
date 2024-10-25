@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,21 +95,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 March 1761. – Promemoria from the Royal Danish Chancellery to the
-              Royal German Chancellery of the Kingdom of Denmark</title>
+          <title>21 March 1761. – Promemoria from the Royal Danish Chancellery to <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0121" xml:space="default">the Royal German Chancellery of the Kingdom of Denmark</orgName></title>
           <note>
             <bibl>AVPRI, fond 53, opis 53/5, no. 204, f. 20–21. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 20" />
-        <p />
+        <pb n="f. 20"/>
+        <p/>
         <p>Copie. Lit. C.</p>
         <p>Pro memoria.</p>
         <p>J Anledning af det kongelige tydske Canzeliens{{o0121}} promemoria af 5<hi rendition="#u">
@@ -144,7 +140,7 @@
           imod 4<hi rendition="#u">
             <hi rendition="#sup">re </hi>
           </hi>derfor udstædde </p>
-        <pb n="f. 20v" />
+        <pb n="f. 20v"/>
         <p>Quittiringer, da frue Geheimen Raadinde Harboe{{p1518}} der paa udi Aaret 1735 har
           forfattet sit Testament og sidste Villie, hvorefter hendes Gaard her i Staden skulle
           Giöres til et Encke-Frue kloster, og hendes Sæde Gaard i Jylland, Stöfring-Gaard til et
@@ -161,13 +157,12 @@
         <p>O: Thott{{p1513}}.</p>
         <p>Til den Kongelig</p>
         <p>Tydske Canzeley{{o0121}}</p>
-        <p />
-        <p />
-        <pb n="f. 21" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 21"/>
+        <p/>
         <p>К реляции полн.[омочно]<hi rendition="#sup">го</hi> Мин[истр]:а философова{{p1102}}</p>
-        <p>Из <placeName key="g0006" ref="https://www.geonames.org/2618425">копенгагена</placeName> №4<hi
-            rendition="#u">
+        <p>Из <placeName key="g0006" ref="https://www.geonames.org/2618425">копенгагена</placeName> №4<hi rendition="#u">
             <hi rendition="#sup">го</hi>
           </hi> 1767 года. </p>
         <noteGrp>
