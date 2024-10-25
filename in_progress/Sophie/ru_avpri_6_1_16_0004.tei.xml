@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,7 +103,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -114,85 +111,50 @@
       <div type="letter">
         <head>
           <title>10/21 SeptemberAugust 1743. – Copy of a letter from [<persName key="p0759,p0752">the
-            Imperial and Bavarian Minister to St. Petersburg,] Baron [Joseph] von Neuhaus to the
+            Imperial and Bavarian Minister to St. Petersburg,] Baron [Joseph] von Neuhaus</persName> to <persName>the
             Imperial Minister to the Court of His Majesty the King of Prussia [in Berlin], Baron
-            [Jean François] von Spon. From St. Petersburg, 21/10 September 1743</persName>
+            [Jean François] von Spon</persName>. From St. Petersburg, 21/10 September 1743
           </title>
           <note>
             <bibl>AVPRI, fond 6, opis 1, no. 16, f. 58—59. French original; translation into
               Russian: ibid, f. 60—61v.</bibl>
           </note>
         </head>
-        <pb n="f. 58" />
-        <p />
+        <pb n="f. 58"/>
+        <p/>
         <p>Копия с писма <persName key="p0759">Барона Нейгауза</persName>
           <persName key="p0765">Цесарскому
-          Министру барону Шпону при Его Величестве Короле прусском</persName>, из <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">С:Петербурха</placeName> от 21/10 сент 1743</p>
+          Министру барону Шпону при Его Величестве Короле прусском</persName>, из <placeName key="g0002" ref="https://www.geonames.org/498817">С:Петербурха</placeName> от 21/10 сент 1743</p>
         <p>C’est avec un sensible plaisir que j’ay apris par Votre letre du 2. de ce mois que Vous
-          etiés arrivé à <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>, et que S.M.I<hi rendition="#sup">
-          le</hi> Vous avoit choisi, Monsieur, pour remplacer le pauvre <persName
-            key="p0342"
-            ref="d14a2fab-a28b-48dd-b010-fb0e800153b8">chevalier de la Roscé</persName> que je
+          etiés arrivé à <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>, et que S.M.I<hi rendition="#sup">
+          le</hi> Vous avoit choisi, Monsieur, pour remplacer le pauvre <persName key="p0342" ref="d14a2fab-a28b-48dd-b010-fb0e800153b8">chevalier de la Roscé</persName> que je
           regrette infiniment, tant pour ses vases [vastes] talens que pour les services qu’il
           auroit pû rendre à <persName key="p0753" ref="72a487db-6ead-41c6-8de4-23472e5ae89c">Notre
-          auguste Maître</persName>. Ce choix doit vous etre d’autant plus agreable que <orgName
-            key="o0034"
-            ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">la Cour ou Vous etes</orgName>
-          est une de celles que nous savons le plus à menager, et comme <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cette Cour</orgName> icy a une grande
-          connexion avec celle de <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>, j’espere que notre
-          correspondance sera plus animée qu’elle ne l’a été avec <persName
-            key="p0342"
-            ref="d14a2fab-a28b-48dd-b010-fb0e800153b8">Votre Predecesseur</persName> d’autant plus
+          auguste Maître</persName>. Ce choix doit vous etre d’autant plus agreable que <orgName key="o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">la Cour ou Vous etes</orgName>
+          est une de celles que nous savons le plus à menager, et comme <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cette Cour</orgName> icy a une grande
+          connexion avec celle de <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>, j’espere que notre
+          correspondance sera plus animée qu’elle ne l’a été avec <persName key="p0342" ref="d14a2fab-a28b-48dd-b010-fb0e800153b8">Votre Predecesseur</persName> d’autant plus
           qu’il me semble que dans les circonstances pressa[n]tes l’Interet </p>
-        <pb n="f. 58v" />
+        <pb n="f. 58v"/>
         <p> de <persName key="p0753" ref="72a487db-6ead-41c6-8de4-23472e5ae89c">notre Gracieux
           Maitre</persName> le demande.</p>
         <p>J’aurois bien des choses à Vous mander mais je les passe sous silence, jusqu’à ce que je
-          sois informé que l’on rayes [ ?] mon chiffre qui est commun avec celui de <persName
-            key="p0752"
-            ref="5b46c147-2c3e-4913-8745-a6ac784a3296">Mrs de Senshaim</persName>, d’<persName
-            key="p0757">Haslang</persName> et de <persName key="p0000">Veltzel</persName> et je
+          sois informé que l’on rayes [ ?] mon chiffre qui est commun avec celui de <persName key="p0752" ref="5b46c147-2c3e-4913-8745-a6ac784a3296">Mrs de Senshaim</persName>, d’<persName key="p0757">Haslang</persName> et de <persName key="p0000">Veltzel</persName> et je
           crois aussy avec celui du <persName key="p0766">Prince de Grimberg</persName>. Il vous
           sera d’autant plus facile d’avoir le dit chiffre si vous ne l’avés pas que sans doute il
-          doit y avoir des courriers qui vont de <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName> à <placeName
-            key="g0013"
-            ref="https://www.geonames.org/2935022">Dresde</placeName>, et de <placeName
-            key="g0013"
-            ref="https://www.geonames.org/2935022">Dresde</placeName> à <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>.</p>
-        <p>Ce que j’ai eû l’honeur de vous écrire à <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName>,
+          doit y avoir des courriers qui vont de <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> à <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>, et de <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName> à <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>.</p>
+        <p>Ce que j’ai eû l’honeur de vous écrire à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName>,
           Concernant <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Mr le Prince
           de Cantimir</persName>, mais comme vous n’etes plus sur le lieu, cela est inutile à
           present.</p>
         <p>L’affaire du <persName key="p0758">M[ar]quis de Botta</persName> fait icy beaucoup de
-          bruit et sans doute qu’Elle sera assès publique à <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>.
-          L’on attend avec Impatience la reponse que <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> fera sur la
+          bruit et sans doute qu’Elle sera assès publique à <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>.
+          L’on attend avec Impatience la reponse que <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> fera sur la
           satisfaction </p>
-        <pb n="f. 59" />
+        <pb n="f. 59"/>
         <p> que celle-ci demande; Et l’on est curieux de savoir coment <persName key="p0758">le
           marquis de Botta</persName> cherchera à s’excuser.</p>
-        <p>L’on est icy fort attentif aux mouvemens des Danois et <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">La Cour</orgName> a ordonné au <persName
-            key="p0289"
-            ref="068a7851-7377-4034-bfbb-5a3f8f9292a6">Gen[eral]. Keith</persName>
+        <p>L’on est icy fort attentif aux mouvemens des Danois et <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">La Cour</orgName> a ordonné au <persName key="p0289" ref="068a7851-7377-4034-bfbb-5a3f8f9292a6">Gen[eral]. Keith</persName>
           d’aller hiverner en Suede avec 30. galeres et un Corps du 12. à 15. mille homes payés pour
           un an et une gratification de 4. mois.</p>
         <p>La flotte Russienne a aussi ordre de tenir la mer et de se joindre à la suedoise en cas
