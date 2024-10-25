@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,56 +102,38 @@
       <div type="letter">
         <head>
           <title>25 September 1711. – Letter from <persName key="p1450">the Danish Envoy
-            Extraordinary to Russia, Commandor Just Juel</persName>, to <persName
-              key="p0071"
-              ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Russian Chancellor, Count Gavrila
+            Extraordinary to Russia, Commandor Just Juel</persName>, to <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Russian Chancellor, Count Gavrila
             Ivanovich Golovkin</persName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1711, no. 23, f. 11–12v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 11" />
+        <pb n="f. 11"/>
         <p>
-          <placeName
-            key="g0216"
-            ref="https://www.geonames.org/3083271">Thorn</placeName> d[en] 25 Septembr[is] 1711</p>
+          <placeName key="g0216" ref="https://www.geonames.org/3083271">Thorn</placeName> d[en] 25 Septembr[is] 1711</p>
         <p>Hoch=gebohrner Herr Reichs=Graf</p>
         <p>und Gros=Cantzler</p>
         <p>Ich habe nicht umbhin wollen Ihro Hoch=Gräfl[ichen] Excellencen durch dieses alsoforth zu
-          hinterbringen, das Ich gestern ahn diesen Ohrte arriverit, in der Hoffnung <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Czar[ische] M[ajestä]t</persName>
-          allhie vorzufinden, habe aber vernehmen müßen, das <persName
-            key=""
-            ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ihro Maj[estä]t</persName>{{p0174}} schon von
-          hier wieder aufgebrochen, und einen tour nach <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">Carlsbad</placeName>
-          gethan. Weiln Ich nun vonTrans Ihro Hoch=Gräfl[ichen] Excell[ence]n weder in <placeName
-            key="g0234"
-            ref="https://www.geonames.org/770380">Jarislow</placeName> noch hier einige Nachricht, ob und wo Ich
+          hinterbringen, das Ich gestern ahn diesen Ohrte arriverit, in der Hoffnung <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Czar[ische] M[ajestä]t</persName>
+          allhie vorzufinden, habe aber vernehmen müßen, das <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ihro Maj[estä]t</persName> schon von
+          hier wieder aufgebrochen, und einen tour nach <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName>
+          gethan. Weiln Ich nun vonTrans Ihro Hoch=Gräfl[ichen] Excell[ence]n weder in <placeName key="g0234" ref="https://www.geonames.org/770380">Jarislow</placeName> noch hier einige Nachricht, ob und wo Ich
           Höchstged[achte] </p>
-        <pb n="f. 11v" />
+        <pb n="f. 11v"/>
         <p>
           <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Czar[ische]
           May[estä]t</persName> ferner zu folgen habe, vorgefunden, noch alhier einige zuverläßige
-          Nachricht erhalten könne, ob <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Czar[ische] M[ajestä]t</persName> nach
+          Nachricht erhalten könne, ob <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Czar[ische] M[ajestä]t</persName> nach
           diesem Ohrt bald zu verhoffen seye, bin Ich in volkommener ungewißheit, wohin mich ferner
           begeben solle.</p>
-        <p>Ich bitte dahero unterthänigst, das Ihro Hoch=Gräfl[iche] Excell[ence]n <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zar[ischen] M[ajestä]t[e]n</persName>
+        <p>Ich bitte dahero unterthänigst, das Ihro Hoch=Gräfl[iche] Excell[ence]n <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Zar[ischen] M[ajestä]t[e]n</persName>
           allergnädigsten Belieben darüber willen vernehmen, und mir fordersambste Nachricht zu
           kommen laßen, ob Es <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
-          Czar[ischen] M[ajestä]t[e]n</persName> gefällig, das Ich Sie in <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">
+          Czar[ischen] M[ajestä]t[e]n</persName> gefällig, das Ich Sie in <placeName key="g0215" ref="https://www.geonames.org/3073803">
           Carlsbad</placeName> oder sonsten wo könne aufwarten. Ferner bitte auch, das die etwan bey
           Ihro Cantzeley für mir einge- </p>
-        <pb n="f. 12" />
+        <pb n="f. 12"/>
         <p>loffene Briefe, mir durch erste gelegentheit mögen übergeschichet werden. Ich ersuche
           hierüber mit fordersamsten Ihro Hoch-gräflichen Excellencen Antwort undt verbleibe</p>
         <p>Eure Hoch-gräflichen</p>
@@ -164,8 +143,8 @@
         <p>
           <persName key="p1450">J[ust] Juell</persName>
         </p>
-        <pb n="f. 12v" />
-        <p />
+        <pb n="f. 12v"/>
+        <p/>
       </div>
     </body>
   </text>
