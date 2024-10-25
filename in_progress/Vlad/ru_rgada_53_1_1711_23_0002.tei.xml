@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,15 +102,13 @@
       <div type="letter">
         <head>
           <title>23 December 1711. – Memorial from <persName key="p1450">the Danish Envoy
-            Extraordinary to Russia, Commandor Just Juel</persName>, to <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
+            Extraordinary to Russia, Commandor Just Juel</persName>, to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1711, no. 23, f. 15–15v, 16v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 15" />
+        <pb n="f. 15"/>
         <p> Allerdurchlauchtigster.</p>
         <p>GroßMächtigster Großer Herr und Czaar.</p>
         <p>Ihro Czaarische May[es]t[ä]t gebe allerunterthänigst zu erkennen, daß mir von den
@@ -130,44 +125,35 @@
           Sept[embris] 1709 da ich die erste beyahlung bekahm, biß d[en] 1<hi rendition="#sup">n</hi>.
           Sept[embris] 1711 da ich die letzte bezahlung empfing tägl[ich] ein Rubel, thut in 2
           Jahren 728 Rubel oder 808 Spec[ies] Reichsthaler 80 Kapeken, diese angeführte abkürtzung
-          im Gelde habe auch in Aprilii <hi rendition="#u">1711 </hi>auß <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Muscow</placeName>
-          <persName
-            key="p0071"
-            ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ihro Hochgräffl[ichen] Excell[ence] dem
+          im Gelde habe auch in Aprilii <hi rendition="#u">1711 </hi>auß <placeName key="g0001" ref="https://www.geonames.org/524894">Muscow</placeName>
+          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ihro Hochgräffl[ichen] Excell[ence] dem
           h[errn] GroßCantzler</persName> bekant gemacht, auch nicht darauf viel presiren wollen,
           biß ich einmahl solte rappeliret werden, Weiln ich in Hoffnung lebte, daß mir solches
           alsdan schon würde gutgethan werden, </p>
-        <pb n="f. 15v" />
+        <pb n="f. 15v"/>
         <p> Lebe der festen zuversicht Ihro Czaarische May[es]t[ä]t werden mir solche 808
           R[iks]d[ale]r in Spec[ie] samt 80 Kapeken, und vorhin angeführte 1130 R[iks]d[ale]r thut
-          in allen 1938. Spec[ies] Reichsthaler 80 Kapeken allergnädigst zu remittiren, und an <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Dero Precassen</orgName>
+          in allen 1938. Spec[ies] Reichsthaler 80 Kapeken allergnädigst zu remittiren, und an <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Dero Precassen</orgName>
           befehlen, der ich mich dan in Ihro Czaarische May[es]t[ä]t Hohe Gnade Empfehle, und
           verbleibe so lange ich lebe in tieffster Unterthänigkeit</p>
         <p>Ewer Czaarische Majestäten</p>
-        <p>Im Feltlager vor <placeName
-            key="g0186"
-            ref="https://www.geonames.org/6551183">Stralsondt</placeName>
+        <p>Im Feltlager vor <placeName key="g0186" ref="https://www.geonames.org/6551183">Stralsondt</placeName>
         </p>
         <p>D[ie] 23/ Decembr[is] 1711/ allerunterthänigste und</p>
         <p>allergehorsamster</p>
         <p>Diener</p>
         <p>
-          <persName key="p1450">J[ust] Juell</persName>
+          <persName key="p1450" type="signature">J[ust] Juell</persName>
         </p>
-        <p />
-        <p />
-        <pb n="f. 16v" />
+        <p/>
+        <p/>
+        <pb n="f. 16v"/>
         <p>От посланика <persName key="p1450">Июла</persName>. Принято чрез <persName key="p1452">секретаря
-          Фалка</persName> в <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Питербурге</placeName> 6 февраля и переведено. О
-          должных ему некоторых д[е]нгах. Писано к <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ц[арскому] в[еличеств]у</persName>.</p>
+          Фалка</persName> в <placeName key="g0002" ref="https://www.geonames.org/498817">Питербурге</placeName> 6 февраля и переведено. О
+          должных ему некоторых д[е]нгах. Писано к <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ц[арскому] в[еличеств]у</persName>.</p>
+          <noteGrp><note>Also see:</note>
+          <note>ru_rgada_53_1_1711_23_0001</note>
+          <note>ru_rgada_53_1_1706_3_0002</note></noteGrp>
       </div>
     </body>
   </text>
