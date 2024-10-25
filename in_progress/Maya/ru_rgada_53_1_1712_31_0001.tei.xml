@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,62 +99,43 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1 September 1712. – Instruction given by <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName> to <persName
-              key="p1457">the Danish Colonel, Adjutant General Klepping</persName>
+          <title>1 September 1712. – Instruction given by <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName> to <persName key="p1457">the Danish Colonel, Adjutant General Klepping</persName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1712, no. 31, f. 1–1v. Russian copy.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p>Инструкциа его <persName key="p0174,p1457">королевскаго в[еличества] д[ацкому] полковнику
-          и генералу-ад[ъ]ютанту фон Клипингу</persName>.</p>
+        <pb n="f. 1"/>
+        <p>Инструкциа его королевскаго в[еличества] д[ацкому] полковнику
+          и генералу-ад[ъ]ютанту фон Клипингу.</p>
         <p>1.</p>
         <p>Поздравить <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">его
           королевское величество</persName> победою.</p>
         <p>2.</p>
-        <p>Об[ъ]явить, что все к транспорту было готово на <placeName
-            key="g0349"
-            ref="https://www.geonames.org/2843325">Руген</placeName>
-          и атака <placeName
-            key="g0186"
-            ref="https://www.geonames.org/6551183">Стралзунта</placeName>, в чем засвидетелствуемся <persName
-            key="p1456">виц.е-адмиралом Сегештетом</persName> и <persName
-            key="p0674"
-            ref="b7a1db70-6532-4e6f-8da9-36d05f171043">генералом-ад[ъ]ютантом Лейнгером</persName>,
-          и конечно б в 4 или 5 дней то учинилось. Но когда уведомились чрез <persName
-            key="p1456">вице-адмирала
-          Сегештета</persName>, что флот дацкой в <placeName
-            key="g0388"
-            ref="https://www.geonames.org/2618413">Кюгебухт</placeName> пошел,
+        <p>Об[ъ]явить, что все к транспорту было готово на <placeName key="g0349" ref="https://www.geonames.org/2843325">Руген</placeName>
+          и атака <placeName key="g0186" ref="https://www.geonames.org/6551183">Стралзунта</placeName>, в чем засвидетелствуемся <persName key="p1456">виц.е-адмиралом Сегештетом</persName> и <persName key="p0674" ref="b7a1db70-6532-4e6f-8da9-36d05f171043">генералом-ад[ъ]ютантом Лейнгером</persName>,
+          и конечно б в 4 или 5 дней то учинилось. Но когда уведомились чрез <persName key="p1456">вице-адмирала
+          Сегештета</persName>, что флот дацкой в <placeName key="g0388" ref="https://www.geonames.org/2618413">Кюгебухт</placeName> пошел,
           а неприятелской море очистил, транспорт вышел, то нихто к оному десанту не советывал со
           всех трех сторон.</p>
         <p>3.</p>
         <p>Ежели ж оной в Полшу пойдет, то весма невозможно не точию что начинать, но и здесь
           удержатца.</p>
         <p>4.</p>
-        <p>Того ради необходимая есть нужда, чтоб <persName
-            key="p0532"
-            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">королевское величество дацкой</persName>
-          своим ныне войском, которое по окончании счастливой осады <placeName
-            key="g0390"
-            ref="https://www.geonames.org/2829901">Штада</placeName>
+        <p>Того ради необходимая есть нужда, чтоб <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">королевское величество дацкой</persName>
+          своим ныне войском, которое по окончании счастливой осады <placeName key="g0390" ref="https://www.geonames.org/2829901">Штада</placeName>
           праздны имеет, сюды неотложно в две недели прибыть изволил, при котором сем великом
-          сикурсе, ежели транспорт на <placeName
-            key="g0349"
-            ref="https://www.geonames.org/2843325">Ругене</placeName>, все, что потребно,
+          сикурсе, ежели транспорт на <placeName key="g0349" ref="https://www.geonames.org/2843325">Ругене</placeName>, все, что потребно,
           здесь зачинать возможно. Ежели же неприятель в Полшу пойдет, тогда уже здес[ь] такого
           великого войска держать не для чего, но в Полшу часть послать </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> возможно. И тако мы с помощию Божиею будем в состоянии везде действа свои против
           неприятеля чинить. Буде же в Зелянд пойдет транспорт, то зде стоящая войска, скол[ь]
           далеко <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">королевское
@@ -170,21 +148,12 @@
           неподлинная ведомость, что неприятел[ь] 16000 ч[е]л[о]в[е]к в транспорте имеет, чему вера
           подается, для того что еще в апреле м[е]с[я]це шведы все суды в Финском и Ботническом
           проливах на <persName key="p0193" ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">короля</persName>
-          отписали и в <placeName
-            key="g0389"
-            ref="https://www.geonames.org/9803828">Карлсгаван</placeName> провожены. Того ради не в
-          состоянии обретаемся при таком силном транспорте действа начинат[ь], <placeName
-            key="g0231"
-            ref="https://www.geonames.org/3083829">Штетин</placeName> держав в блакаде, Гарц и протчия места для магазейнов
+          отписали и в <placeName key="g0389" ref="https://www.geonames.org/9803828">Карлсгаван</placeName> провожены. Того ради не в
+          состоянии обретаемся при таком силном транспорте действа начинат[ь], <placeName key="g0231" ref="https://www.geonames.org/3083829">Штетин</placeName> держав в блакаде, Гарц и протчия места для магазейнов
           держа гарнизоны.</p>
-        <p>В <placeName
-            key="g0361"
-            ref="https://www.geonames.org/2917788">Грибсвалде</placeName> в 1 де[нь] сентября 1712-г[о]. Изволил
+        <p>В <placeName key="g0361" ref="https://www.geonames.org/2917788">Грибсвалде</placeName> в 1 де[нь] сентября 1712-г[о]. Изволил
           подписать <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">его ц[арское]
-          в[еличество]</persName>, и дана по-немецки копия, которую писал <persName
-            key="p0202"
-            ref="89a43649-58e4-42c5-9be8-b2d516077aa6">Павел Эогузинской</persName> и <persName
-            key="p1218">Аврам Веселовской</persName>. Печати никакой не приложено.</p>
+          в[еличество]</persName>, и дана по-немецки копия, которую писал <persName key="p0202" ref="89a43649-58e4-42c5-9be8-b2d516077aa6">Павел Эогузинской</persName> и <persName key="p1218">Аврам Веселовской</persName>. Печати никакой не приложено.</p>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_rgada_53_1_1712_31_0002</note>
