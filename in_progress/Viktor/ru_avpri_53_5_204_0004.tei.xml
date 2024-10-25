@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,25 +96,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>8 April 1767. - Copy of the note from the Danish Ministry{{o0126}},
-              the Royal German Chancellery{{o0121}}, [to the Russian Minister Plenipotentiary and
-              Envoy Extraordinary to Denmark, Mikhail Mikhailovich Filosofov{{p1102}}] from the 8<hi
-              rendition="#sup">th</hi> of April, 1767</title>
+          <title>8 April 1767. - Copy of the note from <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default">the Danish Ministry</orgName>,
+              <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0121" xml:space="default">the Royal German Chancellery</orgName>, <persName key="p1102">[to the Russian Minister Plenipotentiary and Envoy Extraordinary to Denmark, Mikhail Mikhailovich Filosofov</persName>] from the 8<hi rendition="#sup">th</hi> of April, 1767</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 204, f. 19-19v. German original</bibl>
           </note>
         </head>
-        <pb n="f. 19" />
+        <pb n="f. 19"/>
         <p>Lit. B.</p>
-        <p>Копия из ноты дацкаго министерства, из королевской немецкой канцелярии от 8<hi
-            rendition="#sup">го</hi> апреля 1767<hi rendition="#sup">го</hi> году.</p>
+        <p>Копия из ноты дацкаго министерства, из королевской немецкой канцелярии от 8<hi rendition="#sup">го</hi> апреля 1767<hi rendition="#sup">го</hi> году.</p>
         <p>Demnach die Königl[ich]: Dänische Canzeley{{o0126}} in Anleitung der von dem
           Rußisch-Kayserlichen Ministre Plenipotentiaire und Envoyé Extraordinaire, Herrn Genéral
           major von Filosoffow{{p1102}} hochwohlgebl[oren]: des fals eingereichten Note, von der
@@ -130,11 +124,10 @@
         <p>Plenipotentiaire und Envoyé extraor-</p>
         <p>dinaire Herrn General-Major von</p>
         <p>Filosoffow{{p1102}}.</p>
-        <p />
-        <pb n="f. 19v" />
+        <p/>
+        <pb n="f. 19v"/>
         <p>К реляции полн:[омочно]<hi rendition="#sup">го </hi>Мин[истр]а философова{{p1102}}</p>
-        <p>Из <placeName key="g0006" ref="https://www.geonames.org/2618425">копенгагена</placeName> №4<hi
-            rendition="#u">
+        <p>Из <placeName key="g0006" ref="https://www.geonames.org/2618425">копенгагена</placeName> №4<hi rendition="#u">
             <hi rendition="#sup">го</hi>
           </hi> 1767 года.</p>
         <noteGrp>
