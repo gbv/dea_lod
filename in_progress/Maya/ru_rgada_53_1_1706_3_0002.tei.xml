@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,31 +103,23 @@
       <div type="letter">
         <head>
           <title>4 May 1706. – Petition submitted by <persName key="p1450">the Danish Envoy
-            Extraordinary to Russia, Commandor Just Juel,</persName> to <orgName
-              key="o0064"
-              ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">the Russian Ambassadorial Office</orgName>
+            Extraordinary to Russia, Commandor Just Juel,</persName> to <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">the Russian Ambassadorial Office</orgName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1706, no. 3, f. 65. German original. Translation from
               German into Russian: RGADA, fond 53, opis 1, 1706, no. 3, f. 66.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 65" />
+        <p/>
+        <pb n="f. 65"/>
         <p>Ich <persName key="p1450">Untergeschriebener Ihro Königlichen Majestäten zu Denemarchen
           und Norwegen Envoyé Extraordinaire ahn Ihro Zar[ische] M[ajestä]t[e]n Hoffe</persName>,
-          gebe dienstlich zu erkennen ahn denen sämtlichen <persName key="p0227,p0071,p0494">H[errn]
-          Directeurs</persName> des Hochlöblichen <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Posolschen Precassen</orgName>, welcher
-          gestalt Ich in erfahrung bin gekommen, das die ahn <persName
-            key="p0532"
-            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">meinem Allergnädigsten Herrn undt Könige</persName>
+          gebe dienstlich zu erkennen ahn denen sämtlichen <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0227; p0071; p0494" xml:space="default">H[errn]
+          Directeurs</persName> des Hochlöblichen <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Posolschen Precassen</orgName>, welcher
+          gestalt Ich in erfahrung bin gekommen, das die ahn <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">meinem Allergnädigsten Herrn undt Könige</persName>
           versprochene gefangene 30 Schwed[ische] Officiers noch nicht von hier sindt abgefertiget,
           und das der H[err] Obrister, welcher die Schwed[ischen] Officieren in Aufsicht hatt, nur
-          auf Ordre vom hiesigen Hochvertrauete<orgName
-            key=""
-            ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591"> </orgName>Senat w[ar]t[e]t, umb selbige
+          auf Ordre vom hiesigen Hochvertrauete<orgName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591"> </orgName>Senat w[ar]t[e]t, umb selbige
           abzusenden, undt das Ich von solcher Sache, wie auch wegen die mir zur wache gegebene
           Soldaten, welche wegen unrichtige bezahlung fast von Hunger sterben, heute bin
           hingefahren, umb die Ehre zu haben die H[errn] Deputierten im Senat Selber zu sprechen;
@@ -147,9 +136,9 @@
           <placeName key="g0001" ref="https://www.geonames.org/524894">Moscow</placeName> D[ie]
           4 Maij: <persName key="p1450">J[ust] Juell</persName>
         </p>
-        <p />
-        <p />
-        <pb n="f. 65v" />
+        <p/>
+        <p/>
+        <pb n="f. 65v"/>
         <p>Перевесть.</p>
       </div>
     </body>
