@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,106 +94,12 @@
         <p>ru_rgada_53_4_18_0001.docx</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF>
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_18_0001_ready.tei.xml?place_annotation_20240205004607340",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-04T23:46:07.340Z",
-	"dcterms:modified": "2024-02-04T23:46:07.340Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_18_0001_ready.tei.xml?place_annotation_20240205004607340#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_18_0001_ready.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_4_18_0001_ready.tei.xml?place_annotation_20240205004607340#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/dateline/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2897132",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}
-                </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <head>
-        <title> 27 March 1713. – Royal letter from the King of Denmark and Norway, <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0532"
-            xml:space="default">Frederick IV</persName>, to the Tsar of Russia, <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0174"
-            xml:space="default">Peter I
+        <title> 27 March 1713. – Royal letter from the King of Denmark and Norway, <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0532" xml:space="default">Frederick IV</persName>, to the Tsar of Russia, <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">Peter I
           </persName>
         </title>
       </head>
@@ -208,93 +111,43 @@
           RGADA, fond 53, opis 4, no. 18, f.
           2–2v. Translation from German into Russian.
         </note>
-        <pb cert="high" n="f. 1" xml:space="default" />
-        <salute>Durchleuchtigster Großmächtigster <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0174"
-            xml:space="default">
-            Czar</persName>. <lb /> Freundlich vielgeliebter Herr Bruder, Freund und Nachbahr. </salute>
+        <pb cert="high" n="f. 1" xml:space="default"/>
+        <salute>Durchleuchtigster Großmächtigster <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">
+            Czar</persName>. <lb/> Freundlich vielgeliebter Herr Bruder, Freund und Nachbahr. </salute>
       </opener>
-      <p>Nachdehm mir die Zeitung von dem anhero abgefertigten Chur=<persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0726"
-          xml:space="default">
+      <p>Nachdehm mir die Zeitung von dem anhero abgefertigten Chur=<persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0726" xml:space="default">
           Hannoverschen Cammer-Herrn
         </persName> angebracht worden, alß
         wann die in Pommern sich befindliche Trouppen ordre erhalten, das dortige Land zu verbrennen
         und zu verheeren und dann gar verlauten will, daß solches würcklich effectuiret werden
         solle; So habe Ich nicht allein sothane Nachricht ungerne und mit besonderm Chagrin
-        vernommen, sondern bin auch dadurch genöthiget worden, sogleich an <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">
+        vernommen, sondern bin auch dadurch genöthiget worden, sogleich an <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">
           Ew[er] May[estä]t und L[ie]bd[en]
         </persName>
-        Feldt-Marschall den Printz <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p1131"
-          xml:space="default">Menschikoff</persName>, wie beygehende Copey zeiget, zu
+        Feldt-Marschall den Printz <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1131" xml:space="default">Menschikoff</persName>, wie beygehende Copey zeiget, zu
         schreiben, und Ihme vorzustellen, daß Er doch ohngesäubt die ordre zu Abstellung einer
         solchen Unß Sämbtlich zu der allergrösten prejuditz gereichenden Execution, verfügen möge.
         da Ich dann, ob periculum in mora, dieses auf </p>
-      <pb cert="high" n="f. 1v" xml:space="default" />
-      <p>mich genommen, nicht zweiffelnde <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">Ew[er] May[estä]t und
+      <pb cert="high" n="f. 1v" xml:space="default"/>
+      <p>mich genommen, nicht zweiffelnde <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">Ew[er] May[estä]t und
           L[ie]bd[en]
         </persName> werden Sich, auß
-        denen angeführten Uhrsachen, solches gerne gefallen laßen und derentwegen dero<persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p1131"
-          xml:space="default">
+        denen angeführten Uhrsachen, solches gerne gefallen laßen und derentwegen dero<persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1131" xml:space="default">
           Feldt Marschall
         </persName> die verlangte Genehmhaltung
         zuzusenden belieben, womit Ich jederzeit mit aller Aufrichtigkeit verharre </p>
       <closer>
-        <persName
-          cert="high"
-          evidence="internal"
-          full="yes"
-          instant="unknown"
-          key="p0174"
-          xml:space="default">
+        <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0174" xml:space="default">
           Ew[er] May[estä]t und L[ie]bd[en]
         </persName>
-        <lb />
+        <lb/>
         getreuer Bruder, Freund und Nachbahr. <dateline>
-          <placeName key="g0397" ref="https://www.geonames.org/2897132" cert="high">
-            Husum
-          </placeName> den <date when="1713-03-27">27 <hi rendition="simple:superscript">
+          <placeName key="g0397" ref="https://www.geonames.org/2897132" cert="high"> Husum </placeName> den <date when="1713-03-27">27 <hi rendition="simple:superscript">
               <hi rendition="simple:underline">ten</hi>
-            </hi> Martii <lb /> A[nn]o 1713 </date>
+            </hi> Martii <lb/> A[nn]o 1713 </date>
         . </dateline>
         <signed>
-          <persName
-            cert="high"
-            evidence="internal"
-            full="yes"
-            instant="unknown"
-            key="p0532"
-            xml:space="default">Friderich R[ex]
+          <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0532" xml:space="default">Friderich R[ex]
           </persName>
         </signed>
       </closer>
