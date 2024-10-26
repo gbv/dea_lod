@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,83 +96,73 @@
         </p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF />
-    </xenoData>
-  </teiHeader>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <div>
         <head>
           <title>15 Novembre 1709. – Letter from <orgName cert="high" key="o0124">Franz Poppe and
             Sons
-            </orgName> to the <persName
-              cert="high"
-              key="p0729"
-              type="real">Russian Ambassador to Denmark, Prince Vasilii
+            </orgName> to <persName cert="high" key="p0729" type="real">the Russian Ambassador to Denmark, Prince Vasilii
               Lukich Dolgorukov
             </persName>
           </title>
         </head>
         <opener>
           <note>RGADA, fond 53, opis 1, 1709, no. 12, f. 1-2v. French original.</note>
-          <pb cert="high" n="f. 1" xml:space="default" />
+          <pb cert="high" n="f. 1" xml:space="default"/>
           <salute>Monseigneur</salute>
         </opener>
         <p>Nous avons apris avec beaucoup de plaisir par la lettre, dont Votre Excellence nous a
           honoré le 9e. de ce mois, qu'elle a enfin par les puissantes instances terminé notre
-          affaire à la <orgName
-            key="o0009">Cour</orgName>, de sorte, qu'on nous fera payé notre blé au pris, que nous
+          affaire à la  <orgName key="o0009">la Cour</orgName>, de sorte, qu'on nous fera payé notre blé au pris, que nous
           souhaitons, dont nous avons déjà pris la liberté d'informer Votre Excellence aussi bien,
-          que <persName key="p1504">Mons:[ieur] l'Amiral Paulsen</persName>, à savoir, que nous
+          que <persName key="p1504">Mons[ieur]: l'Amiral Paulsen</persName>, à savoir, que nous
           suplions tres humblement <persName key="p0532">Sa Majesté Danoise</persName> d'avoir la
           bonté, de nous le faire payer au pris courant, nous pouvons neanmoins, Monseigneur,
           assurer Votre Excellence, que si nous avions reçu ce dit segle, et qu'il eut eté en notre
-          pouvoir, nous aurions pû tirer 125 Ecus de chaque Lafce [?], comme nous en donons <pb
-            cert="high"
-            n="f. 1v"
-            xml:space="default" /> aujourd'hui une profonde relation à <persName
-            key="p1258">Monsieur Wilhelm Edinger</persName>, lui envoyant les attestations, qu'il a
+          pouvoir, nous aurions pû tirer 125 Ecus de chaque Lafce [?], comme nous en donons <pb cert="high" n="f. 1v" xml:space="default"/> aujourd'hui une profonde relation à <persName key="p1258">Monsieur Wilhelm Edinger</persName>, lui envoyant les attestations, qu'il a
           exigées de nous, touchant le pris, que le segle valoit au tems d'Arrêt, et ce que nous en
           aurions pu avoir. C'est pourquoi, Monseigneur, nous prenons la liberté de prier humblement
-          Votre Excellence de nous faire la grace de terminer encore heureusement notre affaire avec <persName
-            cert="high"
-            key="p1258"
-            type="real">Mons:[ieur] Edinger</persName>, ce que nous nous
+          Votre Excellence de nous faire la grace de terminer encore heureusement notre affaire avec <persName cert="high" key="p1258" type="real">Mons[ieur]: Edinger</persName>, ce que nous nous
           flattons d'aprendre bientôt, nous vous sommes cependant infiniment obligés, Monseigneur,
           de la bienveillance toute particulier, que Votre Excellence nous temoigne, et de la peine,
           qu'elle s'est bien voulû doner dans cette affaire : En reconoissance nous prenons la
           libertéde l'assurer, que nous ferons toujours notre possible pour nous montrer soumis et
           obeïssans, a tout ce qui lui plaira nous ordonner. Nous somes fort surpris Monseigneur,
-          que <pb cert="high" n="f. 2" xml:space="default" /> Votre Excellence ne nous fasse point
+          que <pb cert="high" n="f. 2" xml:space="default"/> Votre Excellence ne nous fasse point
           savoir, si elle souhaite, que nous lui fassions tenir les 3000 Risdales Albert, que nous
           lui avons offerts; il y a longtemps, que nous avons reçu avis de Moscovie, qu'on a tiré
           sur nous des lettres de change de la dite some. Soit donc, que le payement de ce blé se
-          fasse à <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425"
-            cert="high"> Copenhague <precision match="@ref" precision="high" />
+          fasse à <placeName key="g0006" ref="https://www.geonames.org/2618425" cert="high"> Copenhague <precision match="@ref" precision="high"/>
           </placeName> , ou qu'on nous le fasse promtement ici,
-          Votre Excellence poura recevoir cette some du dit Mons:[ieur] Edinger moyenant une double
+          Votre Excellence poura recevoir cette some du dit <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1258" xml:space="default">Mons[ieur]: Edinger</persName> moyenant une double
           quitance, contenant, que ce payement est pour la valeur des lettres de changes de 3000 Rx
           tirés sur nous de <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou
           </placeName> et payable à Votre Excellence, et qu'à l'arrivée de ces
           dites lettres, n'étant d'aucun [sic] valeur, elles nous soient livrées, en remettant entre
-          les mains de <pb cert="high" n="f. 2v" xml:space="default" /> Votre Excellence sa propre
+          les mains de <pb cert="high" n="f. 2v" xml:space="default"/> Votre Excellence sa propre
           quitance. </p>
         <closer>
-          <salute>Au reste nous la prions, d'etre assurée que nous ne cesserons d'etre <lb />
-            Monseigneur <lb /> de Votre Excellence </salute>
-          <salute>les tres humbles, tres obeïssans <lb /> et tres obligés serviteurs </salute>
+          <salute>Au reste nous la prions, d'etre assurée que nous ne cesserons d'etre <lb/>
+            Monseigneur <lb/> de Votre Excellence </salute>
+          <salute>les tres humbles, tres obeïssans <lb/> et tres obligés serviteurs </salute>
           <signed>
             <orgName key="o0124">Frans Poppe et Compa[gnie]</orgName>
           </signed>
           <dateline>à <placeName key="g0011" ref="https://www.geonames.org/2911298">
             Hambourg
-            </placeName> le <lb />
+            </placeName> le <lb/>
             <date>15e. 9br: 1709</date>
           </dateline>
         </closer>
+        <noteGrp><note>Also see:</note>
+        <note>ru_rgada_53_1_1709_12_0002</note>
+<note>ru_rgada_53_1_1710_11_0001</note>
+<note>ru_rgada_53_1_1715_10_0001</note>
+<note>ru_rgada_53_1_1717_15_0001</note>
+<note>ru_rgada_53_1_1717_15_0002</note></noteGrp>
       </div>
     </body>
   </text>
