@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -108,7 +105,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -124,8 +121,8 @@
         </head>
         <p/>
         <pb n="f. 2"/>
-        <p>Instruction <persName key="p1457">S[eine]r Konigl[ichen] M[ayestä]t von Denemarck Obrist
-          v[nd]<hi rendition="#sup">–2 </hi>General adjutant dem von Klipping</persName>
+        <p><persName key="p0532">Instruction S[eine]r Konigl[ichen] M[ayestä]t von Denemarck</persName> <persName key="p1457">Obrist
+          v<hi rendition="#sup">nd</hi> General adjutant dem von Klipping</persName>
         </p>
         <p>1. Wird <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Er S[eine]r
           Königl[ichen] M[aye]st[ät]</persName> zu der erlangten Victorie Congratuliren.</p>
@@ -139,18 +136,18 @@
           den transport sich in der See sehen laßen. Derohalben hatt niemand von allen dreyen seiten
           zu der descente rahten wollen.</p>
         <p>3. Solte aber der transport nach Pohlen vor sich gehen, so wird alß denn fast unmüglich
-          seyn <hi rendition="#sup">–</hi>etwas hauptsächliches vorzunehemen, und es an dem gnug
-          seyn sich allhier, wie wol schwer, mainteniren zu können<hi rendition="#sup">–1</hi>.</p>
+          seyn <hi rendition="#sup">etwas hauptsächliches vorzunehemen, und es an dem gnug
+          seyn sich allhier, wie wol schwer, mainteniren zu können</hi>.</p>
         <pb n="f. 2v"/>
         <p> 4. Alß ist es unümbgänglich, daß <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihr[o] Königl[iche] May[e]st[ät]</persName>
-          von Dennemarck <hi rendition="#sup">–</hi>samt einen guten theil Dero troupen, so zu
-          determiniren<hi rendition="#sup">–4</hi>, nach dem nun die belagerung vor Stade glücklich
+          von Dennemarck <hi rendition="#sup">samt einen guten theil Dero troupen, so zu
+          determiniren</hi>, nach dem nun die belagerung vor Stade glücklich
           vollenzogen, und Sie müßig sich befinden, ohne Auffschub innerhalb 2 Wochen hieher sich
           begeben, weil alsdenn bey so mercklichen überkommenen succurse, ungeachtet der transport
           nach <placeName key="g0349" ref="https://www.geonames.org/2843325">Rügen</placeName>
           geschehen, dennoch alles das nöhtige vorgenom[m]en werden kan  Solte aber der feind sich
           nach Pohlen wenden, so würde dann unnöhtig seyn so eine considerable Armée allhier zu
-          halten, sondern würde rahtsamer seyn ein theil hin zu detachiren; und folglich Wir <hi rendition="#sup">–</hi>dennoch im stande seyn können<hi rendition="#sup">–6</hi>, aller
+          halten, sondern würde rahtsamer seyn ein theil hin zu detachiren; und folglich Wir <hi rendition="#sup">dennoch im stande seyn können</hi>, aller
           Ohrten unsere operationes wieder den feind zu poussiren. Solte der Schwedische transport
           aber nach Seeland gehen, so können <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihr[o] Königl[iche] May[e]st[ät] von
           Dennemarck</persName> der allhier in Pom[m]ern stehenden troupen sich so weit, alß <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihr[o] Königl[iche] May[e]st[ät]</persName>
@@ -159,18 +156,18 @@
         <pb n="f. 3"/>
         <p> Falls aber <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihr[o]
           Königl[iche] May[e]st[ät]</persName> hieher samt Dero troupen zu kommen nicht belieben, so
-          könte alßdenn Uns auch nicht imputiret werden, daß wir unserseits <hi rendition="#sup">–</hi>nichts
+          könte alßdenn Uns auch nicht imputiret werden, daß wir unserseits <hi rendition="#sup">nichts
           vornehmen werden können, sondern Uns an dem Vergnügen, daß Wir vesten fuß hier im lande
-          mit unserer Macht behalten<hi rendition="#sup">–7</hi>. Maßen Wir die Nachricht, ob es
+          mit unserer Macht behalten</hi>. Maßen Wir die Nachricht, ob es
           noch nicht gründlich, gleich wol glaubwürdig erhalten, daß der Feindliche transport in
           16000 Mann bestehen solle, welches noch in dem April-Monate vielfältig mahl außgebracht
           worden, nemlich daß Schweden alle die im Finnischen so wol alß auch Bottnischen Haffen
           befindliche Fahrzeuge an die Crohne gezogen, und nach den <placeName key="g0389" ref="https://www.geonames.org/9803828">
           Carls=Haven</placeName> hinab bringen laßen. Derowegen wir nicht im stande seyn können
-          große operationes bey Ankunfft gedachten Schwedischen transports vorzunehmen, <hi rendition="#sup">–</hi>alß nur Uns wie oben erwehnet im feindlichen lande zu
+          große operationes bey Ankunfft gedachten Schwedischen transports vorzunehmen, <hi rendition="#sup">alß nur Uns wie oben erwehnet im feindlichen lande zu
           mainteniren, maßen wir doch auch <placeName key="g0231" ref="https://www.geonames.org/3083829">Stettin</placeName> bloquiret
           halten, und Garz nebst andern herum liegenden öhrtern wegen Derer Magazins mit garnisonen
-          versehen müßen<hi rendition="#sup">–9</hi>.</p>
+          versehen müßen</hi>.</p>
         <p/>
         <pb n="f. 3v"/>
         <p> Такова дана инструкция <persName key="p1457">фон Клепингу генералу датцкому</persName>
