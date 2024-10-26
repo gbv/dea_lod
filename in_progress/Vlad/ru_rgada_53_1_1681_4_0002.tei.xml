@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,43 +103,33 @@
       <div type="letter">
         <head>
           <title>20. October 1681. – Memorial from <persName key="p1427">the Danish diplomatic
-            representative in Russia, Secretary Hildebrandt von Horn,</persName> to <persName
-              key="p0461"
-              ref="e506d42b-510f-45fe-981e-40f58858e6e2">the Tsar of Russia, Fedor
+            representative in Russia, Secretary Hildebrandt von Horn,</persName> to <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">the Tsar of Russia, Fedor
             Alekseevich</persName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1681, no. 4, f. 14–16. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 14" />
+        <pb n="f. 14"/>
         <p>
           <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Allerdurchleuchtigster,
           Großmächtigster GroßHerr Zar undt GroßFürst Theodor Alexeiwitz</persName> von Gotteß
           Gnaden, Aller Reußen Selbst Erhalter, undt Vieler anderer Länder undt Herrschafften
           Erblicher Herr vnndt Regente</p>
         <p>Meineß Allergnädigsten Erbkönigß undt Herrn Freund=Brüderlicheß Gemühte, undt allemahl
-          geführte gute intention, Gegen <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Eure Zarsche Maj[este]ten</persName> undt
+          geführte gute intention, Gegen <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Eure Zarsche Maj[este]ten</persName> undt
           dehro Hohen Zarischen interesse Liegt so klahr zutage daß ich nicht vonnöhten zu sein
           erachte die nicht seltene proben davon, alhier Beyzubringen; Zumahln ich nicht zweifle Eß
           werden <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Eure Zarsche
           Maj[este]ten</persName> deroselbst angebohrnen Großmütigkeit gemäß, Sich von selbsten
-          deßen erindern, undt alle Wirkungen, die solcheß in einen So Genereusen alß <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewer Zarsche Maj[este]ten</persName>
+          deßen erindern, undt alle Wirkungen, die solcheß in einen So Genereusen alß <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewer Zarsche Maj[este]ten</persName>
           Hertzen haben kan, davon Bey sich empfinden. Diß ist AllerGnädigster GroßHerr waß mich
           glauben macht daß <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewre
-          Zarsche Maj[este]ten</persName> nicht allein die Erhaltung einer von <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">meineß Allergnädigsten Königß</persName>
+          Zarsche Maj[este]ten</persName> nicht allein die Erhaltung einer von <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">meineß Allergnädigsten Königß</persName>
           seiten so getreuen Freundtschafft für eigner Persohn eußerst Sich werden angelegen sein
-          laßen, sondern auch geleicher weise wie <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">mein Allergnädigster Erbkönig undt Herr</persName>
+          laßen, sondern auch geleicher weise wie <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">mein Allergnädigster Erbkönig undt Herr</persName>
         </p>
-        <pb n="f. 14v" />
+        <pb n="f. 14v"/>
         <p>Wündschen daß solche aufrichtige Vertraulichkeit ohn einigen Anstoß undt unverletzt, auff
           dero <persName key="p0461,p0669">Beyder Großen Herrn</persName> Nachkommen, erblich undt
           ohne aufhören möge fortgepflantzet werden. Wie nun Eine so Hohe und Löbliche intention
@@ -159,7 +146,7 @@
           eußersten Vermögen aufzublasen, undt sich nachgehendß solcher troublen Bestmüglichst zu
           bedienen.</p>
         <p>Ewer Zarischen Maj[este]ten Hocherleichter Verstandt uhrtheilet </p>
-        <pb n="f. 15" />
+        <pb n="f. 15"/>
         <p>inßkünfftige weder durch negligirung noch veränderung derselben zu ein undt andrer
           verdrießlichkeite gelegenheit geben möchte. Ewrer Zarsche Maj[este]ten eigne Ministri
           welche an <orgName key="o0009" ref="62f4a0a0-914d-43df-89d9-be5aaf841973">Ihr Maj[este]ten
@@ -172,71 +159,44 @@
           gewegert. Allein weiln man im Gegentheil Hießiges Ohrteß nicht wenige Difficulteten in ein
           unndt andern findet, die Gesetze der Biligkeit aber nicht zugeben daß zwischen Souverainen
           Häubtern ein solcher unterscheit gehalten werde, Alß wird entweder eine Zarsche
-          Großmütigkeit, undt Brüderliche Liebe <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewre Zarsche Maj[este]ten</persName> Bewegen,
+          Großmütigkeit, undt Brüderliche Liebe <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewre Zarsche Maj[este]ten</persName> Bewegen,
           Sich auf <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Maj[este]ten
-          meineß Allergnädigsten Erbkönigß undt Herrn</persName> an <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarsche Maj[este]ten</persName> Freundt
+          meineß Allergnädigsten Erbkönigß undt Herrn</persName> an <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarsche Maj[este]ten</persName> Freundt
           Brüderlichen geschehen begehren, aufß zulänglichste zu erklähren, oder auch die
           Nothwendigkeit der Sachen <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr
           Maj[este]ten meinen Allergnädigsten König</persName> obligiren, ein dießeß ohrtß
-          Gleichförmigeß ceremonial Bey <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">dehro Hofe</orgName> nach diesem </p>
-        <pb n="f. 15v" />
+          Gleichförmigeß ceremonial Bey <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">dehro Hofe</orgName> nach diesem </p>
+        <pb n="f. 15v"/>
         <p>ohn mein Allerunterthänigsteß erindern auß dehm waß für diesen geschehen von künfftiger
           sachen zufällen, undt weiß wohl wie geringe uhrsachen, undt die ohne einige mühe im anfang
           Hetten können geheben werden, offterß nicht allein durch Langkheit der zeit, sondern auch
           wohl Bißweilen ehe man sichß vermuhtet, zu dem allen grösten Verdruß erwachsen undt zu
           einer unversöhnlichen Mißhelligkeit haben anlaß geben können.</p>
-        <p>Diesem allem fürzukommen sindt <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Maj[este]ten mein Allergnädigster König</persName>
+        <p>Diesem allem fürzukommen sindt <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Maj[este]ten mein Allergnädigster König</persName>
           nicht vergnügt gewesen Bloß und allein zu wünschen daß die bißhero fortgepflantzte
-          Vertraulichkeit zwischen dero Königlichen undt <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarschen Maj[este]ten</persName>
+          Vertraulichkeit zwischen dero Königlichen undt <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarschen Maj[este]ten</persName>
           Zarischen Häußen auf Ewig dauren möge, sondern sie haben von diesem Ihrem sehnlichen
           Verlangen <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewre Zarsche
           Maj[este]ten</persName> zum öfftern, so wohl durch dero Königlichen Ministern alß auch
-          würcklichen darthuungen versichern wollen. Wie dan auch nach für dißmahl <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Maj[este]ten mein
-          Allergnädigster Erbkönig undt Herr</persName>, Nach außgerüstete, der von <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewer Zarschen Maj[este]ten</persName>
-          Begehrten Großen Ambassade, mich an <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewer Zarsche Maj[este]ten</persName>
+          würcklichen darthuungen versichern wollen. Wie dan auch nach für dißmahl <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Maj[este]ten mein
+          Allergnädigster Erbkönig undt Herr</persName>, Nach außgerüstete, der von <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewer Zarschen Maj[este]ten</persName>
+          Begehrten Großen Ambassade, mich an <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewer Zarsche Maj[este]ten</persName>
           Allergnädigst abzulaßen Belieben wollen mit Befehl mich zu Bemühen ob nicht in dehnen
-          hincinde daß ceremonial Betreffenden Streitigkeiten Ein mittel gefunden, undt die zwischen <persName
-            key="p0461,p0669">Beiden großen Herrn</persName> gewöhnliche gebräuche auf einen so
+          hincinde daß ceremonial Betreffenden Streitigkeiten Ein mittel gefunden, undt die zwischen <persName key="p0461,p0669">Beiden großen Herrn</persName> gewöhnliche gebräuche auf einen so
           festen undt unbeweglichen fuß gesetzet werden könten daß man </p>
-        <pb n="f. 16" />
-        <p> einführen zu laßen. Waß ich dieser undt anderer <persName
-            key="p0669"
-            ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Maj[este]ten meineß Allergnädigsten
+        <pb n="f. 16"/>
+        <p> einführen zu laßen. Waß ich dieser undt anderer <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Ihr Maj[este]ten meineß Allergnädigsten
             Königß</persName> undt <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer
           Zarschen Maj[este]ten</persName> interesse betreffenden Sachen wegen weitleufftigen, so
-          wohl mundt= alß Schrifftlich in der <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Possolschen Precase</orgName> eingegeben,
+          wohl mundt= alß Schrifftlich in der <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Possolschen Precase</orgName> eingegeben,
           wird <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarschen
           Maj[este]ten</persName> allerunterthänigst kundt gethan Sein, und Lebe ich der gewißen
           zuversicht Eß werden <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewre
-          Zarsche Maj[este]ten</persName> die mir nicht allen die mir in dero Nahmen auß der <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Possolschen Precase</orgName>
+          Zarsche Maj[este]ten</persName> die mir nicht allen die mir in dero Nahmen auß der <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Possolschen Precase</orgName>
           versprochenen Schrifftliche Antwort einreichen laßen sondern auch im übrigen mein
           Gescheheneß fürtragen dero Hocherläuchteten Verstande undt Zarischen Großheit gemäß
-          Allergnädigst Consideriren. Indeßen wünsche von Grundt meiner Sehlen <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarschen Maj[este]ten</persName> ein
-          ewigeß Zarsches wohlergehen und mir daß Glück <persName
-            key="p0461"
-            ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarschen Maj[este]ten</persName> durch
+          Allergnädigst Consideriren. Indeßen wünsche von Grundt meiner Sehlen <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarschen Maj[este]ten</persName> ein
+          ewigeß Zarsches wohlergehen und mir daß Glück <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Ewrer Zarschen Maj[este]ten</persName> durch
           unterthänige dienste zu weißen können wie ich in tieffster unterthänigkeit bin.</p>
         <p>
           <persName key="p0461" ref="e506d42b-510f-45fe-981e-40f58858e6e2">Allerdurchlauchtigster
@@ -244,15 +204,17 @@
           Gnaden aller Reußen Selbst Erhalter undt viehler anderer Länder undt Herrschafften
           Erblicher Herr undt Regente</p>
         <p>Ewrer Zarschen Majesteten</p>
-        <p />
+        <p/>
         <p>
           <placeName key="g0001" ref="https://www.geonames.org/524894">Moscaw</placeName> d[en]
           20 Octobris</p>
         <p>1681 Allerunterthänigster</p>
         <p> diener</p>
-        <p>
-          <persName key="p1427">Von horrn</persName>
+        <p><persName key="p1427" type="signature">Von horrn</persName>
         </p>
+        <noteGrp><note>Also see:</note>
+        <note>ru_rgada_53_2_44_0001</note>
+        <note>ru_rgada_53_1_1676_3_0003</note></noteGrp>
       </div>
     </body>
   </text>
