@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,89 +96,8 @@
         </p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF>
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131163154303",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-31T15:31:54.303Z",
-	"dcterms:modified": "2024-01-31T15:31:54.303Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131163154303#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_53_1_1709_12_0002_ready.tei.xml?place_annotation_20240131163154303#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
-}
-                </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <div>
@@ -193,28 +109,21 @@
         </head>
         <opener>
           <note>RGADA, fond 53, opis 1, 1709, no. 12, f. 73-74v. French original.</note>
-          <pb cert="high" n="f. 73" xml:space="default" />
+          <pb cert="high" n="f. 73" xml:space="default"/>
           <salute>Monseigneur</salute>
         </opener>
         <p>Je viens de recevoir du Secretaire de Votre Altesse une quittance de diamants que je luy
-          ay envoyé à <placeName key="g0006" ref="https://www.geonames.org/2618425">Coppenhague
-          </placeName> il y a plus de cinq semaines, conformement à l'ordre de
-          Votre Altesse et le memoire du Sr. Trefort. Ça n'a pa ete sans peine de les assortir <pb
-            cert="high"
-            n="f. 73v"
-            xml:space="default" /> et je ne doute pas, qu'ils ne fassent un
+          ay envoyé à <placeName key="g0006" ref="https://www.geonames.org/2618425">Coppenhague </placeName> il y a plus de cinq semaines, conformement à l'ordre de
+          Votre Altesse et le memoire du Sr. Trefort. Ça n'a pa ete sans peine de les assortir <pb cert="high" n="f. 73v" xml:space="default"/> et je ne doute pas, qu'ils ne fassent un
           tres bel effet; Je les ay marchandé au mieux possible et si apres un an l'on voudroit les
           rendre, Mr. La Chambre qui me les a fait avoir, s'est offert à les reprendre toujours à 10
-          Rx de perte par piece; Je me flatte, que <pb
-            cert="high"
-            n="f. 74"
-            xml:space="default" /> le Secretaire de Votre Altesse en ait deja donné rapport, &amp;
+          Rx de perte par piece; Je me flatte, que <pb cert="high" n="f. 74" xml:space="default"/> le Secretaire de Votre Altesse en ait deja donné rapport, &amp;
           qu'Elle veuille bien agréer ce qui a eté fait à ce sujet; J'ay cy-joint une petite notte,
           afin que Votre Altesse voit ce que j'ay payé pour chaque piece j'avois envoyé un diamant
-          plat de <pb cert="high" n="f. 74v" xml:space="default" /> trop, afin que l'on choisit et
+          plat de <pb cert="high" n="f. 74v" xml:space="default"/> trop, afin que l'on choisit et
           l'on me l'a renvoyé. J'ay l'honneur d'etre avec un profond respect </p>
         <closer>
-          <salute>Monseigneur <lb /> de Votre Altesse <lb /> le tres humble et tres <lb /> obeissant
+          <salute>Monseigneur <lb/> de Votre Altesse <lb/> le tres humble et tres <lb/> obeissant
             serviteur </salute>
           <dateline>
             <placeName key="g0011" ref="https://www.geonames.org/2911298">
