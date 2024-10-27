@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,26 +95,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>24 April 1717. – Memorandum from the Danish Envoy to Russia, Hans Georg Westphalen
-            {{p0984}}, to the Tsar of Russia, Peter I{{p01747}}</title>
+          <title>24 April 1717. – Memorandum from <persName key="p0984">the Danish Envoy to Russia, Hans Georg Westphalen</persName>, to the Tsar of Russia, Peter I{{p01747}}</title>
           <note>
             <bibl>RGADA, fond 53, op. 1, 1717, no. 16, f. 15–16v. French original.</bibl>
             <bibl>Russian translation from French: RGADA, fond 53, op. 1, 1717, no. 16, f. 17–18.</bibl>
           </note>
         </head>
-        <pb n="f. 15" />
+        <pb n="f. 15"/>
         <p>Sire;</p>
         <p>Votre Majestè Czarienne, etant sur le point de se rendre à une Cour, qvi s’est fait,
           jusqv’icy, de la conservation de la Svede, sur tout dans ce, qui a etè adiugè à cette
           Couronne, par la Paix de Westphalie, un de ses premieres</p>
-        <pb n="f. 15" />
+        <pb n="f. 15"/>
         <p>maximes d’etat, Le sous signè Envoyè Extraordinaire de Sa Majestè, le Roy de Dannemarc,
           et de Norvegue{{p0984}}, aupres de Vôtre Majestè, s’imagine pour certain, que La Cour de
           France{{o0019}} ne manquera pas, de faire parler à Vôtre Majestè de La Paix avec Le Roy de
@@ -126,7 +122,7 @@
           Roy son Maitre{{p0532}}, son devoir exige de Luy, de prier Vôtre Majestè, |:ce qu’il vient
           de faire avec le plus profond respect à imaginer:| qu’il Luy plaire, de ne point êcouter
           aucunne </p>
-        <pb n="f. 16" />
+        <pb n="f. 16"/>
         <p> proposition de Paix avec La Svede, que Ceux, qvi
           Luy en voudroient faire, ne se soient aussi expliques d’une manière, que Sa Majestè, Le
           Roy son Maitre{{p0532}}, en puisse être content, à l’ègard des restitutions, et cessions,
@@ -136,7 +132,7 @@
           mettre en etat, de tranquiliser ces èsprits d’entre la Nation, dont il a l’honneur d’être,
           qvi ne connoissant pas comme Luy au fond la puretè des sentiments de Vôtre Majestè,
           n’auguerent rien de bon de son voyage à Paris </p>
-        <pb n="f. 16v" />
+        <pb n="f. 16v"/>
         <p> dans la
           present Conioncture, et de pouvoire donner de nouvelles assurances au Roy son
           Maitre{{p0532}}, que rien est constamment plus à l’èpreuve, que la ferme resolution de
@@ -145,7 +141,7 @@
           couvert des insultes de cette fière, arrogante, et sanguinaire Nation, que la Svedoise;
           etant au reste avec la plus submise devotion et veneration et le plus profond respect</p>
         <p>Sire De Vôtre Majestè</p>
-        <p />
+        <p/>
         <p>à Dunkerque ce 24 d’Avril le tres humble et le tres</p>
         <p> 1717. obeissant serviteur H G Westphalen{{p0984}}</p>
       </div>
