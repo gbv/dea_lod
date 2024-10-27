@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,9 +103,7 @@
       <div type="letter">
         <head>
           <title>31 March 1716. – Memorandum from <persName key="p0984">the Danish Envoy to Russia,
-            Hans Georg Westphalen,</persName> to <orgName
-              key="o0064"
-              ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">the Russian Ambassadorial Office /
+            Hans Georg Westphalen</persName> , to <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">the Russian Ambassadorial Office /
             Ambassadorial Chancellery</orgName>
           </title>
           <note>
@@ -118,44 +113,33 @@
               17, f. 19–19.</bibl>
           </note>
         </head>
-        <pb n="f. 17" />
+        <pb n="f. 17"/>
         <p>Pro Memoria.</p>
-        <p>Demnach <persName
-            key="p1509">der Herr Carl Gottlieb Ferber Cantzley= und Regierungs Rath</persName>,
-          bey der Königl[ich]en Dänischen in denen <orgName
-            key="o0122"
-            ref="f28192ee-905a-4f38-84e7-ac1d00eac966">Fürstenthümer Schleßwig=Holsteinschen
-          Regierung zu Glückstadt</orgName>, bey <persName
-            key="p0532"
-            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro Königl[ich]en May[estät] Meinem
+        <p>Demnach <persName key="p1509">der Herr Carl Gottlieb Ferber Cantzley= und Regierungs Rath</persName>,
+          bey der Königl[ich]en Dänischen in denen <orgName key="o0122" ref="f28192ee-905a-4f38-84e7-ac1d00eac966">Fürstenthümer Schleßwig=Holsteinschen
+          Regierung zu Glückstadt</orgName>, bey <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro Königl[ich]en May[estät] Meinem
           Allergnädigsten Herrn</persName> Supplicirend eingekom[m]en, daß deßen im Dantziger
           Territorio, hinter der guten Herberge gelegenes Gut die Nobel genandt, so wie Er selbiges
           mit <persName key="p1510">seinem Brudern Hiesigen RathsHerrn</persName> in communion
           besitzet, abseiten <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
           Czaar[isch]en May[estät]</persName> von allen onerib[us] so wohl fürs gegenwärtige, als
           zukünfftige eximiret werden möge. Ich auch darauff expressen Königl[ichen] Befehl
-          erhalten, zu solchem ende meine vorstellung bey <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czaar[ische]r May[estät]</persName>
+          erhalten, zu solchem ende meine vorstellung bey <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Czaar[ische]r May[estät]</persName>
           gebührlich zu thun; als gehet in dieser Sache mein Bittliches Ersuchen dahin, daß in
-          Faveur obgedachten Ferberischen Gutes die Nobel genandt |:in so weit als <persName
-            key="p1509">der Königl[iche] Dänische Cantzley= und Regierungs Rath Herr Carl Gottlieb
+          Faveur obgedachten Ferberischen Gutes die Nobel genandt |:in so weit als <persName key="p1509">der Königl[iche] Dänische Cantzley= und Regierungs Rath Herr Carl Gottlieb
           Ferber</persName> daran theil hat:| eine in verlangenden terminis enthaltende Czaarische
           Salvaguarde auf fordersahmste ausgefertiget werden möge.</p>
-        <p />
+        <p/>
         <p>
-          <placeName key="g0114" ref="https://www.geonames.org/2911007">Dantzig</placeName> d[en] 31 <hi
-            rendition="#u">Merz </hi>
+          <placeName key="g0114" ref="https://www.geonames.org/2911007">Dantzig</placeName> d[en] 31 <hi rendition="#u">Merz </hi>
           <persName key="p0984">H[ans] G[eorg] Westphalen</persName>
         </p>
         <p>     1716.</p>
-        <p />
-        <p />
-        <pb n="f. 18v" />
+        <p/>
+        <p/>
+        <pb n="f. 18v"/>
         <p> Мемориал <persName key="p0984">датцкого посланника Вестфала</persName>; от 31-го марта
-          1716. Подан в <placeName
-            key="g0114"
-            ref="https://www.geonames.org/2911007">Гданциге</placeName>.</p>
+          1716. Подан в <placeName key="g0114" ref="https://www.geonames.org/2911007">Гданциге</placeName>.</p>
       </div>
     </body>
   </text>
