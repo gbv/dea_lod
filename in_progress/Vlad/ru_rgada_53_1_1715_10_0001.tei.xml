@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,43 +95,45 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>29 April / 10 May 1715. – Letter from the Second Grand Chancellor of Denmark, Privy
-            Councilor Christian Sehested{{p1505}} to the Russian Ambassador to Denmark, Prince
-            Vasilii Lukich Dolgorukov{{p0729}}</title>
-          <note>
+          <title>29 April / 10 May 1715. – Letter from <persName key="p1505">the Second Grand Chancellor of Denmark, Privy Councilor Christian Christophersen Sehested</persName>, to <persName key="p0729">the Russian Ambassador to Denmark, Prince Vasilii Lukich Dolgorukov</persName></title><note>
             <bibl>RGADA, fond 53, op. 1, 1715, no. 10, f. 6–6v, 7v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 6" />
+        <pb n="f. 6"/>
         <p>Monsieur l’Ambassadeur</p>
-        <p>Sa Majestè Le Roy mon Auguste Maistre{{p0532}} m’ordonnè de faire connoietre â Vostre
+        <p><persName key="p0532">Sa Majestè Le Roy mon Auguste Maistre</persName> m’ordonnè de faire connoietre â Vostre
           Excellence, qu’ayant pris la resolution de se mettre en chemin demain s’il plaist à Dieu,
           pour se rendre à Gottorp, Elle esperoit d’y voir Vostre Excellence aussi en peu de temps
-          après. Cependant Sa Majestè{{p0532}} souhaiteroit bien que Vostre Excellence voulut se
+          après. Cependant <persName key="p0532">Sa Majestè</persName> souhaiteroit bien que Vostre Excellence voulut se
           donner la peine, d’entrer en conference avec
         </p>
-        <pb n="f. 6v" />
+        <pb n="f. 6v"/>
         <p> son
-          Conseil{{p0143}} demain avant midy, sur le sujet de l’affaire qu’Elle a recommendèe à Sa
-          Majestè{{p0532}}, pour s’y expliquer là dessus plus clairement de part et d’autre. Je
+          <orgName key="o0143">Conseil</orgName> demain avant midy, sur le sujet de l’affaire qu’Elle a recommendèe à <persName key="p0532">Sa Majestè</persName>, pour s’y expliquer là dessus plus clairement de part et d’autre. Je
           profite de cette occasion pour Vous assurer de mes tres humbles respets et de la passion
           avec la quelle Je suis</p>
         <p>Mons[ieu]r l’Ambassadeur</p>
         <p>de Vostre Excellence</p>
-        <p>à Copenhague ce 10.</p>
+        <p>à <placeName key="g0006">Copenhague</placeName> ce 10.</p>
         <p>de May 1715.</p>
         <p>le tres humble et</p>
         <p>tres obeïssant seruiteur</p>
-        <p>C: Sehestedt{{p1505}}</p>
-        <pb n="f. 7" />
-        <p>В Копенгагене апреля в 29 де[нь].</p>
+        <p><persName key="p1505" type="signature">C: Sehestedt</persName></p>
+        <pb n="f. 7"/>
+        <p>В <placeName key="g0006">Копенгагене</placeName> апреля в 29 де[нь].</p>
+        <noteGrp><note>Also see:</note>
+        <note>ru_rgada_53_1_1709_12_0001</note>
+<note>ru_rgada_53_1_1709_12_0002</note>
+<note>ru_rgada_53_1_1710_11_0001</note>
+<note>ru_rgada_53_1_1717_15_0001</note>
+<note>ru_rgada_53_1_1717_15_0002</note></noteGrp>
       </div>
     </body>
   </text>
