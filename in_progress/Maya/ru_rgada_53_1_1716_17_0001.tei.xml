@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,21 +95,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>8/19 March 1716. – Memorial from the Danish Envoy Extraordinary to Russia, Hans
-            Georg Westfalen{{p0984}}, to the Tsar of Russia, Peter I{{p0174}}</title>
+          <title>8/19 March 1716. – Memorial from <persName key="p0984">the Danish Envoy Extraordinary to Russia, Hans Georg Westfalen</persName>, to <persName key="p0174">the Tsar of Russia, Peter I</persName> I{{p0174}}</title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1716, no. 17, f. 12–14. German original</bibl>
             <bibl>ussian translation from German: RGADA, fond 53, opis 1, 1716, no. 17, f. 15–16v</bibl>
           </note>
         </head>
-        <pb n="f. 12" />
+        <pb n="f. 12"/>
         <p>AllerDurchleuchtigster. GroßMächtigster</p>
         <p>Czaar.</p>
         <p>Als Ihro Königl[iche] Majestät zu DänneMarcken undt Norwegen Mein Allergnädigster König
@@ -120,7 +116,7 @@
           Jagouschinsky{{p0202}} Mit gegebenen Plan uber die Operationes kunfftiger Campagne
           vergnuglich ersehen, welcher gestalt Ewer Czaarische Majestät Erböthig sindt, noch uber
           dehnen Bataillonen undt das Regiment zu pferde, woruber Man </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p>
           schon im verwichenen Sommer mit Einander conveniret, zu fortsetzung dehrer Operationen in
           Schonen, noch mehre trouppen auf Dero Eigene Unkosten zu fourniren; Meines Königes Krieges
@@ -137,7 +133,7 @@
           davor höchstens verbunden; Wie dan Mein Allergnädigster König{{0532}} solche Ewer
           Czaarische Majestät Ihr gethane offerten wurcklich acceptiren, undt annehmen, auch darnach
           Dero Mesures zu nehmen resolviret sindt.</p>
-        <pb n="f. 13" />
+        <pb n="f. 13"/>
         <p>Darnebenst aber der sicheren hoffnung leben, Es werden Ewer Majestät |:in erwegung; daß
           das Hauptwerck der bevorstehender Campagne darauf wohl eigentlich beruhen möchte, daß
           Dänischer seiten Die flotte allerfordersahmst, undt zwahr in einer considerablen
@@ -153,7 +149,7 @@
           zu Copenhagen sich befindliche krieges schiffe, desgleichen diejenige, so etwan annoch aus
           Engelandt= Hollandt, undt von Archangel erwartet werden, daselbsten verbleiben, undt
           Deroselben zu Dero disposition wehrender heuerigen Campagne uberlaßen, auch zu dem</p>
-        <pb n="f. 13v" />
+        <pb n="f. 13v"/>
         <p> ende Ewer Majestät Ambassadeur{{p0729}} unverzugliche undt
           zureichliche ordres beygelegt werden möge.</p>
         <p>Ich der ich uber allen diesem mich abseiten Ewer Czaarischen Majestät Eines favorablen
@@ -165,14 +161,14 @@
         <p>AllerDurchleuchtigster GroßMächtigster</p>
         <p>Czaar</p>
         <p>Ewer Czaarischen Majestät</p>
-        <p />
+        <p/>
         <p>Dantzig d[en] 19/8 Mertz allerunterthänigster, dehmutigster</p>
         <p> diener H G Westphalen</p>
         <p>Ihro Königl[ichen] Maj[estä]t zu DanneMark</p>
         <p>Norwegen Etatz Rath undt</p>
         <p>Envoyè Extraordinaire{{p0984}}.</p>
-        <p />
-        <pb n="f. 14" />
+        <p/>
+        <pb n="f. 14"/>
         <p>Мемориал Вестфала{{p0984}}. Подан во Гданске в 8 де[нь] марта 1716.</p>
       </div>
     </body>
