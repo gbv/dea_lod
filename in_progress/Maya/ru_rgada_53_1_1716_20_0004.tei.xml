@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,21 +99,19 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>24 February 1716. – Royal letter from Tsar Peter I{{p0174}} to King of Denmark
-            Frederik IV{{p0532}}</title>
-          <note>
+          <title>24 February 1716. – Royal letter from <persName key="p0174">Tsar Peter I</persName>{{p0174}} to the King of Denmark and Norway, Frederik IV</title><note>
             <bibl>RGADA, fond 53, opis 1, 1716, no. 20, f. 14–15. Ttranslation from
               Russian into German.</bibl>
           </note>
         </head>
-        <pb n="f. 14" />
+        <pb n="f. 14"/>
         <p>Х королю дацкому.</p>
         <p>Ich habe von unterschiedl[ichen] Orthen her die Nachricht erhalten, daß die Schweden in
           Gottenbourg eine Esquadre Schiffe Equipiren umb damit Meinen unter Commando des Capitain
@@ -125,9 +120,9 @@
           mit denen wenigen bey sich habenden <hi rendition="#sup">–</hi>und noch nicht völlig
           equipirten<hi rendition="#sup">–12</hi> Schiffen dieser feindlichen Esquadre nicht
           gewachsen seyn, und gefolglich gefahr lauffen kann von derselben übernhauffen </p>
-        <pb n="sic" />
+        <pb n="sic"/>
         <p> geworffen zu werden, alß habe ich </p>
-        <pb n="f. 14v" />
+        <pb n="f. 14v"/>
         <p>Ew[er] M[ayestä]t, und L[ie]bd[en] hiermith
           freundtbrüderl[ich] ersuchen wollen, einige von dehro KriegsSchiffen ins Kattegath zu
           schicken, umb Ged[achte] in Gottenburg equipiret werdende Esquadre zu observiren, und den
@@ -135,7 +130,7 @@
           zu bringen,</p>
         <p>Ich zweiffle nicht oder Ew[er] M[ayestä]t, und L[ie]bd[en] werden mir hierunter desto
           ehender willfahren, alß selbige Meine Schiffe </p>
-        <pb n="f. 15" />
+        <pb n="f. 15"/>
         <p>in der bevorstehenden Campagne Ew[er] M[ayestä]t, und L[ie]bd[en] noch guthe dienste
           leisten können, und überdehme unßer gemeinsahmes Interesse sehr viel leiden würde, wann
           diesen Schiffen einiges Unglück überkommen sollte; Ich beziehe mich auf das jenige so Mein
