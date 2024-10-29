@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,20 +102,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>24 February 1716. – Royal letter from Tsar Peter I{{p0174}} to King of Denmark
+          <title>24 February 1716. – Royal letter from <persName key="p0174">Tsar Peter I</persName> to King of Denmark
             Frederik IV{{p0532}}</title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1716, no. 20, f. 12–13. Russian draft.</bibl>
           </note>
         </head>
-        <pb n="f. 12" />
+        <pb n="f. 12"/>
         <p>
           Х королю датцкому.</p>
         <p>Пресветлейший, державнейший король,</p>
@@ -130,7 +127,7 @@
           вооруженными караблями против сей неприятелской эшквадры устоять не может и, следователно,
           опасатца надлежит, дабы он от оной опровержен и знатной ущерб ему учинен не был. Того ради
           я </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p> ваше величество и любовь сим дружебнобратцки и прилежно прошу несколко своих воинских
           караблей в Категат послать, чтоб помянутую в Готембурге вооружаемую эшквадру стеречь и
           капитана Бредала{{p1461}} со обретающимися при нем караблями до Копенгагена безопасно
@@ -139,7 +136,7 @@
           того общей н[а]ш интерес в том знатно претерпел бы, ежели б сим караблям какое несчастие
           приключилось. Я ссылаюся на то, что мой при дворе вашем посол{{p0729}} о сем вяще
           предлагать будет </p>
-        <pb n="f. 13" />
+        <pb n="f. 13"/>
         <p> и пребываю до окончания жизни моей</p>
         <p>вашего величества и любви</p>
         <p>верный брат, друг и сосед</p>
@@ -147,7 +144,7 @@
         <p>Изо Гданска февраля</p>
         <p>в 24 де[нь] 1716</p>
         <p>Граф Головкин{{p0071}}</p>
-        <p />
+        <p/>
         <p>Из Гданска февраля в 24 де[нь] 1716.</p>
         <noteGrp>
           <note>Also see:</note>
