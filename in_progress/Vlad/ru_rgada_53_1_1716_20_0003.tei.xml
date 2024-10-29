@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,55 +102,67 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>24 February 1716. – Royal letter from Tsar Peter I{{p0174}} to King of Denmark
-            Frederik IV{{p0532}}</title>
-          <note>
+          <title>24 February 1716. – Royal letter from <persName key="p0174"><persName key="p0174">Tsar Peter I</persName></persName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0532">the King of Denmark, Frederik IV</persName></title><note>
             <bibl>RGADA, fond 53, opis 1, 1716, no. 20, f. 12–13. Russian draft.</bibl>
           </note>
         </head>
-        <pb n="f. 12" />
+        <pb n="f. 12"/>
         <p>
-          Х королю датцкому.</p>
+          Х <persName key="p0532">королю датцкому</persName>.</p>
         <p>Пресветлейший, державнейший король,</p>
         <p>любезнейший брат, друг и сосед.</p>
-        <p>Получил я из розных мест ведомость, что шведы в Готенбурге некоторую эшквадру караблей
-          вооружают и намерены со оною моим под командою капитана Бредала{{p1461}} обретающимся и из
-          Нордзее идущим караблям встречю итти и над оными поиск учинить. И понеже помянутой капитан
-          Бредаль{{p1461}} с немногими при нем обретающимися и еще надлежащим образом не
+        <p>Получил я из розных мест ведомость, что шведы в <placeName key="p0393">Готенбурге</placeName> некоторую эшквадру караблей
+          вооружают и намерены со <hi rendition="#sup">о</hi>ною моим под командою <hi rendition="#s">обретаю</hi> <persName key="p1461">капитана Бредала</persName> обретающимся и из
+          Нордзее <hi rendition="#s">и др.</hi> идущим караблям встречю итти <hi rendition="#s">и оны</hi> и над оными поиск учинить. И понеже помянутой <placeName key="p1461">капитан Бредаль</placeName> с немногими при нем обретающимися и еще надлежащим образом не
           вооруженными караблями против сей неприятелской эшквадры устоять не может и, следователно,
           опасатца надлежит, дабы он от оной опровержен и знатной ущерб ему учинен не был. Того ради
           я </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p> ваше величество и любовь сим дружебнобратцки и прилежно прошу несколко своих воинских
-          караблей в Категат послать, чтоб помянутую в Готембурге вооружаемую эшквадру стеречь и
-          капитана Бредала{{p1461}} со обретающимися при нем караблями до Копенгагена безопасно
+          караблей в Категат послать, чтоб помянутую в <placeName key="g0393">Готембурге</placeName> вооружаемую эшквадру стеречь и
+          <persName key="p1461">капитана Бредала</persName> со обретающимися при нем караблями до <placeName key="g0006">Копенгагена</placeName> безопасно
           провадить. Я не сумневаюся, что ваше в[еличеств]о и любовь тол[ь] скорея на сие позволите,
           понеже оныя мои карабли в будущей компании многия полезныя услуги показать могут. И сверх
           того общей н[а]ш интерес в том знатно претерпел бы, ежели б сим караблям какое несчастие
-          приключилось. Я ссылаюся на то, что мой при дворе вашем посол{{p0729}} о сем вяще
+          приключилось. Я ссылаюся на то, что мой <persName key="p0729">при дворе вашем посол</persName> о сем вяще
           предлагать будет </p>
-        <pb n="f. 13" />
+        <pb n="f. 13"/>
         <p> и пребываю до окончания жизни моей</p>
         <p>вашего величества и любви</p>
         <p>верный брат, друг и сосед</p>
-        <p>Петр{{p0174}</p>
-        <p>Изо Гданска февраля</p>
+        <p><persName key="p0174">Петр</persName></p>
+        <p>Из<hi rendition="#s">А</hi>о <placeName key="g0014">Гданска</placeName> февраля</p>
         <p>в 24 де[нь] 1716</p>
-        <p>Граф Головкин{{p0071}}</p>
-        <p />
-        <p>Из Гданска февраля в 24 де[нь] 1716.</p>
+        <p><persName key="p0071" type="signature">Граф Головкин</persName></p>
+        <p/>
+        <p><hi rendition="#s">Из <placeName key="g0014">Гданска</placeName> февраля в 24 де[нь] 1716.</hi>[the entire note was written on the left margin]</p>
         <noteGrp>
-          <note>Also see:</note>
-          <note>ru_rgada_53_1_1716_20_0001</note>
-          <note>ru_rgada_53_1_1716_20_0002</note>
-          <note>ru_rgada_53_1_1716_20_0004</note>
+<note>See translation of the document:</note>
+<note>Also see:</note>
+<note>ru_rgada_53_1_1700_7_0001</note>
+<note>ru_rgada_53_1_1716_20_0004</note>
+<note>ru_rgada_53_1_1716_2_0001</note>
+<note>ru_rgada_53_1_1716_2_0002</note>
+<note>ru_rgada_53_3_10_0001</note>
+<note>ru_rgada_53_3_39_0001</note>
+<note>ru_rgada_53_3_16_0001</note> 
+<note>ru_rgada_53_3_21_0001</note>
+<note>ru_rgada_53_4_2_0001</note>
+<note>ru_rgada_53_4_2_0002</note>
+<note>ru_rgada_53_4_18_0001</note>
+<note>ru_rgada_53_4_22_0001</note>
+<note>ru_rgada_53_4_27_0001</note>
+<note>ru_rgada_53_4_27_0002</note>
+<note>ru_rgada_53_4_27_0003</note>
+<note>ru_rgada_53_4_39_0001</note>
+<note>ru_rgada_53_4_41_0001</note>
         </noteGrp>
       </div>
     </body>
