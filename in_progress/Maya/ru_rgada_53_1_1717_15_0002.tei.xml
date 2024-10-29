@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,16 +95,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 July 1717. – Passport issued for <persName
-              key="p0729"
-              ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador to Denmark, Prince
+          <title>17 July 1717. – Passport issued for <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador to Denmark, Prince
             Vasilii Lukich Dolgorukii</persName>
           </title>
           <note>
@@ -115,22 +110,18 @@
             <bibl>RGADA, fond 53, opis 1, 1717, no. 15, f. 4. German duplicate.</bibl>
           </note>
         </head>
-        <pb n="f. 2" />
+        <pb n="f. 2"/>
         <p> Im Nahmen <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro
           M[ayestä]tt Unsers Allergnädigsten Königs und Herrn</persName> werden die Beykommende
           Magistrats=Persohnen, wie auch die Königl[ich]e Ambts=Bediente in den Hertzogthümern
-          Schleßwig, Hollstein hiemit angewiesen, daß Sie auf Vorzeigung dieses Paßes, <persName
-            key="p0729"
-            ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Ihro Czarischen May[estä]tt
+          Schleßwig, Hollstein hiemit angewiesen, daß Sie auf Vorzeigung dieses Paßes, <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Ihro Czarischen May[estä]tt
           Ambassadeur Printz Dolgorouki</persName>, zu Fortsetzung Dero Reyse, von Haderßleben ab,
           an allen Ohrten, wo Selbige passiren werden, Vier Paar Bauer=Pferde zum Vorspan vor eine
           Kutsche, Vier paar Baur=Wagen jeder mit 2 Pferden bespannt, wie auch Einen Bürger=Wagen
           gleichfals mit 2 Pferden bespant von einer Abwechselungs=Stelle zur andern, ohne Entgeld,
           so wohl hin alß zurück also fort verschaffen, wie nicht weniger Dieselbe mit freyem
           qvartier in den Städten aller Ohrten hin und zurück versehen sollen. Geben auf der
-          RentCammer zu <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhagen</placeName> den 17<hi rendition="#u">
+          RentCammer zu <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName> den 17<hi rendition="#u">
             <hi rendition="#sup">ten </hi>
           </hi>July A[nn]o 1717.</p>
         <p>
@@ -143,7 +134,7 @@
         <p>
           <persName key="p1463,p1462">J[ohan]: Worm J[ohan] Neve</persName>,</p>
         <p>Paß</p>
-        <p>für <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ihr[o] Czarischen
+        <p>für <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0729" xml:space="default" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Ihr[o] Czarischen
           May[estä]tt</persName>
         </p>
         <p>
