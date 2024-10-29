@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,66 +95,45 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>27 June 1716. – Memorial from <persName
-              key="p0071"
-              ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Russian Chancellor, Count Gavrila
-            Ivanovich Golovkin</persName>, to <persName key="p0000">the Burgomasters (Mayors) of the
-            City of Neustadt</persName>
+          <title>27 June 1716. – Memorial from <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Russian Chancellor, Count Gavrila
+            Ivanovich Golovkin</persName>, to the Burgomasters (Mayors) of the
+            City of Neustadt
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1716, no. 20, f. 2–2v. Translation from Russian into
               German.</bibl>
           </note>
         </head>
-        <pb n="f. 2" />
-        <p> An <persName key="p0000">die Burgermeister der Stadt Neustadt</persName>
+        <pb n="f. 2"/>
+        <p> An die Burgermeister der Stadt Neustadt
         </p>
         <p>Ehrenfeste, und wohlEdle bürgerMeister –der Stadt Neustadt<hi rendition="#sup">–25</hi>
         </p>
-        <p>Ich will hoffen daß Ew[er] WohlEdl[e] werden bereits die ordre von <persName
-            key="p0532"
-            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">ihro koniglichen M[ayestä]t Euren herrn</persName>
-          wegen Anschaffung der Transports Fahrzeugen vor <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ihro z[aarischen] M[ayestä]t Meinem
+        <p>Ich will hoffen daß Ew[er] WohlEdl[e] werden bereits die ordre von <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">ihro koniglichen M[ayestä]t Euren herrn</persName>
+          wegen Anschaffung der Transports Fahrzeugen vor <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ihro z[aarischen] M[ayestä]t Meinem
           allergnädigsten herrn</persName> empfangen, und derselben nachgelebet haben maaßen
           dieselbe <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">ihro
           konigl[iche] M[ayestä]t</persName> deßhalb bereits ersuchet haben. Ich zweifle auch nicht
           oder es werde <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Seiner
           konigl[ichen] M[ayestä]t an ihro cz[aarischen] M[ayestä]t hofe subsistirender</persName>
           <persName key="p0984">Envoyé Extraordinaire h[err] von Westphal</persName> wegen ged[achten]
-          anschaffung an Sie geschrieben. Weilen nun <persName
-            key="p0172"
-            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t die Czaarin</persName>, und <persName
-            key="p0071,p0494">d[as] czaar[ische] Ministerium</persName>
+          anschaffung an Sie geschrieben. Weilen nun <persName key="p0172" ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t die Czaarin</persName>, und <persName key="p0071,p0494">d[as] czaar[ische] Ministerium</persName>
           <hi rendition="#sup">–</hi>dieser
-          tagen<hi rendition="#sup">–36</hi> von hier auf <placeName
-            key="g0391"
-            ref="https://www.geonames.org/2927579">Femern</placeName>
-          <placeName
-            key="g0387"
-            ref="https://www.geonames.org/661883">Alandt</placeName> und so weiter nach <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhagen</placeName>
-          gehen werden: alß habe Ich <hi rendition="#sup">–</hi>auf befehl <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ihro cz[aarischen] M[ayestä]t</persName>
+          tagen<hi rendition="#sup">–36</hi> von hier auf <placeName key="g0391" ref="https://www.geonames.org/2927579">Femern</placeName>
+          <placeName key="g0387" ref="https://www.geonames.org/661883">Alandt</placeName> und so weiter nach <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName>
+          gehen werden: alß habe Ich <hi rendition="#sup">–</hi>auf befehl <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">ihro cz[aarischen] M[ayestä]t</persName>
           <hi rendition="#sup">–39 </hi>Ew[er] WohlEdl[en] durch gegenwärtigen Expressen davon </p>
-        <pb n="f. 2v" />
+        <pb n="f. 2v"/>
         <p>part geben und anbey ersuchen wollen daß nicht allein der vorspahn <hi rendition="#sup">–</hi>dahin
-          möge<hi rendition="#sup">–42 </hi>gesezet sondern auch die Transports Fahrzeuge wegen <persName
-            key="p0172"
-            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t</persName>
-          übergehens zubereitet damit <persName
-            key="p0172"
-            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t</persName> niergends
+          möge<hi rendition="#sup">–42 </hi>gesezet sondern auch die Transports Fahrzeuge wegen <persName key="p0172" ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t</persName>
+          übergehens zubereitet damit <persName key="p0172" ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">ihro M[ayestä]t</persName> niergends
           aufgehalten werden.</p>
         <p>Wegen anzahl der benöthigten pferde, zu lande zu waßer aber der Transports Fahrzeugen,
           wirdt Ewer WohlEdl[en] gegenwätiger expresser communiciren. der Ich übrigens verharre</p>
