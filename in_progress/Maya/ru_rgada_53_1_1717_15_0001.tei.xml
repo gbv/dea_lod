@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,16 +95,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 July 1717. – Passport issued for <persName
-              key="p0729"
-              ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador to Denmark, Prince
+          <title>17 July 1717. – Passport issued for <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador to Denmark, Prince
             Vasilii Lukich Dolgorukii</persName>
           </title>
           <note>
@@ -115,35 +110,33 @@
             <bibl>RGADA, fond 53, opis 1, 1717, no. 15, f. 2. Danish duplicate.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p> Som <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Hans Czaariske
           Majesté herværende Ambassadeur, Prince Dolgoroukj</persName>, til hans foreværende Reise,
           med füre Par Forspands Heste til en Chaise, Füre Par til en vogn, en Borger-vogn og trei
           Bönder-vogne, hver med toe Heste bespent, saaog tri Qvarteer for sig og medhavende Suite,
           hvor de om Natten overbliver og ellers forlanger, skall forsiufnes; Saa anbefales, paa
           Hans Kong[e]l[ig] Mayestætts Vegne, de Kongelige Ambts-betiente, sambt Magistraten og
-          Byefogderne udi Kiöbstæderne, hvis en hver vedkommer, at de paa Anfordring af <persName
-            key="p0729"
-            ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Herr Ambassadeuren</persName>
+          Byefogderne udi Kiöbstæderne, hvis en hver vedkommer, at de paa Anfordring af <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Herr Ambassadeuren</persName>
           ovenskrevne Forspand og vogne, fremb og tilbage, til hvad Tiid og Stæd de maatte
           forlanges, saaog udi Kiöbstæderne fri Qvarteer, uden nogen Ophold, ved Haanden anskaffer:</p>
         <p>Saa haver og Magistraten i Corsoer og Aßens at giöre dend Anstalt, det Herr Ambassadeur
           med hos sig havende Folck og Bagage fri over begge Belterne transporteret vorder. Datum
           Kong[e]l[ig] May[estæ]tts Rente-Cammer den 17 July Anno 1717</p>
         <p>
-          <persName key="" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Hans Kongelig Mayestætts til
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1462" xml:space="default" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Hans Kongelig Mayestætts til
             Danmark og Norge p[erge] Deputerede for Financerne</persName>
         </p>
         <p>
           <persName key="p1463">J[ohan]: Worm</persName>
           <persName key="p1462">J[ohan] Neve</persName>
           ,</p>
-        <p />
+        <p/>
         <p>
           <persName key="p1464">Jakob Andreas Paters</persName>
         </p>
         <noteGrp>
-          <note>Also see:</note>
+          <note>See translation of the document:</note>
           <note>ru_rgada_53_1_1717_15_0002</note>
         </noteGrp>
       </div>
