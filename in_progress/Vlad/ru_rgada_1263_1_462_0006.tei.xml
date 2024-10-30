@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,47 +95,35 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 January 1772. – Letter from <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
-            Mikhailovich Golitsyn</persName> to <persName
-              key="p0059"
-              ref="6e71ba22-a720-4028-8f55-a54e89703310">Frederick Erdmann Prince of
+          <title>17 January 1772. – Letter from <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName> to <persName key="p0059" ref="6e71ba22-a720-4028-8f55-a54e89703310">Frederick Erdmann Prince of
             Anhalt-Koethen-Pless</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 462, f. 8–8v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 8" />
-        <p />
+        
+        <pb n="f. 8"/>
+        <p/>
         <p>Monseigneur,</p>
-        <p>Le même jour que je reçus la lettre que Vous m’avez fait l’honneur de m’écrire le 12. Xb<hi
-            rendition="#sup">re</hi>, j’ai eû celui de présenter à l’<persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Impératrice </persName>l’incluse qui s’y
+        <p>Le même jour que je reçus la lettre que Vous m’avez fait l’honneur de m’écrire le 12. Xb<hi rendition="#sup">re</hi>, j’ai eû celui de présenter à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l'Impératrice </persName>l’incluse qui s’y
           trouvoit jointe pour <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa
           Majesté</persName>.</p>
         <p>Je Vous adresse Sa réponse dans ce paquet, et je serois bien aise, Monseigneur, si je
-          pouvois Vous en donner aussi de satisfaisante par rapport à l’ordre de S<hi
-            rendition="#sup">te </hi>Cathérine que Vous souhaitez d’obtenir pour <persName
-            key="p0092"
-            ref="2f78a155-3817-4816-95d2-568f5d6baeda">Madame la Princesse Votre Epouse</persName>.
+          pouvois Vous en donner aussi de satisfaisante par rapport à l’ordre de S<hi rendition="#sup">te </hi>Cathérine que Vous souhaitez d’obtenir pour <persName key="p0092" ref="2f78a155-3817-4816-95d2-568f5d6baeda">Madame la Princesse Votre Epouse</persName>.
           Votre Altesse n’ayant pas voulu en faire </p>
-        <pb n="f. 8v" />
+        <pb n="f. 8v"/>
         <p> la demande directe à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
           L’Imperatrice</persName>, je n’attends qu’une occasion favorable pour donner à connoître
-          Votre désir à <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName>.
+          Votre désir à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName>.
           Au reste Votre Altesse voudra bien agréer mes voeux sincéres pour le commencement de
           l’année et mes très-humbles remercimens de ceux que Vous avez eû la bonté de me faire à la
           même occasion. Ils répondent à mes sentimens distingués pour Votre Altesse et embrassent
@@ -151,8 +136,8 @@
           <hi rendition="#s">Le très humble &amp; très obeissant serviteur</hi>
         </p>
         <p>
-          <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Pr[ince] A Galitzin</persName>
-          <hi rendition="#sup" />
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0065" xml:space="default" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb" type="signature">Pr[ince] A Galitzin</persName>
+          <hi rendition="#sup"/>
         </p>
         <p>
           <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersbourg</placeName>
