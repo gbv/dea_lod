@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,27 +94,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 June 1771. – Letter from <persName
-              key="p0268"
-              ref="38cc5f5c-197a-44bc-a3c7-dc5b5a571dc7">Aleksandr Arseniev</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince
+          <title>17 June 1771. – Letter from <persName key="p0268" ref="38cc5f5c-197a-44bc-a3c7-dc5b5a571dc7">Aleksandr Arseniev</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince
             Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 486, f. 2. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 2" />
-        <p />
+        <p/>
+        <pb n="f. 2"/>
+        <p/>
         <p>Monseigneur</p>
         <p>J’ay exactement remis les trois lettres, dont Votre Excellence m’a fait l’honneur de me
           charger; &amp; je ne puis pas laisser passer la premiere occasion qui s’ofre [sic], sans
@@ -130,11 +123,9 @@
         <p>De Votre Excellence</p>
         <p>le très humble &amp; très devoué serviteur</p>
         <p>
-          <persName key="p0268" ref="38cc5f5c-197a-44bc-a3c7-dc5b5a571dc7">Alexandre Arsenieff</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0268" xml:space="default" ref="38cc5f5c-197a-44bc-a3c7-dc5b5a571dc7" type="signature">Alexandre Arsenieff</persName>
         </p>
-        <p>Du camp prés de <placeName
-            key="g0023"
-            ref="https://www.geonames.org/712250">Berschan</placeName>[sic]</p>
+        <p>Du camp prés de <placeName key="g0023" ref="https://www.geonames.org/712250">Berschan</placeName>[sic]</p>
         <p>le 17 Juin 1771.</p>
         <noteGrp>
           <note>Also see:</note>
