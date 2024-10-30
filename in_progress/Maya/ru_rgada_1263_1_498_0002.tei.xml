@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,27 +96,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>19 April 1773. – Letter from <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
-            Mikhailovich Golitsyn</persName> to <persName
-              key="p0009"
-              ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">the Russian Minister Plenipotentiary at the
+          <title>19 April 1773. – Letter from <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName> to <persName key="p0009" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">the Russian Minister Plenipotentiary at the
             Imperial Diet in Regensburg, Active State Councilor Achatz Ferdinand Baron of Asseburg </persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 498, f. 3–3v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 3" />
-        <p />
+        <pb n="f. 3"/>
+        <p/>
         <p>à <persName key="p0009" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">S[a].E[xcellence].
           M[onsieu]r le Bar. d'Assebourg</persName>
         </p>
@@ -141,14 +134,10 @@
           voyage <persName key="p0086" ref="53711ce2-50fc-4dfb-8982-680e8eb5db1d">Mr de Koch</persName>
           le ci-joint paquet qui renferme des lettres de change pour leur usage, et si ce paquet ne
           les y trouve plus, Vous aurez, s’il Vous plaît la bonté de le leur faire tenir fidellement
-          en l’adressant par plus grande sureté à <persName
-            key="p0066"
-            ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Mr le P[rin]ce de Gallitzin</persName> notre
-          ministre à <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Vienne</placeName> pour où ils doivent continuer leur
+          en l’adressant par plus grande sureté à <persName key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Mr le P[rin]ce de Gallitzin</persName> notre
+          ministre à <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> pour où ils doivent continuer leur
           route, </p>
-        <pb n="f. 3v" />
+        <pb n="f. 3v"/>
         <p> Je demande bien des excuses à V.E. de toutes les peines, que je lui cause en cette
           occasion, et je serois comblé de joye si le hasard Vous ramenoit dans ce païs, afin que je
           puisse V[ous]. témoigner de bouche la considération distinguée et parfait attachement avec
