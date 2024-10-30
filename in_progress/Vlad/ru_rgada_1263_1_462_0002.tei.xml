@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,38 +94,32 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1 October 1789. – Letter from <persName
-              key="p0005"
-              ref="f1228878-0216-4a52-8c2a-909c57e70736">Adjutant General, Count Friedrich of Anhalt</persName>
-            to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Chief Chamberlain,
+          <title>1 October 1789. – Letter from <persName key="p0005" ref="f1228878-0216-4a52-8c2a-909c57e70736">Adjutant General, Count Friedrich of Anhalt</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Chief Chamberlain,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 462, f. 15–15v. Russian original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 15" />
-        <p />
+        
+        <pb n="f. 15"/>
+        <p/>
         <p>Ваше Сиятельство!</p>
         <p>Милостивый Государь.</p>
-        <p>По письму Вашего Сиятельства не оставил я уволить из корпуса гемназиста <persName
-            key="p0000">Носкова</persName> и тем иметь удовольствие исполнить ваше желание.</p>
+        <p>По письму Вашего Сиятельства не оставил я уволить из корпуса гемназиста <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2258" xml:space="default">Носкова</persName> и тем иметь удовольствие исполнить ваше желание.</p>
         <p>Относительно же до производения его офицерским чином, то извините меня, милостивый
-          государь, что сего исполнитъ не могу по причине Устава <orgName
-            key="o0006"
-            ref="171110b7-5487-4f01-a8b9-28103f4f2159">Кадетскаго Корпуса</orgName>, по которому не
+          государь, что сего исполнитъ не могу по причине Устава <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Кадетскаго Корпуса</orgName>, по которому не
           токмо гемназисты, но и кадеты произведены чинами быть не могут; как только по прошествии
           пятнатьцати лет. </p>
-        <p />
-        <pb n="f. 15v" />
+        <p/>
+        <pb n="f. 15v"/>
         <p> Я весьма сожалею, что и в сем случае не мог удовлетворить требование Ваше, уверяя себя,
           что естьли Ваше Сиятельство имеете намерение совершить его щастие, то можно его произвесть
           чином по штатной службе.</p>
@@ -137,7 +128,7 @@
         <p>Вашего Сиятельства</p>
         <p>все покорным слуга</p>
         <p>
-          <persName key="p0005" ref="f1228878-0216-4a52-8c2a-909c57e70736">Граф Ангальт</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0005" xml:space="default" ref="f1228878-0216-4a52-8c2a-909c57e70736" type="signature">Граф Ангальт</persName>
         </p>
         <p>Октября 1<hi rendition="#sup">го </hi>дня</p>
         <p>1789<hi rendition="#sup">го </hi>года</p>
