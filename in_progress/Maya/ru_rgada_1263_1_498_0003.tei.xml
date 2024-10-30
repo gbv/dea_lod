@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,79 +96,57 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>24 May 1773. – Letter from <persName
-              key="p0009"
-              ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">the Minister Plenipotentiary of Russia at
-            the Imperial Diet in Regensburg, Active State Councilor, Achatz Ferdinand Baron of
-            Asseburg</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor,
+          <title>24 May 1773. – Letter from <persName key="p0009" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">the Minister Plenipotentiary of Russia at
+            the Imperial Diet in Regensburg, Active State Councilor Achatz Ferdinand Baron of
+            Asseburg</persName>, to the <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 498, f. 4–5v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 4" />
-        <p />
+        <p/>
+        <pb n="f. 4"/>
+        <p/>
         <p>Monsieur</p>
         <p>J’ai reçu l’ordinaire dernier dans ma terre, que j’habite depuis quelques jours, la
           lettre que Votre Excellence m’a fait l’honneur de m’ecrire le 19. Avril. Il y à près d’un
           mois que <persName key="p0068" ref="48deec92-af20-4dd1-bf4b-ffb1252dc8ba">M. le Prince de
           Gallitzin</persName> et <persName key="p0086" ref="53711ce2-50fc-4dfb-8982-680e8eb5db1d">le
-          Cheval[ie]r de Koch</persName> passerent à <placeName
-            key="g0029"
-            ref="https://www.geonames.org/2938913">Darmstadt</placeName>,
+          Cheval[ie]r de Koch</persName> passerent à <placeName key="g0029" ref="https://www.geonames.org/2938913">Darmstadt</placeName>,
           où j’ai eu la satisfaction de faire en Eux deux connoissances, telles qu’on en fait
           rarement, vu la politesse des moeurs, et le merite d’esprit de l’un &amp; de l’autre,
           N’ayant depuis ce tems la aucune nouvelle de leur part, je me suis tenu à la resolution,
           dont <persName key="p0086" ref="53711ce2-50fc-4dfb-8982-680e8eb5db1d">M. de Koch</persName>
         </p>
-        <pb n="f. 4v" />
-        <p> m’avoit fait part, de vouloir attendre a <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName> la
-          reponse de Votre Excellence à des lettres qu’il Lui avoit adressé de <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>, pour l’avertir tout de suite, à l’aide d’un de mes
+        <pb n="f. 4v"/>
+        <p> m’avoit fait part, de vouloir attendre a <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> la
+          reponse de Votre Excellence à des lettres qu’il Lui avoit adressé de <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>, pour l’avertir tout de suite, à l’aide d’un de mes
           amis, que j’en avois pour Lui, et que j’attendois de savoir pour ou je les expedierois. Le
           delay que cette precaution mettra dans la reception des billets de credit, m’a paru moins
           important, que le soin de n’exposer ces papiers à aucun risque, en les faisant partir à
-          tout hasard pour <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>. D’ailleurs je suis asséz a
-          portée de cette capitale pour avoir en peu de jours la direction de <persName
-            key="p0086"
-            ref="53711ce2-50fc-4dfb-8982-680e8eb5db1d">M. de Koch</persName>, auquel je tacherai de
+          tout hasard pour <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>. D’ailleurs je suis asséz a
+          portée de cette capitale pour avoir en peu de jours la direction de <persName key="p0086" ref="53711ce2-50fc-4dfb-8982-680e8eb5db1d">M. de Koch</persName>, auquel je tacherai de
           faire passer la lettre en question avec le plus de circonspection et de vitesse, qu’il
-          dependra de moi, soit pour <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName> soit pour <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Vienne</placeName>. </p>
-        <pb n="f. 5" />
+          dependra de moi, soit pour <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> soit pour <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName>. </p>
+        <pb n="f. 5"/>
         <p> Je me flatte que Votre Excellence aprouvera le parti de sureté que j’ai choisi dans
           cette occasion, et qu’Elle me rendra toujours la meme justice sur les regrets, que j’ai de
           n’avoir pu arranger le plan du voyage au gré de Ses desirs. Vous connoissés, Mon Prince,
-          mes raisons, et celles des personnes auquelles le <persName
-            key="p0068"
-            ref="48deec92-af20-4dd1-bf4b-ffb1252dc8ba">Pr[ince]. Votre neveu</persName> souhaitoit
+          mes raisons, et celles des personnes auquelles le <persName key="p0068" ref="48deec92-af20-4dd1-bf4b-ffb1252dc8ba">Pr[ince]. Votre neveu</persName> souhaitoit
           d’etre associé. Aucune n’en est contraire à l’assurance que j’ai donné souvent à Votre
           Excellence, que de notre coté aucun obstacle existoit, hors celui, de ne rien nous
           permettre, qui auroit pu paroitre trop libre. Voila ou nous en sommes encore. Beaucoup
-          d’envie de complaire à Votre Excellence, et au Prince <persName
-            key="p0068"
-            ref="48deec92-af20-4dd1-bf4b-ffb1252dc8ba">Son aimable Neveu</persName>, et de l’autre
+          d’envie de complaire à Votre Excellence, et au Prince <persName key="p0068" ref="48deec92-af20-4dd1-bf4b-ffb1252dc8ba">Son aimable Neveu</persName>, et de l’autre
           coté l’embarras </p>
-        <pb n="f. 5v" />
+        <pb n="f. 5v"/>
         <p> de ne pouvoir disposer de ce qui n’est pas à nous. Avec un seul mot d’aprobation, Votre
           Excellence nous auroit vu empressé à nous montrer entierement dans ses interets, chacun de
           nous voulant plus qu’un autre les affectionner.</p>
@@ -184,7 +159,7 @@
         <p>Le tres humble</p>
         <p>&amp; tres obeissant serviteur</p>
         <p>
-          <persName key="p0009" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">Assebourg</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0009" xml:space="default" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36" type="signature">Assebourg</persName>
         </p>
         <p>À <placeName key="g0030" ref="https://www.geonames.org/2872192">Meistorf</placeName>
         </p>
