@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,16 +94,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>27 February 1786. – Letter from <persName
-              key="p0005"
-              ref="f1228878-0216-4a52-8c2a-909c57e70736">Adjutant General, Count Friedrich of Anhalt</persName>
+          <title>27 February 1786. – Letter from <persName key="p0005" ref="f1228878-0216-4a52-8c2a-909c57e70736">Adjutant General, Count Friedrich of Anhalt,</persName>
             to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Chief Chamberlain,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
@@ -114,13 +109,11 @@
             <bibl>RGADA, fond 1263, opis 1, no. 462, f. 12. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 12" />
-        <p />
+        
+        <pb n="f. 12"/>
+        <p/>
         <p>Mon Prince!</p>
-        <p>La distinction, que sa majesté l’<persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Imperatrice </persName>m’a temoigné de me
+        <p>La distinction, que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">sa majesté l'Imperatrice </persName>m’a temoigné de me
           conferer gracieusement l’ordre de St André, m’est très precieuse et bien flatteuse.
           Toutefois, assurement, je suis bien flatté aussi, que Votre Altesse, y veut prendre tant
           de part avec tant de bonté : en vérité, j’y suis très sensible, et je vous en aurai, Mon
@@ -133,7 +126,7 @@
         <p>Le très humble et le</p>
         <p>très obeissant serviteur</p>
         <p>
-          <persName key="p0005" ref="f1228878-0216-4a52-8c2a-909c57e70736">Frederic Comte d’Anhalt</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0005" xml:space="default" ref="f1228878-0216-4a52-8c2a-909c57e70736" type="signature">Frederic Comte d’Anhalt</persName>
         </p>
         <p>
           <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>
