@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Letter from the Russian Resident in Warsaw, Johann Friedrich Baron von Asch, to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <title type="main" xml:lang="en">Letter from the Russian Resident in Warsaw, Johann Friedrich Baron von Asch, to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
         <author xml:lang="en">Johann</author>
         <author xml:lang="en">Friedrich</author>
         <author xml:lang="en">Asch</author>
@@ -99,26 +94,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>30 December 1773 / 11 January 1774. – Letter from <persName
-              key="p0008"
-              ref="3b7cb6fc-a3aa-4e12-8b80-dec4ea4a7dda">the Russian Resident in Warsaw, Johann Friedrich Baron of Asch</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>30 December 1773 / 11 January 1774. – Letter from <persName key="p0008" ref="3b7cb6fc-a3aa-4e12-8b80-dec4ea4a7dda">the Russian Resident in Warsaw, Johann Friedrich Baron of Asch</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 515, f. 1. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
+        
+        <pb n="f. 1"/>
+        <p/>
         <p>Monseigneur!</p>
         <p>J’aime trop à me rappeller au souvenir de Votre Altesse pour n’en pas saisir avec empressement l’occasion que me presente la revolution d’année. Veuille le Ciel vous conserver Monseigneur grand nombre d’années, et vous combler de prosperités.</p>
         <p>Je n’ignore pas les bontés dont Votre Altesse m’honore. J’en suis flatté au dela de toute expression, et j’ose vous en demander la continuation avec les plus vives instances, Ayant l’honneur d’être avec un attachement aussi zelé que respectueux</p>
@@ -126,7 +117,7 @@
         <p>De Votre Altesse</p>
         <p>Le très humble et très obeïssant Serviteur</p>
         <p>
-          <persName key="p0008" ref="3b7cb6fc-a3aa-4e12-8b80-dec4ea4a7dda">B[aro]n d’Asch</persName>
+          B[aro]n d’Asch
         </p>
         <p>à <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>
         </p>
