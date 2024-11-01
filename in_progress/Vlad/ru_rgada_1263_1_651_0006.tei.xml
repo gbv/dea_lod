@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,43 +96,35 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>12 December 1760. – Letter from <persName
-              key="p0023"
-              ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
-            John Maurice Count of Bruhl</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title>12 December 1760. – Letter from <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
+            John Maurice Count of Bruhl</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 651, f. 21–22v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 21" />
-        <p />
+        
+        <pb n="f. 21"/>
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> ce 12 Decembre 1760</p>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> ce 12 Decembre 1760</p>
         <p>Monseigneur</p>
         <p>
           <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">Mr Kauderbach</persName>
           m’a chargé d’accuser à Votre Excellence la reception de vos deux lettres du 2. d. c. qui
           lui a été remise par le <persName key="p0000">Sr Simon</persName>, auquel il a taché de
           pouvoir lui marquer les égards qu’il a pour la recommandation que vous lui avés donnée,
-          Monseigneur, mais ce dernier ne s’est arreté qu’un jour à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">la Haye</placeName>
+          Monseigneur, mais ce dernier ne s’est arreté qu’un jour à <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName>
           et il a refusé de diner avec moi, </p>
-        <pb n="f. 21v" />
+        <pb n="f. 21v"/>
         <p>
           <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">M. Kauderbach</persName>
           n’etant pas encore en etat de recevoir quelqu’un chez lui. Il n’est pas encore en état de
@@ -147,39 +136,29 @@
           delivré de si tôt de nos maux! et il est inconcevable comment le Païs puisse encore
           supporter les nouvelles persecutions qui recommencent, de la part des Prussiens. D’un
           autre côte, il faut entretenir une nombreuse armée </p>
-        <pb n="f. 22" />
+        <pb n="f. 22"/>
         <p> laquelle quoiqu’amie ne laisse pas que de comsumer et fatiguer.</p>
         <p>On est extremement impatient de scavoir ici la destination du fameux embarquement il y a
-          une lettre de <placeName
-            key="g0057"
-            ref="https://www.geonames.org/2639996">Portsmouth</placeName> qui dit qu’il etoit encore le
-          3. d. c. a <placeName
-            key="g0058"
-            ref="https://www.geonames.org/11549521">S[ain]te Helene</placeName> et je crois que le
+          une lettre de <placeName key="g0057" ref="https://www.geonames.org/2639996">Portsmouth</placeName> qui dit qu’il etoit encore le
+          3. d. c. a <placeName key="g0058" ref="https://www.geonames.org/11549521">S[ain]te Helene</placeName> et je crois que le
           débarquement et l’expedition premeditée se fera bientôt.</p>
         <p>
           <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">Mr Kauderbach</persName>
-          a fort bien reçu la brochure que Votre Excellence lui a envoyée par le canal du <persName
-            key="p0039"
-            ref="c5823f1b-45f1-4af8-8d1f-52016420b43a">C[om]te de Cobenzel</persName> et
+          a fort bien reçu la brochure que Votre Excellence lui a envoyée par le canal du <persName key="p0039" ref="c5823f1b-45f1-4af8-8d1f-52016420b43a">C[om]te de Cobenzel</persName> et
           quoiqu’elle lui ait couté autant que si elle lui etoit venue en droiture d’Angl[eterre],
           il Vous en est extrêmement obligé et vous supplie de vouloir bien lui envoyer toutes les
           pieces qui paroitront dans ce genre et qui seront interessantes.</p>
-        <p>J’ai encore l’honneur d’envoyer ici à Votre Excellence un extrait d’une lettre de <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Vienne</placeName> avec une incluse </p>
-        <pb n="f. 22v" />
+        <p>J’ai encore l’honneur d’envoyer ici à Votre Excellence un extrait d’une lettre de <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> avec une incluse </p>
+        <pb n="f. 22v"/>
         <p> pour <persName key="p0160" ref="876ea2ce-4dea-46a7-8510-fcca20ec7d1b">Mr Luderse</persName>
-          secretaire d’Ambassade de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].
+          secretaire d’Ambassade de <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0052" xml:space="default" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].
           l’Imp[eratri]ce</persName>.</p>
         <p>J’ai l’honneur d’etre avec un profond respect</p>
         <p>Monseigneur</p>
         <p>de Votre Excellence</p>
         <p>Le très humble et très obeïssant </p>
         <p>serviteur</p>
-        <p>Le <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">Che[valie]r de Bruhl</persName>
+        <p>Le <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0023" xml:space="default" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1" type="signature">Che[valie]r de Bruhl</persName>
         </p>
         <noteGrp>
           <note>Also see:</note>
