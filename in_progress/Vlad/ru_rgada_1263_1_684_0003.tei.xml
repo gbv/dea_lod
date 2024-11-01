@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,57 +96,41 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>5 September 1757. – Letter from <persName
-              key="p0026"
-              ref="73df70f2-90ec-4286-ada0-54eb02eceb26">the Russian Resident at the Imperial Diet
-            in Regensburg, Georg Heinrich Büttner</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title>5 September 1757. – Letter from <persName key="p0026" ref="73df70f2-90ec-4286-ada0-54eb02eceb26">the Russian Resident at the Imperial Diet
+            in Regensburg, Georg Heinrich Büttner</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 684, f. 12–12v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 12" />
-        <p />
+        
+        <pb n="f. 12"/>
+        <p/>
         <p>Monsieur,</p>
-        <p>On vient d’afficher ici les Avocatoria, que <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour Imperiale</orgName> a trouvé à propos
-          de renouveller contre les vassaux et sujets de l’Empire, qui se trouvent au service du <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>. J’ai
+        <p>On vient d’afficher ici les Avocatoria, que <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour Imperiale</orgName> a trouvé à propos
+          de renouveller contre les vassaux et sujets de l’Empire, qui se trouvent au service du <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>. J’ai
           crû qu’il ne Vous sera pas desagreable d’en avoir une copie, et c’est pourquoi, je prends
           la liberté d’en joindre une cy-pres.</p>
-        <p>Selon les dernieres lettres, que j’ai de la Lusace, l’armée Prussienne tire vers <placeName
-            key="g0063,g0065"
-            ref="https://www.geonames.org/2939811,https://www.geonames.org/2939722">Cotbus et Crossen</placeName> après avoir detaché un corps de
-          20/m[ille] h[omm]es pour la Silesie. L’armée de l’Empire s’approche deja de <placeName
-            key="g0064"
-            ref="https://www.geonames.org/2879139">Leipzig</placeName>, conjointement avec l’armée Française sous le
-          commandement du Prince </p>
-        <pb n="f. 12v" />
+        <p>Selon les dernieres lettres, que j’ai de la Lusace, l’armée Prussienne tire vers <placeName key="g0063">Cotbus</placeName> et <placeName key="g0065">Crossen</placeName> après avoir detaché un corps de
+          20/m[ille] h[omm]es pour la Silesie. L’armée de l’Empire s’approche deja de <placeName key="g0064" ref="https://www.geonames.org/2879139">Leipzig</placeName>, conjointement avec l’armée Française sous le
+          commandement du <persName key="p0132">Prince</persName> </p>
+        <pb n="f. 12v"/>
         <p>
-          <persName key="p0132" ref="5c87713f-2e64-420c-852e-f9cd12c77653">Soubise</persName>. La
+          <persName key="p0132">Soubise</persName>. La
           Saxe se verra donc bientot tout à fait delivré. </p>
         <p>
           <persName key="p0078" ref="54e78a06-7183-462e-9a59-3ada38fbf07c">Le Ministre Palatin Mr de
-          Hack</persName>, destiné pour <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour Imperiale des Romains</orgName>, eût
+          Hack</persName>, destiné pour <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour Imperiale des Romains</orgName>, eût
           hier le malheur de finir ses jours par l’imprudence de son battelier, qui en donnant
-          contre le pont de <placeName
-            key="g0066"
-            ref="https://www.geonames.org/2891834">Kehlheim</placeName>, a fait couler à fonds le
+          contre le pont de <placeName key="g0066" ref="https://www.geonames.org/2891834">Kehlheim</placeName>, a fait couler à fonds le
           navire, avec toute sa charge.</p>
         <p>
           <orgName key="o0024" ref="350f556b-7eb8-4ecf-b0b8-02d61f53e04f">L’Assemblée de l’Empire </orgName>a
@@ -161,7 +142,7 @@
         <p>très humble et très </p>
         <p>obeïssant serviteur</p>
         <p>
-          <persName key="p0026" ref="73df70f2-90ec-4286-ada0-54eb02eceb26">de Büttner</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0026" xml:space="default" ref="73df70f2-90ec-4286-ada0-54eb02eceb26" type="signature">de Büttner</persName>
         </p>
         <p>à <placeName key="g0028" ref="https://www.geonames.org/2849483">Ratisbonne</placeName>
         </p>
