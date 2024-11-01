@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,32 +96,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>23 December 1760. – Letter from <persName
-              key="p0023"
-              ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
-            John Maurice Count of Bruhl</persName> to the <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to London,
+          <title>23 December 1760. – Letter from <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
+            John Maurice Count of Bruhl</persName> , to the <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 651, f. 23–23v, 25. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 23" />
-        <p />
+        
+        <pb n="f. 23"/>
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> ce 23. Decembre 1760.</p>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> ce 23. Decembre 1760.</p>
         <p>Monseigneur</p>
         <p>J’ai reçu ce matin avec beaucoup de reconnoissance la lettre dont il a plu a Votre
           Excellence de m’honorer en date du 16. d.c. J’en ai fait parvenir un extrait à mon père,
@@ -133,13 +124,9 @@
         <p>Qui auroit crû il y a deux mois que ce terrible armem<hi rendition="#sup">t</hi> qui
           menacoit et faisoit trembler toute une mer, se reduiroit en une pûre bravade? On est
           cependant </p>
-        <pb n="f. 23v" />
+        <pb n="f. 23v"/>
         <p> persuadé ici plus que jamais, que sa veritable destination a été pour l’Allemagne,
-          s’entend pour soutenir l’expedition du <persName
-            key="p0060"
-            ref="d68836c6-71de-4edb-a729-46f1086a7313">Prince hereditaire</persName> sur <placeName
-            key="g0046"
-            ref="https://www.geonames.org/2810678">Wesel</placeName>, en cas de reûssite.</p>
+          s’entend pour soutenir l’expedition du <persName key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">Prince hereditaire</persName> sur <placeName key="g0046" ref="https://www.geonames.org/2810678">Wesel</placeName>, en cas de reûssite.</p>
         <p>
           <persName key="p0120" ref="4f71a573-7531-45f0-9e4f-460d730ecda6">Le Baron de Reischach</persName>
           a passé ce matin chez moi et m’a chargé de vous faire agréer ses compliments et de Vous
@@ -148,17 +135,12 @@
           faire remettre à Votre Excellence par une occasion sûre, mais comme il pourra trainer
           quelque tems avant qu’il s’en presente une, il Vous prie de vouloir bien lui indiquer
           quelque voye certaine par la quelle vous puissiez la recevoir.</p>
-        <p>Il y a quelque personnes ici qui m’ont assurées, que <persName
-            key="p0161"
-            ref="63f79ea1-73ca-43ac-8498-5fb6eb396faf">le Roi d’Angl[eterre].</persName> avoit
-          absolument refusé d’epouser la Princesse de Gotha et qu’il s’agissoit de nouveau de celle
-          de <persName key="p0162" ref="9603f64a-81bf-49e3-af40-f940fc5b37db">Brunswic</persName>.
+        <p>Il y a quelque personnes ici qui m’ont assurées, que <persName key="p0161" ref="63f79ea1-73ca-43ac-8498-5fb6eb396faf">le Roi d’Angl[eterre].</persName> avoit
+          absolument refusé d’epouser la Princesse de Gotha et qu’il s’agissoit de nouveau de <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0162" xml:space="default">celle de Brunswic</persName>.
           Comme c’est une chose de consequence pour notre cour, je supplie Votre Excellence de </p>
-        <pb n="f. 25" />
+        <pb n="f. 25"/>
         <p> vouloir bien me donner quelque eclaircissemens sur ce sujet.</p>
-        <p>Je Vous prie Monseigneur, de vouloir bien assurer de mille amitiés le <persName
-            key="p0070"
-            ref="1dde5c89-f6df-42ef-b267-a130663ab89b">P[rin]ce Gallitzin Votre cousin</persName>[?]
+        <p>Je Vous prie Monseigneur, de vouloir bien assurer de mille amitiés le <persName key="p0070" ref="1dde5c89-f6df-42ef-b267-a130663ab89b">P[rin]ce Gallitzin Votre cousin</persName>[?]
           que j’ai eu l’honneur de voir ici à son passage.</p>
         <p>J’ai l’honneur d’etre avec le plus respectueux attachement</p>
         <p>Monseigneur</p>
