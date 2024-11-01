@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -94,30 +91,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>4 February 1767. – Dispatch from the Chief Chamberlain, Active Privy
-              Councilor Count Nikita Ivanovich Panin{{p0114}}, to the Russian Minister
-              Plenipotentiary in Copenhagen, Caspar von Saldern{{p0127}}</title>
-          <note>
+          <title>4 February 1767. – Dispatch from <persName key="p0114">the Chief Chamberlain, Active Privy Councilor Count Nikita Ivanovich Panin</persName>, to <persName key="p0127">the Russian Minister Plenipotentiary in Copenhagen, Caspar von Saldern</persName></title><note>
             <bibl>AVPRI, fond 53, opis 53/5, no. 208, f. 25-27v. German original with
                 a note in Russian.</bibl>
           </note>
         </head>
-        <pb n="f. 25" />
-        <p />
+        <pb n="f. 25"/>
+        
         <p>640</p>
         <p>Copia</p>
         <p>eines Schreibens des H[errn]. Oberhofmeisters von Panin, an den H[errn]. Geheimen Raht
           von Saldern.</p>
         <p>
-          <placeName key="g0192" ref="https://www.geonames.org/504003">Sarsko Selo</placeName> den 4<hi
-            rendition="#u">
+          <placeName key="g0192" ref="https://www.geonames.org/504003">Sarsko Selo</placeName> den 4<hi rendition="#u">
             <hi rendition="#sup">n </hi>
           </hi>Febr.</p>
         <p>1767. P. P.</p>
@@ -126,11 +119,9 @@
         <p>в <placeName key="g0001" ref="https://www.geonames.org/524894">Москве</placeName>
         </p>
         <p>в 20е февраля 1767.</p>
-        <p />
+        <p/>
         <p>Aus denen von Ew: Excel[lence]. nach Abfertigung des Courier Tatischeff{{p1101}} von Zeit
-          zu Zeit eingelangten Zuschritten habe ich teils dero glückliche Ankunft in <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhagen</placeName> und die Ablegung der gewöhnlichen Audientzen
+          zu Zeit eingelangten Zuschritten habe ich teils dero glückliche Ankunft in <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName> und die Ablegung der gewöhnlichen Audientzen
           daselbst, teils aber auch die vertraute Benachrichtigung von der gegenwärtigen Lage der
           Sachen und die genaue Schilderung gewisser Personen und deren Situation ausführlich zu
           ersehen das Vergnügen gehabt. Die darüber an Ihro Kaiser[lich]<hi rendition="#u">
@@ -138,7 +129,7 @@
           </hi>Majestät abgestattete Relation gereichet zu
           Allerhöchst dero gnädigste Zufriedenheit, und Sie approbieren Huldreichst alle von Ew:
           Excel[lence]. gegen den König{{p0868}} und das Königl[iche] </p>
-        <pb n="f. 25v" />
+        <pb n="f. 25v"/>
         <p>Haus gelegentlich gemachte Aeusserungen.</p>
         <p>Mit denen in Ansehung der Großfürst[lichen]. Bibliothec und des Schuldenstaats des
           Wohlsee[ligen] H[errn]. Baron v[on]. Korffs{{p0045}} gemachten arrangements bin ich mit
@@ -149,7 +140,7 @@
           Zahlungs-Posten ziemlich angegriffen, und ich gestehe es Ew: Excel[lence]. im Vertrauen,
           daß ich lieber durch einen convenablen Umsaz, in diesem mir anvertraueten fond selbst die
           Quelle mich zu helffen </p>
-        <pb n="f. 26" />
+        <pb n="f. 26"/>
         <p> suchen, als um einen Zuschub zu selbigem anhalten mögte. Ich werde also auf folgende
           Weise Rath zu schaffen suchen. Jezt überschicke ich Denenselben <hi rendition="#u">P</hi>
           <hi rendition="#u">[er]</hi> Wechsel 11/m
@@ -164,7 +155,7 @@
           und denen, aus diesen im gegenwärtigen Jahre ohnfehlbar ganz zu remittirenden Summen zu
           berichtigende Schulden die gehörige Terminen zu sezen, worin ich mich auf Ew: beprüften
           Eifer und </p>
-        <pb n="f. 26v" />
+        <pb n="f. 26v"/>
         <p> activité gänzlich verlasse.</p>
         <p>Mit der Hiehersendung des Secretaire Dalldorff{{p1528}} in die Stelle des verstorbenen H.
           Biss{{p1530}} bin ich um so mehr zufrieden, da ich gewis hoffe, daß derselbe durch sein
@@ -176,7 +167,7 @@
         <p>Gegenwärtiger Brief war bei mir schon längst fertig, als ich Ew. Exc[ellence]. und des H.
           Gen. Major v. Filosoffow{{p1102}} gemeinschaftliches Schreiben über diese Materie vom 4/15
           Jan: zu erhalten das Vergnügen hatte. Ich ersehe daraus, daß die zur Emballirung </p>
-        <pb n="f. 27" />
+        <pb n="f. 27"/>
         <p> der Großfürstl[ichen]. Bibliotec bestimmte 1000 Rubels dazu nicht hinreichen, folglich
           bitte ich über alle ausser sothanen Summa annoch zu verwendende Auslagen, die Assignation
           auf mich einzusenden, nach welcher hieselbst die gehörige Auszalung sogleich erfolgen
@@ -185,11 +176,9 @@
           expediret werde, umb die Bibliotec abzuholen.</p>
         <p>Auch habe ich nach dem mir von Ew: Excell[ence]. beiderseits an die Hand gegebenen
           Vorschlag dem H. EtatsRath v. Taubert{{p1529}} bereits den Auftrag erteilet, erwehnte
-          Bibliothec in <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">St Petersburg</placeName> in Empfang und unter seine
+          Bibliothec in <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersburg</placeName> in Empfang und unter seine
           Aufsicht zu neh</p>
-        <pb n="f. 27v" />
+        <pb n="f. 27v"/>
         <p>men, worüber ich in der Folge demselben nähere Anweisungen zukommen zulassen nicht
           ermangeln werde.</p>
         <p>In Betracht der Wittwe der Secretaire Biss habe ich Unserer Allergädigsten
