@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,32 +96,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 December 1760. – Letter from <persName
-              key="p0023"
-              ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
-            John Maurice Count of Bruhl</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title>6 December 1760. – Letter from <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
+            John Maurice Count of Bruhl</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 651, f. 24–24v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 24" />
-        <p />
+        
+        <pb n="f. 24"/>
+        <p/>
         <p>
-          <placeName
-            key="g0013"
-            ref="https://www.geonames.org/2935022">Dresde</placeName> le 6. Decembre 1760</p>
+          <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName> le 6. Decembre 1760</p>
         <p>Voici une specification des contributions et livraisons, que les Prussiens exigent du
           cercle des montagnes</p>
         <p>
@@ -144,9 +135,9 @@
         <p>livrer <hi rendition="#u">in </hi>
           <hi rendition="#u">natura</hi>. Comme cy-après</p>
         <p>NB. L’ecu de Saxe est d’un florin et demi ou 90 kreutzer d’Allemagne</p>
-        <p />
-        <pb n="f. 24v" />
-        <p />
+        <p/>
+        <pb n="f. 24v"/>
+        <p/>
         <p>613 recruës</p>
         <p>96480 boisseaux de farine</p>
         <p>2899440 .............. d’avoine</p>
@@ -156,16 +147,10 @@
           pourtant sûr que le tout monte a 20. millions Ecus. C’est ce qui surpasse le double des
           revenus que <persName key="p0057" ref="36412e88-60df-4a3e-b302-3fde5962cda6">S[a].M[ajesté].
           le Roi de Pologne Electeur de Saxe</persName> a pu tirer du Païs en tems de paix.</p>
-        <p>La ville de <placeName
-            key="g0053"
-            ref="https://www.geonames.org/2925306">Frauenstein</placeName> a été evacuée par les
-          Prussiens et les Autrichiens viennent de prendre poste à <placeName
-            key="g0055"
-            ref="https://www.geonames.org/2921232">Gera</placeName>.
+        <p>La ville de <placeName key="g0053" ref="https://www.geonames.org/2925306">Frauenstein</placeName> a été evacuée par les
+          Prussiens et les Autrichiens viennent de prendre poste à <placeName key="g0055" ref="https://www.geonames.org/2921232">Gera</placeName>.
           Les postes avancées sont continuellement aux mains, avec ceux de l’ennemi.</p>
-        <p>Le quartier general de l’armée de l’Empire est à <placeName
-            key="g0054"
-            ref="https://www.geonames.org/2883784">Cronach</placeName>
+        <p>Le quartier general de l’armée de l’Empire est à <placeName key="g0054" ref="https://www.geonames.org/2883784">Cronach</placeName>
           pour avoir la communication libre avec les François.</p>
         <noteGrp>
           <note>Also see:</note>
