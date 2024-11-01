@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,43 +93,35 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>15 October 1731. – Letter from the British Resident in Russia, <persName
-              key="p0165"
-              ref="fe0fba0a-6d68-4106-8925-02582562d0f0">Claudius Rondeau</persName>, to
-            the Vice-Chancelor of the Russian Empire, <persName
-              key="p0167"
-              ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Count Heinrich Ostermann</persName>
+          <title>15 October 1731. – Letter from <persName key="p0165">the British Resident in Russia, Claudius Rondeau</persName>, to
+            <persName key="p0167">the Vice-Chancelor of the Russian Empire, Count Heinrich Ostermann</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 540, f. 12–12v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 12" />
-        <p />
+        <p/>
+        <pb n="f. 12"/>
+        <p/>
         <p>
           <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> ce
           15me October 1731. V.S.</p>
-        <p>A son Excellence Mons[ieu]r Le <persName
-            key="p0167"
-            ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Comte d’Osterman</persName>
+        <p>A son Excellence Mons[ieu]r Le <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Comte d’Osterman</persName>
         </p>
         <p>Monsieur</p>
         <p>Ayant passé cet après midy chez votre Excellence, &amp; comme je n’ay pas eû l’honneur de
           la trouver chez elle, j’ay crû ne devoir pas tarder de lui faire savoir par celle-cy, que
-          j’ay reçû ce matin, la lettre de creance qu’il a plû au <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy</persName> de m’envoier, avec le
+          j’ay reçû ce matin, la lettre de creance qu’il a plû au <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy</persName> de m’envoier, avec le
           caractere de Resident, qui montrera le dessire ardent qu’elle a de vivre dans une parfaite
           amitié, &amp; bonne intelligence, avec </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p>
           <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cette Cour</orgName>,
           &amp; le <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy mon maitre</persName>
@@ -141,9 +130,7 @@
         <p>J’espere que la premiere fois, que j’aurai l’honneur de voir votre Excellence, j’aurai la
           satisfaction d’apprendre d’elle, qui sera nommé pour aller en Angleterre, afin que je
           puisse assurer <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">ma Cour</orgName>
-          que celle-cy repond parfaitement à l’attente du <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy mon maitre</persName>. Je suis avec
+          que celle-cy repond parfaitement à l’attente du <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy mon maitre</persName>. Je suis avec
           beaucoup de respect</p>
         <p>De Votre Excellence</p>
         <p>Monsieur</p>
