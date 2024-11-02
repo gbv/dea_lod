@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,26 +102,25 @@
       <div type="letter">
         <head>
           <title>
-            22 August 1770. - Report from the Russian Chargé d'Affaires in
-            Copenhagen Johann Mestmacher to the Chief Member of the College of Foreign Affairs,
+            22 August 1770. - Report from <persName key="p0569">the Russian Chargé d'Affaires in Copenhagen Johann Mestmacher</persName> to the Chief Member of the College of Foreign Affairs,
             Count Nikita Ivanovich Panin
           </title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 240, f. 36-38v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 36" />
-        <p />
+        <pb n="f. 36"/>
+        <p/>
         <p>Сиятелнейший Граф,</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>М[и]л[ос]тивый Г[осу]д[а]рь,</p>
-        <p />
+        <p/>
         <p> Пользуясь возвращением от сюда в Санкт-петербург бывшаго при Эскадре Господина
           контр-Адмирала Арфа пакет-бота, я имею щастие Вашему Высокографскому Сиятелству всенижайше
           донести, что оная Эскадра получа на конец в прошлую ночь благополучнаго ветру сего числа
           по утру в семь часов здешную </p>
-        <pb n="f. 36v" />
+        <pb n="f. 36v"/>
         <p> рейду оставила, быв принуждена, как значит в моих предидущих всенижайших доношении
           [sic], в ожидании оного простоять целыя восемь суток или с 3/14 числа сего м[еся]ца, к
           которому все как для Эскадры здесь нужды исправлены, так и щеты всех на то издержек уже
@@ -136,7 +132,7 @@
           за голанской червонец, до дватцати четырех тысяч пяти сот сорока четырех с четвертью
           червонных, которыя он Г[оспо]д[и]н контр-Адмирал и выдал, взяв в том подлежащия квитанции,
           так что после сей </p>
-        <pb n="f. 37" />
+        <pb n="f. 37"/>
         <p>Экспедиции между обоими высокими дворами уже никаких щетов не осталось.</p>
         <p> При сем я должностию себе поставляю Вашему Высокографскому Сиятелству всенижайше
           донести, как по узнании здесь в городе, а потом и от самого Господина контр-Адмирала Арфа,
@@ -147,10 +143,9 @@
           для узнания в том точной правды с согласия Господина контр-Адмирала зделать на здешнем
           королевском монетном дворе пробу, где действително нашлось, что оныя червонцы хотя имея
           свою полную в золоте доброту, однако весом по одному </p>
-        <pb n="f. 37v" />
+        <pb n="f. 37v"/>
         <p> червонцу на каждой марке чистаго золота легче червонных 1767 и 1768<hi rendition="#sup">
-          го</hi>. годов, так что вместо шести десяти семи как обыкновенно, штемпеля 1769<hi
-            rendition="#sup">го</hi> года шестьдесят восемь червонных на марке пошли, как о том
+          го</hi>. годов, так что вместо шести десяти семи как обыкновенно, штемпеля 1769<hi rendition="#sup">го</hi> года шестьдесят восемь червонных на марке пошли, как о том
           явствует в приложенном при сем с переводом аттестате здешняго королевскаго монетнаго
           мастера.</p>
         <p> Такой оным червонцам недовес простирающейся до одного с половиною процента нетокмо на
@@ -160,7 +155,7 @@
           комисионера тому притчиною, о чем всем я думаю и г[оспо]д[и]н контр-Адмирал Арф Ваше
           Высокографское Сиятелство уведомить непреминул.</p>
         <p> Я такожде оставить не могу дабы при </p>
-        <pb n="f. 38" />
+        <pb n="f. 38"/>
         <p> сем случае пред Вашим Высокографским Сиятелством не означить ту готовность и
           рачителство, с которыми генерално как настоящее здешнее министерство, так и
           адмиралитейской совет, а особливо персонално Г[оспо]д[и]н обергофмаршал Граф Молтке,
@@ -172,19 +167,19 @@
           их устремление в заслужении себе высочайшей и Ея Императорскаго Величества апробации,
           умалчивая о их неоднократно данных мне уверений о их искренно всенижайшей и Ея
           Императорскому Величеству и всевысочайшим Ея интересам </p>
-        <pb n="f. 38v" />
+        <pb n="f. 38v"/>
         <p> преданности, а к Вашему Высокографскому Сиятелству высокопочитании; я же повергаю себя
           неоцененному Вашему отеческому покровителству, с наиглубочайшим респектом и вечною
           преданностию пребываю.</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>Вашего Высокографскаго Сиятелства</p>
-        <p />
+        <p/>
         <p>М[и]л[ос]тиваго Г[осу]д[а]ря</p>
-        <p />
-        <p />
-        <p />
-        <p />
+        <p/>
+        <p/>
+        <p/>
+        <p/>
         <p>из копенгагена </p>
         <p>августа 11/22 дня 1770 года</p>
         <p>всенижайший и всеобя-</p>
