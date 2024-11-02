@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,22 +99,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 July 1770. – Copy of a letter from the Royal Danish Admiral, Count
-              [Christian Conrad Danneskiold-]Laurwig, to the Russian Imperial Legation Secretary,
+          <title>6 July 1770. – Copy of a letter from <persName key="p1537">the Royal Danish Admiral, Count [Christian Conrad Danneskiold-]Laurwig</persName>, to the Russian Imperial Legation Secretary,
               [Baron Johann von] Mestmacher, from Copenhagen, dated July 6, 1770 n.s.</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 240, f. 6-6v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 6" />
-        <p />
+        <pb n="f. 6"/>
+        <p/>
         <p>Copie eines Schreibens von dem König[lich]: dänischen Admiralen Grafen Laurwig an den
           Russisch Kayser[lichen]. Legations Secretairen Mestmacher de dato Coppenhagen d[en] 6.
           July st.n. 1770. __</p>
@@ -138,7 +134,7 @@
           R[igsda]l[er]. eingehalten.</p>
         <p> Damit die Matrosen sich zu der Reise im Stande setzen können wird einem jeden allerzeit
           3. Monaths gage vorgeschoßen.</p>
-        <pb n="f. 6v" />
+        <pb n="f. 6v"/>
         <p> </p>
         <p>Ich laße eine Liste verfertigen über die zu der Escadre bestimmten 400: Mann, und selbige
           in denen rubriquen nach ihren Character von ganze und halb befahrnen setzen, auch darin
