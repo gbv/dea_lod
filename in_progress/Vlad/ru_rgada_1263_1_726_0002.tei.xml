@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,111 +93,64 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9 November 1774. – Note from the <orgName
-              key="o0025"
-              ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">the Magistrate of Hamburg</orgName> to <orgName
-              key="o0001"
-              ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">the College of Foreign Affairs</orgName>
+          <title>9 November 1774. – Note from the <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">the Magistrate of Hamburg</orgName> to <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">the College of Foreign Affairs</orgName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 726, f. 1a, 2–2v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <pb n="f. 1а" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 1а"/>
+        <p/>
         <p>Сему роду не дан и не будет дано консульской патент</p>
         <p>13го ноября 1774</p>
-        <p />
-        <pb n="f. 2" />
-        <p />
+        <p/>
+        <pb n="f. 2"/>
+        <p/>
         <p>Note</p>
         <p>Le soussigne a l’honneur de faire les suivantes representations tres sousmises, à
           l’Illustre <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Ministere de
-          la Russie</persName>, aux ordres du <orgName
-            key="o0025"
-            ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Magistrat de Hambourg</orgName>.</p>
-        <p>Aucune Puissance, qui honore le <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Ville de Hambourg</placeName> de
+          la Russie</persName>, aux ordres du <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Magistrat de Hambourg</orgName>.</p>
+        <p>Aucune Puissance, qui honore le <placeName key="g0011" ref="https://www.geonames.org/2911298">Ville de Hambourg</placeName> de
           son Ministre y tient un Consul.</p>
-        <p>Le Commissaire de la Marine de France devroit selon sa destination se tenir à <placeName
-            key="g0069"
-            ref="https://www.geonames.org/2620473">Helsingor</placeName> mais comme le clima y est trop rude, il y tient un
-          substitut, &amp; demeure lui même à <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName>.</p>
+        <p>Le Commissaire de la Marine de France devroit selon sa destination se tenir à <placeName key="g0069" ref="https://www.geonames.org/2620473">Helsingor</placeName> mais comme le clima y est trop rude, il y tient un
+          substitut, &amp; demeure lui même à <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName>.</p>
         <p>L’Espagne n’y tient point de Ministre, il y en a donc un Consul;</p>
-        <p>Quoi que la <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Ville de Hambourg</placeName> est honoré d’un <persName
-            key="p0000">Ministre de Suede</persName>, il plut à <persName
-            key="p0232"
-            ref="67044862-485a-4970-8756-0d6c229cae34">Sa Majesté le Roi de Suede</persName> l’année
-          1767 d’accorder à un Negociant Suedois, etabli à <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName>,
+        <p>Quoi que la <placeName key="g0011" ref="https://www.geonames.org/2911298">Ville de Hambourg</placeName> est honoré d’un <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2311" xml:space="default">Ministre de Suede</persName>, il plut à <persName key="p0232" ref="67044862-485a-4970-8756-0d6c229cae34">Sa Majesté le Roi de Suede</persName> l’année
+          1767 d’accorder à un Negociant Suedois, etabli à <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName>,
           nomme <persName key="p0402" ref="c3f03165-c410-42ea-82b3-e367b31e6b29">Mildhan</persName>
-          le Predicat de Consul aupres de cette Ville: le <orgName
-            key="o0025"
-            ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Magistrat</orgName> prit alors la liberte d’y
-          faire ses representations sousmises, à <persName
-            key="p0232"
-            ref="67044862-485a-4970-8756-0d6c229cae34">Sa Majesté Suedoise</persName>, &amp; le <persName
-            key="p0232"
-            ref="67044862-485a-4970-8756-0d6c229cae34">Roi</persName> daigna le
+          le Predicat de Consul aupres de cette Ville: le <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Magistrat</orgName> prit alors la liberte d’y
+          faire ses representations sousmises, à <persName key="p0232" ref="67044862-485a-4970-8756-0d6c229cae34">Sa Majesté Suedoise</persName>, &amp; le <persName key="p0232" ref="67044862-485a-4970-8756-0d6c229cae34">Roi</persName> daigna le
           dispenser du dit Consulat;</p>
-        <p>La Russie honore la <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Ville de Hambourg</placeName> de son <persName
-            key="p0076"
-            ref="6dae20a2-6921-4999-9ad3-271c5403b39d">Ministre</persName>. Depuis
-          quelques jours le bruit court à la <orgName
-            key="o0026"
-            ref="3924f2bc-030d-42dd-85ab-fd904e9da5d4">Bourse, de Hambourg</orgName>, que le fils
-          d’un de ses Negociants nommé <persName key="p0000">Rodde</persName>, cherche d’ètre vetû
+        <p>La Russie honore la <placeName key="g0011" ref="https://www.geonames.org/2911298">Ville de Hambourg</placeName> de son <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">Ministre</persName>. Depuis
+          quelques jours le bruit court à la <orgName key="o0026" ref="3924f2bc-030d-42dd-85ab-fd904e9da5d4">Bourse, de Hambourg</orgName>, que le fils
+          d’un de ses Negociants nommé <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2287" xml:space="default">Rodde</persName>, cherche d’ètre vetû
           du Caractere de Consul de la </p>
-        <pb n="f. 2v" />
-        <p> Russie, aupres de la dite <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Ville</placeName>.</p>
-        <p>Il est evident que le dit <persName key="p0000">Sr Rodde</persName>, n’a d’autre but à
-          ses demandes du dit Consulat, que de vouloir trafiquer à <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName>,
+        <pb n="f. 2v"/>
+        <p> Russie, aupres de la dite <placeName key="g0011" ref="https://www.geonames.org/2911298">Ville</placeName>.</p>
+        <p>Il est evident que le dit <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2287" xml:space="default">Sr Rodde</persName>, n’a d’autre but à
+          ses demandes du dit Consulat, que de vouloir trafiquer à <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName>,
           sous la haute Protection de la Russie, avec tout avantage, privilege, &amp; comodité, en
-          se dispensant par la de tout import &amp; devoir, à qui les loix de cette <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Ville</placeName> obligent les autres Negociants &amp; Citoyens.</p>
+          se dispensant par la de tout import &amp; devoir, à qui les loix de cette <placeName key="g0011" ref="https://www.geonames.org/2911298">Ville</placeName> obligent les autres Negociants &amp; Citoyens.</p>
         <p>N’est ce pas contre le droit des gens?</p>
-        <p>les Consuls trafiquants seront toujours en charge â la <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Ville de
+        <p>les Consuls trafiquants seront toujours en charge â la <placeName key="g0011" ref="https://www.geonames.org/2911298">Ville de
           Hambourg</placeName> &amp; à son commerce, tant que les Puissances ne scauroient en tirer
           le moindre avantage y aiant leurs Ministres, Protecteurs du commerce de leurs Nations.</p>
-        <p>Les sentiments sublimes, de la <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Grande Legislatrice du Nord</persName>,
-          donnent l’esperance fondée au <orgName
-            key="o0025"
-            ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Magistrat de Hambourg</orgName>, qu’a ses
+        <p>Les sentiments sublimes, de la <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Grande Legislatrice du Nord</persName>,
+          donnent l’esperance fondée au <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Magistrat de Hambourg</orgName>, qu’a ses
           representations les plus sousmises il sera gracieusement dispensé du dit Consulat : les
-          quelles il ose tres humblement prier l’Illustre <persName
-            key="p0065"
-            ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Ministère de la Russie</persName>, par le
-          soussigne son Agent, de vouloir daigner apuier aupres de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>.</p>
+          quelles il ose tres humblement prier l’Illustre <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Ministère de la Russie</persName>, par le
+          soussigne son Agent, de vouloir daigner apuier aupres de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>.</p>
         <p>
-          <persName key="p0264" ref="a181a1e5-ecfd-4289-b17f-f3ec10de61bc">Willebrandt</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0264" xml:space="default" ref="a181a1e5-ecfd-4289-b17f-f3ec10de61bc" type="signature">Willebrandt</persName>
         </p>
         <p>
           <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersbourg</placeName>
