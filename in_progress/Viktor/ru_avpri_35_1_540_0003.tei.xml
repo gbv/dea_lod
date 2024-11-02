@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,16 +93,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>Unknown date [1731]. – Speech of <persName
-              key="p0165"
-              ref="fe0fba0a-6d68-4106-8925-02582562d0f0">the British Resident in Russia, Claudius
+          <title>Unknown date [1731]. – Speech of <persName key="p0165" ref="fe0fba0a-6d68-4106-8925-02582562d0f0">the British Resident in Russia, Claudius
             Rondeau</persName> to <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Empress
             Anna Ioannovna</persName>
           </title>
@@ -113,65 +108,41 @@
             <bibl>AVPRI, fond 35, opis 1, no. 540, f. 7–8. Russian translation of French original.</bibl>
           </note>
         </head>
-        <pb n="f. 7" />
-        <p />
+        <pb n="f. 7"/>
+        
         <p>Madame</p>
-        <p>Совсеглубочайшим респектом и благоговением я честь имею <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">вашему императорскому величеству</persName>
-          себя предявить, дабы по указу <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">короля г[осу]д[а]ря моего</persName>
+        <p>Совсеглубочайшим респектом и благоговением я честь имею <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">вашему императорскому величеству</persName>
+          себя предявить, дабы по указу <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">короля г[осу]д[а]ря моего</persName>
           <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше величество</persName>
           совершенной конзидерации и высокопочитании, которое он к освященной вашей особе и к дружбе
-          вашей имеет уверить, и притом на явственнейше обнадежить о твердом <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">его величества великобританского</persName>
+          вашей имеет уверить, и притом на явственнейше обнадежить о твердом <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">его величества великобританского</persName>
           намерении к содержанию и к вящему сколко от него зависит распространению доброй дружбы и
           тесного согласия, которое от двух почитай секулов между великою британиею и россиею
           пребывала, и как совершенное между <orgName key="o0002,o0008">обойми дворами </orgName>
-          согласие неинако как весма полезные и счастливые следства иметь может, так и <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">его величество великобританское</persName>
+          согласие неинако как весма полезные и счастливые следства иметь может, так и <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">его величество великобританское</persName>
           уповает, </p>
-        <pb n="f. 7v" />
+        <pb n="f. 7v"/>
         <p> что <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше императорское
           величество</persName> с своей стороны также способствовать изволите к утверждению сей
           древней дружбы которая сверх всяких прочих взаимных авантажей комерции обоих сторон
           подданных в случае отчасу в расцветующее состояние приведет.</p>
         <p>И понеже <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">вашему
-          величеству</persName> небезизвестно что Агличаня первые были, которые морской <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">архангелогородской порт</placeName> изобрели, и как к <placeName
-            key="g0059"
-            ref="https://www.geonames.org/540771">
+          величеству</persName> небезизвестно что Агличаня первые были, которые морской <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0049" xml:space="default" ref="https://www.geonames.org/581049">архангелогородской порт</placeName> изобрели, и как к <placeName key="g0059" ref="https://www.geonames.org/540771">
           кронсловскому</placeName> так же и к протчим российским на болтийском море гавенам паче
           других приходят. Того ради аглинской народ себя ласкает что в разсуждении введеной от
-          оного в россию полезной коммерции <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше величество</persName> всегда
+          оного в россию полезной коммерции <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше величество</persName> всегда
           благосклонна будете, оной народ в том чрез м[и]л[ос]тивые знаки своей высокой протекции
           вяще побуждать.</p>
         <p>Что до меня принадлежит, то имея честь четыре года </p>
-        <pb n="f. 8" />
-        <p> в здешнем г[осу]д[а]рстве пребывать, <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">вашему величеству</persName> за
+        <pb n="f. 8"/>
+        <p> в здешнем г[осу]д[а]рстве пребывать, <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">вашему величеству</persName> за
           м[и]лстивейшую протекцию которою я во все то время ползовался всепокорнейше и всегда
-          сохраняемое совершеннейшее бл[а]г[о]дарение приношу и <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше величество</persName> нижайше прошу
+          сохраняемое совершеннейшее бл[а]г[о]дарение приношу и <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше величество</persName> нижайше прошу
           милостиво верить, что я с прилежным радением о споспешествовании к содержанию совершенного
           между <orgName key="o0002,o0008">обоими дворами </orgName> доброго согласия по возможности
-          всегда старатся и тщание прилагать буду. Уповая впротчем, что <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше величество</persName> свою высокую
-          протекцию и милость ко мне продолжать соблаговолите, сколь долго <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">король г[осу]д[а]рь мой</persName> меня
-          министром своим при освященном <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">вашем императорском величестве</persName>
+          всегда старатся и тщание прилагать буду. Уповая впротчем, что <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше величество</persName> свою высокую
+          протекцию и милость ко мне продолжать соблаговолите, сколь долго <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">король г[осу]д[а]рь мой</persName> меня
+          министром своим при освященном <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">вашем императорском величестве</persName>
           употреблять заблагоразсудит.</p>
         <noteGrp>
           <note>Translation of: ru_avpri_35_1_540_0003</note>

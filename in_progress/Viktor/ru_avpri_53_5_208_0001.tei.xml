@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -94,7 +91,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -102,97 +99,79 @@
       <div type="letter">
         <head>
           <title>
-            4 February 1767. – Dispatch from the Chief Chamberlain, Active Privy Councilor Count
-            Nikita Ivanovich Panin{{p0114}}, to the Russian Ministers Plenipotentiary in Copenhagen,
-            Mikhail Mikhailovich Filosofov{{p1102}} and Caspar von Saldern{{p0127}}
-          </title>
-          <note>Сношения России с Данией. Копии и черновики депеш [графа Панина] полномочным
-            министрам в Копенгагене Философову и Салдерну (36 л.)</note>
+            4 February 1767. – Dispatch from <persName key="p0114">the Chief Chamberlain, Active Privy Councilor Count Nikita Ivanovich Panin</persName>, to <persName key="p1102">the Russian Ministers Plenipotentiary in Copenhagen, Mikhail Mikhailovich Filosofov</persName> and <persName key="p0127">Caspar von Saldern</persName> </title>
           <note>
             <bibl>AVPRI, fond 53, opis 53/5, no. 208, f. 7–11v. German original with a note in
               Russian.</bibl>
-            <bibl> AVPRI, fond 53, opis 53/5, no. 208, 1–6v</bibl>
+            <bibl> Published in: SIRIO, vol. 67, St. Petersburg, 1889, p. 338–343.</bibl>
           </note>
         </head>
-        <p>04/02/1767 – 29/09/1767, Copenhagen.</p>
-        <p />
-        <p>Published in: SIRIO, vol. 67, St. Petersburg, 1889, p. 338–343.</p>
-        <pb n="f. 7" />
-        <p />
-        <p>An die HH. Ministres Plénipotentiaires Filosoffow{{p1102}} und von Saldern{{p0127}} in <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhagen</placeName>.</p>
+        <p>04/02/1767 – 29/09/1767, <placeName key="p0127">Copenhagen</placeName>.</p>
+        
+        
+        <pb n="f. 7"/>
+        
+        <p>An die HH. <persName key="p1102">Ministres Plénipotentiaires Filosoffow</persName> und <persName key="p0127">von Saldern</persName> in <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName>.</p>
         <p>expediret aus <placeName key="g0192" ref="https://www.geonames.org/504003">Zarsko-</placeName>
         </p>
         <p>
-          <placeName
-            key="g0192"
-            ref="https://www.geonames.org/504003">Selo</placeName> den 4. Febr. 1767. mit </p>
-        <p>dem Courier Baron von </p>
-        <p>Pahlen{{p1527}} </p>
-        <p />
-        <p>Ея Императорское Величество{{p0033}} читать </p>
-        <p>и возвратить изволила в <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Москве</placeName>
+          <placeName key="g0192" ref="https://www.geonames.org/504003">Selo</placeName> den 4. Febr. 1767. mit </p>
+        <p><persName key="p1527">dem Courier Baron von</persName> </p>
+        <p><persName key="p1527">Pahlen</persName> </p>
+        <p/>
+        <p><persName key="p0033">Ея Императорское Величество</persName> читать </p>
+        <p>и возвратить изволила в <placeName key="g0001" ref="https://www.geonames.org/524894">Москве</placeName>
         </p>
         <p>в 20е февраля 1767.</p>
         <p>Hochwohlgeb[ohrn]e Herren,</p>
         <p>Hochgeehrteste HH. Ministres</p>
         <p>Plénipotentiaires und Rittere.</p>
-        <p>Mit dem vor eingien Tagen hieselbst angelangten Courier Tatischeff{{p1101}} habe ich
+        <p>Mit dem vor eingien Tagen hieselbst angelangten <persName key="p1101">Courier Tatischeff</persName> habe ich
           sowohl Ew:Ew: Excell[ence]. Excel[lence]. gemeinschafliche Relations sub N<hi rendition="#u">
             <hi rendition="#sup">o</hi>
           </hi> 2. &amp; 3. vom 4/15 Jan. als dero geerhteste
-          Zuschriften an mich von eben dem dato richtig zu erhalten und sämtliche Depeches Ihro
-          Kaiserl[iche]: May[estät]{{p0033}}. alleruntertänigst vorzustellen die Ehre gehabt.</p>
+          Zuschriften an mich von eben dem dato richtig zu erhalten und sämtliche Depeches <persName key="p0033">Ihro Kaiserl[iche]: May[estät]</persName>. alleruntertänigst vorzustellen die Ehre gehabt.</p>
         <p>Ehe und bevor ich zu der Erörterung dererjenigen Puncte schreite, die ich zu beantworten
           habe, mache ich mir dir Freude Denenselben die Versicherung von der Allerhöchsten
-          Zufriedenheit zu geben, mit welcher Ihro Kaiserl[iche]: May[estät]{{p0033}}. Dero Depeches
+          Zufriedenheit zu geben, mit welcher <persName key="p0033">Ihro Kaiserl[iche]: May[estät]</persName>. Dero Depeches
           zu lesen, und den aller Orten hervorleuchtenden </p>
-        <pb n="f. 7v" />
+        <pb n="f. 7v"/>
         <p>treuen Dienst-Eifer aufzunehmen geruhet. In denen Aeusserungen, die Ew: Exc[ellence]: bei
           Ihren gelegentlichen Unterredungen mit denen dortigen Ministres, blicken lassen, in der
           Art und Weise, mit welcher Dieselben die dortigen Conferentzen eröfnet, und die Führung
-          der wöchentlichen Ihro Kaiserl[iche]: May[estät]{{p0033}} eben so wie in der freymütigsten
+          der wöchentlichen <persName key="p0033">Ihro Kaiserl[iche]: May[estät]</persName> eben so wie in der freymütigsten
           fermeté, die Ihre Handlungen bei einem so wichtigen Geschäfte belebet, die deutlichsten
           Spuren von Deroselben Erfahrung, Scharfsinnigkeit und Activité, die zugleich das in Ew:
           Exc[e]l[lence]. beiderseits gesezte huldreiche Vertrauen unserer allergnädigsten Kaiserin
           vollkom[m]en rechtfertigen.</p>
         <p>Noch vor Einlangung obiger Depeche und in der Zwischenzeit derer Conferentzen ist mir
-          abseiten des dortigen Hofes durch d[en] H[errn]. Bar[on]. v[on]. Asseburg{{p0009}} die
+          abseiten des dortigen Hofes durch <persName key="p0009">d[en] H[errn]. Bar[on]. v[on]. Asseburg</persName> die
           vertraute Mitteilung geschehen, daß der leztere Separate ACT, die </p>
-        <pb n="f. 8" />
+        <pb n="f. 8"/>
         <p>hiesige Schiffarth [sic] betreffend, daselbst in seinem ganzen Umfange ohne der mindesten
-          Ausnahme oder Abänderung acceptiret worden. Ich weiß sehr wohl, wie vielen Anteil des
-          H[errn]. Bar[on]. v[on]. Bernstorffs Excel[lence]{{p0234}}. hieran haben, und dahero
-          werden Sie, Meine Hochgeehrteste Herren, bei Erster Gelegenheit, selbigem von Seiten Ihro
-          Kaiserl[iche]: May[estät]{{p0033}}. ein anständiges Compliment unter wiederhohlten
+          Ausnahme oder Abänderung acceptiret worden. Ich weiß sehr wohl, wie vielen Anteil <persName key="p0234">des H[errn]. Bar[on]. v[on]. Bernstorffs</persName> Excel[lence]. hieran haben, und dahero
+          werden Sie, Meine Hochgeehrteste Herren, bei Erster Gelegenheit, selbigem von Seiten <persName key="p0033">Ihro Kaiserl[iche]: May[estät</persName>]. ein anständiges Compliment unter wiederhohlten
           Versicherungen von Allerhöchst Deroselben fortwährenden Huldreichen Gesinnugen abzustatten
           belieben.</p>
         <p>Er ist gar nicht unwahrscheinlich, daß das gute Vernehmen unseres Hofes mit dem Dänischen
           und die abzusehende immer genauere Vereinigung Derselben, selbst unsere Freunde zur
-          Mis[s]gunst reize. Von selbigen verhält sich der Preuß[ische]. Hoff{{o0034}} bis dato
+          Mis[s]gunst reize. Von selbigen verhält sich <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0034" xml:space="default">der Preuß[ische]. Hoff</orgName> bis dato
           annoch ziemlich discret und ich habe alle Ursache zu glauben, daß er darin um so mehr
           fortfahren werde, als die gegenwärtgie Lage der Sachen in Pohlen und die Connexion, in
           welcher derselbe </p>
-        <pb n="f. 8v" />
+        <pb n="f. 8v"/>
         <p>dieserhalb mit uns stehet, ihn immerfort nachgebend erhalten wird. </p>
-        <p>Was den Engl[ischen]. Hoff{{o0002}} betrift; so stimmen die Insinuations, die dessen
+        <p>Was <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0002" xml:space="default">den Engl[ischen]. Hoff</orgName> betrift; so stimmen die Insinuations, die dessen
           hiesiger Ministre mir auf expressen Befehl seines Hofes neulich gemacht hat, mit
-          denenjenigen Aeusserungen vollkom[m]en überein, die der H[err]. v[on]. Kunning{{p1525}}
-          sowohl, als die, anderer Orten befind[lichen]. Englische Ministres zum Nachteil des
-          H[errn]. v[on]. Bernstorffs{{p0234}} und en faveur des alten Dannenskiöld{{p0818}} zu
+          denenjenigen Aeusserungen vollkom[m]en überein, die der <persName key="p1525">H[err]. v[on]. Kunning</persName> sowohl, als die, anderer Orten befind[lichen]. Englische Ministres zum Nachteil <persName key="p0234">des H[errn]. v[on]. Bernstorffs</persName> und en faveur <persName key="p0818">des alten Dannenskiöld</persName> zu
           machen befliessen sind.</p>
-        <p>Unterdessen habe ich <hi rendition="#sup">4_</hi>gegen den H[errn]. v[on].
-          Macartney{{p1066}} nach meiner gewöhnlichen Freimütigkeit reine Sprache geführet, und ich
+        <p>Unterdessen habe ich <hi rendition="#sup">4_</hi>gegen <persName key="p1066">den H[errn]. v[on]. Macartney</persName> nach meiner gewöhnlichen Freimütigkeit reine Sprache geführet, und ich
           verspreche mir davon den Erfolg, daß die Herren Engelländer hinführo vielleicht dahin
           bedacht seyn werden, mit mehrerer Würcksamkeit und Ernst an dem Nordischen Systeme Theil
           zu nehmen, als mit dergleichen niederträchtigen Intrigues umzugehen, die Mis[s]gunst und
           einen persönlichen Haß zum Grunde haben; folglich wird man </p>
-        <pb n="f. 9" />
-        <p>Englischer Seite in demjenigen, was wir zur Festsezung des H[errn]. v[on].
-          Bernstorfs{{p0234}} in dem Credit des Königs{{p0868}} vornehmen, wenigstens bei Uns keine
+        <pb n="f. 9"/>
+        <p>Englischer Seite in demjenigen, was wir zur Festsezung <persName key="p0234">des H[errn]. v[on]. Bernstorfs</persName> in dem Credit <persName key="p0868">des Königs</persName> vornehmen, wenigstens bei Uns keine
           Hindernisse in den Weg legen können. Die Erhaltung dieses würdigen Ministre ist und
           bleibet nach dem Willen unserer allergnädigsten Kaiserin, allezeit der Gegenstand Ew:
           Excel[lence]: beiderseits sorgfältigen Bemühungen. Wie weit Sie aber, meine Herren, darin
@@ -202,7 +181,7 @@
         <p>Jezt komme ich auf die Praeliminair-Passus, die Ew: Excel[lence]: als Grund-Regeln Ihrer
           Speciellen Negociation établiert haben. Nach meiner Überzeugung kan ich sie nicht anders
           als vollkommen appro</p>
-        <pb n="f. 9v" />
+        <pb n="f. 9v"/>
         <p>biren, obglech ich gar wohl einsehe, dass in Ansehung der grossen Schuldenlast des
           hiesigen Hollsteins, allerdings eine längere Frist nachgegeben und auch in Ansehung der
           Forderungen des jüngern Hauses, einiger Abzug statt finden müsse. </p>
@@ -212,41 +191,36 @@
           dienstlichsten Auswege an die Hand geben, das Beste der Landesherrschafft mit der
           Möglichkeit der Umstände zu vereinbahren; worüber ich denen Benachrichtigungen aus dem
           wöchentlichen Conferentz-Protocoll mit besonderm Verlangen entgegen sehe, und mir deren
-          Einsendung um so mehr ausbitte, als ich selbige Unserer Allergnädigsten Kaiserin{{p0033}},
+          Einsendung um so mehr ausbitte, als ich selbige <persName key="p0033">Unserer Allergnädigsten Kaiserin</persName>,
           die den Anfang derselben mit der größten Zufriedenheit zu lesen geruhet, ohne Anstand </p>
-        <pb n="f. 10" />
+        <pb n="f. 10"/>
         <p>jederzeit zu unterlegen das Vergnügen haben werde.</p>
-        <p>Die von Ew: Excell[ence]. en faveur des H. JustizsRaths Prangen{{p1532}} gemachte
-          Vorstellung ist Ihro Kaiserl[iche]: May[estät]{{p0033}}. genug gewesen, umb denselben zum
+        <p>Die von Ew: Excell[ence]. en faveur <persName key="p1532">des H. JustizsRaths Prangen</persName> gemachte
+          Vorstellung ist <persName key="p0033">Ihro Kaiserl[iche]: May[estät]</persName>. genug gewesen, umb denselben zum
           EtatsRath zu ernennen, worüber ich die Bestallung hiebeilege.</p>
-        <p>Bei der Eilfertigkeit, mit welcher ich die Reise nach <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscau</placeName>
+        <p>Bei der Eilfertigkeit, mit welcher ich die Reise nach <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName>
           angetreten, ist es mir nicht möglich gewesen, denenselben zu denen bevorstehenden
           Crönungs-Feyerlichkeiten, einen mildreichen Zuschub zu bewürcken. Es soll dieses aber
-          gleich bei meiner Ankunfft in <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscau</placeName> meine erste Sorge
-          seyn, die, wie ich mir es von der Huld und Grosmuht Ihro Kaiserl[iche]:
-          May[estät]{{p0033}}. zu versprechen habe, nicht fruchtlos seyn wird.</p>
+          gleich bei meiner Ankunfft in <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName> meine erste Sorge
+          seyn, die, wie ich mir es von der Huld und Grosmuht <persName key="p0033">Ihro Kaiserl[iche]: May[estät]</persName>. zu versprechen habe, nicht fruchtlos seyn wird.</p>
         <p>Ich habe die Ehre mit der vollenkommensten Hochachtung zu seyn. </p>
-        <p />
+        <p/>
         <p>P.S. Die in Ew: Excell[ence]. P.S. geäuserte Idée von einer Ihren </p>
-        <pb n="f. 10v" />
+        <pb n="f. 10v"/>
         <p> Orts anzutragenden Zollfreiheit der Ruß[ischen] Waaren auf Ruß[ischen] Schiffen, wo
           nicht im Königreich Dännemarck, dennoch in denen Fürstenthümern Schleswig und Holstein
           dienet zum neuen Beweise, wie sehr Denenselben das Beste des hiesigen Reichs am Herzen
           lieget. Ich habe es mir zur größten und zugleich zur angenehmsten Pflicht gerechnet, ein
-          dergleichen treueifriges Bestreben bei unserer allergnädigsten Kayserin{{p0033}} in seinem
+          dergleichen treueifriges Bestreben bei <persName key="p0033">unserer allergnädigsten Kayserin</persName> in seinem
           wahren Werthe geltend zu machen. Ich finde diesen Anschlag allerdings sehr zuträglich. In
           Ansehung der Dänischen Seehaffens aber wird die Zollfreiheit schwerlich stattfinden
           können; denn theils würde dieser Umstand, wenn er auch zu bewürcken wäre, in der Folge,
           und da bei Errichtung der Commertz Tractate alle denen Untertanen der contrahirenden
           Mächte einzuräumende Vorteile auf dem Fuß derer am meisten favorisirten Nations,
           festgesezet </p>
-        <pb n="f. 11" />
+        <pb n="f. 11"/>
         <p> zu werden pflegen, zu allerhand unvermeidlichen, obwohl vor der Hand nicht abzusehenden
-          Collisions, Anlaß geben, teils aber auch den Dänischen Hof{{o0009}} berechtigen, Uns da
+          Collisions, Anlaß geben, teils aber auch den <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0009" xml:space="default">Dänischen Hof</orgName> berechtigen, Uns da
           gegen ebenmässige in der Zukunfft Uns zu belästigende Bediengungen zu zumuthen. </p>
         <p>In Betracht derer Hollsteinischen Hafens ist aber der Fall nicht. Die in selbigen zu
           gestattende Zoll-Freiheit wäre, wir Ew: Excell[ence]: selbst eingesehen haben, eine
@@ -256,7 +230,7 @@
           Ansehung anderer Höfe ist, denen hieraus kein Recht erwachsen kan, sich darauf zu berufen. </p>
         <p>Ich überlasse also diesen aus einem höchstrühmlichen Dienst-Eifer entsprungenen Vorschlag
           Ew: Excell[ence]. Einsichts</p>
-        <pb n="f. 11v" />
+        <pb n="f. 11v"/>
         <p>vollen und bestmöglichsten Betreibung, und werde darüber Dero geneigte Benachrichtigungen
           erwarten.</p>
         <noteGrp>
