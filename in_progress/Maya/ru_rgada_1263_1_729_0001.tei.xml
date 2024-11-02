@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,17 +103,15 @@
       <div type="letter">
         <head>
           <title> 12 September 1758. – Letter from <persName key="p1113">the Swedish Legation
-            Secretary in London, Caspar Wynantz</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+            Secretary in London, Caspar Wynantz</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 729, f. 1. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
+        <pb n="f. 1"/>
+        <p/>
         <p>Monsieur</p>
         <p>Mon arrivée ici etant mecrdi passé; mais ma goute me pris sur le voyage par la fatigue
           d’une façon que j’etois obligé d’etre porté partout &amp; j’ai ete &amp; suis
@@ -132,24 +127,19 @@
         <p>
           <persName key="p1113" ref="fe43014c-2c84-4134-9943-e4b3735a7ded">Wynentz</persName>
         </p>
-        <p>à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">la Haye</placeName> ce 12 Sept. 1757</p>
+        <p>à <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName> ce 12 Sept. 1757</p>
         <p>je vous supplie a l’occasion</p>
-        <p>de faire mes comp[liment]s a <persName key="p0914" ref="3f79880b-3370-405f-8a02-752971118720">M<hi
-              rendition="#sup">r</hi>. Alt</persName>
+        <p>de faire mes comp[liment]s a <persName key="p0914" ref="3f79880b-3370-405f-8a02-752971118720">M<hi rendition="#sup">r</hi>. Alt</persName>
         </p>
         <p>
           <persName key="p0236" ref="76bf86b2-df21-48c2-ab7e-c132177479b0">M<hi rendition="#sup">r</hi>
             la Compte de Bothmer&amp;c</persName>
         </p>
-        <p />
-        <pb n="f. 1v" />
-        <p />
+        <p/>
+        <pb n="f. 1v"/>
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> 12 septembre 1757</p>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> 12 septembre 1757</p>
         <p>de <persName key="p1113" ref="fe43014c-2c84-4134-9943-e4b3735a7ded">Mr. Wynentz</persName>
         </p>
       </div>
