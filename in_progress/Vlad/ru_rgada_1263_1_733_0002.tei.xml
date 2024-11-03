@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,43 +94,33 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>18 October 1767. – Letter from <persName
-              key="p0149"
-              ref="58f83cd3-27be-4121-badb-3bd625b71f1f">the Russian Consul in Bordeaux, Arvid
-            Wittfooth</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor,
+          <title>18 October 1767. – Letter from <persName key="p0149" ref="58f83cd3-27be-4121-badb-3bd625b71f1f">the Russian Consul in Bordeaux, Arvid
+            Wittfooth,</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 733, f. 3–3v, 4v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 3" />
-        <p />
+        <p/>
+        <pb n="f. 3"/>
+        <p/>
         <p>Monseigneur!</p>
-        <p>Ayant l’honneur de me référer à ma derniere de <placeName
-            key="g0017"
-            ref="https://www.geonames.org/2673730">Stockholm</placeName>
+        <p>Ayant l’honneur de me référer à ma derniere de <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName>
           du 7. du mois d’Aout, par la quelle, j’ai marqué notre départ pour icy, &amp; la présante,
           ce n’est que pour avoir l’honneur de vous dire Mons<hi rendition="#sup">r</hi> que nous
           sommes arrivés dans cette ville le 10. du cour<hi rendition="#sup">t</hi>., &amp; même que
           je me suis acquité de ma commission </p>
-        <pb n="f. 3v" />
-        <p> en aŷant rémis mon comp[te?] de voyage <persName
-            key="p0068"
-            ref="48deec92-af20-4dd1-bf4b-ffb1252dc8ba">Mr le Jeune Prince de Galitzin</persName>, en
-          très bonne santée, entre les mains de son Oncle <persName
-            key="p0066"
-            ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">M[onsei]g[neu]r l’Envoyé le Prince de
+        <pb n="f. 3v"/>
+        <p> en aŷant rémis mon comp[te?] de voyage <persName key="p0068" ref="48deec92-af20-4dd1-bf4b-ffb1252dc8ba">Mr le Jeune Prince de Galitzin</persName>, en
+          très bonne santée, entre les mains de son Oncle <persName key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">M[onsei]g[neu]r l’Envoyé le Prince de
           Galitzin</persName> icy.</p>
         <p>J’ose me flatter, Mons<hi rendition="#sup">r</hi>, que vous étéz satisfait de cette
           pétite service que vous avéz éxigé de moi; en pareilles &amp; dans tout autres occasions
@@ -143,11 +130,9 @@
           de sorte chez le <persName key="p0069" ref="6e49f2a5-4f34-4612-be13-83990200b3cf">Maréschal
           M[onsei]g[neu]r le Prince de Galitzin</persName>, qu’il m’accordera la commission pour la
           cour, j’espere qu’on me </p>
-        <pb n="f. 4v" />
+        <pb n="f. 4v"/>
         <p> donnera cette préference aujourd’hui comme sujet de Russie.</p>
-        <p>Je me prépare departir incessamment d’icy pour me rendre à <placeName
-            key="g0085"
-            ref="https://www.geonames.org/331582">
+        <p>Je me prépare departir incessamment d’icy pour me rendre à <placeName key="g0085" ref="https://www.geonames.org/331582">
           Bordeaux</placeName> à la fin de Decembre ou dans le mois de Janvier, si Mon[sei]g[neu]r
           aura quelque chose à commander, j’attandrai la vos ordres ulterieurs. J’ai l’honneur
           d’etre avec le plus profond réspect</p>
@@ -155,11 +140,10 @@
         <p>Votre trés hu<hi rendition="#sup">ble</hi> &amp; trés obei[ssan]<hi rendition="#sup">t</hi>
           serviteur</p>
         <p>
-          <persName key="p0149" ref="58f83cd3-27be-4121-badb-3bd625b71f1f">Arvid Wittfooth</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0149" xml:space="default" ref="58f83cd3-27be-4121-badb-3bd625b71f1f" type="signature">Arvid Wittfooth</persName>
         </p>
         <p>
-          <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> le 18. 8<hi
-            rendition="#sup">bre</hi>
+          <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> le 18. 8<hi rendition="#sup">bre</hi>
         </p>
         <p>1767</p>
         <noteGrp>
