@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,19 +96,15 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>14 April 1761. – Letter from <persName
-              key="p0144"
-              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Councilor of the Russian Legation to
-              the Imperial Court, Count Aleksandr Romanovich Vorontsov</persName>, to the <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to
+          <title>14 April 1761. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Councilor of the Russian Legation to
+              the Imperial Court, Count Aleksandr Romanovich Vorontsov</persName>, to the <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to
             London, Prince Aleksandr Mikhailovich Golitsyn </persName>
           </title>
           <note>
@@ -119,22 +112,16 @@
               Russian</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p> </p>
         <p>Monseigneur,</p>
         <p>Je n’ai point voulu manquer à mon devoir en arrivant dans ce Pays-ci sans me faire
           L’honneur d’ecrire à Votre Excellence, et de Lui marquer que j’ai eu un fort heureux
-          passage de <placeName
-            key="g0070"
-            ref="https://www.geonames.org/2651048">Douvres</placeName> à <placeName
-            key="g0071"
-            ref="https://www.geonames.org/3029162">Calais</placeName>,
-          qui n’a duré que trois heures et une quart, et je me suis rendu à <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">
+          passage de <placeName key="g0070" ref="https://www.geonames.org/2651048">Douvres</placeName> à <placeName key="g0071" ref="https://www.geonames.org/3029162">Calais</placeName>,
+          qui n’a duré que trois heures et une quart, et je me suis rendu à <placeName key="g0019" ref="https://www.geonames.org/2988507">
           Paris</placeName> le Dimanche à sept heures du matin.</p>
-        <p />
-        <pb n="f. 1v" />
+        <p/>
+        <pb n="f. 1v"/>
         <p> Je serois, Monseigneur, L’homme le plus ingrat du monde, si je manqué en cette occasion
           de temoigner à Votre Excellence mes très humbles remercimens de toutes les bontés dont
           Vous m’avez si gracieusement honoré pendant mon sejours auprès de Vous. Je ne saurois
@@ -149,30 +136,26 @@
         <p>
           <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">De Worontzoff</persName>
         </p>
-        <p>à <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName> ce 14. avril 1761</p>
+        <p>à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> ce 14. avril 1761</p>
         <p>P.S.</p>
-        <p />
-        <pb n="f. 2" />
+        <p/>
+        <pb n="f. 2"/>
         <p> P.S. При сем нехотел преминуть всенижайшее мое благодарение вашему сиятельству принесть
-          За милостивую вашу рекомендацию, к Его сиятельству князю <persName
-            key="p0066"
-            ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Дмитрею Михайловичу Голицыну</persName>,
+          За милостивую вашу рекомендацию, к Его сиятельству князю <persName key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Дмитрею Михайловичу Голицыну</persName>,
           который весма милостиво и ласково меня здесь принимает.</p>
         <p>Его превосходительство <persName key="p0256" ref="e852368d-e27f-4392-a41a-e3fb5c1d2d2d">Сергей
           Васильевич</persName> и <persName key="p0278" ref="995f0b04-3741-4798-bf52-64cab8c96ad6">Матрена
           Павловна Солтыкова</persName> засвидетельствовали вашему сиятельству свое почтение</p>
-        <p />
-        <pb n="f. 2v" />
-        <p />
+        <p/>
+        <pb n="f. 2v"/>
+        <p/>
         <p>
           <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris </placeName> 14. avril 1761</p>
         <p>
-          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Mr le Conseiller de </persName>
+          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Mr le Conseiller de Legation</persName>
         </p>
         <p>
-          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Legation Woronzow</persName>
+          <persName key="p0144" type="signature" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Woronzow</persName>
         </p>
         <noteGrp>
           <note>Also see:</note>
