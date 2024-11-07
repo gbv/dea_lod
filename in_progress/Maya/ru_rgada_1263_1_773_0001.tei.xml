@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,40 +96,30 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 9 January 1762. – Letter from <persName
-              key="p0144"
-              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Councilor of the Russian Legation to
-              the Imperial Court, Count Aleksandr Romanovich Vorontsov</persName>, to the <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to
+          <title> 9 January 1762. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Councilor of the Russian Legation to
+              the Imperial Court, Count Aleksandr Romanovich Vorontsov</persName>, to the <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to
             London, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 773, f. 1–1v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
+        <pb n="f. 1"/>
+        <p/>
         <p>Monsieur,</p>
         <p>La derniere lettre dont vous m’avez honnoré m’a eté rendue exactement. Je vous suis très
-          obligé des details, que vous avez bien voulu me donner par raport au <persName key="p0000">conselier
-          saxon</persName> qui est à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>.</p>
-        <p>J’ai l’honneur de vous envoyer Monsieur une lettre que jai recü pour vous de <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbour</placeName> et l’autre de <persName
-            key="p0027"
-            ref="58a0f45b-6572-4eea-a167-6519185b7086">Mr le Marechal</persName>
+          obligé des details, que vous avez bien voulu me donner par raport au <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2320" xml:space="default">conselier
+          saxon</persName> qui est à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>.</p>
+        <p>J’ai l’honneur de vous envoyer Monsieur une lettre que jai recü pour vous de <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbour</placeName> et l’autre de <persName key="p0027" ref="58a0f45b-6572-4eea-a167-6519185b7086">Mr le Marechal</persName>
         </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p>
           <persName key="p0027" ref="58a0f45b-6572-4eea-a167-6519185b7086">de Bouterlin</persName>.</p>
         <p>Nous navons icy absolument rien dinteressant. aiant l’honneur de la très parfaitement</p>
