@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,19 +96,15 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 5/16 August 1761. – Letter from <persName
-              key="p0144"
-              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Councilor of the Russian Legation to
-            the Imperial Court, Count Aleksandr Romanovich Vorontsov</persName>, to the <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to
+          <title> 5/16 August 1761. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Councilor of the Russian Legation to
+            the Imperial Court, Count Aleksandr Romanovich Vorontsov</persName>, to the <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Russian Envoy Extraordinary to
             London, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -119,51 +112,23 @@
               Russian.</bibl>
           </note>
         </head>
-        <pb n="f. 15" />
-        <p />
+        <pb n="f. 15"/>
+        <p/>
         <p>№6</p>
         <p>Monsieur !</p>
         <p>J’ai l’honneur de vous informer, qu’un Courier arrivé hier vers la nuit, nous a apporté
           l’agreable nouvelle, que toute l’armée Imperiale a passé l’Oder le 13<hi rendition="#sup">
-          me</hi>, entre <placeName
-            key="g0076"
-            ref="https://www.geonames.org/2879795">Lebus</placeName> et <placeName
-            key="g0077"
-            ref="https://www.geonames.org/2954011">Auras</placeName>.
+          me</hi>, entre <placeName key="g0076" ref="https://www.geonames.org/2879795">Lebus</placeName> et <placeName key="g0077" ref="https://www.geonames.org/2954011">Auras</placeName>.
           Le <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>
-          a donné entierement dans le panneau ; il se disposoit à nous en disputer le passage proche <hi
-            rendition="#s">de </hi>d’O Pelne. Le <persName
-            key="p0089"
-            ref="8a97a3ba-fb45-4335-9a83-627ba6d1eaf5">general Laudon</persName> dans sa lettre a sa <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">Cour</orgName> rend toute la
+          a donné entierement dans le panneau ; il se disposoit à nous en disputer le passage proche <hi rendition="#s">de </hi>d’O Pelne. Le <persName key="p0089" ref="8a97a3ba-fb45-4335-9a83-627ba6d1eaf5">general Laudon</persName> dans sa lettre a sa <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">Cour</orgName> rend toute la
           justice possible aux connoissances et aux bonnes dispositions de nos generaux.</p>
-        <p>Le quartier general de notre armée etoit à <placeName
-            key="g0080"
-            ref="https://www.geonames.org/2939167">Dame</placeName>; <placeName
-            key="g0081"
-            ref="https://www.geonames.org/3093692">Lignitz</placeName> etoit occupé par nos troupes. Le <persName
-            key="p0019"
-            ref="1c487660-9ea9-4f57-8948-abc70b849327">general Brentano </persName> etoit à <placeName
-            key="g0082"
-            ref="https://www.geonames.org/2895125">Jauer</placeName>, et le quartier general de l’armée autrichienne à <placeName
-            key="g0079"
-            ref="https://www.geonames.org/3084440">Strigau</placeName> de maniere, que les deux armées imperialles n’etoit,
-          qu’à une marche l’une de l’autre les postes avancés se touchoient, et <persName
-            key="p0089"
-            ref="8a97a3ba-fb45-4335-9a83-627ba6d1eaf5">Mr. de Laudon</persName> a eté
+        <p>Le quartier general de notre armée etoit à <placeName key="g0080" ref="https://www.geonames.org/2939167">Dame</placeName>; <placeName key="g0081" ref="https://www.geonames.org/3093692">Lignitz</placeName> etoit occupé par nos troupes. Le <persName key="p0019" ref="1c487660-9ea9-4f57-8948-abc70b849327">general Brentano </persName> etoit à <placeName key="g0082" ref="https://www.geonames.org/2895125">Jauer</placeName>, et le quartier general de l’armée autrichienne à <placeName key="g0079" ref="https://www.geonames.org/3084440">Strigau</placeName> de maniere, que les deux armées imperialles n’etoit,
+          qu’à une marche l’une de l’autre les postes avancés se touchoient, et <persName key="p0089" ref="8a97a3ba-fb45-4335-9a83-627ba6d1eaf5">Mr. de Laudon</persName> a eté
           lui même à nôtre </p>
-        <pb n="f. 15v" />
-        <p> armée, pour s’aboucher avec <persName
-            key="p0027"
-            ref="58a0f45b-6572-4eea-a167-6519185b7086">Mr. le Marechal</persName>; le <persName
-            key="p0292"
-            ref="c3cc9242-f3b0-4474-8037-4e2c8e55bdbe">general Ziethen</persName> etoit
-          à <placeName key="g0078" ref="https://www.geonames.org/2864558">Neumark</placeName>, et le <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName> proche de la à
-          Kostelnblut[?]. Je vous felicite Monsieur avec un evenement aussi avantageux à la <hi
-            rendition="#s">cour</hi> cause commune et presque inattandu.</p>
+        <pb n="f. 15v"/>
+        <p> armée, pour s’aboucher avec <persName key="p0027" ref="58a0f45b-6572-4eea-a167-6519185b7086">Mr. le Marechal</persName>; le <persName key="p0292" ref="c3cc9242-f3b0-4474-8037-4e2c8e55bdbe">general Ziethen</persName> etoit
+          à <placeName key="g0078" ref="https://www.geonames.org/2864558">Neumark</placeName>, et le <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName> proche de la à
+          Kostelnblut[?]. Je vous felicite Monsieur avec un evenement aussi avantageux à la <hi rendition="#s">cour</hi> cause commune et presque inattandu.</p>
         <p>Quelques partis, que le <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi
           de Prusse</persName> prenne, sa situation est très critique ; les deux armées Imperiales
           font au moins 120 milles hommes.</p>
@@ -176,30 +141,24 @@
         <p> votre très humble et </p>
         <p>très obeissant serviteur </p>
         <p>
-          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">C[omte] Alexandre </persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">C[omte] Alexandre </persName>
         </p>
         <p>
-          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">de Woronzow</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">de Woronzow</persName>
         </p>
         <p>
           <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> 5/16 aout 1761.</p>
-        <p />
-        <pb n="f. 16" />
-        <p />
-        <p>Осмеливаюсь трудить вашего сиятельства чтоб включенное писмо отослать в <placeName
-            key="g0075"
-            ref="https://www.geonames.org/2640729">Оксфорд</placeName>.</p>
-        <p />
-        <pb n="f. 16V" />
-        <p />
+        <p/>
+        <pb n="f. 16"/>
+        <p/>
+        <p>Осмеливаюсь трудить вашего сиятельства чтоб включенное писмо отослать в <placeName key="g0075" ref="https://www.geonames.org/2640729">Оксфорд</placeName>.</p>
+        <p/>
+        <pb n="f. 16V"/>
+        <p/>
         <p>
-          <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Viene</placeName> Le 5/16 août 1761.</p>
+          <placeName key="g0005" ref="https://www.geonames.org/2761367">Viene</placeName> Le 5/16 août 1761.</p>
         <p>
-          <persName
-            key="p0144"
-            ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Mr Le C[om]te de Woronzow</persName>
+          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Mr Le C[om]te de Woronzow</persName>
           .</p>
         <noteGrp>
           <note>Also see:</note>
