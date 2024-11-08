@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,34 +96,28 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17/28 December 1762. – Letter from <persName
-              key="p0144"
-              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Ambassador Plenipotentiary to
-            London, Count Aleksandr Romanovich Vorontsov</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>17/28 December 1762. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Ambassador Plenipotentiary to
+            London, Count Aleksandr Romanovich Vorontsov</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 773, f. 7. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 7" />
-        <p />
+        <p/>
+        <pb n="f. 7"/>
+        <p/>
         <p>Monsieur!</p>
         <p>Je me flatte, que Votre [sic] aura reçu les médailles qui m’ont été remise pour Elle par
           Le maitre de Ceremonie &amp; que j’ai eû l’honneur de Lui envoyer, il y a quelque tems.
-          Ces médailles ont été frapées ici à l’occasion des Noces du <persName
-            key="p0161"
-            ref="63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roi</persName> &amp; de son Couronement, pour
+          Ces médailles ont été frapées ici à l’occasion des Noces du <persName key="p0161" ref="63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roi</persName> &amp; de son Couronement, pour
           être distribuées aux Ministres Etrangers.</p>
         <p>Permettés moi, Monsieur, de saisir cette occaion pour avoir l’honneur de féliciter Votre
           Excellence avec la nouvelle année, où Nous allons entrer. Je Vous La souhaite, Monsieur,
@@ -138,12 +129,11 @@
         <p>le très humble et</p>
         <p>très obeissant serviteur</p>
         <p>
-          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">C[omte]. Alexandre de
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">C[omte]. Alexandre de
             Woronzow</persName>
         </p>
-        <p>à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> ce 17/28 X<hi
-            rendition="#sup">bre</hi> 1762</p>
-        <p />
+        <p>à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> ce 17/28 X<hi rendition="#sup">bre</hi> 1762</p>
+        <p/>
         <p>à <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">S.Ex. Mr le
           Vice-Chanc[ello].r P[rin]ce de Gallitzin</persName>
         </p>
