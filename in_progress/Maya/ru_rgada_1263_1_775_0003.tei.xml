@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,7 +96,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -107,25 +104,19 @@
       <div type="letter">
         <head>
           <title>
-            4/15 May 1764. – Letter from <persName
-              key="p0144"
-              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Minister Plenipotentiary
-            to the Hague, Count Aleksandr Romanovich Vorontsov</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            4/15 May 1764. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Minister Plenipotentiary
+            to the Hague, Count Aleksandr Romanovich Vorontsov</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 775, f. 9. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 9" />
-        <p />
+        <pb n="f. 9"/>
+        <p/>
         <p>Monsieur,</p>
-        <p>Ayant recu dans ce moment une lettre du <persName
-            key="p0242"
-            ref="3121a10e-0a39-454c-9711-7148f745e0c8">Comte prince Golovkin</persName>
-          <hi rendition="#sup" /> qu’il me prie de vous faire parvenir, jai l’honneur de Vous lenvoyer
+        <p>Ayant recu dans ce moment une lettre du <persName key="p0242" ref="3121a10e-0a39-454c-9711-7148f745e0c8">Comte prince Golovkin</persName>
+          <hi rendition="#sup"/> qu’il me prie de vous faire parvenir, jai l’honneur de Vous lenvoyer
           profitant de cette occasion pour renouveller a Votre Excellence les assurances, de mon
           sincere attachement.</p>
         <p> Je serois très flaté, Monsieur, si vous jugéz apropos de memployer icÿ pour vos
@@ -135,7 +126,7 @@
         <p>Monsieur </p>
         <p> de Votre Excellence</p>
         <p>Le tres humble et très obeissant</p>
-        <p>Serviteur <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">C[omte]
+        <p>Serviteur <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">C[omte]
           A[leksandr] de Woronzow</persName>
         </p>
         <p>le 4/15 May 1764 <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName>
