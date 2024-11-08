@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,46 +96,39 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>14/25 February 1764. – Letter from <persName
-              key="p0144"
-              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Ambassador Plenipotentiary to
-            London, Count Aleksandr Romanovich Vorontsov</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>14/25 February 1764. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Ambassador Plenipotentiary to
+            London, Count Aleksandr Romanovich Vorontsov</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 775, f. 7–7v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 7" />
-        <p />
+        <p/>
+        <pb n="f. 7"/>
+        <p/>
         <p>Monsieur,</p>
         <p> La lettre, dont Vôtre Excellence m’a honoré le 9. de janvier, me flatte extrêmement par
           l’approbation, qu’Elle veut accorder à quelques unes de mes réflexions, &amp; la justice
           qu’Elle rend à mon zêle pour l’affaire, dont il s’est agi. Je conviens avec un vrai
           plaisir, de la solidité de l’observation qu’Elle fait à ce sujet ; mais ma nouvelle
           destination rendant inutiles toutes les réflexions, que je pourai encore faire à cet
-          égard, je me borne à faire des Voeux pour que l’union entre les deux <orgName
-            key="o0002,o0008">Cours </orgName>se cimente de plus en plus &amp; que d’un côté on
+          égard, je me borne à faire des Voeux pour que l’union entre les deux <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0002; o0008" xml:space="default">Cours </orgName>se cimente de plus en plus &amp; que d’un côté on
           veuille plus entrer dans la situation des Ministres, dont le pouvoir est borné, &amp; que
           nous aïons en même tems à négocier avec un Ministère, dont les vuës soient plus étendües,
           l’authorité moins resserée &amp; tel, </p>
-        <pb n="f. 7v" />
+        <pb n="f. 7v"/>
         <p> qu’il puisse prendre assez sur soi, pour faire les sacrifices qu’il convient pour
           cimenter cette union si désirable pour l’une &amp; l’autre, laquelle est cependant plus
           utile dans ce moment à l’angleterre qu’à nous.</p>
-        <p> Je m’empresserai à Vous mander, Monsieur, de <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">la haÿe</placeName>
+        <p> Je m’empresserai à Vous mander, Monsieur, de <placeName key="g0004" ref="https://www.geonames.org/2747373">la haÿe</placeName>
           tout ce que je croirai pouvoir meriter Votre attention ; mais je prévois d’avance que
           j’aurai rarement occasion de communiquer, à Votre Excellence des choses bien
           intêressantes. Quoiquil en soit je me ferai toûjours un plaisir de mériter de plus en plus
@@ -149,12 +139,10 @@
         <p>Le très humble et très</p>
         <p>Obeissant Serviteur</p>
         <p>
-          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">C[omte] Alexandre de
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">C[omte] Alexandre de
             Woronzov</persName>
         </p>
-        <p>à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName> ce 14/25 Fevrier</p>
+        <p>à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> ce 14/25 Fevrier</p>
         <p> 1764./.</p>
         <noteGrp>
           <note>Also see:</note>
