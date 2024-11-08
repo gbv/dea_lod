@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,33 +96,27 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9/20 July 1762. – Letter from <persName
-              key="p0144"
-              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Ambassador Plenipotentiary to
-            London, Count Aleksandr Romanovich Vorontsov</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>9/20 July 1762. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Ambassador Plenipotentiary to
+            London, Count Aleksandr Romanovich Vorontsov</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 773, f. 3–3v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 3" />
-        <p />
+        <p/>
+        <pb n="f. 3"/>
+        <p/>
         <p> </p>
         <p>Monsieur!</p>
-        <p>Ayant appris par un billet de chancelerie, que <persName
-            key="p0115"
-            ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">l’Empéreur </persName>avoit honoré Votre
+        <p>Ayant appris par un billet de chancelerie, que <persName key="p0115" ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">l’Empéreur </persName>avoit honoré Votre
           Excellence de la charge de Vice Chancelier, je me hâte de Vous en faire, Monsieur, mes
           plus sincères félicitations, en me recomandant en même tems à la continuation de Votre
           bonté &amp; de Votre amitié, à laquelle j’espère avoir quelque part par celle que Vous
@@ -134,12 +125,10 @@
           qui sont ici avec moi, présentent à Votre Excellence Leurs très humbles complimens de
           felicitation, surtout <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">Mr
           de Malsof</persName>, qui se recomande conjoinctement avec </p>
-        <pb n="f. 3v" />
+        <pb n="f. 3v"/>
         <p> eux à la continuation de Vos bontés.</p>
         <p>Je ne doute nullement, Monsieur, que Le ministère d’ici n’aprenne avec vraie satisfaction
-          cette grace de <persName
-            key="p0115"
-            ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">l’Empereur </persName>pour
+          cette grace de <persName key="p0115" ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">l’Empereur </persName>pour
           Votre Excellence par La consideration qu’il m’a temoigné avoir pour Sa personne.</p>
         <p>J’ai lhonneur d’être avec un attachement respectueux,</p>
         <p>Monsieur!</p>
@@ -147,12 +136,10 @@
         <p>le très humble et</p>
         <p>très obeissant serviteur</p>
         <p>
-          <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">C[omte]. Alexandre de
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">C[omte]. Alexandre de
             Woronzow</persName>
         </p>
-        <p>à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName> ce 9/20 juillet</p>
+        <p>à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> ce 9/20 juillet</p>
         <p>1762./</p>
         <noteGrp>
           <note>Also see:</note>
