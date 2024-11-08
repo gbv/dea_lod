@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,48 +96,39 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6/17 May 1764. – Letter from <persName
-              key="p0144"
-              ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Minister Plenipotentiary to the
-            Hague, Count Aleksandr Romanovich Vorontsov</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>6/17 May 1764. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Minister Plenipotentiary to the
+            Hague, Count Aleksandr Romanovich Vorontsov</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 775, f. 10. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 10" />
-        <p />
+        <p/>
+        <pb n="f. 10"/>
+        <p/>
         <p>Monsieur !</p>
-        <p> Votre Excellence se souviendra sans doute de l’affaire des Fauconiers, dont a été <persName
-            key="p0077"
-            ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">Chargé Mr De Gross</persName>,
-          mon prédecesseur, qui en ayant parlé à <persName key="p0000">Mr le C[om]te de Benteneth</persName>,
-          qui s’est preté de bonne grace à pourvoir Notre <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName> de quelques habiles
+        <p> Votre Excellence se souviendra sans doute de l’affaire des Fauconiers, dont a été <persName key="p0077" ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">Chargé Mr De Gross</persName>,
+          mon prédecesseur, qui en ayant parlé à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2293" xml:space="default">Mr le C[om]te de Benteneth</persName>,
+          qui s’est preté de bonne grace à pourvoir <orgName key="o0008">Notre Cour</orgName> de quelques habiles
           fauconiers, l’a flatté d’une prompte réponse, sur cet article ; mais come Elle ne vient
           point &amp; que ces gens, qui vouloient aller en Russie, le tourmentent journellement par
           raport à cette affaire, Vous voudrés bien me permettre, Monsieur, que je prenne la liberté
-          de Vous demander au plutôt la décision sur cet article, afin que j’en informe à mon tour <persName
-            key="p0000">Mr le C[om]te de Benteneth</persName> pour qu’il se debarasse à l’avenir de
+          de Vous demander au plutôt la décision sur cet article, afin que j’en informe à mon tour <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2293" xml:space="default">Mr le C[om]te de Benteneth</persName> pour qu’il se debarasse à l’avenir de
           toutes les peines que lui causent les Fauconiers, qui souhaitent de savoir à quoi s’en
           tenir à cet égard ; vû qu’il m’en aparlé à différentes réprises.</p>
         <p> J’ai l’honeur d’etre avec une Consideration très distinguée</p>
         <p> Monsieur !</p>
         <p> De Votre Excellence</p>
         <p> Le très humble et très</p>
-        <p>obeissant Servitter <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">C[omte]
+        <p>obeissant Servitter <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">C[omte]
           Alexandre de Woronzow</persName>
         </p>
         <p> </p>
