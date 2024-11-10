@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,38 +96,33 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>28 February 1745. – Letter from <persName
-              key="p0077"
-              ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">the Russian Minister Plenipotentiary to
-            France, Heinrich Gottfried Gross</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Councilor of the Russian Embassy to The
+          <title>28 February 1745. – Letter from <persName key="p0077" ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">the Russian Minister Plenipotentiary to
+            France, Heinrich Gottfried Gross</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Councilor of the Russian Embassy to The
             Hague, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
-            <bibl>RGADA, fond 1263, opis 1, no. 1088, f. 2–2v, 2a v. French original.</bibl>
+            <bibl>RGADA, fond 1263, opis 1, no. 1088, f. 2–2v, 2av. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 2" />
-        <p />
+        <p/>
+        <pb n="f. 2"/>
+        <p/>
         <p>Mon Prince</p>
         <p>J’ai eté bien surpris d’apprendre par Votre lettre du 19. fevrier, que la caisse que par
-          votre ordre j’avois remis au <persName key="p0143" ref="88dd6d89-3263-4048-9398-ef55584d9c62">S<hi
-              rendition="#sup">r</hi>. Vitynsky</persName>
+          votre ordre j’avois remis au <persName key="p0143" ref="88dd6d89-3263-4048-9398-ef55584d9c62">S<hi rendition="#sup">r</hi>. Vitynsky</persName>
           soit egarée. Je ne saurois en soupçonner ce dernier, puisque je n’ai jamais rien entendû
           sur son compte qui puisse me donner lieu à avoir quelque prejugé contre lui. Il a toujours
           passé ici pour un fort honête garçon, et tout le monde qui l’a connû lui rend le même
           temoignage. De sorte que je croi devoir suspendre mon jugement sur cette affaire, jusqu’à
           ce qu’elle soit mieux eclaircie. </p>
-        <pb n="f. 2v" />
+        <pb n="f. 2v"/>
         <p> En attendant, Mon Prince, je vous suplie d’etre persuadé de mon zele et de l’attachement
           respectueux, avec lequel j’ai l’honneur d’etre</p>
         <p>Mon Prince</p>
@@ -138,12 +130,10 @@
         <p>très obeïssant serviteur</p>
         <p>
           <persName key="p0077" ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">Gross</persName>.</p>
-        <p>à <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName>. ce 28. fevr. 1745.</p>
-        <p />
-        <pb n="f. 2av" />
-        <p />
+        <p>à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName>. ce 28. fevr. 1745.</p>
+        <p/>
+        <pb n="f. 2av"/>
+        <p/>
         <p>
           <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> 28. fevr. 1745</p>
         <p>De <persName key="p0077" ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">M<hi rendition="#sup">
