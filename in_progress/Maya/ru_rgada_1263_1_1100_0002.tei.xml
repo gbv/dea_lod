@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,56 +96,46 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>3 April/23 March 1767. – Letter from <persName
-              key="p0076"
-              ref="6dae20a2-6921-4999-9ad3-271c5403b39d">the Russian Resident in the Lower Saxon
-            Imperial Circle, Friedrich Ulrich Gross</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>3 April/23 March 1767. – Letter from <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">the Russian Resident in the Lower Saxon
+            Imperial Circle, Friedrich Ulrich Gross</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1100, f. 2–2v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 2" />
-        <p />
+        
+        <pb n="f. 2"/>
+        <p/>
         <p>
-          <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName> ce 3 avril/23 mars 1767</p>
+          <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName> ce 3 avril/23 mars 1767</p>
         <p>Monseigneur</p>
-        <p />
+        <p/>
         <p>Je me vis hier favorisé de la gracieuse lettre de Votre Altesse en datte du 26 fevrier
           dernier en lui en temoignant ma plus vive reconnoissance des marques de bienveillance
           distinguées, qu’il lui a plu me donner. En consequence de Vos ordres Monseigneur j’ecris
-          par l’ordinaire d’aujourd’hui à Monsieur le Conseiller privé actuel <persName
-            key="p0127"
-            ref="af2ff92b-9e36-4cff-b9ef-2e0f8a45d945">de Saldern</persName> afin d’en retirer la
+          par l’ordinaire d’aujourd’hui à Monsieur le Conseiller privé actuel <persName key="p0127" ref="af2ff92b-9e36-4cff-b9ef-2e0f8a45d945">de Saldern</persName> afin d’en retirer la
           meilleure adresse touchant l’achat de deux etalons de Holstein, dont Votre Altesse vient
           de me charger. </p>
-        <pb n="f. 2v" />
+        <pb n="f. 2v"/>
         <p> Pour ce qui regarde l'expedition ulterieure de la caisse à liqueurs que Votre Altesse
-          attend de <placeName
-            key="g0031"
-            ref="https://www.geonames.org/3164603">Venise</placeName>, j'en prendrai sans faute un soin
+          attend de <placeName key="g0031" ref="https://www.geonames.org/3164603">Venise</placeName>, j'en prendrai sans faute un soin
           particulier aussitot que le vaisseau danois sera entré dans le port d’ici.</p>
         <p>En attendant j’ai l’honneur de protester à Votre Altesse qu’Elle ne sçauroit m’obliger
           d’avantage qu’en me mettant à même pour Lui etre de quelque utilité, etant invariablement
           avec un attachement sincere et très respectueux</p>
-        <p />
+        <p/>
         <p>Monseigneur</p>
         <p>De Votre Altesse</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>Le très humble et très obeissant</p>
         <p>serviteur <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">Gross</persName>
         </p>
