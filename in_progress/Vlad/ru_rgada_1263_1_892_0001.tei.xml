@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,60 +95,46 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> September 1759. – Letter from <persName
-              key="p0110"
-              ref="1a6510a5-cfdc-4a25-9ee3-32f1947dcf7e">the gem-engraver and medalier, Johann
-              Lorenz Natter</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title> September 1759. – Letter from <persName key="p0110" ref="1a6510a5-cfdc-4a25-9ee3-32f1947dcf7e">gem-engraver and medalier, Johann
+              Lorenz Natter</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 892, f. 1, 2v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
+        <pb n="f. 1"/>
+        <p/>
         <p>Monsieur</p>
         <p>L’impression de la gravure representant une figure demi couchée vetû d’une robe longe, et
-          quatre autres figures armées, me semble doit signifier la mort du <persName
-            key="p0028"
-            ref="2b669f2e-fc0e-445d-826c-04cc50525cf3">C[aius].J[ulius].Cesar</persName>. Dans
-          l’exergue il y a le nom[m] <persName
-            key="p1477"
-            ref="73c1be66-8418-4e9d-b688-26976619b64e">ΣΩΛΩΝΟΣ</persName> à l’im[m]itation de celui
+          quatre autres figures armées, me semble doit signifier la mort du <persName key="p0028" ref="2b669f2e-fc0e-445d-826c-04cc50525cf3">C[aius].J[ulius].Cesar</persName>. Dans
+          l’exergue il y a le nom[m] <persName key="p1477" ref="73c1be66-8418-4e9d-b688-26976619b64e">ΣΩΛΩΝΟΣ</persName> à l’im[m]itation de celui
           de la Meduse du Strozzi.</p>
         <p>Tous les pieces qui sont con[n]û avec ce nom là sont d’un ouvrage excellente, même croit
-          on que cet habile artiste vivoit en Grece avant la mort du <persName
-            key="p0028"
-            ref="2b669f2e-fc0e-445d-826c-04cc50525cf3">Cæsar</persName>[sic]. Cela ne fait rien,
+          on que cet habile artiste vivoit en Grece avant la mort du <persName key="p0028" ref="2b669f2e-fc0e-445d-826c-04cc50525cf3">Cæsar</persName>[sic]. Cela ne fait rien,
           mais cette gravure en question est a mon avis moderne sans la moindre doute, il n’y a pas
           la moindre marque de l’ouvrage greques &amp; les Romains dans cett [sic] siecle, n’ont pas
-          gravé en creux des histoires, ordinairement en relieve; on trouve aussi la mort du <persName
-            key="p0312"
-            ref="d281e982-dee5-4805-87e3-b29333fe7c89">Galba</persName> gravé a la même
+          gravé en creux des histoires, ordinairement en relieve; on trouve aussi la mort du <persName key="p0312" ref="d281e982-dee5-4805-87e3-b29333fe7c89">Galba</persName> gravé a la même
           manière, vid: le livre du <persName key="p0049" ref="dda828c7-1629-43c8-a584-b6566410170e">
-          M<hi rendition="#sup">r </hi>Ebermayer</persName> de <placeName
-            key="g0062"
-            ref="https://www.geonames.org/2861650">
+          M<hi rendition="#sup">r </hi>Ebermayer</persName> de <placeName key="g0062" ref="https://www.geonames.org/2861650">
             Nürnberg</placeName>. Il n’est pas necessaire d’en faire plus des recherches car il est
           trop clair. voila tout ce que je trouve juste.</p>
         <p>Je suis </p>
         <p>Mons[ieur] </p>
         <p>votre très h[umble] &amp; ob[éissan]t </p>
         <p>
-          <persName key="p0110" ref="1a6510a5-cfdc-4a25-9ee3-32f1947dcf7e">L[orenz]. Natter</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0110" xml:space="default" ref="1a6510a5-cfdc-4a25-9ee3-32f1947dcf7e" type="signature">L[orenz]. Natter</persName>
         </p>
-        <p />
-        <pb n="f. 2v" />
-        <p />
+        <p/>
+        <pb n="f. 2v"/>
+        <p/>
         <p>
           <placeName key="g0003" ref="https://www.geonames.org/2643743">London</placeName> du Sempt. 1759</p>
         <p>du <persName key="p0110" ref="1a6510a5-cfdc-4a25-9ee3-32f1947dcf7e">Graveur Natter</persName>
