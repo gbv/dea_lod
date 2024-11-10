@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,44 +96,36 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>24 August/4 September 1767. – Letter from <persName
-              key="p0076"
-              ref="6dae20a2-6921-4999-9ad3-271c5403b39d">the Russian Resident in the Lower Saxon
-            Imperial Circle, Friedrich Ulrich Gross</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>24 August/4 September 1767. – Letter from <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">the Russian Resident in the Lower Saxon
+            Imperial Circle, Friedrich Ulrich Gross</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1100, f. 10–10v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 10" />
-        <p />
-        <p>à <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName> ce 24. Août / 4. Sept. 1767.</p>
+        <p/>
+        <pb n="f. 10"/>
+        <p/>
+        <p>à <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName> ce 24. Août / 4. Sept. 1767.</p>
         <p>Monseigneur.</p>
-        <p />
+        <p/>
         <p>J’ai l’honneur d’accuser sans delai à Votre Altesse la reception de Sa gracieuse lettre
-          en date du 1. d’Aout dernier, accompagnée d’une incluse de la main de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>
+          en date du 1. d’Aout dernier, accompagnée d’une incluse de la main de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>
           pour <persName key="p0018" ref="fd25601b-b39c-4082-bfc4-d21fdc85e82f">Madame de Bielke</persName>,
           que je lui remis incontinent en person[n]e, en lui ofrant en même tems mes services pour
           l’acheminement de sa reponse.</p>
         <p>En attendant je rends bien de graces à Votre Altesse, de ce qu’Elle a daignée agréer les
           excuses que je fus obligé de Lui faire en dernier lieu au sujet de la com[m]ission pour
           l’achat des chevaux. J’ose Vous </p>
-        <pb n="f. 10v" />
+        <pb n="f. 10v"/>
         <p> protester Monseigneur, qu’etant tout acquis à Votre Altesse, j’eus veritablement
           beaucoup de chagrin, de n’avoir pas pû Lui complaire en cette rencontre.</p>
         <p>Il ne me reste que de suplier très humblement Votre Altesse, de me continuer Sa
@@ -144,11 +133,11 @@
           respectueux, avec lequel j’ai l’honneur d’etre</p>
         <p>Monseigneur</p>
         <p>De Votre Altesse</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>le très humble et très</p>
         <p>obeissant Serviteur</p>
-        <p>Gross.</p>
+        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0076" xml:space="default" type="signature">Gross</persName>.</p>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_rgada_1263_1_1095_0001</note>
