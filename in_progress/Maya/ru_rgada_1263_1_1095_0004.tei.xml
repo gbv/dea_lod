@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,29 +95,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 6/17 July 1762. – Letter from <persName
-              key="p0076"
-              ref="6dae20a2-6921-4999-9ad3-271c5403b39d">the Councilor of the Russian Legation to
-            The Hague, Friedrich Ulrich Gross</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title> 6/17 July 1762. – Letter from <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">the Councilor of the Russian Legation to
+            The Hague, Friedrich Ulrich Gross</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1095, f. 17, 18v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 17" />
-        <p />
+        <pb n="f. 17"/>
+        <p/>
         <p>Monseigneur.</p>
-        <p />
+        <p/>
         <p>J’ai apris avec un plaisir infini la nomination de Votre Excellence à la dignité eminente
           de Vice Chancelier. Tout acquis que je Vous suis, Monseigneur, Vous ne douterés pas un
           instant de la sincerité de mes voeux, à Vous voir jouir pendant longues années en parfaite
@@ -129,25 +122,21 @@
           graces, et d’etre persuadé du devouement respectueux, avec le quel je ne cesserai d’etre</p>
         <p>Monseigneur</p>
         <p>De Votre Excellence</p>
-        <p />
-        <p />
-        <p>à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">la Haye</placeName> le 17/6 Juillet 1762.</p>
-        <p />
+        <p/>
+        <p/>
+        <p>à <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName> le 17/6 Juillet 1762.</p>
+        <p/>
         <p>le très humble et très</p>
         <p>obeissant serviteur</p>
         <p>
-          <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">F[rederic]. de Gross</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0076" xml:space="default" ref="6dae20a2-6921-4999-9ad3-271c5403b39d" type="signature">F[rederic]. de Gross</persName>
           .</p>
-        <p />
-        <p />
-        <pb n="f. 18v" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 18v"/>
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 6/17 Juillet 1762.</p>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 6/17 Juillet 1762.</p>
         <p>de <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">M<hi rendition="#sup">
           r</hi> le Cons[eille]<hi rendition="#sup">r</hi>.</persName>
         </p>
