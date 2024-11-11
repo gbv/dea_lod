@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,18 +97,15 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9 December 1746. – Russian-German exercise translation of the text entitled <hi
-              rendition="#i">What
-              cannot be changed becomes easier with patience</hi> by <persName
-              key="p0829"
-              ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Prince Aleksandr Sergeevich
+          <title>9 December 1746. – Russian-German exercise translation of the text entitled <hi rendition="#i">What
+              cannot be changed becomes easier with patience</hi> by <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Prince Aleksandr Sergeevich
             Dolgorukov</persName>
           </title>
           <note>
@@ -119,11 +113,9 @@
               translation.</bibl>
           </note>
         </head>
-        <pb n="f. 6" />
-        <p />
-        <p>Ubersetzt aus dem Russischen ins Teutsche beym <orgName
-            key="o0006"
-            ref="171110b7-5487-4f01-a8b9-28103f4f2159">Adlichen Cadetten-Corps</orgName> d[en] 9.
+        <pb n="f. 6"/>
+        <p>Терпъением облегчится то, что переменено быть неможет. Во числе безумнейших и временное сие житие паче всего огорчеваещих человеческих слабостей находится и нетерпеливость, в таких случаях, которых мы или весьма переменить не можем, или которые попоследней мере тихой и постоянной мысли требует, дабы оныя тем буде не весьма обращены, однакож бы по возможности облегчены и сносны быть могли. Некоторые обьявляют сию нетерпеливость ворчаливым своим и упорным противлением, иные чрез жалобы, печаль и малодушие, а иные и весьма чрез крайнее отчаяние. Но все хулимыя такия поступки не токмо из умножения нашего несчастия склоняются, но лишают нас и всех способов в таких случаях, где оные индо еще действительноприняты и превращены быть могли бы.Was man nicht ändern kann, wird durch die Gedult leichter. Unter die Zahl derer unverständigsten und für dieses zeitliche Leben schädlichsten menschlichen Leidenschaften, wird auch die Ungedult gerechnet; in solchen Umständen, die entweder gar nicht verändert werden können, oder wenigstens ein ruhiges und gedultiges Gemüthe erfordern, damit dieselbe wo sie nicht gantz verändert, doch so viel als möglich, leichter und erträglicher werden. Einige zeigen diese Ungedult durch ein unverschämtes Murren, andere durch klagen, betrübniß und Zaghaftigkeit, andere endlich durch die äusserste Verzweiffelung. Durch eine solche tadelhafte Aufführung wird nicht alleine unsere Unglückseeligkeit vermehret, sondern auch, in solchen Umständen, wo dieselben würklich annoch nützlich seyn könten, uns alle Mittel benommen.</p>
+        <p>Ubersetzt aus dem Russischen ins Teutsche beym <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Adlichen Cadetten-Corps</orgName> d[en] 9.
           Dec[ember] 1746.</p>
         <p>
           <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Pr[inz] Alexander
