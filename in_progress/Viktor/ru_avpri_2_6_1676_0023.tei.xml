@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,24 +98,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>5 December 1746. – Russian-French exercise translation by <persName
-              key="p0230"
-              ref="477af837-0c75-4b51-8f27-37c7a51d3156">Ivan Sergeevich Golovin</persName>
+          <title>5 December 1746. – Russian-French exercise translation by <persName key="p0230" ref="477af837-0c75-4b51-8f27-37c7a51d3156">Ivan Sergeevich Golovin</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 36. Russian original and French
               translation.</bibl>
           </note>
         </head>
-        <pb n="f. 36" />
-        <p />
+        <pb n="f. 36"/>
+        <p>О действиях надежды во обще; а особенно оныя которыя основана на благочестии Настоящее время к тому весма не способно, что человеческому разуму подать доволно упражнения на оные случаи, которые наносют скуку или увеселение, которые производят любовь или удивление, бывают в нашей жизни не так часто что они душу бы могли содержать в беспрестанном упражнении, и ее силами дать доволно упражнения, для упрощения сего недостатка, и что человеческий разум не был без упражнения но всегда бы имел о чем мыслить, одарен он такими силами, чрез которые он не токмо прошедшее но и будущее может себе представлять. Сия удивительная сила, которая называется память, возвращается всегда на прошедшее когда наш разум в настоящем никакого упражнения не находит и проч:Des effets de l’Esperance en general &amp; particulierement de celle qui est fondée sur la pieté.Le temps present n’e pas propre pour donner assez d’occupation à l’esprit humain. Les occasions qui causent l’ennui ou le plaisir, l’amour ou l’etonnement, n'arrivent pas si souvent pour pouvoir tenir l’ame dans un activité perpetuele &amp; donner assez d’occupation à ses facultés. Pour détourner ce defaut &amp; que l’esprit humain ne demeure pas dans l’inaction mais qu’il ait toujours à penser quelque choses, il est doué de telles facultés, par les quelles il peu [peut] se representer non seulement le passé mais aussi l’avenir. Cette étonnante faculté, qui s’appele la mémoire, se represente toujours le passé, quand notre esprit ne trouve aucune occupation dans le present</p>
         <p>La traduction du russien en françois</p>
         <p>Fait au <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des
           Cadets</orgName> ce 5 decembre 1746.</p>
