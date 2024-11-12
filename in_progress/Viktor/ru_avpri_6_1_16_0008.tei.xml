@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,7 +100,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -111,9 +108,7 @@
       <div type="letter">
         <head>
           <title>11 October / 22 October 1743. – Letter from <persName key="p0759">the Imperial and
-            Bavarian Minister in St. Petersburg, Baron Joseph von Neuhaus</persName>, to <persName
-              key="p0388"
-              ref="e58aa763-a1e1-4956-a10d-5a9757225224">the Vice-Chancellor of the Holy
+            Bavarian Minister in St. Petersburg, Baron Joseph von Neuhaus</persName>, to <persName key="p0388" ref="e58aa763-a1e1-4956-a10d-5a9757225224">the Vice-Chancellor of the Holy
             Roman Empire, Count Johann Georg von Königsfeld</persName>
           </title>
           <note>
@@ -121,22 +116,20 @@
               Russian: ibid, f. 106—107.</bibl>
           </note>
         </head>
-        <pb n="f. 105" />
-        <p />
+        <pb n="f. 105"/>
+        
         <p>Weilen mein <persName key="p0767">Secretaire</persName> noch immer unpäßlich und
           wiewohlen es zur Beßerung mit ihme das Ansehen hat, doch nit im Stand ist, etwas
           zuschreiben; bin ich abermahlen bemüßiget, meine relation frantzösisch verfaßen und mithin
           ad manus Serenissima vermög gnädigster instruction zu übermachen. Ew. Excell. werden
           hieraus ersehen, auf was Art endlich meine Negociation am hießigen Hofe angefangen, und an
           weme es nunmehro erwindet, daß es endlich zum gewünschten Ausgang gelange. Ich bedauere
-          von Herzen, daß immer sich einige difficultaeten bezeigen, und mithin <persName
-            key="p0753"
-            ref="72a487db-6ead-41c6-8de4-23472e5ae89c">Sr M[ajes]t[ät] der Kayser</persName>
+          von Herzen, daß immer sich einige difficultaeten bezeigen, und mithin <persName key="p0753" ref="72a487db-6ead-41c6-8de4-23472e5ae89c">Sr M[ajes]t[ät] der Kayser</persName>
           glauben könten, ich laße an meinem Eiffer und mich etwas erwünden; es werden aber andere
           nur Zeugniß geben, daß es Ihnen in anderen affairen gleich mir ergehe. So bald die Antwort
           von <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">hießigen Hofe</orgName>
           über meinen gethanen Vortrag </p>
-        <pb n="f. 105v" />
+        <pb n="f. 105v"/>
         <p> erhalten, werde solche per staffetam übershicken, umb desto eher die allergnädgst[en]
           Kays[erlichen]. Befehle zu erhalten, ob meine gethanene Vorschläge allergnädigst
           beangenehmet werden, und was gerneres zu thun habe.</p>
@@ -144,7 +137,7 @@
           diese wenige Zeilen in Erwartung gnädigster orderen und gütige Beantwortung meiner
           voriegen relationen und schreiben mich zu Gnaden recomandiren mit Versicherung, daß mit
           vollkommenster Ergebenheit sey.</p>
-        <p />
+        <p/>
         <noteGrp>
           <note>See translation of this document: ru_avpri_6_1_16_0009</note>
         </noteGrp>
