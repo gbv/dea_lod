@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +97,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -116,83 +113,47 @@
             <bibl>AVPRI, fond 6, opis 1, no. 18, f. 19—21. English original.</bibl>
           </note>
         </head>
-        <pb n="f. 19" />
-        <p />
-        <p>Копия писма <persName key="p0777">английского министра вейча</persName> к <persName
-            key="p0778">статскому секретарю Картерету</persName>.</p>
+        <pb n="f. 19"/>
+        <p/>
+        <p>Копия писма <persName key="p0777">английского министра вейча</persName> к <persName key="p0778">статскому секретарю Картерету</persName>.</p>
         <p>
-          <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">St Petersburg</placeName>, 13 August 1743.</p>
+          <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0002" xml:space="default" ref="https://www.geonames.org/498817">St Petersburg</placeName>, 13 August 1743.</p>
         <p>My Lord</p>
-        <p>My last letters to your Lordship were of the 5.<hi rendition="#sup">th</hi> and 6.<hi
-            rendition="#sup">th</hi> Instant, the former by a courier, which <persName key="p0763">the
-          Saxon Minister</persName> dispatched to <orgName
-            key="o0012"
-            ref="76593cc3-a621-46b7-8e1c-532ad73e99af">their court</orgName>, and the latter by the
+        <p>My last letters to your Lordship were of the 5.<hi rendition="#sup">th</hi> and 6.<hi rendition="#sup">th</hi> Instant, the former by a courier, which <persName key="p0763">the
+          Saxon Minister</persName> dispatched to <orgName key="o0012" ref="76593cc3-a621-46b7-8e1c-532ad73e99af">their court</orgName>, and the latter by the
           Post, which I hope are both come to your Lordship hands.</p>
         <p>Since that time the commissioners appointed to examine the conduct of the malcontents
           have continued their enquiries with great diligence but as the discoveries they have made
-          seem not to amount to plain and positive Proofs of any bad design against <persName
-            key="p0052"
-            ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Her Imperial Majesty</persName>,
+          seem not to amount to plain and positive Proofs of any bad design against <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Her Imperial Majesty</persName>,
           or <persName key="p0115" ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">the great Duke</persName>
           I suppose great stess will be leid upon the caracteres [sic] of the Persons accused, their
           usual course of Life, their </p>
-        <pb n="f. 19v" />
+        <pb n="f. 19v"/>
         <p> connections and dispositions, and weigh greatly in their condemnation or acquittal.</p>
         <p>The <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Czarina</persName>
           presses very much the Finishing of the Inquisition, which gives her some uneasiness, and I
           believe this storm will soon blow over without doing all the mischief which was et first
           apprehended.</p>
-        <pb n="f. 20" />
-        <p> Last thursday night a courier dispatched from the congress at <placeName
-            key="g0073"
-            ref="https://www.geonames.org/633679">Abo</placeName>
+        <pb n="f. 20"/>
+        <p> Last thursday night a courier dispatched from the congress at <placeName key="g0073" ref="https://www.geonames.org/633679">Abo</placeName>
           arrived here with the definitif Treaty between Russia and Sweden signe[d] by the
           respective ministers of the two courts: and when the Ratifications, which are preparing on
-          both sides, are exchanged, I suppose the <persName
-            key="p0052"
-            ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Czarina</persName> will notify in form to all
+          both sides, are exchanged, I suppose the <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Czarina</persName> will notify in form to all
           other courts the happy conclusion of this important affair. </p>
         <p>The same courier brought advice that <persName key="p0779">Count Löwenhaupt</persName>,
-          who was condemned to lose his head, has found means to make his Escape out of Prison at <placeName
-            key="g0017"
-            ref="https://www.geonames.org/2673730">Stockholm</placeName> by the assistance of some of his Guards and they seem
+          who was condemned to lose his head, has found means to make his Escape out of Prison at <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName> by the assistance of some of his Guards and they seem
           very impatient to know here, if he is retired into France, or Denmark; or if he is gone to
           put himself at the head of the disaffected dalecarlians.</p>
-        <pb n="f. 20 v" />
-        <p> I believe to have mentioned in one of my former Letters, that <persName
-            key="p0052"
-            ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">the Czarina</persName> appointed <persName
-            key="p0245"
-            ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">M.Korf</persName> /:who was
-          formerly sent to fetch the <persName
-            key="p0115"
-            ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">Great Duke</persName> from Holstein:/ to go
-          to <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hamburgh</placeName>, and congratulate in her name the <persName
-            key="p0232"
-            ref="67044862-485a-4970-8756-0d6c229cae34">Prince Royal of Schweden</persName> upon his
-          Election. This <persName
-            key="p0245"
-            ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Gentleman</persName>,
+        <pb n="f. 20 v"/>
+        <p> I believe to have mentioned in one of my former Letters, that <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">the Czarina</persName> appointed <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">M.Korf</persName> /:who was
+          formerly sent to fetch the <persName key="p0115" ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">Great Duke</persName> from Holstein:/ to go
+          to <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburgh</placeName>, and congratulate in her name the <persName key="p0232" ref="67044862-485a-4970-8756-0d6c229cae34">Prince Royal of Schweden</persName> upon his
+          Election. This <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Gentleman</persName>,
           whose journey had been suspended on account of some incidents which have put a stop to all
-          other business, will set out this day, and I believe he is ordered to attend <persName
-            key="p0232"
-            ref="67044862-485a-4970-8756-0d6c229cae34">the Prince Royal</persName> to <placeName
-            key="g0017"
-            ref="https://www.geonames.org/2673730">Stockholm</placeName>. By him <persName
-            key="p0052"
-            ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">the Czarina</persName> has sent <persName
-            key="p0232"
-            ref="67044862-485a-4970-8756-0d6c229cae34">His Royal Highness</persName> a
-          rimittance of fifthy Thousand Rubles, and the order of S=Andrew to his Brother, <persName
-            key="p0755"
-            ref="af3a8a56-b0c4-466e-8be0-0e734c7d6c0c">Prince August of Holstein</persName>,
+          other business, will set out this day, and I believe he is ordered to attend <persName key="p0232" ref="67044862-485a-4970-8756-0d6c229cae34">the Prince Royal</persName> to <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName>. By him <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">the Czarina</persName> has sent <persName key="p0232" ref="67044862-485a-4970-8756-0d6c229cae34">His Royal Highness</persName> a
+          rimittance of fifthy Thousand Rubles, and the order of S=Andrew to his Brother, <persName key="p0755" ref="af3a8a56-b0c4-466e-8be0-0e734c7d6c0c">Prince August of Holstein</persName>,
           who has a regiment in the Dutch service.</p>
-        <pb n="f. 21" />
+        <pb n="f. 21"/>
         <p> I am with the Greatest Truth and Respect</p>
         <p>My Lord</p>
         <p>Your Lordship</p>
