@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Petition of hieromonk Varfolomey Kassano to Empress Anna Ioannovna</title>
+        <title type="main" xml:lang="en">Petition of hieromonk Varfolomey Kassano to Empress Anna Ioannovna</title>
         <author xml:lang="en">Varfolomei</author>
         <author xml:lang="en">Kassano</author>
       </titleStmt>
@@ -98,64 +93,32 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9 June 1732. – Petition of hieromonk <persName
-              key="p0171"
-              ref="69850e16-9fcb-4788-b1d6-d4310394cab5">Varfolomey Kassano</persName> to <persName
-              key="p0006"
-              ref="bc444245-d428-47f5-8e28-07bd88e25987">Empress Anna Ioannovna </persName>sent by <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court, Prince Antiokh Kantemir</persName>
+          <title>9 June 1732. – Petition of <persName key="p0171">hieromonk Varfolomey Kassano</persName> to <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Empress Anna Ioannovna </persName>sent by <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court, Prince Antiokh Kantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 545, f. 65–65v. Russian original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 65" />
-        <p />
-        <p>Пресветлейшая державнейшая великая Г[осу]д[а]р[ы]ня императрица <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">Анна Иоанн[о]вна Самодержица Всеросийская</persName>
+        
+        <pb n="f. 65"/>
+        
+        <p>Пресветлейшая державнейшая великая Г[осу]д[а]р[ы]ня императрица <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Анна Иоанн[о]вна Самодержица Всеросийская</persName>
         </p>
-        <p>В прошлом 1726м году указом блаженныя памяти Ея императорскаго величества <persName
-            key="p0172"
-            ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">Экатерины Алексеевны</persName> чрез благословение <orgName
-            key="o0016"
-            ref="3c3afb80-601d-4a26-9aaa-72cf8bb9e534">Святейшаго Правительствующаго Синода</orgName>, посвящен я нижайший в иереи, и послан в Англию для служения совокупно с <persName
-            key="p0173"
-            ref="db5edbd3-02a9-45ad-8cf7-7124e486af46">архимандритом Генадием</persName> при ц[е]ркве установленной здесь в <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Лондоне</placeName> в 1717 году указом блаженныя памяти Его императорскаго величества <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Петра Великаго</persName>; но притом мне нижайшему никакого жалованья неопределено чем бы мог себя и свою бедную фамилию пропитать. И н[ы]не, чрез шести летное время собственныя свои сколко я имел д[е]нги все издержав, пришол я в крайную скудость понеже определенными <persName
-            key="p0173"
-            ref="db5edbd3-02a9-45ad-8cf7-7124e486af46">архимандриту</persName> пять сот рублями нам двум никаким образом пропитатся неможно как сам <persName
-            key="p0173"
-            ref="db5edbd3-02a9-45ad-8cf7-7124e486af46">архимандрит</persName> в 1729м году быв в <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Москве</placeName> своею всепокорнейшею челобитною предявил в <orgName
-            key="o0001"
-            ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">Г[осу]д[а]рственной Коллегии иностранных дел</orgName>. А труды мои и рачение о службе б[о]жией кроме того что из посланных и мною в святейшия синод поданых на аглицком языке кн[и]гах явны вашего императорскаго величества министр </p>
-        <pb n="f. 65v" />
+        <p>В прошлом 1726м году указом блаженныя памяти Ея императорскаго величества <persName key="p0172" ref="3024bf47-08e2-4c7c-aa8c-eb6e7dc969f5">Экатерины Алексеевны</persName> чрез благословение <orgName key="o0016" ref="3c3afb80-601d-4a26-9aaa-72cf8bb9e534">Святейшаго Правительствующаго Синода</orgName>, посвящен я нижайший в иереи, и послан в Англию для служения совокупно с <persName key="p0173" ref="db5edbd3-02a9-45ad-8cf7-7124e486af46">архимандритом Генадием</persName> при ц[е]ркве установленной здесь в <placeName key="g0003" ref="https://www.geonames.org/2643743">Лондоне</placeName> в 1717 году указом блаженныя памяти Его императорскаго величества <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Петра Великаго</persName>; но притом мне нижайшему никакого жалованья неопределено чем бы мог себя и свою бедную фамилию пропитать. И н[ы]не, чрез шести летное время собственныя свои сколко я имел д[е]нги все издержав, пришол я в крайную скудость понеже определенными <persName key="p0173" ref="db5edbd3-02a9-45ad-8cf7-7124e486af46">архимандриту</persName> пять сот рублями нам двум никаким образом пропитатся неможно как сам <persName key="p0173" ref="db5edbd3-02a9-45ad-8cf7-7124e486af46">архимандрит</persName> в 1729м году быв в <placeName key="g0001" ref="https://www.geonames.org/524894">Москве</placeName> своею всепокорнейшею челобитною предявил в <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">Г[осу]д[а]рственной Коллегии иностранных дел</orgName>. А труды мои и рачение о службе б[о]жией кроме того что из посланных и мною в святейшия синод поданых на аглицком языке кн[и]гах явны вашего императорскаго величества министр </p>
+        <pb n="f. 65v"/>
         <p>
-          <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">кн[я]зь Антиох Кантемир</persName> засвидетельствовать может.</p>
-        <p>Того ради всеподанейше прошу <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше императорское величество</persName> показать надо мною нижайшим высокую монаршеиу [sic] м[и]л[о]сть и указать определить мне какое пропитание, чтоб мне с женою и с детми здесь в чужестранстве непомереть с голоду, за что должен буду вечно б[о]га молить за здравие в[а]шего императорского величества и за ваше благополучное и долголетное ц[а]рствование.</p>
+          <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">кн[я]зь Антиох Кантемир</persName> засвидетельствовать может.</p>
+        <p>Того ради всеподанейше прошу <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">ваше императорское величество</persName> показать надо мною нижайшим высокую монаршеиу [sic] м[и]л[о]сть и указать определить мне какое пропитание, чтоб мне с женою и с детми здесь в чужестранстве непомереть с голоду, за что должен буду вечно б[о]га молить за здравие в[а]шего императорского величества и за ваше благополучное и долголетное ц[а]рствование.</p>
         <p>В[а]шего императорскаго величества</p>
         <p>В <placeName key="g0003" ref="https://www.geonames.org/2643743">Лондоне</placeName> 9 июня 1732</p>
-        <p>Всеподданнейший раб и б[о]гмолец иерей <persName
-            key="p0171"
-            ref="69850e16-9fcb-4788-b1d6-d4310394cab5">Варфоломей Кассано</persName>
+        <p>Всеподданнейший раб и б[о]гмолец иерей <persName key="p0171" ref="69850e16-9fcb-4788-b1d6-d4310394cab5">Варфоломей Кассано</persName>
         </p>
       </div>
     </body>
