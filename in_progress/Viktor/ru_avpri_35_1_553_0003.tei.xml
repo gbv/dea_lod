@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,36 +95,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9 June 1732. – Letter from <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
-            Prince Antiokh Kantemir</persName>, to <persName
-              key="p0167"
-              ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Vice-Chancelor of the Russian Empire,
+          <title>9 June 1732. – Letter from <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+            Prince Antiokh Сantemir</persName>, to <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Vice-Chancelor of the Russian Empire,
             Count Heinrich Ostermann</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 18v–19. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 18v" />
-        <p />
-        <p>В <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">С[анкт-]Петерб[ург]</placeName> к Его Сиятел[ьству] <persName
-            key="p0167"
-            ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Графу А.И. Остерману</persName>
+        <pb n="f. 18v"/>
+        <p/>
+        <p>В <placeName key="g0002" ref="https://www.geonames.org/498817">С[анкт-]Петерб[ург]</placeName> к Его Сиятел[ьству] <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Графу А.И. Остерману</persName>
         </p>
-        <p>Из <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Лондона</placeName> 9. июня 1732.</p>
+        <p>Из <placeName key="g0003" ref="https://www.geonames.org/2643743">Лондона</placeName> 9. июня 1732.</p>
         <p>Сиятелнейший Граф</p>
         <p>Прем[и]л[ос]тивой Г[осу]д[а]рь мой</p>
         <p>Почтеннейшее Сият[ельст]ва В[а]шего писание от 16. маия сего числа исправно я получил, за
@@ -135,12 +122,8 @@
           в[а]шей к себе высокой м[и]л[о]сти благоразсудителныя увещания и отеческое наставление
           которыми оно исполнено. На оное В[ашем]у Сият[ельст]ву в ответ всепокорно доношу что по
           приказу В[ашег]о Сият[ельст]ва неоставлю с крайним старанием выведать о писме берлинском и
-          осведомився о издателе листа под титулом <orgName
-            key="o0004"
-            ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening Post</orgName> все способы возможные
-          употреблять для сего; и для пресечения в пред таких ведомостей столь нашему высочайшему <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">двору</orgName> предосудителных
+          осведомився о издателе листа под титулом <orgName key="o0004" ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening Post</orgName> все способы возможные
+          употреблять для сего; и для пресечения в пред таких ведомостей столь нашему высочайшему <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">двору</orgName> предосудителных
           сего же часу послал я оный лист сыскать, понеже оный доселе невидал, что Сият[ельст]во
           В[а]ше удивлять недолжно. Потому что кроме того что он издан пять дней по моему сюды
           приезде (в которое так краткое время я об нем ведать немог) трудно знать все то что в сем
@@ -148,15 +131,11 @@
           слышу других что дневно выходят кроме безчисленных печатных писем и брошур, которые все
           мне одному высматривать невозможно наипаче что весма мало по аглицки разумею и
           ч[е]л[о]в[е]ка к тому способного при себе не имею, однако ж по силе и возможности стану
-          искать способ, чтоб хотя об артикулах предосудително <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">двора н[а]шего</orgName> касающихся в пред
+          искать способ, чтоб хотя об артикулах предосудително <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">двора н[а]шего</orgName> касающихся в пред
           лучше был я уведомлен понеже уже указ В[а]шего Сият[ельст]ва имею таковые ведомости
-          опровергать, что доселе я чинить не смел не имея о том никакого приказу. Да и то <persName
-            key="p0167"
-            ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Сиятелнейший Граф</persName>
+          опровергать, что доселе я чинить не смел не имея о том никакого приказу. Да и то <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Сиятелнейший Граф</persName>
           (прошу прощения смелости моей) дерзаю сказать что невесма </p>
-        <pb n="f. 19" />
+        <pb n="f. 19"/>
         <p> легко то учинить можно и не знаю будет ли гораздо полезно. Потому что здешной народ
           волен и нравом своим убеждается более о том говорить, что говорить запрещено. Сие же толко
           для известия толко пишу Сият[ельст]ву В[ашем]у в протчем В[а]шей воли повиноватся не
