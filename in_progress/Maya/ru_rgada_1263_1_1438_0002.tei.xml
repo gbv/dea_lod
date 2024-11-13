@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,57 +95,43 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 April/2 May 1774. – Letter from <persName
-              key="p0154"
-              ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain Stepan
-            Stepanovich Zinov’ev</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>21 April/2 May 1774. – Letter from <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain, Stepan
+            Stepanovich Zinov’ev</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1438, f. 4–4v, 5. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 4" />
-        <p />
+        
+        <pb n="f. 4"/>
+        <p/>
         <p>Monseigneur,</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>J’ai l’honneur de joindre une notte de vaisseaux, de l’Escadre à <orgName key="g0098">
-          Carthagene</orgName>, sous les ordres du Chef d’Escadre <persName
-            key="p0073"
-            ref="17196e1b-2031-4278-8ffb-b5a13593cd97">Don Pedro Castejon</persName>. L’objet de cet
+          Carthagene</orgName>, sous les ordres du Chef d’Escadre <persName key="p0073" ref="17196e1b-2031-4278-8ffb-b5a13593cd97">Don Pedro Castejon</persName>. L’objet de cet
           armement n’est pas encore connu. Peut-etre même qu’il n’y aura d’autre but, que de la
           faire croiser dans la Mediterranée, et de donner un peu de pratique aux officiers, qui en
           ont besoin. Dès que je saurai quelque chose de la destination de cette Escadre, je ne
-          manquerai pas, d’en informer Votre Excellence. Je crois qu’on peut assurer que la grande <persName
-            key="p0099"
-            ref="86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse de Toscane</persName> ne
-          viendra pas, quoique jamais la <orgName
-            key="o0020"
-            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName> ne </p>
-        <pb n="f. 4v" />
-        <p> voudra avouer publiquement le refus de la <persName
-            key="p0099"
-            ref="86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse</persName>.</p>
+          manquerai pas, d’en informer Votre Excellence. Je crois qu’on peut assurer que la grande <persName key="p0099" ref="86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse de Toscane</persName> ne
+          viendra pas, quoique jamais la <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName> ne </p>
+        <pb n="f. 4v"/>
+        <p> voudra avouer publiquement le refus de la <persName key="p0099" ref="86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse</persName>.</p>
         <p>On dit que le <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">Comte de
-          Bruhl, chevalier de l’ordre de Malte</persName>, sera nommé Envoyé Extraordinaire de la <orgName
-            key="o0012"
-            ref="76593cc3-a621-46b7-8e1c-532ad73e99af">cour de Saxe</orgName> auprès
+          Bruhl, chevalier de l’ordre de Malte</persName>, sera nommé Envoyé Extraordinaire de la <orgName key="o0012" ref="76593cc3-a621-46b7-8e1c-532ad73e99af">cour de Saxe</orgName> auprès
           celle d’<orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">ici</orgName>.</p>
         <p>J’ai l’honneur d’être avec la consideration la plus distinguée et atachement inviolable</p>
         <p>Monseigneur</p>
         <p>De Votre Excellence</p>
-        <p />
+        <p/>
         <p>le tres humble et tres </p>
         <p> obeisant serviteur</p>
         <p>
@@ -159,13 +142,11 @@
         </p>
         <p>le 21. avril /2. May.</p>
         <p>1774.</p>
-        <p />
-        <p />
-        <pb n="f. 5" />
-        <p />
-        <p>Liste de vaisseaux de guerre sous les ordres de <persName
-            key="p0073"
-            ref="17196e1b-2031-4278-8ffb-b5a13593cd97">Don Pedro Castejon</persName>
+        <p/>
+        <p/>
+        <pb n="f. 5"/>
+        <p/>
+        <p>Liste de vaisseaux de guerre sous les ordres de <persName key="p0073" ref="17196e1b-2031-4278-8ffb-b5a13593cd97">Don Pedro Castejon</persName>
         </p>
         <p>De ligne:
 </p>
@@ -194,9 +175,7 @@
           ------------------------------------------------ 30 -------- 250------- </p>
         <p> ____________</p>
         <p> 350 canons 2600 hommes</p>
-        <p>Encore quatre chebeques de <placeName
-            key="g0098"
-            ref="https://www.geonames.org/2520058">Carthagene</placeName>
+        <p>Encore quatre chebeques de <placeName key="g0098" ref="https://www.geonames.org/2520058">Carthagene</placeName>
         </p>
         <p>de 28. à 30. canons chacune, ont ensembles ------------------------------- 250 hommes</p>
         <noteGrp>
