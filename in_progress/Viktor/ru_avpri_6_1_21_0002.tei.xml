@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,19 +98,92 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_6_1_21_0002.tei.xml?person_annotation_20241113113615459",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-13T10:36:15.459Z",
+	"dcterms:modified": "2024-11-13T10:36:15.459Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_6_1_21_0002.tei.xml?person_annotation_20241113113615459#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_6_1_21_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_6_1_21_0002.tei.xml?person_annotation_20241113113615459#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> November/December 1743. – [Letter] from<persName
-              key="p0814"
-              ref="9b77306c-a783-489a-a552-5e6611f58433"> [the Secretary of the Danish Legation in
-            St. Petersburg,] Councillor of the Chancellery [Johan Absalonsen] Koefoed</persName>, to <persName
-              key="p0813"
-              ref="463d4e44-19fe-4289-b444-a527afda3d90">the [Privy Councilor, Chief
+          <title> November/December 1743. – [Letter] from<persName key="p0814" ref="9b77306c-a783-489a-a552-5e6611f58433"> [the Secretary of the Danish Legation in
+            St. Petersburg,] Councillor of the Chancellery [Johan Absalonsen] Koefoed</persName>, to <persName key="p0813" ref="463d4e44-19fe-4289-b444-a527afda3d90">the [Privy Councilor, Chief
             Secretary of the Chancellery, Danish] State Secretary [Johann Sigismund] Schulin</persName>
           </title>
           <note>
@@ -121,23 +191,16 @@
               ibid., 41—41v.</bibl>
           </note>
         </head>
-        <pb n="f. 40" />
-        <p />
+        <pb n="f. 40"/>
+        
         <p>От канцелярии советника <persName key="p0814">Куфута</persName> к <persName key="p0813">Стацкому
           Секретарю Шулину</persName>.</p>
         <p>N°94 </p>
         <p>Monsieur</p>
         <p>J’ai eû l’honeur de recevoir la letre de Votre E. du 5 du courant par laquelle il a plû à
-          V.E. de me faire conoître, que je puis me dispenser de suivre la cour à <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscau</placeName>, en restant
-          icy à <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Pbourg</placeName>, jusques à l’arrivee de notre <persName
-            key="p0774">ambassadeur S.E. de Holstein</persName>, à quoi je ne manquerai pas de me
-          conformer très humblement. On dit, que le voyage de <persName
-            key="p0052"
-            ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">S.M<hi rendition="#sup">té</hi>
+          V.E. de me faire conoître, que je puis me dispenser de suivre la cour à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName>, en restant
+          icy à <placeName key="g0002" ref="https://www.geonames.org/498817">Pbourg</placeName>, jusques à l’arrivee de notre <persName key="p0774">ambassadeur S.E. de Holstein</persName>, à quoi je ne manquerai pas de me
+          conformer très humblement. On dit, que le voyage de <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">S.M<hi rendition="#sup">té</hi>
           </persName>
           à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName>
           aura lieu le 16. du mois prochain v.st.</p>
