@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,62 +95,50 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>14/25 April 1774. – Letter from <persName
-              key="p0154"
-              ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain Stepan
-            Stepanovich Zinov’ev</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>14/25 April 1774. – Letter from <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain, Stepan
+            Stepanovich Zinov’ev</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1438, f. 3–3v. French and Russian original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 3" />
-        <p />
+        
+        <pb n="f. 3"/>
+        <p/>
         <p>Monseigneur,</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>Le voyage de la <persName key="p0099" ref="86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse
           de Toscane</persName> est toujours dans l’incertitude. Il est à croire que dans quelques
           jours, Elle s’expliquera plus clairement la dessus.</p>
         <p>Le <persName key="p0102" ref="6c64fa71-2b86-49a5-8271-11b53512635b">Prince de Masserano</persName>
-          est parti pour <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName> le 19. de ce mois, où s’arretera
-          je crois plusieurs mois. Il n’a pas encore loué un hotel à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>.
+          est parti pour <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> le 19. de ce mois, où s’arretera
+          je crois plusieurs mois. Il n’a pas encore loué un hotel à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>.
           Il faudra du temps pour en trouver un aussi grand, qu’il lui en faut pour sa famille.
-          D’ailleurs, comme il a vendu tous ses meubles à son depart de <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">
-          Londres</placeName>, et qu’une seconde franchise la <orgName
-            key="o0002"
-            ref="dd406ffb-30ce-4374-868b-1a55e8daf251">cour d’Angleterre</orgName> ne lui accordera
+          D’ailleurs, comme il a vendu tous ses meubles à son depart de <placeName key="g0003" ref="https://www.geonames.org/2643743">
+          Londres</placeName>, et qu’une seconde franchise la <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">cour d’Angleterre</orgName> ne lui accordera
           pas, il est a supposer qu’il tachera de trainer son arrivée </p>
-        <pb n="f. 3v" />
+        <pb n="f. 3v"/>
         <p> autant qu’il pourra, pour pouvoir gagner par le tems les apointemens. По последней мере
           с такими мыслями отсюда он отправился.</p>
         <p>J’ai l’honneur d’etre avec la considération la plus distinguée et l’atachement
           inviolablee</p>
-        <p />
+        <p/>
         <p>Monseigneur</p>
         <p>De Votre Excellence, </p>
-        <p />
+        <p/>
         <p>le tres humble et tres obeissant</p>
         <p>Serviteur</p>
         <p>
-          <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">Zinowieff</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0154" xml:space="default" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204" type="signature">Zinowieff</persName>
         </p>
         <p>
           <placeName key="g0097" ref="https://www.geonames.org/3129857">Aranjuez</placeName>
