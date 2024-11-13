@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Spain Stepan Stepanovich
+          Zinov'ev to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Stepan</author>
+        <author xml:lang="en">Stepanovich</author>
+        <author xml:lang="en">Zinov'ev</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>5/16 June 1774. – Letter from <persName
+              key="p0154"
+              ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain Stepan
+            Stepanovich Zinov’ev</persName> to <persName
+              key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 1438, f. 15–16, 17. French original with a note in
+              Russian.</bibl>
+          </note>
+        </head>
+        <pb n="f. 15" />
+        <p />
+        <p>Monseigneur, </p>
+        <p />
+        <p />
+        <p>Avant hier l’Ambassadeur de France a reçu un courier exprès avec la nouvelle, que <persName
+            key="p0004"
+            ref="ef9230cc-7e62-4675-887c-cc5010611a2c">M<hi rendition="#sup">r</hi>. le
+          Duc d’Aiguillon</persName> s’est démis de ses emplois, et qu’il a été remplacé par <persName
+            key="p0140"
+            ref="547a30b6-98de-445b-a7e2-315910e1d9b4">M<hi rendition="#sup">r</hi>. du
+          Vergennes</persName>. Il est certain, que la nomination de ce nouveau ministre n’est pas
+          du gout de <persName key="p0075" ref="802e11fe-d263-4291-85b1-1b892ef5512d">M<hi
+              rendition="#sup">r</hi>. Grimaldi</persName>. Il s’est expliqué sur son compte assés
+          librement, et s’est étendu même sur </p>
+        <pb n="f. 15v" />
+        <p> ses affaires domestiques; de quelle facon il s’est marié à <placeName
+            key="g0018"
+            ref="https://www.geonames.org/745044">
+          Constantinople</placeName> avec <persName
+            key="p0320"
+            ref="e1aa2f44-43f7-43d4-947b-99ec903ac54b">une femme de rien</persName>, et qu’il ne
+          conçoit pas comment cette femme pourra entrer dans le grand monde; qu’il connoit les Dames
+          françoises, qui regardent quelquefois sur la naissance; et que par là <persName
+            key="p0320"
+            ref="e1aa2f44-43f7-43d4-947b-99ec903ac54b">M<hi rendition="#sup">me</hi>. du
+          Vergennes</persName> pourra être exposée à des affronts. Le public croit, que le ministère
+          de <persName key="p0140" ref="547a30b6-98de-445b-a7e2-315910e1d9b4">M<hi rendition="#sup">
+          r</hi>. du Vergennes</persName> sera paisible, et qu’il n’aura pas des idées pour troubler
+          la paix qui est si necessaire à toute l’Europe. On s’apperçoit que <persName
+            key="p0075"
+            ref="802e11fe-d263-4291-85b1-1b892ef5512d">M<hi rendition="#sup">r</hi>. de Grimaldi</persName>
+          n’est guères content de ce que les affaires en France ne vont pas à son gré.</p>
+        <p>Le peu d’accord qui subsiste entre lui et <persName
+            key="p0007"
+            ref="8f3615cd-8ca1-4039-a8cc-81d1dd39c084">M<hi rendition="#sup">r</hi>. d’Aranda</persName>
+          fait echouër bien des projets de <persName
+            key="p0075"
+            ref="802e11fe-d263-4291-85b1-1b892ef5512d">M<hi rendition="#sup">r</hi>. Grimaldi</persName>
+          .</p>
+        <p>Il a, je crois, toujours quelque esperance </p>
+        <pb n="f. 17" />
+        <p> sur le retour de <persName key="p0037" ref="470a270e-1ac8-4ad9-a9e5-03bde5fe478f">M<hi
+              rendition="#sup">r</hi>. de Choiseul</persName>.</p>
+        <p>Vôtre Excellence pourra être plus instruit là-dessus par le <persName
+            key="p0013"
+            ref="ae109bf3-1bca-461c-9f3a-aa4bd75366a9">P[rin]<hi rendition="#sup">ce</hi>.
+          Baratinsky</persName> qui étant sur le lieu, est plus à portée de savoir les affaires du <orgName
+            key="o0019"
+            ref="2cb37494-d43a-434e-8e34-efaf283c99a0">Cabinet de Versailles</orgName>.</p>
+        <p>J’ai l’honneur d’être avec la considération la plus distinguée, et un attachement
+          inviolable</p>
+        <p>Monseigneur</p>
+        <p />
+        <p>de vôtre Excellence</p>
+        <p />
+        <p>le tres humble et tres</p>
+        <p> obeisant serviteur</p>
+        <p>
+          <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">Zinowieff</persName>
+        </p>
+        <p>
+          <placeName key="g0097" ref="https://www.geonames.org/3129857">Aranjuez</placeName> le 5/16 Juin </p>
+        <p>1774.</p>
+        <p />
+        <p />
+        <pb n="f. 16" />
+        <p />
+        <p>
+          <placeName
+            key="g0097"
+            ref="https://www.geonames.org/3129857">Aranjuez</placeName> le 5/16 Juin 1774.</p>
+        <p>P: S:</p>
+        <p>J’ai eû l’honneur de recevoir la lettre de Vôtre Excellence du 25 d’avril v.st. À mon
+          arrivée à <placeName
+            key="g0020"
+            ref="https://www.geonames.org/3117735">Madrid</placeName> j’ai encore eu le tems de voir les
+          portraits qui ont êté ordonnés à faire par le chargé d’affaires <persName
+            key="p0228"
+            ref="0036aef0-6d3e-402d-a46a-dede810d834f">M<hi rendition="#sup">r</hi>. Ruckman</persName>.
+          Je souhaite que ces portraits plaisent à S.M.I. mais s’il est permis de dire mon
+          sentiment, j’aurois voulû qu’il eussent êté peints dans un autre goût, surtout celui du <persName
+            key="p0036"
+            ref="ea287231-8c1a-4b60-a8c3-1c4885e94d54">Roi</persName> et du <persName
+            key="p0157"
+            ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">Prince des Asturies</persName>,
+          cet-a-dire en habit de chasse leur ajustement ordinaire et dans leur attitude naturelle.
+          Par là on se seroit plutôt apperçu du caractère véritable de ces Princes, ce qui aurait
+          rempli le but. Si cette idée étoit agréable, j’en demanderais les ordres pour l’executer.
+          Et n’ayant pas des lumières suffisantes, je consulterais quelques amis connoisseurs de la
+          peinture.</p>
+        <p>
+          <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">Zinowieff</persName>
+        </p>
+        <p />
+        <p />
+        <p>N.B. </p>
+        <p>Писмо, будучи в цыфрах, еще не разобрано.</p>
+        <p>[footnote:]</p>
+        <p>Au <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">P<hi rendition="#u">
+              <hi rendition="#sup">[rin]ce</hi>
+            </hi>. Vice Chancelier</persName>
+        </p>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_1263_1_1438_0001</note>
+          <note>ru_rgada_1263_1_1438_0002</note>
+          <note>ru_rgada_1263_1_1438_0003</note>
+          <note>ru_rgada_1263_1_1438_0004</note>
+          <note>ru_rgada_1263_1_1438_0006</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>
