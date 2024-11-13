@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,54 +95,36 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>28 June 1732. – Letter from <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
-            Prince Antiokh Kantemir</persName>, to <persName
-              key="p0167"
-              ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Vice-Chancelor of the Russian Empire,
+          <title>28 June 1732. – Letter from <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+            Prince Antiokh Сantemir</persName>, to <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Vice-Chancelor of the Russian Empire,
             Count Heinrich Ostermann</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 19 v. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 19v" />
-        <p />
-        <p>В <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Санктпитербурх</placeName> к <persName
-            key="p0167"
-            ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Графу А.И. Остерману</persName>
+        <pb n="f. 19v"/>
+        <p/>
+        <p>В <placeName key="g0002" ref="https://www.geonames.org/498817">Санктпитербурх</placeName> к <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Графу А.И. Остерману</persName>
         </p>
-        <p>Из <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Лондона</placeName> 28. Июня 1732.</p>
+        <p>Из <placeName key="g0003" ref="https://www.geonames.org/2643743">Лондона</placeName> 28. Июня 1732.</p>
         <p>Сиятелнейший Граф</p>
         <p>Премл[ос]тивой Г[осу]д[а]рь мой</p>
         <p>По приказу В[аше]го Сият[ельст]ва старался я выведать об авторе берлинского писма
           напечатаннаго в <orgName key="o0004" ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening
-          Post</orgName> от 6. Апреля и затем призывал я к себе той газеты <persName
-            key="p0183"
-            ref="47e804dc-f9c3-459d-8f56-c7f1cdefdf95">издателя</persName> и спрасив его о том писме
+          Post</orgName> от 6. Апреля и затем призывал я к себе той газеты <persName key="p0183" ref="47e804dc-f9c3-459d-8f56-c7f1cdefdf95">издателя</persName> и спрасив его о том писме
           он мне сказал, что писмо то он напечатал с другой печатной газеты; что подлинно то так
-          есть; понеже то ж писмо находится в <orgName
-            key="o0005"
-            ref="2cbd8adc-6c29-4b55-ae93-e2e8ece39415">Daily PostBoy</orgName> от 5. Апреля, и
-          потому я уже немедлил издать в печать в той же <orgName
-            key="o0004"
-            ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening Post</orgName> от 17. июня той
+          есть; понеже то ж писмо находится в <orgName key="o0005" ref="2cbd8adc-6c29-4b55-ae93-e2e8ece39415">Daily PostBoy</orgName> от 5. Апреля, и
+          потому я уже немедлил издать в печать в той же <orgName key="o0004" ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening Post</orgName> от 17. июня той
           ведомости опровержение, которое как мог осторожнее написал неведая намерение В[аше]го
-          Сият[ельст]ва к чему то опровержение более клонить имело, а между тем стараюся издателя <orgName
-            key="o0005"
-            ref="2cbd8adc-6c29-4b55-ae93-e2e8ece39415">Daily PostBoy</orgName> выведать
+          Сият[ельст]ва к чему то опровержение более клонить имело, а между тем стараюся издателя <orgName key="o0005" ref="2cbd8adc-6c29-4b55-ae93-e2e8ece39415">Daily PostBoy</orgName> выведать
           о авторе. А <persName key="p0183" ref="47e804dc-f9c3-459d-8f56-c7f1cdefdf95">издателю</persName>
           Evening почты с угрожением заказал чтоб в пред таких ведомостей в народ издавать недерзал,
           и он в том осторожен в пред быть обещался. А я естли что современем о сем выведаю В[аше]му
