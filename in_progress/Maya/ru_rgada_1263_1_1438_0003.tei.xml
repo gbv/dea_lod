@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,101 +95,77 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>28 April / 9 May 1774. – Letter from <persName
-              key="p0154"
-              ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain Stepan
-            Stepanovich Zinov’ev</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>28 April / 9 May 1774. – Letter from <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain, Stepan
+            Stepanovich Zinov’ev</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1438, f. 6–8. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 6" />
-        <p />
+        
+        <pb n="f. 6"/>
+        <p/>
         <p>Monseigneur,</p>
-        <p />
+        <p/>
         <p>J’ai eu l’honneur de recevoir la lettre de Votre Excellence, du 18. mars v.st. Je lui
-          rends bien grace de ce qu’elle a bien voulu presenter ma lettre à <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>. Quoique mes
+          rends bien grace de ce qu’elle a bien voulu presenter ma lettre à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>. Quoique mes
           predecesseurs aient eu une compensation pour les droits d’entrée de leurs effets, et
           equipages ; je n’ai pas la presomption de me mettre en paralelle avec eux ; et je
           n’attends cette faveur que des bontés de ma Souveraine. J’espére que Votre Excellence
           m’accordera dans cette occasion sa protection et son appui.</p>
-        <p>Par ma precedente lettre à <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">M<hi
-              rendition="#sup">r</hi>. le Comte de
+        <p>Par ma precedente lettre à <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">M<hi rendition="#sup">r</hi>. le Comte de
           Panin</persName>
         </p>
-        <pb n="f. 6v" />
+        <pb n="f. 6v"/>
         <p> Votre Excellence aura vû que le desarmement de l’Escadre Espagnole est certain et aura
-          lieu dès que tous les vaisseaux seront rassemblés à <placeName
-            key="g0098"
-            ref="https://www.geonames.org/2520058">Cartagène</placeName>.
+          lieu dès que tous les vaisseaux seront rassemblés à <placeName key="g0098" ref="https://www.geonames.org/2520058">Cartagène</placeName>.
           Mais nous avons des nouvelles, que de gros vents ont empêché son arrivée en ce port. Le
           vaisseau de l’Amiral a perdu deux mâts et est entré à Gibraltar; deux autres fregattes ont
           beaucoup souffert. Ceci doit moins être attribué à des accidents du mauvais tems, qu’aux
           mauvaises manoeuvres des officiers de marine. Le ton, avec le quel l’Angleterre a sçu
           demander aux Espagnols raisons du moindre </p>
-        <pb n="f. 7" />
+        <pb n="f. 7"/>
         <p> de leur armements, fera que peut-être de longtems ils n’oseront paroître en mer.</p>
-        <p>L’écriture injurieuse, qu’on a trouvée repandue dans <placeName
-            key="g0020"
-            ref="https://www.geonames.org/3117735">Madrid</placeName>,
+        <p>L’écriture injurieuse, qu’on a trouvée repandue dans <placeName key="g0020" ref="https://www.geonames.org/3117735">Madrid</placeName>,
           n’a eu jusqu’à present aucune </p>
         <p>mauvaise suite.</p>
         <p>Par l’edit qu’on vient d’y publier, on peut voir combien d’importance le gouvernement
-          attache à celà. Dépuis l’absence de <persName
-            key="p0007"
-            ref="8f3615cd-8ca1-4039-a8cc-81d1dd39c084">Mons[eigneu]<hi rendition="#sup">r</hi>. le
-          Comte d’Aranda</persName> on s’apperçoit d’un rélachement dans la police de <placeName
-            key="g0020"
-            ref="https://www.geonames.org/3117735">Madrid</placeName>. Il est certain, qu’il savoit imposer à la populace
+          attache à celà. Dépuis l’absence de <persName key="p0007" ref="8f3615cd-8ca1-4039-a8cc-81d1dd39c084">Mons[eigneu]<hi rendition="#sup">r</hi>. le
+          Comte d’Aranda</persName> on s’apperçoit d’un rélachement dans la police de <placeName key="g0020" ref="https://www.geonames.org/3117735">Madrid</placeName>. Il est certain, qu’il savoit imposer à la populace
           emportée de ce pays-ci ; il savoit la contenir dans l’obeïssance. </p>
-        <pb n="f. 7v" />
-        <p> De pareilles affaires donnent de l’inquétude à <persName
-            key="p0036"
-            ref="ea287231-8c1a-4b60-a8c3-1c4885e94d54">S[a].M[ajesté]. Catholique</persName>. On
-          croit s’appercevoir, que de jour en jour <persName
-            key="p0036"
-            ref="ea287231-8c1a-4b60-a8c3-1c4885e94d54">le Roi</persName> perd de l’envie de
+        <pb n="f. 7v"/>
+        <p> De pareilles affaires donnent de l’inquétude à <persName key="p0036" ref="ea287231-8c1a-4b60-a8c3-1c4885e94d54">S[a].M[ajesté]. Catholique</persName>. On
+          croit s’appercevoir, que de jour en jour <persName key="p0036" ref="ea287231-8c1a-4b60-a8c3-1c4885e94d54">le Roi</persName> perd de l’envie de
           s’appliquer aux affaires du gouvernement. La grande cherté de pain fait bien murmurer le
           peuple: Le prix en est comme il a été dans le tems de la dernière revolte.</p>
-        <p>Avant hier est arrivé ici un courrier avec l’affligeante nouvelle, de la maladie du <persName
-            key="p0212"
-            ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roi de France</persName>.</p>
+        <p>Avant hier est arrivé ici un courrier avec l’affligeante nouvelle, de la maladie du <persName key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">Roi de France</persName>.</p>
         <p>
           <persName key="p0000">Le Prince de Salins</persName>, qui dernierement à été en Russie,
           vient de quitter le service d’Espagne, sans autre pension que celle qu’il a de la Croix
           militaire, qui lui donne 30000 réaux. </p>
-        <pb n="f. 8" />
+        <pb n="f. 8"/>
         <p> On dit que <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">M<hi rendition="#u">
               <hi rendition="#sup">r</hi>
             </hi> de Bruhl</persName>, n’aura pas la place
-          de Ministre de Saxe à cette <orgName
-            key="o0020"
-            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName>, mais que c’est <persName
-            key="p0000">M<hi rendition="#u">
+          de Ministre de Saxe à cette <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName>, mais que c’est <persName key="p0000">M<hi rendition="#u">
               <hi rendition="#sup">r</hi>
             </hi> de Wertern</persName> qui sera nommé.</p>
         <p>J’ai l’honneur d’être avec la considération la plus distinguée, et un attachement
           inviolable,</p>
         <p>Monseigneur,</p>
         <p>De Votre Excellence</p>
-        <p />
+        <p/>
         <p> le tres humble et </p>
         <p>tres obeisant Serviteur</p>
-        <p />
+        <p/>
         <p>
           <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">S Zinowieff</persName>
         </p>
