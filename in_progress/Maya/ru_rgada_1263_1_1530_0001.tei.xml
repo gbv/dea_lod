@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Letter from Marquis Giorgio Giuseppe Andrea Cavalcabò to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <title type="main" xml:lang="en">Letter from Marquis Giorgio Giuseppe Andrea Cavalcabò to Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</title>
         <author xml:lang="en">Giorgio</author>
         <author xml:lang="en">Giuseppe</author>
         <author xml:lang="en">Andrea</author>
@@ -100,46 +95,36 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>14 March 1767. – Letter from <persName
-              key="p0034"
-              ref="5c0e2a7f-1552-4ca1-9613-4afa6fc7834a">Marquis Giorgio Giuseppe Andrea Cavalcabò</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>14 March 1767. – Letter from <persName key="p0034" ref="5c0e2a7f-1552-4ca1-9613-4afa6fc7834a">Marquis Giorgio Giuseppe Andrea Cavalcabò</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1530, f. 1–1v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
+        <p/>
+        <pb n="f. 1"/>
+        <p/>
         <p>Excellence.</p>
-        <p />
-        <p />
-        <p>Les bontés que Votre Excellence m’a temoigné en plusieurs ocasions, me sont garantes qu’elle voudra bien aussi avoir celle dé m’honorer d’une reponse sur les questions suivantes, que j’ose lui faire. <persName
-            key="p0029"
-            ref="556c7758-fbc8-42d8-bf85-6418c69b2c65">M<hi
-              rendition="#sup">r</hi>. de Cagnonÿ</persName> /qui compte se retirer en Italie ou en France dans une ville où il n’y a point de Ministre de notre <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName>/ voudroit savoir, si pour toucher la pension dont il jouit, il souffiroit qu’il envoit ici un Plain pouvoir a son commissionaire, par le quel il soit authorisé d’encaisser toujours l’argent; ou s’il sera necessaire, qu’il envoit a chaque tertial une attestation de vie, pour etre presentée a la caisse qui paye la pension: Il souhaiteroit de parvenir a son but, avec le moins de fraix qu’il soit possible. Si V[otre]E[xcellence]: pouvoit </p>
-        <pb n="f. 1v" />
+        <p/>
+        <p/>
+        <p>Les bontés que Votre Excellence m’a temoigné en plusieurs ocasions, me sont garantes qu’elle voudra bien aussi avoir celle dé m’honorer d’une reponse sur les questions suivantes, que j’ose lui faire. <persName key="p0029" ref="556c7758-fbc8-42d8-bf85-6418c69b2c65">M<hi rendition="#sup">r</hi>. de Cagnonÿ</persName> /qui compte se retirer en Italie ou en France dans une ville où il n’y a point de Ministre de notre <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName>/ voudroit savoir, si pour toucher la pension dont il jouit, il souffiroit qu’il envoit ici un Plain pouvoir a son commissionaire, par le quel il soit authorisé d’encaisser toujours l’argent; ou s’il sera necessaire, qu’il envoit a chaque tertial une attestation de vie, pour etre presentée a la caisse qui paye la pension: Il souhaiteroit de parvenir a son but, avec le moins de fraix qu’il soit possible. Si V[otre]E[xcellence]: pouvoit </p>
+        <pb n="f. 1v"/>
         <p> me sugerer un meilleur moyen que ceux que j’ai proposé, mon obligation egualeroit la faveur qu’elle m’accordera, et je saisirai avec empressement les ocasions de lui temoigner ma reconnoisence [sic], ainsi que le respect et la consideration sens eguale avec la quelle j’ai l’honneur d’etre</p>
         <p>De Votre Excellence</p>
-        <p>À <placeName key="g0002" ref="https://www.geonames.org/498817">S<hi
-              rendition="#sup">t</hi>. Petersbourg</placeName> ce 14 de mars 1767</p>
-        <p />
+        <p>À <placeName key="g0002" ref="https://www.geonames.org/498817">S<hi rendition="#sup">t</hi>. Petersbourg</placeName> ce 14 de mars 1767</p>
+        <p/>
         <p>tres humble et tres obeissant serviteur</p>
         <p>
           <persName key="p0034" ref="5c0e2a7f-1552-4ca1-9613-4afa6fc7834a">le marquis Cavalcabò</persName>
         </p>
-        <p />
+        <p/>
       </div>
     </body>
   </text>
