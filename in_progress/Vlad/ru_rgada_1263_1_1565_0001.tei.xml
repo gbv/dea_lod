@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,48 +96,36 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>31 July 1764. – Letter from <persName
-              key="p0029"
-              ref="556c7758-fbc8-42d8-bf85-6418c69b2c65">Privy Councilor, Carlo de Cagnony,</persName>
-            to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor,
-            Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>31 July 1764. – Letter from <persName key="p0029" ref="556c7758-fbc8-42d8-bf85-6418c69b2c65">Privy Councilor Carlo de Cagnony</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1565, f. 1–1v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
+        
+        <pb n="f. 1"/>
+        <p/>
         <p>Monseigneur</p>
-        <p />
+        <p/>
         <p>Depuis la lettre dont il plût a Votre Excellence de m’honorer au mois d’Avril passé, dans
-          laquelle elle me disoit que je recevrois incessamment par les mains de <persName
-            key="p0108"
-            ref="32691d34-6532-462c-8a63-5b9e098e0dac">Mons[eigneu]<hi rendition="#sup">
-          r</hi> l’Envoyé de Muisin Puschkin</persName> le payment des 315 ducats que <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].I[mperiale].</persName>
-          avoit ordonné m’etre fait pour le <persName
-            key="p0021"
-            ref="7b4515f6-1082-49f7-a34e-065a7dbb66ba">Gen[era]<hi rendition="#sup">l</hi>. Browne</persName>,
+          laquelle elle me disoit que je recevrois incessamment par les mains de <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">Mons[eigneu]<hi rendition="#sup">
+          r</hi> l’Envoyé de Muisin Puschkin</persName> le payment des 315 ducats que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].I[mperiale].</persName>
+          avoit ordonné m’etre fait pour le <persName key="p0021" ref="7b4515f6-1082-49f7-a34e-065a7dbb66ba">Gen[era]<hi rendition="#sup">l</hi>. Browne</persName>,
           Je n’ai plus rien receu de la part de V[otre]. Ex[cellen]<hi rendition="#sup">ce</hi>.
           jusqu’icy, et mon dit <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">Sieur
           Envoyé</persName> m’asseure qu’il en est de meme a son egard.</p>
         <p>Souffrez donc, Monseigneur, que je vous fasse ressouvenir de cette misere, qui ne doit
-          paroitre qu’un atome aux yeux d’une grande <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Imperatrice</persName>, et ne veuillez pas
+          paroitre qu’un atome aux yeux d’une grande <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Imperatrice</persName>, et ne veuillez pas
           permettre qu’apres avoir certainement bien merité de l’Empire de Russie, j’aye occasion de
           m’en plaindre; Il y a </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> encore des milliers de personnes en vie, qui scavent comme je l’ai servie, &amp; il
           seroit bien malheureux que la qualité d’Etranger qui devroit rehausser le prix de mes
           services, fut l’unique raison d’en diminuer le merite. Je ne scaurois craindre cet
@@ -149,17 +134,17 @@
           de confiance que j’ai l’honneur d’etre avec un très respectueux devouement</p>
         <p>Monseigneur</p>
         <p>De Votre Excellence</p>
-        <p />
-        <p />
-        <p />
+        <p/>
+        <p/>
+        <p/>
         <p>
           <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName> 31 Juillet</p>
         <p> 1764.</p>
-        <p />
+        <p/>
         <p>Très humble &amp; très</p>
         <p>Obeissant serviteur</p>
         <p>
-          <persName key="p0029" ref="556c7758-fbc8-42d8-bf85-6418c69b2c65">C[arlo]. De Cagnony</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0029" xml:space="default" ref="556c7758-fbc8-42d8-bf85-6418c69b2c65" type="signature">C[arlo]. De Cagnony</persName>
         </p>
         <noteGrp>
           <note>Also see:</note>
