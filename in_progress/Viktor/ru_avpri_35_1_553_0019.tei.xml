@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,32 +94,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9 December 1732. – Letter from <persName
-              key="p0167"
-              ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Vice-Chancelor of the Russian Empire,
-            Count Heinrich Ostermann</persName>, to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court
-            Prince, Antiokh Kantemir</persName>
+          <title>9 December 1732. – Letter from <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Vice-Chancelor of the Russian Empire,
+            Count Heinrich Ostermann</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court
+            Prince, Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 104–105v. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 104" />
-        <p />
+        <pb n="f. 104"/>
+        <p/>
         <p>Сиятелнейший князь</p>
         <p>М[и]л[ос]тивой мой Г[осу]д[а]рь,</p>
-        <p>При продолжающихся с стороны <orgName
-            key="o0002"
-            ref="dd406ffb-30ce-4374-868b-1a55e8daf251">аглинского двора</orgName> затруднениях в
+        <p>При продолжающихся с стороны <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">аглинского двора</orgName> затруднениях в
           отправлении сюда министра первого ранга я немогу обойтится с вашим сиятелством о сем деле
           партикулярно изяснится и свое о том мнение вам сообщить, такия нечаянные затруднении к
           особливому здесь удивлению толь наивящую причину подавать имеют, понеже вначале
@@ -130,45 +121,35 @@
           аглинской собственною охотою к такому взаимному посолства отправлению в разсуждении и для
           поспешествования вознамеренного чрез то совершенного доброй дружбы возстановления себя
           весма готова представлял.</p>
-        <p>И хотя без сумнения есть что пребывающей здесь резидент <persName
-            key="p0165"
-            ref="fe0fba0a-6d68-4106-8925-02582562d0f0">Рондо</persName> своими тамошнему двору
+        <p>И хотя без сумнения есть что пребывающей здесь резидент <persName key="p0165" ref="fe0fba0a-6d68-4106-8925-02582562d0f0">Рондо</persName> своими тамошнему двору
           учиненными неоснователными отседу доношениями и представлениями </p>
-        <pb n="f. 104v" />
+        <pb n="f. 104v"/>
         <p> к таким н[ы]нешним замедлениям и трудностем наивящую и единую якоже Вашему сиятелству то
           от <persName key="p0164" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">стацкого секретаря</persName>
           прямо обявлено, повод подавал, в таком чаятелно намерении, чтоб при соизволяемом тогда
           назначении чрезвычайного посланика вместо посла он сам таким карактером удостоен быть и
           свое счастие тем вяще производить мог, то однакоже мы весма обнадежены что В[а]ше
-          сиятелство в том примеру Г[оспо]д[и]на <persName
-            key="p0165"
-            ref="fe0fba0a-6d68-4106-8925-02582562d0f0">Рондо</persName> следовать небудете, толь
+          сиятелство в том примеру Г[оспо]д[и]на <persName key="p0165" ref="fe0fba0a-6d68-4106-8925-02582562d0f0">Рондо</persName> следовать небудете, толь
           наименше понеже такой поступок, как Ваше сиятелство сами по зрелому своему разумению
           признать изволите, при первом своего министерства начал вам и генерално вашей до н[ы]не
           заслуженной апробации нетокмо весма неполезный был бы, но и ваше сиятелство из последняго
-          к вам отправленного рескрыпта усмотря что и без того и без вашего о том искания <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">ея императорское Величество</persName>
+          к вам отправленного рескрыпта усмотря что и без того и без вашего о том искания <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">ея императорское Величество</persName>
           особе вашего сиятелства всемилостивейшее разсуждение иметь соизволила сколко главнейшия
           интерессы по обстоятелствам дел того допускать могут.</p>
-        <p />
-        <pb n="f. 105" />
+        <p/>
+        <pb n="f. 105"/>
         <p> И для того ваше сиятелство упователно неоставили по содержанию помянутого последняго
           рескрыпта все потребныя представлении к внушении тамошнему министерству для склонения
-          оного к нашим в том намерениям учинить и к тому прибавить можете что особа резидента <persName
-            key="p0165"
-            ref="fe0fba0a-6d68-4106-8925-02582562d0f0">рондова</persName> здесь весма
+          оного к нашим в том намерениям учинить и к тому прибавить можете что особа резидента <persName key="p0165" ref="fe0fba0a-6d68-4106-8925-02582562d0f0">рондова</persName> здесь весма
           приятна, и он хотя б другой какой министр сюда прислан был и при оном в н[ы]нешнем своем
-          карактере здесь остатся может, а ежели б <orgName
-            key="o0002"
-            ref="dd406ffb-30ce-4374-868b-1a55e8daf251">аглинской двор</orgName> в своем о
+          карактере здесь остатся может, а ежели б <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">аглинской двор</orgName> в своем о
           отправлении сюда милорда <persName key="p0205" ref="709b3b17-790a-40b0-9a06-5def9a64f9ae">
           Форбаса</persName> намерении неотменно пребывать хотел, то небезпотребно будет чтоб ваше
           сиятелство пристойным образом министерству тамошнему внушили, чтоб оной министр для
           всякого случая достаточными инструкциями для ближайшаго между обоими дворами к общему
           обоих сторон благу и ползе соединения снабден был.</p>
-        <p />
-        <pb n="f. 105v" />
+        <p/>
+        <pb n="f. 105v"/>
         <p> Я все сие партикулярно и по особливой к Вам истинной преданности к вашему сиятелству
           писать честь имею и для того прошу о том партикулярное сколко потребно и прилично будет
           употребление учинить и по пристойном куда прямое тамошняго министерства намерение клонится
