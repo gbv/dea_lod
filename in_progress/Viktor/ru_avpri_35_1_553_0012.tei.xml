@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,45 +94,34 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>15 October 1732. – Letter from the <persName
-              key="p0190"
-              ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">Secretary of the Russian mission in the
-            Ottoman Empire, Aleksei Veshniakov</persName>, to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+          <title>15 October 1732. – Letter from <persName key="p0190">the Secretary of the Russian mission in the Ottoman Empire, Aleksei Veshniakov</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
             Prince Antiokh Kantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 54–54v. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 54" />
-        <p />
-        <p>М[и]л[о]стивой Г[осу]д[а]рь мой <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">кн[я]зь Антиох Димитриевич</persName>
+        <pb n="f. 54"/>
+        <p/>
+        <p>М[и]л[о]стивой Г[осу]д[а]рь мой <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">кн[я]зь Антиох Димитриевич</persName>
         </p>
         <p>Хотя и не имею ничего достойного к доношению вам Моему М[и]л[о]стивому Г[осу]д[а]рю,
-          сверх того что есть в писме Г[оспо]д[и]на резидента <persName
-            key="p0189"
-            ref="393212d9-4837-4dcc-b397-b5ed81147dba">Ивана Ивановича Неплюева</persName>, на
+          сверх того что есть в писме Г[оспо]д[и]на резидента <persName key="p0189" ref="393212d9-4837-4dcc-b397-b5ed81147dba">Ивана Ивановича Неплюева</persName>, на
           которое приемлю смелость сослаться, однако ж не хотел упустить сего щастливаго случая чтоб
           не засвидетельствовать о всесовершенно возможном моем к вам Моему М[и]л[о]стивому
           Г[осу]д[а]рю почтении, всепокорно прося о продолжении вашей ко мне м[и]л[о]сти; с
           нестерпением ожидаю известий как в оной нахожусь; а паче слышать о благополучном
           произхождении в ваших странах; здесь и ныне опричь мору все тихо, и благо получно. И о
-          себе ожидаю ответа; чрез оказию третьяго дня <persName
-            key="p0189"
-            ref="393212d9-4837-4dcc-b397-b5ed81147dba">Г[оспо]д[и]нъ резидент</persName> усилно
+          себе ожидаю ответа; чрез оказию третьяго дня <persName key="p0189" ref="393212d9-4837-4dcc-b397-b5ed81147dba">Г[оспо]д[и]нъ резидент</persName> усилно
           всеподданнейше просил </p>
-        <pb n="f. 54v" />
+        <pb n="f. 54v"/>
         <p> высокия <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея
           Императорского величества</persName> м[и]л[о]сти о своем возвращении, и моем
           восстановлении на место его: уповаю что оных высоких м[и]л[о]сти лишен не буду. В прочем
@@ -147,9 +133,7 @@
         <p>
           <persName key="p0190" ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">Алексей Вешняков</persName>
         </p>
-        <p>из <placeName key="g0051" ref="https://www.geonames.org/750214">Буукдер</placeName> близ <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Константинополя</placeName>
+        <p>из <placeName key="g0051" ref="https://www.geonames.org/750214">Буукдер</placeName> близ <placeName key="g0018" ref="https://www.geonames.org/745044">Константинополя</placeName>
           ,</p>
         <p>15. октября 1732</p>
         <noteGrp>
