@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,51 +94,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>14 July 1732. – Letter from head of the Imperial mint, <persName
-              key="p0204"
-              ref="f7e3d413-d9cf-4248-93a2-bb6948cfc293">Count Mikhail Golovkin</persName> to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court, Prince Antiokh Kantemir</persName>
+          <title>14 July 1732. – Letter from head of the Imperial mint, <persName key="p0204" ref="f7e3d413-d9cf-4248-93a2-bb6948cfc293">Count Mikhail Golovkin</persName> to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court, Prince Antiokh Kantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 93–94. Russian original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 93" />
-        <p />
-        <p>Г[осу]д[а]рь мой кн[я]зь <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиох Дмитриевич</persName>;</p>
-        <p>Повсемилостивейшему <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея Императорского Величества</persName> Указу повелено для надежнейшаго впредь российских манетных дворов плода, и г[осу]д[а]рственной славы отправить в Галандию и в Англию на коште <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея Императорского Величества</persName> из российских подданных, которые обучены немецкому языку, из молодых людей, для обучения при тамошних манетных дворех, наилутчей практики; пробирному делу и розделению, медалерному, инструменталному и машиниксому пять ч[е]л[о]в[е]к, в том числе попредставлению моему велено обучать, оберминц мейстера <persName
-            key="p0000">Тимофея Левкина</persName>, с[ы]на его <persName
-            key="p0000">Ивана</persName>, пробирному художеству и розделению металов, которой уже в Англию, чрез </p>
-        <pb n="f. 93v" />
-        <p> собственное отца его изыскание и послал з год а и досталных надеемся отправить незамедля; о которых овсех прислана будет из <orgName
-            key="o0001"
-            ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">г[осу]д[а]рственной колегии иностранных дел</orgName> к вам рекомендация, и насодержание их переведены будут потребные денги; а понеже <persName
-            key="p0000">Левкина сын</persName> обретается и н[ы]не в Англии, и способу чтоб допустили ево к <orgName
-            key="o0014"
-            ref="e5facce3-82c5-41c4-8e85-c3b8e0d2f13e">манетному двору</orgName> сыскать неможет; того для вам моему г[осу]д[а]рю чрез сие упреждая рекомендую, дабы напервой случай и пробы реченного <persName
-            key="p0000">Левкина с[ы]на</persName> которой обретается у вас в Англии, по крайней вашей возможности рекомендовать, при тамошних манетных дворех, чтоб до принадлежащаго художества к обучению был допущен и в туне время непроисходило. А понеже небезизвестно есть, якобы для науки притамошнем <orgName
-            key="o0014"
-            ref="e5facce3-82c5-41c4-8e85-c3b8e0d2f13e">аглинском манетном дворе</orgName> чужестарнные ученики допущены небывают, того ради между тем вы мой г[осу]д[а]рь </p>
-        <pb n="f. 94" />
+        
+        <pb n="f. 93"/>
+        
+        <p>Г[осу]д[а]рь мой кн[я]зь <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиох Дмитриевич</persName>;</p>
+        <p>Повсемилостивейшему <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея Императорского Величества</persName> Указу повелено для надежнейшаго впредь российских манетных дворов плода, и г[осу]д[а]рственной славы отправить в Галандию и в Англию на коште <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея Императорского Величества</persName> из российских подданных, которые обучены немецкому языку, из молодых людей, для обучения при тамошних манетных дворех, наилутчей практики; пробирному делу и розделению, медалерному, инструменталному и машиниксому пять ч[е]л[о]в[е]к, в том числе попредставлению моему велено обучать, оберминц мейстера <persName key="p0000">Тимофея Левкина</persName>, с[ы]на его <persName key="p0000">Ивана</persName>, пробирному художеству и розделению металов, которой уже в Англию, чрез </p>
+        <pb n="f. 93v"/>
+        <p> собственное отца его изыскание и послал з год а и досталных надеемся отправить незамедля; о которых овсех прислана будет из <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">г[осу]д[а]рственной колегии иностранных дел</orgName> к вам рекомендация, и насодержание их переведены будут потребные денги; а понеже <persName key="p0000">Левкина сын</persName> обретается и н[ы]не в Англии, и способу чтоб допустили ево к <orgName key="o0014" ref="e5facce3-82c5-41c4-8e85-c3b8e0d2f13e">манетному двору</orgName> сыскать неможет; того для вам моему г[осу]д[а]рю чрез сие упреждая рекомендую, дабы напервой случай и пробы реченного <persName key="p0000">Левкина с[ы]на</persName> которой обретается у вас в Англии, по крайней вашей возможности рекомендовать, при тамошних манетных дворех, чтоб до принадлежащаго художества к обучению был допущен и в туне время непроисходило. А понеже небезизвестно есть, якобы для науки притамошнем <orgName key="o0014" ref="e5facce3-82c5-41c4-8e85-c3b8e0d2f13e">аглинском манетном дворе</orgName> чужестарнные ученики допущены небывают, того ради между тем вы мой г[осу]д[а]рь </p>
+        <pb n="f. 94"/>
         <p> изволите обстоятелно уведомится, естьли надежда к лутчему обучению от тамошних мастеров, наших российских учеников оставших н[ы]не здесь четырех ч[е]л[о]в[е]к отправить в Англию, или в Галандию, и упователно ли будет, что они до принадлежащих наук при манетных дворех допустятся, и с какою платою, дабы напрасно на отправление и содержание их тамо, д[е]н[е]г не потерять, меня же о том, прошу уведомить, непродолжително, а до ответу в[а]шего посылкою прочих удержил.</p>
-        <p>Послушный В[а]ш слуга <persName
-            key="p0204"
-            ref="f7e3d413-d9cf-4248-93a2-bb6948cfc293">Граф М. Головкин</persName>
+        <p>Послушный В[а]ш слуга <persName key="p0204" ref="f7e3d413-d9cf-4248-93a2-bb6948cfc293">Граф М. Головкин</persName>
         </p>
         <p>Июля. 14г. дня 1732 году.</p>
         <p>Из <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт Питербурха</placeName>.</p>
