@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,69 +95,55 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2 January 1768. – Letter from <persName
-              key="p0029"
-              ref="556c7758-fbc8-42d8-bf85-6418c69b2c65">Privy Councilor, Carlo de Cagnony</persName>,
-            to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor,
-            Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>2 January 1768. – Letter from <persName key="p0029" ref="556c7758-fbc8-42d8-bf85-6418c69b2c65">Privy Councilor Carlo de Cagnony</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1566, f. 1–1v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
+        <p/>
+        <pb n="f. 1"/>
+        <p/>
         <p>Monseigneur</p>
-        <p />
+        <p/>
         <p>Les bienfaits de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa
           Majesté Imp[erial]<hi rendition="#sup">e</hi>
           </persName> et ce que je dois a
           Votre Excellence, me rendroient inexcusable si je lui laissois ignorer dans quelle partie
-          de ce Globe j’existe, afin que s’il s’offre quelque chose pour le service de notre <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Auguste Souveraine</persName>, ou
+          de ce Globe j’existe, afin que s’il s’offre quelque chose pour le service de notre <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Auguste Souveraine</persName>, ou
           pour l’agrement de V[otre]. Ex[cellen]<hi rendition="#sup">ce</hi> elle scache ou
           m’adresser ses ordres, seur que mon zele &amp; mon empressement ne laisseront rien a
           desirer pour leur ponctuel acomplissement.</p>
         <p>Permettez, Monseigneur, que je profite de cette occasion pour Vous supplier de vouloir
-          bien tenir la main afin que la petite pension, que <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">la Clemence Imp[eria]<hi rendition="#sup">le</hi>
+          bien tenir la main afin que la petite pension, que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">la Clemence Imp[eria]<hi rendition="#sup">le</hi>
           </persName>
           a bien voulu m’accorder pour recompense de mes services passés (et dont j’ai besoin pour
-          vivre) soit remise avec exactitude à <persName
-            key="p0076"
-            ref="6dae20a2-6921-4999-9ad3-271c5403b39d">M<hi rendition="#sup">r</hi>. de Gross</persName>
-          a <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName>. Pour le dernier tertial d’Août on n’a payé
+          vivre) soit remise avec exactitude à <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">M<hi rendition="#sup">r</hi>. de Gross</persName>
+          a <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName>. Pour le dernier tertial d’Août on n’a payé
           a mes commissionaires que 154 Rixdahlers &amp; demy, qui font un quart moins des 200
           roubles qui m’etoient dûs. </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> Je vous prie d’etre persuadé que sans le besoin que j’en ay je me garderois bien de vous
           importuner.</p>
         <p>Si j’osois je supplierois V. Ex[cellen]<hi rendition="#sup">ce</hi>. de faire rendre
-          l’incluse a <persName key="p0034" ref="5c0e2a7f-1552-4ca1-9613-4afa6fc7834a">M<hi
-              rendition="#sup">r</hi>. le Marquis de Cavalcabó</persName>, comme aussi de me
+          l’incluse a <persName key="p0034" ref="5c0e2a7f-1552-4ca1-9613-4afa6fc7834a">M<hi rendition="#sup">r</hi>. le Marquis de Cavalcabó</persName>, comme aussi de me
           regarder toujours comme un homme plein d’honneur, droit, fidelem<hi rendition="#sup">t</hi>.
           attaché a mes bienfaiteurs, et enfin comme celui qui est avec un profond respect</p>
-        <p />
+        <p/>
         <p>Monseigneur</p>
         <p> </p>
         <p>De Votre Excellence</p>
-        <p />
+        <p/>
         <p>
-          <placeName key="g0103" ref="https://www.geonames.org/3172394">Naples</placeName> 2 Janv[ie]<hi
-            rendition="#sup">r</hi>. 1768.</p>
-        <p />
+          <placeName key="g0103" ref="https://www.geonames.org/3172394">Naples</placeName> 2 Janv[ie]<hi rendition="#sup">r</hi>. 1768.</p>
+        <p/>
         <p>Très humble &amp; très </p>
         <p>Obeissant serviteur</p>
         <p>
