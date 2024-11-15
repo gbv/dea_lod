@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,86 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_35_1_553_0010.tei.xml?person_annotation_20241114210146242",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-14T20:01:46.242Z",
+	"dcterms:modified": "2024-11-14T20:01:46.242Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_35_1_553_0010.tei.xml?person_annotation_20241114210146242#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_35_1_553_0010.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_35_1_553_0010.tei.xml?person_annotation_20241114210146242#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/title/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "393212d9-4837-4dcc-b397-b5ed81147dba",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,80 +181,56 @@
       <div type="letter">
         <head>
           <title>
-            15 October 1732. – Letter from <persName
-              key="p0189"
-              ref="393212d9-4837-4dcc-b397-b5ed81147dba">the Russian Resident at the Ottoman court,
-            Ivan Nepliuev</persName>, to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+            15 October 1732. – Letter from <persName key="p0189" ref="393212d9-4837-4dcc-b397-b5ed81147dba">the Russian Resident at the Ottoman court,
+            Ivan Nepliuev</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
             Prince Antiokh Kantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 41–42v. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 41" />
-        <p />
+        <pb n="f. 41"/>
+        
         <p>Г[осу]д[а]рь мой кн[я]зь <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиох
           Дмитриевич</persName>
         </p>
         <p>Уповаю что вы Г[осу]д[а]рь мой уже получили писмо мое от 18го июля посланное, и
           уведомились о здешнем состоянии которыя дела и до н[ы]не между турок и персиан на том же
-          основании; то есть: со обоих сторон приуготовлениями время продолжается, однако ж <orgName
-            key="o0011"
-            ref="c346b758-37a0-4aed-906c-46902dec07a2">здешней двор</orgName> начатком
+          основании; то есть: со обоих сторон приуготовлениями время продолжается, однако ж <orgName key="o0011" ref="c346b758-37a0-4aed-906c-46902dec07a2">здешней двор</orgName> начатком
           ссор быть не хочет, но паче всячески тщатся при постановленном трактате удержатся; но по
           сие число способов к тому не видно, а как что обойдется то время изявит. Она ж Порта
-          н[ы]не еще суеты имеет, понеже близ <placeName
-            key="g0041"
-            ref="https://www.geonames.org/361058">Александрии</placeName> Малтизы
+          н[ы]не еще суеты имеет, понеже близ <placeName key="g0041" ref="https://www.geonames.org/361058">Александрии</placeName> Малтизы
           взяли ея военной корабль под флагом контр адмиралским </p>
-        <pb n="f. 41v" />
+        <pb n="f. 41v"/>
         <p> что весма с чувствованием приемлю и эскадру кораблей вооружают. Еще аржелинцы прибыли
-          сюда помощи просить против Гишпании к возвращению <placeName
-            key="g0038"
-            ref="https://www.geonames.org/2485926">Орана</placeName>,
+          сюда помощи просить против Гишпании к возвращению <placeName key="g0038" ref="https://www.geonames.org/2485926">Орана</placeName>,
           но не будучи порта сама в состоянии, посылает министра в Мароку к королю дружески
           требовать дабы он по единоверию аржелинцов не оставил. </p>
-        <p>Внутреннее состояние здесь во всякой тишине, и <persName
-            key="p0191"
-            ref="04ba2500-7b33-4814-b69b-59791a760784">верховной везирь али паша</persName>
+        <p>Внутреннее состояние здесь во всякой тишине, и <persName key="p0191" ref="04ba2500-7b33-4814-b69b-59791a760784">верховной везирь али паша</persName>
           благоразумным своим правлением день от дне в кредите преуспевает, и соседственным
-          державам, а паче к стороне <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">ея императорского величества н[а]шей
+          державам, а паче к стороне <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">ея императорского величества н[а]шей
           всемилостивейшей г[осу]д[а]р[ы]ни</persName> дружбы опыт дает, яко состояние свое и
           коньюнктуры смысленно уважает.</p>
-        <p />
-        <pb n="f. 42" />
-        <p> В сих же числах отправляет порта отоманская чрез россию министром в Швецию <persName
-            key="p0192"
-            ref="7d371fe6-c8fa-4682-93ca-009be48cdf18">Саид Эфендия</persName> бывшаго
+        <p/>
+        <pb n="f. 42"/>
+        <p> В сих же числах отправляет порта отоманская чрез россию министром в Швецию <persName key="p0192" ref="7d371fe6-c8fa-4682-93ca-009be48cdf18">Саид Эфендия</persName> бывшаго
           при <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">дворе Ея
           императорского величества</orgName> министром же, коммисия его состоит единственно в том
-          чтоб требовать долговых д[е]н[е]г одного милиона левков которыя покойному шведскому королю <persName
-            key="p0193"
-            ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Карлу второму надесять</persName>
-          от порты взаймы даны. Впрочем оный <persName
-            key="p0192"
-            ref="7d371fe6-c8fa-4682-93ca-009be48cdf18">Саид Эфенди</persName> рекомендуется от Порты
+          чтоб требовать долговых д[е]н[е]г одного милиона левков которыя покойному шведскому королю <persName key="p0193" ref="a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Карлу второму надесять</persName>
+          от порты взаймы даны. Впрочем оный <persName key="p0192" ref="7d371fe6-c8fa-4682-93ca-009be48cdf18">Саид Эфенди</persName> рекомендуется от Порты
           ко <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">двору Ея императорского
           величества</orgName>. </p>
         <p>Поветренная болезнь и до н[ы]не здесь продолжается, которою у верховнаго везиря родной
-          брат, да сын умерли, и у аглинскаго посла милорда <persName
-            key="p0194"
-            ref="0f8db08d-c5a4-45d7-b390-7ba7d3baeace">Кинуля</persName> многия акчиденты в ево
+          брат, да сын умерли, и у аглинскаго посла милорда <persName key="p0194" ref="0f8db08d-c5a4-45d7-b390-7ba7d3baeace">Кинуля</persName> многия акчиденты в ево
           свите случились. А мы до н[ы]не по деревнем скитаемся с помощию всевышшаго от оной напасти </p>
-        <pb n="f. 42v" />
+        <pb n="f. 42v"/>
         <p> спасаемся.</p>
-        <p>Полской посланник для поздравления <persName
-            key="p0195"
-            ref="c261dc96-7b9f-4797-aac2-7940156f21db">салтана</persName> в ответ на ево нотификацию
+        <p>Полской посланник для поздравления <persName key="p0195" ref="c261dc96-7b9f-4797-aac2-7940156f21db">салтана</persName> в ответ на ево нотификацию
           сюда едущей г[оспо]д[и]н <persName key="p0196" ref="d612b35d-aaf1-457c-8a62-d5e38209dc4b">
           Сираковский</persName> на сих днях ожидается.</p>
         <p>[нрзб.] г[осу]д[а]рь мой</p>
         <p>В[а]ш покорно послушной</p>
-        <p>Слуга <persName key="p0189" ref="393212d9-4837-4dcc-b397-b5ed81147dba">Иван Неплюев</persName>
+        <p>Слуга <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0189" xml:space="default" ref="393212d9-4837-4dcc-b397-b5ed81147dba" type="signature">Иван Неплюев</persName>
         </p>
         <p>От <placeName key="g0018" ref="https://www.geonames.org/745044">Царь Града</placeName>
         </p>

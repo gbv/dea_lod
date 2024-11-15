@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Letter from Count Mikhail Bestuzhev-Riumin to Prince
-          Antiokh Сantemir</title>
-        <author xml:lang="en">Mikhail</author>
-        <author xml:lang="en">Petrovich</author>
-        <author xml:lang="en">Bestuzhev-Riumin</author>
+        <title type="main" xml:lang="en">Letter from William Stanhope, Baron Harrington, to Prince Antiokh Сantemir</title>
+        <author xml:lang="en">William</author>
+        <author xml:lang="en">Stanhope</author>
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -98,59 +93,32 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
-    </profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+        </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>
-            6 January 1736. – Letter from <persName
-              key="p0206"
-              ref="456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary to
-            Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to the <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Russian Minister Plenipotentiary to the
-            Great Britain, Prince Antiokh Kantemir</persName>
+          <title>17 April 1733. – Letter from <persName key="p0164" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">the British State Secretary for the Northern Department, William Stanhope, Baron Harrington</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court, Prince Antiokh Cantemir</persName>
           </title>
           <note>
-            <bibl>AVPRI, fond 36, chast 2, no. 67, f. 1–2. French original.</bibl>
+            <bibl>AVPRI, fond 35, opis 1, no. 558, f. 143. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
-        <p>A Mrs le <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Prince Cantimir</persName>
-          à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>
-        </p>
+        
+        <pb n="f. 146"/>
+        
+        <p>A <placeName key="g0003" ref="https://www.geonames.org/2643743">Whitehall</placeName> ce 17 : d’avril 1733</p>
         <p>Monsieur</p>
-        <p>Aÿant bien recu la dernière, qu’il Vous a plu de m’ecrire, je me donne le plaisir de Vous
-          renouveler à l’occasion de la nouvelle année, dont nous venons de recommencer la carrière,
-          les assurances de la parfaite consideration, que j’ai pour Vous personne, Vous souhaitant
-          toutes sortes de prospérité et de contentement pour cette année cÿ et pour bien des
-          suivantes. Il ne se passe rien de remarquable ici depuis quelque tems, et ainsi je ne
-          scaurois Vous mander aucune nouvelle interessante de ce païs </p>
-        <pb n="f. 2" />
-        <p> mais comme il ÿ en aura peut-être plus là, où Vous etes, je Vous prie Monsieur de
-          vouloir continuer à m’en faire part, et d’être persuadé au reste, que c’est avec une
-          estime tres parfaite, que j’ai l’honneur d’être</p>
+        <p>J’ay êté trés faché d’apprendre l’accident qui est survenu à un de vos Domestiques ; et je puis vous assurer que cela ne luy est arrivé que parcequ’on ne l’a pas connu pour tel. Desormais vous pouvés être persuadé que vous n’aurés rien de pareil à craindre pour aucun de ceux qui vous appartiendront.</p>
+        <p>Je suis très parfaitement</p>
         <p>Monsieur</p>
-        <p>Votre tres humble et tres </p>
-        <p>obeissant serviteur</p>
-        <p>
-          <persName key="p0206" ref="456ddbda-8973-468b-8a74-663071d20bf6">M. Bestuchef</persName>
+        <p>Votre très humble et très obeissant serviteur<hi rendition="#sup"/>
         </p>
         <p>
-          <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0164" xml:space="default" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f" type="signature">Harrington</persName>
         </p>
-        <p>ce 6. Janvier 1736</p>
-        <noteGrp>
-          <note>Also see: ru_avpri_35_1_553_0021</note>
-          <note> ru_avpri_36_2_67_0002</note>
-          <note> ru_avpri_36_2_67_0003</note>
-        </noteGrp>
       </div>
     </body>
   </text>

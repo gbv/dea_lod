@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,67 +94,51 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>16 May 1732. – Letter from <persName
-              key="p0167"
-              ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Vice-Chancelor of the Russian Empire,
-            Count Heinrich Ostermann</persName>, to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
-            Prince Antiokh Kantemir</persName>
+          <title>16 May 1732. – Letter from <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Vice-Chancelor of the Russian Empire,
+            Count Heinrich Ostermann</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+            Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 106–107. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 106" />
-        <p />
+        <pb n="f. 106"/>
+        
         <p>Светлейший князь</p>
-        <p>Пред недавным времянем в некоторой аглинской печатной газете называемой <orgName
-            key="o0004"
-            ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening Post</orgName> от 6
-          апреля н[ы]нешняго года экзтракт из одного секретного из <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Берлина</placeName>
-          писма с зловымышленною и весма предосудителною ведомостию о некоторой, чрез господ графов <persName
-            key="p0177"
-            ref="667ff867-c766-49bd-92fc-7716002354ed">фон Левенволдов</persName> и <persName
-            key="p0202"
-            ref="89a43649-58e4-42c5-9be8-b2d516077aa6">Ягушинского</persName> в <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Берлине</placeName> будто веденной негоциации внесен, причем и против
+        <p>Пред недавным времянем в некоторой аглинской печатной газете называемой <orgName key="o0004" ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening Post</orgName> от 6
+          апреля н[ы]нешняго года экзтракт из одного секретного из <placeName key="g0012" ref="https://www.geonames.org/2950159">Берлина</placeName>
+          писма с зловымышленною и весма предосудителною ведомостию о некоторой, чрез господ графов <persName key="p0177" ref="667ff867-c766-49bd-92fc-7716002354ed">фон Левенволдов</persName> и <persName key="p0202" ref="89a43649-58e4-42c5-9be8-b2d516077aa6">Ягушинского</persName> в <placeName key="g0012" ref="https://www.geonames.org/2950159">Берлине</placeName> будто веденной негоциации внесен, причем и против
           здешняго министерства всего г[осу]д[а]рства непристойные и продерзостные экзпрессии
           употреблены; я не мог оставить, к вашей светлости о том писать, чтоб вы по важности дела
           всяким возможным образом, хотя в потребном случае и денежным иждивением старатся изволили,
           у автора помянутой газеты подлинно выведать, откуды он такую ложную ведомость взял, с
           крепким увещеванием, чтоб он впредь от разглашения таких предосудителных </p>
-        <pb n="f. 106v" />
+        <pb n="f. 106v"/>
         <p> о <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">здешнем дворе</orgName>
           и г[осу]д[а]рстве вымышленей удерживался. Также ваша светлость без того по содержанию
           своей инструкции всегда прилежно смотреть и престерегать будете, дабы никакие фалшивые до
           нас касающияся ведомости в газетах печатаны небыли. И ежели какие явятся, те немедленно
           публично же надлежащим образом опровержены были. И потому же опровержение помянутого
-          фалшиво вымышленного экзтракта в той же газете <orgName
-            key="o0004"
-            ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening Post</orgName> напечатано быть может;
+          фалшиво вымышленного экзтракта в той же газете <orgName key="o0004" ref="64090634-6ad0-47c0-be09-83a5a9e6c7ea">Evening Post</orgName> напечатано быть может;
           Вашей Светлости приятное писание я впротчем исправно получил и со особливою охотою всяким
           случаем ползоватся буду свою к услугам вашим истинную готовость сколко от меня зависит по
           вашему желанию вам действително показывать, толко незнаю можно ли будет так скоро оное
           дело исходатайствовать. И для успевания в том помоему мнению потребно будет, чтоб ваша
           светлость </p>
-        <pb n="f. 107" />
+        <pb n="f. 107"/>
         <p> при своей присылаемой реляции прошение о том учинили. Я свое старание по возможности
           прилагать непремину. И со всякою истинною наивсегда пребываю</p>
         <p>Вашей Светлости</p>
         <p>Всепослушный слуга</p>
         <p>
-          <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">А. Остерман</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0167" xml:space="default" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a" type="signature">А. Остерман</persName>
         </p>
         <p>Из <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт петербурга</placeName>
         </p>

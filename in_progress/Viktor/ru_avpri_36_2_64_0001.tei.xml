@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,82 +95,60 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 May 1735. – Letter from <persName
-              key="p0297"
-              ref="f93926dd-6205-4711-a979-00e59732f947">the Russian Minister Extraordinary and
-            Plenipotentiary to Holy Roman Empire, Ludwik Laczynski</persName>, to the <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Russian Minister
-            Plenipotentiary to the Great Britain, Prince Antiokh Kantemir</persName>
+          <title>21 May 1735. – Letter from <persName key="p0297" ref="f93926dd-6205-4711-a979-00e59732f947">the Russian Minister Extraordinary and
+            Plenipotentiary to Holy Roman Empire, Ludwik Laczynski</persName>, to the <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Russian Minister
+            Plenipotentiary to the Great Britain, Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 36, chast 2, no. 64, f. 14–15v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 14" />
-        <p />
+        <pb n="f. 14"/>
+        
         <p>Mon Prince</p>
         <p>Votre Altesse aura eu plutot que moi la Piece aussi fiere qu’insultante, que
           l’Ambassadeur de France <persName key="p0298" ref="eaee60f2-023f-4a82-b52f-7d32785a5374">Mr
-          de Fenelon</persName> a delivrée à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">la Haye</placeName> le 7. de ce
+          de Fenelon</persName> a delivrée à <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName> le 7. de ce
           mois ci n.st. au nom de trois Couronnes Alliées, servant de reponse au Plan de
           Pacification que les Puissances Maritimes ont donné à toutes les Puissances belligerantes.</p>
-        <p>Celle que le Ministre Plenipotentiaire de l’Empereur <persName
-            key="p0299"
-            ref="8a779c69-a3b9-40a0-bc59-c47d8e3988ad">le Comte d’Uhlefeld</persName> a donnée en
+        <p>Celle que le Ministre Plenipotentiaire de l’Empereur <persName key="p0299" ref="8a779c69-a3b9-40a0-bc59-c47d8e3988ad">le Comte d’Uhlefeld</persName> a donnée en
           suite le 9. du même mois en de termes fort moderés, ne respirant que le souhait du repos
           public ne peut pas avoir passé Votre connoissance non plus.</p>
         <p>C’est à cette heure aux Puissances Maritimes </p>
-        <pb n="f. 14v" />
+        <pb n="f. 14v"/>
         <p> à voir laquelle de deux parties meprise leur soin et bons offices, ou bien laquelle les
           accepte sincerement avec des sacrifices pour accelerer la Paix de manière que l’on est ici
           fort attentif à voir l’effet des demarches si opposées l’une à l’autre ; d’autant que la
           Gr[ande] Bretagne sur tout pourroit d’abord faire pancher la balance du coté de la juste
           cause, pour vû qu’Elle voulut se servir d’une Flotte si formidable qu’Elle a toute prete à
-          mettre en mer, pouvant en même tems secourir <orgName
-            key="o0027"
-            ref="4857bcb8-504d-4281-9b46-6cef8722e182">la Cour de Portugal</orgName> devenüe un
+          mettre en mer, pouvant en même tems secourir <orgName key="o0027" ref="4857bcb8-504d-4281-9b46-6cef8722e182">la Cour de Portugal</orgName> devenüe un
           ennemi de plus de la Maison de Bourbon.</p>
-        <p>Je ne sache point encore si les huit Regimens d’Infanterie faisant 12800 hommes que <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">notre tres gracieuse Souveraine</persName>
+        <p>Je ne sache point encore si les huit Regimens d’Infanterie faisant 12800 hommes que <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">notre tres gracieuse Souveraine</persName>
           envoye au secours de <persName key="p0163" ref="a909b6ae-3823-4764-ab8f-fd7a135760f1">
-          l’Empereur</persName> au Rhin sous les Ordres de <persName
-            key="p0300"
-            ref="cbabc54c-c476-43d2-a134-1ef6d6fb9cc5">Mr. le General de Lacy</persName>, sont deja
+          l’Empereur</persName> au Rhin sous les Ordres de <persName key="p0300" ref="cbabc54c-c476-43d2-a134-1ef6d6fb9cc5">Mr. le General de Lacy</persName>, sont deja
           entrés dans la Silesie. Ce qui ne peut pas pourtant tarder, où on a non seulement fait des
           amas de provisions pour </p>
-        <pb n="f. 15" />
-        <p> leur subsistance : Mais même Mr. le Marechal General <persName
-            key="p0301"
-            ref="f2bb9754-a2f4-412a-a65e-0ef8651c15e4">Comte de Wilczek</persName> ci devant
+        <pb n="f. 15"/>
+        <p> leur subsistance : Mais même Mr. le Marechal General <persName key="p0301" ref="f2bb9754-a2f4-412a-a65e-0ef8651c15e4">Comte de Wilczek</persName> ci devant
           Ambassadeur de S.M. en Pologne est allé sur les frontieres pour les recevoir, et pour les
           mener au travers à l’autre extremité de la Boheme, où un autre General de l’Armée
-          Imp[éria]le doit se trouver de la part de S.A. le Prince <persName
-            key="p0302"
-            ref="762eb30c-875b-4f66-9016-5007183803e4">Eugene de Savoye</persName>, pour être leur
+          Imp[éria]le doit se trouver de la part de S.A. le Prince <persName key="p0302" ref="762eb30c-875b-4f66-9016-5007183803e4">Eugene de Savoye</persName>, pour être leur
           guide jusqu’à la dite Armée.</p>
-        <p>Voilà tout ce que je puis mander de positif pour le present de <orgName
-            key="o0023"
-            ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">cette Cour ci</orgName>. Je finis par joindre
-          ci auprès un paquet de lettres, que je viens de recevoir hier de <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">
+        <p>Voilà tout ce que je puis mander de positif pour le present de <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">cette Cour ci</orgName>. Je finis par joindre
+          ci auprès un paquet de lettres, que je viens de recevoir hier de <placeName key="g0018" ref="https://www.geonames.org/745044">
           Constantinomple</placeName>, étant avec toute la deference et promptitude immaginables</p>
         <p>De Votre Altesse</p>
         <p>Le très-humble, et très </p>
         <p>obeissant Serviteur</p>
         <p>
-          <persName key="p0297" ref="f93926dd-6205-4711-a979-00e59732f947">L. Lanczÿnski</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0297" xml:space="default" ref="f93926dd-6205-4711-a979-00e59732f947" type="signature">L. Lanczÿnski</persName>
         </p>
         <p>A <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName>
         </p>

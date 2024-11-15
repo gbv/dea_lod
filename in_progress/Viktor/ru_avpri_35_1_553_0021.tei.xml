@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,45 +95,37 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>Unknown date [April 1732]. – Letter from <persName
-              key="p0206"
-              ref="456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary in
-            Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
-            Prince Antiokh Kantemir</persName>
+          <title>Unknown date [April 1732]. – Letter from <persName key="p0206" ref="456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary in
+            Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+            Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 109. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 109" />
-        <p />
+        <pb n="f. 109"/>
+        
         <p>Г[осу]д[а]рь Мой</p>
-        <p>Сим вам Г[осу]д[а]рю моему извествую, что я к <orgName
-            key="o0015"
-            ref="aa7d6cf5-0a45-4686-955d-58ada08fd860">здешнему двору</orgName> 1. сего апреля
+        <p>Сим вам Г[осу]д[а]рю моему извествую, что я к <orgName key="o0015" ref="aa7d6cf5-0a45-4686-955d-58ada08fd860">здешнему двору</orgName> 1. сего апреля
           прибыл, токмо аудиенции у <persName key="p0067" ref="22412e8c-3755-4663-8444-15061d7a9e52">
           короля</persName> еще неимел, ибо его величество для наступающаго праздника Святыя пасхи
           упразняется н[ы]не в девоции.</p>
         <p>Присем прилежно вас Г[осу]д[а]ря моего прошу пожаловать меня по м[и]л[о]сти своей в
           приятной в[а]шей корреспонденции неоставить, а особливо о происхождении у вас дел которые
-          могут касатся для престережения здесь высоких интересов <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея императорского величества</persName>; а я
+          могут касатся для престережения здесь высоких интересов <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея императорского величества</persName>; а я
           с моей стороны ежели случится что потребное ко известию в[а]шему, отсюды равным образом
           сообщать вам Г[осу]д[а]рь мой непремину.</p>
         <p>Впротчем пребываю с почтением</p>
         <p>Послушный слуга</p>
         <p>
-          <persName key="p0206" ref="456ddbda-8973-468b-8a74-663071d20bf6">М: Бестужев</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0206" xml:space="default" ref="456ddbda-8973-468b-8a74-663071d20bf6" type="signature">М: Бестужев</persName>
         </p>
         <p>Из <placeName key="g0017" ref="https://www.geonames.org/2673730">Стокхолма</placeName>.</p>
         <noteGrp>

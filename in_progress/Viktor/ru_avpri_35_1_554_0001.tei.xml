@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,44 +98,30 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2 July 1733. – Letter from <persName
-              key="p0006"
-              ref="bc444245-d428-47f5-8e28-07bd88e25987">Empress Anna Ioannovna</persName> to the <persName
-              key="p0063"
-              ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">King of Great Britain George II</persName>
+          <title>2 July 1733. – Letter from <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Empress Anna Ioannovna</persName> to the <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">King of Great Britain George II</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 554, f. 2–3v. Russian original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 2" />
-        <p />
-        <p>Грамота <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">императорского величества</persName> к <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">королю аглинскому</persName>
+        
+        <pb n="f. 2"/>
+        
+        <p>Грамота <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">императорского величества</persName> к <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">королю аглинскому</persName>
         </p>
         <p>По титулах</p>
-        <p>Понеже всевышнему Богу по неиспытаемой его Святой воле угодно было нашу любезнейшую Г[осу]д[а]р[ы]ню сестру ея высочество и любовь пресветлейшую Г[осу]д[а]р[ы]ню царевну и владеющую Герцогиню Мекленбургскую <persName
-            key="p0050"
-            ref="b26dd0ce-bad9-4fc7-a948-b40bf1d4ff3e">Екатерину Иоанновну</persName> по претерпенной чрез некоторое время болезни сего июня 14:го дня пополудни в: 8:м часу из сей времянной жизни в вечное блаженство отозвать а нас чрез то в чувствительную печаль привести </p>
-        <pb n="f. 2v" />
-        <p> того ради мы неможем оставить чтоб <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому величеству</persName> о том чрез сие дружебно сестринскую нотификацию неучинить пребывая внесумненном уповании что вы в такой нам приключившейся болезненной печали дружебно братски своим сожалением склонное участие принять изволите, мы чрез то новый знак продолжающейся вашего королевского величества к нам доброй дружбы получили и от сердца желаем дабы всемогущий бог такие и все печалные случаи </p>
-        <pb n="f. 3" />
-        <p> от королевского вашего дома на долгие времена м[и]лстиво отвратить и <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">ваше королевское величество</persName> в своесильном защищении и неотменным щастливым благополучиям всегда содержать благоволил.</p>
+        <p>Понеже всевышнему Богу по неиспытаемой его Святой воле угодно было нашу любезнейшую Г[осу]д[а]р[ы]ню сестру ея высочество и любовь пресветлейшую Г[осу]д[а]р[ы]ню царевну и владеющую Герцогиню Мекленбургскую <persName key="p0050" ref="b26dd0ce-bad9-4fc7-a948-b40bf1d4ff3e">Екатерину Иоанновну</persName> по претерпенной чрез некоторое время болезни сего июня 14:го дня пополудни в: 8:м часу из сей времянной жизни в вечное блаженство отозвать а нас чрез то в чувствительную печаль привести </p>
+        <pb n="f. 2v"/>
+        <p> того ради мы неможем оставить чтоб <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому величеству</persName> о том чрез сие дружебно сестринскую нотификацию неучинить пребывая внесумненном уповании что вы в такой нам приключившейся болезненной печали дружебно братски своим сожалением склонное участие принять изволите, мы чрез то новый знак продолжающейся вашего королевского величества к нам доброй дружбы получили и от сердца желаем дабы всемогущий бог такие и все печалные случаи </p>
+        <pb n="f. 3"/>
+        <p> от королевского вашего дома на долгие времена м[и]лстиво отвратить и <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">ваше королевское величество</persName> в своесильном защищении и неотменным щастливым благополучиям всегда содержать благоволил.</p>
         <p>дан в <placeName key="g0002" ref="https://www.geonames.org/498817">Сан Петербурге</placeName>
         </p>
         <p>июля 2го дня 1733</p>
@@ -149,21 +132,15 @@
         </p>
         <p>У оригиналной подписано</p>
         <p>собственною ея императорского ве.а рукою тако</p>
-        <p>Контрсигнировал Г[оспо]д[и]н канцлер посему – <persName
-            key="p0071"
-            ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Граф Головкин</persName>
+        <p>Контрсигнировал Г[оспо]д[и]н канцлер посему – <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Граф Головкин</persName>
         </p>
-        <p />
-        <pb n="f. 3v" />
-        <p />
+        
+        <pb n="f. 3v"/>
+        
         <p>Писана по российски на большом александринском листу по краям немного очернено чернилами.</p>
         <p>Запечатана Г[осу]д[а]рственною болшою печатею на черном воску под кустудиею бумажною с прошивкою наглухо.</p>
         <p>Копии на иностранном языке при оной неприложено.</p>
-        <p>Послана как оригиналная грамота, так и со оной копии на российском и немецком языках при рескрипте №11: июня в 23: 1733: в <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Лондон</placeName> к резиденту кн[я]зю <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиоху Кантемиру</persName>, и немецкую копию велено сообщить аглинским министрам.</p>
+        <p>Послана как оригиналная грамота, так и со оной копии на российском и немецком языках при рескрипте №11: июня в 23: 1733: в <placeName key="g0003" ref="https://www.geonames.org/2643743">Лондон</placeName> к резиденту кн[я]зю <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиоху Кантемиру</persName>, и немецкую копию велено сообщить аглинским министрам.</p>
         <p>Сложена по прежнему обыкновению.</p>
         <p>Надпись по российски против титулярника.</p>
       </div>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,57 +94,46 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>16 November 1732. – Letter from the <persName
-              key="p0190"
-              ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">Secretary of the Russian mission in the
-            Ottoman Empire, Aleksei Veshniakov</persName> to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
-            Prince Antiokh Kantemir</persName>
+          <title>16 November 1732. – Letter from <persName key="p0190">the Secretary of the Russian mission in the Ottoman Empire, Aleksei Veshniakov</persName> to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+            Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 56–57v. Russian and French.</bibl>
           </note>
         </head>
-        <pb n="f. 56" />
-        <p />
-        <p>М[и]л[о]стивой Г[осу]д[а]рь Мой Князь <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиох Димитриевич</persName>
+        <pb n="f. 56"/>
+        <p/>
+        <p>М[и]л[о]стивой Г[осу]д[а]рь Мой Князь <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиох Димитриевич</persName>
         </p>
         <p>Хотя и не имею ничега достойнага к доношению вам Моему М[и]л[о]стивому Г[осу]д[а]рю сверх
-          того что изволите усмотреть из Писма <persName
-            key="p0189"
-            ref="393212d9-4837-4dcc-b397-b5ed81147dba">Г[оспо]д[и]на резидента</persName>; на
+          того что изволите усмотреть из Писма <persName key="p0189" ref="393212d9-4837-4dcc-b397-b5ed81147dba">Г[оспо]д[и]на резидента</persName>; на
           которое приемлю смелость сослаться. но не хотел упустить и сего случая, а паче что сие
           иметь достигнуть в конце текущаго или в начале близ наступающаго года. Того ради имею
           честь вас М[и]л[о]стивого Г[осу]д[а]ря Моего поздравить щастливым окончанием перваго,
           желая всеусердно всякаго самопожелаемого благополучия и щастия в течении будущаго, со
           следованием </p>
-        <pb n="f. 56v" />
+        <pb n="f. 56v"/>
         <p> других многих. И паки всепокорно просить о неотменном продолжении вашей Моего
           М[и]л[о]стивого Г[осу]д[а]ря ко мне прежней м[и]л[о]сти имею честь быть со все совершенно
           возможным почтением,</p>
         <p>М[и]л[о]стивой Г[осу]д[а]рь</p>
         <p>Ваш нижайший, всепокорнейший и вернейший слуга </p>
         <p>
-          <persName key="p0190" ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">Алексей Вешняков</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0190" xml:space="default" ref="3fc3a262-16d9-46a3-81c8-3af74178d18f" type="signature">Алексей Вешняков</persName>
         </p>
-        <p>из <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Перы Константинопольской</placeName>
+        <p>из <placeName key="g0018" ref="https://www.geonames.org/745044">Перы Константинопольской</placeName>
         </p>
         <p>16. ноября 1732</p>
-        <p />
-        <pb n="f. 57" />
-        <p />
+        
+        <pb n="f. 57"/>
+        
         <p>PS. j'attens a present la fin de mes soufrances, je ne sçaurois exprimer à quel point ma
           patience est poussée à bout, et cela sans sçavoir pourquoi, recevant même mille graces
           &amp; bontez quasi chaque Courrier. Ah que j’envie mon cher Prince, le sort de ceux qui
@@ -160,11 +146,9 @@
           donner quelques fois de ces nouvelles de literature, au milieu de laquelle, et de la
           meilleure vous etes presentement, afin de m’en reveiller le peu de gout que j’avois p[ou]r
           cela, et </p>
-        <pb n="f. 57v" />
+        <pb n="f. 57v"/>
         <p> [que ?] le chagrins me devorant le cœur et tout le corps, effacent en moi. J’entens que
-          vous honnorez de vôtre correspondance mon cousin Monsr. <persName
-            key="p0197"
-            ref="6ecfcb28-88f2-4334-bb58-3cb54dadbc41">Argamakow</persName>; je vois certes avec
+          vous honnorez de vôtre correspondance mon cousin Monsr. <persName key="p0197" ref="6ecfcb28-88f2-4334-bb58-3cb54dadbc41">Argamakow</persName>; je vois certes avec
           plaisir les progres qu’il fait; sans me flater c’est à moi qu’il a cette obligation, Sa
           chere Mere et <persName key="p0198" ref="c7b2b477-5709-4e6c-9b99-4206283579b0">ma Tente</persName>
           qui etoit si dechaînée contre moi, m’en sait apresent grand gré je ne sçais plus rien de

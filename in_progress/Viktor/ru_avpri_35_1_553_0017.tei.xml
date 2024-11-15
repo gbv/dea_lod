@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,103 +95,65 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>10 May 1732. – Letter from <persName
-              key="p0177"
-              ref="667ff867-c766-49bd-92fc-7716002354ed">the Russian Minister Plenipotentiary at the
-            Polish court, Count Friedrich Casimir of Löwenwolde</persName>, to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
-            Prince Antiokh Kantemir</persName>
+          <title>10 May 1732. – Letter from <persName key="p0177" ref="667ff867-c766-49bd-92fc-7716002354ed">the Russian Minister Plenipotentiary at the
+            Polish court, Count Friedrich Casimir of Löwenwolde</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+            Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 80–81v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 80" />
-        <p />
+        <pb n="f. 80"/>
+        
         <p>Получено 15г маия ответствовано 16.г маия</p>
         <p>Monsieur</p>
-        <p>J’ai reçu la lettre que vous m’avez fait l’honneur, mon Prince, de m’ecrire de <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName> le 4/15 d’avril passé, et j’aurois déjà û celui, de vous
+        <p>J’ai reçu la lettre que vous m’avez fait l’honneur, mon Prince, de m’ecrire de <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> le 4/15 d’avril passé, et j’aurois déjà û celui, de vous
           y repondre plûtôt, si la quantité d’autres affaires, ne m’en auroit empeché jusqu’à
           present. J’etois très ravi d’en apprendre, vôtre heureuse arrivée en cette capitale, dont
-          je vous felicite de tout mon cœur ; comme aussi du digne choix, que <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">Sa M[a]j[es]té Imp[éria]le nôtre très
+          je vous felicite de tout mon cœur ; comme aussi du digne choix, que <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Sa M[a]j[es]té Imp[éria]le nôtre très
           gracieuse Souveraine</persName>, a faite, en vous nommant (comme il lui a plû de m’en
-          informer par un rescript de la <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cour</orgName>) son ministre à <orgName
-            key="o0002"
-            ref="dd406ffb-30ce-4374-868b-1a55e8daf251">celle</orgName> où vous etes
+          informer par un rescript de la <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cour</orgName>) son ministre à <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">celle</orgName> où vous etes
           actuellement, ne doutant point que, selon vos merites connus, vous ne fassiez en peu de
           tems, une plus grande fortune.</p>
-        <p />
-        <pb n="f. 80v" />
+        
+        <pb n="f. 80v"/>
         <p> D’ailleurs, mon Prince, pour entrer le premier en matiere, j’ai l’honneur de vous dire,
-          que je suis informé par des lettres particulieres, comme si la <orgName
-            key="o0002"
-            ref="dd406ffb-30ce-4374-868b-1a55e8daf251">cour d’Angleterre</orgName> travailloit sous
-          mains chef [chez] d’autres, pour les disposer à exclurre <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">la Nôtre</orgName> de la Grande influence
+          que je suis informé par des lettres particulieres, comme si la <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">cour d’Angleterre</orgName> travailloit sous
+          mains chef [chez] d’autres, pour les disposer à exclurre <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">la Nôtre</orgName> de la Grande influence
           qu’elle avoit euë depuis quelque tems, dans les affaires de l’Europe, et en consequence de
           cela, à deloger nôtre Souveraine des côtes de la mer Baltique. Vous voyez de vous-même,
           l’importance de cette intention, si elle est vraye. C’est pourquoy vous aures la bonté,
-          mon Prince, de veiller sur les démarches de <orgName
-            key="o0002"
-            ref="dd406ffb-30ce-4374-868b-1a55e8daf251">la Cour de vôtre residence</orgName>, à cet
-          egard, qui interesse de si près <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">nôtre Souveraine</persName>, et de me donner
+          mon Prince, de veiller sur les démarches de <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">la Cour de vôtre residence</orgName>, à cet
+          egard, qui interesse de si près <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">nôtre Souveraine</persName>, et de me donner
           part, s’il vous plait, a ce qui viendra à vôtre connoissance sur cette matiere comme
           aussi, si se présentera quelque autre chose remarquable de ces cotés là.</p>
         <p>Je ne doute pas, que <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Nôtre
           Cour</orgName>, ne vous ait pareillement </p>
-        <pb n="f. 81" />
+        <pb n="f. 81"/>
         <p> informé, de l’importante et très agreable Nouvelle, qu’elle a recuë de Perse, de la Paix
           avantageuse, faite entre <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">nôtre
           Souveraine</persName> et <persName key="p0188" ref="c9cd4c20-1752-424a-a9e4-526462652dbb">le
           Schah de Perse</persName>, par laquelle toutes les esperances de nos ennemis sont tombées
-          à terre, de pouvoir troubler le doux et glorieux Regne de <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">Sa M[a]j[es]té Imp[éria]le</persName>. Selon
-          mes dernieres lettres de <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Constantinople</placeName> de Msr. <persName
-            key="p0189"
-            ref="393212d9-4837-4dcc-b397-b5ed81147dba">Niepluiev</persName>, la Porte
+          à terre, de pouvoir troubler le doux et glorieux Regne de <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Sa M[a]j[es]té Imp[éria]le</persName>. Selon
+          mes dernieres lettres de <placeName key="g0018" ref="https://www.geonames.org/745044">Constantinople</placeName> de Msr. <persName key="p0189" ref="393212d9-4837-4dcc-b397-b5ed81147dba">Niepluiev</persName>, la Porte
           continuë pareillement dans sa bonne disposition pour la conservation de la Paix avec la
-          Chrétienneté, et particulièrement avec nôtre <persName
-            key="p0006"
-            ref="bc444245-d428-47f5-8e28-07bd88e25987">Souveraine</persName>. Ces mêmes lettres
+          Chrétienneté, et particulièrement avec nôtre <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Souveraine</persName>. Ces mêmes lettres
           ajoutent qu’il y avoit d’autant moins à craindre de ces cotés là, qu’il regnoit une
           dissention incroyable entre les ministres de la Porte, et que c’etoit là la raison, pour
           laquelle <persName key="p0203" ref="982d6593-a124-4e93-b16b-cdeae663a85c">le dernier Grand
-          Visir</persName>, qui etoit guere pacifique, venoit d’etre encore deposé, <persName
-            key="p0191"
-            ref="04ba2500-7b33-4814-b69b-59791a760784">le Seraskier</persName> de <placeName
-            key="g0052"
-            ref="https://www.geonames.org/113646">Tabris</placeName>, qui a conclu la Paix entre la Porte et <persName
-            key="p0188"
-            ref="c9cd4c20-1752-424a-a9e4-526462652dbb">le Schach</persName>, et fait un
+          Visir</persName>, qui etoit guere pacifique, venoit d’etre encore deposé, <persName key="p0191" ref="04ba2500-7b33-4814-b69b-59791a760784">le Seraskier</persName> de <placeName key="g0052" ref="https://www.geonames.org/113646">Tabris</placeName>, qui a conclu la Paix entre la Porte et <persName key="p0188" ref="c9cd4c20-1752-424a-a9e4-526462652dbb">le Schach</persName>, et fait un
           horrible massacre des Janissaires, revoltés dernièrement </p>
-        <pb n="f. 81v" />
+        <pb n="f. 81v"/>
         <p> contre lui en ladite ville, ayant eté mis à sa place.</p>
-        <p>D’ici il n’y a rien de particulier à vous mander, sinon, que la <orgName
-            key="o0018"
-            ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">Diete</orgName> de cette année-ci, sera
-          extraordinaire, et tenuë en <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">cette ville</placeName>. Elle doit
+        <p>D’ici il n’y a rien de particulier à vous mander, sinon, que la <orgName key="o0018" ref="23a8ac32-72df-4e5a-a2f7-82ffd78dc0e1">Diete</orgName> de cette année-ci, sera
+          extraordinaire, et tenuë en <placeName key="g0009" ref="https://www.geonames.org/756135">cette ville</placeName>. Elle doit
           faire sa premiere ouverture le 15me 7bre prochain, de sorte que les conferences avec les
           Ministres Etrangers soient reassumées, une quinzaine de jours auparavant.</p>
         <p>Le campement projetté aura pareillement lieu. Il doit se commencer le 15me d’août, qui
@@ -209,7 +168,7 @@
         <p>Monsieur</p>
         <p>Vôtre très humble et très obeissant serviteur </p>
         <p>
-          <persName key="p0177" ref="667ff867-c766-49bd-92fc-7716002354ed">le comte de Loewenwolde</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0177" xml:space="default" ref="667ff867-c766-49bd-92fc-7716002354ed" type="signature">le comte de Loewenwolde</persName>
         </p>
         <p>A <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>
         </p>

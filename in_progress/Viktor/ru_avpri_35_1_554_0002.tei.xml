@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,30 +99,24 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 July 1733. – Letter of credence of <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Minister Plenipotentiary at the
-            British court, Prince Antiokh Kantemir</persName>, to the <persName
-              key="p0063"
-              ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">King of Great Britain George II</persName>
+          <title>17 July 1733. – Letter of credence of <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Minister Plenipotentiary at the
+            British court, Prince Antiokh Cantemir</persName>, to the <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">King of Great Britain George II</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 554, f. 6–7v. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 6" />
-        <p />
+        <pb n="f. 6"/>
+        
         <p>Грамота к <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">королю
-          Аглинскому</persName> верюща <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">князю Антиоху Кантемиру</persName> в
+          Аглинскому</persName> верюща <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">князю Антиоху Кантемиру</persName> в
           карактере полномочного министра;</p>
         <p>По титуле полном.</p>
         <p>
@@ -134,17 +125,14 @@
           нашей совершенной дружбе, и истинном намерении к ненарушимому доброго с вами согласия
           содержанию и разпространению, и понеже мы ничего так не желаем как такие неотменные наши
           склонности во всяких случаях вяще и вяще засвидетельствовать, и коим образом мы с своей
-          стороны всегда охотны и готовы всему тому способствовать. Еже оную между <orgName
-            key="o0002,o0008">обоими дворами</orgName> щастливо пребывающую добрую конфиденцию к
+          стороны всегда охотны и готовы всему тому способствовать. Еже оную между <orgName key="o0002,o0008">обоими дворами</orgName> щастливо пребывающую добрую конфиденцию к
           общей обоих сторон ползе </p>
-        <pb n="f. 6 v" />
+        <pb n="f. 6 v"/>
         <p> еще более утверждать может того ради мы, для нового того доказателства забл[а]го
           разсудили нашего при <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">дворе
           вашего королевского ве[личеств]а</orgName> обретающагося <hi rendition="#s">резидента,</hi>
           нам любезно верного <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">князя
-          Антиоха Кантемира</persName> ныне в карактере нашего полномочного министра к <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому ве[личеств]у</persName>
+          Антиоха Кантемира</persName> ныне в карактере нашего полномочного министра к <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому ве[личеств]у</persName>
           аккредитовать. <hi rendition="#s">И яко мы надеемся, что он нонне во время своего при
             дворе вашем пребывания таким образом поступать старался, чтоб ваше королевское ве:о тем
           доволны быть причины иметь могли тако </hi>того ради и вас сим дружебно сестрински просим
@@ -152,26 +140,18 @@
           министру</persName>
           <hi rendition="#s">и впред</hi> не токмо склонный всегда к себе доступ
           позволять, но и во всем что имянем нашим </p>
-        <pb n="f. 7" />
+        <pb n="f. 7"/>
         <p> от времени до времени <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему
           королевскому ве[личеств]у</persName> представлять он честь иметь будет. А особливо когда
-          он при всяких случаях по нашему намерению вам обнадеживании о нашем к <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому ве[личеств]у</persName>
+          он при всяких случаях по нашему намерению вам обнадеживании о нашем к <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому ве[личеств]у</persName>
           истинном высокопочитании и постоянной дружбе возобновлять будет, всякую совершенную веру
           подавать и навсе то его всегда <hi rendition="#s">по требованию обстоятелств</hi> таким
-          склонным ответом снабдевать, как мы то от взаимной <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашего королевского ве[личеств]а</persName>
-          нам дражайшей дружбы надежном ожидать причину имеем. Впротчем, мы от господа бога <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому величеству</persName>
+          склонным ответом снабдевать, как мы то от взаимной <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашего королевского ве[личеств]а</persName>
+          нам дражайшей дружбы надежном ожидать причину имеем. Впротчем, мы от господа бога <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому величеству</persName>
           желаем многолетного здравия и счастливого </p>
-        <pb n="f. 7v" />
+        <pb n="f. 7v"/>
         <p> в г[осу]д[а]рствах ваших г[осу]д[а]рствования. </p>
-        <p>Дан в <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Санкт Петерсбурге</placeName>, июля 17 дня 1733го
+        <p>Дан в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт Петерсбурге</placeName>, июля 17 дня 1733го
           Г[осу]дрствования нашего четвертого году:</p>
         <p>Вашего величества</p>
         <p>Склонная сестра</p>
@@ -180,9 +160,7 @@
         </p>
         <p>Оригиналная подписана <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея
           императорского величества</persName> собственною рукою тако</p>
-        <p>Контросигнировал Г[оспо]д[и]н канцлер посему – <persName
-            key="p0071"
-            ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Граф Головкин</persName>
+        <p>Контросигнировал Г[оспо]д[и]н канцлер посему – <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0071" xml:space="default" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd" type="signature">Граф Головкин</persName>
         </p>
         <p>Писана на александринском большом листу пороссийски копии на иностранном языке
           неприложено.</p>
