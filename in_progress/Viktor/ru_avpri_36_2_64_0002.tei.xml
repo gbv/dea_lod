@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,72 +95,54 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>30 July 1735. – Letter from <persName
-              key="p0297"
-              ref="f93926dd-6205-4711-a979-00e59732f947">the Russian Minister Extraordinary and
-            Plenipotentiary to Holy Roman Empire, Ludwik Laczynski,</persName> to the <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Russian Minister
-              Plenipotentiary to the Great Britain, Prince Antiokh Kantemir</persName>
+          <title>30 July 1735. – Letter from <persName key="p0297" ref="f93926dd-6205-4711-a979-00e59732f947">the Russian Minister Extraordinary and
+            Plenipotentiary to Holy Roman Empire, Ludwik Laczynski,</persName> to the <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Russian Minister
+              Plenipotentiary to the Great Britain, Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 36, chast 2, no. 64, f. 19–20. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 19" />
+        <pb n="f. 19"/>
         <p>Mon Prince</p>
-        <p>Il y a huit jours que j’ai eu l’honneur de faire tenir à Votre Altesse une lettre de <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Constantinople</placeName> portant l’agreable nouvelle de la defaite des
-          Turcs par les Persans qui s’est passée du coté d’<placeName
-            key="g0086"
-            ref="https://www.geonames.org/616052">Erivan. </placeName>Du
+        <p>Il y a huit jours que j’ai eu l’honneur de faire tenir à Votre Altesse une lettre de <placeName key="g0018" ref="https://www.geonames.org/745044">Constantinople</placeName> portant l’agreable nouvelle de la defaite des
+          Turcs par les Persans qui s’est passée du coté d’<placeName key="g0086" ref="https://www.geonames.org/616052">Erivan. </placeName>Du
           [sic] depuis en ayant reçu la confirmation. Elle veut bien que faute de tems j’accompagne
           par ce peu de lignes l’Extrait de la lettre que j’ai reçu là dessus.</p>
         <p>Je suis avec toute la deference et promtitude imaginables</p>
         <p>De Votre Alettes</p>
         <p>Le très-humble et très ibeissant Serviteur.</p>
         <p>
-          <persName key="p0297" ref="f93926dd-6205-4711-a979-00e59732f947">L. Lanczÿnski</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0297" xml:space="default" ref="f93926dd-6205-4711-a979-00e59732f947" type="signature">L. Lanczÿnski</persName>
         </p>
         <p>A <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName>
         </p>
         <p>le 30. Juillet n.st.</p>
         <p>1735</p>
-        <p />
-        <pb n="f. 20" />
-        <p />
-        <p>Extrait d’une lettre de <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Constantinople</placeName> du 12e. Juillet
+        <p/>
+        <pb n="f. 20"/>
+        <p/>
+        <p>Extrait d’une lettre de <placeName key="g0018" ref="https://www.geonames.org/745044">Constantinople</placeName> du 12e. Juillet
           1735. N.St.</p>
         <p>Je reitere ce que j’eus l’honneur de mander en date du 7.e de ce mois que les Turcs sont
-          entierement batus par les Persans dans le voisinage d’<placeName
-            key="g0086"
-            ref="https://www.geonames.org/616052">Erivan </placeName>;
+          entierement batus par les Persans dans le voisinage d’<placeName key="g0086" ref="https://www.geonames.org/616052">Erivan </placeName>;
           ce qui non seulement se confirme, mais on y ajoute pour leur [=l’heure] très precisement
           que de 80/m. hommes dont leur armée a été composée, il n’est echapé que fort peu de monde,
           presque tout a été massacré ou fait prisonier, et le serasquier a été du nombre des morts
           dont <persName key="p0303" ref="64d7085b-5391-45fb-9581-700f01ad6718">Couli-Can</persName>
-          a fait porter le corps à la Ville de <placeName
-            key="g0087"
-            ref="https://www.geonames.org/743952">Cars</placeName>. La
+          a fait porter le corps à la Ville de <placeName key="g0087" ref="https://www.geonames.org/743952">Cars</placeName>. La
           consternation de <orgName key="o0011" ref="c346b758-37a0-4aed-906c-46902dec07a2">cette
           Cour-ci</orgName> continuë encore. <persName key="p0191">Le Gr[and] Vezir Ali Bascha</persName>
           vient d’ettre deposé de sa charge, et on est apres à le releguer en exile. On a deja
-          destiné à sa place <persName
-            key="p0304"
-            ref="3e829680-df0b-4c80-aeb1-028d5063f0e3">Mehmet Bascha</persName> qui est
-          presentement en Asie, et qui a été autrefois Selectar du Sultan deposé <persName
-            key="p0305"
-            ref="2342117b-b867-4af4-bae7-8f074606b628">Ahmet</persName>, et du depuis
+          destiné à sa place <persName key="p0304" ref="3e829680-df0b-4c80-aeb1-028d5063f0e3">Mehmet Bascha</persName> qui est
+          presentement en Asie, et qui a été autrefois Selectar du Sultan deposé <persName key="p0305" ref="2342117b-b867-4af4-bae7-8f074606b628">Ahmet</persName>, et du depuis
           [sic] Bascha de Bassara et d’Egypte.</p>
         <noteGrp>
           <note>Also see: ru_avpri_36_2_64_0001</note>
