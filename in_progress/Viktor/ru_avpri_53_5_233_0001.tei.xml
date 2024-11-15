@@ -128,85 +128,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240124220537377",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-24T21:05:37.377Z",
-	"dcterms:modified": "2024-01-24T21:05:37.377Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240124220537377#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240124220537377#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[3]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "\"и\n            датского\" is inserted above the line."
-	},
-	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240125152405316",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-25T14:24:05.316Z",
@@ -337,9 +258,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>Draft dispatch of the Chief member of <persName key="p0114">the College of Foreign affairs count Nikita Ivanovich Panin</persName> to the the Russian Minister Plenipotentiary and Envoy Extraordinary to Denmark,
-            Mikhail
-            Mikhailovich Filosofov           </title>
+          <title>Draft dispatch of the Chief member of <persName key="p0114">the College of Foreign affairs count Nikita Ivanovich Panin</persName> to the <persName key="p1102">the Russian Minister Plenipotentiary and Envoy Extraordinary to Denmark, Mikhail Mikhailovich Filosofov</persName>           </title>
         </head>
         <opener>
           <note>AVPRI, fond 53, opis 53/5, no. 233, ff. 45-46v</note>
@@ -364,8 +283,7 @@
           <pb cert="high" n="f. 46" xml:space="default"/>принцов и стараясь удержать его от
           предания себя французским сетям и союзу, которой ему не однократно уже предсталяем был,
           адресовался к ея императорскому величеству с прозбою о употреблен[ии] посредства ея у
-          аглинскаго и датскаго<note>"и
-            датского" is inserted above the line.</note>. дворов в ползу толь умеренных желаний его
+          аглинскаго<hi cert="high" generatedBy="human" rendition="#sup" xml:space="default"> и датскаго</hi> дворов в ползу толь умеренных желаний его
           светлости ландграфа гесенкаселскаго. </p>
         <p>Как по существителности сего, королем союзником нашим, <del>представляемаго ув</del>
           представляемаго в для всей северной системы </p>
