@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,23 +103,16 @@
       <div type="letter">
         <head>
           <title>
-            6 January 1736. – Letter from <persName
-              key="p0206"
-              ref="456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary to
-            Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to the <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Russian Minister Plenipotentiary to the
-            Great Britain, Prince Antiokh Kantemir</persName>
+            6 January 1736. – Letter from <persName key="p0206" ref="456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary to
+            Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to <persName key="p0030">the Russian Minister Plenipotentiary to the Great Britain, Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 36, chast 2, no. 67, f. 1–2. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
-        <p>A Mrs le <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Prince Cantimir</persName>
+        <pb n="f. 1"/>
+        
+        <p>A Mrs le <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Prince Cantimir</persName>
           à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>
         </p>
         <p>Monsieur</p>
@@ -132,7 +122,7 @@
           toutes sortes de prospérité et de contentement pour cette année cÿ et pour bien des
           suivantes. Il ne se passe rien de remarquable ici depuis quelque tems, et ainsi je ne
           scaurois Vous mander aucune nouvelle interessante de ce païs </p>
-        <pb n="f. 2" />
+        <pb n="f. 2"/>
         <p> mais comme il ÿ en aura peut-être plus là, où Vous etes, je Vous prie Monsieur de
           vouloir continuer à m’en faire part, et d’être persuadé au reste, que c’est avec une
           estime tres parfaite, que j’ai l’honneur d’être</p>
@@ -140,7 +130,7 @@
         <p>Votre tres humble et tres </p>
         <p>obeissant serviteur</p>
         <p>
-          <persName key="p0206" ref="456ddbda-8973-468b-8a74-663071d20bf6">M. Bestuchef</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0206" xml:space="default" ref="456ddbda-8973-468b-8a74-663071d20bf6" type="signature">M. Bestuchef</persName>
         </p>
         <p>
           <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName>
