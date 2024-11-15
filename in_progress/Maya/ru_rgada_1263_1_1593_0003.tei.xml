@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,7 +96,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -107,243 +104,112 @@
       <div type="letter">
         <head>
           <title>
-            7 August 1759. – Letter from <persName
-              key="p0084"
-              ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Saxon Resident in The Hague, Johann
-            Heinrich Kauderbach</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+            7 August 1759. – Letter from <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Saxon Resident in The Hague, Johann
+            Heinrich Kauderbach</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1593, f. 26–27v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 26" />
-        <p />
+        <pb n="f. 26"/>
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 7. Aout. 1759.</p>
-        <p />
-        <p>Quoique V<hi rendition="#sup">re</hi>. Excellence aura deja reçu directement de <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName> le premier Bulletin de M<hi
-            rendition="#sup">r</hi>. le <persName
-            key="p0128"
-            ref="e0a2391c-77cb-4644-bc76-34442d96b838">Gaãl[General]. Saltikoff</persName>
-          que Nous reçumes hier, touchant la brillante Victoire qu’il a remportée sur le <persName
-            key="p0147"
-            ref="98c88c1f-86ea-4710-92a8-022e5a56ac69">G[ener]ãl. Wedel</persName>, je
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 7. Aout. 1759.</p>
+        <p/>
+        <p>Quoique V<hi rendition="#sup">re</hi>. Excellence aura deja reçu directement de <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName> le premier Bulletin de M<hi rendition="#sup">r</hi>. le <persName key="p0128" ref="e0a2391c-77cb-4644-bc76-34442d96b838">Gaãl[General]. Saltikoff</persName>
+          que Nous reçumes hier, touchant la brillante Victoire qu’il a remportée sur le <persName key="p0147" ref="98c88c1f-86ea-4710-92a8-022e5a56ac69">G[ener]ãl. Wedel</persName>, je
           ne veux pas manquer cependant de la joindre ici. Cet heureux Evenement vient d’être
           confirmé de toute part; et nous esperons d’en recevoir quelque Detail demain, par les
-          Lettres de <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Vienne</placeName>. Selon les Lettres de <placeName
-            key="g0064"
-            ref="https://www.geonames.org/2879139">Leipzig</placeName> du 2. d. c. la Bataille a duré 20. heures Mais à la fin
-          les Prussiens ont été dissipez comme de la paille coupée. <persName
-            key="p0128"
-            ref="e0a2391c-77cb-4644-bc76-34442d96b838">M<hi rendition="#sup">r</hi>. de Saltikoff</persName>
+          Lettres de <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName>. Selon les Lettres de <placeName key="g0064" ref="https://www.geonames.org/2879139">Leipzig</placeName> du 2. d. c. la Bataille a duré 20. heures Mais à la fin
+          les Prussiens ont été dissipez comme de la paille coupée. <persName key="p0128" ref="e0a2391c-77cb-4644-bc76-34442d96b838">M<hi rendition="#sup">r</hi>. de Saltikoff</persName>
           doit avoir fait quelques milliers de prisonniers, et pris 80. Canons, les Bagages et un
-          grand nombre de Drapeaux et d’Etendars. <persName
-            key="p0150"
-            ref="f1ada544-a5a9-4933-b2ce-3508152c6841">M<hi rendition="#sup">r</hi>. de Wobersnow</persName>
-          leur meilleur general de Cavalerie est tué; <persName
-            key="p0000">le Prince de Berenbourg</persName>,
-          les <persName key="p0000">Generaux Liedel</persName>, <persName
-            key="p0097"
-            ref="2e0d7092-3203-44b1-ba5c-c0ca4406baf4">Manteuffel</persName>, <persName
-            key="p0095"
-            ref="3ff5d7e5-7f41-489c-ba39-7f955f451c06">Malachowsky</persName> sont dangereusement
-          blessez. Les Russiens ont occupé <placeName
-            key="g0065"
-            ref="https://www.geonames.org/2939722">Crossen</placeName> le 26. Ils y
-          ont trouvé beaucoup de Canons Saxons. La veille de la Bataille <persName
-            key="p0046"
-            ref="12582628-4756-42a7-b8ad-87b92e577e8e">M<hi rendition="#sup">r</hi>. le G[ener]ãl
+          grand nombre de Drapeaux et d’Etendars. <persName key="p0150" ref="f1ada544-a5a9-4933-b2ce-3508152c6841">M<hi rendition="#sup">r</hi>. de Wobersnow</persName>
+          leur meilleur general de Cavalerie est tué; <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2305" xml:space="default">le Prince de Berenbourg</persName>,
+          les <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2306" xml:space="default">Generaux Liedel</persName>, <persName key="p0097" ref="2e0d7092-3203-44b1-ba5c-c0ca4406baf4">Manteuffel</persName>, <persName key="p0095" ref="3ff5d7e5-7f41-489c-ba39-7f955f451c06">Malachowsky</persName> sont dangereusement
+          blessez. Les Russiens ont occupé <placeName key="g0065" ref="https://www.geonames.org/2939722">Crossen</placeName> le 26. Ils y
+          ont trouvé beaucoup de Canons Saxons. La veille de la Bataille <persName key="p0046" ref="12582628-4756-42a7-b8ad-87b92e577e8e">M<hi rendition="#sup">r</hi>. le G[ener]ãl
           Dohna</persName> a été conduit comme un Criminel pour francfort sous une escorte de cent
-          Houssard, et a été conduit à <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName> et de là à <placeName
-            key="g0144"
-            ref="https://www.geonames.org/7290252">Spandau</placeName>.</p>
+          Houssard, et a été conduit à <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> et de là à <placeName key="g0144" ref="https://www.geonames.org/7290252">Spandau</placeName>.</p>
         <p>Quantulacunque adeo est occasio sufficit irae.</p>
         <p>Sub Hoc Judice Nemo absolvitur innocens.</p>
         <p>Il est malheureux de servir un Maitre qui exige l’impossible, et qui rend responsable de
           l’Evénement. C’est <persName key="p0097" ref="2e0d7092-3203-44b1-ba5c-c0ca4406baf4">le
           G[ener]ãl Manteuffel</persName> qui </p>
-        <pb n="f. 26v" />
-        <p> l’a accusé d’avoir manqué l’occasion de battre les Russiens. <persName
-            key="p0097"
-            ref="2e0d7092-3203-44b1-ba5c-c0ca4406baf4">M<hi rendition="#sup">r</hi>. Manteuffel</persName>
+        <pb n="f. 26v"/>
+        <p> l’a accusé d’avoir manqué l’occasion de battre les Russiens. <persName key="p0097" ref="2e0d7092-3203-44b1-ba5c-c0ca4406baf4">M<hi rendition="#sup">r</hi>. Manteuffel</persName>
           lui même a bien justifié <persName key="p0046" ref="12582628-4756-42a7-b8ad-87b92e577e8e">
           M<hi rendition="#sup">r</hi>. Dohna</persName> par l’Evénement qui est arrivé. C’est la
           présomtion punie.</p>
-        <p> Le 26. Juillet il a passé un Courrier à <placeName
-            key="g0061"
-            ref="https://www.geonames.org/3067696">Prague</placeName> avec
-          la grand nouvelle pour <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">Vienne</placeName>. Selon les Lettres reçues
-          à <placeName
-            key="g0061"
-            ref="https://www.geonames.org/3067696">Prague</placeName> cinq Regimens Prussiens auroient été forcez de
-          sauter dans l’Oder. Cette particularité merite confirmation. En attendant la Victoire de <persName
-            key="p0128"
-            ref="e0a2391c-77cb-4644-bc76-34442d96b838">M<hi rendition="#sup">r</hi>. de
-          Saltikoff</persName> a repandu une Consternation si grande à <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>,
+        <p> Le 26. Juillet il a passé un Courrier à <placeName key="g0061" ref="https://www.geonames.org/3067696">Prague</placeName> avec
+          la grand nouvelle pour <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName>. Selon les Lettres reçues
+          à <placeName key="g0061" ref="https://www.geonames.org/3067696">Prague</placeName> cinq Regimens Prussiens auroient été forcez de
+          sauter dans l’Oder. Cette particularité merite confirmation. En attendant la Victoire de <persName key="p0128" ref="e0a2391c-77cb-4644-bc76-34442d96b838">M<hi rendition="#sup">r</hi>. de
+          Saltikoff</persName> a repandu une Consternation si grande à <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>,
           que <persName key="p0051" ref="83dd2668-a967-470e-be15-35e3924eefe6">la Reine</persName>
-          et la famille Roy<hi rendition="#sup">e</hi>. se sont retirez précitamment à <placeName
-            key="g0095"
-            ref="https://www.geonames.org/2874545">Magdebourg</placeName>. <persName
-            key="p0003"
-            ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>.
-          d’Affry</persName> a même reçu hier avis de <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName>
-          que deux heures après leur depart un gros Corps de Troupes Russiennes s’est emparé de <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>. L’on debite ici que les Cosaques auroient deja brulé 48.
+          et la famille Roy<hi rendition="#sup">e</hi>. se sont retirez précitamment à <placeName key="g0095" ref="https://www.geonames.org/2874545">Magdebourg</placeName>. <persName key="p0003" ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>.
+          d’Affry</persName> a même reçu hier avis de <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName>
+          que deux heures après leur depart un gros Corps de Troupes Russiennes s’est emparé de <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>. L’on debite ici que les Cosaques auroient deja brulé 48.
           villages. Je prie Dieu que cette Nouvelle ne se confirme pas; et ce seroit pour Nous une
           triste consolation de vanger la fureur que les ennemis pourront exercer en Saxe, en
-          brulant <placeName
-            key="g0094"
-            ref="https://www.geonames.org/554234">Konigsberg</placeName>, <placeName
-            key="g0133"
-            ref="https://www.geonames.org/2911522">Halle</placeName>
-          , <placeName key="g0134" ref="https://www.geonames.org/291165">Halberstad</placeName> et <placeName
-            key="g0050"
-            ref="https://www.geonames.org/2887835">Cleves</placeName>.
-          On fait de terribles menaces à <placeName
-            key="g0064"
-            ref="https://www.geonames.org/2879139">Leipzig</placeName>.</p>
-        <p>Halle a été occupé le 1<hi rendition="#sup">er</hi>. d.c. par 4. mille Autrichiens sous <persName
-            key="p0000">le G[ener]ãl. Ried</persName>. Cette ville et <placeName
-            key="g0134"
-            ref="https://www.geonames.org/291165">
-          Halberstad</placeName> repondront de <placeName
-            key="g0064"
-            ref="https://www.geonames.org/2879139">Leipzig</placeName>, où la
+          brulant <placeName key="g0094" ref="https://www.geonames.org/554234">Konigsberg</placeName>, <placeName key="g0133" ref="https://www.geonames.org/2911522">Halle</placeName>
+          , <placeName key="g0134" ref="https://www.geonames.org/291165">Halberstad</placeName> et <placeName key="g0050" ref="https://www.geonames.org/2887835">Cleves</placeName>.
+          On fait de terribles menaces à <placeName key="g0064" ref="https://www.geonames.org/2879139">Leipzig</placeName>.</p>
+        <p>Halle a été occupé le 1<hi rendition="#sup">er</hi>. d.c. par 4. mille Autrichiens sous <persName key="p0000">le G[ener]ãl. Ried</persName>. Cette ville et <placeName key="g0134" ref="https://www.geonames.org/291165">
+          Halberstad</placeName> repondront de <placeName key="g0064" ref="https://www.geonames.org/2879139">Leipzig</placeName>, où la
           garnison Pruss<hi rendition="#sup">e</hi>. fait du mauvais sang. Elle est en grande partie
           composée de Saxons, qui ne demandent pas mieux que de trouver l’occasion de couper la
           gorge à leurs Tyrans. Souvenez Vous, mon Prince, que cela arrivera un jour. Plus on a été
           patient à souffrir, et plus on est aise de </p>
-        <pb n="f. 27" />
+        <pb n="f. 27"/>
         <p> saisir le premier moyen de delivrance. Un Païs foulé jusqu’au Sang comme celui là, ne
-          peut qu’y aspirer ardemment. L’armée de l’Empire qui a occupé <placeName
-            key="g0135"
-            ref="https://www.geonames.org/2866906">
-          Naumbourg</placeName>, <placeName
-            key="g0296"
-            ref="https://www.geonames.org/2811899">Weissenfels</placeName>, <placeName
-            key="g0136"
-            ref="https://www.geonames.org/2874747">Lutzen</placeName>, <placeName
-            key="g0297"
-            ref="https://www.geonames.org/2804922">Zeitz</placeName> et <placeName
-            key="g0298"
-            ref="https://www.geonames.org/2855068">Pegau</placeName>, alloit marcher le 3. droit à <placeName
-            key="g0064"
-            ref="https://www.geonames.org/2879139">
+          peut qu’y aspirer ardemment. L’armée de l’Empire qui a occupé <placeName key="g0135" ref="https://www.geonames.org/2866906">
+          Naumbourg</placeName>, <placeName key="g0296" ref="https://www.geonames.org/2811899">Weissenfels</placeName>, <placeName key="g0136" ref="https://www.geonames.org/2874747">Lutzen</placeName>, <placeName key="g0297" ref="https://www.geonames.org/2804922">Zeitz</placeName> et <placeName key="g0298" ref="https://www.geonames.org/2855068">Pegau</placeName>, alloit marcher le 3. droit à <placeName key="g0064" ref="https://www.geonames.org/2879139">
           Leipzig</placeName>. <persName key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">Le
-          Prince Henry</persName> est à Muska et le <persName
-            key="p0089"
-            ref="8a97a3ba-fb45-4335-9a83-627ba6d1eaf5">G[ener]al. Laudon</persName> à Fribus. Les
-          Autrichiens rodent en si grand nombre autour de <placeName
-            key="g0013"
-            ref="https://www.geonames.org/2935022">Dresde</placeName>
+          Prince Henry</persName> est à Muska et le <persName key="p0089" ref="8a97a3ba-fb45-4335-9a83-627ba6d1eaf5">G[ener]al. Laudon</persName> à Fribus. Les
+          Autrichiens rodent en si grand nombre autour de <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>
           que rien ne peut plus sortir de cette Residance.</p>
         <p>
           <persName key="p0141" ref="9d14b2fc-e2d9-4b89-94a1-ec6cd4d43ed2">Le General de Ville</persName>
-          a pris <placeName
-            key="g0157"
-            ref="https://www.geonames.org/3081046">Frankenstein</placeName>, <persName
-            key="p0107"
-            ref="50766d94-7efd-473a-9b9f-54d63a20ebd2">Fouquet</persName> a joint <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">le Roi</persName>, et <persName
-            key="p0081"
-            ref="95cc099f-88b2-4331-b57f-4901c01a77d4">Harsch</persName> a reuni son
-          Corps à M<hi rendition="#sup">r</hi>. <persName
-            key="p0044"
-            ref="6226fb75-94c9-49de-9b57-5f30507d93d5">le M[aréch]ãl Daun</persName>; de sorte qu’il
+          a pris <placeName key="g0157" ref="https://www.geonames.org/3081046">Frankenstein</placeName>, <persName key="p0107" ref="50766d94-7efd-473a-9b9f-54d63a20ebd2">Fouquet</persName> a joint <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">le Roi</persName>, et <persName key="p0081" ref="95cc099f-88b2-4331-b57f-4901c01a77d4">Harsch</persName> a reuni son
+          Corps à M<hi rendition="#sup">r</hi>. <persName key="p0044" ref="6226fb75-94c9-49de-9b57-5f30507d93d5">le M[aréch]ãl Daun</persName>; de sorte qu’il
           est faux et très faux que les Prussiens l’ayent coupé, comme le disent les Gazettes
           endiablées &amp;c. Voilà, mon Prince pour les bonnes Nouvelles. Voici les mauvaises.</p>
-        <p> Il a passé samedi deux Officiers Anglois à <placeName
-            key="g0137"
-            ref="https://www.geonames.org/2745912">Utrecht</placeName>
-          qui ont confirmé en termes generaux que <persName
-            key="p0055"
-            ref="f07e0b86-f844-458e-ab06-ae8e8122132e">M<hi rendition="#sup">r</hi>. le Prince
-          Ferdinand</persName> a remporté un avantage sur <persName
-            key="p0042"
-            ref="8c60e6a9-1065-4ada-9e91-62f08e21c688">M<hi rendition="#sup">r</hi>. de Contades</persName>
+        <p> Il a passé samedi deux Officiers Anglois à <placeName key="g0137" ref="https://www.geonames.org/2745912">Utrecht</placeName>
+          qui ont confirmé en termes generaux que <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">M<hi rendition="#sup">r</hi>. le Prince
+          Ferdinand</persName> a remporté un avantage sur <persName key="p0042" ref="8c60e6a9-1065-4ada-9e91-62f08e21c688">M<hi rendition="#sup">r</hi>. de Contades</persName>
           le 1<hi rendition="#sup">er</hi>. de ce mois; Mais ils n’ont mandé aucune particularité
-          quelconque. Ce n’est que par les lettres d’hannovres reçues hier qu’on a sçu que <persName
-            key="p0255"
-            ref="7f2d724a-ed03-4e37-8128-8527237ef2de">M<hi rendition="#sup">rs</hi>. de
-          S[aint]. Germain</persName> et <persName
-            key="p0105"
-            ref="cceda5ab-c97e-4aed-89cf-c7296d22a22a">Montmorency</persName> avoient été tuez; ce
-          qui ne s’est pas confirmé jusqu’à présent pas aucun Courrier. <persName
-            key="p0003"
-            ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>. D’Affry</persName>
-          m’assure n’avoir pas la moindre nouvelle de cette Action; et <persName
-            key="p0039"
-            ref="c5823f1b-45f1-4af8-8d1f-52016420b43a">M<hi rendition="#sup">r</hi>. de Cobentzel</persName>
-          à qui <persName key="p0120" ref="4f71a573-7531-45f0-9e4f-460d730ecda6">M<hi
-              rendition="#sup">r</hi>. de Reischach</persName> en avoit écrit, vient de lui mander
+          quelconque. Ce n’est que par les lettres d’hannovres reçues hier qu’on a sçu que <persName key="p0255" ref="7f2d724a-ed03-4e37-8128-8527237ef2de">M<hi rendition="#sup">rs</hi>. de
+          S[aint]. Germain</persName> et <persName key="p0105" ref="cceda5ab-c97e-4aed-89cf-c7296d22a22a">Montmorency</persName> avoient été tuez; ce
+          qui ne s’est pas confirmé jusqu’à présent pas aucun Courrier. <persName key="p0003" ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>. D’Affry</persName>
+          m’assure n’avoir pas la moindre nouvelle de cette Action; et <persName key="p0039" ref="c5823f1b-45f1-4af8-8d1f-52016420b43a">M<hi rendition="#sup">r</hi>. de Cobentzel</persName>
+          à qui <persName key="p0120" ref="4f71a573-7531-45f0-9e4f-460d730ecda6">M<hi rendition="#sup">r</hi>. de Reischach</persName> en avoit écrit, vient de lui mander
           la même chose au commencement de sa Lettre, mais en la finissant il ajoute ces propres
           mots «Il <hi rendition="#s">ne </hi>paroit <hi rendition="#s">pas</hi> que l’affaire </p>
-        <pb n="f. 27v" />
-        <p> du 1<hi rendition="#sup">er</hi>. d. c. n’est pas si mauvaise qu’on le debite à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">la Haye</placeName>. Je say seulement que <persName
-            key="p0042"
-            ref="8c60e6a9-1065-4ada-9e91-62f08e21c688">M<hi rendition="#sup">r</hi>. de Contades</persName>
-          ayant voulu forcer <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">M<hi
-              rendition="#sup">r</hi>. le Prince Ferdinand</persName> dans ses retranchemens n’a
+        <pb n="f. 27v"/>
+        <p> du 1<hi rendition="#sup">er</hi>. d. c. n’est pas si mauvaise qu’on le debite à <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName>. Je say seulement que <persName key="p0042" ref="8c60e6a9-1065-4ada-9e91-62f08e21c688">M<hi rendition="#sup">r</hi>. de Contades</persName>
+          ayant voulu forcer <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">M<hi rendition="#sup">r</hi>. le Prince Ferdinand</persName> dans ses retranchemens n’a
           point réussi dans son entreprise». On surfait ici beaucoup cet Evénement; et on ajoute à
-          tout moment de nouvelles Circonstances, dont on n’a nul fondement. On mande de <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hambourg</placeName> que le landegrave avoit reçu aussi un Courrier avec la
+          tout moment de nouvelles Circonstances, dont on n’a nul fondement. On mande de <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName> que le landegrave avoit reçu aussi un Courrier avec la
           Nouvelle en gros; Mais que depuis il s’étoit passé 32. heures sans que le Courrier promis
           avec la confirmation et le detail fut arrivé. L’on prétend que les deux officiers Anglois
-          qui ont passé à <placeName
-            key="g0137"
-            ref="https://www.geonames.org/2745912">Utrecht</placeName>, sont envoyéz par <persName
-            key="p0055"
-            ref="f07e0b86-f844-458e-ab06-ae8e8122132e">le Prince Ferdinand</persName>
+          qui ont passé à <placeName key="g0137" ref="https://www.geonames.org/2745912">Utrecht</placeName>, sont envoyéz par <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">le Prince Ferdinand</persName>
           pour demander un renfort de troupes et d’argent.</p>
         <p> Quand même il y auroit eû un Echec de ce coté là, le Mal ne sera pas bien grand. Nous
           devons être plus que contens de nos Succès contre le principal et le plus dangereux ennemi
-          de l’humanité, et il s’en faut bien que je regarde comme tel <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">le Roi d’Angleterre</persName>, qui a
+          de l’humanité, et il s’en faut bien que je regarde comme tel <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">le Roi d’Angleterre</persName>, qui a
           certainement des sentimens d’equité et patriotiques, que des Circonstances malheureuses ne
           lui permettent pas de montrer dans cette conjoncture. Mais j’espère toujours que cela
           deviendra un jour.</p>
-        <p> Voici encore ce que <persName key="p0039" ref="c5823f1b-45f1-4af8-8d1f-52016420b43a">M<hi
-              rendition="#sup">r</hi>. de Cobentzel</persName> vient d’envoyer au <persName
-            key="p0120"
-            ref="4f71a573-7531-45f0-9e4f-460d730ecda6">Baron de Reischach</persName>
-          touchant la Victoire de <persName key="p0128" ref="e0a2391c-77cb-4644-bc76-34442d96b838">M<hi
-              rendition="#sup">r</hi>. de Saltikoff</persName>. C’est le raport qui a été envoyé au <persName
-            key="p0035"
-            ref="b4bd5c9f-7fd8-4eaf-b75f-e3588dd5e398">Prince Charles</persName> dans
+        <p> Voici encore ce que <persName key="p0039" ref="c5823f1b-45f1-4af8-8d1f-52016420b43a">M<hi rendition="#sup">r</hi>. de Cobentzel</persName> vient d’envoyer au <persName key="p0120" ref="4f71a573-7531-45f0-9e4f-460d730ecda6">Baron de Reischach</persName>
+          touchant la Victoire de <persName key="p0128" ref="e0a2391c-77cb-4644-bc76-34442d96b838">M<hi rendition="#sup">r</hi>. de Saltikoff</persName>. C’est le raport qui a été envoyé au <persName key="p0035" ref="b4bd5c9f-7fd8-4eaf-b75f-e3588dd5e398">Prince Charles</persName> dans
           une lettre de <persName key="p0238" ref="6f917341-ea48-4096-8645-e050f94c52af">L’Empereur</persName>
           .</p>
         <p> La Poste du 4. ne m’a rien aporté de la part de Notre Excell[enc]<hi rendition="#sup">e</hi>
           .</p>
-        <p />
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">la Haye</placeName> le 7. Aout. 1759. de <persName
-            key="p0084"
-            ref="23ddd921-2c94-4c45-b258-3889b4edfe47">M<hi rendition="#sup">r</hi>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName> le 7. Aout. 1759. de <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">M<hi rendition="#sup">r</hi>
           </persName>
         </p>
         <p>
