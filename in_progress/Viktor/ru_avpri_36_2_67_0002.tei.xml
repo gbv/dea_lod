@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,26 +95,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2 March 1736. – Letter from <persName
-              key="p0206"
-              ref="456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary to
-            Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to the <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Russian Minister Plenipotentiary to the
-            Great Britain, Prince Antiokh Kantemir</persName>
+          <title>2 March 1736. – Letter from <persName key="p0206" ref="456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary to
+            Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to the Russian Minister Plenipotentiary to the
+            Great Britain, Prince Antiokh Cantemir
           </title>
           <note>
             <bibl>AVPRI, fond 36, chast 2, no. 67, f. 3–3v. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 3" />
+        <pb n="f. 3"/>
         <p>
           <placeName key="g0017" ref="https://www.geonames.org/2673730">Стокхолм</placeName>
         </p>
@@ -126,16 +119,10 @@
         </p>
         <p>В[а]шего Сиятелства почтенное писание от 27: прошедшаго генваря получил я исправно, за
           которое такожде и за откровенное сообщение покорнейше в[а]шему Сиятелству бл[а]годарствую.</p>
-        <p>Чтоже надлежит до разграбления швецкого корабля, что ваше Сиятелство по требованию <persName
-            key="p0295"
-            ref="121fa447-f156-46c3-9142-39c2970f10a4">барона Спара</persName> вновь
+        <p>Чтоже надлежит до разграбления швецкого корабля, что ваше Сиятелство по требованию <persName key="p0295" ref="121fa447-f156-46c3-9142-39c2970f10a4">барона Спара</persName> вновь
           аглинским </p>
-        <pb n="f. 3v" />
-        <p> Министрам изволили о сем деле представлении чинить, о чем он <persName
-            key="p0295"
-            ref="121fa447-f156-46c3-9142-39c2970f10a4">барон Спар</persName> писал ко <orgName
-            key="o0015"
-            ref="aa7d6cf5-0a45-4686-955d-58ada08fd860">двору своему</orgName>, о том уже
+        <pb n="f. 3v"/>
+        <p> Министрам изволили о сем деле представлении чинить, о чем он <persName key="p0295" ref="121fa447-f156-46c3-9142-39c2970f10a4">барон Спар</persName> писал ко <orgName key="o0015" ref="aa7d6cf5-0a45-4686-955d-58ada08fd860">двору своему</orgName>, о том уже
           доносил, которое при <orgName key="o0015" ref="aa7d6cf5-0a45-4686-955d-58ada08fd860">здешнем
           дворе</orgName> зело бл[а]годарно принято, о чем я и ко двору доносил. Впрочем с
           непрестанным почтением пребываю</p>
