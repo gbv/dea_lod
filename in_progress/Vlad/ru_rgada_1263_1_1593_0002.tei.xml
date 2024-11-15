@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,127 +96,88 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 July 1759. – Letter from <persName
-              key="p0084"
-              ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Saxon Resident in The Hague, Johann
-            Heinrich Kauderbach</persName>, to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title>20 July 1759. – Letter from <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Saxon Resident in The Hague, Johann
+            Heinrich Kauderbach</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1560, f. 13–14v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 13" />
-        <p />
+        
+        <pb n="f. 13"/>
+        <p/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 20. Juillet 1759.</p>
-        <p />
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 20. Juillet 1759.</p>
+        <p/>
         <p>Je rends à Votre Excellence mille graces de la lettre dont elle m’a honoré le 13. Je ne
           suis pas surpris de toutes les ressources de bassesse et de misère que les Prussiens
           employent contre nous dans cette conjoncture; Ce sont celles de la foiblesse. Tout le
-          monde sait de quoi sont capables les deux personnages, qui sont le plus à portée de V[ot]<hi
-            rendition="#sup">re</hi>. Excellence. J’aurai l’honneur, mon Prince de repondre dans une
+          monde sait de quoi sont capables les deux personnages, qui sont le plus à portée de V[ot]<hi rendition="#sup">re</hi>. Excellence. J’aurai l’honneur, mon Prince de repondre dans une
           autre occasion aux autres articles de votre lettre.</p>
         <p>M<hi rendition="#sup">r</hi> ... me proteste qu’il n’a jamais ecrit en Angl. Il faut
           qu’on soit adroit à ouvrir les lettres. Je n’ai jamais remarqué les moindres indices aux
           votres; &amp; je les ai examinés bien attentivement.</p>
-        <p> La lettre que Vous m’avez confié, mon Prince, pour <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName>,
+        <p> La lettre que Vous m’avez confié, mon Prince, pour <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>,
           est partie ce matin sous le couvert des miennes, </p>
-        <pb n="f. 13v" />
+        <pb n="f. 13v"/>
         <p> et je l’ai bien recommandée.</p>
-        <p> La ville de <placeName
-            key="g0138"
-            ref="https://www.geonames.org/2867543">Munster</placeName> a été prise l’epée à la Main, et <persName
-            key="p0153"
-            ref="f760d27a-4487-44d8-bcd3-7a79e8a77167">le General Zastrow</persName> de <placeName
-            key="g0032"
-            ref="https://www.geonames.org/2945024">Bronsvic</placeName> y a été tué. La Citadelle dans laquelle la garnison
+        <p> La ville de <placeName key="g0138" ref="https://www.geonames.org/2867543">Munster</placeName> a été prise l’epée à la Main, et <persName key="p0153" ref="f760d27a-4487-44d8-bcd3-7a79e8a77167">le General Zastrow</persName> de <placeName key="g0032" ref="https://www.geonames.org/2945024">Bronsvic</placeName> y a été tué. La Citadelle dans laquelle la garnison
           s’est jettée tient encore; Mais ce sera fait, dès que la grosse Artillerie sera arrivée.</p>
-        <p> Les François sont aussi Maitres d’<placeName
-            key="g0139"
-            ref="https://www.geonames.org/2856883">Osnabruck </placeName>[?], où
-          ils ont trouvé le grand Magasin des Anglois, qu’on dit être considérable. <persName
-            key="p0055"
-            ref="f07e0b86-f844-458e-ab06-ae8e8122132e">M<hi rendition="#sup">r</hi>. le
-          Prince Ferdinand</persName> étoit à <placeName
-            key="g0295"
-            ref="https://www.geonames.org/2826503">Stolzenau</placeName> et les
-          François deja à Boompte[?]. Le premier semble tirer vers <placeName
-            key="g0140"
-            ref="https://www.geonames.org/2944388"> Bremen</placeName>;
+        <p> Les François sont aussi Maitres d’<placeName key="g0139" ref="https://www.geonames.org/2856883">Osnabruck </placeName>[?], où
+          ils ont trouvé le grand Magasin des Anglois, qu’on dit être considérable. <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">M<hi rendition="#sup">r</hi>. le
+          Prince Ferdinand</persName> étoit à <placeName key="g0295" ref="https://www.geonames.org/2826503">Stolzenau</placeName> et les
+          François deja à Boompte[?]. Le premier semble tirer vers <placeName key="g0140" ref="https://www.geonames.org/2944388"> Bremen</placeName>;
           Il semble qu’il a pris à coeur de couvrir l’Ostfrise, et les Etats de son Maitre que
-          l’Electorat, où tout est dans la plus grande Consternation. La Prise de <placeName
-            key="g0132"
-            ref="https://www.geonames.org/2871039">Minden</placeName> vaut une Victoire. Il est très seur qu’on a pris 1300.
+          l’Electorat, où tout est dans la plus grande Consternation. La Prise de <placeName key="g0132" ref="https://www.geonames.org/2871039">Minden</placeName> vaut une Victoire. Il est très seur qu’on a pris 1300.
           hommes, de gros Magazins, 22. p<hi rendition="#sup">e</hi>. de Canon, et quelques
           Drapeaux. Mais les hannovriens ont fait un Coup dans la </p>
-        <pb n="f. 14" />
+        <pb n="f. 14"/>
         <p> Hesse où les Volontaires d’Alsace se sont laissés prendre comme des sots. Nous attendons
           l’issue d’un coup qu’on a dû fraper dans l’interieur de l’Electorat, où un Corps a dû
           penetrer pour delivrer les prisonniers François. Enfin on me mande reiterativement, et
           avec une grande confiance, qu’on compte de finir tout, bien surement de ce coté là, avant
           la fin de la Campagne. Dieu veuille, qu’il en soit de même ailleurs.</p>
-        <p> Suivant une liste bien en ordre qu’a reçue <persName
-            key="p0003"
-            ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>. d’Affry</persName>,
-          tout le dommage causé par les Anglois au <placeName
-            key="g0141"
-            ref="https://www.geonames.org/3003796">Havre</placeName>, ne va
+        <p> Suivant une liste bien en ordre qu’a reçue <persName key="p0003" ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>. d’Affry</persName>,
+          tout le dommage causé par les Anglois au <placeName key="g0141" ref="https://www.geonames.org/3003796">Havre</placeName>, ne va
           pas à 40. mille Livres de France. O’ le bel exploit!</p>
-        <p> J’ai l’honneur de joindre ici le compte du <persName
-            key="p0340"
-            ref="f6d33d85-daeb-48d7-b7e5-daf00d2dc4e7">Tailleur Lux</persName>. L’on me demande à
-          cor et à cri une Lorgnette montée en argent et nacre de Perle comme celle que V[ot]<hi
-            rendition="#sup">re</hi>. Excell[enc]<hi rendition="#sup">e</hi>. a eù la bonté de
+        <p> J’ai l’honneur de joindre ici le compte du <persName key="p0340" ref="f6d33d85-daeb-48d7-b7e5-daf00d2dc4e7">Tailleur Lux</persName>. L’on me demande à
+          cor et à cri une Lorgnette montée en argent et nacre de Perle comme celle que V[ot]<hi rendition="#sup">re</hi>. Excell[enc]<hi rendition="#sup">e</hi>. a eù la bonté de
           m’envoyer, ou simplement l’Etui sans verre.</p>
-        <p />
-        <pb n="f. 14v" />
-        <p />
-        <p>à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> 20 Juill[et]. 1759</p>
+        <p/>
+        <pb n="f. 14v"/>
+        <p/>
+        <p>à <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> 20 Juill[et]. 1759</p>
         <p>De <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">M<hi rendition="#sup">
           r</hi>. Kauderbach</persName>
         </p>
-        <p />
+        <p/>
         <p>Je n’ose plus prendre la liberté de Vous importuner Monseigneur, pour rien de pareil; Je
           Vous suplie cependant, mon Prince, de charger Votre homme de Chambre de cette commission,
           que je ne peux refuser à mon Ami. Mais je le prie en même tems, d’y joindre le Compte s’il
           veut bien la prendre sur lui. Je n’attens qu’une bonne occasion pour faire parvenir à
           Votre Excellence la Mousseline brodée. J’espère de la trouver dans peu.</p>
-        <p />
-        <pb n="f. 14v" />
-        <p />
+        <p/>
+        <pb n="f. 14v"/>
+        <p/>
         <p>M<hi rendition="#sup">rs</hi>. les Commissaires hollandois n’avancent guerre dans leur
           Negociation; et il me semble, qu’ils n’ont pas grande opinion d’eux-mêmes. Cependant il y
-          a quelque tems que M<hi rendition="#sup">r</hi>. Y. a voulu faire entendre qu’elle étoit <hi
-            rendition="#u">in a fair </hi>
+          a quelque tems que M<hi rendition="#sup">r</hi>. Y. a voulu faire entendre qu’elle étoit <hi rendition="#u">in a fair </hi>
           <hi rendition="#u">way </hi>
           <hi rendition="#u">of </hi>
           <hi rendition="#u">success</hi>.</p>
         <p> Daingez agréer, Monseigneur, l’hommage ordinaire de mon profond respect.</p>
         <p> Dans ce moment je reçois la lettre dont V.E. m’a honoré le 17. d. c. le 10. qui devoit
-          etre un grand jour pour signaler les valeur du <persName
-            key="p0055"
-            ref="f07e0b86-f844-458e-ab06-ae8e8122132e">P[rince]. Ferdinand</persName> a été celui de
+          etre un grand jour pour signaler les valeur du <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">P[rince]. Ferdinand</persName> a été celui de
           la prise de <placeName key="g0132" ref="https://www.geonames.org/2871039">Minden</placeName>.
-          Si l’Electrorat d’H[anover]. n’a d’autre secours que celui que le <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de P[russe]</persName>. fait dependre de
+          Si l’Electrorat d’H[anover]. n’a d’autre secours que celui que le <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de P[russe]</persName>. fait dependre de
           la defaite des Russes, il peut faire son Testament. Nous attendons ce soir les nouvelles
           de la Bataille qui doit s’être donnée à l’heure qu’il est.</p>
         <noteGrp>
