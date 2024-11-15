@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Letter from William Stanhope, Baron Harrington, to Prince Antiokh Сantemir</title>
+        <title type="main" xml:lang="en">Letter from William Stanhope, Baron Harrington, to Prince Antiokh Сantemir</title>
         <author xml:lang="en">William</author>
         <author xml:lang="en">Stanhope</author>
       </titleStmt>
@@ -98,34 +93,28 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 April 1733. – Letter from <persName
-              key="p0164"
-              ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">the British State Secretary for the Northern Department, William Stanhope, Baron Harrington</persName>, to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court, Prince Antiokh Kantemir</persName>
+          <title>17 April 1733. – Letter from <persName key="p0164" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">the British State Secretary for the Northern Department, William Stanhope, Baron Harrington</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court, Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 558, f. 143. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 146" />
-        <p />
-        <p>A <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Whitehall</placeName> ce 17 : d’avril 1733</p>
+        
+        <pb n="f. 146"/>
+        
+        <p>A <placeName key="g0003" ref="https://www.geonames.org/2643743">Whitehall</placeName> ce 17 : d’avril 1733</p>
         <p>Monsieur</p>
         <p>J’ay êté trés faché d’apprendre l’accident qui est survenu à un de vos Domestiques ; et je puis vous assurer que cela ne luy est arrivé que parcequ’on ne l’a pas connu pour tel. Desormais vous pouvés être persuadé que vous n’aurés rien de pareil à craindre pour aucun de ceux qui vous appartiendront.</p>
         <p>Je suis très parfaitement</p>
         <p>Monsieur</p>
-        <p>Votre très humble et très obeissant serviteur<hi rendition="#sup" />
+        <p>Votre très humble et très obeissant serviteur<hi rendition="#sup"/>
         </p>
         <p>
           <persName key="p0164" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">Harrington</persName>
