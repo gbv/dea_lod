@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,45 +95,37 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>3 May 1732. – Letter from <persName
-              key="p0184"
-              ref="4850526b-74af-4735-a4b0-2cc132e48a4f">the Russian Minister Plenipotentiary to
-            Denmark, Baron Casimir Christoph von Brackel</persName>, to <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
-            Prince Antiokh Kantemir</persName>
+          <title>3 May 1732. – Letter from <persName key="p0184" ref="4850526b-74af-4735-a4b0-2cc132e48a4f">the Russian Minister Plenipotentiary to
+            Denmark, Baron Casimir Christoph von Brackel</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident at the British court,
+            Prince Antiokh Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 185–185v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 185" />
-        <p />
+        
+        <pb n="f. 185"/>
+        
         <p>Monsieur</p>
-        <p>Je viens de recevoir la lettre, dont vous m’avez honoré de <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>.
+        <p>Je viens de recevoir la lettre, dont vous m’avez honoré de <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>.
           Je suis bien aise de vôtre bonne arrivée là, en Vous en felicitant de tout mon cœur. Le
           secretaire <persName key="p0293" ref="d3e591d3-2f97-4f52-8d78-fa727bdcee46">Kaluskin</persName>
-          qui a été avec moi, est parti pour <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moscau</placeName>, pour quelque tems, et
+          qui a été avec moi, est parti pour <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName>, pour quelque tems, et
           moi, je ne suis pas assez avancé dans la langue Russienne, pour en pouvoir entretenir un
           commerce </p>
-        <pb n="f. 185v" />
+        <pb n="f. 185v"/>
         <p> des lettres. Ce pourquoi je Vous prie de continuer la correspondance en françois, ou en
           allemand, jusqu’au retour du secretaire mentionné, que j’attens en peu de jours. Vous
           m’accorderez l’honneur de vôtre chère amitié, et vous ferez [sic] réciproquement persuadé
           que je suis</p>
-        <p>Monsieur<hi rendition="#sup" />
+        <p>Monsieur<hi rendition="#sup"/>
         </p>
         <p>Votre très humble et tres obeissant serviteur</p>
         <p>
