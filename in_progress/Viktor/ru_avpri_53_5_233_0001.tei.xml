@@ -96,174 +96,18 @@
       </sourceDesc>
     </fileDesc>
     
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240125152405316",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-25T14:24:05.316Z",
-	"dcterms:modified": "2024-01-25T14:24:05.316Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240125152405316#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240125152405316#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/closer/salute[3]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Text from \"+должен я\n              просит\" to \"тем паче что\" is written on the left side of the folio by\n              the hand other than one wrote the text presented above.\n            "
-	},
-	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240125152721002",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-25T14:27:21.002Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240125152721002#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_avpri_53_5_233_0001.tei.xml?note_annotation_20240125152721002#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/closer/salute[6]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Text from \"#о сем\" to \"пребываю я\" is written on the left side of the folio by the\n          hand\n              other than one wrote the text from \"Государь мой\" to \"обыкновенной вашей\".\n            "
-	},
-	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
           <title>Draft dispatch of the Chief member of <persName key="p0114">the College of Foreign affairs count Nikita Ivanovich Panin</persName> to the <persName key="p1102">the Russian Minister Plenipotentiary and Envoy Extraordinary to Denmark, Mikhail Mikhailovich Filosofov</persName>           </title>
-        </head>
-        <opener>
-          <note>AVPRI, fond 53, opis 53/5, no. 233, ff. 45-46v</note>
+        
+        
+          <note><bibl>AVPRI, fond 53, opis 53/5, no. 233, ff. 45-46v</bibl></note>
+          </head>
           <pb cert="high" n="f. 45" xml:space="default"/>
-          <salute>Государь мой <persName key="p1102">Михайла Михайлович.</persName>
+          <opener><salute>Государь мой <persName key="p1102">Михайла Михайлович.</persName>
           </salute>
         </opener>
         <p>По настоящим дацкаго двора сопряжениям с Гесенкаселским домом имели вы конечно случай
@@ -290,15 +134,15 @@
         <p>
           <pb cert="high" n="f. 46v" xml:space="default"/>
         </p>
-        <closer>
-          <salute>полезнаго уважения, так и самому ему в дружескую угодность. + <del>изволила мне ея
+        
+          <p>полезнаго уважения, так и самому ему в дружескую угодность. + <del>изволила мне ея
           императорское величество повелеть ныне же послу графу чернышеву предписать, чтоб он
           действителное высочайшим ея имянем заступление зделал у аглинскаго двора по обоим желаниям
           ландграфа гесенкасеоскаго, особливо же по пункту выведения гановерскаго гарнизона #,
           которой ему
               болше на сердце лежит. я</del>  прошу вас государя моего, сообщить сие в обыкновенной
-          вашей  </salute>
-          <salute>+ должен я просит вас гсдря моего по высочайшему ея в[еличеств]а
+          вашей </p>
+          <p>+ должен я просит вас гсдря моего по высочайшему ея в[еличеств]а
           соизволению чтоб вы выше писанное  сообща в дружеской откровенности гос.[подину] графу <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0234" xml:space="default">
               Бернсторфу</persName>, представили ему в то же время изустно мнение, что ест ли нет 
           во преки желаниям лантграфа каких препятствующих причин из существителных интересов
@@ -309,35 +153,33 @@
             </del> нацей северной системы требовала бы для
           приласкания к оной его светлости оказать некоторое уважение к чинимому в пользу его от <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0061" xml:space="default">короля прускаго
             </persName> у заступлению а особливо по пункту выведения
-          гановерскаго гарнизона  </salute>
-          <salute>тем паче что <note>Text from "+должен я
+          гановерскаго гарнизона  </p>
+          <p>тем паче что <note>Text from "+должен я
               просит" to "тем паче что" is written on the left side of the folio by
               the hand other than one wrote the text presented above.
             </note>
-          </salute>
-          <salute>
+          </p>
+          <p>
             <del>иб</del> о сем гарнизоне со всем ничего не определено и в самом фамилном
           учреждении, <del>тем паче что
             </del> по видимому и удоволствуется уже <del>ландгр</del>
-          ландграф <del>том одн</del> сею одною уступкою. </salute>
-          <salute>а равномерно по такому же
+          ландграф <del>том одн</del> сею одною уступкою. </p>
+          <p>а равномерно по такому же
           ея в[еличеств]а высочайшему повелению в равной силе дано отсюда повеление и послу <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1521" xml:space="default">гр. чернышеву
             </persName> о чем в[аш]е сеят[ельств]о гос[подина]  <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0234" xml:space="default">
               бернсторфа
             </persName> откровенно уведомить можете, а затем
-          пребываю я  </salute>
-          <salute>
+          пребываю я </p>
+          <p>
             <note>Text from "#о сем" to "пребываю я" is written on the left side of the folio by the
           hand
               other than one wrote the text from "Государь мой" to "обыкновенной вашей".
             </note>
-          </salute>
-          в с. петербурге </closer>
-        <closer>
-          <dateline>
-            <date>18 апреля 1769</date>
-          </dateline>
-        </closer>
+          </p>
+          <p>в с. петербурге </p>
+        
+            <p>18 апреля 1769</p>
+         
       </div>
     </body>
   </text>
