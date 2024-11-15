@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,31 +99,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 July 1733. – Letter of credence of <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Minister Plenipotentiary at the
-            British court, Prince Antiokh Kantemir</persName>, to the <persName
-              key="p0063"
-              ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">King of Great Britain George II</persName>
+          <title>17 July 1733. – Letter of credence of <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Minister Plenipotentiary at the
+            British court, Prince Antiokh Cantemir</persName>, to the <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">King of Great Britain George II</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 554, f. 8–9. English translation of Russian original,
               title in Russian.</bibl>
           </note>
         </head>
-        <pb n="f. 8" />
-        <p />
+        <pb n="f. 8"/>
+        
         <p>Грамота к <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">королю
-          аглинскому</persName> верющая полномочному министру князю <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиоху Кантемиру</persName>
+          аглинскому</persName> верющая полномочному министру князю <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Антиоху Кантемиру</persName>
         </p>
         <p>По большим титулом</p>
         <p>
@@ -137,31 +128,21 @@
           occasions, and how willing and ready wee always are on our part to contribute all towards
           the stronger corroboration of that good confidence which does so happily subsist between
           us to the reciprocal advantage of both sides: so to give </p>
-        <pb n="f. 8v" />
-        <p> a new proof thereof, Wee have at present determin’d to lett our trusty and well belov’d <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Prince Antioch Cantemir</persName>
+        <pb n="f. 8v"/>
+        <p> a new proof thereof, Wee have at present determin’d to lett our trusty and well belov’d <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Prince Antioch Cantemir</persName>
           reside at <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">Your Royall
           majesty’s Court</orgName> in the character of our minister plenipotentiary, and therefore
           Wee desire you herewith friendly and sisterly, not only to give to the said our minister
           plenipotentiary a free access to your self, but likewise entire creditt in all. He shall
-          have the honor from time to time to represent in our name to <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">your Royall majesty</persName>, and more
+          have the honor from time to time to represent in our name to <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">your Royall majesty</persName>, and more
           particularly when he according to our intentions shall upon all occasions renew the
-          asseurances of our sincere esteem and constant amity to <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">your Royal majesty</persName>, and always to
+          asseurances of our sincere esteem and constant amity to <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">your Royal majesty</persName>, and always to
           provide him with such a favourable </p>
-        <pb n="f. 9" />
+        <pb n="f. 9"/>
         <p> answer upon it, as wee have reason confidently to expect from Your Royall majesty’s
-          reciprocal dear amity towards us. So wishing <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">your Royall majesty</persName> from the
+          reciprocal dear amity towards us. So wishing <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">your Royall majesty</persName> from the
           almighty God a long life and a happy Reign in Your Dominions. </p>
-        <p>Given at <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">St Petersburg</placeName> the 17:th July 1733. And in the
+        <p>Given at <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersburg</placeName> the 17:th July 1733. And in the
           fourth year of our Reign</p>
         <p>Your Majesty’s</p>
         <p>affectionate sister</p>
