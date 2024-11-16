@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,16 +94,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>13 / 24 May 1771. – Letter from the Russian chargé d’affaires in <persName
-              key="p0363"
-              ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Saxony Peter von Staehlin</persName>
+          <title>13 / 24 May 1771. – Letter from the Russian chargé d’affaires in <persName key="p0363" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Saxony Peter von Staehlin</persName>
             to <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count Nikita
             Ivanovich Panin</persName>
           </title>
@@ -114,12 +109,10 @@
             <bibl>AVPRI, fond 84, opis 2, no. 123, f. 4-4v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f.4" />
+        <pb n="f.4"/>
         <p>Monseigneur</p>
-        <p />
-        <p> Depuis la dangereuse maladie que <persName
-            key="p0098"
-            ref="868ef109-ce8b-4071-9951-ff22d08b1d98">Son Altesse Royale Madame l”Electrice
+        <p/>
+        <p> Depuis la dangereuse maladie que <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">Son Altesse Royale Madame l”Electrice
           douairiere</persName> a essuyée l’automne passée, Elle a souvent eté sujette à des
           indispositions qui etoient une suite de cette maladie, et les medecins ayant eté d’avis
           que les bains etoient necessaires pour le retablissement entier de Sa santé, leurs
@@ -127,28 +120,24 @@
           <persName key="p1555">Wolter</persName> Medecin du Corps de l’Electeur de Baviere, que
             <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">Madame l’Electrice</persName> a
           fait venir icy pour le consulter sur Sa santé, et en lequel Elle parait avoir beaucoup de
-          confiance, s’est declaré pour ceux <placeName
-            key="g0115"
-            ref="https://www.geonames.org/3247449">d’Aix
+          confiance, s’est declaré pour ceux <placeName key="g0115" ref="https://www.geonames.org/3247449">d’Aix
             la Chapelle</placeName>, et à la fin les Medecins d’icy ont </p>
-        <pb n="f.4v" />
-        <p> été de la même opinion ; de façon que son voyage pour <placeName
-            key="g0115"
-            ref="https://www.geonames.org/3247449">Aix la
-          Chapelle</placeName>a eté decidé, et que son depart viens d’être fixé au 23.May/3.Juin
+        <pb n="f.4v"/>
+        <p> été de la même opinion ; de façon que son voyage pour <placeName key="g0115" ref="https://www.geonames.org/3247449">Aix la
+          Chapelle </placeName>a eté decidé, et que son depart viens d’être fixé au 23.May/3.Juin
           prochain. </p>
         <p> L’on croit que ce voyage pourra durer environ trois mois, jusqu’à Son retour icy. </p>
         <p> J’ai l’honneur d’être avec le plus profond respect </p>
         <p> Monseigneur</p>
         <p> de Votre Èxcellence </p>
-        <p />
+        <p/>
         <p>À <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>
         </p>
         <p>Le 13./24. May 1771 </p>
         <p> le trés humble, trés obeiissant [sic],</p>
         <p>et trés soumis Serviteur </p>
         <p>
-          <persName key="p0363" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">P. Stehlin</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0363" xml:space="default" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda" type="signature">P. Stehlin</persName>
         </p>
       </div>
     </body>
