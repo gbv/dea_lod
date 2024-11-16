@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,42 +94,32 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>29 July / 9 August 1771. – Letter from the Russian chargé d’affaires in <persName
-              key="p0363"
-              ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Peter von Staehlin</persName>
-          </title>
-          <note>
+          <title>29 July / 9 August 1771. – Letter from <persName key="p0363">the Russian chargé d’affaires in Peter von Staehlin</persName> to <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count Nikita Ivanovich Panin</persName></title><note>
             <bibl>AVPRI, fond 84, opis 2, no. 123, f. 16-17. French copy.</bibl>
           </note>
         </head>
         <note>
           <hi rendition="#b">f.16-16v-17.</hi>
         </note>
-        <pb n="f.16" />
+        <pb n="f.16"/>
         <p>Monseigneur </p>
-        <p />
+        <p/>
         <p> Avanthier Mercredy dernier, <persName key="p0866">Monsieur le comte de Sacken</persName>
           vint à me parler de la nouvelle qu’il avoit reçue qu’un certain gentilhomme Courlandois
-          nommé de <persName key="p2099">Howen</persName> avoit eté obligé de quitter <placeName
-            key="g0009"
-            ref="https://www.geonames.org/756135">Varsovie</placeName>, s’etant rendu coupable et attiré l’indignation de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>, par sa mauvaise conduite et les intrigues
+          nommé de <persName key="p2099">Howen</persName> avoit eté obligé de quitter <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>, s’etant rendu coupable et attiré l’indignation de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>, par sa mauvaise conduite et les intrigues
           dans les quelles il etoit entré; et qu’on pretendoit savoir en outre qu’il avoit eté
-          trouvé entre les papiers du dit <persName key="p2099">Howen</persName> une lettre écrite à <persName
-            key="p0866">M<hi
-              rendition="#sup">r. </hi>le comte de Sacken</persName> pendant le courant du mois de
+          trouvé entre les papiers du dit <persName key="p2099">Howen</persName> une lettre écrite à <persName key="p0866">M<hi rendition="#sup">r. </hi>le comte de Sacken</persName> pendant le courant du mois de
           Juin. </p>
         <p> Ce Ministre me chargea à ce sujet de Vous faire parvenir Monseigneur, que, quoiqu’il
           auroit eté indifferent que ce gentil= </p>
-        <pb n="f.16v" />
+        <pb n="f.16v"/>
         <p> homme lui eut écrit, mais se doutant des mauvaises intentions qu’on pourroit avoir eu
           debitant ceci, il etoit extrémement faché de voir qu’on tachoit par des insinuations
           pareilles de lui attribuer une conduite si opposée à la façon de penser et d’agir qu’il se
@@ -144,17 +131,13 @@
           ennemis personnels en Pologne. </p>
         <p>
           <persName key="p0866">Monsieur le Comte</persName> y ajouta de plus que malgré tout ce
-          qui pourroit être repandu contre la conduite de <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">
+          qui pourroit être repandu contre la conduite de <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">
             l’Electeur</persName> son maitre, ce Prince ne se departiroit jamais de ses sentimens,
-          et qu’il feroit toujours son possible pour meriter la bienveillance de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>. </p>
+          et qu’il feroit toujours son possible pour meriter la bienveillance de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>. </p>
         <p> J’ai l’honneur d’etre avec la plus profond respect</p>
         <p> Monseigneur </p>
         <p> De Votre Èxcellence </p>
-        <p />
+        <p/>
         <p>
           <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>
         </p>
@@ -164,24 +147,15 @@
         <p>
           <persName key="p0363" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">P. Stehlin</persName>
         </p>
-        <p />
-        <pb n="f.17" />
-        <p />
+        <p/>
+        <pb n="f.17"/>
+        <p/>
         <p>P.S. /.</p>
         <p>
           <persName key="p1563">Monsieur le comte Wladimir Grigoriewitch d’Orlow</persName> est
-          arrivé icy Samedy passé 23. Juillet/3. Août par <placeName
-            key="g0421"
-            ref="https://www.geonames.org/2922535">Francfort sur
-          l’Odre</placeName>, et compte en peu de continuer sa route vers le <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">
-          Carlsbad</placeName>; et <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Mons.<hi
-              rendition="#sup">r</hi> le Baron de Strackelberg</persName> qui sur son retour de <placeName
-            key="g0020"
-            ref="https://www.geonames.org/3117735">Madrid</placeName> doit être arrivé avanthier à <placeName
-            key="g0064"
-            ref="https://www.geonames.org/2879139">
+          arrivé icy Samedy passé 23. Juillet/3. Août par <placeName key="g0421" ref="https://www.geonames.org/2922535">Francfort sur
+          l’Odre</placeName>, et compte en peu de continuer sa route vers le <placeName key="g0215" ref="https://www.geonames.org/3073803">
+          Carlsbad</placeName>; et <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Mons.<hi rendition="#sup">r</hi> le Baron de Strackelberg</persName> qui sur son retour de <placeName key="g0020" ref="https://www.geonames.org/3117735">Madrid</placeName> doit être arrivé avanthier à <placeName key="g0064" ref="https://www.geonames.org/2879139">
           Leipsic</placeName>, est attendu icy aujourdhuy ou demain.</p>
       </div>
     </body>
