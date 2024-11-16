@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,45 +96,36 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>17 April 1761. – Letter from <persName
-              key="p0084"
-              ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Privy Councilor of the Saxon Legation
-              to The Hague, Johann Heinrich Kauderbach</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title>17 April 1761. – Letter from <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Privy Councilor of the Saxon Legation
+              to The Hague, Johann Heinrich Kauderbach</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1600, f. 11–12v, 9–10v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 11" />
+        <pb n="f. 11"/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 17. Avril 1761.</p>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 17. Avril 1761.</p>
         <p> La haute opinion que j’ay, Monseigneur, de Votre Penetration et de Votre Esprit eclairé,
           fortifie ma foi sur la Droiture des Demarches de la France, que Vous avez eû la bonté de
           m’assurer si positivement; et independament de la Confiance que je Vous dois à juste
           titre, Mon Zêle et mes Voeux pour les Interêts de la Cause commune me feroient croire
-          pieusem[en]<hi rendition="#sup">t</hi> à cette bonne foi de la <orgName
-            key="o0019"
-            ref="2cb37494-d43a-434e-8e34-efaf283c99a0">Cour de Versailles</orgName>.</p>
-        <p> Il est facheux pour elle, que tout le monde n’en ait pas la même opinion, que V[ot]<hi
-            rendition="#u">
+          pieusem[en]<hi rendition="#sup">t</hi> à cette bonne foi de la <orgName key="o0019" ref="2cb37494-d43a-434e-8e34-efaf283c99a0">Cour de Versailles</orgName>.</p>
+        <p> Il est facheux pour elle, que tout le monde n’en ait pas la même opinion, que V[ot]<hi rendition="#u">
             <hi rendition="#sup">re </hi>
           </hi>Excell[enc]<hi rendition="#sup">e</hi> et
           moi. Les deux Memoires de <persName key="p0243" ref="534e4a7b-97e2-4493-bf27-63372ad21a48">
           M<hi rendition="#sup">r</hi>. D’Avrincourt</persName> ont donné à bien des gens des
           Impressions sinistres et profondes. J’ai vû ces deux Pièces commentées, analysées, </p>
-        <pb n="f. 11v" />
+        <pb n="f. 11v"/>
         <p> et critiquéé de toutes les façons par les Politiques de ce Païs.ci. Ils prétendent de
           n’y voir, que des sophismes, des contradictions et des inepties, et presque toutes leurs
           remarques se reduisent dans leur conclusion à un facheux Dilemme, que je me dispense de
@@ -148,89 +136,63 @@
           Monseigneur, que je desirerois fort de savoir la véritable raison, qui l’a portée à exiger
           de la Suede le sacrifice de ses Interêts particuliers à la future paix. La seule bonne que
           je puisse imaginer moi-même, c’est </p>
-        <pb n="f. 12" />
+        <pb n="f. 12"/>
         <p> qu’elle a voulu aplanir par là un obstacle à la Pacification générale. Cette raison ne
           leve pas entierement les doutes que mon ignorance me laisse, et je n’en trouve aucune au
-          monde pour dissiper l’etonnement que me cause l’étrange Paradoxe que <persName
-            key="p0243"
-            ref="534e4a7b-97e2-4493-bf27-63372ad21a48">M<hi rendition="#sup">r</hi>. d’Avrincourt</persName>
-          avance, de l’affoiblissement actuel du <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>; ce Prince qui à la
+          monde pour dissiper l’etonnement que me cause l’étrange Paradoxe que <persName key="p0243" ref="534e4a7b-97e2-4493-bf27-63372ad21a48">M<hi rendition="#sup">r</hi>. d’Avrincourt</persName>
+          avance, de l’affoiblissement actuel du <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>; ce Prince qui à la
           tete de 130.<hi rendition="#sup">m</hi>/. h[omme]<hi rendition="#sup">s</hi> tient la
           contenance la plus fiere et a en sa possession les riches Provinces de ses Voisins qui les
           foule et épuiекse sans egard et sans menagem[en]<hi rendition="#sup">t</hi>. qui triple la
           Valeur des subsides Anglois, par l’abus qu’il fait des monoies, et trouve dans celui de sa
           Puissance en général des ressources continuelles qui lui épargnent ses thrésors. Est ce là
           un Prince reduit à souscrire à la Paix qu’on est endroit d’exiger. </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p> et n’est il pas à craindre, que des assertions de cette nature et des Faits exposez dans
           un si faux jour, ne soient intepretez par les ennemis comme suggerez par la foiblesse et
           peut être par quelque chose de pire. Pardonnez moi, Monseigneur, cette refléxion, que ma
           Candeur ne me permet pas de dissimuler. Nous voyons clairement le redoublement des efforts
           ennemis, que Nous ne pouvons attribuer qu’à ce Principe et au Prejugé de la faiblesse de
-          la France, qui fait, que même les brillans succès de <persName
-            key="p0020"
-            ref="2c611cd8-c389-4e52-af28-2a28d522064a">M<hi rendition="#sup">r</hi>. de Broglie</persName>
-          semblent ne servir qu’à présent, qu’à augmenter la fermentation et l’aigreur des Esprits à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>. Cependant la Position du <persName
-            key="p0055"
-            ref="f07e0b86-f844-458e-ab06-ae8e8122132e">P[rin]<hi rendition="#sup">ce</hi> Ferdinand</persName>
-          est bien épineuse; et j’espère qu’elle influera sur celle du <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>, et que son langage
+          la France, qui fait, que même les brillans succès de <persName key="p0020" ref="2c611cd8-c389-4e52-af28-2a28d522064a">M<hi rendition="#sup">r</hi>. de Broglie</persName>
+          semblent ne servir qu’à présent, qu’à augmenter la fermentation et l’aigreur des Esprits à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>. Cependant la Position du <persName key="p0055" ref="f07e0b86-f844-458e-ab06-ae8e8122132e">P[rin]<hi rendition="#sup">ce</hi> Ferdinand</persName>
+          est bien épineuse; et j’espère qu’elle influera sur celle du <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>, et que son langage
           perdra de son ancienne superiorité, surtout si </p>
-        <pb n="f. 9" />
+        <pb n="f. 9"/>
         <p> les Ouvertures de Paix prennent, comme Nous le desirons tous sincérement.</p>
         <p>En attendant la grande Expédition Angloise est devant Bellisle. <persName key="p0003">Mr.
-          d’Affry</persName> a reçu cette Nouvelle Mardy, par un Courrier depeché de <placeName
-            key="g0142"
-            ref="https://www.geonames.org/6284980">Versailles</placeName>. Cet Empressement à informer cet <persName
-            key="p0003">Amb[assadeu]r.</persName> de cet Evenement me feroit croire presque qu’il a
-          quelque Canal ici, pour faire passer des Représentation à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>. Mais à quoi serviront elles? Je le dis encore, la voie
+          d’Affry</persName> a reçu cette Nouvelle Mardy, par un Courrier depeché de <placeName key="g0142" ref="https://www.geonames.org/6284980">Versailles</placeName>. Cet Empressement à informer cet <persName key="p0003">Amb[assadeu]r.</persName> de cet Evenement me feroit croire presque qu’il a
+          quelque Canal ici, pour faire passer des Représentation à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>. Mais à quoi serviront elles? Je le dis encore, la voie
           de la suplication, et c/en seroit une espèce, est un mauvais moyen pour obtenir la Paix.</p>
         <p>Cet <persName key="p0003">Ambassadeur</persName> Nous a confirmé, qu’il n’y a pas de
           Suspension d’Armes entre la France et les </p>
-        <pb n="f. 9v" />
+        <pb n="f. 9v"/>
         <p> Alliez; Il nous a ajouté, qu’il ne pouvoit pas même y en avoir tant qu’en n’est pas
           convenu des Preliminaires. Que la France a fait tout ce qui est humainement possible, pour
           lever les difficultez qui pouvoient arrêter la Paix.</p>
         <p>Il a declaré encore à Nous et aux Ministres de la Republ[iqu]<hi rendition="#sup">e</hi>.
           que si l’Angl[eterr]<hi rendition="#sup">e</hi>. et la Prusse veulent aller de Bonne foi
           en avant sur les Ouvertures qui leur ont été faites. les avantages remportez en Hesse
-          n’aporteront ni obstacle ni changement aux Despositions pacifiques que le <persName
-            key="p0212">Roi T[rès].
+          n’aporteront ni obstacle ni changement aux Despositions pacifiques que le <persName key="p0212">Roi T[rès].
             C[hrétien].</persName> a montrées par amour et Compassion pour l’humanité. Mais helas!
           les ennemis ne prennent le langage </p>
-        <pb n="f. 10" />
+        <pb n="f. 10"/>
         <p> de la Moderation que pour celui de la foiblesse. Il en étoit de même, dans la dernière
-          querre, où la roideur très mal avisée, tournât court à la Paix qui se fit à <placeName
-            key="g0115"
-            ref="https://www.geonames.org/3247449">Aix la Chapelle</placeName>. Que de millions n’a pas couté alors cette
+          querre, où la roideur très mal avisée, tournât court à la Paix qui se fit à <placeName key="g0115" ref="https://www.geonames.org/3247449">Aix la Chapelle</placeName>. Que de millions n’a pas couté alors cette
           inflexible roideur, qui n’a abouti, qu’à une Paix aussi pitoyable que peu solide.</p>
         <p>
-          <persName key="p0120">Mr. de Reischach</persName> a reçu une Lettre pour V[ot]<hi
-            rendition="#sup">re</hi>. Ex[cellence]. Il a inutilement cherché une occasion
+          <persName key="p0120">Mr. de Reischach</persName> a reçu une Lettre pour V[ot]<hi rendition="#sup">re</hi>. Ex[cellence]. Il a inutilement cherché une occasion
           particulière pour Vous la faire parvenir. Il m’a prié, de Vous en prévenir, Monseigneur,
           et il espère que Vous voudrez bien le tranquiliser sur sa bonne reception.</p>
         <p>La Nouvelle que j’ai eû l’honneur de mander </p>
-        <pb n="f. 10v" />
+        <pb n="f. 10v"/>
         <p> à V[ot]<hi rendition="#u">
             <hi rendition="#sup">re</hi>.</hi> Excel[lenc]<hi rendition="#sup">e</hi>. par ma
-          précédente de renvoi de la grosse Artillerie Pruss<hi rendition="#sup">e</hi>. à <placeName
-            key="g0095"
-            ref="https://www.geonames.org/2874545">Magdebourg</placeName>, et des 16. h[omme]<hi
-            rendition="#sup">s</hi>. ք.
+          précédente de renvoi de la grosse Artillerie Pruss<hi rendition="#sup">e</hi>. à <placeName key="g0095" ref="https://www.geonames.org/2874545">Magdebourg</placeName>, et des 16. h[omme]<hi rendition="#sup">s</hi>. ք.
           Compagnie, m’est confirmée très positivement de plus d’un coté. Je ne doute pas du fait;
           Mais je le regarde comme une Ruse Prussienne, et rien de plus.</p>
         <p> </p>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 17. avr[il]. 1761:</p>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 17. avr[il]. 1761:</p>
         <p>
           <persName key="p0084">Mr. de Kauderbach</persName>.</p>
         <noteGrp>
