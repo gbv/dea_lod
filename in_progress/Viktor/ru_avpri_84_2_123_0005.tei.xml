@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,9 +102,7 @@
       <div type="letter">
         <head>
           <title>
-            27 May / 7 June 1771. – Letter from the Russian chargé d’affaires in <persName
-              key="p0363"
-              ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Peter von Staehlin</persName>
+            27 May / 7 June 1771. – Letter from t<persName key="p0363">he Russian chargé d’affaires in Peter von Staehlin</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 84, opis 2, no. 123, f. 8-9. French copy.</bibl>
@@ -116,51 +111,32 @@
         <note>
           <hi rendition="#b">f.8-8v-9.</hi>
         </note>
-        <pb n="f.8" />
+        <pb n="f.8"/>
         <p>Monseigneur, </p>
-        <p />
-        <p> Lundy passé 3. Juin /23. May matin <persName
-            key="p0098"
-            ref="868ef109-ce8b-4071-9951-ff22d08b1d98">Madame l’Electrice douairiere</persName> partit d’icy
-          pour <placeName
-            key="g0115"
-            ref="https://www.geonames.org/3247449">Aix la Chapelle</placeName> sous le nom d’une Comtesse de
-          Varena [?] (:nom emprunté d’un comté appartenant à <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> et dont la famille des
+        <p/>
+        <p> Lundy passé 3. Juin /23. May matin <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">Madame l’Electrice douairiere</persName> partit d’icy
+          pour <placeName key="g0115" ref="https://www.geonames.org/3247449">Aix la Chapelle</placeName> sous le nom d’une Comtesse de
+          Varena [?] (:nom emprunté d’un comté appartenant à <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> et dont la famille des
           Comtes regnants du même nom, qui en etoient autrefois les possesseurs est eteinte depuis
-          longtems:). Elle fera son voyage par terre jusqu’à <placeName
-            key="g0423"
-            ref="https://www.geonames.org/2805615">Würtzbourg</placeName>,
+          longtems:). Elle fera son voyage par terre jusqu’à <placeName key="g0423" ref="https://www.geonames.org/2805615">Würtzbourg</placeName>,
           oû elle compte s’embarquer sur le Mein. Sa suite consiste en une des [sic] ses Dames de
           cour, son Marechal de la Cour, son Confesseur, un Medecin, un Chirurgien, et quelques
           femmes de chambre et domestiques. </p>
-        <p> Mardy passé 4. Juin/24. May au soir, le bas <persName
-            key="p2098">officier aux gardes Janoff</persName> depeché
-          en courier de <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName> pour <placeName
-            key="g0031"
-            ref="https://www.geonames.org/3164603">
+        <p> Mardy passé 4. Juin/24. May au soir, le bas <persName key="p2098">officier aux gardes Janoff</persName> depeché
+          en courier de <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName> pour <placeName key="g0031" ref="https://www.geonames.org/3164603">
           Venise</placeName>, passa par icy.</p>
-        <p />
-        <pb n="f.8v" />
+        <p/>
+        <pb n="f.8v"/>
         <p> La cherté des grains etant excessive en quelques parties de l’Allemagne, et le prix ne
           laissant pas que d’en monter aussi en Saxe, l’on a pris la precaution d’en defendre icy
           l’exportation, à l’exception d’une certaine quantité qu’on cede à la Baviere et à la Ville
           de <placeName key="g0062" ref="https://www.geonames.org/2861650">Nurenberg</placeName>. </p>
         <p>
           <persName key="p1553">M<hi rendition="#sup">r </hi>de Keith</persName> cidevant Ministre
-          d’Angleterre à cette cour est depuis quelques jours de retour de <placeName
-            key="g0005"
-            ref="https://www.geonames.org/2761367">
-          Vienne</placeName>, et compte partir demain pour se rendre à son poste de <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhague</placeName> . </p>
+          d’Angleterre à cette cour est depuis quelques jours de retour de <placeName key="g0005" ref="https://www.geonames.org/2761367">
+          Vienne</placeName>, et compte partir demain pour se rendre à son poste de <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhague</placeName> . </p>
         <p>Le <persName key="p1556">de Witmann</persName> Ministre de la cour de Vienne à celle de
-          Suede, arriva icy hier, et va en peu continuer sa route pour <placeName
-            key="g0017"
-            ref="https://www.geonames.org/2673730">
+          Suede, arriva icy hier, et va en peu continuer sa route pour <placeName key="g0017" ref="https://www.geonames.org/2673730">
           Stockholm</placeName>. </p>
         <p>Monsieur le <persName key="p0866">Comte de Sacken</persName> m’ayant demandé, si j’avois
           eu l’honneur de rendre compte à Votre Excellence de ce dont il m’avoit dernierement chargé
@@ -168,28 +144,22 @@
           du 20./31. May, y a ajouté, que connaissant les lumieres de Votre Èxcellence il etoit
           tranquilisé sur tous les bruits qui pouvoient courir au prejudice de <orgName key="o0012">Sa
           Cour</orgName>, se flattant Monseigneur, que Vous ne douteriés point de la droiture des
-          Sentimens de <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> qui ne s’en ecarteroit
-          jamais, et auquel la bienveillance de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Majesté Imperiale</persName> etoit
+          Sentimens de <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> qui ne s’en ecarteroit
+          jamais, et auquel la bienveillance de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Majesté Imperiale</persName> etoit
           precieuse.</p>
         <p>En même tems <persName key="p0866">Monsieur le comte de Sacken</persName> me </p>
-        <pb n="f.9" />
-        <p> chargea de Vous assurer, Monseigneur de la haute estime de <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> son maitre, et de Vous
+        <pb n="f.9"/>
+        <p> chargea de Vous assurer, Monseigneur de la haute estime de <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> son maitre, et de Vous
           repeter les assurances de Son propre attachement pour Votre Excellence. </p>
         <p> J’ai l’honneur d’etre avec le plus profond respect </p>
         <p> Monseigneur, </p>
         <p> de Votre Èxcellence </p>
-        <p />
+        <p/>
         <p>
           <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>,</p>
         <p>Le 7. Juin/27. May 1771</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <p>le trés humble, trés obeiissant [sic],</p>
         <p>et trés soumis Serviteur </p>
         <p>
