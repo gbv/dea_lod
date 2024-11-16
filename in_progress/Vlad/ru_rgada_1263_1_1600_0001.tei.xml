@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,106 +96,77 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 3 April 1761. – Letter from <persName
-              key="p0084"
-              ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Privy Councilor of the Saxon Legation
-              to The Hague, Johann Heinrich Kauderbach</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title> 3 April 1761. – Letter from <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">the Privy Councilor of the Saxon Legation
+              to The Hague, Johann Heinrich Kauderbach</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1600, f. 1–2v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>
-          <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 3. Avril 1761.</p>
+          <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 3. Avril 1761.</p>
         <p>
-          <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">M<hi rendition="#u">
-              <hi rendition="#sup">r</hi>
-            </hi> de Kauderbach</persName>
+          <persName key="p0084" ref="23ddd921-2c94-4c45-b258-3889b4edfe47">M<hi rendition="#u"><hi rendition="#sup">r</hi>
+            </hi>de Kauderbach</persName>
         </p>
-        <p> Vous verrez, Monseigneur, par les Nouvelles ci.jointes, que <persName
-            key="p0003"
-            ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>. d’Affry</persName>
+        <p> Vous verrez, Monseigneur, par les Nouvelles ci.jointes, que <persName key="p0003" ref="349ee8ce-e4e0-4315-a1be-ad9bae2a90c5">M<hi rendition="#sup">r</hi>. d’Affry</persName>
           reçut avant-hier par un Courrier, la Confirmation des Evénemens, que je ne pus Vous mander
-          avec certitude l’Ordinaire dernier. Celui de la levée du Siége de <placeName
-            key="g0143"
-            ref="https://www.geonames.org/2892518">
-          Cassel</placeName> est le plus important et fera bien du bruit à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">
+          avec certitude l’Ordinaire dernier. Celui de la levée du Siége de <placeName key="g0143" ref="https://www.geonames.org/2892518">
+          Cassel</placeName> est le plus important et fera bien du bruit à <placeName key="g0003" ref="https://www.geonames.org/2643743">
           Londres</placeName>.</p>
-        <p> Faut-il Nous en réjouir ou a trister? C’est un grand paradoxe. On change furieusement
-          ici de langage et de facon de penser sur la Prusse et un des Ministres d’état m’a laissé
+        <p> [from here follows a decrypted text written above the encrypted one] <hi rendition="#sup">Faut-il Nous en réjouir ou a trister? C’est un grand paradoxe. On</hi> [end of the decrypted text] change furieusement
+          [from here follows a decrypted text written above the encrypted one] <hi rendition="#sup">ici de langage et de facon de penser sur la Prusse et un des Ministres d’état m’a laissé
           entrevoir, qu’en Angleterre même ce changem<hi rendition="#sup">t</hi> se faisoit
           remarquer. Les Démarches que la France a faites dans nos cours respectives depuis le mois
-          de Novembre et qui Vous seront connues, ne peuvent que la rendre suspecte. Les choses
-          qu’elle exige sont peu de raison.</p>
-        <p> Les lettres de <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName> ne parlent que de Paix, et il </p>
-        <pb n="f. 1v" />
+          de Novembre et qui </hi> [end of the decrypted text] Vous seront connues, ne peuvent [from here follows a decrypted text] <hi rendition="#sup">que la rendre suspecte. Les choses
+          qu’elle exige sont peu de raison.</hi>[end of the decrypted text]</p>
+        <p> Les lettres de <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> ne parlent que de Paix, et il </p>
+        <pb n="f. 1v"/>
         <p> semble, à juger par les Lettres de <persName key="p1006">M<hi rendition="#sup">r</hi>.
-          de Berkenrode</persName> qu’à <orgName
-            key="o0019"
-            ref="2cb37494-d43a-434e-8e34-efaf283c99a0">Versailles</orgName> même, on en parle comme
+          de Berkenrode</persName> qu’à <orgName key="o0019" ref="2cb37494-d43a-434e-8e34-efaf283c99a0">Versailles</orgName> même, on en parle comme
           d’une chose de fait. Cependant Nous n’en voyons nulle part aucune ouverture faite, ni de
-          Canal par où elle eût pû passer. D’ailleurs on se defend chez Vous, Monseigneur, /à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>/ sur une pareille ouverture, et toutes les Lettres que
-          j’ai vûes ne Nous indiquens rien moins que de telles Dispositions. Où faut il donc
+          Canal par où elle eût pû passer. D’ailleurs on se defend chez Vous, Monseigneur, /à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>/ sur une pareille ouverture, et toutes les Lettres que
+          j’ai vûes ne Nous indiquens rien moins que de <hi rendition="#s">pareilles</hi>telles Dispositions. Où faut il donc
           chercher cette Ouverture? La Paix est certaine mont très desirable; Mais je supose, comme
-          une chose indubitable, que l’on ne pensera <hi rendition="#sup">–</hi>pas à la<hi
-            rendition="#sup">–8</hi> faire, sans procurer au <persName key="p0057">Roi de Pologne</persName>
+          une chose indubitable, que l’on ne pensera <hi rendition="#s">à</hi> <hi rendition="#sup">pas à la</hi> faire <hi rendition="#s">la Paix</hi>, sans procurer au <persName key="p0057">Roi de Pologne</persName>
           un juste Dedommagement, de mille Maux et des pertes immenses que que ce Prince a
           souffertes si innocemment, dans le tems qu’il ne songeoit qu’à maintenir Ses Etats en
           Paix. Si les Angloise mêmes veulent s’assurer un Credit solide en Allemagne, et dans toute
           l’Europe, ils doivent montrer leur Amour pour la Justice, en travaillant des premiers a
           faire dedommager la Saxe des Pertes immenses qu’elle a souffertes, sans y avoir donné
           occasion.</p>
-        <p>Faites moi la Grace, Monseigneur, de </p>
-        <pb n="f. 2" />
+        <p>Faites moi la Grace, Monseigneur, de <hi rendition="#s">me dire quelle</hi> </p>
+        <pb n="f. 2"/>
         <p>
-          <hi rendition="#sup">–</hi>sonder à cet Egard les dispositions et sur-tout si l’on songe à
+         [from here follows encrypted text] sonder à cet Egard les dispositions et sur-tout si l’on songe à
           suivi. </p>
         <p>on va donner des Éveches pour trouver ce dedomagemt et si l’idée de Sécularisations
-          n’entre pas dans les vuës de l’Angleterre<hi rendition="#sup">–11</hi>, Je Vous serai,
+          n’entre pas dans les vuës de l’Angleterre[end of the encrypted text], Je Vous serai,
           Monseigneur, infiniment redevable des lumières que Vous voudrez bien me procurer là
           dessus.</p>
         <p>Quoiqu’il ne soit presque pas possible que V[otre]<hi rendition="#sup">re</hi>.
-          Excell[enc]<hi rendition="#sup">e</hi>. puisse ignorer le Contenu des deux Memoires, que <persName
-            key="p0243">Mr. D’Avrincour</persName> a présentez en Svede, j’aurai l’honneur cependant
-          de Lui dire ce que j’en sai, pour ainsi dire, de source. La France après y avoir exposé la
+          Excell[enc]<hi rendition="#sup">e</hi>. puisse ignorer le Contenu des deux Memoires, que <persName key="p0243">Mr. D’Avrincour</persName> a présentez en Svede, j’aurai l’honneur cependant
+          de Lui dire <hi rendition="#s">en</hi> ce que j’en sai, pour ainsi dire, de source. La France après y avoir exposé la
           nécessité de la Paix et demande à la Svede d’envoyer à <persName key="p1115">Son Ministre
             à Paris</persName> Ses Instructions, relativement aux Articles, par lesquelle Elle croit
-          devoir apuyer <hi rendition="#sup">–</hi>NB pour Ses Alliez seulement<hi rendition="#sup">
-          –13</hi> à la future Negociation, dont Elle prétend établir le Siege à <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName> et à <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>; c’est à dire, que les hauts Alliez doivent lui confier
-          leurs Interets et Prétensions, et s’en raporter à elle, tout comme, L’Angle[terr]<hi
-            rendition="#sup">e</hi>. protegeroit et discuteroit les Interêts de Ses Alliez qui les
+          devoir apuyer <hi rendition="#sup">NB pour Ses Alliez seulement</hi> à la future Negociation, dont Elle prétend établir le Siege à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> et à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>; c’est à dire, que les hauts Alliez doivent lui confier
+          leurs Interets et Prétensions, et s’en raporter à elle, tout comme, L’Angle[terr]<hi rendition="#sup">e</hi>. protegeroit et discuteroit les Interêts de Ses Alliez qui les
           lui confieroient également; et le tout sous Prétexte </p>
-        <pb n="f. 2v" />
+        <pb n="f. 2v"/>
         <p> de prevenir les Embarras d’un Congrès, le Céremonial, et la multiplication des
           Prétensions des petits Princes, qui voudroient y envoyer chacun des Ministres. Cette Idée
           est très singuliére et merveilleuse, et si elle prend Nous pouvons compter de voir
-          renouveller bientot l’Epitaphe de la Paix informe d’<placeName
-            key="g0115"
-            ref="https://www.geonames.org/3247449">Aix la Chapelle</placeName>,
-          que <persName key="p0000">Mr. de St. Severin</persName> lui-même regardoit comme une Pâte,
+          renouveller bientot l’Epitaphe de la Paix informe d’<placeName key="g0115" ref="https://www.geonames.org/3247449">Aix la Chapelle</placeName>,
+          que <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2461" xml:space="default">Mr. de St. Severin</persName> lui-même regardoit comme une Pâte,
           dont on pourroit faire ensvite, un Cocq un Singe, ou tout ce qu’on voudroit. </p>
         <p> Enfin la France exige encore de la Suede, de sacrifier à la Paix toutes ses Prétensions
           particulières qu’elle pourroit former pour Elle-même, et en faveur de son Sacrifice fait à
@@ -206,40 +174,23 @@
           dedommager. <hi rendition="#u">Dixi</hi>.</p>
         <p>
           <persName key="p0344" ref="99d78605-e879-4d9e-8270-71b3dbbfe2db">Le Ministre de Suede</persName>
-          m’a dit, ces jours passés, que Votre <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName> avoit fait declarer à <placeName
-            key="g0017"
-            ref="https://www.geonames.org/2673730">Stockholm</placeName>, que <persName
-            key="p0052"
-            ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">S[a]. M[ajest]<hi rendition="#sup">é</hi>
+          m’a dit, ces jours passés, que Votre <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Cour</orgName> avoit fait declarer à <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName>, que <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">S[a]. M[ajest]<hi rendition="#sup">é</hi>
           Imp[erial]<hi rendition="#sup">e</hi> Votre très auguste et adorable Souveraine</persName>,
-          ne poseroit jamais les Armes que <persName
-            key="p0057"
-            ref="36412e88-60df-4a3e-b302-3fde5962cda6">le Roi de Pologne</persName> et <persName
-            key="p0232"
-            ref="67044862-485a-4970-8756-0d6c229cae34">la Suede</persName> n’eussent
+          ne poseroit jamais les Armes que <persName key="p0057" ref="36412e88-60df-4a3e-b302-3fde5962cda6">le Roi de Pologne</persName> et <persName key="p0232" ref="67044862-485a-4970-8756-0d6c229cae34">la Suede</persName> n’eussent
           reçu une entière satisfaction de leurs justes Prétensions. <hi rendition="#u">Amen</hi>!
-          Cette declaration m’a paru faire beaucoup de plaisir au dit Ministre. Le <persName
-            key="p1116">Prince Albert de
+          Cette declaration m’a paru faire beaucoup de plaisir au dit Ministre. Le <persName key="p1116">Prince Albert de
             Saxe</persName> s’est declaré pour l’Etat ecclesiastique et se présente pour la Grande
-          Maitrise de l’Ordre Teutonique. Il en a écrit à <persName key="p0100">l’Imp[eratric]<hi
-              rendition="#sup">e</hi>. Reine</persName>. Mais il aura un fort Concurrent dans le <persName
-            key="p0035">P[rinc]e Charles de
+          Maitrise de l’Ordre Teutonique. Il en a écrit à <persName key="p0100">l’Imp[eratric]<hi rendition="#sup">e</hi>. Reine</persName>. Mais il aura un fort Concurrent dans le <persName key="p0035">P[rinc]e Charles de
             Lorraine</persName>. <persName key="p1117">Le Prince Clement de Saxe</persName> sera
-          selon toutes les aparences Coadjuteur du futur Elect[eu]<hi rendition="#sup">r</hi>. de <placeName
-            key="g0200"
-            ref="https://www.geonames.org/2886242">
+          selon toutes les aparences Coadjuteur du futur Elect[eu]<hi rendition="#sup">r</hi>. de <placeName key="g0200" ref="https://www.geonames.org/2886242">
             Cologne</placeName>
         </p>
-        <p>J’ignore tout à fait ce qui concerne ce miserable <persName key="p0000">Maubert</persName>.
+        <p>J’ignore tout à fait ce qui concerne ce miserable <persName key="p2462">Maubert</persName>.
           Il y a longtems qu’on auroit dû enfermer ce dangereux Sujet dans son Couvent. Il prétend
           qu’il n’a fait un tour en France que pour ses affaires particulieres, et qu’il reprendra
           bientôt la possession de sa vilaine Gazette; et tant pis pour ceux qui protégent de
           pareilles Gens! <persName key="p0089">Mr. de
-            Loudon</persName> a remporté un Avantage en Silesie, où il a emporté le Poste de <placeName
-            key="g0157"
-            ref="https://www.geonames.org/3081046">Frankenstein</placeName>, et fait hacher en pieces 500. Prussiens.</p>
+            Loudon</persName> a remporté un Avantage en Silesie, où il a emporté le Poste de <placeName key="g0157" ref="https://www.geonames.org/3081046">Frankenstein</placeName>, et fait hacher en pieces 500. Prussiens.</p>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_rgada_1263_1_1588_0002</note>
