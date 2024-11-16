@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,90 +96,67 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>12 February 1757. – Letter from <persName
-              key="p0245"
-              ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Russian envoy extraordinary to Denmark,
-            Baron Johann Albrecht von Korff</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian envoy extraordinary to London,
+          <title>12 February 1757. – Letter from <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Russian envoy extraordinary to Denmark,
+            Baron Johann Albrecht von Korff</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1765, f. 1–3. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
+        
+        <pb n="f. 1"/>
+        <p/>
         <p>Monsieur,</p>
         <p>J’espere que vous pardonnerés le delai que j’ai mis d’accuser la reception des lettres
           que vous m’avés fait l’honneur de m’ecrire du 14 Decemb[re]: de l’année passée et du 4
           Janvier, et de vous temoigner ma sincere reconnoissance de leur contenu. La disette en
           fait de nouvelles a été si grande, qu’il ne s’est rien presenté dans cet interval digne de
           vous être mandé.</p>
-        <p>Ce n’est que depuis quelques jours que <persName
-            key="p0341"
-            ref="4d48b5ce-8760-4799-ac34-6311fd246479">le Roi</persName> vient de signer un ordre
-          pour l’augmentation de la cavallerie à savoir 15 h. par compagnie dans les Regimens des
-          Cuirassiers et 35 h. par compagnie dans les Dragons, le corps de Norvegue excepté, la
+        <p>Ce n’est que depuis quelques jours que <persName key="p0341" ref="4d48b5ce-8760-4799-ac34-6311fd246479">le Roi</persName> vient de signer un ordre
+          pour l’augmentation de la cavallerie à savoir 15 h[ommes?]. par compagnie dans les Regimens des
+          Cuirassiers et 35 h[ommes?]. par compagnie dans les Dragons, le corps de Norvegue excepté, la
           quelle augmentation </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> montera à 1480 hommes.</p>
         <p>L’amirauté d’ici fait armer 6 vaisseaux de guerre de 70 jusqu’à 50 canons et 2 Fregattes
           qui formeront l’Escadre qui sortira au printems; on equipe en outre deux vaisseaux de
-          guerre destinés à porter les presens à <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Constantinople</placeName>.</p>
-        <p />
-        <pb n="f. 2" />
-        <p />
-        <p>
-          <persName key="p0185" ref="d3439ac9-fe85-4051-81d2-1b381f1e74f5">M<hi rendition="#sup">r</hi>.
-          l'Envoyé Tittley</persName> a receu consecutivement deux couriers de sa <orgName
-            key="o0002"
-            ref="dd406ffb-30ce-4374-868b-1a55e8daf251">Cour</orgName>. Il n’a rien
+          guerre destinés à porter les presens à <placeName key="g0018" ref="https://www.geonames.org/745044">Constantinople</placeName>. [from here follows an encrypted text, decrypted on f. 2]</p>
+        <p/>
+        <pb n="f. 2"/>
+        <p/>
+        <p>[f. 2 attached to f. 1, contains a decrypted text] <persName key="p0185" ref="d3439ac9-fe85-4051-81d2-1b381f1e74f5">M<hi rendition="#sup">r</hi>.
+          l'Envoyé Tittley</persName> a receu consecutivement deux couriers de sa <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">Cour</orgName>. Il n’a rien
           transpiré du contenu de leurs depeches; Il est probable qu’elles se rapportent aux
           negotiations dont ce <persName key="p0185" ref="d3439ac9-fe85-4051-81d2-1b381f1e74f5">
-          Ministre</persName>, ainsi que<persName
-            key="p0263"
-            ref="93358a97-4b8e-4d7c-a298-032a5a9febff"> le Baron de Wedel</persName>, sont chargés,
-          et dont jusqu’ici il n’y a rien a aprendre de positif, si la proposition que <persName
-            key="p0100"
-            ref="58e95bc6-e008-4f45-8f4d-1cb58e816d5e">l’Imperatrice Reine </persName>a
-          fait faire, sous certaines conditions au <persName
-            key="p0063"
-            ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roi de la Gr: Bretagne</persName> d’une
-          convention de neutralité pour ses Etats en Allemagne est acceptée. La commission du dit <persName
-            key="p0263"
-            ref="93358a97-4b8e-4d7c-a298-032a5a9febff">Baron</persName> pourroit bien
-          s’acrocher. Au reste la situation des affaires a <orgName
-            key="o0009"
-            ref="62f4a0a0-914d-43df-89d9-be5aaf841973">cette Cour-</orgName>ci est encore si
+          Ministre</persName>, ainsi que<persName key="p0263" ref="93358a97-4b8e-4d7c-a298-032a5a9febff"> le Baron de Wedel</persName>, sont chargés,
+          et dont jusqu’ici il n’y a rien a aprendre de positif, si la proposition que <persName key="p0100" ref="58e95bc6-e008-4f45-8f4d-1cb58e816d5e">l’Imperatrice Reine </persName>a
+          fait faire, sous certaines conditions au <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roi de la Gr: Bretagne</persName> d’une
+          convention de neutralité pour ses Etats en Allemagne est acceptée. La commission du dit <persName key="p0263" ref="93358a97-4b8e-4d7c-a298-032a5a9febff">Baron</persName> pourroit bien
+          s’acrocher. Au reste la situation des affaires a <orgName key="o0009" ref="62f4a0a0-914d-43df-89d9-be5aaf841973">cette Cour-</orgName>ci est encore si
           compliquée, qu’on ne sauroit asseoir un jugement sur le parti qu’elle embrassera dans la
-          guerre presente.</p>
-        <p />
-        <pb n="f. 3" />
-        <p />
-        <p>Je joins ici Monsieur une lettre de change pour les livres que vous avés eu la bonté de
+          guerre presente. [end of the decrypted text]</p>
+        
+        <pb n="f. 3"/>
+        <p/>
+        <p>[from here follows an encrypted text, decrypted below] Je joins ici Monsieur une lettre de change pour les livres que vous avés eu la bonté de
           faire acheter pour mon compte. Ils ne sont pas encore arrivés et je vous prie de me
-          marquer à qui le paquet a été adressé à <placeName
-            key="g0069"
-            ref="https://www.geonames.org/2620473">Elsenoer</placeName>, afin
+          marquer à qui le paquet a été adressé à <placeName key="g0069" ref="https://www.geonames.org/2620473">Elsenoer</placeName>, afin
           que je puisse m’informer si le batiment Dantziquois sur le quel il y a été chargé, y a
-          deja passé.</p>
+          deja passé. [end of the decrypted text]</p>
         <p>J’ai l’honneur d’etre avec la consideration la plus distinguée</p>
         <p> Monsieur,</p>
         <p> Votres tres humble et tres obeissant</p>
         <p> serviteur</p>
         <p>
-          <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Korff</persName>.</p>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0245" xml:space="default" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e" type="signature">Korff</persName>.</p>
         <p>à <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhague</placeName>
         </p>
         <p>ce 12 Fevrier 1757.</p>
