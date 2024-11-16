@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">The Response of Empress [of Russia] Elizabeth Petrovna to King of Sweden Frederick I</title>
+        <title type="main" xml:lang="en">The Response of Empress [of Russia] Elizabeth Petrovna to King of Sweden Frederick I</title>
         <author xml:lang="en">Empress</author>
         <author xml:lang="en">of</author>
         <author xml:lang="en">Russia</author>
@@ -100,38 +95,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9 July 1748. – Response of the <persName
-              key="p0052"
-              ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Empress of Russia Elizabeth Petrovna</persName> to the <persName
-              key="p0067"
-              ref="22412e8c-3755-4663-8444-15061d7a9e52">King of Sweden Frederick I</persName>
+          <title>9 July 1748. – Response of <persName key="p0052">the Empress of Russia Elizabeth Petrovna</persName> to <persName key="p0067">the King of Sweden Frederick I</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 74, opis 1, 1748, no. 3, f. 99–99v<hi rendition="#i">. German original.</hi>
             </bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 99" />
-        <p />
-        <p>Monsieur mon Frere. Aus Ew[rer] Maj[estä]t durch dero <persName
-            key="p0658"
-            ref="9cf691c0-10e4-4326-872c-6408a74b463a">Ministre v. Wulfienstierna</persName> alhier überreichten Schreiben von 28ten Marty habe ich mit nicht geringer Befremdung und Leydweßen ersehen, wie dieselben meinen so offt wiederhohlten Versicherungen, daß mein bey Ew[rer]. M[ajestä]t Hofe vorhin gestandener <persName
-            key="p0245"
-            ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Ambassadeur und nachheriger Envoyé Extraordinaire der Geh. Rath Baron v. Korff</persName> während der gantzen Zeit seines dortigen Ministerii nicht so sehr, als die unverbrüchliche Unterhaltung einer beständigen Freundschaft und guten Vernehmens zwieschen (sic!) Uns, behertziget, und die über ihn vergeblich geführten Klagen gar nicht verdienet, nicht einen solchen Glauben, als denen bey Sie fälschlich angebrachten und dem zuwiederlauffenden Insinuationes in der alleinigen Absicht, um zwieschen Uns eine Kaltsinnigkeit zu erwecken beylegen.</p>
-        <p>Ebenmäßig gereicht es auch nicht weniger zu meiner Befrembdung, daß mein so billiges und auf die Reciprocité sich gründendes Recht betreffend die Rappellirung dero allhier vorseyenden <persName
-            key="p0658"
-            ref="9cf691c0-10e4-4326-872c-6408a74b463a">Ministre v: Wulfenstierna</persName> so wenig Eingang gefunden, da Sie es bis zur Endigung der so lange bis hiezu fruchtlos geführten Gräntz-Angelegenheit aussetzen, ich hoffe, daß Ew[rer]. M[ajestä]t viele dergleichen treue und erfahrene Ministre haben die im Stande sind, dero Intention über diesen Vorwurf ebenfals in Erfüllung zu bringen. Die meiner seits Ew[rer]. M[ajestä]t aus alleiniger Gefälligkeit erwiesene Bereitwilligkeit obgedahten meinen <persName
-            key="p0245"
-            ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Ministre den Baron v. Korff</persName> zu rappeliren, läßt mich im Geringsten nicht zweifeln, es werde sothane meine Bemühung, die in der Reciprocité bestehet, gleichfals gar keine Schwürigkeit vorfinden. Dagegen wird mir ein jeder anderer Ministre anhenehm seyn, welchen Ew[rer] May[estä]t zu Befestigung des unter Uns obwaltenden Freundschafts-Bandes und guten Vernehmens auszuersehen belieben. Wonebst ich mit unveränderten </p>
-        <pb n="f. 99v" />
+        
+        <pb n="f. 99"/>
+        <p/>
+        <p>Monsieur mon Frere. Aus Ew[rer] Maj[estä]t durch dero <persName key="p0658" ref="9cf691c0-10e4-4326-872c-6408a74b463a">Ministre v. Wulfienstierna</persName> alhier überreichten Schreiben von 28ten Marty habe ich mit nicht geringer Befremdung und Leydweßen ersehen, wie dieselben meinen so offt wiederhohlten Versicherungen, daß mein bey Ew[rer]. M[ajestä]t Hofe vorhin gestandener <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Ambassadeur und nachheriger Envoyé Extraordinaire der Geh. Rath Baron v. Korff</persName> während der gantzen Zeit seines dortigen Ministerii nicht so sehr, als die unverbrüchliche Unterhaltung einer beständigen Freundschaft und guten Vernehmens zwieschen (sic!) Uns, behertziget, und die über ihn vergeblich geführten Klagen gar nicht verdienet, nicht einen solchen Glauben, als denen bey Sie fälschlich angebrachten und dem zuwiederlauffenden Insinuationes in der alleinigen Absicht, um zwieschen Uns eine Kaltsinnigkeit zu erwecken beylegen.</p>
+        <p>Ebenmäßig gereicht es auch nicht weniger zu meiner Befrembdung, daß mein so billiges und auf die Reciprocité sich gründendes Recht betreffend die Rappellirung dero allhier vorseyenden <persName key="p0658" ref="9cf691c0-10e4-4326-872c-6408a74b463a">Ministre v: Wulfenstierna</persName> so wenig Eingang gefunden, da Sie es bis zur Endigung der so lange bis hiezu fruchtlos geführten Gräntz-Angelegenheit aussetzen, ich hoffe, daß Ew[rer]. M[ajestä]t viele dergleichen treue und erfahrene Ministre haben die im Stande sind, dero Intention über diesen Vorwurf ebenfals in Erfüllung zu bringen. Die meiner seits Ew[rer]. M[ajestä]t aus alleiniger Gefälligkeit erwiesene Bereitwilligkeit obgedahten meinen <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Ministre den Baron v. Korff</persName> zu rappeliren, läßt mich im Geringsten nicht zweifeln, es werde sothane meine Bemühung, die in der Reciprocité bestehet, gleichfals gar keine Schwürigkeit vorfinden. Dagegen wird mir ein jeder anderer Ministre anhenehm seyn, welchen Ew[rer] May[estä]t zu Befestigung des unter Uns obwaltenden Freundschafts-Bandes und guten Vernehmens auszuersehen belieben. Wonebst ich mit unveränderten </p>
+        <pb n="f. 99v"/>
         <p>Hochachtung alstets verbleibe.</p>
         <p>Monsieur mon Frere</p>
         <p>Ew[rer] M[ajestä]t</p>
