@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,35 +96,27 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>8/19 July 1755. – Letter from <persName
-              key="p0245"
-              ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Russian Envoy Extraordinary to Denmark,
-            Johann Albrecht von Korff</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title>8/19 July 1755. – Letter from <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Russian Envoy Extraordinary to Denmark,
+            Johann Albrecht von Korff</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 1763, f. 1, 2v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
+        
+        <pb n="f. 1"/>
+        <p/>
         <p>Monsieur,</p>
-        <p>J’ai appris avec un très sensible plaisir, le choix que <persName
-            key="p0052"
-            ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté Imperiale</persName> notre Auguste
-          Souveraine a faite de Votre personne, pour menager à l’avenir ses interets à la <orgName
-            key="o0002"
-            ref="dd406ffb-30ce-4374-868b-1a55e8daf251">Cour de Sa Majesté Britannique</orgName>.
+        <p>J’ai appris avec un très sensible plaisir, le choix que <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté Imperiale</persName> notre Auguste
+          Souveraine a faite de Votre personne, pour menager à l’avenir ses interets à la <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">Cour de Sa Majesté Britannique</orgName>.
           En vous faisant, Monsieur, mes complimens sur le commencement de votre ministere, je puis
           vous assurer, que rien ne me sera plus flateur que l’honneur de votre correspondance et
           que je me ferai un devoir de la cultiver soigneusement, en vous faisant part de tout ce
@@ -141,22 +130,18 @@
           <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhague</placeName>
         </p>
         <p>ce 19/8 Juillet 1755.</p>
-        <p />
-        <pb n="f. 2v" />
+        <p/>
+        <pb n="f. 2v"/>
         <p>
-          <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhague</placeName> le 19 Juillet 1755.</p>
-        <p>M<hi rendition="#sup">r</hi>. de <persName
-            key="p0245"
-            ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Korff</persName>.</p>
+          <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhague</placeName> le 19 Juillet 1755.</p>
+        <p>M<hi rendition="#sup">r</hi>. de <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Korff</persName>.</p>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_rgada_1263_1_1765_0001</note>
           <note>ru_rgada_1263_1_1765_0002</note>
           <note>ru_rgada_1263_1_1765_0004</note>
         </noteGrp>
-        <p />
+        <p/>
       </div>
     </body>
   </text>
