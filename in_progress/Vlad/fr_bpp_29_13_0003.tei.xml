@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,19 +97,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>13 / 24 April 1794. – Letter from <persName
-              key="p0898"
-              ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">the Minister Plenipotentiary of Russia to
-            the Lower Rhine Imperial circle, Count Nikolai Petrovich Rumiantsev</persName> , to <persName
-              key="p1158"
-              ref="9967d2ea-44ee-44ec-a313-b1eda6c9a849">the Minister
+          <title>13 / 24 April 1794. – Letter from <persName key="p0898" ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">the Minister Plenipotentiary of Russia in the Lower Rhine Imperial circle, Count Nikolai Petrovich Rumiantsev</persName>, to <persName key="p1158" ref="9967d2ea-44ee-44ec-a313-b1eda6c9a849">the Minister
               Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Baron Otto Heinrich
             Igelström</persName>
           </title>
@@ -120,7 +112,7 @@
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 13, f. 1893. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1893" />
+        <pb n="f. 1893"/>
         <noteGrp>
           <note>lettre au <persName key="p1158" ref="9967d2ea-44ee-44ec-a313-b1eda6c9a849">Baron
             d’Igelstrom</persName>
@@ -139,24 +131,14 @@
           l’Empereur
           </persName> à la tête de Son armée a gagné le 6/17 de ce
           mois une bataille contre l’armée des Jacobins de la France ; leur a tué quatre mille
-          hommes, leur a pris trente canons et a tout de suitte fait investir <placeName
-            key="g0336"
-            ref="https://www.geonames.org/3007830">
-          Landrecies</placeName> et <placeName
-            key="g0337"
-            ref="https://www.geonames.org/3029030">Cambray</placeName>. Le siege de la 1ere
-          de ces deux villes se fera par <persName
-            key="p1216"
-            ref="b37c4021-d30d-480e-a4dd-67ba80200b8b">le Prince
-            Hereditaire d’Orange</persName>. Du coté de <placeName
-            key="g0338"
-            ref="https://www.geonames.org/2821164">Trêves</placeName>
+          hommes, leur a pris trente canons et a tout de suitte fait investir <placeName key="g0336" ref="https://www.geonames.org/3007830">
+          Landrecies</placeName> et <placeName key="g0337" ref="https://www.geonames.org/3029030">Cambray</placeName>. Le siege de la 1ere
+          de ces deux villes se fera par <persName key="p1216" ref="b37c4021-d30d-480e-a4dd-67ba80200b8b">le Prince
+            Hereditaire d’Orange</persName>. Du coté de <placeName key="g0338" ref="https://www.geonames.org/2821164">Trêves</placeName>
           les Carmagnoles ont essuiés aussi une deffaitte ; tout concours à présager que les modeles
           de la revolte de Pologne vont bientot subir les chatiments que suspendoit seulement la
           Providence Divine.</p>
-        <p>Je prie Votre Excellence de faire parvenir la lettre ici incluse à <persName
-            key="p1217"
-            ref="416f6ed0-0d5f-4e3f-96c3-d9fd5de406da">Mon[siuer] Pac</persName> et d’agreer la
+        <p>Je prie Votre Excellence de faire parvenir la lettre ici incluse à <persName key="p1217" ref="416f6ed0-0d5f-4e3f-96c3-d9fd5de406da">Mon[siuer] Pac</persName> et d’agreer la
           consideration trés distinguée avec laquelle j’ai l’honneur d’être</p>
         <p>de Votre Excellence</p>
         <p>le très humble &amp; très-</p>
@@ -165,9 +147,7 @@
           <signed>
             <persName key="p0898" ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">le Comte de Romanzoff</persName>
           </signed>
-          <dateline>à <placeName
-              key="g0305"
-              ref="https://www.geonames.org/2892794">Carlsruhe</placeName>le 13 / 24 Avril 1794.</dateline>
+          <dateline>à <placeName key="g0305" ref="https://www.geonames.org/2892794">Carlsruhe</placeName>le 13 / 24 Avril 1794.</dateline>
         </closer>
       </div>
     </body>
