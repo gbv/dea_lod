@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,16 +94,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 / 31 May 1771. – Letter from the Russian chargé d’affaires in Saxony <persName
-              key="p0363"
-              ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Peter von Staehlin</persName>
+          <title>20 / 31 May 1771. – Letter from <persName key="p0363">the Russian chargé d’affaires in Saxony Peter von Staehlin</persName>
             to <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count Nikita
             Ivanovich Panin</persName>
           </title>
@@ -114,35 +109,25 @@
             <bibl>AVPRI, fond 84, opis 2, no. 123, f. 6-7. French copy.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f.6" />
+        
+        <pb n="f.6"/>
         <p> Monseigneur</p>
-        <p />
-        <p>Mercredy passé, jour ordinaire oû le corps diplomatique s’assemble chés monsieur le <persName
-            key="p0866"
-            ref="7296a36c-406a-4c82-94cd-b0d4914be533">comte de Sacken</persName>, ce
+        <p/>
+        <p>Mercredy passé, jour ordinaire oû le corps diplomatique s’assemble chés monsieur le <persName key="p0866" ref="7296a36c-406a-4c82-94cd-b0d4914be533">comte de Sacken</persName>, ce
           Ministre s’entretenant avec moi, parla entr’autres des bruits qu’il pretend qui courent au
           desavantage <orgName key="o0012">de cette Cour</orgName>; comme quoi elle remettoit des
           sommes d’argent aux confederés en Pologne, pour les appuyer et entretenir un parti parmi
           eux. <persName key="p0866" ref="7296a36c-406a-4c82-94cd-b0d4914be533">Monsieur le Comte</persName>
           me chargea à ce sujet de faire parvenir occasionellement à Votre Éxcellence, qu’il etoit
-          mortifié de savoir, qu’on tachoit par des pareils bruits de mettre mal dans l’esprit de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>
+          mortifié de savoir, qu’on tachoit par des pareils bruits de mettre mal dans l’esprit de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>
           <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur son Maitre</persName>
           ; Qu’il avail cependant lieu d’esperer que </p>
-        <pb n="f.6v" />
-        <p> la conduite prudente que ce <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">Prince</persName> avoit tenu et tiendroit
+        <pb n="f.6v"/>
+        <p> la conduite prudente que ce <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">Prince</persName> avoit tenu et tiendroit
           toujours, dementiroit suffisamment ces bruits là ; Qu’ils etoient entierement faux, et
-          d’autant plus destitués de fondement, que ceci etoit tout à fait opposé aux sentimens de <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName>, à sa
+          d’autant plus destitués de fondement, que ceci etoit tout à fait opposé aux sentimens de <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName>, à sa
           deference pour <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté
-          Imperiale</persName> et au cas particulier qu’il faisoit de la bienveillance de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> dont il
+          Imperiale</persName> et au cas particulier qu’il faisoit de la bienveillance de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> dont il
           connoissoit tout le prix ; Qu’il etoit vray que <orgName key="o0012">sa cour</orgName>
           avoit des amis en Pologne que ses interéts exigeoient de conserver, mais que ces derniers
           n’etoient absolument point du nombre de ceux qui s’avisoient de vouloir contrarierles
@@ -153,13 +138,13 @@
         <p>Au reste Monsieur le <persName key="p0866" ref="7296a36c-406a-4c82-94cd-b0d4914be533">Comte
           de Sacken</persName> n’a point declaré ceci ministerialement, mail seulement pour Vous en
           prevenir Monseigneur, ajoutant</p>
-        <pb n="f.7" />
+        <pb n="f.7"/>
         <p> qu’il se flattoit que Votre Èxcellence connoissoit la confiance qu’il mettoit en Elle,
           et l’attachement qu’il Lui consevoit depuis si longtems. </p>
         <p>J’ai l’honneur d’etre avec le plus profond respect </p>
         <p>Monseigneur </p>
         <p>de Votre Èxcellence </p>
-        <p />
+        <p/>
         <p>À <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>
         </p>
         <p>Le 20./31. May 1771 </p>
@@ -168,7 +153,7 @@
         <p>
           <persName key="p0363" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">P. Stehlin</persName>
         </p>
-        <p />
+        <p/>
       </div>
     </body>
   </text>
