@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,27 +96,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>7 April N.S. 1771. – <persName
-              key="p0060"
-              ref="d68836c6-71de-4edb-a729-46f1086a7313">Henry [Louis, Prince of Prussia], Brother
-            of [King] Frederick II</persName>, to <persName
-              key="p0124"
-              ref="820f0254-6e50-437f-a3ae-b94f1140c8e3">[Field Marshal,] Count Petr Aleksandrovich
+          <title>7 April N.S. 1771. – <persName key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">Henry [Louis, Prince of Prussia], Brother
+            of [King] Frederick II</persName>, to <persName key="p0124" ref="820f0254-6e50-437f-a3ae-b94f1140c8e3">[Field Marshal,] Count Petr Aleksandrovich
             Rumiantsev-Zadunaiskii</persName>
           </title>
           <note>
             <bibl>OR RGB, fond 255, karton 2, no. 47, f. 1. French original.</bibl>
           </note>
         </head>
-        <p />
-        <p />
+        
+        
         <p>Monsieur. Je suis bien aise de voir par la lettre que vous aves bien voulû m’ecrire, que
           vos amis vous ayent instruit de mes sentimens pour vous. Pouvois-je ne pas m’interesser
           aux succes d’un homme dont les vertus et les grands talents pour la guerre attirent
@@ -137,9 +130,9 @@
         <p>ce 7 Avril</p>
         <p>1771</p>
         <p>
-          <persName key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">Henri</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0060" xml:space="default" ref="d68836c6-71de-4edb-a729-46f1086a7313" type="signature">Henri</persName>
         </p>
-        <p />
+        <p/>
         <noteGrp>
           <note>Also see:</note>
           <note> ru_niorrgb_255_3_13_0001</note>
