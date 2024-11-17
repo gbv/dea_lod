@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,7 +98,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -116,30 +113,28 @@
             <bibl>OR RGB, fond 255, karton 10, no. 13, f. 1. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
+        <pb n="f. 1"/>
+        <p/>
         <p>III, 6</p>
-        <p />
+        <p/>
         <p>Monsieur le Chancelier</p>
-        <p />
-        <p>Je serois tres-obligè a Votre Excellence si elle veut bien ordonner à <persName
-            key="p0917"
-            ref="860e31ea-df56-466f-ad92-63bf982603d3">Mons. Borel</persName> de passer
+        <p/>
+        <p>Je serois tres-obligè a Votre Excellence si elle veut bien ordonner à <persName key="p0917" ref="860e31ea-df56-466f-ad92-63bf982603d3">Mons. Borel</persName> de passer
           un de ses matins chez moi pour lui parler d’une affaire toute particuliere, et lui donner
           des details convenables pour en faire son rapport, et eviter par là a Votre Excellence
           l’embaras d’une corespondence, qui ne fairoit que la gener dans ses grandes occupations.
           Agrèez Monsieur le Comte les assurances de la consideration tres distinguè avec laquelle
           j’ai l’honneur d’être.</p>
-        <p />
+        <p/>
         <p>De Votre Excellence </p>
-        <p />
+        <p/>
         <p> Le tres-humble et tres-obeissant serviteur</p>
         <p>
-          <persName key="p0592" ref="89d3a2f4-2b96-44b2-b4c1-ae937fd428d9">Le Duc de Serracapriola</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0592" xml:space="default" ref="89d3a2f4-2b96-44b2-b4c1-ae937fd428d9" type="signature">Le Duc de Serracapriola</persName>
         </p>
-        <p />
+        <p/>
         <p>ce 30. Mars 1811.</p>
-        <p />
+        <p/>
         <p>a <persName key="p0898" ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">Son Excellence
             Monsieur le Chancelier de l’Empire</persName>
         </p>
