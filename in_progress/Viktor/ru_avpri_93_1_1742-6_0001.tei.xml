@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +97,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -109,9 +106,7 @@
         <head>
           <title> 15 July 1742. – Order of <orgName key="o0001">College of Foreign Affairs</orgName>
             to recall <persName key="p0272" ref="5c264fe6-8454-472c-8ab7-1e3b2fb9a6ae">Jakob
-              Heinrich von Lilienfeld</persName> from <placeName
-              key="g0019"
-              ref="https://www.geonames.org/2988507">
+              Heinrich von Lilienfeld</persName> from <placeName key="g0019" ref="https://www.geonames.org/2988507">
               <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName>
             </placeName>
           </title>
@@ -119,32 +114,18 @@
             <bibl>AVPRI, fond 93, opis 1, no. 1742-6, f. 1. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>Копия</p>
         <p>1742 июля „15„ дня <persName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">Государственная
-          Коллегия иностранных дел</persName> по преставлению обретающагося в <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">
-          Париже</placeName> чрезвычайного посла <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Князя Кантемира</persName>, чтоб повелено
-          было находящемуся при нем дворянином посолства <persName
-            key="p0272"
-            ref="5c264fe6-8454-472c-8ab7-1e3b2fb9a6ae">Лилиенфелту</persName> по желанию его оттуда
+          Коллегия иностранных дел</persName> по преставлению обретающагося в <placeName key="g0019" ref="https://www.geonames.org/2988507">
+          Париже</placeName> чрезвычайного посла <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Князя Кантемира</persName>, чтоб повелено
+          было находящемуся при нем дворянином посолства <persName key="p0272" ref="5c264fe6-8454-472c-8ab7-1e3b2fb9a6ae">Лилиенфелту</persName> по желанию его оттуда
           возвратится, понеже его за слабостию здоровья тамо в делах с трудом употреблять можно, к
-          тому ж он уже долгов до четырех сот рублев тамо нажил, и притом оной <persName
-            key="p0030"
-            ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Князь Кантемир</persName> просит, чтоб при
+          тому ж он уже долгов до четырех сот рублев тамо нажил, и притом оной <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Князь Кантемир</persName> просит, чтоб при
           отзыве того <persName key="p0272" ref="5c264fe6-8454-472c-8ab7-1e3b2fb9a6ae">Лилиенфелда</persName>
-          оные долги его заплачены были, дабы ему оттого какой остуды в <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">тамошнем
-          городе</placeName> не произошло определила оного <persName
-            key="p0272"
-            ref="5c264fe6-8454-472c-8ab7-1e3b2fb9a6ae">Лилиенфелда</persName> оттуда взять а за
-          помянутые долги четыреста рублев от расходу той <orgName
-            key="o0001"
-            ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии</orgName> заплатить, дать ему на
+          оные долги его заплачены были, дабы ему оттого какой остуды в <placeName key="g0019" ref="https://www.geonames.org/2988507">тамошнем
+          городе</placeName> не произошло определила оного <persName key="p0272" ref="5c264fe6-8454-472c-8ab7-1e3b2fb9a6ae">Лилиенфелда</persName> оттуда взять а за
+          помянутые долги четыреста рублев от расходу той <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии</orgName> заплатить, дать ему на
           проезду оттуда столко чем бы он сюда приехать мог, и о таком возвращении оного к
           помянутому <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">князю
             Кантемиру</persName> рескрипт отправить, и при том вексель на вышеозначенную сумму к
@@ -157,7 +138,7 @@
         <p>
           <persName key="p0017" ref="8635fcfb-35a1-487c-bfd4-9f5e205f81f0">Г : Алексей Бестужев
             Рюмин</persName>,</p>
-        <p>С подлинным читал подканцелярист <persName key="p0000">Николай Коптяжев</persName>
+        <p>С подлинным читал подканцелярист <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2340" xml:space="default" type="signature">Николай Коптяжев</persName>
         </p>
         <noteGrp>
           <note>Also see: ru_avpri_93_1_1742-6_0002</note>
