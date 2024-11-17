@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,61 +94,41 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>5 / 16 August 1771. – Letter from the Russian chargé d’affaires in <persName
-              key="p0363"
-              ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Peter von Staehlin</persName>
-          </title>
+          <title>5 / 16 August 1771. – Letter from the Russian chargé d’affaires in <persName key="p0363" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Peter von Staehlin</persName> to <persName key="p0114">Count Nikita Ivanovich Panin</persName>          </title>
           <note>
             <bibl>AVPRI, fond 84, opis 2, no. 123, f. 18-18v. French copy.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f.18" />
+        
+        <pb n="f.18"/>
         <p>Monseigneur </p>
-        <p />
-        <p> Samedy passé Monsieur le Chambellan <persName
-            key="p0861"
-            ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Baron de Stackelberg</persName>
-          est arrivé icy, et fut presenté le lendemain, jour de cour, à L.L.A.A. <persName
-            key="p0058"
-            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> et <persName
-            key="p1554">l’Electrice</persName>, avec les quels il eut l’honneur de diner le même
+        <p/>
+        <p> Samedy passé Monsieur le Chambellan <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Baron de Stackelberg</persName>
+          est arrivé icy, et fut presenté le lendemain, jour de cour, à L.L.A.A. <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName> et <persName key="p1554">l’Electrice</persName>, avec les quels il eut l’honneur de diner le même
           jour. Son beau frére M<hi rendition="#sup">r. </hi>le <persName key="p1566">Baron de
           Völckersahm</persName> Ministre de cette Cour ci à celle de Vienne qui a obtenu une
           permission de quelques semaines, arriva presque en même tems. <persName key="p1563">Monsieur
-          le Comte d’Orlow</persName> est parti Mardy passé pour le <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">Carlsbad</placeName>,
+          le Comte d’Orlow</persName> est parti Mardy passé pour le <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName>,
           et <persName key="p1565">Madame la Comtesse son epouse</persName> ce matin pour Leipsic (:
-          oû elle compte d’attendre son retour de <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">Carlsbad</placeName> :)
-          ainsi que Mons<hi rendition="#sup">r. </hi>le <persName
-            key="p0861"
-            ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Baron de Stackelberg</persName>
-          et <persName key="p1565">Madame son epouse</persName>, continuant leur route vers <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName>. </p>
+          oû elle compte d’attendre son retour de <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName> :)
+          ainsi que Mons<hi rendition="#sup">r. </hi>le <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">Baron de Stackelberg</persName>
+          et <persName key="p1565">Madame son epouse</persName>, continuant leur route vers <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>. </p>
         <p> </p>
-        <pb n="f.18v" />
-        <p> Au reste l’on a eté empressé icy de leur marquer toute sorte d’attentions, mais comme <persName
-            key="p1563">Monsieur le Comte</persName> se hâtoit d’arriver à tems au <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">Carlsbad</placeName>, il n’a point voulu paroitre à la <orgName
-            key="o0012">
+        <pb n="f.18v"/>
+        <p> Au reste l’on a eté empressé icy de leur marquer toute sorte d’attentions, mais comme <persName key="p1563">Monsieur le Comte</persName> se hâtoit d’arriver à tems au <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName>, il n’a point voulu paroitre à la <orgName key="o0012">
           Cour</orgName>; et a seulement diné et soupé une fois chez <persName key="p0866">Monsieur
           le Comte de Sacken</persName>, qui etait d’abord venu lui rendre sa visite à son arrivée. </p>
         <p> J’ai l’honneur d’etre avec le plus profond respect, </p>
         <p> Monseigneur </p>
         <p> de Votre Èxcellence </p>
-        <p />
+        <p/>
         <p>
           <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>
         </p>
