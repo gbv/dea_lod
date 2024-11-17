@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,51 +100,35 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 January 1742. – Copy of the rescript sent to <placeName
-              key="g0019"
-              ref="https://www.geonames.org/2988507">
-              <hi rendition="#b">Paris</hi>
-            </placeName> for [Minister Plenipotentiary of
-            Russia to France], privy councilor <persName
-              key="p0030"
-              ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Prince [Antiokh
-              Dmitrievich] Kantemir</persName> concerning the sending of <persName
-              key="p0270"
-              ref="3531e214-0976-4bb9-8825-357a37b8f2e0">Andrei Mikhailovich Efimovskii</persName>
+          <title>20 January 1742. – Copy of the rescript sent to <placeName key="g0019" ref="https://www.geonames.org/2988507">
+              Paris
+            </placeName> for <persName key="p0030">[Minister Plenipotentiary of Russia to France], privy councilor Prince [Antiokh Dmitrievich] Kantemir</persName> concerning the sending of <persName key="p0270" ref="3531e214-0976-4bb9-8825-357a37b8f2e0">Andrei Mikhailovich Efimovskii</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 93, opis 1, no. 1742-5, f. 2. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 2" />
-        <p />
+        <pb n="f. 2"/>
+        <p/>
         <p>Сообщение <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии
           иностранных дел</orgName>
         </p>
-        <p>Копия с рескрыпта отправленного в <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Париж</placeName> к тайному
+        <p>Копия с рескрыпта отправленного в <placeName key="g0019" ref="https://www.geonames.org/2988507">Париж</placeName> к тайному
           советнику князю <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">
           Кантемиру</persName> Генваря 20 дня 1742 году.</p>
-        <p>Понеже мы всемилостивейша благоразсудили порутчика нашего <persName
-            key="p0270"
-            ref="3531e214-0976-4bb9-8825-357a37b8f2e0">Андрея Ефимовского</persName> отправить к вам
+        <p>Понеже мы всемилостивейша благоразсудили порутчика нашего <persName key="p0270" ref="3531e214-0976-4bb9-8825-357a37b8f2e0">Андрея Ефимовского</persName> отправить к вам
           во Францию таким образом чтоб он при вас дворянином посольства жил и ему способы поданы
           были б потребным наукам обучатся. а на пребывание его тамо определено ему жалованье в год
-          по пятисот рублев, которое к нему впредь вместе с вашим жалованьем из нашей <orgName
-            key="o0001"
-            ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии иностранных дел</orgName>
+          по пятисот рублев, которое к нему впредь вместе с вашим жалованьем из нашей <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии иностранных дел</orgName>
           переведено будет а на проезд ему выдано четыреста рублев. того ради вам о том чрез сие
-          знать даем и оного <persName
-            key="p0270"
-            ref="3531e214-0976-4bb9-8825-357a37b8f2e0">Ефимовского</persName> к вам адресуем дабы вы
+          знать даем и оного <persName key="p0270" ref="3531e214-0976-4bb9-8825-357a37b8f2e0">Ефимовского</persName> к вам адресуем дабы вы
           его по вышеписанному у себя держали и к обучению его всему тому еже ему для лутчаго к
           службе нашей впредь достоинства потребно быть может, всякое способствование ему показывали
           и мы пребываем вам впротчем императорскою нашею милостию благосклонныя.</p>
