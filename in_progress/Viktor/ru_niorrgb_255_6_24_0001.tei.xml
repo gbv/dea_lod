@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,54 +98,42 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>19 August 1792. – [Russian Minister Plenipotentiary in the Lower Rhine Imperial
-            District,] <persName key="p0898" ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">Count
-            Nikolai Petrovich Rumiantsev</persName>. Letter to <persName
-              key="p0062"
-              ref="6a072a5d-442a-4bc2-84f6-5e39a304a040">Frederick Eugen, Duke of Württemberg[?]</persName>
+          <title>19 August 1792. – <persName key="p0898">[Russian Minister Plenipotentiary in the Lower Rhine Imperial District,] Count Nikolai Petrovich Rumiantsev</persName>. Letter to <persName key="p0062" ref="6a072a5d-442a-4bc2-84f6-5e39a304a040">Frederick Eugen, Duke of Württemberg[?]</persName>
           </title>
           <note>
             <bibl>OR RGB, fond 255, karton 6, no. 24, f. 1. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
+        
+        <pb n="f. 1"/>
+        <p/>
         <p>ad N:D. 4806 et 7</p>
-        <p />
+        <p/>
         <p>Monseigneur</p>
-        <p />
-        <p>Chargé de transmettre à Votre Altesse Serenissime une lettre de la part de <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> et une
+        <p/>
+        <p>Chargé de transmettre à Votre Altesse Serenissime une lettre de la part de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> et une
           autre de la part de <persName key="p0438" ref="b200d521-e964-435a-9090-11a5c4f0e590">Monseigneur
           le Grand Duc</persName> j’ai l’honneur de les lui adresser cy jointes, elles instruiront
-          Votre Altesse Serenissime des Couches heureuses de <persName
-            key="p0439"
-            ref="0474f625-e852-4401-ac09-bb5d0dc41b9d">Madame la grande Duchesse</persName> et Cette
+          Votre Altesse Serenissime des Couches heureuses de <persName key="p0439" ref="0474f625-e852-4401-ac09-bb5d0dc41b9d">Madame la grande Duchesse</persName> et Cette
           Circonstance heureuse pour l’Empire de Russie doit interesser vivement Votre Altesse
           Serenissime et c’est pour moi une satisfaction extrême que d’avoire une pareille lettre à
           lui adresser</p>
-        <p />
+        <p/>
         <p>Je suis avec un profont réspect </p>
         <p>Monseigneur</p>
         <p>de Votre Altesse Serenissime</p>
-        <p />
+        <p/>
         <p> le trés humble et trés</p>
         <p> obeïssant serviteur</p>
         <p>
-          <placeName
-            key="g0170"
-            ref="https://www.geonames.org/2925533">Francfort</placeName> le 8/19 août 1792 <persName
-            key="p0898"
-            ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">le comte de Romanzov</persName>
+          <placeName key="g0170" ref="https://www.geonames.org/2925533">Francfort</placeName> le 8/19 août 1792 <persName key="p0898" ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">le comte de Romanzov</persName>
         </p>
         <noteGrp>
           <note>
