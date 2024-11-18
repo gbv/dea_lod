@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,27 +95,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 16/27 January 1766. – Letter from <persName
-              key="p0096"
-              ref="eef89b4a-5489-4631-86c6-21cbb2895091">the employee of the Russian Embassy in The
-            Hague, Petr Semenovich Mal’tsov</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title> 16/27 January 1766. – Letter from <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Employee of the Russian Embassy in The
+            Hague, Petr Semenovich Mal’tsov</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2093, f. 1–2. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
+        <pb n="f. 1"/>
+        <p/>
         <p>Monsieur!</p>
         <p>Les bienfaits sans nombre de Votre Excellence me donnent quelque droit à lui présenter
           mes respectueux hommages. Daignés, Monseigneur, recevoir avec Votre bonté ordinaire, les
@@ -128,7 +121,7 @@
           </hi>. C’est à Ses généreux soins &amp; à Son
           indulgente bonté, que je devrai la conservation du reste de ma vie, prète à s’eteindre,
           dont l’emploi le plus doux sera d’implorer </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> sans cesse le ciel de répandre sur Votre Personne ses plus grandes faveurs.</p>
         <p>J’ai l’honneur d’être avec la plus respectueuse vénération</p>
         <p>Monseigneur!</p>
@@ -136,15 +129,13 @@
         <p>Le très humble, très obéissant, très</p>
         <p>dévoué &amp; très obligé serviteur</p>
         <p>
-          <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">Malsof</persName>.
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091" type="signature">Malsof</persName>.
         </p>
-        <p>à <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> ce 16. / 27 janvier</p>
+        <p>à <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> ce 16. / 27 janvier</p>
         <p>1766./.</p>
-        <p />
-        <pb n="f. 2" />
-        <p />
+        <p/>
+        <pb n="f. 2"/>
+        <p/>
         <p>PS : Votre Excellence voudra bien, que je la suplie de me faire la grace de dire un mot
           en ma faveur à <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">M<hi rendition="#u">
               <hi rendition="#sup">r</hi>
