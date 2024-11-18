@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,73 +95,52 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>28 November / 9 December 1766. – Letter from <persName
-              key="p0096"
-              ref="eef89b4a-5489-4631-86c6-21cbb2895091">the secretary of the Russian Embassy in
-            Berlin, Petr Semenovich Mal’tsov</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>28 November / 9 December 1766. – Letter from <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Secretary of the Russian Embassy in
+            Berlin, Petr Semenovich Mal’tsov</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2093, f. 3–3v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 3" />
-        <p />
+        
+        <pb n="f. 3"/>
+        <p/>
         <p>Monsieur!</p>
         <p>Il est toûjours infiniment flateur pour moi d’avoir les occasions de renouveller mes
           hommages à Votre Altesse. Agrées mon Prince, que je saisisse avec empressement celle, que
           me présente le depart de <persName key="p0242" ref="3121a10e-0a39-454c-9711-7148f745e0c8">
-          M<hi rendition="#u">
-              <hi rendition="#sup">r</hi>
-            </hi> le C[om]<hi rendition="#u">
-              <hi rendition="#sup">te</hi>
+          M<hi rendition="#u"><hi rendition="#sup">r</hi>
+            </hi> le C[om]<hi rendition="#u"><hi rendition="#sup">te</hi>
             </hi> Iwan de Golofkin</persName>, pour
           suplier Votre Altesse de mettre aux piés de Sa Majesté Impériale le paquet ci joint, qui
-          m’a été envoïé, il y a quelque tems, de <placeName
-            key="g0096"
-            ref="https://www.geonames.org/2751773">Leide</placeName> par <persName
-            key="p0246"
-            ref="032fbea6-eec0-46e2-a173-57cd11e4afbc">le libraire Lusac</persName>,
+          m’a été envoïé, il y a quelque tems, de <placeName key="g0096" ref="https://www.geonames.org/2751773">Leide</placeName> par <persName key="p0246" ref="032fbea6-eec0-46e2-a173-57cd11e4afbc">le libraire Lusac</persName>,
           avec qui j’ai été assez lié en hollande. C’est une brochure, par laquelle le dit libraire
           critique l’Emile de <persName key="p0254" ref="7f781991-25d2-4c5a-9e4c-cb351b11a973">J.J.
           Rousseau</persName>, qui ne donne, comme Vous le savés, Monseigneur, que trop de raisons
           pour cela à ceux, qui s’attaquent à ses écrits, où il y a de l’imagination, du feu, &amp;
           de l’eloquence, mais des contradictions manifestes. J’aurois assurément pris la liberté,
-          Monseigneur, de Vous offrir l’exemplaire, dont le <persName
-            key="p0246"
-            ref="032fbea6-eec0-46e2-a173-57cd11e4afbc">S<hi rendition="#u">
-              <hi rendition="#sup">r </hi>
+          Monseigneur, de Vous offrir l’exemplaire, dont le <persName key="p0246" ref="032fbea6-eec0-46e2-a173-57cd11e4afbc">S<hi rendition="#u"><hi rendition="#sup">r </hi>
             </hi>Lusac</persName> m’a fait cadeau, si je
-          ne l’avois pas prèté à <persName key="p0261" ref="95cd16e9-0281-4b4f-8af0-ee8d6998ced8">M<hi
-              rendition="#u">
-              <hi rendition="#sup">r</hi>
+          ne l’avois pas prèté à <persName key="p0261" ref="95cd16e9-0281-4b4f-8af0-ee8d6998ced8">M<hi rendition="#u"><hi rendition="#sup">r</hi>
             </hi> Toussaint</persName>, auteur des moeurs
           &amp; qui ne me l’a point encore rendû. J’ai une autre grace à Vous demander, mon Prince,
           c’est de me pardoner de ce que j’ose incomoder Votre Altesse à ce sujet. J’ai crû </p>
-        <pb n="f. 3v" />
-        <p> en verité devoir ne pas refuser au <persName
-            key="p0246"
-            ref="032fbea6-eec0-46e2-a173-57cd11e4afbc">S<hi rendition="#u">
-              <hi rendition="#sup">r </hi>
+        <pb n="f. 3v"/>
+        <p> en verité devoir ne pas refuser au <persName key="p0246" ref="032fbea6-eec0-46e2-a173-57cd11e4afbc">S<hi rendition="#u"><hi rendition="#sup">r </hi>
             </hi>Lusac</persName> le plaisir qu’il me
           demande par le billet ci inclus.</p>
         <p> Souffrés, je Vous en suplie, Monseigneur, que je renouvelle ici ma prière au sujet de
-          six cent R<hi rendition="#u">
-            <hi rendition="#sup">o</hi>
+          six cent R<hi rendition="#u"><hi rendition="#sup">o</hi>
           </hi>, que Votre Altesse m’a fait la grace de
-          promettre, que j’obtiendrai du <orgName
-            key="o0001"
-            ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">Collège</orgName>. Le delai, que je souffre à
+          promettre, que j’obtiendrai du <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">Collège</orgName>. Le delai, que je souffre à
           cet égard, me fait passer dans l’esprit de bien des gens pour un homme, qui manque à sa
           parole. Les bontés &amp; les bienfaits, dont Votre Altesse m’a comblé si généreusement
           jusques ici, me font espérer de recevoir bientôt une favorable résolution à ma demande. Ce
@@ -177,10 +153,9 @@
         <p>Le très humble, très obéissant, très</p>
         <p>obligé &amp; très devoué serviteur.</p>
         <p>
-          <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">Maltzow</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091" type="signature">Maltzow</persName>
         </p>
-        <p>à <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> ce 28. 9<hi
-            rendition="#sup">bre</hi>/9. X<hi rendition="#sup">bre</hi>
+        <p>à <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> ce 28. 9<hi rendition="#sup">bre</hi>/9. X<hi rendition="#sup">bre</hi>
         </p>
         <p>1766./.</p>
         <noteGrp>
