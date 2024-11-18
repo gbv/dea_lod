@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,57 +94,48 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 18 June 1813. – Letter from <persName
-              key="p1615">Crown Prince of Sweden Carl John</persName>
+          <title> 18 June 1813. – Letter from <persName key="p1615">Crown Prince of Sweden Carl John</persName>
             to Lieutenant General, <persName key="p1609">Count Mikhail Semenovich Vorontsov</persName>
           </title>
           <note>
             <bibl>OR RGB, fond 432, op. 1, no 37, f. 1. French original.</bibl>
           </note>
         </head>
-        <pb n="f.1" />
+        <pb n="f.1"/>
         <p>Monsieur le <persName key="p1609">Lieutenant Général Comte de Woronzow</persName>. J’ai
-          lu avec la plus vive satisfaction les détails de l’expédition que Vous avez faite sur <placeName
-            key="g0064"
-            ref="https://www.geonames.org/2879139">Leipzic</placeName>. Vos dispositions et la rapidité de Votre marche portent
+          lu avec la plus vive satisfaction les détails de l’expédition que Vous avez faite sur <placeName key="g0064" ref="https://www.geonames.org/2879139">Leipzic</placeName>. Vos dispositions et la rapidité de Votre marche portent
           l’empreinte de la prévoyance et de l’audace les mieux calculées. C’est par des mouvemens
           semblables appuyes par une forte armée, que <persName key="p1420">l’Empereur Napoleon</persName>
           sera obligé de repasser sur la rive gauche de l’Elbe et que nous pourrons porter le
           theatre de la grande guerre entre ce fleuve et le Rhin. Le <persName key="p2162">Capitaine
           Borozzi</persName> restera prés de moi jusqua ce que j’aie quelque chose d’interessant à
-          Vous Faire Savoir, ou que vous le rappeliez prés de Vous; je veux qu’il ne s’ennuie pas à <placeName
-            key="g0186"
-            ref="https://www.geonames.org/6551183">Stralsund</placeName> je l’emmenerai avec moi dans mes Courses.</p>
+          Vous Faire Savoir, ou que vous le rappeliez prés de Vous; je veux qu’il ne s’ennuie pas à <placeName key="g0186" ref="https://www.geonames.org/6551183">Stralsund</placeName> je l’emmenerai avec moi dans mes Courses.</p>
         <p> Le pays entre les forteresses et les armées alliées devant être neutre, les troupes
           bloquées dans les fortresses n’ont pas le droit de détruire les ouvrages que les alliés
           ont elévés ; Si le cas arrivait prevenez le Commandant de Magdebourg que Vous lui
           arreterez les Subsistances, et qu’il doit s’abstenir de rien detériorer jusqu’a ce que les
-          Commissaires réunis à <placeName
-            key="g0078"
-            ref="https://www.geonames.org/2864558">Neumarck</placeName> ayent décidé sur cette
+          Commissaires réunis à <placeName key="g0078" ref="https://www.geonames.org/2864558">Neumarck</placeName> ayent décidé sur cette
           question. </p>
         <p> Je vous réitere, Monsieur le Comte, l’assurance de mon estime et de mes sentiments
           distingués, et prie Dieu qu’il Vous ait en Sa Sainte et digne garde. </p>
         <p>à mon quartier Genéral </p>
-        <p>de <placeName
-            key="g0186"
-            ref="https://www.geonames.org/6551183">Stralsund</placeName> le 18 juin 1813</p>
+        <p>de <placeName key="g0186" ref="https://www.geonames.org/6551183">Stralsund</placeName> le 18 juin 1813</p>
         <p>Votre affectionne</p>
         <p>
-          <persName key="p1615">Charles Jean</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1615" xml:space="default" type="signature">Charles Jean</persName>
         </p>
-        <p />
+        <p/>
         <p>P.S. dites je Vous prie au <persName key="p1507">Général Czernicheff</persName> que
           j’éprouve toujours un nouveau plaisir en apprenant qu’il se rend digne de la bienveillance
           de <persName key="p0897">son Souverain</persName> et des suffrages de Ses Chefs. </p>
-        <p />
+        <p/>
         <p>C.J.</p>
       </div>
     </body>
