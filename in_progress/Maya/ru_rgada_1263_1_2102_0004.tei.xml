@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,27 +95,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 7/18 June 1774. – Letter from <persName
-              key="p0259"
-              ref="87eb1287-0e93-4148-84fb-3e5f83de194b">the Imperial Ambassador to Berlin,
-              Gottfried van Swieten</persName> to <persName
-              key="p0096"
-              ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor of the Russian Embassy in
+          <title> 7/18 June 1774. – Letter from <persName key="p0259" ref="87eb1287-0e93-4148-84fb-3e5f83de194b">the Imperial Ambassador to Berlin,
+              Gottfried van Swieten,</persName> to <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor of the Russian Embassy in
             Berlin, Petr Semenovich Mal’tsov</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2102, f. 28. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 28" />
-        <p />
+        <pb n="f. 28"/>
+        <p/>
         <p>Copie de la reponse de <persName key="p0259" ref="87eb1287-0e93-4148-84fb-3e5f83de194b">
           Mons[eigneu]<hi rendition="#sup">r</hi> de Swieten, ministre d’Autriche &amp;c.</persName>
         </p>
@@ -131,9 +124,7 @@
           devoit ; il ne peut donc pas être surpris, si vous refusez d’aller chez lui, jusqu’à ce
           qu’il ait satisfait à ce que vous avez droit d’attendre de sa part &amp; je ne puis
           qu’aprouver les raisons qui vous déterminent à ne pas aller diner chez lui ; Je me fais au
-          reste un plaisir Monsieur, de témoigner en toute occasion l’attachement que j’ai pour <persName
-            key="p0240"
-            ref="c16ea97f-9174-48d6-b400-c17471adbc88">Monsieur le Prince Dolgorouky</persName>,
+          reste un plaisir Monsieur, de témoigner en toute occasion l’attachement que j’ai pour <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Monsieur le Prince Dolgorouky</persName>,
           &amp; je serai toujours charmé de vous rendre les services qui dependront de moi.</p>
         <p>/signé/ <persName key="p0259" ref="87eb1287-0e93-4148-84fb-3e5f83de194b">Swieten</persName>
         </p>
