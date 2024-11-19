@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,19 +103,15 @@
       <div type="letter">
         <head>
           <title>
-            16/27 December 1774. – Letter from <persName
-              key="p0096"
-              ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor to the Russian Embassy in
-            Berlin, Petr Semenovich Mal’tsov</persName> to <persName
-              key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            16/27 December 1774. – Letter from <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor to the Russian Embassy in
+            Berlin, Petr Semenovich Mal’tsov</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2104, f. 15, 10. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 15" />
+        <pb n="f. 15"/>
         <p>Monseigneur!</p>
         <p>Ce n’est assûrément ni la simple habitude, ni uniquement pour me conformer aux usages
           établis, que je prends la liberté de présenter à Votre Altesse mes hommages à l’occasion
@@ -139,12 +132,11 @@
           <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">Maltzow</persName>.</p>
         <p>
           <placeName key="g0012" ref="https://www.geonames.org/2950159">Berli</placeName>
-          <placeName key="g0012" ref="https://www.geonames.org/2950159">n</placeName> ce 16./27 X<hi
-            rendition="#u">
+          <placeName key="g0012" ref="https://www.geonames.org/2950159">n</placeName> ce 16./27 X<hi rendition="#u">
             <hi rendition="#sup">bre</hi>
           </hi> 1774.</p>
-        <p />
-        <pb n="f. 10" />
+        <p/>
+        <pb n="f. 10"/>
         <p>P.S.</p>
         <p>Le <persName key="p0000">Sr Gutchlig</persName>, à qui j’ai fait part de la réponse de
           Votre Altesse, m’a prié de vous dire, Mon Prince, que son secret consistoit à conserver
@@ -155,11 +147,7 @@
           les preserver de la corruption à jamais. C’est un savant et paroit autant, qu’on peut
           juger d’un homme, que l’on de voit que pour la 3 fois, honête, modeste et de bonnes mœurs,
           il a été gouverneur de <persName key="p0072">Mr le Baron de Goltz</persName> ci devant
-          ministre du Roi à St. <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName> et présentement envoyé de S.M. à <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName> ; il ajoute, que ses tablettes sont même un rémêde et un
+          ministre du Roi à St. <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName> et présentement envoyé de S.M. à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> ; il ajoute, que ses tablettes sont même un rémêde et un
           préservatif contre le scorbut, si l’on s’en servoit sur les vaisseuax. Il offre de faire
           telles épreuves que l’on jugera apropos de lui faire subir pour constater ce qu’il avance.</p>
         <p> ut in litteris</p>
