@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -100,10 +100,10 @@
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -133,10 +133,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20240329190318516",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190318516",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:03:18.516Z",
-	"dcterms:modified": "2024-03-29T18:03:18.516Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -147,9 +146,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20240329190318516#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190318516#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -157,17 +157,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20240329190318516#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190318516#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
+		"@id": "https://www.geonames.org/2618425",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -175,12 +175,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.6.0"
 	}
-}
-                </rdf:Description>
+}]]>
+        </rdf:Description>
+      
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -210,10 +211,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20240329190347110",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190347110",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:03:47.110Z",
-	"dcterms:modified": "2024-03-29T18:03:47.110Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -224,9 +224,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20240329190347110#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190347110#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -234,17 +235,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20240329190347110#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190347110#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
+		"@id": "https://www.geonames.org/2618425",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -252,12 +253,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.6.0"
 	}
-}
-                </rdf:Description>
+}]]>
+        </rdf:Description>
+      
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -287,10 +289,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20240329190502446",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190502446",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:05:02.446Z",
-	"dcterms:modified": "2024-03-29T18:05:02.446Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -301,9 +302,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20240329190502446#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190502446#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -311,17 +313,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20240329190502446#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190502446#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
+		"@id": "https://www.geonames.org/2618425",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -329,12 +331,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.6.0"
 	}
-}
-                </rdf:Description>
+}]]>
+        </rdf:Description>
+      
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -364,10 +367,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20240329190628493",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190628493",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:06:28.493Z",
-	"dcterms:modified": "2024-03-29T18:06:28.493Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -378,9 +380,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20240329190628493#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190628493#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -388,17 +391,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20240329190628493#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190628493#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2747373",
+		"@id": "https://www.geonames.org/2747373",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -406,12 +409,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.6.0"
 	}
-}
-                </rdf:Description>
+}]]>
+        </rdf:Description>
+      
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -441,10 +445,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20240329190642794",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190642794",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:06:42.794Z",
-	"dcterms:modified": "2024-03-29T18:06:42.794Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -455,9 +458,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20240329190642794#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190642794#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -465,17 +469,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20240329190642794#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190642794#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2618425",
+		"@id": "https://www.geonames.org/2618425",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -483,56 +487,43 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.6.0"
 	}
-}
-                </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>After 1 July 1766. – Draft of the dispatch [from <persName key="p0065">the vice-chancellor
-              Prince Golitsyn</persName>] to <persName key="p1422">Baron von Fersen,
+          <title>After 1 July 1766. – Draft of the dispatch from <persName key="p0065">the Vice-Chancellor,
+              Prince [Aleksandr Mikhailovich] Golitsyn,</persName> to <persName key="p1422">Baron von Fersen,
               councillor of the Embassy
               in Copenhagen</persName>, concerning the receipt of all his letters; the imminent
           arrival of <persName key="p0127">Saldern
-            </persName> in <placeName
-              key="g0006"
-              ref="https://www.geonames.org/2618425">Copenhagen</placeName>; the impossibility of
+            </persName> in <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName>; the impossibility of
           appointing him, <persName key="p1422">Fersen</persName>, as envoy to Copenhagen </title>
         </head>
         <opener>
           <note cert="high" evaluate="all" place="top" xml:space="default">
             <p>AVPRI, fond 53, opis 53/5, no. 197, f. 1-2. French copy.</p>
-            <pb cert="high" n="f. 1" xml:space="default" />
+            <pb cert="high" n="f. 1" xml:space="default"/>
           </note>
-          <salute>à <persName key="p1422">Mr. le Baron de Fersen</persName> à <placeName
-              key="g0006"
-              ref="https://www.geonames.org/2618425">
+          <salute>à <persName key="p1422">Mr. le Baron de Fersen</persName> à <placeName key="g0006" ref="https://www.geonames.org/2618425">
               Copenhague</placeName>
           </salute>
         </opener>
-        <p>Les différentes lettres que Vous m'avez écrites, Mr., depuis la mort de <persName
-            key="p0245">Mr. le
+        <p>Les différentes lettres que Vous m'avez écrites, Mr., depuis la mort de <persName key="p0245">Mr. le
             Baron de Korff
           </persName> n'exigeant point chacune de réponse
           particulière je me contente de vous accuser la reception de toutes à la fin. Je suis très
           content du compte que Vous me rendez du courant des affaires aussi que des mesures
-          necessaires que Vous avez prises après la mort du Ministre de l'Impératrice. <persName
-            key="p0127">Mr. de Saldern
-          </persName> qui doit etre rendu maintenant à <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">
+          necessaires que Vous avez prises après la mort du Ministre de l'Impératrice. <persName key="p0127">Mr. de Saldern
+          </persName> qui doit etre rendu maintenant à <placeName key="g0006" ref="https://www.geonames.org/2618425">
             Copenhague
           </placeName> sera chargé par les héritiers de regler tout ce qui
           regarde cette succession. Ainsi Mr. Vous resterez tranquille jusqu'à son arrivée. Vous
-          voudrez bien alors le seconder dans toutes les choses où il aura besoinde vos conseils. <pb
-            cert="high"
-            n="f. 1v"
-            xml:space="default" />
+          voudrez bien alors le seconder dans toutes les choses où il aura besoinde vos conseils. <pb cert="high" n="f. 1v" xml:space="default"/>
         </p>
         <p> Je vous prie seulement de veiller à la sureté des effets et surtout je Vous recommande
           la bibliothèque comme une chose destinele [?] du reste par l'acquisition que <orgName key="o0008">la
@@ -545,17 +536,9 @@
           </persName> y marque quelque altercation. J'aurais souhaité que le
           defunt eut vecu assez longtems pour ne pouvoir avec quelque espece de justice avoir
           d'autre successeur que Vous et telle a été mon intention en Vous faisant nommer Conseiller
-          d'Ambassade et en Vous transferant de <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye
-          </placeName> à <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Kopenhague</placeName>. C'etoit la meilleure ecole ou
-          Vous puissiez Vous perfectionner dans la carriere des affaires. La mort prématurée de <persName
-            key="p0245">Mr. le Baron de Korff</persName> met actuellement <pb
-            cert="high"
-            n="f. 2"
-            xml:space="default" />
+          d'Ambassade et en Vous transferant de <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye
+          </placeName> à <placeName key="g0006" ref="https://www.geonames.org/2618425">Kopenhague</placeName>. C'etoit la meilleure ecole ou
+          Vous puissiez Vous perfectionner dans la carriere des affaires. La mort prématurée de <persName key="p0245">Mr. le Baron de Korff</persName> met actuellement <pb cert="high" n="f. 2" xml:space="default"/>
         </p>
         <p>un obstacle à mes vuës. Elle n'en mettra point à vos progrès parce que votre
           application personnelle
@@ -565,8 +548,7 @@
         </p>
         <p>Je joins ici comme une nouvelle marque de ma confiance une lettre qui vous accredite
           auprès du Ministère jusqu'à l'arrivée de <persName key="p1102">Mr.
-            Philosophoff</persName>. Vous aurez la bonté en la transmettant à <persName
-            key="p0234">Mr. le Baron de Bernsdorff</persName> de l'accompagner des assurances de ma
+            Philosophoff</persName>. Vous aurez la bonté en la transmettant à <persName key="p0234">Mr. le Baron de Bernsdorff</persName> de l'accompagner des assurances de ma
           parfaite consideration et de mon attachement pour ce Ministre que je connois aussi
           bien-intentionné pour l'union des deux Cours qu'il est eclairé sur leurs vrais intérets. </p>
         <closer>
