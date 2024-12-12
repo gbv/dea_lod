@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,78 +99,145 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>13/24 July 1761. – Letter from <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">the Russian Envoy Extraordinary to the
-              Lower Saxony Imperial Circle, Aleksei Semenovich Musin-Pushkin</persName> , to<persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary
-            to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>3/14 August 1761. – Letter from <persName
+              key="p0108"
+              ref="32691d34-6532-462c-8a63-5b9e098e0dac">the Russian Envoy Extrarodinary to the
+              Lower Saxony Imperial Circle, Aleksei Semenovich Musin-Pushkin</persName> to <persName
+              key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary
+              to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
-            <bibl>RGADA, fond 1263, opis 1, no. 2260, f. 7–7v, 8v. French original.</bibl>
+            <bibl>RGADA, fond 1263, opis 1, no. 2260, f. 11–12v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 7"/>
-        <p>Monsieur!</p>
-        <p> La lettre que Votre Excellence m’a fait l’honneur de m’envoÿer avec la traduction de la
-          Declaration de <persName key="p0161" ref="63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roÿ</persName>
-          au <orgName key="o0051" ref="d620d504-77e3-4ba8-8561-e3d7182cd387">Conseil</orgName> m’ a
-          été renduë hier par les <persName key="p0367" ref="8e52a01e-30b4-4430-be67-81f204f2a753">Ministre
-          Imperiale</persName>, dont l’envellope et une depeche à l’adresse de <persName key="p0008" ref="3b7cb6fc-a3aa-4e12-8b80-dec4ea4a7dda">M<hi rendition="#u">
-              <hi rendition="#sup">r</hi>
-            </hi> d’Asch</persName> ont eté ouverts et même
-          fort sensiblement. Je croÿs devoir en avertir V[otre]. Ex[cellen]<hi rendition="#u">
-            <hi rendition="#sup">ce</hi>
-          </hi> afin qu’Elle ordonne de faire passer ses
-          lettres sous un autre adresse ou par une autre voÿe detournée.</p>
-        <p>Je ne puis pas avoir l’honneur de l’entretenir sur les details des affaires du 15. et du
-          16.<hi rendition="#sup">me</hi>, la suposant à l’heure qu’il en<hi rendition="#sup"> etre </hi>informée
-          de source; les relations françaises nous manquent encore jusqu’ a present. Il ne me reste
-          que d’avoir celuÿ de luÿ dire que les Suedois ont ouvert cette campagne par se rendre d’<placeName key="g0171" ref="https://www.geonames.org/2956018">Anclam </placeName>et de <placeName key="g0318" ref="https://www.geonames.org/2938284">Bemin</placeName>. Leurs
-          operations produisent la delivrance de Mecklenbourg des trouppes Ennemies</p>
-        <p>[footnote:]</p>
-        <p>à S[on]: E[xcellence]: le Prince de Galitzin.</p>
-        
-        <pb n="f. 7v"/>
-        <p> qui ne s’occupaient qu’ a en achever les ruine.</p>
-        <p> Mes dernieres lettres de l’Armée sont de Balsco: celles de Pom<hi rendition="#s">n</hi>ranie
-          marquent qie le <persName key="p0124" ref="820f0254-6e50-437f-a3ae-b94f1140c8e3">C[om]<hi rendition="#sup">te </hi>Roumianzoff</persName> est allé avec son<hi rendition="#s">s</hi>
-          Corps joindre la Grande Armée. Il parait donc comme s’il n’etait plus question de siege de <placeName key="g0083" ref="https://www.geonames.org/3095795">Colberg</placeName>, quoique notre flote au nombre de 27. vaisseaux de
-          ligne, commdée [sic] par <persName key="p0450" ref="dd9f78ca-a81e-439f-8f51-dc15611d9d9d">l’Amiral
-          Polianskÿ</persName>, aÿant été il y a 10 jours à la Rade de <placeName key="g0014" ref="https://www.geonames.org/3099434">
-          Dantzig</placeName>, en soit partie, pour aller bloquer cette forteresse; elles est
-          accompagnée de quelques galiotes de bombes et sufisament munie de la grosse artillerie
-          pour cette entreprise</p>
-        <p> et j’ay l’honneur d’etre avec la consideration la plus parfaits</p>
+        <pb n="f. 11" />
         <p>Monsieur</p>
-        <p>Votre tres humble et trés obeissant </p>
-        <p>serviteur</p>
+        <p> Je rens de Graces infinies à Votre Excellence de la lettre du 4<hi rendition="#u">
+            <hi rendition="#sup">me</hi>
+          </hi> de ce mois dont je viens d’être honnoré ce
+          matin.</p>
+        <p> On s’attend icy à l’arrivée de la flotte anglaise avec beaucoup d’Impatience : plusieurs
+          personnes se preparent pour aller la voir à l’Embouchure de l’Elbe. Nos Environs vont
+          devenir le Rendés-Vous de bien des Etrangers : Il y en a deja beaucoup [inserted :
+          d’]arrivés à <placeName
+            key="g0011"
+            ref="https://www.geonames.org/2911298">Harbourg</placeName> [sic] pour ÿ voir <persName
+            key="p0451"
+            ref="65e4dd04-6f24-409e-9518-6d5c734d9120">la Reine</persName> qui quittera à ce que
+          l’on dit sa maison parternelle le 17<hi rendition="#u">
+            <hi rendition="#sup">me</hi>
+          </hi> du Courant. <persName
+            key="p0454"
+            ref="340b15a9-40d0-4da2-b9a9-8425c221bc56">Le Mylord Harcourt</persName> et <persName
+            key="p0000">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi>. Hardenbery</persName> sont deja passé
+          par là le 9<hi rendition="#u">
+            <hi rendition="#sup">me</hi>
+          </hi> pour aller à la Rencontre de la <persName
+            key="p0451"
+            ref="65e4dd04-6f24-409e-9518-6d5c734d9120">Reine</persName>. La <persName
+            key="p0452"
+            ref="2a30ca12-daf1-40e5-9e9b-c91e98f6182f">Duchesse de Mecklenbourg</persName> qui
+          prennait icÿ les Eaux part demain pour <placeName
+            key="g0173"
+            ref="https://www.geonames.org/2834282">Suerin</placeName> [sic] pour recevoir <persName
+            key="p0451" ref="65e4dd04-6f24-409e-9518-6d5c734d9120">Sa Maj[es]<hi
+              rendition="#sup">té</hi>
+          </persName> sur Son passage à <placeName key="g0126"
+            ref="https://www.geonames.org/2864054">
+            Neustadt</placeName>.</p>
+        <p> Les Armées françoises retrogradent sans contredit, quoÿ que <persName
+            key="p0453"
+            ref="76873501-1820-44ad-baaa-0202516214df">M<hi rendition="#sup">r</hi>. le M[arech]<hi
+              rendition="#sup">al</hi> de Broglio</persName> voulut encore</p>
+        <p>[footnote:]</p>
+        <p>a M<hi rendition="#u">
+            <hi rendition="#sup">r</hi>
+          </hi>. le <persName key="p0065">Prince de Galitzin</persName>
+          .</p>
+        <p />
+        <pb n="f. 11v" />
+        <p> faire semblant a en vouloir à <placeName
+            key="g0174"
+            ref="https://www.geonames.org/2911271">Hameln</placeName>, et même à l’Electorat
+          d’Hannovre.</p>
+        <p> L’inaction de <persName key="p0044" ref="6226fb75-94c9-49de-9b57-5f30507d93d5">M<hi
+              rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> le M[arech]<hi rendition="#sup">al</hi>
+          Daun</persName> ne peut plus etre un probleme: Reflechie et volontaire comme elle l’est,
+          vis à vis de trois quart de Monde de moins, elle doit etre prise de connaissance de
+          causes. On reсonce meme de preter de l’attention a ce qui se passe en Saxe : car il ne s’y
+          passera rien à moins que <persName key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">le
+          P[rince]: Henrÿ</persName> ne se livre pied et poings liés.</p>
+        <p> La pomeranie ne presente qu’une Espece de petite Guerre. Les Suedois vont etre renforcés
+          à ce que l’on assure de 5. a 6./m h : Notre flote se trouve devant <placeName
+            key="g0083"
+            ref="https://www.geonames.org/3095795">
+            Colberg</placeName> ayant fait mettre à <placeName
+            key="g0175"
+            ref="https://www.geonames.org/3100637">Rugervalde</placeName> pied à Terre au Corps
+          destiné pour en renforcer celuÿ qui est aux Ordres du <persName
+            key="p0124"
+            ref="820f0254-6e50-437f-a3ae-b94f1140c8e3">C[om]<hi rendition="#u">
+              <hi rendition="#sup">te</hi>
+            </hi>.te de Roumyanzoff</persName>. Loin de se
+          desister de ce projet on n’en veut poursuivre l’Entreprise qu’avec une Vigueur
+          proportionnée aux Difficultter [sic] qui se rencontrent C’est donc de la Silesie que nous
+          attendons avec </p>
+        <pb n="f. 12" />
+        <p> la derniere Impatience des Coups, qui <hi rendition="#s">mettent</hi> missent fin à
+          cette Guerre et <hi rendition="#s">qui </hi>prepar<hi rendition="#s">ent</hi>assent les
+          materiaux pour pour le Congres d’<placeName
+            key="g0072"
+            ref="https://www.geonames.org/2954172">Augsbourg</placeName>. La position des armées
+          respectives parait devoir les engager tout naturellement a une Bataille. Votre Excellence
+          verra par l’Extrait que j’ay l’honneur de joindre les perplexités des habitans de <placeName
+            key="g0172" ref="https://www.geonames.org/3081368">Breslau</placeName>.</p>
+        <p> Aÿant echappé aux menaces et a l’assassinat de mon valét de Chambre conçû avec du
+          jugement et de la mechancité la plus noire, je crois devoir en donner avis à Votre
+          Ex[cellen]<hi rendition="#u">
+            <hi rendition="#sup">ce</hi>
+          </hi> Je me flatte qu’Elle voudra bien prendre
+          humainement part à cet accident. J ay remis<hi rendition="#s">e</hi> le <persName
+            key="p0000">Selerat</persName> entre les mains de la Justice à fin que son procès luÿ
+          soit fait en forme et düement avec la Restriction cependant qu’il ne soit point punÿ de
+          mort.</p>
+        <p> J’ai l’honneur d’étre avec une Consideration distinguée et très parfaite</p>
+        <p>Monsieur</p>
+        <p>de Votre Excellence</p>
+        <p>Le très humble &amp; très obeissant</p>
+        <p>Serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0108" xml:space="default" ref="32691d34-6532-462c-8a63-5b9e098e0dac" type="signature">A[lexis] Moussine
+          <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">A[lexis]. Moussine
             Pouchquine</persName>
         </p>
         <p>
           <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName>
         </p>
-        <p>ce 24/13 Juillet</p>
-        <p>1761./.</p>
-        
-        <pb n="f. 8v"/>
-        <p/>
+        <p>ce 14.<hi rendition="#sup">me </hi>/ 3. Aout</p>
+        <p>1761./</p>
+        <pb n="f. 12v" />
         <p>
-          <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName> 13/24 Juillet 1761</p>
+          <placeName
+            key="g0011"
+            ref="https://www.geonames.org/2911298">Hambourg</placeName> 3/14 Aout 1761:</p>
         <p>
-          <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">M<hi rendition="#sup">r</hi>.
-            Moussine Pouchquine</persName>
+          <persName key="p0108">Mr. Moussin Pouschkin</persName>
         </p>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_rgada_1263_1_2260_0001</note>
-          <note>ru_rgada_1263_1_2260_0003</note>
+          <note>ru_rgada_1263_1_2260_0002</note>
           <note>ru_rgada_1263_1_2260_0004</note>
         </noteGrp>
       </div>
