@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,14 +98,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1775–1776. – Expenditure Register of the <persName key="p0894">Russian Envoy
+          <title>1775–1776. – Expenditure register of the <persName key="p0894">Russian Envoy
             Extraordinary and Minister Plenipotentiary to Constantinople, Iakov Ivanovich Bulgakov</persName>
           </title>
           <note>
@@ -113,8 +113,8 @@
               66</bibl>
           </note>
         </head>
-        <pb n="f. 5" />
-        <p />
+        <pb n="f. 5"/>
+        <p/>
         <p>je dois a l’Auberge ……………………………………………….35 Piastre.</p>
         <p>a mes domestiques ………………………………………………86</p>
         <p>j’ai emprunté ……………………………………………………….20</p>
@@ -133,10 +133,10 @@
         <p>j’ai besoin d’une uniforme d’un surtout et quelques bagatelles….., </p>
         <p>ce qui pourra revenir a……………………………………………<hi rendition="#s">120</hi>
         </p>
-        <p />
-        <p />
-        <pb n="f. 6v" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 6v"/>
+        <p/>
         <p>
           <persName key="p1054">Разумовскому</persName>…..3000.</p>
         <p>
@@ -148,10 +148,10 @@
           <persName key="p0282" ref="3b98a72d-9e60-44c4-b285-640028101b21">Плещееву</persName>…………..</p>
         <p>
           <persName key="p0000">Бергу</persName>………………….</p>
-        <p />
-        <p />
-        <pb n="f. 25" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 25"/>
+        <p/>
         <p>
           <persName key="p0894">Compte de Mr. Bulhakow Le Marechal de l’Ambassade</persName>
         </p>
@@ -161,44 +161,30 @@
         <p>Pour D°: pour des fruits qu’on luy a porté……………………………………………….…3..</p>
         <p>Pour avoir trouvé dans un sac de monoye qu’il m’a donné&amp; qu’il y manquoit 2..</p>
         <p>En tout……………………………………Lf27..20..</p>
-        <p />
-        <pb n="f. 28" />
+        <p/>
+        <pb n="f. 28"/>
         <p>Moi sous signé j’ai recu de <persName key="p0894">Monsieur de Boulhakow</persName>
         </p>
-        <p>a <placeName
-            key="g0239"
-            ref="https://www.geonames.org/703448">Kiovie</placeName>……………………………….200 Rouble</p>
-        <p>a <placeName
-            key="g0302"
-            ref="https://www.geonames.org/12096954">Polomna</placeName>……………………………200</p>
-        <p>a <placeName
-            key="g0289"
-            ref="https://www.geonames.org/675810">Jassy</placeName>………………………………….100…………</p>
-        <p>a <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Constantinople</placeName>……………..….100…………</p>
+        <p>a <placeName key="g0239" ref="https://www.geonames.org/703448">Kiovie</placeName>……………………………….200 Rouble</p>
+        <p>a <placeName key="g0302" ref="https://www.geonames.org/12096954">Polomna</placeName>……………………………200</p>
+        <p>a <placeName key="g0289" ref="https://www.geonames.org/675810">Jassy</placeName>………………………………….100…………</p>
+        <p>a <placeName key="g0018" ref="https://www.geonames.org/745044">Constantinople</placeName>……………..….100…………</p>
         <p>En tout je dis avoir receu six cent Roubles</p>
         <p>
           <persName key="p0000">Chrétien De Berg</persName>
         </p>
-        <p />
-        <p />
-        <pb n="f. 30" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 30"/>
+        <p/>
         <p>по моей записьной книшке, надлежит мне, выключая 20 червонных, которые я в последний раз
-          в <placeName
-            key="g0276"
-            ref="https://www.geonames.org/750640">Пере</placeName> проиграл…………………………………………….250</p>
+          в <placeName key="g0276" ref="https://www.geonames.org/750640">Пере</placeName> проиграл…………………………………………….250</p>
         <p>еще 586 пиястров по переводу <persName key="p1051">Ханжерлия</persName> [sic]</p>
-        <p>получил я в <placeName
-            key="g0276"
-            ref="https://www.geonames.org/750640">Пере</placeName> в три раза……………..400</p>
+        <p>получил я в <placeName key="g0276" ref="https://www.geonames.org/750640">Пере</placeName> в три раза……………..400</p>
         <p>дорогою ………………………………………………………………..50</p>
-        <p>еще в <placeName
-            key="g0301"
-            ref="https://www.geonames.org/706253">Хотине</placeName> червонными…………………10 черв.</p>
-        <p />
-        <pb n="f. 34" />
+        <p>еще в <placeName key="g0301" ref="https://www.geonames.org/706253">Хотине</placeName> червонными…………………10 черв.</p>
+        <p/>
+        <pb n="f. 34"/>
         <p>По сему моему я засвидетельствую что <persName key="p0000">Г[оспо]д[и]н Вилд</persName>
           заплатил моему человеку <persName key="p0000">Янию</persName> за меня 200: левов, которые
           я ему должен был [unreadable] оной <persName key="p0000">Г[оспо]д[и]н Вилд</persName>
@@ -208,8 +194,8 @@
           <persName key="p1051">Переводчик Дмитрий Ханжери</persName>:</p>
         <p>Je reconnois avoir recus les susdits deux cent Piastres <persName key="p0000">Wild</persName>
         </p>
-        <p />
-        <pb n="f. 36" />
+        <p/>
+        <pb n="f. 36"/>
         <p>Реестр долгов</p>
         <p>Портному………………………………………………………………………….420 левов</p>
         <p>
@@ -220,42 +206,35 @@
         <p>
           <persName key="p0722" ref="9a83155d-aeaf-47c9-8f0d-ccbaa220c82f">В. Нелединский</persName>
         </p>
-        <p />
-        <pb n="f. 45" />
-        <p>Adi. n[uovo] s[tile] Gen[naio]. 1776 <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Cospoli</placeName>
+        <p/>
+        <pb n="f. 45"/>
+        <p>Adi. n[uovo] s[tile] Gen[naio]. 1776 <placeName key="g0018" ref="https://www.geonames.org/745044">Cospoli</placeName>
         </p>
         <p>Per <persName key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2">S[u]<hi rendition="#sup">
-          a</hi>. Altes[s]<hi rendition="#sup">a</hi>: Prin[ci]p<hi
-              rendition="#sup">e</hi>. de Repner</persName> [sic]</p>
+          a</hi>. Altes[s]<hi rendition="#sup">a</hi>: Prin[ci]p<hi rendition="#sup">e</hi>. de Repner</persName> [sic]</p>
         <p>Venduto un Deser Grande fornito con Dolci Biscottaria per …..Pia[str].e 500.</p>
         <p>Saldato</p>
         <p>
           <persName key="p1052">Filippo Enrico</persName>
         </p>
-        <p />
-        <pb n="f. 56" />
-        <p>1775. <placeName
-            key="g0276"
-            ref="https://www.geonames.org/750640">Pera di Costpoli</placeName> 2 Decembre Nota delle spese
-          dame fate per <persName
-            key="p0870"
-            ref="e33c5452-5236-43b9-801f-cbcf88d680c2">S[ua].A[ltezza]. il Prencipe Repnin Ambasciatore
+        <p/>
+        <pb n="f. 56"/>
+        <p>1775. <placeName key="g0276" ref="https://www.geonames.org/750640">Pera di Costpoli</placeName> 2 Decembre Nota delle spese
+          dame fate per <persName key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2">S[ua].A[ltezza]. il Prencipe Repnin Ambasciatore
           Estraordinario di S[ua].M[ajesta]. Imperiale di tutte le Russie</persName>
         </p>
-        <p />
-        <pb n="f. 58" />
+        <p/>
+        <pb n="f. 58"/>
         <p>[Register of expenditures for gifts, in Italian]</p>
-        <p />
-        <pb n="f. 64" />
+        <p/>
+        <pb n="f. 64"/>
         <p>6. giornate il maestro……………………………………18</p>
         <p>7. maestri a 5 giornate o ni maestro……………..52.20</p>
         <p>[other expenditures]</p>
-        <p />
-        <p />
-        <pb n="f. 66" />
-        <p />
+        <p/>
+        <p/>
+        <pb n="f. 66"/>
+        <p/>
         <p>Италианскому учителю……………………….100 пиастров</p>
       </div>
     </body>
