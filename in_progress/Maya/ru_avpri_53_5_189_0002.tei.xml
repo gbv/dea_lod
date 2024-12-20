@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -131,9 +128,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329132708249",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329152708249",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T12:27:08.249Z",
+	"dcterms:modified": "2024-03-29T12:27:08.249Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -144,10 +142,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329132708249#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329152708249#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_189_0002.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_189_0002.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -158,7 +156,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329132708249#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_189_0002.tei.xml?place_annotation_20240329152708249#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[6]/placeName"
 		}
@@ -182,7 +180,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>28 June / 9 July 1766. – Report of the translator <persName key="p0541">Akim
+          <title>28 June / 9 July 1766. – Report of the Translator <persName key="p0541">Akim
             Lizakevich
             </persName> to the State Chancellery of the
             Guardianship of Foreigners, on 14 persons staying at Her Imperial Majesty's Ambassadorial Chancery in Copenhagen </title>
