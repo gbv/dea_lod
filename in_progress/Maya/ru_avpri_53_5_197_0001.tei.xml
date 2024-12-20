@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -133,87 +130,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190318516",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-29T18:03:18.516Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190318516#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190318516#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://www.geonames.org/2618425",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190347110",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210347110",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:03:47.110Z",
+	"dcterms:modified": "2024-03-29T18:03:47.110Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -224,10 +144,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190347110#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210347110#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -238,7 +158,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190347110#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210347110#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute/placeName"
 		}
@@ -289,9 +209,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190502446",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210502446",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:05:02.446Z",
+	"dcterms:modified": "2024-03-29T18:05:02.446Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -302,10 +223,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190502446#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210502446#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -316,7 +237,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190502446#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210502446#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -367,9 +288,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190628493",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210628493",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:06:28.493Z",
+	"dcterms:modified": "2024-03-29T18:06:28.493Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -380,10 +302,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190628493#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210628493#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -394,7 +316,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190628493#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210628493#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/placeName"
 		}
@@ -445,9 +367,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190642794",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210642794",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-29T18:06:42.794Z",
+	"dcterms:modified": "2024-03-29T18:06:42.794Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -458,10 +381,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190642794#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210642794#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -472,7 +395,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329190642794#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_197_0001.tei.xml?place_annotation_20240329210642794#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/placeName[2]"
 		}
