@@ -127,86 +127,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_204_0002.tei.xml?person_annotation_20190814234630962",
-	"type": "oa:Annotation",
-	"dcterms:created": "2019-08-14T20:46:30.962Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/ilovan",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mihaela Ilovan",
-		"foaf:nick": "ilovan"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_204_0002.tei.xml?person_annotation_20190814234630962#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_204_0002.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_204_0002.tei.xml?person_annotation_20190814234630962#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/opener/salute[2]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "e14a18da-55bf-476c-bee9-1ff5536450d7",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_204_0002.tei.xml?note_annotation_20240128193105940",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-28T17:31:05.940Z",
@@ -339,8 +259,7 @@
     <body>
       <div type="letter">
         <head>
-          Report from the Russian Envoy Extraodinary and Minister Plenipotentiary to Denmark, Mikhail Mikhailovich Filosofov
-             to <persName key="p0033">Catherine
+          Report from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1102" xml:space="default">the Russian Envoy Extraodinary and Minister Plenipotentiary to Denmark, Mikhail Mikhailovich Filosofov</persName>, to <persName key="p0033">Catherine
             II</persName> 
             <note><bibl>AVPRI, fond 53/5, no. 204, f. 25-28v. Russian original written above the cipher </bibl></note>
           
