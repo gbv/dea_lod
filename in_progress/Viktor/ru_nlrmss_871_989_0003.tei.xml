@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,34 +93,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>5 March 1782. – Letter from <persName
-              key="p0363"
-              ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">the secretary of the Russian Embassy in the
-            Netherlands Peter von Staehlin</persName> to his father <persName
-              key="p0135"
-              ref="696969db-38aa-446c-bfb9-d5cf570ff441">Jacob von Staehlin</persName>
+          <title>5 March 1782. – Letter from <persName key="p0363" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">the secretary of the Russian Embassy in the
+            Netherlands Peter von Staehlin</persName> to his father <persName key="p0135" ref="696969db-38aa-446c-bfb9-d5cf570ff441">Jacob von Staehlin</persName>
           </title>
           <note>
             <bibl>NLR Mss, fond 871, n°989, f. 11–11v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 11" />
-        <p />
-        <p>№ 10. <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">La Haye</placeName> le 5. Mars 1782.</p>
+        
+        <pb n="f. 11"/>
+        
+        <p>№ 10. <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> le 5. Mars 1782.</p>
         <p>Votre derniere lettre №5. m’est parvenue à son tems Vendredy passé et j’ai eté fort
-          satisafait du raisonnement de notre ami <persName
-            key="p0025"
-            ref="4d6ea4fd-7523-4611-9334-f702e7ce0edf">Mr de Bühler</persName> sur ma situation, et
+          satisafait du raisonnement de notre ami <persName key="p0025" ref="4d6ea4fd-7523-4611-9334-f702e7ce0edf">Mr de Bühler</persName> sur ma situation, et
           ma façon de l’envisager. Il est certain que de part et d’autre il ne reste presque rien à
           ajouter à cette matière amplement discutée, mais il faut me pardonner d’avoir souvent
           touché cette corde lorsque l’occasion s’en offrit, parce que naturellement le cœur en
@@ -137,13 +126,9 @@
           descendu) je vins le trouver pour le feliciter sur son heureuse arrivée. Je dois lui
           rendre la justice qu’il m’a reçu on ne peut pas mieux, très poliment et très amicalement,
           en me faisant des complimens </p>
-        <pb n="f. 11v" />
-        <p> de votre part. Avant-hier <persName
-            key="p0364"
-            ref="0be92d02-6ea9-403c-951e-a803e86d2893">le Prince Galitzin</persName> l’a présenté au
-          Corps diplomatique et hier à <orgName
-            key="o0049"
-            ref="57397599-7420-4b1e-bb7a-11eb6785727b">la Cour</orgName>, en même tems il a presenté
+        <pb n="f. 11v"/>
+        <p> de votre part. Avant-hier <persName key="p0364" ref="0be92d02-6ea9-403c-951e-a803e86d2893">le Prince Galitzin</persName> l’a présenté au
+          Corps diplomatique et hier à <orgName key="o0049" ref="57397599-7420-4b1e-bb7a-11eb6785727b">la Cour</orgName>, en même tems il a presenté
           aux <orgName key="o0017" ref="b0400cb7-f2c5-4ab9-9a44-5950db922b27">Etats généraux</orgName>
           ses Lettres de creance en qualité de Ministre (tout court, non plenipotentiaire, ni Envoyé
           extraordinaire) qualité dans laquelle il sera reconnu au premier jour. Mille grace du
@@ -153,25 +138,13 @@
           qui ne lui passera pas facilement.</p>
         <p>Avant-hier au soir j’eus la satisfaction de voir à l’improviste entrer chés moi notre
           parent <persName key="p0428" ref="cbca6482-1f4f-4dcd-9ee2-28015986e2a4">Mr Martin Stehlin</persName>
-          et de faire sa connoissance. Il revenoit d’<placeName
-            key="g0010"
-            ref="https://www.geonames.org/2759794">Amsterdam </placeName>où
-          il a des affaires, et hier matin il a déjà eté obligé de repartir par <placeName
-            key="g0158"
-            ref="https://www.geonames.org/2747891">Rotterdam</placeName>, <placeName
-            key="g0168"
-            ref="https://www.geonames.org/2756669">Dort</placeName> &amp;c.
-          &amp;c. pour <placeName
-            key="g0115"
-            ref="https://www.geonames.org/3247449">Aix la Chapelle</placeName> et <placeName
-            key="g0165"
-            ref="https://www.geonames.org/2869756">
+          et de faire sa connoissance. Il revenoit d’<placeName key="g0010" ref="https://www.geonames.org/2759794">Amsterdam </placeName>où
+          il a des affaires, et hier matin il a déjà eté obligé de repartir par <placeName key="g0158" ref="https://www.geonames.org/2747891">Rotterdam</placeName>, <placeName key="g0168" ref="https://www.geonames.org/2756669">Dort</placeName> &amp;c.
+          &amp;c. pour <placeName key="g0115" ref="https://www.geonames.org/3247449">Aix la Chapelle</placeName> et <placeName key="g0165" ref="https://www.geonames.org/2869756">
           Monjoye</placeName>. Cet aimable jeune homme que je trouve tout à fait ressemblent au
           portrait que Vous m’en avés fait, se loue infiniment des bontés dont Vous l’avés comblé,
           et me charge de mille complimens et respects pour toute notre maison. Il est encore tout
-          extasié de son séjour de <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName>, je regrette
+          extasié de son séjour de <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>, je regrette
           seulement qu’il n’a pû prolonger le sien d’icy.</p>
         <noteGrp>
           <note>Also see:</note>
