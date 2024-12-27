@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,54 +98,41 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 11/22 April 1726. – [Letter from<persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Consul in Cadiz, Prince Ivan
-            Andreevich Shcherbatov</persName>,] from <placeName
-              key="g0037"
-              ref="https://www.geonames.org/2510911">
-              <hi rendition="#b">Sevilia</hi>
+          <title> 11/22 April 1726. – [Letter from<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Consul in Cadiz, Prince Ivan
+            Andreevich Shcherbatov</persName>,] from <placeName key="g0037" ref="https://www.geonames.org/2510911">
+              Sevilia
             </placeName> to <persName key="p0000">Mr
             Lemny</persName> to <placeName key="g0067" ref="https://www.geonames.org/2520600">
-              <hi rendition="#b">Cadiz,</hi>
+              Cadiz,
             </placeName> written on April 11/22, 1726,
             [sent] by post</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-2, f. 67–67v. Copy of French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 67" />
-        <p />
-        <p>В <placeName
-            key="g0067"
-            ref="https://www.geonames.org/2520600">Кадиксе</placeName> к господину <persName
-            key="p0000">Лемнию</persName>
-          из <placeName
-            key="g0037"
-            ref="https://www.geonames.org/2510911">Севилии</placeName> от 11/22 апреля 1726 писано чрез почту.</p>
-        <p>Vos honnêteté et Politesse que j’ay éprouvé pendant mon sejour à <placeName
-            key="g0067"
-            ref="https://www.geonames.org/2520600">
+        <p/>
+        <pb n="f. 67"/>
+        <p/>
+        <p>В <placeName key="g0067" ref="https://www.geonames.org/2520600">Кадиксе</placeName> к господину <persName key="p0000">Лемнию</persName>
+          из <placeName key="g0037" ref="https://www.geonames.org/2510911">Севилии</placeName> от 11/22 апреля 1726 писано чрез почту.</p>
+        <p>Vos honnêteté et Politesse que j’ay éprouvé pendant mon sejour à <placeName key="g0067" ref="https://www.geonames.org/2520600">
           Cadix</placeName> de vôtre part et de Madame vôtre Epouse et de toute vôtre famille,
           m’engagent de ne pas manquer à toutes les occasions pour vous en remercier de vôtre amitié
           dont je suis très sensible. </p>
         <p>Je n’aurois pas manqué de vous donner part de mon arrivée ici par le Courier du Dimanche
           mais comme nous arrivâmes hier trop tard pour écrire, ainsi j’espère que vous nous le
           pardonnerez n’étant pas cela [sic] par negligence. Je suis très-parfaitement etc.</p>
-        <p />
-        <pb n="f. 67v" />
+        <p/>
+        <pb n="f. 67v"/>
         <p> PS : J’ay grâce à vous demander c’est d’asseurer de mes respects <persName key="p0000">Madame
-          vôtre épouse</persName> et Mademoiselles vos filles. Mes complimens à <persName
-            key="p0000">Messieurs Macé</persName>, <persName key="p0000">Fortie</persName>, <persName
-            key="p0000">d’Avo</persName> et <persName key="p0000">Casabanne</persName> et à nôtre
+          vôtre épouse</persName> et Mademoiselles vos filles. Mes complimens à <persName key="p0000">Messieurs Macé</persName>, <persName key="p0000">Fortie</persName>, <persName key="p0000">d’Avo</persName> et <persName key="p0000">Casabanne</persName> et à nôtre
           ami commun <persName key="p0000">Mr Soulard</persName>.</p>
       </div>
     </body>
