@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Speech of the Russian Minister Plenipotentiary to the British court, Prince Ivan Andreevich Shcherbatov, to Prince William Augustus, Duke of Cumberland</title>
+        <title type="main" xml:lang="en">Speech of the Russian Minister Plenipotentiary to the British court, Prince Ivan Andreevich Shcherbatov, to Prince William Augustus, Duke of Cumberland</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -99,37 +94,27 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>15 October 1743. – Speech of <hi
-              rendition="#b">the Russian Minister Plenipotentiary at the British court, </hi>
-            <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>, to <persName
-              key="p0170"
-              ref="7c5eaa43-ee35-41ed-a1d5-7830f4392d3e">Prince William Augustus, Duke of Cumberland</persName>
+          <title>15 October 1743. – Speech of <persName key="p0220">the Russian Minister Plenipotentiary at the British court, Prince Ivan Andreevich Shcherbatov</persName>, to <persName key="p0170" ref="7c5eaa43-ee35-41ed-a1d5-7830f4392d3e">Prince William Augustus, Duke of Cumberland</persName>
           </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 121, f. 68v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 68v" />
-        <p />
+        
+        <pb n="f. 68v"/>
+        
         <p>1743 15 октября</p>
-        <p>В <placeName key="g0008" ref="https://www.geonames.org/2910831">Гановере</placeName> к <persName
-            key="p0170"
-            ref="7c5eaa43-ee35-41ed-a1d5-7830f4392d3e">дуку Кумберлинду</persName>
+        <p>В <placeName key="g0008" ref="https://www.geonames.org/2910831">Гановере</placeName> к <persName key="p0170" ref="7c5eaa43-ee35-41ed-a1d5-7830f4392d3e">дуку Кумберлинду</persName>
         </p>
         <p>Monseigneur</p>
-        <p>C’est avec une extreme satisfaction que je me presente à <persName
-            key="p0170"
-            ref="7c5eaa43-ee35-41ed-a1d5-7830f4392d3e">Vôtre Altesse Royalle</persName> pour luy feliciter sur son heureux retour de la campagne, et de luy reiterer les asseurances de mon le plus profond respect, la suppliant tres-humblement de vouloir bien m’accorder la continuation de sa gracieuse bienveuillance.</p>
+        <p>C’est avec une extreme satisfaction que je me presente à <persName key="p0170" ref="7c5eaa43-ee35-41ed-a1d5-7830f4392d3e">Vôtre Altesse Royalle</persName> pour luy feliciter sur son heureux retour de la campagne, et de luy reiterer les asseurances de mon le plus profond respect, la suppliant tres-humblement de vouloir bien m’accorder la continuation de sa gracieuse bienveuillance.</p>
       </div>
     </body>
   </text>
