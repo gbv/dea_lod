@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -183,7 +180,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>19 February / 2 March 1793. – Draft of the letter from <persName key="p1145,p0580" ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von
+          <title>19 February / 2 March 1793. – Draft of the letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1145" xml:space="default" ref="0b9b6516-7c5d-4e81-8ee7-051afa31ef4b">the Ambassador Extraordinary and Plenipotentiary of Russia to the Polish-Lithuanian Commonwealth, Count Jacob Johann von
             Sievers</persName>, to <persName key="p0580" ref="61caa76b-7a71-47f7-80b9-924f2e7014b3">the
             Envoy of Russia to the Great Britain, Count Semen Romanovich Vorontsov</persName>
           </title>
@@ -196,9 +193,8 @@
           <dateline> à <placeName key="g0009" ref="https://www.geonames.org/756135">
               Varsovie
             </placeName> ce <date>
-              19 fev[rier] / 2 Mars [17]93</date>. </dateline><address n="recipient">A M[onsieu]r le C[om]te de Worontzow
+              19 fev[rier] / 2 Mars [17]93</date>. </dateline>A <persName key="p0580">M[onsieu]r le C[om]te de Worontzow</persName>
             
-          </address>
           <salute>
           Monsieur,
           </salute>
