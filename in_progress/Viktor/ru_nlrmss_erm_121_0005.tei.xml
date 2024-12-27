@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Verses by Voltaire against King of Prussia [from the archives of the Russian diplomat Prince Ivan Andreevich Shcherbatov]
+        <title type="main" xml:lang="en">Verses by Voltaire against King of Prussia [from the archives of the Russian diplomat Prince Ivan Andreevich Shcherbatov]
 </title>
         <title type="main" xml:lang="fr">Vers de Mr de Voltaire contre le Roi de Prusse</title>
         <author xml:lang="en">Voltaire</author>
@@ -99,39 +94,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>After 1751. – Verses by <persName
-              key="p0361"
-              ref="15c1f0ad-ae02-423a-a6ba-f611e90022a6">Voltaire</persName> against <persName
-              key="p0061"
-              ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">King of Prussia </persName>[from the archives of the Russian diplomat<persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> Prince Ivan Andreevich Shcherbatov</persName>]</title>
+          <title>After 1751. – Verses by <persName key="p0361" ref="15c1f0ad-ae02-423a-a6ba-f611e90022a6">Voltaire</persName> against <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">King of Prussia </persName>[from the archives of the Russian diplomat<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> Prince Ivan Andreevich Shcherbatov</persName>]</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 121, f. 113v–115. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 113v" />
-        <p />
-        <p>Vers de Mr de <persName
-            key="p0361"
-            ref="15c1f0ad-ae02-423a-a6ba-f611e90022a6">Voltaire</persName> contre le <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>.</p>
+        
+        <pb n="f. 113v"/>
+        
+        <p>Vers de Mr de <persName key="p0361" ref="15c1f0ad-ae02-423a-a6ba-f611e90022a6">Voltaire</persName> contre le <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi de Prusse</persName>.</p>
         <p>Roi, Guerrier, Philosophe, Auteur, Musicien</p>
         <p>Poete, Franc-Maçon, Politique, Oeconome</p>
         <p>Pour le bien de l’Europe, ha ! que n’est-il Chretien,</p>
         <p>Pour celui de la Reine, helas ! que n’est-il Homme.</p>
-        <p />
-        <pb n="f. 114" />
-        <p />
+        <p/>
+        <pb n="f. 114"/>
+        <p/>
         <p>Le Jeu de quadrille</p>
         <p>En Mediateur des Souverains de l’Europe</p>
         <p>L’imperatrice Reine</p>
@@ -150,8 +135,8 @@
         <p>Je ne sai point faire valloir à propos mes atouts, outres que l’envie de gagner me fait faire faute sur faute</p>
         <p>La Hollande</p>
         <p>Faute de Roi et n’ayent que la Dame avec un petit atout, je dois passé</p>
-        <p />
-        <pb n="f. 114v" />
+        <p/>
+        <pb n="f. 114v"/>
         <p> La Suede</p>
         <p>Cartes vues, carte rebatues,</p>
         <p>Dannemarckk</p>
@@ -164,22 +149,16 @@
         <p>Je n’ai pas encore joué, parce que je ne joue qu’à coup sûr,</p>
         <p>Le Roi de Portugal</p>
         <p>J’ai joué si malheureusement l’année passée que je quitte tout le jeu.</p>
-        <p>Vers sur <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Sa Majesté Prussienne</persName>
+        <p>Vers sur <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Sa Majesté Prussienne</persName>
         </p>
-        <p>De <persName
-            key="p0061"
-            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Frederic</persName> Celebrons l’equité,</p>
+        <p>De <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Frederic</persName> Celebrons l’equité,</p>
         <p>D’avoir pour le beau Sexe une haine implacable,</p>
         <p>il a pour la sagement evité,</p>
         <p>de nous donner son semblable</p>
-        <p />
-        <pb n="f. 115" />
-        <p />
-        <p>Ces vers été trouvé dans le Berçau du <persName
-            key="p0362"
-            ref="48fabac0-e456-4e3c-81bc-4e29a2872098">Duc de Bourgogne</persName>
+        <p/>
+        <pb n="f. 115"/>
+        <p/>
+        <p>Ces vers été trouvé dans le Berçau du <persName key="p0362" ref="48fabac0-e456-4e3c-81bc-4e29a2872098">Duc de Bourgogne</persName>
         </p>
         <p>Deux Henris immolés à nos brave âÿeux</p>
         <p>L’un à la liberté, et Bourbon à nos Dieux</p>
@@ -187,10 +166,8 @@
         <p>ils revivent en toi, ces anciens, tirans</p>
         <p>Craint nôtre desespoir la Noblesse a des Guises</p>
         <p>
-          <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName>, des Ravaillacs, le Clergé, des Clêments.</p>
-        <p />
+          <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName>, des Ravaillacs, le Clergé, des Clêments.</p>
+        <p/>
       </div>
     </body>
   </text>
