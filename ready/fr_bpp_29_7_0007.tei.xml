@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -173,26 +170,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>7 May 1783. – Letter from <persName
-              key="p0440"
-              ref="58ce1386-5636-4283-adef-a61a6c85fe72">the Minister Plenipotentiary of Russia to
-            Versailles Conference, Arkadii Ivanovich Morkov</persName>, to <persName
-              key="p0861"
-              ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to
+          <title>7 May 1783. – Letter from <persName key="p0440" ref="58ce1386-5636-4283-adef-a61a6c85fe72">the Minister Plenipotentiary of Russia to
+            Versailles Conference, Arkadii Ivanovich Morkov</persName>, to <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to
             the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 7, f. 1327-1328. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1327" />
+        <pb n="f. 1327"/>
         <opener>
           <dateline> à <placeName key="g0019" ref="https://www.geonames.org/2988507">
               Paris
@@ -204,23 +197,15 @@
             Monsieur
           </salute>
         </opener>
-        <p>Ayant trouvé à mon arrivée à <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName> monsieur <persName
-            key="p0584"
-            ref="73aa84a5-d5e0-44f0-8b24-768bb21ce8d8">le Prince de Bariatinsky</persName>
-          indisposé, ce n’est qu’hier que j’ai eu l’honneur de présenter au <persName
-            key="p1043"
-            ref="a8d31fc9-5882-4da2-906c-e828a661b7f0">Roi très chretien</persName> dans une
+        <p>Ayant trouvé à mon arrivée à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> monsieur <persName key="p0584" ref="73aa84a5-d5e0-44f0-8b24-768bb21ce8d8">le Prince de Bariatinsky</persName>
+          indisposé, ce n’est qu’hier que j’ai eu l’honneur de présenter au <persName key="p1043" ref="a8d31fc9-5882-4da2-906c-e828a661b7f0">Roi très chretien</persName> dans une
           audience particulière mes lettres de créance pour le caractere de Ministre
-          Plénipotentiaire dont il a plu à <persName
-            key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Impératrice</persName> de me revetir aupres
+          Plénipotentiaire dont il a plu à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Impératrice</persName> de me revetir aupres
           de ce monarque. Installé de cette maniere dans les fonctions de mon nouveau ministère, je
           m’empresse d’en faire part à Votre Excellence et de la suplier de continuer à m’honorer de
           sa correspondance dans toutes les occasions, ou le bien du service la rendra nécessaire.
           Si en même tems je suis assez heureux pour pouvoir etre ici de quelqu’utilité</p>
-        <pb n="f. 1328" />
+        <pb n="f. 1328"/>
         <p> personnelle à Votre Excellence, elle voudra bien en agir d’après les dispositions
           qu’elle me connoit à cet egard et qui repondront parfaitement à la consideration très
           respectueuse avec laquelle je suis</p>
@@ -235,7 +220,7 @@
             le très humble et très obéissant serviteur
           </salute>
           <signed>
-            <persName key="p0440" ref="58ce1386-5636-4283-adef-a61a6c85fe72">
+            <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0440" xml:space="default" ref="58ce1386-5636-4283-adef-a61a6c85fe72" type="signature">
               Marcoff
             </persName>
           </signed>
