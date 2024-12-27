@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,57 +100,39 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>4 March 1730. – Copy of the letter from [<persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to
-            Spain,] Prince Ivan [Andreevich] Shcherbatov</persName>, sent to [<persName
-              key="p0218"
-              ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">Secretary of State for Foreign Affairs of
-            Spain,] Marquis [Juan Bautista] De La Paz </persName>to <placeName
-              key="g0037"
-              ref="https://www.geonames.org/2510911">
-              <hi rendition="#b">Sevilia </hi>
+          <title>4 March 1730. – Copy of the letter from [<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to
+            Spain,] Prince Ivan [Andreevich] Shcherbatov</persName>, sent to [<persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">Secretary of State for Foreign Affairs of
+            Spain,] Marquis [Juan Bautista] De La Paz </persName>to <placeName key="g0037" ref="https://www.geonames.org/2510911">
+              Sevilia 
             </placeName>on March 4, 1730</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-1, f. 212–212v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 212" />
-        <p />
+        
+        <pb n="f. 212"/>
+        
         <p>Копия с письма <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">князя
-          Ивана Щербатово</persName> каково он послал в <placeName
-            key="g0037"
-            ref="https://www.geonames.org/2510911">Севилию</placeName> к <persName
-            key="p0218"
-            ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">марки де ля Пац</persName> в 4
+          Ивана Щербатово</persName> каково он послал в <placeName key="g0037" ref="https://www.geonames.org/2510911">Севилию</placeName> к <persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">марки де ля Пац</persName> в 4
           Марта 1730’’ году.</p>
         <p>Monsieur, Pour me conformer aux désirs de V[otre] E[xcellence] j’ay l’honneur de luy dire
           par celle-cy que dans mon entreveu avec Elle aujourd’huy je Luy ay dis entre autres choses
           l’ordre de <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">ma Cour</orgName>
-          ; comme il est connu à V[otre] E[xcellence] que <orgName
-            key="o0008"
-            ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">ma Cour</orgName> a epousé les intérêts
-          d’Espagne au Congré de telle façon qu’on pourroit attendre d’un ami tres-sincer ; <persName
-            key="p0222"
-            ref="0ed7d288-1bcf-441c-937e-7078f1d82279">L’Empereur de Russie</persName>
-          mon maitre pourroit avoir Lieu d’ésperer, que si <orgName
-            key="p0208"
-            ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté Catholique</orgName> a trouvé à
+          ; comme il est connu à V[otre] E[xcellence] que <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">ma Cour</orgName> a epousé les intérêts
+          d’Espagne au Congré de telle façon qu’on pourroit attendre d’un ami tres-sincer ; <persName key="p0222" ref="0ed7d288-1bcf-441c-937e-7078f1d82279">L’Empereur de Russie</persName>
+          mon maitre pourroit avoir Lieu d’ésperer, que si <orgName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté Catholique</orgName> a trouvé à
           propos de faire quelque changement dans ses affaires (ayant consideré la bonne union entre
           les <orgName key="o0008,o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">deux Cours</orgName>
-          et le Temoignage de la Part de <persName
-            key="p0222"
-            ref="0ed7d288-1bcf-441c-937e-7078f1d82279">S[a] M[ajesté] I[mpériale] mon maitre</persName>
+          et le Temoignage de la Part de <persName key="p0222" ref="0ed7d288-1bcf-441c-937e-7078f1d82279">S[a] M[ajesté] I[mpériale] mon maitre</persName>
           de sa bonne intention) Elle voudra bien ordonner de luy en communiquer </p>
-        <pb n="f. 212v" />
+        <pb n="f. 212v"/>
         <p> voicy tout ce que j’ay dit à V[otre] E[xcellence] aujourd’huy de mon Chef. J’ay
           l’honneur d’être avec une respectueuse consideration etc.</p>
         <noteGrp>
