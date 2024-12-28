@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,55 +97,36 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2 June 1730. – [Letter from<persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to
-            Spain, Prince Ivan Andreevich Shcherbatov</persName>] <hi rendition="#b">, from </hi>
+          <title>2 June 1730. – [Letter from<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to
+            Spain, Prince Ivan Andreevich Shcherbatov</persName>] , from 
             <placeName key="g0102" ref="https://www.geonames.org/2517117">
-              <hi rendition="#b">Granada </hi>
-            </placeName>to <persName
-              key="p0321,p0322"
-              ref="1d2e0e54-9d54-4ec3-b1df-62c5afd50dff">the Brethous [Brothers]</persName> to <placeName
-              key="g0020"
-              ref="https://www.geonames.org/3117735">
-              <hi rendition="#b">Madrid</hi>
+              Granada 
+            </placeName>to <persName key="p0321,p0322" ref="1d2e0e54-9d54-4ec3-b1df-62c5afd50dff">the Brethous [Brothers]</persName> to <placeName key="g0020" ref="https://www.geonames.org/3117735">
+              Madrid
             </placeName> [written] on June 2, 1730</title>
           <note>
             <bibl>NLR Mss, fond Erm., 123-4, f. 1–1v. Copy of French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
-        <p />
-        <p>В <placeName key="g0020" ref="https://www.geonames.org/3117735">Мадрид</placeName> к <persName
-            key="p0321,0322"
-            ref="be6fcfe6-43aa-474b-a087-6c67ecd68947">Бретусам братьям</persName> из <placeName
-            key="g0102"
-            ref="https://www.geonames.org/2517117">Гранады</placeName> от 2. Июня 1730 году писано чрез <persName
-            key="p0000">
+        <p/>
+        <pb n="f. 1"/>
+        <p/>
+        <p>В <placeName key="g0020" ref="https://www.geonames.org/3117735">Мадрид</placeName> к <persName key="p0321,0322" ref="be6fcfe6-43aa-474b-a087-6c67ecd68947">Бретусам братьям</persName> из <placeName key="g0102" ref="https://www.geonames.org/2517117">Гранады</placeName> от 2. Июня 1730 году писано чрез <persName key="p0000">
           парте</persName>.</p>
-        <p>Je vous fais part Messieurs que la <orgName
-            key="o0020"
-            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName> partira d’ici le 5. de ce mois
-          pour <placeName
-            key="g0093"
-            ref="https://www.geonames.org/2519675">Cazalla</placeName> à 43 d’ici et à 15. Lieux de <placeName
-            key="g0037"
-            ref="https://www.geonames.org/2510911">Seville</placeName>. Je commenceray de la suivre aussitôt que je trouveray
+        <p>Je vous fais part Messieurs que la <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName> partira d’ici le 5. de ce mois
+          pour <placeName key="g0093" ref="https://www.geonames.org/2519675">Cazalla</placeName> à 43 d’ici et à 15. Lieux de <placeName key="g0037" ref="https://www.geonames.org/2510911">Seville</placeName>. Je commenceray de la suivre aussitôt que je trouveray
           des carrouages. Je vous prie Messieurs </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> en meme temps (quand l’occasion se présentera) de m’écrire par <persName key="p0000">
           Parte</persName> car je ne sauray à vous dire pour positif où je pourray quelque temps
-          fixe de rester sinon que je suivray toujours la <orgName
-            key="o0020"
-            ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName> partout où elle ira ; je suis
+          fixe de rester sinon que je suivray toujours la <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">Cour</orgName> partout où elle ira ; je suis
           toujours très-parfait etc.</p>
         <noteGrp>
           <note>Also see:</note>
