@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,37 +98,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>4 July 1730. – [Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to
-            Spain, Prince Ivan Andreevich Shcherbatov</persName>,] <hi rendition="#b">from</hi>
+          <title>4 July 1730. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to
+            Spain, Prince Ivan Andreevich Shcherbatov</persName>,] from
             <placeName key="g0107" ref="https://www.geonames.org/2519278">
-              <hi rendition="#b">Constantina</hi>
+              Constantina
             </placeName> to <persName key="p0000">Seniora
-            Theresa Matilde Ganaldon</persName> to <placeName
-              key="g0108"
-              ref="https://www.geonames.org/2521130">
-              <hi rendition="#b">Benamejí</hi>
+            Theresa Matilde Ganaldon</persName> to <placeName key="g0108" ref="https://www.geonames.org/2521130">
+              Benamejí
             </placeName>, [written] under the envelope
             of <persName key="p0000">Juan Gallardo Espeso</persName> on July 4, 1730</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 19–19v. Copy of Spanish original.</bibl>
           </note>
         </head>
-        <pb n="f. 19" />
-        <p />
-        <p>A <placeName
-            key="g0108"
-            ref="https://www.geonames.org/2521130">Benamexi [sic]</placeName> de <placeName
-            key="g0107"
-            ref="https://www.geonames.org/2519278">Constantina</placeName>
+        <pb n="f. 19"/>
+        <p/>
+        <p>A <placeName key="g0108" ref="https://www.geonames.org/2521130">Benamexi [sic]</placeName> de <placeName key="g0107" ref="https://www.geonames.org/2519278">Constantina</placeName>
           a la S[eño]ra <persName key="p0000">Theresa Matilde Ganaldon</persName> 4. de Julio 1730
           por Arozemena sobre el covierto de <persName key="p0000">Juan Gallardo Espeso</persName>.</p>
         <p>Muy Senora mia. Con el appreçio y gusto he reçibido ayer la muy favoreçida carta de
@@ -146,7 +135,7 @@
           V[uestra] M[agnificencia] Ms. y felices a[ño]s como deseo etc.</p>
         <p>PS : No savemos quanto tiempo podremos nos hallar à qui mas creo que no tardaremos de
           salir en algun otro paraje </p>
-        <pb n="f. 19v" />
+        <pb n="f. 19v"/>
         <p> de que faltare avisar adelante. Muchas mis finas memorias a la <persName key="p0000">S[eño]ra
           su hermana</persName>.</p>
       </div>
