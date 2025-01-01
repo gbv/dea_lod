@@ -1,16 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] to Milord [Earl George Keith] Marischal to Valencia, [sent] through the Bretous Brothers</title>
-        <title
-          type="main"
-          xml:lang="ru">В валенцию к милорду марискалу из Парижа от 3. 8bre: 1730. году писано чрез Бретусов братьев</title>
+        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] to Milord [Earl George Keith] Marischal to Valencia, [sent] through the Bretous Brothers</title>
+        <title type="main" xml:lang="ru">В валенцию к милорду марискалу из Парижа от 3. 8bre: 1730. году писано чрез Бретусов братьев</title>
         <author xml:lang="en">Ivan</author>
         <author xml:lang="en">Andreevich</author>
         <author xml:lang="en">Shcherbatov</author>
@@ -102,50 +94,28 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
-  </teiHeader>
-  <text>
+  </teiHeader><text>
     <body>
       <div type="letter">
         <head>
-          <title>3 October 1730. – [Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov</persName>,] to <persName
-              key="p0290"
-              ref="5395f8d6-e6ce-4f88-9000-14f416a6f273">Mylord [Earl] Marischal [George Keith], </persName>to <placeName
-              key="g0224"
-              ref="https://www.geonames.org/2509954">
-              <hi rendition="#b">Valencia,</hi>
+          <title>3 October 1730. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov</persName>,] to <persName key="p0290" ref="5395f8d6-e6ce-4f88-9000-14f416a6f273">Mylord [Earl] Marischal [George Keith], </persName>to <placeName key="g0224" ref="https://www.geonames.org/2509954">
+              Valencia,
             </placeName>
-            <hi rendition="#b"> [sent] </hi>through <persName
-              key="p0321,p0322">the Bretous Brothers</persName>
+             [sent] through <persName key="p0321,p0322">the Bretous Brothers</persName>
           </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 55v–56. Copy of French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 55v" />
-        <p />
-        <p>В <placeName key="g0224" ref="https://www.geonames.org/2509954">валенцию</placeName> к <persName
-            key="p0290"
-            ref="5395f8d6-e6ce-4f88-9000-14f416a6f273">милорду марискалу</persName> из <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Парижа</placeName> от 3. 8bre: 1730. году писано чрез <persName
-            key="p0321,p0322">Бретусов братьев</persName>.</p>
-        <p>Ne doutant point que vous prenez part en tout ce qui me regarde j’ay l’honneur de vous dire myLord que je suis arrivé à <placeName
-            key="g0019"
-            ref="https://www.geonames.org/2988507">Paris</placeName> en parfaitte santé, et <persName
-            key="p0000">arhamakoff</persName> est tombé malade à <placeName
-            key="g0225"
-            ref="https://www.geonames.org/3034475">Bayonne</placeName> où il reste jusqu’à present. Je Compte de rester icy encore trois à quatre semaines, et ensuite prendre ma route vers mon pays; </p>
-        <pb n="f. 56" />
-        <p> je n’ay pas en aucune Nouvelle de ma destinée mais j’entends par des gens dignes de foy que je suis nommé pour Ministre à la <orgName
-            key="o0034"
-            ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">Cour de Prusse</orgName>, dont je seray bientôt instruit au juste par des Lettres de nôtre Chancellerie qu’on a gardé pour moy en Hollande. Je n’ay pas manqué de faire rendre en mains propres de <persName
-            key="p0000">mr: Arbushnov</persName> la Lettre que vous m’avez recommendée pour luy rendre. Je luy en ay demandé reponse, mais il n’a pas dis autre Chose qu’il a dejà reçeu de vous une pareille Lettre du 6. du mois passé. Il a promis de passer Chez moy pour s’aboucher; avec tout cela je ne le vois pas jusqu’à present. S’il vouloit me Charger à l’avenir pour vous envoyer la reponse je Le feray avec bien de plaisir. En vous reiterant mes asseurances de la plus parfaitte Consideration j’ay l’honneur d’être tres-sincerement etc.</p>
+        <p/>
+        <pb n="f. 55v"/>
+        <p/>
+        <p>В <placeName key="g0224" ref="https://www.geonames.org/2509954">валенцию</placeName> к <persName key="p0290" ref="5395f8d6-e6ce-4f88-9000-14f416a6f273">милорду марискалу</persName> из <placeName key="g0019" ref="https://www.geonames.org/2988507">Парижа</placeName> от 3. 8bre: 1730. году писано чрез <persName key="p0321,p0322">Бретусов братьев</persName>.</p>
+        <p>Ne doutant point que vous prenez part en tout ce qui me regarde j’ay l’honneur de vous dire myLord que je suis arrivé à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> en parfaitte santé, et <persName key="p0000">arhamakoff</persName> est tombé malade à <placeName key="g0225" ref="https://www.geonames.org/3034475">Bayonne</placeName> où il reste jusqu’à present. Je Compte de rester icy encore trois à quatre semaines, et ensuite prendre ma route vers mon pays; </p>
+        <pb n="f. 56"/>
+        <p> je n’ay pas en aucune Nouvelle de ma destinée mais j’entends par des gens dignes de foy que je suis nommé pour Ministre à la <orgName key="o0034" ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">Cour de Prusse</orgName>, dont je seray bientôt instruit au juste par des Lettres de nôtre Chancellerie qu’on a gardé pour moy en Hollande. Je n’ay pas manqué de faire rendre en mains propres de <persName key="p0000">mr: Arbushnov</persName> la Lettre que vous m’avez recommendée pour luy rendre. Je luy en ay demandé reponse, mais il n’a pas dis autre Chose qu’il a dejà reçeu de vous une pareille Lettre du 6. du mois passé. Il a promis de passer Chez moy pour s’aboucher; avec tout cela je ne le vois pas jusqu’à present. S’il vouloit me Charger à l’avenir pour vous envoyer la reponse je Le feray avec bien de plaisir. En vous reiterant mes asseurances de la plus parfaitte Consideration j’ay l’honneur d’être tres-sincerement etc.</p>
       </div>
     </body>
-  </text>
-</TEI>
+  </text></TEI>
