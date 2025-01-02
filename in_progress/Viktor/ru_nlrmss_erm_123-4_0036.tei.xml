@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,25 +99,19 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>16/27 September 1732. – [Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>]
+          <title>16/27 September 1732. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>]
             from <placeName key="g0002" ref="https://www.geonames.org/498817">
-              <hi rendition="#b">St. Petersburg</hi>
-            </placeName> to ]<persName
-              key="p0218"
-              ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">the State Secretary of Spain,]
-            Marquis [Juan Bautista] De La Paz</persName> to <placeName
-              key="g0037"
-              ref="https://www.geonames.org/2510911">
-              <hi rendition="#b">Seville, </hi>
+              St. Petersburg
+            </placeName> to ]<persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">the State Secretary of Spain,]
+            Marquis [Juan Bautista] De La Paz</persName> to <placeName key="g0037" ref="https://www.geonames.org/2510911">
+              Seville, 
             </placeName>written on 16/27 September
             1732, [sent] through <persName key="p0326" ref="aaf41e00-21aa-49ae-a9d8-0fa255e1d646">[the
             Secretary of the Spanish Ambassy in St. Petersburg,] Cascos</persName>
@@ -129,34 +120,20 @@
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 315v–316. Copy of French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 315v" />
-        <p />
-        <p>В <placeName key="g0037" ref="https://www.geonames.org/2510911">Севилию</placeName> к <persName
-            key="p0218"
-            ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">марки де ля Пас</persName> из <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">С[анкт-]П[етер]бурха</placeName> от 16/27 7bre 1732 писано чрез <persName
-            key="p0326"
-            ref="aaf41e00-21aa-49ae-a9d8-0fa255e1d646">Каскоса</persName>.</p>
-        <p />
-        <pb n="f. 316" />
-        <p />
-        <p>Il y a quatre jours que j’ay reçeu par les mains de <persName
-            key="p0326"
-            ref="aaf41e00-21aa-49ae-a9d8-0fa255e1d646">Mr de Cascos</persName> la lettre que vôtre
+        <p/>
+        <pb n="f. 315v"/>
+        <p/>
+        <p>В <placeName key="g0037" ref="https://www.geonames.org/2510911">Севилию</placeName> к <persName key="p0218" ref="a2b133ff-e0a0-4e68-9f5c-c8b59dd9974b">марки де ля Пас</persName> из <placeName key="g0002" ref="https://www.geonames.org/498817">С[анкт-]П[етер]бурха</placeName> от 16/27 7bre 1732 писано чрез <persName key="p0326" ref="aaf41e00-21aa-49ae-a9d8-0fa255e1d646">Каскоса</persName>.</p>
+        <p/>
+        <pb n="f. 316"/>
+        <p/>
+        <p>Il y a quatre jours que j’ay reçeu par les mains de <persName key="p0326" ref="aaf41e00-21aa-49ae-a9d8-0fa255e1d646">Mr de Cascos</persName> la lettre que vôtre
           Excellence m’a fait l’honneur de m’écrire le 26 juin de l’année passée, accompagnée du
           Portrait de <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté
-          Catholique</persName>, que V[otre] E[xcellence] me mande de l’avoir envoyé par ordre de <persName
-            key="p0208"
-            ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté</persName>. Je reçois
-          Cette grâce de <persName
-            key="p0208"
-            ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté</persName>
+          Catholique</persName>, que V[otre] E[xcellence] me mande de l’avoir envoyé par ordre de <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté</persName>. Je reçois
+          Cette grâce de <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté</persName>
           Comme je dois d’un si grand Monarque, dont je tiendrai une mémoire éternelle. Je supplie
-          en même temps V[otre] E[xcellence] de vouloir bien asseurer <persName
-            key="p0208"
-            ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté Catholique</persName> de ma part
+          en même temps V[otre] E[xcellence] de vouloir bien asseurer <persName key="p0208" ref="f268d125-76a1-4a45-910f-95f794c640db">Sa Majesté Catholique</persName> de ma part
           de mon très-profond respect, et de la veneration que j’ay pour toute sa famille royalle.
           Je profite de cette occasion pour renouveler à V[otre] E[xcellence] les asseurances de mon
           parfait attachement, et de la reconnoissance que je Luy dois, étant avec toute la
