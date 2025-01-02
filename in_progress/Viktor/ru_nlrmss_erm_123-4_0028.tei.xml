@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,48 +99,113 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_nlrmss_erm_123-4_0028.tei.xml?place_annotation_20250102172802068",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-02T16:28:02.068Z",
+	"dcterms:modified": "2025-01-02T16:28:02.068Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/drVEBB",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Viktor Borisov"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_nlrmss_erm_123-4_0028.tei.xml?place_annotation_20250102172802068#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_nlrmss_erm_123-4_0028.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Viktor/ru_nlrmss_erm_123-4_0028.tei.xml?place_annotation_20250102172802068#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://www.geonames.org/745044",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>22 September 1731. – [Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
-            Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>,] from <placeName
-              key="g0235"
-              ref="https://www.geonames.org/618577">Bender</placeName> to <persName
-              key="p0190"
-              ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">[the Secretary of the Russian Embassy in
+          <title>22 September 1731. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
+            Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>,] from <placeName key="g0235" ref="https://www.geonames.org/618577">Bender</placeName> to <persName key="p0190" ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">[the Secretary of the Russian Embassy in
               the Ottoman
-              Empire,] Aleksei [Andreevich] Veshniakov</persName> to <placeName
-              key="g0018"
-              ref="https://www.geonames.org/745044">
+              Empire,] Aleksei [Andreevich] Veshniakov</persName> to <placeName key="g0018" ref="https://www.geonames.org/745044">
             Constantinople</placeName>, written on 22. 7bre[September]: 1731 </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 169v–170v. Copy of Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 169v" />
-        <p>В <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Константинополь</placeName> к <persName key="p0190">Алексею
-          Вешнякову</persName> из <placeName
-            key="g0235"
-            ref="https://www.geonames.org/618577">Бендер</placeName> от 22. 7bre: 1731 году
+        <pb n="f. 169v"/>
+        <p>В <placeName key="g0018" ref="https://www.geonames.org/745044">Константинополь</placeName> к <persName key="p0190">Алексею
+          Вешнякову</persName> из <placeName key="g0235" ref="https://www.geonames.org/618577">Бендер</placeName> от 22. 7bre: 1731 году
           писано</p>
         <p>Вчерашняго числа я получил в[а]ше писмо от 9. Сего Сентября, за которое благодарствую, а
           притом по Старому в[а]шему Со мною знакомству прошу вас Г[о]с[у]д[а]ря моего показать ко
-          мне любовь в покупке мне меблей в тот дом, которой для меня в <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">
+          мне любовь в покупке мне меблей в тот дом, которой для меня в <placeName key="g0018" ref="https://www.geonames.org/745044">
           Константинополе</placeName> отведен будет; а о даче вам на ту покупку 250. червонных я
           просил <persName key="p0189">Ивана Ивановича</persName>. Для в[а]шего ведения доношу
           намерение мое что я желаю те мебли иметь токмо нужнейшие, и без чего по самой крайней
           нужде обойтися</p>
-        <pb n="f. 170" />
+        <pb n="f. 170"/>
         <p> мне невозможно, ибо немного у меня денег: а имянно иметь тафтяные или какие другие
           недорогие обои в дву камрах, где пристойно, иметь же зеркало или два, столов шесть, в том
           числе два в поварне, да дюжины две или три стульев небогатых, да одну мне небогатую
@@ -151,17 +213,13 @@
           всего я покладаюсь на вас, понеже мне что вы так для меня учините как Сами для Себя.
           Притом желая вас найти в добром здоровье пребываю с почтением etc.</p>
         <p>PS для в[а]шего известия объявляю что желание мое иметь кравать; C'est à dire Le bois de
-          Lit pliant pour une seule Personne Comme on fait à <placeName
-            key="g0224"
-            ref="https://www.geonames.org/2509954">Valence</placeName>
-          et à <placeName
-            key="g0240"
-            ref="https://www.geonames.org/3128760">Barcellone</placeName>. Quant aux rideaux ils doivent être
+          Lit pliant pour une seule Personne Comme on fait à <placeName key="g0224" ref="https://www.geonames.org/2509954">Valence</placeName>
+          et à <placeName key="g0240" ref="https://www.geonames.org/3128760">Barcellone</placeName>. Quant aux rideaux ils doivent être
           Craimoisis, de Taffetas ou de quelque autre chose du prix mediocre, ou une Espece de
           Mousquetaire dont on se sert en Espagne, à Cause que j'ay avec moy une Couverture de Damas
           de Cet Couleur. Ежели по желанию моему такой кравати ненашлось то можете купить по своему
           размотрению толко б недорогая была. Пуховиков, подушек </p>
-        <pb n="f. 170v" />
+        <pb n="f. 170v"/>
         <p> и одеяла не надобно покупать. Пожалуйтеж купите одну дюжину чашек на кафе да пожалуйтеж
           прикажите купить удобную посуду на воду, также и в поварню глиненую для первого случая
           чтоб не пустой дом наехать. etc.</p>
