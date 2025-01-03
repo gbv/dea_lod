@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,7 +96,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -103,27 +117,37 @@
       <div type="letter">
         <head>
           <title>19 September 1729. – Translation from French to Russian of the copy of a letter
-            from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0219" xml:space="default">Count [Henning Friedrich] of Bassewitz, Minister of State of His Royal Highness, Reigning Duke of Schleswig and Holstein</persName>, written from <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName>, to <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince [Ivan Andreevich] Shcherbatov, [Russian Minister Plenipotentiary to Spain]</persName>
+            from <persName cert="high" evidence="internal" full="yes" generatedBy="human"
+              instant="unknown" key="p0219" xml:space="default">Count [Henning Friedrich] of
+            Bassewitz, Minister of State of His Royal Highness, Reigning Duke of Schleswig and
+            Holstein</persName>, written from <placeName key="g0019"
+              ref="https://www.geonames.org/2988507">Paris</placeName>, to <persName key="p0220"
+              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince [Ivan Andreevich] Shcherbatov,
+            [Russian Minister Plenipotentiary to Spain]</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 58, opis 1, no. 115, f. 210–210v. Russian translation of French
               original.</bibl>
           </note>
         </head>
-        <pb n="f. 210"/>
-        <p/>
-        <p>Мой Г[оспо]д[и]н, ведая что указы, которые вы имеете в ползу <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">Его Королевского высочества Герцога моего
+        <pb n="f. 210" />
+        <p />
+        <p>Мой Г[оспо]д[и]н, ведая что указы, которые вы имеете в ползу <persName key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">Его Королевского высочества Герцога моего
           Г[осу]д[а]ря</persName>, суть нетокмо зело силны, но и такия, равно якоб оныя самого
           интереса <persName key="p0222" ref="0ed7d288-1bcf-441c-937e-7078f1d82279">Его Величества
-          Императора российского</persName> касалися; а притом будучи совершенно обнадежен о в[а]шей персоналной
-          склонности и желании персоналном ко угождению <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">Герцогу моему Г[осу]д[а]рю</persName>. Того
-          ради по имяному указу которой от <persName key="p0221" ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">его Королевского Высочества</persName> имею </p>
-        <pb n="f. 210v"/>
+          Императора российского</persName> касалися; а притом будучи совершенно обнадежен о в[а]шей
+          персоналной склонности и желании персоналном ко угождению <persName key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">Герцогу моему Г[осу]д[а]рю</persName>. Того
+          ради по имяному указу которой от <persName key="p0221"
+            ref="664592a2-3d0b-4133-9fb6-15aa0fd304aa">его Королевского Высочества</persName> имею </p>
+        <pb n="f. 210v" />
         <p> (которой мне притом повелел вас о своем почтении обнадежить) приемлю смелость вас
           просить, дабы благоволили продолжать свое старание во исходотайствовании субсидий нам
           надлежащих.</p>
         <noteGrp>
-          <note>Translation of: ru_avpri_58_1_111_0001</note>
+          <note>Translation of:</note>
+          <note>ru_avpri_58_1_111_0001</note>
         </noteGrp>
       </div>
     </body>
