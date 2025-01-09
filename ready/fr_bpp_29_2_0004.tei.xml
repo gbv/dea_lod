@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main" xml:lang="en">
 					Rescript of the Empress of Russia Catherine II to the
-					ambassador of Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von
+					ambassador of Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl
+					von
 					Keyserling, and the minister plenipotentiary of Russia to the Polish-Lithuanian
 					Commonwealth, Prince Nikolai Vasil’evich Repnin
 				</title>
@@ -185,83 +187,83 @@
 				</p>
 			</sourceDesc>
 		</fileDesc>
-		
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+
+		<xenoData>
+			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#" />
+		</xenoData>
+		<profileDesc>
 		</profileDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="letter">
 				<head>
-					<title>
-						24 December 1763. – Rescript of
-						<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
-							the Empress of Russia, Catherine II,</persName>
-						to
-						<persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">
+					<title> 24 December 1763. – Rescript of <persName key="p0033"
+							ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+							the Empress of Russia, Catherine II,</persName> to <persName key="p0281"
+							ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">
 							the Ambassador of
-							Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von Keyserling</persName>,
-						and
-						<persName key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2">
-							the Minister Plenipotentiary of Russia in the Polish-Lithuanian Commonwealth, Prince Nikolai
+							Russia to the Polish-Lithuanian Commonwealth, Count Hermann Karl von
+						Keyserling</persName>, and <persName key="p0870"
+							ref="e33c5452-5236-43b9-801f-cbcf88d680c2">
+							the Minister Plenipotentiary of Russia in the Polish-Lithuanian
+						Commonwealth, Prince Nikolai
 							Vasil’evich Repnin
 						</persName>
 					</title>
 					<note>
 						<bibl>
-							Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 427. Russian original.
+							Bibliothèque polonaise de Paris, fonds 29, no. 2, f. 427. Russian
+							original.
 						</bibl>
 					</note>
 				</head>
-				<pb n="f. 427"/>
-				
+				<pb n="f. 427" />
+
 				<opener>
-					<salute>
-						Б[о]жиею м[и]л[ос]тию мы
-						<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+					<salute> Б[о]жиею м[и]л[ос]тию мы <persName key="p0033"
+							ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
 							Екатерина
-							Вторая</persName>, Императрица и Самодержица Всероссийская, и прочая, и прочая, и прочая.
-						Нашим действителному тайному советнику, чрезвычайному и полномочному послу графу
-						<persName key="p0281" ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">
+							Вторая</persName>, Императрица и Самодержица Всероссийская, и прочая, и
+						прочая, и прочая. Нашим действителному тайному советнику, чрезвычайному и
+						полномочному послу графу <persName key="p0281"
+							ref="c8972282-f9c2-4b5b-b0fb-c246926a4c5c">
 							Кейзерлингу
-						</persName>
-						и
-						<persName key="p0870" ref="e33c5452-5236-43b9-801f-cbcf88d680c2">
+						</persName> и <persName key="p0870"
+							ref="e33c5452-5236-43b9-801f-cbcf88d680c2">
 							генерал майору и полномочному
-							министру князь Репнину</persName>.
-					</salute>
+							министру князь Репнину</persName>. </salute>
 				</opener>
-				<p>
-					Из рескрипта нашего от 10го числа сего м[еся]ца и приложеннаго к оному экстракта из
-					рапорта командующаго в новой сербии
-					<persName key="p1000">
+				<p> Из рескрипта нашего от 10го числа сего м[еся]ца и приложеннаго к оному экстракта
+					из рапорта командующаго в новой сербии <persName key="p1000">
 						генерал порутчика Мелгунова
-					</persName>
-					усмотрите вы, коль великая разность в описаниях однаго на реке Синюхе произшествия.
-				</p>
-				<p>
-					Присланная при реляции вашей под № 135 записка
-					<persName key="p1001">
+					</persName> усмотрите вы, коль великая
+					разность в описаниях однаго на реке Синюхе произшествия. </p>
+				<p> Присланная при реляции вашей под № 135 записка <persName key="p1001">
 						воеводы Киевскаго
 						графа Потоцкаго
-					</persName>
-					представляет оное прямым с нашей стороны насилством, а на
-					против того наши известия гласят, что вся вина на полской стороне.
-				</p>
-				<p>
-					Трудность состоит втом, чтоб распознать, которое описание вернее и сходнее с правдой, но
-					как то зависит от свидетелства и разсмотрения на месте, то и повелели уже Мы изследовать
-					достоверно жалобы
-					<persName key="p1001">
-						графа Потоцкаго</persName>, предоставляя вам в
-					свое время резолюцию нашу объявить, которая конечно будет расположена по самой строгой
-					справедливости. Дан в
-					<placeName key="g0002" ref="https://www.geonames.org/498817">
+					</persName> представляет
+					оное прямым с нашей стороны насилством, а на против того наши известия гласят,
+					что вся вина на полской стороне. </p>
+				<p> Трудность состоит втом, чтоб распознать, которое описание вернее и сходнее с
+					правдой, но как то зависит от свидетелства и разсмотрения на месте, то и
+					повелели уже Мы изследовать достоверно жалобы <persName key="p1001">
+						графа Потоцкаго</persName>, предоставляя вам в свое время резолюцию нашу
+					объявить, которая конечно будет расположена по самой строгой справедливости. Дан
+					в <placeName key="g0002" ref="https://www.geonames.org/498817">
 						Петербурге
-					</placeName>
-					декабря 24го дня
-					1763го года
-				</p>
+					</placeName> декабря 24го дня 1763го года </p>
 				<closer>
 					<signed>
 						<persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
@@ -276,8 +278,9 @@
 				</closer>
 				<noteGrp>
 					<note>
-						Also see: fr_bpp_29_1_0005
+						See also:
 					</note>
+					<note>fr_bpp_29_1_0005</note>
 				</noteGrp>
 			</div>
 		</body>
