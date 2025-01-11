@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,53 +95,39 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
-    </xenoData>
-    <profileDesc>
+    
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>[c. 19 July 1790]. – Register of items released to <orgName key="o0100"
-              ref="42f6c5fa-0743-4e83-87ec-c0aa51f821d8">the Ministerial post in Warsaw</orgName>
+          <title>[c. 19 July 1790]. – Register of items released to <orgName key="o0100" ref="42f6c5fa-0743-4e83-87ec-c0aa51f821d8">the Ministerial post in Warsaw</orgName>
             with their price</title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 8, f. 1347-1349. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 1347" />
-        <p>Реестр вещам отпущенным для <orgName key="o0100"
-            ref="42f6c5fa-0743-4e83-87ec-c0aa51f821d8">министерского варшавского поста</orgName>, с
+        <pb n="f. 1347"/>
+        <p>Реестр вещам отпущенным для <orgName key="o0100" ref="42f6c5fa-0743-4e83-87ec-c0aa51f821d8">министерского варшавского поста</orgName>, с
           показанием цены оным</p>
-        <p />
+        <p/>
 
         <table>
           <row>
             <cell>
               N°
             </cell>
-            <cell />
+            <cell/>
             <cell xml:lang="ru">
               Рубли
             </cell>
           </row>
           <row>
-            <cell />
-            <cell xml:lang="ru"> Табакерки.<lb />Золотыя с брилиянтами </cell>
-            <cell />
+            <cell/>
+            <cell xml:lang="ru"> Табакерки.<lb/>Золотыя с брилиянтами </cell>
+            <cell/>
           </row>
           <row>
             <cell>
@@ -178,11 +163,11 @@
             </cell>
           </row>
           <row>
-            <cell />
+            <cell/>
             <cell xml:lang="ru">
               Без брилиянтов с амалью:
             </cell>
-            <cell />
+            <cell/>
           </row>
           <row>
             <cell>
@@ -328,24 +313,24 @@
             </cell>
           </row>
         </table>
-        <pb n="f. 1348" />
+        <pb n="f. 1348"/>
 
         <table>
           <row>
             <cell>
               N°
             </cell>
-            <cell />
+            <cell/>
             <cell xml:lang="ru">
               Рубли
             </cell>
           </row>
           <row>
-            <cell />
+            <cell/>
             <cell xml:lang="ru">
               Перстни:
             </cell>
-            <cell />
+            <cell/>
           </row>
           <row>
             <cell>
@@ -513,12 +498,12 @@
             </cell>
           </row>
           <row>
-            <cell />
+            <cell/>
             <cell xml:lang="ru">
               <hi cert="high" generatedBy="human" rendition="#u" xml:space="default">Часы с
                 цепочками:</hi>
             </cell>
-            <cell />
+            <cell/>
           </row>
           <row>
             <cell>
@@ -544,14 +529,14 @@
           </row>
         </table>
 
-        <pb n="f. 1349" />
+        <pb n="f. 1349"/>
 
         <table>
           <row>
             <cell>
               N°
             </cell>
-            <cell />
+            <cell/>
             <cell xml:lang="ru">
               Рубли
             </cell>
@@ -590,14 +575,14 @@
             </cell>
           </row>
           <row>
-            <cell />
+            <cell/>
             <cell>
               _________________________________________________
             </cell>
-            <cell />
+            <cell/>
           </row>
           <row>
-            <cell />
+            <cell/>
             <cell xml:lang="ru">
               И того всех вещей ценою на пятнадцать тысяч рублей
             </cell>
@@ -606,17 +591,17 @@
             </cell>
           </row>
           <row>
-            <cell />
-            <cell />
-            <cell />
+            <cell/>
+            <cell/>
+            <cell/>
           </row>
           <row>
-            <cell />
+            <cell/>
             <cell xml:lang="ru"> Сверх того из оставшихся от <orgName key="o0079">константинопольской
               миссии</orgName> вещей, <persName key="p0894">г[осподино]м тайным советником
               Булгаковым</persName> представлены, и сюдаже причисляются для равнаго с другими
               употребления: </cell>
-            <cell />
+            <cell/>
           </row>
           <row>
             <cell>
@@ -652,18 +637,18 @@
             </cell>
           </row>
           <row>
-            <cell />
+            <cell/>
             <cell>
               __________________________________________
             </cell>
-            <cell />
+            <cell/>
           </row>
           <row>
-            <cell />
+            <cell/>
             <cell>
               Итого
             </cell>
-            <cell xml:lang="ru"> 1780<lb />ру[блей] </cell>
+            <cell xml:lang="ru"> 1780<lb/>ру[блей] </cell>
           </row>
         </table>
 
@@ -673,7 +658,7 @@
         </p>
 
         <noteGrp>
-          <note>Also see:</note>
+          <note>See also:</note>
           <note>fr_bpp_29_8_0001</note>
         </noteGrp>
       </div>
