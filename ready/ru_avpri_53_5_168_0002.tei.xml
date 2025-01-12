@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,40 +95,24 @@
       </sourceDesc>
     </fileDesc>
 
-    <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
-    </xenoData>
-  </teiHeader>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
           <title>30 January 1764. – Translation of a draft of the letter from <persName key="p0065">His
-            Excellency Vice-Chancellor [Prince Aleksandr Mikhailovich Golitsyn] </persName>to <persName
-              key="p0245">[the Russian Minister in Copenhagen,] Baron
-              von Korff</persName>[,] from <placeName key="g0002"
-              ref="https://www.geonames.org/498817">St. Petersburg</placeName>, dated 30 January
+            Excellency Vice-Chancellor [Prince Aleksandr Mikhailovich Golitsyn] </persName>to <persName key="p0245">[the Russian Minister in Copenhagen,] Baron
+              von Korff</persName>[,] from <placeName key="g0002" ref="https://www.geonames.org/498817">St. Petersburg</placeName>, dated 30 January
             1764 </title>
         </head>
         <note cert="high" evaluate="all" generatedBy="human" place="top" xml:space="default">
           <bibl>AVPRI, fond 53, opis 53/5, no. 168, f. 3. Russian translation. French original:
             AVPRI, fond 53, opis 53/5, no. 168, f. 1.</bibl>
         </note>
-        <pb cert="high" generatedBy="human" n="f. 1" xml:space="default" />
-        <opener>Перевод с концепта писма <persName
-            key="p0065">Его Сиятельства вицеканцлера</persName> к <persName key="p0245">барону Корфу
-          </persName> из <placeName key="g0002"
-            ref="https://www.geonames.org/498817">С. Петербурга </placeName> от 30 Генваря 1764.
+        <pb cert="high" generatedBy="human" n="f. 1" xml:space="default"/>
+        <opener>Перевод с концепта писма <persName key="p0065">Его Сиятельства вицеканцлера</persName> к <persName key="p0245">барону Корфу
+          </persName> из <placeName key="g0002" ref="https://www.geonames.org/498817">С[анкт]. Петербурга </placeName> от 30 Генваря 1764.
         </opener>
         <p>
           Возбуждаем будучи всегда дружбою Вашего Превосходительства, ныне я получаю с
