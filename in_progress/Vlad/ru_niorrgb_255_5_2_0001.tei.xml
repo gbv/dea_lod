@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,7 +97,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -112,18 +126,23 @@
             <bibl>OR RGB, fond 255, karton 5, no. 2, f. 1. French original.</bibl>
           </note>
         </head>
-        
-        <pb n="f. 1"/>
-        
+
+        <pb n="f. 1" />
+
         <p>Monsieur!</p>
-        <p/>
+        <p />
         <p>Sous le 24. du Mois passé j’eus l’honneur de vous ecrire la lettre ci jointe en copie en
           Faveur de <persName key="p0922" ref="7feaf9a3-2120-4cb0-97a8-733bc2b2fe56">Mr: de
-          Warnesius</persName>, Beau-frere de <persName key="p0927">Mr: de Leykam Referendaire Intime de l’Empire</persName>; Lettre qui aiant été par meprise confiée à la
-          Poste directement, pourra bien s’être égarée.</p>
-        <p>Comme depuis ce Tems j’ai recommandé ce <persName key="p0922" ref="7feaf9a3-2120-4cb0-97a8-733bc2b2fe56">Mr: de Warnesius</persName> à <persName key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Mr: le Ministre de Russie Pce: de
-          Galitzin</persName> par le Billet pareillement ci-joint; et que la Reponse de <persName key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">ce Ministre</persName>, que vous
-          trouverez encore ci-à-coté, conseille à <persName key="p0922" ref="7feaf9a3-2120-4cb0-97a8-733bc2b2fe56">cet officier</persName> de se rendre d’abord
+            Warnesius</persName>, Beau-frere de <persName key="p0927">Mr: de Leykam Referendaire
+          Intime de l’Empire</persName>; Lettre qui aiant été par meprise confiée à la Poste
+          directement, pourra bien s’être égarée.</p>
+        <p>Comme depuis ce Tems j’ai recommandé ce <persName key="p0922"
+            ref="7feaf9a3-2120-4cb0-97a8-733bc2b2fe56">Mr: de Warnesius</persName> à <persName
+            key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Mr: le Ministre de Russie Pce: de
+          Galitzin</persName> par le Billet pareillement ci-joint; et que la Reponse de <persName
+            key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">ce Ministre</persName>, que vous
+          trouverez encore ci-à-coté, conseille à <persName key="p0922"
+            ref="7feaf9a3-2120-4cb0-97a8-733bc2b2fe56">cet officier</persName> de se rendre d’abord
           à l’Armée de <persName key="p0124" ref="820f0254-6e50-437f-a3ae-b94f1140c8e3">Monsr: le
           Comte de Romanzow</persName>: il partira encore ce soir, et aura l’honneur de vous
           remettre Lui même cette Lettre.</p>
@@ -134,21 +153,22 @@
         <p>Je profite avec empressement de cette occasion, pour vous faire mon sincere compliment
           sur la double grace, que LL. MM. II. viennent d’accorder à votre Merite, et suis avec
           beaucoup de Consideration.</p>
-        <p/>
+        <p />
         <p>Monsieur</p>
-        <p/>
-        <p>à <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> le 2. May 1773. Votre très humble et très
-          obeissant serviteur</p>
+        <p />
+        <p>à <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> le 2.
+          May 1773. Votre très humble et très obeissant serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0275" xml:space="default" ref="73c4cfa7-5751-4c9d-8ecb-60b7c396ad1a" type="signature">Kaunitz Rittberg</persName>
-          <hi rendition="#sup"/>
+          <persName key="p0275" ref="73c4cfa7-5751-4c9d-8ecb-60b7c396ad1a"
+            type="signature">Kaunitz Rittberg</persName><note place="foot" n="2">Written in Kaunitz’s own hand.</note>
+          
         </p>
-        <p/>
+        <p />
         <p>à <persName key="p0921" ref="917696ce-1902-4fa0-bcc7-80fe7abfc1d0">Monsr: le Baron de
           Barco</persName>
         </p>
         <noteGrp>
-          <note>Also see:</note>
+          <note>See also:</note>
           <note>ru_niorrgb_255_5_2_0002</note>
         </noteGrp>
       </div>
