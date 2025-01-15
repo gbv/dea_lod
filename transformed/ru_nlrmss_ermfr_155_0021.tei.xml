@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -116,7 +116,7 @@
         <pb n="f. 102" />
         <p />
         <p>26.</p>
-        <p>On lui mande de la défaite</p>
+        <p>On lui mande de la défaite<note place="foot" n="2">In another handwriting.</note></p>
         <p>auprès de <placeName
             key="g0110"
             ref="https://www.geonames.org/792680">Belgrade</placeName> des Turcs par <persName
@@ -137,6 +137,7 @@
             ref="3e0eb3e7-01c2-4d59-8978-e9836e5f0438">Le Comte Volkra</persName> a reçu cette
           nouvelle ce matin par un courrier et je tiens la chose d'origine. Le 21 Août 1717.</p>
         <noteGrp>
+          <note>See also:</note>
           <note>ru_nlrmss_ermfr_155_0001</note>
           <note>ru_nlrmss_ermfr_155_0002</note>
           <note>ru_nlrmss_ermfr_155_0003</note>
