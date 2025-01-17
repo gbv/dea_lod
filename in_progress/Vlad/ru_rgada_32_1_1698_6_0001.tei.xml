@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Letter from Great Ambassador and Boiar Fedor Alekseevich Golovin to the Mayor of Amsterdam Nicolaes Witsen</title>
+        <title type="main" xml:lang="en">Letter from Great Ambassador and Boiar Fedor Alekseevich
+          Golovin to the Mayor of Amsterdam Nicolaes Witsen</title>
         <author xml:lang="en">Fedor</author>
         <author xml:lang="en">Alekseevich</author>
         <author xml:lang="en">Golovin</author>
@@ -94,28 +96,137 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
-        </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 January 1698 [o.s.]. – Letter from <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Grand Ambassador, Boyar Fedor Alekseevich Golovin</persName> , to  <persName key="p0629" ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">the Mayor of Amsterdam, Nicolaes Witsen</persName>
+          <title>21 January 1698 [o.s.]. – Letter from <persName key="p0277"
+              ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Grand Ambassador, Boyar Fedor
+            Alekseevich Golovin</persName> , to  <persName key="p0629"
+              ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">the Mayor of Amsterdam, Nicolaes Witsen</persName>
           </title>
           <note>
             <bibl>RGADA, fond 32, opis 1, 1698, no. 6, f. 1. Draft of a letter in German.</bibl>
           </note>
         </head>
-        
-        <p/>
-        <pb n="f. 1"/>
-        <p> A[nn]o 1688, oder nach unser Rechnung 7206, bey Regierung der <persName key="p0464,p0174">Großmächtigsten Zaaren und Herren von Mosckowien und aller Reissen &amp;c Gebieters Joannis Alexiewitz Petri Alexiewitz Selbsthalters</persName> <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">als</hi> <hi cert="high" generatedBy="human" rendition="#sup" xml:space="default">da</hi>  <hi rendition="#sup">–</hi>zu der zeit<hi rendition="#sup">–</hi> <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">in Gegenwärtig=ckeit</hi> in der <placeName key="g0206" ref="https://www.geonames.org/1489530">Residentz Statt von den Königreich Sybirien</placeName> als ein Gubernator auff order <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">obbe</hi> von höchstgemeldte <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0464, p0174" xml:space="default">Monarchen</persName> der <persName key="p0630" ref="fa1a60f6-8d4f-4ab7-99de-26bf79727823">Bojarin Alexii Petrowitz Golowin</persName> sich befunden; ist diese Cumchen auff diese Manir gefunden. Es ist ein ort in Sybirien welches Samarowskai Jam Genent wird, die Revier Irtisch herunter am Munde dersselben, alwo derselbe sich in die grosse Revier Ob <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">sich</hi> ergiesset, ein wenig höher hinauff auff der selben Revier Irtisch ist eine <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">Grosse oder</hi> sehr Starker lauff des Wassers od[er] Abspülung wie es bey den Strengen Revieren allezeit Gewohnlich daß die Erde darvon abgespület wird, als nun im obbemeldten Jahr im Friling <hi rendition="#sup">–</hi>ein grosser theil von<hi rendition="#sup">–</hi> der Erden von dem Wasser abgespület wurden ist darauf ein Sarg außgefallen mit Einigen Gebeinen von einen vorlängst begrabenen Menschen nebenst welchen auch dieses Cumchen gefunden worden, mit einigen andern Silbernen Sachen welche von den Heiden auff den Häuptern wie auch am Halse und Handen Getragen werden. [es ist aber gedachtes Cumchen anvergüldet gefunden worden] dieses ist die auffrichtige Warheit <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">von</hi>, Sintemahl nach dem Zeugnüß der alten zeit <persName key="p0631" ref="a92dedf3-9ba9-4ea9-889d-85393e8b1f7b">beschreiber Cromeri</persName>, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0632" xml:space="default">Boteri</persName> <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">und</hi>   <persName key="p0633" ref="9c16c2d5-eb6d-4100-ba72-8e97ef742890">Gvagnini</persName> und anderer, haben die uralten völcker bey begräbnüssen vornehmer leite den Gebrauch gehabt daß sie soclhe Geschirre und andere Sachen wie auch Geld <hi rendition="#sup">–</hi>in die Särge<hi rendition="#sup">– </hi>hinein Gelegt. den sie haben gemeinet daß sie einige wohnung in jenem leben haben werde, welches ein Curieser liebhaber der Historien in den <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">Historien</hi> selben zur Genüge lesen wird. dem <persName key="p0629" ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">Herren Bürgermeister und wahren Beschitzer der policei von Amsterdam dem H[errn] H[errn] Nicolaus Witzen</persName>, als meinem libsten Freund und Bruder ist selbiges von mir zuhänden gestelt zur selben Zeit, als ich als ein <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">grosser und gevolmachtigter Ambassadeur –in Holland</persName>
-          <hi rendition="#sup">– </hi>auff order von <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[einer] Z[arischen] M[ayestät]</persName> meinem Gnädigsten Zaren und Herrn gewesen. A[nn]o 1698. d[en] 21. Januarii St[ili] vet[eris]</p>
-        <p>[Along the left margin from bottom to top:] <persName key="p0629" ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">Витцену</persName> 1698 21 генвар[ь]. К отпуском. В.</p>
-        <p/>
-        <pb n="f. 1v"/>
-        <p> Таково писмо писано к <persName key="p0629" ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">Николаю Витцену</persName> от боярина <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Ф[едора] А[лексеевича] Г[оловина]</persName>. Описание о чашке, дареной от него, боярина, <persName key="p0629" ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">Витцену</persName>. С яхты, не доезжая <placeName key="g0122" ref="https://www.geonames.org/2750053">Нимвегена</placeName>.</p>
+
+        <p />
+        <pb n="f. 1" />
+        <p> A[nn]o 1688, oder nach unser Rechnung 7206, bey Regierung der <persName
+            key="p0464,p0174">Großmächtigsten Zaaren und Herren von Mosckowien und aller Reissen
+          &amp;c Gebieters Joannis Alexiewitz Petri Alexiewitz Selbsthalters</persName> <hi
+            rendition="#s">als</hi> <hi rendition="#sup">da<note
+              place="foot" n="2"><hi rendition="#i">Written above the strikethrough:</hi> als. </note></hi><note
+            place="foot" n="3"><hi rendition="#sup">–zu der zeit–</hi> <hi rendition="#i">Written
+          above the strikethrough:</hi> in Gegenwärtig=. <hi rendition="#i">The line below crossed
+          out:</hi> ckeit.</note>  <hi
+            rendition="#sup">–</hi>zu der zeit<hi rendition="#sup">–</hi> <hi rendition="#s">in
+          Gegenwärtig=ckeit</hi> in der <placeName
+            key="g0206" ref="https://www.geonames.org/1489530">Residentz Statt<note place="foot"
+              n="4">
+              <hi rendition="#i">Written above the line.</hi>
+            </note> von<note
+              place="foot" n="5"><hi rendition="#i">Corrected from:</hi> dem.</note> den<note
+              place="foot"
+              n="6"><hi rendition="#i">Entered in the line later. Corrected from: </hi>des.</note>
+          Königreich Sybirien</placeName> als ein<note place="foot" n="7"><hi rendition="#i">Corrected
+          from:</hi> eines.</note> Gubernator<note place="foot" n="8"><hi rendition="#i">Corrected
+          from:</hi> Gubernators.</note> auff order<note place="foot" n="9"><hi rendition="#i">Then
+          crossed out:</hi> obbe.</note> <hi rendition="#s">obbe</hi> von höchstgemeldte <persName
+            key="p0464, p0174">Monarchen</persName> der <persName key="p0630"
+            ref="fa1a60f6-8d4f-4ab7-99de-26bf79727823">Bojarin Alexii Petrowitz Golowin</persName>
+          sich befunden; ist diese Cumchen auff diese Manir gefunden. Es ist ein ort in Sybirien
+          welches Samarowskai Jam Genent wird, die<note place="foot" n="10"><hi rendition="#i">Corrected
+          from:</hi> den.</note> Revier Irtisch herunter am Munde dersselben<note place="foot"
+            n="11"><hi rendition="#i">Corrected from:</hi> diesselben.</note>, alwo<note
+            place="foot" n="12"><hi rendition="#i">Written above the strikethrough:</hi> alwo.</note>
+          derselbe sich in<note place="foot" n="13">
+            <hi rendition="#i">Entered in the line later.</hi>
+          </note> die<note
+            place="foot" n="14"><hi rendition="#i">Corrected from: </hi>den.</note> grosse Revier Ob<note
+            place="foot" n="15"><hi rendition="#i">Then crossed out:</hi> sich.</note> <hi
+            rendition="#s">sich</hi> ergiesset, ein wenig höher hinauff auff der selben Revier
+          Irtisch ist eine<note place="foot" n="16"><hi rendition="#i">Then crossed out: </hi>Grosse
+          oder.</note> <hi rendition="#s">Grosse
+            oder</hi> sehr Starker lauff des Wassers od[er] Abspülung wie es bey den Strengen
+          Revieren allezeit Gewohnlich daß die Erde darvon abgespület wird, als nun im obbemeldten
+          Jahr im Friling<note place="foot" n="17">
+            <hi rendition="#sup"> grosser theil von–</hi>
+            <hi rendition="#i">Written above the line.</hi>
+          </note> <hi rendition="#sup">–</hi>ein
+          grosser theil von<hi rendition="#sup">–</hi> der<note place="foot" n="18"><hi
+              rendition="#i">Corrected from:</hi> die.</note> Erden<note place="foot" n="19"><hi
+              rendition="#i">Corrected from:</hi> Erde.</note> von dem Wasser abgespület wurden ist
+          darauf ein Sarg außgefallen mit Einigen Gebeinen von einen vorlängst begrabenen Menschen
+          nebenst welchen auch dieses Cumchen gefunden worden, mit einigen andern Silbernen Sachen
+          welche von den Heiden auff den Häuptern wie auch am<note place="foot" n="20"><hi
+              rendition="#i">Corrected from:</hi> an.</note> Halse und Handen Getragen<note
+            place="foot" n="21">-t- <hi rendition="#i">is corrected from:</hi> h.</note> werden. [es
+          ist aber gedachtes Cumchen anvergüldet gefunden<note place="foot" n="22"><hi
+              rendition="#i">Corrected from:</hi> gefundet.</note> worden] dieses<note place="foot"
+            n="23"><hi rendition="#i">Corrected from:</hi> diesen.</note> ist die auffrichtige
+          Warheit<note place="foot" n="24"><hi rendition="#i">Then crossed out:</hi> von.</note> <hi
+            rendition="#s">von</hi>, Sintemahl nach dem Zeugnüß der alten zeit <persName
+            key="p0631" ref="a92dedf3-9ba9-4ea9-889d-85393e8b1f7b">beschreiber
+            Cromeri</persName>, <persName key="p0632">Boteri</persName><note place="foot" n="25"><hi
+              rendition="#i">Then crossed out:</hi> und.</note> <hi rendition="#s">und</hi>   <persName
+            key="p0633" ref="9c16c2d5-eb6d-4100-ba72-8e97ef742890">Gvagnini</persName> und anderer,
+          haben die uralten völcker bey begräbnüssen vornehmer leite den Gebrauch<note place="foot"
+            n="26"><hi rendition="#i">Corrected from:</hi> Gebruch.</note> gehabt daß sie soclhe
+          Geschirre und andere Sachen wie auch Geld<note place="foot" n="27">
+            <hi rendition="#sup"> –in die Särge–</hi>
+            <hi rendition="#i">Written above the line.</hi>
+          </note> <hi rendition="#sup">–</hi>in
+          die Särge<hi
+            rendition="#sup">– </hi>hinein Gelegt. den sie haben gemeinet daß sie einige wohnung in
+          jenem leben haben werde, welches ein Curieser liebhaber der Historien in den<note
+            place="foot" n="28"><hi rendition="#i">Then crossed out:</hi> Historien.</note> <hi
+            rendition="#s">Historien</hi> selben zur Genüge lesen wird. dem<note place="foot" n="29"><hi
+              rendition="#i">Corrected from: </hi>den.</note> <persName key="p0629"
+            ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">Herren Bürgermeister und wahren Beschitzer
+          der policei<note place="foot" n="30"><hi rendition="#i">Written above the strikethrough:</hi>
+          Bürgerschaff.</note> von Amsterdam dem H[errn] H[errn] Nicolaus Witzen</persName>, als
+          meinem libsten Freund und Bruder ist selbiges von mir zuhänden gestelt<note place="foot"
+            n="31"><hi rendition="#i">Corrected from:</hi> gesteld.</note> zur selben Zeit, als ich
+          als ein <persName key="p0277"
+            ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">grosser und
+            gevolmachtigter Ambassadeur –in Holland</persName><note place="foot" n="32">
+            <hi rendition="#sup"> –in Holland– </hi>
+            <hi rendition="#i">Written above the line.</hi>
+          </note>
+          <hi rendition="#sup">– </hi>auff
+          order von <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[einer]
+          Z[arischen]
+            M[ayestät]</persName> meinem Gnädigsten<note place="foot" n="33"><hi rendition="#i">Then
+          crossed out:</hi> Herr.</note> Zaren und Herrn gewesen. A[nn]o 1698. d[en] 21. Januarii
+          St[ili] vet[eris]</p>
+        <p>[Along the left margin from bottom to top:] <persName key="p0629"
+            ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">Витцену</persName> 1698 21 генвар[ь]. К
+          отпуском. В.</p>
+        <p />
+        <pb n="f. 1v" />
+        <p> Таково писмо писано к <persName key="p0629" ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">Николаю
+          Витцену</persName> от боярина <persName key="p0277"
+            ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Ф[едора] А[лексеевича] Г[оловина]</persName>.
+          Описание о чашке, дареной от него, боярина, <persName key="p0629"
+            ref="d1cdf391-20e1-47e9-8dd7-4189e6672260">Витцену</persName>. С яхты, не доезжая <placeName
+            key="g0122" ref="https://www.geonames.org/2750053">Нимвегена</placeName>.</p>
       </div>
     </body>
   </text>
