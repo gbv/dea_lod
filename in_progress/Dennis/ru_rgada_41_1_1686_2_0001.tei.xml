@@ -106,7 +106,86 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1686_2_0001.tei.xml?place_annotation_20250122142243668",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-22T13:22:43.668Z",
+	"dcterms:modified": "2025-01-22T13:22:43.668Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1686_2_0001.tei.xml?place_annotation_20250122142243668#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1686_2_0001.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1686_2_0001.tei.xml?place_annotation_20250122142243668#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[11]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/524901",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
@@ -132,7 +211,7 @@
         <pb n="f. 21v"/>
         <p> [si DEUS voluerit] tempore verili hoc est, ab initio Mense Martis absq[ue] dilatione fiduciâ in hoc nitentes, quod et Vestra Magnificentia certior facta de hoc Nostro Tzareæ Maiestatis supra significato instituto, per has Nostras Tzareæ Maiestatis amicas litteras in eundem hostem Christianitatis Turcarum sultanum legiones suas, respectu bellicae impressionis expeditura fuerit in eodem constituto tempore. Nosq[ue] Magni Domini Tzarea Nostra Maiestas animitus desideramus, quô Vestra Magnificentia certior facta de hoc Nostro Tzareæ Maiestatis supra significato instituto per has Nostras Tzareæ Maiestatis amicas litteras in vindictam sui, idem sedulo efficiatis, ac in determinatum tempus exercitibus suis terrâ mariq[ue] bellicam impressionem facere iubeatis, non differendo hoc ad aliud tempus. De hoc Nos Magni Domini Nostra Tzarea Maiestas Cæsareæ Maiestati Romanorum Regiæq[ue] Maiestati Poloniæ in Nostris Tzareæ Maiestatis amicis litteris, atque sive proponere voluimus, nec dubitamus Nos Magni Domini Nostra Tzarea Maiestas, Cæsaream Maiestatem Regiamq[ue] Maiestatem hoc effecturos fore; quia Deo adiuvante respectuq[ue] Christianæ confœderationis, communisq[ue] bellicæ impressionis facile Nobis Magnis Dominis Christianis erit cum confidentia et sine periculo in illo suprascripto et determinato tempore ex omnibus partibus, uti et ex Vestræ Magnificentiæ in hostem illum arma convertere; Qua communi Christiana coniunctura hostis ille superbus (positâ in Deum fiducia) devictus erit, neq[ue] mente sua delectabitur. Hæq[ue] militaris actio in hostem illum non saltem progredietur cum acquisitione bonæ famæ sed et in redemptionem totius Christianitatis à paganis devastantibus invasionibus.</p>
         <p>Ad hoc, promptum Vestrum responsum Nos Magni Domini Tzarea Nostra Maiestas desideramus Vestramq[ue] incolumitatem in tutelam Omnipotentis Domini Dei commendamus ac felicem in regimine rerum successum precamur.</p>
-        <p>Datum in Aula Nostra Imperiali in Imperante Magna Urbe Moscoviâ anno ab orbe condito 7195 mense Novembris Imperii vero Nostri anno.</p>
+        <p>Datum in Aula Nostra Imperiali in Imperante Magna Urbe <placeName key="g0001" ref="https://geonames.org/524901">Moscoviâ</placeName> anno ab orbe condito 7195 mense Novembris Imperii vero Nostri anno.</p>
         <p/>
       </div>
     </body>
