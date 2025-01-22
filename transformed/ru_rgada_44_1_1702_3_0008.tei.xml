@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -104,10 +104,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>
-            3 March 1714. – Invoice submitted by <persName key="p1251">the German merchant
-              Franz Poppe</persName> to the Russian authorities
-            </title>
+          <title> 3 March 1714. – Invoice submitted by <persName key="p1251">the German merchant
+            Franz Poppe</persName> to the Russian authorities </title>
           <note>
             <bibl>RGADA, fond 44, opis. 1, 1702, no. 3, f. 129. German original. Translation from
               German into Russian: RGADA, fond 44, opis 1, 1702, no. 3, f. 128.</bibl>
@@ -124,13 +122,14 @@
           GroßZaar[ischen] Mayestät</persName> und Ordre des <persName key="p1263">H[errn] Obristen
           Jagusinsky</persName> angenom[m]en einen <persName key="p1264">Schifs Zim[m]erman genand
           Christian Groth</persName> und einen <persName key="p1265">Siegelmacher Jochim Möller</persName>
-          auf 2 Jahr nemlich <persName key="p1264">den Schifs Zim[m]erman</persName> zu 24 Rdh p[ro]
-          Monath Gagie und <persName key="p1265">den Siegelmacher</persName> zu 17 Rdh p[ro] Monath
-          /welche den 26 Febr[uary] von hier abgereyset/ vermöge mit denenselben aufgerichteten und
-          geschloßenen Contract, worauf einen jeden vorhero fur zwo Monath Gagie voraus bezahlt, so
-          in <placeName
+          auf 2 Jahr nemlich <persName key="p1264">den Schifs Zim[m]erman</persName> zu 24 Rdh<note
+            place="foot">Here and below: Reichsthaler.</note> p[ro] Monath Gagie und <persName
+            key="p1265">den Siegelmacher</persName> zu 17 Rdh p[ro] Monath /welche den 26 Febr[uary]
+          von hier abgereyset/ vermöge mit denenselben aufgerichteten und geschloßenen Contract,
+          worauf einen jeden vorhero fur zwo Monath Gagie voraus bezahlt, so in <placeName
             key="g0002"
-            ref="https://www.geonames.org/498817">Petersburg</placeName> mußen wieder abverdienet werden, als An <persName
+            ref="https://www.geonames.org/498817">Petersburg</placeName> mußen wieder abverdienet
+          werden, als An <persName
             key="p1264">Christian Groth Schifs Zim[m]erman</persName> fur 2 Monath Gagie a 24 Rdh
           die Monath ..... Rdh 48˶–</p>
         <p>an <persName key="p1265">Jocjim Möller Siegelmacher</persName> p[ro] 2/m<hi
@@ -151,18 +150,21 @@
           Rdh 100˶–</p>
         <p>Und in <placeName
             key="g0094"
-            ref="https://www.geonames.org/554234">Königsberg</placeName> habe ihnen bey <persName key="p0000">
-          H[err]n</persName>
+            ref="https://www.geonames.org/554234">Königsberg</placeName> habe ihnen bey <persName
+            key="p0000">
+            H[err]n</persName>
         </p>
         <p>
           <persName key="p0000">Paul Lafargue</persName> angewiesen Spetie
           ............................................................... <hi rendition="#u">Rdh</hi>
-          <hi rendition="#u"> 100˶–</hi>
+          <hi
+            rendition="#u"> 100˶–</hi>
         </p>
         <p> S[umm]a in Spetie Rdhal:     272˶ 42</p>
         <p>
           <persName key="p1251">Frans Poppe</persName> ./.</p>
         <noteGrp>
+          <note>See also:</note>
           <note>ru_rgada_44_1_1702_3_0007</note>
           <note>ru_rgada_44_1_1702_3_0009</note>
           <note>ru_rgada_44_1_1702_3_0004</note>
