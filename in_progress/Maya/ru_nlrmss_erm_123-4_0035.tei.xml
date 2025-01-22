@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,7 +99,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -110,38 +107,24 @@
       <div type="letter">
         <head>
           <title>
-            22 August 1732. – [Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
-            Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>], from <placeName
-              key="g0001"
-              ref="https://www.geonames.org/524894">Moscow</placeName> to <persName
-              key="p0190"
-              ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">[the Secretary of Russian Embassy in the
-            Ottoman Porte,] Aleksei Andreevich Veshniakov</persName>, to <placeName
-              key="g0018"
-              ref="https://www.geonames.org/745044">
-            Constantinople</placeName>, written on August 22, 1732</title>
+            22 August 1732. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
+            Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>], from <placeName key="g0001" ref="https://www.geonames.org/524894">Moscow</placeName> to <persName key="p0190" ref="3fc3a262-16d9-46a3-81c8-3af74178d18f">[the Secretary of Russian Embassy in the
+            Ottoman Porte,] Aleksei Andreevich Veshniakov</persName>[,] to <placeName key="g0018" ref="https://www.geonames.org/745044">
+            Constantinople</placeName> written on August 22, 1732</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 305v–306v. Copy of Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 305v" />
-        <p>В <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Константинополь</placeName> к <persName key="p0190">Алексею
+        <pb n="f. 305v"/>
+        <p>В <placeName key="g0018" ref="https://www.geonames.org/745044">Константинополь</placeName> к <persName key="p0190">Алексею
           Андреевичю
-            Вешнякову</persName> из <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Москвы</placeName> от 22. августа 1732
+            Вешнякову</persName> из <placeName key="g0001" ref="https://www.geonames.org/524894">Москвы</placeName> от 22. августа 1732
           году писано</p>
         <p>Бл[а]госклоннейшее в[а]ше г[о]с[у]д[а]ря моего писмо </p>
-        <pb n="f. 306" />
+        <pb n="f. 306"/>
         <p> от 22. июля последняго дошло ко мне здесь 15. сего августа, закоторое, также и за
           приятнейшия изображении я вам г[о]с[у]д[а]рю моему благодарствую. Чтож изволите незнамо
-          для чего объявлять якобы я к вам в <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Константинополе</placeName>
+          для чего объявлять якобы я к вам в <placeName key="g0018" ref="https://www.geonames.org/745044">Константинополе</placeName>
           холодность мою показывал, и для того вы меня обегали, я на сие имею честь во ответ донесть
           что вы напрасно о холодности моей мните, и буде вы меня обегали, и то от воли в[а]шей
           Состояло, толкож о том Сожалею понеж чрез объявление обегания своего от меня подаете вид
@@ -154,15 +137,11 @@
           дабы я возмогл показать себя пред вами невинна чрез оправдании мои, которые б могли вас
           удостоверить о непременном почтении моем с которым есм и пребуду etc.</p>
         <p>PS: Je vous prie monsieur d’asseurer </p>
-        <pb n="f. 306v" />
+        <pb n="f. 306v"/>
         <p>
-          <persName key="p0800">Son Excellence mad[a]me l’Ambassadrice de France</persName>, et <persName
-            key="p0801">madame de Tallman</persName> des mes tres humbles respects, et de les
-          remercier de leurs souvenirs, Comme aussi Son Excellence <persName
-            key="p0194">mr: l’ambassadeur d’Angleterre</persName> et les autres messieurs, qui se
-          souvient [sic !] de moy. Les Complimens que je fais à <persName
-            key="p0802">mr: L’Internonce de Tallman</persName> par la voye de <persName
-            key="p0189">mr: nôtre Resident</persName>, je reitere icy en l’asseurant que je suis
+          <persName key="p0800">Son Excellence mad[a]me l’Ambassadrice de France</persName>, et <persName key="p0801">madame de Tallman</persName> des mes tres humbles respects, et de les
+          remercier de leurs souvenirs, Comme aussi Son Excellence <persName key="p0194">mr: l’ambassadeur d’Angleterre</persName> et les autres messieurs, qui se
+          souvient [sic !] de moy. Les Complimens que je fais à <persName key="p0802">mr: L’Internonce de Tallman</persName> par la voye de <persName key="p0189">mr: nôtre Resident</persName>, je reitere icy en l’asseurant que je suis
           veritablement son serviteur; mes Complimens je vous prie à toute sa famille.</p>
       </div>
     </body>
