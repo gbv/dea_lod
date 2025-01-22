@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +97,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -112,35 +109,31 @@
             <bibl>Archivo General de Simancas, Estado, no. 6613, f. 89-91v. Italian original.</bibl>
           </note>
         </head>
-        <pb n="f. 89" />
-        <p />
+        <pb n="f. 89"/>
+        
         <p>Copia del trattato conchiuso tra l’Imperio Russo e la parte degli Augani.</p>
         <p>In nome del Supremo, Omnipotente, e Misericordioso Dio, nottificatione della sussegnente
           conventione.</p>
         <p>
           <persName key="p0222">Sua Imp[eria]le M[ajes]ta Pietro Secondo</persName>, Authocratore
           di tutte le Russie etc: etc: etc: possedendo &amp; le sponde del mare Caspio le Provincie
-          Litorali, appatenenti all’Impreio Russo, e con cio confinando in Persia col felicissimo <persName
-            key="p0998">Dominatore
+          Litorali, appatenenti all’Impreio Russo, e con cio confinando in Persia col felicissimo <persName key="p0998">Dominatore
             d’Ispahan</persName>, et di molte altre terre etc: etc: etc: sono convenuti coll’aiuto
           del Supremo Dio, e della benedetta lega, &amp; trattener’il corso dell’arme, munire di
           pieno potere d’ambe le parti ; dalla parte di <persName key="p0222">Sua Imp[eria]le
-          M[ajes]ta Pietro Secondo</persName>, Authocratore di tutte le Russie etc: etc: etc: <persName
-            key="p0999">l’Ill[ustrisso]mo et Eccell[entissimo]
+          M[ajes]ta Pietro Secondo</persName>, Authocratore di tutte le Russie etc: etc: etc: <persName key="p0999">l’Ill[ustrisso]mo et Eccell[entissimo]
             Sig[nor] Vasily Levaseff</persName> Tenere Generale, C[avalie]r dell’ordine di S[an]t
           Alessandro, supremo commandante delle militie in Ghilan, e supremo Direttore delle
           Provincie giacenti &amp; le sponde del Mare Caspio in Darimarse ; e dalla parte del
           felicissimo <persName key="p0998">Dominatore d’Ispahan</persName>, et altre terre etc:
-          etc: etc: il fidatissimo e stimatissimo Lugotenente delle militie Sapasalar, <persName
-            key="p0000">Muhamet Saidal Han</persName>, e Begler Bei, li stimatissimi et
+          etc: etc: il fidatissimo e stimatissimo Lugotenente delle militie Sapasalar, <persName key="p0000">Muhamet Saidal Han</persName>, e Begler Bei, li stimatissimi et
           ill[ustrissi]mi <persName key="p0000">Mustafiel Hasa Murza</persName>, <persName key="p0000">Muhamet
-            Ismail</persName>, et <persName key="p0000">Amar Saltan</persName>, et il <persName
-            key="p0000">Hadgi Ibrahim</persName>, li quali di commune consenso hanno conchiuso tra
+            Ismail</persName>, et <persName key="p0000">Amar Saltan</persName>, et il <persName key="p0000">Hadgi Ibrahim</persName>, li quali di commune consenso hanno conchiuso tra
           le supreme corti, Regni, Terre et suditi, a beneficio commune, questo vero, sicuro,
           constante, perpetuo et amichevole trattato del quale seguono gl’articoli</p>
         <p>1</p>
         <p> Le terre e Città appartenti ad ambe le supreme </p>
-        <pb n="f. 89v" />
+        <pb n="f. 89v"/>
         <p> parti in Persia, con tutto le loro dipendenre, in alenni Luoghi secondo l’antica
           decisione delli confini et in altri, second’il dovere, et il nuovo stabilimento delli
           detti confini, restarane pra sempre al possesso d’ambe le sudette parti, come qui sotto, è
@@ -157,20 +150,16 @@
           et annullati.</p>
         <p>3</p>
         <p>La decisione delli confini delle Provincie, Terre, e Città con tutte le loro prime
-          dipendenre tra ambe le parti deve esser fatta talmente : comminciando dal Mare di là di <placeName
-            key="g0286"
-            ref="https://www.geonames.org/566532">Derbent</placeName> in tra terra, et di la Sino li fiumi Coura, e le bocche
+          dipendenre tra ambe le parti deve esser fatta talmente : comminciando dal Mare di là di <placeName key="g0286" ref="https://www.geonames.org/566532">Derbent</placeName> in tra terra, et di la Sino li fiumi Coura, e le bocche
           del fuime Aras, secondo la separatione delli confini stabilita in quelle parti colla Porta
           ; e dal fiume Coura sino le bocche del fiume Aras, tutte le Provincie litorali apparatenti
           all’Impreio Russo senza che possino esser interrotte o separate dall’altre Provincie
           litorali &amp; li monti, le Provincie di Musul, Iciaften, e Coutum, e tutt’il Darimars,
           coi loro primi provincia li confini, devono separare et immutabili[zan]te diffendere les
           possessioni d'ambe le parte senza veruna </p>
-        <pb n="f. 90" />
+        <pb n="f. 90"/>
         <p> contradittione et oppositione, e dal fine delle sudette Provincie, passat’il Sciaft,
-          dalli detti confini sino la strada maggiore che giace de Ghilan, verso <placeName
-            key="g0255"
-            ref="https://www.geonames.org/119505">Casbin</placeName>, tra Coutum e Zeitun Rudbara, sino al luogo detto
+          dalli detti confini sino la strada maggiore che giace de Ghilan, verso <placeName key="g0255" ref="https://www.geonames.org/119505">Casbin</placeName>, tra Coutum e Zeitun Rudbara, sino al luogo detto
           Nuglebar, done giace il Ragdarhan, e questo Ragdarhan deve restare alla parte dell’Imperio
           Russo ; e dal Nuglebar e Ragdarhan, passand’il fiume Sebdura, e caminando tra li monti
           dritt[amen]te nel Mahale di Daliman, appo il monte Maclas nel luogo detto Sardab, e di
@@ -185,17 +174,13 @@
           possesso di quella parte : e dal sudetto luogo del treplice confine verso i confini di
           Tenicabun, sino alli dritti e nuovi confini; e dal questo luogo caminando tra i confini
           della Provincia di Tenicabun sino al mare, e questo luogo deve essere la separatione
-          d’ambe le parti : seguitando poi dalli sudetti di là di <placeName
-            key="g0286"
-            ref="https://www.geonames.org/566532">Derbent</placeName>,
+          d’ambe le parti : seguitando poi dalli sudetti di là di <placeName key="g0286" ref="https://www.geonames.org/566532">Derbent</placeName>,
           sino alle Bocche del fiume Aras, ch’il tutto resti second’il vifore del stabilimento che
           s’è fatto in quelle parti circa i confini e dalle bocche del fiume Aras sino la Provincia
           di Coutum, tutte le sudette Provincie </p>
-        <pb n="f. 90v" />
+        <pb n="f. 90v"/>
         <p> e luoghi secondo i primi provinciali confini ; e nella Provincia di Coutum via la strada
-          maggiore che giace tra Ghilan e <placeName
-            key="g0255"
-            ref="https://www.geonames.org/119505">Casbin</placeName>, tra Coutum e
+          maggiore che giace tra Ghilan e <placeName key="g0255" ref="https://www.geonames.org/119505">Casbin</placeName>, tra Coutum e
           Zeitun Rudbara sino al luogo di Nuglebar e Ragdarhan, e da Nuglebar e Ragdarhan, sino al
           luogo Sardab ; e da Sardab sino al sudetto luogo del triplice confine, e dal luogo del
           triplice confine, sino alli confini di Tenicabun che sono sopra li monti dove compariscono
@@ -205,8 +190,7 @@
           Imp[eria]le
             M[ajes]ta di tutte le Russie </persName> : e la parte destra in fra terra che resti al
           possesso del felicissimo <persName key="p0998">Dominatore d’Ispahan</persName> e di molte
-          terre in Persia, et al Dominio d’Ispahan : peró che gl’homini della parte del felicissimo <persName
-            key="p0998">Dominatore
+          terre in Persia, et al Dominio d’Ispahan : peró che gl’homini della parte del felicissimo <persName key="p0998">Dominatore
             d’Ispahan</persName> e di molte terre sino la perfetta rattificatione di questa
           benedetta lega e pace, non possino sotto qual si sia pretesto ingerirsi ne con fatti, ne
           con scritti, nelli sudetti luoghi.</p>
@@ -218,7 +202,7 @@
         <p>5</p>
         <p>Nelle lettere amichevoli d’ambe le parti deveno esser’espressi i dovuti titoli e termini,
           e se l’uno dei supremi dominatori d’ambe le parti </p>
-        <pb n="f. 91" />
+        <pb n="f. 91"/>
         <p> vuorà inscrire nelli supremi suoi Titoli, li nomi delle Provincie di Persia che
           gl’appartengono, sopra cio sia fatto un forte stabilimento ; che l’una di quelle parti non
           possi inscrire nelli suoi Titoli, i Titoli e l’arme delle Provincie e terre ch’
@@ -241,7 +225,7 @@
           della dogana secondo dl’atichi costumi e leggi senza essigerne di piu ; e che li suditi
           della Russia possino libramente e sicuramente a beneficio loro esercitare la mercantia per
           tutti il Regno </p>
-        <pb n="f. 91v" />
+        <pb n="f. 91v"/>
         <p> e terre della Persia, et ui fabricare Case, Carvansarai, Magasini e Botteghe per la loro
           dimora, et i lor’effetti, ugualmente che possino libram[en]te e sicuramente con li
           lor’effetti e con le caravane passare per il regno della Persia per incaminarsi verso
@@ -261,9 +245,7 @@
           pace si sono fatti doppi instrumenti uniformi d’ambe le parti dalle sudette
           plenipotentiarie persone, in virtu del pieno potere ch’hanno, i qualli furono sotto se
           ritti di proprio pugno, muniti dei loro sigilli, e recipprocamente permutati. In Ghilan,
-          nel luogo <placeName
-            key="g0287"
-            ref="https://www.geonames.org/118743">Riasc</placeName> @ : 13: febraro, l’anno del signore
+          nel luogo <placeName key="g0287" ref="https://www.geonames.org/118743">Riasc</placeName> @ : 13: febraro, l’anno del signore
           1729. </p>
       </div>
     </body>
