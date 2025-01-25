@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,24 +94,24 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>15 September 1711. – Letter from the Russian consul in Venice Demetrio Bozzis to
-            Tsar Peter I</title>
+          <title>15 September 1711. – Letter from <persName key="p1366">the Russian consul in Venice Demetrio Bozzis</persName> to
+            <persName key="p0174">Tsar Peter I</persName></title>
           <note>
             <bibl>RGADA, fond 41, opis 1, 1711, no. 2, f. 51-52. Russian translation; Greek
               original: ibid., f. 50-50v.</bibl>
           </note>
         </head>
-        <pb n="f. 51" />
-        <p />
+        <pb n="f. 51"/>
+        <p/>
         <p>Из Венецыи от Димитрия Боцыса к великому Г[осу]д[а]рю</p>
-        <p />
+        <p/>
         <p>С[вя]щеннейшее Цесарское Величество</p>
         <p>Из разных мест получили мы ведомости о победе, и славном мире Величества Вашего, тишайший
           Ц[а]рь, обстоятелства мирныя и договоры не суть явны. И хотя некоторые от страны
@@ -122,7 +119,7 @@
           намерения своего, однако ж правда на верху, и раздирает д[у]ши и слышя и немогшися
           отрещися что король швецкий не имеет участия в постановлении мирном. О которой ведомости
           зело все радуемся </p>
-        <pb n="f. 51v" />
+        <pb n="f. 51v"/>
         <p> и м[о]л[и]м г[оспо]да Б[о]га да направит царския В[а]ши стопы в благополучие
           христианскому народу.</p>
         <p>З братом моим Анастасием, котораго послал я на почте, писал тогда по должности моей что
@@ -131,7 +128,7 @@
           обращение их, как слышно по ведомости о мире будет, потому что, как пишут, идут на них
           един сераскер и двое пашей с войною на разорение их, и так великое кровопролитие тем
           хр[ис]тиянам будет, что арагяне и учинят на образец другим. Пишут, </p>
-        <pb n="f. 51" />
+        <pb n="f. 51"/>
         <p> что бунтовныя те войска доведався о мире, и о марше на себя тех пашей и сераскера,
           заарестовали всех главных зачинщиков бунта с таким намерением, ежели турки на них придут,
           то получя себе от них пардон, выдадут тех зачинщиков туркам. Отчего жертва будет веры
@@ -140,8 +137,8 @@
         <p>Из Венеции В[а]шего С[вя]щенноцесарского </p>
         <p>сентября 15 Величества верный и нижайший раб</p>
         <p>1711 Димитрий Боцис</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <noteGrp>
           <note>See also:</note>
           <note>ru_rgada_41_1_1711_2_0003</note>
