@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">Letter from the Saxon Resident in The Haag, Johann Heinrich
@@ -163,8 +162,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Here follows the encrypted text which is only partially decrypted. Only decrypted part is transcribed."
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://stable.leafwriter.users.h-da.cloud",
@@ -177,8 +175,7 @@
         </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
     </profileDesc>
-  </teiHeader>
-  <text>
+  </teiHeader><text>
     <body>
       <div type="letter">
         <head>
@@ -201,9 +198,9 @@
           que les lettres de <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> du 12. Nous ont aporté, je
           prens cependant la liberté d’en joindre ici la Copie. Il paroit singulier qu’un billet
           ecrit par ce Prince à son <persName key="p0107" ref="50766d94-7efd-473a-9b9f-54d63a20ebd2">Ministre
-          d’Etat</persName> soit devenu publié. il l’a été communiqué à Zihas lang Il est aisé de
+          d’Etat</persName> soit devenu publié. [from here, follows the encrypted text which is only partially decrypted] il l’a été communiqué à Zihas lang Il est aisé de
           juger dans quelle vûe …manez...il… ant … que l’on ne sera ni en Allemagne ni dans le Nord
-          dupe de cet artifice grossier<note>Here follows the encrypted text which is only partially decrypted. Only decrypted part is transcribed.</note>. </p>
+          dupe de cet artifice grossier. [end of the encrypted text]</p>
         <p> Les Anglo Prussiens comptent les heures et les momens pour recevoir la nouvelle de
           l’Evénement decisif qu’ils attendent de la Moravie. Jusqu’ici leur attente a été un peu
           deconcertée. <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Le Roi de
@@ -260,7 +257,7 @@
           <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> 19. May 1758:</p>
         <p>De M<hi rendition="#sup">r</hi>. Kauderbach</p>
         <noteGrp>
-          <note>Also see:</note>
+          <note>See also:</note>
           <note>ru_rgada_1263_1_1588_0001</note>
           <note>ru_rgada_1263_1_1588_0002</note>
           <note>ru_rgada_1263_1_1589_0002</note>
@@ -273,5 +270,4 @@
         </noteGrp>
       </div>
     </body>
-  </text>
-</TEI>
+  </text></TEI>
