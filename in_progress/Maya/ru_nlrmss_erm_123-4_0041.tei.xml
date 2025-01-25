@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,46 +99,30 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>2/13 December 1732. – [Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
-            Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>,] from <placeName
-              key="g0002"
-              ref="https://www.geonames.org/498817">St. Petersburg</placeName> to <persName
-              key="p0687"
-              ref="6275cea2-0a0e-47f4-95c7-8d6afcae83a4">[the Vice-President of the Aulic War
-            Council,] Count [Joseph Lothar] of Königsegg-Rothenfels</persName>, to <placeName
-              key="g0005"
-              ref="https://www.geonames.org/2761367">Vienna</placeName> , written on 2/13 December 1732, through <persName
-              key="p0297">[the Russian Minister in Vienna, Ludwik] Łączyński</persName>
+          <title>2/13 December 1732. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
+            Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>,] from <placeName key="g0002" ref="https://www.geonames.org/498817">St. Petersburg</placeName> to <persName key="p0687" ref="6275cea2-0a0e-47f4-95c7-8d6afcae83a4">[the Vice-President of the Aulic War
+            Council,] Count [Joseph Lothar] of Königsegg-Rothenfels</persName>[,] to <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienna</placeName> , written on 2/13 December 1732, through <persName key="p0297">[the Russian Minister in Vienna, Ludwik] Łączyński</persName>
           </title>
           <note>
-            <bibl>NLR Mss, fond Erm., no. 123-4, f. 357. Copy of French original.</bibl>
+            <bibl>NLR Mss, fond Erm., no. 123-4, f. 357. Copy of the French original.</bibl>
           </note>
         </head>
-        <pb n="f. 357" />
-        <p>В <placeName key="g0005" ref="https://www.geonames.org/2761367">Вену</placeName> к <persName
-            key="p0687">графу фон Киниксеку</persName>
-          из <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">С[анкт-]П[етер]бурха</placeName> от 2/13 декабря 1732 году
+        <pb n="f. 357"/>
+        <p>В <placeName key="g0005" ref="https://www.geonames.org/2761367">Вену</placeName> к <persName key="p0687">графу фон Киниксеку</persName>
+          из <placeName key="g0002" ref="https://www.geonames.org/498817">С[анкт-]П[етер]бурха</placeName> от 2/13 декабря 1732 году
           писано чрез <persName key="p0297">Ланчинского</persName>.</p>
-        <p>J’ay reçeu à mon retour de <placeName
-            key="g0018"
-            ref="https://www.geonames.org/745044">Constantinople</placeName> la Lettre
+        <p>J’ay reçeu à mon retour de <placeName key="g0018" ref="https://www.geonames.org/745044">Constantinople</placeName> la Lettre
           que V[otre] E[xcellence] m’a fait l’honneur de m’écrire en dernier Lieu. Je ne saurois
           trouver des Termes assez forts pour exprimer la joye que j’ay lorsque je me trouve honnôré
           du souvenir de V[otre] E[xcellence]. Je me renferme donc dans le silence, et dans la
-          Reconnoissance que je Luy dois, et à <persName
-            key="p0803"
-            ref="300aed95-c7ae-4f67-9193-f8e7795ecd01">Son Ex[cellen]ce Madame la Comtesse</persName>
+          Reconnoissance que je Luy dois, et à <persName key="p0803" ref="300aed95-c7ae-4f67-9193-f8e7795ecd01">Son Ex[cellen]ce Madame la Comtesse</persName>
           pour son gracieux souvenir. Etant tres-persuadé que V[otre] E[xcellence] par sa Bonté
           n’entendra pas indifferremment les Nouvelles qui me regardent j’ay l’honneur de luy dire
           que graces à Dieu me voilà delivré des Musulmans avec succes tant en Commission dont j’ay
@@ -150,9 +131,7 @@
           Etat, et dans tel Endroit que je sois; V[otre] E[xcellence] me trouvera toujours
           reconnoissant, et sensible de toutes ses bontés, et prêt d’embrasser toutes les occasions
           pour la Convaincre du profond respect, avec lequel j’ay l’honneur d’être. etc.</p>
-        <p>PS: Je supplie tres-humblement V[otre] E[xcellence] de me permettre d’asseurer <persName
-            key="p0803"
-            ref="300aed95-c7ae-4f67-9193-f8e7795ecd01">Son Ex[cellen]ce madame la
+        <p>PS: Je supplie tres-humblement V[otre] E[xcellence] de me permettre d’asseurer <persName key="p0803" ref="300aed95-c7ae-4f67-9193-f8e7795ecd01">Son Ex[cellen]ce madame la
           Comtesse</persName> son Epouse de mes tres-humbles respects. etc.</p>
         <noteGrp>
           <note>Also see:</note>
