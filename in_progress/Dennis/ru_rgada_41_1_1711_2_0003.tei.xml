@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,21 +97,100 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20250125182512055",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-25T17:25:12.055Z",
+	"dcterms:modified": "2025-01-25T17:25:12.055Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20250125182512055#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1711_2_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1711_2_0003.tei.xml?place_annotation_20250125182512055#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/title/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3164603",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1 August 1711. – Letter from Venice dated 1 August 1711 from Demetrio Bozzis to His
+          <title>1 August 1711. – Letter from <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603">Venice</placeName> dated 1 August 1711 from <persName key="p1366">Demetrio Bozzis</persName> to His
             Majesty with congratulations on entering the Walachian and Muntian lands</title>
           <note>
             <bibl>RGADA, fond 41, opis 1, 1711, no. 2, f. 9-9v. Greek original.</bibl>
           </note>
         </head>
-        <pb n="f. 9" />
-        <p />
+        <pb n="f. 9"/>
+        <p/>
         <p>Ἱερωτάτη Καισαριαία Μεγαλειότης.</p>
         <p>Греческое</p>
         <p>К велико[му] Г[о]с[у]д[а]рю из Венеции августа о[т] 1 дня, 1711 [году] из Венеции о[т]
@@ -131,7 +207,7 @@
           οἰκουμένης. Ἄμποτε ἡ πλουσιόδωρος δεξιὰ τοῦ Σωτῆρος Χριστοῦ νὰ ὑπερασπίζῃ, καὶ νὰ
           συναγωνίζεται μὲ τὸν εὐσεβέστατον ὑμέτερον στρατὸν, ἕως ὁποῦ νὰ ἰδῆ ὁ κόσμος θριαμβεύουσαν
           τὴν ὑμετέραν ἱερωτάτην </p>
-        <pb n="f. 9v" />
+        <pb n="f. 9v"/>
         <p> μεγαλειότητα εἰς τὴν περιβότητον Κωνσταντινούπολιν, τὸ ὁπόσον ἐλπίζομεν νὰ ἰδοῦμεν
           ταχέως γνωρίζοντες ὀφθαλμοφανῶς πῶς εἶναι θεία πρόνοια, ὁποῦ κινεῖ τοσαῦτα καὶ τοιαῦτα
           εὐσεβῆ στρατεύματα, καὶ θεία εὐσπλαγχνεία, ὁποῦ ἐπισκέπτει τῶν ὀρθοδόξων τὴν δέησιν. Ἐν τῷ
@@ -140,7 +216,7 @@
           αὐτοκρατορικῆς ... βασιλείας, εὐλαβῶς ὑπογράφομαι</p>
         <p>εἰς Βενετίαν 1711 Αὐγούστου πρώτῃ.</p>
         <p> Τῆς Ὑμετέρ. Ἱερωτάτης Καισαρίας Μεγαλ.</p>
-        <p />
+        <p/>
         <p>Ταπεινότατος, εὐλαβέστατος πιστότατος καὶ ἐλάχιστος δοῦλος</p>
         <p> Δημήτριος ὁ Μπότζης.</p>
         <noteGrp>
