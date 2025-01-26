@@ -394,6 +394,85 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20250126180108590#Selector",
 			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[6]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20250126180217334",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-26T17:02:17.334Z",
+	"dcterms:modified": "2025-01-26T17:02:17.334Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20250126180217334#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_4_0002.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_4_0002.tei.xml?place_annotation_20250126180217334#Selector",
+			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[6]/placeName[2]"
 		}
 	},
@@ -439,8 +518,8 @@
           собственною его рукою, и котораго прилагаю при сем перевод по которому можно видеть, что
           оную статую он <persName key="p1387">кардинал Отобони</persName> по возвращении <persName key="p1394">кардинала Албани</persName> в <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим</placeName> всеконечно
           освободит.</p>
-        <p>К тому ж и г[оспо]д[и]н агент Беклемишев прежде сего ответа из <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима</placeName> прошлой недели за то
-          же дело в Рим поехал, за наилутчую к В[ашем]у В[еличест]ву услугу, котораго иа римским
+        <p>К тому ж и <persName key="p1392">г[оспо]д[и]н агент Беклемишев</persName> прежде сего ответа из <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рима</placeName> прошлой недели за то
+          же дело в <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим</placeName> поехал, за наилутчую к В[ашем]у В[еличест]ву услугу, котораго иа римским
           приятелям рекомендовал, и хотя б путешествия его в <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Рим</placeName> не было, то б г[оспо]д[и]н кардинал
           Отобони по возвращении кардинала Албани </p>
         <pb n="f. 11v"/>
