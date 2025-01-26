@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Pro-memoria presented by Earl of Hyndford to the Russian
+          Ministry 1 July 1748 on the certificate for merchant Martov's vessels and on the Siberian
+          iron affair</title>
+        <title type="main" xml:lang="fr">Pro-memoria du C[omt]e de Hyndford au Ministère de Russie
+          du 1er Juillet 1748. sur le certificat pour les vaissaux du marchand Martoff &amp; sur
+          l'affaire du fer de Siberie</title>
+        <author xml:lang="en">John</author>
+        <author xml:lang="en">Carmichael,</author>
+        <author xml:lang="en">Earl</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Hyndford</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1 / 12 July 1748. – Pro-memoria presented by Earl of Hyndford{{p0776}} to the
+            Russian Ministry 1 July 1748 on the certificate for merchant Martov's vessels and on the
+            Siberian iron affair</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-111, s.f. French copy</bibl>
+          </note>
+        </head>
+        <p>Pro memoria.</p>
+        <p>Le soussigné Ambassad[eu].r Extraord[inai]re &amp; Plenip[otentiai]re de S[a]. M[ajesté].
+          le Roi de la Grande Bretagne ne doutant point, que Leurs Ex[cellen]ces n’ayent en souvent
+          lieu de remarquer, que Sa Cour{{o0002}} ne cherche rien avec tant d’empressement qu’à
+          entretenir la bonne amitié, qui subsiste si heureusement entre le Roi son Maître{{p0063}}
+          &amp; S[a]. M[ajesté]. l’Imperatrice{{p0052}}, &amp; à avancer en particulier &amp; faire
+          fleurir reciproquement le commerce des deux Nations, il n’a pas voulu manquer de Leur
+          envoyer ci-joint le certificat, qu’Elles lui ont demandé par Leur Pro memoria du 29. Juin
+          en faveur du marchand Russe Affanasey Martoff{{p2086}}.</p>
+        <p>Cependant le soussigné ne sauroit se dispenser de mettre cette occasion à profit pour
+          prier encore LL. EE. avec toutes les instances, qui lui sont possibles, de vouloir bien,
+          consideré que quelques vaisseaux Anglois sont déja arrivez ici pour être chargez du fer de
+          Siberie dû aux marchands interessez dans le contract fait il y a quelques années, &amp;
+          que d’autres sont en chemin pour le même effet, tacher de disposer S[a]. M[ajesté].
+          I[mpériale].{{p0052}} à mettre très gracieusement la derniere main à cette affaire, &amp;
+          à prévenir par là ces bonnes gens de venir se jetter eux-mêmes aux pieds de S[a].
+          M[ajesté]. I[mpériale].{{p0052}} pour La suplier très humblement de les sauver d’une ruine
+          entiere, qui ne peut que resulter d’un plus long delai de la signature de l’ordre au
+          College des mines{{o142}}, qui puisse l’autoriser à leur faire delivrer la quantité
+          proportionnée de ce fer, que le soussigné a demandé si souvent, &amp; qu’il demande encore
+          à l’Imperatrice{{p0052}} par ce Pro Memoria avec tout le dû &amp; profond respect.</p>
+        <p>S[ain]t <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersbourg</placeName>, le 1<hi rendition="#sup">er</hi>
+          Juillet 1748.</p>
+        <p />
+        <p>Copie</p>
+        <p>Pro-memoria du C[omt]e de </p>
+        <p>Hyndford au Ministère </p>
+        <p>de Russie </p>
+        <p>du 1er Juillet 1748. </p>
+        <p>sur le certificat pour les vaissaux </p>
+        <p>du marchand Martoff{{p2086}} &amp; sur l’affaire du fer de Siberie</p>
+        <p />
+        <p>in L[or]d Hyndford{{p0776}} 5 July 1748.</p>
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-111_0010</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

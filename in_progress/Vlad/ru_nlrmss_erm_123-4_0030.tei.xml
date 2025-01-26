@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Letter from the Russian Envoy Extraordinary to the Ottoman
+          Porte, Prince Ivan Andreevich Shcherbatov,] from Constantinople to [the Vice-President of
+          the Imperial War Council,] Count [Joseph Lothar] of Königsegg-Rothenfels, to Vienna,
+          written on November 19, 1731</title>
+        <title type="main" xml:lang="ru">В Вену к графу Кониксеку из Константинополя от 19. ноября
+          1731 году писано</title>
+        <author xml:lang="en">Ivan</author>
+        <author xml:lang="en">Andreevich</author>
+        <author xml:lang="en">Shcherbatov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>19 November 1731. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
+            Ottoman Porte, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName key="g0018" ref="https://www.geonames.org/745044">Constantinople</placeName> to <persName key="p0687" ref="6275cea2-0a0e-47f4-95c7-8d6afcae83a4">[the Vice-President of the Imperial War
+            Council,] Count [Joseph Lothar] of Königsegg-Rothenfels</persName>, to <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienna</placeName>, written on November 19, 1731</title>
+          <note>
+            <bibl>NLR Mss, fond Erm., no. 123-4, f. 187. Copy of French original.</bibl>
+          </note>
+        </head>
+        
+        <pb n="f. 187"/>
+        <p> В <placeName key="g0005" ref="https://www.geonames.org/2761367">Вену</placeName> к <persName key="p0687" ref="6275cea2-0a0e-47f4-95c7-8d6afcae83a4">графу Кониксеку</persName> из <placeName key="g0018" ref="https://www.geonames.org/745044">Константинополя</placeName> от 19. ноября 1731 году писано.</p>
+        <p>Peut-être que V[otre] E[xcellence] sera surpris d’entendre que je me trouve icy, mais en
+          meme Temps j’ose me flatter qu’Elle prendra quelque part à mon egard, ayant Consideré
+          qu'il n-y-a point icy des-apresent ni peste, ni rebellion, et que je Compte de me retirer
+          d’icy sans perdre de Temps; outre cela j’ay la Consolation d’avoir rencontré icy <persName key="p0802">mr: l’Internonce Tallman</persName> un vray honnet homme, qui me Comble
+          d’honnetetes et des Politesses. Il se loüe tellement de vos bontés que je ne puis pas
+          laisser passer cette occasion sans en donner part à V[otre] E[xcellence]. Au reste je la
+          supplie tres-humblement d’être tres-persuadé que personne au monde n’est plus sensible que
+          moy à tous Les honnetetes que j’ay experimenté de vous pendant que j’ay eu l’avantage de
+          le voir, et de croire que j’ay l’honneur d’etre avec un profond respect. etc.</p>
+        <p>PS: J’ay encore une grace à demander de V[otre] E[xcellence]. C’est de me permettre
+          d’asseurer <persName key="p0803" ref="300aed95-c7ae-4f67-9193-f8e7795ecd01">madame La
+          Comtesse</persName> vôtre Epouse des mes respects. etc.</p>
+        <noteGrp>
+          <note>Also see: </note>
+          <note>ru_nlrmss_erm_123-4_0012</note>
+          <note>ru_nlrmss_erm_123-4_0041</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Claudius Rondeau to Count Heinrich Ostermann</title>
+        <author xml:lang="en">Claudius</author>
+        <author xml:lang="en">Rondeau</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>15 October 1731. – Letter from <persName key="p0165">the British Resident in Russia, Claudius Rondeau</persName>, to
+            <persName key="p0167">the Vice-Chancelor of the Russian Empire, Count Heinrich Ostermann</persName>
+          </title>
+          <note>
+            <bibl>AVPRI, fond 35, opis 1, no. 540, f. 12–12v. French original.</bibl>
+          </note>
+        </head>
+        
+        <pb n="f. 12"/>
+        
+        <p>
+          <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> ce
+          15me October 1731. V.S.</p>
+        <p>A son Excellence Mons[ieu]r Le <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">Comte d’Osterman</persName>
+        </p>
+        <p>Monsieur</p>
+        <p>Ayant passé cet après midy chez votre Excellence, &amp; comme je n’ay pas eû l’honneur de
+          la trouver chez elle, j’ay crû ne devoir pas tarder de lui faire savoir par celle-cy, que
+          j’ay reçû ce matin, la lettre de creance qu’il a plû au <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy</persName> de m’envoier, avec le
+          caractere de Resident, qui montrera le dessire ardent qu’elle a de vivre dans une parfaite
+          amitié, &amp; bonne intelligence, avec </p>
+        <pb n="f. 12v"/>
+        <p>
+          <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cette Cour</orgName>,
+          &amp; le <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy mon maitre</persName>
+          se flate qu’on nommera de la part d’ici en même tems, un ministre pour aller en
+          Angleterre, afin de montrer les mêmes bonnes dispositions de la part de la Russie.</p>
+        <p>J’espere que la premiere fois, que j’aurai l’honneur de voir votre Excellence, j’aurai la
+          satisfaction d’apprendre d’elle, qui sera nommé pour aller en Angleterre, afin que je
+          puisse assurer <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">ma Cour</orgName>
+          que celle-cy repond parfaitement à l’attente du <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy mon maitre</persName>. Je suis avec
+          beaucoup de respect</p>
+        <p>De Votre Excellence</p>
+        <p>Monsieur</p>
+        <p>Le très humble &amp; très obéïssant serviteur</p>
+        <p>
+          <persName key="p0165" ref="fe0fba0a-6d68-4106-8925-02582562d0f0">Claudius Rondeau</persName>
+        </p>
+        <noteGrp>
+          <note>See also: ru_avpri_35_1_562_0001</note>
+          
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

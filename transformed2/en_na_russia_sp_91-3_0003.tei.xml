@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from Charles II to Feodor Alexeievich</title>
+        <author xml:lang="en">King</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">England,</author>
+        <author xml:lang="en">Scotland</author>
+        <author xml:lang="en">and</author>
+        <author xml:lang="en">Ireland</author>
+        <author xml:lang="en">Charles II</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>December 1681. – Letter from <persName key="p1329">Charles II</persName> to <persName
+              key="p0461">Feodor Alexeievich</persName>
+          </title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-3, f. 336-339. Latin copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 336" />
+        <p>Carolus Secundus Dei Gratia Magna Britannia, Francia et Hibernia Rex, Fidei Difensor etc.</p>
+        <p>Charissimo Fratri Nostro Celcissimo, Potentissimo et Illustrissimo Principi, Magno
+          Domino, Imperatori, et Magno Duci, Theodoro Alexeowich, Magnae, Parvae, et Albae Russiae,
+          autocratori etc. Moscoviae, Kioviae, Valedimiriae, Novogorodeae, etc. Regi Cazaniae, Regi
+          Astrachaniae, Regi Seberiae, Domino Plescoae, Magno Duci Smolensciae, Twerskoae,
+          Ugorskoae, Permskoae, Vatskoae, Bolgarskoae,Domino et Magno Duci Novogorodiae ni
+          inferioribus Chernegoskiae Regonibus Rezanskoae, Rostovskoae, Condenskiae, ut et Plagae
+          Septentrionalis, Summo Praefecto et Domino Regionis Everskoae, Regi Cattelenskiae et
+          Grosenskiae, ut et Regionis Caberdenskiae et Duci Chercaskiae et Egorskiae, aliarum
+          permultarum Ditionum et Regionum tam orientalium et occidentalium quàm septentrionalium,
+          Hares Paternus et Avitus, Dominus et Posessor, Salutem plurimam dicit, et omnimodam
+          prosperitatem et gloriam apperecatur. Illustissime Princeps, nec non dilectissime et
+          charissime Frater, Quum aliis Literis Nostris, Caesarae Vraee Majestatis Legato Petro
+          Ivanwich Potemkin{{p0606}} traditis testati sumus, quantum cupimus intemeratam perpetuam
+          cum Casarae Vestra Ma[jesta]te Amicitiam colere, eandem Coronis et Subditis invicem
+          Nostris utilem reddere, Caesareae Vestrae Majestati hisce etiam commemorandum duximus
+          quantis incommodis Subditi Nostri per Caesareae Majestatis Ditiones Mercaturam facientes
+          gravati fuerint plenissimi confisi. Ipsam tum pro singulari quâ melare siei Iustitiam </p>
+        <pb n="f.           337" />
+        <p> Tantisper vero donee Caesarea V[est]ra Ma[jes]tas, fidem ab ejusdem Caesareae V[est]rae
+          Ma[jes]tis Patre{{p0267}} circa gravamina illa vollenda, praestiterit quod quidem brevi
+          effectumiri speramus à Caesarea Vestra Majestate id contendendu duximus ut firmo in
+          perpetuum duraturo Rescripto Praefectis et Teloniorum Ministris in <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Portu
+          Archangeli</placeName> agentibus edicere vellet, ut subditis Nostris sit libera facultus
+          cum Personis Mercimoniis &amp; nondum divenditis, <placeName
+            key="g0001"
+            ref="https://www.geonames.org/524894" />
+          libere adire adeo &amp; per universas Caesareae V[est]rae Ma[jes]tis Dictiones, prout
+          Ipsis consultum et visum fuerit, transire Mercimonia sua, in corum illue transitu aut in <placeName
+            key="g0001"
+            ref="https://www.geonames.org/524894" /> ipsa prout illud Ipsis magis commodium videbitur commutare.</p>
+        <p>Iidem Subditi Nostri porrò queruntur quod, initis de satis magno Coriorum numero Pactis,
+          haud Ipsis licitum est codem in Registro Vestro Telonario refere quo unico juxta Caesareae
+          V[est]rae Ma[jes]tis Leges Pacta omnia, confirmatur nisi cadem majori pretio censeantur,
+          quam reapse divendita fuerit, undefit, ut moradecem aut quatuordecim dierum Ipsis fit,
+          priusquam in re mercatoria proficere possint; id quod eâ anni tempestate, in maximum
+          corundem Navibus damnum cedere solet, quod et vectigalium Vestrorum Ministros maxime
+          constat.</p>
+        <p>Subditi etiam nostris mercatoram facientibus porrò obstaculum fit [?] fieri intelligimus
+          ex eo quod Praefecti, et alii Caesareae V[est]rae Ma[jes]tis Ministri ibidem agentes
+          Ipsorum operarios et Servos etiam in mediis Ipsorum negotiis versantibus subducunt unde
+          fit ut </p>
+        <pb n="f. 338" />
+        <p> necessum Ipsis sit condicto pretio Ipsos redimere.</p>
+        <p>Significatum insuper Nobis est, haud fas esse Navius Nostrarum Praefectis Cerevisiam
+          carundem usui necessariam decoquere, quin innò coguntur ejusce modi accipere qualis
+          Praefecti Vetre Ipsis proponere et constituere visum sit, ex eo itaque fit, ut non satis
+          ea de re diligenti ut navibus cerevisia provideatur habitâ curâ perplures dies moram in
+          persequendo itinere navali trahere coguntur, non sine ingenti subditorum Nostrum, ibi
+          Locorum negotiantium sumptu.</p>
+        <p>Insuper ad Nos delatum est Ministros Vestros in Portu Archangeli agentes Tributa Subditis
+          Nostris quotannis imponere pro circulis ad dolia cingenda comparatis, Lignis &amp;
+          focalibus, cos etiam Naucleros Ipsorum Navibus praeficere qui parum vel usu vel
+          experientia navali valent, id quod antea Navium praefectis licitum fuit, vel accipere vel
+          recusare, prout Ipsis rectuis visum fuerit.</p>
+        <p>Instituta etiam apud Nos querela est per dilectum Subditum Nostrum Sameuelem
+          Meverall{{p1960}} qui quidem ut vivus corporis que integer maneat, maximam Pecuniae vim,
+          nonagies scilicet et mille Thaleros persolvere coactus, imò impulsus fuerit, auditâ licet
+          Ipsius causâ coram Caesareae V[est]rae Ma[jes]tis Patre{{p0267}}, imperato desuper
+          aquissimo decreto, id quod ex Caesareae V[est]rae Ma[jes]tis Literis, majore suo sigillo
+          munitis et coram expositis abunde nobis constat. Quamque etiam ingratiam, ab ejusdem
+          Samuelii Meverall indicatum fuerit assessoribus curia Legationum Caesareae V[est]rae
+          Ma[jes]tis ab ipsa ad exterarum quarum cumque Gentiam causas exaudiendas deputatis,
+          quendam hominem cui nomen Mintor est Ipsi exobiturum Roblos plus minus 2000. </p>
+        <pb n="f. 338v" />
+        <p>
+          Ipsi quidem homines qui pro eodem Meverall{{p1960}} ad eam iusque summam
+          consponsoresfuerant eisdem 2000 Roblis planè frustrati sunt ex eo eadem causa in aliam
+          curiam evocantur. Quapropter prout Caesaream V[est]raem Ma[jes]tem inpensias rogamus, ut
+          ejusdem Meverelli{{p1960}} causam revideri curet eum nempe in finem, ut Jus et Restitutio
+          Ipsi fiat, prout Caesareae V[est]rae Ma[jes]ti aquum videbitur ; Ita nobismet omnisio
+          pollicemur, uti, cum Caesareae V[est]rae Ma[jes]tis Decessor celebratissimus Sibditos
+          Nostros eis omnibus Privilegiis exui, ad io scilicet justissimè adductus quod Subditi
+          Nostri debitum Patri Nostro beatissime Memoriae obsequium detrectârunt, eadem etiam
+          Justitia et rationum momenta Caesareae V[est]rae Ma[jes]tem permovebunt ea Ipsis reddere
+          Privilegia utpote qui pacifico et falici Regimini Nostro se jam obim subjecere et à tantis
+          incommodis que per universas Caesareae V[est]rae Ma[jes]tis Ditiones patiuntur
+          Clementissimo Vestro Edicto quanta cijus liberare quo quidem non solum Caesarea V[est]ra
+          Ma[jes]tas solennibus saepuisque repetitis Promissis Charissimi Fratris nostri Alexii
+          Micaelowich{{p0267}} Patris beatissimae memoriae Vestri, tenerrimaeque et sacrosancta
+          commendationi apud Vos ab intermoritur factae, satisfaciet, verum etiam Nos Subditos que
+          fidelis Nostros eisdem amicitiae Testimoniis universim officiet quae inter Gentes sanctum
+          Christi nomen profitentes usu venire solent quaeque è re omnisio sunt ad conservandam
+          sempiternam integerrimam que amicorum Conjunctionem in mutuum etiam Imperialium Nostrarum
+          Coronarum Commodum et utilitatem </p>
+        <pb n="f. 339" />
+        <p> cedituram. Quod reliquum est, Caesareae Vestrae Ma[jes]ti vitam longevam, faelicitatem
+          omnibus numeris absolutam, prosperrimos que Regni Eventus, Ipsi ex animo et quam sincere
+          apprecantes. Eandem Regimen que suum Dei Omnipotentis Tutelae et Patrocinio commendamus.
+          Dabantur apud Palatinum Nostrum Regale in Civitate Nostrâ Regiâ Westmonasteriensi.</p>
+        <p>Die mensis Decembris Anno reparatae salutis 1681. Regni autem Nostri 33tio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

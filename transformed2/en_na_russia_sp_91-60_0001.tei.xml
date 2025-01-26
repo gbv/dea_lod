@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Chancellor of the Russian Empire, Count
+          Aleksei Petrovich Bestuzhev-Riumin, to a British Minister </title>
+        <author xml:lang="en">Aleksei</author>
+        <author xml:lang="en">Petrovich</author>
+        <author xml:lang="en">Bestuzhev-Riumin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>7 / 18 March 1755. – Letter from the Chancellor of the Russian Empire, Count
+            Aleksei Petrovich Bestuzhev-Riumin{{p0017}}, to a British Minister</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-60, s.f. French original</bibl>
+          </note>
+        </head>
+        <p>Monsieur,</p>
+        <p />
+        <p>Comme je n’ai encore reçu aucune reponse sur la lettre, que j’ai eu l’honneur de Vous
+          ecrire par Ordre exprès de l’Imperatrice Mon Auguste Souveraine{{p0052}} du 30. Juillet
+          l’année passé, je ne puis m’empecher de Vous en faire ressouvenir par celle ci, d’autant
+          plus, que les Idées, que je Vous ai communiquées Monsieur dans ma dite lettre touchant le
+          rappel de Monsieur de Guydickens{{p1439}} et pour qu’il soit remplacé par Mylord Comte de
+          Hyndford{{p0776}} en qualité d’Ambassadeur du Roy, n’avoient d’autre but que l’avancement
+          des Interêts reciproques des deux Cours. Et je suis presque convaincû que comme l’arrivée
+          d’un Ministre aussi distingué par Son Caractére et par tant des negociations importantes
+          qu’il a terminées à Sa Gloire, ne scauroit qu’augmenter la bonne harmonie entre les deux
+          Cours en augmentant les bontés que le dit Mylord avoit deja acquises de
+          l’Imperatrice{{p0052}} la negociation qui traine encore jusqu’ici, sans prevoir cependant
+          les succés, devroit deja beaucoup avancer.</p>
+        <p>Et quoique je ne doute pas que Sa Majesté le Roy de la Grande Bretagne{{p0063}} ne
+          veuille bien faire cette Complaisance à Sa Majesté Imperiale{{p0052}} pour Luy temoigner
+          de nouveau la sincerité de Son Amitié, d’autant plus que la Cour de Vienne{{o0023}} n’a
+          pas hesité un moment d’envoyer ici une seconde fois le Baron de Pretlack{{p2047}}, sitôt
+          que nous avons paru souhaiter de l’avoir ici ; je ne puis cependant me dispenser de Vous
+          prier Monsieur, de vouloir bien Vous employer auprès de Vôtre Cour{{o0002}}, pour nous y
+          procurer une prompte reponse et le plaisir de revoir ici le plutôt que possible Mylord, le
+          Comte de Hyndford{{p0776}}.</p>
+        <p>J’ai l’honneur d’etre</p>
+        <p>Monsieur </p>
+        <p>Votre très humble</p>
+        <p>et obéïssant serviteur </p>
+        <p>C[omte]: A[leksei]. Bestoucheff{{p0017}}</p>
+        <p>St <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>
+        </p>
+        <p>Le 7. du Mars 1755.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

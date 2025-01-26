@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Resident of Great Britain to Russia, George
+          Mackenzie, to Tsar of Russia Peter I </title>
+        <author xml:lang="en">George</author>
+        <author xml:lang="en">Mackenzie</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 December 1714 / 6 January 1715. – Letter from the Resident of Great Britain to
+            Russia, <persName key="p1338">George Mackenzie</persName>, to <persName key="p0174">Tsar
+            of Russia Peter I</persName>
+          </title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-8, s.p. French original</bibl>
+          </note>
+        </head>
+        <p>Sire</p>
+        <p />
+        <p>Le soussigné Resident et Ministre de la Grande Bretagne aïant plusieurs fois déja notofié
+          à Son Grand Chancelier le Comte de Galoffkin{{p0071}}, qu’on ne Lui ait point encore
+          assigné soit un Quartier, Priviliegesou autre argéements stipulez aux Ministres
+          reciproquement qui sont à la Cour de l’une ou de l’autre des deux Couronnes. Ce qu’Il a
+          taché pourtant de caler [ ?] en diferant jusques icï d’en donner la moindre connoissance à
+          sa Cour{{o0002}}, ou en mêmes de prendre la liberté d’en rien témoigner à Votre Majesté
+          Czarienne ; mais puisque par l’Exposé ci-joint, il est evident, que l’on ne pourroit être
+          reduit à des plus grandes Extremitez, et que le Soussigné ne craigne à cette heure rien
+          tant, qu’Il n’ait en outre une Reproche d’ÿ avoir contribué par un Silence trop affecté,
+          Il se donne maintenant lhonneur de representer à Votre Majesté ; que comme ces ci-dessus
+          franchises et aises <hi rendition="#u">son t en Suite d’une Convention publique et
+            mutuelle</hi> ; et que Ses Ministres ne laisseront point d’avoüer qu’Ils les trouvent
+          déja prêtes à leur arrivée, et non pas comme l’on objecte, <hi rendition="#u">accordées en
+          consequence de leur Audience</hi>, ou differées jusques à ce qu’Ils soïent reconnûs. Aussi
+          Il espere qu’apres tout ce qu’Il a souffert par la Rigeur de cette Saison, des attentats
+          de niot sur Sa maison, les preuves qu’Il a montrées des Son Egard <hi rendition="#u">par
+          une attente de redresse en ces quatre Moïs
+            qu’Il est icï</hi>, que Votre Majesté Czarienne vueïlle bien donner Ordre qu’Ils soit
+          dedommagé du passe, et à l’avenir traité sur un pied, qu’Il ne saura <hi rendition="#u">que
+          pretendre de
+            droit</hi>, sans manquer à Ses devoirs. Quand mêmes il ne fut plus fondé en cette
+          demande, qu’en ce qu’il est de fait, qu’Il avoit offerte Sa Creditive au Chanc[elie]r
+          Comte de Galoffkin{{p0071}}, bien de jours <hi rendition="#u">avant l’arrivée de lettre
+          formelle de
+            notification de la <persName key="p0668">Mort de la Reine</persName>
+          </hi>; que par Nôtre Constitution, l’on
+          savoit parfaitement bien ici, que <hi rendition="#u">Ses Commissions subsisteroient pour
+          Six Mois en apres </hi>et par conséquent <hi rendition="#u">tous les droits à ceux</hi>,
+          qui avoient l’honneur d’en être revetûs.</p>
+        <p>Puisque c’est de mêmes qu’on ait repondû jusques icï à Ses Remontrances, de ce qu’Il fût
+          volé à <placeName
+            key="g0430"
+            ref="https://www.geonames.org/509542">Pillowa</placeName>, l’Etage au-delà de <placeName
+            key="g0431"
+            ref="https://www.geonames.org/545129">Coporio</placeName> ;
+          Le Soussigné presume, que Vôtre Majesté Lui agréera la liberté qu’Il ÿ prend de
+          representer, qu’ÿ aïant requis au Nom de Votre Maj[est]é qu’en vertu de Son Passeport,
+          tant le Soi disant Commissaire, que le bas Officier qui s’ÿ trouvoit, de faire rendre une
+          Coffre à l’homme, qu’il avoit vû l’arracher ; et que l’un et l’autre aïant refusez de le
+          faire, <hi rendition="#u">apres Vingt
+            duccats d’Or qu’Il leur offrit en
+            recompense</hi>, que Votre Maj[est]é Czarienne Lui permettra à cette heure de recourir
+          très humblement comme Il fait, à Son Équité, pour le recouvrement de passe deux Cent
+          Rubles d’effets, qu’Il n’ÿ a perdûs, que sur la bonne foi de l’hospitalité, qu’Il se
+          persuade d’être inviolable sous l’Autorité de Votre Majesté.</p>
+        <p>J’ai l’honneur d’être avec un profond Respect</p>
+        <p>Sire</p>
+        <p>De Vôtre Majesté Czarienne</p>
+        <p>Le très humble et très obeïssant Serviteur</p>
+        <p>George Mackenzie{{p1338}}</p>
+        <p>Fait à <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersbourg</placeName> ce 26.<hi rendition="#sup">e</hi>
+          de Decembre</p>
+        <p>V[ieux] S[tyle]1714</p>
+      </div>
+    </body>
+  </text>
+</TEI>

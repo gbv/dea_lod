@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy Extraordinary to the Lower
+          Saxony Imperial Circle, Aleksei Semenovich Musin-Pushkin to the Russian Envoy
+          Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Aleksei</author>
+        <author xml:lang="en">Semenovich</author>
+        <author xml:lang="en">Musin-Pushkin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13/24 July 1761. – Letter from <persName key="p0108"
+              ref="32691d34-6532-462c-8a63-5b9e098e0dac">the Russian Envoy Extraordinary to the
+              Lower Saxony Imperial Circle, Aleksei Semenovich Musin-Pushkin</persName> , to <persName
+              key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary
+            to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 2260, f. 7–7v, 8v. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 7" />
+        <p>Monsieur!</p>
+        <p> La lettre que Votre Excellence m’a fait l’honneur de m’envoÿer avec la traduction de la
+          Declaration de <persName key="p0161" ref="63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roÿ</persName>
+          au <orgName key="o0051" ref="d620d504-77e3-4ba8-8561-e3d7182cd387">Conseil</orgName> m’ a
+          été renduë hier par les <persName key="p0367" ref="8e52a01e-30b4-4430-be67-81f204f2a753">Ministre
+          Imperiale</persName>, dont l’envellope et une depeche à l’adresse de <persName key="p0008"
+            ref="3b7cb6fc-a3aa-4e12-8b80-dec4ea4a7dda">M<hi rendition="#u">
+              <hi rendition="#sup">r</hi>
+            </hi> d’Asch</persName> ont eté ouverts et même
+          fort sensiblement. Je croÿs devoir en avertir V[otre]. Ex[cellen]<hi rendition="#u">
+            <hi rendition="#sup">ce</hi>
+          </hi> afin qu’Elle ordonne de faire passer ses
+          lettres sous un autre adresse ou par une autre voÿe detournée.</p>
+        <p>Je ne puis pas avoir l’honneur de l’entretenir sur les details des affaires du 15. et du
+          16.<hi rendition="#sup">me</hi>, la suposant à l’heure qu’il en<hi rendition="#sup"> etre </hi>informée
+          de source; les relations françaises nous manquent encore jusqu’ a present. Il ne me reste
+          que d’avoir celuÿ de luÿ dire que les Suedois ont ouvert cette campagne par se rendre d’<placeName
+            key="g0171" ref="https://www.geonames.org/2956018">Anclam </placeName>et de <placeName
+            key="g0318" ref="https://www.geonames.org/2938284">Bemin</placeName>. Leurs operations
+          produisent la delivrance de Mecklenbourg des trouppes Ennemies</p>
+        <pb n="f. 7v" />
+        <p> qui ne s’occupaient qu’ a en achever les ruine.</p>
+        <p> Mes dernieres lettres de l’Armée sont de Balsco: celles de Pom<hi rendition="#s">n</hi>ranie
+          marquent qie le <persName key="p0124" ref="820f0254-6e50-437f-a3ae-b94f1140c8e3">C<hi
+              rendition="#sup">te </hi>Roumianzoff</persName> est allé avec son<hi rendition="#s">s</hi>
+          Corps joindre la Grande Armée. Il parait donc comme s’il n’etait plus question de siege de <placeName
+            key="g0083" ref="https://www.geonames.org/3095795">Colberg</placeName>, quoique notre
+          flote au nombre de 27. vaisseaux de ligne, commdée [sic] par <persName key="p0450"
+            ref="dd9f78ca-a81e-439f-8f51-dc15611d9d9d">l’Amiral
+            Polianskÿ</persName>, aÿant été il y a 10 jours à la Rade de <placeName key="g0014"
+            ref="https://www.geonames.org/3099434">
+            Dantzig</placeName>, en soit partie, pour aller bloquer cette forteresse; elles est
+          accompagnée de quelques galiotes de bombes et sufisament munie de la grosse artillerie
+          pour cette entreprise</p>
+        <p> et j’ay l’honneur d’etre avec la consideration la plus parfaits</p>
+        <p>Monsieur</p>
+        <p>Votre tres humble et trés obeissant </p>
+        <p>serviteur</p>
+        <p>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
+            key="p0108" xml:space="default" ref="32691d34-6532-462c-8a63-5b9e098e0dac"
+            type="signature">A[lexis] Moussine Pouchquine</persName>
+        </p>
+        <p>
+          <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName>
+        </p>
+        <p>ce 24/13 Juillet</p>
+        <p>1761./.</p>
+
+        <pb n="f. 8v" />
+        <p />
+        <p>
+          <placeName key="g0011" ref="https://www.geonames.org/2911298">Hambourg</placeName> 13/24
+          Juillet 1761</p>
+        <p>
+          <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">M<hi rendition="#sup">r</hi>.
+            Moussine Pouchquine</persName>
+        </p>
+        <noteGrp>
+          <note>Also see other letters from Gount Aleksey Semyonovich Musin-Pushkin to Prince
+            Aleksandr Mikhailovich Golitsyn:</note>
+          <note>ru_rgada_1263_1_2258_0001</note>
+          <note>ru_rgada_1263_1_2258_0002</note>
+          <note>ru_rgada_1263_1_2260_0001</note>
+          <note>ru_rgada_1263_1_2260_0003</note>
+          <note>ru_rgada_1263_1_2260_0004</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Translation of the letter from Cardinal Ottoboni to Count
+          Savva Vladislavich</title>
+        <title type="main" xml:lang="ru">Перевод с писма писаннаго графу Саве Владиславичу от
+          господина кардинала Отобони</title>
+        <author xml:lang="en">Pietro</author>
+        <author xml:lang="en">Ottoboni</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>20 October 1719. – Translation of the letter from cardinal Ottoboni to Count Savva
+          Vladislavich</title>
+          <note>
+            <bibl>RGADA, fond 41, opis 1, 1719, no. 4, f. 13-13v. Russian translation.</bibl>
+          </note>
+        </head>
+        <pb n="f. 13" />
+        <p />
+        <p>Перевод с писма писаннаго графу Савве Владиславичу от г[оспо]д[и]на кардинала Отобони</p>
+        <p>Из Рима октября 20: 1719 году</p>
+        <p>Превосходителнейший г[оспо]д[и]не</p>
+        <p>Долженствую ответствовать на два писма В[а]шего Прев[осходительст]:ва 5: и 26: прошлаго
+        м[еся]ца, что иа доныне не учинил, с намерением уведомить вас купно с ответом о моей
+        операции по вашему прошению. Того для уповаю что вы не поставите мне в погрешение таковое
+        опоздание. Респект и почитание которое имеет сей двор и Его Ц[а]р[ск]:ое В:[еличест]во суть
+        утверждением от таких добрых сентиментов, что иа твердо надеюся, будут угодны и Его
+        В[еличест]:ву и В[аше]:му Пр[евосходительств]:у понеже ваш мерит за протекцию показанны
+        мисионарам католикам и за намерение которое и впред имеете во еже континуати им свое
+        споможение, велми почтение от Его Святей[шества] от всей сакры коллегии. Но образ по
+        которому стороною вывозити знатну статую преизнес трудности неизреченные понеже было противу
+        закона и регулы сей державы. Иа имел в руках сие дело когда уже было в пагубе, и надлежало
+        приставить все мои силы дабы оное привесть в добрый термин, в котором ныне обретается :
+        понеже добрыя намерения мне данные обнадеждуют мене подлинно освободить желаему статую, с
+        возвращением в Рим, что вкратце будет следовать, господина кардинала камерленга Албани, [?]
+        в доброй услуге оказанной Его В[еличест]:ву и [?] В[аше]:му Пр[евосходительств]:у что и
+        впред во всяком ином случае чинить буду трудитися. И могу вас асигуровать, что Его
+        В[еличест]:во все обрящил то, что некоторой иный монах хотя католик не мог бы обресть. И
+        тогда восприйму честь репликовати другое писмо, послыаю оное Пр[евосходительств]:у В[аше]:му
+        ради надежной [?] по своей доброти как благонадежно мне [?] благодаря В[аше]:му
+        Пр[евосходительств]:у из глубины всех моих чувств, за старание Ваше о припоминании моего
+        перваго писма, которым просил у Его В[еличест]:ва одну милость, а обрящание той милости
+        учинило б безсмертное имя Его В[еличест]:ва при сем дворе. А о реплике, что я Его
+        В[еличест]:ву учиню будет объявлено В[аше]:му Пр[евосходительств]:у понеже оную пошлю за
+        оттворчетою печатью дабы и Вы по своей доброти с Вашим ходотайством по случаю возпомогли мои
+        прошения. Благодарю В[аше]: Пр[евосходительств]:о за Ваши одолгателны эспресионы, прошу дабы
+        приставили мене в добрую м[и]л[ос]ть Его Ц[а]р[ск]:ого В:[еличест]ва которое зело почитаю.
+        Предлагая Вам мой респект, пребываю вседушно</p>
+        <p> В[а]шего Превосходительства</p>
+        <p>Следует постскриптум писанное своеручно.</p>
+        <p>Поверь мне В[аше]: Пр[евосходительств]:о что толико в сем как и во всяком ином случае буду
+        поспешествовати со всякою синчеритате и прилежностию В[а]шим желаниям и указаниям Его
+        В:[еличест]ва и с партиколарною удобностию Его Святейшества, который </p>
+        <pb n="f. 13v" />
+        <p> вчера вечером прислал ко мне своего племянника г[оспо]д[и]на Дон Карла Албани протестовать
+        мне великий долг, который имеет и Его В:[еличест]ву за богатые м[и]л[о]сти показанные
+        н[а]шим мисионарам и Николаю Микети моему архитектору, который имеет честь быти при дворе
+        Ц[а]р[ск]:ого В:[еличест]ва и так любезно призрен. Иа не хощу оставить В[аше]:
+        Пр[евосходительств]:о в кориозитати, м[и]л[о]сть которую желаю от того монарха состоит о
+        вывозе из Щвеции тела Святой Бригиды, где обретается зело храняема и поставить оное в сию
+        мою славную ц[е]ркву Св[я]таго Лоренца в Дамазе, куды она святая будучи жива ходила зело
+        часто, и имела един алтарь (который еще хранится) партикулярного своего моления, токмо
+        надлежало б (а ще получится вышереченное тело) оное от туду где обретается со всяким
+        прилежанием, за крепкою печатью Его В:[еличест]ва и какого нибу[дь] священника
+        католическаго, дабы по прибытии сюды невозможно было сумневатися о истинной бытности онаго,
+        и дабы со всякой иасностию возможно б было поставить ея на всенародное поклонение. Сия есть
+        тая великая м[и]л[о]сть, которую я осмелился просить у Его В:[еличест]ва и рекомендовал
+        Николаю Микети прежде его поезду как и во всяком писме что ему пишу. Но авторитат В[аше]:го
+        Пр[евосходительств]:а будет акомпагнованное мое прошение ко двору с таким добрым окончанием,
+        что иа уже принужден быти твердо надежным сей дело желаемой м[и]л[о]сти. Случай зело
+        исправный был сие чинить по сильном разорении учиненном во Щвеции оружиями Его В:[еличест]ва
+        по что не учинена чрез силу можно б сполнить с пречестным ходатайством Его В:[еличест]ву а
+        ще мир заключен. Учиню или одною или другою [?] в сей фондамент в одном монархе одолжающим
+        великодушием парепотентным, и в одном ходатать толико ценном, и толико склонном жаловать
+        мене, который есть В[аше]:го Пр[евосходительств]:а который есмь пребываю всегда</p>
+        <p> Подписанно В[аш]: слуга Cardinale Otthoboni</p>
+        <noteGrp>
+          <note>See also:</note>
+          <note>ru_rgada_41_1_1719_4_0002</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

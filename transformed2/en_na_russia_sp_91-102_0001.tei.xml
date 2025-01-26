@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the minister plenipotentiary of Russia to Great
+          Britain, Aleksei Semenovich Musin-Pushkin, to Earl of Suffolk</title>
+        <author xml:lang="en">Aleksei</author>
+        <author xml:lang="en">Semenovich</author>
+        <author xml:lang="en">Musin-Pushkin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>14 January 1778. – Letter from the minister plenipotentiary of Russia to Great
+            Britain, Aleksei Semenovich Musin-Pushkin{{p0108}}, to Earl of Suffolk{{p2078}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-102, f. 18-18v. French original</bibl>
+          </note>
+        </head>
+        <pb n="f. 18" />
+        <p> My lord, </p>
+        <p>Dans cet Instant même j’aprens avec la plus vive Joye l’heureuse Délivrance de Son
+          Altesse Imp[éria]le Madame la Grande Duchesse{{p0439}} d’un Prince{{p0897}} le 12/23
+          Decembre. J’eusse été moy même My Lord Vous porter cette trop agreable nouvelle, si la
+          fievre qui m’a repris avanthier, ne m’obligeait absolument à garder ma Maison, sur tout
+          après des Symptomes d’Inflamation dans le Sang assés dangereux pour risquer à sortir par
+          le temps qu’il fait. Je prens My Lord la liberté de vous suplier de vouloir bien informer
+          Sa Majesté </p>
+        <pb n="f. 18v" />
+        <p> le Roy{{p0161}} d’un Evenement aussi important pour la Russie, persuadé comme j’ose
+          l’etre d’avance, que Sa Majesté{{p0161}} de même que toute Sa Cour{{o0002}} y prendra une
+          juste Part.</p>
+        <p>Il ne tiendra pas au reste aux menagemens que je garderai, que je ne fasse à [?] de Vous
+          faire My Lord ma Cour Lundi prochain ayant l’honneur d’etre tousjours avec la
+          consideration aussy sincerem[en]t sentie que très distinguée</p>
+        <p>My Lord</p>
+        <p>De Votre Excellence</p>
+        <p>Henriette St[reet].</p>
+        <p>Cavendish Squ[are]</p>
+        <p>ce 14<hi rendition="#sup">e</hi> Janv[ie].r 1778.</p>
+        <p>Le très humble &amp; le très</p>
+        <p>obeissant Serviteur</p>
+        <p>A[leksei] Moussin Pouschkin{{p0108}}.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en">Answer to the Points deliverd in by the British Ambassador</title>
+        <author xml:lang="en">Gavriil</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Golovkin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>10 June 1712. – Answer to the Points deliver’d in by the British Ambassador{{p1255}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-7, f. 295-295v. English copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 295" />
+        <p> Answer to the Points deliver’d in by the British Ambassador{{p1255}}</p>
+        <p />
+        <p>As to what relates to the Commerce &amp; free Trade <hi
+            rendition="#u">in Livonia, &amp; other Places belong</hi>
+          <hi
+            rendition="#u">ing to the Czar{{p0174}} on the East Sea</hi> ; His Majesty{{p0174}} is not yet sufficiently inform’d how those matters stand, or what was practic’d in the time of the Swedish Regency, &amp; therefore cannot take any resolution here ; but as soon as ever he gets to <placeName
+            key="g0015"
+            ref="https://www.geonames.org/456172">Riga</placeName>, He will direct the necessary accounts to be laid before Him &amp; let the Ambassador know his pleasure hereafter : On which occasion the Ambassador may be assured, that as the Czar{{p0174}} always had a very particular regard for the Queens person &amp; friendship, he will do every thing on his Part, which may be agreable to Her Majesty{{p0668}}, advantageous to Her Subjects, or any ways proper to advance the Trade in his Dominions. This is what His Majesty{{p0174}} thought necessary should be represented to the Ambassador, hoping that on his side would likewise continue to use his best endeavours, for maintaining &amp; further improving a Constant Friendship &amp; good Correspondence between the Czar {{p0174}} and Her Majesty{{p0668}}.</p>
+        <p>Given at <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersburgh</placeName> the 10<hi
+            rendition="#sup">th</hi> of June 1712</p>
+        <p>Sign’d			Count Gollofkin{{p0071}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

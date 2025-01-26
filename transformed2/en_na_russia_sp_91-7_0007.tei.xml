@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+        <author xml:lang="en">Garthside</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>[Before 27 May 1712]. – Summary of the Proposals given into the Senate of Mosco, by
+            one Garthside, a British factor</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-7, f. 310-311v. English copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 310" />
+        <p> Summary of the Proposals given into the Senate of Mosco{{o0058}}, by one
+          Garthside{{p2015}}, a British factor</p>
+        <p />
+        <p>That Garthside &amp; Company{{o0138}} should have free liberty without any restraint, to
+          build ships of what burthen or nature they pleased in any Part of Russia, with all manner
+          of Vessels proper <hi rendition="#u">for the Fishery in the White Sea</hi>, &amp; to cut
+          all sorts of Fir timber fit for that service, &amp; especially Masts of all Sises ; to
+          erect saw Mills, Iron Forges, &amp; other works relating to ship building, &amp; Masting,
+          to make Docks Wet &amp; Dry, Havens, &amp; Harbours.</p>
+        <p>That they would undertake to bring from beyond sea, Master builders, Carpenters, Block
+          makers, Mast makers, Rope Masters, Carvers, Joyners, Officers, &amp; Sailors for the said
+          ships, &amp; that they would teach the Czar’s Subjects the method of building &amp;
+          navigating, for which purpose eight hundred young Russes should be furnished them for ten
+          years, the Company{{p0138}} fending their subsistence, &amp; paying 800 Dollars a year
+          into the Treasury during that time : That such as had Capacity should be put to learn the
+          Trades under the Forreign Masters, &amp; the rest bred up officers &amp; sailors ; That
+          after they had serv’d three years in the Vessels to be employ’d on the Fishery a hundred
+          should be sent yearly to the Company{{o0138}} in England, to perfect themselves in other
+          Voyages, &amp; these to be chang’d from time to time.</p>
+        <p>That they would erect schools for teaching Navigation, Mathematichs, &amp;c &amp; build
+          Hospitals for their sicks.</p>
+        <pb n="f. 310v" />
+        <p> That they would erect Rope walks, &amp; hd the sole liberty of making &amp; exporting
+          Cordage.</p>
+        <p>That they would set up a Manufacture of sail Cloath, &amp; Linnen Cloath, on Liberty of
+          buying weedash &amp; Tar from the Peasants any where in the Government of Archangel, for
+          the use of these Manufactures, &amp; exporting these mainly [?] on a moderate Custome.</p>
+        <p>That they would set up Furnaces, Forges, &amp; all sorts of works, for Achors, Nails,
+          Guns, Powder, and have the exportation Custome free.</p>
+        <p>That they would erect works for making Soap, &amp; Refining Sugar.</p>
+        <p>That they would have the sole liberty of brewing Beer in <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName>,
+          &amp; exporting malt from thence.</p>
+        <p>That free liberty should be given them to purchase &amp; export all sorts of Provisions.</p>
+        <p>That a thousand Peasants should dbe furnish’d them yearly, for building the said works at
+          two Copeeks (being less then three half pence) a day.</p>
+        <p>That all their Prentecies, &amp; these Peasants should not be taken for soldiers, or any
+          other service in consideration of which exemption, they should pay the same duty as other
+          Burghers, &amp; the Company{{o0138}} would furnish His Majesty{{p0174}} with fifty
+          Dragons, their Horses and Accountrements.</p>
+        <p>For better employing the said ships people, the Company{{o0138}} further demands, that
+          500 pudes of Iszing glap be deliverd them yearly out of the Treasury, at a set Price.</p>
+        <p>That they have liberty to fish for whales, sea Horse, seals, Cod, Salmon, &amp; all other
+          sort of fish </p>
+        <pb n="f. 311" />
+        <p>
+          <hi rendition="#u">in the Czars seas, That is from River Pechinkan to the
+            Streights of Weygats</hi>, or to purchase all sort of Fish, Oyl, or blubber, in those
+          seas, &amp; to prepare them on the Coasts of Lapland &amp;c.</p>
+        <p>The sole liberty of seeking for &amp; exporting the Roof Marona, the use whereof has not
+          been known here.</p>
+        <p>The sole liberty of making &amp; exporting yearly two hundred Fats of the best Cavear,
+          two thousand Fats of Potash, &amp; two thousand fats of Weedach, with the sole exportation
+          of Hempseed &amp; Flaxseed.</p>
+        <p>The liberty of cutting yearly 180 Masts of the largest Size, &amp; the sole exportation
+          of them, &amp; whatever number they think fit for lesser proportions, with all sorts of
+          Deal bords, Planks, Balks, yards, or Bruses, That these be onely sent on ships built in
+          Russia, &amp; man’d by the Czars Subjects.</p>
+        <p>The free liberty of purchaseing all other sorts o Comodities, on the same footing, with
+          the Natives.</p>
+        <p>The liberty to trade throu Moscovy to Persia &amp; China, &amp; to Ship all or any of the
+          Goods above mention’d, from any Port in the East Sea, as well as <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">
+          Archangel</placeName>.</p>
+        <p># That to carry on this Project the Company{{o0138}} would erect a Bank at <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName>.</p>
+        <p>That they would deliver yearly 400 pude of Dollars &amp; 6/m pude of Copper 200/m
+          Arshines of Cloath 6/m pieces of Pennistones 8/m pude of Tobacco &amp; 2/m Berquets of
+          Lead, all which would amount to 357/m Rubles ; But the Dollars &amp; Copper alone when
+          coyn’d down into the mony of this Country as at present, would produce the said sum of
+          357/m Rubles ; by which method the other goods would come free into the Treasury. That for
+          this </p>
+        <pb n="f. 311v" />
+        <p> purpose they demande one third Part, or an hundred and nineteen thousand Rubles, to be
+          immediately advanced them, &amp; the remaining <hi rendition="#s">to</hi> two thirds or
+          238/m Rubles in 1713 when the Dollars &amp; Copper should be coin’d.</p>
+        <p>That the Profit of these Dollars, with others which they propose to pay for their Custome
+          &amp; Exoprtations, would amount to 4 or 500/m Rubles yearly.</p>
+        <p>That in consideration hereof, they demand a Remission of Custome on their Exportations to
+          the value of 100/m Rubles for the first five years, &amp; the Confirmation of their
+          Privileges for thirty years from the 1<hi rendition="#sup">st</hi>: of Jan[uary] 1713.</p>
+        <p>That they would erect another Bank at <placeName
+            key="g0010"
+            ref="https://www.geonames.org/2759794">Amsterdam</placeName>and
+          deliver for His Majestys accounts under Forreign names, 400/m Gilders at six <hi
+            rendition="#s">p</hi> cent for ten years ; That Dollars should be purchased for this sum
+          sent in specie to <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName>, coin’d down into Russ
+          miny, &amp; remitted back yearly according to the course of the Exchange ; which at end of
+          the said ten years would produce 1,149 300, Rubles, whereof 213026 Rubles being repaid to
+          the Company{{o0138}} for their Principle &amp; Interest, these would remain a fund of
+          936,274 Rubles clear gains to the Czar{{p01740}}.</p>
+        <p>That they would erect an office in <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">Archangel</placeName> for
+          insuring al goods &amp; ships sailing from thence, that the mony for the Insurance should
+          be paid by Bills in England or Holland, &amp; remitted to <placeName
+            key="g0001"
+            ref="https://www.geonames.org/524894">Mosco</placeName>
+          in specie for the mint, to clear profit of which, with probable deduction allow’d for loss
+          of ships &amp;c: would amount to 80500 Rubles <hi rendition="#s">p</hi> annum.</p>
+        <p />
+        <p />
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-7_0008</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

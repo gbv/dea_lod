@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Some points proposed by the Ambassador Extraordinary and
+          Plenipotentiary of His Britannic Majesty concerning a new treaty of commerce </title>
+        <title type="main" xml:lang="fr">Quelques points proposez par l'Ambassadeur Extraord[inair]e
+          et Plenipotentiaire de Sa Majesté Britannique touchant un nouveau Traité de commerce </title>
+        <author xml:lang="en">Charles</author>
+        <author xml:lang="en">Whitworth</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>11 March 1712. – Some points proposed by the Ambassador Extraordinary and
+            Plenipotentiary of His Britannic Majesty{{p1255}} concerning a new treaty of commerce</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-7, f. 282-285v. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 282" />
+        <p> Quelques points proposez par L’ambassadeur Extraord.<hi rendition="#sup">re</hi> et
+          Plenipotentiaire de Sa Majesté Britannique{{p1255}} touchant un nouveau Traité de
+          commerce. </p>
+        <p />
+        <p> Sa Majesté Czarienne{{p0174}} ayant fait témoigner à la Reine{{p0688}}, Son desir
+          d’établir un Traité de commerce entre les deux nations, Sa Majesté Britannique{{p0668}}
+          fit expedier à Son Ambassadeur les pouvoirs et les intentions necessaires pour une telle
+          negotiation, comme une nouvelle gage de Son Amitié.</p>
+        <p> Sa Majesté{{p0668}} y consentit d’autant plus volontiers, que ce sembloit étre le plus
+          propre et presque l’unique moyen de faire cesser toutes les plaintes qui s’accroissent de
+          jour en jour depuis quelques années, de prevenir les froideurs qui en pourroient naître
+          avec le temps, d’affermir l’ancienne amitié entre les deux Couronnes Imperiales, de rendre
+          leur bonne correspondence plus étroite, et plus necessaire que jamais, d’introduire une
+          bienveillance et une liaison d’interét reciproque entre les sujets de deux côtes, et enfin
+          de procurer l’avantage et le repos mutuel.</p>
+        <p> Ce sont les fruits naturels d’un commerce bien établi, ce sont les veües solides et
+          genereuses que Sa Majesté{{p0668}} se propose dans cette negotiation, et non pas d’obtenir
+          par surprise quelque avantage passagere pour son peuple, et bien moins encore pour aucuns
+          particuliers.</p>
+        <pb n="f. 282v" />
+        <p> Pour ce qui est du negoce en soy, il est vray, qu'il y entre bien du mistére et de la
+          finesse, dans les differentes especes qui se font de marchand en marchand et dans le cour
+          d’échange ; mais le commerce national et general n’est pas une affaire si brouillée, et si
+          peu intelligible, que quelques uns le voudroient faire accroire pour des veües
+          particulieres ; les principes en sont simples et uniformes, il n’y a que les circumstances
+          qui se changent du plus au moins selon le temps et lieu ; Et ceux qui pretendent d’y
+          apporter de nouvelles découvertes, et de faire de vastes profits par des détours inconnus
+          et d’autres intrigues, ne regardent que leur interét particulier, et ne sont qu’autant de
+          charlatans malheureux, qui au lieu de guerir quelque legére indisposition par leurs
+          remedes secrets et specifiques, affoiblissent le corps et ruinent entierement la santé de
+          leur malade. </p>
+        <p> Les points essentiels pour le negoce sont l’egalité, la bonne foy, la liberté et la
+          justice.</p>
+        <p> Si l’on veut que le commerce fleurisse, il faut que les avantages soyent reciproques, et
+          autant que cela se peut égaler entre les pays et les personnes, qui trafiquent ; Si le
+          travail est tout pour l’un et le profit pour l’autre, on se dégoute, on quitte le parti,
+          et si les naturels d’un pays ont des privileges trop étendus, ou les </p>
+        <pb n="f. 283" />
+        <p> étrangers se retirent de l’affaire, ou ils cherchent à les balancer par des pareils
+          reglements chez eux, ce qui ne se peut pas faire sans beaucoup de prejudice au negoce.
+          Cette égalité si necessaire donne aussi entierement l’exclusion du commerce à tous les
+          Grands, à tous les Ministres, à tous les Gouverneurs et generalement à tous les officiers
+          d’un état, car il n’y a que trop d’exemples et presque dans tous les pays, qu’ou ils se
+          mélent du trafique ils ne se laissent pas borner par les methodes ordinnaires, ils ne se
+          contentent pas d’un gain mediocre, ils en vendent toujours proportioné à leur charactére
+          et à leur authorité ; leurs creatures aussi veulent profiter de l’occasion, et se hâteront
+          de devenir riches, par des voyes le plus souvant illicites, delà on voit des gens de bas
+          lieu devenir puissants en peu temps, par des employs peu distingués et des gages tres
+          mediocres, et cependant leurs richesses ne se puissent deriver que du tresor du Maître, ou
+          du sang des sujets : comme ils n’ont pas le scavoir faire des marchands ordinaires, qui
+          s’etant appliqués au negoce des leur enfance, en ont et l’etude et la routine, ils tâchent
+          d’y suppleer par la force et l’authorité ; Dans leurs emplettes ils oppriment le sujes,
+          voulans tout pour eux et à leur prix, Dans les ventes ils imposent aux </p>
+        <pb n="f. 283v" />
+        <p> étrangers, et dans la valeur et dans la qualité des marchandises, empechant les autres
+          de negocier, jusques à ce qu’ils se soyent de faits des leurs : Et quand ils fraudent la
+          doüane, comme cela n’est pas impracticable, les officiers n’osent pas s’en plaindre, et
+          pour leur Interét particulier, cherchent quelque fois de faire bon ces malversations par
+          leurs exactions d’autre part.</p>
+        <p> La bonne foy qui est l’âme du commerce et méme de la societé, n’est guerre regardée, les
+          contracts ne sont respectés que selon leur avantage, et ils ont recours à leur pouvoir
+          pour reparer les pertes de leur imprudence. Ils sont souvant et juges et parties. Par là
+          les voyes de la Justice sont bouchées, et l’esprit de ceux qui y doivent remedier prevenu
+          par des rapports interessés et peu sinceres; de toutes les plaintes méme qui se sont
+          faites depuis quelques années, on trouve peu ou point contre les marchands particuliers,
+          mais bien contre les Grands ou leurs creatures qui negocient pour eux ; Pour rendre ce
+          manege encore plus criminel, tout se fait sous l’ombre du nom et de l’avantage du Maitre,
+          quoique tout bien consideré il y perd plus que personne : On a été obligé de s’etendre
+          tant sur cet article, puis que c’est la veritable cause de la decadence du trafique en
+          Moscovie, quoi qu’on asseure qu’il soit tres </p>
+        <pb n="f. 284" />
+        <p> severement defendu par les loix anciennes du pays ; et jusques à ce qu’il y soit
+          remedié, il est impossible d’etablir aucun traité de commerce car le but de celuy doit
+          étre la Protection et la Liberté du Marchand, dans la personne, dans sa maison, dans ses
+          voyages, dans ses achâts, dans ses ventes et dans le transport de ses marchandises, tant
+          dans le pays qu’en dehors, et cecy regarde pour la plus part les sujets aussi bien que les
+          etrangers.</p>
+        <p> Les monopoles étant tout a fait incompatibles avec cette liberté, on demande qu’on
+          pourra franchement et librement porter et vendre à toute personne indistinctement,
+          achéter, trafiquer et transporter toutes sortes de marchandises dont l’entrée ou la sortie
+          et le transport ne sera pas defendu à tous en general, sans que cette liberté puisse étre
+          defenduё limitée ou restreinte, par aucun privilege, octroi ou concession particuliere. </p>
+        <p> Les doüanes n’ont été dans leur origine qu’une simple reconnoissance du marchand au
+          Prince pour Sa Protection, et un aide pour defrayer les depenses qu’on étoit obligé de
+          faire à cette occasion ; Peu a peu on en a fait une partie des revenües publiques, et on
+          s’en sert méme comme d’un contrepoids pour balancer les differentes branches du commerce ;
+          mais c’est ici qu’il faut de la circumspection, et un jugement bien éclairé, les seignées
+          trop larges </p>
+        <pb n="f. 284v" />
+        <p> ou faites à contretemps ruinent le corps, et celuy qui tua sa poule qui luy pondoit
+          journellement un oeuf d’or, au lieu d’une mine de richesse dans ses entrailles n’y trouva
+          qu’une perte irreparable. </p>
+        <p> Il est donc necessaire, que les doüanes <placeName
+            key="g0049"
+            ref="https://www.geonames.org/581049">d’Archange</placeName>
+          soyent remises sur l’ancien pié, que celles des autres Ports, et tous les autres impôts
+          soyent moderés selon la nature des denrees, payables dans l’argent du pays, et enfin que
+          la maniere de les lever soit la moins onereuse aux marchands qu’il se peut : il s’agit
+          d’attirer l’argent et les richesses dans le pays, il n’y a que trop de moyens pour les
+          faire entrer aprés dans les tresors du Prince. </p>
+        <p> Il est aussi fort convenable que l’authorité des Gouverneurs, et particulierement des
+          officieres de guerre dans les Ports et villes marchandes, soit limitée ; Que les
+          reglements établis là soyent seulement pour empécher les fraudes, et les desordres, et non
+          pour donner occasion à quelques uns d’insulter et piller les negociants ; Et que personne
+          n’aye plus la liberté de contrevenir impunement aux conventions publiques, sous quel
+          pretexte que ce puisse étre. </p>
+        <p> La justice quoique nommée en dernier lieu est le soutien de tout, elle doit étre égale
+          et generale pour tout le monde, sans distinction </p>
+        <pb n="f. 285" />
+        <p> des personnes ou des interéts ; La forme des procés doit étre reglée et claire, et ne
+          pas dependre de la volonté arbitraire de quelque officier ; Les causes d’importance ne
+          doivent pas étre decidées finalement dans la premiere instance, mais un appel doit étre
+          permis à quelque cour superieur, et pendant la revision de sentence les biens en dispute
+          doivent étre retenus en depôt, ou caution prétée pour la valeur ; Les jugements et arréts
+          doivent étre donnés par personnes non suspects, ni interessées au fait dont il fera
+          question, et tous les ordres de la Justice doivent étre promptement et devement executes,
+          selon leur formes. </p>
+        <p> Un reglement de marine sera necessaire à l’égard des marchandises de contrebande, des
+          vaisseaux de guerre et des autres armés en course. </p>
+        <p> Et comme le commerce se peut un jour étendre du coté de la Perse, ou de la grande
+          Tartarie, par la ville d’Astracan, il seroit bon de songer à quelque établissement par
+          avance, d’examiner les privileges dont les armeniens jouissent à cette heure, et de voir
+          ce qui sera necessaire pour encourager les autres étrangers, ou gens du pays. </p>
+        <p> Si par hazard on viendroit à douter de la verité d’aucuns points avancés ici, ou qu’on </p>
+        <pb n="f. 285v" />
+        <p> ne comprend pas bien l’utilité et la necessité des ordonnances proposées, l’Ambassadeur
+          s’offre de donner la meilleure Explication qu’il peut, et telle qu’il espere sera trouvé
+          suffisante. </p>
+        <p> Quand on sera resolu de proceder sur ces principes, qu’on aura remedié aux griefs
+          contenus dans son memoire daté le 8.<hi rendition="#sup">e</hi> du courant, pour faire
+          voir l’intention qu’on a de faire observer par un chacun ce dont il sera convenu pour
+          l’avenir, et qu’une personne ou plusieures seront nommées pour negocier avec l’ambassade
+          et munies d’un Pleinpouvoir aussi ample que le sien, le dit Ambassadeur se declare prêt
+          d’y travailler au nom de la Reine d’entrer en Conference, et de debattre et regler les
+          articles particuliers.</p>
+        <p> Donné à <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersbourg</placeName> le 11.<hi rendition="#sup">e</hi>
+          de Mars 1711./12.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

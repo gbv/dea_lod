@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">List of supporting documents accompanying the note
+          delivered on 11th July old style 1758 by His Excellency Count Vorontsov to Mister Keith
+          concerning the vessel from Dantzig l'Été taken by an English ship </title>
+        <title type="main" xml:lang="fr">Liste des pièces justificatives qui accompagnoient la note
+          remise le 11e Juillet v[ieux] s[tyle] 1758 par S[on] E[xcellence] le comte de Woronzow à
+          Mons[ieu]r de Keith touchant le vaisseau Dantziquois l'Été pris par un Anglois </title>
+        <author xml:lang="en">Mikhail</author>
+        <author xml:lang="en">Illarionovich</author>
+        <author xml:lang="en">Vorontsov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>11 / 22 July 1758. – List of supporting documents accompanying the note delivered
+            on 11th July old style 1758 by His Excellency <persName key="p0145">Count [Mikhail
+            Illarionovich]
+              Vorontsov</persName> to Mister <persName key="p0085">[Robert Murray] Keith</persName>
+            concerning the vessel from Dantzig l'Été taken by an English ship</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-66, f. 142. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 142" />
+        <p>Liste des pièces justificatives qui accompagnoient la note remise le 11e Juillet v[ieux]
+        s[tyle] 1758 par S[on] E[xcellence] le
+        <persName key="p0145">comte de Woronzow</persName> à
+        <persName key="p0085">Mons[ieu]r de Keith</persName> touchant le vaisseau Dantziquois l'Été
+        pris par un Anglois
+        </p>
+        <p>N°.1. Declaration de <persName key="p2551">Benjamin Roger</persName>, accompagnée d’un
+          Connoissement et d’une Liste des Fayances, montant à £ 6276. 18.6. de France</p>
+        <p>2. Etat de 19. Caisses et Balots, appartenant au Peintre <persName key="p2552">le Lorrain</persName>,
+          addressées à S[on]: Ex[cellence]: Mons[ieu]r le <persName key="p2544"
+            ref="0dc739e8-2a10-456f-9be7-d513d78bfeda">Lieutenant General Comte de
+            Schuwallow</persName>, accompagné d’une Liste</p>
+        <p>3. Mémoire du <persName key="p2553">Marchand Godin</persName>, avec deux Connoissemens,
+          et une Liste des Effets et Provisions pour l’usage de S[on]: Ex[cellence]: le Vice
+          Chancelier <persName key="p0145">Comte de Woronzow</persName></p>
+        <p>4. Memoire du <persName key="p2554"> Tailleur Schelling</persName>des Habits et Effets envoyés pour S[on]:
+          Ex[cellence]: le <persName key="p0598">Hetman Comte de Razumowski</persName> montant à £ 11904,,7,,3. de France</p>
+        <p>5. Memoire et Comte des Effets envoyés pour Mons[ieu]r le <persName key="p2555">Lieutenant General
+          Comte de Cheremetow</persName></p>
+        <p>6. Connoissement des Effets appartenant au <persName key="p2556">Sculpteur Gillet</persName>Professeur
+          de l’Academie de Moscow</p>
+        <p>7. Une Caisse pour <persName key="p1441" ref="0dc739e8-2a10-456f-9be7-d513d78bfeda">Mons[ieu]r
+          le Conseiller de Cour Bechtejeu</persName>, N°.18. marquée M :B : renfermant un miroir de
+          Toilette à Bordure d’Argent en relief.</p>
+        <p />
+        <p />
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-66_0014</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

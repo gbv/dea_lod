@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Note to Mister Keith, Envoy Extraordinary of His Britannic
+          Majesty</title>
+        <title type="main" xml:lang="fr">Note pour Mo[nsieu]r de Keith, Envoyé Extraordinaire de Sa
+          Majesté Britannique</title>
+        <author xml:lang="en">Empress</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Elisabeth Petrovna</author>
+        <author xml:lang="en">Mikhail</author>
+        <author xml:lang="en">Illarionovich</author>
+        <author xml:lang="de">Воронцов </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>11 / 22 July 1758. – Note to Mister [Robert Murray] Keith, Envoy Extraordinary of
+            His Britannic Majesty{{p0085}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-66, f. 140-141. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 140" />
+        <p> Note pour Mo[nsieu]r de Keith, Envoyé Extraordinaire de Sa Majesté Britannique{{p0085}}</p>
+        <p />
+        <p>Il y a quelque têms que le Ministère Imperial de Russie s’est trouvé dans la Necessité de
+          s’addresser à Mons[ieu]r l’Envoyé Extraordinaire, moyenant la Note remise le 11<hi
+            rendition="#sup">e</hi> Avril de cette année cy, pour luy demander son appui auprès de
+          la Cour Britannique{{o0002}}, dans les Représentations à faire de la part de celle d’icy,
+          par le canal de Mons[ieu]r l’Envoyé Extraordi[nai]re Prince de Galitzin{{p0065}}, au sujet
+          de trois Vaisseaux, appartenans à des sujets commerçans de Russie ; sçavoir le <hi
+            rendition="#u">Joung</hi>, la <hi rendition="#u">Providence</hi>, et le <hi
+            rendition="#u">Louis d’Or</hi>, lesquels, depuis dix ans, ont êté pris, sans aucune
+          raison valable, par des Armateurs Anglois, faisant Voile pour la France ; et quoy que le
+          Ministere se flatte que l’on aura égard à la juste Pretension des Marchands Russes, avec
+          tous les Dommages et Fraix, comm l’Amitié et la bonne harmonie, qui subsistent
+          heureusement entre Sa Maj[es]té Imperiale{{p0052}} et Sa Majesté le Roy de la Grande
+          Bretagne{{p0063}}, le font indubitablement esperer : Neanmoins dans l’attente de la
+          justice, qui leur dûe, il ne sauroit se dispenser d’informer Mons[ieu]r l’Envoyé
+          Extraordinaire d’une nouvelle violence, exercée par un Armateur Anglois, contre le
+          Vaisseau Dantziquois <hi rendition="#u">l’Eté</hi>, qui alloit en dernier lieu de <placeName
+            key="g0434"
+            ref="https://www.geonames.org/2982652">Rouen</placeName> à <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">S[aint] Petersbourg</placeName> ;
+          Car, </p>
+        <pb n="f. 140v" />
+        <p> sans considerer que le Navire et le Capitaine êtoient d’un Endroit Neutre, comme l’est <placeName
+            key="g0014"
+            ref="https://www.geonames.org/3099434">Dantzic</placeName>, et principalement que toute la charge n’appartenant,
+          selon les Documens les plus authentiques, qu’à des Sujets Russes, n’a pû être arrêtée sous
+          quelque prétexte que ce fût, et encore moins confisquée, le dit Armateur s’est pourtant
+          hasardé à commettre une Infraction si mnifeste contre le Droit des Gens, et l’ancienne
+          Amitié entre les deux Etats, en menant le susdit Vaisseau en Angleterre, comme s’il êtoit
+          de bonne prise ; Mais puisque, selon ce se cidessus, ce Pretexte n’a point même
+          d’apparence, Sa Majesté Imperiale{{p0052}} a ordonné de faire porter, en son Nom ,à la
+          Cour de Londres{{o0002}}, par le Ministre qui y reside de sa part, les plus fortes
+          plaintes contre une Exaction aussi ouverte de l’Armateur Anglois ; et le Ministère, de son
+          côté, en recommandant à Mons[ieu]r l’Envoyé Extraordinaire{{p0065}} de les y appuier le
+          mieux que faire se pourra, a jugé à propos de joindre icy, pour son Information, plusieurs
+          Listes, avec les Connoissemens mêmes, qui prouvent, d’une maniere irrévocable, que les
+          Effets, et les Marchandises, chargés sur le Vaisseau <hi rendition="#u">l’Eté</hi>,
+          appartenoient en propre à des Sujets Russes, et n’êtoient nullement de contrebande ;
+          D’autant moins qu’entr’autres, il se trouve dans une Caisse 12°18. marquée M :B : un
+          miroir de Toilette, dont la </p>
+        <pb n="f. 141" />
+        <p> Bordure d’argent est en relief, qu’on a fait venir exprés pour le propre usage de Sa
+          Majesté Imperiale{{p0052}}. Il résulte enfin, de tout ce Detail, qu’autant que la Demande
+          de cette Cour cy{{o0008}}, pour que le Navire <hi rendition="#u">l’Eté</hi> soit tout de
+          suite relaché avec toute sa Cargaison, et que les Domages causés, soient en même têms
+          restitués, se trouve conforme à l’Equité, autant on a lieu d’attendre, que non seulement
+          Sa Maj[es]té Britannique{{p0063}} voudra bien, eu égard à son Amitié pour Sa Majesté
+          Imperiale{{p0052}}, et à son amour pour la justice, faire au plustôt effectuer cette
+          demande dans tous ses Points, mais qu’aussi Elle ne refusera pas de donner les ordres les
+          plus précis, a fin que les Vaisseaux Neutres, qui feront Voile pour la Russie, ne soient
+          point, à l’avenir, molestés par les Armateurs Anglois, ni sujets à des Visitations
+          supeflues.</p>
+        <p>Fait à S[ain]t <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersbourg</placeName> ce 11<hi rendition="#sup">e</hi>
+          Juillet 1758.</p>
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-66_0015</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

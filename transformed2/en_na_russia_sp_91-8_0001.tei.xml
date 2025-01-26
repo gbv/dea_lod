@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter of credence for the Resident of Great Britain to
+          Russia, George Mackenzie </title>
+        <author xml:lang="en">Queen</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Great</author>
+        <author xml:lang="en">Britain</author>
+        <author xml:lang="en">Anne</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 April / 7 May 1714. – Letter of credence for the Resident of Great Britain to
+            Russia, George Mackenzie{{p1338}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-8, f. 5-5v. English copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 5" />
+        <p> Anne{{p0668}} by the Grace of God Queen of Great Britain, France and Ireland Defender of
+          Faith &amp;c. to the most Hugh, most Potent, most Illustrious Prince, Our most Dear
+          Brother the great Lord Czar, &amp; great Duke Peter Alexiowits{{p0174}} of all great
+          little&amp; white Russia, Sole Monarch of Muscovia, Kiovia, Ulodomiria, Novogardia, Czar
+          of Cazan, Czar of Astracan, Czar of Siberia, Lord of Pscovia, and great Duke of Smolensko,
+          Tueria, Ugoria, Perpica [sic !] Viaskia, Bolgaria, &amp;other Places, Lord &amp;Great Duke
+          of Novogardia, Tzernivovia, Resania, Rostovia, Jaroslavia, Belosoria, Udoria, Obdoria,
+          Condinia, and Emperor of all the Northern Coasts, Lord of Iberia, Cartalinia &amp;
+          Gruzinia, Czar of Caberdinia, Circassia, and the Duke of the Mountains and of many other
+          Dominions &amp; Countrys East and West &amp; North from Father to Grand Father, Heir
+          Successor, Lord &amp; Kuler Sendeth Greetings and wisheth all Happiness &amp; Prosperity.
+          Most Potent &amp; our most Dear Loving Brother, having thought it necessary to dispatch a
+          Person to your Imperial Majesty, who may assure you of Our Resolution not only to maintain
+          the Friendship &amp; good Correspond[en]ce which for so many ages have continued </p>
+        <pb n="f. 5v" />
+        <p> between Our Pdecessors, but also to improve &amp; cultivate the Same. We have for this
+          Purpose made choice of Our Trusty &amp; Welbeloved George Mackenzie{{p1338}} Esq[ui]r[e]
+          as a Person of whose Prudence &amp; ability We have had good Experience and have appointed
+          him to be Our Resident, who will acquaint Your Imperial Majesty with the great Esteem
+          &amp; Value We have for your Person and Friendship. We desire Your Imperial Majesty will
+          give Our said Resident free access &amp; entire Credit in what he shall say, and
+          especially when he shall assure You of Our Friendship for Your Imperial Majesty ; and so
+          We recommend you to the Protection of almighty God. Given at Our Court{{o0002}} at St.
+          James’s the 26.th Day of April 1714. In the Thirteenth Year of Our Reign.</p>
+        <p>Your most affectionate Sister</p>
+        <p>Anne R[egina].{{p0668}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

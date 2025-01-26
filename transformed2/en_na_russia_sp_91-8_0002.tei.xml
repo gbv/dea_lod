@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Copy of the letter from the secretary Osterman to Mister
+          Mackenzie, concerning the Memorial, which the latter had just presented to the Prime
+          Minister of His Czarish Majesty Baron Shafirov</title>
+        <title type="main" xml:lang="fr">La copie d'une lettre de Mons[ieu]r le Secretaire Osterman
+          à Mons[ieu]r Mackenzie touchant le Memoire, que le dernier ne venait que de presenter au
+          Pr[emier] Ministre de S[a] M[ajesté] Czar[ienne] le Baron de Shappiroff</title>
+        <author xml:lang="en">Heinrich</author>
+        <author xml:lang="en">Johann</author>
+        <author xml:lang="en">Friedrich</author>
+        <author xml:lang="en">Ostermann</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>[November 1714]. – Copy of the letter from the secretary [Heinrich Johann
+            Friedrich] Osterman to Mister [George] Mackenzie{{p1338}}, concerning the Memorial,
+            which the latter had just presented to the Prime Minister of His Czarish Majesty Baron
+            [Petr Pavlovich] Shafirov{{p0494}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-8, f. 71. French copy</bibl>
+          </note>
+        </head>
+        <pb n="f. 71" />
+        <p>La copie d’une lettre de Mons.<hi rendition="#sup">r</hi> le Secretaire</p>
+        <p>Osterman{{p0167}} à Mons.<hi rendition="#sup">r</hi> Mackenzie{{p1338}} touchant le
+          Memoire,</p>
+        <p>que le dernier ne venoit que de presenter au P.<hi rendition="#sup">r</hi> Ministre </p>
+        <p>de S.M. Czar[ienne]: le Baron de Shappiroff{{p0494}}.</p>
+        <p />
+        <p>Je n’ay pas manqué de faire très humblement rapport au Ministère de Sa Majesté Czarienne
+          du contenu de Votre Memorial, Leurs Excellences ont aussi declaré, qu’Ils tacheront de
+          vous faire donner toutes Satisfactions sur les griefs dont vous venez de vous plaindre ;
+          et puisque pour de certaines Affaires dont S[a] Majesté{{p0174}} m’à chargé, Je ne puis
+          pas aujourd’hui profiter de l’honneur que Vous voir chez Moi, Je vous en demande très
+          humblement pardon, et Je vous prie de me faire savoir, si je puis avoir l’occasion de vous
+          voir ce soir encore chez vous, et à quelle heure vous commandés que Je m’ÿ rendray.
+          J’attendray l’honneur de Vos Ordres, J’assure que Je seray toute ma vie avec toute la
+          consideration [du] monde.</p>
+        <p />
+        <p>Monsieur</p>
+        <p>Vôtre très humble et très obéissant Serviteur</p>
+        <p>HI.Osterman{{p0167}}</p>
+        <p />
+        <p>N.B. C’est ce Mons.<hi rendition="#sup">r </hi>Osterman{{p0167}}, qui traduit les
+          Memoires etc: en langue</p>
+        <p>Russienne pour S[a] M[ajesté] Czarienne{{p0174}}.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

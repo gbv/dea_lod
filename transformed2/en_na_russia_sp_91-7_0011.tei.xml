@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title
+          type="main"
+          xml:lang="en">Letter from the Chancellor of Russia, Count Gavriil Ivanovich Golovkin, to the Ambassador Extraordinary of Great Britain to Russia, Charles Whitworth</title>
+        <author xml:lang="en">Gavriil</author>
+        <author xml:lang="en">Ivanovich</author>
+        <author xml:lang="en">Golovkin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 August / 6 September 1712. – Letter from the Chancellor of Russia, Count Gavriil Ivanovich Golovkin{{p0071}}, to the Ambassador Extraordinary of Great Britain to Russia, Charles Whitworth{{p1255}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-7, f. 344-344v. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 344" />
+        <p>Monsieur</p>
+        <p>Je viens de recevoir la lettre dont Votre Excellence m’a honoré du 25 d’Aout, et je n’ay pas manqué d’en faire très humblement rapport à Sa Majesté Czarienne{{p0174}}, c’etoit avec plaisir que Sa Majesté{{p0174}} apprenoit que Sa M[ajes]té la Reine de Grande Brettagne{{p0668}} a bien voulu repondre à la lettre, que Sa M[ajes]té Czarienne{{p0174}} luy a ecrit sur les Noces de son Altesse Czarienne le prince héréditaire{{p0698}}, et puis que Sa M[ajes]té Czarienne{{p0174}} &amp; les operations qu’on va à commencer icy n’a point un sejour fixé, mais passe souvent sois à l’armée, souvent sois aussy a la flotte Danoise </p>
+        <pb n="f. 344v" />
+        <p> ou à q[uel]q[u]e autre lieu Elle souhaite, que vous voudriez envoyer la lettre surmentionnée icy, ce que j’ay cru devoir notifier en reponse sur la votre, vous asseurant au reste que je suis avec beaucoup d’estime</p>
+        <p>Monsieur</p>
+        <p>De Votre Excellence</p>
+        <p>le très humble serviteur</p>
+        <p>à <placeName key="g0418" ref="https://www.geonames.org/2917788">Grifswalde</placeName>
+        </p>
+        <p>le 26me d’Aout</p>
+        <p>Vieux Stile							Граф Головкин{{p0071}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

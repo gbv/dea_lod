@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Letter from the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,] from Écija to Count Cotorani to Cazalla de la Sierra written on June 13, 1730</title>
+        <title type="main" xml:lang="ru">В Касалю ко Графу Которани из Эссихи от 13 июня 1730 Году писано</title>
+        <author xml:lang="en">Ivan</author>
+        <author xml:lang="en">Andreevich</author>
+        <author xml:lang="en">Shcherbatov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13 June 1730. – [Letter from<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Minister Plenipotentiary to Spain, Prince Ivan Andreevich Shcherbatov,</persName>] from <placeName key="g0213">Écija</placeName> 
+            to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2382" xml:space="default">Count Cotorani </persName>to <placeName key="g0093" ref="https://www.geonames.org/2519675">
+              Cazalla de la Sierra
+            </placeName> written on June 13, 1730</title>
+          <note>
+            <bibl>NLR Mss, fond Erm., no. 123-4, f. 5v. Copy of French original.</bibl>
+          </note>
+        </head>
+        
+        <pb n="f. 5v"/>
+        
+        <p>В <placeName key="g0093" ref="https://www.geonames.org/2519675">Касалю</placeName> ко <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2382" xml:space="default">Графу Которани</persName> из <placeName key="g0213" ref="https://www.geonames.org/2518770">Эссихи</placeName> от 13 июня 1730 Году писано.</p>
+        <p>En Confiance de vôtre bonté que vous m’avez toujours temoigné je prens la Liberté de vous prier monsieur, C’est de vouloir bien m’éclaircir s’il-y-a quelque nouveauté touchant le Temps que <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">la Cour</orgName> restera à <placeName key="g0093" ref="https://www.geonames.org/2519675">Cazalla</placeName> et si l’on sait pour positif l’endroit où elle ira de là aprés. En même Temps je vous dis monsieur que cette ma demende est fondée sur le bruit qui s’est rependu sur la route que <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">la Cour</orgName> apres deux ou trois jours du Sejour s’en ira de <placeName key="g0093" ref="https://www.geonames.org/2519675">Cazalla</placeName> au <placeName key="g0214" ref="https://www.geonames.org/2518207">Port de Ste Marie</placeName>. Je me suis donc arreté icy jusqu’à ce que j’en sois informé de la verité pour epargner quelques Lieux à faire inutilement. Pardonnez ma franchisse et Croyez mr: que j’ay l’honneur d’etre avec une Consideration tout-à-fait particuliere. etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

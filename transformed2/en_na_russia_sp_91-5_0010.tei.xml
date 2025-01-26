@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en">Extract of the memorial from Mr. Whitworth to Count
+          Gollowin, in behalf [sic!] of the English Merchants dated Mosco the 11th March 1705 </title>
+        <author xml:lang="en">Charles</author>
+        <author xml:lang="en">Whitworth</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>11 March 1705. – Extract of the memorial from Mr. Whitworth{{p1255}} to Count
+            Gollowin{{p0277}}, in behalf of the English Merchants dated <placeName
+              key="g0001"
+              ref="https://www.geonames.org/524894">Mosco</placeName>
+            the 11th March 1705</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-5, f. 89-89v. English copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 89" />
+        <p>Extract of the memorial from Mr. Whitworth{{p1255}} to Count Gollowin{{p0277}}, in behalf
+          of the English Merchants dated <placeName
+            key="g0001"
+            ref="https://www.geonames.org/524894">Mosco</placeName> the 11th March
+          1705</p>
+        <p>The Tobacco Company{{o0137}} was allowed by vertue of their Contract to empty the proceed
+          of their Tobacco in such goods and Merchandises none excepted, as they should think fit,
+          without paying any higher duty than other forreign Merchants then did, nevertheless the
+          most and best Russian Commodities were given away to private persons, and the Company
+          debarr’d from trading with them directly contrary to the words of the Contract. The
+          Exportation Customfree was indeed allowed the 2. first years, and the due orders given for
+          it, but they were recall’d in the year 1703. and Custom demanded, not only for what they
+          should hereafter export, but also for what they had allready shipt out.</p>
+        <p>In the year 1702. The English Consul Mr. Goodfellow{{p1252}} gave a bill of Exchange for
+          20 m. Dollars for which he was immediately to have received ready money, which was not
+          however performed but was plac’d to his account for the Custom of Tobacco, which dutys
+          were agreed to be payd in the current coyn of this Country.</p>
+        <p>In the same year Mr. Goodfellow{{p1252}} had made a Contract for exporting of hemp for
+          five years, </p>
+        <pb n="f. 89v" />
+        <p> paying a certain duty ; but before two years were ended a new Importation of 10. pro
+          cent was unexpectedly laid, and requir’d, not onely for considerable quantity of hemp,
+          which he had allready bought up before the said prohibition, but for part of what he had
+          actually shipt out of the Country.</p>
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-5_0011</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Ambassador Extraordinary and
+          Plenipotentiary of Great Britain to Russia, Earl of Hyndford, to the chancellor of the
+          Russian Empire, Count Aleksei Petrovich Bestuzhev-Riumin </title>
+        <author xml:lang="en">John</author>
+        <author xml:lang="en">Carmichael,</author>
+        <author xml:lang="en">Earl</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Hyndford</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>20 / 31 May 1748. – Letter from the Ambassador Extraordinary and Plenipotentiary of
+            Great Britain to Russia, Earl of Hyndford{{p0776}}, to the chancellor of the Russian
+            Empire, Count Aleksei Petrovich Bestuzhev-Riumin{{p0017}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-111, s.f. French copy</bibl>
+          </note>
+        </head>
+        <p>Copie</p>
+        <p>S[ain]t <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersbourg</placeName>, le 20. Mai 1748.</p>
+        <p>Monsieur,</p>
+        <p>C’est avec le plus grand regret &amp; bien malgré moi que je me trouve dans la necessité
+          de m plaindre à V[otre] E[xcellence] du procedé violent de M[onsieu]r le L[ieutenan]t
+          General Samaracoff{{p2085}} envers moi. Quoique le cas en question soit d’une nature que
+          je ne saurois le passer sous silence, &amp; que peut-être tout autre que moi en auroit
+          fait une affaire ministeriale ; cependant comme j’ai reçu tant de preuves des bontez &amp;
+          des graces de S[a]. M[ajesté]. l’Imperatrice{{p0052}}, je suis plus que persuadé, qu’Elle
+          ne pourra que desaprouver l’insulte, qui m’a été faite par Son ecuyer, &amp; qu’il Lui
+          plaira gracieusement de me faire avoir une ample satisfaction sur ce sujet. Pour cette
+          raison je me contente d’écrire cette lettre amicale à V[otre] E[xcellence] pour l’informer
+          des circonstances du fait, tel que le bas officier de ma garde, mon jardinier &amp; mon
+          concierge me l’ont raporté de la campagne, &amp; que voici.</p>
+        <p>« Le 15<hi rendition="#sup">e</hi> Mai en cocher &amp; quelques palfreniers de S[a].
+          M[ajesté]. I[mpériale]{{p0052}} étant entrez avec dix attelages de ses chevaux dans
+          l’enclos de ma campagne, ont d’abord demandé du foin &amp; de la paille. Le concierge ne
+          trouvant pas à propos de le donner, sans savoir pour qui &amp; sur l’ordre de qui ils le
+          demandoient, il eut pour réponse, que c’étoit pour les chevaux de S[a]. M[ajesté].
+          I[mpériale]{{p0052}} &amp; par ordre de Son écuyer, M[onsieu]r Samaracoff{{p2085}}, &amp;
+          que sui lui le concierge tardoit à le faire, il y feroit porté à coups de fouët &amp; de
+          bâton, ensorte [sic] que, pour éviter d’être maltraité, il leur remis la clef d’une écurie
+          pendant qu’ils ont cassé la serrure de l’autre pour y entrer de force. Là-dessus le
+          Caporal de la garde voulant s’oposer à cette violence, le dit cocher lui dit, qu’ils y
+          étoient envoyez de S[a]. M[ajesté].{{p0052}} Elle-même &amp; de leur commandant, savoir
+          M[onsieu]r Samaracoff{{p2085}}. Le concierge atteste encore, qu’ils se sont saisis de la
+          moitié d’une charettée de foin &amp; de paille &amp; qu’ils y ont brisé les brouëttes
+          &amp; les traineaux. Mon maître d’hôtel, ayant été informé de tout ceci par le jardnier, s
+          y rendit incessament, &amp; ayant demandé au dit cocher, par quel ordre il en avoit agi de
+          la sorte à la campagne d’un Ambassadeur, il lui a pareillement répondu, que c’étoit par
+          ordre de M[onsieu]r Samaracoff{{p2085}} ».</p>
+        <p>Et pour preuve de ces allegations j’envoye ci-joint à V[otre] E[xcellence] les
+          temoignages des dits bas officier, jardinier &amp; concierge, signez de leurs propres
+          mains.</p>
+        <p>Au reste, Monsieur, je me repose sur l’amitié de V[otre] E[xcellence] pour l’usage,
+          qu’Elle trouvera à propos de faire de cette lettre, &amp; des pièces y jointes, &amp; j’ai
+          l’honneur d’être etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Pro-memoria presented by the Russian Ministry to Earl of
+          Hyndford 29 June 1748 in favour of the merchant Afanasii Martov</title>
+        <title type="main" xml:lang="fr">Pro-memoria du Ministère de Russie donné au C[omt]e de
+          Hyndford le 29 Juin 1748. en faveur du marchand Affanasey Martoff</title>
+        <author xml:lang="en">Aleksei</author>
+        <author xml:lang="en">Petrovich</author>
+        <author xml:lang="en">Bestuzhev-Riumin </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>29 June / 10 July 1748. – Pro-memoria presented by the Russian Ministry to Earl of
+            Hyndford{{p0776}} 29 June 1748 in favour of the merchant Afanasii Martov{{p2086}}</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-111, s.f. French copy</bibl>
+          </note>
+        </head>
+        <p>Pro memoria.</p>
+        <p>Sa Majesté Imperiale{{p0052}} a apris avec beaucoup de plaisir &amp; de satisfaction par
+          les raports du Comte de Czernichew{{p1440}}, son Ministre auprès de Sa Majesté le Roi de
+          la Grande Bretagne{{p0063}}, les eclaircissemens, qui lui ont été donnez par le Ministre
+          de Sa Majesté Britannique, en reponse aux représentations, que le dit Comte{{p1440}} lui a
+          fait, touchant le libre passage des Vaisseaux &amp; marchadises apartenans aux sujets de
+          S[a]. M[ajesté]. I[mpériale]{{p0052}} savoir que les Chefs des vaisseaux de guerre de Sa
+          Maj[es]té Britannique{{p0063}} ainsi que les Armateurs Anglois étoient munis des ordres
+          rigoureux &amp; précis d’agir suivant les Traitez, qu’il y a entre Sa dite
+          Majesté{{p0063}} &amp; les Puissances étrangeres, &amp; que particulièrement en vertu de
+          celui, qui subsiste entre l’Empire de S[a]. M[ajesté]. I[mpériale] &amp; la Grande
+          Bretagne, il ne pouvoit y avoir aucune aprehension, que les vaisseaux &amp; effets de
+          S[a]. M[ajesté]. I[mpériale]{{p0052}} ou de Ses sujets soient exposez d’être inquiétez ou
+          arrêtez, pourvû que les dits vaisseaux n’aportent point à l’ennemi aucunes munitions, ou
+          autres provisions de guerre.</p>
+        <p>Ces éclaircissemens étant entierement conformes à l’amitié, qui unit les deux Cours,
+          S[a]. M[ajesté]. I[mpériale]{{p0052}} fait recommander à S[on]. E[xcellence]. Monsieur
+          l’Ambassadeur Extraord[inai]re et Plenipotentiaire Lord de Hyndford{{p0776}} de vouloir
+          bien assurer le Roi Son Maître{{p0063}} de la satisfaction &amp; de la reconnoissance, que
+          S[a]. M[ajesté]. I[mpériale]{{p0052}} en ressent, &amp; qu’Elle n’a pas laissé d’enjoindre
+          rigoureusement à tous Ses sujets commerçans dans les Païs étrangers de se comporter dans
+          leur commerce conformement à Ses intentions, &amp; à l’amitié, qui subsiste entre les deux
+          Cours, c’est-à-dire de ne point employer leurs vaisseaux à l’avantage des ennemis de S[a].
+          M[ajesté]. Britannique{{p0063}}, ni de leur aporter des marchandises de contrebande.</p>
+        <p>Comme cependant le vaisseau nommé de Jongfer Anna, appartenant en propre au marchand
+          Russe Affanasey Martoff{{p2086}}, se trouveroit dans une situation bien embarrassante, si
+          l’on vouloit considerer sa cargaison, qui consiste entre autres en 1500 Pouds de fer en
+          batons, en quelques douzaines de planches de bois de sapin &amp; en trois poutre du même
+          bois /: destinées en cas de besoin pour l’usage des mats &amp; des vergues ; ceux dont il
+          se sert actuellement étant déja usez :/ comme des marchandises de contrebande ; S[a].
+          M[ajesté]. I[mpériale]{{p0052}} se tient persuadée, que S[on]. E[xcellence]. Monsieur
+          l’Ambassadeur Extraord[inai]re et Plenipotentiaire{{p0776}} voudra bien donner au susdit
+          marchand Martoff{{p2086}} l’attestat, qu’on Lui a deja demandé en dernier lieu, &amp; qui
+          en faisant foi, que ce Vaisseau apartient avec toute la cargaison à ce Marchand, le mette
+          en état de poursuivre sa route ulterieure pour <placeName
+            key="g0085"
+            ref="https://www.geonames.org/331582">Bourdeaux</placeName>
+          avec toute sureté, &amp; sans être exposé à aucun inconvenient de la part des vaisseaux de
+          guerre &amp; armateurs de S[a]. M[ajesté]. Britannique{{p0063}} ; d’autant plus que les
+          trois poutres de bois de sapin ci-dessus mentionnées, ne devant servir qu’à son propre
+          usage, &amp; que les planches du même bois, n’ayant que 12 pieds de longueur, un pouce
+          &amp; demi d’épaisseur &amp; onze pouces de largeur, ne sauroient être regardées comme des
+          marchandises de contrebande, &amp; qu’il reviendroit en outre une perte &amp; dommage très
+          considerable au Proprietaire, s’il devoir encore être obligé de retirer à présent du fond
+          de ce vaisseau le fer, qu’il y a mis au lieu de Lest, &amp; de le faire revenir ici de la
+          Finlande, où l’arrière saison de l’année passée l’a obligé de passer cet hiver. Au reste
+          tous les articles de la cargaison de ce seul vaisseau, pour lequelon s’interesse par le
+          présent Memoire, sont de si peu de consequence, que les ennemis de la Grande Bretagne n’en
+          sauroient tirer en effet aucun avantage de quelque consideration. S[ain]t <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersbourg</placeName>, le 29. Juin 1748.</p>
+        <p>C[omte]. AR Bestoucheff{{p0017}}</p>
+        <p>Woronzow{{p0145}}</p>
+        <p />
+        <p>Copie</p>
+        <p>Pro-memoria Ministere</p>
+        <p>de Russie donné au C[om] te de </p>
+        <p>Hyndford</p>
+        <p>le 29. Juin 1748.</p>
+        <p>en faveur du Marchand </p>
+        <p>Affanasey Martoff{{p2086}}.</p>
+        <p />
+        <p>in L[or]d Hyndford{{p0776}} 5 July 1748.</p>
+        <p />
+        <p />
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-111_0009</note>
+        </noteGrp>
+      </div>
+    </body>
+  </text>
+</TEI>

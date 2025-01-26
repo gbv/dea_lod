@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Note to His Excellence Earl of Bickingham, Ambassador of
+          His Majesty the King of Great Britain</title>
+        <title type="main" xml:lang="fr">Note pour Son Excellence Monsieur le Comte de Buckingham,
+          Ambassadeur de Sa Majesté le Roi de la Grande Bretagne</title>
+        <author xml:lang="en">Empress</author>
+        <author xml:lang="en">of</author>
+        <author xml:lang="en">Russia</author>
+        <author xml:lang="en">Catherine II</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>10 / 21 July 1763. – Note to His Excellence Earl of Buckingham{{p1079}}, Ambassador
+            of His Majesty the King of Great Britain</title>
+          <note>
+            <bibl>NA Kew, Russia, no. SP 91-72, f. 17-17v. French copy</bibl>
+          </note>
+        </head>
+        <p />
+        <pb n="f. 17" />
+        <p> Note pour Son Excellence Monsieur le Comte de Buckingham{{p1079}}, Ambassadeur de Sa
+          Majesté le Roi de la Grande Bretagne</p>
+        <p />
+        <p>Le Ministere Imperial de Russie ayant pris lecture du Memoire qui Lui a ete remis par
+          Monsieur l’Ambassadeur concernant l’Inexecution d’une Promesse de Mariage donné par un
+          Marchand Anglois domicilié à S[ain]t <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">Petersbourg</placeName> à une
+          Demoiselle Angloise de Nation, a l’Honneur de repondre à Son Excellence que cette affaire
+          ne Lui paroit pas de Nature a faire un Objet de Reclamation. C’est un Proces simple entre
+          Particuliers qui ne formant aucun Interet publique doit etre laissé au Cours ordinaire </p>
+        <pb n="f. 17v" />
+        <p> de la Justice. Nulle consideration d’Etat ne se trouvant jointe ce seroit contre tout
+          Droit de Juridiction territoriale que d’etendre l’execution d’un Jugement rendu a <placeName
+            key="g0003"
+            ref="https://www.geonames.org/2643743">Londres</placeName> jusqu’à <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">S[aint] Patersbourg</placeName>
+          mais la Personne qui a des Pretentions contre le S[ieu]:r Fowell{{p2137}} peut les
+          poursuivre ici devant son juge naturel et il Lui sera rendu toute la Justice qui Lui est
+          due. Fait a <placeName
+            key="g0002"
+            ref="https://www.geonames.org/498817">S[aint] Patersbourg</placeName> ce 10. Juillet V[ieux].
+          S[tyle]. 1763.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
