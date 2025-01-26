@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,24 +95,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>23 October 1719. – Report from Savva Lukich Vladislavich-Raguzinskii to Tsar Peter
-            I</title>
+          <title>23 October 1719. – Report from <persName key="p1381">Savva Lukich Vladislavich-Raguzinskii</persName> to <persName key="p0174">Tsar Peter I</persName></title>
           <note>
             <bibl>RGADA, fond 41, opis 1, 1719, no. 4, f. 11-12v.</bibl>
           </note>
         </head>
-        <pb n="f. 11" />
-        <p />
+        <pb n="f. 11"/>
+        <p/>
         <p>Всемилостивейший государь</p>
         <p>По Вашего Величества высокомочному указу писаному от Аландских островов июлия 17: за
-          рукою государственнаго канцлера г[оспо]д[и]на графа Головкина, по которому велено мне и
+          рукою <persName key="p0071">государственнаго канцлера г[оспо]д[и]на графа Головкина</persName>, по которому велено мне и
           г[оспо]д[и]ну агенту Петру Беклемишеву приложити старание при дворе римском о освобождении
           из арешта статуи венус которую г[оспо]д[и]н Кологривов купил прошлаго году на обиход
           галерии В[аше]:го В:[еличест]ва.</p>
@@ -132,7 +128,7 @@
           же дело в Рим поехал, за наилутчую к В[ашем]:у В:[еличест]ву услугу, котораго иа римским
           приятелям рекомендовал, и хотя б путешествия его в Рим не было, то б г[оспо]д[и]н кардинал
           Отобони по возвращении кардинала Албани </p>
-        <pb n="f. 11v" />
+        <pb n="f. 11v"/>
         <p> несумнително дело совершил как можно увидеть из вышеписаннаго его писма, который во
           истинну всем делам В[аше]:го В:[еличест]ва зело склонен, как В[ашем]:у В:[еличест]ву может
           быть известно лутче с приездом г[оспо]д[и]на Кологривова.</p>
@@ -150,7 +146,7 @@
           оной статуи.</p>
         <p>Что он кардинал пишет и чрезмерно желает получить тело из Швеции чрез В[а]ше Монаршеское
           великодушие Святой Бригиды, то иа полагаю в В[ашем]: В:[еличест]ве </p>
-        <pb n="f. 12" />
+        <pb n="f. 12"/>
         <p> превыское рассуждение. А хотя иа о том с ним кардиналом не имею никакого [?] , разсуждаю
           когда он будет сие у В[аше]:го В:[еличеств]а писменно требовать, а ще по случаю учинить
           возможно, во истинну вся римская держава, к наивящшей славе В[аше]го: В:[еличеств]а сие
@@ -166,7 +162,7 @@
           о[?]дают, а бедны шпаниолы ни откуду ничего.</p>
         <p>Из турецкой земли пишут, что превеликой мор, и что посланник В[аше]го: В:[еличеств]а
           всеми мерами добивается при дворе турецком, дабы турки и паки </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p> цесарю войну зачали купно с В[а]шим Величеством, для того что Цесарь учинил алеанцу с
           разными потентатами противу В[аше]го: В:[еличеств]а и буто сумневается что сие может
           произойти чрез интриги принца Рагоци.</p>
@@ -175,7 +171,7 @@
           так притеснены как больше не можно. </p>
         <p>Сие дерзнул донесть в небытность здесь агента В[аше]го: В:[еличеств]а и впред ссылаясь на
           его реляции </p>
-        <p />
+        <p/>
         <p>из Венеции октября 23: В[а]шего Величества</p>
         <p>1719: году всепокорнейший раб</p>
         <p>Савва Владиславич</p>
