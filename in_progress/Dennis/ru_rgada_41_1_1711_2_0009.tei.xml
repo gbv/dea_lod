@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,23 +94,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 November 1711. – Letter from the Russian consul in Venice Demetrio Bozzis to the
-            chancellor Count Gavrila Ivanovich Golovkin</title>
+          <title>20 November 1711. – Letter from <persName key="p1366">the Russian consul in Venice Demetrio Bozzis</persName> to the Chancellor of Russia, Count Gavrila Ivanovich Golovkin</title>
           <note>
             <bibl>RGADA, fond 41, opis 1, 1711, no. 2, f. 53-54. Latin original.</bibl>
           </note>
         </head>
-        <pb n="f. 53" />
-        <p />
+        <pb n="f. 53"/>
+        <p/>
         <p>Illme atq[ue] Excellent[issi]me D[omi]ne D[omi]ne</p>
-        <p />
+        <p/>
         <p>Redditæ mihi sunt per Fratre[m] Anastasiu[m] gratissimæ litteræ Vestræ, ex quibus percepi
           epistolam scilicet meam græco stylo exaratam nondum Latine redditam. Expecto tamen (quod
           cito futurum promittis) responsione[m], et simul mandata, quæ mihi servanda erunt ut
@@ -128,7 +124,7 @@
           recipiat, quandocunq[ue] opus fuerit, easque reddendas curat ad Vos quam citissime. Quod
           ipsu[m] fieri opto etia[m] apud ministros Berlini et Amburgi. Hisce in locis non parum
           timent arma Turcarum, cum maxime </p>
-        <pb n="f. 53v" />
+        <pb n="f. 53v"/>
         <p> sibi persuaserint Imperatore[m] Nostrum pacem servaturum cum Turcis, videantque Turcam
           armis etiamnum indutum. Tenent adhuc arma Nigromontani, et quotidie loca depopulantur, nec
           Turcis obediunt. Hæc de præsenti Excellentiæ Tuæ scribenda cognovi dens Imperatorem
@@ -136,17 +132,17 @@
           sit ministerium gloriosius evadat. Iteru[m] vale.</p>
         <p>Venetiis 20 Novemb. 1711.</p>
         <p> Excellentiæ Tuæ</p>
-        <p />
+        <p/>
         <p> Humil[li]mus obedient[issi]mus ac devot[issi]mus servus</p>
         <p> Demetrius Bozzius</p>
-        <p />
-        <pb n="f. 54" />
-        <p />
+        <p/>
+        <pb n="f. 54"/>
+        <p/>
         <p>О[т] Дими[т]рия Боцкия Полатин из Венеции о[т] 20 ноября 1711 году</p>
         <p>О[т] ко[н]сола Боцция к Г[оспо]д[и]ну Графу </p>
         <p>принято в Ревеле 14. декабря 1711.</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <noteGrp>
           <note>See also:</note>
           <note>ru_rgada_41_1_1711_2_0001</note>
