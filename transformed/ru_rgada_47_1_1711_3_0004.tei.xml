@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -109,8 +109,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>
-            11/22 September 1711. – Proposal by <persName
+          <title> 11/22 September 1711. – Proposal by <persName
               key="p0745"
               ref="05a18953-665a-4d85-ac6e-34f188333e8a">Prince Anthony Ulrich of
             Brunswick-Wolffenbüttel</persName> to <persName
@@ -151,7 +150,7 @@
         </p>
         <p>4)</p>
         <p>Ein Halb=jahriges Avance der in obgedachten Ehe Pacten versprochenen 50 m[ille]
-          r[eichs]th[a]l[er] Species </p>
+          r[eichs]th[a]l[er] Species<note place="foot">There is a custode ‘Unter=’ at the bottom.</note> </p>
         <pb n="f. 179v" />
         <p> Unterhalts=Gelder a 25 m[ille] r[eichs]th[a]l[er] Species, weil außer dem die
           Einrichtung der Hoffstatt, Taffel, benöhtigte Anschaffung der Victualien und andern
@@ -185,7 +184,7 @@
           Species nicht zulanglich und auszuwerffen seyn wird, in was für einem quanto des <persName
             key="p0698"
             ref="c8246616-0efe-4a64-a3df-890af9609b34">Czaar[i]sch[en] Croon=Printzens
-          Hoheiten</persName> zu denen alsdenn erfordernden mehrern Spesen zu concourriren hatten.</p>
+            Hoheiten</persName> zu denen alsdenn erfordernden mehrern Spesen zu concourriren hatten.</p>
         <p>7)</p>
         <p>Nachdem auch in denen Ehe=Tractaten Articulo 7timo versprochen, daß <persName
             key="p0174"
@@ -199,10 +198,10 @@
           sich gleichfalls AllerGnädigst zu entschließen haben ob Sie wegen desjenigen so wenigstens
           anjetzo provisionaliter hier zu nöhtig ist, eine gewiße Summa Geldes, an der kunfftigen <persName
             key="p0749"
-            ref="e1eb4bd5-1f99-4029-8e00-60b14f4061a0">Croon=Printzeßinn Hoheiten</persName>
-          zu deroselbst beliebigen Einrichtung zahlen laßen wollen, oder ob solches in natura
+            ref="e1eb4bd5-1f99-4029-8e00-60b14f4061a0">Croon=Printzeßinn Hoheiten</persName> zu
+          deroselbst beliebigen Einrichtung zahlen laßen wollen, oder ob solches in natura
           angeschaffet, und anhero geschicket werden soll, welchem letztern falls der obgeschickte
-          Raht </p>
+          Raht<note place="foot"><hi rendition="#i">There is a custode</hi> und <hi rendition="#i">at the bottom</hi>.</note> </p>
         <pb n="f. 180v" />
         <p> und Intendant Meier eine Specification eingeben wird, was der <persName
             key="p0749"
@@ -211,14 +210,16 @@
         <p>
           <placeName
             key="g0032"
-            ref="https://www.geonames.org/2945024">Braunschweig</placeName> am 11/22 Septemb[ris] 1711.</p>
+            ref="https://www.geonames.org/2945024">Braunschweig</placeName> am 11/22 Septemb[ris]
+          1711.</p>
         <p>
           <persName key="p0732" ref="664ac595-5d21-4dd3-968f-4870616e9a54">H[ans] C[hristoph] von
             Schleinitz</persName>
         </p>
         <p>Пункты, присланные от <persName key="p0732" ref="664ac595-5d21-4dd3-968f-4870616e9a54">
-          Шлейница</persName> о браке <persName key="p0698" ref="c8246616-0efe-4a64-a3df-890af9609b34">
-          г[о]с[у]д[а]ря ц[а]ревича</persName>. 1711.</p>
+          Шлейница</persName> о браке <persName key="p0698"
+            ref="c8246616-0efe-4a64-a3df-890af9609b34">
+            г[о]с[у]д[а]ря ц[а]ревича</persName>. 1711.</p>
       </div>
     </body>
   </text>
