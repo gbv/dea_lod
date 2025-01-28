@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -7,7 +7,7 @@
       <titleStmt>
         <title type="main" xml:lang="en">Royal letter from Elector of Hanover Georg Louis
           to Tsar Peter I
-</title>
+        </title>
         <author xml:lang="en">Duke</author>
         <author xml:lang="en">of</author>
         <author xml:lang="en">Brunswick-Lüneburg,</author>
@@ -167,7 +167,7 @@
           Ludewig, Herzog zu braunschweig und Lüneburg, des Heyl[igen] Römischen Reichs
           Ertz=Schatzmeister und Churfürst</persName> p[erge]</p>
         <p>
-          <hi rendition="#sup">–</hi>
+          <hi rendition="#sup">–<note place="foot">Autograph by Georg Ludwig.</note></hi>
           <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Eurer Zarischen
             Majest[ät]</persName>
         </p>
@@ -188,12 +188,13 @@
         <pb n="f. 2v" />
         <p> </p>
         <p>От <persName key="p0727" ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">курфирста
-          гановарскаго </persName> к <persName
+            гановарскаго </persName> к <persName
             key="p0174"
             ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">его ц[арскому] в[еличеству]</persName>.
           Принято в <placeName
             key="g0002"
-            ref="https://www.geonames.org/498817">Питербурге</placeName> июня в 9-м 1712 и переведено.</p>
+            ref="https://www.geonames.org/498817">Питербурге</placeName> июня в 9-м 1712 и
+          переведено.</p>
         <p>Dem <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Durchläuchtigsten
           Großmächtigsten Czaar und Groß Fürsten, Hern Peter Alexiewitz</persName>, des gantzen
           sowol großen als kleinen und weißen Rußlandes, Selbsthaltern zu Moscau, Kiew, Woldomir,
@@ -203,8 +204,10 @@
           Udor, Obdor, Condinien und der gantzen Nordseite, Gebieter und Hern des Iwerischen Landes,
           der Cartalinischen und Grutinischen Czaaren und des Cabardinischen Landes, auch der
           Czercassen und Gorischen Fürsten und anderer vielen Ostlichen Westlichen und Nordlichen
-          Herrschaften und Lander, väterlichen und Groß-väterlichen Erben, auch Herrn und Herschern.
-          Unserem freundlich-vielgeliebten und Hochgeehrten Herrn Oheimb.</p>
+          Herrschaften und Lander, väterlichen<note place="foot">Corrected from: väterlicher.</note>
+          und Groß-väterlichen<note place="foot">Corrected from: Groß-väterlicher</note> Erben<note
+            place="foot">Corrected from: Erbe.</note>, auch Herrn und Herschern. Unserem
+          freundlich-vielgeliebten und Hochgeehrten Herrn Oheimb.</p>
       </div>
     </body>
   </text>
