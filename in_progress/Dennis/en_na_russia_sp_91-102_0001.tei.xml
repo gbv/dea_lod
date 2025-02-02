@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,20 +95,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>14 January 1778. – Letter from the minister plenipotentiary of Russia to Great
-            Britain, Aleksei Semenovich Musin-Pushkin{{p0108}}, to Earl of Suffolk{{p2078}}</title>
+          <title>14 January 1778. – Letter from the Minister Plenipotentiary of Russia to Great
+            Britain, Aleksei Semenovich Musin-Pushkin, to Earl of Suffolk{{p2078}}</title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-102, f. 18-18v. French original</bibl>
           </note>
         </head>
-        <pb n="f. 18" />
+        <pb n="f. 18"/>
         <p> My lord, </p>
         <p>Dans cet Instant même j’aprens avec la plus vive Joye l’heureuse Délivrance de Son
           Altesse Imp[éria]le Madame la Grande Duchesse{{p0439}} d’un Prince{{p0897}} le 12/23
@@ -120,7 +117,7 @@
           après des Symptomes d’Inflamation dans le Sang assés dangereux pour risquer à sortir par
           le temps qu’il fait. Je prens My Lord la liberté de vous suplier de vouloir bien informer
           Sa Majesté </p>
-        <pb n="f. 18v" />
+        <pb n="f. 18v"/>
         <p> le Roy{{p0161}} d’un Evenement aussi important pour la Russie, persuadé comme j’ose
           l’etre d’avance, que Sa Majesté{{p0161}} de même que toute Sa Cour{{o0002}} y prendra une
           juste Part.</p>
