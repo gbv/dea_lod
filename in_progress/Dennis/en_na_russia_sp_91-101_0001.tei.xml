@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,27 +95,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>12 April 1777. – Letter from the councilor of the Russian embassy in London,
-            Vasilii Grigor'evich Lizakevich{{p0909}}, to Earl of Suffolk{{p2078}}</title>
-          <note>
+          <title>12 April 1777. – Letter from <persName key="p0909">the councilor of the Russian embassy in London, Vasilii Grigor'evich Lizakevich</persName>, to <persName key="p2078">Earl of Suffolk</persName></title><note>
             <bibl>NA Kew, Russia, no. SP 91-101, f.52-52v. French copy</bibl>
           </note>
         </head>
-        <pb n="f.52" />
+        <pb n="f.52"/>
         <p> My lord, </p>
         <p>J’ai au reste l’honneur d’etre avec les sentimens invariables de la plus haute
           consideration.</p>
         <p>My Lord</p>
         <p>De Votre Excellence</p>
         <p>ce 12. avril</p>
-        <p />
+        <p/>
         <p>Le très humble &amp; très</p>
         <p>obeissant Serviteur</p>
         <p>V[assili]. Lisakevitz{{p0909}}.</p>
