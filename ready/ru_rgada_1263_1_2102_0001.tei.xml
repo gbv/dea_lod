@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,44 +96,63 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 11/22 March 1774. – Letter from <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor of the Russian Embassy in
-            Berlin, Petr Semenovich Mal’tsov</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
+          <title> 11/22 March 1774. – Letter from <persName key="p0096"
+              ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor of the Russian Embassy in
+            Berlin, Petr Semenovich Mal’tsov</persName>, to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2102, f. 3. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 3"/>
-        <p/>
+        <pb n="f. 3" />
+        <p />
         <p>Mon Prince!</p>
-        <p>Votre Altesse aura vû par ma <hi rendition="#u">Donoschenie </hi>de la poste passée de
-          quoi’il est question : ainsi sans entrer dans aucun detail à ce sujet, il ne me reste qu’à
-          Vous suplier, mon Prince, de vouloir bien appuïer de votre protection ma demande, afin
-          qu’Elle ait au <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">College</orgName>
-          une résolution prompte et favorable. Les preuves multipliées, dont Votre Altesse s’est plû
-          à me donner de Sa bienveillance me font espérer, qu’Elle ne refusera pas d’augmenter la
-          liste de ses bienfaits par celui-ci. Il est d’un prix d’autant plus grand pour moi, qu’il
-          me sauvera du desagrément d’emprunter des bagattes à de gros intêrets, et malgré cela être
-          toûjours sans le sol. Les semtimens pleins d’humanité d’un ministre aussi éclairé que
-          Votre Altesse me donnent tout l’espoir possible pour la réussite de ma demande. Vous
-          connoisés tout le zele, dont je suis animé pour le service de Votre Altesse, ainsi que le
-          profond respect, avec lequel je me ferai gloire d’être jusqu’à mon dernier soupir</p>
+        <p>Votre Altesse aura vû par ma <hi rendition="#u">Donoschenie</hi><note place="foot">Donoshenie
+          (Rus.: доношение) – a report.</note>de la poste passée de quoi’il est question : ainsi
+          sans entrer dans aucun detail à ce sujet, il ne me reste qu’à Vous suplier, mon Prince, de
+          vouloir bien appuïer de votre protection ma demande, afin qu’Elle ait au <orgName
+            key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">College</orgName> une résolution
+          prompte et favorable. Les preuves multipliées, dont Votre Altesse s’est plû à me donner de
+          Sa bienveillance me font espérer, qu’Elle ne refusera pas d’augmenter la liste de ses
+          bienfaits par celui-ci. Il est d’un prix d’autant plus grand pour moi, qu’il me sauvera du
+          desagrément d’emprunter des bagattes à de gros intêrets, et malgré cela être toûjours sans
+          le sol. Les semtimens pleins d’humanité d’un ministre aussi éclairé que Votre Altesse me
+          donnent tout l’espoir possible pour la réussite de ma demande. Vous connoisés tout le
+          zele, dont je suis animé pour le service de Votre Altesse, ainsi que le profond respect,
+          avec lequel je me ferai gloire d’être jusqu’à mon dernier soupir</p>
         <p>Monseigneur!</p>
         <p>De Votre Altesse,</p>
         <p>Le très humble &amp; très</p>
         <p>obéissant serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091" type="signature">Maltzow</persName>.</p>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
+            key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091"
+            type="signature">Maltzow</persName>.</p>
         <p>
-          <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> ce 11/22. Mars 1774./.</p>
+          <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> ce 11/22.
+          Mars 1774./.</p>
         <noteGrp>
           <note>See also:</note>
           <note>ru_rgada_1263_1_2088_0001</note>

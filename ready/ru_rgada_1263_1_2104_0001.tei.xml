@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,52 +96,85 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6/17 September 1774. – Letter from <persName key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor of the Russian Embassy in
-            Berlin, Petr Semenovich Mal’tsov,</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
+          <title>6/17 September 1774. – Letter from <persName key="p0096"
+              ref="eef89b4a-5489-4631-86c6-21cbb2895091">the Councilor of the Russian Embassy in
+            Berlin, Petr Semenovich Mal’tsov,</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2104, f. 4–6. Russian and French original.</bibl>
           </note>
         </head>
-        <pb n="f. 4"/>
+        <pb n="f. 4" />
         <p>Сиятелнейший князь</p>
         <p>Милостивый Государь</p>
         <p>Третьяго дни <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">король</persName>
-          присудствовать изволил у эксерцицей артилерии; после чего, прибыв в <placeName key="g0012" ref="https://www.geonames.org/2950159">
-          город</placeName>, осматривал дом, которой строится для француской комедии между двумя
+          присудствовать изволил у эксерцицей артилерии; после чего, прибыв в <placeName key="g0012"
+            ref="https://www.geonames.org/2950159">
+            город</placeName>, осматривал дом, которой строится для француской комедии между двумя
           кирхами на так называемом месте <hi rendition="#u">la place des Gens d'armes</hi>; а потом
           отдав визиту принцесе <persName key="p0373" ref="a9c3bb1d-9646-456a-87d6-ecfbfe38881d">Амалии,
-          сестре его величества</persName>, обратно возвратится изволил в <placeName key="g0047" ref="https://www.geonames.org/2852458">
-          Потсдам</placeName>, где вскоре начнутся обыкновенныя болшие маневры, и куда отправятся в
-          будущей понеделник отсюда два пехотныя да гусарской Циттенской и жандармской полки, равно
-          как и находящияся как здесь, так в <placeName key="g0299" ref="https://www.geonames.org/2940187">Шарлотенбурге</placeName>
-          шквадроны лейб-гвардии, и из других в околичности <placeName key="g0047" ref="https://www.geonames.org/2852458">Потсдама</placeName>
-          лежащих местечек прибудут туда также разныя полки. </p>
-        <p>Завтря весь в <placeName key="g0012" ref="https://www.geonames.org/2950159">Берлине</placeName> находящейся гварнизон пойдет в
-          лагерь, нарочно для того зделанной у Галских ворот.</p>
+          сестре его величества</persName>, обратно возвратится изволил в <placeName key="g0047"
+            ref="https://www.geonames.org/2852458">
+            Потсдам</placeName>, где вскоре начнутся обыкновенныя болшие маневры, и куда отправятся
+          в будущей понеделник отсюда два пехотныя да гусарской Циттенской и жандармской полки,
+          равно как и находящияся как здесь, так в <placeName key="g0299"
+            ref="https://www.geonames.org/2940187">Шарлотенбурге</placeName> шквадроны лейб-гвардии,
+          и из других в околичности <placeName key="g0047" ref="https://www.geonames.org/2852458">
+          Потсдама</placeName> лежащих местечек прибудут туда также разныя полки. </p>
+        <p>Завтря весь в <placeName key="g0012" ref="https://www.geonames.org/2950159">Берлине</placeName>
+          находящейся гварнизон пойдет в лагерь, нарочно для того зделанной у Галских ворот.</p>
         <p>
           <persName key="p0259">Барон ван Звитен</persName>, австрийской при здешнем дворе министр,
-          поехал сего утра в <placeName key="g0047" ref="https://www.geonames.org/2852458">Потсдам</placeName> и будет тамо до пущен на
-          аудиенцию к <persName key="p0061">Его Величеству</persName>.</p>
+          поехал сего утра в <placeName key="g0047" ref="https://www.geonames.org/2852458">Потсдам</placeName>
+          и будет тамо до пущен на аудиенцию к <persName key="p0061">Его Величеству</persName>.</p>
         <p>Вчерась удостоился я получить исправно милостивое вашего сиятельства </p>
-        <pb n="f. 4 v"/>
-        <p> от 22<hi rendition="#u"><hi rendition="#sup">го</hi></hi> августа писание, за которое прошу вас
+        <pb n="f. 4 v" />
+        <p> от 22<hi rendition="#u">
+            <hi rendition="#sup">го</hi>
+          </hi> августа писание, за которое прошу вас
           принять с обыкновенною вашею ко всем милостию нижайшее мое благодарение. Я уповаю, что
-          господин барон <persName key="p1234">Линзинген</persName> вручить не оставил <hi rendition="#sup"><persName key="p1233">графине Катерине Михайловне Румянцовой</persName></hi>   порученную мною ему чашку для <persName key="p1233">Ея Сиятелства</persName> <hi rendition="#s"><persName key="p1233">графине Катерине Михайловне Румянцовой</persName></hi>. Как мне
-          совсем неизвестно место теперешняго пребывания <persName key="p0367" ref="8e52a01e-30b4-4430-be67-81f204f2a753">господина действителнаго статскаго советника
+          господин барон <persName key="p1234">Линзинген</persName> вручить не оставил<note><hi
+              rendition="#sup">–1</hi> Written by Maltsev above the line.</note> <hi
+            rendition="#sup">
+            <persName key="p1233">графине Катерине Михайловне Румянцовой</persName>
+          </hi>  
+          порученную мною ему чашку для <persName key="p1233">Ея Сиятелства</persName><note
+            place="foot">Further it is framed instead of strikethrough: графини Катерины Михайловны
+          Румянцовой.</note> <hi
+            rendition="#s">
+            <persName key="p1233">графине Катерине Михайловне Румянцовой</persName>
+          </hi>.
+          Как мне совсем неизвестно место теперешняго пребывания <persName key="p0367"
+            ref="8e52a01e-30b4-4430-be67-81f204f2a753">господина действителнаго статскаго советника
           Симолина</persName>, то я не замедля отправляю сим вечером порученное мне вашим
-          сиятелством к нему писмо в <placeName key="g0011" ref="https://www.geonames.org/2911298">Гамбург</placeName> к <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">господину Гросу</persName>, прося его оное
-          вручить сему министру по прибытии его туда, или, буде он уже проехал реченной город, чтоб
-          он без потери времени помянутое писмо отправил в <placeName key="g0006" ref="https://www.geonames.org/2618425">Копенгаген</placeName>
-          .</p>
+          сиятелством к нему писмо в <placeName key="g0011" ref="https://www.geonames.org/2911298">
+          Гамбург</placeName> к <persName key="p0076" ref="6dae20a2-6921-4999-9ad3-271c5403b39d">господину
+          Гросу</persName>, прося его оное<note place="foot">Written above the line.</note> вручить
+          сему министру по прибытии его туда, или, буде он уже проехал реченной город, чтоб он без
+          потери времени помянутое писмо отправил в <placeName
+            key="g0006" ref="https://www.geonames.org/2618425">Копенгаген</placeName> .</p>
         <p>При сем осмеливаюсь приложить от переводчика господина Березина для вашего сиятелства
           писмо, имея в протчем честь быть с глубочайшим респектом.</p>
         <p>Сиятелнейший князь</p>
@@ -148,48 +182,68 @@
         <p>Вашего Сиятелства</p>
         <p>всепокорно-нижайший слуга</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091" type="signature">Петр Малцов</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
+            key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091"
+            type="signature">Петр Малцов</persName>
         </p>
-        <p> из <placeName key="g0012" ref="https://www.geonames.org/2950159">Берлина</placeName>. 6<hi rendition="#sup">го</hi>/17 сентября
-          1774<hi rendition="#sup">го</hi>./</p>
+        <p> из <placeName key="g0012" ref="https://www.geonames.org/2950159">Берлина</placeName>. 6<hi
+            rendition="#sup">го</hi>/17 сентября 1774<hi rendition="#sup">го</hi>./</p>
         <p> PS:</p>
-        
-        <pb n="f. 5"/>
-        <p/>
+
+        <pb n="f. 5" />
+        <p />
         <p>PS:</p>
-        <p> Le <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0377" xml:space="default" ref="69edcbd2-cb62-42be-8977-8baa17528662">Prince héréditaire
+        <p> Le <persName cert="high" evidence="internal" full="yes" generatedBy="human"
+            instant="unknown" key="p0377" xml:space="default"
+            ref="69edcbd2-cb62-42be-8977-8baa17528662">Prince héréditaire
             de Brunswyck</persName> est ici depuis hier au soir. S.A.S. assistera aux exercices de
           demain, ainsi qu’aux grandes manoeuvres de Potsdam, qui auront lieu mardi prochain.</p>
         <p> Aussitôt que j’aurai du <persName key="p0375" ref="be1991fa-8b38-4744-a1aa-c1a417304508">banquier
           le Veaux</persName> la note des debours faits pour les tableaux, j’aurai l’honneur de la
-          faire parvenir à Votre Altesse. En attendant j’ai celui de l’informer, que <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2312" xml:space="default">M<hi rendition="#u"><hi rendition="#sup">me</hi>
+          faire parvenir à Votre Altesse. En attendant j’ai celui de l’informer, que <persName
+            cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
+            key="p2312" xml:space="default">M<hi rendition="#u">
+              <hi rendition="#sup">me</hi>
             </hi> Teerbussch</persName> a dit qu’il seroit
-          nécessaire, que la personne qui sera chargée de monter les dits tableaux à leur arrivée à
-          <placeName key="g0002">S<hi rendition="#sup">t</hi> Petersbourg</placeName>, ait soin de les exposer a l’air pendant 4 à 5.
-          jours avant de les presenter à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>, afin qu’ils
+          nécessaire, que la personne qui sera chargée de monter les dits tableaux à leur arrivée à <placeName
+            key="g0002">S<hi rendition="#sup">t</hi> Petersbourg</placeName>, ait soin de les
+          exposer a l’air pendant 4 à 5. jours avant de les presenter à <persName key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>, afin qu’ils
           aïent le tems de se purifier de l’air de mer, qui pouroit les jaunir un peu.</p>
         <p> </p>
         <p>ut in litteris</p>
+        <note place="foot">“As in literature”, or “as they usually write” (lat.).</note>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091" type="signature">Maltzow</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
+            xml:space="default" key="p0096" ref="eef89b4a-5489-4631-86c6-21cbb2895091"
+            type="signature">Maltzow</persName>
         </p>
-        
-        <pb n="f. 6"/>
-        <p/>
+
+        <pb n="f. 6" />
+        <p />
         <p>2 PS:</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0147" xml:space="default" ref="98c88c1f-86ea-4710-92a8-022e5a56ac69">Военнаго департамента
-          статской министр господин фон Ведель</persName> домогался о своем абшите; но получил от <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">короля</persName> в весма
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
+            key="p0147" xml:space="default" ref="98c88c1f-86ea-4710-92a8-022e5a56ac69">Военнаго
+          департамента
+            статской министр господин фон Ведель</persName> домогался о своем абшите<note
+            place="foot">Abschied (German) - resignation.</note>; но получил от <persName
+            key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">короля</persName> в весма
           ласкателных терминах в том отказ.</p>
         <p>
           <persName key="p0258" ref="18c3bc7f-661f-469c-aa07-bdaf2c8f77c3">Баварской здесь министр</persName>
-          вскоре отсюда отъезжает и кур-фал[с]кой в Берлине находящейся министр господин фон <persName key="p0376" ref="d12bc9a2-40b8-49e1-a561-a33ed88ec6aa">Шлип</persName>, будет впредь
+          вскоре отсюда отъезжает и кур-фал[с]кой в Берлине находящейся министр господин фон <persName
+            key="p0376" ref="d12bc9a2-40b8-49e1-a561-a33ed88ec6aa">Шлип</persName>, будет впредь
           предостерегать <persName key="p0103" ref="4fcb3df0-8328-4918-a645-acb8669f4500">баварского
-          курфирста</persName>, от котораго получил он на сие кредитивныя грамоты, кои он по отъезде <persName key="p0258" ref="18c3bc7f-661f-469c-aa07-bdaf2c8f77c3">господина фон Шваггелема</persName>
+          курфирста</persName>, от котораго получил он на сие кредитивныя грамоты, кои он по отъезде <persName
+            key="p0258" ref="18c3bc7f-661f-469c-aa07-bdaf2c8f77c3">господина фон Шваггелема</persName>
           будет сам иметь честь представить его величеству.</p>
         <p> ut in litteris</p>
+        <note place="foot">See fn. 1.</note>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091" type="signature">Петр Малцов</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
+            key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091"
+            type="signature">Петр Малцов</persName>
         </p>
         <noteGrp>
           <note>See also:</note>

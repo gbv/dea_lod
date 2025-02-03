@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,67 +96,103 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>
-            7 June 1778. – Draft letter from<persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb"> Vice-Chancellor Prince Aleksandr
-            Mikhailovich Golitsyn</persName> to <persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">Livonian Landrat Count Ernst Reinhold
+          <title> 7 June 1778. – Draft letter from<persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb"> Vice-Chancellor Prince Aleksandr
+            Mikhailovich Golitsyn</persName> to <persName key="p0248"
+              ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">Livonian Landrat Count Ernst Reinhold
             Mengden</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2140, f. 5. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 5"/>
-        <p/>
-        <p>à <persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">M<hi rendition="#sup">r</hi>. le C[om]t<hi rendition="#sup">e</hi>. de </persName>
+        <pb n="f. 5" />
+        <p />
+        <p>à <persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">M<hi rendition="#sup">
+          r</hi>. le C[om]t<hi rendition="#sup">e</hi>. de </persName>
         </p>
         <p>
           <persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">Mengden</persName>
         </p>
         <p>
-          <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> le 7.
-          juin 1778.</p>
+          <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> le 7. juin
+          1778.</p>
         <table>
           <row>
             <cell>
-        <p><persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">Conseiller Provincial</persName>
-        </p>
-        <p><persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">de
-            S[a].M[ajesté].I[mperiale].
-            pour le</persName>
-        </p>
-        <p><persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">Duché de Livonie</persName>
-        </p>
-        <p>à</p>
-        <p>
-          <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName>
-          
-        </p><p/><p/><p/><p/><p>En Vous renouvellant mes remerciemens, M<hi cert="high" generatedBy="human" rendition="#sup" xml:space="default">r</hi>. le C[om]<hi cert="high" generatedBy="human" rendition="#sup" xml:space="default">te</hi>., de toutes les peines que Vous avez bien voulû prendre dans toutes mes affaires il ne me reste qu’à Vous temoigner</p>
-        
+              <p>
+                <persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">Conseiller
+                  Provincial</persName>
+              </p>
+              <p>
+                <persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">de
+                  S[a].M[ajesté].I[mperiale].
+                  pour le</persName>
+              </p>
+              <p>
+                <persName key="p0248" ref="0bb01004-3242-4eac-a60c-690a5e9cb02c">Duché de Livonie</persName>
+              </p>
+              <p>à</p>
+              <p>
+                <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName>
 
-        </cell>
-        <cell>
-        <p>M<hi rendition="#sup">r</hi>. </p>
-        <p>J’ai recu avec beaucoup de reconnoissance les deux lettres dont Vous avez bien voulû
-          m’honorer le 2 et 21. du mois passé et je Vous remercie aussi infiniement, M<hi rendition="#sup">r</hi>. le C<hi rendition="#sup">te</hi>., des informations que Vous
-          avez bien voulû me donner touchant mes mats. <persName key="p0449" ref="f8d88732-719a-43a7-a581-d24ae6b82ff6">M<hi rendition="#sup">rs</hi>. Johanninck</persName>
-          m’ont envoié une lettre de Change de 300t. <hi rendition="#s">L</hi>. Avec leur comptes et
-          je serais toujours charmé de <hi rendition="#s">pouvoir</hi> [selon vos conseils]<hi rendition="#sup"/> continuer mes affaires avec eux.</p>
-        <p><hi cert="high" generatedBy="human" xml:space="default" rendition="#s">[Au reste, M<hi rendition="#sup">r</hi>. le C[om]<hi rendition="#sup">te</hi>.,]</hi> 
-          mes regrets <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">sont toujours les memes</hi> de ne pouvoir à mon tour vous
-          être de quelque utilité et je <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">Vous prie d’être persuadé</hi> me
-          trouverois fort heureux si je <hi rendition="#sup">pouvois</hi> avoir des occasions de Vous
-          prouver toute l’Estime et l’amitié que je Vous ai voué et avec lesquelles je ne cesserai
-          d’être M<hi rendition="#sup">r.</hi> /.</p>
-          </cell>
+              </p>
+              <p />
+              <p />
+              <p />
+              <p />
+              <p>En Vous renouvellant mes remerciemens, M<hi cert="high" generatedBy="human"
+                  rendition="#sup" xml:space="default">r</hi>. le C[om]<hi cert="high"
+                  generatedBy="human" rendition="#sup" xml:space="default">te</hi>., de toutes les
+                peines que Vous avez bien voulû prendre dans toutes mes affaires il ne me reste qu’à
+                Vous temoigner<note place="foot">Text inserted on the margins.</note></p>
+
+
+            </cell>
+            <cell>
+              <p>M<hi rendition="#sup">r</hi>. </p>
+              <p>J’ai recu avec beaucoup de reconnoissance les deux lettres dont Vous avez bien
+                voulû m’honorer le 2 et 21. du mois passé et je Vous remercie aussi infiniement, M<hi
+                  rendition="#sup">r</hi>. le C<hi rendition="#sup">te</hi>., des informations que
+                Vous avez bien voulû me donner touchant mes mats. <persName key="p0449"
+                  ref="f8d88732-719a-43a7-a581-d24ae6b82ff6">M<hi rendition="#sup">rs</hi>.
+                Johanninck</persName> m’ont envoié une lettre de Change de 300t. <hi rendition="#s">
+                L</hi>. Avec leur comptes et je serais toujours charmé de <hi rendition="#s">pouvoir</hi>
+                [selon vos conseils]<note place="foot">Inserted text.</note> continuer mes affaires
+                avec eux.</p>
+              <p><hi rendition="#s">[Au reste, M<hi
+                    rendition="#sup">r</hi>. le C[om]<hi rendition="#sup">te</hi>.,]</hi><note
+                  place="foot">Crossed-out text.</note>  mes regrets <hi rendition="#s">sont
+                  toujours les memes</hi><note place="foot">Crossed-out text.</note> de ne pouvoir à
+                mon tour vous être de quelque utilité et je <hi
+                  rendition="#s">Vous prie
+                  d’être persuadé</hi><note place="foot">Crossed-out text.</note> me trouverois fort
+                heureux si je <hi rendition="#sup">pouvois</hi><note place="foot">Crossed-out word.</note>
+                avoir des occasions de Vous prouver toute l’Estime et l’amitié que je Vous ai voué
+                et avec lesquelles je ne cesserai d’être M<hi rendition="#sup">r.</hi> /.</p>
+            </cell>
           </row>
-          </table>
+        </table>
         <noteGrp>
           <note>Also see: </note>
           <note>ru_rgada_1263_1_2140_0001</note>

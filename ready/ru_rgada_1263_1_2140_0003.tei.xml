@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,53 +96,85 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>7 June 1778. – Draft letter from <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
-            Mikhailovich Golitsyn</persName> to <persName key="p0449" ref="f8d88732-719a-43a7-a581-d24ae6b82ff6">Mister Johanninck</persName>
+          <title>7 June 1778. – Draft letter from <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
+            Mikhailovich Golitsyn</persName> to <persName key="p0449"
+              ref="f8d88732-719a-43a7-a581-d24ae6b82ff6">Mister Johanninck</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2140, f. 5v. French original.</bibl>
           </note>
         </head>
-        
-        <pb n="f. 5 v"/>
-        <p/>
-        <p>à <orgName key="o0050" ref="d6a17bfb-d7df-4656-85dc-6cacdd9c359a">M
-              <hi rendition="#sup">rs</hi>
-            . Johanninck &amp; Comp.</orgName>
+
+        <pb n="f. 5 v" />
+        <p />
+        <p>à <orgName key="o0050" ref="d6a17bfb-d7df-4656-85dc-6cacdd9c359a">M <hi rendition="#sup">
+          rs</hi> . Johanninck &amp; Comp.</orgName>
         </p>
         <p>
-          <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> le 7.
-          Juin 778.
-    M
-            <hi rendition="#sup">rs</hi>
-          .</p>
-          <table>
-            <row>
-              <cell>
-                <p> et je serai bien aise, si Vous le trouvez bon de continuer dorenavant mes affaires avec Vous et c’est pourquoi </p>
-                <p><hi cert="high" generatedBy="human" rendition="#s" xml:space="default">+et je Vous prie dorenavant de vouloir bien continuer à me faire parvenir de la même manière les sommes qui me seront dues</hi></p><p/><p/><p>je vous demanded la permission de pouvoir a l’avenire m’addresser à cette effet à Vous</p><p>bon à quelque chose et je m’y emploierai avec plaisir</p>
-                </cell>
-              <cell>
-        <p>Je vous suis fort obligé de la lettre que Vous avez pris la peine de m’ecrire le 19. du
-          mois passé avec la lettre de change de 300 t. <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">L</hi>. à l’ordre de <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2313" xml:space="default">M<hi rendition="#sup">r</hi>. John Cametz</persName> et les comptes <hi cert="high" generatedBy="human" xml:space="default" rendition="#sup">que vous y avez</hi> y joints et les autres annexes. Je suis très charmé, M<hi rendition="#u"><hi rendition="#sup">rs</hi>
-          </hi>., d’avoir trouver cette occasion de faire
-          Votre connoissance+ et <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">ce sera toujours avec plaisir que je continuerai mes affaires avec Vous. De mon coté</hi>   <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">Au reste</hi>,<hi rendition="#sup"/> je <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">serai charmé à</hi><hi rendition="#sup"/> Souhaite à mon
-          tour, M<hi rendition="#u"><hi rendition="#sup">rs</hi>
-          </hi>, de pouvoir Vous être <hi rendition="#sup"/>, etant très
-          parfaitement</p>
-        <p> M<hi rendition="#u"><hi rendition="#sup">rs</hi>
-          </hi>.</p>
-          </cell>
-          
+          <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> le 7. Juin
+          778. M <hi rendition="#sup">rs</hi> .</p>
+        <table>
+          <row>
+            <cell>
+              <p> et je serai bien aise, si Vous le trouvez bon de continuer dorenavant mes affaires
+                avec Vous et c’est pourquoi </p>
+              <p>
+                <hi rendition="#s">et je Vous
+                  prie dorenavant de vouloir bien continuer à me faire parvenir de la même manière
+                  les sommes qui me seront dues</hi><note place="foot">Crossed-out text in the left margin.</note>
+              </p>
+              <p />
+              <p />
+              <p>je vous demanded la permission de pouvoir a l’avenire m’addresser à cette effet à
+                Vous<note place="foot">Inserted in the left margin.</note></p>
+              <p>bon à quelque chose et je m’y emploierai avec plaisir<note place="foot">Inserted text.</note></p>
+            </cell>
+            <cell>
+              <p>Je vous suis fort obligé de la lettre que Vous avez pris la peine de m’ecrire le
+                19. du mois passé avec la lettre de change de 300 t. <hi rendition="#s">L</hi>. à
+                l’ordre de <persName key="p2313">M<hi rendition="#sup">r</hi>. John Cametz</persName>
+                et les comptes <hi
+                  rendition="#sup">que vous y avez</hi><note place="foot">Inserted
+                  text.</note> y<note place="foot">Crossed-out word.</note> joints et les autres
+                annexes. Je suis très charmé, M<hi rendition="#u">
+                  <hi rendition="#sup">rs</hi>
+                </hi>., d’avoir trouver cette occasion
+                de faire Votre connoissance et <hi rendition="#s">ce sera toujours avec plaisir que
+                je continuerai mes affaires
+                  avec Vous. De mon coté</hi><note place="foot">Crossed-out text.</note>   <hi
+                  rendition="#s">Au reste</hi><note place="foot">Inserted text.</note>,<hi rendition="#sup" /> je <hi rendition="#s">serai
+                charmé à</hi><note place="foot">Crossed-out text.</note> Souhaite à mon tour, M<hi rendition="#u">
+                  <hi rendition="#sup">rs</hi>
+                </hi>, de pouvoir Vous être <hi
+                  rendition="#sup" />, etant très parfaitement</p>
+              <p> M<hi rendition="#u">
+                  <hi rendition="#sup">rs</hi>
+                </hi>.</p>
+            </cell>
+
           </row>
-          </table>
+        </table>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_rgada_1261_1_2140_0002</note>
