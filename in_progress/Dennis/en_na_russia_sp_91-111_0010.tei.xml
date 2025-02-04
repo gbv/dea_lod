@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,15 +100,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>29 June / 10 July 1748. – Pro-memoria presented by the Russian Ministry to Earl of
-            Hyndford{{p0776}} 29 June 1748 in favour of the merchant Afanasii Martov{{p2086}}</title>
+          <title>29 June / 10 July 1748. – Pro-memoria presented by the Russian Ministry to <persName key="p0776">Earl of Hyndford</persName> 29 June 1748 in favour of the merchant Afanasii Martov</title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-111, s.f. French copy</bibl>
           </note>
@@ -147,9 +146,7 @@
           l’Ambassadeur Extraord[inai]re et Plenipotentiaire{{p0776}} voudra bien donner au susdit
           marchand Martoff{{p2086}} l’attestat, qu’on Lui a deja demandé en dernier lieu, &amp; qui
           en faisant foi, que ce Vaisseau apartient avec toute la cargaison à ce Marchand, le mette
-          en état de poursuivre sa route ulterieure pour <placeName
-            key="g0085"
-            ref="https://www.geonames.org/331582">Bourdeaux</placeName>
+          en état de poursuivre sa route ulterieure pour <placeName key="g0085" ref="https://www.geonames.org/331582">Bourdeaux</placeName>
           avec toute sureté, &amp; sans être exposé à aucun inconvenient de la part des vaisseaux de
           guerre &amp; armateurs de S[a]. M[ajesté]. Britannique{{p0063}} ; d’autant plus que les
           trois poutres de bois de sapin ci-dessus mentionnées, ne devant servir qu’à son propre
@@ -161,12 +158,10 @@
           Finlande, où l’arrière saison de l’année passée l’a obligé de passer cet hiver. Au reste
           tous les articles de la cargaison de ce seul vaisseau, pour lequelon s’interesse par le
           présent Memoire, sont de si peu de consequence, que les ennemis de la Grande Bretagne n’en
-          sauroient tirer en effet aucun avantage de quelque consideration. S[ain]t <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName>, le 29. Juin 1748.</p>
+          sauroient tirer en effet aucun avantage de quelque consideration. S[ain]t <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>, le 29. Juin 1748.</p>
         <p>C[omte]. AR Bestoucheff{{p0017}}</p>
         <p>Woronzow{{p0145}}</p>
-        <p />
+        <p/>
         <p>Copie</p>
         <p>Pro-memoria Ministere</p>
         <p>de Russie donné au C[om] te de </p>
@@ -174,10 +169,10 @@
         <p>le 29. Juin 1748.</p>
         <p>en faveur du Marchand </p>
         <p>Affanasey Martoff{{p2086}}.</p>
-        <p />
+        <p/>
         <p>in L[or]d Hyndford{{p0776}} 5 July 1748.</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <noteGrp>
           <note>See also:</note>
           <note>en_na_russia_sp_91-111_0009</note>
