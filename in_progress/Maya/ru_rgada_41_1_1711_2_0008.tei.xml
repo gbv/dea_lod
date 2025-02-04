@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,10 +94,10 @@
         <p>ru_rgada_41_1_1711_2_0008.docx</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF>
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -130,10 +127,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131132952772",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131142952772",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-31T12:29:52.772Z",
-	"dcterms:modified": "2024-01-31T12:29:52.772Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -144,10 +140,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131132952772#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131142952772#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0008.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1711_2_0008.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -155,17 +151,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131132952772#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131142952772#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/opener/salute/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/3164603",
+		"@id": "https://www.geonames.org/3164603",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -173,12 +169,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.6.0"
 	}
-}
-                </rdf:Description>
+}]]>
+        </rdf:Description>
+      
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-                    {
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -208,10 +205,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131134128036",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131144128036",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-31T12:41:28.036Z",
-	"dcterms:modified": "2024-01-31T12:41:28.036Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -222,10 +218,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131134128036#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131144128036#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0008.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1711_2_0008.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -233,17 +229,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/data/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131134128036#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1711_2_0008.tei.xml?place_annotation_20240131144128036#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/closer/dateline/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/3164603",
+		"@id": "https://www.geonames.org/3164603",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -251,28 +247,24 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.6.0"
 	}
-}
-                </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <head>
-        <title> 15 September 1711. – Letter from the <persName key="p1366">Russian consul in Venice
+        <title> 15 September 1711. – Letter from the <persName key="p1366">Russian Consul in Venice
           Demetrio
             Bozzis
           </persName>
-          to <persName key="p0174">Tsar Peter I</persName>
-        </title>
-      </head>
+          to <persName key="p0174">Tsar Peter I of Russia</persName></title></head>
       <opener>
         <note>RGADA, fond 41, opis 1, 1711, no. 2, f. 51-52. Russian translation;
           Greek original: ibid., f. 50-50v.
         </note>
-        <pb cert="high" n="f. 51" xml:space="default" />
+        <pb cert="high" n="f. 51" xml:space="default"/>
         <salute>Из <placeName key="g0031" ref="https://www.geonames.org/3164603">Венецыи</placeName>
           от <persName key="p1366">Димитрия Боцыса
           </persName> к великому Г[осу]д[а]рю </salute>
@@ -281,10 +273,9 @@
       <p>Из разных мест получили мы ведомости о победе, и славном мире Величества Вашего, тишайший
         Ц[а]рь, обстоятелства мирныя и договоры не суть явны. И хотя некоторые от страны агарянской
         всячески домогаются обявити дело, и одержать простый народ против интереса намерения своего,
-        однако ж правда на верху, и раздирает д[у]ши и слышя и немогшися отрещися что <persName
-          key="p0193">король швецкий</persName> не имеет участия в постановлении мирном. О которой
+        однако ж правда на верху, и раздирает д[у]ши и слышя и немогшися отрещися что <persName key="p0193">король швецкий</persName> не имеет участия в постановлении мирном. О которой
         ведомости зело все радуемся </p>
-      <pb cert="high" n="f. 51v" xml:space="default" />
+      <pb cert="high" n="f. 51v" xml:space="default"/>
       <p>и м[о]л[и]м г[оспо]да Б[о]га да направит царския В[а]ши стопы в благополучие
         христианскому народу.
       </p>
@@ -297,7 +288,7 @@
         </persName> и двое пашей с войною на разорение
         их, и так великое кровопролитие тем хр[ис]тиянам будет, что арагяне и учинят на образец
         другим. Пишут, </p>
-      <pb cert="high" n="f. 51" xml:space="default" />
+      <pb cert="high" n="f. 51" xml:space="default"/>
       <p>что бунтовныя те войска доведався о мире, и о марше на себя тех пашей и <persName key="p0748">
           сераскера</persName>, заарестовали всех главных зачинщиков бунта с таким намерением, ежели
         турки на них придут, то получя себе от них пардон, выдадут тех зачинщиков туркам. Отчего
