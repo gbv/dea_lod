@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +100,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -108,23 +108,21 @@
       <div type="letter">
         <head>
           <title>[Between July 1749 and January 1750]. – Memorandum to be submitted to the British
-            Ministry{{o139}} by the Minister Plenipotentiary of Russia to London, Count [Petr
-            Grigor’evich] Chernyshev{{p1440}}</title>
+            Ministry by <persName key="p1440">the Minister Plenipotentiary of Russia to London, Count [Petr Grigor’evich] Chernyshev</persName></title>
           <note>
-            <bibl>NA Kew, Russia, no. SP 91-51, s.f. French copy</bibl>
+            <bibl>NA Kew, Russia, no. SP 91-51, s.f. French copy.</bibl>
           </note>
         </head>
-        <p />
+        <p/>
         <p>Memoire que le Ministre </p>
         <p>Plenipotentiaire de Russie à </p>
         <p>Londres Comte de Czernicheff{{p1440}}</p>
         <p>doit remettre au Ministere de la </p>
         <p>Grande Bretagne{{o0139}}.</p>
-        <p />
+        <p/>
         <p>Sa Majesté Imperiale de toutes les Russies{{p0052}} a vu avec un plaisir sensible, et
           toute la reconnaissance d’une bonne Alliée, par la reponse de Sa Majesté
-          Britannique{{p0063}} du 5/16 Juillet passé au memoire remis a Mons[ieu]<hi
-            rendition="#sup">r</hi> l’Ambassadeur Extraordinaire, Comte de Hyndford{{p0776}},
+          Britannique{{p0063}} du 5/16 Juillet passé au memoire remis a Mons[ieu]<hi rendition="#sup">r</hi> l’Ambassadeur Extraordinaire, Comte de Hyndford{{p0776}},
           dernierement parti de Sa Cour{{o0008}}, en date du 14/25 Mars lequel contenoit la premiere
           Declaration, faite de la part de Sa Majesté Imperiale de toutes les Russies{{p0052}} par
           Son Ministre de Panin{{p0114}} à la Cour de Suede{{o0015}}, contre les changemens
@@ -149,8 +147,7 @@
           le Nord, ne seroit point eloignée non seulement d’approuver comme par le passé, cette
           autre marque de l’Attention de Sa Majesté de toutes les Russies{{p0052}}, à menager tant
           ses propres Interets, que ceux de Ses hauts Alliés, et qui naturellement y sont attachés,
-          mais aussi de s’expliquer plus precisement et conformement a Ses Engagements sur le <hi
-            rendition="#u">Casum foederis</hi>, et le Secours promis stipulé par le Traité, dans le
+          mais aussi de s’expliquer plus precisement et conformement a Ses Engagements sur le <hi rendition="#u">Casum foederis</hi>, et le Secours promis stipulé par le Traité, dans le
           cas que le Parti dominant en Suede voulusse agir contre cette Declaration legitime, et
           obliger par là Sa Majesté Imperiale{{p0052}} de mettre en Execution les Engagemens en
           conformité du Traité de Nystadt.</p>
@@ -229,9 +226,7 @@
           ont couru dans le monde, et principalement en Suede, comme si Sa Majesté Imperiale de
           toutes les Russies{{p0052}}, conjointement avec quelques autres Puissances avoient taché
           de detruire la Succession en Suede quoy qu’etablie par Elle meme et que les assurances les
-          plus positives du contraire ont été donnés a <placeName
-            key="g0017"
-            ref="https://www.geonames.org/2673730">Stockholme</placeName>
+          plus positives du contraire ont été donnés a <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholme</placeName>
           par un Memoire, que le conseiller Privé Baron de Korff{{p0245}}, Son Ambassadeur en ce
           tems là a cette Cour{{o0015}}, y a presenté.</p>
         <p>Il est evident, que le Parti dominant en Suede, n’a eu d’autres vuёs en semant des bruits
@@ -295,11 +290,11 @@
         <p>Londres Comte de Czernicheff{{p1440}}</p>
         <p>doit remettre au Ministere de la</p>
         <p>Grande Bretagne{{o0139}}.</p>
-        <p />
+        <p/>
         <p>Memoire que le Comte de Czernichew doit remettre au Ministère de la Grande Bretagne.</p>
-        <p />
+        <p/>
         <p>In M<hi rendition="#sup">r</hi>. Guy Dicken’s{{p1439}}</p>
-        <p>Separate Letter of 28<hi rendition="#sup">th<hi rendition="#sub" />.</hi>
+        <p>Separate Letter of 28<hi rendition="#sup">th<hi rendition="#sub"/>.</hi>
         </p>
         <p>Jan. 1749./50.</p>
       </div>
