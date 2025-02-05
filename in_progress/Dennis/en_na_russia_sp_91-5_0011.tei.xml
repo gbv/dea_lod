@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
         <title type="main" xml:lang="en">Extract of Count Gollowin's answer to the said Memorial
           dated Mosco 5./16. May 1705</title>
         <author xml:lang="en">Fedor</author>
@@ -99,26 +99,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>5 / 16 May 1705. – Extract of Count Gollowin's{{p0277}} answer to the said Memorial
-            dated <placeName
-              key="g0001"
-              ref="https://www.geonames.org/524894">Mosco</placeName> 5./16. May 1705</title>
+          <title>5 / 16 May 1705. – Extract of <persName key="p0277">Count Gollowin</persName>'s answer to the said Memorial
+            dated <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> 5./16. May 1705</title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-5, f. 89v-90v. English copy.</bibl>
           </note>
         </head>
-        <pb n="f. 89v" />
-        <p>Extract of Count Gollowin's{{p0277}} answer to the said Memorial dated <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName> 5./16. May 1705</p>
-        <p />
+        <pb n="f. 89v"/>
+        <p>Extract of <persName key="p0277">Count Gollowin</persName>'s answer to the said Memorial dated <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> 5./16. May 1705</p>
+        <p/>
         <p>Concerning the Exportation of goods Customfree according to the Contract, althou this was
           allowed by the Czars especiall grace for the produce of the Tobacco, in hopes to increase
           that Trade for the advantage of both dominions ; yet since so many disorders were
@@ -130,7 +126,7 @@
           was not agreed, that the goods should be exported without any dutys at all, but only on
           paying the moderate and usuall Customs as the Envoy himself may plainly see out of the
           original English Contract.</p>
-        <pb n="f. 90" />
+        <pb n="f. 90"/>
         <p> What concerns the Letter of Exchange, which Mr. Goodfellow{{p1252}} gave for 20 m.
           Dollars, he was not constraind to it, but he did it for his free will, because several
           Commodities had been taken of him, as part of the Tobacco duties at very high rates,
@@ -147,7 +143,7 @@
           gave some hopes ; as to the duty thereof, it was order’d to be taken accordingly to the
           usuall Customs, which were pay’d by all Merchants, and not according to the new
           impositions laid on that commodity. Notwithstanding which several </p>
-        <pb n="f. 90v" />
+        <pb n="f. 90v"/>
         <p> particular favours beyond what was agreed to in the first Traety, all has been to no
           purpose.</p>
         <noteGrp>
