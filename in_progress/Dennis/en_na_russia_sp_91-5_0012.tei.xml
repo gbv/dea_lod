@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
         <title type="main" xml:lang="en">Extract of the English Envoy's reply to Count Gollowin's
           answer dated Mosco 14./25. May 1705 </title>
         <author xml:lang="en">Charles</author>
@@ -98,27 +98,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>14 / 25 May 1705. – Extract of the English Envoy's{{p1255}} reply to Count
-            Gollowin's{{p0277}} answer dated <placeName
-              key="g0001"
-              ref="https://www.geonames.org/524894">Mosco</placeName> 14./25. May
+          <title>14 / 25 May 1705. – Extract of the <persName key="p1255">English Envoy</persName>'s reply to <persName key="p0277">Count Gollowin</persName>'s answer dated <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> 14./25. May
             1705</title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-5, f. 90v-92. English copy.</bibl>
           </note>
         </head>
-        <pb n="f. 90v" />
-        <p>Extract of the English Envoy's{{p1255}} reply to Count Gollowin's{{p0277}} answer dated <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName> 14./25. May 1705</p>
-        <p />
+        <pb n="f. 90v"/>
+        <p>Extract of the English Envoy's{{p1255}} reply to Count Gollowin's{{p0277}} answer dated <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> 14./25. May 1705</p>
+        <p/>
         <p>To the 3d. As if the Liberty granted to export the produce of their Tobacco Customfree
           was a particular favour of the Czar{{p0174}}, and no obligation as it is said, the Envoy
           might see from the words of the original Treaty, is answer’d : The Envoy has consulted the
@@ -134,7 +129,7 @@
           Const ruction thereof etc : all matters and things shall be favourably , liberally and
           beneficially construed and decided in favour and on the part</hi>
         </p>
-        <pb n="f. 91" />
+        <pb n="f. 91"/>
         <p>
           <hi rendition="#u"> of the said M ar quis or his assigns</hi>. It is likewise very plain, that the
           Czars Ministers themselves did for two years together own this to be the true intent of
@@ -153,7 +148,7 @@
           a year and a half impay’d, and that it was put to the Tobacco account not at a low but a
           reasonable price ; to all which is answerd : That the Envoy never said the Bill was taken
           by </p>
-        <pb n="f. 91v" />
+        <pb n="f. 91v"/>
         <p> force, but on promise of having ready money immediately pay’d for it, which was not
           kept. As to the having given free carridges for the Tobacco ; that has hapned very
           seldome, and in such places, as hoses could not well be hired ; however these and such
@@ -170,24 +165,16 @@
         <p>As to the flax trade it is alleg’d, that this does not concern the Company{{o0137}}, but
           was given as a particular favour to the consul, with a prospect of increasing the Trade in
           the Esat Sea, whereof he gave some promices : to this answerd : </p>
-        <pb n="f. 92" />
+        <pb n="f. 92"/>
         <p> that the Envoy never said, this Trade concern’d the Company{{o0137}}, but begs leave to
           take notice, that there may be probably some little mistake on the second point ; for this
           patent was granted in July 1702. when the Czar{{p0174}} had no footing in Ingermanland,
-          and much less any Haven on the East Sea ; for <placeName
-            key="g0428"
-            ref="https://www.geonames.org/493970">Noteburgh</placeName>
-          was not taken till September 1702. Neuenshantz etc. in 1703. and <placeName
-            key="g0115"
-            ref="https://www.geonames.org/3247449">
+          and much less any Haven on the East Sea ; for <placeName key="g0428" ref="https://www.geonames.org/493970">Noteburgh</placeName>
+          was not taken till September 1702. Neuenshantz etc. in 1703. and <placeName key="g0115" ref="https://www.geonames.org/3247449">
           Narva</placeName> not till 1704. In the patet it is likewise mention’d to carry out the
-          said flax by way of <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName>, which was the a great
+          said flax by way of <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName>, which was the a great
           piece of service, none having been ever sent thither before, and lastly the
-          Consul{{p1252}} had much ado, to obtain that the Town of <placeName
-            key="g0115"
-            ref="https://www.geonames.org/3247449">Narva</placeName>
+          Consul{{p1252}} had much ado, to obtain that the Town of <placeName key="g0115" ref="https://www.geonames.org/3247449">Narva</placeName>
           should likewise be inserted in his grant, in hopes a peace might be made before that was
           expired : however since His Excellence declares, that the common dutys ware onely order’d
           to be taken from him, and not the new additional impositions, the Envoy has nothing to
