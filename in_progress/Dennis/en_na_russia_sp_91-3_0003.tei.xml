@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,21 +101,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>December 1681. – Letter from <persName key="p1329">Charles II</persName> to <persName
-              key="p0461">Feodor Alexeievich</persName>
+          <title>December 1681. – Letter from <persName key="p1329">the King of England, Scotland and Ireland Charles II</persName> to the Tsar of Russia Fedor Alekseevich<persName key="p1329"/><persName key="p0461"/>
           </title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-3, f. 336-339. Latin copy.</bibl>
           </note>
         </head>
-        <pb n="f. 336" />
+        <pb n="f. 336"/>
         <p>Carolus Secundus Dei Gratia Magna Britannia, Francia et Hibernia Rex, Fidei Difensor etc.</p>
         <p>Charissimo Fratri Nostro Celcissimo, Potentissimo et Illustrissimo Principi, Magno
           Domino, Imperatori, et Magno Duci, Theodoro Alexeowich, Magnae, Parvae, et Albae Russiae,
@@ -134,21 +133,15 @@
           Nostris utilem reddere, Caesareae Vestrae Majestati hisce etiam commemorandum duximus
           quantis incommodis Subditi Nostri per Caesareae Majestatis Ditiones Mercaturam facientes
           gravati fuerint plenissimi confisi. Ipsam tum pro singulari quâ melare siei Iustitiam </p>
-        <pb n="f.           337" />
+        <pb n="f.           337"/>
         <p> Tantisper vero donee Caesarea V[est]ra Ma[jes]tas, fidem ab ejusdem Caesareae V[est]rae
           Ma[jes]tis Patre{{p0267}} circa gravamina illa vollenda, praestiterit quod quidem brevi
           effectumiri speramus à Caesarea Vestra Majestate id contendendu duximus ut firmo in
-          perpetuum duraturo Rescripto Praefectis et Teloniorum Ministris in <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Portu
+          perpetuum duraturo Rescripto Praefectis et Teloniorum Ministris in <placeName key="g0049" ref="https://www.geonames.org/581049">Portu
           Archangeli</placeName> agentibus edicere vellet, ut subditis Nostris sit libera facultus
-          cum Personis Mercimoniis &amp; nondum divenditis, <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894" />
+          cum Personis Mercimoniis &amp; nondum divenditis, <placeName key="g0001" ref="https://www.geonames.org/524894"/>
           libere adire adeo &amp; per universas Caesareae V[est]rae Ma[jes]tis Dictiones, prout
-          Ipsis consultum et visum fuerit, transire Mercimonia sua, in corum illue transitu aut in <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894" /> ipsa prout illud Ipsis magis commodium videbitur commutare.</p>
+          Ipsis consultum et visum fuerit, transire Mercimonia sua, in corum illue transitu aut in <placeName key="g0001" ref="https://www.geonames.org/524894"/> ipsa prout illud Ipsis magis commodium videbitur commutare.</p>
         <p>Iidem Subditi Nostri porrò queruntur quod, initis de satis magno Coriorum numero Pactis,
           haud Ipsis licitum est codem in Registro Vestro Telonario refere quo unico juxta Caesareae
           V[est]rae Ma[jes]tis Leges Pacta omnia, confirmatur nisi cadem majori pretio censeantur,
@@ -160,7 +153,7 @@
           ex eo quod Praefecti, et alii Caesareae V[est]rae Ma[jes]tis Ministri ibidem agentes
           Ipsorum operarios et Servos etiam in mediis Ipsorum negotiis versantibus subducunt unde
           fit ut </p>
-        <pb n="f. 338" />
+        <pb n="f. 338"/>
         <p> necessum Ipsis sit condicto pretio Ipsos redimere.</p>
         <p>Significatum insuper Nobis est, haud fas esse Navius Nostrarum Praefectis Cerevisiam
           carundem usui necessariam decoquere, quin innò coguntur ejusce modi accipere qualis
@@ -182,7 +175,7 @@
           Samuelii Meverall indicatum fuerit assessoribus curia Legationum Caesareae V[est]rae
           Ma[jes]tis ab ipsa ad exterarum quarum cumque Gentiam causas exaudiendas deputatis,
           quendam hominem cui nomen Mintor est Ipsi exobiturum Roblos plus minus 2000. </p>
-        <pb n="f. 338v" />
+        <pb n="f. 338v"/>
         <p>
           Ipsi quidem homines qui pro eodem Meverall{{p1960}} ad eam iusque summam
           consponsoresfuerant eisdem 2000 Roblis planè frustrati sunt ex eo eadem causa in aliam
@@ -203,7 +196,7 @@
           Christi nomen profitentes usu venire solent quaeque è re omnisio sunt ad conservandam
           sempiternam integerrimam que amicorum Conjunctionem in mutuum etiam Imperialium Nostrarum
           Coronarum Commodum et utilitatem </p>
-        <pb n="f. 339" />
+        <pb n="f. 339"/>
         <p> cedituram. Quod reliquum est, Caesareae Vestrae Ma[jes]ti vitam longevam, faelicitatem
           omnibus numeris absolutam, prosperrimos que Regni Eventus, Ipsi ex animo et quam sincere
           apprecantes. Eandem Regimen que suum Dei Omnipotentis Tutelae et Patrocinio commendamus.
