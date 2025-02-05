@@ -128,163 +128,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml?place_annotation_20240928173504657",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-28T14:35:04.657Z",
-	"dcterms:modified": "2024-09-28T14:35:04.657Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml?place_annotation_20240928173504657#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml?place_annotation_20240928173504657#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://www.geonames.org/3194494",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml?place_annotation_20240928175347586",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-28T14:53:47.586Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml?place_annotation_20240928175347586#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml?place_annotation_20240928175347586#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/placeName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://www.geonames.org/3188893",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1711_2_0010.tei.xml?place_annotation_20240213160318835",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T14:03:18.835Z",
@@ -504,8 +347,7 @@
           </note>
           <pb cert="high" n="f. 57" xml:space="default"/>
           
-		  Из Венеции декабря от 12г : 1711: от <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1366" xml:space="default">Димитрия Боциса</persName> к барону Урбиху
-              ведомости о
+		  Из Венеции декабря от 12г : 1711: от <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1366" xml:space="default">Димитрия Боциса</persName> к <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0746" xml:space="default">барону Урбиху ведомости</persName> о
               монтенегринах
             <salute>Ill:mo et Ec:mo Sig:r Sig:r Prot Coll:</salute>
         </opener>
@@ -519,8 +361,7 @@
           esibisse; che servivano, per la quietezza degl’animi perturbati, é ché stano in <pb cert="high" n="f. 57v" xml:space="default"/>
         </p>
         <p>equilibbrio por la credenza. Si sentono pure tuttavia li Montenegrini in armi, et
-          avanzati nelli progressi con l’acquisto di <placeName key="g0475" ref="https://www.geonames.org/3194494">Nixich</placeName>, incamminandosi verso <placeName key="g0395" ref="https://www.geonames.org/3188893">Tribigne
-          </placeName> ; comé pure si hà che quattrocento Zuppani si siano uniti alli
+          avanzati nelli progressi con l’acquisto di <placeName key="g0475" ref="https://www.geonames.org/3194494">Nixich</placeName>, incamminandosi verso <placeName key="g0395" ref="https://www.geonames.org/3188893">Tribigne </placeName> ; comé pure si hà che quattrocento Zuppani si siano uniti alli
           detti Montenegrini con due Pezzi di canone. Questa nuova si hà da un Fregadone Perastino
           capitato pur hoggi da <placeName key="g0394" ref="https://www.geonames.org/3185728">
             Durazzo</placeName>, e che si parti due giorni inani della soprad[ett]a Felucha; Il
