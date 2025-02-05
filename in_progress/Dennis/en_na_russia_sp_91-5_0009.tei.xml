@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
         <title type="main" xml:lang="en">Translation of Count Golloffkin's Letter to Mr. Whitworth,
           about the affront offerd [to] the Russian Ambassador in London, dated from the camp at
           Grigorkow 16. Sept[ember] 1708 </title>
@@ -100,29 +100,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>5 / 16 September 1708. – Translation of Count Golloffkin's{{p0071}} Letter to Mr.
+          <title>5 / 16 September 1708. – Translation of <persName key="p0071">Count Golloffkin</persName>'s Letter to Mr.
             Whitworth{{p1255}}, about the affront offerd [to] the Russian Ambassador in London,
-            dated from the camp at <placeName
-              key="g0427"
-              ref="https://www.geonames.org/628062">Grigorkow</placeName> 16. Sept[ember] 1708</title>
+            dated from the camp at <placeName key="g0427" ref="https://www.geonames.org/628062">Grigorkow</placeName> 16. Sept[ember] 1708</title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-5, f. 69-71v. English translation.</bibl>
           </note>
         </head>
-        <pb n="f. 69" />
+        <pb n="f. 69"/>
         <p> Duplicate</p>
         <p>Translation of Count Golloffkin's{{p0071}} Letter to Mr. Whitworth{{p1255}}, about the
-          affront offerd [to] the Russian Ambassador in London, dated from the camp at <placeName
-            key="g0427"
-            ref="https://www.geonames.org/628062">Grigorkow</placeName> 16. Sept[ember] 1708</p>
-        <p />
+          affront offerd [to] the Russian Ambassador in London, dated from the camp at <placeName key="g0427" ref="https://www.geonames.org/628062">Grigorkow</placeName> 16. Sept[ember] 1708</p>
+        <p/>
         <p>I have received your letter of the 3./14. Inst[ant] some days ago, by which I first was
           surprised, but when the particular Relation of our Ambassador Mr. Matveoff{{p0699}}
           afterwards came on, was quite astonish’d, to learn the unheard off inhuman Proceedings and
@@ -139,7 +135,7 @@
           these Highwaymen and brought him into a neighbouring Tavern, to inform themselves of the
           busines ; the said fellows produced their orders, on which the Ambassador found himself
           again abandon’d by every one, turn’d over to the </p>
-        <pb n="f. 69v" />
+        <pb n="f. 69v"/>
         <p> Didcretion of these thieves, further abused by them, forceably slung into a Harkney
           coach, hurried away to a scandalous prison, and there set fast ; and notwithstanding He
           the Ambassador sent some foreign Ministers and English Lords, who were his personal
@@ -159,7 +155,7 @@
           Majesty{{p0174}} cannot do otherwise, than look on this unexpected affront with the
           greatest resentment, and therefore has graciously order’d me to write to you that you may
           acquaint Her Majesty of Great Britain{{p0668}}, how </p>
-        <pb n="f. 70" />
+        <pb n="f. 70"/>
         <p> sensible His Czarish Majesty{{p0174}} is at this proceeding, and that he demands from
           Her Majesty{{p0668}} a great satisfaction proportionable to the affront; to wit, that the
           Criminals and first the Sheriff, the occasion of all this Mischief may ay least be
@@ -180,7 +176,7 @@
           Consequences, you as an experienc’d Minister and true servant of the Queen{{p0668}}, will
           use your best endeavours by your representations, both to Her Majesty{{p0668}} and Her
           Ministers, that the old friendship </p>
-        <pb n="f. 70v" />
+        <pb n="f. 70v"/>
         <p> and good correspondence, which has all along subsisted between the two Monarchs, and
           Empires of Great Russia and Great Britain, may suffer no diminution ; and wee on our sides
           shall likewise employ our best offices not to let it come to such ill effect.</p>
@@ -201,7 +197,7 @@
           very severe Terms, and with Indignation let them understand that they should immediately
           take off the seal from that warehouse where your things were : but for what relates to the
           Consul{{p1225}} </p>
-        <pb n="f. 71" />
+        <pb n="f. 71"/>
         <p> his person cannot be brought into competition with an Envoy and much less an Ambassador,
           and since he moreover drives a great Trade, he has sometimes disputes with several persons
           and offices, nevertheless if any thing were put upon him indecently, and complained off by
@@ -222,12 +218,12 @@
           cannot in the least prejudice the Interest of His Czarish Majesty{{p0174}} or the common
           wealth, only that it may awaken some small discontent in his friends, and some pleasure in
           His Ennemys ; but being now pass’d it must be left </p>
-        <pb n="f. 71" />
+        <pb n="f. 71"/>
         <p> as it is, and the Decision thereof referr’d to the Will of God and chance of arms, which
           alone can decide, who is to keep possession of the Polish throne, and have of late been
           very favourable to His Majesty ; the Most High God give his further blessin and happy
           conclusion hereof, to whose allmighty protection &amp; recommend you and remain.</p>
-        <p />
+        <p/>
         <noteGrp>
           <note>See also:</note>
           <note>en_na_russia_sp_91-5_0013 ; </note>
