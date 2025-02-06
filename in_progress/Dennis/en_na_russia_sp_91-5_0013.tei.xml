@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
         <title type="main" xml:lang="en">Translation of a letter from Mr. Whitworth to Count
           Golofkin, about the affront offerd to Mr. Matveoff</title>
         <author xml:lang="en">Charles</author>
@@ -98,21 +98,19 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 September / 2 October 1708. – Translation of a letter from Mr.
-            Whitworth{{p1255}} to Count Golofkin{{p0071}}, about the affront offerd to Mr.
-            Matveoff{{p0699}}</title>
+          <title>21 September / 2 October 1708. – Translation of a letter from <persName key="p1255">Mr. Whitworth</persName> to <persName key="p0071">Count Golofkin</persName>, about the affront offerd to <persName key="p0699">Mr. Matveoff</persName></title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-5, f. 96-99. English translation.</bibl>
           </note>
         </head>
-        <pb n="f. 96" />
+        <pb n="f. 96"/>
         <p>
           <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>
         </p>
@@ -120,12 +118,10 @@
         <p>2 Oct[obe]r 1708</p>
         <p>Translation of a letter from Mr. Whitworth{{p1255}} to Count Golofkin{{p0071}}, about the
           affront offerd to Mr. Matveoff{{p0699}}</p>
-        <p />
+        <p/>
         <p>Last night I received the honour of your Excellencys Letter of the 16.th Inst[ant].
           concerning the Extraordinary affront offer’d to His Excellency your Ambassador Mons[iue]r
-          Matveoff{{p0699}} in <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">London</placeName>, and the great concern of
+          Matveoff{{p0699}} in <placeName key="g0003" ref="https://www.geonames.org/2643743">London</placeName>, and the great concern of
           His Czaarish Majesty{{p0174}} : I am very confident and dare give you the most positive
           assurances, that H[is] C[zarish] M[ajesty]{{p0174}} himself cannot be more moved at this
           unluky accident, than the Queen{{p0668}} is, and that nothing shall be last undone which
@@ -133,15 +129,13 @@
           and to convince His Majesty{{p0174}} of the great Esteem She has, and allways will have
           for his person and friendship ; the annext copys of the two Letters from his Excellency
           the Secretary of State M[iste]r Boyle{{p1969}} to your Ambassador{{p0699}} which I
-          received two days ago by a Courier from <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName>,
+          received two days ago by a Courier from <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName>,
           express the sentiments of the Court{{o0002}} so fully on this occasion, tat it is not
           possible for me to find out Terms more strong or more oblidging ; you will theresee what
           that seventeen persons are allready in prison, and will be prosecuted with the outmost
           severity for this attempt : I own it is of such a nature that I shall not endeavour any
           wise </p>
-        <pb n="f. 96v" />
+        <pb n="f. 96v"/>
         <p> to excuse their insolence ; but I must observe, that the Ambassadors Relation seems to
           be aggravated in so violent a manner, as is not usuall to persons of his prudence and
           moderation, who instead of endeavouring to lessen the friendship of their Principals,
@@ -161,7 +155,7 @@
           onely two but above ten Tradesmen, who are now in prison, ware concern’d in arresting him
           for debts, which ware much greater than he mentions, thou I cannot tell the particular sum
           ; nor do I find nor can believe, that ever any public notice </p>
-        <pb n="f. 97" />
+        <pb n="f. 97"/>
         <p> was given, or day appointed to pay his creditors ; for it is unreasonable to think any
           people should be so mad as to run themselves into these inconveniencys, when a time was
           named and they inform’d they should receive satisfaction ; which particulars I do not
@@ -180,9 +174,9 @@
           suitable satisfaction, and maintaining the old friendship between the two Dominions of
           Great Britain and Great Russia ; hoping at the same time your Exc[ellence] will endeavour,
           as you ware pleased to promiss, to moderate by your good officies His Czarish
-          Maj[esty]{{p0174}} resentement and facilitate the way on your side ; if I thought my
+          Maj[esty]{{p0174}} resentement and facilitate the way on your side; if I thought my
           presence might be acceptable or of use to this good work; I hall willingly wait </p>
-        <pb n="f. 97v" />
+        <pb n="f. 97v"/>
         <p> upon His Cz[arish] Maj[esty]{{p0174}} and your Exc[ellence]: with a great deal of
           pleasure, at any time and place you may think fit to appoint me, both to give by word of
           mouth the further assurances of Her Majestys great concern at this affair, and to
@@ -202,13 +196,13 @@
           even a coldness between the two Crowns ; but that, I am fully persuaded, as long as His
           Cz[arish] Maj[esty]{{p0174}} has such prudent Councillors as you are, will never happen
           and on the other side I shall allways do my best, to </p>
-        <pb n="f. 98" />
+        <pb n="f. 98"/>
         <p> find out opportunitys, whereby the Czar{{p0174}} may be induc’d to encrease the Esteem
           he has often profess’d to me to have for Her Majestys, and that gracious regard He has
           hitherto shown for Her Subjects, by whom he has several times own’d he is well serv’d.</p>
         <p>After having detain’d Your Excellency thus long I shall be very short in those points,
-          which relate to me and the Consul{{p1252}} ; which thou it is true are not to be compared
-          with the great affront unlukely happen’d to M[iste]r Artemonowitz{{p0699}}, yet have been
+          which relate to me and <persName key="p1252">the Consul</persName>; which thou it is true are not to be compared
+          with the great affront unlukely happen’d to <persName key="p0699">M[iste]r Artemonowitz</persName>, yet have been
           of weight and might have been of more, if ill represented ; and as to the satisfaction
           obtain’d, I am oblig’d to say it has never been without a great deal of pains and
           disagreableness, and then not proportionable to the affronts : as for the people that
@@ -221,18 +215,14 @@
           Country, and then taken barely pro formû, my secretary onely permitting them to have four
           of five blows, and that from the two alone, who would have seized my horse, thou above
           twenty ware concern’d in the uproar ; as to my goods being seal’d up, </p>
-        <pb n="f. 98v" />
+        <pb n="f. 98v"/>
         <p> I had not acquainted your Precasse{{o0064}} with the place whither I sent them, because
           I left servants in Town to take care of them, they being onely laid in one of the Consuls
           warehouses to avoid fire and thieves, against which I had no other place of security ; nor
           could the Town Councill pretend ignorance whose they ware, since my servants appear’d
           there in my Livery, to acquaint them of it before they ware sealed up, and thou I
-          represented this in <placeName
-            key="g0264"
-            ref="https://www.geonames.org/627904">Grodno</placeName>, yet the seals were not
-          taken off in some months, till after my arrival in <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName>}
+          represented this in <placeName key="g0264" ref="https://www.geonames.org/627904">Grodno</placeName>, yet the seals were not
+          taken off in some months, till after my arrival in <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>}
           : it is true a Consul can be brought into no Comparison with Ambassadors and Envoys, that
           is as to the rangs and other prerogatives, but the Laws of Nations also takes care for the
           protection of their persons, their houses and servants, nor did the two Instances I
@@ -246,7 +236,7 @@
           add to what I lately writ to your Excellency on this point, is, that t’is probable I may
           have had orders to make such a notification a considerable time ago, if all the secretary
           of </p>
-        <pb n="f. 99" />
+        <pb n="f. 99"/>
         <p> States Letters were come to my hands, but yours Exc[ellency]: very well knows that near
           three months Letters from the 1. Febr[uary] to the las April are still missing nor have I
           yet received any duplicats of them by the present irregularity of the posts, so that I am
@@ -258,7 +248,7 @@
           : it is with very particular pleasure that I give your Exc[ellency]: these many
           assurances, to which I beg leave to add those of my being with great respect and Esteem</p>
         <p>C[harles] W[hitworth]</p>
-        <p />
+        <p/>
         <noteGrp>
           <note>See also:</note>
           <note>en_na_russia_sp_91-5_0009</note>
