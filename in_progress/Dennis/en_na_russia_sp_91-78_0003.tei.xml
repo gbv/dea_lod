@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,25 +95,24 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>30 April / 11 May 1767. – Letter from Count Nikita Ivanovich Panin{{p0114}} to the
+          <title>30 April / 11 May 1767. – Letter from <persName key="p0114">Count Nikita Ivanovich Panin</persName> to the
             Ambassador of Great Britain to Russia, Earl George McCartney{{p1066}}</title>
           <note>
-            <bibl>NA Kew, Russia, no. SP 91-78, f. 89-91v. French copy</bibl>
-          </note>
+            <bibl>NA Kew, Russia, no. SP 91-78, f. 89-91v. French copy.</bibl></note>
         </head>
-        <pb n="f. 89" />
+        <pb n="f. 89"/>
         <p> Monsieur,</p>
-        <p />
+        <p/>
         <p>J’étoit prêt à répondre à la lettre que Vous m’avez fait l’honneur de m’ecrire le 2/13.
           de ce mois, lorsque j’au reçû le courrier que Vous m’avez éxpedié pour m’apporter celle du
-          8/19. qui contenoit une depêche en original de M[onsieu].<hi rendition="#sup">r</hi> De
+          8/19. qui contenoit une depêche en original de M[onsieu]<hi rendition="#sup">r</hi> De
           Convai{{p1068}} avec sa traduction. J’ai crû povoir m’arrêter alors pour me donner le têms
           de faire rapport de cette dernier lettre à l’Imperatrice{{p0033}} et prendre Ses ordres
           sur l’objet dont elle traite. L’ayant fait, monsieur, je les reprendrai l’une et l’autre
@@ -127,7 +123,7 @@
           que celui sur lequel Vous m’avez deja prevenû depuis longtêms et que Vous me repete encore
           dans la premiere de Vos lettres. Le soupçon d’une moindre intimité entre les deux Cours ne
           sauroit y trouver place, et j’aurois tort de m’y arrêter. </p>
-        <pb n="f. 89v" />
+        <pb n="f. 89v"/>
         <p> Je ne m’attacherai qu’à Vous confirmer ce que j’ai souvent eû occasion de Vous dire
           pendant Vôtre ministere auprès de l’Imperatrice{{p0033}}, de la satisfaction avec laquelle
           Elle a vû Vôtre zêle pour la perfection de la bonne intelligence et de l’union entre les
@@ -144,7 +140,7 @@
           jugé que Vous meritez. Trouvez bon monsieur, que mes sentimens particuliers s’expriment
           tous dans la satisfaction avec laquelle je vois ceux de ma Suveraine{{p0033}}. Je Vous
           demande avec </p>
-        <pb n="f. 90" />
+        <pb n="f. 90"/>
         <p> empressement la continuation de Votre amitié et Vous prie de croire que l’attachement
           que je Vous ai voué est aussi sincere qu’inviolable. </p>
         <p>J’ai mis sous le yeux de l’Imperatrice{{p0033}} la depêche de Vôtre cour{{o0002}} à
@@ -163,7 +159,7 @@
           dont nous ne pouvons sortir. </p>
         <p>Je ne repeterai pas, monsieur, les moyens de conciliation, offerts de notre part sur ce
           point ; </p>
-        <pb n="f. 90v" />
+        <pb n="f. 90v"/>
         <p> ils doivent etre presents à Vôtre memoire. Il me suffira de Vous dire pour que Vous en
           puissiez faire rapport au Ministere, qu’ils restent toujours ouverts et Vous y trouverez
           les dispositions precises dans les quelles Vous laissez ma Cour{{o0008}}. Puissiez Vous
@@ -180,7 +176,7 @@
           donner à un systeme commun de deux Grandes Puissances, en les voyant varier, et la
           consideration dont elles jouissent devra souffrir de l’idée d’une moindre union entre
           elles. L’Imperatrice{{p0033}} ne veut point Se le </p>
-        <pb n="f. 91" />
+        <pb n="f. 91"/>
         <p> ni le cacher au Roy{{p0161}}, et Elle le doit d’atant moins, qu’Elle n’a regardé Elle
           même dans son principe la nomination d’un Ambassadeur auprès d’Elle, que comme une marque
           de cette preference d’egards et d’attention que les deux Cours se doivent, et qu’Elle ne
@@ -196,7 +192,7 @@
           revocation reciproque va faire, ou de la prevenir. Telle est nôtre façon d’envisager les
           circonstances où nous nous trouvons. Nous la communiquons avec cette confiance et cette
           franchise que l’amitié de deux souverains et les dispositions des deux ministres </p>
-        <pb n="f. 91v" />
+        <pb n="f. 91v"/>
         <p> portent avec elles: nous n’avons aucun doute qu’on ne nous reponde de même.</p>
         <p>Je suis avec une consideration très distinguée.</p>
         <p>Monsieur,</p>
