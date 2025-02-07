@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -94,8 +95,19 @@
         <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
       </sourceDesc>
     </fileDesc>
-    
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -174,7 +186,7 @@
 	}
 }]]>
         </rdf:Description>
-      
+
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -253,7 +265,9 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
   <text>
     <body>
       <div type="letter">
@@ -269,7 +283,7 @@
               2-2v.
             </p>
           </note>
-          <pb cert="high" n="f. 1" xml:space="default"/>
+          <pb n="f. 1" />
           <note>
             Copia
           </note>
@@ -286,7 +300,9 @@
           contenermi. Io mi sarei di persona portato à piedi di V[ostra] S[ignoria] Ill[ustrissi]ma
           se havessi havuto il modo da potere far un tal viaggio come mi dichiaro sempre più pronto
           ad obbedirla quando V[ostra] S[ignoria] Ill[ustrissi]ma si compiacia darmeno l’apertura.
-          L’affare non puo<pb cert="high" generatedBy="human" n="f. 1v" xml:space="default"/></p><p>essere ne più considerabile ne più geloso di quello s’è et io sono prontissimo
+          L’affare non puo</p>
+        <pb n="f. 1v" />
+        <p>essere ne più considerabile ne più geloso di quello s’è et io sono prontissimo
           comunicarlo, et avrei a V[ostra] S[ignoria] Ill[ustrissi]ma accio possa subito pigliar le
           sue misure, o di participarlo espresso a <persName key="p0174">Sua Maestà</persName> o
           darmi la permissione, che vada io dal med[em]o. Supp[li]co in tanto V[ostra] S[ignoria]
@@ -297,15 +313,18 @@
           <salute>Di V[ostra] S[ignoria] Ill[ustrissi]ma</salute>
           <salute>Devot[issi]mo ed obblig[atissi]mo ser[vitore] vero</salute>
           <date>
-            <placeName key="g0007" ref="https://www.geonames.org/3169069">Roma</placeName>
-            4 : Agosto 1719. </date>
+            <placeName key="g0007" ref="https://www.geonames.org/3169069">Roma</placeName> 4 :
+            Agosto 1719. </date>
           <signed>
             <persName key="p1400">D. Paolo Federici</persName>
           </signed>
           <signed>Ill[ustrissi]mo Sig[no]re Min[istr]o di S. M. Czarianna</signed>
           <signed>/<placeName key="g0031" ref="https://www.geonames.org/3164603">Venezia</placeName>
             / </signed>
-          <note>See also: ru_rgada_41_1_1719_7_0002</note>
+          <noteGrp>
+            <note>See also:</note>
+            <note>ru_rgada_41_1_1719_7_0002</note>
+          </noteGrp>
         </closer>
       </div>
     </body>

@@ -1,102 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>
-          22 December 1719. – Letter from the Russian agent in Venice Matteo Caretta to
-          the chancellor, Count Gavrila Ivanovich Golovkin
-        </title>
-      </titleStmt>
-      <editionStmt>
-        <edition>Languages of Diplomacy Digital Edition</edition>
-        <editor>
-          <persName ref="#rjeoutski">
-            <surname>Rjeoutski</surname>
-            <forename>Vladislav</forename>
-          </persName>
-        </editor>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#borisov">
-            <surname>Borisov</surname>
-            <forename>Viktor</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#kandakou">
-            <surname>Kandakou</surname>
-            <forename>Dzianis</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#lavrinovich">
-            <surname>Lavrinovich</surname>
-            <forename>Maya</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
-          <persName ref="#sergeev">
-            <surname>Sergeev</surname>
-            <forename>Mikhail</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#herzog">
-            <surname>Herzog</surname>
-            <forename>André</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#wallner">
-            <surname>Wallner</surname>
-            <forename>Karin</forename>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
-          <persName ref="#pipka">
-            <surname>Rißler-Pipka</surname>
-            <forename>Nanette</forename>
-          </persName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
-        </publisher>
-        <authority>MWS-Netzwerk Osteuropa</authority>
-        <pubPlace>Bonn</pubPlace>
-        <date when="2024-08-30">30. August 2024</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
-            <p>CC BY-SA 4.0</p>
-          </licence>
-        </availability>
-        <idno>
-          <idno type="project_id">lod</idno>
-        </idno>
-      </publicationStmt>
-      <seriesStmt>
-        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
-        <title type="sub" level="s">Russia in a European context</title>
-      </seriesStmt>
-      <sourceDesc sameAs="http://www.cwrc.ca">
-        <p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
-      </sourceDesc>
-    </fileDesc>
-    
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					22 December 1719. – Letter from the Russian agent in Venice Matteo Caretta to
+					the chancellor, Count Gavrila Ivanovich Golovkin
+				</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>Languages of Diplomacy Digital Edition</edition>
+				<editor>
+					<persName ref="#rjeoutski">
+						<surname>Rjeoutski</surname>
+						<forename>Vladislav</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+					<persName ref="#borisov">
+						<surname>Borisov</surname>
+						<forename>Viktor</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+					<persName ref="#kandakou">
+						<surname>Kandakou</surname>
+						<forename>Dzianis</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+					<persName ref="#lavrinovich">
+						<surname>Lavrinovich</surname>
+						<forename>Maya</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+					<persName ref="#sergeev">
+						<surname>Sergeev</surname>
+						<forename>Mikhail</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+					<persName ref="#herzog">
+						<surname>Herzog</surname>
+						<forename>André</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+					<persName ref="#wallner">
+						<surname>Wallner</surname>
+						<forename>Karin</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+					<persName ref="#pipka">
+						<surname>Rißler-Pipka</surname>
+						<forename>Nanette</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+				</publisher>
+				<authority>MWS-Netzwerk Osteuropa</authority>
+				<pubPlace>Bonn</pubPlace>
+				<date when="2024-08-30">30. August 2024</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>CC BY-SA 4.0</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+						<p>CC BY-SA 4.0</p>
+					</licence>
+				</availability>
+				<idno>
+					<idno type="project_id">lod</idno>
+				</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+				<title type="sub" level="s">Russia in a European context</title>
+			</seriesStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CS�C unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+
+		<xenoData>
+			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -173,8 +186,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -251,8 +264,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -329,8 +342,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -407,8 +420,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -485,8 +498,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -563,8 +576,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -641,8 +654,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -719,8 +732,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -797,8 +810,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -875,8 +888,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -953,8 +966,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -1031,8 +1044,8 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
 		"dcterms:created": {
@@ -1109,110 +1122,169 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <head>
-          <title>22 December 1719. – Letter from <persName key="p1374">the Russian agent
-              in Venice
-              Matteo
-              Caretta
-            </persName> to <persName key="p0071">the Chancellor of Russia, Count Gavrila Ivanovich Golovkin</persName>
-          </title>
-        </head>
-        <opener>
-          
-            <note>RGADA, fond 41, opis 1, 1719, no. 5, f. 1-3v, 6. Italian original. <pb cert="high" n="f. 1" xml:space="default"/>
-            </note>
-          
-          <dateline>
-            <date>
-              <placeName key="g0014" ref="https://www.geonames.org/3099434">Danzica
-              </placeName> 22 Xere 1719 St[ile] N[uovo] </date>
-          </dateline>
-          <salute>E[ccellentissi]mo Sig[nor]e e Patrone</salute>
-        </opener>
-        <p>Esendo venuto in <placeName key="g0014" ref="https://www.geonames.org/3099434">
-            Danzica
-          </placeName> per proseguire il mio viaggio verso Costì, e credendo di
-          far bene, mi sono fermato qualche Tempo, con Intenzione di far qualche cosa in Beneficio
-          di <persName key="p0174">Sua Czarea
-            Maiesta</persName>, à causa di avere aspetato qui che vengi da <persName key="p2496">Fraustat</persName> un mio amico che
-          è il Terzo che molte volte ho nominato nelle mie di <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienna
-          </placeName> à V[ostr]a E[ccellenz]a per saperè non solamente quello che erà
-          seguito colà mà anco quello che giornalmente passa alla <orgName key="p0023">Corte di Vienna</orgName>, sopra agli affari Presenti et à Bocca diro il
-          nome a V[ostr]a E[ccellenz]a, et questo qui che a <persName key="p2496">Fraustat</persName> è venuto per affari de <persName key="p0163">l’Imperatore</persName> et è gia partito da qui per <placeName key="g0009" ref="https://www.geonames.org/756135">Varsavia
-          </placeName> alla dieta <pb cert="high" n="f. 1v" xml:space="default"/> generale, che il primo del venturo comincia a st[ile] n[uovo], e
-          questo amico me dice che mandara li avisi di quanto seguira colà, et alla <orgName key="o0023">corte di Vienna</orgName>; è dice che si bene che il <persName key="p0525">Re
-            di Polonia</persName> si Porterà à <placeName key="g0009" ref="https://www.geonames.org/756135">Varsavia
-          </placeName> la dietta non seguira, per causa del male contagioso, è della
-          disfata delle altre dietine … et per che li Polachi vorano aspetare la risposta che dara <persName key="p0174">Sua
-            Czarea Maiesta
-          </persName> a <persName key="p1399">l’Ambasciatore, Palatino di Masovia</persName>, che hora viene costì con li
-          punti, et per altre ragioni, siguro dice che non seguira questa dieta se non alla Prima
-          vera[.] Questo amico mi à hasicurato che <persName key="p0163">l’Imperatore</persName> e stato quello che a fato risolvare il <persName key="p0739">Re di Prussia</persName> al suo acomodamento <pb cert="high" n="f. 2" xml:space="default"/> con la Suetia et con il <persName key="p0727">Re di Ingiltera</persName> la totale bona corispondenza, questo amico mi a
-          parlato con una grande franchezà à dire che asulutamente, questi aleati mai vorano
-          permetere che resti il <placeName key="g0016" ref="https://www.geonames.org/588409">Porto di Reval
-          </placeName> nelle mani di <persName key="p0174">Sua
-            Czarea Maiesta</persName> considerando la gran consequenza che porta detto porto per il
-          mare Baltico, restando nelle Sue mani, il medemo mi dise anco che se in caso, non seguira
-          la pace di <persName key="p0174">Sua Czarea Maiesta</persName> e la Suetia, e che abbia da
-          proseguire la Guerra quelli alleati che sarano contra di <persName key="p0174">Sua Czarea Maiesta</persName>, vorano avere una armata solo di setanta mille
-          huommini &amp; dicando che non solo alora vorano <pb cert="high" n="f. 2v" xml:space="default"/> obligare <persName key="p0174">Sua Czarea Maiesta</persName> à
-          rendere tutta la Livonia ma anco monlasco à <placeName key="g0239" ref="https://www.geonames.org/703448">Kiovia
-          </placeName> et altro alla Polonia, comè parla il progieto dal <persName key="p0536">Generale
-            Fleming</persName>; presentato nel tempo pasato alla <orgName key="o0023">corte
-            di
-            Vienna</orgName>, é di fare stare <persName key="p0174">Sua Czarea Maiesta</persName>
-          dentro dalli luogi antici confini: Laltro giorno, esendo lo hà pranso da questo S[ua]
-          E[ccellenza] <persName key="p1442">Conte Sardi Generale delle Poste
-          </persName> qui, mi à mostrata una lettera dal
-          Ministro del Rè di Polonia che si ritrova in <placeName key="g0004" ref="https://www.geonames.org/2747373">Haija
-          </placeName> dicendoli, che hora ultimamante il <persName key="p0536">Generale Fleming</persName> quando fù in <placeName key="g0008" ref="https://www.geonames.org/2910831">
-            Hanover
-          </placeName> dal <persName key="p0727">Rè di Ingiltera</persName>,
-          li erà riusito à tutto suo piacere quel quanto era andato per fare è che il Suo <persName key="p0525">Rè di Polonia</persName> era restato molto <pb cert="high" n="f. 3" xml:space="default"/> contento del <persName key="p0727">Rè di Ingiltera</persName> è
-          della Bona condotta del <persName key="p0536">Generale Fleming</persName>, è questi sono tutti affari che non e in
-          vantagio di <persName key="p0174">Sua Maestà Czarea</persName>, Li giorni pasati fù qui il <persName key="p1443">
-            S[ua] E[ccelenza] veschovo di quiavia
-          </persName> et è partito per <placeName key="g0009" ref="https://www.geonames.org/756135">Varsavia
-          </placeName> dicendo anco Lui che la [?] pol seguire hora: qui si dice che
-          il mese venturo abbia à Prencipiare, il congresso di Bransvich, è che se <persName key="p0174">Sua Czarea Maiesta</persName> non mandera Suo Ministro Publicofarà diligenza
-          che non se ne posa ritrovare colà men de secreti, per oservare li andamenti del gli altri,
-          : da qualche cosa che poso vedere, oservare bene la Turchia, per che li nemici di Sua
-          Czarea Maiesta <pb cert="high" n="f. 3v" xml:space="default"/> Consilia [?] di colpirlo da ogni parte pensando di fare
-          movere li Tartari, è se li medemi farano delli Progresi seguirà anco la Porta contro <persName key="p0174">Sua Czarea M[aes]ta</persName> è se li medemi in contraro, manco la Porta
-          non sarebe contraria, ma mediatrice, questa e sua idea della Porta per non rompere la pace
-          se non con maniera sicura, è mi creda V[ostra] Ec[cellenz]a che mi fu asicurato che in <placeName key="g0018" ref="https://www.geonames.org/745044">
-            Costantinopoli
-          </placeName> viene molto stimulato la Porta alla rotura con <persName key="p0174">Sua Czarea
-            Maesta</persName>, et in <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienna
-          </placeName> si dice a l’incontrio che anzi il ministro di Sua Czarea Maesta
-          tenta la Porta contro <persName key="p0163">l’Imperatore</persName>, cosi anco, à scrito
-          alla <orgName key="o0023">
-            Corte di Vienna
-          </orgName> il <persName key="p1444">Suo Ministro Conte Da Virmont</persName> non <pb cert="high" n="f. 6" xml:space="default"/> credo che li amici di <placeName key="g0005" ref="https://www.geonames.org/2761367">
-            Vienna
-          </placeName> averano trascurato la mia comisione di scrivere ogni
-          ordinario alla Ec[cellen]za vostra como che qui mi anno avisato che non mancano à quanto
-          siamo restati: di quanto ho scrito suplico il compatizanto è vostra ec[cellen]za è
-          suplicata da mè di prendere il buono è lasciare il Cattivo, per, che quello dire intendo,
-          è gia so bene che vostra Ec[cellen]za da molto tempo sara informata di Tartaria [?] ma
-          replico Io per mostrare il mio genio che ho sempre avuto di servire <persName key="p0174">Sua M[aes]ta
-          </persName> et vostra Ec[celen]za, : Un di questi giorni mi partiro dal
-          qui per aver l’honore di baciare lè mani à vostra Ec[cellen]za è sono </p>
-        <closer>
-          <salute>Di  V[ostra]
-            Ec[cellen]za                                                                  
-                Hu[milissi]mo et oblg[atissi]mo servitore
-          </salute>
-          <signed>
-            <persName key="p1374">Matteo Caretta</persName>
-          </signed>
-          <note>See also: ru_rgada_41_1_1719_5_0002</note>
-        </closer>
-      </div>
-    </body>
-  </text>
+			</rdf:RDF>
+		</xenoData>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title>22 December 1719. – Letter from <persName key="p1374">the Russian agent
+							in Venice
+							Matteo
+							Caretta
+						</persName>
+						to <persName key="p0071">the Chancellor of Russia, Count Gavrila Ivanovich
+						Golovkin</persName>
+					</title>
+				</head>
+				<opener>
+
+					<note>RGADA, fond 41, opis 1, 1719, no. 5, f. 1-3v, 6. Italian original.
+					</note>
+					<pb n="f. 1" />
+					<dateline>
+						<date>
+							<placeName key="g0014" ref="https://www.geonames.org/3099434">Danzica
+							</placeName> 22 Xere 1719 St[ile] N[uovo] </date>
+					</dateline>
+					<salute>E[ccellentissi]mo Sig[nor]e e Patrone</salute>
+				</opener>
+				<p>Esendo venuto in <placeName key="g0014" ref="https://www.geonames.org/3099434">
+					Danzica
+					</placeName> per proseguire il mio viaggio verso Costì, e
+					credendo di far bene, mi sono fermato qualche Tempo, con Intenzione di far
+					qualche cosa in Beneficio di <persName key="p0174">Sua Czarea
+						Maiesta</persName>, à causa di avere aspetato qui che vengi da <persName
+						key="p2496">Fraustat</persName> un mio amico che è il Terzo che molte volte
+					ho nominato nelle mie di <placeName key="g0005"
+						ref="https://www.geonames.org/2761367">Vienna
+					</placeName> à V[ostr]a E[ccellenz]a per saperè non solamente
+					quello che erà seguito colà mà anco quello che giornalmente passa alla <orgName
+						key="p0023">Corte di Vienna</orgName>, sopra agli affari Presenti et à Bocca
+					diro il nome a V[ostr]a E[ccellenz]a, et questo qui che a <persName key="p2496">
+					Fraustat</persName> è venuto per affari de <persName key="p0163">l’Imperatore</persName>
+					et è gia partito da qui per <placeName key="g0009"
+						ref="https://www.geonames.org/756135">Varsavia
+					</placeName> alla dieta </p>
+				<pb n="f. 1v" />
+				<p> generale, che il primo del venturo comincia a st[ile] n[uovo], e questo amico me
+					dice che mandara li avisi di quanto seguira colà, et alla <orgName key="o0023">corte
+					di Vienna</orgName>; è dice che si bene che il <persName
+						key="p0525">Re
+						di Polonia</persName> si Porterà à <placeName key="g0009"
+						ref="https://www.geonames.org/756135">Varsavia
+					</placeName> la dietta non seguira, per causa del male
+					contagioso, è della disfata delle altre dietine … et per che li Polachi vorano
+					aspetare la risposta che dara <persName key="p0174">Sua
+						Czarea Maiesta
+					</persName> a <persName key="p1399">l’Ambasciatore,
+					Palatino di Masovia</persName>, che hora viene costì con li punti, et per altre
+					ragioni, siguro dice che non seguira questa dieta se non alla Prima vera[.]
+					Questo amico mi à hasicurato che <persName key="p0163">l’Imperatore</persName> e
+					stato quello che a fato risolvare il <persName key="p0739">Re di Prussia</persName>
+					al suo acomodamento</p>
+				<pb n="f. 2" />
+				<p> con la Suetia et con il <persName key="p0727">Re di Ingiltera</persName> la
+					totale bona corispondenza, questo amico mi a parlato con una grande franchezà à
+					dire che asulutamente, questi aleati mai vorano permetere che resti il <placeName
+						key="g0016" ref="https://www.geonames.org/588409">Porto di Reval
+					</placeName> nelle mani di <persName key="p0174">Sua
+						Czarea Maiesta</persName> considerando la gran consequenza che porta detto
+					porto per il mare Baltico, restando nelle Sue mani, il medemo mi dise anco che
+					se in caso, non seguira la pace di <persName key="p0174">Sua Czarea Maiesta</persName>
+					e la Suetia, e che abbia da proseguire la Guerra quelli alleati che sarano
+					contra di <persName key="p0174">Sua Czarea Maiesta</persName>, vorano avere una
+					armata solo di setanta mille huommini &amp; dicando che non solo alora vorano</p>
+				<pb
+					n="f. 2v" />
+				<p>obligare <persName key="p0174">Sua
+						Czarea Maiesta</persName> à rendere tutta la Livonia ma anco monlasco à <placeName
+						key="g0239" ref="https://www.geonames.org/703448">Kiovia
+					</placeName> et altro alla Polonia, comè parla il progieto dal <persName
+						key="p0536">Generale
+						Fleming</persName>; presentato nel tempo pasato alla <orgName key="o0023">corte
+					di
+						Vienna</orgName>, é di fare stare <persName key="p0174">Sua Czarea Maiesta</persName>
+					dentro dalli luogi antici confini: Laltro giorno, esendo lo hà pranso da questo
+					S[ua] E[ccellenza] <persName key="p1442">Conte Sardi Generale delle Poste
+					</persName> qui, mi à mostrata una
+					lettera dal Ministro del Rè di Polonia che si ritrova in <placeName key="g0004"
+						ref="https://www.geonames.org/2747373">Haija
+					</placeName> dicendoli, che hora ultimamante il <persName
+						key="p0536">Generale Fleming</persName> quando fù in <placeName key="g0008"
+						ref="https://www.geonames.org/2910831">
+						Hanover
+					</placeName> dal <persName key="p0727">Rè di
+						Ingiltera</persName>, li erà riusito à tutto suo piacere quel quanto era
+					andato per fare è che il Suo <persName key="p0525">Rè di Polonia</persName> era
+					restato molto</p>
+				<pb n="f. 3" />
+				<p> contento del <persName
+						key="p0727">Rè di Ingiltera</persName> è della Bona condotta del <persName
+						key="p0536">Generale Fleming</persName>, è questi sono tutti affari che non
+					e in vantagio di <persName key="p0174">Sua Maestà Czarea</persName>, Li giorni
+					pasati fù qui il <persName key="p1443">
+						S[ua] E[ccelenza] veschovo di quiavia
+					</persName> et è partito per <placeName
+						key="g0009" ref="https://www.geonames.org/756135">
+						Varsavia
+					</placeName> dicendo anco Lui che la [?] pol seguire
+					hora: qui si dice che il mese venturo abbia à Prencipiare, il congresso di
+					Bransvich, è che se <persName key="p0174">Sua Czarea Maiesta</persName> non
+					mandera Suo Ministro Publicofarà diligenza che non se ne posa ritrovare colà men
+					de secreti, per oservare li andamenti del gli altri, : da qualche cosa che poso
+					vedere, oservare bene la Turchia, per che li nemici di Sua Czarea Maiesta</p>
+				<pb
+					n="f. 3v" />
+				<p>Consilia [?] di colpirlo da ogni parte pensando di fare movere li Tartari, è se
+					li medemi farano delli Progresi seguirà anco la Porta contro <persName
+						key="p0174">Sua Czarea M[aes]ta</persName> è se li medemi in contraro, manco
+					la Porta non sarebe contraria, ma mediatrice, questa e sua idea della Porta per
+					non rompere la pace se non con maniera sicura, è mi creda V[ostra] Ec[cellenz]a
+					che mi fu asicurato che in <placeName
+						key="g0018" ref="https://www.geonames.org/745044">
+						Costantinopoli
+					</placeName> viene molto stimulato la Porta alla
+					rotura con <persName key="p0174">Sua Czarea
+						Maesta</persName>, et in <placeName key="g0005"
+						ref="https://www.geonames.org/2761367">Vienna
+					</placeName> si dice a l’incontrio che anzi il ministro di Sua
+					Czarea Maesta tenta la Porta contro <persName key="p0163">l’Imperatore</persName>,
+					cosi anco, à scrito alla <orgName key="o0023">
+						Corte di Vienna
+					</orgName> il <persName key="p1444">Suo
+						Ministro Conte Da Virmont</persName> non</p>
+				<pb n="f. 6" />
+				<p> credo che li amici di <placeName key="g0005"
+						ref="https://www.geonames.org/2761367">
+						Vienna
+					</placeName> averano trascurato la mia comisione di
+					scrivere ogni ordinario alla Ec[cellen]za vostra como che qui mi anno avisato
+					che non mancano à quanto siamo restati: di quanto ho scrito suplico il
+					compatizanto è vostra ec[cellen]za è suplicata da mè di prendere il buono è
+					lasciare il Cattivo, per, che quello dire intendo, è gia so bene che vostra
+					Ec[cellen]za da molto tempo sara informata di Tartaria [?] ma replico Io per
+					mostrare il mio genio che ho sempre avuto di servire <persName key="p0174">Sua
+					M[aes]ta
+					</persName> et vostra Ec[celen]za, : Un di questi
+					giorni mi partiro dal qui per aver l’honore di baciare lè mani à vostra
+					Ec[cellen]za è sono </p>
+				<closer>
+					<salute>Di  V[ostra]
+						Ec[cellen]za                                                                  
+						    Hu[milissi]mo et oblg[atissi]mo servitore
+					</salute>
+					<signed>
+						<persName key="p1374">Matteo Caretta</persName>
+					</signed>
+
+				</closer>
+				<noteGrp>
+					<note>See also:</note>
+					<note>ru_rgada_41_1_1719_5_0002</note>
+				</noteGrp>
+			</div>
+		</body>
+	</text>
 </TEI>
