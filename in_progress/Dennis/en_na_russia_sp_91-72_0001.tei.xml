@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,44 +98,35 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>10 / 21 July 1763. – Note to His Excellence Earl of Buckingham{{p1079}}, Ambassador
-            of His Majesty the King of Great Britain</title>
+          <title>10 / 21 July 1763. – Note to <persName key="p1079">His Excellence Earl of Buckingham, Ambassador of His Majesty the King of Great Britain</persName></title>
           <note>
-            <bibl>NA Kew, Russia, no. SP 91-72, f. 17-17v. French copy</bibl>
+            <bibl>NA Kew, Russia, no. SP 91-72, f. 17-17v. French copy.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 17" />
+        <p/>
+        <pb n="f. 17"/>
         <p> Note pour Son Excellence Monsieur le Comte de Buckingham{{p1079}}, Ambassadeur de Sa
           Majesté le Roi de la Grande Bretagne</p>
-        <p />
+        <p/>
         <p>Le Ministere Imperial de Russie ayant pris lecture du Memoire qui Lui a ete remis par
           Monsieur l’Ambassadeur concernant l’Inexecution d’une Promesse de Mariage donné par un
-          Marchand Anglois domicilié à S[ain]t <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName> à une
+          Marchand Anglois domicilié à S[ain]t <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName> à une
           Demoiselle Angloise de Nation, a l’Honneur de repondre à Son Excellence que cette affaire
           ne Lui paroit pas de Nature a faire un Objet de Reclamation. C’est un Proces simple entre
           Particuliers qui ne formant aucun Interet publique doit etre laissé au Cours ordinaire </p>
-        <pb n="f. 17v" />
+        <pb n="f. 17v"/>
         <p> de la Justice. Nulle consideration d’Etat ne se trouvant jointe ce seroit contre tout
-          Droit de Juridiction territoriale que d’etendre l’execution d’un Jugement rendu a <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName> jusqu’à <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">S[aint] Patersbourg</placeName>
+          Droit de Juridiction territoriale que d’etendre l’execution d’un Jugement rendu a <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> jusqu’à <placeName key="g0002" ref="https://www.geonames.org/498817">S[aint] Patersbourg</placeName>
           mais la Personne qui a des Pretentions contre le S[ieu]:r Fowell{{p2137}} peut les
           poursuivre ici devant son juge naturel et il Lui sera rendu toute la Justice qui Lui est
-          due. Fait a <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">S[aint] Patersbourg</placeName> ce 10. Juillet V[ieux].
+          due. Fait a <placeName key="g0002" ref="https://www.geonames.org/498817">S[aint] Patersbourg</placeName> ce 10. Juillet V[ieux].
           S[tyle]. 1763.</p>
       </div>
     </body>
