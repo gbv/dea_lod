@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,21 +95,19 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>[June 1755]. – Speech of the Ambassador of Great Britain to Russia Charles Hansbury
-            Williams{{p0338}} to the Grand Duchess of Russia Ekaterina Akekseevna{{p0033}}</title>
+          <title>[June 1755]. – Speech of <persName key="p0338">the Ambassador of Great Britain to Russia Charles Hansbury Williams</persName> to the Grand Duchess of Russia Ekaterina Akekseevna{{p0033}}</title>
           <note>
-            <bibl>NA Kew, Russia, no. SP 91-60, s.f. English copy</bibl>
-          </note>
+            <bibl>NA Kew, Russia, no. SP 91-60, s.f. English copy.</bibl></note>
         </head>
         <p>To the Great Duchess</p>
-        <p />
+        <p/>
         <p>It is by a very particular Command of His Majesty’s that I am ordered to approach Your
           Imperial Highness, in order to give you the strongest Assurances of the King’s Esteem and
           Affection for Your Imperial Person.</p>
@@ -123,7 +118,7 @@
           Affection, and of the part He takes in all Your Interests ; and I will also hope that the
           agreeableness of the Message will recommend the Person that has the honour to deliver it,
           to Your Imperial Highness’s Favour.</p>
-        <p />
+        <p/>
         <p>Translated and spoke in French</p>
       </div>
     </body>
