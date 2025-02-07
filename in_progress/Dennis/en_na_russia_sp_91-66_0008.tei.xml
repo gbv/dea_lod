@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,23 +98,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>13 / 24 March 1758. – Note to Mister [Robert Murray] Keith, Envoy Extraordinary of
-            His Britannic Majesty{{p0085}}</title>
-          <note>
-            <bibl>NA Kew, Russia, no. SP 91-66, f. 46-46v. French copy</bibl>
+          <title>13 / 24 March 1758. – Note to <persName key="p0085">Mister [Robert Murray] Keith, Envoy Extraordinary of His Britannic Majesty</persName></title><note>
+            <bibl>NA Kew, Russia, no. SP 91-66, f. 46-46v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 46" />
+        <pb n="f. 46"/>
         <p> Note </p>
-        <p>Pour Monsieur de Keith, Envoyé Extraordinaire de Sa Majesté Britannique{{p0085}}</p>
-        <p />
+        <p>Pour <persName key="p0085">Monsieur de Keith, Envoyé Extraordinaire de Sa Majesté Britannique</persName></p>
+        <p/>
         <p>Lorsque l’Eté passé les Troupes de l’Imperatrice marchoient vers la Prusse, et qu’on
           songeoit à s’emparer des Places fortes de ce Royaume, sur tout de celles qui sont situées
           sir la Côte, la Raison de Guerre exigeoit naturellement, d’empêcher qu’Elles ne puissent
@@ -126,16 +121,14 @@
           perdant pas de vuë l’accroissement, et la Liberté, du Commerce dans la Mer Baltique, Vous
           qu’il soit toujours continué sur l’ancien Pied, non seulement avec le dit Royaume, mais
           encore avec tous les autres Etats appartenants au Roy de Prusse{{p0061}}, </p>
-        <pb n="f. 46v" />
+        <pb n="f. 46v"/>
         <p> sans que les Operations des Troupes Russiennes, ou celles de la Flotte, donnent le
           moindre sujet de crainte aux Commerçants : Pourvû néanmoins, qu’aucun d’Eux ne se prête à
           faire des Transports des Contrebandes pour l’usage de l’Ennemi, soit d’Hommes, Vivres, ou
           Munitions ; et que l’on s’abstienne surtout, de porter du Sécours, de quelque nature qu’il
           puisse être, aux Places assiégées ; Puisque, dans ce cas, on en agira, avec ceux qui y
           contreviendront, selon la Rigueur du Droit de Guerre.</p>
-        <p>A S[ain]t <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName> ce 13.e Mars 1758. V[ieux]
+        <p>A ain]t <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName> ce 13.e Mars 1758. V[ieux]
           S[tyle].</p>
       </div>
     </body>
