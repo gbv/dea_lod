@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,21 +96,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>[June 1755]. – Response of Her Majesty the Empress of all the Russias{{p0052}}</title>
-          <note>
-            <bibl>NA Kew, Russia, no. SP 91-60, s.f. French copy</bibl>
+          <title>[June 1755]. – Response of <persName key="p0052">Her Majesty the Empress of all the Russias</persName></title><note>
+            <bibl>NA Kew, Russia, no. SP 91-60, s.f. French copy.</bibl>
           </note>
         </head>
-        <p />
+        <p/>
         <p>Response de Sa Majesté l’Imperatrice de toutes les Russies{{p0052}}</p>
-        <p />
+        <p/>
         <p>L’Imperatrice ne peut etre que très satisfaite de la nouvelle Marque d’amitié qu’Elle
           recoit de la part du Roy de la Grande Bretagne{{p0063}} en ce que Sa Majesté après avoir
           rappellé chez Elle Son Envoyé Extraordinaire{{p1439}} a cette Cour, a bien voulu qu’il fut
@@ -122,7 +118,7 @@
           après avoir gagné à Mons[ieu]r l’Ambassadeur l’affection des Puissances auprès dequelles
           il a deja été employé dans des Négociations très importantes, Luy peuvent repondre
           d’avance de l’Estime de Sa Majesté Imperiale.</p>
-        <p />
+        <p/>
         <p>Delivered in the Russian Language by the Great Chancellor Bestoucheff{{p0017}}</p>
       </div>
     </body>
