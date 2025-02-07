@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,21 +97,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>[June 1755]. – Response on behalf of His Imperial Highness the Grand Duke{{p0115}}</title>
-          <note>
-            <bibl>NA Kew, Russia, no. SP 91-60, s.f. French copy</bibl>
+          <title>[June 1755]. – Response on behalf of <persName key="p0115">His Imperial Highness the Grand Duke</persName></title><note>
+            <bibl>NA Kew, Russia, no. SP 91-60, s.f. French copy.</bibl>
           </note>
         </head>
-        <p />
-        <p>Response au Nom de Son Altesse Imperiale Monseigneur le Grand Duc{{p0115}}</p>
-        <p />
+        <p/>
+        <p>Response au Nom de Son Altesse Imperiale Monseigneur le Grand Duc</p>
+        <p/>
         <p>La parfaite Harmonie qui regne entre la Russie et la Grande Bretagne ne pouvant produire
           que d’avantages très considerables pour l’une et l’autre Couronne, Monseigneur le Grand
           Duc, qui y prend un Interet sensible, est très satisfait de l’arrivée de Mons[ieu]r
@@ -122,7 +118,7 @@
           beaucoup au bonheur commun des Etats des deux Puissances, Son Altesse Imperiale espere
           d’avoir souvent lieu d’en féliciter Sa Majesté le Roy de la Grande Bretagne{{p0063}},
           ainsi que l’assurer de Son inviolable Attachement.</p>
-        <p />
+        <p/>
         <p>Delivered in French by the Chamberlain in Writing</p>
       </div>
     </body>
