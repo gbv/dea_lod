@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -108,13 +105,12 @@
           <title>[June 1755]. – Speech of the Ambassador of Great Britain to Russia Charles Hansbury
             Williams{{p0338}} to the Grand Duke of Russia Petr Fedorovich{{p0115}}</title>
           <note>
-            <bibl>NA Kew, Russia, no. SP 91-60, s.f. English copy</bibl>
-          </note>
+            <bibl>NA Kew, Russia, no. SP 91-60, s.f. English copy.</bibl></note>
         </head>
         <p>Copy</p>
-        <p />
+        <p/>
         <p>To the Great Duke</p>
-        <p />
+        <p/>
         <p>Altho’ the Envoy M[iste].r GuyDickens{{p1439}} has very lately given Your Imperial
           Highness the strongest Assurances of the King{{p0063}} my Royal Master’s particular Esteem
           and Affection for Your Person, yet I should be wanting in my Duty to my King{{p0063}}, if
@@ -124,7 +120,7 @@
           agreeable to Your Imperial Highness, and recommend the Person whom the King{{p0063}} has
           honoured with the Execution of them, to Your Imperial Highness’s Favour during His
           Residence in the Empress’s Dominions.</p>
-        <p />
+        <p/>
         <p>Translated and spoke in French</p>
       </div>
     </body>
