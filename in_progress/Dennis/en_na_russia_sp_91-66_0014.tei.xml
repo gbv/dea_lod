@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,30 +101,25 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>11 / 22 July 1758. – Note to Mister [Robert Murray] Keith, Envoy Extraordinary of
-            His Britannic Majesty{{p0085}}</title>
-          <note>
-            <bibl>NA Kew, Russia, no. SP 91-66, f. 140-141. French copy</bibl>
+          <title>11 / 22 July 1758. – Note to <persName key="p0085">Mister [Robert Murray] Keith, Envoy Extraordinary of His Britannic Majesty</persName></title><note>
+            <bibl>NA Kew, Russia, no. SP 91-66, f. 140-141. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 140" />
-        <p> Note pour Mo[nsieu]r de Keith, Envoyé Extraordinaire de Sa Majesté Britannique{{p0085}}</p>
-        <p />
+        <pb n="f. 140"/>
+        <p> Note pour Mo[nsieu]r de Keith, Envoyé Extraordinaire de Sa Majesté Britannique</p>
+        <p/>
         <p>Il y a quelque têms que le Ministère Imperial de Russie s’est trouvé dans la Necessité de
-          s’addresser à Mons[ieu]r l’Envoyé Extraordinaire, moyenant la Note remise le 11<hi
-            rendition="#sup">e</hi> Avril de cette année cy, pour luy demander son appui auprès de
+          s’addresser à Mons[ieu]r l’Envoyé Extraordinaire, moyenant la Note remise le 11<hi rendition="#sup">e</hi> Avril de cette année cy, pour luy demander son appui auprès de
           la Cour Britannique{{o0002}}, dans les Représentations à faire de la part de celle d’icy,
           par le canal de Mons[ieu]r l’Envoyé Extraordi[nai]re Prince de Galitzin{{p0065}}, au sujet
-          de trois Vaisseaux, appartenans à des sujets commerçans de Russie ; sçavoir le <hi
-            rendition="#u">Joung</hi>, la <hi rendition="#u">Providence</hi>, et le <hi
-            rendition="#u">Louis d’Or</hi>, lesquels, depuis dix ans, ont êté pris, sans aucune
+          de trois Vaisseaux, appartenans à des sujets commerçans de Russie ; sçavoir le <hi rendition="#u">Joung</hi>, la <hi rendition="#u">Providence</hi>, et le <hi rendition="#u">Louis d’Or</hi>, lesquels, depuis dix ans, ont êté pris, sans aucune
           raison valable, par des Armateurs Anglois, faisant Voile pour la France ; et quoy que le
           Ministere se flatte que l’on aura égard à la juste Pretension des Marchands Russes, avec
           tous les Dommages et Fraix, comm l’Amitié et la bonne harmonie, qui subsistent
@@ -135,16 +127,10 @@
           Bretagne{{p0063}}, le font indubitablement esperer : Neanmoins dans l’attente de la
           justice, qui leur dûe, il ne sauroit se dispenser d’informer Mons[ieu]r l’Envoyé
           Extraordinaire d’une nouvelle violence, exercée par un Armateur Anglois, contre le
-          Vaisseau Dantziquois <hi rendition="#u">l’Eté</hi>, qui alloit en dernier lieu de <placeName
-            key="g0434"
-            ref="https://www.geonames.org/2982652">Rouen</placeName> à <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">S[aint] Petersbourg</placeName> ;
+          Vaisseau Dantziquois <hi rendition="#u">l’Eté</hi>, qui alloit en dernier lieu de <placeName key="g0434" ref="https://www.geonames.org/2982652">Rouen</placeName> à <placeName key="g0002" ref="https://www.geonames.org/498817">S[aint] Petersbourg</placeName> ;
           Car, </p>
-        <pb n="f. 140v" />
-        <p> sans considerer que le Navire et le Capitaine êtoient d’un Endroit Neutre, comme l’est <placeName
-            key="g0014"
-            ref="https://www.geonames.org/3099434">Dantzic</placeName>, et principalement que toute la charge n’appartenant,
+        <pb n="f. 140v"/>
+        <p> sans considerer que le Navire et le Capitaine êtoient d’un Endroit Neutre, comme l’est <placeName key="g0014" ref="https://www.geonames.org/3099434">Dantzic</placeName>, et principalement que toute la charge n’appartenant,
           selon les Documens les plus authentiques, qu’à des Sujets Russes, n’a pû être arrêtée sous
           quelque prétexte que ce fût, et encore moins confisquée, le dit Armateur s’est pourtant
           hasardé à commettre une Infraction si mnifeste contre le Droit des Gens, et l’ancienne
@@ -160,7 +146,7 @@
           appartenoient en propre à des Sujets Russes, et n’êtoient nullement de contrebande ;
           D’autant moins qu’entr’autres, il se trouve dans une Caisse 12°18. marquée M :B : un
           miroir de Toilette, dont la </p>
-        <pb n="f. 141" />
+        <pb n="f. 141"/>
         <p> Bordure d’argent est en relief, qu’on a fait venir exprés pour le propre usage de Sa
           Majesté Imperiale{{p0052}}. Il résulte enfin, de tout ce Detail, qu’autant que la Demande
           de cette Cour cy{{o0008}}, pour que le Navire <hi rendition="#u">l’Eté</hi> soit tout de
@@ -172,9 +158,7 @@
           plus précis, a fin que les Vaisseaux Neutres, qui feront Voile pour la Russie, ne soient
           point, à l’avenir, molestés par les Armateurs Anglois, ni sujets à des Visitations
           supeflues.</p>
-        <p>Fait à S[ain]t <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName> ce 11<hi rendition="#sup">e</hi>
+        <p>Fait à S[ain]t <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName> ce 11<hi rendition="#sup">e</hi>
           Juillet 1758.</p>
         <noteGrp>
           <note>See also:</note>
