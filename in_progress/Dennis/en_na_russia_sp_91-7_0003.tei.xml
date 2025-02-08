@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
         <title type="main" xml:lang="en">Answer to the Points deliverd in by the British Ambassador</title>
         <author xml:lang="en">Gavriil</author>
         <author xml:lang="en">Ivanovich</author>
@@ -98,31 +95,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>10 June 1712. – Answer to the Points deliver’d in by the British Ambassador{{p1255}}</title>
-          <note>
+          <title>10 June 1712. – Answer to the Points deliver’d in by <persName key="p1255">the British Ambassador</persName></title><note>
             <bibl>NA Kew, Russia, no. SP 91-7, f. 295-295v. English copy.</bibl>
           </note>
         </head>
-        <pb n="f. 295" />
-        <p> Answer to the Points deliver’d in by the British Ambassador{{p1255}}</p>
-        <p />
-        <p>As to what relates to the Commerce &amp; free Trade <hi
-            rendition="#u">in Livonia, &amp; other Places belong</hi>
-          <hi
-            rendition="#u">ing to the Czar{{p0174}} on the East Sea</hi> ; His Majesty{{p0174}} is not yet sufficiently inform’d how those matters stand, or what was practic’d in the time of the Swedish Regency, &amp; therefore cannot take any resolution here ; but as soon as ever he gets to <placeName
-            key="g0015"
-            ref="https://www.geonames.org/456172">Riga</placeName>, He will direct the necessary accounts to be laid before Him &amp; let the Ambassador know his pleasure hereafter : On which occasion the Ambassador may be assured, that as the Czar{{p0174}} always had a very particular regard for the Queens person &amp; friendship, he will do every thing on his Part, which may be agreable to Her Majesty{{p0668}}, advantageous to Her Subjects, or any ways proper to advance the Trade in his Dominions. This is what His Majesty{{p0174}} thought necessary should be represented to the Ambassador, hoping that on his side would likewise continue to use his best endeavours, for maintaining &amp; further improving a Constant Friendship &amp; good Correspondence between the Czar {{p0174}} and Her Majesty{{p0668}}.</p>
-        <p>Given at <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersburgh</placeName> the 10<hi
-            rendition="#sup">th</hi> of June 1712</p>
+        <pb n="f. 295"/>
+        <p> Answer to the Points deliver’d in by the British Ambassador</p>
+        <p/>
+        <p>As to what relates to the Commerce &amp; free Trade <hi rendition="#u">in Livonia, &amp; other Places belong</hi>
+          <hi rendition="#u">ing to the Czar{{p0174}} on the East Sea</hi> ; His Majesty{{p0174}} is not yet sufficiently inform’d how those matters stand, or what was practic’d in the time of the Swedish Regency, &amp; therefore cannot take any resolution here ; but as soon as ever he gets to <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName>, He will direct the necessary accounts to be laid before Him &amp; let the Ambassador know his pleasure hereafter : On which occasion the Ambassador may be assured, that as the Czar{{p0174}} always had a very particular regard for the Queens person &amp; friendship, he will do every thing on his Part, which may be agreable to Her Majesty{{p0668}}, advantageous to Her Subjects, or any ways proper to advance the Trade in his Dominions. This is what His Majesty{{p0174}} thought necessary should be represented to the Ambassador, hoping that on his side would likewise continue to use his best endeavours, for maintaining &amp; further improving a Constant Friendship &amp; good Correspondence between the Czar {{p0174}} and Her Majesty{{p0668}}.</p>
+        <p>Given at <placeName key="g0002" ref="https://www.geonames.org/498817">Petersburgh</placeName> the 10<hi rendition="#sup">th</hi> of June 1712</p>
         <p>Sign’d			Count Gollofkin{{p0071}}</p>
       </div>
     </body>
