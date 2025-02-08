@@ -95,7 +95,86 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-08T13:59:30.930Z",
+	"dcterms:modified": "2025-02-08T13:59:30.930Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DzianisKandakou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dzianis Kandakou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-7_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/581049",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
@@ -109,7 +188,7 @@
         <pb n="f. 295"/>
         <p> Answer to the Points deliver’d in by <persName key="p1255">the British Ambassador</persName></p>
         <p/>
-        <p><persName key="p0174">His Czarish Majesty</persName> having been duely inform'd of the several points proposed by the Ambassador in a Conference concerning the Subjects of <persName key="p0668">Her Brittish Majesty</persName>, immediate orders were given to <orgName key="o0058">the Senate of Mosco</orgName>, to inquire into the said points, &amp; let the justice be done without delay; But the said <orgName key="o0058">Senate</orgName> being only sent back to <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0001" xml:space="default" ref="https://www.geonames.org/524901">Mosco</placeName> for a very little time to make the necessary preparations for the war with the Turks, which was looked upon as certain, it was impossible for them to comply with his Majestys directions in this matter, duting their short stay there ; especially since they were obliged to wait for several informations from Archangel&amp;lt;&amp;lt;g0049&amp;gt;&amp;gt; &amp; other distante places, which as may easily be judges, could not be procured so suddenly : but the Ambassador having since that time renewed these complaints in writing and demanded the dew redress of them &amp; several others relating to Trade, His Czarish Majesty&amp;lt;&amp;gt; has again repeated his commands to the Senators in the most positive manner, strictly charging on their return to Mosco&amp;lt;&amp;gt; to examine into the said grievances, &amp; administer justice according to the Ambassadors desire in such points as shall be found reasonable ; &amp; further to [[f. 295v]] issue such orders, as may prevent the like abuses and complaints for the Future ; which Instructions the said Senators will punctually follow, &amp; finish their affairs according to justice, to the sattisfaction of the Ambassador &amp; all other persons whom they may concern. As to what relates to the Commerce &amp; free Trade <hi rendition="#u">in Livonia, &amp; other Places belong</hi>
+        <p><persName key="p0174">His Czarish Majesty</persName> having been duely inform'd of the several points proposed by the Ambassador in a Conference concerning the Subjects of <persName key="p0668">Her Brittish Majesty</persName>, immediate orders were given to <orgName key="o0058">the Senate of Mosco</orgName>, to inquire into the said points, &amp; let the justice be done without delay; But the said <orgName key="o0058">Senate</orgName> being only sent back to <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0001" xml:space="default" ref="https://www.geonames.org/524901">Mosco</placeName> for a very little time to make the necessary preparations for the war with the Turks, which was looked upon as certain, it was impossible for them to comply with his Majestys directions in this matter, duting their short stay there ; especially since they were obliged to wait for several informations from <placeName key="Arkhangel’sk Arkhangelskaya Russia" ref="https://geonames.org/581049">Archangel</placeName> &amp; other distante places, which as may easily be judges, could not be procured so suddenly : but the Ambassador having since that time renewed these complaints in writing and demanded the dew redress of them &amp; several others relating to Trade, His Czarish Majesty&amp;lt;&amp;gt; has again repeated his commands to the Senators in the most positive manner, strictly charging on their return to Mosco&amp;lt;&amp;gt; to examine into the said grievances, &amp; administer justice according to the Ambassadors desire in such points as shall be found reasonable ; &amp; further to [[f. 295v]] issue such orders, as may prevent the like abuses and complaints for the Future ; which Instructions the said Senators will punctually follow, &amp; finish their affairs according to justice, to the sattisfaction of the Ambassador &amp; all other persons whom they may concern. As to what relates to the Commerce &amp; free Trade <hi rendition="#u">in Livonia, &amp; other Places belong</hi>
           <hi rendition="#u">ing to the Czar on the East Sea</hi> ; <persName key="p0174">His Majesty</persName> is not yet sufficiently inform’d how those matters stand, or what was practic’d in the time of the Swedish Regency, &amp; therefore cannot take any resolution here; but as soon as ever he gets to <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName>, He will direct the necessary accounts to be laid before Him &amp; let the Ambassador know his pleasure hereafter: On which occasion the Ambassador may be assured, that as <persName key="p0174">the Czar</persName> always had a very particular regard for the Queens person &amp; friendship, he will do every thing on his Part, which may be agreable to <persName key="p0668">Her Majesty</persName>, advantageous to Her Subjects, or any ways proper to advance the Trade in his Dominions. This is what <persName key="p0174">His Majesty</persName> thought necessary should be represented to the Ambassador, hoping that on his side would likewise continue to use his best endeavours, for maintaining &amp; further improving a Constant Friendship &amp; good Correspondence between <persName key="p0174">the Czar</persName> and <persName key="p0668">Her Majesty</persName>.</p>
         <p>Given at <placeName key="g0002" ref="https://www.geonames.org/498817">Petersburgh</placeName> the 10<hi rendition="#sup">th</hi> of June 1712</p>
         <p>Sign’d			<persName key="p0071">Count Gollofkin</persName></p>
