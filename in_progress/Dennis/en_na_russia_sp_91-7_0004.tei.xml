@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,26 +96,24 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>8 March 1712. – Memorial given to the Great Chancelor Golovkin{{p0071}} in <placeName
-              key="g0002"
-              ref="https://www.geonames.org/498817">Petersburg</placeName> on the 8th of
+          <title>8 March 1712. – Memorial given to <persName key="p0071">the Great Chancellor Golovkin</persName> in <placeName key="g0002" ref="https://www.geonames.org/498817">Petersburg</placeName> on the 8th of
             March 1711/12</title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-7, f. 297-304v. French copy</bibl>
           </note>
         </head>
-        <pb n="f. 297" />
+        <pb n="f. 297"/>
         <p> Memoire donné à Mons.<hi rendition="#sup">re</hi> le Grand Chancelier</p>
         <p>Golloffkin{{p0071}} à <placeName key="g0002" ref="https://www.geonames.org/498817">
           Petersbourg</placeName> le 8.<hi rendition="#sup">e</hi> de Mars 17 11./12</p>
-        <p />
+        <p/>
         <p>Points qui restent encore à decider envers les sujets de Sa Majesté Britannique{{p0174}},
           et que le sousigné Ambassadeur Extraord.<hi rendition="#sup">re</hi> et Plenipotentiaire
           espere seront termines sans plus de delay, selon la justice et l’ancienne amitié entre les
@@ -127,9 +122,7 @@
           deux Copeeks, deu à la compagnie Angloise pour le commerce du Tabac, leur soit fait par le
           Senat{{o0058}}, ou la maison de ville, selon le contract, dont l’Ambassadeur a dejà donné
           la copie, le temps étant dejà écheu il y a plus de neuf mois.</p>
-        <p>Que les marchandises exportées par Eux <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">d’Archange</placeName> l’année passée, en vertu du
+        <p>Que les marchandises exportées par Eux <placeName key="g0049" ref="https://www.geonames.org/581049">d’Archange</placeName> l’année passée, en vertu du
           mème Contract soient declarées libres de tous les droits de doüanne selon les paroles
           expresses à cette fin ; que ceux que le cy devant Gouvernement exigea d’eux l’année 1710.
           de Son authorité particuliere leur soient rendu, et que de telles informations de
@@ -142,7 +135,7 @@
           idisputablement par deux ecrits donné l’an 1705. que ladite compagnie non seulement seroit
           acquittée de tout ce qu’elle étoit obligée de faire par le Contract, mais que les
           principaux articles avoient été tres mal observez à leur égard.</p>
-        <pb n="f. 297v" />
+        <pb n="f. 297v"/>
         <p> L’Ambassadeur espere, que cette affaire qui a tant durée, et tant causé de desagreables
           incidents sera enfin terminée à satisfaction ; La perte sente de leur interest pour prez
           de dix ans, qu’ils n’ont pas tout leur argent, monte bien prez à la moitié de leur
@@ -162,25 +155,16 @@
           apporter[a] toujour une perte irreparable, à l’interét reel aussi bien qu’à la reputation
           du Prince.</p>
         <p>L’an 1709. L’Ambassadeur procura les ordres de Sa Majesté Czarienne{{p0174}} de permettre
-          le transport de quelques mâts de <placeName
-            key="g0429"
-            ref="https://www.geonames.org/620127">Witepsk</placeName> à <placeName
-            key="g0015"
-            ref="https://www.geonames.org/456172">Riga</placeName>, pour le ser[vice ?] </p>
-        <pb n="f. 298" />
+          le transport de quelques mâts de <placeName key="g0429" ref="https://www.geonames.org/620127">Witepsk</placeName> à <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName>, pour le ser[vice ?] </p>
+        <pb n="f. 298"/>
         <p> de Sa Majesté Britannique{{p0668}} ; Une partie de ces mâts fut envoyée la même année en
-          Anglettere, mais il resta soissante cinq arbres à <placeName
-            key="g0015"
-            ref="https://www.geonames.org/456172">Riga</placeName> faute de vaisseaux pour leur
+          Anglettere, mais il resta soissante cinq arbres à <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName> faute de vaisseaux pour leur
           transpors ; Ils y sont encore, le Gouverneur Suedois leur ayant accordé sa protection
-          pendant le siege, sachant qu’ils appartenoient à la <persName
-            key="p0668">Reine</persName>, mais comme on fit
+          pendant le siege, sachant qu’ils appartenoient à la <persName key="p0668">Reine</persName>, mais comme on fit
           difficulté l’année passée de les laisser sortir, sans un ordre exprés, l’ambassadeur prie
           qu’on luy veuille expedier de tells ordres, pour ce qu’on les pourra envoyer prendre à
           temps. </p>
-        <p>Une partie de plomb appartenant à un marchand Anglois, fut laissé à <placeName
-            key="g0155"
-            ref="https://www.geonames.org/590031">Narve</placeName> pendant le siege
+        <p>Une partie de plomb appartenant à un marchand Anglois, fut laissé à <placeName key="g0155" ref="https://www.geonames.org/590031">Narve</placeName> pendant le siege
           cachetée dans un ambar, et y reste quelques années aprés la prise de la ville ; Mais le
           Gouverneur s’en saisit l’an 1706 pour le service de Sa Majesté Czarenne{{p0174}}, et l’on
           ne l’as pas encore payé ; L’Ambassadeur a dejà donné quelques memoires sur cette affaire,
@@ -190,24 +174,17 @@
           libres. </p>
         <p>L’Ambassadeur vient à cette heure à quelques faits qui touchent à luy en particulier.</p>
         <p>Au mois de septembre 1710. on luy fit l’affront de maltraitter quelques uns de ses
-          domestiques, et les mettre en prison à <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName> ; comme cette affaire a dejà êté
-          representée et prouvée par son secretaire dans toutes les formes, et que la <persName
-            key="p0668">Reine</persName> Elle même en a pris connoissance, </p>
-        <pb n="f. 298v" />
+          domestiques, et les mettre en prison à <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> ; comme cette affaire a dejà êté
+          representée et prouvée par son secretaire dans toutes les formes, et que la <persName key="p0668">Reine</persName> Elle même en a pris connoissance, </p>
+        <pb n="f. 298v"/>
         <p> et demandé satisfaction, il ne reste à l’Ambassadeur que de s’informer de ce qu’il doit
           êcrire à Sa Majesté{{p0668}} qu’Elle pourra prendre Sa Resolution la dessus ; Car pour ce
-          qu’on donna au secretaire par êcrit le 22.<hi rendition="#sup">e</hi> de Fev.<hi
-            rendition="#sup">e</hi> 1711. c’est bien moins que ce que le <persName
-            key="p2009">Prince Gagarin</persName>} Luy
+          qu’on donna au secretaire par êcrit le 22.<hi rendition="#sup">e</hi> de Fev.<hi rendition="#sup">e</hi> 1711. c’est bien moins que ce que le <persName key="p2009">Prince Gagarin</persName>} Luy
           offrit au Commencement en Son particulier, et le tout est couché plustôt en forme de
           justification que de Reparation de sorte que L’Ambassadeur ne s’exposera jamais à envoyer
           un tel papier à la <persName key="p0668">Reine</persName>.</p>
         <p>A peu prés en même temps il eut aussi la Mortification de se voir traitter d’une maniere
-          indique à l’egard de ses provisions à <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archange</placeName> on les visite avec la
+          indique à l’egard de ses provisions à <placeName key="g0049" ref="https://www.geonames.org/581049">Archange</placeName> on les visite avec la
           derniere Rigueur malhonneteté même à leur debarquement. Quand ses agents les voulurent
           envoyer à <placeName key="g0191" ref="https://www.geonames.org/472459">Wologda</placeName>,
           un officier vint renouveller la recherche avec la même incivilité occurant jusques aux
@@ -218,7 +195,7 @@
           les eurent embarqués, on les retint encore sept jours autant que de vouloir expedier les
           passeports ordinaires ; Je ne vous incommoderay pas avec un detail plus particulier qui ne
           seroit pas moins odieux la pensée me donne trop de chagrin, puisque </p>
-        <pb n="f.299" />
+        <pb n="f.299"/>
         <p> parait de toutes les circumstances, que ces Messieurs n’avoient pas tant en vüe de
           s’acquitter de leur pretendu de voir, que de faire une insulte publique à L’Ambassadeur de
           la Grande Bretagne ; Si le peu d’egard qu’on a eu pour luy dans ces occasions n’a pas été
@@ -228,8 +205,7 @@
           de difficultez à <placeName key="g0049" ref="https://www.geonames.org/581049">Archange</placeName>,
           et particulierement à la fortresse à l’egard du passage de leurs Batteaux, mais comme tant
           de Noblesse Russienne est entretenüe sur la flotte Britannique, avec toute l’honneteté
-          possible, et non pas sans une extra depense à la <persName
-            key="p0668">Reine</persName>, L’Ambassadeur espere, que
+          possible, et non pas sans une extra depense à la <persName key="p0668">Reine</persName>, L’Ambassadeur espere, que
           les ordres seront donnez qu’à l’avenir ces officiers soyent receus avec l’honneteté düe à
           Leur charactère, qu’ils ayent la permission de venir à la ville si souvant que leurs
           occasions le demandent, et que ni eux ni leur Batteaux avec des provisions soyent plus
@@ -237,7 +213,7 @@
         <p>Les Maitres des vaisseaux Marchands font des plaintes bien plus grandes de leur mauvais
           traitement à la Fortresse, ou les officiers prennent sur Eux l’authorité de leur ôter leur
           Pilotes, à moins qu’ils ne les rachettent par des presents </p>
-        <pb n="f. 299v" />
+        <pb n="f. 299v"/>
         <p> ce qui cause des grands inconvenients ; on prie donc que le Gouverneur aye ordre de
           faire une recherche exacte de cet abus et de l’empêcher pour l’avenir.</p>
         <p>L’an 1710. on convint aprés une negotiation de cinq ans, d’un commun reglement pour les
@@ -248,9 +224,7 @@
           C’est peut étre le seul exemple, qu’un officier quelque grand qu’il soit, ait entrepris de
           desavoüer de son chef un accord publique fait par un premier ministre avec des Ministres
           Etrangers ; On demande qu’il y soit remedié de la maniere qu’il faut.</p>
-        <p>Le mauvais reglement à l’egard des Pilotes à <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archange</placeName> en general fait beaucoup de
+        <p>Le mauvais reglement à l’egard des Pilotes à <placeName key="g0049" ref="https://www.geonames.org/581049">Archange</placeName> en general fait beaucoup de
           tort au commerce, puisqu’au lieu de les envoyer au delà du banc de sable en mer, pour y
           attendre les vaisseaux durant la saison, comme cela se fait par tout ailleurs, les maitres
           de vaisseaux sont obliges à passer le dit banc sans Pilote avec leur risque manifeste, ou
@@ -260,7 +234,7 @@
           extraordinaire, ou on a donné à Bell{{p2012}} des marchandises appartenantes au dernier
           pour la valeur <hi rendition="#s">selon ce qui a toujours été observé en Moscovie</hi> de
           plus de quarante mille Rubles </p>
-        <pb n="f. 300" />
+        <pb n="f. 300"/>
         <p> contre tout regle de justice. Le fait étant trop long et demandant une explication
           particuliere, L’Ambassadeur en adressé un memoire a part.</p>
         <p>Les nullitéz dont Il se plaint dans cette affaire la.</p>
@@ -281,20 +255,15 @@
         <p>Que le Senat{{o0058}} a donné une sentence definitive sur un rapport du Gouverneur
           d’Archangel en termes generaux sans demander les premiers ou oüir les parties, et sans
           aucuns forme de process.</p>
-        <pb n="f. 300v" />
-        <p> Qu’on n’a pas eu le moindre égard aux Instances reiterées de la <persName
-            key="p0668">Reine</persName>, quoique
+        <pb n="f. 300v"/>
+        <p> Qu’on n’a pas eu le moindre égard aux Instances reiterées de la <persName key="p0668">Reine</persName>, quoique
           Sa Majesté n’a pas sollicité en faveur d’aucun parti, mais seulement que les marchandises
           seroient rendües à l’agent de Perry pour prevenir leur perte, sous caution pour la valeur,
           quand le Procès seroit achevé, et que ledit procès se pourroit faire selon les regles
           ordinaires de la Justice. </p>
         <p>Que le Senat{{o0058}} n’a pas voulû depécher dabord un Ucasse <hi rendition="#sup">ou
           ordre</hi> a <placeName key="g0049" ref="https://www.geonames.org/581049">Archange</placeName>,
-          selon le mandement de Sa Majesté Czarienne{{p0174}}, qui venoit assez à temps de <placeName
-            key="g0215"
-            ref="https://www.geonames.org/3073803">Carlsbad</placeName> à <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName> pour prevenir tous
+          selon le mandement de Sa Majesté Czarienne{{p0174}}, qui venoit assez à temps de <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName> à <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> pour prevenir tous
           ces desordres.</p>
         <p>Que ces marchandises ont été enfin delivrés à Bell{{p2012}} sans aucune caution pour la
           valeur en cas d’appel ; Il est même inconu, qu’un procès de telle Importance soit
@@ -307,7 +276,7 @@
           des sommes tres larges pour le negoce, ce qu’ils auroient tort de faire, s’ils seroient
           exposée de voir tous leurs biens saisis et condamnés sur les plaintes generales de leurs
           agents et leurs confederes, sans aucune </p>
-        <pb n="f. 301" />
+        <pb n="f. 301"/>
         <p> preuve ou forme de procés ; Il est certain qu’il y a beaucoup de fripponerie dans le cas
           present entre les susdits Anglois, mais il n’y a que les preuves et la Justice qui
           puissent decider à qui on le doit imputer.</p>
@@ -328,7 +297,7 @@
           avoir examiné si les gens qui le demandent sont valables.</p>
         <p>L’an 1710. Le Gouverneur d’Archangel obligea tous les marchands de faire l’entrée de leur
           chanvre </p>
-        <pb n="f. 301v" />
+        <pb n="f. 301v"/>
         <p> et autres marchandises dans le livre de la Doüane à un prix plus haut, qu’ils ne les
           avoient acheté; comme par exemple Chamwaring{{p2136}} étoit obligé de faire l’entrée de
           soixante tonneaux de suif a onze Rubles et demi per Berquet, quoi qu’il l’avoit acheté
@@ -348,12 +317,10 @@
           aucun nouveau reglement touchant le commerce et la navigation, ou la Liberté du Port et
           des Batteaux, avant que de les avoir communiqué à la Cour{{o0008}}, et d’avoir receu les
           ordres de Sa Majesté Czarienne{{p0174}}. Les Instances </p>
-        <pb n="f. 302" />
+        <pb n="f. 302"/>
         <p> des abus de cette nature sont l’an 1710. Stephen Vasileoff Levonteof{{p2014}} mit une
           imposition d’un 1./2. Copeek par pude sur toutes les Marchandises qui se pesent, et l’an
-          1711. Matthias Barts{{p2013}} obtint la seule liberté de faire du cordage à <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archange</placeName> pour la somme de
+          1711. Matthias Barts{{p2013}} obtint la seule liberté de faire du cordage à <placeName key="g0049" ref="https://www.geonames.org/581049">Archange</placeName> pour la somme de
           1000. Rubles par an, et personne à cette heure n’y ose travailler sans payer 50. Copeeks
           p[er] Berquet au dit Barts{{p2013}}, ce qui est une imposition extravagante, et qui tend à
           la ruine des sujets de Sa Majesté Czarienne{{p0174}}, aussi bien qu’à l’empechement du
@@ -366,15 +333,12 @@
           former aucun bon reglement de commerce entre les deux Nations. Pour les contracts de
           telles Denrées qui ont été de tout temps attachez au Tresor Royale, L’Ambassadeur propose
           les differentes methodes qui se pratiquent en Angleterre pour l’achat des provisions
-          navales par la <persName
-            key="p0668">Reine</persName>, comme des Modelles plus profitables au Prince et moins
+          navales par la <persName key="p0668">Reine</persName>, comme des Modelles plus profitables au Prince et moins
           onereux au commerce.</p>
         <p>L’ambassadeur sollicite aussi l’etablissement d’un office pour l’Inspection du chanvre,
           selon </p>
-        <pb n="f. 302v" />
-        <p> le plan qu’Il a dejà donné, et selon ce qui s’est pratiqué à <placeName
-            key="g0155"
-            ref="https://www.geonames.org/590031">
+        <pb n="f. 302v"/>
+        <p> le plan qu’Il a dejà donné, et selon ce qui s’est pratiqué à <placeName key="g0155" ref="https://www.geonames.org/590031">
             Narva</placeName>, <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName>
           , <placeName key="g0094" ref="https://www.geonames.org/554234">
             Königsberg</placeName> et tous les autres endroits ou l’on vend cette merchandise.</p>
@@ -383,19 +347,11 @@
           et qu’ils puissent voir les entrées quand ils en ont besoin, puisque ces entrées sont la
           regle du credit qu’ils peuvent faire de l’un à l’autre, et par la quantité des
           marchandises ils jugent jusques à quelle somme ils peuvent hasarder sur la parole. C’est
-          la pratique de la Grande Bretagne, et n’a jamais été refusé à <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> avant l’an 1710. On prie
+          la pratique de la Grande Bretagne, et n’a jamais été refusé à <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> avant l’an 1710. On prie
           donc que cette nouveauté soit otée.</p>
-        <p>On supplie que les Contracts faits par les Etrangers avec les Marchands Russiens à <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName>, pour la Livrance
-          des Marchandises à <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archange</placeName>,
-          puissent étre reconnus et receus dans les livres de la Doüanne à <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName>, et avoir la méme force comme
+        <p>On supplie que les Contracts faits par les Etrangers avec les Marchands Russiens à <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>, pour la Livrance
+          des Marchandises à <placeName key="g0049" ref="https://www.geonames.org/581049">Archange</placeName>,
+          puissent étre reconnus et receus dans les livres de la Doüanne à <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>, et avoir la méme force comme
           s’ils fussent entrée à Archange ; puisqu’à moins que les Etrangers fournissent une grande
           partie d’argent par avance, les autres ne peuvent pas envoyer faire leurs achâts à temps
           dans le plat pays ; c’est ce qui se fait tous les jours entre les marchands étrangers et
@@ -404,21 +360,17 @@
           maisons ou chambres, qu’ils ayent loüés ou achetes, sous pretexte d’y loger d’autres
           personnes de la part du Gouvernement, à cause des grands inconvenients et dangers qui
           puissent souvant arriver, en transportant leurs papiers et leurs </p>
-        <pb n="f. 303" />
+        <pb n="f. 303"/>
         <p> marchandises.</p>
         <p>Comme par la Division du pays en tant de Gouvernements, il s’est fait tant de
           jurisdictions differentes, et que les Marchands Britanniques negocient avec des Russiens
-          qui viennent de tous les côtés de l’Empire à <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archange</placeName> on supplie qu’en cas de
+          qui viennent de tous les côtés de l’Empire à <placeName key="g0049" ref="https://www.geonames.org/581049">Archange</placeName> on supplie qu’en cas de
           dispute, et que les Russiens s’en retournent chez Eux sans avoir reglé leurs affaires, on
           puisse avoir le Droit de les citer devant quelque Precase <hi rendition="#s">particuliere </hi>
           à <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>, sans
           étre obligé de les poursuivre dans le Gouvernement particulier, ce qui rendroit la justice
           presque impracticable à cause de la distance des lieux et les differentes affaires des
-          Marchands qui ne les laisseroient pas s’absenter de <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName> .</p>
+          Marchands qui ne les laisseroient pas s’absenter de <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> .</p>
         <p> Pour cette fin et pour rendre le Cours de la justice plus methodique et assuré, on
           propose que tous les Marchands Britanniques soyent remis sous la Juridiction de la
           Posolsky Precase{{o0064}}, et qu’ils puissent dependre seulement d’eux, à L’exclusion des
@@ -429,14 +381,12 @@
           d’experience, et de Droiture.</p>
         <p>Pour ce qui touche le commerce de L’Ingrie, et des autres pays conquis en general ;
           L’Ambass<hi rendition="#sup">r</hi>. est d’opinion qu’il pourra étre retabli sur le méme </p>
-        <pb n="f. 303v" />
+        <pb n="f. 303v"/>
         <p> pied qu’il fut à <placeName key="g0155" ref="https://www.geonames.org/590031">Narva</placeName>
           du temps que cette ville étoit en possesion des Swedois, mais s’il y a quelque
           particularité qui devoit etre changé pour l’avantage commune du commerce, L’ambassadeur
           l’en informera, et donnera l’avis à temps.</p>
-        <p>Mais comme la ville de <placeName
-            key="g0015"
-            ref="https://www.geonames.org/456172">Riga</placeName>
+        <p>Mais comme la ville de <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName>
           a eu ses pretensions particulieres en faveur de ses Bourgeois, qui ont fait beaucoup de
           tort aux Etrangers, et au commerce en general, on propose que les Anglois ayent l’exercise
           libre de leur Religion dans cette ville, qui leur a été refusé par le Magistrat, quoique
@@ -451,13 +401,11 @@
           l’espace d’un an ; Ce qui est devenu fort necessaire depuis que la ville et pays à
           l’entour ont été tellement ruinés par la guerre et la peste ; et sans cela le Commerce de
           se qui </p>
-        <pb n="f. 304" />
+        <pb n="f. 304"/>
         <p> apporte tant de profit à la Doüane sera entierement ruiné : Car par un vieux privilege
           des Bourgeois, ils étoient obligés, de vendre ces deux sortes de denrées à quelque
           Bourgeois d abord qu’ils fussent mis à Terre, sans les pouvoir porter dans leurs magasins
-          ; Que quand des marchandises leur soyent envoyées de <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName> pour le compte des marchands
+          ; Que quand des marchandises leur soyent envoyées de <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> pour le compte des marchands
           Britanniques, et leur soit libre de les recevoir, et de les faire embarquer, en payant la
           doüane ordinaire, sans que les Bourgeois peuvent expliquer cela comme une infraction de
           leurs privileges.</p>
@@ -466,43 +414,29 @@
           payent 2 1./2. pour cent pour la doüane à leur Exposition.</p>
         <p>Que les impôts sur les autres marchandises dans ce Port soient mis sur un pied plus
           moderé, pour mieux encourager le commerce dans la conjuncture presente. </p>
-        <p> Que la poste soit derechef retablie entre les villes de <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName> et <placeName
-            key="g0015"
-            ref="https://www.geonames.org/456172">Riga</placeName> une fois par semaine par la voye
+        <p> Que la poste soit derechef retablie entre les villes de <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> et <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName> une fois par semaine par la voye
           de <placeName key="g0194" ref="https://www.geonames.org/504341">Pleskow</placeName> ; Le
-          Maître des Postes à Riga offre méme de le regler dabord jusques à <placeName
-            key="g0194"
-            ref="https://www.geonames.org/504341">Pleskow</placeName>. Sitôt que les ordres
-          necessaires soient donnés pour faire passer les lettres de là à <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">
+          Maître des Postes à Riga offre méme de le regler dabord jusques à <placeName key="g0194" ref="https://www.geonames.org/504341">Pleskow</placeName>. Sitôt que les ordres
+          necessaires soient donnés pour faire passer les lettres de là à <placeName key="g0001" ref="https://www.geonames.org/524894">
             Mosco</placeName> et de retour. </p>
-        <p>Il y a six mille sept cents et vingt six Rubles deües à la Compagnie Angloise par Mons<hi
-            rendition="#sup">r</hi>. le Prince de Menschikoff{{p1131}} pour le reste de
+        <p>Il y a six mille sept cents et vingt six Rubles deües à la Compagnie Angloise par Mons<hi rendition="#sup">r</hi>. le Prince de Menschikoff{{p1131}} pour le reste de
           marchandises, qu’il pris </p>
-        <pb n="f. 304v" />
-        <p> pour luy d’un vaisseau envoyé par Eux à <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName> il y a quelques ans, aux
+        <pb n="f. 304v"/>
+        <p> pour luy d’un vaisseau envoyé par Eux à <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName> il y a quelques ans, aux
           Instances de Sa Majesté Czarienne{{p0174}} et des siens, et seulement pour leur complaire.
           C’etoit le premier navire qui y aborda aprés la conquête, et ils perdirent plus de douze
-          mille Rubles au retour par les Suedois. Cecy a été souvant representé à Mons<hi
-            rendition="#sup">r</hi>. le Prince{{p1131}}, mais il a toujours evité d’y satisfaire, de
+          mille Rubles au retour par les Suedois. Cecy a été souvant representé à Mons<hi rendition="#sup">r</hi>. le Prince{{p1131}}, mais il a toujours evité d’y satisfaire, de
           telle maniere qu’on ne sauroit plus rien esperer de son côté ; C’est pourquoi
           l’Ambassadeur se trouve obligé d’avoir recours à Sa Majesté Czarienne{{p0174}}, pour la
           prier d’obliger Mons<hi rendition="#sup">r</hi>. le Prince{{p1131}} de rendre justice aux
           sujets de Sa Majesté Britannique ; Il prie que Sa Majesté{{p0174}} veuille avoir la bonté
-          d’ordonner Elle méme à L’Ingermanlandski precase d’envoyer le Wipesk à <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersbourg</placeName>, et aprés de
+          d’ordonner Elle méme à L’Ingermanlandski precase d’envoyer le Wipesk à <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>, et aprés de
           le faire payer la dette sans delay.</p>
         <p>L’ambassadeur espere d’obtenir une resolution positive et favorable sur tous ces points,
           ce qui sera regardé comme une marque d’amitié par Sa Majesté Britannique{{p0668}} et
           donnera lieu au dit Ambassadeur de travailler avec plus d’efficace pour les interéts de Sa
           Majesté Czarienne{{p0174}}.</p>
-        <p />
+        <p/>
         <p>donné à <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>
         </p>
         <p> ce 8.<hi rendition="#sup">e</hi> Mars 17 11./12.</p>
