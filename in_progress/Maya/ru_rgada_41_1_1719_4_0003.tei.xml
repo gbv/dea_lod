@@ -130,7 +130,6 @@
 	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_4_0003.tei.xml?place_annotation_20240205122325716",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-05T10:23:25.716Z",
-	"dcterms:modified": "2024-02-05T10:23:25.716Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -157,7 +156,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_4_0003.tei.xml?place_annotation_20240205122325716#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
+			"rdf:value": "TEI/text/body/p[2]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -182,21 +181,19 @@
           Ottoboni</persName> to <persName key="p1381">Count Savva Vladislavich</persName>
         </title>
       </head>
-      <opener>
-        <note>RGADA, fond 41, opis 1, 1719, no. 4, f. 13-13v. Russian
+            <note>RGADA, fond 41, opis 1, 1719, no. 4, f. 13-13v. Russian
           translation.
         </note>
         <pb cert="high" n="f. 13" xml:space="default"/>
-        <note>Перевод с писма писаннаго графу Савве Владиславичу от г[оспо]д[и]на
+        <p>Перевод с писма писаннаго графу Савве Владиславичу от г[оспо]д[и]на
           кардинала Отобони
-        </note>
+        </p>
         <dateline>Из <placeName key="g0007" ref="https://www.geonames.org/3169069">Рима</placeName>
           <date cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:space="default">октября 20: 1719 году
           </date>
         </dateline>
         <salute>Превосходителнейший г[оспо]д[и]не</salute>
-      </opener>
-      <p>Долженствую ответствовать на два писма В[а]шего Прев[осходительст]:ва 5: и 26: прошлаго
+        <p>Долженствую ответствовать на два писма В[а]шего Прев[осходительст]:ва 5: и 26: прошлаго
         м[еся]ца, что иа доныне не учинил, с намерением уведомить вас купно с ответом о моей
         операции по вашему прошению. Того для уповаю что вы не поставите мне в погрешение таковое
         опоздание. Респект и почитание которое имеет сей <orgName key="o0116">двор</orgName> и <persName key="p0174">Его
