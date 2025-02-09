@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en" />
+        <title type="main" xml:lang="en"/>
         <author xml:lang="en">Charles</author>
         <author xml:lang="en">Whitworth</author>
       </titleStmt>
@@ -96,7 +93,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -109,14 +106,12 @@
             <bibl>NA Kew, Russia, no. SP 91-7, f. 312-312v. English copy.</bibl>
           </note>
         </head>
-        <pb n="f. 312" />
+        <pb n="f. 312"/>
         <p>
-          <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">Petersburgh</placeName> 27 May O[ld]. S[tyle]. 1712</p>
-        <p>Protestation against the Proposalls of Trade given into the Senate of Muscovy{{o0058}} by
-          Garthside{{p2015}}</p>
-        <p />
+          <placeName key="g0002" ref="https://www.geonames.org/498817">Petersburgh</placeName> 27 May O[ld] S[tyle] 1712</p>
+        <p>Protestation against the Proposalls of Trade given into <orgName key="o0058">the Senate of Muscovy</orgName> by
+          Garthside</p>
+        <p/>
         <p>The under written Ambassador Extraordinary and Plenipotentiary from Her Majesty of Great
           Brittain, having been inform’d that one Gartside{{p2015}} a Brittish factor has had the
           boldness to present a Memorial without his orders or privity, in which are contain’d
@@ -125,7 +120,7 @@
           Ambassador is oblig’d to reset these unwarantable proceedings and to let His Excellency
           the great Chancellor know his abhorrence of such Extravagances, desiring they would not
           make the least </p>
-        <pb n="f. 312v" />
+        <pb n="f. 312v"/>
         <p> reflextions on them[.] He has already reprimanded the man for his presumtion nor should
           he have escap’d without a much severer censure, had not his past misfortunes and hardship
           in his Country pleaded something in his Excuse : However the Ambassador desires his
