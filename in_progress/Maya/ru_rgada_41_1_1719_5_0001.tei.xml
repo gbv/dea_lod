@@ -127,85 +127,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170744129",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-13T15:07:44.129Z",
-	"dcterms:modified": "2024-02-13T15:07:44.129Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170744129#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170744129#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://www.geonames.org/756135",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170928894",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:09:28.894Z",
@@ -912,9 +833,8 @@
           di <persName key="p0174">Sua Czarea
             Maiesta</persName>, à causa di avere aspetato qui che vengi da Fraustat un mio amico che
           è il Terzo che molte volte ho nominato nelle mie di <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienna </placeName> à V[ostr]a E[ccellenz]a per saperè non solamente quello che erà
-          seguito colà mà anco quello che giornalmente passa alla <orgName key="p0023">Corte di Vienna</orgName>, sopra agli affari Presenti et à Bocca diro il
-          nome a V[ostr]a E[ccellenz]a, et questo qui che a Fraustat è venuto per affari de <persName key="p0163">l’Imperatore</persName> et è gia partito da qui per <placeName key="g0009" ref="https://www.geonames.org/756135">Varsavia
-          </placeName> alla dieta <pb cert="high" n="f. 1v" xml:space="default"/> generale, che il primo del venturo comincia a st[ile] n[uovo], e
+          seguito colà mà anco quello che giornalmente passa alla <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0023" xml:space="default">Corte di Vienna</orgName>, sopra agli affari Presenti et à Bocca diro il
+          nome a V[ostr]a E[ccellenz]a, et questo qui che a Fraustat è venuto per affari de <persName key="p0163">l’Imperatore</persName> et è gia partito da qui per <placeName key="g0009" ref="https://www.geonames.org/756135">Varsavia </placeName> alla dieta <pb cert="high" n="f. 1v" xml:space="default"/> generale, che il primo del venturo comincia a st[ile] n[uovo], e
           questo amico me dice che mandara li avisi di quanto seguira colà, et alla <orgName key="o0023">corte di Vienna</orgName>; è dice che si bene che il <persName key="p0525">Re
             di Polonia</persName> si Porterà à <placeName key="g0009" ref="https://www.geonames.org/756135">Varsavia
           </placeName> la dietta non seguira, per causa del male contagioso, è della
