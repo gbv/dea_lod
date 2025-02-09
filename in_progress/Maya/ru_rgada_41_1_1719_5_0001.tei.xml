@@ -127,87 +127,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160402974",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-13T15:04:02.974Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/DzianisKandakou",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Dzianis Kandakou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160402974#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160402974#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/opener/dateline/date/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://www.geonames.org/3099434",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160412236",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170412236",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:04:12.236Z",
+	"dcterms:modified": "2024-02-13T15:04:12.236Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -218,10 +141,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160412236#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170412236#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -232,7 +155,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160412236#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170412236#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -283,9 +206,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160448419",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170448419",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:04:48.419Z",
+	"dcterms:modified": "2024-02-13T15:04:48.419Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -296,10 +220,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160448419#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170448419#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -310,7 +234,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160448419#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170448419#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[2]"
 		}
@@ -361,9 +285,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160744129",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170744129",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:07:44.129Z",
+	"dcterms:modified": "2024-02-13T15:07:44.129Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -374,10 +299,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160744129#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170744129#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -388,7 +313,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160744129#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170744129#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[3]"
 		}
@@ -439,9 +364,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160928894",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170928894",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:09:28.894Z",
+	"dcterms:modified": "2024-02-13T15:09:28.894Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -452,10 +378,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160928894#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170928894#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -466,7 +392,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213160928894#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213170928894#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[4]"
 		}
@@ -517,9 +443,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213161234545",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213171234545",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:12:34.545Z",
+	"dcterms:modified": "2024-02-13T15:12:34.545Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -530,10 +457,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213161234545#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213171234545#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -544,7 +471,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213161234545#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213171234545#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[5]"
 		}
@@ -595,9 +522,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213161437142",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213171437142",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:14:37.142Z",
+	"dcterms:modified": "2024-02-13T15:14:37.142Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -608,10 +536,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213161437142#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213171437142#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -622,7 +550,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213161437142#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213171437142#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[6]"
 		}
@@ -673,9 +601,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162030443",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172030443",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:20:30.443Z",
+	"dcterms:modified": "2024-02-13T15:20:30.443Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -686,10 +615,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162030443#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172030443#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -700,7 +629,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162030443#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172030443#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[7]"
 		}
@@ -751,9 +680,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162047692",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172047692",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:20:47.692Z",
+	"dcterms:modified": "2024-02-13T15:20:47.692Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -764,10 +694,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162047692#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172047692#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -778,7 +708,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162047692#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172047692#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[8]"
 		}
@@ -829,9 +759,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162545355",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172545355",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:25:45.355Z",
+	"dcterms:modified": "2024-02-13T15:25:45.355Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -842,10 +773,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162545355#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172545355#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -856,7 +787,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162545355#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172545355#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[9]"
 		}
@@ -907,9 +838,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162857859",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172857859",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:28:57.859Z",
+	"dcterms:modified": "2024-02-13T15:28:57.859Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -920,10 +852,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162857859#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172857859#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -934,7 +866,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162857859#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172857859#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[10]"
 		}
@@ -985,9 +917,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162938176",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172938176",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:29:38.176Z",
+	"dcterms:modified": "2024-02-13T15:29:38.176Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -998,10 +931,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162938176#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172938176#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1012,7 +945,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213162938176#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213172938176#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[11]"
 		}
@@ -1063,9 +996,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213163353463",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213173353463",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T15:33:53.463Z",
+	"dcterms:modified": "2024-02-13T15:33:53.463Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -1076,10 +1010,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213163353463#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213173353463#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1090,7 +1024,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213163353463#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_rgada_41_1_1719_5_0001.tei.xml?place_annotation_20240213173353463#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName[12]"
 		}
@@ -1128,8 +1062,7 @@
           </note>
           <dateline>
             <date>
-              <placeName key="g0014" ref="https://www.geonames.org/3099434">Danzica
-              </placeName> 22 Xere 1719 St[ile] N[uovo] </date>
+              <placeName key="g0014" ref="https://www.geonames.org/3099434">Danzica </placeName> 22 Xere 1719 St[ile] N[uovo] </date>
           </dateline>
           <salute>E[ccellentissi]mo Sig[nor]e e Patrone</salute>
         </opener>
