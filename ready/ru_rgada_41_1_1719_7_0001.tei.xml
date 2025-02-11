@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,18 +95,8 @@
       </sourceDesc>
     </fileDesc>
 
-    <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -139,10 +128,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214101508186",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214111508186",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T09:15:08.186Z",
-	"dcterms:modified": "2024-02-14T09:15:08.186Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -153,10 +141,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214101508186#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214111508186#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_7_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1719_7_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -167,7 +155,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214101508186#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214111508186#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/date/placeName"
 		}
@@ -186,7 +174,7 @@
 	}
 }]]>
         </rdf:Description>
-
+      
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -218,10 +206,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214101533057",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214111533057",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T09:15:33.057Z",
-	"dcterms:modified": "2024-02-14T09:15:33.057Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -232,10 +219,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214101533057#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214111533057#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_7_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1719_7_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -246,7 +233,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214101533057#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_rgada_41_1_1719_7_0001.tei.xml?place_annotation_20240214111533057#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/signed[3]/placeName"
 		}
@@ -265,25 +252,22 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
           <title>4 August 1719. – Copy of a letter from <persName key="p1400">Paolo Federici</persName>
-            to <persName key="p1392">the Russian agent in Venice, Petr Ivanovich Beklemishev</persName>
+            to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1392" xml:space="default">the Russian agent in Venice, Petr Ivanovich Beklemishev</persName>
           </title>
         </head>
         <opener>
           <note cert="high" evaluate="all" place="top" xml:space="default">
-            <p>RGADA, fond 41, opis 1, 1719, no. 7, f. 1-1v. Italian copy. Russian translation:
-              ibid., f.
+            <p>RGADA, fond 41, opis 1, 1719, no. 7, f. 1-1v. Italian copy. Russian translation: RGADA, fond 41, opis 1, 1719, no. 7, f.
               2-2v.
             </p>
           </note>
-          <pb n="f. 1" />
+          <pb n="f. 1"/>
           <note>
             Copia
           </note>
@@ -301,7 +285,7 @@
           se havessi havuto il modo da potere far un tal viaggio come mi dichiaro sempre più pronto
           ad obbedirla quando V[ostra] S[ignoria] Ill[ustrissi]ma si compiacia darmeno l’apertura.
           L’affare non puo</p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p>essere ne più considerabile ne più geloso di quello s’è et io sono prontissimo
           comunicarlo, et avrei a V[ostra] S[ignoria] Ill[ustrissi]ma accio possa subito pigliar le
           sue misure, o di participarlo espresso a <persName key="p0174">Sua Maestà</persName> o
