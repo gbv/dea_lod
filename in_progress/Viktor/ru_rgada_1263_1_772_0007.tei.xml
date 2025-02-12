@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">Letter from the Councillor of the Russian Legation to the
@@ -99,8 +98,7 @@
     
     <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
-  </teiHeader>
-  <text>
+  </teiHeader><text>
     <body>
       <div type="letter">
         <head>
@@ -155,13 +153,13 @@
         <p>
           <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> 5/16 aout
           1761.</p>
-        <p/>
+        
         <pb n="f. 16"/>
-        <p/>
+        
         <p>Осмеливаюсь трудить вашего сиятельства чтоб включенное писмо отослать в <placeName key="g0075" ref="https://www.geonames.org/2640729">Оксфорд</placeName>.</p>
         <p/>
         <pb n="f. 16V"/>
-        <p/>
+        <p>[From here, written in a different handwriting:]</p>
         <p>
           <placeName key="g0005" ref="https://www.geonames.org/2761367">Viene</placeName> Le 5/16
           août 1761.</p>
@@ -169,7 +167,7 @@
           <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">Mr Le C[om]te de Woronzow</persName>
           .</p>
         <noteGrp>
-          <note>Also see:</note>
+          <note>Also See:</note>
           <note>ru_rgada_1263_1_772_0001</note>
           <note>ru_rgada_1263_1_772_0002</note>
           <note>ru_rgada_1263_1_772_0003</note>
@@ -189,5 +187,4 @@
         </noteGrp>
       </div>
     </body>
-  </text>
-</TEI>
+  </text></TEI>
