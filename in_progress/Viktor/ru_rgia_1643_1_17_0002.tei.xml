@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,64 +96,48 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>22 April 1804. – [Draft letter] about the outcome of <persName
-              key="p0834"
-              ref="c242ded2-197a-438b-9a4f-f4a722877697">the Russian minister's [in Spain]</persName>
+          <title>22 April 1804. – [Draft letter] about the outcome of <persName key="p0834" ref="c242ded2-197a-438b-9a4f-f4a722877697">the Russian minister's [in Spain]</persName>
             request to <persName key="p0836">the Spanish prince</persName> for his assistance in
             relations with England</title>
           <note>
             <bibl>RGIA, fond 1643, opis 1, no. 17, f. 27—28. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 27" />
+        <pb n="f. 27"/>
         <opener>
           <dateline>
             <date when="1804-04-22"> Le 22 Avril 1804</date>
           </dateline>
         </opener>
         <p>Lorsque <persName key="p0834" ref="c242ded2-197a-438b-9a4f-f4a722877697">le ministre de
-          Russie</persName> fut à <placeName
-            key="g0097"
-            ref="https://www.geonames.org/3129857">Aranjuez</placeName> pour voir si le <persName
-            key="p0836"
-            ref="5b22a181-eba8-4fe4-a16f-e5184bcdbe24">P[rin]ce de la Paix</persName> ne le
+          Russie</persName> fut à <placeName key="g0097" ref="https://www.geonames.org/3129857">Aranjuez</placeName> pour voir si le <persName key="p0836" ref="5b22a181-eba8-4fe4-a16f-e5184bcdbe24">P[rin]ce de la Paix</persName> ne le
           chargeroit pas de chercher quelque vois d'accomodement entre lui et le ministre
-          d'Angleterre, il fut très surpris dès qu'il entra dans le cabinet du <persName
-            key="p0836"
-            ref="5b22a181-eba8-4fe4-a16f-e5184bcdbe24">Prince</persName> de la maniere brusque dont
+          d'Angleterre, il fut très surpris dès qu'il entra dans le cabinet du <persName key="p0836" ref="5b22a181-eba8-4fe4-a16f-e5184bcdbe24">Prince</persName> de la maniere brusque dont
           celui-ci l'apostropha à peu près en ce termes.</p>
-        <p> "Vous aurez entendu parler de la singuliere correspondance qui a eu lieu entre <persName
-            key="p0837">le ministre d'Angleterre</persName> et moi; je ne sais pas ce qu'il veut;
+        <p> "Vous aurez entendu parler de la singuliere correspondance qui a eu lieu entre <persName key="p0837">le ministre d'Angleterre</persName> et moi; je ne sais pas ce qu'il veut;
           mais en tout cas il faut que nous nous déclarions très incessant et l'Angleterre ne doit
           pas oublier que nous avons 20 vaisseaux de ligne &amp; 60/m hommes de troupes de
           débarquement". Ces derniers mots qui portoient une menace si formelle, durent </p>
-        <pb n="f. 27v" />
+        <pb n="f. 27v"/>
         <p>surprendre beaucoup celui qui savoit que les 20 vaissaux - étoient ou pourris ou sans
           agrèets et <hi rendition="#s">enfin</hi> les 60/m hommes, sans habits, sans munitions et
           sans un sac de blé ni d'avoine. Il dut sans doute se rappeler alors le ton menaceant et
           fiers avec lequel <persName key="p0837">ce même ministre</persName>
           <hi rendition="#s">dit
-          sept mois auparavant </hi>
-          <hi rendition="#sup">1</hi>lui dit au mois du Sept de l'année
-          passée<note place="foot">Inserted instead of the removed text.</note> à <persName
-            key="p0838">l'ambassadeur de France</persName>.</p>
+          sept mois auparavant </hi> <hi cert="high" generatedBy="human" rendition="#sup" xml:space="default">lui dit au mois du Sept de l'année passée</hi> à <persName key="p0838">l'ambassadeur de France</persName>.</p>
         <p> "Nous sommes prêts et nous n'attendons seulement que vous nous disiez à qui nous devons
-          déclarer la guerre à la France ou à l'Angleterre; ce qu'il y a de certain c'est que <persName
-            key="p0157"
-            ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">le Roi</persName> ne consentira jamais au
+          déclarer la guerre à la France ou à l'Angleterre; ce qu'il y a de certain c'est que <persName key="p0157" ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">le Roi</persName> ne consentira jamais au
           rôle honteux de coopérer à détrôner <persName key="p0839">sa fille</persName>". Il dut se
-          rappeler que <persName
-            key="p0836"
-            ref="5b22a181-eba8-4fe4-a16f-e5184bcdbe24">le Prince</persName>, en lui rapportant cette
+          rappeler que <persName key="p0836" ref="5b22a181-eba8-4fe4-a16f-e5184bcdbe24">le Prince</persName>, en lui rapportant cette
           conversation </p>
-        <pb n="f. 28" />
+        <pb n="f. 28"/>
         <p>avoit ajouté: "oui <persName key="p0157" ref="4af1b5a9-d3d7-493b-b843-19263867a0e3">le
             Roi</persName> est décidé à ne point céder, j'ai l'assurance que la nation m'aime et a
           confiance en moi nous pouvons faire une longue resistance."</p>
