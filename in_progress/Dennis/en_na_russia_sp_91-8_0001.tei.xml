@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,20 +100,19 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>26 April / 7 May 1714. – Letter of credence for the Resident of Great Britain to
-            Russia, George Mackenzie{{p1338}}</title>
+          <title>26 April / 7 May 1714. – Letter of credence for <persName key="p1338">the Resident of Great Britain to Russia, George Mackenzie</persName></title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-8, f. 5-5v. English copy</bibl>
           </note>
         </head>
-        <pb n="f. 5" />
+        <pb n="f. 5"/>
         <p> Anne{{p0668}} by the Grace of God Queen of Great Britain, France and Ireland Defender of
           Faith &amp;c. to the most Hugh, most Potent, most Illustrious Prince, Our most Dear
           Brother the great Lord Czar, &amp; great Duke Peter Alexiowits{{p0174}} of all great
@@ -128,7 +127,7 @@
           Most Potent &amp; our most Dear Loving Brother, having thought it necessary to dispatch a
           Person to your Imperial Majesty, who may assure you of Our Resolution not only to maintain
           the Friendship &amp; good Correspond[en]ce which for so many ages have continued </p>
-        <pb n="f. 5v" />
+        <pb n="f. 5v"/>
         <p> between Our Pdecessors, but also to improve &amp; cultivate the Same. We have for this
           Purpose made choice of Our Trusty &amp; Welbeloved George Mackenzie{{p1338}} Esq[ui]r[e]
           as a Person of whose Prudence &amp; ability We have had good Experience and have appointed
@@ -139,7 +138,7 @@
           We recommend you to the Protection of almighty God. Given at Our Court{{o0002}} at St.
           James’s the 26.th Day of April 1714. In the Thirteenth Year of Our Reign.</p>
         <p>Your most affectionate Sister</p>
-        <p>Anne R[egina].{{p0668}}</p>
+        <p>Anne R[egina].</p>
       </div>
     </body>
   </text>
