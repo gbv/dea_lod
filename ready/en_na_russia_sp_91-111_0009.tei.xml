@@ -5,9 +5,12 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Letter from the Ambassador Extraordinary and
-          Plenipotentiary of Great Britain to Russia, Earl of Hyndford, to the chancellor of the
-          Russian Empire, Count Aleksei Petrovich Bestuzhev-Riumin </title>
+        <title type="main" xml:lang="en">Pro-memoria presented by Earl of Hyndford to the Russian
+          Ministry 1 July 1748 on the certificate for merchant Martov's vessels and on the Siberian
+          iron affair</title>
+        <title type="main" xml:lang="fr">Pro-memoria du C[omt]e de Hyndford au Ministère de Russie
+          du 1er Juillet 1748. sur le certificat pour les vaissaux du marchand Martoff &amp; sur
+          l'affaire du fer de Siberie</title>
         <author xml:lang="en">John</author>
         <author xml:lang="en">Carmichael,</author>
         <author xml:lang="en">Earl</author>
@@ -133,10 +136,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-111_0006.tei.xml?place_annotation_20250204145044169",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-111_0009.tei.xml?place_annotation_20250204153837697",
 	"type": "oa:Annotation",
-	"dcterms:created": "2025-02-04T13:50:44.169Z",
-	"dcterms:modified": "2025-02-04T13:50:44.169Z",
+	"dcterms:created": "2025-02-04T14:38:37.697Z",
+	"dcterms:modified": "2025-02-04T14:38:37.697Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -147,10 +150,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-111_0006.tei.xml?place_annotation_20250204145044169#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-111_0009.tei.xml?place_annotation_20250204153837697#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-111_0006.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-111_0009.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -161,9 +164,9 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-111_0006.tei.xml?place_annotation_20250204145044169#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-111_0009.tei.xml?place_annotation_20250204153837697#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/placeName"
+			"rdf:value": "TEI/text/body/div/p[4]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -187,45 +190,44 @@
     <body>
       <div type="letter">
         <head>
-          <title>20 / 31 May 1748. – Letter from <persName key="p0776">the Ambassador Extraordinary and Plenipotentiary of Great Britain to Russia, Earl of Hyndford</persName>, to <persName key="p0017">the chancellor of the Russian Empire, Count Aleksei Petrovich Bestuzhev-Riumin</persName></title>
+          <title>1 / 12 July 1748. – Pro-memoria presented by <persName key="p0776">Earl of Hyndford</persName> to the
+            Russian Ministry 1 July 1748 on the certificate for merchant Martov's vessels and on the
+            Siberian iron affair</title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-111, s.f. French copy</bibl>
           </note>
         </head>
+        <p>Pro memoria.</p>
+        <p>Le soussigné <persName key="p0776">Ambassad[eu]r Extraord[inai]re &amp; Plenip[otentiai]re de S[a] M[ajesté] le Roi de la Grande Bretagne</persName> ne doutant point, que Leurs Ex[cellen]ces n’ayent eu souvent
+          lieu de remarquer, que <orgName key="o0002">Sa Cour</orgName> ne cherche rien avec tant d’empressement qu’à
+          entretenir la bonne amitié, qui subsiste si heureusement entre <persName key="p0063">le Roi son Maître</persName> &amp; <persName key="p0052">S[a] M[ajesté] l’Imperatrice</persName>, &amp; à avancer en particulier &amp; faire
+          fleurir reciproquement le commerce des deux Nations, il n’a pas voulu manquer de Leur
+          envoyer ci-joint le certificat, qu’Elles lui ont demandé par Leur Pro memoria du 29. Juin
+          en faveur du <persName key="p2086">marchand Russe Affanasey Martoff</persName>.</p>
+        <p>Cependant le soussigné ne sauroit se dispenser de mettre cette occasion à profit pour
+          prier encore LL. EE. avec toutes les instances, qui lui sont possibles, de vouloir bien,
+          consideré que quelques vaisseaux Anglois sont déja arrivez ici pour être chargez du fer de
+          Siberie dû aux marchands interessez dans le contract fait il y a quelques années, &amp;
+          que d’autres sont en chemin pour le même effet, tacher de disposer <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> à mettre très gracieusement la derniere main à cette affaire, &amp;
+          à prévenir par là ces bonnes gens de venir se jetter eux-mêmes aux<pb/> pieds de <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> pour La suplier très humblement de les sauver d’une ruine
+          entiere, qui ne peut que resulter d’un plus long delai de la signature de l’ordre au
+          <orgName key="o0142">College des mines</orgName>, qui puisse l’autoriser à leur faire delivrer la quantité
+          proportionnée de ce fer, que le soussigné a demandé si souvent, &amp; qu’il demande encore
+          à l’<persName key="p0052">Imperatrice</persName> par ce Pro Memoria avec tout le dû &amp; profond respect.</p>
+        <p><placeName key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">S[ain]t Petersbourg</placeName>, le 1<hi rendition="#sup">er</hi>
+          Juillet 1748.</p>
+        <p><pb/></p>
         <p>Copie</p>
-        <p><placeName key="Saint Petersburg St.-Petersburg Russia" ref="https://geonames.org/498817">S[ain]t Petersbourg</placeName>, le 20. Mai 1748.</p>
-        <p>Monsieur,</p>
-        <p>C’est avec le plus grand regret &amp; bien malgré moi que je me trouve dans la necessité
-          de me plaindre à V[otre] E[xcellence] du procedé violent de <persName key="p2085">M[onsieu]r le L[ieutenan]t General Samaracoff</persName> envers moi. Quoique le cas en question soit d’une nature que
-          je ne saurois le passer sous silence, &amp; que peut-être tout autre que moi en auroit
-          fait une affaire ministeriale ; cependant comme j’ai reçu tant de preuves des bontez &amp;
-          des graces de <persName key="p0052">S[a] M[ajesté] l’Imperatrice</persName>, je suis plus que persuadé, qu’Elle
-          ne pourra que desaprouver l’insulte, qui m’a été faite par Son ecuyer, &amp; qu’il Lui
-          plaira gracieusement de me faire avoir une ample satisfaction sur ce sujet. Pour cette
-          raison je me contente d’écrire cette lettre amicale à V[otre] E[xcellence] pour l’informer
-          des circonstances du fait, tel que le bas officier de ma garde, mon jardinier &amp; mon
-          concierge me l’ont raporté de la campagne, &amp; que voici.</p>
-        <p>« Le 15<hi rendition="#sup">e</hi> Mai un cocher &amp; quelques palfreniers de <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> étant entrez avec dix attelages de ses chevaux dans
-          l’enclos de ma campagne, ont d’abord demandé du foin &amp; de la paille. Le concierge ne
-          trouvant pas à propos de le donner, sans savoir pour qui &amp; sur l’ordre de qui<pb/> ils le
-          demandoient, il eut pour réponse, que c’étoit pour les chevaux de <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> &amp; par ordre de Son écuyer, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2085" xml:space="default">M[onsieu]r Samaracoff</persName>, &amp;
-          que si lui le concierge tardoit à le faire, il y feroit porté à coups de fouët &amp; de
-          bâton, ensorte [sic] que, pour éviter d’être maltraité, il leur remis la clef d’une écurie
-          pendant qu’ils ont cassé la serrure de l’autre pour y entrer de force. Là-dessus le
-          Caporal de la garde voulant s’oposer à cette violence, le dit cocher lui dit, qu’ils y
-          étoient envoyez de <persName key="p0052">S[a] M[ajesté]</persName> Elle-même &amp; de leur commandant, savoir
-          <persName key="p2085">M[onsieu]r Samaracoff</persName>. Le concierge atteste encore, qu’ils se sont saisis de la
-          moitié d’une charettée de foin &amp; de paille &amp; qu’ils y ont brisé les brouëttes
-          &amp; les traineaux. Mon maître d’hôtel, ayant été informé de tout ceci par le jardnier, s
-          y rendit incessament, &amp; ayant demandé au dit cocher, par quel ordre il en avoit agi de
-          la sorte à la campagne d’un Ambassadeur, il lui a pareillement répondu, que c’étoit par
-          ordre de <persName key="p2085">M[onsieu]r Samaracoff</persName> ».</p>
-        <p>Et pour preuve de ces allegations j’envoye ci-joint à V[otre] E[xcellence] les
-          temoignages des dits bas officier, jardinier &amp; concierge, signez de leurs propres
-          mains.<pb/></p>
-        <p>Au reste, Monsieur, je me repose sur l’amitié de V[otre] E[xcellence] pour l’usage,
-          qu’Elle trouvera à propos de faire de cette lettre, &amp; des pièces y jointes, &amp; j’ai
-          l’honneur d’être etc.</p>
+        <p>Pro-memoria du C[omt]e de Hyndford</p><p>au Ministere de Russie </p>
+        <p>du 1<hi cert="high" generatedBy="human" rendition="#sup" xml:space="default">er</hi> Juillet 1748. </p>
+        <p>sur le certificat pour les vaissaux </p>
+        <p><persName key="p2086">du marchand Martoff</persName> &amp; sur l’affaire du fer de Siberie.</p>
+        <p/>
+        <p>in <persName key="p0776">L[or]d Hyndford</persName> 5 July 1748.</p>
+        <noteGrp>
+          <note>See also:</note>
+          <note>en_na_russia_sp_91-111_0010</note>
+        </noteGrp>
       </div>
     </body>
   </text>
