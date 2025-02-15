@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,37 +98,28 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 May 1716. – Copy of the project of a defensive alliance, given to the Ambassador
-            Plenipotentiary of His Czarish Majesty, Prince [Boris Ivanovich] Kurakin{{p1190}} at <placeName
-              key="g0396"
-              ref="https://www.geonames.org/2957880">Altenau</placeName> on 20th of May 1716 and which was then communicated by
-            the same Ambassador at <placeName
-              key="g0004"
-              ref="https://www.geonames.org/2747373">The Hague</placeName> on 5th of June 1716
-            to M[iste]r [Robert] Walpole, Minister of Great Britain{{p1511}}</title>
-          <note>
-            <bibl>NA Kew, Russia, no. SP 91-9, f. 39-41v. French copy</bibl>
+          <title>20 May 1716. – Copy of the project of a defensive alliance, given to <persName key="p1190">the Ambassador Plenipotentiary of His Czarish Majesty, Prince [Boris Ivanovich] Kurakin</persName> at <placeName key="g0396" ref="https://www.geonames.org/2957880">Altenau</placeName> on 20th of May 1716 and which was then communicated by
+            the same Ambassador at <placeName key="g0004" ref="https://www.geonames.org/2747373">The Hague</placeName> on 5th of June 1716
+            to <persName key="p1511">M[iste]r [Robert] Walpole, Minister of Great Britain</persName></title><note>
+            <bibl>NA Kew, Russia, no. SP 91-9, f. 39-41v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f.39" />
-        <p> Copie du Projet d’une alliance defensive, donné a l’Ambassadeur</p>
+        <pb n="f.39"/>
+        <p> Copie du Projet d’une alliance defensive, donné a l’Ambassadeur </p>
         <p>Plenipotentiaire de Sa Majesté Czarienne le Prince de</p>
-        <p>Courackin{{p1190}} a <placeName
-            key="g0396"
-            ref="https://www.geonames.org/2957880">Altenau</placeName> le 20.<hi
-            rendition="#sup">e</hi> de May 1716 et qui a été aprés </p>
+        <p>Courackin{{p1190}} a <placeName key="g0396" ref="https://www.geonames.org/2957880">Altenau</placeName> le 20.<hi rendition="#sup">e</hi> de May 1716 et qui a été aprés </p>
         <p>communiqué par le même Ambassadeur a La Haye le 5<hi rendition="#sup">e </hi>
         </p>
         <p>de Juin 1716 à Mons<hi rendition="#sup">r</hi> Walpole Ministre de la Grande </p>
         <p>Bretagne{{p1511}}</p>
-        <p />
+        <p/>
         <p>Soit notoire a tous ceux qu’il appartiendra.</p>
         <p>Comme il est evident que la guerre du Nord apporte a toute l’Europe un prejudice
           considerable, et en particulier aux sujets de Sa Majesté Britannique{{p0727}} par rapport
@@ -150,7 +138,7 @@
           qui empeche que le Roy de Suede{{p0193}} ne transporte des trouppes en Allemagne ou en
           d’autres Etats des Alliés du Nord, ou cela pourroit rallumer le feu de la guerre qu’on
           tache d’eteindre pour </p>
-        <pb n="f. 39v" />
+        <pb n="f. 39v"/>
         <p> le bien et le repos de toute l’Europe. </p>
         <p>Mais pour faire voir combien Sa Maj[es]<hi rendition="#sup">té </hi>Britannique{{p0727}}
           desire que la guerre du Nord soit promptement terminée; Elle ne manquera pas de faire en
@@ -174,7 +162,7 @@
           Czarienne{{p0174}} et ses successeurs d’une part, et Sa Majesté Britannique{{p0727}} et
           ses successeurs d’autre part, la quelle alliance sera entretenue de part et d’autre avec
           tout le soin d’employer toutes </p>
-        <pb n="f. 40" />
+        <pb n="f. 40"/>
         <p> sortes des moyens pour detourner reciproquement ce qui pourroit leur etre prejudiciable,
           et pour se procurer l’un et l’autre toutes sortes de bien et d’avantages.</p>
         <p>(2.</p>
@@ -200,7 +188,7 @@
           états de S[a] M[ajesté] Britannique{{p0727}}.</p>
         <p>(5.</p>
         <p>Si Sa Majesté Britannique{{p0727}} ou Ses successeurs sont attaqués </p>
-        <pb n="f. 40v" />
+        <pb n="f. 40v"/>
         <p> ou troublés dans leurs Etats, ou dans Leurs droits, soit a cause de leur succession
           etablie par les loix de la grande Bretagne dans la ligne protestante, soit pour quelque
           autre sujet que ce puisse être, Sa Majesté Cz[ari]enne{{p0174}} s’oblige pour Elle et pour
@@ -215,29 +203,19 @@
           general.</p>
         <p>(6.</p>
         <p>Sa Majesté Czarienne{{p0174}} se charge de faire transporter a ses depens les trouppes
-          susdites jusqu’a <placeName
-            key="g0432"
-            ref="https://www.geonames.org/2821480">Travemunde</placeName> prés de <placeName
-            key="g0154"
-            ref="https://www.geonames.org/2875601">Lubeck</placeName> ou Sa Majesté Britannique{{p0727}} les fera recevoir et
+          susdites jusqu’a <placeName key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName> prés de <placeName key="g0154" ref="https://www.geonames.org/2875601">Lubeck</placeName> ou Sa Majesté Britannique{{p0727}} les fera recevoir et
           transporter a Ses depens dans l’endroit ou Elle aura besoin de les employer, et pendant
           tout le tems que ces trouppes demeureront a son service, a conter depuis le jour de Leur
-          arrivée a <placeName
-            key="g0432"
-            ref="https://www.geonames.org/2821480">Travemunde</placeName> ; Elle l’engage a leur fournir les
+          arrivée a <placeName key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName> ; Elle l’engage a leur fournir les
           vivres, le fourage le quartier et les chariots, tout comme a ses propres trouppes, et
           lorsqu’Elle n’en aura plus besoin, Elle s’oblige a les faire transporter a ses depens
-          jusqu’au dit <placeName
-            key="g0432"
-            ref="https://www.geonames.org/2821480">Travemunde</placeName>, ou S[a] M[ajesté]
+          jusqu’au dit <placeName key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName>, ou S[a] M[ajesté]
           Cz[ari]enne{{p0174}} les fera recevoir, et conduire dans ses Etats a ses depens. Sa
           M[ajesté] Britanique{{p0727}} se charge ce cas existant de disposer le Magistrat de Lubeck
           a recevoir dans leur havre de </p>
-        <pb n="f. 41" />
+        <pb n="f. 41"/>
         <p>
-          <placeName
-            key="g0432"
-            ref="https://www.geonames.org/2821480">Travemunde</placeName> le dit corps Rissien, lorsqu’il y
+          <placeName key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName> le dit corps Rissien, lorsqu’il y
           debarquera, en allant et en retournant, et a Luy donner toutes sortes d’assistance. </p>
         <p>7.</p>
         <p>Sa M[ajesté] Britanique{{p0727}} promet et s’oblige de Son coté que dans les negociations
@@ -247,9 +225,7 @@
           Cz[ari]enne{{p0174}}: et a Ses Successeurs les provinces qui sont a present actuellement
           sous la domination de Sa dite M[ajes]<hi rendition="#sup">té</hi> Cz[ari]enne{{p0174}},
           l’Ingrie, la Livonie, l’Estonie, la Carelie avec toutes les autres dependences,
-          inclusivement la ville de <placeName
-            key="g0433"
-            ref="https://www.geonames.org/470546">Wiburg</placeName> ; et si Sa M[ajesté]
+          inclusivement la ville de <placeName key="g0433" ref="https://www.geonames.org/470546">Wiburg</placeName> ; et si Sa M[ajesté]
           Cz[ari]enne{{p0174}} ou Ses successeurs viennent a être attaqués et troublés dans ces
           Provinces et places ; S[a] M[ajesté] Br[itanique]:{{p0727}} s’oblige pour Elle et pour Ses
           Successeurs, de les assister a ses propres depens, deux mois aprés la requisition faite,
@@ -269,7 +245,7 @@
         <p>(11.</p>
         <p>Les ratifications de ce present Traité seront echangées en deux mois de tems a conter du
           jour de la signature de ce Traité, ou plûtôt s’il se peut fait a… ss.</p>
-        <pb n="f. 41v" />
+        <pb n="f. 41v"/>
         <p> Article separé</p>
         <p>Et afin que tant ce qui est contenu dans le preambule de ce Traité principal d’alliance
           defensive et l’avantage commun de S[a] M[ajesté] Czarienne{{p0174}}, et de S[a] M[ajesté]
