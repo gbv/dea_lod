@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,14 +103,13 @@
       <div type="letter">
         <head>
           <title>26 May / 6 June 1719. – Memorandum presented by the Resident of Great Britain to
-            Russia, James Bavington Jeffreys{{p1345}}, to Tsar of Russia Peter I{{p0174}}</title>
-          <note>
+            Russia, James Bavington Jeffreys, to <persName key="p0174">the Tsar of Russia Peter I</persName></title><note>
             <bibl>NA Kew, Russia, no. SP 91-9, f. 183-183v. French copy</bibl>
           </note>
         </head>
-        <pb n="f. 183" />
+        <pb n="f. 183"/>
         <p> A Sa Majesté Czarienne etc. etc.</p>
-        <p />
+        <p/>
         <p>Le Soussigné Resident de Sa Maj[es]té Britannique represente tres humblement à Votre
           Maj[es]té, que le Roy Son Auguste Maitre{{p0727}} ayant fait publier à la fin de l’année
           passée un Edit, en vertu du quel tous les mariniers etc sujets naturels de Sa
@@ -126,16 +122,14 @@
           la Grande Bretagne{{p0727}} attend de l’equité de Votre Maj[es]té et comme un effet de la
           bonne intelligence qui subsiste entre les deux couronnes, qu’Elle fera attention sur ce
           que </p>
-        <pb n="f. 183v" />
+        <pb n="f. 183v"/>
         <p> le dit Resident vient d’exposern et ne laissera pas d’en user reciproquement avec tous
           les egards et toute la consideration possible pour Votre Majesté : Le Soussigné supplie
           tres humblement Votre Maj[es]té de luy faire donner la dessus une resolution positive,
-          pour qu’il soit en etat d’en informer Sa cour{{o0002}}. Fait a <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">St
+          pour qu’il soit en etat d’en informer Sa cour{{o0002}}. Fait a <placeName key="g0002" ref="https://www.geonames.org/498817">St
           Petersburg</placeName> ce 26me May v[ieux]. s[tyle]. 1719.</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <noteGrp>
           <note>See also:</note>
           <note>en_na_russia_sp_91-9_0010</note>
