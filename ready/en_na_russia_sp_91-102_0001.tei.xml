@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,37 +96,61 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>14 January 1778. – Letter from <persName key="p0108">the Minister Plenipotentiary of Russia to Great Britain, Aleksei Semenovich Musin-Pushkin</persName>, to <persName key="p2078">Earl of Suffolk</persName></title><note>
+          <title>14 January 1778. – Letter from <persName key="p0108">the Minister Plenipotentiary
+              of Russia to Great Britain, Aleksei Semenovich Musin-Pushkin</persName>, to <persName
+              key="p2078">Earl of Suffolk</persName></title>
+          <note>
             <bibl>NA Kew, Russia, no. SP 91-102, f. 18-18v. French original</bibl>
           </note>
         </head>
-        <pb n="f. 18"/>
+        <pb n="f. 18" />
         <p> My lord, </p>
-        <p>Dans cet Instant même j’aprens avec la plus vive Joye l’heureuse Délivrance de <persName key="p0439">Son Altesse Imp[éria]le Madame la Grande Duchesse</persName> d’un <persName key="p0897">Prince</persName> le 12/23
-          Decembre. J’eusse été moy même My Lord Vous porter cette trop agreable nouvelle, si la
-          fievre qui m’a repris avanthier, ne m’obligeait absolument à garder ma Maison, sur tout
-          après des Symptomes d’Inflamation dans le Sang assés dangereux pour risquer à sortir par
-          le temps qu’il fait. Je prens My Lord la liberté de vous suplier de vouloir bien informer
-          Sa Majesté </p>
-        <pb n="f. 18v"/>
-        <p> <persName key="p0161">le Roy</persName> d’un Evenement aussi important pour la Russie, persuadé comme j’ose
-          l’etre d’avance, que <persName key="p0161">Sa Majesté</persName> de même que toute <orgName key="o0002">Sa Cour</orgName> y prendra une
-          juste Part.</p>
-        <p>Il ne tiendra pas au reste aux menagemens que je garderai, que je ne fasse à moins de Vous
+        <p>Dans cet Instant même j’aprens avec la plus vive Joye l’heureuse Délivrance de <persName
+            key="p0439">Son Altesse Imp[éria]le Madame la Grande Duchesse</persName> d’un <persName
+            key="p0897">Prince</persName> le 12/23 Decembre. J’eusse été moy même My Lord Vous
+          porter cette trop agreable nouvelle, si la fievre qui m’a repris avanthier, ne m’obligeait
+          absolument à garder ma Maison, sur tout après des Symptomes d’Inflamation dans le Sang
+          assés dangereux pour risquer à sortir par le temps qu’il fait. Je prens My Lord la liberté
+          de vous suplier de vouloir bien informer Sa Majesté </p>
+        <pb n="f. 18v" />
+        <p>
+          <persName key="p0161">le Roy</persName> d’un Evenement aussi important pour la Russie,
+          persuadé comme j’ose l’etre d’avance, que <persName key="p0161">Sa Majesté</persName> de
+          même que toute <orgName key="o0002">Sa Cour</orgName> y prendra une juste Part.</p>
+        <p>Il ne tiendra pas au reste aux menagemens que je garderai, que je ne fasse à moins de
+          Vous
           faire My Lord ma Cour Lundi prochain ayant l’honneur d’etre tousjours avec la
           consideration aussy sincerem[en]t sentie que très distinguée</p>
         <p>My Lord</p>
         <p>De Votre Excellence</p>
         <p>Le très humble &amp; le très</p>
         <p>obeissant Serviteur</p>
-        <p><persName key="p0108">A[leksei] Moussin Pouschkin</persName></p><p> <p>Henriette St[reet].</p><p>Cavendish Squ[are]</p><p>ce 14<hi rendition="#sup">e</hi> Janv[ie].r 1778.</p></p>
+        <p>
+          <persName key="p0108">A[leksei] Moussin Pouschkin</persName>
+        </p>
+        <p>Henriette St[reet].</p>
+        <p>Cavendish Squ[are]</p>
+        <p>ce 14<hi rendition="#sup">e</hi> Janv[ie].r 1778.</p>
       </div>
     </body>
   </text>
