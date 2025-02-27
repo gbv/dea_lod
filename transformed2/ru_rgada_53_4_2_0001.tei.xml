@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Royal letter from the King of Denmark [and Norway,]
+          Frederick IV[,] to [the Tsar of Russia,] Peter I</title>
+        <title type="main" xml:lang="ru">Грамота датского короля Фредерика IV Петру I</title>
+        <author xml:lang="en">King of Denmark and Norway Frederiсk IV Christian</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1 March 1707. – Royal letter from King of Denmark Frederik IV to Tsar
+            Peter I </title>
+          <note>
+            <bibl>RGADA, f. 53, op. 4, no. 2, fol. 1–1v. Danish original.</bibl>
+          </note>
+        </head>
+        <pb n="fol. 1r" />
+        <p>Wii Friederich de Fierde, aff Guds Naade, Konge till Dannemarck og Norge, de wenders og
+          Gothers, Hertug udi Schlesvig, Holsten, Stormarn og Ditmersken, Greve udi Oldenburg og
+          Dellmenhorst. Tilbiude den Stormegtige Höybaarne Vorir Elskelige kiere Broder,
+          besynderlige gode Venn og Naboe, aff Guds Naade Store Herr Czarr og Storfurste Peter
+          Alexeiewitz, alle Store, Smaa og hvide Rydßers selfErholder, Muskows, kiofski,
+          Woladimerski, Nougorodski, Czarr til kaßan, Czarr til Astrachan, Czarr til Sibirrien,
+          Herre til Pleskow, Storförste til Smolenskow, Tverski, Jugorski, Permski, Wätzski,
+          bolgarski og andere, Herre og Storförste til Nougorodi det Lægeland, Tzerninggoufski,
+          Resantzki, Rostofski, Jeroßlafski, bielo Osterski, Udorski, Obdorski, Candinski og ald
+          Norder Sides befalere, Herre til Ifverski land, kartalinski og Grusinski, Czarr ofvere
+          Karbadinski land, Tzerkoskisk og Gorskisk forste og mange andere Herredomme og lande, udj
+          Öster, Vester og Nör, fæderlig forfaderlig og Arfvelige Herre og Regenter. Voris
+          Naboevenlig Helsen, sambt huis meere kiert og got Vj formaa, med Gud allermægtigste
+          tilfore, Stormægtige Höybaarne Elskelige kiere Broder, besynderlige gode Venn og Naboe. Wj
+          kunde Eders kierl[ighe]d hermed broder= og Naboewenligen ey forholde, det Oß Voris
+          Obrister af Infanteriet, og hidindtil Commendant over Voris festninger ved Christianssandt
+          udj Vort Kongerige Norge, Oß Elskelige Friderich Hartwig von Nostitz, allerunderdanigst
+          haver ladet andrage, hvorledis hand velsindet war, sig andensteds at engagere, med
+          allerunderdanigste bön, at Wj hannem sligt ey alleene Vilde tilstæde, og tilsamme Ende
+          Hannem sin Dimission udaff Voris Tienniste i Naade forunde Saasom nu denne Voris Obrister
+          von Nostitz, sig udj alle de aar hand udj Voris og Voris j Gud Glorwærdigst hvilende Herr
+          faders May[estæ]ts Tienniste haver staaet, ved alle occasioner, som een ærekier, Tror og
+          Tapper Soldat, til Voris Fornöyelse, beteet haver; Saa have Vj hannem sin Afskeed ey
+          wildet nægte; Ogsom Vj nu fornemmer at hand træder j Eders Kierligheds kriegsTienniste;
+          Saa anmode Vj Eders Kierl[ighe]d hermed Broder= og Naboewenligen, at saasom de hannem j
+          saa maade vdj deris Tienniste behager at antage, de hannem ogsaa med Naade Wille
+          frembdelis ansee, ey paatviflende, hand jo, effter hans sædwanlig god Conduite og
+          experience Sielf skall legge Vind paa, sig Eders Kierl[ighe]ds Höye Naade at til Veye
+          bringe, og sig Frembdelis, som een braf Soldat og Officerer udj deris Tienniste at
+          signalere. Hvoemed Vj Eders Kierl[ighe]d udj den Allerhöyestes trygge beskiermelse, til
+          ald lycksalig Velgaaende, troeligen og Naboewenligen befale. Givet paa Vort Slott
+          Kiöbenhafn, den 1<hi rendition="#u">
+            <hi rendition="#sup">ste </hi>
+          </hi>Marty, A[nn]o 1707.</p>
+        <p>Friderich R[ex]</p>
+        <p />
+        <p>C: Sehestedt</p>
+        <p />
+        <pb n="fol. 1v" />
+        <p>Den Stormegtige, Höybaarne, Voris Elskelige Kiere Broder, Besynderlige gode Venn og
+          Naboe, aff Guds Nade Store Herre Czarr og Storförste Peter Alexeiewitz, alle store, smaa
+          og huide Rydßers selfErholder, Mußkaus, kiofski, Woladimerski, Nougorodski, Czarr til
+          Kaßan, Czarr til Astrachan, Czarr til Sibirrien, Herre til Pleskow, Storförste til
+          Smolenskow, Twerski, Jugorski, Permski, Wätzki, Bolgarski og andere, Herre og Storförste
+          til Naugorodi det LægeLand, Tzerninggoufki, Resantzki, Rostofski, Jeroslofski, bielo
+          Osterski, Udorski, Obdorski, Candinski og ald Norder Sider befalere, Herr til Ifverski
+          Land, kartalinski og Grusinski, Tzarr ofuer Karbadinski Land, Tzerkoskisk og gorskisk
+          förste, og mange andere Herredomme og Lande udi Öster, Vester og Nör, faderlig,
+          forfæderlig og arfvelige Herre og Regenter.</p>
+        <p>Nabovenligen</p>
+        <p />
+        <pb n="On the fol. 1v" />
+        <p>
+          Датцкого короля 1707-го.</p>
+        <p />
+        <p />
+        <p>Фредерик IV (Frederik IV) (11.10.1671 – 12.10.1730) – король Дании и Норвегии
+          (1699–1730).</p>
+        <p>Петр I Алексеевич (30.5.1672 – 28.1.1725) – сын царя Алексея Михайловича и Натальи
+          Кирилловны Нарышкиной, русский царь (1682–1725), император Всероссийский (с 1721 г.).</p>
+        <p>Ностиц, Фридрих Гартвиг (Nostitz, Friedrich Hartvig) (? – 1737) – граф, пехотный
+          полковник, комендант Кристиансанна. С 1707 г. на русской службе в чине генерал-майора. В
+          1710 г. взял г. Эльбинген, произведен в чин генерал-лейтенанта, назначен комендантом
+          Эльбингена. В 1716–1718 гг. на венецианской службе в чине генерала кавалерии.</p>
+        <p>Сегестед, Кристиан (Sehested, Christian) (22.2.1666 – 19.7.1740) – гоф-юнкер (1687),
+          камер-юнкер (1690), статский советник (1698). Посланник в Швеции (1698–1699),
+          обер-секретарь Немецкой канцелярии (1700 – 29.7.1707, 6.7.1708–1721), член королевского
+          Совета (1708–1721), руководил внешней политикой Дании в течение ряда лет. Чрезвычайный
+          посол во Франции (1728–1731), чрезвычайный посол в Швеции (1734–1735).</p>
+      </div>
+    </body>
+  </text>
+</TEI>

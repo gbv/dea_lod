@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Saxony, Prince Andrei
+          Mikhailovich Belosel'skii, to Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Andrei Mikhailovich Belosel'skii</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>8/19 July 1766. – Letter from the <persName key="p0015"
+              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 569-a, f. 7–8v. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 7" />
+        <p>Mon Prince</p>
+        <p>Nule part, je crois, le proverbe italien de <hi rendition="#u">principe </hi>
+          <hi
+            rendition="#u">principone </hi>
+          <hi rendition="#u">fortetze </hi>
+          <hi rendition="#u">
+          canone </hi>
+          <hi rendition="#u">principi </hi>
+          <hi rendition="#u">principini </hi>
+          <hi
+            rendition="#u">palazi </hi>
+          <hi rendition="#u">giardini</hi>, ne se trouve aussi
+          justement comparé qu’ici. Les forteresses et canons vont fort bien au <persName
+            key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi</persName>, et Palais et
+          jardins à <persName key="p0051" ref="83dd2668-a967-470e-be15-35e3924eefe6">la Reine</persName>
+          et aux autres Princes et Princesses. Avant hier j’ai été presenté à <persName key="p0051"
+            ref="83dd2668-a967-470e-be15-35e3924eefe6">la Reine</persName> à <placeName key="g0351">
+          Schonhausen</placeName>. Le Chateau est batti à neuf depuis la visitte des Autrichiens et
+          peut se compter parmis de très jolies maisons particutieres, à deux étages; cinq chambres
+          d’enfilade forment la façade. <orgName key="o0034"
+            ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">La Cour</orgName> s’etoit tenu en haut, on
+          entre dans une salle ornée avec beaucoup de gout en stuc et peinte en verd de pomme et
+          blanc. </p>
+        <p>On tournoit à gauche pour entrer dans la Chambre où <persName key="p0051"
+            ref="83dd2668-a967-470e-be15-35e3924eefe6">la Reine</persName> tenoit le cercle et il
+          falloit passer une chambre pour arriver à <persName key="p0061"
+            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Sa Majesté</persName>. à droite de la salle
+          est une </p>
+        <p>[footnote:]</p>
+        <p>№ 4.</p>
+        <p />
+        <pb n="f. 7v" />
+        <p> une chambre et une gallerie qui prend sur toute la largeur de la Maison; Elle est aussi
+          ornée de stuc et toutes les chambres sont tendu de pekin de differents fonds de couleur;
+          en un mot, la Maison est meuble sans aucun ombre de richesse, mais avec beaucoup de gout.
+          Le jardin est aussi fort joli. Il y avoit à <orgName key="o0034"
+            ref="48c9fea9-ff7d-4327-9dc8-f0e6249d0467">la Cour</orgName> environ une dizaine des
+          dames et quinzaine des Cavaliers, parmis lesquels les Ministres Etrangers qui sont ici s’y
+          trouvois, Il n y avoit que trois tables de jeux, la table de <persName key="p0051"
+            ref="83dd2668-a967-470e-be15-35e3924eefe6">la Reine</persName>, la table de <persName
+            key="p0373" ref="a9c3bb1d-9646-456a-87d6-ecfbfe38881d">la Princesse de Prusse</persName>
+          dans une chambre, et une troisieme dans une autre; c’est le Wisch, qui est le jeux que
+          tout le monde joue ici. Le jeux de <persName key="p0051"
+            ref="83dd2668-a967-470e-be15-35e3924eefe6">la Reine</persName> a duré jusqu’a neuf
+          heures, aprés quoi elle a dessendu l’escalier pour souper, la salle à menger etant au
+          premier etage. Elle m’a fait l honneur de me parler quand je lui ai été presenté, et pas
+          du tout distinctement.</p>
+        <p>Hier j’ai eu l’honneur de souper chés <persName key="p0373"
+            ref="a9c3bb1d-9646-456a-87d6-ecfbfe38881d">la Princesse de Prusse</persName> et faire sa
+          partie de jeux, cela fait une bien bonne Princesse à l’eloquence prés. Nous avons joué au
+          Wisch jusqu’à neuf heures, aprés quoi elle est allé souper et nous l’avons suivi. On m’a
+          mis vis à vis d’elle, et je peus dire avoir eprouvé qu’<hi rendition="#u">il n y a nul
+          plaisir sans peine</hi>. L’honneur qu’elle m’a fait de me parler beaucoup m’etoit un vrai
+          plaisir, et la </p>
+        <pb n="f. 8" />
+        <p> difficulté de la comprendre m’etoit une reelle peine. Elfin venons à sa table: C’etoit
+          une, comme de refectoir; trois dormantes dessus, une soupe, quatre entrés, deux entremets,
+          un plat de rot et deux salades; sur cela il y avoit dix sept personnes à souper et servis
+          par cinq laquais et un hayduc. la Vaisselle etoit fort unie et même on n’a pas donné
+          d’assiette de porcelaine au desert, lequel de toute façon valoit beaucoup mieux que le
+          soupe. On a servi une dizaine des Corbeilles d’une porcelaine la plus commune de
+          differents fruits, comme peches, abricots, cerises, framboise, fraise, et même j’ai été
+          surpris de voir autant de differentes sortes des fruits dans le même tems. Le soupé a bien
+          duré jusqu’à prés douze heures, aprés quoi Elle s’est retiré.</p>
+        <p>Je ne peus rien vous dire du <persName key="p0061"
+            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi</persName>, je ne lui ai pas fait encore
+          ma Cour, mais ce que je pus apprendre de sa vie privé est, qu’il se leve entre six et sept
+          heures, qu’il travaille dans son Cabinet jusqu’à onze; puis il paroit et donne la parole
+          et l’ordre au Colonel qui s’y trouve; aprés il dine, il ordonne sa societé, qui va quelque
+          fois à 8 et 10 personnes et quelque fois seulement à 3 ou 4; aprés quoi il se retire et
+          lit jusqu’à six heures, puis il assiste au Concert et à neuf </p>
+        <pb n="f. 8v" />
+        <p> heures il se retire de rechef dans ses apartemens et se couche aprés les onzes. on dit
+          qu’il y a des journées qu’on ne le voit pas du tout, et qu’il s’enferme dans son pavillon
+          Chinois, dans le jardin de <placeName key="g0352">sans sousi</placeName>; souvant aprés le
+          diner il sort pour voir un batiment nouveau, aux environs de <placeName key="g0047">
+          Potzdame</placeName>, C’est encore un Chateau qu’il se fait batir. Il travaille à l
+          histoire de la querre passée, mais il y a eu deja du malheur, car etant presque
+          entierement finie, une lumiere oubliée auprés a mis le feux, dont il a eu beaucoup de
+          regret, disant lui même que ce qu’il avoit fait depuis, ne valoit pas de beaucoup ce qui
+          etoit brulé; il s’expliquoit que personne ne verroit cet ouvrage qu’aprés sa mort.</p>
+        <p>
+          <persName key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">Le Prince de Prusse</persName>
+          avec <persName key="p0373" ref="a9c3bb1d-9646-456a-87d6-ecfbfe38881d">la Princesse</persName>
+          vit continuellement à <placeName key="g0047">Potzdam</placeName>, il voit <persName
+            key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">le Roi</persName> tous les
+          matins, en qualité de Colonel pour recevoir l’ordre, et ne dine chés lui de même que <persName
+            key="p0373" ref="a9c3bb1d-9646-456a-87d6-ecfbfe38881d">la Princesse</persName>, que
+          quand il leur est ordonné et cela n’arrive que dans une quinzaine des jours une fois. <persName
+            key="p0060" ref="d68836c6-71de-4edb-a729-46f1086a7313">Le jeune Prince Henris</persName>
+          et <persName key="p0313,p0055">les deux Princes de Brunsvick</persName> qui sont aussi
+          domisiliés de <placeName key="g0047">Potzdam</placeName> dinent avec <persName key="p0061"
+            ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">le Roi</persName> presque tous les jours.</p>
+        <p>j’ai l’honneur d’etre avec un profond respect</p>
+        <p>Mon Prince</p>
+        <p>de Votre Excellence</p>
+        <p>le très humble &amp; tres</p>
+        <p>obeïssant serviteur </p>
+        <p>
+          <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselsky</persName>
+        </p>
+        <p>8/19 juillet 1766</p>
+        <p>
+          <placeName key="g0012">Berlin</placeName>
+        </p>
+        <p>Also see :</p>
+        <p>ru_rgada_1263_1_569-a_0001</p>
+        <p>ru_rgada_1263_1_569-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0001</p>
+        <p>ru_rgada_1263_1_572-a_0002</p>
+        <p>ru_rgada_1263_1_572-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0004</p>
+        <p>ru_rgada_1263_1_572-a_0005</p>
+        <p>ru_rgada_1263_1_573-a_0001</p>
+        <p>ru_rgada_1263_1_573-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0001</p>
+        <p>ru_rgada_1263_1_574-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>

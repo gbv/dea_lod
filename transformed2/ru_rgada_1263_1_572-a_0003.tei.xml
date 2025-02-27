@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Saxony, Prince Andrei
+          Mikhailovich Belosel'skii, to Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Andrei Mikhailovich Belosel'skii</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>26 May 1770. – Letter from <persName key="p0015"
+              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 572-a, f. 9–9v. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 9" />
+        <p>Mon Prince</p>
+        <p>J’ai eu l’honneur de recevoir la lettre de Votre Excellence par laquelle vous me donnés
+          ordre de vous achétter les tableaux de bon maittres qui se rencontrérons dans des ventes
+          par hazard; je ne manquérai pas de m’y employer de mon mieu en consultant les connoisseurs
+          avant que de faire l’aquisition, il s’en trouve de bons quelques fois, il est rare
+          cependant que cela soit par un pétit nombre mais il y a ici des colections des
+          particuliérs qui ne demanderois pas mieu de se defaire en entiérs et je crois qu’on les
+          aurois a bon prix. Si je savois que Votre Excellence n’etois </p>
+        <pb n="f. 9v" />
+        <p> pas eloigné de faire aquisition d’une colection entière je lui envoyérai des
+          catalogues : en attandant je repette que selon vos ordres j’achettérai ce que je
+          rencontrérai de mieu et a bon marché: Il n’y a pas ici des nouvelles qui puissent
+          interesser Votre Excellence. <orgName key="o0012"
+            ref="76593cc3-a621-46b7-8e1c-532ad73e99af">La Cour</orgName> est a son chateau d’eté
+          nommé <placeName key="g0187">Pilnitz</placeName> ou elle passe l’été.</p>
+        <p>J’ai l’honneur d’etre avec respect</p>
+        <p>Mon Prince</p>
+        <p>de Votre Excellence</p>
+        <p>le très humble et très obeiss[an]t </p>
+        <p>serviteur</p>
+        <p>
+          <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName>
+        </p>
+        <p>a <placeName key="g0013">Dresde</placeName> ce :26 : May</p>
+        <p>1770</p>
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_569-a_0001</p>
+        <p>ru_rgada_1263_1_569-a_0002</p>
+        <p>ru_rgada_1263_1_569-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0001</p>
+        <p>ru_rgada_1263_1_572-a_0002</p>
+        <p>ru_rgada_1263_1_572-a_0004</p>
+        <p>ru_rgada_1263_1_572-a_0005</p>
+        <p>ru_rgada_1263_1_573-a_0001</p>
+        <p>ru_rgada_1263_1_573-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0001</p>
+        <p>ru_rgada_1263_1_574-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Emperor of the Holy Roman Empire, Joseph
+          II, to the Governor General, Field Marshal Count Petr Aleksandrovich
+          Rumiantsev-Zadunaiskii</title>
+        <author xml:lang="en">Emperor of the Holy Roman Empire Joseph II</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1 December 1787. – Letter from the Emperor of the Holy Roman Empire, Joseph
+            II{{p0238}}, to the Governor General, Field Marshal Count Petr Aleksandrovich
+            Rumiantsev-Zadunaiskii{{p0124}}</title>
+          <note>
+            <bibl>OR RGB, fond 255, karton 3, no. 13, f. 3-3v. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 3" />
+        <p>Vienne{{g0005}} ce 1<hi rendition="#sup">er </hi>Decembre 1787</p>
+        <p />
+        <p>Monsieur le Marêchal, Le Prince de Coburg{{p2203}} vient de m’envoyer votre Lettre du 29
+          Octobre. J’ai été charmé d’y voir que vous vouliés bien vous Souvenir des momens que nous
+          avons passés ensemble et j’espére que Mr. le Comte votre fils{{p2204}} vous aura fait les
+          Compliments dont je l’avais trés instamment chargé à Cherson{{g0188}} et qu’il vous aura
+          témoigné, combien je regretois de n’avoir pû à l’occasion de ce voyage renouveller votre
+          Connaissance. </p>
+        <p>La nouvelle que S.M. l’Impératrice{{p0033}} vous a confié le Commandement de son Armée
+          m’a fait partager en Allié fidèle et son meilleur ami le sentiment de Satisfaction qu’a
+          éprouvé la nation et l’Armée Russe qui ont en vous la plus juste confiance, tout comme
+          votre nom seul est la terreur de l’ennemi. Sa Majeste Impériale{{p0033}} peut s’attendre
+          de ma part aux Secours les plus réels et à la Diversion la plus efficace. Je désire bien
+          aureste, Monsieur le Maréchal{{p0124}}, de recevoir Souvent de vos nouvelles, ainsi que
+          d’être eclairé sur l’objet commun par vos bons Conseils qui me seront toujours infiniment
+          chers, et en attendant je vous prie d’être persuadé [f. 3v] des Sentimens d’estime et
+          d’amitié avec les quels je serai toujours </p>
+        <p>Monsieur le Marechall</p>
+        <p>Votre tres affectioné</p>
+        <p>Joseph{{p0238}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

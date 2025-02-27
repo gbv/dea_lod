@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Report from the Russian Envoy Extraordinary and Minister
+          Plenipotentiary to Denmark, Mikhail Mikhailovich Filosofov regarding the claim of the
+          widow of the dentist Janst (?) to the inheritance after Lieutenant General Andreas Harboe
+        </title>
+        <author xml:lang="en">Mikhail Mikhailovich Filosofov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>4/15 May 1767. – Report from the Russian Envoy Extraordinary and Minister
+            Plenipotentiary to Denmark, Mikhail Mikhailovich Filosofov regarding the claim of the
+            widow of the dentist Janst (?) to the inheritance after Lieutenant General Andreas
+            Harboe </title>
+          <note>
+            <bibl>
+              AVPRI, fond 53, opis 53/5, no. 204, f. 16- 17v. Russian original.
+            </bibl>
+          </note>
+        </head>
+        <pb n="f. 16" />
+        <p>№4<hi rendition=" #u">
+            <hi rendition=" #sup">ой</hi>
+          </hi>
+        </p>
+        <p>державнейшая императрица и самодержица всероссийская.</p>
+        <p>Гсдрня всемилостивейшая!</p>
+        <p />
+        <p>По содержанию Вашего Императорскаго Величества всевысочайшаго рескрипта под №3м от 12
+          декабря
+          прошлаго года и приложенных к при том пиес касателных прошения вдовы зубнаго лекаря жанста
+          (жанстиа?) урожденной гарбое, в получении </p>
+        <p>прислана в Коллегию из дворца 15-<hi rendition=" #sup">го</hi> июня 1767:</p>
+        <pb n=" f. 16v" />
+        <p>ея здесь наследства после генерала гарбое, употребя возможное старание в партикулярном
+          разведовании обстоятелств сего дела столко узнал, что упоминаемой в писме предместника
+          моего тайнаго советника корфа опекун сего имения советник минх от котораго он известие в
+          касателном до сего наследства получил, и уже несколко лет как умер, и что все оное имение
+          по смерти второй жены не генерала, но тайнаго советника гарбое, его отдано на учреждение
+          двух монастырей вдовья и девическаго еще в 1735<hi rendition="#sup">м</hi> году, и состоит
+          под коронным управлением; то вследствие сих обстаятелств подана была здешнему министерству
+          от меня нота с которой у сего копию под литерою А. и со учиненнаго на то от здешняго
+          министерства мне ответа под литерами В &amp; С. с российским </p>
+        <pb n="f. 17" />
+        <p>переводом дацкаго Вашему Императорскому Величеству всенижайше поднесть честь имею;
+          всеподданнейше
+          в дополнение сего представя, что как реченной тайной советник гарбое  уже 60т: лет как
+          умер, а и
+          раздел его имения по духовной онаго еще в 1709 и 1710м годах второю его женою учинен, то и
+          со
+          изысканием досконалнейших документов нежели нне представляемыя от наследников обретающихся
+          в росии
+          весма без надежно чтоб сие дело в ползу их обращено, и то имение им доставлено быть могло,
+          во
+          первых, что сие наследство уже более 50 лет как в руки других досталось, а по здешним
+          законам тол
+          долго времянная безспорная посесия дает неоспоримое и предпочитателное право; а во вторых,
+          как все
+          документы, а особливо тестаменты реченнаго тайнаго советника гарбое из которых бы яснее
+          правость
+          требования</p>
+        <pb n="f. 17v" />
+        <p>в россии обретающихся наследников усмотреть было можно, по прошествии тол
+          долгаго времяни пратикулярно сысканы быть могут, а хотя чаять надобно, что они в
+          королевских архивах и в писмах реченных  монастырей состоят, однако по учиненным от меня о
+          том требованиям, мне отзыв учинен, что оных не состоит, и по даности времяни отискать
+          невозможно. ожидая по сему далнейших Вашего Императорскаго Величества повелений с рабским
+          благоговением навек буду.</p>
+        <p>Вашего Императорскаго Величества</p>
+        <p />
+        <p>из копенгагена                                                                           
+                            всенижайший раб</p>
+        <p>маия 4/15 дня 1767го году.                                                               
+                  Михайло Философов</p>
+      </div>
+    </body>
+  </text>
+</TEI>

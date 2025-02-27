@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Draft of the letter from the Vice-Chancellor of Russia,
+          Prince Aleksandr Mikhailovich Golitsyn, to the Minister Plenipotentiary of Russia in
+          Denmark Baron Johann Albrecht von Korff </title>
+        <author xml:lang="en">Aleksandr Mikhailovich Golitsyn</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>22 June 1764. – Draft of the letter from the Vice-Chancellor of Russia, Prince
+            Aleksandr Mikhailovich Golitsyn{{p0065}}, to the Minister Plenipotentiary of Russia in
+            Denmark, Baron Johann Albrecht von Korff{{p0245}}</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 168, f. 10-10v. French copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 10" />
+        <p>à S[on]. E[xcellence]. M[onsieur]. le B[ar]<hi rendition="#sup">on</hi> de Korf{{p0245}}</p>
+        <p>à S[ain]t Petersbourg{{g0002}} ce 22 juin 1764</p>
+        <p />
+        <p>Monsieur,</p>
+        <p>V[otre]. E[xcellence]. a eû la bonté de me marquer dans Sa lettre du 22 may l’arrivée de
+          Monsieur Desfeld{{p0925}}, et qu’elle voudra bien lui avancer l’argent necessaire pour
+          l’étalon que je lui ai donné commission de m’acheter. J’en tiendrai M[onsieu].<hi
+            rendition="#sup">r</hi> la reunie à Vos ordres, je Vous prie toujours de vouloir bien
+          accorder vos conseils à M[onsieur] Desfeld{{p0925}} ou lui procurer ceux de vos amis pour
+          l’achat dont il est chargé. #</p>
+        <p># je Vous en aurai une veritable obligation.</p>
+        <p>Je profite de l’absence de S[a]. M[ajesté]. I[mpériale].{{p0033}} qui partit hier pour
+          [f. 10v] la Livonie, pour faire un tour à Moscou{{g0001}} où mes affaire m’appellent. J’en
+          serai de retour dans <hi rendition="#sup">2 ou</hi> 3 semaines. J’ai cru devoir en
+          prevenir V[otre]. E[xcellence]. en lui renouvellant l’assurance de la consideration
+          distinguée avec laquelle je suis </p>
+        <p>Monsieur,</p>
+        <p>de V[otre]. E[xcellence]</p>
+        <p />
+        <p>Also see: </p>
+        <p>ru_avpri_53_5_168_0005</p>
+        <p>ru_avpri_53_5_180_0003</p>
+        <p>ru_avpri_53_5_180_0004</p>
+        <p>ru_avpri_53_5_180_0005</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Translation of the letter from His Excellence
+          Vice-Chancellor [of Russia, Prince Aleksandr Mikhailovich Golitsyn,] to [the Minister
+          Plenipotentiary of Russia in Denmark,] Baron [Johann Albrecht von] Korff, from Saint
+          Petersburg to Copenhagen, dated 21 February 1765 </title>
+        <author xml:lang="en">Aleksandr Mikhailovich Golitsyn</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>21 February 1765. – Translation of the letter from His Excellence Vice-Chancellor
+            [of Russia, Prince Aleksandr Mikhailovich Golitsyn{{p0065}},] to [the Minister
+            Plenipotentiary of Russia in Denmark,] Baron [Johann Albrecht von] Korff{{p0245}}, from
+            Saint Petersburg{{g0002}} to Copenhagen{{g0006}}, dated 21 February 1765</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 5, no. 180, f. 7-7v. Russian translation. French original:
+              ibid., f. 5-5v.</bibl>
+          </note>
+        </head>
+        <pb n="f. 7" />
+        <p>Перевод с писма Его Сиятельства вицеканцлера{{p0065}} к барону Корфу{{p0245}} в
+          Копенгаген{{g0006}} из С[анкт] Петербурга{{g0002}} от 21 февраля 1765</p>
+        <p />
+        <p>Зная, что В[аше] С[иятельство] охотно друзей своих одалживает, принимаю смелость
+          препоручить вам малинкою комиссию в надежде что вы оною на себя примите. Дабы мне можно
+          было быть <hi rendition="#s">при</hi> в лагере которой учинится имеет будущею весною в
+          округе сего города{{g0002}}, желаю я иметь хорошою лошадь которая бы не толко красива но и
+          для верховой езды спокойна была. В[аше]: С[иятельство]: <hi rendition="#s">по</hi>
+          одолжите меня как покупкою такой <hi rendition="#s">для меня </hi>лошади не жалея платежа;
+          так отправлением оной на первом корабле сюда. А как скоро я уведомлен буду <hi
+            rendition="#s">о</hi> скольких денег <hi rendition="#s">оная</hi> стоит то не премину их
+          перевесть [f. 7v] к вам оные с благодарением в протчем не желаю я как толко чтоб и с моей
+          стороны к услугам готов быть пребывая притом с отменным почтением</p>
+        <p />
+        <p>Переводил А[лександр]: Курбатов{{p1569}}</p>
+        <p />
+        <p />
+        <p>See the original : ru_avpri_53_5_180_0003</p>
+        <p>See also: ru_avpri_53_5_168_0003, ru_avpri_53_5_168_0005, ru_avpri_53_5_180_0005</p>
+      </div>
+    </body>
+  </text>
+</TEI>

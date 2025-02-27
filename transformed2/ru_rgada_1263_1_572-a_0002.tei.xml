@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Saxony, Prince Andrei
+          Mikhailovich Belosel'skii, to Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Andrei Mikhailovich Belosel'skii</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>21 February / 3 March 1770. – Letter from <persName key="p0015"
+              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 572-a, f. 7–7v, 8. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 7" />
+        <p>Mon Prince,</p>
+        <p>J’ai eu l’honneur de recevoir des mains de Mons<hi rendition="#sup">r</hi>: <persName
+            key="p0135" ref="696969db-38aa-446c-bfb9-d5cf570ff441">de Stelin</persName> la lettre
+          dont Votre Excellence m’a honnorée; la protection que vous lui accordé et votre
+          recommendation à cet égard, Mon Prince, sera un des meilleurs tître pour que je lui
+          temoigne l’envie de lui être utile en tout.</p>
+        <p>Je joins ici une Note des planches de la ci devant Galerie des Tableaux de [[<hi
+            rendition="#b">f. 7v</hi> ]] <persName key="p0024"
+            ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Bruhl</persName> à vendre afin que peut-être
+          Sa Majesté Impériale voudroit en faire l’acquisition, quoi qu’ils ne se trouvent pas ici,
+          mais quelqu’un d’ici a eu la commission de me les proposer.</p>
+        <p>J’ai l’honneur d’être avec respect,</p>
+        <p>Mon Prince</p>
+        <p>De Votre Excellence</p>
+        <p>Le très humble &amp;</p>
+        <p>très obeissant serviteur</p>
+        <p>
+          <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName>
+        </p>
+        <p>
+          <placeName key="g0013">Dresde</placeName>
+        </p>
+        <p>ce 21. fevrier/3. mars</p>
+        <p>1770.</p>
+        <p />
+        <pb n="f. 8" />
+        <p />
+        <p>Notte</p>
+        <p>Les planches de la Galerie de Tableaux du feu <persName key="p0024"
+            ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Comte de Bruhl</persName> consistent en 65
+          pieces, et se trouvent gravés par de meilleurs maîtres de Paris. Le premier tome de 50
+          planches et qu’on avoit complet est imprimé.</p>
+        <p>Le second tome qui devoit être imprimé aussi, mais jusqu’à present il n’y a pour le
+          dernier que 15 planches.</p>
+        <p>Ces 65 planches s’offrent à être vendues pour cent écus courant chaque, le tout dernier
+          prix, ce qui fera pour tout --------------------- Ecus 6500. courant.</p>
+        <p>Il y en a qui ont couté à graver 220 ducats, 150 ducats &amp;<hi rendition="#sup">a</hi>:
+          L’on pouroit aisément défaire les armes du feu <persName key="p0024"
+            ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Comte de Bruhl</persName> qui sont gravés au
+          bas et replacer tel autre qu’on voudra.</p>
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_569-a_0001</p>
+        <p>ru_rgada_1263_1_569-a_0002</p>
+        <p>ru_rgada_1263_1_569-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0001</p>
+        <p>ru_rgada_1263_1_572-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0004</p>
+        <p>ru_rgada_1263_1_572-a_0005</p>
+        <p>ru_rgada_1263_1_573-a_0001</p>
+        <p>ru_rgada_1263_1_573-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0001</p>
+        <p>ru_rgada_1263_1_574-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>

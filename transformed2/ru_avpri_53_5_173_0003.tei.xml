@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">First letter from the French Ambassador [to Denmark,
+          Jean-François Ogier, to the Minister Plenipotentiary of Russia to Copenhagen, Baron Johann
+          Albrecht von Corff] </title>
+        <title type="main" xml:lang="fr">La premiere lettre de M[onsieu]r. l’ambassadeur de France</title>
+        <author xml:lang="en">Jean-François Ogier</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13 April 1765. – First letter from the French Ambassador [to Denmark, Jean-François
+            Ogier{{p2302}}, to the Minister Plenipotentiary of Russia to Copenhagen, Baron Johann
+            Albrecht von Corff{{p0245}}]</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 5, no. 173, f. 137-137v. French copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 137" />
+        <p>Copie</p>
+        <p>№III</p>
+        <p>La premiere Lettre de Mr. l’ambassadeur de France{{p2302}}.</p>
+        <p />
+        <p>Monsieur,</p>
+        <p />
+        <p>J’ai reçu la lettre, que vous m’avés fait l’honneur de m’écrire le 11<hi rendition="#sup">
+          me</hi> de ce mois, et le mémoire qui y étoit joint, contenant les deux articles de
+          plaintes qu’un de vos domestiques vous a porté contre un homme de ma livrée{{p2213}}.</p>
+        <p>Je n’ai pas differé, Monsieur, de prendre les mesures convenables pour verifier et
+          constater les faits dont vôtre domestique se plaint. Sur la communication que j’ai donnée
+          au mien des faits dont le vôtre l’accuse, je n’ai pas pû me dispenser de reçevoir de sa
+          part le memoire, qu’il m’a remis pour se laver des torts qu’on lui impute, et pour
+          justifier sa conduite ; J’ai l’honneur de vous envoyer ci joint ce mémoir ; J’en ai
+          verifié les principaux faits de maniere à m’autôriser à ajouter foi à leur exposé, même en
+          entendant des temoins dignes de confiance.</p>
+        <p>J’étois instruit d’une partie de ces faits : vous trouverés dans le détail de quelques
+          uns d’entre eux, que j’aurois été autorisé à vous porter des plaintes ameres contre cet
+          André Richter{{p2212}}, qui s’oublie au point d’insulter mes gens jusques dans les maisons
+          oû nous nous trouvons vous et moi ; mais j’ai mieux aimé méprisé ces faits, les regarder
+          comme des querelles que des gens de livrée ont entre eux, ésperer que vôtre domestique
+          reconnoîtroit ses torts et éviteroit d’y retomber, que d’avoir à vous en informer et de
+          contribuer au malheur d’un homme de cette espèce, qu’un interêt injuste [f. 137v] ou une
+          passion malheureuse aveugle et seduit.</p>
+        <p>J’éspère qu’aprés la lecture du mémoire, que je joint ici et l’assurance que je vous
+          donne, que j’en ai verifié les principaux faits, plein de justice et d’équité, vous
+          reconnoîtrés de quelle part sont les torts, de quelle part la reparation seroit duë ; Et
+          que sans punir le coupable, pour lequel je vous demande grace, vous voudrés bien
+          interposer vôtre autorité sur le domestique coupable, de façon à mettre mes gens de livrée
+          à l’abri des insultes aux quelles mon domestique{{p2213}} a été si souvent exposé de la
+          part de celui des vôtres qui a hazardé de vous porter des plaintes, que la prudence auroit
+          dû le porter à supprimer.</p>
+        <p>Je suis charmé au sur plus, monsieur, que vous connoissié, assés mes sentiments, pour
+          étre persuadé de la severité avec laquelle je punirai une insulte, qui auroit été faite à
+          vôtre livrée par un de mes domestiques, et pour vous donner toute la satisfaction que vous
+          pourriés en desirer.</p>
+        <p>J’ai l’honneur d’étre avec la considération la plus distinguée</p>
+        <p>Monsieur</p>
+        <p>vôtre trés humble et trés obeissant </p>
+        <p>serviteur</p>
+        <p>Ogier{{p2302}}.</p>
+        <p />
+        <p>À copenhague{{g0006}} ce 13 avril 1765./ </p>
+      </div>
+    </body>
+  </text>
+</TEI>

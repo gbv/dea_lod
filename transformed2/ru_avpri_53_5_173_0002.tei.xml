@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">First letter [from the Minister Plenipotentiary of Russia
+          to Copenhagen, Baron Johann Albrecht von Corff,] to the French Ambassador [to Denmark,
+          Jean-François Ogier] </title>
+        <title type="main" xml:lang="fr">La premiere lettre à Monsieur l’ambassadeur de France</title>
+        <author xml:lang="en">Johann Albrecht von Korff</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>11 April 1765. – First letter [from the Minister Plenipotentiary of Russia to
+            Copenhagen, Baron Johann Albrecht von Corff{{p0245}},] to the French Ambassador [to
+            Denmark, Jean-François Ogier{{p2302}}]</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 5, no. 173, f. 136. French copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 136" />
+        <p>
+          <hi rendition="#u">Copie</hi>
+        </p>
+        <p>№II.</p>
+        <p>La premiere lettre à Monsieur l’ambassadeur de France{{p2302}}.</p>
+        <p />
+        <p>Monsieur,</p>
+        <p />
+        <p>C’est à régrêt que mû par un ressentiment legitime, je ne saurois me dispenser de porter
+          à vôtre Excellence mes plaintes contre un de vos domestiques nommé Niels Straede{{p2213}}
+          voulant respecter les exercices spirituelles de vôtre Excellence, qui sont affectées à la
+          sainte semaine et au pâque, je les ai differé de faire jusqu’à ce moment.</p>
+        <p>Vous seres, monsieur, plus amplement instruit par le mémoire ci joint, qui s’adresse à
+          moi, que c’est la seconde fois, qu’il s’est (s’est ou l’est) arrivé d’insulter
+          publiquement dans les rües, l’un des miens, qui a signé le dit mémoire. Peut-étre que le
+          silence, que j’ai gardé à la premiere insolence, même jusqu’à tranquilliser la partie
+          lezée, l’a rendu plus osé.</p>
+        <p>Jè connois trop les sentiments de vôtre Excellence, pour douter un moment qu’Elle ne
+          veuille pas regarder ce double outrage fait à ma livrée et à l’individu qui la porte,
+          comme l’équité l’exige, et me fait parvenir à la satisfaction, qui soit de niveau avec
+          l’offence.</p>
+        <p>En attendant j’ai l’honneur d’étre avec la consideration la plus distinguée etc : etc :</p>
+        <p>Signé</p>
+        <p>Korff{{p0245}}.</p>
+        <p>À copenhague{{g0006}} ce 11 avril 1765. / .</p>
+      </div>
+    </body>
+  </text>
+</TEI>

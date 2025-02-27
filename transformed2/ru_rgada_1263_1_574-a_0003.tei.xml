@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Saxony, Prince Andrei
+          Mikhailovich Belosel'skii, to Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Andrei Mikhailovich Belosel'skii</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>16/27 May 1774. – Letter from <persName key="p0015"
+              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 574-a, f. 3–3v. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 3" />
+        <p>Mon Prince</p>
+        <p>Je remercie très humblement Votre Excellence de la lettre qu’elle m’a fait l’honneur de
+          m’écrire et des nouvelles interessantes qu’elle a bien voulu me communiquer. De mon coté
+          j’ai celui de l’informer qu’a mon passage par <placeName key="g0012">Berlin</placeName>
+          j’ai fait la cour au <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roi</persName>
+          qui m’a reçu avec beaucoup de bonté et m’interrogea avec interets de la santé de <persName
+            key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName>.
+          Le soir je fus a l’appartement chez <persName key="p0051"
+            ref="83dd2668-a967-470e-be15-35e3924eefe6">la Reine</persName> où j’ai eu l’honneur de
+          faire ma cour à Madame <persName key="p0527" ref="4d5e34ae-b72a-4704-a890-2e7fae5b651d">la
+          Princesse de Prusse</persName> et d’être admis a sa partie </p>
+        <pb n="f. 3v" />
+        <p> de jeux. J’ai êu l’occasion de voir combien la bonté du cœur et l’affabilité de cette
+          Princesse lui attache tous les cœurs.</p>
+        <p>À mon arrivée ici, j’ai trouvé <persName key="p0058"
+            ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">son Altesse electorale</persName> en ville
+          pour y passer les jours de fêtes de la Pentecote. J’ai eû l’honneur de lui faire ma cour.
+          Il s’est informé comment j’ai laissé <persName key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName> accompagnant
+          ses questions des assurances et des protestations de son attachement inviolable envers
+          elle. <persName key="p0058" ref="db6f2ee9-5e05-41d1-86d9-15ea99f645d9">Son Altesse</persName>
+          s’amuse actuellement à voir les manœuvres des régimens qui sont ici en garnison et a donné
+          ordre au régiment des gardes du corps de cantoner a l’entrée du mois prochain aux environs
+          du <placeName key="g0187">chatteau de Pilnitz</placeName> où il fait sa residence en Eté.
+          D’ailleurs je ne puis encore rien mander d’interessant à Votre Excellence des affaires du
+          pays, n’ayant pas eû le tems de voir tout ce qui s’y est fait pendant mon absence.</p>
+        <p>J’ai l’honneur d’etre avec la consideration la plus parfaite et la plus distinguée</p>
+        <p>Mon Prince</p>
+        <p>de Votre Excellence</p>
+        <p>le très humble et très </p>
+        <p>obéissant serviteur</p>
+        <p>
+          <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName>
+        </p>
+        <p>
+          <placeName key="g0013">Dresde</placeName>
+        </p>
+        <p>ce 16/27 may</p>
+        <p>1774.</p>
+        <p>Also see :</p>
+        <p>ru_rgada_1263_1_569-a_0001</p>
+        <p>ru_rgada_1263_1_569-a_0002</p>
+        <p>ru_rgada_1263_1_569-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0001</p>
+        <p>ru_rgada_1263_1_572-a_0002</p>
+        <p>ru_rgada_1263_1_572-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0004</p>
+        <p>ru_rgada_1263_1_572-a_0005</p>
+        <p>ru_rgada_1263_1_573-a_0001</p>
+        <p>ru_rgada_1263_1_573-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0001</p>
+        <p>ru_rgada_1263_1_574-a_0002</p>
+      </div>
+    </body>
+  </text>
+</TEI>

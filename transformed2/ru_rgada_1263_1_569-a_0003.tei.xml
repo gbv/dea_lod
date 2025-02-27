@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Saxony, Prince Andrei
+          Mikhailovich Belosel'skii, to Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Andrei Mikhailovich Belosel'skii</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>11/22 August 1766. – Letter from <persName key="p0015"
+              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 569-a, f. 13–16. French original with notes in
+              Russian.</bibl>
+          </note>
+        </head>
+        <pb n="f. 13" />
+        <p>Получено 28<hi rendition="#sup">го</hi> августа</p>
+        <p>Mon Prince</p>
+        <p>Après avoir fait ce que j’avois à faire pour mon menage à <placeName key="g0012">Berlin</placeName>,
+          je suis parti dans une croyance de trouver une terre benite et au lieu de toutes les
+          incommodités de nouveaux agrémens à oublier les routes precedentes, mais je me suis trompé
+          dans mon attente et le premier repas que j’ai fait en route me fait connoître qu’on n’y
+          étoit pas friand. Je vous ennuie peut être avec mes repas, mais je suis assez comme
+          Arlequin : quand je voyage, j’aime à baffrer, et c’est je crois la seule chose qui fait
+          passer l’Ennuie ; pour couper court, Mon Prince, croiriés vous qu’on m’a donné une soupe
+          froide, de la viende crus, et de la salade chaude. C’est un enigme, vous croyés, mais
+          quand je vous dirai que j’ai eu une Calchale où Soupe froide au serise, du jambon crus et
+          de la salade accomodée </p>
+        <pb n="f. 13v" />
+        <p> avec du beurre fondu et du vinaigre et que j’ai été obligé de diner avec cela, c’est
+          pourtant un fait. J’ai quitté <placeName key="g0012">Berlin</placeName> avec regret ; j’y
+          ai resté trois semaines et je vous assure que je ne m’y suis pas ennuié un seul jour. J’ai
+          toujours été prié à souper et nous n’etions jamais moins de quatorse, quinze personnes et
+          la moitié de jolies femmes et fort aimables ; il faut bien qu’elles le soyent, car on se
+          charge pour l’amour d’elles de tous leurs maris, qui sont, par parantaise, une race fort
+          maussade, aussis ils n’ont que le seul agrément de souper avec leurs femmes ; car au reste
+          ils sont traité pire que les nègres, c’est en vérité vrai, car ils font les fonctions de
+          laquais absolument, et de laquais importuns : ils svuivent leurs femmes aux spectacles,
+          aux promenades, ne disant jamais mot à personne et se promenant toujours à l’ecart,
+          chargés d’un mantelet, de gans, de parassole etc. Tout ceci n’approche-t-il pas du devoir
+          d’un domestique ? Mais quand à la paye, elle est differente : les uns sont payés d’Ecus et
+          les autres de cornes et avec un avantage </p>
+        <pb n="f. 14" />
+        <p> de l’etre bien plus exactement, le mois n’étant pas encore fini qu’on leur avance sur
+          l’autre. Me voila à <placeName key="g0013">Dresde</placeName> depuis deja quinze jours ;
+          j’ai fait plein de visittes et guerre de connoissance. La societé ici n’est pas à beaucoup
+          près comme à <placeName key="g0012">Berlin</placeName>; là bas dans huit jours j’aurois
+          deja connûs tout le monde, ils me donneroient à souper à la verité comme ils pourroient,
+          et quelque fois même à une table servie de vingt couverts à peine trouve-t-on de quoi
+          menger, mais la société gagne. Ceci pourtant me fait rappeler d’un soupé que M<hi
+            rendition="#sup">r</hi>. <persName key="p0000">de Masso, Ministre à Berlin</persName>
+          nous a donné : nous etions vingt. La table etoit servie en embigu avec un filet au milieu,
+          et les trois plats qui s’etoient trouvés justement vis à vis de moi furent, une assiette
+          de porcelaine avec un bouquet de fleurs artificielles colé, au milieu, une croquante sur
+          laquelle on trouvait le chiffre de M<hi rendition="#sup">r</hi> et de M<hi
+            rendition="#sup">me</hi>, que deux amours nouoient fort artistement, avec des vers sur
+          leur mariage de 25 années. Tout le monde l’admiroit et n’avoit garde </p>
+        <pb n="f. 14v" />
+        <p> de rompre ce monument qui devoit faire l’honneur des grandes tables pendant tout cet
+          eté, pour le troisieme plat c’etoit une assiette de porcelaine qu’on fait avec du fruit
+          aussi de porcelaine dessus pour orner les bufets.</p>
+        <p>Vous voyés, Mon Prince, que ce sont des soupés de santé avec lesquels on ne gagne pas
+          d’indijestions. Quand à la façon de souper ici je ne peus encore rien vous dire, je suis
+          invité pour la premiere fois après demain.</p>
+        <p>Selon l’etiquet d’ici on invite les Ministres etrangers diner à <orgName key="o0012"
+            ref="76593cc3-a621-46b7-8e1c-532ad73e99af">la Cour</orgName> et j’y ai été hier, toute
+          la famille dine ensemble, hors les petits, et on y prie du monde quatre fois par semaine,
+          et les autres trois jours toute la famille dine ensemble : je veux dire que les petits
+          princes et princesses sont aussi admis. La table ordinairement quand il y a du monde est
+          de 24 couverts, avec un filet fort orné au milieu, et trois fois servie : en premier les
+          potages et les entrées en second les entremets et le rot et en troisieme le dessert. </p>
+        <pb n="f. 15" />
+        <p> Tout est en verité aussi bien que possible. Deux maitres d’hotel desservent chacun sa
+          moitié de table, chauffent les plats et font le rond avec pour les presenter. On sert avec
+          si grand ordre qu’on a plaisir autant de le voir que de menger ; on est aussi également
+          bien abreuvé.</p>
+        <p>En Ministres etrangers nous ne sommes ici que quatre. Le seul de <placeName key="g0015">
+          Vienne</placeName>, qui est <persName key="p0151"
+            ref="4264a76b-b2e6-4100-821d-bdc051b47622">le Comte de Wourmbrand</persName> est marié
+          où du moin qu’il a <persName key="p0152" ref="4fc9e562-23e0-48c2-be2c-a4fe4900528e">sa
+          femme</persName> avec, et une femme fort aimable, il est aussi fort joli homme ; celui
+          d’Angleterre est M<hi rendition="#sup">r </hi>
+          <persName key="p0164"
+            ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">Stanhop</persName>, un homme fort instruit et
+          fort honnet, et c’est celui avec qui je suis le plus lié par la raison que je l’avois deja
+          connû avant. Le ministre de France est M<hi rendition="#sup">r </hi>
+          <persName key="p0156"
+            ref="14501ef9-5b4c-40d9-b1b6-09da98a18218">Zuckmantel</persName>, vieux militaire,
+          alsatien de nation, et très malingue. Celui de Dannemarc est M<hi rendition="#sup">r </hi>
+          <persName
+            key="p0497" ref="a0236045-7168-45f2-b5bb-bf1114723bbc">le Comte de Schulenbourg</persName>,
+          il a eu congé de <orgName key="o0009" ref="62f4a0a0-914d-43df-89d9-be5aaf841973">la Cour</orgName>
+          pour trois mois aller prendre les eaux. Il y a de plus les Residents d’Espagne, de Baviere
+          et de Suede.</p>
+        <p />
+        <pb n="f. 15v" />
+        <p />
+        <p>Il est arrivé quelque tems passé une histoire singulière entre <persName key="p0156"
+            ref="14501ef9-5b4c-40d9-b1b6-09da98a18218">l’envoyé de France</persName> et <persName
+            key="p0152" ref="4fc9e562-23e0-48c2-be2c-a4fe4900528e">la femme de l’envoyé de Vienne</persName>;
+          la dernière est très vive, et ne peut pas sentir le nom de François. Un jour que l’envoyé
+          parlant beaucoup de la majesté de <orgName key="o0019"
+            ref="2cb37494-d43a-434e-8e34-efaf283c99a0">sa Cour</orgName> et des grandes qualités <persName
+            key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">du Roi</persName> son maitre, <persName
+            key="p0152" ref="4fc9e562-23e0-48c2-be2c-a4fe4900528e">Madame de Wourmbrand</persName>,
+          haissant deja les François et étant poussée à bout avec tous ces éloges lui dit : Hé
+          Monsieur <persName key="p0156" ref="14501ef9-5b4c-40d9-b1b6-09da98a18218">l’Envoyé</persName>,
+          toujours </p>
+        <pb n="f. 16" />
+        <p> avec <persName key="p0212" ref="523d4704-5637-41c3-8cf7-115628dbe6a8">le Roi</persName>
+          votre maître, s’il étoit ici, je lui cracherois au nez, Vous jugez bien comme se facha
+          Monsieur <persName key="p0156" ref="14501ef9-5b4c-40d9-b1b6-09da98a18218">l’Envoyé</persName>
+          et partit ; <persName key="p0151" ref="4264a76b-b2e6-4100-821d-bdc051b47622">le mari</persName>
+          avoit été fort embarassé, mais pourtant cela s’est raccomodé d’un façon que cela n’est pas
+          allé plus loin ; hier sont partis par eau d’ici à <placeName key="g0011">Hambourg</placeName>
+          cent cinquante faisans en vie avec trois chasseurs ; il seront embarqués là pour <placeName
+            key="g0002">Petersbourg</placeName> en present à <persName key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Notre Souveraine</persName>, je ne sais pas
+          si Votre Excellence en savoit quelque chose mais <persName key="p0098"
+            ref="868ef109-ce8b-4071-9951-ff22d08b1d98">l’Electrice</persName> ne m’a pas dit un mot
+          de cela ainsi je présume qu’elle veut peut être surprendre Sa Majesté Impériale.</p>
+        <p>J’ai l’honneur d’etre avec un attachement egale au profond respect</p>
+        <p>Mon Prince</p>
+        <p>De Votre Excéllence</p>
+        <p>Le très humble &amp; très obéissant</p>
+        <p>Serviteur</p>
+        <p>
+          <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName>
+        </p>
+        <p>Ce 11/22 Août 1766</p>
+        <p>à <placeName key="g0013">Dresde</placeName>
+        </p>
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_569-a_0001</p>
+        <p>ru_rgada_1263_1_569-a_0002</p>
+        <p>ru_rgada_1263_1_572-a_0001</p>
+        <p>ru_rgada_1263_1_572-a_0002</p>
+        <p>ru_rgada_1263_1_572-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0004</p>
+        <p>ru_rgada_1263_1_572-a_0005</p>
+        <p>ru_rgada_1263_1_573-a_0001</p>
+        <p>ru_rgada_1263_1_573-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0001</p>
+        <p>ru_rgada_1263_1_574-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0003</p>
+        <p> </p>
+      </div>
+    </body>
+  </text>
+</TEI>

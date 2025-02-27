@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">[Danish] officers' pension regulation</title>
+        <title type="main" xml:lang="fr">Reglement pour la pension des officiers</title>
+        <author xml:lang="en">King of Denmark and Norway Frederick V</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>29 February 1764. – [Danish] officers' pension regulations</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 169, f. 20-20v. French translation.</bibl>
+          </note>
+        </head>
+        <pb n="f. 20" />
+        <p>
+          <hi rendition="#u">Translat</hi>
+        </p>
+        <p />
+        <p>Reglement pour la pension des officiers.</p>
+        <p>Nous Frederic Vme Par la grace de Dieu Roi de Dannemarc Norwegue{{p0341}} etc. etc. etc.
+          Sçavoir faisons, qu’ayant été contraints par les motifs convaincants de donner la pension
+          à une parties des [sic !] nos officiers, nous avons jugés à propos de prescrire à ce sujet
+          le reglement suivant tant pour les officiers qui reçoivent la pension, que pour ceux qui
+          la reçevrons à l’avenir, y compris tous les penssionaires, exceptés ceux qui ont jouit de
+          la pension avant le 16 d’octobre de l’année passée. </p>
+        <p>,,Le major général aura par an.............600 Ri[gsdalers]</p>
+        <p>,,Le colonel............................................500 ~</p>
+        <p>,,Le lieutenant colonel actuel………………400 ~</p>
+        <p>,,Le major actuel………………………………….300 ~</p>
+        <p>,,Le capitaine actüel d’un escadron ou d’une compagnie..........200 ~</p>
+        <p>,,Le premier lieutenant actüel.................72 ~</p>
+        <p>,,Le lieutenant en second actüel,</p>
+        <p>,,cornet, ou Enseigne,...............................60 ~</p>
+        <p>Ils jouiront de tout ceci sans qu’il leur soit decompté quelque chose, à condition, que
+          ceux qui jouissent dejà de la pension plus petite que celle, prescrite dans ce reglement,
+          ne pourront s’attendre à aucune augmentation. Et comme tous ces pensionaires font sans
+          place, ils auront la permission de faire leur sejour dans tel endroit de nos royaumes,
+          qu’ils jugent eux mêmes à propos. [f. 20v] Ils s’adresseront à notre direction générale de
+          gueurre après l’ecoulement de trois mois et envoyeront l’attestat du prètre de l’endroit,
+          où ils se trouvent, àfin que la pension leur soit payée ou assignée ; ceux qui le
+          negligeront ne pourront se prendre qu’à eux même, en cas que leur pension sera retenüe.
+          Ils se conformeront en tout à ce present reglement, et veilleront à leur propre interêt.
+          fait à coppenhague{{g0006}}, dans notre Chateau de Christiansbourg, signé de notre main et
+          apposé de notre sceau Royal, ce 29me fevrier 1764</p>
+        <p> L : S : Frederic R[ex]{{p0341}}:</p>
+        <p>In fidem versionis Actuarius Ioachin Lysakewitz{{p0541}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

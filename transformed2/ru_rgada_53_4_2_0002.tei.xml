@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Royal letter from the King of Denmark [and Norway,]
+          Frederick IV[,] to the Tsar [of Russia,] Peter I</title>
+        <title type="main" xml:lang="ru">Грамота датского короля Фредерика IV царю Петру I</title>
+        <author xml:lang="en">King of Denmark and Norway Frederiсk IV Anthon Günther</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>
+            13 December 1707. – Royal letter from King of Denmark Frederik IV to
+              Tsar Peter I
+          </title>
+          <note>
+            <bibl>RGADA, f. 53, op. 4, no. 2, fol. 4–4v. Danish original.</bibl>
+          </note>
+        </head>
+        <pb n="fol. 4" />
+        <p>Wii Friderich den Fierde, off Guds Naade, Konge til Dannemarck og Norge, de Wenders og
+          Gothers, Hertug udi Slesvig, Holsten, Stormarn og Dytmersken, Greve udi Oldenborg og
+          Dellmenhorst. Tilbiude deed Durchleuchtigste Czaar, Woris Elskelige Kiere Herr Broder, Ven
+          og Naboe, af Guds Naade, Store Herre Tzar og Storförst, Peter Alexeiewitz, alle Store
+          Smaae og hvide Rydßers SelfErholder, Moßkows, Kiofski, Woladimerski Nougorodski, Tzar til
+          Kaßan, Tzar til Astrakan, Tzar til Siberien, Herre til Pleskow, Storförste til Smolensko,
+          Twerski, Jugorski, P[e]rmski, Wätzki, Bolgarski og andre, Herr og Storförste til
+          Nougorodi, i det LageLand, Tzerning Goufski, Resantzski, Rostofski, Jeroslofski, bielo
+          Osterski, Udorski, Candinski, og alt Norder Sides befalere, Herre til Iwerski land,
+          Kartalinski og Grusinski, Tzar ofuer Carbadinski Land, Tzerkoßkisk og Gorßkisk, Förste, og
+          mange Herredomme og Lande udi Öster, Wester og Nör, Fæderlig, Forfæderlig og Arfvelig
+          Herre og Regenter. Wj have udaff Eders May[estæ]ts og Kierl[ighe]ds til Oß affgangne
+          br[oder]= og Nabovenlige Schriffvelse, aff dato den 4.<hi
+            rendition="#sup">de </hi>Septembris, sidstleden, hvorledis Eders May[estæ]t og
+          Kierl[ighe]d for got haver fundet, deris ved Voris Hoff paa nogle AarsTiid Subsisterende
+          Ordinaire Ambassadeur, Neste Stolnicke og Stattholder over Susdal, Andreas Petrowitz
+          Ismaylow, tilbagge at kalde, og udj des Sted, til at frembdeelis underholde og cultivere,
+          den jmellem Oß og Eders May[estæ]t og Kierl[ighe]d wærende fortroelig Correspondence og
+          Wennskab, til Oß, deris Ordinaire Ambassadeur, CammerHerre og Stattholder over
+          Bieloozerky, Försten Basilium Dolhorukow, igien at affferdige. Som Wj Oß nu denne
+          Forandring, som Eders May[estæ]t og Kierl[ighe]d herudinden här willet giöre, wel lade
+          behage; Saa kunde Wj, wedbemelte deris Ambassadeurs Ismaylows Affreise, ey forbigaar Eders
+          May[estæ]t og Kierl[ighe]d hermed at betyge, at hans Persohn Oß haver wæret meget angenehm
+          og behagelig, j det hand stedse og ald dend stund hand sig ved Voris Hoff opholdet haver,
+          een god og velsindet intention og Zele haver ladet see, til at jo meere og meere at
+          befeste forbemelte Oß og Eders May[estæ]t og Kierl[ighe]d jmellem værende Naboelig Wenskab
+          og Fortrolighed. Wj wille og saa formode, at hand ved hans tilbagekomst, Eders Eders
+          May[estæ]t og Kierl[ighe]d berettendes worder, at Wj paa Voris Side oprigteligen ere
+          sinnede, med Eders Eders May[estæ]t og Kierl[ighe]d eet uforanderlig og bestandig Wenskab
+          at continuere, Oß udj det ofrige paa hans derom giörende Munderlig rapport beraabendes. Wj
+          befale Eders Eders May[estæ]t og Kierl[ighe]d udj den Allerhöyestes trygge beskiermelse,
+          til ald höylyksalig Velgaaende, troligen og Naboevenligen. Givet paa Vort Slott
+          Kiöbenhafn, den 13.<hi rendition="#sup">de </hi>Decembris, Anno 1707.</p>
+        <p>Eders Eders May[estæ]ts og Kierl[ighe]ds</p>
+        <p>Troe Broder, Ven og Naboe,</p>
+        <p>Friderich R[ex]</p>
+        <p />
+        <p>A G Hanneken</p>
+        <pb n="fol. 4v" />
+        <p> Den Durchleuchtigste Czaar, Voris Elskelige Kiere Herr
+          Broder, Ven og Naboe, af Guds Naade, Store Herre Tzaar og Storförste, Peter Alexeiewitz,
+          alle Store, Smaae og huide Rydsers SelfErholder, Moßkows, Kioffski, Woladimerski,
+          Nougorodski, Tzar til Kaßan, Tzar til Astrakan, Tzar til Siberien, Herre til Pleskow,
+          Storförste til Smolenskow, Twerski, Jugorski, Permski, Wätzski, Bolgarski og andre, Herr
+          og Storförste til Nowgorodi, i det Lægeland, Tzerning Goufski, Resantzki, Rostofski,
+          Jeroslofski, Bielo Osterski, Udorski, Obdorski, Candinski, og alt Norder Sides befalere,
+          Herre til Iverski Land, Kartalinski og Grusinski, Tzar over Carbadinski land, Tzerkoßkisk
+          og Gorskisk Förste, og mange andre Herredömme og LAnde, udj Öster, Vester og Nör,
+          Fæderlig, forfæderlig og arffvelig Herre og Regenter.</p>
+        <p />
+        <pb n="On the fol. 4v" />
+        <p>
+          Датская к ц[а]рю г[о]с[у]д[а]рю Петру Алексеевичу
+          от датскаго короля Фридерика 4-го. Писана декабря в 13 де[нь] лета 1707-го.</p>
+        <p>
+          <hi rendition="#i">Ibid. down below: </hi>Грамота к великому г[о]с[у]д[а]рю короля
+          датцкого. Прислана к Москве ис походу с Воронежа апреля в 16 де[нь] 1709-г[о] году с
+          под[ь]ячим сь Егором Чистым.</p>
+        <p />
+        <p>Измайлов, Андрей Петрович (? – 31.5.1714) – ближний стольник при царе Иване Алексеевиче
+          (1682), русский посол в Дании (1700–1707). В 1709–1710 гг. находился при гетмане Украины
+          И.И. Скоропадском. Нижегородский губернатор (1714).</p>
+        <p>Долгорукий, Василий Лукич (ок. 1670 – 8.11.1739) – князь. В 1687 г. находился в составе
+          русского посольства во главе с Я.Ф. Долгоруким и Я.Е. Мышецким во Францию, до 1700 г.
+          оставался в Париже для обучения наукам. В 1700–1706 гг. находился в Польше при после Г.Ф.
+          Долгоруком, посол в Польше (1706–1707). Посол в Дании (1707–1720), посланник во Франции
+          (1720–1722), полномочный министр на польском сейме (1724), чрезвычайный министр в Польше
+          (1725–1726), посол в Швеции (1726–1727). Член Верховного тайного совета (1728–1730). После
+          дворцового переворота императрицы Анны Иоанновны сослан в Соловецкий монастырь. Казнен в
+          числе четырех представителей рода Долгоруких.</p>
+        <p>Ханнекен, Антон Гюнтер (Hannecken, Anton Günther) – начальник (amtmand) округа Нойенбург
+          (1692), секретарь Немецкой канцелярии (1698), канцелейрат (1700), советник юстиции (1705),
+          тайный секретарь Немецкой канцелярии (1707–1708), статский советник (1707). Вышел в
+          отставку в 1708 г.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

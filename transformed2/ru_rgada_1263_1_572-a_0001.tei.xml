@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Saxony, Prince Andrei
+          Mikhailovich Belosel'skii, to Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Andrei Mikhailovich Belosel'skii</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13/24 February 1770. – Letter from <persName key="p0015"
+              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis. 1, no. 572-a, f. 1-1v, 2–2v, 3. French original with a
+              note in German.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p>Mon Prince,</p>
+        <p>J’ai reçu avant hier la lettre dont Votre Excellence m’a honnorée avec les ordres de lui
+          envoyer les prix, tant de la porcelaine, que du linge de table. Je les execute avec toute
+          la ponctualité que mon zêle pour vous être agréable me dicte; l’un et l’autre est marqué
+          de la meilleure espece ainsi d’après celà elle sera le maître de m’en donner les ordres </p>
+        <pb n="f. 1v" />
+        <p> décisive.</p>
+        <p>J’ai compté à deux serviettes par personne, c’est-à-dire pour le dîné et pour le dessert,
+          et de plus encore pour couvrir la nape qu’on découvre au fruit.</p>
+        <p>Je suis très respectueusement,</p>
+        <p>Mon Prince</p>
+        <p>De Votre Excellence</p>
+        <p>Le très humble &amp; très </p>
+        <p>obéissant serviteur</p>
+        <p>
+          <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName>
+        </p>
+        <p>
+          <placeName key="g0013">Dresde</placeName>
+        </p>
+        <p>Ce 13/24 fevrier 1770.</p>
+        <p />
+        <pb n="f. 2" />
+        <p />
+        <p>Notte des prix des porcelaines suivantes.</p>
+        <p>1 Groupe, La Peche des Tritons, 13 pouces ---------------- R. 100.</p>
+        <p>4 dits ---- des Enfans à differens attribus ----------------------- 150.</p>
+        <p>2 Bergers, grande sorte --------- à 22 ½ R ---------------------- 45.</p>
+        <p>2 Amours, grande sorte -------- à 20 R -------------------------- 40.</p>
+        <p>16 Vignerons, Paysans et Jardiniers à 4 R --------------------- 64.</p>
+        <p>8 Cupidons ---------------------- à 1, 20 gr(?) -------------------- 14.16.</p>
+        <p>10 Bêtes differentes ------------ à 1 1/3 R ----------------------- 13.8.</p>
+        <p>2 Corbeilles percées à Jour, ronde --- à 18 R ------------------- 36.</p>
+        <p>2 dites ---------- moyenne/sorte ------ à 14 R -------------------- 28.</p>
+        <p>1 grand rochers p<hi rendition="#sup">r</hi> la grande groupe
+          ------------------------------ 28.</p>
+        <p>4 jattes ovales pour les gelées, avec leur couvercles à 16 R --- 64.</p>
+        <p> _____________</p>
+        <p> R<hi rendition="#sub">ʺ</hi>.583</p>
+        <p>24 assiettes percées à jour à 3 Cartouches bord doré, le</p>
+        <p> tout peint en fleurs ------------ à 42 R la douze -------- 84.</p>
+        <p>24 assiettes percées à jour sans Cartouches, bord doré,</p>
+        <p> au milieu un Chiffre en une lettre en fleurs, à 48 R ------- 96.</p>
+        <p>24 assiettes percées à jour, sans Cartouches, bord doré, </p>
+        <p> comme les premieres ------------------------------- 84.</p>
+        <p />
+        <pb n="f. 2v" />
+        <p />
+        <p>Les 583 Ecus font en Ducats d'Hollande ------------------------- 218 ½ pièces</p>
+        <p>Les 84 Ecus font ----------------------------------------------------- 31 ½. idem</p>
+        <p>Les 96 Ecus font ------------------------------------------------------ 36.</p>
+        <p>De façon que si les assiettes seront choisis, la sorte à </p>
+        <p>84 Ecus, toute la porcelaine fera ------------------------------------ 250 Ducats</p>
+        <p>Et si l’autre sorte d’assiettes sera choisie cela</p>
+        <p> augmentera de ----------------------------------------------- 4 ½ Ducats</p>
+        <p> _______________</p>
+        <p> 254 ½. Ducats</p>
+        <p>Le tout compté ici sans l’emballage et les fraix du transport.</p>
+        <p />
+        <pb n="f. 3" />
+        <p />
+        <p>[Invoice, «Nota», in German dated «<placeName key="g0013">Dresde</placeName> den 21
+          februari 1770»]</p>
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_569-a_0001</p>
+        <p>ru_rgada_1263_1_569-a_0002</p>
+        <p>ru_rgada_1263_1_569-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0002</p>
+        <p>ru_rgada_1263_1_572-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0004</p>
+        <p>ru_rgada_1263_1_572-a_0005</p>
+        <p>ru_rgada_1263_1_573-a_0001</p>
+        <p>ru_rgada_1263_1_573-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0001</p>
+        <p>ru_rgada_1263_1_574-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>

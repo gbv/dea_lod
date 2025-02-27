@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Regulation [given by the King of Denmark and Norway,
+          Frederick V] for the opening of the court in the jurisdiction of Hedmark in the Diocese of
+          Akershus</title>
+        <title type="main" xml:lang="fr">Reglement pour l’ouverture de lit de justice dans la
+          Jurisdiction de Hedemarc dans l’Eveché d’Aggerhuus</title>
+        <author xml:lang="en">King of Denmark and Norway Frederick V</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>13 April 1764. – Regulation [given by the King of Denmark and Norway, Frederick
+            V{{p0341}}] for the opening of the court in the jurisdiction of Hedmark in the Diocese
+            of Akershus</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 53/5, no. 169, f. 34-34v. French translation.</bibl>
+          </note>
+        </head>
+        <pb n="f. 34" />
+        <p>Копия с приложения к реляции полномочнаго министра Барона Корфа{{p0245}} от 10/21 апреля
+          1764.</p>
+        <p>
+          <hi rendition="#u">Translat</hi>
+        </p>
+        <p>Reglement pour l’ouverture de lit de justice dans la Jurisdiction de Hedemarc dans
+          l’Eveché d’Aggerhuus.</p>
+        <p>Par la Grace de Dieu Nous Frederic V. Roi de Dannemarc, Norwégue{{p0341}} etc : etc :
+          etc : sçavoir faisons qu’en considération de trés humbles remontrances presentées à Nous
+          qu’il seroit nécessaire d’apporter certains changemens, dans la Tabelle des Loix pour la
+          Jurisdiction de Hedemarc dans l’Eveché d’Aggerhuus dans notre Röyaume de Norwegue tant
+          pour faciliter le voyage des peuples dans les villes, mines de cuivre, et les foires, pour
+          ÿ prendre leurs propres marchandises et ÿ acheter des choses necessaires pour leurs
+          maisons, que pour leur soulagement dans le tems qu’on laboure et en semence la terre,
+          coupe le foin et le blés, et pour la com[m]odité des chemins et autres choses pareilles ;
+          Nous avons jugé à propos d’ordonner et de prescrire l’ouverture de 3 lits de justice dans
+          la Jurisdiction de Hedemarc, comme suit : </p>
+        <p> le 9 mars</p>
+        <p>dans la paroisse de Naes 26 juin</p>
+        <p>1 octobre </p>
+        <p>11 mars</p>
+        <p>Rinsager................ 28 juin</p>
+        <p>4 octobre</p>
+        <p> 15 mars</p>
+        <p>Wang 3 juillet</p>
+        <p>9 octobre</p>
+        <pb n="f. 34v" />
+        <p> 19 mars</p>
+        <p>Leuthen 7 juillet</p>
+        <p>14 octobre</p>
+        <p> 21 mars</p>
+        <p>Romedahl 9 juillet</p>
+        <p>17 octobre</p>
+        <p> 23 mars</p>
+        <p>Stange 11 juillet</p>
+        <p>20 octobre</p>
+        <p>En cas qu’il arriveroit, qu’il se présenta un dimanche ou jour de Fête pour l’ouverture
+          de la justice, le 1<hi rendition="#sup">er</hi> jour ouvrier suivant sera destiné à cet
+          acte ; On se conformera en tout à ce present reglement ; Car Nous mandons et ordonnons
+          trés gracieusement à notre vice Gouverneur en Norwegue{{p2210}}, Comtes, baillifs
+          généraux, baillifs, juges, présidents, bourgmaîtres, magistrat, Echevins, et autres, à qui
+          ce présent reglement, signé de notre main et apposé de notre Sceau Royal, sera expedié de
+          le faire au plutôt publier. donné dans notre château de Fredensbourg{{g0481}} ce 13 avril
+          1764.</p>
+        <p>L : S : Frederic. R[ex]{{p0341}}</p>
+      </div>
+    </body>
+  </text>
+</TEI>

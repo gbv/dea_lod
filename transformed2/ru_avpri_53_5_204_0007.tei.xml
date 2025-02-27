@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Speech of the the Russian Envoy Extraordinary and Minister
+          Plenipotentiary to Denmark, Mikhail Mikhailovich Filosofov, to the King of Denmark and
+          Norway, Christian VII</title>
+        <author xml:lang="en">Mikhail Mikhailovich Filosofov</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>5 / 16 September 1767. – Speech of the the Russian Envoy Extraordinary and Minister
+            Plenipotentiary to Denmark, Mikhail Mikhailovich Filosofov{{p1102}}, to the King of
+            Denmark and
+            Norway, Christian VII{{p0868}}</title>
+          <note>
+            <bibl>AVPRI, fond 53, opis 5, no. 204, f. 29-30. French copy.</bibl>
+          </note>
+        </head>
+        <pb n="f. 29" />
+        <p>Sire !</p>
+        <p />
+        <p>Les bruits courent que Borken, Ministre de Prusse{{p1526}}, intrigue pour pouvoir entrer
+          au
+          service de V[otre]. M[ajesté]. Ne sachant point la verite positive de ce fait, je crois
+          qu’elle
+          est trop portée à la conclusion de la negociation avec la Russie pour y donner son
+          consentement,
+          et cela d’autant plus qu’il lui avoit plû d’ecrire de sa propre main à l’Imperatrice ma
+          Souveraine{{p0033}} au sujet de l’eloignement du dit Borken{{p1526}}. V[otre]. M[ajesté].
+          se
+          donneroit un démenti formel en le prenant en son service. Mon inquietude à ce sujet
+          augmente de
+          plus qu’on pretend avec certitude que Borken{{p1526}} est recommandé à V[otre]. M[ajesté].
+          par le
+          Marchal S[ain]t. Germain{{p0126}} pour lequel Elle paroit avoir la plus grande confiance
+          et
+          qu’elle adopte ses sentiments soutenûs des personnes qui ont le bonheur de l’approcher
+          souvent.
+          Toutes ces circonstances me mettent, Sire, dans le plus grand embarras, puisque je ne sais
+          quelle
+          relation en faire à ma Cour{{o0008}}.</p>
+        <pb n="f. 29v" />
+        <p>V[otre]. M[ajesté]. a donné à la verité une marque de l’amitié sincere à l’Imperatrice ma
+          Souveraine{{p0033}}, en éloignant Gertz{{p1524}}. M[onsieu]<hi rendition="#sup">r. </hi>
+          Borken{{p1526}} n’est pas moins pernicieux que le premier. Ses vuës m’etant connuës par
+          plusieurs traits, et surtout par des insinuations qu’il me fit l’hiver passée qui ne
+          tentoient à rien moins qu’à alterer la negociation entamée alors. </p>
+        <p>Si ces bruits, quelques qu’ils soient, parvenoient à la connoissance de ma Cour{{o0008}},
+          ils la porteroient aisement de juger contre le contenû de mes rapports, où je n’ai manqué
+          de dire, combien V[otre]. M[ajesté]. etoit attentive à marquer les sentiments non
+          equivoques de son amitié à l’Imperatrice ma Souveraine{{p0033}} ; et poyroient produire
+          des suites bien dangereuses à la dite négociation, d’autant plus que ces deux personnes
+          Borken{{p1526}} et Gertz{{p1524}} etant odieuses à ma Cour{{o0008}}, si connûes par leurs
+          menées intrigantes que je puis assurer V[otre]. M[ajesté]. qu’aussitôt [f. 30] de deux
+          consonnes contractantes.</p>
+        <p>Sire ! toutes ces circonstances m’ont contraint de demander une audience pour avoir
+          l’honneur de lui parler personnellement, et de la supplier très respectueusement de me
+          mettre en état par une promesse solennelle, réiterée et irrevocable de garantir à
+          l’Imperatrice ma Souveraine{{p0033}} que les bruits sont faux, et que V[otre]. M[ajesté].
+          veut bien [three letters crossed] le faire taire comme injurieux à Sa personne, et
+          empecher par là les mauvaises consequences qui en pourroient provenir à la conclusion du
+          traité, aussi bien qu’à son execution à la majorité de S[on]. A[ltesse]. I[mpériale].
+          M[onsei]g[neu]<hi rendition="#sup">r</hi>. le Grand Duc de toutes les Russies{{p0438}}, en
+          declarant qu’Elle ne voudra jamais employer Borken{{p1526}} à son service et n’approchera
+          jamais Gertz{{p1524}} de sa personne.</p>
+        <p />
+        <p>из реляции из Копенгагена{{g0006}}</p>
+        <p>№7. 1767</p>
+        <p />
+        <p>See also : ru_avpri_53_5_204_0006</p>
+      </div>
+    </body>
+  </text>
+</TEI>

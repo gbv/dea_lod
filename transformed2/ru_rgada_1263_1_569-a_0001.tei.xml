@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Saxony, Prince Andrei
+          Mikhailovich Belosel'skii, to Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Andrei Mikhailovich Belosel'skii</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>1 June 1766. – Letter from <persName key="p0015"
+              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 569-a, f. 1–2v. French original with notes in
+              Russian.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p>a <placeName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Riges</placeName> ce
+          1. juin 1766.</p>
+        <p>получено 7го июня</p>
+        <p>Mon Prince</p>
+        <p>J’ai passé toute la Livonie sans rien voir qui soit digne de vous réciter, a moin que
+          vous ne préniés quelque part a l’economie de la province, J’ai vus des champs plein de
+          bled cela est vraie, mais s’il y a de quoi nourir il y a aussi de quoi le greuger; des
+          sautérelles d’espece nouvelle inondent les environs de <placeName key="g0155">Narvas</placeName>,
+          c’est des Bohemiens que j’ai vus entouré de mille nigauds de paysans s’accordant de
+          differents trocs. Vous savés que personne n’a jamais gagné avec cette nation &amp; celas
+          par une simple raison, car elle n’a jamais rien a perdre, il y a avoit une bande nombreuse
+          de celas; cepandant un seul individus de Gascogne près de <placeName key="g0015">Riga</placeName>
+          qui a surpassé tout celas. C’est <persName key="p0000">le Baron de la Battus</persName>
+        </p>
+        <pb n="f. 1v" />
+        <p> sacrifiant toute ses amies de l’Europe a un nommé <persName key="p0000">Helmers</persName>
+          gentil homme du payx chés qui il est depuis trois mois. Qui est celui qui ne sentirois pas
+          l’honneur qu’il lui fait et aussi le Campagnard n’epargne rien pour lui rendre le sejour
+          agreable, Chasse dirigé a la francoise, peche, concert de chalumeau &amp; autre
+          semblamble, noces de païsans avec tout les agrements dont <persName key="p0000">Mr la
+          batus</persName> fournis les Idées, enfin rien n’est oublié pour rélévé la simplicité des
+          champs, &amp; pour reconoitre le sacrifice que <persName key="p0000">la batus</persName>
+          fait en y restant si longtemps</p>
+        <p>Le francois de son coté ne laisse pas aussi que de payés de complaisance, Il lui fait
+          l’honneur de faire quattre répas par jour chés lui, mange pour quattre a chaque, trouve
+          son cuisinier pas du tout mauvais pour etre d’un pétit Campagnard livonien &amp; envérité
+          selon lui ne sede en rien a une cuisiniére bourgeoise francoise. La Complaisance de <persName
+            key="p0000">Mr le Baron</persName> est meme poussé au </p>
+        <pb n="f. 2" />
+        <p> poin d’accéptes aprés maintes offres de la part du gentilhomme de l’argent sans aucun
+          bésoin mais uniquément pour ne pas Effaroucher par des réfus Continuel son amis, la
+          délicatésse en souffre, mais que ce que l’amitié ne fait pas faire.</p>
+        <p>C’est a une poste nommé Egelartshoff qui étant sur les térres du dit gentilhomme ou j’ai
+          après ce que j’ai l’honneur de vous marquer, je l’avois meme presqu’oublié si en arrivant
+          a <placeName key="g0015">riga</placeName> je n’ai vus quasi mettant piéd a terre un des
+          Billets qui courent <placeName key="g0015">la Ville</placeName> &amp; qui annoncent qu’il
+          c’est perdus a la Campagne de la chambre a couché de ce meme <persName key="p0000">Mr
+          Helmers</persName> une monttre d’or a repetition &amp; qui offroit treize ducats a celui
+          qui la lui raportérois, c’est cet anécdote qui m a fait le plus pencé a <persName
+            key="p0000">monsieur le Baron de la batus</persName>, et je vous la mande pour remplir
+          une lettre par la quelle je n’ai pas voulus manquer </p>
+        <pb n="f. 2v" />
+        <p> mon prince de vous dire que je suis a <placeName key="g0015">Riga</placeName> dépuis
+          deux jours &amp; que je pars demain avec le jour pour <placeName key="g0042">mittau</placeName>
+        </p>
+        <p>Je prie Votre altesse de m’accorder une part dans votre souvenir &amp; d’Etre assuré que
+          je suis avec autant de respect que de Veneration</p>
+        <p>Mon prince</p>
+        <p>de Votre altésse</p>
+        <p>le trés humble &amp; trés</p>
+        <p>obeissant Serviteur</p>
+        <p>
+          <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselsky</persName>
+        </p>
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_569-a_0002</p>
+        <p>ru_rgada_1263_1_569-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0001</p>
+        <p>ru_rgada_1263_1_572-a_0002</p>
+        <p>ru_rgada_1263_1_572-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0004</p>
+        <p>ru_rgada_1263_1_572-a_0005</p>
+        <p>ru_rgada_1263_1_573-a_0001</p>
+        <p>ru_rgada_1263_1_573-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0001</p>
+        <p>ru_rgada_1263_1_574-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>

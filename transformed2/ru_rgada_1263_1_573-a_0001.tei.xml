@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Letter from the Russian Envoy to Saxony, Prince Andrei
+          Mikhailovich Belosel'skii, to Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</title>
+        <author xml:lang="en">Andrei Mikhailovich Belosel'skii</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Languages of Diplomacy Digital Edition</edition>
+        <editor>
+          <persName ref="#rjeoutski">
+            <surname>Rjeoutski</surname>
+            <forename>Vladislav</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#borisov">
+            <surname>Borisov</surname>
+            <forename>Viktor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#kandakou">
+            <surname>Kandakou</surname>
+            <forename>Dzianis</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#lavrinovich">
+            <surname>Lavrinovich</surname>
+            <forename>Maya</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/edt">editor</resp>
+          <persName ref="#sergeev">
+            <surname>Sergeev</surname>
+            <forename>Mikhail</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#herzog">
+            <surname>Herzog</surname>
+            <forename>André</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#wallner">
+            <surname>Wallner</surname>
+            <forename>Karin</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp ref="http://id.loc.gov/vocabulary/relators/eng">technical infrastructure</resp>
+          <persName ref="#pipka">
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName role="hostingInstitution" xml:lang="de">qed.perspektivia.net</orgName>
+        </publisher>
+        <authority>MWS-Netzwerk Osteuropa</authority>
+        <pubPlace>Bonn</pubPlace>
+        <date when="2024-08-30">30. August 2024</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/lincenses/by-sa/4.0/">
+            <p>CC BY-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="project_id">lod</idno>
+        </idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main" level="s">Languages of eighteenth-century diplomacy</title>
+        <title type="sub" level="s">Russia in a European context</title>
+      </seriesStmt>
+      <sourceDesc>
+        <p>TODO</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <title>19 February / 2 March 1771. – Letter from <persName key="p0015"
+              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
+              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName>
+          </title>
+          <note>
+            <bibl>RGADA, fond 1263, opis 1, no. 573-a, f. 1–2. French original.</bibl>
+          </note>
+        </head>
+        <pb n="f. 1" />
+        <p>Mon Prince</p>
+        <p>Le gout de votre Excellence pour les beaux arts et en particulier pour la peinture
+          m’ayant fait prendre il y a quelque tems la liberté de vous addresser le tableau original
+          du <persName key="p0529" ref="58c15303-90ea-4999-8fba-8b7671eb7113">Corrège</persName>,
+          qu’elle a eu la bonté de présenter à <persName key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>, Votre
+          Excellence voudra bien me pardonner si par une suite de la même confiance j’ose l’en
+          ressouvenir actuellement. La vente de ce tableau pouvant être de grand secours à Monsieur <persName
+            key="p0528" ref="7cdef3be-6824-4c4b-b30d-d8401542835b">Casanova Professeur en Peinture</persName>
+          içi </p>
+        <pb n="f. 1v" />
+        <p> proprietaire de cette pièce, et à sa famille, votre Excellence feroit un acte de
+          charité, Si Elle vouloit bien, quand l’occasion s’en presenteroit en ressouvenir <persName
+            key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName> et y
+          ajouter le gracieux soin de me faire remettre la somme en question, en cas que ce tableau
+          eut le bonheur de convenir à <persName key="p0033"
+            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName>. Si cependant contre
+          son attente il ne fusse gardé, Monsieur <persName key="p0528"
+            ref="7cdef3be-6824-4c4b-b30d-d8401542835b">Casanova</persName> souhaiterait qu’on le lui
+          renvoyat, afin de ne point manquer les occasions de s’en defaire, qui pourroient se
+          presenter icy. Connoissant la satisfaction que votre Excellente trouve a s’employer pour
+          le bien de quelqu’un, je ne doute point qu’Elle daignera s’y interesser ; et l’assurant de
+          ma plus vive reconnoissance je ne saurois manquer </p>
+        <pb n="f. 2" />
+        <p> de lui repeter en même tems les sentimens du parfait attachement et de la consideration
+          distinguée avec lesquels j’ai l’honneur d’etre</p>
+        <p>Mon Prince !</p>
+        <p>De Votre Excellence</p>
+        <p>Le très humble et très obeiss<hi rendition="#sup">t</hi>
+        </p>
+        <p>Serviteur</p>
+        <p>
+          <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName>
+        </p>
+        <p>
+          <placeName key="g0013">Dresde</placeName>
+        </p>
+        <p>Ce 19 fevrier/2 mars 1771./</p>
+        <p>Also see:</p>
+        <p>ru_rgada_1263_1_569-a_0001</p>
+        <p>ru_rgada_1263_1_569-a_0002</p>
+        <p>ru_rgada_1263_1_569-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0001</p>
+        <p>ru_rgada_1263_1_572-a_0002</p>
+        <p>ru_rgada_1263_1_572-a_0003</p>
+        <p>ru_rgada_1263_1_572-a_0004</p>
+        <p>ru_rgada_1263_1_572-a_0005</p>
+        <p>ru_rgada_1263_1_573-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0001</p>
+        <p>ru_rgada_1263_1_574-a_0002</p>
+        <p>ru_rgada_1263_1_574-a_0003</p>
+      </div>
+    </body>
+  </text>
+</TEI>
