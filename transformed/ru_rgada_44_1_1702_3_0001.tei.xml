@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,60 +103,44 @@
       <div type="letter">
         <head>
           <title> 11 June 1702. – Letter from <persName key="p1197">the Hamburg merchant Hans
-            Matthias Poppe</persName> to <persName
-              key="p0277"
-              ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian Chancellor, Count Fedor
+            Matthias Poppe</persName> to <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Chancellor of Russia, Count Fedor
             Alekseevich Golovin</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, opis. 1, 1702, no. 3, f. 1–2v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>Salvo Titulo</p>
-        <p>A[nn]o 1702 d[ie] 11 Junij <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName>
+        <p>A[nn]o 1702 d[ie] 11 Junij <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>
         </p>
         <p>Hoch undt wohl Edellgebohrner Durch</p>
         <p>leuchtigster Herr.</p>
         <p>ich befinde mich durch dehro Gnaeden an mihr abgefertigtes briefl[ich] sub dato 3 Junij
-          zum höchsten verEhrt, worauß Ersuchen daß die Andtwordt von dehro <persName
-            key="p1200,p1201">H[erren]
+          zum höchsten verEhrt, worauß Ersuchen daß die Andtwordt von dehro <persName key="p1200,p1201">H[erren]
             Bürgemeister</persName><note place="foot">According to the constitution of Hamburg (law
           of 1529), there were First and Second Mayors. The Council
             of Hamburg elected two mayors from among its members, each of whom hold the office of
           acting mayor in
-            one-year rotation. Who exactly is meant here is not specified.</note> undt <orgName
-            key="o0025"
-            ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Raht der Stadt Hamburch</orgName>, nicht
+            one-year rotation. Who exactly is meant here is not specified.</note> undt <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Raht der Stadt Hamburch</orgName>, nicht
           allein wohl Empf[eh]l[en] Sondern auch allerGnädigst undt vergnügt von Ihro Zaer[ischen]
           Mayest[e] angenom[m]en, wofür ich dehro Excellent[z] für ihre Treuw fleißige Direction zum
-          Höchsten bedancke undt principal[ement] daß Sie noch über dehme den brief von dero <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Stadt Hamb[urgh]</placeName> in origineel von
-          hier auf <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">arch[angl]</placeName> zu senden bewürdiget,
+          Höchsten bedancke undt principal[ement] daß Sie noch über dehme den brief von dero <placeName key="g0011" ref="https://www.geonames.org/2911298">Stadt Hamb[urgh]</placeName> in origineel von
+          hier auf <placeName key="g0049" ref="https://www.geonames.org/581049">arch[angl]</placeName> zu senden bewürdiget,
           welches ich mit künfftiger post </p>
-        <pb n="f. 1v" />
-        <p> auf <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hamburgh</placeName> werde Notificiren undt dabey
+        <pb n="f. 1v"/>
+        <p> auf <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburgh</placeName> werde Notificiren undt dabey
           Ihro Gnaeden Guethätigkeit zu Rühmen wißen. in übrigen nehme die Freyheit undt kom[m]e zu
           dehro Gnaeden mit Einen Demühtigen Fußfall dienstlich bittende, daß Sie wollen ferner die
           Guetthaet an <persName key="p1198">den Schwieger Vatter Harttman</persName> nebst unß zu
-          Erzeigen, daß unser Hauß undt Hoff in <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Arch[angl]</placeName> wo es Möchlich möge
+          Erzeigen, daß unser Hauß undt Hoff in <placeName key="g0049" ref="https://www.geonames.org/581049">Arch[angl]</placeName> wo es Möchlich möge
           verschonet bleiben, weiln wihr alhier v[er]nom[m]en daßelbe durch die pallissaden So
-          gemacht werden umb die Steinen palataen, vielleicht möchte Noht leiden., Wofür <persName
-            key="p1198">der Schwieger Vatter Hartttman</persName> der Ihr Excellent[z] aufs
+          gemacht werden umb die Steinen palataen, vielleicht möchte Noht leiden., Wofür <persName key="p1198">der Schwieger Vatter Hartttman</persName> der Ihr Excellent[z] aufs
           Demütigste thuet begrüßen wie auch wihr alß <persName key="1199">Seine Schwieger
             Söhne Brist</persName> und <persName key="p1197">ich</persName> Jeder Zeith Solche
           Guhtaet nicht allein werden zu rühmen wißen, Sondern unß auch gegen Ihr Excell[entz]
           danckbahrl[ich] </p>
-        <pb n="f. 2" />
+        <pb n="f. 2"/>
         <p>Erzeigen werden., undt weiln ich mich dehro Guethaet undt Gunst v[er]sichere, So bitte
           auch vnterthänigst in Meiner abwesentheit aldahr an die Meinigen dero Gunst zu Erzeigen,
           werde Jeder zeith Trachten So viel in mein Eüßersten v[er]mögen Ihr Excell[entz] zu dienen
@@ -172,8 +153,8 @@
         <p>undt gehorsahmer diener</p>
         <p>
           <persName key="p1197">Hans Matt: Poppe</persName>./.</p>
-        <p />
-        <pb n="f. 2v" />
+        <p/>
+        <pb n="f. 2v"/>
         <p>A <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Son Excellence</persName>
         </p>
         <p>
@@ -184,9 +165,7 @@
             Primir</persName>
         </p>
         <p>
-          <persName
-            key="p0277"
-            ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Ministre. d’Etat Prive et</persName>
+          <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Ministre. d’Etat Prive et</persName>
         </p>
         <p>
           <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Admirael General des</persName>
