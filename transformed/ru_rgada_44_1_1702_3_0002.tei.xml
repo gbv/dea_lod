@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,9 +103,7 @@
       <div type="letter">
         <head>
           <title>6 August 1703. – Letter from <persName key="p1197">the Hamburg merchant Hans
-            Matthias Poppe</persName> to <persName
-              key="p0277"
-              ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Russian Chancellor, Count Fedor
+            Matthias Poppe</persName> to <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Chancellor of Russia, Count Fedor
             Alekseevich Golovin</persName>
           </title>
           <note>
@@ -117,16 +112,12 @@
               7–8v.</bibl>
           </note>
         </head>
-        <pb n="f. 6" />
+        <pb n="f. 6"/>
         <p>Salvo Titulo</p>
-        <p>A[nn]o 1703 d[ie] 6: aug[usti] <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName>
+        <p>A[nn]o 1703 d[ie] 6: aug[usti] <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>
         </p>
         <p>Hoch Edler Großer H[er]r Salut:</p>
-        <p>Dieses wenige betrifft allein weiln von der <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Stadt Hamburgh</placeName>
+        <p>Dieses wenige betrifft allein weiln von der <placeName key="g0011" ref="https://www.geonames.org/2911298">Stadt Hamburgh</placeName>
           mihr Ein Brief zu gesandt, lautend an Ihro Zaer Magest[e] daß ich doch denselb[en] Mögte
           Guethe Spedit[ion] v[er]leihen, damit derselbe Brief Mögte in dehro Zaarische Magest[e]
           Händen kom[m]en  Bitte also unterthänigst Ihr Hohe Gnaeden wollen beygehenden brief So in
@@ -137,67 +128,45 @@
           ich den dero Hohen Excellent[z] Jeder zeith dienstschuldigsten danck werde Erweisen., Für
           Acht Thage habe an <persName key="p0494" ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">H[er]r
           Schaffiroff</persName> geschrieb[en] undt gebehten dehro Hohe Gnaden, gnädigst
-          vorzutraegen wegen Eines Paßes für unsere Straedts fahrer von <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">
-          archangl</placeName> nach <placeName
-            key="g0111"
-            ref="https://www.geonames.org/3174659">liuorno</placeName> weiln leider Gottes
+          vorzutraegen wegen Eines Paßes für unsere Straedts fahrer von <placeName key="g0049" ref="https://www.geonames.org/581049">
+          archangl</placeName> nach <placeName key="g0111" ref="https://www.geonames.org/3174659">liuorno</placeName> weiln leider Gottes
           die See voll Frantzösische Caeper sein., alß will Hoffen Ihr Genaeden werden unß Einen
           Solchen paß wie v[er]langt wirdt gnädigst zustehen., ich habe dahmahlen umb zwey Einß
           lautende paße geschrieb[en], weiln aber der außfuhr von r[eichs]th[a]l[er] uber See
-          v[er]bohten ist, So hab[en] die unsrigen geresolu[tion] Nuhr Ein Schiff zu senden So von <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">arch[angl]</placeName> Nach <placeName
-            key="g0111"
-            ref="https://www.geonames.org/3174659">Liuorno</placeName> gehen
+          v[er]bohten ist, So hab[en] die unsrigen geresolu[tion] Nuhr Ein Schiff zu senden So von <placeName key="g0049" ref="https://www.geonames.org/581049">arch[angl]</placeName> Nach <placeName key="g0111" ref="https://www.geonames.org/3174659">Liuorno</placeName> gehen
           soll, bitten dehm nach unterthänigst, Sie wollen unß nuhr Einen paß zustehen., werden
           dafür dehro Hohen Gnaden Jederzeith unß dienstwilligst Einfinden., Noch habe Ihr Hohen
           Excell[entz] dienst unterthänigst fürzutragen., wie daß ich an vielen H[er]r officiren von
-          dehnen hiesigen in <placeName
-            key="g0017"
-            ref="https://www.geonames.org/2673730">Stockholm</placeName> laßen gelt bezahlen., die
-          anders hätten müßen Crepiren, alß <persName key="p1209">obr[ist] Vondelden</persName>, <persName
-            key="p1212">obr[ist] Gulitz</persName>, <persName key="p1213">Major Vonder Stam</persName>
+          dehnen hiesigen in <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName> laßen gelt bezahlen., die
+          anders hätten müßen Crepiren, alß <persName key="p1209">obr[ist] Vondelden</persName>, <persName key="p1212">obr[ist] Gulitz</persName>, <persName key="p1213">Major Vonder Stam</persName>
           , <persName key="p0000">Jan Baltzer</persName>, <persName key="p1210">Vonder Wieden</persName>
           undt viel mehr andere, habe mich deßwegen bey dehnen ihrigen alhier angeben., die mihr
           bitten in der <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Possolschen
           pricaes</orgName> daß gelt zu Empf[angen]., habe mich auch </p>
-        <pb n="f. 6v" />
+        <pb n="f. 6v"/>
         <p>deßentwegen in der <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Possoolschen
           pricaes</orgName> bey <persName key="p1208">Miglaile Jaculoff Wolcoff</persName> angeben.,
           der mihr berichtet daß von dehro Hohen Excell[entz] ord[e]r ist Solches zu zahlen, allein
           daß gelt muß auß den <orgName key="o0111" ref="a70aa1d5-da23-46d6-90a4-35cf681a5768">
-          Rahthause</orgName> in der <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">possoolschen
+          Rahthause</orgName> in der <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">possoolschen
           pricaes</orgName> Erst gezahlt werden., worüber ich Nuhn Schon über die zwey Monath alß
-          von Monath Majo an biß dato habe aber biß dato nichts können wieder Empf[angen], <persName
-            key="p1208">Mighaile Wolcoff</persName> giebt die Schult dem <orgName
-            key="o0111"
-            ref="a70aa1d5-da23-46d6-90a4-35cf681a5768">Rahthauß</orgName> daß Er aldahr kein gelt
+          von Monath Majo an biß dato habe aber biß dato nichts können wieder Empf[angen], <persName key="p1208">Mighaile Wolcoff</persName> giebt die Schult dem <orgName key="o0111" ref="a70aa1d5-da23-46d6-90a4-35cf681a5768">Rahthauß</orgName> daß Er aldahr kein gelt
           Empf[angen] kan, daß Sie ihm aldahr So aufhalten., Gott weiß es ist Ein rechter Armuth bey
           Etzlichen von dehnen officiren weiber, undt ich muß mein gelt auch Mißen., undt Muß auf
-          Solche Manier d[ar]über auf <placeName
-            key="g0017"
-            ref="https://www.geonames.org/2673730">Stockholm</placeName> schreib[en] daß
+          Solche Manier d[ar]über auf <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName> schreib[en] daß
           kein gelt mehr möge bezahlt werden., den es ist sehr v[er]drießlich, So lange zeith von
           Majo biß dato daß ich bey nahe Täglich in der pricaes aufgepaßt hab[e] aber nichts
           bekom[m]en können., die Armen weiber wolten gerne bezahlen waß ihre Männer aldahr
           aufgenom[m]en, bin aber Ein gezeuge daß es ihnen nicht Müglich ist., bitt also dienst
-          unterthänigst Hierauf Eine order zu senden daß doch daß gelt auß <orgName
-            key="o0111"
-            ref="a70aa1d5-da23-46d6-90a4-35cf681a5768">dem Rahthause</orgName> Möge folgen damit
-          ichs Möge wieder auß der <orgName
-            key="o0064"
-            ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">possoolschen
+          unterthänigst Hierauf Eine order zu senden daß doch daß gelt auß <orgName key="o0111" ref="a70aa1d5-da23-46d6-90a4-35cf681a5768">dem Rahthause</orgName> Möge folgen damit
+          ichs Möge wieder auß der <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">possoolschen
           pricaes</orgName> Empfangen können, Wofür ich Jederzeith mich dienst willigh dehro hohen
           Excell[entz] Erbiete, wie ich den allezeith bin undt v[er]bl[eibe]</p>
         <p>Dehro Hohen Excellent[z] unterthänigster</p>
         <p>diener </p>
         <p>
           <persName key="p1197">Hans Matt: Poppe</persName> ./.</p>
-        <p />
+        <p/>
         <p>Писмо к боярину <persName key="p1197">Матвея Поппа</persName> августа 15 с почты.</p>
         <noteGrp>
           <note>Also see: </note>
