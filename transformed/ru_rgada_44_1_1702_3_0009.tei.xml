@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,15 +103,11 @@
         <head>
           <title>
             1721 or later. – Petition submitted by <persName key="p1251">the Hamburg merchant
-            Franz Poppe</persName> to <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Emperor Peter I</persName>
-          </title>
-          <note>
+            Franz Poppe</persName> to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Emperor Peter I of Russia</persName></title><note>
             <bibl>RGADA, fond 44, opis 1, 1702, no. 3, f. 134–135. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 134" />
+        <pb n="f. 134"/>
         <p>
           <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Aller Durchlauchtigster,
             Groß=</persName>
@@ -130,33 +123,28 @@
         <p>
           <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Herr, Herr</persName>
         </p>
-        <p />
+        <p/>
         <p>Ew[er] Kayserl[ichen] und Groß=Czaar[ischen] May[es]t[ä]t habe hiemit in tieffster
           Unterthänigkeit fußfällig vor zu stellen nicht Umgang nehmen könne, waß maßen ich im Jahr
           1714 d[ie] 16 Junij <persName key="p1261">dem H[errn] Graffen Rudakowsky</persName> auff
           sein Ersuchen 50 Ducaten Species gut willig vorgeschoßen und außgezahlet und dieser mir
-          dagegen einen Wechsell auff S[eine]r Durchl[aucht] <persName
-            key="p0729"
-            ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">dem Printzen Wasile Dolgorouki</persName> von
+          dagegen einen Wechsell auff S[eine]r Durchl[aucht] <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">dem Printzen Wasile Dolgorouki</persName> von
           100 Rubeln zu gestellet, welchen ich zwar auff guten Glauben dagegen in Bezahlung
           angenommen, von Wohlgedachten Printzen aber nicht ist abge= </p>
-        <pb n="f. 134v" />
+        <pb n="f. 134v"/>
         <p>führet worden, und also ich biß diese Stunde dieses Postes, weil auch hero von erst
           Gedachten <persName key="p1261">Grafen Rudakowsky</persName> nichts ist zu erhalten
-          gewesen, habe entbehren müßen, Wann aber <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">AllerGnädigster
+          gewesen, habe entbehren müßen, Wann aber <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">AllerGnädigster
             Kayser und Herr</persName> mir solchen Post, welchen ich so wohl aus Liebe zu der
           Gantzen Rußischen Nation Alß in Ansehen des Grafens damahls bedürffenden Zustand, mit
-          willigen Hertzen hergeschoßen, länger nach zu sehen höchst beschwerlich fällt, und <persName
-            key="p1261">besagter Graff</persName> Gleichwohl in Ew[er] Groß=Czaar[ischen]
+          willigen Hertzen hergeschoßen, länger nach zu sehen höchst beschwerlich fällt, und <persName key="p1261">besagter Graff</persName> Gleichwohl in Ew[er] Groß=Czaar[ischen]
           Kayserl[ichen] May[es]t[ä]t Diensten und besoldunge stehet, so habe Denenselben Gantz
           Dehmühtigst anflehen wollen, die AllerGnädigste Verfügunge ergehen zu laßen, daß offt
           gemeldter <persName key="p1261">Graff Rudakowsky</persName> zu schleuniger Abtragung der
           mir schuldig gewordenen 100 Rubeln, nebst denen in die zeit darauff erwuchsenen Interessen
           Ernstlich möge angehalten, oder solches demselben ohnmaßgeblich an seinem Salario
           gekürtzet werden möge, Welche Hohe Kayserl[iche] Gnade ich Lebens lang werde zu rühmen </p>
-        <pb n="f. 135" />
+        <pb n="f. 135"/>
         <p>wißen, und in Aller Unterthänigster Devotion verharren</p>
         <p>Ew[er] Groß=Czarischen und </p>
         <p>Kayserlichen Mayestät</p>
