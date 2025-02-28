@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,41 +96,32 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>7 February 1716. – Letter from <persName
-              key="p0535"
-              ref="926520a5-a9ef-45ac-9586-670771370169">the Russian Resident in Hamburg, Johann
-            Friedrich Böttiger</persName>, to <persName
-              key="p0729"
-              ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador Plenipotentiary to
+          <title>7 February 1716. – Letter from <persName key="p0535" ref="926520a5-a9ef-45ac-9586-670771370169">the Russian resident in Hamburg, Johann
+            Friedrich Böttiger</persName>, to <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador Plenipotentiary to
             Denmark, Prince Vasilii Lukich Dolgorukov</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, opis 1, 1716, no. 7, f. 4–5. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 4" />
+        <p/>
+        <pb n="f. 4"/>
         <p> Monseigneur</p>
         <p>Par celle-cy, j’ai voulu accuser celle de vôtre Altesse du 21 Janv[ier] qui m’est rendu
           aujourd’huy, je ne manquerai pas d’envoyer les incloses chacun a son addresse. j’ai
-          l’honneur d’envoyer cy-joint une qui m’est venu tantôt de <placeName
-            key="g0012"
-            ref="https://www.geonames.org/2950159">Berlin</placeName>,
-          Il manquent encore sept postes de <placeName
-            key="g0003"
-            ref="https://www.geonames.org/2643743">Londres</placeName>, pourtant
+          l’honneur d’envoyer cy-joint une qui m’est venu tantôt de <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName>,
+          Il manquent encore sept postes de <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>, pourtant
           j’en ai reçu deux lettres du 10 &amp; 13<hi rendition="#u">
             <hi rendition="#sup">em </hi>
-          </hi>Janv[ie]r, qui confirment l’arrivée du <persName
-            key="p1320">Pretendant</persName> en Ecosse, ainsi on en pourroit appren= </p>
-        <pb n="f. 4v" />
+          </hi>Janv[ie]r, qui confirment l’arrivée du <persName key="p1320">Pretendant</persName> en Ecosse, ainsi on en pourroit appren= </p>
+        <pb n="f. 4v"/>
         <p>dre dans peu de tems quelque chose de considerable, en attendant Je suis avec un profond
           respect</p>
         <p>Monseigneur</p>
@@ -148,17 +136,14 @@
         <p>7<hi rendition="#u">
             <hi rendition="#sup">em</hi>
           </hi> de Fev[rie]r 1716.</p>
-        <p />
-        <pb n="f. 5" />
-        <p>L’on me mande de <placeName
-            key="g0002"
-            ref="https://www.geonames.org/498817">St. Petersbourg</placeName> du 6<hi rendition="#u">
+        <p/>
+        <pb n="f. 5"/>
+        <p>L’on me mande de <placeName key="g0002" ref="https://www.geonames.org/498817">St. Petersbourg</placeName> du 6<hi rendition="#u">
             <hi rendition="#sup">em</hi>
           </hi> Jan[vie]r que 400 hommes de nos Troupes
           avoient rencontré une partie des Suedois fort de 600 hom</p>
         <p>mes sur les Frontieres Suedois de Finland, qu’ils avoient défait entierement, ceux qui
-          n’ont pas pû se sauver, &amp; qui n’ont pas eté tuë font fait Prisonnieres, <persName
-            key="p1131">S[on] A[ltesse] Le Prince Menzikow</persName> devoit partir le 8<hi rendition="#u">
+          n’ont pas pû se sauver, &amp; qui n’ont pas eté tuë font fait Prisonnieres, <persName key="p1131">S[on] A[ltesse] Le Prince Menzikow</persName> devoit partir le 8<hi rendition="#u">
             <hi rendition="#sup">em </hi>
           </hi>Janv[ier] pour <placeName key="g0016" ref="https://www.geonames.org/588409">Reval</placeName>
           .</p>
