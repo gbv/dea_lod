@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -106,14 +103,14 @@
         <head>
           <title>5 March 1714. – Letter from <persName key="p1251">the Hamburg merchant Franz Poppe</persName>
             to <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">the Secretary of the
-            Russian Ambassadorial Chancellery, Heinrich Johann Friedrich von Ostermann</persName>
+            Russian Ambassadorial Chancellery, Heinrich Johann Friedrich Ostermann</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, opis 1, 1714, no. 8, f. 1–1v. German original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 1" />
+        <p/>
+        <pb n="f. 1"/>
         <p> №: 1:</p>
         <p>Hoch=Edler</p>
         <p>Insonders Hochzuehrender Herr.</p>
@@ -128,15 +125,11 @@
           Vorschuß gethan, belauffende solches in allem auf 400 rd<note place="foot">Rigsdaler –
           Danish currency until 1875.</note> Spet[ie] die Er auf 8 Monath à deposito genom[m]en, und
           will ich an seinerzeit </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p>richtigen Abführung dieser Summa gar nicht zweifeln, inzwischen doch Ew[er] Hoch=Edl[e]
           unter der Hand gantz gehorsahmst ersuchen, Sie wollen geneigt geruhen, vor mir deßfals
           einige gute Vorsorge zu tragen. Dero Rimæsse von rd 750 dän: <hi rendition="#s">Ṽ</hi> auf
-          d[en] h[erren] Deputirte der <orgName
-            key="o0113"
-            ref="2b8411cf-f088-4c93-9510-930169865019">Königl[ichen] Admiralitæt</orgName> in <placeName
-            key="g0006"
-            ref="https://www.geonames.org/2618425">Copenhagen</placeName>, habe dahin, umb die Behör
+          d[en] h[erren] Deputirte der <orgName key="o0113" ref="2b8411cf-f088-4c93-9510-930169865019">Königl[ichen] Admiralitæt</orgName> in <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName>, habe dahin, umb die Behör
           davon zu fordern, übergesand, aber darauf noch keine Antwort erhalten, die ich jedoch mit
           nechster post entgegen sehe, und so dann das vernehmende M[einem] H[och=Edlen] hErrn
           weiter melden werde, Einlage bitte ohnschwer zu laßen abgeben und die Bemühung zu
@@ -147,9 +140,7 @@
         <p>
           <persName key="p1251" ref="a4cc9a25-72d9-406f-b3c2-5d65e100fede">Frans Poppe</persName> /.</p>
         <p>
-          <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Hamburg</placeName> d[ie] 5 Martij:</p>
+          <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburg</placeName> d[ie] 5 Martij:</p>
         <p>Anno 1714_.</p>
         <noteGrp>
           <note>Also see:</note>
