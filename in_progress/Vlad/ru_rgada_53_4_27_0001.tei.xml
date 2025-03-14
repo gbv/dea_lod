@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,90 +104,126 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>30 October 1714. – Royal letter from [the King of Denmark and Norway,] Frederick IV[,] to
-            [the Tsar of Russia,] Peter I[,] about Holstein affairs, about <persName key="p0732">the [Russian and Danish] Envoys [to London,] [Hans Christopher] Schleinitz</persName> and <persName key="p1473">[Iver Eriksen] Rosenkrantz, in Danish</persName></title>
+          <title>30 October 1714. – Royal letter from [the King of Denmark and Norway,] Frederick
+            IV[,] to [the Tsar of Russia,] Peter I[,] about Holstein affairs, about <persName
+              key="p0732">the [Russian and Danish] Envoys [to London,] [Hans Christopher] Schleinitz</persName>
+            and <persName key="p1473">[Iver Eriksen] Rosenkrantz, in Danish</persName></title>
           <note>
             <bibl>RGADA, fond 53, opis 4, no 27, f. 1–2, 3. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
-        <p> Durchleuchtigster Großmæghtigste Czar,</p>
-        <p>Elskelige Kiære Broder, Ven og Naboe.</p>
+        <pb n="f. 1" />
+        <opener>
+          <salute>Durchleuchtigster Großmæghtigste Czar,</salute>
+          <salute>Elskelige Kiære Broder, Ven og Naboe.</salute>
+        </opener>
         <p>Saa Kiært og angenem mig det haver været, udaf Eders May[estæ]ts og Kierl[ighe]ds til Mig
           afgangne begge Skrivelser af dato den 20. Septembris styl[i] vet[eris] de Omstændigheder
           af dend, under deris selffegne Höye Persons Anföring befægtede glorieuse victorie imod de
           Svenske at fornemme, og hvor til Jeg fremdeles Lycke samt mere deßlige Progresser af
           Hiertet ynsker, saa smertelig finder Jeg det, som Eders May[estæ]t og Kierl[ighe]d om det
-          engagement med dend itzige <persName key="p0727">Konge af Store Brittannien</persName> haver behaget at anföre, i det de
-          formeene mig skylden, at Tractaten med ermelte Konge ey er kommen til stand, at bilegge.
-          Det er Eders May[estæ]t og Kierl[ighe]d vel erinnerlig, hvor offte Jeg dennem, ved deris
-          Nærværelse i <placeName key="g0397">Husum</placeName> mit Forsæt mig med <persName key="p0739">Kongen i Preußen</persName> og dend da værende <persName key="p0745">Chur Förste af Braunsvig</persName> nærmere at sætte, haver temoigneret: At Jeg siden dend tid paa min Side intet
-          haver forsömmet, sligt at bringe til Ende, kand ingen bedre end E<persName key="p0732">ders May[estæ]ts og Kierl[ighe]ds Ministre von Schleunitz</persName> være vitterligt, efftersom hand over denne materie
-          med min udi <placeName key="g0032">Brunswig</placeName> subsisterende <persName key="p1473">Ministre Plenipotentiaire von Rosencrantz</persName> meget offte
-          har hafft Samtale, og kand Jeg ey Mig andre Tancker giöre, end at hand jo saa vel som
-          deris <persName key="p0729">Ambassadeur Försten Dolgoroucki</persName> de egentlige Omstændigheder af det, hvorpaa Sagen
-          sig haver accrocheret, tydeligen haver refereret, og som de begge til <placeName key="g0482">Trittow</placeName> de af <persName key="p0727">Kongen i Store Brittannien</persName> formerede Prætensioner ey aldeles have fundet billige, og til ey
-          Expedientier </p>
-        <pb n="f. 1v"/>
-        <p> at finde, propositioner have giorte, som dog alligevel paa <persName key="p0727">Kongens af Store Brittanniens</persName>
-          side ey indtil Dato ere komne til Forskin, saa kand Jeg ey anderledes slutte, end at
-          ellers Nogen min gode og sincere Intention hos Eders May[estæ]t og Kierl[ighe]d een
-          gandske anden sensum har villet give. Mens Jeg vil mig kortelig til Sagen selff vende, og
-          Mig paa det hos föyede Project, saasom det samme er bleven forfattet og communiceret,
-          allene referere, ey paatvivlendes Eders May[estæ]t og Kierl[ighe]d jo, naar de det
-          igiennemseet og Omstændighederne overveyet have, effter deris sædvanlige Justice og
-          bekiendte penetration, Mig fremdeles skylden af dette retardement ey mere imputerendes,
-          mens langt heller tilstaaendes vorder, at Jeg alt hvis mig mueligt været, haver giort. Det
-          kommer ogsaa, effterdi mand over Puncterne er eenig, alleene paa Tiden an, saasom <persName key="p0727">Kongen af Store Brittannien</persName> extraditionen af det Brehmische og Vehrdische, saa snart hand med
-          Sverrig har brudt, straxen prætenderer, og Jeg, saa længe Krigen varer, ermelte Provintz,
-          for Indquartering og Subsistence af mine Trouppers skyld, hvoraf Jeg ellers een deel maa
-          aftacke, ingenlunde kand miste, og des foruden dend sunde Fornufft dicterer, at mand for
-          een forventelig u-viß Ting ey bör eller kand saa snart udaf Hænderne lade slippe det, som
-          jure belli med saa stor Möye og Bekostning er bleven acquireret, <persName key="p0727">Kongen i Store Brittannien</persName> ogsaa ved slig trainering ey lider nogen Fare, efftersom Jeg gierne er
-          tilfreds, at hand Eders May[estæ]t og Kierl[ighe]d samt andre Puissancer til Garants
+          engagement med dend itzige <persName key="p0727">Konge af Store Brittannien</persName>
+          haver behaget at anföre, i det de formeene mig skylden, at Tractaten med ermelte Konge ey
+          er kommen til stand, at bilegge. Det er Eders May[estæ]t og Kierl[ighe]d vel erinnerlig,
+          hvor offte Jeg dennem, ved deris Nærværelse i <placeName key="g0397">Husum</placeName> mit
+          Forsæt mig med <persName key="p0739">Kongen i Preußen</persName> og dend da værende <persName
+            key="p0745">Chur Förste af Braunsvig</persName> nærmere at sætte, haver temoigneret: At
+          Jeg siden dend tid paa min Side intet haver forsömmet, sligt at bringe til Ende, kand
+          ingen bedre end E<persName key="p0732">ders May[estæ]ts og Kierl[ighe]ds Ministre von
+          Schleunitz</persName> være vitterligt, efftersom hand over denne materie med min udi <placeName
+            key="g0032">Brunswig</placeName> subsisterende <persName key="p1473">Ministre
+          Plenipotentiaire von Rosencrantz</persName> meget offte har hafft Samtale, og kand Jeg ey
+          Mig andre Tancker giöre, end at hand jo saa vel som deris <persName key="p0729">Ambassadeur
+          Försten Dolgoroucki</persName> de egentlige Omstændigheder af det, hvorpaa Sagen sig haver
+          accrocheret, tydeligen haver refereret, og som de begge til <placeName key="g0482">Trittow</placeName>
+          de af <persName key="p0727">Kongen i Store Brittannien</persName> formerede Prætensioner
+          ey aldeles have fundet billige, og til ey Expedientier </p>
+        <pb n="f. 1v" />
+        <p> at finde, propositioner have giorte, som dog alligevel paa <persName key="p0727">Kongens
+          af Store Brittanniens</persName> side ey indtil Dato ere komne til Forskin, saa kand Jeg
+          ey anderledes slutte, end at ellers Nogen min gode og sincere Intention hos Eders
+          May[estæ]t og Kierl[ighe]d een gandske anden sensum har villet give. Mens Jeg vil mig
+          kortelig til Sagen selff vende, og Mig paa det hos föyede Project, saasom det samme er
+          bleven forfattet og communiceret, allene referere, ey paatvivlendes Eders May[estæ]t og
+          Kierl[ighe]d jo, naar de det igiennemseet og Omstændighederne overveyet have, effter deris
+          sædvanlige Justice og bekiendte penetration, Mig fremdeles skylden af dette retardement ey
+          mere imputerendes, mens langt heller tilstaaendes vorder, at Jeg alt hvis mig mueligt
+          været, haver giort. Det kommer ogsaa, effterdi mand over Puncterne er eenig, alleene paa
+          Tiden an, saasom <persName key="p0727">Kongen af Store Brittannien</persName>
+          extraditionen af det Brehmische og Vehrdische, saa snart hand med Sverrig har brudt,
+          straxen prætenderer, og Jeg, saa længe Krigen varer, ermelte Provintz, for Indquartering
+          og Subsistence af mine Trouppers skyld, hvoraf Jeg ellers een deel maa aftacke, ingenlunde
+          kand miste, og des foruden dend sunde Fornufft dicterer, at mand for een forventelig u-viß
+          Ting ey bör eller kand saa snart udaf Hænderne lade slippe det, som jure belli med saa
+          stor Möye og Bekostning er bleven acquireret, <persName key="p0727">Kongen i Store
+          Brittannien</persName> ogsaa ved slig trainering ey lider nogen Fare, efftersom Jeg gierne
+          er tilfreds, at hand Eders May[estæ]t og Kierl[ighe]d samt andre Puissancer til Garants
           dertil annammer, hand ogsaa sig </p>
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         <p>Selff dend beste Garantie kand præstere. Hvorudaf da Eders May[estæ]t og Kierl[ighe]d
           Selff kand slutte, at Jeg min egen og mine Med-Allieredes Interesse heel vel considererer,
-          og ingenlunde er affgenegen, Mig med <persName key="p0727">Kongen i Store Brittannien</persName> nærmere at sætte, Jeg vil
-          ogsaa gierne paa ny igien derover lade tractere, Mens at Jeg mig udaf Possessionen af een
-          acquirerede Provintz saa længe Krigen varer, skulde lade sætte, det kand Mig med Billighed
-          ey vel anmodes, effterdi Jeg derudinden ey anden end Eders May[estæ]ts og Kierl[ighe]ds
-          eget Exempel, i regard af Liiffland, fölger, og det derforuden er tungt, sig Een andens
-          Discretion at underkaste, da mand offte ickun det blotte Bagsiun haver, og mand ey kand
-          vide, hvad for fatis mand ved dend u-bestandige kriegs Lycke kand blive exponeret. Jeg
-          forbliver med bestandig og oprigtig passion sedse</p>
+          og ingenlunde er affgenegen, Mig med <persName key="p0727">Kongen i Store Brittannien</persName>
+          nærmere at sætte, Jeg vil ogsaa gierne paa ny igien derover lade tractere, Mens at Jeg mig
+          udaf Possessionen af een acquirerede Provintz saa længe Krigen varer, skulde lade sætte,
+          det kand Mig med Billighed ey vel anmodes, effterdi Jeg derudinden ey anden end Eders
+          May[estæ]ts og Kierl[ighe]ds eget Exempel, i regard af Liiffland, fölger, og det
+          derforuden er tungt, sig Een andens Discretion at underkaste, da mand offte ickun det
+          blotte Bagsiun haver, og mand ey kand vide, hvad for fatis mand ved dend u-bestandige
+          kriegs Lycke kand blive exponeret. Jeg forbliver med bestandig og oprigtig passion sedse</p>
         <p>Eders May[estæ]ts og Kierl[ighe]ds</p>
-        <p>Tro Broder, Ven og Naboe.</p>
-        <p><persName key="p0532" type="signature">Friderich R[ex]</persName></p>
-        <p><placeName key="g0006">Kiöbenhafn</placeName>,</p>
-        <p>dend 30. Octobris</p>
-        <p>Anno 1714.</p>
-        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1468" xml:space="default" type="signature">D Wibe</persName></p>
-        
-        <pb n="f. 3"/>
-        <p>Dend <persName key="p0174">Durchläuchtigste Stormägtigste Czar og Stor-Förste utj det heele Ryßland</persName> p[erge].</p>
-        <noteGrp><note>Also see:</note>
-<note>ru_rgada_53_1_1700_7_0001</note>
-<note>ru_rgada_53_3_10_0001</note>
-<note>ru_rgada_53_3_39_0001</note>
-<note>ru_rgada_53_3_16_0001</note> 
-<note>ru_rgada_53_3_21_0001</note>
-<note>ru_rgada_53_4_2_0001</note>
-<note>ru_rgada_53_4_2_0002</note>
-<note>ru_rgada_53_4_18_0001</note>
-<note>ru_rgada_53_4_22_0001</note>
-<note>ru_rgada_53_4_27_0002</note>
-<note>ru_rgada_53_4_27_0003</note>
-<note>ru_rgada_53_4_39_0001</note>
-<note>ru_rgada_53_4_41_0001</note></noteGrp>
+        <closer>
+          <salute>Tro Broder, Ven og Naboe.</salute>
+          <signed>
+            <persName key="p0532" type="signature">Friderich R[ex]</persName>
+          </signed>
+          <dateline><placeName
+              key="g0006">Kiöbenhafn</placeName>,<lb /> dend 30. Octobris<lb /> Anno 1714.</dateline>
+          <signed>
+            <persName key="p1468" type="signature">D Wibe</persName>
+          </signed>
+        </closer>
+
+        <pb n="f. 3" />
+        <postscript>
+          <p>Dend <persName key="p0174">Durchläuchtigste Stormägtigste Czar og Stor-Förste utj det
+            heele Ryßland</persName> p[erge].</p>
+        </postscript>
+        <noteGrp>
+          <note>See also:</note>
+          <note>ru_rgada_53_1_1700_7_0001</note>
+          <note>ru_rgada_53_3_10_0001</note>
+          <note>ru_rgada_53_3_39_0001</note>
+          <note>ru_rgada_53_3_16_0001</note>
+          <note>ru_rgada_53_3_21_0001</note>
+          <note>ru_rgada_53_4_2_0001</note>
+          <note>ru_rgada_53_4_2_0002</note>
+          <note>ru_rgada_53_4_18_0001</note>
+          <note>ru_rgada_53_4_22_0001</note>
+          <note>ru_rgada_53_4_27_0002</note>
+          <note>ru_rgada_53_4_27_0003</note>
+          <note>ru_rgada_53_4_39_0001</note>
+          <note>ru_rgada_53_4_41_0001</note>
+        </noteGrp>
       </div>
     </body>
   </text>

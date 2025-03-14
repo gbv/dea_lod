@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -109,70 +110,108 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:as="http://www.w3.org/ns/activitystreams#"
+        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+        xmlns:org="http://www.w3.org/ns/org#" />
+    </xenoData>
+    <profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>3. Juni 1716. – Declaration of <persName key="p0532"><persName key="p0532">King Frederick IV of Denmark [and Norway]</persName></persName>, made at
-            <placeName key="p0396">Altenau</placeName> at the request of <persName key="p0174">His Majesty Peter I</persName>, concerning the cession of <placeName key="g0350">the City of Wismar</placeName> to <persName key="p0822">the Duke [Charles Leopold] of Mecklenburg-Schwerin</persName>, with the consent
-            of <persName key="p0727">the Kings of England [Georg I]</persName> and <persName key="p0739">Prussia [Frederick Wilhelm I]</persName>, on condition that
-            not only shall nothing be demanded for the fodder taken from his lands for the Danish
-            troops, but that all justice shall be done in the claim of <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1469" xml:space="default">the Queen of Denmark [Louise]</persName>
+          <title>3. Juni 1716. – Declaration of <persName key="p0532">
+              <persName key="p0532">King Frederick IV of Denmark [and Norway]</persName>
+            </persName>,
+            made at <placeName key="p0396">Altenau</placeName> at the request of <persName
+              key="p0174">His Majesty Peter I</persName>, concerning the cession of <placeName
+              key="g0350">the City of Wismar</placeName> to <persName key="p0822">the Duke [Charles
+            Leopold] of Mecklenburg-Schwerin</persName>, with the consent of <persName key="p0727">the
+            Kings of England [Georg I]</persName> and <persName key="p0739">Prussia [Frederick
+            Wilhelm I]</persName>, on condition that not only shall nothing be demanded for the
+            fodder taken from his lands for the Danish troops, but that all justice shall be done in
+            the claim of <persName cert="high" evidence="internal" full="yes" generatedBy="human"
+              instant="unknown" key="p1469" xml:space="default">the Queen of Denmark [Louise]</persName>
             and her sisters to the inheritance</title>
           <note>
             <bibl>RGADA, fond 53, opis 3, no. 39, f. 1–1v, 2. German original.</bibl>
             <bibl>RGADA, fond 53, opis 3, no. 39, f. 6–6v. German copy.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
-        <p> Nachdemmahlen von Seiten <persName key="p0174">Seiner Czaarischen May[estät]</persName> bey Unß der Antrag geschehen, Wir
-          möchten bey Unseren Hohen Mit-Alliirten, es in die Wege zu richten, Unß befleißigen, daß
-          <placeName key="g0350">die Stadt Wismar</placeName> nach deren völligen demolirung des <persName key="p0822">Herrn Hertzogen von Mecklenburg Schwerin</persName> L[ie]bd[en] verbleiben möchte; So können Wir Unß nicht entlegen, <persName key="p0174">Seiner Czaarischen May[estät]</persName> und L[ie]bd[en] zu reiffter Erwegung vorzustellen, welchergestalt
-          Wir laut denen mit <persName key="p0727; p0739">den Königen von Groß-Brittannien und Preußen May[estät] May[estät]</persName>
-          errichteten Tractaten, Sämbtlich verbunden, gedachte <placeName key="g0350">Stadt Wismar</placeName>, nach deren occupirung
-          zu einer Reichs-Stadt gedeyen zu laßen; wie dann desfalß die Insinuationes beym
-          <orgName key="o0023">Keyserl[ichen] Hoffe</orgName> bereits geschehen, wannenhero eine Veränderung, in einer aus
-          Tractaten herrührende Sache, zu machen, wohl bedencklich seyn würde; Nichts destoweniger
-          haben Wir auf Intercession und in Consideration <persName key="p0174">Seiner Czaarischen May[estät]</persName> hiemit
-          versprechen wollen, Unsern officia bey <persName key="p0727; p0739">denen Königen von Groß-Brittannien und Preußen May[estät] May[estät]</persName> dahin anzuwenden, daß <placeName key="g0350">Wismar</placeName> mit deßen Pertinentzien, nach vorhero
-          geschehener vollenkommenen Demolition, Seiner L[ie]bd[en] <persName key="p0822">des Hertzogs von Schwerin</persName>
-          L[ie]bd[en], wegen der aus deßen Landen gehobene fourage und Subsistence für Unsere
-          Trouppen, wie es Nahmen haben möge, etwann gemacht, oder wegen des vorigen und </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1" />
+        <p> Nachdemmahlen von Seiten <persName key="p0174">Seiner Czaarischen May[estät]</persName>
+          bey Unß der Antrag geschehen, Wir möchten bey Unseren Hohen Mit-Alliirten, es in die Wege
+          zu richten, Unß befleißigen, daß <placeName key="g0350">die Stadt Wismar</placeName> nach
+          deren völligen demolirung des <persName key="p0822">Herrn Hertzogen von Mecklenburg
+          Schwerin</persName> L[ie]bd[en] verbleiben möchte; So können Wir Unß nicht entlegen, <persName
+            key="p0174">Seiner Czaarischen May[estät]</persName> und L[ie]bd[en] zu reiffter
+          Erwegung vorzustellen, welchergestalt Wir laut denen mit <persName key="p0727; p0739">den
+          Königen von Groß-Brittannien und Preußen May[estät] May[estät]</persName> errichteten
+          Tractaten, Sämbtlich verbunden, gedachte <placeName key="g0350">Stadt Wismar</placeName>,
+          nach deren occupirung zu einer Reichs-Stadt gedeyen zu laßen; wie dann desfalß die
+          Insinuationes beym <orgName key="o0023">Keyserl[ichen] Hoffe</orgName> bereits geschehen,
+          wannenhero eine Veränderung, in einer aus Tractaten herrührende Sache, zu machen, wohl
+          bedencklich seyn würde; Nichts destoweniger haben Wir auf Intercession und in
+          Consideration <persName key="p0174">Seiner Czaarischen May[estät]</persName> hiemit
+          versprechen wollen, Unsern officia bey <persName key="p0727; p0739">denen Königen von
+          Groß-Brittannien und Preußen May[estät] May[estät]</persName> dahin anzuwenden, daß <placeName
+            key="g0350">Wismar</placeName> mit deßen Pertinentzien, nach vorhero geschehener
+          vollenkommenen Demolition, Seiner L[ie]bd[en] <persName key="p0822">des Hertzogs von
+          Schwerin</persName> L[ie]bd[en], wegen der aus deßen Landen gehobene fourage und
+          Subsistence für Unsere Trouppen, wie es Nahmen haben möge, etwann gemacht, oder wegen des
+          vorigen und </p>
+        <pb n="f. 1v" />
         <p> dieses Jahres, noch zu machende prætensiones, würcklich cessiren, aufhören und deren ins
           künfftige keine gemachet oder desfalß formiret, sondern vielmehr an erwehnten prætensionen
           renuncieret werden soll. Nichtweniger stipuliren Wir gleichfalß hiebey, daß Unß eine
-          positive und zulängliche Versicherung, von Seiten des <persName key="p0822">Hertzogs von Mecklenburg, Schwerin</persName>
-          L[ie]bd[en] gegeben werde, <persName key="p1469">Unsere Gemahlnin der Königinn May[estät]</persName> und L[ie]bd[en] sambt
-          deren Geschwistern L[ie]bd[en] L[ie]bd[en] wegen <persName key="p1472">Ihres Sehl[igen] Herrn Vatern des Hertzogen von Mecklenburg Güstrow</persName> verlaßenschafft, sowohl die Außsteuer, alß die
-          Allodial-Güther betreffend, promptè und zwar in einer gewißen Zeit gehörige Justice
+          positive und zulängliche Versicherung, von Seiten des <persName key="p0822">Hertzogs von
+          Mecklenburg, Schwerin</persName> L[ie]bd[en] gegeben werde, <persName key="p1469">Unsere
+          Gemahlnin der Königinn May[estät]</persName> und L[ie]bd[en] sambt deren Geschwistern
+          L[ie]bd[en] L[ie]bd[en] wegen <persName key="p1472">Ihres Sehl[igen] Herrn Vatern des
+          Hertzogen von Mecklenburg Güstrow</persName> verlaßenschafft, sowohl die Außsteuer, alß
+          die Allodial-Güther betreffend, promptè und zwar in einer gewißen Zeit gehörige Justice
           wiederfahren und einem Jeden das Seinige, so Ihm zukommet, reichen zu laßen. Uhrkundtlich
-          unter Unserm Königl[ichen] HandZeichen und fürgedrücktem Insiegel. Geben in Unserer <placeName key="g0347">Stadt Altona</placeName>, den 3<hi rendition="#sup">n</hi>. Junii, A[nn]o 1716./.</p>
-        <p><persName key="p0532" type="signature">Friderich R[ex]</persName></p>
-       
-        <p><persName key="p1468" type="signature">D Wibe</persName></p>
-        
-        <pb n="f. 2"/>
-        <p> Переведено.</p>
-        <noteGrp><note>Also see:</note>
-<note>ru_rgada_53_1_1700_7_0001</note>
-<note>ru_rgada_53_1_1716_2_0001</note>
-<note>ru_rgada_53_1_1716_2_0002</note>
-<note>ru_rgada_53_3_10_0001</note>
-<note>ru_rgada_53_3_16_0001</note>
-<note>ru_rgada_53_3_21_0001</note>
-<note>ru_rgada_53_4_2_0001</note>
-<note>ru_rgada_53_4_2_0002</note>
-<note>ru_rgada_53_4_18_0001</note>
-<note>ru_rgada_53_4_22_0001</note>
-<note>ru_rgada_53_4_27_0001</note>
-<note>ru_rgada_53_4_27_0002</note>
-<note>ru_rgada_53_4_27_0003</note>
-<note>ru_rgada_53_4_39_0001</note>
-<note>ru_rgada_53_4_41_0001</note></noteGrp>
+          unter Unserm Königl[ichen] HandZeichen und fürgedrücktem Insiegel. Geben in Unserer <placeName
+            key="g0347">Stadt Altona</placeName>, den 3<hi rendition="#sup">n</hi>. Junii, A[nn]o
+          1716./.</p>
+        <p>
+          <persName key="p0532" type="signature">Friderich R[ex]</persName>
+        </p>
+
+        <p>
+          <persName key="p1468" type="signature">D Wibe</persName>
+        </p>
+
+        <pb n="f. 2" />
+        <note place="foot">Переведено.</note>
+        <noteGrp>
+          <note>Also see:</note>
+          <note>ru_rgada_53_1_1700_7_0001</note>
+          <note>ru_rgada_53_1_1716_2_0001</note>
+          <note>ru_rgada_53_1_1716_2_0002</note>
+          <note>ru_rgada_53_3_10_0001</note>
+          <note>ru_rgada_53_3_16_0001</note>
+          <note>ru_rgada_53_3_21_0001</note>
+          <note>ru_rgada_53_4_2_0001</note>
+          <note>ru_rgada_53_4_2_0002</note>
+          <note>ru_rgada_53_4_18_0001</note>
+          <note>ru_rgada_53_4_22_0001</note>
+          <note>ru_rgada_53_4_27_0001</note>
+          <note>ru_rgada_53_4_27_0002</note>
+          <note>ru_rgada_53_4_27_0003</note>
+          <note>ru_rgada_53_4_39_0001</note>
+          <note>ru_rgada_53_4_41_0001</note>
+        </noteGrp>
       </div>
     </body>
   </text>
