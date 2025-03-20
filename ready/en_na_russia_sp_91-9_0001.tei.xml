@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,60 +98,35 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
-    </xenoData>
-    <profileDesc>
+    
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>20 May 1716. – Copy of the project of a defensive alliance, given to <persName
-              key="p1190">the Ambassador Plenipotentiary of His Czarish Majesty, Prince [Boris
-            Ivanovich] Kurakin</persName> at <placeName key="g0396"
-              ref="https://www.geonames.org/2957880">Altenau</placeName> on 20th of May 1716 and
-            which was then communicated by the same Ambassador at <placeName key="g0004"
-              ref="https://www.geonames.org/2747373">The Hague</placeName> on 5th of June 1716 to <persName
-              key="p1511">M[iste]r [Robert] Walpole, Minister of Great Britain</persName></title>
-          <note>
-            <bibl>NA Kew, Russia, no. SP 91-9, f. 39-41v. French copy.</bibl>
+          <title>20 May 1716. – Copy of the project of a defensive alliance, given to <persName key="p1190">the Ambassador Plenipotentiary of His Czarish Majesty, Prince [Boris
+            Ivanovich] Kurakin</persName> at <placeName key="g0396" ref="https://www.geonames.org/2957880">Altenau</placeName> on 20th of May 1716 and
+            which was then communicated by the same Ambassador at <placeName key="g0004" ref="https://www.geonames.org/2747373">The Hague</placeName> on 5th of June 1716 to <persName key="p1511">M[iste]r [Robert] Walpole, Minister of Great Britain</persName></title>
+          <note><bibl>TNA Kew, Russia, no. SP 91-9, f. 39-41v. French copy.</bibl>
           </note>
         </head>
-        <pb
-          cert="high" generatedBy="human" n="f. 39" xml:space="default" />
+        <pb cert="high" generatedBy="human" n="f. 39" xml:space="default"/>
         <p> Copie du Projet d’une alliance defensive, donné a <persName key="p1190">l’Ambassadeur
           Plenipotentiaire de Sa
-            Majesté Czarienne le Prince de Courackin</persName> a <placeName key="g0396"
-            ref="https://www.geonames.org/2957880">Altenau</placeName> le 20.<hi cert="high"
-            generatedBy="human" rendition="#sup" xml:space="default">e</hi> de May 1716 et qui a été
-          aprés communiqué par le même Ambassadeur a <placeName key="g0004"
-            ref="https://www.geonames.org/2747373">la Haye</placeName> le 5e de Juin 1716 à <persName
-            key="p1511">Mons[ieu]<hi cert="high" generatedBy="human" rendition="#sup"
-              xml:space="default">r</hi> Walpole Ministre de la Grande Bretagne</persName></p>
+            Majesté Czarienne le Prince de Courackin</persName> a <placeName key="g0396" ref="https://www.geonames.org/2957880">Altenau</placeName> le 20.<hi cert="high" generatedBy="human" rendition="#sup" xml:space="default">e</hi> de May 1716 et qui a été
+          aprés communiqué par le même Ambassadeur a <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName> le 5e de Juin 1716 à <persName key="p1511">Mons[ieu]<hi cert="high" generatedBy="human" rendition="#sup" xml:space="default">r</hi> Walpole Ministre de la Grande Bretagne</persName></p>
         <p>Soit
           notoire a tous ceux qu’il appartiendra.</p>
         <p>Comme il est evident que la guerre du Nord apporte a toute l’Europe un prejudice
-          considerable, et en particulier aux sujets de <persName
-            key="p0727">Sa Majesté Britannique</persName> par rapport a leurs commerces, ce qui a
+          considerable, et en particulier aux sujets de <persName key="p0727">Sa Majesté Britannique</persName> par rapport a leurs commerces, ce qui a
           obligé <persName key="p0727">Sa M[ajes]<hi rendition="#sup">té </hi>Britannique</persName>
           a faire demander plusiers [sic] fois au <persName key="p0193">Roy de Suede</persName> la
           reparation des pertes que les sujets de la grande Bretagnes ont souffertes par la prise et
           confiscations que les Suedois ont faites dans la mer Baltique de leurs vaisseaux et de
           leurs cargaisons. <persName key="p0727">Sa M[ajes]<hi rendition="#sup">té</hi>
-          Br[itannique]</persName> n’ayant pû avoir aucune reponse satisfactoire du <persName
-            key="p0193">Roy de Suede</persName>, au sujet de la dite reparation, et etant au
+          Br[itannique]</persName> n’ayant pû avoir aucune reponse satisfactoire du <persName key="p0193">Roy de Suede</persName>, au sujet de la dite reparation, et etant au
           contraire informé que <persName key="p0193">Le
             Roy de Suede</persName> a renouvellé ses ordres pour faire saisir les vaisseaux Anglois
           qui iroient trafiquer dans la mer Baltique, et non content de cela il a formé d’autres
@@ -163,11 +137,10 @@
           empeche que <persName key="p0193">le Roy de Suede</persName> ne transporte des trouppes en
           Allemagne ou en d’autres Etats des Alliés du Nord, ou cela pourroit rallumer le feu de la
           guerre qu’on tache d’eteindre pour </p>
-        <pb n="f. 39v" />
+        <pb n="f. 39v"/>
         <p> le bien et le repos de toute
           l’Europe. </p>
-        <p>Mais pour faire voir combien <persName key="p0727">Sa Maj[es]<hi
-              rendition="#sup">té </hi>Britannique</persName> desire que la guerre du Nord soit
+        <p>Mais pour faire voir combien <persName key="p0727">Sa Maj[es]<hi rendition="#sup">té </hi>Britannique</persName> desire que la guerre du Nord soit
           promptement terminée; Elle ne manquera pas de faire en même tems des fortes instances
           auprés du <persName key="p0193">Roy de Suede</persName> pour le disposer a conclure la
           paix sur le pied que l’état present des affaires le permet et pour le porter a donner aux
@@ -175,18 +148,12 @@
           retablir un libre commerce dans la mer Baltique: <persName key="p0727">Sa Majesté
           Brittanique</persName> etant persuadée que le meilleur moyen de reussir dans des vues si
           raisonnables, est de s’unir a cette fin avec Les Puissances qui sont le plus en etat et en
-          intention d’y contribuer; Elle a jugé a propos de convenir avec <persName cert="high"
-            evidence="internal" full="yes"
-            generatedBy="human" instant="unknown" key="p0174" xml:space="default">Sa Majesté
+          intention d’y contribuer; Elle a jugé a propos de convenir avec <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0174" xml:space="default">Sa Majesté
           Czarienne</persName> d’une Alliance defenisive, d’autant plus que <persName key="p0727">Sa
-          Majesté Britannique</persName> est pleinement informée de la sincere disposition ou <persName
-            cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
-            key="p0174" xml:space="default">S[a] M[ajesté] Cz[ari]enne</persName> se trouve depuis
+          Majesté Britannique</persName> est pleinement informée de la sincere disposition ou <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0174" xml:space="default">S[a] M[ajesté] Cz[ari]enne</persName> se trouve depuis
           long tems, qui n’a été retardée que par l’opiniatreté du <persName key="p0193">Roy de
           Suede</persName>, et par la repugnance qu’il a pour toute pensée pacifique.</p>
-        <p>Pour cet effet <persName
-            cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown"
-            key="p0174" xml:space="default">Sa Majesté Czarienne</persName> a muni du pleinpouvoirs
+        <p>Pour cet effet <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0174" xml:space="default">Sa Majesté Czarienne</persName> a muni du pleinpouvoirs
           necessaires…</p>
         <p>et <persName key="p0727">Sa Majesté Britannique</persName> ayant de son coté muni des
           semblales pleinpouvoirs…</p>
@@ -194,13 +161,11 @@
           ordinaire sont tombés d’accord des conditions
           suivantes.</p>
         <p>(1.</p>
-        <p>Il y aura une amitié ferme et sincere et une alliance defensive entre <persName
-            cert="high" evidence="internal" full="yes" generatedBy="human"
-            instant="unknown" xml:space="default" key="p0174">Sa Majesté Czarienne</persName> et ses
+        <p>Il y aura une amitié ferme et sincere et une alliance defensive entre <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0174">Sa Majesté Czarienne</persName> et ses
           successeurs d’une part, et <persName key="p0727">Sa Majesté Britannique</persName> et ses
           successeurs d’autre part, la quelle alliance sera entretenue de part et d’autre avec tout
           le soin d’employer toutes </p>
-        <pb n="f. 40" />
+        <pb n="f. 40"/>
         <p> sortes des moyens pour detourner
           reciproquement ce qui pourroit leur etre prejudiciable,
           et pour se procurer l’un et l’autre toutes sortes de bien et d’avantages.</p>
@@ -220,8 +185,7 @@
           cela contre qui que ce puisse etre, selon l’usage ordinaire des alliances defensives.</p>
         <p>(4.</p>
         <p>On conviendra d’un Traité de commerce, qui sera fait et reglé aprés la ratification de ce
-          Traité, et qui sera observé exactement de part et d’autre, en sorte que les sujets de <persName
-            key="p0727">Sa Majesté
+          Traité, et qui sera observé exactement de part et d’autre, en sorte que les sujets de <persName key="p0727">Sa Majesté
             Britannique</persName> seront traités dans tous les etats de <persName key="p0174">S[a]
           M[ajesté] Cz[ari]enne</persName> ut gens amicissima y jouissant de tous les privileges qui
           seront accordés par rapport au commerce, a quelque autre nation que se puisse [sic] etre,
@@ -231,41 +195,30 @@
         <p>(5.</p>
         <p>Si <persName key="p0727">Sa Majesté Britannique</persName> ou Ses successeurs sont
           attaqués </p>
-        <pb n="f. 40v" />
+        <pb n="f. 40v"/>
         <p> ou troublés dans leurs Etats, ou dans Leurs droits, soit a cause de leur succession
           etablie par les loix de la grande Bretagne dans la ligne protestante, soit pour quelque
-          autre sujet que ce puisse être, <persName
-            key="p0174">Sa Majesté Cz[ari]enne</persName> s’oblige pour Elle et pour Ses successeurs
+          autre sujet que ce puisse être, <persName key="p0174">Sa Majesté Cz[ari]enne</persName> s’oblige pour Elle et pour Ses successeurs
           a les assister a Ses depens, deux mois aprés la requisition faite, de cinq, six, huit ou
           même dix mille fantassins, pour servir dans l’endroit ou <persName key="p0727">Sa Majesté
           Britannique</persName> le desirera. <persName key="p0174">Sa M[ajesté] Cz[ari]enne</persName>
           envoyera ce corps sous le commandement d’un de Ses Generaux, qui avec tous les autres
           generaux et officiers sera sous le commandement du General en Chef de Sa M. Brittanique:
-          Et <persName
-            key="p0174">Sa Majesté Czarienne</persName> se reserve le droit de remplir les places
-          des Officiers qui viendront a vaquer, pendant que ce corps sera au service de <persName
-            key="p0727">S[a] M[ajesté] Britannique</persName>, et pendant tout ce tems là, le dit
+          Et <persName key="p0174">Sa Majesté Czarienne</persName> se reserve le droit de remplir les places
+          des Officiers qui viendront a vaquer, pendant que ce corps sera au service de <persName key="p0727">S[a] M[ajesté] Britannique</persName>, et pendant tout ce tems là, le dit
           corps agira sous les ordres de <persName key="p0727">Sa dite Majesté Britannique</persName>
           et de Son general.</p>
         <p>(6.</p>
         <p><persName key="p0174">Sa Majesté Czarienne</persName> se charge de faire transporter a
-          ses depens les trouppes susdites jusqu’a <placeName
-            key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName> prés de <placeName
-            key="g0154" ref="https://www.geonames.org/2875601">Lubeck</placeName> ou <persName
-            key="p0727">Sa Majesté Britannique</persName> les fera recevoir et transporter a Ses
+          ses depens les trouppes susdites jusqu’a <placeName key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName> prés de <placeName key="g0154" ref="https://www.geonames.org/2875601">Lubeck</placeName> ou <persName key="p0727">Sa Majesté Britannique</persName> les fera recevoir et transporter a Ses
           depens dans l’endroit ou Elle aura besoin de les employer, et pendant tout le tems que ces
-          trouppes demeureront a son service, a conter depuis le jour de Leur arrivée a <placeName
-            key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName> ; Elle
+          trouppes demeureront a son service, a conter depuis le jour de Leur arrivée a <placeName key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName> ; Elle
           l’engage a leur fournir les vivres, le fourage le quartier et les chariots, tout comme a
           ses propres trouppes, et lorsqu’Elle n’en aura plus besoin, Elle s’oblige a les faire
-          transporter a ses depens jusqu’au dit <placeName key="g0432"
-            ref="https://www.geonames.org/2821480">Travemunde</placeName>, ou <persName key="p0174">S[a]
+          transporter a ses depens jusqu’au dit <placeName key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName>, ou <persName key="p0174">S[a]
           M[ajesté] Cz[ari]enne</persName> les fera recevoir, et conduire dans ses Etats a ses
-          depens. <persName
-            key="p0727">Sa M[ajesté] Britanique</persName> se charge ce cas existant de disposer <orgName
-            key="o0123">le Magistrat de Lubeck</orgName> a recevoir dans leur havre de </p>
-        <pb
-          n="f. 41" />
+          depens. <persName key="p0727">Sa M[ajesté] Britanique</persName> se charge ce cas existant de disposer <orgName key="o0123">le Magistrat de Lubeck</orgName> a recevoir dans leur havre de </p>
+        <pb n="f. 41"/>
         <p>
           <placeName key="g0432" ref="https://www.geonames.org/2821480">Travemunde</placeName> le
           dit corps Rissien, lorsqu’il y debarquera, en allant et en retournant, et a Luy donner
@@ -277,23 +230,19 @@
             Cz[ari]enne</persName> de tout Son pouvoir, et de tout Son credit, pour qu’en vertu de
           cette paix là, la Couronne de Suede cede et laisse a perpetuité a <persName key="p0174">S[a]
           M[ajesté] Cz[ari]enne</persName>: et a Ses Successeurs les provinces qui sont a present
-          actuellement sous la domination de <persName key="p0174">Sa dite M[ajes]<hi
-              rendition="#sup">
+          actuellement sous la domination de <persName key="p0174">Sa dite M[ajes]<hi rendition="#sup">
               té</hi> Cz[ari]enne</persName>, l’Ingrie, la Livonie, l’Estonie, la Carelie avec
-          toutes les autres dependences, inclusivement la ville de <placeName key="g0433"
-            ref="https://www.geonames.org/470546">Wiburg</placeName>; et si <persName key="p0174">Sa
+          toutes les autres dependences, inclusivement la ville de <placeName key="g0433" ref="https://www.geonames.org/470546">Wiburg</placeName>; et si <persName key="p0174">Sa
           M[ajesté] Cz[ari]enne</persName> ou Ses successeurs viennent a être attaqués et troublés
           dans ces Provinces et places; <persName key="p0727">S[a] M[ajesté] Br[itannique]</persName>
           s’oblige pour Elle et pour Ses Successeurs, de les assister a ses propres depens, deux
           mois aprés la requisition faite, de quinze vaisseaux de ligné, qui seroient dans l’endroit
-          ou <persName
-            key="p0174">Sa M[ajesté] Cz[ari]enne</persName> le desirera, et la dite Esquadre agira
+          ou <persName key="p0174">Sa M[ajesté] Cz[ari]enne</persName> le desirera, et la dite Esquadre agira
           sous les ordres de <persName key="p0174">Sa Majesté Czarienne</persName> et de Son
           Ammiral. </p>
         <p>
           (8.</p>
-        <p>Si les Etats Generaux entrent dans ce Traité, ainsÿ qu’ils y sont invités, <persName
-            key="p0174">Sa M[ajesté] Cz[ari]enne</persName> promet de les assister pour la securité
+        <p>Si les Etats Generaux entrent dans ce Traité, ainsÿ qu’ils y sont invités, <persName key="p0174">Sa M[ajesté] Cz[ari]enne</persName> promet de les assister pour la securité
           de leur Barriere, du même nombre des trouppes cy dessus specifié, et de les admettre au
           même Traité de commerce.</p>
         <p>(.9.</p>
@@ -308,7 +257,7 @@
         <p>Les
           ratifications de ce present Traité seront echangées en deux mois de tems a conter du
           jour de la signature de ce Traité, ou plûtôt s’il se peut fait a… ss.</p>
-        <pb n="f. 41v" />
+        <pb n="f. 41v"/>
         <p>
           Article separé</p>
         <p>Et afin que tant ce qui est contenu dans le preambule de ce Traité principal d’alliance
@@ -319,17 +268,14 @@
           les pertes et dommages qui Leurs ont été causées par les prises et confiscations que La
           Couronne de Suede a fait faire de Leurs vaisseaux et effets. Comme aussi pour mettre La
           Couronne de La Grande Bretagne entierement a couvert des desseins vastes et prejudiciables
-          que <persName key="p0193">Le Roy de Suede</persName> a formé contre Elle, et pour aider <persName
-            key="p0174">Sa Majesté Czarienne</persName> a obtenir une paix hereuse et generale afin
+          que <persName key="p0193">Le Roy de Suede</persName> a formé contre Elle, et pour aider <persName key="p0174">Sa Majesté Czarienne</persName> a obtenir une paix hereuse et generale afin
           qu’Elle soit d’autant mieux en état de donner a <persName key="p0727">Sa Majesté
           Br[itannique]</persName> en cas de besoin l’assistance promise.</p>
-        <p>Pour ces raisons <persName
-            key="p0727">Sa Majesté Royale de la Grande Bretagne</persName> s’oblige de son coté
+        <p>Pour ces raisons <persName key="p0727">Sa Majesté Royale de la Grande Bretagne</persName> s’oblige de son coté
           d’envoyer dans la mer Baltique la campagne prochaine de cette année cy aussitôt qu’il sera
           possible et a ses propres depens une Escadre de quinze Vaisseaux d[e] Ligne, qui doit agir
           offensivement conjointement avec la flotte de <persName key="p0174">S[a] M[ajesté]
-          Czarienne</persName>, selon que la raison de guerre l’exigera, a la disposition de <persName
-            key="p0174">S[a]
+          Czarienne</persName>, selon que la raison de guerre l’exigera, a la disposition de <persName key="p0174">S[a]
             M[ajesté] Cz[ari]enne</persName>, de la quelle, cette Escadre doit dependre.</p>
         <p>Et si par les armes communes cette guerre ne sçauroit être terminée dans cette campagne,
           et qu’on ne puisse reduire <persName key="p0193">le Roy de Suede</persName> a une paix
