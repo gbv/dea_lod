@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -131,10 +134,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-66_0015.tei.xml?place_annotation_20250207174227636",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/en_na_russia_sp_91-66_0015.tei.xml?place_annotation_20250207174227636",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-07T16:42:27.636Z",
-	"dcterms:modified": "2025-02-07T16:42:27.636Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -145,10 +147,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-66_0015.tei.xml?place_annotation_20250207174227636#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/en_na_russia_sp_91-66_0015.tei.xml?place_annotation_20250207174227636#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-66_0015.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/en_na_russia_sp_91-66_0015.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -159,7 +161,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-66_0015.tei.xml?place_annotation_20250207174227636#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/en_na_russia_sp_91-66_0015.tei.xml?place_annotation_20250207174227636#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/placeName"
 		}
@@ -186,9 +188,9 @@
       <div type="letter">
         <head>
           <title>11 / 22 July 1758. – List of supporting documents accompanying the note delivered
-            on 11th July old style 1758 by  <persName key="p0145">His Excellency Count [Mikhail
+            on 11th July old style 1758 by <persName key="p0145">His Excellency Count [Mikhail
             Illarionovich]
-              Vorontsov</persName> to <persName key="p0085">Mister [Robert Murray] Keith</persName>
+              Vorontsov</persName> to <persName key="p0085">[the British Envoy Extraordinary to Russia,] Mister [Robert Murray] Keith,</persName>
             concerning the vessel from <placeName key="Gdańsk Pomerania Poland" ref="https://geonames.org/3099434">Dantzig</placeName> l'Été taken by an English ship</title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-66, f. 142. French copy.</bibl>
