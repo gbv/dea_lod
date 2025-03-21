@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -95,20 +97,8 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
-    </xenoData>
-    <profileDesc>
+    
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -120,7 +110,7 @@
           of Russia Peter I</persName>
           </title>  </head>
         <p>
-          <bibl>NA Kew, Russia, no. SP 91-8, s.p. French copy.</bibl>
+          <bibl>TNA Kew, Russia, no. SP 91-8, s.p. French copy.</bibl>
         </p>
       </div>
       <div type="letter">
@@ -147,8 +137,7 @@
           dedommagé du passe, et à l’avenir traité sur un pied, qu’Il ne saura <hi rendition="#u">que
           pretendre de
             droit</hi>, sans manquer à Ses devoirs. Quand mêmes il ne fut plus fondé en cette
-          demande, qu’en ce qu’il est de fait, qu’Il avoit offerte Sa Creditive au <persName
-            key="p0071">Chanc[elie]r Comte de Galoffkin</persName>, bien de jours <hi rendition="#u">avant
+          demande, qu’en ce qu’il est de fait, qu’Il avoit offerte Sa Creditive au <persName key="p0071">Chanc[elie]r Comte de Galoffkin</persName>, bien de jours <hi rendition="#u">avant
           l’arrivée de lettre formelle de notification de la Mort de la<persName key="p0668"> Reine</persName>
           </hi>;
           que par Nôtre Constitution, l’on savoit parfaitement bien ici, que <hi rendition="#u">Ses
