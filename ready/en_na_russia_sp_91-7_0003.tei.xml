@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -127,10 +130,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-08T13:59:30.930Z",
-	"dcterms:modified": "2025-02-08T13:59:30.930Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -141,10 +143,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-7_0003.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/en_na_russia_sp_91-7_0003.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -155,7 +157,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Dennis/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/en_na_russia_sp_91-7_0003.tei.xml?place_annotation_20250208145930930#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/placeName[2]"
 		}
@@ -181,8 +183,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>10 June 1712. – Answer to the Points deliver’d in by <persName key="p1255">the British Ambassador</persName></title><note>
-            <bibl>NA Kew, Russia, no. SP 91-7, f. 295-295v. English copy.</bibl>
+          <title>10 June 1712. – Answer to the Points deliver’d in by <persName key="p1255">the British Ambassador [to Russia, Charles Whitworth]</persName></title><note>
+            <bibl>TNA Kew, Russia, no. SP 91-7, f. 295-295v. English copy.</bibl>
           </note>
         </head>
         <pb n="f. 295"/>
