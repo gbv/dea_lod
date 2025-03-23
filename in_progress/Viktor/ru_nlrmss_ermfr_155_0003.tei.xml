@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,33 +94,30 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>c. 1717. – Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
-            <hi rendition="#b"> to </hi>
-            <persName key="p0000">Unknown</persName>
+          <title>c. 1717. – Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
+             to an unkown recepient
           </title>
           <note>
             <bibl>NLR Mss, fond Erm. fr., no. 155, f. 110v. French original.</bibl>
           </note>
         </head>
-        <p />
-        <pb n="f. 110v" />
-        <p />
+        <p/>
+        <pb n="f. 110v"/>
+        <p/>
         <p>5.</p>
         <p>A Monsieur,</p>
         <p>Si j'avois quelque credit sur vôtre esprit, vous ne vous irez point coucher sans ecrire un petit billet françois, et dès ce moment, vous prendriez la plume, et vous vous mettriez à le faire. La matiere ne sçauroit vous manquer puisque je sçay par experience que vous étes tres-abondant, sur tous les sujets que vous traitez. D'ailleurs il n'est nullement besoin d'y aller chercher tant de façons. Il vaut autant m'entretenir de quelque bagatelle qui égaye que de quelque sujet d'importance. Je ne vous demande que cinq ou six lignes sur tout ce qu'il vous plaira. La maniere dont vous traitez les plus petites choses me les rend agreables, et estimables. Ne reculez donc point, et accordez moy sur le champs, la priere que je vous fais,</p>
-        <p />
+        <p/>
         <p>Monsieur,</p>
         <p>vôtre etc.</p>
-        <p />
+        <p/>
         <p>ru_nlrmss_ermfr_155_0001</p>
         <p>ru_nlrmss_ermfr_155_0002</p>
         <p>ru_nlrmss_ermfr_155_0004</p>
@@ -159,7 +153,7 @@
         <p>ru_nlrmss_ermfr_155_0034</p>
         <p>ru_nlrmss_ermfr_155_0035</p>
         <p>ru_nlrmss_ermfr_155_0036</p>
-        <p />
+        <p/>
       </div>
     </body>
   </text>
