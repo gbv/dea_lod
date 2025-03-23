@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,31 +94,23 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1717. – Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
-            to <persName key="p0000">Unknown</persName>
-          </title>
-          <note>
+          <title>1717. – Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
+            to an u<persName key="p0000">nknown recepient</persName></title><note>
             <bibl>NLR Mss, Erm fr., no. 155, f. 106. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 106" />
+        <pb n="f. 106"/>
         <p>14.</p>
         <p>A Monsieur,</p>
-        <p>Il nous est ce matin arrivé des nouvelles de Hollande. <orgName
-            key="o0071"
-            ref="4e9141aa-af2c-4b0c-9cd2-095b20109898">La Gazette</orgName> donne à entendre que les
-          Turcs vont bien tailler des croupieres au <persName
-            key="p0302"
-            ref="762eb30c-875b-4f66-9016-5007183803e4">Prince Eugene de Savoye</persName>. Ils se
+        <p>Il nous est ce matin arrivé des nouvelles de Hollande. <orgName key="o0071" ref="4e9141aa-af2c-4b0c-9cd2-095b20109898">La Gazette</orgName> donne à entendre que les
+          Turcs vont bien tailler des croupieres au <persName key="p0302" ref="762eb30c-875b-4f66-9016-5007183803e4">Prince Eugene de Savoye</persName>. Ils se
           sont [illigible] à six liëus de son camp, au nombre de plus de trois cens mille hommes. Si
           l'on peut s'en rapporter aux avis reiterez qu'on a reçus. Le Camp des Turcs est sur la
           rive droite du Danube. Ainsi ils sont à portée d'envoyer un gros corps au delà de ce
@@ -132,9 +121,7 @@
           semble. Du moins elle a<note place="foot">Corrected to : a-t-elle.</note> été un peu mal
           traitée, car elle a été obligée de s'arrêter à l'ile de Sapienza proche de la morée pour
           se redouter<note place="foot">Corrected by another hand to: radouber (to dread).</note>.
-          L'escadre Espagnole a fait voile de <placeName
-            key="g0240"
-            ref="https://www.geonames.org/3128760">Barcelone</placeName> avec quelques milles hommes
+          L'escadre Espagnole a fait voile de <placeName key="g0240" ref="https://www.geonames.org/3128760">Barcelone</placeName> avec quelques milles hommes
           de débarquement. Il y a disette de vivre en Finlande.</p>
         <p>Etc.</p>
         <noteGrp>
