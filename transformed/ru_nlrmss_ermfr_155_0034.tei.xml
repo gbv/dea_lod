@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,39 +94,33 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>c. 1717. – Letter from <persName
-              key="p0220"
-              ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
-            to <persName key="p0000">Unknown</persName>
-          </title>
-          <note>
-            <bibl>NLR Mss, fond Erm. fr., no. 155, f. 97—96v. French original.</bibl>
+          <title>c. 1717. – Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
+            to an unknown recipient</title><note>
+            <bibl>NLR Mss, fond Erm. fr., no. 155, f. 97-96v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 97" />
+        <pb n="f. 97"/>
         <p>39.</p>
         <p>Monsieur,</p>
         <p>Je suis chargé par <persName key="p0826">Monsieur Ner.</persName> de vous écrire en
           reponse de vôtre lettre ce que je fais avec d’autant plus de plaisir que je trouve
         </p>
-        <pb n="f. 96v" />
+        <pb n="f. 96v"/>
         <p> par là l’occasion de vous asseurer de la consideration que j’ay pour vous monsieur et de
-          vous remercier en même temps de vôtre bon souvenir. Comme vous avez mandé à <persName
-            key="p0826">Mr Ne.</persName> Que vous aviez écrit a <persName
-            key="p0000">Mr. Tat:</persName> pour luy demander des nouvelles, il vous prie instamment
+          vous remercier en même temps de vôtre bon souvenir. Comme vous avez mandé à <persName key="p0826">Mr Ne.</persName> Que vous aviez écrit a <persName key="p0000">Mr. Tat:</persName> pour luy demander des nouvelles, il vous prie instamment
           de les luy communiquer aussitôt que vous les auroit reçues. Il éspere cela de vôtre
           honneté<hi rendition="#s">s</hi> et vous conjure d’étre assûré de son ressentiment. J’ay
           l’honneur d’etre parfaitement.</p>
         <p>Monsieur, etc.</p>
         <noteGrp>
-          <note>ru_nlrmss_ermfr_155_0001</note>
+          <note>See also: </note><note>ru_nlrmss_ermfr_155_0001</note>
           <note>ru_nlrmss_ermfr_155_0002</note>
           <note>ru_nlrmss_ermfr_155_0003</note>
           <note>ru_nlrmss_ermfr_155_0004</note>
