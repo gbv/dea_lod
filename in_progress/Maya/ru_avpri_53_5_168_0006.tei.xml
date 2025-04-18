@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,22 +94,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>8 / 19 December 1764. – Draft of the letter from the Vice-Chancellor of Russia, <persName
-              key="p0065">Prince Aleksandr Mikhailovich Golitsyn</persName>, to the Minister
+          <title>8 / 19 December 1764. – Draft of a letter from the Vice-Chancellor of Russia, <persName key="p0065">Prince Aleksandr Mikhailovich Golitsyn</persName>, to the Minister
             Plenipotentiary of Russia in Denmark <persName key="p0245">Baron Johann Albrecht von
             Korff</persName></title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 168, f. 24. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 24" />
+        <pb n="f. 24"/>
         <opener>
           <address>
             <addrLine>à <persName key="p0245">S[on]. E[xcellence]. M[onsoieur]. le Bar[on]. de Korff</persName>
@@ -122,8 +118,7 @@
             .</dateline>
           <salute>Monsieur,</salute>
         </opener>
-        <p>La bonté avec la quelle V[otre]. E[xcellence]. <hi rendition="#s">a</hi> veut bien <hi
-            rendition="#s">voulu </hi>prendre part à mon avancement par Sa lettre du 27/16
+        <p>La bonté avec la quelle V[otre]. E[xcellence]. <hi rendition="#s">a</hi> veut bien <hi rendition="#s">voulu </hi>prendre part à mon avancement par Sa lettre du 27/16
           nov[embre], ajoûte aux obligations que je vous dois pour toutes les marques de Votre
           amitié. Je vous prie, Monsieur, d’en agréer ma plus vive reconnaissance ainsi que les vœux
           sincéres que je fais sans cesse pour vos prosperités. Persuadée de ces sentiments V[otre].
