@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,33 +95,31 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>6 April 1765. – Memorial presented to His Excellency the active privy councilor
+          <title>6 April 1765. – Memorial presented to His Excellency Active Privy Councilor
             etc, etc, <persName key="p0245">Baron [Johann Albrecht von] Korff</persName>, by one of
             his servants</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 173, f. 135-135v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 135" />
+        <pb n="f. 135"/>
         <p>
           <hi rendition="#u">Traduction №I. </hi>
           <hi rendition="#u">Copie</hi>
         </p>
-        <p />
-        <p>Mémoire présenté à son Excellence Monseigneur le conseiller privé actuël etc : etc : <persName
-            key="p0245">Baron de
+        <p/>
+        <p>Mémoire présenté à son Excellence Monseigneur le conseiller privé actuël etc : etc : <persName key="p0245">Baron de
             Korff</persName>, par l’un de ses domestiques.</p>
-        <p />
+        <p/>
         <p>Le nommé <persName key="p2213">Niels Straede</persName> Domestique de S[on]:
-          E[xcellence]: M[onsieu] <hi
-            rendition="#sup"> r</hi> <persName key="p2302">l’ambassadeur de France</persName>,
+          E[xcellence]: M[onsieu] <hi rendition="#sup"> r</hi> <persName key="p2302">l’ambassadeur de France</persName>,
           m’ayant deja attaqué le 19. de novembre de l’année passée en s’approchant de moi tout
           doucement par derrière dans la rüe et m’arrachant le bouton de la livrée de vôtre
           Excellence en disant : ah! je te trouve présentement fort à propos ; j’ai évité pour lors
@@ -148,7 +143,7 @@
           Excellence, pour obtenir une satisfaction suffisante, qui me met à l’abri de toute insulte
           de la
           part de ce brutal. </p>
-        <pb n="f. 135v" />
+        <pb n="f. 135v"/>
         <p> J’ai l’honneur de vous assurer, Monseigneur, que non seulement il n’y a rien d’exageré
           et de faux dans mon mémoire ; mais même, en cas que vôtre Excellence l’éxige, je pourrois
           l’attester par le temoignage volontaire de quelques bourgeois, qui y ont èté présents.</p>
@@ -158,8 +153,7 @@
           <salute> de vôtre Excellence </salute>
           <salute>le trés humble et tres obeissant </salute>
           <salute>valet et serviteur</salute>
-          <dateline>à <placeName key="g0006">copenhague</placeName> ce <date when="1765-04-06">6<hi
-                rendition="#sup">
+          <dateline>à <placeName key="g0006">copenhague</placeName> ce <date when="1765-04-06">6<hi rendition="#sup">
                 me</hi> avril 1765</date>.</dateline>
           <signed><persName key="p2212">André Richter</persName>.</signed>
         </closer>
