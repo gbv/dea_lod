@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,29 +95,26 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>13 April 1765. – First letter from the French Ambassador [to Denmark, <persName
-              key="p2302">Jean-François
-              Ogier</persName>, to the Minister Plenipotentiary of Russia to Copenhagen, <persName
-              key="p0245">Baron Johann
-              Albrecht von Corff</persName>]</title>
+          <title>13 April 1765. – First letter from <persName key="p2302">the French Ambassador [to Denmark, Jean-François
+              Ogier</persName>, to <persName key="p0245">the Minister Plenipotentiary of Russia to Copenhagen, Baron Johann Albrecht von Corff</persName>]</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 173, f. 137-137v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 137" />
+        <pb n="f. 137"/>
         <p>Copie</p>
         <p>№III</p>
         <p>La premiere Lettre de <persName key="p2302">Mr. l’ambassadeur de France</persName>.</p>
-        <p />
+        <p/>
         <p>Monsieur,</p>
-        <p />
+        <p/>
         <p>J’ai reçu la lettre, que vous m’avés fait l’honneur de m’écrire le 11<hi rendition="#sup">
           me</hi> de ce mois, et le mémoire qui y étoit joint, contenant les deux articles de
           plaintes qu’un de vos domestiques vous a porté contre un homme de ma livrée{{p2213}}.</p>
@@ -132,13 +126,12 @@
           verifié les principaux faits de maniere à m’autôriser à ajouter foi à leur exposé, même en
           entendant des temoins dignes de confiance.</p>
         <p>J’étois instruit d’une partie de ces faits : vous trouverés dans le détail de quelques
-          uns d’entre eux, que j’aurois été autorisé à vous porter des plaintes ameres contre cet <persName
-            key="p2212">André Richter</persName>, qui s’oublie au point d’insulter mes gens jusques
+          uns d’entre eux, que j’aurois été autorisé à vous porter des plaintes ameres contre cet <persName key="p2212">André Richter</persName>, qui s’oublie au point d’insulter mes gens jusques
           dans les maisons oû nous nous trouvons vous et moi ; mais j’ai mieux aimé méprisé ces
           faits, les regarder comme des querelles que des gens de livrée ont entre eux, ésperer que
           vôtre domestique reconnoîtroit ses torts et éviteroit d’y retomber, que d’avoir à vous en
           informer et de contribuer au malheur d’un homme de cette espèce, qu’un interêt injuste</p>
-        <pb n="f. 137v" />
+        <pb n="f. 137v"/>
         <p>ou une
           passion malheureuse aveugle et seduit.</p>
         <p>J’éspère qu’aprés la lecture du mémoire, que je joint ici et l’assurance que je vous
@@ -159,7 +152,7 @@
           <salute>vôtre trés humble et trés obeissant </salute>
           <salute>serviteur</salute>
           <signed><persName key="p2302">Ogier</persName>.</signed>
-          <lb />
+          <lb/>
           <dateline>À <placeName key="g0006">copenhague</placeName> ce <date when="1765-04-13">13
             avril 1765</date>./ </dateline>
         </closer>
