@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,22 +96,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>13 April 1764. – Regulation [given by the King of Denmark and Norway, <persName
-              key="p0341">Frederick
+          <title>13 April 1764. – Regulation [given by <persName key="p0341"> the King of Denmark and Norway, Frederick
               V</persName>] for the opening of the court in the jurisdiction of Hedmark in the
             Diocese of Akershus</title>
           <note>
             <bibl>AVPRI, fond 53, opis 53/5, no. 169, f. 34-34v. French translation.</bibl>
           </note>
         </head>
-        <pb n="f. 34" />
+        <pb n="f. 34"/>
         <p>Копия с приложения к реляции полномочнаго министра Барона Корфа{{p0245}} от 10/21 апреля
           1764.</p>
         <p>
@@ -141,7 +137,7 @@
         <p> 15 mars</p>
         <p>Wang 3 juillet</p>
         <p>9 octobre</p>
-        <pb n="f. 34v" />
+        <pb n="f. 34v"/>
         <p> 19 mars</p>
         <p>Leuthen 7 juillet</p>
         <p>14 octobre</p>
@@ -157,8 +153,7 @@
           trés gracieusement à notre vice <persName key="p2210">Gouverneur en Norwegue</persName>,
           Comtes, baillifs généraux, baillifs, juges, présidents, bourgmaîtres, magistrat, Echevins,
           et autres, à qui ce présent reglement, signé de notre main et apposé de notre Sceau Royal,
-          sera expedié de le faire au plutôt publier. donné dans notre château de <placeName
-            key="g0481">
+          sera expedié de le faire au plutôt publier. donné dans notre château de <placeName key="g0481">
             Fredensbourg</placeName> ce 13 avril 1764.</p>
         <p>L : S : <persName key="p0341">Frederic. R[ex]</persName></p>
       </div>
