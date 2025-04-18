@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,30 +97,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 January 1765. – Translation of the draft of the letter from His Excellence
+          <title>21 January 1765. – Translation of the draft of a letter from His Excellence
             Vice-Chancellor [of Russia, <persName key="p0065">Prince Aleksandr Mikhailovich Golitsyn</persName>,]
             to [the Minister Plenipotentiary of Russia in Denmark,] <persName key="p0245">Baron
             [Johann Albrecht von]
-              Korff</persName>, from <placeName key="g0002">Saint Petersburg</placeName> to <placeName
-              key="g0006">Copenhagen</placeName>, dated 21 January 1765</title>
+              Korff</persName>, from <placeName key="g0002">Saint Petersburg</placeName> to <placeName key="g0006">Copenhagen</placeName>, dated 21 January 1765</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 180, f. 3. Russian translation. French original:
               ibid., f. 1.</bibl>
           </note>
         </head>
-        <p></p>
-        <p />
-        <pb n="f. 3" />
+        <p/>
+        <p/>
+        <pb n="f. 3"/>
         <p>Перевод с концепта писма Его Сиятельства вицеканцлера{{p0065}} к барону Корфу{{p0245}} в
           Копенгаген{{g0006}} из С[анкт] Петербурга{{g0002}} от "21" генваря 1765</p>
-        <p />
+        <p/>
         <p>Дружба которою В[ваше] С[иятель]<hi rendition="#sup">ство </hi>меня удостоивалиь завсегда
           мною за драгоценную почитаема будучи немогу я как с наичуствителнейшею благодарностию
           принять новой знак оной при начатии Сего года учиняемой. Позвольте Г[осу]д[а]рь мой чтоб и
@@ -131,9 +127,9 @@
           неприятное произшествие не моглоб пресечь. Ваше Сиятелство неможет тем более сумневатся о
           искренности с коею оные <hi rendition="#s">при</hi> учинены от тово которой завсегда имеет
           честь быть с отменным почтением</p>
-        <p />
+        <p/>
         <p>Переводил Александр Курбатов{{p1569}}</p>
-        <p />
+        <p/>
         <noteGrp>
           <note>See the original:</note>
           <note>ru_avpri_53_5_180_0001</note>
