@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -107,14 +104,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>30 June 1686. – Sending the envoy Ivan Volkov to Venice with a petition concerning
+          <title>30 June 1686. – Sending the Envoy Ivan Volkov to Venice with a petition concerning
             the Eternal Peace and Alliance contracted by Russia and Poland against the Turks and
             Tatars and demanding from the Venetians a written response as to their intentions to
             attack the Turks this spring and the years to come, in accordance with the clauses of
@@ -124,8 +121,8 @@
             <bibl>RGADA, fond 41, opis 1, 1686, no. 2, f. 20-21v. Latin original.</bibl>
           </note>
         </head>
-        <pb n="f. 20" />
-        <p />
+        <pb n="f. 20"/>
+        <p/>
         <p>Список зграмты латински[м] пи[с]мом какова по[с]лана к винице[и]скому кн[я]зю чре[з]
           почту ноя[б]ря д[ен]ь</p>
         <p>DEI OMNIPOTENTIS ET IN OMNIBUS OMNIA operantis, ubiq[ue] præsentis et omnia adimplentis
@@ -155,7 +152,7 @@
           tunc temporis ad Nos Magnos Dominos ad Nostram Tzaream Maiestatem Magnas Legationes
           insinuato suspirante animitus desiderio multaq[ue] requisitione Vestræ quoq[ue]
           Magnificentiæ desiderativâ per eandem supra memoratam </p>
-        <pb n="f. 20v" />
+        <pb n="f. 20v"/>
         <p> Legationem de hoc factâ notificatione ac voto non defuimus Nos Magni Domini Tzarea
           Nostra Maiestas respectu supradictæ precationis in tutelam totius Christianitatis hostem.
           Attamen perficere hoc Nos Magni Domini Tzarea Nostra Maiestas voluimus propter Nomen Dei,
@@ -184,7 +181,7 @@
           hoc Testimonium Nobis Magnis Dominis Tzareæ Nostræ Maiestati, perhibet, Cæsareæ Maiestatis
           Romanorum amicæ litteræ, ex quibus Nos Magni Domini Nostra Tzarea Maiestas intelligentes
           predicamus cum gaudio </p>
-        <pb n="f. 21" />
+        <pb n="f. 21"/>
         <p> quod illud Tzareæ Nostræ Maiestatis forte instigans adiumentum secundum constituta pacta
           cum Regia Maiestate non inane fuit, adferens toti Christianitati nunc Magnam lætitiam, pro
           quo decet gloriam referre. Efficienti omnia comprehendenti in Sancta Trinitate
@@ -213,7 +210,7 @@
           multinumeris Nostris Imperialibus copiis, quibus ad actiones istas bellicas expeditionem
           suam sucipere, Deoq[ue] adiuvante illos hostes bello aggredi imperabimus sine mora ac
           imminente </p>
-        <pb n="f. 21v" />
+        <pb n="f. 21v"/>
         <p> [si DEUS voluerit] tempore verili hoc est, ab initio Mense Martis absq[ue] dilatione
           fiduciâ in hoc nitentes, quod et Vestra Magnificentia certior facta de hoc Nostro Tzareæ
           Maiestatis supra significato instituto, per has Nostras Tzareæ Maiestatis amicas litteras
@@ -239,7 +236,7 @@
           regimine rerum successum precamur.</p>
         <p>Datum in Aula Nostra Imperiali in Imperante Magna Urbe Moscoviâ anno ab orbe condito 7195
           mense Novembris Imperii vero Nostri anno.</p>
-        <p />
+        <p/>
       </div>
     </body>
   </text>
