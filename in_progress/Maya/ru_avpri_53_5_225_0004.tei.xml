@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,42 +93,39 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>9 October 1768 . – Copy of the letter from the Most Christian King, [Louis XV,] to
+          <title>9 October 1768 . – Copy of a letter from <persName key="p0212">the Most Christian King, [Louis XV</persName>,] to
             the King of Denmark, [Christian VII,] dated Fontainebleau 9 October 1768</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 255, f. 5v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 5v" />
-        <p>Copie de la lettre du roy T[rès]: <persName key="p0212">C[hrétien]:</persName> au <persName
-            key="p0868">roy de Dannemarc</persName>, en date de <placeName key="g0438">fontainebleau</placeName>
+        <pb n="f. 5v"/>
+        <p>Copie de la lettre du roy T[rès]: <persName key="p0212">C[hrétien]:</persName> au <persName key="p0868">roy de Dannemarc</persName>, en date de <placeName key="g0438">fontainebleau</placeName>
           le 9. d’octobre 1768</p>
-        <p />
+        <p/>
         <p>Monsieur, mon frere! Vous devés être persuadés du plaisir que j’aurai de recevoir votre
           majesté à <orgName key="o0009">ma cour</orgName>, et de faire personnellement connoissance
-          avec Elle. Je crois que la meuilleure manière de montrer mon attention pour vôtre <persName
-            key="p0868">majesté</persName>, c’est aprés avoir marqué les égards qui lui sont dus,
+          avec Elle. Je crois que la meuilleure manière de montrer mon attention pour vôtre <persName key="p0868">majesté</persName>, c’est aprés avoir marqué les égards qui lui sont dus,
           d’eviter soigneusement de l’importuner par une Etiquette très nuisible à l’agrement,
-          lorsqu’on voyage ; La Circonstance malheureuse où je me trouve, interdit à <orgName
-            key="o0009">ma cour</orgName> les amusemens ; J’y suppléerai par <persName key="p0868">mon
+          lorsqu’on voyage ; La Circonstance malheureuse où je me trouve, interdit à <orgName key="o0009">ma cour</orgName> les amusemens ; J’y suppléerai par <persName key="p0868">mon
           Empressement pour vôtre maj[es]<hi rendition="#sup">té</hi></persName> à lui temoigner
           combien je desire à cette occasion de vivre avec Elle comme</p>
         <p>Son bon frere et ami</p>
         <p>
           <persName key="p0212">Louis.</persName>
         </p>
-        <p />
+        <p/>
         <p>Из писма Г[осподина]. <persName key="p1102">Философова</persName></p>
         <p>из <placeName key="g0035">Брюсселя</placeName> от 17/28 декабря</p>
         <p>1768</p>
-        <p />
+        <p/>
         <noteGrp>
           <note>See also:</note>
           <note>ru_avpri_53_5_225_0002</note>
