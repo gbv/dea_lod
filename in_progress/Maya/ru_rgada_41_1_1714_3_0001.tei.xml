@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,22 +93,21 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1 October 1714. – Letter of Paolo Arcoleo to the chancellor Count Gavrila Ivanovich
-            Golovkin</title>
+          <title>1 October 1714. – Letter from Paolo Arcoleo to <persName key="p0071">the Chancellor of Russia, Count Gavrila Ivanovich Golovkin</persName></title>
           <note>
             <bibl>RGADA, fond 41, opis 1, 1714, no. 3, f. 1-2v. Russian translation; Italian
               original: ibid., f. 3-4v.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p />
+        <pb n="f. 1"/>
+        <p/>
         <p>Перевод</p>
         <p>Сиятелнейший и Превосходителнейший</p>
         <p>Граф, тайный советник Его Царского Величества и Великий Канцлер Империи,</p>
@@ -132,8 +128,8 @@
           настоящия обвинения Его Превосходительства Саввы; ибо я при произведенном надо мною в
           Фиуме следствии не только обо всем ответствовал, но и дал точной отчет помянутому министру
           барону Шафирову.</p>
-        <p />
-        <pb n="f. 1v" />
+        <p/>
+        <pb n="f. 1v"/>
         <p> Его Превосходительство барон Шафиров при свидании его со мною, (также после того Его
           Превосходительство полномочной в Вене министр Матфеев) уверили меня в милости Его Царского
           Величества, требуя от меня того, чтоб я по прежнему служил верно, усердно и ревностно.</p>
@@ -152,7 +148,7 @@
           должен был я ехать к сему двору.</p>
         <p>Его Превосходительство Матвеев исполнил то, что ему было приказано. Он вручил мне письмо
           Вашего Превосходительства с деньгами посланны- </p>
-        <pb n="f. 2" />
+        <pb n="f. 2"/>
         <p> ми для сего путешествия, обнадежив меня в том, что я при Императорском дворе буду
           гораздо щастливее.</p>
         <p>Я не преминул тот час повиноваться почтенным повелениям Вашего Превосходительства оставя
@@ -174,7 +170,7 @@
           которых теперь нахожусь, и о нещастиях и опасностях, которым подвержены мои стенящия дети,
           которыя просят помилования от Его Царскаго Величества и мщения от Бога.</p>
         <p>Впрочем, Ваше Превосходительство, да удостоите </p>
-        <pb n="f. 2v" />
+        <pb n="f. 2v"/>
         <p> их снисходительностию к их нещастиям и утешите их моим освобождением и тем будете
           удостоверены в получении от Бога награду, как в здешней жизни, так и в вечной славе; иначе
           естьли мой патрон (я говорю об Апостоле Павле) принес жалобу Цесарю Римскому, буду я
