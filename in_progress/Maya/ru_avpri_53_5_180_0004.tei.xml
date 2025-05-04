@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,14 +95,14 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 February 1765. – Translation of the letter from His Excellence Vice-Chancellor
+          <title>21 February 1765. – Translation of the letter from His Excellency Vice-Chancellor
             [of Russia, <persName key="p0065">Prince Aleksandr Mikhailovich Golitsyn</persName>,] to
             [the Minister Plenipotentiary of Russia in Denmark,] <persName key="p0245">Baron [Johann
             Albrecht von] Korff</persName>, from <placeName key="g0002">Saint Petersburg</placeName>
@@ -115,26 +112,25 @@
               ibid., f. 5-5v.</bibl>
           </note>
         </head>
-        <pb n="f. 7" />
+        <pb n="f. 7"/>
         <p>Перевод с писма Его Сиятельства вицеканцлера{{p0065}} к барону Корфу{{p0245}} в
           Копенгаген{{g0006}} из С[анкт] Петербурга{{g0002}} от 21 февраля 1765</p>
-        <p />
+        <p/>
         <p>Зная, что В[аше] С[иятельство] охотно друзей своих одалживает, принимаю смелость
           препоручить вам малинкою комиссию в надежде что вы оною на себя примите. Дабы мне можно
           было быть <hi rendition="#s">при</hi> в лагере которой учинится имеет будущею весною в
           округе сего города{{g0002}}, желаю я иметь хорошою лошадь которая бы не толко красива но и
           для верховой езды спокойна была. В[аше]: С[иятельство]: <hi rendition="#s">по</hi>
           одолжите меня как покупкою такой <hi rendition="#s">для меня </hi>лошади не жалея платежа;
-          так отправлением оной на первом корабле сюда. А как скоро я уведомлен буду <hi
-            rendition="#s">о</hi> скольких денег <hi rendition="#s">оная</hi> стоит то не премину их
+          так отправлением оной на первом корабле сюда. А как скоро я уведомлен буду <hi rendition="#s">о</hi> скольких денег <hi rendition="#s">оная</hi> стоит то не премину их
           перевесть </p>
-        <pb n="f. 7v" />
+        <pb n="f. 7v"/>
         <p>к вам оные с благодарением в протчем не желаю я как толко чтоб и с моей
           стороны к услугам готов быть пребывая притом с отменным почтением</p>
-        <p />
+        <p/>
         <p>Переводил А[лександр]: Курбатов{{p1569}}</p>
-        <p />
-        <p />
+        <p/>
+        <p/>
         <noteGrp>
           <note>See the original:</note>
           <note>ru_avpri_53_5_180_0003</note>
