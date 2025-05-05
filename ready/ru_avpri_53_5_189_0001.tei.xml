@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,18 +96,8 @@
       </sourceDesc>
     </fileDesc>
 
-    <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#">
+    
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -140,10 +129,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_189_0001.tei.xml?place_annotation_20241013190858997",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_avpri_53_5_189_0001.tei.xml?place_annotation_20241013200858997",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-13T17:08:58.997Z",
-	"dcterms:modified": "2024-10-13T17:08:58.997Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DzianisKandakou",
 		"@type": [
@@ -154,21 +142,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_189_0001.tei.xml?place_annotation_20241013190858997#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_avpri_53_5_189_0001.tei.xml?place_annotation_20241013200858997#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_189_0001.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_avpri_53_5_189_0001.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_avpri_53_5_189_0001.tei.xml?place_annotation_20241013190858997#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/ready/ru_avpri_53_5_189_0001.tei.xml?place_annotation_20241013200858997#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/closer/dateline/placeName"
 		}
@@ -179,42 +167,38 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF>
-    </xenoData>
-  </teiHeader>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
 
       <head>
         <title>27 March / 8 April 1766. – Letter from <persName key="p1422">the Councillor of the
-        Russian Embassy in Copenhagen, Baron Johann von Fersen</persName>, to <persName key="p0114">Count
+        Russian Embassy in Copenhagen, Baron Johann von Fersen</persName>, to <persName key="p0114">the Senior Member of the College of Foreign Affairs, Count
         Nikita Ivanovich Panin</persName>
         </title>  </head>
       <note>
         <bibl>AVPRI, fond 53, opis 53/5, no. 189, f. 1-2v. French original.</bibl>
       </note>
 
-      <pb
-        cert="high" generatedBy="human" n="f. 1" xml:space="default" />
+      <pb cert="high" generatedBy="human" n="f. 1" xml:space="default"/>
       <opener>
         <salute>Monseigneur,</salute>
       </opener>
-      <p>J'ai l'honneur d'annoncer à Vôtre Excellence la triste nouvelle de la mort de <persName
-          key="p0245">
+      <p>J'ai l'honneur d'annoncer à Vôtre Excellence la triste nouvelle de la mort de <persName key="p0245">
           Monsieur le Baron de Korff</persName>, arrivée hier à 4. heures après midi. Sa maladie
         aussi violente que douloureuse, n'a durée que 9. jours. Les Médecins, qui avoient crû
         d'abord, que ce n'étoit qu'une fievre tierce, n'ont pas cessé de Nous donner des meilleurs
         espérances pour sa guérison. Ce n'est que le 7.me jours, c'est à dire, lorsque le malade eût
         perdû connoissance, et que la gangrène</p>
-      <pb cert="high" n="f. 1v" xml:space="default" />
+      <pb cert="high" n="f. 1v" xml:space="default"/>
       <p>se fut déclarée, qu'ils nous ont préparés au coup fatal qui vient de nous frapper. Quoique
         j'en sois accablé Monseigneur, je tache néanmoins de remplir mon devoir le mieux qu'il m'est
         possible. Aussitôt après le déçès de <persName key="p0245">Mr. le Baron de
@@ -226,10 +210,8 @@
         événement, et je m'occupe dans ce moment à faire les préparatifs nécessaires pour
         l'enterrement du corps. Dès que j'aurai pourvû au plus pressant, ma plus grande attention
         sera d'informer Vôtre Excellence de la situation des affaires de ce païs-ci. Chargé de celle
-        de <orgName
-          key="o0008">Notre Cour</orgName>, Vous pouvez compter Monseigneur, que je les </p>
-      <pb
-        cert="high" n="f. 2" xml:space="default" />
+        de <orgName key="o0008">Notre Cour</orgName>, Vous pouvez compter Monseigneur, que je les </p>
+      <pb cert="high" n="f. 2" xml:space="default"/>
       <p>gérerai avec toute l'assiduité et
         l'application dont mon zêle pour le bien du service me
         rend
@@ -238,17 +220,14 @@
       <p>Comme je n'ai pas encore eû le tems d'examiner les papiers de feu <persName key="p0245">Mr.
         le Baron
           de Korff</persName>, j'ignore, s'il a laissé une disposition par écrit, relativement à sa
-        succession. S'il en existe une, il est probable, qu'il aura institué son héritier <persName
-          key="p1920">Mr. de Fircks
-        </persName> son neveu, Chambellan et Colonel au service de <orgName
-          key="o0009">cette Cour</orgName>, pour lequel il a toujours parû avoir beaucoup de
+        succession. S'il en existe une, il est probable, qu'il aura institué son héritier <persName key="p1920">Mr. de Fircks
+        </persName> son neveu, Chambellan et Colonel au service de <orgName key="o0009">cette Cour</orgName>, pour lequel il a toujours parû avoir beaucoup de
         tendresse. Dans quelques jours, je me trouverai à même d'en parler plus positivement. </p>
       <p>Je me flatte, que Vôtre Excellence ne desapprouvera pas, que j'aye expedié ma lettre par
         estaffette, attendû que l'importance de l'événement, qui ne peut qu'influër sur la mission
-        de <persName
-          key="p0127">Monsieur Saldern</persName>, m'a fait regarder cet expedient comme
+        de <persName key="p0127">Monsieur Saldern</persName>, m'a fait regarder cet expedient comme
         indispensable. </p>
-      <pb cert="high" n="f. 2v" xml:space="default" />
+      <pb cert="high" n="f. 2v" xml:space="default"/>
       <closer>
         <salute>J'ai l'honneur d'être avec un profond respect</salute>
         <signed>Monseigneur</signed>
@@ -260,16 +239,14 @@
         <signed>
           <persName key="p1422">le Baron de Fersen</persName>
         </signed>
-        <dateline>à <placeName key="Copenhagen Capital Region Denmark"
-            ref="https://geonames.org/2618425">Copenhague</placeName>, ce 27. mars / 8. avril 1766. </dateline>
+        <dateline>à <placeName key="Copenhagen Capital Region Denmark" ref="https://geonames.org/2618425">Copenhague</placeName>, ce 27. mars / 8. avril 1766. </dateline>
       </closer>
       <postscript>
         <label>P.S.</label>
         <p>Vôtre Excellence permettera, que je joigne ici une lettre de <persName key="p0234">Mr.
             de
             Bernstorff
-          </persName> pour <persName
-            key="p0009">Mr.
+          </persName> pour <persName key="p0009">Mr.
             le
             Baron d'Assebourg</persName>
         </p>
