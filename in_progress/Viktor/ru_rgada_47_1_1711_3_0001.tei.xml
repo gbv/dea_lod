@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,82 +95,60 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title> 23 Juny / 4 July 1711. – Letter from <persName
-              key="p0732"
-              ref="664ac595-5d21-4dd3-968f-4870616e9a54">the Russian Envoy to Hanover, Baron Hans
-            Christoph of Schleinitz</persName> to <persName
-              key="p0071"
-              ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Russian Chancellor, Count Gavrila
+          <title> 23 Juny / 4 July 1711. – Letter from <persName key="p0732" ref="664ac595-5d21-4dd3-968f-4870616e9a54">the Russian Envoy to Hanover, Baron Hans
+            Christoph of Schleinitz</persName> to <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Russian Chancellor, Count Gavrila
             Ivanovich Golovkin</persName>
           </title>
           <note>
             <bibl>RGADA, fond 47, opis 1, 1711, no. 3, f. 11–13. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 11" />
+        <pb n="f. 11"/>
         <p> S[eine]r Czaarischen May[estä]t Höchstbetrauter</p>
         <p>Reichs=Cantzlär</p>
         <p>Hoch=Gebohrner Reichs=Graff.</p>
-        <p>Ich hoffe, daß gegenwärtiges mein ersteres Schreiben, welches meiner Schuldigkeit nach an <persName
-            key="p0071"
-            ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ewer Hoch=Gräffl[iche] Excellence</persName>
+        <p>Ich hoffe, daß gegenwärtiges mein ersteres Schreiben, welches meiner Schuldigkeit nach an <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ewer Hoch=Gräffl[iche] Excellence</persName>
           abgehen laße deroselben, in S[eine]r Czaar[i]sch[en] May[estä]t Gefolg woll vergnüget
           antreffen werde.</p>
-        <p>bey dieser ablauffenden Post habe an Hochst=ged[achte] <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r Cz[aarischen] May[estä]t</persName>
+        <p>bey dieser ablauffenden Post habe an Hochst=ged[achte] <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r Cz[aarischen] May[estä]t</persName>
           angeschloßenen Aller=Unterthänigsten bericht übersenden sollen um den Anfang, in der mier
           Aller=Gnädigst aufgetragenen Commission zu machen.</p>
         <p>
           <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[iche]
           Excellence</persName> werden die Geneigtheit haben, aus selbiger in mehrern zu ersehen:
-          welcher gestalt meine Reise<note place="foot">There is a custode glücklich down below.</note>
+          welcher gestalt meine Reise [There is a custode glücklich down below]
         </p>
-        <pb n="f. 11v" />
-        <p> glücklich geändiget, und bey meiner Ankunfft <persName
-            key="p0698"
-            ref="c8246616-0efe-4a64-a3df-890af9609b34">Ihro Hoheiten den Crohn=Printzen</persName>
+        <pb n="f. 11v"/>
+        <p> glücklich geändiget, und bey meiner Ankunfft <persName key="p0698" ref="c8246616-0efe-4a64-a3df-890af9609b34">Ihro Hoheiten den Crohn=Printzen</persName>
           in recht erwünschter Gesundheit angetroffen; Sie haben die Gutheit hiesige lebens=Art, und
           ihnen zu machende Veränderungen sehr Gnädig auszunehmen, erfreuen Sich aber besonders von
           hertzen daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r
-          Czaar[i]sch[en] May[estä]t</persName> dero beylager in höchster Persohn beyzuwohnen<note
-            place="foot">Written above the line.</note> Aller=Gnädigst entschloßen. <persName
-            key="p0727"
-            ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">Ihro Durchl[aucht] der Hertzog zu
+          Czaar[i]sch[en] May[estä]t</persName> dero beylager in höchster Persohn beyzuwohnen<note place="foot">Written above the line.</note> Aller=Gnädigst entschloßen. <persName key="p0727" ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">Ihro Durchl[aucht] der Hertzog zu
           br[aunschweig] Wolffenb[üttel]</persName> sind gleichfalls darob in ein ungemeines
-          Vergnügen gesetzet, hoffen aber <persName
-            key="p0071"
-            ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[iche] Excellence</persName>,
+          Vergnügen gesetzet, hoffen aber <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[iche] Excellence</persName>,
           in dem Gefolg <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
           Czaar[i]sch[en] May[estä]t</persName> auf besagtem beylager vor andern mitzusehen, und
           Ihnen für dero, bey dieser heyrahts=Sache angewandte viele und große bemühungen dero
           dancknehmigstes Gemuhts und besondere hoch=Achtung für dero Persohn zu erkennen zu geben.</p>
         <p>Gleich=hoch=gedachte Ihro Durchl[aucht] haben von mier nochmahls verlanget, über
-          diejenige Puncta, so bey meinen Auffenthalt zu <placeName
-            key="g0234"
-            ref="https://www.geonames.org/770380">Jarislovo</placeName>, des <persName key="p0494"
-            ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">Herrn Reichs=Vice
+          diejenige Puncta, so bey meinen Auffenthalt zu <placeName key="g0234" ref="https://www.geonames.org/770380">Jarislovo</placeName>, des <persName key="p0494" ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">Herrn Reichs=Vice
             Cantzlärs</persName><note place="foot">There is a custode Baron down below.</note>
         </p>
-        <pb n="f. 12" />
+        <pb n="f. 12"/>
         <p>
           <persName key="p0494" ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">Baron von Schaffiroff
           Excell[ence]</persName> um solche <persName key="g0174">S[eine]r Czaar[i]sch[en]
             May[estä]t</persName> vorzutragen, schrifftlich eingehandiget, dero eindliche und
           eigentliche Entschließung auszubitten. Ich habe deswegen in Meinem Aller=Unterthänigstem
-          bericht darvon erwehnet, auch nochmahls deswegen, an des <persName
-            key="p0494"
-            ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">h[errn] Vice=Cantzlärs Baron von Schaffiroff
-          Excell[ence]</persName> ausführlich geschrieben, in hoffnung <persName
-            key="p0071"
-            ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[iche] Excellence</persName>
+          bericht darvon erwehnet, auch nochmahls deswegen, an des <persName key="p0494" ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">h[errn] Vice=Cantzlärs Baron von Schaffiroff
+          Excell[ence]</persName> ausführlich geschrieben, in hoffnung <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[iche] Excellence</persName>
           werden für Ihro Durchl[aucht], weilen Sie die Entschließung darüber so inständigt
           verlangen, Selbige bey <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r
           Czaar[i]sch[en] May[estä]t</persName> auszuwirken Hoch=geneigt geruhen.</p>
@@ -185,19 +160,13 @@
           Selbige nicht schon, von dero bey andern auswärtigen<note place="foot">There is a custode
           Höffen down below.</note>
         </p>
-        <pb n="f. 12v" />
+        <pb n="f. 12v"/>
         <p> Höffen sich aufhaltenden Ministris ein mehrers licht darüber erhalten, zum wenigsten
-          habe nach denen mier zugekommenen Nachrichtungen und nach der fur <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r Czaar[i]sch[en] May[estä]t</persName>
+          habe nach denen mier zugekommenen Nachrichtungen und nach der fur <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">S[eine]r Czaar[i]sch[en] May[estä]t</persName>
           in mier sich wegenden Treu=begierde, meinen Pflichten gemäß, darüber meine Gedancken
           eröffnen wollen.</p>
-        <p>Instehende Woche gehe auf <placeName
-            key="g0008"
-            ref="https://www.geonames.org/2910831">Hannover</placeName> um daselbst mit negorijren
-          den Anfang zu machen. Ich habe meine vorseyende Überkunfft bey <persName
-            key="p0727"
-            ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">S[eine]r Chur=Fürstl[ichen]
+        <p>Instehende Woche gehe auf <placeName key="g0008" ref="https://www.geonames.org/2910831">Hannover</placeName> um daselbst mit negorijren
+          den Anfang zu machen. Ich habe meine vorseyende Überkunfft bey <persName key="p0727" ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">S[eine]r Chur=Fürstl[ichen]
             durchl[aucht]</persName> und dero beyde Vornehmste <persName key="p0780">Ministre von
           Bernstorf</persName> und <persName key="p0781">von Goretz</persName> melden laßen, und so
           viel verspuhret, daß vielleicht nicht unglückliche Verrichtungen haben werde. Ich sende
@@ -207,28 +176,20 @@
           Envoyé Graff von Nostitz</persName> stärcket mich in meiner habenden hoffnung noch mehr,
           wie nemlich eine gute Disposition bey Chur=Hannover wäre, mit Selbigen wegen des
           Pommerschen Corpo in ein genaueres Verständniß treten zu können.</p>
-        <p />
-        <pb n="f. 13" />
+        <p/>
+        <pb n="f. 13"/>
         <p> dero <persName key="p0000">Älteren Herrn Sohn</persName> habe die Ehre und Glück gehabt,
           bey meiner zurück=kunfft von <placeName key="g0234" ref="https://www.geonames.org/770380">
-          Jarislovo</placeName> zu <placeName
-            key="g0233"
-            ref="https://www.geonames.org/2842163">Saltzdahlum</placeName> zu sprechen Ich werde
+          Jarislovo</placeName> zu <placeName key="g0233" ref="https://www.geonames.org/2842163">Saltzdahlum</placeName> zu sprechen Ich werde
           mier nichts angelegeners seyn laßen als deßen Wollwollen, und hohe Freundtschafft durch
-          alle Gegen=dienste bestandig zu verdienen, der ich auch um Fortsetzung <persName
-            key="p0071"
-            ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[ichen] Excellence</persName>
+          alle Gegen=dienste bestandig zu verdienen, der ich auch um Fortsetzung <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[ichen] Excellence</persName>
           für mich zu hegenden Gnade und Gutheit für meine Persohn inständigst anhalte, und in
           unaussetzlicher und tieffster Ergebenheit verharre</p>
         <p>
-          <persName
-            key="p0071"
-            ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[ichen] Excellence</persName>
+          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ew[er] Hoch=Gräffl[ichen] Excellence</persName>
         </p>
         <p>
-          <placeName
-            key="g0032"
-            ref="https://www.geonames.org/2945024">Braunschw[eig]</placeName> am 23 Jun[y] / 4 July</p>
+          <placeName key="g0032" ref="https://www.geonames.org/2945024">Braunschw[eig]</placeName> am 23 Jun[y] / 4 July</p>
         <p>1711. unterthaniger und gantz gehorsamster</p>
         <p>diener</p>
         <p>
