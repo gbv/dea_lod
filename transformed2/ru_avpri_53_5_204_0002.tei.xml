@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -111,24 +108,24 @@
             Harboe </title>
           <note>
             <bibl>
-              AVPRI, fond 53, opis 53/5, no. 204, f. 16- 17v. Russian original.
+              AVPRI, fond 53, opis 5, no. 204, f. 16- 17v. Russian original.
             </bibl>
           </note>
         </head>
-        <pb n="f. 16" />
+        <pb n="f. 16"/>
         <p>№4<hi rendition=" #u">
             <hi rendition=" #sup">ой</hi>
           </hi>
         </p>
         <p>державнейшая императрица и самодержица всероссийская.</p>
         <p>Гсдрня всемилостивейшая!</p>
-        <p />
+        <p/>
         <p>По содержанию Вашего Императорскаго Величества всевысочайшаго рескрипта под №3м от 12
           декабря
           прошлаго года и приложенных к при том пиес касателных прошения вдовы зубнаго лекаря жанста
           (жанстиа?) урожденной гарбое, в получении </p>
         <p>прислана в Коллегию из дворца 15-<hi rendition=" #sup">го</hi> июня 1767:</p>
-        <pb n=" f. 16v" />
+        <pb n=" f. 16v"/>
         <p>ея здесь наследства после генерала гарбое, употребя возможное старание в партикулярном
           разведовании обстоятелств сего дела столко узнал, что упоминаемой в писме предместника
           моего тайнаго советника корфа опекун сего имения советник минх от котораго он известие в
@@ -138,7 +135,7 @@
           под коронным управлением; то вследствие сих обстаятелств подана была здешнему министерству
           от меня нота с которой у сего копию под литерою А. и со учиненнаго на то от здешняго
           министерства мне ответа под литерами В &amp; С. с российским </p>
-        <pb n="f. 17" />
+        <pb n="f. 17"/>
         <p>переводом дацкаго Вашему Императорскому Величеству всенижайше поднесть честь имею;
           всеподданнейше
           в дополнение сего представя, что как реченной тайной советник гарбое  уже 60т: лет как
@@ -156,7 +153,7 @@
           документы, а особливо тестаменты реченнаго тайнаго советника гарбое из которых бы яснее
           правость
           требования</p>
-        <pb n="f. 17v" />
+        <pb n="f. 17v"/>
         <p>в россии обретающихся наследников усмотреть было можно, по прошествии тол
           долгаго времяни пратикулярно сысканы быть могут, а хотя чаять надобно, что они в
           королевских архивах и в писмах реченных  монастырей состоят, однако по учиненным от меня о
@@ -164,7 +161,7 @@
           невозможно. ожидая по сему далнейших Вашего Императорскаго Величества повелений с рабским
           благоговением навек буду.</p>
         <p>Вашего Императорскаго Величества</p>
-        <p />
+        <p/>
         <p>из копенгагена                                                                           
                             всенижайший раб</p>
         <p>маия 4/15 дня 1767го году.                                                               
