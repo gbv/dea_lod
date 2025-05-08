@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,7 +93,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,15 +102,14 @@
         <head>
           <title>29 February 1764. – [Danish] officers' pension regulations</title>
           <note>
-            <bibl>AVPRI, fond 53, opis 53/5, no. 169, f. 20-20v. French translation.</bibl>
+            <bibl>AVPRI, fond 53, opis 5, no. 169, f. 20-20v. French translation.</bibl>
           </note>
         </head>
-        <pb
-          n="f. 20" />
+        <pb n="f. 20"/>
         <p>
           <hi rendition="#u">Translat</hi>
         </p>
-        <p />
+        <p/>
         <p>Reglement pour la pension des
           officiers.</p>
         <p>Nous <persName key="p0341">Frederic Vme Par la grace de Dieu Roi de Dannemarc Norwegue</persName>
@@ -142,7 +138,7 @@
           ne pourront s’attendre à aucune augmentation. Et comme tous ces pensionaires font sans
           place, ils auront la permission de faire leur sejour dans tel endroit de nos royaumes,
           qu’ils jugent eux mêmes à propos.</p>
-        <pb n="f. 20v" />
+        <pb n="f. 20v"/>
 
         <p> Ils s’adresseront à notre direction générale de gueurre après l’ecoulement de trois mois
           et envoyeront l’attestat du prètre de l’endroit, où ils se trouvent, àfin que la pension
