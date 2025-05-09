@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title
-          type="main"
-          xml:lang="en">Memorial submitted by the Russian Envoy to Hanover, Baron Hans Christoph of
+        <title type="main" xml:lang="en">Memorial submitted by the Russian Envoy to Hanover, Baron Hans Christoph of
           Schleinitz to Tsar Peter I concerning the Treaty of Alliance between Russia and Hanover</title>
         <author xml:lang="en">Hans</author>
         <author xml:lang="en">Christoph</author>
@@ -100,19 +95,15 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>11/22 July 1711. – Memorial submitted by <persName
-              key="p0732"
-              ref="664ac595-5d21-4dd3-968f-4870616e9a54">the Russian Envoy to Hanover, Hans
-              Christoph Schleinitz</persName> to <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName> concerning the
+          <title>11/22 July 1711. – Memorial submitted by <persName key="p0732" ref="664ac595-5d21-4dd3-968f-4870616e9a54">the Russian Envoy to Hanover, Hans
+              Christoph Schleinitz</persName> to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName> concerning the
             Treaty of Alliance between Russia and Hanover</title>
           <note>
             <bibl>RGADA, fond 47, opis 1, 1711, no. 3, f. 55–56v. German original. Excerpt.
@@ -120,71 +111,47 @@
               f. 84–87v.</bibl>
           </note>
         </head>
-        <p />
-        <p />
-        <pb n="f. 55" />
+        
+        
+        <pb n="f. 55"/>
         <p> Unvorgreifliche Erinnerungen auf beygehendes Project einer naheren zusammen=Setzung
-          zwischen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
-          und des <persName
-            key="p0727"
-            ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">Chur=Fürsten von braunschw[eig] Durchl[aucht]</persName>
+          zwischen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
+          und des <persName key="p0727" ref="b2fe9ca9-32dc-4f6b-bd83-c966e4db0ec4">Chur=Fürsten von braunschw[eig] Durchl[aucht]</persName>
         </p>
-        <p>Nachdem, denen aus <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">dem Haag</placeName> eingelauffenen
+        <p>Nachdem, denen aus <placeName key="g0004" ref="https://www.geonames.org/2747373">dem Haag</placeName> eingelauffenen
           Nachrichtungen, auch nach Inhalt des hierbey kommenden Chur= braunschw[eigischen] Projects
           die See=Puissancen, Engell= und Holland ingleichen Chur braunschweig zu einer reellen
           Cooperation durch die zur Neutralitäts=Garantie destinirte Armée, zur bevorstehenden
           Reduction des Schwedischen in Pommern stehenden Corps nicht zu disponiren seyn, und
-          solches auf <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
-          und dero hohen Allyrten der <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige in Pohlen</persName> und <persName
-            key="p0532"
-            ref="a2ddef43-2638-4c94-a067-2fef15c6a879">dännemarck</persName> selbst eigene und
+          solches auf <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
+          und dero hohen Allyrten der <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">könige in Pohlen</persName> und <persName key="p0532" ref="a2ddef43-2638-4c94-a067-2fef15c6a879">dännemarck</persName> selbst eigene und
           alleinige kräffte ankommen wird, so kame zuvorderst in Consideration</p>
-        <p>(1) Ob <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
+        <p>(1) Ob <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
           und dero hohen Allyrten solche Reduction ohne vorhergenommenes Concert und Genehm Haltung
           mit denen See Puissancen<note place="foot">There is a custode ‘auch’ down below.</note>
         </p>
-        <pb n="f. 55v" />
+        <pb n="f. 55v"/>
         <p> auch insonderheit Chur=braunschw[eig] unternehmen wollen und können, welchen falß außer
-          zweiffel, daß, wan zumahl im <placeName
-            key="g0004"
-            ref="https://www.geonames.org/2747373">Haag</placeName> auf die zurück=Ruffung, der
+          zweiffel, daß, wan zumahl im <placeName key="g0004" ref="https://www.geonames.org/2747373">Haag</placeName> auf die zurück=Ruffung, der
           Chur=Sachsischen und dänischen Trouppen gedrungen, auch selbige mit Wiederwillen der Hohen
           Allyrten, gegen Franck=Reich effectuiret würde, das Unternehemen auf Pommern Ihnen verhast
           gemacht, auch aus dem daraus folgenden gefasten Argwohn, ob geschehe solches Franckreich
           zu favorisiren, und einen solcher Crohn anständigen Frieden zu erzwingen Anlaß gäbe, daß
           die See= Puissancen und Chur=braunschw[eig], als welche fur eines zu consideriren, nicht
-          nur <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>,
+          nur <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>,
           und dero Allyrten jetziges Vorhaben auf Pommern und die im Reich gelegene Schwedische
           Lande, so viel bey währendem kriege gegen Franckreich, dero kräffte zu laßen, behindern,
-          sondern auch, da Sie durch die, gegen <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
+          sondern auch, da Sie durch die, gegen <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
           und dero Allyrte darüber gefäste Jalousie einen Ihnen nicht anständigen Frieden mit
           Franckreich eingehen müsten; So wurden nach deßen Erfolg sich zwischen obgedachten
           See=Puissancen, und dem Chur und Fürstl[ichen] Hauße braunschw[eig] eine so considerable
-          Ligue formiren, welche dem abgesehenen Endt=zweck und das wahre Interesse <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>,
+          Ligue formiren, welche dem abgesehenen Endt=zweck und das wahre Interesse <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>,
           die Crohn=Schweden von dem Reichsboden zu bringen vermuhtlich unterbrechen. Käme es nun
           auf diese Extremitäten an, So ist der vorseyende Tractat<note place="foot">There is a
           custode ‘mit’ down below.</note>
         </p>
-        <pb n="f. 56" />
-        <p> mit Chur braunschw[eig] von keinem Nutzen. Es bunden sich gegenttheils dadurch <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
+        <pb n="f. 56"/>
+        <p> mit Chur braunschw[eig] von keinem Nutzen. Es bunden sich gegenttheils dadurch <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
           so woll fur Sich als dero Allyrte die Hande, daß Sie gegen die See=Puissancen und
           diejenigen, so mit Ihnen Causam Communem machen würden solche Gegen Remedia nicht
           ergreiffen könten, die doch der Sachen Nohtdurfft erforderte</p>
@@ -196,18 +163,13 @@
           mehr vortheil hefftigen Gegen=Conditionen alsdenn bringen können Ginge das jetzige
           UnterNehmen auf Pommern über Verhoffen unglücklich, so stehet Chur br[aunschweig] auch in
           keiner Obligation, weil solches nicht directo und mit zustoßung seiner Trouppen operiret,
-          keinen hazard, auch die Offension gegen Schweden nicht über Sich<note place="foot"><hi
-              rendition="#i">In the text there is:</hi> Sih.</note> nimt, die in dem Tractat
-          versprochene Garantie des in faveur des <persName
-            key="p0525"
-            ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">königs von Pohlen</persName> conquestirten
+          keinen hazard, auch die Offension gegen Schweden nicht über Sich<note place="foot"><hi rendition="#i">In the text there is:</hi> Sih.</note> nimt, die in dem Tractat
+          versprochene Garantie des in faveur des <persName key="p0525" ref="bb06a33e-83a3-48fa-92c5-5930d52088ec">königs von Pohlen</persName> conquestirten
           Schwedischen Pommern auch keine Statt<note place="foot"><hi rendition="#i">There is a
           custode </hi>hat<hi rendition="#i"> down below.</hi></note>
         </p>
-        <pb n="f. 56v" />
-        <p> hat biß <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
+        <pb n="f. 56v"/>
+        <p> hat biß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ew[ro] Czaar[i]sch[en] May[estä]t</persName>
           und dero Allyrte, solcher Provintzien und der, darinnen geleegenen Vestungen vollig
           Mächtig sind. Jedennoch konte zu benehmung aller unzeitigen Ombrage so woll
           Chur=braunschw[eig] als durch selbiger denen<note place="foot"><hi rendition="#i">Corrected
