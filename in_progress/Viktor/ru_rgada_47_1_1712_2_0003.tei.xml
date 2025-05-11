@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">Letter from Chancellor, Count Gavrila Ivanovich Golovkin
@@ -98,16 +94,13 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
-  </teiHeader>
-  <text>
+  </teiHeader><text>
     <body>
       <div type="letter">
         <head>
-          <title> 27 July 1712. – Letter from <persName
-              key="p0071"
-              ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Chancellor, Count Gavrila Ivanovich
+          <title> 27 July 1712. – Letter from <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Chancellor, Count Gavrila Ivanovich
             Golovkin</persName> to <persName key="p0732" ref="664ac595-5d21-4dd3-968f-4870616e9a54">the
             Russian Envoy to Hanover, Baron Hans Christoph of Schleinitz</persName>
           </title>
@@ -116,37 +109,27 @@
               Russian draft: RGADA, fond 47, opis 1, 1712, no. 2, f. 39.</bibl>
           </note>
         </head>
-        <pb n="f. 40" />
+        <pb n="f. 40"/>
         <p> An <persName key="p0732" ref="664ac595-5d21-4dd3-968f-4870616e9a54">Schleiniz</persName>
-          № 13<note place="foot">Corrected from: № 1. Then crossed out down below: Eß ist der
-          Courier.</note>.</p>
-        <p>Ew[er] wohlgeb[ohrnen] habe hiermit berichten wollen daß <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Cz[aarische] M[ayestä]t</persName>
-          hieselbst bey der Armée unter <placeName
-            key="g0231"
-            ref="https://www.geonames.org/3083829">Stettin</placeName> glücklich angekommen, und
+          № 13 [corrected from: № 1. Then crossed out down below: Eß ist der
+          Courier..]</p>
+        <p>Ew[er] wohlgeb[ohrnen] habe hiermit berichten wollen daß <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Cz[aarische] M[ayestä]t</persName>
+          hieselbst bey der Armée unter <placeName key="g0231" ref="https://www.geonames.org/3083829">Stettin</placeName> glücklich angekommen, und
           also nunmehro in der nähe von Ihnen sind; Dieselbe gehen heute von hier nach der Armée
-          ohnweit <placeName
-            key="g0186"
-            ref="https://www.geonames.org/6551183">Stralsund</placeName>, umb gleichfalß<note
-            place="foot">Written above the line.</note> daßelbsten alles in augenschein zu nehmen<note
-            place="foot">Then crossed out: und.</note>, werden aber von dannen in kurtzem wieder
+          ohnweit <placeName key="g0186" ref="https://www.geonames.org/6551183">Stralsund</placeName>, umb gleichfalß<note place="foot">Written above the line.</note> daßelbsten alles in augenschein zu nehmen<note place="foot">Then crossed out: und.</note>, werden aber von dannen in kurtzem wieder
           anhero zuruckkommen<note place="foot">Then crossed out: der Courier.</note> von Sie
-          Respedyrter <persName key="p0747"
-            ref="a7c6d85f-d992-4112-a474-070790863717">Courier
+          Respedyrter <persName key="p0747" ref="a7c6d85f-d992-4112-a474-070790863717">Courier
             Themirof</persName> ist<note place="foot">Corrected from: hat. Then crossed out: Unß.</note>
           auf Unßerer<note place="foot">Unß- is written on the left margin, -erer is corrected from:
           der.</note> anhero Reise zu Unß kommen<note place="foot">Written above the crossed out:
           angetroffen.</note> und hatt Ew[er] wohlgeb[ohrnen] Relation wohl eingehändigt; weilen
           aber selbige auf der Reise nicht dechifriret, viel weniger also noch translatiret werden
           können, alß kann Ew[er] wohlgeb[ohren] darauf </p>
-        <pb n="f. 40v" />
+        <pb n="f. 40v"/>
         <p> Dißmahlen nicht andtworten;<note place="foot">Then crossed out: sondern muß selbiges
             biß.</note> welches aber mit nechsten geschehen soll, der Ich inzwischen verharre.</p>
         <p>Sub №.<note place="foot">Written on the left margin fol. 40.</note>
         </p>
       </div>
     </body>
-  </text>
-</TEI>
+  </text></TEI>
