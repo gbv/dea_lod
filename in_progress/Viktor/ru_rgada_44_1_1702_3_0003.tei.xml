@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +95,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -113,41 +110,28 @@
             <bibl>RGADA, fond 44, opis 1, 1702, no. 3, f. 31–31v, 32v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 31" />
+        <pb n="f. 31"/>
         <p>Wohl Edler HochgeEhrter H[er]r undt</p>
         <p>sehr wehrster Freundt Salut</p>
         <p>Ich habe vor ungefähr 14/ tage dehro Exell[entz] Meine Resolution geschrieben wie ich
-          Meine Reyse Nehmlich über <placeName
-            key="g0155"
-            ref="https://www.geonames.org/590031">Narua</placeName> Nach <placeName
-            key="g0016"
-            ref="https://www.geonames.org/588409">Reual</placeName> undt So mit Schiff Nach <placeName
-            key="g0154"
-            ref="https://www.geonames.org/2875601">Lübeck</placeName>
+          Meine Reyse Nehmlich über <placeName key="g0155" ref="https://www.geonames.org/590031">Narua</placeName> Nach <placeName key="g0016" ref="https://www.geonames.org/588409">Reual</placeName> undt So mit Schiff Nach <placeName key="g0154" ref="https://www.geonames.org/2875601">Lübeck</placeName>
           anzunehmen, weiln ich aber dabey dehro Excell[entz] hertzlich gebehten woEtwan ich ohne
           Brief oder Paß von den <persName key="p1131">Fürsten Alexand[e]r Danilowitsch Menschicoff</persName>
-          Nicht von <placeName
-            key="g0155"
-            ref="https://www.geonames.org/590031">Narua</placeName> Möchte durchgelaßen werden, daß ich dan
-          p[e]r Expresse Ein Brief od[e]r ord[e]r hier an <persName key="p1128">Anniesim Schukin</persName>
+          Nicht von <placeName key="g0155" ref="https://www.geonames.org/590031">Narua</placeName> Möchte durchgelaßen werden, daß ich dan
+          p[e]r Expresse Ein Brief od[e]r ord[e]r hier an <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1228" xml:space="default">Anniesim Schukin</persName>
           bekom[m]en möchte daß der mihr Ein paß gebe, Nuhn weiß ich nicht ob der H[er]r Mein Brief
           bekom[m]en od[e]r nicht, undt weiln heute <persName key="p0000">Iwan alexewitsch</persName>
-          bey mihr gewesen, undt mihr auch Treuwlich gerahten daß ich Erst Ein ordre von <persName
-            key="p1131">dem H[er]r[n] Menschicoff</persName> Möchte Ersuchen., alß bitte ich Meinen
+          bey mihr gewesen, undt mihr auch Treuwlich gerahten daß ich Erst Ein ordre von <persName key="p1131">dem H[er]r[n] Menschicoff</persName> Möchte Ersuchen., alß bitte ich Meinen
           H[er]r[n] von Hertzen</p>
-        <pb n="f. 31v" />
+        <pb n="f. 31v"/>
         <p>undt Senden mihr Cito Citiss[imo] Eine ordre von den <persName key="p1131">Fürsten
           Menschicoff</persName> daß mihr doch möge Ein Paß gegeb[en] werden od[e]r profesie brief
           auß seine Canzeley, undt Senden mihr Selben Cito Citiss[imo] p[e]r Expressen undt Solte es
           auch Mehr alß Hunderth Rub[el] kosten., den ich Stehe auf meyne Reyse undt Meine in die
           Heyl[igen] Tage von Pfingsten auf die Reyse zu gehen in Gottes Nahmen., undt werde
           Expresse ord[e]r hinterlaßen daß mihr deß H[er]r[n] Expressen von hier wieder p[e]r
-          Expressen Möge folgen auf daß ich die ordre Noch vor <placeName
-            key="g0155"
-            ref="https://www.geonames.org/590031">Narua</placeName>
-          bekom[m]en möge, Nuhn Mein <persName
-            key="p0494"
-            ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">H[er]r Schaffiroff</persName> der H[er]r
+          Expressen Möge folgen auf daß ich die ordre Noch vor <placeName key="g0155" ref="https://www.geonames.org/590031">Narua</placeName>
+          bekom[m]en möge, Nuhn Mein <persName key="p0494" ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">H[er]r Schaffiroff</persName> der H[er]r
           Efreuwe mich Noch Ein mahl zu guter letzte undt v[er]obligire Mihr zu bleib[en] _ Dehro
           Excell[entz] d[ienst]w[i]l[ligster] d[iene]r</p>
         <p>
@@ -155,9 +139,9 @@
         <p>
           <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> a[nn]o
           1707 d[ie] 23 Maj</p>
-        <p />
-        <p />
-        <pb n="f. 32v" />
+        <p/>
+        <p/>
+        <pb n="f. 32v"/>
         <p>
           <persName key="p0494" ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">Herrn</persName>
         </p>
