@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,25 +94,24 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1 December 1787. – Letter from the Emperor of the Holy Roman Empire, <persName
-              key="p0238">Joseph
-              II</persName>, to the Governor General, <persName key="p0124">Field Marshal Count Petr
+          <title>1 December 1787. – Letter from the Emperor of the Holy Roman Empire, <persName key="p0238">Joseph
+              II</persName>, to <persName key="p0124">the Governor Genral, Field Marshal Count Petr
             Aleksandrovich
               Rumiantsev-Zadunaiskii</persName></title>
           <note>
             <bibl>OR RGB, fond 255, karton 3, no. 13, f. 3-3v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 3" />
+        <pb n="f. 3"/>
         <p><placeName key="g0005">Vienne</placeName> ce 1<hi rendition="#sup">er </hi>Decembre 1787</p>
-        <p />
+        <p/>
         <p>Monsieur le Marêchal, <placeName key="p2203">Le Prince de Coburg</placeName> vient de
           m’envoyer votre Lettre du 29 Octobre. J’ai été charmé d’y voir que vous vouliés bien vous
           Souvenir des momens que nous avons passés ensemble et j’espére que <placeName key="p2204">Mr.
@@ -126,13 +122,11 @@
         <p>La nouvelle que <persName key="p0033">S.M. l’Impératrice</persName> vous a confié le
           Commandement de son Armée m’a fait partager en Allié fidèle et son meilleur ami le
           sentiment de Satisfaction qu’a éprouvé la nation et l’Armée Russe qui ont en vous la plus
-          juste confiance, tout comme votre nom seul est la terreur de l’ennemi. <persName
-            key="p0033">Sa Majeste Impériale</persName> peut s’attendre de ma part aux Secours les
-          plus réels et à la Diversion la plus efficace. Je désire bien aureste, <persName
-            key="p0124">Monsieur le Maréchal</persName>, de recevoir Souvent de vos nouvelles, ainsi
+          juste confiance, tout comme votre nom seul est la terreur de l’ennemi. <persName key="p0033">Sa Majeste Impériale</persName> peut s’attendre de ma part aux Secours les
+          plus réels et à la Diversion la plus efficace. Je désire bien aureste, <persName key="p0124">Monsieur le Maréchal</persName>, de recevoir Souvent de vos nouvelles, ainsi
           que d’être eclairé sur l’objet commun par vos bons Conseils qui me seront toujours
           infiniment chers, et en attendant je vous prie d’être persuadé</p>
-        <pb n="f. 3v" />
+        <pb n="f. 3v"/>
         <closer>
           <salute>des Sentimens d’estime et d’amitié avec les quels je serai toujours</salute>
           <salute>Monsieur le Marechall</salute>
