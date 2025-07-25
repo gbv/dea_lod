@@ -128,168 +128,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?person_annotation_20240206232943621",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-06T22:29:43.621Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/ilovan",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mihaela Ilovan",
-		"foaf:nick": "ilovan"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?person_annotation_20240206232943621#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?person_annotation_20240206232943621#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/opener/salute/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "p1384",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207183543529",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-07T17:35:43.529Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/drVEBB",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Viktor Borisov"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207183543529#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207183543529#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://www.geonames.org/2747373",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207183754547",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207193754547",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-07T17:37:54.547Z",
+	"dcterms:modified": "2024-02-07T17:37:54.547Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/drVEBB",
 		"@type": [
@@ -300,10 +142,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207183754547#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207193754547#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -311,10 +153,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207183754547#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?place_annotation_20240207193754547#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[6]/placeName"
 		}
@@ -329,7 +171,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.9.0"
 	}
 }]]>
         </rdf:Description>
@@ -365,10 +207,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531172233373",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531182233373",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-31T15:22:33.373Z",
-	"dcterms:modified": "2024-05-31T15:22:33.373Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/mayalavr",
 		"@type": [
@@ -379,10 +220,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531172233373#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531182233373#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -390,10 +231,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531172233373#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531182233373#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/note"
 		}
@@ -408,7 +249,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.9.0"
 	}
 }]]>
         </rdf:Description>
@@ -444,10 +285,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531172528956",
+	"id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531182528956",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-31T15:25:28.956Z",
-	"dcterms:modified": "2024-05-31T15:25:28.956Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/mayalavr",
 		"@type": [
@@ -458,10 +298,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531172528956#Target",
+		"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531182528956#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -469,10 +309,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/transformed/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531172528956#Selector",
+			"@id": "https://raw.githubusercontent.com/gbv/dea_lod/main/in_progress/Maya/ru_or_rgb_626_1_10_0002.tei.xml?note_annotation_20240531182528956#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/note[2]"
 		}
@@ -487,7 +327,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.9.0"
 	}
 }]]>
         </rdf:Description>
@@ -506,7 +346,7 @@
         <opener>
           <salute>
             <pb cert="high" n="f. 3" xml:space="default"/>
-            <persName cert="high" type="real" key="p1384">Гсдрь мой</persName>
+            Гсдрь мой
           </salute>
         </opener>
         <p>Приятное вше гсдря моего писмо от 2г[о] марта я исправно здесь получил за которое
@@ -518,9 +358,7 @@
           парижа к одному книжнику сюды привезена, И потому я вашей лишить вас не желаю.
         </p>
         <p>А в место той прошу вас гсдря моего подписать за меня в издании XIго и XIIго тома ж
-          аглицкой истории :/ которые чрез субскрипцию печатаются в <placeName key="g0004" ref="https://www.geonames.org/2747373" cert="high">
-            Гаге
-          </placeName> у <persName cert="high" key="p2195" type="real">Христофора фон Лон</persName> с товарыщи :/ на один эксемпляр всякого
+          аглицкой истории :/ которые чрез субскрипцию печатаются в <placeName key="g0004" ref="https://www.geonames.org/2747373" cert="high"> Гаге </placeName> у <persName cert="high" key="p2195" type="real">Христофора фон Лон</persName> с товарыщи :/ на один эксемпляр всякого
           тож малой бумаги, понеже на такой имею<pb cert="high" n="f. 3v" xml:space="default"/>прежние 10 томов гсдна <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1543" xml:space="default">рапина</persName>. </p>
         <p>Скол же табаку касается доволно будет 20 фунтов которой сколь скорее изволите ко
           мне
