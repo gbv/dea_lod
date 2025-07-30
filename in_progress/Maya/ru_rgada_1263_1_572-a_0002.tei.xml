@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,37 +93,33 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 February / 3 March 1770. – Letter from <persName key="p0015"
-              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
-            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>21 February / 3 March 1770. – Letter from <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 572-a, f. 7–7v, 8. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 7" />
+        <pb n="f. 7"/>
         <opener>
           <salute>Mon Prince,</salute>
         </opener>
-        <p>J’ai eu l’honneur de recevoir des mains de Mons<hi rendition="#sup">r</hi>: <persName
-            key="p0135" ref="696969db-38aa-446c-bfb9-d5cf570ff441">de Stelin</persName> la lettre
+        <p>J’ai eu l’honneur de recevoir des mains de Mons<hi rendition="#sup">r</hi>: <persName key="p0135" ref="696969db-38aa-446c-bfb9-d5cf570ff441">de Stelin</persName> la lettre
           dont Votre Excellence m’a honnorée; la protection que vous lui accordé et votre
           recommendation à cet égard, Mon Prince, sera un des meilleurs tître pour que je lui
           temoigne l’envie de lui être utile en tout.</p>
         <p>Je joins ici une Note des planches de la ci devant Galerie des Tableaux de </p>
-        <pb n="f. 7v" />
+        <pb n="f. 7v"/>
         <p>
-          <persName key="p0024"
-            ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Bruhl</persName> à vendre afin que peut-être
+          <persName key="p0024" ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Bruhl</persName> à vendre afin que peut-être
           Sa Majesté Impériale voudroit en faire l’acquisition, quoi qu’ils ne se trouvent pas ici,
           mais quelqu’un d’ici a eu la commission de me les proposer.</p>
         <p>J’ai l’honneur d’être avec respect,</p>
@@ -142,12 +135,11 @@
         </p>
         <p>ce 21. fevrier/3. mars</p>
         <p>1770.</p>
-        <p />
-        <pb n="f. 8" />
-        <p />
+        <p/>
+        <pb n="f. 8"/>
+        <p/>
         <p>Notte</p>
-        <p>Les planches de la Galerie de Tableaux du feu <persName key="p0024"
-            ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Comte de Bruhl</persName> consistent en 65
+        <p>Les planches de la Galerie de Tableaux du feu <persName key="p0024" ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Comte de Bruhl</persName> consistent en 65
           pieces, et se trouvent gravés par de meilleurs maîtres de Paris. Le premier tome de 50
           planches et qu’on avoit complet est imprimé.</p>
         <p>Le second tome qui devoit être imprimé aussi, mais jusqu’à present il n’y a pour le
@@ -155,8 +147,7 @@
         <p>Ces 65 planches s’offrent à être vendues pour cent écus courant chaque, le tout dernier
           prix, ce qui fera pour tout --------------------- Ecus 6500. courant.</p>
         <p>Il y en a qui ont couté à graver 220 ducats, 150 ducats &amp;<hi rendition="#sup">a</hi>:
-          L’on pouroit aisément défaire les armes du feu <persName key="p0024"
-            ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Comte de Bruhl</persName> qui sont gravés au
+          L’on pouroit aisément défaire les armes du feu <persName key="p0024" ref="439cdd92-8575-40c6-80a0-40d4c1090ff4">Comte de Bruhl</persName> qui sont gravés au
           bas et replacer tel autre qu’on voudra.</p>
         <noteGrp>
           <note>Also see:</note>
