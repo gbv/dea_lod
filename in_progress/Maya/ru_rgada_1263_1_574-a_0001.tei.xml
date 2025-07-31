@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,38 +93,33 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>7/18 April 1774. – Letter from <persName key="p0015"
-              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
-            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>7/18 April 1774. – Letter from <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 574-a, f. 1–1v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <opener>
           <salute>Mon Prince</salute>
         </opener>
         <p>Votre Excellence me permettra de lui marquer mon arivé ici hier, au lieu de trouver des
           chemins détéstables comme tout le monde et moi meme le croyoit je les ai trouvé non
           seulement passable mais fort bons hors la Courlande qui est toujours Courlande pour ses
-          chemins et meme encore ceux la se sont améllieuré dépuis le passage de <persName
-            key="p0504" ref="153cf30b-283f-4aee-8a37-c0df3de53289">la feue landgrave</persName>, il
+          chemins et meme encore ceux la se sont améllieuré dépuis le passage de <persName key="p0504" ref="153cf30b-283f-4aee-8a37-c0df3de53289">la feue landgrave</persName>, il
           ne s’est trouvé de mauvais que quelques postes </p>
-        <pb n="f. 1v" />
-        <p> ce n’est pas par intérest que je parle ainsi quoique je l’aurois pu pour l’accueul que <persName
-            key="p0252" ref="0c6a82a0-6ff5-4e63-9cb1-014ad81dbb77">le Duc</persName> m’a fait
-          pandant mon sejour de 24. heures a sa <orgName key="o0054"
-            ref="cf93cac8-cfde-40f2-85ab-3fa2083a6573">Cour</orgName> et la politeèsse qu’il a eu
+        <pb n="f. 1v"/>
+        <p> ce n’est pas par intérest que je parle ainsi quoique je l’aurois pu pour l’accueul que <persName key="p0252" ref="0c6a82a0-6ff5-4e63-9cb1-014ad81dbb77">le Duc</persName> m’a fait
+          pandant mon sejour de 24. heures a sa <orgName key="o0054" ref="cf93cac8-cfde-40f2-85ab-3fa2083a6573">Cour</orgName> et la politeèsse qu’il a eu
           non seulement de m’ordonner par tous ses etats des cheveaux necessaires pour mon transport
           mais à donné ordre a ses commissaires de refuser tout payement. Au reste je n’ai rien
           d’interessant a mander a Votre Excellence mon depart d’ici à <placeName key="g0012">Berlin</placeName>
