@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,50 +93,43 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>19 February / 2 March 1771. – Letter from <persName key="p0015"
-              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
-            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>19 February / 2 March 1771. – Letter from <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 573-a, f. 1–2. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <opener>
           <salute>Mon Prince</salute>
         </opener>
         <p>Le gout de votre Excellence pour les beaux arts et en particulier pour la peinture
           m’ayant fait prendre il y a quelque tems la liberté de vous addresser le tableau original
           du <persName key="p0529" ref="58c15303-90ea-4999-8fba-8b7671eb7113">Corrège</persName>,
-          qu’elle a eu la bonté de présenter à <persName key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>, Votre
+          qu’elle a eu la bonté de présenter à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Impériale</persName>, Votre
           Excellence voudra bien me pardonner si par une suite de la même confiance j’ose l’en
-          ressouvenir actuellement. La vente de ce tableau pouvant être de grand secours à Monsieur <persName
-            key="p0528" ref="7cdef3be-6824-4c4b-b30d-d8401542835b">Casanova Professeur en Peinture</persName>
+          ressouvenir actuellement. La vente de ce tableau pouvant être de grand secours à Monsieur <persName key="p0528" ref="7cdef3be-6824-4c4b-b30d-d8401542835b">Casanova Professeur en Peinture</persName>
           içi </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p> proprietaire de cette pièce, et à sa famille, votre Excellence feroit un acte de
-          charité, Si Elle vouloit bien, quand l’occasion s’en presenteroit en ressouvenir <persName
-            key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName> et y
+          charité, Si Elle vouloit bien, quand l’occasion s’en presenteroit en ressouvenir <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName> et y
           ajouter le gracieux soin de me faire remettre la somme en question, en cas que ce tableau
-          eut le bonheur de convenir à <persName key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName>. Si cependant contre
-          son attente il ne fusse gardé, Monsieur <persName key="p0528"
-            ref="7cdef3be-6824-4c4b-b30d-d8401542835b">Casanova</persName> souhaiterait qu’on le lui
+          eut le bonheur de convenir à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName>. Si cependant contre
+          son attente il ne fusse gardé, Monsieur <persName key="p0528" ref="7cdef3be-6824-4c4b-b30d-d8401542835b">Casanova</persName> souhaiterait qu’on le lui
           renvoyat, afin de ne point manquer les occasions de s’en defaire, qui pourroient se
           presenter icy. Connoissant la satisfaction que votre Excellente trouve a s’employer pour
           le bien de quelqu’un, je ne doute point qu’Elle daignera s’y interesser ; et l’assurant de
           ma plus vive reconnoissance je ne saurois manquer </p>
-        <pb n="f. 2" />
+        <pb n="f. 2"/>
         <p> de lui repeter en même tems les sentimens du parfait attachement et de la consideration
           distinguée avec lesquels j’ai l’honneur d’etre</p>
         <closer>
