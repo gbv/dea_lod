@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,24 +93,22 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>11/22 June 1770. – Letter from <persName key="p0015"
-              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
-            Mikhailovich Belosel’skii </persName> to <persName key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>11/22 June 1770. – Letter from <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 572-a, f. 10–10v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 10" />
+        <pb n="f. 10"/>
         <opener>
           <salute>Mon Prince,</salute>
         </opener>
@@ -123,14 +118,11 @@
           tout ce qui le regarde, et pour tacher tant qu’il dependra de moi, de contribuer à lui
           rendre le sejour de <placeName key="g0013">Dresde</placeName> agreable. Dimanche passé,
           jour <orgName key="o0012" ref="76593cc3-a621-46b7-8e1c-532ad73e99af">de Cour</orgName>
-          ordinaire, j’ai eu l’honneur de le presenter à <persName key="{p0058">S.A. Mg<hi
-              rendition="#sup">r</hi>. l’Electeur</persName> et à la famille Electorale.</p>
+          ordinaire, j’ai eu l’honneur de le presenter à <persName key="{p0058">S.A. Mg<hi rendition="#sup">r</hi>. l’Electeur</persName> et à la famille Electorale.</p>
         <p>Venant de recevoir par la dernière poste la lettre qu’il a plu à Votre Excellence de
           m’ecrire en datte du 19. May </p>
-        <pb n="f. 10v" />
-        <p> je serai exact à expedier l'incluse y jointe au S<hi rendition="#sup">r</hi>. <persName
-            key="p0503" ref="6e09fd59-243c-4b8a-b340-b7f793a16d15">Eugene Bulgari</persName> à <placeName
-            key="p0064" ref="c31713da-b452-4cd6-94f9-6e309c3269d4">Leipsic</placeName>, me faisant
+        <pb n="f. 10v"/>
+        <p> je serai exact à expedier l'incluse y jointe au S<hi rendition="#sup">r</hi>. <persName key="p0503" ref="6e09fd59-243c-4b8a-b340-b7f793a16d15">Eugene Bulgari</persName> à <placeName key="p0064" ref="c31713da-b452-4cd6-94f9-6e309c3269d4">Leipsic</placeName>, me faisant
           un vray plaisir d'éxecuter vos ordres avec un zéle qui repond aux sentimens d'attachement
           respectueux et de la consideration distinguée avec la quelle j'ai l'honneur d'etre</p>
         <closer>
