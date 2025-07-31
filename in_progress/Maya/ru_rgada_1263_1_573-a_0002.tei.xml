@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,33 +93,29 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>21 September 1771. – Letter from <persName key="p0015"
-              ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
-            Mikhailovich Belosel’skii</persName> to <persName key="p0065"
-              ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>21 September 1771. – Letter from <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 573-a, f. 4. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 4" />
+        <pb n="f. 4"/>
         <opener>
           <salute>Mon Prince</salute>
         </opener>
-        <p>J’etois bien faché d’apprendre par mon oncle <persName key="p0286"
-            ref="aadee1cc-af36-47c6-b03b-3bf08bc20cea">le Comte Zachar</persName> de ce que Votre
+        <p>J’etois bien faché d’apprendre par mon oncle <persName key="p0286" ref="aadee1cc-af36-47c6-b03b-3bf08bc20cea">le Comte Zachar</persName> de ce que Votre
           Excellence étoit mecontente de moi que je ne lui fésois aucune raport des affaires. Si
           j’ai manqué en cela j’ose vous assurer Mon Prince que ce n’etoit pas a propos delibéré
-          mais c’est parce que j’ai toujours cru que tout mes raports à Monsieur <persName
-            key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">le Comte de Panin</persName>
+          mais c’est parce que j’ai toujours cru que tout mes raports à Monsieur <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">le Comte de Panin</persName>
           adressé vous étiés communiqués, a l’avenir Monsieur je me flatte de n’avoir rien a me
           reprocher et que ma conduite sera conforme au respect que je vous porte et avec le quel
           j’ai l’honneur d’etre </p>
