@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,20 +99,8 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <xenoData>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:as="http://www.w3.org/ns/activitystreams#"
-        xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-        xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-        xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-        xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-        xmlns:org="http://www.w3.org/ns/org#" />
-    </xenoData>
-    <profileDesc>
+    
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -124,23 +109,22 @@
         <head>
           <title>16 September 1781. – [Attachments] to the report no. 8: 1) Reports of the audiences
             of [the <persName key="p0894">Russian Envoy Extraordinary and Minister Plenipotentiary
-              to the Ottoman Porte,] Ia[kov]. I[vanovich]. Bulgakov</persName> with the <persName
-              key="p0939">Grand Vizier [İzzet Mehmed Pasha]</persName> and the <persName key="p0939">Sultan
+              to the Ottoman Porte] Ia[kov] I[vanovich] Bulgakov</persName> with the <persName key="p0939">Grand Vizier [İzzet Mehmed Pasha]</persName> and the <persName key="p0939">Sultan
             [Abdul Hamid I]</persName>
           </title>
           <note>
             <bibl>OR RGB, fond 41, karton 5, no. 13, f. 3, 7, 9, 13. French and Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 3" />
+        <pb n="f. 3"/>
         <p>К реляции N°8. 1781</p>
         <p>Записка</p>
         <p>бытности <persName key="p0894">чрезвычайного посланника и полномочного министра Булгакова</persName>
           на первой церемониальной визите у <persName key="p0939">верховного везиря</persName> в 16.
           день сентября 1781.</p>
-        <p />
-        <pb n="f. 7" />
-        <p />
+        <p/>
+        <pb n="f. 7"/>
+        <p/>
         <p>По окончании речи<note place="foot" n="2">Iakov I. Bulgakov’s speech (in Russian) on the
           occasion of the recall of the Envoy Extraordinary and
             Minister Plenipotentiary Aleksandr Stakhievich Stakhiev (1724–1794) from Constantinople,
@@ -148,15 +132,11 @@
             replacement by Bulgakov.</note> <hi rendition="#s">переводчик </hi>
           <persName key="p0000">драгоман
           Порты</persName> перев<hi rendition="#s">оди</hi>ел ея <persName key="p0939">везирю</persName>,
-          а <persName
-            key="p0939">сей</persName> на нее <hi rendition="#s">ответствовал учини</hi> учинил
-          следующей ответ <hi rendition="#s">ответствовал по перси</hi>[?], которой <persName
-            key="p0894">Г[осподину]. Посланнику</persName> пересказан был по французски оным <hi
-            rendition="#s">переводчиком </hi>
+          а <persName key="p0939">сей</persName> на нее <hi rendition="#s">ответствовал учини</hi> учинил
+          следующей ответ <hi rendition="#s">ответствовал по перси</hi>[?], которой <persName key="p0894">Г[осподину]. Посланнику</persName> пересказан был по французски оным <hi rendition="#s">переводчиком </hi>
           <persName key="p0000">драгоманом</persName> в следующих
           словах:</p>
-        <p>«L’amitié et la [?] entre les deux haut empires étant parfaite, <persName key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].</persName> le très haut etc.
+        <p>«L’amitié et la [?] entre les deux haut empires étant parfaite, <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].</persName> le très haut etc.
           veut, qu’en vertu des capitulations [du traité] Imperiales, <persName key="p0894">le
           ministre</persName> et les negocians jouissent de sa protection.</p>
         <p>«Par consequent <persName key="p0939">S[on].A[ltesse].</persName> le supreme de son coté
@@ -166,34 +146,28 @@
           l’on satisfaira réciproquement et d’apres l’équité aux desirs des deux empires.</p>
         <p>«<persName key="p0894">Mr. l’envoyé</persName> aura son audience auprès du throne de
           notre <persName key="p0935">auguste monarque</persName> mardi prochain.</p>
-        <p />
-        <pb n="f. 9" />
+        <p/>
+        <pb n="f. 9"/>
         <p>К реляции N°8. 1781</p>
         <p>Записка</p>
         <p>Бытности <persName key="p894">чрезвычайного посланника и полномочного министра Булгакова</persName>
           на первой аудиенции у <persName key="p0935">его Султанова Величества</persName> в 24 день
           сентября 1781.</p>
-        <p />
-        <pb n="f. 13" />
+        <p/>
+        <pb n="f. 13"/>
         <p>По окончании <note place="foot" n="2">On fos. 12–12v, Bulgakov’s speech in Russian is
-          included.</note> <persName key="p0894">посланник</persName> опять поклонился, а <persName
-            key="p0000">переводчик Порты</persName> говорил перевод ея на турецкой язык, <hi
-            rendition="#s">которой</hi> (2) выслушав, (1) <persName key="p0935">Е[го].В[еличество[.</persName>
+          included.</note> <persName key="p0894">посланник</persName> опять поклонился, а <persName key="p0000">переводчик Порты</persName> говорил перевод ея на турецкой язык, <hi rendition="#s">которой</hi> (2) выслушав, (1) <persName key="p0935">Е[го].В[еличество[.</persName>
           оной повелел <hi rendition="#s">султа </hi>
           <persName key="p0939">везирю</persName> зделать
-          ответ, <hi rendition="#s">ствовать что переводчик Порты</hi> которой от <persName
-            key="p0000">переводчика Порты</persName> пересказан посланнику в следующих словах:</p>
+          ответ, <hi rendition="#s">ствовать что переводчик Порты</hi> которой от <persName key="p0000">переводчика Порты</persName> пересказан посланнику в следующих словах:</p>
         <p>« <persName key="p0935">S[a].M[ajesté].</persName> le très haut, très puissant et très
           auguste monarque, notre très gracieux souverain maintiendra l’amitié stricte et permanente
           qui existe entre son empire et celui de Russie. <persName key="p0935">S[a].M[ajesté].</persName>
           observera les conditions du traité conclu entre les deux Empires <hi rendition="#u">aussi </hi>
-          <hi
-            rendition="#u">religieusement </hi>
+          <hi rendition="#u">religieusement </hi>
           <hi rendition="#u">que </hi>
-          <persName key="p0033"
-            ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].I[mperiale].</persName>
-          <hi
-            rendition="#u">votre </hi>
+          <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a].M[ajesté].I[mperiale].</persName>
+          <hi rendition="#u">votre </hi>
           <hi rendition="#u">souveraine</hi>.</p>
       </div>
     </body>
