@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,20 +94,20 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <head>
-          <title>1 March 1707. – Royal letter from King of Denmark Frederik IV to Tsar
+          <title>1 March 1707. – Royal letter from <persName key="p0532">King of Denmark Frederik IV</persName> to Tsar
             Peter I </title>
           <note>
             <bibl>RGADA, f. 53, op. 4, no. 2, fol. 1–1v. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 1r" />
+        <pb n="f. 1r"/>
         <p>Wii Friederich de Fierde, aff Guds Naade, Konge till Dannemarck og Norge, de wenders og
           Gothers, Hertug udi Schlesvig, Holsten, Stormarn og Ditmersken, Greve udi Oldenburg og
           Dellmenhorst. Tilbiude den Stormegtige Höybaarne Vorir Elskelige kiere Broder,
@@ -149,7 +146,7 @@
           <signed>Friderich R[ex]</signed>
           <signed>C: Sehestedt</signed>
         </closer>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <postscript>
           <p>Den Stormegtige, Höybaarne, Voris Elskelige Kiere Broder, Besynderlige gode Venn og
             Naboe, aff Guds Nade Store Herre Czarr og Storförste Peter Alexeiewitz, alle store, smaa
@@ -162,14 +159,14 @@
             förste, og mange andere Herredomme og Lande udi Öster, Vester og Nör, faderlig,
             forfæderlig og arfvelige Herre og Regenter.</p>
           <p>Nabovenligen</p>
-          <p />
+          <p/>
           <note>
             <p>On the fol. 1v</p>
           </note>
           <p>
             Датцкого короля 1707-го.</p>
-          <p />
-          <p />
+          <p/>
+          <p/>
           <p>Фредерик IV (Frederik IV) (11.10.1671 – 12.10.1730) – король Дании и Норвегии
             (1699–1730).</p>
           <p>Петр I Алексеевич (30.5.1672 – 28.1.1725) – сын царя Алексея Михайловича и Натальи
