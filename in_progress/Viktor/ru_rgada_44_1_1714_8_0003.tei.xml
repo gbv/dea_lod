@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +94,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -113,7 +110,7 @@
             <bibl>RGADA, fond 44, op. 1, 1714, no. 8, f. 9–10v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 9" />
+        <pb n="f. 9"/>
         <p>Hoch=Edler,</p>
         <p>Insonders Hochzuehrender Herr.</p>
         <p>Ohne die Ehre Dero sehr wehrten mich befindende, so bestätige zuförderst meine jüngst an
@@ -123,23 +120,17 @@
           abgelaßene Schreiben, nicht zweiflende, es werden solche, nebst Dero bey dem ersteren,
           übersandte Conto Courant wohl eingangen und diese nebst mir gleichförmig notiret seyn, so
           weit beliebiger Commodité hienechst gerne vernehme, berichte inzwischen ferner hiemit, wie
-          ich, da numehro über die dürch <persName
-            key="p0174"
-            ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Groß=Czarischen May[es]t[ä]t</persName>,
-          bey Dero hohem Anseyn alhie, mir allergnädigst zugestandene, und von <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> außgeschiffe Parthey Rogken, bey mir die Rechnung
+          ich, da numehro über die dürch <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Groß=Czarischen May[es]t[ä]t</persName>,
+          bey Dero hohem Anseyn alhie, mir allergnädigst zugestandene, und von <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> außgeschiffe Parthey Rogken, bey mir die Rechnung
           völlig geschlossen, Ew[er] Hoch=Edle vor die damahls darunter gehabten Bemühung, Ein
           Hundert Fünffzig Ducaten zugeleget, und gutgeschrieben habe, worüber dann Dieselbe nach
           selbst beliebigem Gefallen disponiren können; </p>
-        <pb n="f. 9v" />
+        <pb n="f. 9v"/>
         <p> Und da sonst der Rogken anjetzo alhie in beßerem Preise, wie damahlen, ist, so wäre mir
           lieb, wann Ew[er] Hoch=Edle dürch Dero vielgeltendes Vermögen, es bey Ihro Groß=Czarischen
           May[es]t[ä]t dahin geneigt in die Wege richten könten, daß mir aus Deroselben Magazin
           anstehendes Früh=Jahr eine Parthey von 8 biß 10000, schreibe Acht, biß Zehntausend
-          Tzetwert auf vorigem Fuß, in <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> geliefert werden
+          Tzetwert auf vorigem Fuß, in <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> geliefert werden
           mögten, oder, da ja die Freyheit des Zolles nicht zu erlangen wäre, daß dann wenigstens
           der preiß davon civil, und also, gleich er in denen Magazinen geliefert wird, gestellet
           würde, wogegen ich, wann diese meine Proposition angeführtermaßen zum Stande zu bringn
@@ -148,14 +139,10 @@
           anheimstellen, ob Dieselbe Belieben tragen, bey oberregtem quanto selbst vor ¼<hi rendition="#u">
             <hi rendition="#sup">ten</hi>
           </hi> oder ⅓<hi rendition="#sup">ten</hi>: theil
-          zu participiren, wollende ich seiner zeit vor die behörige Zahlung in <placeName
-            key="g0049"
-            ref="https://www.geonames.org/581049">Archangel</placeName> oder <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Mosco</placeName>, gleich solches v[er]langet
+          zu participiren, wollende ich seiner zeit vor die behörige Zahlung in <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> oder <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>, gleich solches v[er]langet
           werden mögte, schon wißen zu sorgen, möchte inzwischen mit Ew[er] Hoch=Edl[e] beliebigen
           Commodité, so balden es thunlich, gerne v[er]nehmen, ob und wel= </p>
-        <pb n="f. 10" />
+        <pb n="f. 10"/>
         <p> chergestelt Dieselbe in sothanem meinem Vortrage zu riusciren, Hofnung sehen, in welcher
           Erwartung nach Offerta meiner schüldigen dienste, mit höchster Veneration ergebenst
           v[er]harre: </p>
@@ -163,14 +150,14 @@
         <p>Meines Insonders Hochzuehrenden Herrn</p>
         <p>Ergebenster Diener</p>
         <p>
-          <persName key="p1251">Frans Poppe</persName> ./.</p>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1251" xml:space="default" type="signature">Frans Poppe</persName> ./.</p>
         <p>
           <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburg</placeName> den 12ten.</p>
         <p>Octob[e]r 1714_</p>
         <p>Einl[igendes] bitte ohnschwer zu laßen bestellen.</p>
-        <p />
-        <p />
-        <pb n="f. 10v" />
+        <p/>
+        <p/>
+        <pb n="f. 10v"/>
         <p>
           <persName key="p0167" ref="e775831f-5c08-4dad-87e5-6714fcf5bb2a">A Monsieur</persName>
         </p>
@@ -190,7 +177,7 @@
           <persName key="g0002">St: Petersbourg</persName>
         </p>
         <noteGrp>
-          <note>Also see:</note>
+          <note>See also:</note>
           <note>ru_rgada_44_1_1702_3_0007</note>
           <note>ru_rgada_44_1_1702_3_0008</note>
           <note>ru_rgada_44_1_1702_3_0009</note>
