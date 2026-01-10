@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,7 +93,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,18 +102,14 @@
         <head>
           <title> 4/14 February 1673. – Letter from <persName key="p1196,p1202">the Burgomasters </persName>
             and <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">the Council of the
-            City of Hamburg</orgName> to<persName
-              key="p0267"
-              ref="a4d3f91c-ef66-4380-87c6-9b7960172996"> Tsar Alexis Mikhailovich</persName>
+            City of <placeName key="g0011">Hamburg</placeName></orgName> to<persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996"> Tsar Alexis Mikhailovich</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, opis 2, no. 8, f. 1–1v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 1" />
-        <p>Von Gottes Gnaden <persName
-            key="p0267"
-            ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Allerdurchleuchtigster
+        <pb n="f. 1"/>
+        <p>Von Gottes Gnaden <persName key="p0267" ref="a4d3f91c-ef66-4380-87c6-9b7960172996">Allerdurchleuchtigster
             Großmächtigster Kayser, Großer Herr Zaar und Groß=Furst Alexea Michælowiz</persName>,
           von Gantzen Großen Kleinen und Weißen Rußlandt, selbst Erhaltern von Moskouw, Kyoffskog,
           Wladimerskog, Novogrodskogo, Zaar von Casaen, Zaar von Astragkaen, Zaar von Sibirien, Herr
@@ -127,13 +120,10 @@
           Cabardinland, Tzierkassen und Igorskig Fursten, und über andern vielen Königreichen, und
           Landen, Ostlich, Westlich und Nördtlich Vätterlich und Vorvätterlich Erb=Herr und
           Herrscher. Ew[er] Zaarischen May[estä]tt Höchstgeehrtes Schreiben sub dato 19. Octobris
-          Anno 7181. hat Unß dero <persName
-            key="p0472"
-            ref="40177305-b760-4122-9245-883200d6fc0a">Hochansehnlicher
+          Anno 7181. hat Unß dero <persName key="p0472" ref="40177305-b760-4122-9245-883200d6fc0a">Hochansehnlicher
             Herr Abgesandter Herr Andreas Winius</persName> woll eingelieffert, und Wir habens mit
           gehörigem Respect empfangen, auch nach beschehener Übersetzung in Unser Teutsche Sprach
-          Ablesend darauß ersehen, waß Ew[er] Zaarische May[estä]tt für dero dortigen <persName
-            key="p1193">Kauffman Jacob Brandt</persName> wegen einer foderung von 4000. Rubell
+          Ablesend darauß ersehen, waß Ew[er] Zaarische May[estä]tt für dero dortigen <persName key="p1193">Kauffman Jacob Brandt</persName> wegen einer foderung von 4000. Rubell
           wieder einen hiesigen <persName key="p1194">KauffGesellen Magnus Glück</persName> genandt,
           an Unß gesonnen, und endtlich von deßen Gefreundten zu erfordern begehret haben. Wir nun
           Ew[er] Zaarischen May[estä]tt Wir alle möglichste Dienste zu leisten bereitwilligst sind,
@@ -153,8 +143,7 @@
           Vater Joachim Glück</persName> zu erhandelung der Pottasche, davon die Foderung herrühret,
           seinen Consens und Ordre gegeben: So beweisen doch dagegen die Gefreundte daß ermeldter
           Vater keine general Ordre zu contrahiren, sondern nur uff einen gewißen Preiß die Bergwitz
-          zu 10 oder 10½ Rubel und gewiße Zeit, laut KauffContracts, welcher bey <persName
-            key="p1193">Jacob Brandt</persName> Originaliter verhanden, im Julio A[nn]o 1665. zu
+          zu 10 oder 10½ Rubel und gewiße Zeit, laut KauffContracts, welcher bey <persName key="p1193">Jacob Brandt</persName> Originaliter verhanden, im Julio A[nn]o 1665. zu
           lieffern gegeben habe. Nun sey aber weder der Kauff vor sothanen Preyß sondern vor 11.
           Rubell, noch die Liefferung von <persName key="p1193">Jacob Brandt</persName> zu
           bestimbter Zeit, sondern Später, und Zwaer allererst im Septembr[is] wie auß dem dato
@@ -164,15 +153,12 @@
           Niemandt, Er sey dann erst Gerichtlich belanget und verurtheilet, mit execution verfahren
           werden. Im Übrigen hat <persName key="p0000">besagte Mutter</persName> Unß kläglich der
           Länge nach verstehen gegeben, wie Grausahm und Gewaldtthätig der <persName key="p1193">Jacob
-          Brandt</persName> ihren Sohn <persName key="p1194">Magnum Glück</persName> in <placeName
-            key="g0001"
-            ref="https://www.geonames.org/524894">Moßkaw</placeName> tractiret, und den jungen
+          Brandt</persName> ihren Sohn <persName key="p1194">Magnum Glück</persName> in <placeName key="g0001" ref="https://www.geonames.org/524894">Moßkaw</placeName> tractiret, und den jungen
           Ehrlichen Menschen dergestaldt umb seine Gesundtheit und Zeitliche Wollfahrt gebracht
           habe, daß Sie eß die Zeit ihrer Lebens mit Tränen nicht genug beklagen können. Und ob
           gleich derselbe, alß Er noch in Moßkaw gewesen, dem <persName key="p1193">Jacob
             Brandt</persName> die Restierende Rubell mit Sechs pro cento zu bezahlen zum öfftern
-          angebothen, wie davon attestata verhanden, so habe doch <persName
-            key="p1193">Jacob Brandt</persName> solches nicht annehmen sondern Zwantzig pro cento
+          angebothen, wie davon attestata verhanden, so habe doch <persName key="p1193">Jacob Brandt</persName> solches nicht annehmen sondern Zwantzig pro cento
           daneben haben, viel weniger aber ihm vergönnen wollen seine außstehende große Schulden,
           davon Er die Zahlung hätte überflüßig thuen können, einzutreiben. Indeßen wären die
           Schuldener verdorben und Unzahlbahr geworden. Eß habe überdem der <persName key="p1193">Jacob
@@ -204,9 +190,7 @@
           Reise geleistet, Womit schließlich Ew[er] Zaarischen May[estä]tt Langes Leben, beständige
           Gesundtheit, Glücklich Regiment und alles Selbsterwünschetes Zaarisches Hochwesen auß
           HertzensGrundt anwünschen, auch Dero beharrlichen Hulde und Gnade Unß sambt dieser Stadt
-          Angehörigen Getrewlichst empfehlen, Geben unter <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Unserm Stadt</placeName> Signet den 4/14
+          Angehörigen Getrewlichst empfehlen, Geben unter <placeName key="g0011" ref="https://www.geonames.org/2911298">Unserm Stadt</placeName> Signet den 4/14
           Februarii Jm Jahr Christi 1673.</p>
         <p> Ew[er] Zaarischen May[estä]tt</p>
         <p>Unterthänigste</p>
@@ -222,12 +206,10 @@
       30 years old. The names of the Burgomasters are indicated here according to the
       <hi rendition="#i">List of mayors of Hamburg </hi>
     </p>
-    <p>https://en.wikipedia.org/wiki/List_of_mayors_of_Hamburg. </p></note> undt <orgName
-            key="o0025"
-            ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Raht der Stadt Hamburg</orgName>.</p>
-        <p />
-        <p />
-        <pb n="f. 1v" />
+    <p>https://en.wikipedia.org/wiki/List_of_mayors_of_Hamburg. </p></note> undt <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Raht der Stadt Hamburg</orgName>.</p>
+        <p/>
+        <p/>
+        <pb n="f. 1v"/>
         <p> Dem Allerd</p>
         <p>urchleuchtigsten Großmächtigsten Herrn Zaaren und GroßFürsten Herren Alexea Michailowitz
           von gantzen grossen Kleinen und Weissen Rußlandt, selbst Erhaltern von Mosko, Kiofsko,
@@ -242,12 +224,8 @@
         <p>Unsern Gnädigsten</p>
         <p>Zaaren vnd Herren.</p>
         <p>
-          <hi rendition="#sup">1-</hi>182-г[о] лист города <placeName
-            key="g0011"
-            ref="https://www.geonames.org/2911298">Амбурка</placeName> бурмистров и ратманов с <persName
-            key="p0472" ref="40177305-b760-4122-9245-883200d6fc0a">Андреем
-            Виниюсом</persName>, о <persName key="p1194">Глюке</persName> по челобит[ь]ю <persName
-            key="p1193">Якова Бранта</persName>.<note place="foot">Written at the bottom of f. 1.</note></p>
+          <hi rendition="#sup">1-</hi>182-г[о] лист города <placeName key="g0011" ref="https://www.geonames.org/2911298">Амбурка</placeName> бурмистров и ратманов с <persName key="p0472" ref="40177305-b760-4122-9245-883200d6fc0a">Андреем
+            Виниюсом</persName>, о <persName key="p1194">Глюке</persName> по челобит[ь]ю <persName key="p1193">Якова Бранта</persName>.<note place="foot">Written at the bottom of f. 1.</note></p>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_rgada_44_2_10_0001</note>
