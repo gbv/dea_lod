@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,7 +93,7 @@
         <p>TODO</p>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
     </profileDesc>
   </teiHeader>
   <text>
@@ -105,15 +102,13 @@
         <head>
           <title>31 August 1714. – Letter from <persName key="p1271,p1272,p1273">the Burgomasters</persName>
             and <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">the Council of the
-            City of Hamburg</orgName> to <persName
-              key="p0174"
-              ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
+            City of Hamburg</orgName> to <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, opis 2, no. 15, f. 1–3v, 4v. German original. </bibl>
           </note>
         </head>
-        <pb n="f. 1" />
+        <pb n="f. 1"/>
         <p>Allerdurchlauchtigster Großmächtigster Kayser,</p>
         <p>Großer Herr Czaar und Groß Fürst,</p>
         <p>Daß Ew[er] Groß-Czaar[ischen] Majest[ät] am 30. April[is] ann[i] curr[entis] abgelaßene
@@ -124,7 +119,7 @@
           devotion ehender nicht beantworthet und Unsere desfalls habende fernere Nothdringliche
           desideria Vorstellig gemacht worden, werden Dieselbe in Weldgepriesener Dero Clemence umb
           so weniger in Ungnaden Vermercken, als Wir aus keiner andern Ursache, als allein umb </p>
-        <pb n="f. 1v" />
+        <pb n="f. 1v"/>
         <p>mittlerweile Uns dahin äußersten Fleißes zu bestreben, wie Wir von dem accordirten quanto
           derer 200000 <hi rendition="#s">rt</hi>hl<hi rendition="#u">
             <hi rendition="#sup">r</hi>
@@ -141,12 +136,11 @@
           allschon berichtiget ist, mit deßen wenigen residui gäntzlichem Abtrag auch tag-täglich
           eiffrigst fortgefahren werden wird, Wir Uns nichtes in der Weldt angelegener haben seyn
           laßen, als mit aller ersinnlichen sorgfalt dahin zu trachten, wie Wir die an statt des
-          dritten und letzten termini restirende fernerweitige 50000 <hi rendition="#s">Rt</hi>hl<hi
-            rendition="#u">
+          dritten und letzten termini restirende fernerweitige 50000 <hi rendition="#s">Rt</hi>hl<hi rendition="#u">
             <hi rendition="#sup">r </hi>
           </hi>aufs prompteste erlegen mögten.</p>
         <p>Wann aber, Gnädigster Czaar und Herr, die bißhero über diese </p>
-        <pb n="f. 2" />
+        <pb n="f. 2"/>
         <p>gute Stadt Verhänget gewesene vielfältige Harte pressuren und Fatalitäten, wodurch die zu
           herbeybringung jener Gelder bewilligte Fonds unzulänglich gemacht worden, welche den
           allererst durch neü anzulegende andere contribuenda zu ergantzen seyn werden, Uns besorgen
@@ -161,14 +155,12 @@
         <p>Wie nun Wir unsers niedrigen Ortes hierunter keinen Augenblick Verabsäümen, vielmehr
           hingegen alle unserm publico übrig gebliebene Kräffte eyffrigst ferner dahin anstrecken
           werden, umb eine solche grobe Unserer Unterthänigsten devotion aufs fodersahmste an den </p>
-        <pb n="f. 2v" />
+        <pb n="f. 2v"/>
         <p> Tag zu legen, Also kan hinwiederumb erfreülichers Uns nichtes begegnen, als wen von
           Ew[e]r Groß-Czaar[ischen] Majest[ät] Höchstschätzbahren propension Vergnügsahme Gnädigste
           Merckzeichen zu erhalten Wir gewürdiget werden.</p>
         <p>Gestalten denn aus Anfangs-gedachter unterm 30. Aprilis anni curr[entis] ausgefertigten
-          Genehmhaltungs=Versicherung, Dero <orgName
-            key="o0025"
-            ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">unserer Stadt</orgName> wieder hergestellete
+          Genehmhaltungs=Versicherung, Dero <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">unserer Stadt</orgName> wieder hergestellete
           Höchste Gnaden=Gewogenheit, mit desto größerer Hochachtung und Freüde von Uns Bemercket
           worden, als Hertzempfindlicher deren Vormahlige plätzliche entziehung Uns gewesen.</p>
         <p>Die Zufriedenheit, worin, durch sothane Dero Uns von neüen Zugekehten Hulde, Gnädigste
@@ -179,7 +171,7 @@
           </hi>Martii datirten Unterthänigsten Schreiben
           Vorzustellen Wir gemüßiget worden, beyzubringen; in trost-voller zuversicht, Dieselbe
           werden dadurch weniger nicht als durch Dero Höchstrühmlichste Großmuth und æquanimität </p>
-        <pb n="f. 3" />
+        <pb n="f. 3"/>
         <p>Selbst, das ehemahls-angedeütete ressentiment schwinden zu laßen, in Gnaden Bewogen
           worden seyn. Umb so mehr aber dörffen Wir in Unterthänigster submission Uns die Hoffnung
           machen, Ew[e]r Groß-Czaar[ische] Majest[ät] werden dem eyffrigen Verlangen, womit Wir der
@@ -194,7 +186,7 @@
           Gemüths-Beruhigung solcher gestalt einrichten zu laßen, als den bißherigen und etwanigen
           fernern geringen Verzug derer abseiten unser erforderten præstandorum in Ungnaden nicht zu
           vermercken, besondern vielmehr durch sothane Gnädigste condescendentz unserm </p>
-        <pb n="f. 3v" />
+        <pb n="f. 3v"/>
         <p>Gemeinen Wesen neüe vigueur und Kräffte mitzutheilen; umb den möglichst fordersahmsten
           Abtrag der restirenden Geldt-Summen mit desto größerer Willigkeit und promptitude
           Bewerckstelligen zu können, mithin Uns, gesamte Stadt, und deren Commercia in den stand zu
@@ -217,15 +209,13 @@
           here according to the <hi rendition="#i">List of mayors of Hamburg </hi>
             </p>
             <p>https://en.wikipedia.org/wiki/List_of_mayors_of_Hamburg. </p>
-          </note> und <orgName
-            key="o0025"
-            ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Rath der Stadt Hamburg</orgName>
+          </note> und <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Rath der Stadt Hamburg</orgName>
         </p>
         <p>Gegeben unter Unserm Stadt-</p>
         <p>Signet d[ie] 31. Augusti A[nn]o 1714.</p>
-        <p />
-        <p />
-        <pb n="f. 4v" />
+        
+        
+        <pb n="f. 4v"/>
         <p> Dem Allerdurchlauchtigsten Großmächtigsten Herrn, Herrn Czaaren und Groß-Fürsten, Petro,
           vom gantzen Großen - kleinen - und Weißen Rußlandt Selbst˶Erhaltern, von Moscow,
           Kyaffskoy, Wolodienerskoy, Novogradskoy, Czaaren zu Caßan, Czaaren zu Astraykan, Czaaren
@@ -237,12 +227,12 @@
           Großker Fürsten und über viel andere Konigreiche und Lande, Ostlich, Westlich und
           Nordlich, Väterlich und Vor-Väterlich, Erb-Herren und Herrschern Unserm Gnädigsten Czaaren
           und Herren.</p>
-        <p />
+        <p/>
         <p>
           <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Города Гамбурга</orgName>
           грамота 1714.</p>
         <noteGrp>
-          <note>Also see:</note>
+          <note>See also:</note>
           <note>ru_rgada_44_1_1713_4_0001</note>
           <note>ru_rgada_44_2_8_0001</note>
           <note>ru_rgada_44_2_10_0001</note>
