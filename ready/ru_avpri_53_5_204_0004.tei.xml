@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,29 +104,29 @@
     <body>
       <div type="letter">
         <head>
-          <title>8 April 1767. – Copy of the note from <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default">the Danish Ministry</orgName>,
-              <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0121" xml:space="default">the Royal German Chancellery</orgName>, <persName key="p1102">[to the Russian Minister Plenipotentiary and Envoy Extraordinary to Denmark, Mikhail Mikhailovich Filosofov</persName>,] dated 8 April 1767</title>
+          <title>8 April 1767. – Copy of the note from <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default" ref="https://api.dante.gbv.de/person/bf00857c-fc22-413f-aafc-9a19a72e948d">the Danish Ministry</orgName>,
+              <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0121" xml:space="default" ref="https://api.dante.gbv.de/person/b66d4239-443d-4304-a956-f5d775969417">the Royal German Chancellery</orgName>, <persName key="p1102" ref="https://api.dante.gbv.de/person/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">[to the Russian Minister Plenipotentiary and Envoy Extraordinary to Denmark, Mikhail Mikhailovich Filosofov</persName>,] dated 8 April 1767</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 204, f. 19-19v. German original</bibl>
           </note>
         </head>
-        <pb n="f. 19"/>
+        <pb n="f. 19" />
         <p>Lit. B.</p>
         <p>Копия из ноты дацкаго министерства, из королевской немецкой канцелярии от 8<hi rendition="#sup">го</hi> апреля 1767<hi rendition="#sup">го</hi> году.</p>
-        <p>Demnach die <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default">Königl[ich]: Dänische Canzeley</orgName> in Anleitung der von dem
-          Rußisch-Kayserlichen Ministre Plenipotentiaire und <persName key="p1102">Envoyé Extraordinaire, Herrn Genéral major von Filosoffow</persName> hochwohlgebl[oren]: des fals eingereichten Note, von der
-          Beschaffenheit der <persName key="p1522">Harboeschen</persName> Verlaßenschaft Nachricht eingezogen hat; so
-          ermangelt man nicht, deroselben das von gedachter <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default">Canzeley</orgName> dieser Sache halber
+        <p>Demnach die <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default" ref="https://api.dante.gbv.de/person/bf00857c-fc22-413f-aafc-9a19a72e948d">Königl[ich]: Dänische Canzeley</orgName> in Anleitung der von dem
+          Rußisch-Kayserlichen Ministre Plenipotentiaire und <persName key="p1102" ref="https://api.dante.gbv.de/person/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">Envoyé Extraordinaire, Herrn Genéral major von Filosoffow</persName> hochwohlgebl[oren]: des fals eingereichten Note, von der
+          Beschaffenheit der <persName key="p1522" ref="https://api.dante.gbv.de/person/8277f69c-d697-42ef-b2de-498cc2d851f9">Harboeschen</persName> Verlaßenschaft Nachricht eingezogen hat; so
+          ermangelt man nicht, deroselben das von gedachter <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default" ref="https://api.dante.gbv.de/person/bf00857c-fc22-413f-aafc-9a19a72e948d">Canzeley</orgName> dieser Sache halber
           erhaltene Promemoria in Abschrift geziemend zu communiciren. </p>
         <p>war gezeichnet. J[ohan]: H[artwig]. E[rnst]: </p>
-        <p><persName key="p0234">Fr[eiherr]: von Bernstorff</persName></p>
+        <p><persName key="p0234" ref="https://api.dante.gbv.de/person/2d56c0e2-a7fc-445a-972b-a895f15b3dac">Fr[eiherr]: von Bernstorff</persName></p>
         <p>An den Rußisch-Kayserl[ichen]: Ministre</p>
         <p>Plenipotentiaire und Envoyé extraor-</p>
         <p>dinaire Herrn General-Major von</p>
-        <p><persName key="p1102">Filosoffow</persName>.</p>
-        <p/>
-        <pb n="f. 19v"/>
-        <p>К реляции <persName key="p1102">полн:[омочно]<hi rendition="#sup">го </hi>Мин[истр]а философова</persName></p>
+        <p><persName key="p1102" ref="https://api.dante.gbv.de/person/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">Filosoffow</persName>.</p>
+        <p />
+        <pb n="f. 19v" />
+        <p>К реляции <persName key="p1102" ref="https://api.dante.gbv.de/person/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">полн:[омочно]<hi rendition="#sup">го </hi>Мин[истр]а философова</persName></p>
         <p>Из <placeName key="g0006" ref="https://www.geonames.org/2618425">копенгагена</placeName> №4<hi rendition="#u">
             <hi rendition="#sup">го</hi>
           </hi> 1767 года.</p>

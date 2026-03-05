@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -181,16 +182,16 @@
     <body>
       <div type="letter">
         <head>
-          <title>23 April 1779. – Draft of a letter from <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to
-            the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>, to <persName key="p1087" ref="32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">the Chancellor of the Grand
+          <title>23 April 1779. – Draft of a letter from <persName key="p0861" ref="https://api.dante.gbv.de/person/3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador Extraordinary of Russia to
+            the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>, to <persName key="p1087" ref="https://api.dante.gbv.de/person/32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">the Chancellor of the Grand
             Duchy of Lithuania, Prince Aleksander Michał Sapieha</persName>
           </title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 7, f. 1307. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1307"/>
-        <opener> au <persName key="p1087">Pr[ince] Sapieha Gr[and] Chancelier de Lithuanie
+        <pb n="f. 1307" />
+        <opener> au <persName key="p1087" ref="https://api.dante.gbv.de/person/32a1dcd9-ee52-4be2-bcfe-4b7208bb0d34">Pr[ince] Sapieha Gr[and] Chancelier de Lithuanie
           </persName>
           <dateline> le <date when="1779-04-23">
               23. avril 1779</date>. </dateline>
@@ -214,8 +215,8 @@
           affaire, Elle obligera <hi rendition="#s">encore</hi> en particulier celui, qui a
           l’honneur d’être avec la consideration la plus distinguée, mon P[rince] de V[otre]
           A[ltesse].</p>
-        <p/>
-        <p/>
+        <p />
+        <p />
         <noteGrp>
           <note>See also:</note>
           <note>fr_bpp_29_7_0001</note>

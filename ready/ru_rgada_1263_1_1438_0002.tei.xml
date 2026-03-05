@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,8 +104,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>21 April/2 May 1774. – Letter from <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain, Stepan
-            Stepanovich Zinov’ev</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>21 April/2 May 1774. – Letter from <persName key="p0154" ref="https://api.dante.gbv.de/person/9ec0f4ec-3bd4-425f-bbb2-045e66369204">the Russian Envoy to Spain, Stepan
+            Stepanovich Zinov’ev</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -112,32 +113,32 @@
           </note>
         </head>
 
-        <pb n="f. 4"/>
+        <pb n="f. 4" />
         
         <p>Monseigneur,</p>
         
-        <p/>
+        <p />
         <p>J’ai l’honneur de joindre une notte de vaisseaux, de l’Escadre à <placeName key="g0098" ref="https://www.geonames.org/2520058">
-          Carthagene</placeName>, sous les ordres du Chef d’Escadre <persName key="p0073" ref="17196e1b-2031-4278-8ffb-b5a13593cd97">Don Pedro Gastejon</persName>. L’objet de cet
+          Carthagene</placeName>, sous les ordres du Chef d’Escadre <persName key="p0073" ref="https://api.dante.gbv.de/person/17196e1b-2031-4278-8ffb-b5a13593cd97">Don Pedro Gastejon</persName>. L’objet de cet
           armement n’est pas encore connu. Peut-etre même qu’il n’y aura d’autre but, que de la
           faire croiser dans la Mediterrannée, et de donner un peu de pratique aux officiers, qui en
           ont besoin. Dès que je saurai quelque chose de la destination de cette Escadre, je ne
-          manquerai pas, d’en informer Votre Excellence. Je crois qu’on peut assurer que la grande <persName key="p0099" ref="86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse de Toscane</persName> ne
-          viendra pas, quoique jamais <orgName key="o0020">la Cour</orgName> ne</p><p> [Note in the lower margin:] à S[on] E[xcellence] M[onsei]<hi rendition="#sup"><hi rendition="#u">g[neu]r</hi>
-              </hi> <persName key="p0065">le Prince Vice Chancelier</persName></p>
-        <pb n="f. 4v"/>
-        <p> voudra avouer publiquement le refus de la <persName key="p0099" ref="86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse</persName>.</p>
-        <p>On dit que le <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">Comte de
-          Bruhl, chevalier de l’ordre de Malte</persName>, sera nommé Envoyé Extraordinaire de la <orgName key="o0012" ref="76593cc3-a621-46b7-8e1c-532ad73e99af">cour de Saxe</orgName> auprès
-          celle d’<orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">ici</orgName>.</p>
+          manquerai pas, d’en informer Votre Excellence. Je crois qu’on peut assurer que la grande <persName key="p0099" ref="https://api.dante.gbv.de/person/86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse de Toscane</persName> ne
+          viendra pas, quoique jamais <orgName key="o0020" ref="https://api.dante.gbv.de/person/b9bac2f4-8091-4111-baac-126edb9e1cfe">la Cour</orgName> ne</p><p> [Note in the lower margin:] à S[on] E[xcellence] M[onsei]<hi rendition="#sup"><hi rendition="#u">g[neu]r</hi>
+              </hi> <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">le Prince Vice Chancelier</persName></p>
+        <pb n="f. 4v" />
+        <p> voudra avouer publiquement le refus de la <persName key="p0099" ref="https://api.dante.gbv.de/person/86611f6e-e08f-406a-bdbb-afcb4e7cffcd">Duchesse</persName>.</p>
+        <p>On dit que le <persName key="p0023" ref="https://api.dante.gbv.de/person/68c38ff9-fa0e-4544-b443-602a7f755eb1">Comte de
+          Bruhl, chevalier de l’ordre de Malte</persName>, sera nommé Envoyé Extraordinaire de la <orgName key="o0012" ref="https://api.dante.gbv.de/person/76593cc3-a621-46b7-8e1c-532ad73e99af">cour de Saxe</orgName> auprès
+          celle d’<orgName key="o0020" ref="https://api.dante.gbv.de/person/b9bac2f4-8091-4111-baac-126edb9e1cfe">ici</orgName>.</p>
         <p>J’ai l’honneur d’être avec la consideration la plus distinguée et atachement inviolable</p>
         <p>Monseigneur</p>
         <p>De Votre Excellence</p>
-        <p/>
+        <p />
         <p>le tres humble et tres </p>
         <p> obeisant serviteur</p>
         <p>
-          <persName key="p0154" ref="9ec0f4ec-3bd4-425f-bbb2-045e66369204" type="signature">de Zinowieff</persName>
+          <persName key="p0154" type="signature" ref="https://api.dante.gbv.de/person/9ec0f4ec-3bd4-425f-bbb2-045e66369204">de Zinowieff</persName>
         </p>
         <p>
           <placeName key="g0097" ref="https://www.geonames.org/3129857">Aranjuez</placeName>
@@ -146,9 +147,9 @@
         <p>1774.</p>
         
         
-        <pb n="f. 5"/>
+        <pb n="f. 5" />
         
-        <p>Liste de vaisseaux de guerre sous les ordres de <persName key="p0073" ref="17196e1b-2031-4278-8ffb-b5a13593cd97">Don Pedro Castejon</persName><note place="foot">Attached to the letter on f. 4-4v.</note>
+        <p>Liste de vaisseaux de guerre sous les ordres de <persName key="p0073" ref="https://api.dante.gbv.de/person/17196e1b-2031-4278-8ffb-b5a13593cd97">Don Pedro Castejon</persName><note place="foot">Attached to the letter on f. 4-4v.</note>
         </p>
         <p>De ligne:
         </p>
@@ -156,16 +157,16 @@
           </hi> Nicolas
           ----------------------------------------------------------------80 canons 600 hommes</p>
         <p>S<hi rendition="#u"><hi rendition="#sup">t</hi>
-          </hi> Raphael <persName key="p2588">Cap. Don Mich. Gaston</persName>
+          </hi> Raphael <persName key="p2588" ref="https://api.dante.gbv.de/person/51e6a3f5-7066-43ab-af88-67af589a92a6">Cap. Don Mich. Gaston</persName>
           ----------------------------------70 ------- 500 ------- </p>
         <p>S<hi rendition="#u"><hi rendition="#sup">t</hi>
-          </hi> Dominique <persName key="p2589">Cap. Don Don M. de la Sterria</persName>
+          </hi> Dominique <persName key="p2589" ref="https://api.dante.gbv.de/person/b28c0865-4c9e-4690-88bf-8d6dc9988f34">Cap. Don Don M. de la Sterria</persName>
           --------------------- 70 ------- 500------- </p>
-        <p>S<hi rendition="#u"><hi rendition="#sup">t</hi> </hi>Genaro <persName key="p2590">Cap. Don Alexo Rabalcara</persName>
+        <p>S<hi rendition="#u"><hi rendition="#sup">t</hi> </hi>Genaro <persName key="p2590" ref="https://api.dante.gbv.de/person/c41b08db-7bd0-48d1-b53f-8040de23e3b7">Cap. Don Alexo Rabalcara</persName>
           -------------------------------- 70 ------- 500------- </p>
         <p>Fregattes :</p>
         <p>S<hi rendition="#u"><hi rendition="#sup">te</hi>
-          </hi> Marie Magdalene <persName key="p2591">Cap. Don Ignacio Mendizabal</persName>
+          </hi> Marie Magdalene <persName key="p2591" ref="https://api.dante.gbv.de/person/1e231015-59fe-40dd-a8b6-d193ff253c4a">Cap. Don Ignacio Mendizabal</persName>
           -------- 30 -------- 250------- </p>
         <p>une dite de <placeName key="g0098" ref="https://www.geonames.org/2520058">Carthagene</placeName>
           ------------------------------------------------ 30 -------- 250------- </p>

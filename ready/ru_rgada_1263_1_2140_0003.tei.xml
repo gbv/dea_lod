@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,17 +104,17 @@
     <body>
       <div type="letter">
         <head>
-          <title>7 June 1778. – Draft of a letter from <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
-            Mikhailovich Golitsyn,</persName> to <persName key="p0449" ref="f8d88732-719a-43a7-a581-d24ae6b82ff6">Mister Johanninck</persName>
+          <title>7 June 1778. – Draft of a letter from <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn,</persName> to <persName key="p0449" ref="https://api.dante.gbv.de/person/f8d88732-719a-43a7-a581-d24ae6b82ff6">Mister Johanninck</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2140, f. 5v. French original.</bibl>
           </note>
         </head>
 
-        <pb n="f. 5 v"/>
-        <p/>
-        <p>à <orgName key="o0050" ref="d6a17bfb-d7df-4656-85dc-6cacdd9c359a">M<hi rendition="#sup">rs</hi>. Johanninck &amp; Comp.</orgName>
+        <pb n="f. 5 v" />
+        <p />
+        <p>à <orgName key="o0050" ref="https://api.dante.gbv.de/person/d6a17bfb-d7df-4656-85dc-6cacdd9c359a">M<hi rendition="#sup">rs</hi>. Johanninck &amp; Comp.</orgName>
         </p>
         <p>
           <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> le 7. Juin
@@ -128,8 +129,8 @@
                   prie dorenavant de vouloir bien continuer à me faire parvenir de la même manière
                   les sommes qui me seront dues</hi><note place="foot">Crossed-out text in the left margin.</note>
               </p>
-              <p/>
-              <p/>
+              <p />
+              <p />
               <p>je vous demanded la permission de pouvoir a l’avenire m’addresser à cette effet à
                 Vous<note place="foot">Inserted in the left margin.</note></p>
               <p>bon à quelque chose et je m’y emploierai avec plaisir<note place="foot">Inserted text.</note></p>
@@ -137,7 +138,7 @@
             <cell>
               <p>Je vous suis fort obligé de la lettre que Vous avez pris la peine de m’ecrire le
                 19. du mois passé avec la lettre de change de 300 t. <hi rendition="#s">L</hi>. à
-                l’ordre de <persName key="p2313">M<hi rendition="#sup">r</hi>. John Cametz</persName>
+                l’ordre de <persName key="p2313" ref="https://api.dante.gbv.de/person/753125cf-564c-4f84-9d43-2f6ae716064a">M<hi rendition="#sup">r</hi>. John Cametz</persName>
                 et les comptes <hi rendition="#sup">que vous y avez</hi><note place="foot">Inserted
                   text.</note> y<note place="foot">Crossed-out word.</note> joints et les autres
                 annexes. Je suis très charmé, M<hi rendition="#u">

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,16 +102,16 @@
     <body>
       <div type="letter">
         <head>
-          <title>29 September / 10 October 1764. – Draft of a letter from <persName key="p0065">Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</persName>, to <persName key="p0245">the  Russian Envoy Extraordinary to Copenhagen, Baron Johann
+          <title>29 September / 10 October 1764. – Draft of a letter from <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</persName>, to <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the  Russian Envoy Extraordinary to Copenhagen, Baron Johann
               Albrecht von Korff</persName></title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 168, f. 20. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 20"/>
+        <pb n="f. 20" />
         <opener>
           <address>
-            <addrLine> à <persName key="p0245">S[on] E[xellence] M[onsieur]r le Baron de Korff</persName> a <placeName key="g0006">Copenhague</placeName></addrLine>
+            <addrLine> à <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">S[on] E[xellence] M[onsieur]r le Baron de Korff</persName> a <placeName key="g0006">Copenhague</placeName></addrLine>
           </address>
           <dateline><placeName key="g0002" ref="https://www.geonames.org/498817">S[aint] Petersbourg</placeName> ce <date>29 7bre / 10
               8bre 1764</date>.</dateline>
@@ -118,18 +119,18 @@
         </opener>
         <p>Je viens d’être honoré de la lettre de V[otre]. E[xcellence]. du 28 août / 8 7bre &amp;
           je vous prie d’agréer mes remerciements des peines, que Vous avez bien voulu prendre pour
-          mettre <hi rendition="#s">commission</hi> <persName key="p0925">M[onsieu]r. Desfeld</persName>
+          mettre <hi rendition="#s">commission</hi> <persName key="p0925" ref="https://api.dante.gbv.de/person/b29a2db9-7476-4c4b-8cf9-01d5dd2d2e83">M[onsieu]r. Desfeld</persName>
           en état d’exécuter ma commission. La façon, dont Vous vous étes pris avec Lui sur ce
           sujet, ne peut que contribuer à faire réüssir L’achat, dont il s’est chargé. </p>
         <p>Il me paroit que c’est trop prétendre, que la commission de <hi rendition="#s">donnée par</hi>
-          <persName key="p1516">M[onsieu]r Osten</persName> pour <persName key="p2092">M[onsieu]r. le
+          <persName key="p1516" ref="https://api.dante.gbv.de/person/1e795d33-c70c-4288-85de-878d06353c0a">M[onsieu]r Osten</persName> pour <persName key="p2092" ref="https://api.dante.gbv.de/person/d78d4a46-a6b3-4ad4-9f30-d6a6ebc41758">M[onsieu]r. le
           Maréchal C[om]te de Solticoff</persName> soit exécutée dans la raison avancée, où nous
-          sommes, de sorte que <persName key="p2209">Mr. de Rosencranz</persName> n’a pas tort de la
+          sommes, de sorte que <persName key="p2209" ref="https://api.dante.gbv.de/person/126ed866-3f90-4591-a2fb-24276c2179cb">Mr. de Rosencranz</persName> n’a pas tort de la
           rémettre à un têms plus propre à cet effêt.</p>
         <p>Il ne me reste cette fois-ci que d’assûrer V[otre]. E[xcellence]. des sentiments de la
           considération très distinguée, avec laquelle j’ai l’honneur d’être.</p>
         <closer>
-                  <persName key="p0065">P[rince] A[lexandre] Galitzin</persName>
+                  <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">P[rince] A[lexandre] Galitzin</persName>
                   </closer>
 
         <noteGrp>

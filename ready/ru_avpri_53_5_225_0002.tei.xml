@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,23 +100,23 @@
     <body>
       <div type="letter">
         <head>
-          <title>[Late October 1768]. – Note for the ceremonial agreed on the arrival of <persName key="p0868">His Danish
+          <title>[Late October 1768]. – Note for the ceremonial agreed on the arrival of <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">His Danish
               Majesty</persName> in <placeName key="g0009">Fontainebleau</placeName> on 24 October
             1768</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 225, f. 2-4v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 2"/>
-        <p>Note pour le cérémoniel convenu à l’arrivée de <persName key="p0868">Sa majesté Danoise</persName>
+        <pb n="f. 2" />
+        <p>Note pour le cérémoniel convenu à l’arrivée de <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa majesté Danoise</persName>
           à <placeName key="g0438">Fontainebleau</placeName> ce 24 d’octobre 1768.</p>
-        <p/>
-        <p><persName key="p0868">Sa majesté Danoise</persName> ayant temoigné à S[a]: M[a]j[es]<hi rendition="#sup">té</hi> <persName key="p0212">Très Chrétienne</persName>, par une lettre
+        <p />
+        <p><persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa majesté Danoise</persName> ayant temoigné à S[a]: M[a]j[es]<hi rendition="#sup">té</hi> <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">Très Chrétienne</persName>, par une lettre
           écrite de sa main en date de <placeName key="g0003">Londres</placeName> le 3. d’octobre le
-          desir qu’Elle avoit de se rendre près d’Elle, ce <persName key="p0212">
+          desir qu’Elle avoit de se rendre près d’Elle, ce <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">
             monarque</persName> y repondit de même par une lettre de sa main, en date de <placeName key="g0438">fontainebleau</placeName> le .[9]. d’octobre. / : on joint ici copie de
           l’une et de l’autre : /</p>
-        <p><persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té</hi> danoise</persName> avoit
+        <p><persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té</hi> danoise</persName> avoit
           d’abord declaré qu’Elle ne demanderoit, ni n’accepteroit rien de ce qui seroit dû à la
           majesté royale, comme reception formelle, honneurs militaires etc : à fin d’eviter autant
           qu’on le pourroit les embarras qui les suivent.</p>
@@ -125,99 +126,99 @@
           qui pouvoient servir à la commodité et à l’agrement de son voyage.</p>
         <p>Arrivée à <placeName key="g0019" ref="https://www.geonames.org/2988507">paris</placeName> le 11 d’octobre à l’hôtel d’york, Elle
           y fut reçuë par</p>
-        <pb n="f. 2v"/>
-        <p> le <persName key="p2221">Duc de Duras</persName>, premier gentilhomme de la Chambre,
-          nommé par le roi <persName key="p0212">Très Chrétienne</persName> pour l’accompagner, et
-          chargé dans ce moment de la complimenter de sa part, le <persName key="p0037">Duc de
+        <pb n="f. 2v" />
+        <p> le <persName key="p2221" ref="https://api.dante.gbv.de/person/2da14386-b6ed-4495-969a-3b91cd470539">Duc de Duras</persName>, premier gentilhomme de la Chambre,
+          nommé par le roi <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">Très Chrétienne</persName> pour l’accompagner, et
+          chargé dans ce moment de la complimenter de sa part, le <persName key="p0037" ref="https://api.dante.gbv.de/person/470a270e-1ac8-4ad9-a9e5-03bde5fe478f">Duc de
           Choiseuil ministre et secretaire d’Etat</persName>, qui avoit voulu s’y rendre pour cet
           effet, en ayant été empeché par une indisposition. </p>
-        <p><persName key="p0868">Le 24 Sa M[a]j[es]<hi rendition="#sup">té</hi></persName>. se
+        <p><persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Le 24 Sa M[a]j[es]<hi rendition="#sup">té</hi></persName>. se
           rendit à <placeName key="g0438">fontainebleau</placeName>. Elle fut reçuë à son arrivée au chateau au bor de
-          l’escalier qui donne dans la cour royale par le <persName key="p2221">Duc de Duras</persName>
-          et par <persName key="p2222">le comte de la Suze
+          l’escalier qui donne dans la cour royale par le <persName key="p2221" ref="https://api.dante.gbv.de/person/2da14386-b6ed-4495-969a-3b91cd470539">Duc de Duras</persName>
+          et par <persName key="p2222" ref="https://api.dante.gbv.de/person/af81afd6-99ca-4925-a706-c3af83382eeb">le comte de la Suze
             grand-marechal des Logis</persName>, qui la conduisirent dans l’appartement, qui lui
-          avoit été preparé, et qui étoit celui, qui avoit occupé feuë <persName key="p2223">M[adam]<hi rendition="#sup">e</hi> La Dauphine</persName>. <persName key="p1306">Le grand
-            marechal de la cour</persName>, et <persName key="p2224">le grand maître de la
+          avoit été preparé, et qui étoit celui, qui avoit occupé feuë <persName key="p2223" ref="https://api.dante.gbv.de/person/67661f29-d153-427e-b734-2dc9169ad5f3">M[adam]<hi rendition="#sup">e</hi> La Dauphine</persName>. <persName key="p1306" ref="https://api.dante.gbv.de/person/d50a59f5-5e92-4bb7-a191-3d0169f0b6b6">Le grand
+            marechal de la cour</persName>, et <persName key="p2224" ref="https://api.dante.gbv.de/person/def357e3-4bc6-4c1a-ba2f-385d77febf77">le grand maître de la
             garderobe</persName>, comme attachés au service de la personne furent logés près d’elle,
           et les autres seigneurs de la suite le furent à l’hôtel de la vice-Chancellerie. </p>
-        <p>Le <persName key="p0037">Duc de Choiseul</persName> se rendit sur le champ auprés de <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té </hi>Danoise</persName>, pour informer Sa M[a]j[es]<hi rendition="#sup">té </hi><persName key="p0212">T[rès]: C[hrétienne]</persName>: de son
-          arrivée, et ce ministre accompagné du <persName key="p2221">Duc de Duras</persName> la
+        <p>Le <persName key="p0037" ref="https://api.dante.gbv.de/person/470a270e-1ac8-4ad9-a9e5-03bde5fe478f">Duc de Choiseul</persName> se rendit sur le champ auprés de <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té </hi>Danoise</persName>, pour informer Sa M[a]j[es]<hi rendition="#sup">té </hi><persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">T[rès]: C[hrétienne]</persName>: de son
+          arrivée, et ce ministre accompagné du <persName key="p2221" ref="https://api.dante.gbv.de/person/2da14386-b6ed-4495-969a-3b91cd470539">Duc de Duras</persName> la
           conduisit ensuite dans le cabinet</p>
-        <pb n="f. 3"/>
-        <p>du roi <persName key="p0212">T[rès]: C[hrétien]</persName>: où Elle fut suivie par <persName key="p0234">le Comte de Bernstorff, ministre et
-            secretaire d’Etat</persName>, par trois seigneurs de <orgName key="o0009">Sa cour</orgName>,
-          et par <persName key="p2142">Son ministre à
+        <pb n="f. 3" />
+        <p>du roi <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">T[rès]: C[hrétien]</persName>: où Elle fut suivie par <persName key="p0234" ref="https://api.dante.gbv.de/person/2d56c0e2-a7fc-445a-972b-a895f15b3dac">le Comte de Bernstorff, ministre et
+            secretaire d’Etat</persName>, par trois seigneurs de <orgName key="o0009" ref="https://api.dante.gbv.de/person/62f4a0a0-914d-43df-89d9-be5aaf841973">Sa cour</orgName>,
+          et par <persName key="p2142" ref="https://api.dante.gbv.de/person/05b57fa4-a6a5-41df-92cb-41206be65e7f">Son ministre à
             la Cour de France</persName>.</p>
         <p>Dans le moment de l’Entrée dans le cabinet <hi rendition="#u">L’incognito</hi> cessa ; Sa
-          M[a]j[es]<hi rendition="#sup">té</hi> <persName key="p0212">T[rès]: C[hrétienne]</persName>
+          M[a]j[es]<hi rendition="#sup">té</hi> <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">T[rès]: C[hrétienne]</persName>
           entourée des princes de son sang, des pairs et des marechaux de france, ministres d’Etat
-          et grands officiers de Sa cour, reçut <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té </hi>danoise</persName> sur le Seuil de la porte, comme il étoit
+          et grands officiers de Sa cour, reçut <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té </hi>danoise</persName> sur le Seuil de la porte, comme il étoit
           convenu en lui donnant la droite ; Les deux rois se traiterent de freres et de maj[es]<hi rendition="#sup">té</hi>, et se presentant reciproquement les principaux de leurs cours.</p>
         <p>L’Entrevue, pendant laquelle les deux rois resterent de bout [sic !] sans s’asseoir sur
           les fauteuils qui étoient placés pour leur usage sur une même ligne, dura un quart
-          d’heure. Après quoi <persName key="p0868">le roy de Dannemarc</persName> se retira, et <hi rendition="#u">
+          d’heure. Après quoi <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">le roy de Dannemarc</persName> se retira, et <hi rendition="#u">
             l’incognito </hi>devant reprendre au sortir du cabinet, il ne fut conduit par Sa
-          M[a]j[es]<hi rendition="#sup">té</hi> <persName key="p0212">T[rès]: C[hrétienne]</persName> que
+          M[a]j[es]<hi rendition="#sup">té</hi> <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">T[rès]: C[hrétienne]</persName> que
           jusques à la même place, où il avoit été reçu par Elle.</p>
-        <p>Il avoit été reglé que le roy <persName key="p0212">T[rès]: C[hrétien]:</persName> auroit
-          avec lui <persName key="p1043">M[onsieu]<hi rendition="#sup">r</hi> le Dauphin</persName> et les deux freres, M[onsieu]<hi rendition="#sup">r</hi> <persName key="p0907">le comte de Provence</persName> et
+        <p>Il avoit été reglé que le roy <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">T[rès]: C[hrétien]:</persName> auroit
+          avec lui <persName key="p1043" ref="https://api.dante.gbv.de/person/a8d31fc9-5882-4da2-906c-e828a661b7f0">M[onsieu]<hi rendition="#sup">r</hi> le Dauphin</persName> et les deux freres, M[onsieu]<hi rendition="#sup">r</hi> <persName key="p0907" ref="https://api.dante.gbv.de/person/fc00aeb4-d952-4880-9486-f6c583a4bd6a">le comte de Provence</persName> et
           M[onsieu]<hi rendition="#sup">r</hi></p>
-        <pb n="f. 3v"/>
+        <pb n="f. 3v" />
         <p>
-          <persName key="p1409">le comte d’artois</persName>, lesquels il presenteroit en même tems
-          à <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té </hi>Danoise</persName>mais cet article ne fut pas observé, et son
-          omission n’ayant été regardée par <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">
+          <persName key="p1409" ref="https://api.dante.gbv.de/person/0038d6d3-22f4-4c71-82ec-011d43a2675c">le comte d’artois</persName>, lesquels il presenteroit en même tems
+          à <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té </hi>Danoise</persName>mais cet article ne fut pas observé, et son
+          omission n’ayant été regardée par <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">
           té </hi>danoise</persName> que comme un evenement casuel et non premedité, ne l’empecha
-          pas de rendre au sortir de chés <persName key="p0212">le roy t[rès] C[hrétien]</persName> visite à <persName key="p1043">M[onsieu]<hi rendition="#sup">r</hi> le Dauphin</persName>, qui par la même raison que <persName key="p0212">le roy son
+          pas de rendre au sortir de chés <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">le roy t[rès] C[hrétien]</persName> visite à <persName key="p1043" ref="https://api.dante.gbv.de/person/a8d31fc9-5882-4da2-906c-e828a661b7f0">M[onsieu]<hi rendition="#sup">r</hi> le Dauphin</persName>, qui par la même raison que <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">le roy son
             ayeul</persName> ne la reçut qu’à la porte de son Cabinet, mais lui donna la droite et
-          la M[a]j[es]<hi rendition="#sup">té</hi>, pendant que <persName key="p0868">le roi de
+          la M[a]j[es]<hi rendition="#sup">té</hi>, pendant que <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">le roi de
           Dannemarc</persName> le nomma monsieur. </p>
-        <p><persName key="p1043">M[onsieu]<hi rendition="#sup">r</hi> le Dauphin</persName> avoit
-          ses deux freres chés lui, Ils s’assirent tous quatre sur des fauteuils. <persName key="p0868">Le roi de Dannemarc</persName> au milieu, ayant <persName key="p1043">le
+        <p><persName key="p1043" ref="https://api.dante.gbv.de/person/a8d31fc9-5882-4da2-906c-e828a661b7f0">M[onsieu]<hi rendition="#sup">r</hi> le Dauphin</persName> avoit
+          ses deux freres chés lui, Ils s’assirent tous quatre sur des fauteuils. <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Le roi de Dannemarc</persName> au milieu, ayant <persName key="p1043" ref="https://api.dante.gbv.de/person/a8d31fc9-5882-4da2-906c-e828a661b7f0">le
             Dauphin</persName> à sa gauche.</p>
-        <p>Ensuite <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té </hi>danoise</persName>
+        <p>Ensuite <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té </hi>danoise</persName>
           passa chés mesdames, oû’il y avoit cercle et jeu, que mesdames quitterent pour la
           reçevoir.</p>
-        <p>Le même soir <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té </hi>Danoise</persName>
-          soupa dans les petits appartements, et y mena quatre Seigneurs de <orgName key="o0009">Sa
+        <p>Le même soir <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té </hi>Danoise</persName>
+          soupa dans les petits appartements, et y mena quatre Seigneurs de <orgName key="o0009" ref="https://api.dante.gbv.de/person/62f4a0a0-914d-43df-89d9-be5aaf841973">Sa
           cour</orgName> à son choix. Dans ce souper Elle devoit être censée <hi rendition="#u">
-          incognito</hi> ; mais le roy <persName key="p0212">T[rès] C[hrétien]</persName> la
+          incognito</hi> ; mais le roy <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">T[rès] C[hrétien]</persName> la
           traita en Roy. </p>
-        <p>Le lendemain <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té </hi>danoise</persName>
-          resta dans son appartement, et reçut <orgName key="o0019">la cour</orgName> ; Les
+        <p>Le lendemain <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té </hi>danoise</persName>
+          resta dans son appartement, et reçut <orgName key="o0019" ref="https://api.dante.gbv.de/person/2cb37494-d43a-434e-8e34-efaf283c99a0">la cour</orgName> ; Les
           principaux Seigneurs tels que les cardinaux,</p>
-        <pb n="f. 4"/>
+        <pb n="f. 4" />
         <p> Ambassadeurs, ministres d’Etat et grands officiers eurent des audiences particulieres
-          dans le Cabinet. <persName key="p0868">Le roi</persName> se fit ensuite écrire chés eux
+          dans le Cabinet. <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Le roi</persName> se fit ensuite écrire chés eux
           sous le nom du prince de Travendal. </p>
-        <p>Le lendemain <persName key="p0212">Sa M[a]j[es]<hi rendition="#sup">té </hi>T[rès]:
-          C[hrétienne]:</persName> suivie des princes de son sang et de <orgName key="o0019">la cour</orgName>,
-          vint faire une surprise à <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té </hi> danoise</persName> dans son appartement, et la prier à souper le même soir.</p>
-        <p>Ce <persName key="p0868">monarque</persName> s’avança avec vivacité vers 
-<persName key="p0212">Sa M[a]j[es]<hi rendition="#sup">té</hi> T[rès] C[hrétienne]</persName> comme
-          n’ayant pas été prevenu de cette visite ; Le <persName key="p0212">roy de
+        <p>Le lendemain <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">Sa M[a]j[es]<hi rendition="#sup">té </hi>T[rès]:
+          C[hrétienne]:</persName> suivie des princes de son sang et de <orgName key="o0019" ref="https://api.dante.gbv.de/person/2cb37494-d43a-434e-8e34-efaf283c99a0">la cour</orgName>,
+          vint faire une surprise à <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té </hi> danoise</persName> dans son appartement, et la prier à souper le même soir.</p>
+        <p>Ce <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">monarque</persName> s’avança avec vivacité vers 
+<persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">Sa M[a]j[es]<hi rendition="#sup">té</hi> T[rès] C[hrétienne]</persName> comme
+          n’ayant pas été prevenu de cette visite ; Le <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">roy de
             France</persName> entra le premier, et les deux resterent seuls pendant assés long tems.
-          Ensuite n’y ayant point <hi rendition="#u">d’incognito </hi>pour  <persName key="p0212">Sa M[a]j[es]<hi rendition="#sup">té</hi> T[rès] C[hrétienne]</persName> le <persName key="p0868">roy de Dannemarc</persName> la conduisit jusqu’à la dernière porte de son
+          Ensuite n’y ayant point <hi rendition="#u">d’incognito </hi>pour  <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">Sa M[a]j[es]<hi rendition="#sup">té</hi> T[rès] C[hrétienne]</persName> le <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">roy de Dannemarc</persName> la conduisit jusqu’à la dernière porte de son
           appartement.</p>
-        <p>Pendant tout ce voyage et le second, que <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té </hi>danoise</persName> fit peu à près pour assister à la Chasse
-          de S[ain]<hi rendition="#sup">t </hi>Hubert, ce <persName key="p0868">prince</persName>
-          fut servi dans son appartement par les officiers de la bouche du roi <persName key="p0212">T[rès]:
+        <p>Pendant tout ce voyage et le second, que <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té </hi>danoise</persName> fit peu à près pour assister à la Chasse
+          de S[ain]<hi rendition="#sup">t </hi>Hubert, ce <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">prince</persName>
+          fut servi dans son appartement par les officiers de la bouche du roi <persName key="p0212" ref="https://api.dante.gbv.de/person/523d4704-5637-41c3-8cf7-115628dbe6a8">T[rès]:
           C[hrétien]:</persName>: avec autant de delicatesse que de magnificence.</p>
         <p>Les visites des princes du sang furent reglées suivant l’exemple de ce qui leur [f. 4v]
-          avoit été accordé en pareille occasion par d’autres rois. <persName key="p0868">Sa
+          avoit été accordé en pareille occasion par d’autres rois. <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa
           M[a]j[es]<hi rendition="#sup">
               té </hi>danoise</persName> les reçut comme roy, et non pas comme prince de Travendal,
           à la porte de Son cabinet, conservant la main sur eux, et leur donnant un fauteuil à la
           gauche, avec le Titre d’altesse. </p>
-        <p>Elle leur rendit peu à près la visite de même comme roy, et fut reçue par <persName key="p2225">le prince du
+        <p>Elle leur rendit peu à près la visite de même comme roy, et fut reçue par <persName key="p2225" ref="https://api.dante.gbv.de/person/94da6545-744f-4684-9b77-2c427a5f58a4">le prince du
             sang</persName> à la descente de son carosse et reconduite de même.</p>
-        <p>Les princesses du sang, auxquelles <persName key="p0868">Sa M[a]j[es]<hi rendition="#sup">té</hi></persName> voulut bien par galanterie faire la premiere visite, reçurent <persName key="p0868">le roi</persName> dans leur lit. <persName key="p2226">La comtesse de la
+        <p>Les princesses du sang, auxquelles <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Sa M[a]j[es]<hi rendition="#sup">té</hi></persName> voulut bien par galanterie faire la premiere visite, reçurent <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">le roi</persName> dans leur lit. <persName key="p2226" ref="https://api.dante.gbv.de/person/edc8b2b3-9728-43b9-b8ad-2c1ff6278ab6">La comtesse de la
           marche</persName> rendit sa visite dès le lendemain et fut reçuë et traitée et reconduite
-          comme l’avoit été <persName key="p2225">le prince son Epoux</persName>, si ce n’est que le
-          grand marechal de la cour de <persName key="p2227">Sa M[a]j[es]<hi rendition="#sup">té</hi>
-          danoise</persName> la reçut à la descente de son carosse et lui donna la main. Le <persName key="p2228">Duc de Pentièvire</persName> s’acquitta de la même obligation pour madame <persName key="p2229">la princesse de Lamballe</persName> sa belle fille, qui etant dans la
+          comme l’avoit été <persName key="p2225" ref="https://api.dante.gbv.de/person/94da6545-744f-4684-9b77-2c427a5f58a4">le prince son Epoux</persName>, si ce n’est que le
+          grand marechal de la cour de <persName key="p2227" ref="https://api.dante.gbv.de/person/797ae60e-a765-489c-bdba-f2f6c792419a">Sa M[a]j[es]<hi rendition="#sup">té</hi>
+          danoise</persName> la reçut à la descente de son carosse et lui donna la main. Le <persName key="p2228" ref="https://api.dante.gbv.de/person/e7859aa7-777b-4557-aac8-8667590f9f44">Duc de Pentièvire</persName> s’acquitta de la même obligation pour madame <persName key="p2229" ref="https://api.dante.gbv.de/person/14699c2a-3a89-45b3-b139-c6aa4e34bbe0">la princesse de Lamballe</persName> sa belle fille, qui etant dans la
           premiere année de son veuvage ne pouvoit pas sortir de son appartement.</p>
-        <p/>
+        <p />
         <noteGrp>
           <note>See also:</note>
           <note>ru_avpri_53_5_225_0003</note>

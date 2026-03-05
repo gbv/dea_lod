@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,64 +107,64 @@
     <body>
       <div type="letter">
         <head>
-          <title>17 July 1733. – Letter of credence of <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Minister Plenipotentiary [in Great Britain,] Prince Antiochus Cantemir</persName> , to <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">King [George II] of Great Britain</persName> </title><note>
+          <title>17 July 1733. – Letter of credence of <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Minister Plenipotentiary [in Great Britain,] Prince Antiochus Cantemir</persName> , to <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">King [George II] of Great Britain</persName> </title><note>
             <bibl>AVPRI, fond 35, opis 1, no. 554, f. 6–7v. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 6"/>
+        <pb n="f. 6" />
         
-        <p>Грамота к <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">королю
-          Аглинскому</persName> верюща <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">князю Антиоху Кантемиру</persName> в
+        <p>Грамота к <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">королю
+          Аглинскому</persName> верюща <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">князю Антиоху Кантемиру</persName> в
           карактере полномочного министра;</p>
         <p>По титуле полном.</p>
         <p>
-          <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Ваше королевское
+          <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Ваше королевское
           Ве[личеств]о</persName> уже напредь сего <hi rendition="#s">как уповаем</hi> уверены, о
           нашей совершенной дружбе, и истинном намерении к ненарушимому доброго с вами согласия
           содержанию и разпространению, и понеже мы ничего так не желаем как такие неотменные наши
           склонности во всяких случаях вяще и вяще засвидетельствовать, и коим образом мы с своей
-          стороны всегда охотны и готовы всему тому способствовать. Еже оную между <orgName key="o0002,o0008">обоими дворами</orgName> щастливо пребывающую добрую конфиденцию к
+          стороны всегда охотны и готовы всему тому способствовать. Еже оную между <orgName key="o0002,o0008" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251,https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">обоими дворами</orgName> щастливо пребывающую добрую конфиденцию к
           общей обоих сторон ползе </p>
-        <pb n="f. 6 v"/>
+        <pb n="f. 6 v" />
         <p> еще более утверждать может того ради мы, для нового того доказателства забл[а]го
-          разсудили нашего при <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">дворе
+          разсудили нашего при <orgName key="o0002" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251">дворе
           вашего королевского ве[личеств]а</orgName> обретающагося <hi rendition="#s">резидента,</hi>
-          нам любезно верного <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">князя
-          Антиоха Кантемира</persName> ныне в карактере нашего полномочного министра к <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому ве[личеств]у</persName>
+          нам любезно верного <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">князя
+          Антиоха Кантемира</persName> ныне в карактере нашего полномочного министра к <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому ве[личеств]у</persName>
           аккредитовать. <hi rendition="#s">И яко мы надеемся, что он нонне во время своего при
             дворе вашем пребывания таким образом поступать старался, чтоб ваше королевское ве:о тем
           доволны быть причины иметь могли тако </hi>того ради и вас сим дружебно сестрински просим
-          оному <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">нашему полномочному
+          оному <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">нашему полномочному
           министру</persName>
           <hi rendition="#s">и впред</hi> не токмо склонный всегда к себе доступ
           позволять, но и во всем что имянем нашим </p>
-        <pb n="f. 7"/>
-        <p> от времени до времени <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему
+        <pb n="f. 7" />
+        <p> от времени до времени <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему
           королевскому ве[личеств]у</persName> представлять он честь иметь будет. А особливо когда
-          он при всяких случаях по нашему намерению вам обнадеживании о нашем к <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому ве[личеств]у</persName>
+          он при всяких случаях по нашему намерению вам обнадеживании о нашем к <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому ве[личеств]у</persName>
           истинном высокопочитании и постоянной дружбе возобновлять будет, всякую совершенную веру
           подавать и навсе то его всегда <hi rendition="#s">по требованию обстоятелств</hi> таким
-          склонным ответом снабдевать, как мы то от взаимной <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашего королевского ве[личеств]а</persName>
-          нам дражайшей дружбы надежном ожидать причину имеем. Впротчем, мы от господа бога <persName key="p0063" ref="b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому величеству</persName>
+          склонным ответом снабдевать, как мы то от взаимной <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашего королевского ве[личеств]а</persName>
+          нам дражайшей дружбы надежном ожидать причину имеем. Впротчем, мы от господа бога <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">вашему королевскому величеству</persName>
           желаем многолетного здравия и счастливого </p>
-        <pb n="f. 7v"/>
+        <pb n="f. 7v" />
         <p> в г[осу]д[а]рствах ваших г[осу]д[а]рствования. </p>
         <p>Дан в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт Петерсбурге</placeName>, июля 17 дня 1733го
           Г[осу]дрствования нашего четвертого году:</p>
         <p>Вашего величества</p>
         <p>Склонная сестра</p>
         <p>
-          <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Анна</persName>
+          <persName key="p0006" ref="https://api.dante.gbv.de/person/bc444245-d428-47f5-8e28-07bd88e25987">Анна</persName>
         </p>
-        <p>Оригиналная подписана <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Ея
+        <p>Оригиналная подписана <persName key="p0006" ref="https://api.dante.gbv.de/person/bc444245-d428-47f5-8e28-07bd88e25987">Ея
           императорского величества</persName> собственною рукою тако</p>
-        <p>Контросигнировал Г[оспо]д[и]н канцлер посему – <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Граф Головкин</persName>
+        <p>Контросигнировал Г[оспо]д[и]н канцлер посему – <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0071" ref="https://api.dante.gbv.de/person/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Граф Головкин</persName>
         </p>
         <p>Писана на александринском большом листу пороссийски копии на иностранном языке
           неприложено.</p>
         <p>Запечатана Г[осу]д[а]рственною большою печатью под бумажною кустодиею на черном воску.</p>
         <p>А лист чернен не был.</p>
-        <p>Отправлена к нему <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">кн[я]зю
+        <p>Отправлена к нему <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">кн[я]зю
           Кантемиру</persName> при рескрипте №13: июля в 17. 1733 году и приложены две копии на
           российском другая на аглинском языках.</p>
         <noteGrp>

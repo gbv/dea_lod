@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -180,9 +181,9 @@
         <head>
           <title>
             10 January 1779. – Letter from
-            <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+            <persName key="p0861" ref="https://api.dante.gbv.de/person/3e86c4fc-ae64-4313-abd0-e814f75ccb82">
               the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto Magnus von Stackelberg</persName>, to
-            <persName key="p1030" ref="eeb13c54-b3b5-4d49-9fa2-70a7397704eb">
+            <persName key="p1030" ref="https://api.dante.gbv.de/person/eeb13c54-b3b5-4d49-9fa2-70a7397704eb">
               the Hetman of the Grand Duchy of Lithuania, Count Michał Kazimierz Ogiński
             </persName>
           </title>
@@ -190,12 +191,12 @@
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 6, f. 1267-1268. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1267"/>
+        <pb n="f. 1267" />
         <opener>
           <address n="recipient">
             <addrLine>
               à
-              <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1030" xml:space="default" ref="eeb13c54-b3b5-4d49-9fa2-70a7397704eb">
+              <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1030" xml:space="default" ref="https://api.dante.gbv.de/person/eeb13c54-b3b5-4d49-9fa2-70a7397704eb">
                 S[on] E[xcellence] M[onsieu]r le Comte Oginski
               </persName>
             </addrLine>
@@ -207,24 +208,24 @@
           </dateline>
         </opener>
         <p>
-          <persName key="p1031" ref="044f61c7-f1b0-4e60-80c0-cf7b182369de">
+          <persName key="p1031" ref="https://api.dante.gbv.de/person/044f61c7-f1b0-4e60-80c0-cf7b182369de">
             Le Brigadier Chominski
           </persName>
           m’ayant dit que V[otre] E[xcellence] desiroit connoitre mes sentimens sur la liste de
-          <persName key="p1053" ref="0be5fac3-c8e6-4220-b304-0fdd50c07d2a">
+          <persName key="p1053" ref="https://api.dante.gbv.de/person/0be5fac3-c8e6-4220-b304-0fdd50c07d2a">
             M[onsieu]r Tyszkiewicz</persName>, j’ai l’honneur de l’assurer, qu’ayant recommandé pour Marechal une personne qui mérite la confiance d’une province voisine de l’Empire de Russie et formellement protegé par
-          <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+          <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">
             l’Imperatrice
           </persName>
           ma Souveraine, mon desir me porte naturellement à souhaiter dans ce tribunal des amis du Marechal.
-          <persName key="p0862" ref="5caf6704-21c2-4bac-a2c2-c846ad6c67d7">
+          <persName key="p0862" ref="https://api.dante.gbv.de/person/5caf6704-21c2-4bac-a2c2-c846ad6c67d7">
             S[a] M[ajesté] le Roi
           </persName>
           agissant parfaitement de concert avec
-          <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+          <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">
             ma Souveraine</persName>, m’a souvent temoigné la même envie, se joignant au reste à moi quant à l’opinion que les Diétines devroient être dans les circonstances actuelles moins tumultueuses que jamais. Je prie V[otre] E[xcellence] d’employer ses influences à leur donner la marche de
         </p>
-        <pb n="f. 1268"/>
+        <pb n="f. 1268" />
         <p> la loix et d’une pluralité bien reglée. Sans quoi l’on prendroit des Dietines orageuses pour un commencement de troubles.</p>
       </div>
     </body>

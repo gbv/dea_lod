@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,17 +103,17 @@
     <body>
       <div type="letter">
         <head>
-          <title>Unknown date [December 1741]. – Petition of <persName key="p0229" ref="2cf99323-5536-46c4-9415-c7d07627d568">Count Vasilii Sergeevich Golovin</persName>
-            to <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Empress Elizabeth Petrovna of Russia</persName></title><note>
+          <title>Unknown date [December 1741]. – Petition of <persName key="p0229" ref="https://api.dante.gbv.de/person/2cf99323-5536-46c4-9415-c7d07627d568">Count Vasilii Sergeevich Golovin</persName>
+            to <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Empress Elizabeth Petrovna of Russia</persName></title><note>
             <bibl>AVPRI, fond 93, opis 1, no. 1741-5, f. 1–1v. Russian original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         
-        <p>Всепресветлейшая державнейшая великая государыня императрица <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Елисавет Петровна</persName> самодержица
+        <p>Всепресветлейшая державнейшая великая государыня императрица <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Елисавет Петровна</persName> самодержица
           всероссийская государыня всемилостивейшая,</p>
-        <p>Бьет челом дворянин <persName key="p0229" ref="2cf99323-5536-46c4-9415-c7d07627d568">Василей
+        <p>Бьет челом дворянин <persName key="p0229" ref="https://api.dante.gbv.de/person/2cf99323-5536-46c4-9415-c7d07627d568">Василей
           Сергеев сын Головин</persName>, а в чем мое прошение тому следуют пункты,</p>
         <p>1.</p>
         <p>Отроду мне осмнатцать лет и в службу вашего императорского величества еще не определен,</p>
@@ -127,13 +128,13 @@
         <p>И дабы высочайшим вашего императорского величества указом повелено было быть мне вашего
           императорского величества при министре дворянином посолства, </p>
         
-        <pb n="f. 1v"/>
-        <p/>
+        <pb n="f. 1v" />
+        <p />
         <p>против протчих моей братьи со определенным жалованьем ради моего недостатка при котором
           дворе ваше императорское величество соизволите, Всемилостивейшая государыня прошу вашего
           императорского величества о сем моем челобитье решение учинить, </p>
         <p>декабря дня 1741 году,</p>
-        <p>коея челобитной <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0229" xml:space="default" ref="2cf99323-5536-46c4-9415-c7d07627d568" type="signature">Василей
+        <p>коея челобитной <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0229" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/2cf99323-5536-46c4-9415-c7d07627d568">Василей
           Сергеев сын Головин</persName> руку приложил</p>
         <noteGrp>
           <note>See also:</note>

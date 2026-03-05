@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,21 +100,21 @@
     <body>
       <div type="letter">
         <head>
-          <title>26 April 1762. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2454" xml:space="default">Bastiani</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London / Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>26 April 1762. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2454" xml:space="default" ref="https://api.dante.gbv.de/person/283ce5af-a467-4f51-b463-30583cc3a368">Bastiani</persName> to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London / Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 599-a, f. 1. French and English original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         
         <p>Crainte de Vous importuner, Monseigneur, je me prive de l’honneur de Vous revoir malgré l’ardent desir que j’en ai. Si je savois Vous exprimer la vive douleur, que me cause cette separation, Vous seriez persuadé de la verité et de la force de mon attachement. Permettez que je Vous supplie de me marquer sur une carte Votre nom paternel affin que je puisse me rappeller quelque fois avec justesse à l’honneur de Vôtre souvenir.</p>
         <p>Ne cessez pas de grace d’etre genereux au moment de votre depart vîs-à-vîs du plus zelé de vôs serviteurs. Si vous me dedaigniez je ne cesserois pas de vous persecuter à <placeName key="g0014" ref="https://www.geonames.org/3099434">Dantzig</placeName> à <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>, et jusqu’à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> pour vous arracher encore ce temoignage de bonté, et je ferois echo aux mauvais raisonneurs.</p>
         <p>Adieu, Mylord; may you find every friend you go to as pleas’d and happy, as every friend you went from is sorry and troubled.</p>
         <p>I am with truth and respect, Mylord, Your Grace,</p>
         <p>Most humble and most obedient</p>
-        <p>Servant</p><p> <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2454" xml:space="default" type="signature">Bastiani</persName>
+        <p>Servant</p><p> <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2454" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/283ce5af-a467-4f51-b463-30583cc3a368">Bastiani</persName>
         </p>
         <p>du logis ce triste jourdui 26 d’Avril 1762</p>
       </div>

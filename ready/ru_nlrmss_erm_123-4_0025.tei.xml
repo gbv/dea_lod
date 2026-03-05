@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,31 +106,31 @@
     <body>
       <div type="letter">
         <head>
-          <title>26 June 1731. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
-            Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>,] to the <persName key="p0798">Dutch Envoy
+          <title>26 June 1731. – [Letter from <persName key="p0220" ref="https://api.dante.gbv.de/person/3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
+            Ottoman Porte, Prince Ivan Andreevich Shcherbatov</persName>,] to the <persName key="p0798" ref="https://api.dante.gbv.de/person/d2b97f34-9d68-4793-b501-f04fbe294c1f">Dutch Envoy
               Extraordinary [to Russia,] Mr [Daniel] De Die</persName>, written in <placeName key="g0001" ref="https://www.geonames.org/524894">Moscow</placeName> on 26 June 1731</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 138v-139. Copy of the French original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 138v"/>
-        <p>В <placeName key="g0001" ref="https://www.geonames.org/524894">Москве</placeName> к голанскому посланнику чрезвычайному <persName key="p0798">Г[оспо]дину де дию</persName> от 26. июня 1731. году писано;</p>
-        <p>Je viens d'apprendre par le Page de vôtre Excellence qu’Elle ne veut pas que <persName key="p0799" ref="ee0ed3e5-c236-4d24-919a-d6a337a03333">Jean François Le grand</persName>
+        <pb n="f. 138v" />
+        <p>В <placeName key="g0001" ref="https://www.geonames.org/524894">Москве</placeName> к голанскому посланнику чрезвычайному <persName key="p0798" ref="https://api.dante.gbv.de/person/d2b97f34-9d68-4793-b501-f04fbe294c1f">Г[оспо]дину де дию</persName> от 26. июня 1731. году писано;</p>
+        <p>Je viens d'apprendre par le Page de vôtre Excellence qu’Elle ne veut pas que <persName key="p0799" ref="https://api.dante.gbv.de/person/ee0ed3e5-c236-4d24-919a-d6a337a03333">Jean François Le grand</persName>
           qui vous a servi pour cuisinier entre dans mon service, et il me paroit par le Discours de
           vôtre Page que vôtre Excellence est faché; mais permettez moy de luy exposer le fait que
-          je n'aurois jamais donné audit <persName key="p0799" ref="ee0ed3e5-c236-4d24-919a-d6a337a03333">Jean</persName> Cent Roubles d'avance, si je
+          je n'aurois jamais donné audit <persName key="p0799" ref="https://api.dante.gbv.de/person/ee0ed3e5-c236-4d24-919a-d6a337a03333">Jean</persName> Cent Roubles d'avance, si je
           savois qu’il ne fut pas chez moy avec vôtre Permission, car avant de l’accepter dans mon
           service je l’ay prevenu qu’il vous demende la permission, dont vous pouvez vous informer
           de luy. Il m’a porté la Parole que vôtre Excellence luy avoit dit qu’il pourroit
           s’engager, et particulierement chez moy, à cause que </p>
-        <pb n="f. 139"/>
+        <pb n="f. 139" />
         <p> j’ay l’honneur d’être Connu de vous. Si vôtre Excellence pense que j’ay manqué à mon
           devoir de la demender si le Cuisinier dit vray, je puis vous asseurer que l’Embarras où je
           me trouve en est la Cause. Tout ce que je vous ay avancé est une pûre verité; au reste je
-          vous prie monsieur de vouloir bien permettre audit <persName key="p0799" ref="ee0ed3e5-c236-4d24-919a-d6a337a03333">Jean</persName> d’entrer dans mon service, et
+          vous prie monsieur de vouloir bien permettre audit <persName key="p0799" ref="https://api.dante.gbv.de/person/ee0ed3e5-c236-4d24-919a-d6a337a03333">Jean</persName> d’entrer dans mon service, et
           d’autant plus que je vous Connois trop polis de me le refuser sur mon depens, et aprés que
-          j’ay refusé aux plusieurs autres Cuisiniers faisant que le dit <persName key="p0799" ref="ee0ed3e5-c236-4d24-919a-d6a337a03333">Jean</persName> entre chez moy avec vôtre
+          j’ay refusé aux plusieurs autres Cuisiniers faisant que le dit <persName key="p0799" ref="https://api.dante.gbv.de/person/ee0ed3e5-c236-4d24-919a-d6a337a03333">Jean</persName> entre chez moy avec vôtre
           Permission. J’ay l’honneur d’etre avec toute la Consideration imaginable. etc.</p>
       </div>
     </body>

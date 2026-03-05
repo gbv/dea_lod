@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,8 +104,8 @@
     <body>
       <div type="letter">
         <head>
-          <title> 10/21 June 1764. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Minister Plenipotentiary to the
-            Hague, Count Aleksandr Romanovich Vorontsov</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title> 10/21 June 1764. – Letter from <persName key="p0144" ref="https://api.dante.gbv.de/person/3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Minister Plenipotentiary to the
+            Hague, Count Aleksandr Romanovich Vorontsov</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -112,21 +113,21 @@
               Russian.</bibl>
           </note>
         </head>
-        <pb n="f. 13"/>
+        <pb n="f. 13" />
         
         <p><note>In the top margin:</note> получено 13 Июня</p>
         <p>Monsieur</p>
-        <p/>
+        <p />
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2293" xml:space="default">Mr le Comte de Bentenke de Rhone</persName> qui a connû Votre
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2293" xml:space="default" ref="https://api.dante.gbv.de/person/1d220e1b-fb56-4356-84b5-fc3ed2bc914f">Mr le Comte de Bentenke de Rhone</persName> qui a connû Votre
           Excellence pendant les tems quelle a demeuré icÿ ma remis la lettre cÿ jointe pour elle en
-          me priant en même tems de luy parler aussi de mon coté au Sujet de <persName key="p0047" ref="5a739711-1cc9-4d4c-b10d-f6d60e5c35d2">Captaine Douglas</persName>, qui doit etre a
+          me priant en même tems de luy parler aussi de mon coté au Sujet de <persName key="p0047" ref="https://api.dante.gbv.de/person/5a739711-1cc9-4d4c-b10d-f6d60e5c35d2">Captaine Douglas</persName>, qui doit etre a
           lheure quil est a notre Service. Cest un oficier de mer très habile d’ailleur honete homme
           et qui a eté estimé icÿ ainsy que dans sa patrie si ma recomendation pouvoit lui etre de
           quelques utilites jaurois pris la liberté de vous parler Monsieur en sa faveur.</p>
         <p> permetez moÿ de rapeler encore a Votre Excellence </p>
-        <pb n="f. 13v"/>
-        <p>lafaire des Fauconiers vu que <persName key="p2252">le fils de mr de Bentënk</persName>
+        <pb n="f. 13v" />
+        <p>lafaire des Fauconiers vu que <persName key="p2252" ref="https://api.dante.gbv.de/person/0d9822a9-0d18-4851-af3f-38c092606dad">le fils de mr de Bentënk</persName>
           est tourmenté par eu assez souvent ce qui le met dans le cas de men parler de même.</p>
         <p> J’ai l’honneur detre avec une parffaite Consideration et atachement</p>
         <p>Monsieur</p>
@@ -134,7 +135,7 @@
         <p> le très humble et très</p>
         <p> Obeissant Serviter</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">C[omte] Alexandre de
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/3238497b-c34f-43f2-82e2-efe7a3e15ce8">C[omte] Alexandre de
             Woronzow</persName>
         </p>
         <p>

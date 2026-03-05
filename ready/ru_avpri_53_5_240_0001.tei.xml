@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,20 +103,20 @@
       <div type="letter">
         <head>
           <title>
-            7 July 1770. – Dispatch from <persName key="p0568">the Russian Chargé d'Affaires in Copenhagen, Baron Johann von Mestmacher</persName>, to <persName key="p0574">the Chief Member of the College of Foreign Affairs, Count Nikita Ivanovich Panin</persName>
+            7 July 1770. – Dispatch from <persName key="p0568" ref="https://api.dante.gbv.de/person/c7065f3e-c484-4c90-8ac0-e7b33980c78e">the Russian Chargé d'Affaires in Copenhagen, Baron Johann von Mestmacher</persName>, to <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">the Chief Member of the College of Foreign Affairs, Count Nikita Ivanovich Panin</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 240, f. 3-5v. Russian original</bibl>
           </note>
         </head>
-        <pb n="f. 3"/>
-        <p><persName key="p0574">Сиятелнейший Граф</persName></p>
-        <p/>
+        <pb n="f. 3" />
+        <p><persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Сиятелнейший Граф</persName></p>
+        <p />
         <p>М[и]л[о]стивый Г[осу]д[а]рь,</p>
         <p>На другой день отправления моего последняго к вашему высокографскому Сиятелству
-          всенижайшаго от 22 июня / 3 июля доношения, застав в доме <persName key="p1537">Г[оспо]д[и]на адмирала Графа Ларвиха</persName>, я при пристойном от вас ему комплименте просил и его как о содержании в готовости
+          всенижайшаго от 22 июня / 3 июля доношения, застав в доме <persName key="p1537" ref="https://api.dante.gbv.de/person/7bcddae0-d38c-4306-be51-5ef8b99fc120">Г[оспо]д[и]на адмирала Графа Ларвиха</persName>, я при пристойном от вас ему комплименте просил и его как о содержании в готовости
           [sic] известных четырех сот матрозов, так и о благовремянном </p>
-        <pb n="f. 3v"/>
+        <pb n="f. 3v" />
         <p> приискании и высылке в надлежащия места надежных лотсманов, в каждое человек даже до
           дватцати, в разсуждении скоро ожидаемаго прибытия сюда Эскадры; на что он разпространяясь
           многими изявлениями [sic] чувствителной благодарности за ваше об нем высокое
@@ -123,54 +124,54 @@
           готовности, а о лотсманах немедленно отправлены будут надлежащия указы, обещав сообщить
           мне и роспись о качестве и содержании вышеупомянутаго числа матрозов.</p>
         <p> Между же тем в прошедшую среду ввчеру, то есть 23 июня / 4 июля из кронштата
-          благополучно сюда прибыл аглинской наемной корабль имянуемый фриншип, шипер <persName key="p1541">жан голман</persName> нагруженной разными морскими под ведомством находящагося на оном <persName key="p1545">российскаго комисара Началова</persName> провизиями и протчими для удоволствия морских российских в средиземное
-          море служителей припасами, с повелением обождать здесь Эскадры <persName key="p1533">господина контр-адмирала Арфа</persName>.</p>
+          благополучно сюда прибыл аглинской наемной корабль имянуемый фриншип, шипер <persName key="p1541" ref="https://api.dante.gbv.de/person/bf1af060-ddfd-4839-9d69-b91eb00dd5fe">жан голман</persName> нагруженной разными морскими под ведомством находящагося на оном <persName key="p1545" ref="https://api.dante.gbv.de/person/18e7bb4c-27e8-4432-8434-070c6f3310b8">российскаго комисара Началова</persName> провизиями и протчими для удоволствия морских российских в средиземное
+          море служителей припасами, с повелением обождать здесь Эскадры <persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">господина контр-адмирала Арфа</persName>.</p>
         
-        <pb n="f. 4"/>
+        <pb n="f. 4" />
         
         <p>А как на сем корабле между прочим не достает 14<hi rendition="#u"><hi rendition="#sup">ти</hi>
           </hi> станков пушечных, то по шиперскому мне о том
-          представлению, я по прежнему данному мне от <persName key="p1537">графа Ларвига</persName> позволению паки к нему
+          представлению, я по прежнему данному мне от <persName key="p1537" ref="https://api.dante.gbv.de/person/7bcddae0-d38c-4306-be51-5ef8b99fc120">графа Ларвига</persName> позволению паки к нему
           адресовался, с прошением его в изготовлении здесь оных помощи. Он тот час с охотою обещал
           мне на здешнем же Королевском верфие велеть зделать оныя: но несколько часов спустя заехав
           сам к моей квартире, мне объяснил, что как пушечныя станки составляют часть военной
           аммуниции, так для избежания всяких иногда Экспликаций, он мне к тому покажет одного здесь
-          партикулярнаго человека <persName key="p1542">статскаго советника Риберга</persName>, а дабы от того невоспоследовало </p>
-        <pb n="f. 4v"/>
+          партикулярнаго человека <persName key="p1542" ref="https://api.dante.gbv.de/person/76b09de3-f7e6-457e-84b5-fc17afe3fb05">статскаго советника Риберга</persName>, а дабы от того невоспоследовало </p>
+        <pb n="f. 4v" />
         <p> ни малейшей остановки, он его как материалами, так и другими к тому потребностьми под
           рукою снабдевать не оставит.</p>
         <p> О лотсманах отправлены не токмо надлежащия указы, но и находятся они уже действително в
           полном числе на острове <placeName key="g0491">драге</placeName> для принятия Эскадры которую на сих днях сюда и ожидаю.</p>
-        <p> Ожидаемой здесь из <placeName key="g0003">Лондона</placeName> <persName key="p0909">переводчик Лизакевич</persName> знатно за противным ветром сюда еще не
+        <p> Ожидаемой здесь из <placeName key="g0003">Лондона</placeName> <persName key="p0909" ref="https://api.dante.gbv.de/person/6fbf8845-8433-4fc4-9e76-f52d368ce36e">переводчик Лизакевич</persName> знатно за противным ветром сюда еще не
           прибыл.</p>
         <p> В следствие Вашего Высокографскаго Сиятелства м[и]л[ос]тиваго повеления я пред отъездом
-          моим из Стокголма с позволения <persName key="p0113">его Сиятелства Графа Ивана Андреевича</persName> писал для себя копию
+          моим из Стокголма с позволения <persName key="p0113" ref="https://api.dante.gbv.de/person/5a2053eb-ec01-47a7-95c2-633362d4c1eb">его Сиятелства Графа Ивана Андреевича</persName> писал для себя копию
           с его употребляемаго с вами цифирнаго ключа, и оную с крайнейшею осторожностию у себя
           хранить непремину.</p>
-        <p> Сей час прислал ко мне <persName key="p1537">Г[оспо]д[и]н адмирал Граф Ларвиг</persName> приложенное здесь в копии на
+        <p> Сей час прислал ко мне <persName key="p1537" ref="https://api.dante.gbv.de/person/7bcddae0-d38c-4306-be51-5ef8b99fc120">Г[оспо]д[и]н адмирал Граф Ларвиг</persName> приложенное здесь в копии на
           немецком языке адресованное ко мне писмо, из которого Ваше Высокографское Сиятелство
-          предварително м[и]л[ос]тиво усмотреть соизволите кондиции, на которых <persName key="p1533">Г[оспо]д[и]ну контр-адмиралу </persName></p><p><persName key="p1533">Арфу [custode]</persName></p>
-        <pb n="f. 5"/>
-        <p><persName key="p1533">Арфу</persName> будет принимать на свою Эскадру здешних определенных матрозов. И как сие будучи дело
+          предварително м[и]л[ос]тиво усмотреть соизволите кондиции, на которых <persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">Г[оспо]д[и]ну контр-адмиралу </persName></p><p><persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">Арфу [custode]</persName></p>
+        <pb n="f. 5" />
+        <p><persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">Арфу</persName> будет принимать на свою Эскадру здешних определенных матрозов. И как сие будучи дело
           всевысочайше препорученное собственно реченному Г[оспо]д[и]ну контр-адмиралу, я в моем к
-          <persName key="p1537">Графу Ларвигу</persName> при сем же в копии приложенном ответствии на то и ссылаюсь.</p>
+          <persName key="p1537" ref="https://api.dante.gbv.de/person/7bcddae0-d38c-4306-be51-5ef8b99fc120">Графу Ларвигу</persName> при сем же в копии приложенном ответствии на то и ссылаюсь.</p>
         <p>Пребывая при повержении себя неоцененному Вашему отеческому покровителству с
           наиглубочайшим Респектом и вечною преданностию, </p>
         <p>Вашего Высокографскаго Сиятелства,</p>
-        <p/>
+        <p />
         <p>М[и]л[ос]тиваго Г[осу]д[а]ря,</p>
-        <p/>
-        <p/>
+        <p />
+        <p />
         <p>всенижайший и всеобязан-</p>
         <p>нейший Слуга</p>
-        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0568" xml:space="default" type="signature">Иван Местмахер</persName></p>
+        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0568" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/c7065f3e-c484-4c90-8ac0-e7b33980c78e">Иван Местмахер</persName></p>
         <p>из <placeName key="g0006">копенгагена</placeName></p>
         <p>июня 26 / июля 7 дня</p>
         <p>1770 года./</p>
         
         
-        <pb n="f. 5v"/>
-        <p/>
+        <pb n="f. 5v" />
+        <p />
         <p>получена в 14<hi rendition="#sup">е</hi> июля 1770.</p>
         <noteGrp>
           <note>Also see:</note>

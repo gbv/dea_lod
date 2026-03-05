@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc xml:id="fr_bpp_29_1_00003">
       <titleStmt>
@@ -10,7 +11,7 @@
           Reponse à Madame l’Electrice de Saxe
         </title>
         <author>
-          <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+          <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">
             <forename xml:lang="en">Catherine II</forename>
             <surname xml:lang="en">Empress of Russia</surname>
             <forename xml:lang="ru">Екатерина II</forename>
@@ -179,7 +180,7 @@
       </textClass>
       <correspDesc>
         <correspAction type="sent">
-          <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+          <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">
             <forename xml:lang="en">Catherine II</forename>
             <surname xml:lang="en">Empress of Russia</surname>
             <forename xml:lang="ru">Екатерина II</forename>
@@ -189,7 +190,7 @@
           </persName>
         </correspAction>
         <correspAction type="received">
-          <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">
+          <persName key="p0098" ref="https://api.dante.gbv.de/person/868ef109-ce8b-4071-9951-ff22d08b1d98">
             <forename xml:lang="en">Electress of Saxony</forename>
             <surname xml:lang="en">Maria Antonia</surname>
           </persName>
@@ -207,7 +208,7 @@
     <body>
       <div type="letter">
         <head>
-          <title> 11 October 1763. – Response <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">[from the Empress of Russia, Catherine II,]</persName> to <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">the Electress of Saxony[,] [Maria Antonia]</persName>
+          <title> 11 October 1763. – Response <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">[from the Empress of Russia, Catherine II,]</persName> to <persName key="p0098" ref="https://api.dante.gbv.de/person/868ef109-ce8b-4071-9951-ff22d08b1d98">the Electress of Saxony[,] [Maria Antonia]</persName>
           </title>
           <note>
             <bibl>
@@ -215,17 +216,17 @@
             </bibl>
           </note>
         </head>
-        <pb n="f. 3"/>
+        <pb n="f. 3" />
         <opener>
-          <salute> Reponse de à <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">
+          <salute> Reponse de à <persName key="p0098" ref="https://api.dante.gbv.de/person/868ef109-ce8b-4071-9951-ff22d08b1d98">
             Madame l’Electrice de Saxe
             </persName>
           </salute>
         </opener>
-        <p> Madame. La lettre <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">
+        <p> Madame. La lettre <persName key="p0098" ref="https://api.dante.gbv.de/person/868ef109-ce8b-4071-9951-ff22d08b1d98">
             de V[otre] A[ltesse] R[oyale]
           </persName> m’assure de sa part d’un
-          attachement, au quel Je suis très sensible. <persName key="p0995" ref="bd099ce3-9457-4d40-9876-c812ee4282d0">
+          attachement, au quel Je suis très sensible. <persName key="p0995" ref="https://api.dante.gbv.de/person/bd099ce3-9457-4d40-9876-c812ee4282d0">
             L’Electeur
             Votre Epoux
           </persName> m’a confié ses vuës
@@ -238,7 +239,7 @@
             Madame
           </salute>
           <salute>
-            <persName key="p0098" ref="868ef109-ce8b-4071-9951-ff22d08b1d98">
+            <persName key="p0098" ref="https://api.dante.gbv.de/person/868ef109-ce8b-4071-9951-ff22d08b1d98">
               de V[otre] A[ltesse] R[oyale]
             </persName>
           </salute>
@@ -246,14 +247,14 @@
           L’affectionnée Tante
           </salute>
           <signed>
-            <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+            <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">
               Catherine
             </persName>
           </signed> a <placeName key="g0002" ref="https://www.geonames.org/498817">
             S[ain]t Petersbourg
           </placeName> ce 11. 8bre 1763. </closer>
         <noteGrp resp="#kandakou" place="bottom">
-          <note>Response to:</note> <note>fr_bpp_29_1_0002</note> </noteGrp>
+          <note>Response to:</note> <note>fr_bpp_29_1_0002</note></noteGrp>
       </div>
     </body>
   </text>

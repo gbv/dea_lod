@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -183,46 +181,46 @@
     <body>
       <div type="letter">
         <head>
-          <title>30 April / 11 May 1767. – Letter from <persName key="p0114">the Senior member of the College of Foreign Affairs, Count Nikita Ivanovich Panin,</persName> to <persName key="p1066">the Ambassador of Great Britain to Russia, Earl George McCartney</persName></title><note>
+          <title>30 April / 11 May 1767. – Letter from <persName key="p0114" ref="https://api.dante.gbv.de/person/e1ac6a40-6f08-4749-96bd-54c9efda5bc5">the Senior member of the College of Foreign Affairs, Count Nikita Ivanovich Panin,</persName> to <persName key="p1066" ref="https://api.dante.gbv.de/person/20862996-9ff0-4108-acf6-50b30a351c76">the Ambassador of Great Britain to Russia, Earl George McCartney</persName></title><note>
             <bibl>TNA Kew, Russia, no. SP 91-78, f. 89-91v. French original.</bibl></note>
         </head>
-        <pb n="f. 89"/>
+        <pb n="f. 89" />
         <p> Monsieur,</p>
-        <p/>
+        <p />
         <p>J’étoit prêt à répondre à la lettre que Vous m’avez fait l’honneur de m’ecrire le 2/13.
           de ce mois, lorsque j’au reçû le courrier que Vous m’avez éxpedié pour m’apporter celle du
-          8/19. qui contenoit une depêche en original de <persName key="p1068">M[onsieu]<hi rendition="#sup">r</hi> De Convai</persName> avec sa traduction. J’ai crû pouvoir m’arrêter alors pour me donner le têms
-          de faire rapport de cette derniere lettre à <persName key="p0033">l’Imperatrice</persName> et prendre Ses ordres
+          8/19. qui contenoit une depêche en original de <persName key="p1068" ref="https://api.dante.gbv.de/person/e0e0fb89-39ad-4a44-82a3-d8b3612d7794">M[onsieu]<hi rendition="#sup">r</hi> De Convai</persName> avec sa traduction. J’ai crû pouvoir m’arrêter alors pour me donner le têms
+          de faire rapport de cette derniere lettre à <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">l’Imperatrice</persName> et prendre Ses ordres
           sur l’objet dont elle traite. L’ayant fait, monsieur, je les reprendrai l’une et l’autre
           pour y repondre, par ordre.</p>
-        <p><persName key="p0033">Sa Majesté Imperiale</persName> n’a trouvé rien que de naturel dans la permission que Vous
-          avez demandée à <orgName key="o0002">Vôtre Cour</orgName> de retourner dans Vôtre Patrie, et la facilité avec
+        <p><persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName> n’a trouvé rien que de naturel dans la permission que Vous
+          avez demandée à <orgName key="o0002" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251">Vôtre Cour</orgName> de retourner dans Vôtre Patrie, et la facilité avec
           laquelle Vous l’avez obtenuë. Il n’entrera point dans Son idée d’en chercher d’autre motif
           que celui sur lequel Vous m’avez deja prevenû depuis longtêms et que Vous me repete encore
-          dans la premiere de Vos lettres. Le soupçon d’une moindre intimité entre les <orgName key="o0002, o0008">deux Cours</orgName> ne
+          dans la premiere de Vos lettres. Le soupçon d’une moindre intimité entre les <orgName key="o0002, o0008" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251,https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">deux Cours</orgName> ne
           sauroit y trouver place, et j’aurois tort de m’y arrêter. </p>
-        <pb n="f. 89v"/>
+        <pb n="f. 89v" />
         <p> Je ne m’attacherai qu’à Vous confirmer ce que j’ai souvent eû occasion de Vous dire
-          pendant Vôtre ministere auprès de l’<persName key="p0033">Imperatrice</persName>, de la satisfaction avec laquelle
+          pendant Vôtre ministere auprès de l’<persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Imperatrice</persName>, de la satisfaction avec laquelle
           Elle a vû Vôtre zêle pour la perfection de la bonne intelligence et de l’union entre les
-          deux États. Dans le moment où je Lui ai presenté Vos homages en Vous congediant de <orgName key="o0008">Sa Cour</orgName>, j’ai reçû pour Vous, monsieur, les assurances les plus positives de Sa
+          deux États. Dans le moment où je Lui ai presenté Vos homages en Vous congediant de <orgName key="o0008" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Sa Cour</orgName>, j’ai reçû pour Vous, monsieur, les assurances les plus positives de Sa
           benveillance, et je Vous les transmets avec un contentement qu’il Vous sera facile de Vous
-          representer. <persName key="p0033">Sa Majesté Imperiale</persName> ne veut point que Vous partiez sans en emporter
+          representer. <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName> ne veut point que Vous partiez sans en emporter
           une marque distinguée. La maniere dont Vous Vous congediez sans produire de lettres de
-          rappel, nous engageant à Vous considerer toujours comme ministre actuel aupès de <orgName key="o0008">nôtre Cour</orgName>, Vous n’étes pas encore dans le cas de recevoir le present d’étiquette que
+          rappel, nous engageant à Vous considerer toujours comme ministre actuel aupès de <orgName key="o0008" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">nôtre Cour</orgName>, Vous n’étes pas encore dans le cas de recevoir le present d’étiquette que
           nous faisons aux ministres, et nous le renvoyons au têms où il doit avoir lieu. Mais
-          independament de ce present <persName key="p0033">Sa Majesté</persName> m’a ordonné de Vous envoyer la boëte que j’ai
+          independament de ce present <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName> m’a ordonné de Vous envoyer la boëte que j’ai
           l’honneur de joindre ici, comme un temoignage de Son approbation et de l’estime qu’Elle a
           jugé que Vous meritez. Trouvez bon monsieur, que mes sentimens particuliers s’expriment
-          tous dans la satisfaction avec laquelle je vois ceux de <persName key="p0033">ma Souveraine</persName>. Je Vous
+          tous dans la satisfaction avec laquelle je vois ceux de <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">ma Souveraine</persName>. Je Vous
           demande avec </p>
-        <pb n="f. 90"/>
+        <pb n="f. 90" />
         <p> empressement la continuation de Votre amitié et Vous prie de croire que l’attachement
           que je Vous ai voué est aussi sincere qu’inviolable. </p>
-        <p>J’ai mis sous le yeux de l’<persName key="p0033">Imperatrice</persName> la depêche de <orgName key="o0002">Vôtre cour</orgName> à
+        <p>J’ai mis sous le yeux de l’<persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Imperatrice</persName> la depêche de <orgName key="o0002" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251">Vôtre cour</orgName> à
           laquelle je viens actuellement. Elle y a vû avec une reconnoissance proportionnée au desir
           qu’Elle a toujours fait connoître pour l’union la plus etroite des deux nations, les
-          sentiments du <persName key="p0161">Roy Vôtre maitre</persName> pour le même but. La satisfaction de trouver des
+          sentiments du <persName key="p0161" ref="https://api.dante.gbv.de/person/63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roy Vôtre maitre</persName> pour le même but. La satisfaction de trouver des
           dispositions si analogues aux Siennes que Vous savez, monsieur, fondés sur les maximes
           invariables de Sa politique qui Lui font tenir un compte si distingué des liaisons étroites
           de Son empire avec la Grande Bretagne, ne peut étre egalés que par ce contentement
@@ -235,13 +233,13 @@
           dont nous ne pouvons sortir. </p>
         <p>Je ne repeterai pas, monsieur, les moyens de conciliation, offerts de notre part sur ce
           point; </p>
-        <pb n="f. 90v"/>
+        <pb n="f. 90v" />
         <p> ils doivent etre presents à Vôtre memoire. Il me suffira de Vous dire pour que Vous en
-          puissiez faire rapport au <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0139" xml:space="default">Ministere</orgName>, qu’ils restent toujours ouverts et Vous y trouverez
-          les dispositions precises dans les quelles Vous laissez <orgName key="o0008">ma Cour</orgName>. Puissiez Vous
+          puissiez faire rapport au <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0139" xml:space="default" ref="https://api.dante.gbv.de/person/">Ministere</orgName>, qu’ils restent toujours ouverts et Vous y trouverez
+          les dispositions precises dans les quelles Vous laissez <orgName key="o0008" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">ma Cour</orgName>. Puissiez Vous
           les faire valoir et lever l’obstacle qui suspend de Vôtre part la confection d’un ouvrage
           egalement avantageux et egalement desiré des deux cotés.</p>
-        <p><persName key="p0033">Sa Majesté Imperiale</persName> couvaincuё comme Elle est, de la solidité les motifs qui
+        <p><persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté Imperiale</persName> couvaincuё comme Elle est, de la solidité les motifs qui
           doivent reeer et eterniser nôtre union, a les regrets les plus sensibles de la voir aussi
           arrétée. Elle sent tout l’embarras et tout le prejudice d’une telle position, et Elle en
           voit encore accroitre les inconveniens par la demarche même qui devoit le changer, par ce
@@ -251,30 +249,30 @@
           qui les unissent, ne pourra que sentir diminuer ce degré d’attention singuliëre qu’elle a dû
           donner à un systeme commun de deux Grandes Puissances, en les voyant varier, et la
           consideration dont elles jouissent devra souffrir de l’idée d’une moindre union entre
-          elles. <persName key="p0033">L’Imperatrice</persName> ne veut point Se le dissimuler </p>
-        <pb n="f. 91"/>
-        <p> ni le cacher au <persName key="p0161">Roy</persName>, et Elle le doit d’autant moins, qu’Elle n’a regardé Elle
+          elles. <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">L’Imperatrice</persName> ne veut point Se le dissimuler </p>
+        <pb n="f. 91" />
+        <p> ni le cacher au <persName key="p0161" ref="https://api.dante.gbv.de/person/63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roy</persName>, et Elle le doit d’autant moins, qu’Elle n’a regardé Elle
           même dans son principe la nomination d’un Ambassadeur auprès d’Elle, que comme une marque
-          de cette preference d’egards et d’attention que les <orgName key="o0002, o0008">deux Cours</orgName> se doivent, et qu’Elle ne
+          de cette preference d’egards et d’attention que les <orgName key="o0002, o0008" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251,https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">deux Cours</orgName> se doivent, et qu’Elle ne
           l’a point crû restreinte au seul objet de la signature d’un traité d’alliance, sentiment
           entretenû par tout ce qui nous a été dit soit ici soit à <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Londres</placeName> par rapport à cette
           Ambassade, et où on ne nous a presenté que des considerations sur le systéme general de
-          l’Europe. Quoiqu’il en soit, <persName key="p0033">Sa Majesté</persName> est du moins flattée d’avoir donné par
+          l’Europe. Quoiqu’il en soit, <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName> est du moins flattée d’avoir donné par
           son attention à nommer de son côté un Ambassadeur, une preuve de ses sentiments au
-          <persName key="p0161">Roy</persName> et à la nation. Son Ambassadeur est toujours prêt. Elle laisse au choix du
-          <persName key="p0161">Roy</persName> de faire partir le sien, et Elle n’attend que Sa reponse pour donner ses
-          ordres pour le depart de celui qu’Elle a nommé. C’est à <orgName key="o0002">Vôtre Cour</orgName> à voir,
+          <persName key="p0161" ref="https://api.dante.gbv.de/person/63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roy</persName> et à la nation. Son Ambassadeur est toujours prêt. Elle laisse au choix du
+          <persName key="p0161" ref="https://api.dante.gbv.de/person/63f79ea1-73ca-43ac-8498-5fb6eb396faf">Roy</persName> de faire partir le sien, et Elle n’attend que Sa reponse pour donner ses
+          ordres pour le depart de celui qu’Elle a nommé. C’est à <orgName key="o0002" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251">Vôtre Cour</orgName> à voir,
           monsieur, lequel est preferable de s’arrêter peu à la sensation trop vive qu’une
           revocation reciproque va faire, ou de la prevenir. Telle est nôtre façon d’envisager les
           circonstances où nous nous trouvons. Nous la communiquons avec cette confiance et cette
           franchise que l’amitié de deux souverains et les dispositions des deux ministres </p>
-        <pb n="f. 91v"/>
+        <pb n="f. 91v" />
         <p> portent avec elles: nous n’avons aucun doute qu’on ne nous reponde de même.</p>
         <p>Je suis avec une consideration très distinguée</p>
         <p>Monsieur,</p>
         <p>votre tres humble et tres</p>
         <p>obeissant serviteur</p>
-        <p><persName key="p0114">N[ikita] Panin</persName></p>
+        <p><persName key="p0114" ref="https://api.dante.gbv.de/person/e1ac6a40-6f08-4749-96bd-54c9efda5bc5">N[ikita] Panin</persName></p>
         <p>A <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName>
         </p>
         <p>Le 30. avril 1767.</p>

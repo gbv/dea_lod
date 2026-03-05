@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,14 +106,14 @@
             <bibl>AVPRI, fond 53, opis 5, no. 169, f. 20-20v. French translation.</bibl>
           </note>
         </head>
-        <pb n="f. 20"/>
+        <pb n="f. 20" />
         <p>
           <hi rendition="#u">Translat</hi>
         </p>
-        <p/>
+        <p />
         <p>Reglement pour la pension des
           officiers.</p>
-        <p>Nous <persName key="p0341">Frederic Vme Par la grace de Dieu Roi de Dannemarc Norwegue</persName>
+        <p>Nous <persName key="p0341" ref="https://api.dante.gbv.de/person/4d48b5ce-8760-4799-ac34-6311fd246479">Frederic Vme Par la grace de Dieu Roi de Dannemarc Norwegue</persName>
           etc. etc. etc. Sçavoir faisons, qu’ayant été contraints par les motifs convaincants de
           donner la pension à une parties des [sic !] nos officiers, nous avons jugés à propos de
           prescrire à ce sujet le reglement suivant tant pour les officiers qui reçoivent la
@@ -138,7 +139,7 @@
           ne pourront s’attendre à aucune augmentation. Et comme tous ces pensionaires font sans
           place, ils auront la permission de faire leur sejour dans tel endroit de nos royaumes,
           qu’ils jugent eux mêmes à propos.</p>
-        <pb n="f. 20v"/>
+        <pb n="f. 20v" />
 
         <p> Ils s’adresseront à notre direction générale de gueurre après l’ecoulement de trois mois
           et envoyeront l’attestat du prètre de l’endroit, où ils se trouvent, àfin que la pension
@@ -147,8 +148,8 @@
           reglement, et veilleront à leur propre interêt. fait à <placeName key="g0006">coppenhague</placeName>,
           dans notre Chateau de Christiansbourg, signé de notre main et apposé de notre sceau Royal,
           ce 29me fevrier 1764</p>
-        <p> L : S : <persName key="p0341">Frederic R[ex]</persName>:</p>
-        <p>In fidem versionis <persName key="p0541">Actuarius Ioachin Lysakewitz</persName></p>
+        <p> L : S : <persName key="p0341" ref="https://api.dante.gbv.de/person/4d48b5ce-8760-4799-ac34-6311fd246479">Frederic R[ex]</persName>:</p>
+        <p>In fidem versionis <persName key="p0541" ref="https://api.dante.gbv.de/person/25d8d990-02a4-431d-a3ad-c42e6f01ad5b">Actuarius Ioachin Lysakewitz</persName></p>
       </div>
     </body>
   </text>

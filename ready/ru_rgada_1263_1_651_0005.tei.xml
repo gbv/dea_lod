@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,8 +104,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>6 December 1760. – Letter from <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
-            John Maurice Count of Bruhl</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title>6 December 1760. – Letter from <persName key="p0023" ref="https://api.dante.gbv.de/person/68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
+            John Maurice Count of Bruhl</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -112,7 +113,7 @@
           </note>
         </head>
         
-        <pb n="f. 24"/>
+        <pb n="f. 24" />
         
         <p>
           <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName> le 6. Decembre 1760</p>
@@ -136,7 +137,7 @@
           <hi rendition="#u">natura</hi>. Comme cy-après</p>
         <p>NB. L’ecu de Saxe est d’un florin et demi ou 90 kreutzer d’Allemagne</p>
         
-        <pb n="f. 24v"/>
+        <pb n="f. 24v" />
         
         <p>613 recruës</p>
         <p>96480 boisseaux de farine</p>
@@ -145,7 +146,7 @@
         <p>804000 bottes de paille</p>
         <p>Quoiqu’on ne scache pas encore a quoi les autres cercles sont taxés, separement, on est
           pourtant sûr que le tout monte a 20. millions Ecus. C’est ce qui surpasse le double des
-          revenus que <persName key="p0057" ref="36412e88-60df-4a3e-b302-3fde5962cda6">S[a] M[ajesté] le Roi de Pologne Electeur de Saxe</persName> a pu tirer du Païs en tems de paix.</p>
+          revenus que <persName key="p0057" ref="https://api.dante.gbv.de/person/36412e88-60df-4a3e-b302-3fde5962cda6">S[a] M[ajesté] le Roi de Pologne Electeur de Saxe</persName> a pu tirer du Païs en tems de paix.</p>
         <p>La ville de <placeName key="g0053" ref="https://www.geonames.org/2925306">Frauenstein</placeName> a été evacuée par les
           Prussiens et les Autrichiens viennent de prendre poste à <placeName key="g0055" ref="https://www.geonames.org/2921232">Gera</placeName>.
           Les postes avancées sont continuellement aux mains, avec ceux de l’ennemi.</p>

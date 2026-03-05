@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en"/>
+        <title type="main" xml:lang="en" />
       </titleStmt>
       <editionStmt>
         <edition>Languages of Diplomacy Digital Edition</edition>
@@ -98,25 +99,25 @@
     <body>
       <div type="letter">
         <head>
-          <title> 26 November 1817. – Letter of recommendation from <persName key="p0928">King Frederick William III of Prussia</persName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1507" xml:space="default">Lieutenant General
+          <title> 26 November 1817. – Letter of recommendation from <persName key="p0928" ref="https://api.dante.gbv.de/person/e74fc3b0-1ce6-4fa2-997d-fd95fc494f83">King Frederick William III of Prussia</persName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1507" xml:space="default" ref="https://api.dante.gbv.de/person/4dd4c836-939e-4c38-8910-b1760c04b46b">Lieutenant General
             Aleksandr Ivanovich Chernyshev</persName>
           </title>
           <note>
             <bibl>OR RGB, fond 330, tom 2, chast' III, papka 31, no. 17, f. 1. French original.</bibl>
           </note>
         </head>
-        <pb n="f.1"/>
+        <pb n="f.1" />
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p1507" type="real">Mr Alexandre</persName> a donné devant Moi des preuves de la
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p1507" type="real" ref="https://api.dante.gbv.de/person/4dd4c836-939e-4c38-8910-b1760c04b46b">Mr Alexandre</persName> a donné devant Moi des preuves de la
           perfection à laquelle il porte le talent qu’il exerce. Je lui rends ce témoignage d’autant
           plus volontiers, qu’il mérite des encouragemens par le noble usage que, d’aprês ce que
           J’apprends, il fait du profit qu’il retire de son travail, en se consacrant au soulagement
           d’une famille malheureuse.</p>
         <p>
           <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> le 26 Novembre 1817</p>
-        <p/>
+        <p />
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0928" xml:space="default" type="signature">Frederic Guillaume</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0928" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/e74fc3b0-1ce6-4fa2-997d-fd95fc494f83">Frederic Guillaume</persName>
         </p>
       </div>
     </body>

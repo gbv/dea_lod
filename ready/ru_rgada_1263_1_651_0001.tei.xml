@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,29 +105,29 @@
     <body>
       <div type="letter">
         <head>
-          <title> 3 February 1759. – Letter from <persName key="p0023" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
-            John Maurice Count of Bruhl,</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
+          <title> 3 February 1759. – Letter from <persName key="p0023" ref="https://api.dante.gbv.de/person/68c38ff9-fa0e-4544-b443-602a7f755eb1">the Chamberlain at the Polish-Saxon Court,
+            John Maurice Count of Bruhl,</persName> to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London,
             Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 651, f. 12a-12av, 12bv. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 12а"/>
+        <pb n="f. 12а" />
         
         <p>Monseigneur,</p>
-        <p>Vôtre Excellence sait, que <persName key="p0057" ref="36412e88-60df-4a3e-b302-3fde5962cda6">le Roi</persName> mon Maitre sur le compte,
+        <p>Vôtre Excellence sait, que <persName key="p0057" ref="https://api.dante.gbv.de/person/36412e88-60df-4a3e-b302-3fde5962cda6">le Roi</persName> mon Maitre sur le compte,
           que je lui avois rendu des desirs, qu’Elle m’avoit fait donner à connoître, pour obtenir
           l’ordre de l’Aigle blanc de Pologne, n’avoit demandé pour le Lui accorder, que le
-          consentement de <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa
+          consentement de <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa
           Maj[esté] l’Imperatrice de Russie</persName>. Ce consentement étant arrivé à l’heure
           qu’il est, le Roi, mon Maitre a embrassé avec plaisir cette occasion de Vous temoigner
           Monseigneur, sa reconnoissance des sentimens de zèle, que Vôtre Excellence a fait paroitre
           en tout tems, pour Ses interêts, et m’ordonne de Lui envoyer ci-joint les marques de
           l’ordre de l’Aigle Blanc </p>
-        <pb n="f. 12а v"/>
-        <p> de Pologne. Persuadé, que cette distinction marquée du <persName key="p0057" ref="36412e88-60df-4a3e-b302-3fde5962cda6">Roi</persName> servira de nouvel éguillon à
-          l’attachement que Vôtre Excellence a montré jusqu’ici pour les interêts de <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté</persName>, il ne me
+        <pb n="f. 12а v" />
+        <p> de Pologne. Persuadé, que cette distinction marquée du <persName key="p0057" ref="https://api.dante.gbv.de/person/36412e88-60df-4a3e-b302-3fde5962cda6">Roi</persName> servira de nouvel éguillon à
+          l’attachement que Vôtre Excellence a montré jusqu’ici pour les interêts de <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté</persName>, il ne me
           reste, que de Vous prier, Monseigneur, d’agréer les complimens de felicitations, que j’ay
           l’honneur de Lui en faire, et d’être assuré, que je n’aurai rien plus à coeur, que de Lui
           prouver en toute rencontre la consideration très distinguée, avec laquelle je suis,</p>
@@ -134,20 +135,20 @@
         <p>de Vôtre Excellence,</p>
         <p>le très humble et très obeissant serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0023" xml:space="default" ref="68c38ff9-fa0e-4544-b443-602a7f755eb1" type="signature">Ch[evalier] de Bruhl</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0023" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/68c38ff9-fa0e-4544-b443-602a7f755eb1">Ch[evalier] de Bruhl</persName>
         </p>
         <p>à <placeName key="g0009" ref="https://www.geonames.org/756135">Varsovie</placeName>,</p>
         <p>ce 3<hi rendition="#sup">me </hi>Fevrier, 1759.</p>
-        <p><note>Note in the lower right margin:</note> à <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">S[on] E[xcellence] Monseig[neu]r le Prince</persName>
+        <p><note>Note in the lower right margin:</note> à <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">S[on] E[xcellence] Monseig[neu]r le Prince</persName>
         </p>
         <p>
-          <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Galliczin</persName>
+          <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Galliczin</persName>
         </p>
         
-        <pb n="f. 12b v"/>
+        <pb n="f. 12b v" />
         <p>
-          <note place="foot">Verso of double page.</note><note place="foot"/><note>From here, written in a different handwriting:</note> reçu à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> ce 25 mars/5 avril 1759:</p>
-        <p/>
+          <note place="foot">Verso of double page.</note><note place="foot" /><note>From here, written in a different handwriting:</note> reçu à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> ce 25 mars/5 avril 1759:</p>
+        <p />
         <noteGrp>
           <note>See also:</note>
           <note>ru_rgada_1263_1_651_0002</note>

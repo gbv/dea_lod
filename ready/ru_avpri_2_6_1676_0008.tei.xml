@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,7 +103,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>12 December 1746. – Evaluation sheet of <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Aleksandr Sergeevich</persName> and Prince <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Vladimir Sergeevich Dolgorukov</persName> by the French teacher at Noble Land Cadet Corps, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0787" xml:space="default" ref="cc976f6f-000d-44db-9fa6-efc17a5dafa5">Louis Boujot</persName>
+          <title>12 December 1746. – Evaluation sheet of <persName key="p0829" ref="https://api.dante.gbv.de/person/b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Aleksandr Sergeevich</persName> and Prince <persName key="p0240" ref="https://api.dante.gbv.de/person/c16ea97f-9174-48d6-b400-c17471adbc88">Vladimir Sergeevich Dolgorukov</persName> by the French teacher at Noble Land Cadet Corps, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0787" xml:space="default" ref="https://api.dante.gbv.de/person/cc976f6f-000d-44db-9fa6-efc17a5dafa5">Louis Boujot</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 11. French original and Russian
@@ -110,9 +111,9 @@
           </note>
         </head>
         
-        <pb n="f. 11"/>
+        <pb n="f. 11" />
         
-        <p>Ayant examiné les Princes <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Alexandre</persName> et <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Valadimir Dolgorouky</persName> dans la
+        <p>Ayant examiné les Princes <persName key="p0829" ref="https://api.dante.gbv.de/person/b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Alexandre</persName> et <persName key="p0240" ref="https://api.dante.gbv.de/person/c16ea97f-9174-48d6-b400-c17471adbc88">Valadimir Dolgorouky</persName> dans la
           langue françois, j’ai trouvé, qu’ils parlent cette langue dans toute sa pureté, et avec
           une facilité admirable. Leurs traductions sont fort exactes : leur stile de lettres est
           coulant, les phrases bien tournées, et leurs pensées exprimées avec autant de justesse que
@@ -125,16 +126,16 @@
             décembre 1746</date>
           </dateline>
           <signed>
-            <persName key="p0787" ref="cc976f6f-000d-44db-9fa6-efc17a5dafa5">Boujot</persName>
+            <persName key="p0787" ref="https://api.dante.gbv.de/person/cc976f6f-000d-44db-9fa6-efc17a5dafa5">Boujot</persName>
           </signed>
           <signed>Maitre de langue françoise</signed>
-          <signed>au <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des
+          <signed>au <orgName key="o0006" ref="https://api.dante.gbv.de/person/171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des
             Cadets</orgName>
           </signed>
         </closer>
        <postscript>
           <p>Перевод</p>
-          <p>Я нижеподписавшийся экзаменовав во француском языке князей <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Александра</persName> и <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Володимира Долгоруких</persName>, нашел что
+          <p>Я нижеподписавшийся экзаменовав во француском языке князей <persName key="p0829" ref="https://api.dante.gbv.de/person/b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Александра</persName> и <persName key="p0240" ref="https://api.dante.gbv.de/person/c16ea97f-9174-48d6-b400-c17471adbc88">Володимира Долгоруких</persName>, нашел что
             оне говорят пофранцуски весма чисто скоро и хорошо, а их переводы очень исправны, что ж
             касается до их писем, то они имеют штиль без притворный, речи употребляют изрядные, а
             мысли изъясняют чисто и исправно, как то усмотреть можно из приложенных при сем

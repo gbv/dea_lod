@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,8 +104,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>6/17 May 1764. – Letter from <persName key="p0144" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Minister Plenipotentiary to the
-            Hague, Count Aleksandr Romanovich Vorontsov</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+          <title>6/17 May 1764. – Letter from <persName key="p0144" ref="https://api.dante.gbv.de/person/3238497b-c34f-43f2-82e2-efe7a3e15ce8">the Russian Minister Plenipotentiary to the
+            Hague, Count Aleksandr Romanovich Vorontsov</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -112,29 +113,29 @@
           </note>
         </head>
         
-        <pb n="f. 10"/>
+        <pb n="f. 10" />
         
         <p>Monsieur !</p>
-        <p> Votre Excellence se souviendra sans doute de l’affaire des Fauconiers, dont a été <persName key="p0077" ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">Chargé Mr De Gross</persName>,
-          mon prédecesseur, qui en ayant parlé à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2293" xml:space="default">Mr le C[om]te de Bentenck</persName>,
-          qui s’est preté de bonne grace à pourvoir <orgName key="o0008">Notre Cour</orgName> de quelques habiles
+        <p> Votre Excellence se souviendra sans doute de l’affaire des Fauconiers, dont a été <persName key="p0077" ref="https://api.dante.gbv.de/person/2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">Chargé Mr De Gross</persName>,
+          mon prédecesseur, qui en ayant parlé à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2293" xml:space="default" ref="https://api.dante.gbv.de/person/1d220e1b-fb56-4356-84b5-fc3ed2bc914f">Mr le C[om]te de Bentenck</persName>,
+          qui s’est preté de bonne grace à pourvoir <orgName key="o0008" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">Notre Cour</orgName> de quelques habiles
           fauconiers, l’a flatté d’une prompte réponse, sur cet article ; mais come Elle ne vient
           point &amp; que ces gens, qui vouloient aller en Russie, le tourmentent journellement par
           raport à cette affaire, Vous voudrés bien me permettre, Monsieur, que je prenne la liberté
-          de Vous demander au plutôt la décision sur cet article, afin que j’en informe à mon tour <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2293" xml:space="default">Mr le C[om]te de Bentenck</persName> pour qu’il se debarasse à l’avenir de
+          de Vous demander au plutôt la décision sur cet article, afin que j’en informe à mon tour <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2293" xml:space="default" ref="https://api.dante.gbv.de/person/1d220e1b-fb56-4356-84b5-fc3ed2bc914f">Mr le C[om]te de Bentenck</persName> pour qu’il se debarasse à l’avenir de
           toutes les peines que lui causent les Fauconiers, qui souhaitent de savoir à quoi s’en
           tenir à cet égard ; vû qu’il m’en aparlé à différentes réprises.</p>
         <p> J’ai l’honeur d’etre avec une Consideration très distinguée</p>
         <p> Monsieur !</p>
         <p> De Votre Excellence</p>
         <p> Le très humble et très</p>
-        <p>obeissant Serviteur <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" ref="3238497b-c34f-43f2-82e2-efe7a3e15ce8" type="signature">C[omte]
+        <p>obeissant Serviteur <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0144" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/3238497b-c34f-43f2-82e2-efe7a3e15ce8">C[omte]
           Alexandre de Woronzow</persName>
         </p>
         <p> </p>
         <p>à <placeName key="g0004" ref="https://www.geonames.org/2747373">La Haye</placeName> ce 6/17 May</p>
         <p> 1764./.</p>
-        <p>[Note in the lower margin:] <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">S[on] ex[cellence] Mr le Pr[in]ce Galitzin</persName>.</p>
+        <p>[Note in the lower margin:] <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">S[on] ex[cellence] Mr le Pr[in]ce Galitzin</persName>.</p>
         <noteGrp>
           <note>See also:</note>
           <note>ru_rgada_1263_1_772_0001</note>

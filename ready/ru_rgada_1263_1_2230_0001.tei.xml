@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,18 +103,18 @@
     <body>
       <div type="letter">
         <head>
-          <title>4/15 March 1774. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0249" xml:space="default" ref="b973a310-5319-483e-84f7-4a44c7ca51eb">Midshipman Nikolai Semenovich Mordvinov</persName>
-            to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>4/15 March 1774. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0249" xml:space="default" ref="https://api.dante.gbv.de/person/b973a310-5319-483e-84f7-4a44c7ca51eb">Midshipman Nikolai Semenovich Mordvinov</persName>
+            to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2230, f. 1. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         
         <p>Monseigneur.</p>
         <p>J’ai eu l’honneur de remettre la lettre que Vôtre Excellence à eu la bonté de me donner
-          pour <persName key="p0257" ref="b4fd0cc7-1651-443c-baf1-796142f72ee7">Mylord Sandwich</persName>.
+          pour <persName key="p0257" ref="https://api.dante.gbv.de/person/b4fd0cc7-1651-443c-baf1-796142f72ee7">Mylord Sandwich</persName>.
           Je vous dois, Monseigneur, une reconnoissance infinie pour toutes les politesses que j’ai
           reçu de sa part. Il a ordonné que je sois placé sur le vaisseaux de l’Amiral qui va dans
           la Jamaïque. Je partirai d’ici dans une semaine a <placeName key="g0169" ref="https://www.geonames.org/2653305">Tchatam</placeName>
@@ -126,7 +127,7 @@
         <p>le très humble &amp; le très obeissant</p>
         <p>Serviteur.</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0249" xml:space="default" ref="b973a310-5319-483e-84f7-4a44c7ca51eb" type="signature">Nicolas Mordwinoff</persName>.</p>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0249" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/b973a310-5319-483e-84f7-4a44c7ca51eb">Nicolas Mordwinoff</persName>.</p>
         <p>
           <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>
         </p>

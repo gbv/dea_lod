@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,24 +103,24 @@
     <body>
       <div type="letter">
         <head>
-          <title>23 August 1732. – Letter from <persName key="p0199" ref="ccffeb06-f008-47d8-979b-c87aba0f82a1">the Secretary of the Russian Embassy in
-            Denmark, Baron Friedrich of Mirbach</persName> , to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident in Great Britain,
+          <title>23 August 1732. – Letter from <persName key="p0199" ref="https://api.dante.gbv.de/person/ccffeb06-f008-47d8-979b-c87aba0f82a1">the Secretary of the Russian Embassy in
+            Denmark, Baron Friedrich of Mirbach</persName> , to <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident in Great Britain,
             Prince Antiochus Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 35, opis 1, no. 553, f. 58–58v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 58"/>
+        <pb n="f. 58" />
         
         <p>Monsieur</p>
-        <p>Son Excell. Msr. le <persName key="p0184" ref="4850526b-74af-4735-a4b0-2cc132e48a4f">Baron
+        <p>Son Excell. Msr. le <persName key="p0184" ref="https://api.dante.gbv.de/person/4850526b-74af-4735-a4b0-2cc132e48a4f">Baron
           de Brackel</persName>, étant allé pour quelques jours à <placeName key="g0040" ref="https://www.geonames.org/2621942">
           Friederichsbourg</placeName>, m’a ordonné de Vous envoÿer, pendant son absence la Copie du
-          traité, nouvellement conclu entre <persName key="p0006" ref="bc444245-d428-47f5-8e28-07bd88e25987">Sa Majesté Imperiale de toutes les Russie
-          notre très Auguste Souveraine</persName>, et la <orgName key="o0009" ref="62f4a0a0-914d-43df-89d9-be5aaf841973">Cour de Dannemarck</orgName>. Je m’acquite de
+          traité, nouvellement conclu entre <persName key="p0006" ref="https://api.dante.gbv.de/person/bc444245-d428-47f5-8e28-07bd88e25987">Sa Majesté Imperiale de toutes les Russie
+          notre très Auguste Souveraine</persName>, et la <orgName key="o0009" ref="https://api.dante.gbv.de/person/62f4a0a0-914d-43df-89d9-be5aaf841973">Cour de Dannemarck</orgName>. Je m’acquite de
           mon devoir par celle-ci, et n’aÿant pas la satisfaction d’etre connu de Vous, je </p>
-        <pb n="f. 58v"/>
+        <pb n="f. 58v" />
         <p> profite Monsieur de cette occasion, pour Vous assurer de mes respects. Je vous supplie
           de m’honorer de votre bienveillance, et de croire que je ferai tout mon possible, pour la
           meriter par un attachement tout particulier à vos ordres, avec lequel j’ai l’honneur
@@ -127,7 +128,7 @@
         <p>Monsieur votre</p>
         <p>très humble et très obeissant serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0199" xml:space="default" ref="ccffeb06-f008-47d8-979b-c87aba0f82a1" type="signature">Frederique Baron de
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0199" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/ccffeb06-f008-47d8-979b-c87aba0f82a1">Frederique Baron de
             Mirbach</persName>
         </p>
         <p>

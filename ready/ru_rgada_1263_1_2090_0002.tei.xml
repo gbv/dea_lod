@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,14 +103,14 @@
     <body>
       <div type="letter">
         <head>
-          <title>11/22 December 1763. – Letter from <persName key="p0096">the Employee of the Russian Embassy in London, Petr Semenovich Mal’tsov</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>11/22 December 1763. – Letter from <persName key="p0096" ref="https://api.dante.gbv.de/person/eef89b4a-5489-4631-86c6-21cbb2895091">the Employee of the Russian Embassy in London, Petr Semenovich Mal’tsov</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 2090, f. 2-2v. French original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         
         <p>Monseigneur!</p>
         <p>Je suplie Votre Excellence de me permettre d’avoir l’honeur de La féliciter très
@@ -117,7 +118,7 @@
           liberté de saisir avec d’autant plus d’empressement cette occasion-ci, qu’Elle me met à
           portée de m’acquiter d’un devoir trop conforme aux sentimens de mon coeur, pour le
           négliger. La reconnoissance &amp; l’attachement le plus respectueux pour la personne de </p>
-        <pb n="f. 2v"/>
+        <pb n="f. 2v" />
         <p> Votre Excellence en sont la base, &amp; Vos bienfaits généreux en sont les liens. Les
           Voeux, que j’adresse au Ciel pour Votre constante Prospérité &amp; la conservation de
           Votre Santé, sont, Monseigneur, aussi sinceres que fervens. Mon bonheur sera parfait,
@@ -130,7 +131,7 @@
         <p> Le très humble, très obeissant</p>
         <p> &amp; très obligé serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0096" xml:space="default" ref="eef89b4a-5489-4631-86c6-21cbb2895091" type="signature">Malsof</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0096" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/eef89b4a-5489-4631-86c6-21cbb2895091">Malsof</persName>
         </p>
         <p>à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> ce 11/22. X<hi rendition="#u"><hi rendition="#sup">bre</hi>
           </hi> 1763./.</p>

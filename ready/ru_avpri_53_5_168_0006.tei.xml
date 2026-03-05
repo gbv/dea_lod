@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,16 +102,16 @@
     <body>
       <div type="letter">
         <head>
-          <title>8 / 19 December 1764. – Draft of a letter from <persName key="p0065">Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</persName> to  <persName key="p0245">the Russian Envoy Extraordinary to Copenhagen, Baron Johann Albrecht von
+          <title>8 / 19 December 1764. – Draft of a letter from <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</persName> to  <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Russian Envoy Extraordinary to Copenhagen, Baron Johann Albrecht von
             Korff</persName></title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 168, f. 24. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 24"/>
+        <pb n="f. 24" />
         <opener>
           <address>
-            <addrLine>à <persName key="p0245">S[on] E[xcellence] M[onsieur] le Bar[on] de Korff</persName>
+            <addrLine>à <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">S[on] E[xcellence] M[onsieur] le Bar[on] de Korff</persName>
               à <placeName key="g0006">Copenhague</placeName>.</addrLine>
           </address>
           <dateline>à <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersbourg</placeName> ce <date>8/19 Xbre 1764</date>
@@ -123,7 +124,7 @@
           sincéres que je fais sans cesse pour vos prosperités. Persuadée de ces sentiments V[otre].
           E[xcellence]. me fera la justice de me croire avec la consideration la plus distinguée, </p>
         <closer>
-                      <persName key="p0065">P[rince] A[lexandre] Galitzin</persName>
+                      <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">P[rince] A[lexandre] Galitzin</persName>
                   </closer>
       </div>
     </body>

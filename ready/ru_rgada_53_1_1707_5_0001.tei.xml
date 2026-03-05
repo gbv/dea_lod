@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,40 +103,40 @@
   <text>
     <body>
       <div>
-        <head> <title>5 February 1707. – Reply from the <orgName key="o0128">Royal [Danish] Chancellery</orgName> to <persName key="p1432">the Russian Ambassador to
+        <head> <title>5 February 1707. – Reply from the <orgName key="o0128" ref="https://api.dante.gbv.de/person/">Royal [Danish] Chancellery</orgName> to <persName key="p1432" ref="https://api.dante.gbv.de/person/1b697bbb-18a9-4913-a07d-7a0ed59f070b">the Russian Ambassador to
             Denmark,
-              Andrei [Petrovich] Izmailov</persName>,  on the election of <persName cert="high" key="p0522" type="real">the new King  of Poland, Stanislaus [Leszczyński]</persName>, and on the mediation in the reconciliation between Russia and Sweden </title> </head>
+              Andrei [Petrovich] Izmailov</persName>,  on the election of <persName cert="high" key="p0522" type="real" ref="https://api.dante.gbv.de/person/69d90cfe-5479-4e57-b0c3-619081977fa0">the new King  of Poland, Stanislaus [Leszczyński]</persName>, and on the mediation in the reconciliation between Russia and Sweden </title> </head>
         <note>RGADA, fond 53, opis 1, 1707, no. 5, f. 1-1v. French original</note>
-        <pb cert="high" n="f. 1" xml:space="default"/>
-        <p>Ответ, данной российскому в Дании послу <persName cert="high" key="p1432" type="real">Андрею
+        <pb cert="high" n="f. 1" xml:space="default" />
+        <p>Ответ, данной российскому в Дании послу <persName cert="high" key="p1432" type="real" ref="https://api.dante.gbv.de/person/1b697bbb-18a9-4913-a07d-7a0ed59f070b">Андрею
           Измайлову</persName> из канцелярии королевской о избранном
-          новом короле в Польше <persName key="p0522">Станиславе</persName> и о посредстве в замирении России с Швециею </p>
+          новом короле в Польше <persName key="p0522" ref="https://api.dante.gbv.de/person/69d90cfe-5479-4e57-b0c3-619081977fa0">Станиславе</persName> и о посредстве в замирении России с Швециею </p>
         <p>
-          <persName key="p0532">Sa Majesté le Roy de Dannemarck et de Norvegue</persName> ayant vû
-          le contenu du memoire de <persName cert="high" key="p1432" type="real">Mr l'Ambassadeur de
+          <persName key="p0532" ref="https://api.dante.gbv.de/person/a2ddef43-2638-4c94-a067-2fef15c6a879">Sa Majesté le Roy de Dannemarck et de Norvegue</persName> ayant vû
+          le contenu du memoire de <persName cert="high" key="p1432" type="real" ref="https://api.dante.gbv.de/person/1b697bbb-18a9-4913-a07d-7a0ed59f070b">Mr l'Ambassadeur de
           Sa Majesté Czarienne
           </persName> du 27. du mois
-          passé, a ordonné d'y faire repondre : que <persName key="p0532">Sa Majesté
-          </persName> prend l'ouverture que <persName cert="high" key="p0174" type="real">Sa Majesté Czarienne
-          </persName> luy a bien voulu faire par <persName key="p1432">son Ambassadeur</persName> sur divers points pour une marque évidente de son
-          amitié, et que <persName cert="high" key="p0532" type="real">
+          passé, a ordonné d'y faire repondre : que <persName key="p0532" ref="https://api.dante.gbv.de/person/a2ddef43-2638-4c94-a067-2fef15c6a879">Sa Majesté
+          </persName> prend l'ouverture que <persName cert="high" key="p0174" type="real" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Sa Majesté Czarienne
+          </persName> luy a bien voulu faire par <persName key="p1432" ref="https://api.dante.gbv.de/person/1b697bbb-18a9-4913-a07d-7a0ed59f070b">son Ambassadeur</persName> sur divers points pour une marque évidente de son
+          amitié, et que <persName cert="high" key="p0532" type="real" ref="https://api.dante.gbv.de/person/a2ddef43-2638-4c94-a067-2fef15c6a879">
             Sa Majesté
           </persName> y répondra en toute occasion par une
-          parfaite reconnoissance; Quant à l'agnition du nouveau Eluë en Pologne, <persName key="p0522">Stanislaus</persName>, <persName cert="high" key="p0532" type="real">Sa Majesté
+          parfaite reconnoissance; Quant à l'agnition du nouveau Eluë en Pologne, <persName key="p0522" ref="https://api.dante.gbv.de/person/69d90cfe-5479-4e57-b0c3-619081977fa0">Stanislaus</persName>, <persName cert="high" key="p0532" type="real" ref="https://api.dante.gbv.de/person/a2ddef43-2638-4c94-a067-2fef15c6a879">Sa Majesté
           </persName> communiquera incessamment là dessus avec ses Alliés. Pour
-          ce qui regarde la mediation de <persName key="p0532">Sa Majesté</persName>, que <persName cert="high" key="p0174" type="real">Sa
+          ce qui regarde la mediation de <persName key="p0532" ref="https://api.dante.gbv.de/person/a2ddef43-2638-4c94-a067-2fef15c6a879">Sa Majesté</persName>, que <persName cert="high" key="p0174" type="real" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Sa
             Majesté Czarienne
-          </persName> demande de la paix à faire avec le <persName key="p0193">Roy de Suede</persName>, <persName cert="high" key="p0532" type="real">Sa Majesté
-          </persName> ne negligera <pb cert="high" n="f. 1v" xml:space="default"/> rien de son costé, qui puisse contribuer à une bonne paix entre
+          </persName> demande de la paix à faire avec le <persName key="p0193" ref="https://api.dante.gbv.de/person/a71f47a4-1d5f-47e8-9b1b-e3c93ffa9989">Roy de Suede</persName>, <persName cert="high" key="p0532" type="real" ref="https://api.dante.gbv.de/person/a2ddef43-2638-4c94-a067-2fef15c6a879">Sa Majesté
+          </persName> ne negligera <pb cert="high" n="f. 1v" xml:space="default" /> rien de son costé, qui puisse contribuer à une bonne paix entre
           les parties en guerre, et donnera pour cette fin ordres et instructions nécessaires à son
           Ambassadeur, qui est présentement en Saxe ne doutant pas que l'un et l'autre ne soyent
           portés d'eux mesmes à faciliter le succès d'une affaire si salutaire. </p>
         <closer>Fait à <dateline>
-            <placeName key="g0006" ref="https://www.geonames.org/2618425" cert="high">Copenhague <precision match="@ref" precision="high"/>
+            <placeName key="g0006" ref="https://www.geonames.org/2618425" cert="high">Copenhague <precision match="@ref" precision="high" />
             </placeName>
           ce <date>5<hi rendition="#sup">e</hi> Fevrier 1707</date>. </dateline>
           <signed>
-            <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p1505" type="signature">C: Sehestedt</persName>
+            <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p1505" type="signature" ref="https://api.dante.gbv.de/person/397c7dee-a705-4baa-b8d9-495a114c9a36">C: Sehestedt</persName>
           </signed>
         </closer>
       </div>

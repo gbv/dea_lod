@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en"/>
+        <title type="main" xml:lang="en" />
         <title type="main" xml:lang="en">Extract of Count Gollowin's answer to the said Memorial
           dated Mosco 5./16. May 1705</title>
         <author xml:lang="en">Fedor</author>
@@ -106,42 +104,42 @@
     <body>
       <div type="letter">
         <head>
-          <title>5 / 16 May 1705. – Extract of <persName key="p0277">[the head of the Ambassadorial Chancery,] Count [Fedor Alekseevich] Gollowin</persName>'s answer to the said Memorial
+          <title>5 / 16 May 1705. – Extract of <persName key="p0277" ref="https://api.dante.gbv.de/person/ebcf36cd-027f-4223-a2d2-c60ae59884b3">[the head of the Ambassadorial Chancery,] Count [Fedor Alekseevich] Gollowin</persName>'s answer to the said Memorial
             dated <placeName key="g0001" ref="https://www.geonames.org/524894">Moscow</placeName> 5./16. May 1705</title>
           <note>
             <bibl>TNA Kew, Russia, no. SP 91-5, f. 89v-90v. English copy.</bibl>
           </note>
         </head>
-        <pb n="f. 89v"/>
-        <p>Extract of <persName key="p0277">Count Gollowin</persName>'s answer to the said Memorial dated <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> 5./16. May 1705</p>
-        <p/>
+        <pb n="f. 89v" />
+        <p>Extract of <persName key="p0277" ref="https://api.dante.gbv.de/person/ebcf36cd-027f-4223-a2d2-c60ae59884b3">Count Gollowin</persName>'s answer to the said Memorial dated <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> 5./16. May 1705</p>
+        <p />
         <p>Concerning the Exportation of goods Customfree according to the Contract, althou this was
           allowed by the Czars especiall grace for the produce of the Tobacco, in hopes to increase
           that Trade for the advantage of both dominions; yet since so many disorders were
-          committed by <orgName key="o0137">the Company</orgName> and their factors, as renderd the Contract null, as well
+          committed by <orgName key="o0137" ref="https://api.dante.gbv.de/person/4d68041d-2c00-438f-a5e7-7f1ea537fc96">the Company</orgName> and their factors, as renderd the Contract null, as well
           by their own not importing the full quantity stipulated in the Treaty, as by the abuses of
           their factors and retalers, who sold Circassian Tobacco instead of English; and that by
-          such unwarantable practices their Treaty was entirely broke, the <persName key="p0174">Czar</persName> did not
+          such unwarantable practices their Treaty was entirely broke, the <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Czar</persName> did not
           think convenient to make good the gace he had promisd them, for by the Treaty itself, it
           was not agreed, that the goods should be exported without any dutys at all, but only on
           paying the moderate and usuall Customs as the Envoy himself may plainly see out of the
           original English Contract.</p>
-        <pb n="f. 90"/>
-        <p> What concerns the Letter of Exchange, which <persName key="p1252">Mr. Goodfellow</persName> gave for 20 m.
+        <pb n="f. 90" />
+        <p> What concerns the Letter of Exchange, which <persName key="p1252" ref="https://api.dante.gbv.de/person/42b1f610-51a6-4e8c-b5d9-fd4547df42c7">Mr. Goodfellow</persName> gave for 20 m.
           Dollars, he was not constraind to it, but he did it for his free will, because several
           Commodities had been taken of him, as part of the Tobacco duties at very high rates,
-          several other andvantages had been also allowed to <orgName key="o0137">the Company</orgName> and to <persName key="p1252">the Consul</persName> himself in particular ; as the giving of Podwodes or free carridges for
+          several other andvantages had been also allowed to <orgName key="o0137" ref="https://api.dante.gbv.de/person/4d68041d-2c00-438f-a5e7-7f1ea537fc96">the Company</orgName> and to <persName key="p1252" ref="https://api.dante.gbv.de/person/42b1f610-51a6-4e8c-b5d9-fd4547df42c7">the Consul</persName> himself in particular ; as the giving of Podwodes or free carridges for
           the Tobacco, and such like helps as were not stipulated in the Treaty. All which might
           have more than made good the little advantage of this bill of Exchange ; the said bill lay
           also above a year and a half unpayd, and the money was taken up at great loss, and these R
           Dollars have been plac’d to his account instead of Russian money due for Customs at a
           reasonable price; and not at an underate.</p>
-        <p>What relates to the Contract for flax; this does not in the least concern <orgName key="o0137">the Company</orgName>, but was given to <persName key="p1252">the Consul</persName> himself as a particular mark of the
-          Czars favour, to encourage him in a Commerce on the East Sea, whereof <persName key="p1252">the Consul</persName>
+        <p>What relates to the Contract for flax; this does not in the least concern <orgName key="o0137" ref="https://api.dante.gbv.de/person/4d68041d-2c00-438f-a5e7-7f1ea537fc96">the Company</orgName>, but was given to <persName key="p1252" ref="https://api.dante.gbv.de/person/42b1f610-51a6-4e8c-b5d9-fd4547df42c7">the Consul</persName> himself as a particular mark of the
+          Czars favour, to encourage him in a Commerce on the East Sea, whereof <persName key="p1252" ref="https://api.dante.gbv.de/person/42b1f610-51a6-4e8c-b5d9-fd4547df42c7">the Consul</persName>
           gave some hopes; as to the duty thereof, it was order’d to be taken accordingly to the
           usuall Customs, which were pay’d by all Merchants, and not according to the new
           impositions laid on that commodity. Notwithstanding which several </p>
-        <pb n="f. 90v"/>
+        <pb n="f. 90v" />
         <p> particular favours beyond what was agreed to in the first Traety, all has been to no
           purpose.</p>
         <noteGrp>

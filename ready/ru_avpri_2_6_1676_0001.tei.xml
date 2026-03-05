@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,17 +104,17 @@
     <body>
       <div type="letter">
         <head>
-          <title>[Mid-]December 1746. – Certificate of achievement of the Embassy’s nobleman <persName key="p0829">Prince Aleksandr [Sergeevich] Dolgorukov</persName>
+          <title>[Mid-]December 1746. – Certificate of achievement of the Embassy’s nobleman <persName key="p0829" ref="https://api.dante.gbv.de/person/b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Prince Aleksandr [Sergeevich] Dolgorukov</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 3. Russian original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 3"/>
+        <pb n="f. 3" />
         
         <p>Атестат</p>
-        <p>Дворянину посолства князь <persName key="p0829">Александру Долгорукову</persName>,
+        <p>Дворянину посолства князь <persName key="p0829" ref="https://api.dante.gbv.de/person/b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Александру Долгорукову</persName>,
           изъявляющей что оной по произведенному сего декабря дня 1746. года моему свидетелству
           явился в нижеозначенных науках следующаго состояния а именно,</p>
         <p>в арифметике ... знает основателно,</p>
@@ -121,14 +122,14 @@
         <p>штереометрии ... имеет доволное знание</p>
         <p>трегонометрии </p>
         <p>и практике </p>
-        <p/>
+        <p />
         <p>в фортификации ... что токмо до первейших оснований оных искуств касается знает</p>
         <p>и атаке изрядно</p>
-        <p/>
+        <p />
         <p>в механике ... знает началные основания так же и часть вышнея алгебры знает хорошо</p>
         <closer>
           <signed>
-            <persName key="p0929">Попорутчик Егор Панов</persName>
+            <persName key="p0929" ref="https://api.dante.gbv.de/person/8ea0e0a6-c089-4869-9823-f8e95a2a9245">Попорутчик Егор Панов</persName>
           </signed>
         </closer>
         <noteGrp>

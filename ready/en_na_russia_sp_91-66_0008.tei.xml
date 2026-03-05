@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -108,23 +106,23 @@
     <body>
       <div type="letter">
         <head>
-          <title>13 / 24 March 1758. – Note to <persName key="p0085">Mister [Robert Murray] Keith, Envoy Extraordinary of His Britannic Majesty</persName></title><note>
+          <title>13 / 24 March 1758. – Note to <persName key="p0085" ref="https://api.dante.gbv.de/person/359a2a35-ed03-45ef-bbc7-63e6235a7887">Mister [Robert Murray] Keith, Envoy Extraordinary of His Britannic Majesty</persName></title><note>
             <bibl>TNA Kew, Russia, no. SP 91-66, f. 46-46v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 46"/>
+        <pb n="f. 46" />
         <p> Note </p>
-        <p>Pour <persName key="p0085">Monsieur de Keith, Envoyé Extraordinaire de Sa Majesté Britannique</persName></p>
-        <p/>
-        <p>Lorsque l’Eté passé les Troupes de l’<persName key="p0052">Imperatrice</persName> marchoient vers la Prusse, et qu’on
+        <p>Pour <persName key="p0085" ref="https://api.dante.gbv.de/person/359a2a35-ed03-45ef-bbc7-63e6235a7887">Monsieur de Keith, Envoyé Extraordinaire de Sa Majesté Britannique</persName></p>
+        <p />
+        <p>Lorsque l’Eté passé les Troupes de l’<persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Imperatrice</persName> marchoient vers la Prusse, et qu’on
           songeoit à s’emparer des Places fortes de ce Royaume, sur tout [sic] de celles qui sont situées
           sur la Côte, la Raison de Guerre exigeoit naturellement, d’empêcher qu’Elles ne puissent
           être sécourues, en aucune façon, du côté de la Mer. Mais à present, que toute la Prusse
-          s’est soumise à l’<persName key="p0052">Imperatrice</persName>, et que la susdite raison ne subsiste plus, <persName key="p0052">Sa Majesté</persName>, ne
+          s’est soumise à l’<persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Imperatrice</persName>, et que la susdite raison ne subsiste plus, <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté</persName>, ne
           perdant pas de vuë l’accroissement, et la Liberté, du Commerce dans la Mer Baltique, Vous
           qu’il soit toujours continué sur l’ancien Pied, non seulement avec le dit Royaume, mais
-          encore avec tous les autres Etats appartenants au <persName key="p0061">Roy de Prusse</persName>, </p>
-        <pb n="f. 46v"/>
+          encore avec tous les autres Etats appartenants au <persName key="p0061" ref="https://api.dante.gbv.de/person/2bdcb517-7d9b-4abd-af61-1dbb469372d7">Roy de Prusse</persName>, </p>
+        <pb n="f. 46v" />
         <p> sans que les Operations des Troupes Russiennes, ou celles de la Flotte, donnent le
           moindre sujet de crainte aux Commerçants: Pourvû néanmoins, qu’aucun d’Eux ne se prête à
           faire des Transports des Contrebandes pour l’usage de l’Ennemi, soit d’Hommes, Vivres, ou

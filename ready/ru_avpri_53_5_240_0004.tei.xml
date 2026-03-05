@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,44 +103,44 @@
       <div type="letter">
         <head>
           <title>
-            22 August 1770. - Report from <persName key="p0569">the Russian Chargé d'Affaires in Copenhagen Johann Mestmacher</persName> to <persName key="p0574">the Chief Member of the College of Foreign Affairs, Count Nikita Ivanovich Panin</persName>
+            22 August 1770. - Report from <persName key="p0569" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">the Russian Chargé d'Affaires in Copenhagen Johann Mestmacher</persName> to <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">the Chief Member of the College of Foreign Affairs, Count Nikita Ivanovich Panin</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 240, f. 36-38v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 36"/>
+        <pb n="f. 36" />
         
         <p>Сиятелнейший Граф,</p>
         
-        <p/>
+        <p />
         <p>М[и]л[ос]тивый Г[осу]д[а]рь,</p>
-        <p/>
-        <p> Пользуясь возвращением от сюда в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт-петербург</placeName> бывшаго при Эскадре <persName key="p1533">Господина контр-Адмирала Арфа</persName> пакет-бота, я имею щастие <persName key="p0574">Вашему Высокографскому Сиятелству</persName> всенижайше
+        <p />
+        <p> Пользуясь возвращением от сюда в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт-петербург</placeName> бывшаго при Эскадре <persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">Господина контр-Адмирала Арфа</persName> пакет-бота, я имею щастие <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Вашему Высокографскому Сиятелству</persName> всенижайше
           донести, что оная Эскадра получа на конец в прошлую ночь благополучнаго ветру сего числа
           по утру в семь часов здешную </p>
-        <pb n="f. 36v"/>
+        <pb n="f. 36v" />
         <p> рейду оставила, быв принуждена, как значит в моих предидущих всенижайших доношении, в ожидании оного простоять целыя восемь суток или с 3/14 числа сего м[еся]ца, к
           которому все как для Эскадры здесь нужды исправлены, так и щеты всех на то издержек уже
           совсем окончаны были.</p>
-        <p> Из приложеннаго при отправленном к <persName key="p0574">Вашему Высокографскому Сиятелству</persName> от <persName key="p1533">Господина контр-Адмирала</persName> писме генералнаго щета милостиво усмотреть соизволите, что издержанная
+        <p> Из приложеннаго при отправленном к <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Вашему Высокографскому Сиятелству</persName> от <persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">Господина контр-Адмирала</persName> писме генералнаго щета милостиво усмотреть соизволите, что издержанная
           здесь им на все нужныя для Эскадры потребы Сумма простирается до шести десяти одной тысячи
           трех сот шести десяти таллеров сорока штиверов дацких, или щитая по два с половиною талера
           за голанской червонец, до дватцати четырех тысяч пяти сот сорока четырех с четвертью
-          червонных, которыя он <persName key="p1533">Г[оспо]д[и]н контр-Адмирал</persName> и выдал, взяв в том подлежащия квитанции,
+          червонных, которыя он <persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">Г[оспо]д[и]н контр-Адмирал</persName> и выдал, взяв в том подлежащия квитанции,
           так что после сей </p>
-        <pb n="f. 37"/>
-        <p>Экспедиции между <orgName key="o0008,o0009">обоими высокими дворами</orgName> уже никаких щетов не осталось.</p>
-        <p> При сем я должностию себе поставляю <persName key="p0574">Вашему Высокографскому Сиятелству</persName> всенижайше
-          донести, как по узнании здесь в городе, а потом и от самого <persName key="p1533">Господина контр-Адмирала Арфа</persName>,
+        <pb n="f. 37" />
+        <p>Экспедиции между <orgName key="o0008,o0009" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11,https://api.dante.gbv.de/person/62f4a0a0-914d-43df-89d9-be5aaf841973">обоими высокими дворами</orgName> уже никаких щетов не осталось.</p>
+        <p> При сем я должностию себе поставляю <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Вашему Высокографскому Сиятелству</persName> всенижайше
+          донести, как по узнании здесь в городе, а потом и от самого <persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">Господина контр-Адмирала Арфа</persName>,
           что за неполным будто весом имеющихся у него и у Экипажа голанских червонцов сперва и по
           два с половиною здешних талеров за червонец давать не хотели, от чего как Ея
           императорскаго величества казне так и всем тем, кои оныя себе в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт-петербурге</placeName> по два
           рубли по шестидесяти по пяти копеек выменили произошел бы немалой убыток, я принужден был
-          для узнания в том точной правды с согласия <persName key="p1533">Господина контр-Адмирала</persName> зделать на здешнем
+          для узнания в том точной правды с согласия <persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">Господина контр-Адмирала</persName> зделать на здешнем
           королевском монетном дворе пробу, где действително нашлось, что оныя червонцы хотя имея
           свою полную в золоте доброту, однако весом по одному </p>
-        <pb n="f. 37v"/>
+        <pb n="f. 37v" />
         <p> червонцу на каждой марке чистаго золота легче червонных 1767 и 1768<hi rendition="#sup">
           го</hi>. годов, так что вместо шести десяти семи как обыкновенно, штемпеля 1769<hi rendition="#sup">го</hi> года шестьдесят восемь червонных на марке пошли, как о том
           явствует в приложенном при сем с переводом аттестат здешняго королевскаго монетнаго
@@ -148,37 +149,37 @@
           болшую сумму причиняет казне немалой убыток, но и действително подал здесь в публике повод
           к разным пустым ложным слухам и толкованиям, якобы оныя червонцы не в Голандии а в России
           деланы, не разсуждая, что ни что иное как единое корыстолюбие может быть банкира или
-          комисионера тому притчиною, о чем всем я думаю и <persName key="p1533">г[оспо]д[и]н контр-Адмирал Арф</persName> <persName key="p0574">Ваше Высокографское Сиятелство</persName> уведомить непреминул.</p>
+          комисионера тому притчиною, о чем всем я думаю и <persName key="p1533" ref="https://api.dante.gbv.de/person/4e3ae13c-d6bc-491d-903a-a6be659e859c">г[оспо]д[и]н контр-Адмирал Арф</persName> <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Ваше Высокографское Сиятелство</persName> уведомить непреминул.</p>
         <p> Я такожде оставить не могу дабы при </p>
-        <pb n="f. 38"/>
-        <p> сем случае пред <persName key="p0574">Вашим Высокографским Сиятелством</persName> не означить ту готовность и
+        <pb n="f. 38" />
+        <p> сем случае пред <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Вашим Высокографским Сиятелством</persName> не означить ту готовность и
           рачителство, с которыми генерално как настоящее здешнее министерство, так и
-          адмиралитейской совет, а особливо персонално Г[оспо]д[и]н обергофмаршал <persName key="p0869">Граф Молтке</persName>,
-          <persName key="p1537">адмирал Граф Ларвиг</persName> да <persName key="p1540">шеф здешняго порта командор и камерегер кос</persName> употреблялись в
+          адмиралитейской совет, а особливо персонално Г[оспо]д[и]н обергофмаршал <persName key="p0869" ref="https://api.dante.gbv.de/person/3ffb2d0b-d44a-42ab-bea6-08febc62ef4e">Граф Молтке</persName>,
+          <persName key="p1537" ref="https://api.dante.gbv.de/person/7bcddae0-d38c-4306-be51-5ef8b99fc120">адмирал Граф Ларвиг</persName> да <persName key="p1540" ref="https://api.dante.gbv.de/person/47fad9f9-ff71-4681-b594-31116bbd3978">шеф здешняго порта командор и камерегер кос</persName> употреблялись в
           скорейшем приискании и доставлении всего чего от сих потребовано было.</p>
         <p> Правда после прибытия моего сюда от его дацкого величества и присланы были
           возобновителныя и неограниченныя во всем для Эскадры потребном указы, но охотная и
           ревностная сих особ к нам здесь податливость, по слабейшему моему мнению, ясно открывала
-          их устремление в заслужении себе высочайшей и <persName key="p0033">Ея Императорскаго Величества</persName> апробации,
-          умалчивая о их неоднократно данных мне уверений о их искренно всенижайшей и <persName key="p0033">Ея Императорскому Величеству</persName> и всевысочайшим Ея интересам </p>
-        <pb n="f. 38v"/>
-        <p> преданности, а к <persName key="p0574">Вашему Высокографскому Сиятелству</persName> высокопочитании; я же повергаю себя
+          их устремление в заслужении себе высочайшей и <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Императорскаго Величества</persName> апробации,
+          умалчивая о их неоднократно данных мне уверений о их искренно всенижайшей и <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Императорскому Величеству</persName> и всевысочайшим Ея интересам </p>
+        <pb n="f. 38v" />
+        <p> преданности, а к <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Вашему Высокографскому Сиятелству</persName> высокопочитании; я же повергаю себя
           неоцененному Вашему отеческому покровителству, с наиглубочайшим респектом и вечною
           преданностию пребываю.</p>
-        <p/>
-        <p/>
+        <p />
+        <p />
         <p>Вашего Высокографскаго Сиятелства</p>
-        <p/>
+        <p />
         <p>М[и]л[ос]тиваго Г[осу]д[а]ря</p>
         
         
-        <p/>
-        <p/>
+        <p />
+        <p />
         <p>из <placeName key="g0006">копенгагена</placeName> </p>
         <p>августа 11/22 дня 1770 года</p>
         <p>всенижайший и всеобя-</p>
         <p>заннейший Слуга</p>
-        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0569" type="signature">Иван Местмахер</persName></p>
+        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0569" type="signature" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">Иван Местмахер</persName></p>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_avrpi_53_5_240_0001</note>

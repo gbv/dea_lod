@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -105,33 +103,33 @@
     <body>
       <div>
         <head>
-          <title>2 August 1715. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1732" xml:space="default">Sijling</persName> to <persName key="p0729">the Russian
+          <title>2 August 1715. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1732" xml:space="default" ref="https://api.dante.gbv.de/person/51e2ec1a-b5c0-475d-aadc-bd3670976e67">Sijling</persName> to <persName key="p0729" ref="https://api.dante.gbv.de/person/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian
               Ambassador to Denmark, Prince Vasilii Lukich Dolgorukov
             </persName>
           </title>
         </head>
         <opener>
           <note>RGADA, fond 53, opis 1, 1709, no. 12, f. 73-74v. French original.</note>
-          <pb cert="high" n="f. 73" xml:space="default"/>
+          <pb cert="high" n="f. 73" xml:space="default" />
           <salute>Monseigneur</salute>
         </opener>
         <p>Je viens de recevoir du Secretaire de Votre Altesse une quittance de diamants que je luy
           ay envoyé à <placeName key="g0006" ref="https://www.geonames.org/2618425">Coppenhague </placeName> il y a plus de cinq semaines, conformement à l'ordre de
-          Votre Altesse et le memoire du <persName key="p2218">S[ieu]r. Trefort</persName>. Ça n'a pas ete sans peine de les assortir <pb cert="high" n="f. 73v" xml:space="default"/> et je ne doute pas, qu'ils ne fassent un
+          Votre Altesse et le memoire du <persName key="p2218" ref="https://api.dante.gbv.de/person/cb7ba1b0-1709-43c2-be1b-efc58cd9947f">S[ieu]r. Trefort</persName>. Ça n'a pas ete sans peine de les assortir <pb cert="high" n="f. 73v" xml:space="default" /> et je ne doute pas, qu'ils ne fassent un
           tres bel effet; Je les ay marchandé au mieux possible et si apres un an l'on voudroit les
-          rendre, <persName key="p2219">M[onsieu]r. La Chambre</persName> qui me les a fait avoir, s'est offert à les reprendre toujours à 10
-          Rx de perte par piece; Je me flatte, que <pb cert="high" n="f. 74" xml:space="default"/> le Secretaire de Votre Altesse en ait deja donné rapport, &amp;
+          rendre, <persName key="p2219" ref="https://api.dante.gbv.de/person/be9a7ac9-622d-4127-a1aa-f1fee5fc838a">M[onsieu]r. La Chambre</persName> qui me les a fait avoir, s'est offert à les reprendre toujours à 10
+          Rx de perte par piece; Je me flatte, que <pb cert="high" n="f. 74" xml:space="default" /> le Secretaire de Votre Altesse en ait deja donné rapport, &amp;
           qu'Elle veuille bien agréer ce qui a eté fait à ce sujet; J'ay cy-joint une petite notte,
           afin que Votre Altesse voit ce que j'ay payé pour chaque piece j'avois envoyé un diamant
-          plat de <pb cert="high" n="f. 74v" xml:space="default"/> trop, afin que l'on choisit et
+          plat de <pb cert="high" n="f. 74v" xml:space="default" /> trop, afin que l'on choisit et
           l'on me l'a renvoyé. J'ay l'honneur d'etre avec un profond respect </p>
         <closer>
-          <salute>Monseigneur <lb/> de Votre Altesse <lb/> le tres humble et tres <lb/> obeissant
+          <salute>Monseigneur <lb /> de Votre Altesse <lb /> le tres humble et tres <lb /> obeissant
             serviteur </salute>
           <dateline>
             <placeName key="g0011" ref="https://www.geonames.org/2911298">
             Hambourg </placeName>ce <date>2e. aoust 1715</date>. </dateline>
-          <signed><persName key="p1732">Sijling</persName></signed>
+          <signed><persName key="p1732" ref="https://api.dante.gbv.de/person/51e2ec1a-b5c0-475d-aadc-bd3670976e67">Sijling</persName></signed>
         </closer>
 <noteGrp><note>See also: </note>
 <note>ru_rgada_53_1_1709_12_0001</note>

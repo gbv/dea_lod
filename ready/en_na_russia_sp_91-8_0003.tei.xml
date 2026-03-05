@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -105,8 +103,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>26 December 1714 / 6 January 1715. – Letter from <persName key="p1338">the Resident
-          of Great Britain to Russia, George Mackenzie</persName>, to <persName key="p0174">the Tsar
+          <title>26 December 1714 / 6 January 1715. – Letter from <persName key="p1338" ref="https://api.dante.gbv.de/person/b9e782df-b62d-4b61-a965-2a1e9385033e">the Resident
+          of Great Britain to Russia, George Mackenzie</persName>, to <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">the Tsar
           of Russia Peter I</persName>
           </title>  </head>
         <p>
@@ -116,12 +114,12 @@
       <div type="letter">
         <p>Sire</p>
         <p>Le soussigné Resident et Ministre de la Grande Bretagne aïant plusieurs fois déja notifié
-          à <persName key="p0071">Son Grand Chancelier le Comte de Galoffkin</persName>, qu’on ne
+          à <persName key="p0071" ref="https://api.dante.gbv.de/person/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Son Grand Chancelier le Comte de Galoffkin</persName>, qu’on ne
           Lui ait point encore assigné soit un Quartier, Privileges ou autre argéements stipulez aux
           Ministres reciproquement qui sont à la Cour de l’une ou de l’autre des deux Couronnes. Ce
           qu’Il a taché pourtant de caler en diferant jusques icï d’en donner la moindre
-          connoissance à <orgName key="o0002">sa Cour</orgName>, ou en mêmes de prendre la liberté
-          d’en rien témoigner à <persName key="p0174">Votre Majesté Czarienne</persName>; mais
+          connoissance à <orgName key="o0002" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251">sa Cour</orgName>, ou en mêmes de prendre la liberté
+          d’en rien témoigner à <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Votre Majesté Czarienne</persName>; mais
           puisque par l’Exposé ci-joint, il est evident, que l’on ne pourroit être reduit à des plus
           grandes Extremitez, et que le Soussigné ne craigne à cette heure rien tant, qu’Il n’ait en
           outre une Reproche [sic !] d’ÿ avoir contribué par un Silence trop affecté, Il se donne
@@ -137,8 +135,8 @@
           dedommagé du passe, et à l’avenir traité sur un pied, qu’Il ne saura <hi rendition="#u">que
           pretendre de
             droit</hi>, sans manquer à Ses devoirs. Quand mêmes il ne fut plus fondé en cette
-          demande, qu’en ce qu’il est de fait, qu’Il avoit offerte Sa Creditive au <persName key="p0071">Chanc[elie]r Comte de Galoffkin</persName>, bien de jours <hi rendition="#u">avant
-          l’arrivée de lettre formelle de notification de la Mort de la<persName key="p0668"> Reine</persName>
+          demande, qu’en ce qu’il est de fait, qu’Il avoit offerte Sa Creditive au <persName key="p0071" ref="https://api.dante.gbv.de/person/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Chanc[elie]r Comte de Galoffkin</persName>, bien de jours <hi rendition="#u">avant
+          l’arrivée de lettre formelle de notification de la Mort de la<persName key="p0668" ref="https://api.dante.gbv.de/person/8186b75b-6610-4809-a694-032b6ab22399"> Reine</persName>
           </hi>;
           que par Nôtre Constitution, l’on savoit parfaitement bien ici, que <hi rendition="#u">Ses
           Commissions subsisteroient pour
@@ -162,7 +160,7 @@
         <p>De Vôtre Majesté Czarienne</p>
         <p>Le très humble et très obeïssant Serviteur</p>
         <p>
-          <persName key="p1338">George Mackenzie</persName>
+          <persName key="p1338" ref="https://api.dante.gbv.de/person/b9e782df-b62d-4b61-a965-2a1e9385033e">George Mackenzie</persName>
         </p>
         <p>Fait à <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>
           ce 26.<hi rendition="#sup">e</hi> de Decembre</p>

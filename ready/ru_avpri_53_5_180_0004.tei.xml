@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,15 +103,15 @@
     <body>
       <div type="letter">
         <head>
-          <title>21 February 1765. – Translation of a letter from His Excellency  <persName key="p0065">Vice-Chancellor [of Russia, Prince Aleksandr Mikhailovich Golitsyn</persName>,] to [the Russian Envoy Extraordinary to Denmark,] <persName key="p0245">Baron [Johann Albrecht von] Korff</persName>, from <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersburg</placeName> to <placeName key="g0006">Copenhagen</placeName>, dated 21 February 1765</title>
+          <title>21 February 1765. – Translation of a letter from His Excellency  <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor [of Russia, Prince Aleksandr Mikhailovich Golitsyn</persName>,] to [the Russian Envoy Extraordinary to Denmark,] <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Baron [Johann Albrecht von] Korff</persName>, from <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersburg</placeName> to <placeName key="g0006">Copenhagen</placeName>, dated 21 February 1765</title>
           <note>
             <bibl>AVPRI, fond 53, opis 53/5, no. 180, f. 7-7v. Russian translation; French original: AVPRI, fond 53, opis 53/5, no. 180, f. 5-5v.</bibl>
           </note>
         </head>
-        <pb n="f. 7"/>
-        <p>Перевод с писма <persName key="p0065">Его Сиятельства вицеканцлера</persName> к <persName key="p0245">барону Корфу</persName> в
+        <pb n="f. 7" />
+        <p>Перевод с писма <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Его Сиятельства вицеканцлера</persName> к <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">барону Корфу</persName> в
           <placeName key="g0006">Копенгаген</placeName> из <placeName key="g0002" ref="https://www.geonames.org/498817">С[анкт] Петербурга</placeName> от 21 февраля 1765</p>
-        <p/>
+        <p />
         <p>Зная, что В[аше] С[иятельство] охотно друзей своих одалживаете, принимаю смелость
           препоручить вам малинкою комиссию в надежде что вы оною на себя примите. Дабы мне можно
           было быть <hi rendition="#s">при</hi> в лагере которой учинится имеет будущею весною в
@@ -118,13 +119,13 @@
           для верховой езды спокойна была. В[аше] С[иятельство] <hi rendition="#s">по</hi>
           одолжите меня <hi rendition="#sup">как</hi> покупкою такой <hi rendition="#s">для меня </hi>лошади не жалея платежа;
           <hi rendition="#sup">так</hi> отправлением оной на первом корабле сюда. А как скоро я уведомлен буду <hi rendition="#s">о</hi> скольких денег <hi rendition="#s">оная</hi> стоит то не премину <hi rendition="#s">я</hi> перевесть </p>
-        <pb n="f. 7v"/>
+        <pb n="f. 7v" />
         <p>к вам оные с благодарением в протчем не желая как толко <hi rendition="#sup">чтоб</hi> и с моей
           стороны к услугам готов быть пребывая притом с отменным почтением</p>
-        <p/>
-        <p>Переводил <persName key="p1569">А[лександр]: Курбатов</persName></p>
-        <p/>
-        <p/>
+        <p />
+        <p>Переводил <persName key="p1569" ref="https://api.dante.gbv.de/person/11d460b8-0249-4aa5-8580-934be070e98e">А[лександр]: Курбатов</persName></p>
+        <p />
+        <p />
         <noteGrp>
           <note>Translated from:</note>
           <note>ru_avpri_53_5_180_0003</note>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,8 +104,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>8 July 1745. – Letter from <persName key="p0077" ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">the Russian Minister Plenipotentiary to
-            France, Heinrich Gottfried Gross</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Councilor of the Russian Embassy to The
+          <title>8 July 1745. – Letter from <persName key="p0077" ref="https://api.dante.gbv.de/person/2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">the Russian Minister Plenipotentiary to
+            France, Heinrich Gottfried Gross</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Councilor of the Russian Embassy to The
             Hague, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -112,7 +113,7 @@
           </note>
         </head>
         
-        <pb n="f. 3"/>
+        <pb n="f. 3" />
         
         <p>Mon Prince</p>
         <p>On ne sauroit etre plus sensible que je le suis à l’honneur que vous me faites de vous
@@ -125,14 +126,14 @@
         <p>Votre très humble et très </p>
         <p>obeïssant serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0077" xml:space="default" ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30" type="signature">Gross</persName>.</p>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0077" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">Gross</persName>.</p>
         <p>à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName>. ce 8. Juillet 1745.</p>
         
-        <pb n="f. 3av"/>
+        <pb n="f. 3av" />
         <p>[From here, written in a different handwriting:]</p>
         <p>
           <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> le 8. Juillet 1745.</p>
-        <p>De <persName key="p0077" ref="2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">M<hi rendition="#sup">
+        <p>De <persName key="p0077" ref="https://api.dante.gbv.de/person/2b1f2a43-6d7c-480d-9868-a7dd1a1a1f30">M<hi rendition="#sup">
           r</hi>. Gross</persName>
         </p>
         <noteGrp>

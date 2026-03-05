@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,34 +101,34 @@
     <body>
       <div type="letter">
         <head>
-          <title>4 August 1719. – Letter from <persName key="p1400">the Italian merchant Paolo Federici</persName> to <persName key="p1392">the Russian agent in Venice, Petr Ivanovich Beklemishev</persName></title>
+          <title>4 August 1719. – Letter from <persName key="p1400" ref="https://api.dante.gbv.de/person/bab38fc7-75c4-4317-9824-339e5bad24fe">the Italian merchant Paolo Federici</persName> to <persName key="p1392" ref="https://api.dante.gbv.de/person/a4b53483-ab18-4982-bb03-736d2b98c5b3">the Russian agent in Venice, Petr Ivanovich Beklemishev</persName></title>
           <note>
             <bibl>RGADA, fond 41, opis 1, 1719, no. 7, f. 2-2v. Russian translation; Italian
               original: RGADA, fond 41, opis 1, 1719, no. 7, f. 1-1v.</bibl>
           </note>
         </head>
-        <pb n="f. 2"/>
-        <p/>
-        <p>В писме <persName key="p1400">Паола Федеричи</persName> из <placeName key="g0007">Рима </placeName>от 4. Августа 1719 написано.</p>
-        <p>К <persName key="p1392">агенту Беклемишеву</persName></p>
-        <p/>
+        <pb n="f. 2" />
+        <p />
+        <p>В писме <persName key="p1400" ref="https://api.dante.gbv.de/person/bab38fc7-75c4-4317-9824-339e5bad24fe">Паола Федеричи</persName> из <placeName key="g0007">Рима </placeName>от 4. Августа 1719 написано.</p>
+        <p>К <persName key="p1392" ref="https://api.dante.gbv.de/person/a4b53483-ab18-4982-bb03-736d2b98c5b3">агенту Беклемишеву</persName></p>
+        <p />
         <p>С покорнейшим моим респектом имею честь приобщить В[а]шей М[и]л[ос]ти о нужнейшем деле
-          касающемся до <persName key="p0174">Его Царскаго Величества</persName> противу котораго уведал я устрашителную
+          касающемся до <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Его Царскаго Величества</persName> противу котораго уведал я устрашителную
           конспирацию или умысл сочиненную от некоторои державы которую не могу имяновать на бумаге.
           И понеже я при себе имею имена и прозвищи всех тех которые в сем деле употреблены : того
           ради за должность свою почел сообщить В[а]шей М[и]л[ос]ти дабы вы мне дали свою резолюцию как я
           умею в том поступить </p>
-        <pb n="f. 2v"/>
+        <pb n="f. 2v" />
         <p>я с особою моею подверг себя к ногам В[а]шей М[и]л[ос]ти. Ежели б иметь способ таковой
           путь возмощ и отправить, и тако обявляю себя готова вам послушным быть когда В[а]ша
           М[и]л[ос]ть соизволите меня о том уведомить. Сие дело не может знатнее быть ниже завистнее
-          как сие и я готов оное приобщить, дабы В[а]ша М[и]л[ос]ть могли вскоре меры свои восприять, или уведомить <persName key="p0174">Его Ц[арско]е В[еличеств]o</persName> чрез нарочнаго, или мне позволить чтоб я сам
+          как сие и я готов оное приобщить, дабы В[а]ша М[и]л[ос]ть могли вскоре меры свои восприять, или уведомить <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Его Ц[арско]е В[еличеств]o</persName> чрез нарочнаго, или мне позволить чтоб я сам
           ехал: междо тем прошу В[а]шу М[и]л[ос]ть не отлагать вдаль ответу, понеже деликатство сего
           дела отлагателства не позволяет.</p>
-        <p> <persName key="p1400">Федеричи</persName></p>
-        <p/>
-        <p/>
-        <p/>
+        <p> <persName key="p1400" ref="https://api.dante.gbv.de/person/bab38fc7-75c4-4317-9824-339e5bad24fe">Федеричи</persName></p>
+        <p />
+        <p />
+        <p />
         <noteGrp>
           <note>Translated from:</note>
           <note>ru_rgada_41_1_1719_7_0001</note>

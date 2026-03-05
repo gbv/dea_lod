@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -108,7 +109,7 @@
     <body>
       <div type="letter">
         <head>
-          <title> 13/24 October 1762. – Letter from <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a">the Minister Plenipotentiary of Spain in the Russian Empire, Pedro Francisco, Marquis of Almodovar</persName>, to <persName key="p0145" ref="d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">the Chancellor of the
+          <title> 13/24 October 1762. – Letter from <persName key="p0225" ref="https://api.dante.gbv.de/person/fcf8f3f4-d759-4086-b4e6-ea214dca553a">the Minister Plenipotentiary of Spain in the Russian Empire, Pedro Francisco, Marquis of Almodovar</persName>, to <persName key="p0145" ref="https://api.dante.gbv.de/person/d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">the Chancellor of the
             Russian Empire,
               Count Mikhail Illarionovich Vorontsov</persName>
           </title>
@@ -116,19 +117,19 @@
             <bibl>AVPRI, fond 58, opis 1, no. 519, f. 1–1v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
-        <p/>
+        <pb n="f. 1" />
+        <p />
         <p>Monsieur</p>
-        <p>J’ai reçu des depeches de <orgName key="o0020" ref="b9bac2f4-8091-4111-baac-126edb9e1cfe">ma
+        <p>J’ai reçu des depeches de <orgName key="o0020" ref="https://api.dante.gbv.de/person/b9bac2f4-8091-4111-baac-126edb9e1cfe">ma
           cour</orgName> qui me procurent l’avantage d’avoir un moment d’entretient avec votre
           excellence ; j’ai ete chez elle et je n’ai pas eu l’honneur de la trouver : je la prie </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <p> de vouloir bien m’indiquer l’heure, et s’il est possible, dans la journée de demain,
           dans laquelle je pourrai avoir cet honneur. J’ai celui d’etre avec beaucoup d’atachement</p>
         <p>Monsieur</p>
         <p>Votre tres humble et tres obeissant serviteur</p>
         <p>
-          <persName key="p0225" ref="fcf8f3f4-d759-4086-b4e6-ea214dca553a" type="signature">Marquis
+          <persName key="p0225" type="signature" ref="https://api.dante.gbv.de/person/fcf8f3f4-d759-4086-b4e6-ea214dca553a">Marquis
             Almodovar</persName>
         </p>
         <p>à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName> ce

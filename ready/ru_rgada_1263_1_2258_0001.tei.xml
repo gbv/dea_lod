@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -180,8 +181,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>28 August 1758. – Letter from <persName key="p1113" ref="fe43014c-2c84-4134-9943-e4b3735a7ded">the Secretary of the Swedish Legation to London,
-            Caspar Wynantz</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London, Prince
+          <title>28 August 1758. – Letter from <persName key="p1113" ref="https://api.dante.gbv.de/person/fe43014c-2c84-4134-9943-e4b3735a7ded">the Secretary of the Swedish Legation to London,
+            Caspar Wynantz</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London, Prince
             Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -189,14 +190,14 @@
           </note>
         </head>
 
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
 
         <p>Monsieur</p>
         <p>Personne au monde ne peut etre plus sensible que moi pour toutes les bontés
           extraordinaires que Vous voulés bien avoir pour moi : aussi Vous en serai-je, Monsieur,
           toute ma vie devoué avec une reconnaissance des plus vives.</p>
         <p>Comme je pars demain: et etant bien occupé je prends la liberté, Monsieur, de Vous dire </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <p>de peur de ne pas manquer la consolation &amp; l’honneur de Vous voir, que je resterai
           pour cette fin chez moi <hi rendition="#s">depuis </hi>dans mon vieux logement à Jermin
           Street<note place="foot">Probably Jermyn Street in London.</note> depuis le 5<hi rendition="#u"><hi rendition="#sup">e</hi> </hi>heures jusqu’à sept heures cet aprésmidi.</p>
@@ -206,13 +207,13 @@
         <p>Votre tres humble</p>
         <p>&amp; tres obeissant serv[iteur]</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1113" xml:space="default" ref="fe43014c-2c84-4134-9943-e4b3735a7ded" type="signature">Wynantz</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1113" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/fe43014c-2c84-4134-9943-e4b3735a7ded">Wynantz</persName>
         </p>
-        <pb n="f. 2v"/>
+        <pb n="f. 2v" />
         <p>Sieur</p>
         <p>Monsieur le Prince</p>
         <p>
-          <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Galizin</persName>
+          <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Galizin</persName>
         </p>
         <p>&amp; &amp; &amp;</p>
         <p>Le 28. aout 1758:</p>

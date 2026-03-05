@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,36 +103,36 @@
       <div type="letter">
         <head>
           <title>
-            25 December 1770. – Dispatch from <persName key="p0569">the Russian Chargé d’Affairs in Denmark, Baron Johann von Mestmacher</persName>, to <persName key="p0574">the Chief Member of the College of Foreign Affairs, Count Nikita Ivanovich Panin</persName>
+            25 December 1770. – Dispatch from <persName key="p0569" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">the Russian Chargé d’Affairs in Denmark, Baron Johann von Mestmacher</persName>, to <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">the Chief Member of the College of Foreign Affairs, Count Nikita Ivanovich Panin</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 240, f. 65-69v. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 65"/>
+        <pb n="f. 65" />
         <p>Сиятелнейший Граф,</p>
         
-        <p/>
+        <p />
         <p>М[и]л[ос]тивый Г[осу]д[а]рь,</p>
-        <p/>
+        <p />
         <p> При сем принимаю смелость приложить к Вашему Высокографскому Сиятелству копию с ноты
           посланной третьяго дни ко всем здесь чужестранным министрам и поверенным в делах касателно
           пожалования в тайныя Советники и определения в министры иностранного департамента </p>
-        <pb n="f. 65v"/>
-        <p>Г[оспо]д[и]на <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1516" xml:space="default">Графа Остена</persName>, и чтоб они впредь по делам к нему адресовались.</p>
+        <pb n="f. 65v" />
+        <p>Г[оспо]д[и]на <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1516" xml:space="default" ref="https://api.dante.gbv.de/person/1e795d33-c70c-4288-85de-878d06353c0a">Графа Остена</persName>, и чтоб они впредь по делам к нему адресовались.</p>
         <p> Сей новой Министр предуспев уже привесть почитай всех в Государственных делах некоторое
           участие имеющих людей в движение, он яко проницательной Интригант, наблюдая тесное свое с
           находящеюся при дворе теперь еще в силе развратною шайкою сношение, под рукою однако всеми
           силами старается приобресть к себе доверенность разумных и в нации кредит имеющих
           благонамеренных, даже их со осторожностию приметить Его соболезнование, о настоящем
           внутренном дворовом положении, с публичным оказанием своей ревности к сохранению </p>
-        <pb n="f. 66"/>
+        <pb n="f. 66" />
         <p> к вящему утверждению тесной между обоими высочайшими российским и дацким дворами дружбе,
           яко как той подлинной единой к благополучию его отечества способ, оказывая однако при всем
           том, знатно по нечистой от прежняго бывшаго его поведения совести, свое безпокойство,
-          каким образом его номинация от <persName key="p0033">Ея Имп[ераторско]</persName><hi rendition="#u">
+          каким образом его номинация от <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Имп[ераторско]</persName><hi rendition="#u">
             <hi rendition="#sup">го</hi>
-          </hi> <persName key="p0033">Вел[ичеств]</persName><hi rendition="#u">
+          </hi> <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Вел[ичеств]</persName><hi rendition="#u">
             <hi rendition="#sup">а</hi>
           </hi> принята будет, для узнания чего, третьяго дни
           он наслал ко мне одну настоящей системе и по ближнему сродству с прежными министрами верно
@@ -140,24 +141,24 @@
           яко настоящаго перваго министра у вашего высокографскаго Сият[ельст]<hi rendition="#u">
             <hi rendition="#sup">ва</hi>
           </hi> выходил к нему кредитивное </p>
-        <pb n="f. 66v"/>
-        <p>обо мне писмо. Я быв уже по высокому повелению чрез <persName key="p1102">Михайла Михайловича</persName> прямо у <persName key="p0868">короля</persName>
+        <pb n="f. 66v" />
+        <p>обо мне писмо. Я быв уже по высокому повелению чрез <persName key="p1102" ref="https://api.dante.gbv.de/person/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">Михайла Михайловича</persName> прямо у <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">короля</persName>
           поверенным в делах акредитован, и после того в сей должности двору представлен натурално
-          легко понимать мог, что такое с стороны <persName key="p1516">графа Остена</persName> требование в самом деле замыкает в
-          себе ничто иное, как таким посредством узнать <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0008" xml:space="default">всевысочайшаго двора</orgName> о его номинации мнении
+          легко понимать мог, что такое с стороны <persName key="p1516" ref="https://api.dante.gbv.de/person/1e795d33-c70c-4288-85de-878d06353c0a">графа Остена</persName> требование в самом деле замыкает в
+          себе ничто иное, как таким посредством узнать <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0008" xml:space="default" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">всевысочайшаго двора</orgName> о его номинации мнении
           и в следствии того за неимением о нем высочайши<hi rendition="#sup">х</hi> повелении,
           дискурсивным образом ответствовал, что он по бытности в России здешним министром будучи
           относительно его благонамеренных сентиментов от <hi rendition="#u">Ея Имп[ераторско] <hi rendition="#sup">го</hi>
-            <hi rendition="#u"/> Вел[ичеств] <hi rendition="#sup">а </hi>
+            <hi rendition="#u" /> Вел[ичеств] <hi rendition="#sup">а </hi>
           </hi>и
           Вашего Сият[ельст]<hi rendition="#u">
             <hi rendition="#sup">ва</hi>
           </hi> сам персонально знаем, я нимало не
           сумневаюсь чтоб ему с стороны всевысочайшаго двора всякая справедливость отдана была.</p>
         
-        <pb n="f. 67"/>
+        <pb n="f. 67" />
         
-        <p>Сие мне изъяснение знатно не успокоя довольно Господина <persName key="p1516">Графа Остена</persName>, он оказал желание
+        <p>Сие мне изъяснение знатно не успокоя довольно Господина <persName key="p1516" ref="https://api.dante.gbv.de/person/1e795d33-c70c-4288-85de-878d06353c0a">Графа Остена</persName>, он оказал желание
           меня самаго видеть, по чему по такой от него мне о том инзинуации, я под образом первой
           визите к нему прибыв и застав его еще одного, оказанием отличной ласковости от него принят
           был; По обыкновенным взаимным комплиментам он начал свой разговор не министериално а
@@ -166,60 +167,60 @@
           в единственном твердом намерении посвятить оную к вящему утверждению столь счастливо между
           обеими высокими дворами общаю-<hi rendition="#u">щейся связи, а самаго</hi>
         </p>
-        <pb n="f. 67v"/>
-        <p>себя к вечной нелицемерной к <persName key="p0033">Ея Им[ператорско]</persName><hi rendition="#u">
+        <pb n="f. 67v" />
+        <p>себя к вечной нелицемерной к <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Им[ператорско]</persName><hi rendition="#u">
             <hi rendition="#sup">му</hi>
-          </hi> <persName key="p0033">Вел[ичеств]</persName><hi rendition="#u">
+          </hi> <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Вел[ичеств]</persName><hi rendition="#u">
             <hi rendition="#sup">у </hi>
           </hi> преданности, правда я де имел нещастие что
-          мои неприятели успели навлекать на меня не милость Вашей Великой и премудрой <persName key="p0033">Государыни</persName> и
-          <persName key="p0574">Ея просвященнаго Министра</persName>. Я оставляю все оное в своем месте уверяя по чести, что оно ни в
-          чем не умалило мою с наиглубочайшим благоговением к <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0033" xml:space="default">Ея Им[ператорско]</persName><hi rendition="#u">
+          мои неприятели успели навлекать на меня не милость Вашей Великой и премудрой <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Государыни</persName> и
+          <persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Ея просвященнаго Министра</persName>. Я оставляю все оное в своем месте уверяя по чести, что оно ни в
+          чем не умалило мою с наиглубочайшим благоговением к <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0033" xml:space="default" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Им[ператорско]</persName><hi rendition="#u">
             <hi rendition="#sup">му</hi>
-          </hi> <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0033" xml:space="default">Вел[ичеств]</persName><hi rendition="#u">
+          </hi> <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0033" xml:space="default" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Вел[ичеств]</persName><hi rendition="#u">
             <hi rendition="#sup">у </hi>
-          </hi>наполненноя, а к его Сият[ельств]<hi rendition="#sup">у </hi><persName key="p0574">Господину Графу Панину</persName> нелицемерное высокопочитание; я де
+          </hi>наполненноя, а к его Сият[ельств]<hi rendition="#sup">у </hi><persName key="p0574" ref="https://api.dante.gbv.de/person/8af52d18-afcc-428f-bb9b-e5c5ba7c9ccd">Господину Графу Панину</persName> нелицемерное высокопочитание; я де
           чувствую и всегда чувствовал возпоследуемую для всего севера от дацкой с Россиею тесной
           связи, великую пользу, и хотел бы я и не претерпел от французскаго двора столь частыя
           гонении; сие одно конечно достаточно было отвратить дух мой от </p>
-        <pb n="f. 68"/>
+        <pb n="f. 68" />
         <p>всякаго с сею гордо лукавою державою сношение из всего сего продолжал он, вы сами легко
-          разсудить можете сколь я себя нещастливым почитать буду, когда <persName key="p0033">Ея Имп[ераторско]</persName><hi rendition="#u">
+          разсудить можете сколь я себя нещастливым почитать буду, когда <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Имп[ераторско]</persName><hi rendition="#u">
             <hi rendition="#sup">е</hi>
-          </hi> <persName key="p0033">Вел[ичеств]</persName><hi rendition="#u">
+          </hi> <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Вел[ичеств]</persName><hi rendition="#u">
             <hi rendition="#sup">о</hi>
           </hi> в своих обо мне вышеобъявленных внушенных
           импрессиях продолжить изволит. </p>
-        <p>По сему он мне оказал и свое сожаление о произшедшем здесь в последнем месте с <persName key="p1102">Михайлом Михайловичем</persName> и о том что он тогда еще здесь не был.</p>
+        <p>По сему он мне оказал и свое сожаление о произшедшем здесь в последнем месте с <persName key="p1102" ref="https://api.dante.gbv.de/person/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">Михайлом Михайловичем</persName> и о том что он тогда еще здесь не был.</p>
         <p> Услыша такия о сем неприятном произшествии Его мысли Ему объявил, что хотя оставляя все
-          оное на собственное Всевысочайшее решение <persName key="p0033">ЕЯ Имп[ераторско]</persName><hi rendition="#u">
+          оное на собственное Всевысочайшее решение <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">ЕЯ Имп[ераторско]</persName><hi rendition="#u">
             <hi rendition="#sup">го</hi>
-          </hi> <persName key="p1102">Вел[ичеств]</persName><hi rendition="#u">
+          </hi> <persName key="p1102" ref="https://api.dante.gbv.de/person/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">Вел[ичеств]</persName><hi rendition="#u">
             <hi rendition="#sup">а </hi>
           </hi>, с моей стороны не могу от него скрыть,
           сколь меня сие и все в последнее время здешнее поведение </p>
-        <pb n="f. 68v"/>
+        <pb n="f. 68v" />
         <p>сокрушает, толь най паче что по моему слабейшему мнению, кажется якобы все оное тем кои
-          <persName key="p0868">королю</persName> то советовали от самаго <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0019" xml:space="default">французскаго двора</orgName> диктованной, что я от оказанной его
+          <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">королю</persName> то советовали от самаго <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0019" xml:space="default" ref="https://api.dante.gbv.de/person/2cb37494-d43a-434e-8e34-efaf283c99a0">французскаго двора</orgName> диктованной, что я от оказанной его
           теперь благо намеренности ожидая, что он то достаточно поправить не оставит. Он возвыся
           плеча дал мне возчувствовать крайную свою заботу, и сколько к тому теперь еще время не
           способно, обещая однако все силы употребить и оное к полюбовному решению привести,
           препоруча мне ваше Сиятельство всенижайше просить по сему делу еще теперь не весма строго
-          поступать, о котором последнем за два дни прежде и <persName key="p1539">Господин Конференции Советник Шумахер</persName>,
+          поступать, о котором последнем за два дни прежде и <persName key="p1539" ref="https://api.dante.gbv.de/person/6cb2d4e2-9360-477d-a50a-01f9811f1664">Господин Конференции Советник Шумахер</persName>,
           с которым я потаенное свидание имел, вас Милостивый Государь не <hi rendition="#u">
           отступно</hi>
         </p>
-        <pb n="f. 69"/>
+        <pb n="f. 69" />
         <p>просит, представляя в резон, что настоящее дворовое положение долго на нынешнем основании
-          остатся [sic] не может, ибо <persName key="p1516">Г[оспо]дин Остен</persName> приобретением себе дацкой доверенности
+          остатся [sic] не может, ибо <persName key="p1516" ref="https://api.dante.gbv.de/person/1e795d33-c70c-4288-85de-878d06353c0a">Г[оспо]дин Остен</persName> приобретением себе дацкой доверенности
           конечно не оставит скинуть с себя несносное и для Его сохранения не долго надворное ему от
           молодых и безразсудных фаворитов его низвержением их самых, почему легче быть может и Его
           самаго по нужде обстоятелств отдалять, в противном же случае, и когда теперь с стороны
-          <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0008" xml:space="default">всевысочайшаго двора</orgName> строгая справедливая сатисфакция потребована будет, то будто лехко
-          статся может, что <hi rendition="#u">Граф Остен</hi> не будучи еще в силах и <persName key="p0868">Король</persName> не
+          <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0008" xml:space="default" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">всевысочайшаго двора</orgName> строгая справедливая сатисфакция потребована будет, то будто лехко
+          статся может, что <hi rendition="#u">Граф Остен</hi> не будучи еще в силах и <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Король</persName> не
           имев при своем часто реченном поступке перваго Министра на кого иногда бы вину свалить
           мог, для </p>
-        <pb n="f. 69v"/>
+        <pb n="f. 69v" />
         <p>избежание компрометирования себя взятием на себя самаго всю вину по
           безразсудным советам Его известных безпутных фаворитов, по своей слабости слепо отдаватся
           [sic] может в французския руки, не понимая вредительныя для своего толко Государства от
@@ -234,7 +235,7 @@
         <p>декабря 14/25 дня 1770 году.</p>
         <p>Всенижайший и всеобязаннейший </p>
         <p>слуга </p>
-        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0569" xml:space="default" type="signature">Иван Местмахер</persName></p>
+        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0569" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">Иван Местмахер</persName></p>
         <noteGrp>
           <note>Also see:</note>
           <note>ru_avrpi_53_5_240_0001</note>

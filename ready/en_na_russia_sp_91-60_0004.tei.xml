@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -106,23 +104,23 @@
     <body>
       <div type="letter">
         <head>
-          <title>[June 1755]. – Response of <persName key="p0052">Her Majesty the Empress of all the Russias [Elisabeth Petrovna]</persName></title><note>
+          <title>[June 1755]. – Response of <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Her Majesty the Empress of all the Russias [Elisabeth Petrovna]</persName></title><note>
             <bibl>TNA Kew, Russia, no. SP 91-60, s.f. French copy.</bibl>
           </note>
         </head>
-        <p/>
-        <p>Response de <persName key="p0052">Sa Majesté l’Imperatrice de toutes les Russies</persName></p>
-        <p/>
+        <p />
+        <p>Response de <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté l’Imperatrice de toutes les Russies</persName></p>
+        <p />
         <p>L’Imperatrice ne peut etre que très satisfaite de la nouvelle Marque d’amitié qu’Elle
-          recoit de la part du <persName key="p0063">Roy de la Grande Bretagne</persName> en ce que Sa Majesté après avoir
-          rappellé chez Elle Son <persName key="p1439">Envoyé Extraordinaire</persName> a <orgName key="o0008">cette Cour</orgName>, a bien voulu qu’il fut
+          recoit de la part du <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Roy de la Grande Bretagne</persName> en ce que Sa Majesté après avoir
+          rappellé chez Elle Son <persName key="p1439" ref="https://api.dante.gbv.de/person/363385bd-1fcc-4f98-847b-282732248bf0">Envoyé Extraordinaire</persName> a <orgName key="o0008" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cette Cour</orgName>, a bien voulu qu’il fut
           remplacé par un Ministre du premier Rang, non seulement à l’egard du Caractere qu’il
           porte, mais aussi en consideration des rares qualités qui Lui sont personelles et qui
           après avoir gagné à Mons[ieu]r l’Ambassadeur l’affection des Puissances auprès dequelles
           il a deja été employé dans des Négociations très importantes, Luy peuvent repondre
           d’avance de l’Estime de Sa Majesté Imperiale.</p>
-        <p/>
-        <p>Delivered in the Russian Language by <persName key="p0017">the Great Chancellor Bestoucheff</persName></p>
+        <p />
+        <p>Delivered in the Russian Language by <persName key="p0017" ref="https://api.dante.gbv.de/person/8635fcfb-35a1-487c-bfd4-9f5e205f81f0">the Great Chancellor Bestoucheff</persName></p>
       </div>
     </body>
   </text>

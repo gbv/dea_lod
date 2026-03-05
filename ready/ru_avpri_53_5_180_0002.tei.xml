@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,13 +104,13 @@
   <text>
     <body>
       <div type="letter">
-        <head><title>21 January 1765. – Translation of the draft of a letter from <persName key="p0065">His Excellency Vice-Chancellor [of Russia, Prince Aleksandr Mikhailovich Golitsyn,]</persName> to <persName key="p0245">[the Russian Envoy Extraordinary to Denmark,] Baron [Johann Albrecht von] Korff</persName>, from <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersburg</placeName> to <placeName key="g0006">Copenhagen</placeName>, dated 21 January 1765</title><note>
+        <head><title>21 January 1765. – Translation of the draft of a letter from <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">His Excellency Vice-Chancellor [of Russia, Prince Aleksandr Mikhailovich Golitsyn,]</persName> to <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">[the Russian Envoy Extraordinary to Denmark,] Baron [Johann Albrecht von] Korff</persName>, from <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersburg</placeName> to <placeName key="g0006">Copenhagen</placeName>, dated 21 January 1765</title><note>
             <bibl>AVPRI, fond 53, opis 5, no. 180, f. 3. Russian translation; French original:
               AVPRI, fond 53, opis 5, no. 180, f. 1.</bibl> </note></head>
-        <pb n="f. 3"/>
-        <p>Перевод с Концепта писма <persName key="p0065">Его Сиятельства вицеканцлера</persName> к <persName key="p0245">барону Корфу</persName> в
+        <pb n="f. 3" />
+        <p>Перевод с Концепта писма <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Его Сиятельства вицеканцлера</persName> к <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">барону Корфу</persName> в
           <placeName key="g0006">Копенгаген</placeName> из <placeName key="g0002" ref="https://www.geonames.org/498817">С[анкт] Петербурга</placeName> от "21" Генваря 1765</p>
-        <p/>
+        <p />
         <p>Дружба которою В[ваше] С[иятель]<hi rendition="#sup">ство </hi>меня удостоивали завсегда
           мною за драгоценную почитаема будучи немогу я как с наичуствителнейшую благодарностию
           принять новой знак оной при начатии Сего года учиняемой. Позвольте Г[осу]д[а]рь мой чтоб и
@@ -117,9 +118,9 @@
           неприятное произшествие не моглоб пресечь. Ваше Сиятелство неможет тем более сумневатся о
           искренности с коею оные <hi rendition="#s">при</hi> учинены от тово которой завсегда имеет
           честь быть с отменным почтением</p>
-        <p/>
-        <p>Переводил <persName key="p1569">Александр Курбатов</persName></p>
-        <p/>
+        <p />
+        <p>Переводил <persName key="p1569" ref="https://api.dante.gbv.de/person/11d460b8-0249-4aa5-8580-934be070e98e">Александр Курбатов</persName></p>
+        <p />
         <noteGrp>
           <note>Translated from:</note>
           <note>ru_avpri_53_5_180_0001</note>

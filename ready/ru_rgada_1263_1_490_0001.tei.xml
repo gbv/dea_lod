@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,15 +104,15 @@
     <body>
       <div type="letter">
         <head>
-          <title>26 April / 7 May 1775. – Letter from <persName key="p0009" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">the Minister Plenipotentiary of Russia at
+          <title>26 April / 7 May 1775. – Letter from <persName key="p0009" ref="https://api.dante.gbv.de/person/c12990a8-65ba-4272-afe9-bbb2f8188d36">the Minister Plenipotentiary of Russia at
             the Imperial Diet in Regensburg, Active State Councillor Achatz Ferdinand Baron of
-            Asseburg</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
+            Asseburg</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 490, f. 1-2. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         
         <p>Monsieur</p>
         <p>En arrivant hier à <placeName key="g0028" ref="https://www.geonames.org/2849483">Ratisbonne</placeName>, je trouvois par devers
@@ -119,15 +120,15 @@
           seule à laquelle je ne sai repondre qu’avec douleur.</p>
         <p>Si mes interets particuliers osoient etre nommés ici, il me seroit aisé de prouver que la
           retraite de Votre Excellence </p>
-        <pb n="f. 1v"/>
-        <p> du <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">Ministère</orgName>
+        <pb n="f. 1v" />
+        <p> du <orgName key="o0001" ref="https://api.dante.gbv.de/person/da1f1ae4-2e3f-4924-a65b-7b6016038e70">Ministère</orgName>
           ne pouvoit etre plus vivement sentie que par moi. Mais c’est Votre satisfaction; c’est
           l’affermissement de Votre santé, Monsieur, qui prevalent sur toutes les considerations,
           que l’evenement, qui me prive d’un chef eclairé et respectable, presente à mon esprit. Je
           souhaite avec passion, que Votre Excellence rencontre dans Sa retraite ce qui L’a
           determiné à la vouloir, et que jouissant d’un bonheur parfait, Elle ne m’ote rien de Son
           souvenir, &amp; de Sa bienveillance; objets precieux pour un </p>
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         <p> homme, qui Vous est devoué par les sentimens les plus vrais de veneration et
           d’attachement avec lesquels je ferai profession, tant que je vivrai, de me dire</p>
         <p>Monsieur</p>
@@ -135,7 +136,7 @@
         <p>Le tres humble </p>
         <p>&amp; très obeissant serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0009" xml:space="default" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36" type="signature">Assebourg</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0009" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/c12990a8-65ba-4272-afe9-bbb2f8188d36">Assebourg</persName>
         </p>
         <p>à <placeName key="g0028" ref="https://www.geonames.org/2849483">Ratisbonne</placeName>
         </p>

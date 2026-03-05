@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,16 +102,16 @@
     <body>
       <div type="letter">
         <head>
-          <title>21 February 1765. – Draft of a letter from <persName key="p0065">Vice-Chancellor Prince
-              Aleksandr Mikhailovich Golitsyn</persName> to <persName key="p0245">the Russian Envoy Extraordinary to Copenhagen, Baron Johann Albrecht von Korff</persName></title>
+          <title>21 February 1765. – Draft of a letter from <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince
+              Aleksandr Mikhailovich Golitsyn</persName> to <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Russian Envoy Extraordinary to Copenhagen, Baron Johann Albrecht von Korff</persName></title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 180, f. 5-5v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 5"/>
+        <pb n="f. 5" />
         <opener>
           <address>
-            <addrLine>à <persName key="p0245">S[on] E[xcellence] M[onsieu]<hi rendition="#sup">r</hi>.
+            <addrLine>à <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">S[on] E[xcellence] M[onsieu]<hi rendition="#sup">r</hi>.
           le Bar[on]. de Korff</persName> à <placeName key="g0006">Copenhague</placeName>.</addrLine>
           </address>
           <dateline>à
@@ -126,10 +127,10 @@
           embarquer par le premier vaisseau qui fera voile pour ici. Aussitot que je saurai à
           combien se monte le déboursé je ne tarderai pas de vous le remettre tout de suite avec
           bien des </p>
-        <pb n="f. 5v"/>
+        <pb n="f. 5v" />
         <p>remerciemens &amp; ne souhaite d’ailleurs que de pouvoir m’employer à mon
           tour pour votre service étant avec la considération la plus distinguée,</p>
-        <p/>
+        <p />
         <noteGrp>
           <note>See a translation of the document:</note>
           <note>ru_avpri_53_5_180_0004</note>

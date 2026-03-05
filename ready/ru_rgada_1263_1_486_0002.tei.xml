@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,7 +103,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>17 June 1771. – Letter from <persName key="p0268" ref="38cc5f5c-197a-44bc-a3c7-dc5b5a571dc7">Aleksandr Arseniev</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince
+          <title>17 June 1771. – Letter from <persName key="p0268" ref="https://api.dante.gbv.de/person/38cc5f5c-197a-44bc-a3c7-dc5b5a571dc7">Aleksandr Arseniev</persName> to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince
               Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -110,7 +111,7 @@
           </note>
         </head>
         
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         
         <p>Monseigneur</p>
         <p>J’ay exactement remis les trois lettres, dont Votre Excellence m’a fait l’honneur de me
@@ -124,7 +125,7 @@
         <p>De Votre Excellence</p>
         <p>le très humble &amp; très devoué serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0268" xml:space="default" ref="38cc5f5c-197a-44bc-a3c7-dc5b5a571dc7" type="signature">Alexandre Arsenieff</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0268" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/38cc5f5c-197a-44bc-a3c7-dc5b5a571dc7">Alexandre Arsenieff</persName>
         </p>
         <p>Du camp prés de <placeName key="g0023" ref="https://www.geonames.org/712250">Berschan</placeName></p>
         <p>le 17 Juin 1771.</p>

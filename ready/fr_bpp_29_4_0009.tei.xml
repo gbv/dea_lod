@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -109,8 +110,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>28 July 1783. – Rescript of <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">the Empress of Russia, Catherine II</persName>,
-            to <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador
+          <title>28 July 1783. – Rescript of <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">the Empress of Russia, Catherine II</persName>,
+            to <persName key="p0861" ref="https://api.dante.gbv.de/person/3e86c4fc-ae64-4313-abd0-e814f75ccb82">the Ambassador
             Extraordinary of Russia to the Polish-Lithuanian
               Commonwealth, Count Otto Magnus von Stackelberg</persName>
           </title>
@@ -118,34 +119,34 @@
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 4, f. 879. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 879"/>
+        <pb n="f. 879" />
         <p>Циркулярной</p>
-        <p>Божиею милостию Мы <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина
+        <p>Божиею милостию Мы <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Екатерина
           Вторая</persName>, Императрица и Самодержица Всероссийская, и прочая, и прочая, и прочая.</p>
         <p>Высоко и благоурожденный Нам любезно-верный !</p>
-        <p>По предварительном назначении Республикою Веницианскою ко <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">двору нашему</orgName> нобля в качестве
+        <p>По предварительном назначении Республикою Веницианскою ко <orgName key="o0008" ref="https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">двору нашему</orgName> нобля в качестве
           карактеризованнаго министра Ея, за благо признали Мы в соответствие такому поступку Ея
-          акредитовать там же при Ней полномочнаго министра Нашего; к чему избрали Мы Нашего <persName key="p0580" ref="61caa76b-7a71-47f7-80b9-924f2e7014b3">генерал порутчика воинскаго
+          акредитовать там же при Ней полномочнаго министра Нашего; к чему избрали Мы Нашего <persName key="p0580" ref="https://api.dante.gbv.de/person/61caa76b-7a71-47f7-80b9-924f2e7014b3">генерал порутчика воинскаго
             ордена Святаго Георгия Победоносца третьяго класса кавалера Графа Семена Воронцова</persName>.
-          Уведомляя вас о сем, повелеваем Мы вам производить с ним <persName key="p0580" ref="61caa76b-7a71-47f7-80b9-924f2e7014b3">Графом Воронцовым</persName> по приезде его в <placeName key="g0031" ref="https://www.geonames.org/3164603">Венецию</placeName>, по востребованию
+          Уведомляя вас о сем, повелеваем Мы вам производить с ним <persName key="p0580" ref="https://api.dante.gbv.de/person/61caa76b-7a71-47f7-80b9-924f2e7014b3">Графом Воронцовым</persName> по приезде его в <placeName key="g0031" ref="https://www.geonames.org/3164603">Венецию</placeName>, по востребованию
           дел Наших нужную переписку, употребляя в важных и тайне подлежащих случаях находящияся у
           вас генеральныя цифири 1776го. года и пребываем вам Императорскою нашею милостию
           благосклонны. Дан в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт
           Петербурге</placeName> июля “28” дня 1783го года.</p>
-        <p>По имянному <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея
+        <p>По имянному <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея
           Императорского Величества</persName> указу</p>
         <p>
-          <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">Г[раф] Иван Остерман</persName>
+          <persName key="p0113" ref="https://api.dante.gbv.de/person/5a2053eb-ec01-47a7-95c2-633362d4c1eb">Г[раф] Иван Остерман</persName>
         </p>
         <p>
-          <persName key="p0893">Александр Безбородко</persName>
+          <persName key="p0893" ref="https://api.dante.gbv.de/person/6a68c12a-8133-4e0e-9edc-c4ad60b686ad">Александр Безбородко</persName>
         </p>
         <p>
-          <persName key="p0564" ref="786202f4-756d-4274-bd8b-8d3458207c0e">Петр Бакунин</persName>
+          <persName key="p0564" ref="https://api.dante.gbv.de/person/786202f4-756d-4274-bd8b-8d3458207c0e">Петр Бакунин</persName>
         </p>
-        <p/>
+        <p />
         <p>
-          <persName key="p0861">Тайному советнику действительному каммер-геру, Чрезвычайному и
+          <persName key="p0861" ref="https://api.dante.gbv.de/person/3e86c4fc-ae64-4313-abd0-e814f75ccb82">Тайному советнику действительному каммер-геру, Чрезвычайному и
             полномочному послу графу Стакелбергу</persName>
         </p>
         <noteGrp>

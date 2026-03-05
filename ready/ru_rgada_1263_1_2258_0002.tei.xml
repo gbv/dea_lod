@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,8 +102,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>30 June 1758. – Letter from <persName key="p1113" ref="fe43014c-2c84-4134-9943-e4b3735a7ded">the Secretary of the Swedish Legation to London,
-            Caspar Wynantz</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London, Prince
+          <title>30 June 1758. – Letter from <persName key="p1113" ref="https://api.dante.gbv.de/person/fe43014c-2c84-4134-9943-e4b3735a7ded">the Secretary of the Swedish Legation to London,
+            Caspar Wynantz</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London, Prince
             Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -110,11 +111,11 @@
           </note>
         </head>
         
-        <pb n="f. 3"/>
+        <pb n="f. 3" />
         
         <p>Monsieur</p>
         <p>J’ai l’honneur de Vous envoyer ci-joint le papier en question.</p>
-        <p>Je sais, Monsieur, Vous observes que <persName key="p0236" ref="76bf86b2-df21-48c2-ab7e-c132177479b0">Mon<hi rendition="#sup">s</hi>. le Comte de
+        <p>Je sais, Monsieur, Vous observes que <persName key="p0236" ref="https://api.dante.gbv.de/person/76bf86b2-df21-48c2-ab7e-c132177479b0">Mon<hi rendition="#sup">s</hi>. le Comte de
           Bothmer</persName> a reçu de pareilles ordres que les Vôtres.</p>
         <p>Nous parlerons d’avantage de cette affaire: ayant l’honneur d’etre avec le plus sincere
           respect</p>
@@ -122,28 +123,28 @@
         <p>Votre tres humble &amp;</p>
         <p>tres obeiss[an]<hi rendition="#sup">t</hi> serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1113" xml:space="default" ref="fe43014c-2c84-4134-9943-e4b3735a7ded" type="signature">Wynantz</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1113" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/fe43014c-2c84-4134-9943-e4b3735a7ded">Wynantz</persName>
         </p>
         <p>ce 30: de Juin</p>
-        <p/>
-        <pb n="f. 4"/>
-        <p/>
+        <p />
+        <pb n="f. 4" />
+        <p />
         <p>J'ai parlé avec Wynants &amp;</p>
-        <p>Le quel m’a dit que Sa <orgName key="o0002" ref="dd406ffb-30ce-4374-868b-1a55e8daf251">
+        <p>Le quel m’a dit que Sa <orgName key="o0002" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251">
           Cour</orgName> en Lui envoyant les ordres en question, l’avoit prevenû la dessûs.</p>
-        <p>qu’il avoit en attendant commencé à faire ses remontrances dans cette affaire auprès du <orgName key="o0053" ref="0ac5ad5a-b269-40c6-b973-6e2c02446357">Ministere anglois</orgName>, qui
+        <p>qu’il avoit en attendant commencé à faire ses remontrances dans cette affaire auprès du <orgName key="o0053" ref="https://api.dante.gbv.de/person/0ac5ad5a-b269-40c6-b973-6e2c02446357">Ministere anglois</orgName>, qui
           pretend, comme à l’ordinaire, ne pouvoir rien faire dans des affaires de cette nature (où
-          les Capteurs anglois pretendent des interets) que quand elles viendront devant <orgName key="o0052" ref="883bc14c-f60a-40d3-a9ef-fc15b9912f91">le Tribunal des Lords
+          les Capteurs anglois pretendent des interets) que quand elles viendront devant <orgName key="o0052" ref="https://api.dante.gbv.de/person/883bc14c-f60a-40d3-a9ef-fc15b9912f91">le Tribunal des Lords
             commissaires</orgName> d’appel pour prizes, du quel les deux secretaires d’Etat sont
           membres.</p>
-        <p/>
-        <pb n="f. 5v"/>
-        <p/>
+        <p />
+        <pb n="f. 5v" />
+        <p />
         <p>à Monsieur</p>
         <p>
-          <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Monsieur le Prince <lb/>
-            Galitzin <lb/>Envoyé Extraor[dinai]<hi rendition="#sup">r[e]</hi> de <lb/>S[a] M[ajesté] Imp[éria]<hi rendition="#sup">le</hi>
-            <lb/>de Russie</persName>
+          <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Monsieur le Prince <lb />
+            Galitzin <lb />Envoyé Extraor[dinai]<hi rendition="#sup">r[e]</hi> de <lb />S[a] M[ajesté] Imp[éria]<hi rendition="#sup">le</hi>
+            <lb />de Russie</persName>
         </p>
         <noteGrp>
           <note>See also:</note>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,99 +104,99 @@
     <body>
       <div type="letter">
         <head>
-          <title>8 / 19 March 1712. – Memorial of what happened in the case of <persName key="p2010">Edwards</persName>, <persName key="p2012">Bell</persName> and
-            <persName key="p2011">Perry</persName></title>
+          <title>8 / 19 March 1712. – Memorial of what happened in the case of <persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName>, <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> and
+            <persName key="p2011" ref="https://api.dante.gbv.de/person/58ee3d87-c27a-4c89-b98d-44962538fc8c">Perry</persName></title>
           <note>
             <bibl>NA Kew, Russia, no. SP 91-7, f. 318-320v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 318"/>
-        <p> Memoire, contenant ce qui s’est passé dans l’affaire d’<persName key="p2010">Edwards</persName>, <persName key="p2012">Bell</persName> et <persName key="p2011">Perry</persName></p>
-        <p/>
-        <p><persName key="p2012">Bell</persName> est un Anglois Agent en Moscovie pour quelques Marchands de <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>; Il a eu des disputes avec un de ses principaux, Son
-          oncle nomme <persName key="p2010">Edwards</persName>, pour des sommes considerables; cette dispute est arrivée
+        <pb n="f. 318" />
+        <p> Memoire, contenant ce qui s’est passé dans l’affaire d’<persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName>, <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> et <persName key="p2011" ref="https://api.dante.gbv.de/person/58ee3d87-c27a-4c89-b98d-44962538fc8c">Perry</persName></p>
+        <p />
+        <p><persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> est un Anglois Agent en Moscovie pour quelques Marchands de <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>; Il a eu des disputes avec un de ses principaux, Son
+          oncle nomme <persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName>, pour des sommes considerables; cette dispute est arrivée
           pour le conte [sic] d’un autre Anglois mort ici il y a quelques ans, cependent ils ont continué
-          leur negoce ensemble jusques à 1709. alors <persName key="p2010">Edwards</persName> renvoya avec proteste quelques
-          lettres d’echange tirées sur luy par <persName key="p2012">Bell</persName> pour le conte du Defunt, et mécontent
+          leur negoce ensemble jusques à 1709. alors <persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName> renvoya avec proteste quelques
+          lettres d’echange tirées sur luy par <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> pour le conte du Defunt, et mécontent
           de la conduite de son neveu, envoya ses marchandises l’an 1710. montant à plus de m/40.
-          Rubles à un autre Agent nomme <persName key="p2015">Gartside</persName>, et pour eviter toute confusion, que
-          <persName key="p2012">Bell</persName> luy pourroit susciter, fit passer ces marchandises sous le nom d’un (<hi rendition="#u">Robinson</hi>) troisiéme nommé <hi rendition="#u"><persName key="p2011">Perry</persName></hi> dont il avoit acheté la plus grande partie en premier lieu, mais peu de temps aprés étant
-          informé que <persName key="p2012">Bell</persName> vouloit arrêter tout ce qui appartenoit à luy, Il vend toutes
-          les marchandises au méme <persName key="p2011">Perry</persName> à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> le 1<hi rendition="#sup">er</hi>. du mois d’août 1710. comme il paroit par les contes ajustés
-          sous serment ce méme jour, et aussi par les serments particuliers de <persName key="p2011">Perry</persName> et
-          d’<persName key="p2010">Edwards</persName> fait à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> le 1<hi rendition="#sup">er</hi>. de Juin 1711.</p>
-        <p><persName key="p2012">Bell</persName> en attendant avoit trouvé moyen l’an 1708 d’emprunter d’un des Tresors de
-          <persName key="p0174">Sa Majesté Czarienne</persName> la somme de 13998. Roubles, ce qu’il fit sans ordre de son
-          oncle à ce qu’<persName key="p2010">Edwards</persName> soutient, en son propre nom, et sous la caution de quelques
+          Rubles à un autre Agent nomme <persName key="p2015" ref="https://api.dante.gbv.de/person/ab151eeb-0d66-48ce-a964-37ef63774123">Gartside</persName>, et pour eviter toute confusion, que
+          <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> luy pourroit susciter, fit passer ces marchandises sous le nom d’un (<hi rendition="#u">Robinson</hi>) troisiéme nommé <hi rendition="#u"><persName key="p2011" ref="https://api.dante.gbv.de/person/58ee3d87-c27a-4c89-b98d-44962538fc8c">Perry</persName></hi> dont il avoit acheté la plus grande partie en premier lieu, mais peu de temps aprés étant
+          informé que <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> vouloit arrêter tout ce qui appartenoit à luy, Il vend toutes
+          les marchandises au méme <persName key="p2011" ref="https://api.dante.gbv.de/person/58ee3d87-c27a-4c89-b98d-44962538fc8c">Perry</persName> à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> le 1<hi rendition="#sup">er</hi>. du mois d’août 1710. comme il paroit par les contes ajustés
+          sous serment ce méme jour, et aussi par les serments particuliers de <persName key="p2011" ref="https://api.dante.gbv.de/person/58ee3d87-c27a-4c89-b98d-44962538fc8c">Perry</persName> et
+          d’<persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName> fait à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> le 1<hi rendition="#sup">er</hi>. de Juin 1711.</p>
+        <p><persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> en attendant avoit trouvé moyen l’an 1708 d’emprunter d’un des Tresors de
+          <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Sa Majesté Czarienne</persName> la somme de 13998. Roubles, ce qu’il fit sans ordre de son
+          oncle à ce qu’<persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName> soutient, en son propre nom, et sous la caution de quelques
           personnes, qui pour lors n’avoient pas pour cinq cents êcus valants. </p>
-        <pb n="f.318v"/>
+        <pb n="f.318v" />
         <p> L’an 1709. il livra dans le Tresor dix pude de [word missing] en partie de cet argent, mais ne
           pouvant pas remplacer les 20. autres pudes l’année après comme il s’etoit obligé, son
           oncle ayant protesté ses lettres d’echange comme dejà dit, il donnoit une supplique au
-          <orgName key="o0058">Senat</orgName> le 22<hi rendition="#sup">e</hi>. Juillet 1710 il dit avoir emprunté cet
+          <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName> le 22<hi rendition="#sup">e</hi>. Juillet 1710 il dit avoir emprunté cet
           argent par ordre de son oncle, sans en donner aucune preuve et obtint un ordre daté du 23<hi rendition="#sup">e</hi>. d’aout portant que les marchandises de son oncle seroient
           saisies et vendües pour le payement de cette somme.</p>
         <p>Cette saisie soit faite en vertue de cet ordre mais d’une maniere tout a fait
-          extraordinaire car on a dabord scellé tous les ambars de l’agent <persName key="p2015">Gartside</persName>, on a
+          extraordinaire car on a dabord scellé tous les ambars de l’agent <persName key="p2015" ref="https://api.dante.gbv.de/person/ab151eeb-0d66-48ce-a964-37ef63774123">Gartside</persName>, on a
           visité tous ses livres et ses papiers par force, on a examiné toutes ses lettres, ce que
           ne se pratique pas que pour crimes d’Etat et pas dans des procés civiles, et on n’a pas
-          obligé <persName key="p2012">Bell</persName> de donner la moindre caution pour le dommage qu’il pouvoit causer si
+          obligé <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> de donner la moindre caution pour le dommage qu’il pouvoit causer si
           son occupation seroit trouvé injuste. </p>
-        <p>On dit dans le rapport du <orgName key="o0058">Senat</orgName> pour justifier cette saisie, que les lettres de
+        <p>On dit dans le rapport du <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName> pour justifier cette saisie, que les lettres de
           vente furent trovées fausses par le temoignage de quelques etrangers mais ces etrangers ne
           sont pas nommés, car on ne fait pas la moindre mention en quoi ce pretendüe témoignage
           consistoit.</p>
         <p>Ils disent bien qu’on trouva par des lettres que ces marchandises au temps de leur
           embarquement </p>
-        <pb n="f. 319"/>
-        <p> appartenoient à <persName key="p2010">Edwards</persName>, et étoient mis sous le nom de <persName key="p2011">Perry</persName> <hi rendition="#u">pro forma</hi>, mais ils ne prennent pas garde que cette vente soit faite
+        <pb n="f. 319" />
+        <p> appartenoient à <persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName>, et étoient mis sous le nom de <persName key="p2011" ref="https://api.dante.gbv.de/person/58ee3d87-c27a-4c89-b98d-44962538fc8c">Perry</persName> <hi rendition="#u">pro forma</hi>, mais ils ne prennent pas garde que cette vente soit faite
           quelques semaines aprés l’ecriture de dites lettres, mais avant la saisie.</p>
-        <p>Le 18<hi rendition="#sup">e</hi>. Novemb<hi rendition="#sup">r</hi>[e] <persName key="p2016">Paul Westhoff</persName> et quelques autres marchands donnerent une supplique, que <persName key="p2012">Bell</persName> leur devoit beaucoup d’argent, et qu’<persName key="p2010">Edwards</persName> devoit aussi a luy <persName key="p2012">Bell</persName> beaucoup, et qu’ainsi ils prient d’avoir leur payement sur lesdites marchandises, ce qui
+        <p>Le 18<hi rendition="#sup">e</hi>. Novemb<hi rendition="#sup">r</hi>[e] <persName key="p2016" ref="https://api.dante.gbv.de/person/8643ec63-0add-4ee0-a391-c37cd0b29859">Paul Westhoff</persName> et quelques autres marchands donnerent une supplique, que <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> leur devoit beaucoup d’argent, et qu’<persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName> devoit aussi a luy <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> beaucoup, et qu’ainsi ils prient d’avoir leur payement sur lesdites marchandises, ce qui
           leur étoit accordé au mois de Fevrier 1711. et l’ordre donné de livrer les marchandises
-          entre les mains de <persName key="p2012">Bell</persName>, sans que la moindre dette fut encore prouvée.</p>
-        <p>Sur ces rapports peu fondés <orgName key="o0058">le Senat</orgName> ordonna le 4<hi rendition="#sup">e</hi>. Juillet
-          1711. que ces dites marchandises s’etoient remises à la discretion de <persName key="p2012">Bell</persName> comme
-          auparavent; cet ordre du <orgName key="o0058">Senat</orgName> étoit reveüe par le secretaire <persName key="p1228">Anisin Schukin</persName> et envoyé à <persName key="p2232">Mons[ieu]<hi rendition="#sup">r</hi> Curbatoff</persName> le 31<hi rendition="#sup">e</hi>. de Juillet 1711.</p>
-        <p>Durant ces entrefaites le dit <persName key="p2011">Perri</persName> étant averti à <placeName key="g0003" ref="https://www.geonames.org/2643743">
-          Londres</placeName> qu’on s’etoit saisie de toutes ses marchandises à <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName>, obtint par son supplique les instructions de la <persName key="p0668">Reine de la Grande Bretagne</persName> au <persName key="p1354">secretaire d’Ambassade Weisbrod</persName> de l’informer
-          de l’affaire, et d’obtenir un ordre de <persName key="p0174">Sa Majesté Czarienne</persName>, que les marchandises
-          (: de peur d’etre gatées :) pourroient etre rendües à <persName key="p2015">Gartside</persName>, sous caution </p>
-        <pb n="f.319v"/>
+          entre les mains de <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName>, sans que la moindre dette fut encore prouvée.</p>
+        <p>Sur ces rapports peu fondés <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">le Senat</orgName> ordonna le 4<hi rendition="#sup">e</hi>. Juillet
+          1711. que ces dites marchandises s’etoient remises à la discretion de <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> comme
+          auparavent; cet ordre du <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName> étoit reveüe par le secretaire <persName key="p1228" ref="https://api.dante.gbv.de/person/ecd1691c-d08a-4848-bca1-b09c54fe0ae3">Anisin Schukin</persName> et envoyé à <persName key="p2232" ref="https://api.dante.gbv.de/person/c87a9f97-2808-4d2d-bb05-b72bb9b078c6">Mons[ieu]<hi rendition="#sup">r</hi> Curbatoff</persName> le 31<hi rendition="#sup">e</hi>. de Juillet 1711.</p>
+        <p>Durant ces entrefaites le dit <persName key="p2011" ref="https://api.dante.gbv.de/person/58ee3d87-c27a-4c89-b98d-44962538fc8c">Perri</persName> étant averti à <placeName key="g0003" ref="https://www.geonames.org/2643743">
+          Londres</placeName> qu’on s’etoit saisie de toutes ses marchandises à <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName>, obtint par son supplique les instructions de la <persName key="p0668" ref="https://api.dante.gbv.de/person/8186b75b-6610-4809-a694-032b6ab22399">Reine de la Grande Bretagne</persName> au <persName key="p1354" ref="https://api.dante.gbv.de/person/5b775f93-cedf-41ab-bee0-a6e22200f2ee">secretaire d’Ambassade Weisbrod</persName> de l’informer
+          de l’affaire, et d’obtenir un ordre de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Sa Majesté Czarienne</persName>, que les marchandises
+          (: de peur d’etre gatées :) pourroient etre rendües à <persName key="p2015" ref="https://api.dante.gbv.de/person/ab151eeb-0d66-48ce-a964-37ef63774123">Gartside</persName>, sous caution </p>
+        <pb n="f.319v" />
         <p> suffisante pour leur valeur, jusques à la fin du procès, et que le tout pourroit étre
           examiné et terminé entre ces marchands selon les voyes ordinaires de la justice.</p>
-        <p>Le dit <persName key="p1354">Weisbrod</persName> au mois de Janvier 1711. ordonna aux deux pretendants
-          <persName key="p2015">Gartside</persName> et <persName key="p2012">Bell</persName> de luy donner immediatement l’etat de cette affaire
-          chacun à part pour l’information de la <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0668" xml:space="default">Reine</persName>; ce que ces Messieurs ne firent pas
-          qu’au mois d’avril, et dans le sien <persName key="p2012">Bell</persName> n’apporte pas la moindre preuve que son
+        <p>Le dit <persName key="p1354" ref="https://api.dante.gbv.de/person/5b775f93-cedf-41ab-bee0-a6e22200f2ee">Weisbrod</persName> au mois de Janvier 1711. ordonna aux deux pretendants
+          <persName key="p2015" ref="https://api.dante.gbv.de/person/ab151eeb-0d66-48ce-a964-37ef63774123">Gartside</persName> et <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> de luy donner immediatement l’etat de cette affaire
+          chacun à part pour l’information de la <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0668" xml:space="default" ref="https://api.dante.gbv.de/person/8186b75b-6610-4809-a694-032b6ab22399">Reine</persName>; ce que ces Messieurs ne firent pas
+          qu’au mois d’avril, et dans le sien <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> n’apporte pas la moindre preuve que son
           oncle luy est aucunement endetté. </p>
-        <p>Il donna aussi un memoire en consequence de ces ordres au <orgName key="o0064">Posolsky Precase</orgName> le 3.<hi rendition="#sup">e</hi>/14. de Mars 1711. avec beaucoup d’attestations formiel de
-          serments touchant la vente faite de marchandises entre <persName key="p2010">Edwards</persName> et <persName key="p2011">Perry</persName>.</p>
+        <p>Il donna aussi un memoire en consequence de ces ordres au <orgName key="o0064" ref="https://api.dante.gbv.de/person/">Posolsky Precase</orgName> le 3.<hi rendition="#sup">e</hi>/14. de Mars 1711. avec beaucoup d’attestations formiel de
+          serments touchant la vente faite de marchandises entre <persName key="p2010" ref="https://api.dante.gbv.de/person/b6a475ab-7be4-4923-a58c-f676c36a22bc">Edwards</persName> et <persName key="p2011" ref="https://api.dante.gbv.de/person/58ee3d87-c27a-4c89-b98d-44962538fc8c">Perry</persName>.</p>
         <p>Le secretaire continua de renouveller ses instances à differentes reprises, et le 23.<hi rendition="#sup">e</hi> d’Aout, ayant quelque information que la resolution avoit êté
-          prise par le <orgName key="o0058">Senat</orgName> de donner les marchandises en question à <persName key="p2012">Bell</persName> sans
+          prise par le <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName> de donner les marchandises en question à <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> sans
           autre formes de procés, il alla protester contre cette procedure, et prit avec luy le
           Secretaire Imperial pour témoign, et le 10.<hi rendition="#sup">e</hi> du mois de novembre
           il leur presenta un memoire par êcrit au méme éfect et pour empécher ces procedures
           prematurés.</p>
         <p>Pendant ce temps L’Ambassadeur ayant receu </p>
-        <pb n="f.320"/>
-        <p> de nouvelles instructions de la <persName key="p0668">Reine</persName>, obtint un ordre de <persName key="p0174">Sa Majesté Czarienne</persName> à <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName> vers la fin du mois de
-          septembre, que lesdites marchandises seroient rendües à <persName key="p2015">Gartside</persName> sans caution
+        <pb n="f.320" />
+        <p> de nouvelles instructions de la <persName key="p0668" ref="https://api.dante.gbv.de/person/8186b75b-6610-4809-a694-032b6ab22399">Reine</persName>, obtint un ordre de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Sa Majesté Czarienne</persName> à <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName> vers la fin du mois de
+          septembre, que lesdites marchandises seroient rendües à <persName key="p2015" ref="https://api.dante.gbv.de/person/ab151eeb-0d66-48ce-a964-37ef63774123">Gartside</persName> sans caution
           pour la valeur jusques à ce que le procés viendroit étre decidé. </p>
         <p>Le 16.<hi rendition="#sup">e</hi> de Novembre mon secretaire receut l’avis de cet ordre à <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> par mes lettres, le 19.<hi rendition="#sup">e</hi> il le
-          rendit auprez du <orgName key="o0058">Senat</orgName>, et trouva que lesdits ordres de <persName key="p0174">Sa Majesté Czarienne</persName> y étoient dejà arrivés il y a quelque temps, et on Luy promit d’envoyer
+          rendit auprez du <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName>, et trouva que lesdits ordres de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Sa Majesté Czarienne</persName> y étoient dejà arrivés il y a quelque temps, et on Luy promit d’envoyer
           un Ucase au Gouverneur d’Archangel, en consequence de cela sans perte de temps; Mais quoi
           qu’il y alla ou envoya de jour en jour, on le differa de le faire jusques au 28.<hi rendition="#sup">e</hi> de Novembre. </p>
-        <p>Mon secretaire cependant avoit donné avis des ordres de <persName key="p0174">Sa Majesté Czarienne</persName>, et
-          de ce que le <orgName key="o0058">Senat</orgName> luy avoit promis à <persName key="p2015">Gartside</persName> à <placeName key="g0049" ref="https://www.geonames.org/581049">
+        <p>Mon secretaire cependant avoit donné avis des ordres de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Sa Majesté Czarienne</persName>, et
+          de ce que le <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName> luy avoit promis à <persName key="p2015" ref="https://api.dante.gbv.de/person/ab151eeb-0d66-48ce-a964-37ef63774123">Gartside</persName> à <placeName key="g0049" ref="https://www.geonames.org/581049">
           Archangel</placeName>, qui le receut avant que les Marchandises avoient êté données à
-          <persName key="p2012">Bell</persName>, comme il paroit par Sa lettre du 29.<hi rendition="#sup">e</hi> de Novembre; Il alla méme en porter l’avis à <persName key="p2232">Mons[ieu]<hi rendition="#sup">r</hi> le vice Gouverneur Gurbatoff</persName>, qui disoit de n’avoir pas receu aucun tel ordre du <orgName key="o0058">Senat</orgName>, et
-          que luy <persName key="p2015">Gartside</persName> avoit souvant dit la méme chose tant qu’il en fut arrivé rien,
-          de sorte qu’il se trouva obligé de donner les marchandises à <persName key="p2012">Bell</persName>. </p>
-        <pb n="f.320v"/>
+          <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName>, comme il paroit par Sa lettre du 29.<hi rendition="#sup">e</hi> de Novembre; Il alla méme en porter l’avis à <persName key="p2232" ref="https://api.dante.gbv.de/person/c87a9f97-2808-4d2d-bb05-b72bb9b078c6">Mons[ieu]<hi rendition="#sup">r</hi> le vice Gouverneur Gurbatoff</persName>, qui disoit de n’avoir pas receu aucun tel ordre du <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName>, et
+          que luy <persName key="p2015" ref="https://api.dante.gbv.de/person/ab151eeb-0d66-48ce-a964-37ef63774123">Gartside</persName> avoit souvant dit la méme chose tant qu’il en fut arrivé rien,
+          de sorte qu’il se trouva obligé de donner les marchandises à <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName>. </p>
+        <pb n="f.320v" />
         <p> Sans plus attendre, comme il fit avant le 6.<hi rendition="#sup">e</hi> de Decembre sans
-          obliger <persName key="p2012">Bell</persName> de donner la moindre caution pour la valeur, en cas qu’il fut
-          poursuivi, de sorte que les ordres du <orgName key="o0058">Senat</orgName> arrivent trop tard.</p>
-        <p>Par la datte de toutes ces lettres il paroit indisputablement que les ordres de <persName key="p0174">Sa Majesté Czarienne</persName> arriverent à temps de <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName>,
+          obliger <persName key="p2012" ref="https://api.dante.gbv.de/person/5ed10302-834f-4a1d-b865-7e5f8c8812a5">Bell</persName> de donner la moindre caution pour la valeur, en cas qu’il fut
+          poursuivi, de sorte que les ordres du <orgName key="o0058" ref="https://api.dante.gbv.de/person/c6cc8860-02c7-4a82-99c5-d349a2da5412">Senat</orgName> arrivent trop tard.</p>
+        <p>Par la datte de toutes ces lettres il paroit indisputablement que les ordres de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Sa Majesté Czarienne</persName> arriverent à temps de <placeName key="g0215" ref="https://www.geonames.org/3073803">Carlsbad</placeName>,
           et que leur Execution n’a manque que par la negligence ou par le dessein de personnes
           interessés.</p>
         <p>à <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName> le 8.<hi rendition="#sup">e</hi>/19. de

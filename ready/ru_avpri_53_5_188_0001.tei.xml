@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,22 +102,22 @@
     <body>
       <div type="letter">
         <head>
-          <title>7 / 18 March 1766. – Letter from <persName key="p0245">the Russian Envoy Extraordinary to Copenhagen, Baron Johann Albrecht von Korff</persName>, to <persName key="p0114">Count
+          <title>7 / 18 March 1766. – Letter from <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Russian Envoy Extraordinary to Copenhagen, Baron Johann Albrecht von Korff</persName>, to <persName key="p0114" ref="https://api.dante.gbv.de/person/e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Count
           Nikita Ivanovich Panin</persName></title><note>
             <bibl>AVPRI, fond 53, opis 5, no. 188, f. 12-13. French original.</bibl>
           </note>
         </head>
-        <pb cert="high" generatedBy="human" n="f. 12" xml:space="default"/>
+        <pb cert="high" generatedBy="human" n="f. 12" xml:space="default" />
 
         <salute>Monsieur,</salute>
 
         <p>Je ne croyois pas de parvenir sitôt à satisfaire aux demandes de Vôtre Excellence,
           qu'Elle m'avoit proposées par sa lettre du 27me Janvier, tendantes à executer la
           resolution prise d'établir un reglement stable du dëuil chés nous; puisque le departement
-          du marchallat de <orgName key="o0009">la
+          du marchallat de <orgName key="o0009" ref="https://api.dante.gbv.de/person/62f4a0a0-914d-43df-89d9-be5aaf841973">la
             cour</orgName>, dont des pareilles informations doivent se tirer, est à l'heure qu'il
-          est très occupé de tous les objets, qui regardent l'enterrement du <persName key="p0341">feu
-          Roi</persName>. C'est <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0869" xml:space="default">Monsieur le grand
+          est très occupé de tous les objets, qui regardent l'enterrement du <persName key="p0341" ref="https://api.dante.gbv.de/person/4d48b5ce-8760-4799-ac34-6311fd246479">feu
+          Roi</persName>. C'est <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0869" xml:space="default" ref="https://api.dante.gbv.de/person/3ffb2d0b-d44a-42ab-bea6-08febc62ef4e">Monsieur le grand
           maréchal comte de Moltke</persName>, à qui je dois l'avantage d'être en êtat de
           communiquer à Vôtre Excellence les pièces ci jointes, qui se rapportent à toutes façons de
           dëuil, qui sont ici en usage. </p>
@@ -124,7 +125,7 @@
           mette seulement
           à l'occasion du
         </p>
-        <pb cert="high" n="f. 12v" xml:space="default"/>
+        <pb cert="high" n="f. 12v" xml:space="default" />
         <p>decés d'un Roi de Dannemarc. Elle se réfere de ce qui concerne celui des Reines, Princes
           héréditaires, d'autres Princes et Princesses, comme aussi les Princes du sang; à
           l'ordonance Sub
@@ -137,7 +138,7 @@
         </p>
         <p>Cette même ordonance doit aussi servir d'une pragmatique à tous les sûjêts des Etats du
           Roi.</p>
-        <p>Celle Sub Lit: B: regarde le deuil des sûjêts à l'occasion du decés du <persName key="p0341">Roi
+        <p>Celle Sub Lit: B: regarde le deuil des sûjêts à l'occasion du decés du <persName key="p0341" ref="https://api.dante.gbv.de/person/4d48b5ce-8760-4799-ac34-6311fd246479">Roi
             Federic V
           </persName> publiée le 16. Janvier 1766. </p>
         <p>J'ai l'honneur d'être avec la consideration la plus distinguée,</p>
@@ -151,8 +152,8 @@
           </date>
           <date>ce 7. / 18. mars 1766.</date>
           <signed>
-            <persName key="p0245">Jean Albert Korff</persName>
-            <pb cert="high" n="f. 13" xml:space="default"/>
+            <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Jean Albert Korff</persName>
+            <pb cert="high" n="f. 13" xml:space="default" />
           </signed>
         </closer>
         <postscript>

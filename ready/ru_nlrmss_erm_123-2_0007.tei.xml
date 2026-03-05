@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,9 +106,9 @@
     <body>
       <div type="letter">
         <head>
-          <title> 11/22 April 1726. – [Letter from<persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Consul in Cadiz, Prince Ivan
+          <title> 11/22 April 1726. – [Letter from<persName key="p0220" ref="https://api.dante.gbv.de/person/3246c251-a0fd-44f4-b6fd-3a306dd0c117"> the Russian Consul in Cadiz, Prince Ivan
             Andreevich Shcherbatov</persName>,] from <placeName key="g0037" ref="https://www.geonames.org/2510911">
-              Seville</placeName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2372" xml:space="default">Mr
+              Seville</placeName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2372" xml:space="default" ref="https://api.dante.gbv.de/person/e095c28e-958d-46fd-bb23-da32b2850484">Mr
             Lemny</persName> to <placeName key="g0067" ref="https://www.geonames.org/2520600">
               Cadiz </placeName>written on 11/22 April 1726,
             [sent] by post</title>
@@ -116,9 +117,9 @@
           </note>
         </head>
         
-        <pb n="f. 67"/>
+        <pb n="f. 67" />
         
-        <p>В <placeName key="g0067" ref="https://www.geonames.org/2520600">Кадиксе</placeName> к господину <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2372" xml:space="default">Лемнию</persName>
+        <p>В <placeName key="g0067" ref="https://www.geonames.org/2520600">Кадиксе</placeName> к господину <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2372" xml:space="default" ref="https://api.dante.gbv.de/person/e095c28e-958d-46fd-bb23-da32b2850484">Лемнию</persName>
           из <placeName key="g0037" ref="https://www.geonames.org/2510911">Севилии</placeName> от 11/22 апреля 1726 писано чрез почту.</p>
         <p>Vos honnêteté et Politesse que j’ay éprouvé pendant mon sejour à <placeName key="g0067" ref="https://www.geonames.org/2520600">
           Cadix</placeName> de vôtre part et de Madame vôtre Epouse et de toute vôtre famille,
@@ -128,10 +129,10 @@
           mais comme nous arrivâmes hier trop tard pour écrire, ainsi j’espère que vous nous le
           pardonnerez n’étant pas cela [sic] par negligence. Je suis très-parfaitement etc.</p>
         
-        <pb n="f. 67v"/>
-        <p> PS : J’ay grâce à vous demander c’est d’asseurer de mes respects <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2372" xml:space="default">Madame
-          vôtre épouse</persName> et Mademoiselles vos filles. Mes complimens à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2373" xml:space="default">Messieurs Macé</persName>, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2374" xml:space="default">Fortie</persName>, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2375" xml:space="default">d’Avo</persName> et <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2376" xml:space="default">Casabanne</persName> et à nôtre
-          ami commun <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2377" xml:space="default">Mr Soulard</persName>.</p>
+        <pb n="f. 67v" />
+        <p> PS : J’ay grâce à vous demander c’est d’asseurer de mes respects <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2372" xml:space="default" ref="https://api.dante.gbv.de/person/e095c28e-958d-46fd-bb23-da32b2850484">Madame
+          vôtre épouse</persName> et Mademoiselles vos filles. Mes complimens à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2373" xml:space="default" ref="https://api.dante.gbv.de/person/60605749-566c-46c9-a238-d4c52b625ff6">Messieurs Macé</persName>, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2374" xml:space="default" ref="https://api.dante.gbv.de/person/a745d406-14ae-4bcc-acd8-8b4a02459dae">Fortie</persName>, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2375" xml:space="default" ref="https://api.dante.gbv.de/person/345b8817-6dec-4c9d-8d15-a38c59e44b51">d’Avo</persName> et <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2376" xml:space="default" ref="https://api.dante.gbv.de/person/852311d2-293b-4e94-9096-41ac0b8e8a15">Casabanne</persName> et à nôtre
+          ami commun <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2377" xml:space="default" ref="https://api.dante.gbv.de/person/377190f9-ae68-4175-a377-06fecb12c9d4">Mr Soulard</persName>.</p>
       </div>
     </body>
   </text>

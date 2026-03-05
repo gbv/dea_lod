@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,8 +103,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>17 April 1733. – Letter from <persName key="p0164" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">State Secretary for the
-              Northern Department, William Stanhope, Baron Harrington</persName>, to <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident in Great
+          <title>17 April 1733. – Letter from <persName key="p0164" ref="https://api.dante.gbv.de/person/2987dbc9-224f-48ce-8ead-8ae5f0b1354f">State Secretary for the
+              Northern Department, William Stanhope, Baron Harrington</persName>, to <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Resident in Great
             Britain, Prince Antiochus Cantemir</persName>
           </title>
           <note>
@@ -111,9 +112,9 @@
           </note>
         </head>
 
-        <pb n="f. 146"/>
+        <pb n="f. 146" />
 
-        <p>A <placeName key="g0003" ref="https://www.geonames.org/2643743"><orgName key="o0155">Whitehall</orgName></placeName> ce
+        <p>A <placeName key="g0003" ref="https://www.geonames.org/2643743"><orgName key="o0155" ref="https://api.dante.gbv.de/person/0c4b4ebd-893f-48ad-a670-6e022220a3e0">Whitehall</orgName></placeName> ce
           17 : d’avril 1733</p>
         <p>Monsieur</p>
         <p>J’ay êté trés faché d’apprendre l’accident qui est survenu à un de vos Domestiques ; et
@@ -126,7 +127,7 @@
           follows.</note>
         </p>
         <p>
-          <persName key="p0164" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f" type="signature">Harrington</persName>
+          <persName key="p0164" type="signature" ref="https://api.dante.gbv.de/person/2987dbc9-224f-48ce-8ead-8ae5f0b1354f">Harrington</persName>
         </p>
       </div>
     </body>

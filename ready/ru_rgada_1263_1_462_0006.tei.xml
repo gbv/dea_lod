@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,8 +104,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>17 January 1772. – Letter from <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
-            Mikhailovich Golitsyn,</persName> to <persName key="p0059" ref="6e71ba22-a720-4028-8f55-a54e89703310">Frederick Erdmann Prince of
+          <title>17 January 1772. – Letter from <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn,</persName> to <persName key="p0059" ref="https://api.dante.gbv.de/person/6e71ba22-a720-4028-8f55-a54e89703310">Frederick Erdmann Prince of
             Anhalt-Koethen-Pless</persName>
           </title>
           <note>
@@ -112,20 +113,20 @@
           </note>
         </head>
 
-        <pb n="f. 8"/>
+        <pb n="f. 8" />
         
         <p>Monseigneur,</p>
-        <p>Le même jour que je reçus la lettre que Vous m’avez fait l’honneur de m’écrire le 12. Xb<hi rendition="#sup">re</hi>, j’ai eû celui de présenter à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">l'Impératrice </persName>l’incluse qui s’y
-          trouvoit jointe pour <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa
+        <p>Le même jour que je reçus la lettre que Vous m’avez fait l’honneur de m’écrire le 12. Xb<hi rendition="#sup">re</hi>, j’ai eû celui de présenter à <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">l'Impératrice </persName>l’incluse qui s’y
+          trouvoit jointe pour <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa
           Majesté</persName>.</p>
         <p>Je Vous adresse Sa réponse dans ce paquet, et je serois bien aise, Monseigneur, si je
-          pouvois Vous en donner aussi de satisfaisante par rapport à l’ordre de S<hi rendition="#sup">te </hi>Cathérine que Vous souhaitez d’obtenir pour <persName key="p0092" ref="2f78a155-3817-4816-95d2-568f5d6baeda">Madame la Princesse Votre Epouse</persName>.
-          Votre Altesse n’ayant pas voulu en faire</p><p><note>note in the lower left margin</note> à <persName key="p0059">S.A. Msr le Pce Frederic d’Anhalt Coethen</persName>
+          pouvois Vous en donner aussi de satisfaisante par rapport à l’ordre de S<hi rendition="#sup">te </hi>Cathérine que Vous souhaitez d’obtenir pour <persName key="p0092" ref="https://api.dante.gbv.de/person/2f78a155-3817-4816-95d2-568f5d6baeda">Madame la Princesse Votre Epouse</persName>.
+          Votre Altesse n’ayant pas voulu en faire</p><p><note>note in the lower left margin</note> à <persName key="p0059" ref="https://api.dante.gbv.de/person/6e71ba22-a720-4028-8f55-a54e89703310">S.A. Msr le Pce Frederic d’Anhalt Coethen</persName>
         </p>
-        <pb n="f. 8v"/>
-        <p> la demande directe à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">
+        <pb n="f. 8v" />
+        <p> la demande directe à <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">
           L’Imperatrice</persName>, je n’attends qu’une occasion favorable pour donner à connoître
-          Votre désir à <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName>.
+          Votre désir à <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté</persName>.
           Au reste Votre Altesse voudra bien agréer mes voeux sincéres pour le commencement de
           l’année et mes très-humbles remercimens de ceux que Vous avez eû la bonté de me faire à la
           même occasion. Ils répondent à mes sentimens distingués pour Votre Altesse et embrassent
@@ -138,7 +139,7 @@
           <hi rendition="#s">Le très humble &amp; très obeissant serviteur</hi>
         </p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0065" xml:space="default" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb" type="signature"><hi cert="high" generatedBy="human" rendition="#s" xml:space="default">Pr[ince] A Galitzin</hi></persName> .
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0065" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb"><hi cert="high" generatedBy="human" rendition="#s" xml:space="default">Pr[ince] A Galitzin</hi></persName> .
         </p>
         <p>
           <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersbourg</placeName>

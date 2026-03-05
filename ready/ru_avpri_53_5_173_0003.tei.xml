@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,22 +103,22 @@
     <body>
       <div type="letter">
         <head>
-          <title>13 April 1765. – First letter from <persName key="p2302">the French Ambassador [to the Danish court, Jean-François
-              Ogier</persName>, to <persName key="p0245">the Russian Envoy Extraordinary to Denmark, Baron Johann Albrecht von Korff</persName>]</title>
+          <title>13 April 1765. – First letter from <persName key="p2302" ref="https://api.dante.gbv.de/person/7445acc7-a8d9-4b70-aa71-d2809ce095fe">the French Ambassador [to the Danish court, Jean-François
+              Ogier</persName>, to <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Russian Envoy Extraordinary to Denmark, Baron Johann Albrecht von Korff</persName>]</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 173, f. 137-137v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 137"/>
+        <pb n="f. 137" />
         <p>Copie</p>
         <p>№III</p>
-        <p>La premiere Lettre de <persName key="p2302">Mr. l’ambassadeur de France</persName>.</p>
-        <p/>
+        <p>La premiere Lettre de <persName key="p2302" ref="https://api.dante.gbv.de/person/7445acc7-a8d9-4b70-aa71-d2809ce095fe">Mr. l’ambassadeur de France</persName>.</p>
+        <p />
         <p>Monsieur,</p>
-        <p/>
+        <p />
         <p>J’ai reçu la lettre, que vous m’avés fait l’honneur de m’écrire le 11<hi rendition="#sup">
           me</hi> de ce mois, et le mémoire qui y étoit joint, contenant les deux articles de
-          plaintes qu’un de vos domestiques vous a porté contre un homme de <persName key="p2213">ma livrée</persName>.</p>
+          plaintes qu’un de vos domestiques vous a porté contre un homme de <persName key="p2213" ref="https://api.dante.gbv.de/person/9e7ae1a2-a760-402e-831f-a864367df9f5">ma livrée</persName>.</p>
         <p>Je n’ai pas differé, Monsieur, de prendre les mesures convenables pour verifier et
           constater les faits dont vôtre domestique se plaint. Sur la communication que j’ai donnée
           au mien des faits dont le vôtre l’accuse, je n’ai pas pû me dispenser de reçevoir de sa
@@ -126,12 +127,12 @@
           verifié les principaux faits de maniere à m’autôriser à ajouter foi à leur exposé, même en
           entendant des temoins dignes de confiance.</p>
         <p>J’étois instruit d’une partie de ces faits : vous trouverés dans le détail de quelques
-          uns d’entre eux, que j’aurois été autorisé à vous porter des plaintes ameres contre cet <persName key="p2212">André Richter</persName>, qui s’oublie au point d’insulter mes gens jusques
+          uns d’entre eux, que j’aurois été autorisé à vous porter des plaintes ameres contre cet <persName key="p2212" ref="https://api.dante.gbv.de/person/76813212-6f1a-40a4-9086-d6d59b173429">André Richter</persName>, qui s’oublie au point d’insulter mes gens jusques
           dans les maisons oû nous nous trouvons vous et moi ; mais j’ai mieux aimé méprisé ces
           faits, les regarder comme des querelles que des gens de livrée ont entre eux, ésperer que
           vôtre domestique reconnoîtroit ses torts et éviteroit d’y retomber, que d’avoir à vous en
           informer et de contribuer au malheur d’un homme de cette espèce, qu’un interêt injuste</p>
-        <pb n="f. 137v"/>
+        <pb n="f. 137v" />
         <p>ou une
           passion malheureuse aveugle et seduit.</p>
         <p>J’éspère qu’aprés la lecture du mémoire, que je joint ici et l’assurance que je vous
@@ -139,7 +140,7 @@
           reconnoîtrés de quelle part sont les torts, de quelle part la reparation seroit duë ; Et
           que sans punir le coupable, pour lequel je vous demande grace, vous voudrés bien
           interposer vôtre autorité sur le domestique coupable, de façon à mettre mes gens de livrée
-          à l’abri des insultes aux quelles <persName key="p2213">mon domestique</persName> a été si souvent exposé de la
+          à l’abri des insultes aux quelles <persName key="p2213" ref="https://api.dante.gbv.de/person/9e7ae1a2-a760-402e-831f-a864367df9f5">mon domestique</persName> a été si souvent exposé de la
           part de celui des vôtres qui a hazardé de vous porter des plaintes, que la prudence auroit
           dû le porter à supprimer.</p>
         <p>Je suis charmé au sur plus, monsieur, que vous connoissié, assés mes sentiments, pour
@@ -151,8 +152,8 @@
           <salute>Monsieur</salute>
           <salute>vôtre trés humble et trés obeissant </salute>
           <salute>serviteur</salute>
-          <persName key="p2302">Ogier</persName>.
-          <lb/>
+          <persName key="p2302" ref="https://api.dante.gbv.de/person/7445acc7-a8d9-4b70-aa71-d2809ce095fe">Ogier</persName>.
+          <lb />
           <dateline>À <placeName key="g0006">copenhague</placeName> ce <date when="1765-04-13">13
             avril 1765</date>./ </dateline>
         </closer>

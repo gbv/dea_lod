@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -110,35 +108,35 @@
     <body>
       <div type="letter">
         <head>
-          <title>[November 1714]. – Copy of the letter from <persName key="p0167">the secretary [Heinrich Johann Friedrich] Osterman</persName> to <persName key="p1338">Mister [George] Mackenzie</persName>, concerning the Memorial,
-            which the latter had just presented to <persName key="p0494">the Prime Minister of His Czarish Majesty Baron [Petr Pavlovich] Shafirov</persName></title>
+          <title>[November 1714]. – Copy of the letter from <persName key="p0167" ref="https://api.dante.gbv.de/person/e775831f-5c08-4dad-87e5-6714fcf5bb2a">the secretary [Heinrich Johann Friedrich] Osterman</persName> to <persName key="p1338" ref="https://api.dante.gbv.de/person/b9e782df-b62d-4b61-a965-2a1e9385033e">Mister [George] Mackenzie</persName>, concerning the Memorial,
+            which the latter had just presented to <persName key="p0494" ref="https://api.dante.gbv.de/person/73524c8b-20f0-4e11-abbd-ca70791d9df9">the Prime Minister of His Czarish Majesty Baron [Petr Pavlovich] Shafirov</persName></title>
           <note>
             <bibl>TNA Kew, Russia, no. SP 91-8, f. 71. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 71"/>
-        <p>La copie d’une lettre de <persName key="p0167">Mons[ieu]<hi rendition="#sup">r</hi> le Secretaire Osterman</persName></p>
-        <p>à <persName key="p1338">Mons[ieu]<hi rendition="#sup">r</hi> Mackenzie</persName> touchant le
+        <pb n="f. 71" />
+        <p>La copie d’une lettre de <persName key="p0167" ref="https://api.dante.gbv.de/person/e775831f-5c08-4dad-87e5-6714fcf5bb2a">Mons[ieu]<hi rendition="#sup">r</hi> le Secretaire Osterman</persName></p>
+        <p>à <persName key="p1338" ref="https://api.dante.gbv.de/person/b9e782df-b62d-4b61-a965-2a1e9385033e">Mons[ieu]<hi rendition="#sup">r</hi> Mackenzie</persName> touchant le
           Memoire,</p>
-        <p>que le dernier ne venoit que de presenter au <persName key="p0167">P[remie]<hi rendition="#sup">r</hi> Ministre de S[a] M[ajesté] Czarienne le Baron de Shappiroff</persName></p>
+        <p>que le dernier ne venoit que de presenter au <persName key="p0167" ref="https://api.dante.gbv.de/person/e775831f-5c08-4dad-87e5-6714fcf5bb2a">P[remie]<hi rendition="#sup">r</hi> Ministre de S[a] M[ajesté] Czarienne le Baron de Shappiroff</persName></p>
         
-        <p/>
+        <p />
         <p>Je n’ay pas manqué de faire très humblement rapport au Ministère de Sa Majesté Czarienne
           du contenu de Votre Memorial, Leurs Excellences ont aussi declaré, qu’Ils tacheront de
           vous faire donner toutes Satisfactions sur les griefs dont vous venez de vous plaindre;
-          et puisque pour de certaines Affaires dont <persName key="p0174">S[a] Majesté</persName> m’à chargé, Je ne puis
+          et puisque pour de certaines Affaires dont <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] Majesté</persName> m’à chargé, Je ne puis
           pas aujourd’hui profiter de l’honneur que Vous voir chez Moi, Je vous en demande très
           humblement pardon, et Je vous prie de me faire savoir, si je puis avoir l’occasion de vous
           voir ce soir encore chez vous, et à quelle heure vous commandés que Je m’ÿ rendray.
           J’attendray l’honneur de Vos Ordres, J’assure que Je seray toute ma vie avec toute la
           consideration [du] monde.</p>
-        <p/>
+        <p />
         <p>Monsieur</p>
         <p>Vôtre très humble et très obéissant Serviteur</p>
-        <p><persName key="p0167">HI.Osterman</persName></p>
-        <p/>
-        <p>N.B. C’est ce <persName key="p0167">Mons[ieu]<hi rendition="#sup">r </hi>Osterman</persName>, qui traduit les
-          Memoires etc: en langue Russienne pour <persName key="p0174">S[a] M[ajesté] Czarienne</persName>.</p>
+        <p><persName key="p0167" ref="https://api.dante.gbv.de/person/e775831f-5c08-4dad-87e5-6714fcf5bb2a">HI.Osterman</persName></p>
+        <p />
+        <p>N.B. C’est ce <persName key="p0167" ref="https://api.dante.gbv.de/person/e775831f-5c08-4dad-87e5-6714fcf5bb2a">Mons[ieu]<hi rendition="#sup">r </hi>Osterman</persName>, qui traduit les
+          Memoires etc: en langue Russienne pour <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté] Czarienne</persName>.</p>
         
       </div>
     </body>

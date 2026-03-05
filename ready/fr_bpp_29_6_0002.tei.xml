@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -180,10 +181,10 @@
     <body>
       <div type="letter">
         <head>
-          <title> 24 January / 4 February 1779. – Draft of the letter from <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">
+          <title> 24 January / 4 February 1779. – Draft of the letter from <persName key="p0861" ref="https://api.dante.gbv.de/person/3e86c4fc-ae64-4313-abd0-e814f75ccb82">
               the Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count
             Otto Magnus von Stackelberg</persName>,
-            to <persName key="p1016" ref="a436a85d-09d5-470b-93bd-309b752ab3c3">
+            to <persName key="p1016" ref="https://api.dante.gbv.de/person/a436a85d-09d5-470b-93bd-309b752ab3c3">
               the Marshal of Pinsk Voivodship, Józef Stanisław Kurzeniecki
             </persName>
           </title>
@@ -192,10 +193,10 @@
               Polish translation.</bibl>
           </note>
         </head>
-        <pb n="f. 1271"/>
+        <pb n="f. 1271" />
         <opener>
           <address n="recipient">
-            <addrLine> à <persName key="p1016" ref="a436a85d-09d5-470b-93bd-309b752ab3c3">
+            <addrLine> à <persName key="p1016" ref="https://api.dante.gbv.de/person/a436a85d-09d5-470b-93bd-309b752ab3c3">
                 M[onsieur] Kurzeniecki marechal de Pinsk
               </persName>
             </addrLine>
@@ -206,16 +207,16 @@
         <table>
           <row>
             <cell xml:lang="fr">
-              <p>M[onsieu]r, J’ai appris, que vous faites des difficultés d’admettre à <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="o0096">la Dietine</orgName> de votre district la noblesse greque non-unie. Comme selon le traité Elle <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">doit participer à de telles assemblées publiques</hi> est capable d’élection, le devoir de ma place m’oblige à maintenir cette Prerogative, qui lui est accordée, et je vous prie, monsieur, de ne pas lui disputer ni laisser disputer par d’autres la participation à votre <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0096" xml:space="default">Dietine</orgName>. En cas de contraire je serai obligé d’en porter formellement mes plaintes.</p>
+              <p>M[onsieu]r, J’ai appris, que vous faites des difficultés d’admettre à <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="o0096" ref="https://api.dante.gbv.de/person/67c7d388-ff4b-495e-b44d-85773d7aeb3c">la Dietine</orgName> de votre district la noblesse greque non-unie. Comme selon le traité Elle <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">doit participer à de telles assemblées publiques</hi> est capable d’élection, le devoir de ma place m’oblige à maintenir cette Prerogative, qui lui est accordée, et je vous prie, monsieur, de ne pas lui disputer ni laisser disputer par d’autres la participation à votre <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0096" xml:space="default" ref="https://api.dante.gbv.de/person/67c7d388-ff4b-495e-b44d-85773d7aeb3c">Dietine</orgName>. En cas de contraire je serai obligé d’en porter formellement mes plaintes.</p>
               <p>
               Je suis etc.</p>
               <p> 
-              Remise à <persName key="p0792">Mad[ame] Oginska Gr[an]de Gen[érale] de Lithuanie</persName>.</p>
+              Remise à <persName key="p0792" ref="https://api.dante.gbv.de/person/53799746-1e35-4941-90f2-85acf7c66c35">Mad[ame] Oginska Gr[an]de Gen[érale] de Lithuanie</persName>.</p>
               
             </cell> 
             <cell xml:lang="pl">
               <p>Monsieur,</p>
-              <p>Dowedziałem się ze W[aszeć] W[ielmożny] P[an] Dobr[odziej] czynisz zatrudnienia w dopuszczeniu na <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0096" xml:space="default">Seymik</orgName> Powiatu swego szlachty Religii Greckiey nieunickiey. A jako ta szlachta podług traktatu <hi cert="high" generatedBy="human" xml:space="default" rendition="#s">powinna capax jest wchodzenia w deliberacye mieć nezestnictwo w takowych obradach publicznych</hi> jest capax electionis, więc z urzędu mego obstawam za tę jej Prerogatywę, y, upraszam W[aszeć] W[ielmożnego] Pana a żeby przytem jey oney szlachcie na <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">Seymikach</hi> <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0096" xml:space="default">Seymiku swoim</orgName> nie tamował, ani dopuszczał żeby drudzy jey tamowali; w przeciwnym zaś trafunku będę przymuszonym formalne moie o to zanieść skargi.
+              <p>Dowedziałem się ze W[aszeć] W[ielmożny] P[an] Dobr[odziej] czynisz zatrudnienia w dopuszczeniu na <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0096" xml:space="default" ref="https://api.dante.gbv.de/person/67c7d388-ff4b-495e-b44d-85773d7aeb3c">Seymik</orgName> Powiatu swego szlachty Religii Greckiey nieunickiey. A jako ta szlachta podług traktatu <hi cert="high" generatedBy="human" xml:space="default" rendition="#s">powinna capax jest wchodzenia w deliberacye mieć nezestnictwo w takowych obradach publicznych</hi> jest capax electionis, więc z urzędu mego obstawam za tę jej Prerogatywę, y, upraszam W[aszeć] W[ielmożnego] Pana a żeby przytem jey oney szlachcie na <hi cert="high" generatedBy="human" rendition="#s" xml:space="default">Seymikach</hi> <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0096" xml:space="default" ref="https://api.dante.gbv.de/person/67c7d388-ff4b-495e-b44d-85773d7aeb3c">Seymiku swoim</orgName> nie tamował, ani dopuszczał żeby drudzy jey tamowali; w przeciwnym zaś trafunku będę przymuszonym formalne moie o to zanieść skargi.
             </p>
             <p>Mam honor pisać się z powinnym uszanowaniem.</p>
           </cell>

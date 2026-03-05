@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,26 +102,26 @@
     <body>
       <div type="letter">
         <head>
-          <title>30 December 1755. – Letter from <persName key="p0045" ref="bb54ec21-525f-414d-a156-7d5a95e547e1">the Secretary of the Dutch Ambassador to the Saxon court, Jan Carel Des Bordes</persName>, to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>30 December 1755. – Letter from <persName key="p0045" ref="https://api.dante.gbv.de/person/bb54ec21-525f-414d-a156-7d5a95e547e1">the Secretary of the Dutch Ambassador to the Saxon court, Jan Carel Des Bordes</persName>, to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">the Russian Envoy Extraordinary to London, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 600, f. 1-1v. French original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         
         <p><note>[in the upper margin:] rep[ondu] le 9 Janv[ie]<hi rend="#sup">r</hi> </note></p>
         <p>Monseigneur</p>
         <p>Dans un tems ou chacun s’empresse a se donner des temoignages vrays ou simulés des sentimens les plus attachés et les plus sinceres, je vous supplie de ne point confondre ceux que je renouvelle pour vous dans cette occasion. Mon compliment de bonne année n’a rien de la coutume; l’attachement le plus respectueux en fait le motif. Vous jugerez par la aisement Monseigneur de l’ettenduë et de la sincerité de mes voeux. Daignéz les aggréer. La bonté et l’affabilité avec lesquelles vous avez bien voulû recevoir la lettre que j’ai pris la liberté de vous ecrire, me sont de leur garands que celle cy aura le même acceuil. </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <p> que ne puis-je être a porté de vous faire ma cour et vous donner sans cesse des preuves des sentimens les plus respectueux et les plus distingués avec lesquells j’ai l’honneur d’être</p>
         <p>Monseigneur</p>
         <p>De Votre Altesse</p>
         <p>Le tres humble et tres </p>
         <p>Obbeissant serviteur etc…</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0045" xml:space="default" ref="bb54ec21-525f-414d-a156-7d5a95e547e1" type="signature">Des Bordes</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0045" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/bb54ec21-525f-414d-a156-7d5a95e547e1">Des Bordes</persName>
         </p>
         <p>à <placeName key="g0025" ref="https://www.geonames.org/2751283">Mastricht</placeName> le 30. X<hi rendition="#sup">bre</hi> 1755</p>
         <p>Je suis toujours le plus malheureux des hommes, mon seul espoir est dans la guerre </p>

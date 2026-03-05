@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -179,23 +180,23 @@
     <body>
       <div type="letter">
         <head>
-          <title>22 December 1770. – Circular from <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default">the Foreign Department of the Kingdom of Denmark</orgName> to <persName key="p0569">the Russian Chargé d’Affairs in Denmark, Baron Johann von Mestmacher</persName>, on the appointment of a new Foreign Minister</title>
+          <title>22 December 1770. – Circular from <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0126" xml:space="default" ref="https://api.dante.gbv.de/person/bf00857c-fc22-413f-aafc-9a19a72e948d">the Foreign Department of the Kingdom of Denmark</orgName> to <persName key="p0569" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">the Russian Chargé d’Affairs in Denmark, Baron Johann von Mestmacher</persName>, on the appointment of a new Foreign Minister</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 240, f. 70. French original</bibl>
           </note>
         </head>
-        <pb n="f. 70"/>
+        <pb n="f. 70" />
         <p>Note</p>
-        <p><persName key="p0868">Le Roi</persName> venant de nommer <persName key="p1516">M[onsieu]r le Comte d’Osten Son</persName>, conseiller privé et Ministre du
-          Departement des Affaires étrangères, on a l’honneur d’en informer <persName key="p0569">le Chargé des affaires de Sa Majesté Imperiale de toutes les Russies M[onsieu]r de Mestmacher</persName>, et de l’avertir,
+        <p><persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">Le Roi</persName> venant de nommer <persName key="p1516" ref="https://api.dante.gbv.de/person/1e795d33-c70c-4288-85de-878d06353c0a">M[onsieu]r le Comte d’Osten Son</persName>, conseiller privé et Ministre du
+          Departement des Affaires étrangères, on a l’honneur d’en informer <persName key="p0569" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">le Chargé des affaires de Sa Majesté Imperiale de toutes les Russies M[onsieu]r de Mestmacher</persName>, et de l’avertir,
           que ce sera à ce Ministre, qu’il aura dorenavant à s’adresser.</p>
         <p>Du bureau des Affaires étrangères à <placeName key="g0006" ref="https://geonames.org/2618425">Coppenhague</placeName> le 22. Decembre 1770.</p>
-        <p><persName key="p1549">[Marx Johan] Ehlers</persName>. <persName key="p1550">[Christian Frederik] Temler</persName>.
-          <persName key="p1551">[Halfrig Peter] Sturtz</persName>.</p>
-        <p/>
-        <p><persName key="p0569">À M[onsieu]r de Mestmacher chargé des</persName> </p>
-        <p><persName key="p0569">affaires de Sa M[ajes]té Imp[éria]le de toutes</persName></p>
-        <p><persName key="p0569">les Russies</persName>, près <persName key="p0868">le Roi</persName>.</p>
+        <p><persName key="p1549" ref="https://api.dante.gbv.de/person/cb525666-db6f-4e2c-885a-91e094591092">[Marx Johan] Ehlers</persName>. <persName key="p1550" ref="https://api.dante.gbv.de/person/ec57c10b-1649-450e-903a-74b0550127ed">[Christian Frederik] Temler</persName>.
+          <persName key="p1551" ref="https://api.dante.gbv.de/person/945feb07-71da-4f5c-8f74-98b11c82a55d">[Halfrig Peter] Sturtz</persName>.</p>
+        <p />
+        <p><persName key="p0569" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">À M[onsieu]r de Mestmacher chargé des</persName> </p>
+        <p><persName key="p0569" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">affaires de Sa M[ajes]té Imp[éria]le de toutes</persName></p>
+        <p><persName key="p0569" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">les Russies</persName>, près <persName key="p0868" ref="https://api.dante.gbv.de/person/f57f6286-6aad-45b2-ad97-5531d9bcbf76">le Roi</persName>.</p>
         <noteGrp>
           <note rendition="#b">Also see:</note>
           <note>ru_avrpi_53_5_240_0001</note>

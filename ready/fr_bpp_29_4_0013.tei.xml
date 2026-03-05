@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,8 +104,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>27 August 1784. – Letter from <persName key="p0893" ref="6a68c12a-8133-4e0e-9edc-c4ad60b686ad">the 2nd member of the College of Foreign
-            Affairs, Count Aleksandr Andreevich Bezborodko</persName>, to <persName key="p0861" ref="3e86c4fc-ae64-4313-abd0-e814f75ccb82">the
+          <title>27 August 1784. – Letter from <persName key="p0893" ref="https://api.dante.gbv.de/person/6a68c12a-8133-4e0e-9edc-c4ad60b686ad">the 2nd member of the College of Foreign
+            Affairs, Count Aleksandr Andreevich Bezborodko</persName>, to <persName key="p0861" ref="https://api.dante.gbv.de/person/3e86c4fc-ae64-4313-abd0-e814f75ccb82">the
             Ambassador Extraordinary of Russia to the Polish-Lithuanian Commonwealth, Count Otto
             Magnus von Stackelberg</persName>
           </title>
@@ -113,22 +114,22 @@
           </note>
         </head>
         
-        <pb n="f. 989"/>
-        <p/>
+        <pb n="f. 989" />
+        <p />
         <p>Милостивый государь мой,</p>
-        <p>Господин генерал-порутчик и сенатор <persName key="p1047">Иван Львович Чернышев</persName>
-          по соизволению <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея
+        <p>Господин генерал-порутчик и сенатор <persName key="p1047" ref="https://api.dante.gbv.de/person/f8681562-1cdb-410f-a247-90391e0b4e7f">Иван Львович Чернышев</persName>
+          по соизволению <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея
           Императорскаго Величества</persName> решился сам поехать в <placeName key="g0264" ref="https://www.geonames.org/627904">Гродно</placeName>
           для приведения однажды к окончанию изученнаго его дела под руководством и пособиеми вашим.
           Я непреминул, милостивый государь мой, изъяснить ему все то что Ваше Сиятельство
-          относительно состояния дела его <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величеству</persName> доносить изволили, и
+          относительно состояния дела его <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величеству</persName> доносить изволили, и
           притом уверял его что вы изволите самым точным образом исполнять монаршую волю и охранять
           покой сограждан ваших[.] Неоставьте подать ему всевозможное пособие, и особливо есть ли
           требования его будут умеренны, и ежели он </p>
-        <pb n="f. 990"/>
+        <pb n="f. 990" />
         <p> подастся на какое либо снисхождение, которое впрочем и для него [будет ?] не обидно. Сие
-          самое после подтверждено ему было и от <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величества</persName>. По усердию моему к
-          вам, милостивый государь мой, немогу умолчать, чтоб несообщить Вашему Сиятельству, что <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величество</persName> обещав
+          самое после подтверждено ему было и от <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величества</persName>. По усердию моему к
+          вам, милостивый государь мой, немогу умолчать, чтоб несообщить Вашему Сиятельству, что <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Величество</persName> обещав
           сильное заступление свое по сему делу совершенно довольна будет когда посредством вашим
           дело сие прекратится, и новые по нему прошения отвращены будут. Пребуду навсегда с
           отличным почтением</p>
@@ -136,7 +137,7 @@
         <p>Вашего Сиятельства</p>
         <p>всепокорнейший и всепослушнейший слуга</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0893" xml:space="default" type="signature">Александр Безбородко</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0893" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/6a68c12a-8133-4e0e-9edc-c4ad60b686ad">Александр Безбородко</persName>
         </p>
         <p>В <placeName key="g0192" ref="https://www.geonames.org/504003">Царском Селе</placeName>,</p>
         <p>Августа 27. 1784</p>

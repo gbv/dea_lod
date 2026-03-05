@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,18 +105,18 @@
     <body>
       <div type="letter">
         <head>
-          <title>21 June 1731. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
-            Ottoman Porte, Prince Ivan Andreevich Shcherbatov,]</persName> to <persName key="p0329">[the German merchant,] Herman Meyer,</persName> written in <placeName key="g0001" ref="https://www.geonames.org/524894">Moscow</placeName> on 21 June 1731</title>
+          <title>21 June 1731. – [Letter from <persName key="p0220" ref="https://api.dante.gbv.de/person/3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Envoy Extraordinary to the
+            Ottoman Porte, Prince Ivan Andreevich Shcherbatov,]</persName> to <persName key="p0329" ref="https://api.dante.gbv.de/person/2f211835-58b1-4a58-8e71-d1d10cd854dc">[the German merchant,] Herman Meyer,</persName> written in <placeName key="g0001" ref="https://www.geonames.org/524894">Moscow</placeName> on 21 June 1731</title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 135v-136. Copy of the English original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 135v"/>
-        <p>В <placeName key="g0001" ref="https://www.geonames.org/524894">Москве</placeName> от 21го июня 1731 году к <persName key="p0329">Герману Меэру</persName> писано</p>
-        <p>I send to you an opened Letter to <persName key="p0330" ref="3293fc58-87c8-446c-99af-c5f7dcc863a4">mr. Ertman</persName> Resident in <placeName key="g0014" ref="https://www.geonames.org/3099434">Dantzig</placeName>, by which you may see </p>
-        <pb n="f. 136"/>
-        <p> my Desire that you would be so kind as to encharge some of your Correspondent in <placeName key="g0014" ref="https://www.geonames.org/3099434">Dantzig</placeName> to reçieve from <persName key="p0330" ref="3293fc58-87c8-446c-99af-c5f7dcc863a4">mr: Ertman</persName> a Poste Calashe that I
+        <pb n="f. 135v" />
+        <p>В <placeName key="g0001" ref="https://www.geonames.org/524894">Москве</placeName> от 21го июня 1731 году к <persName key="p0329" ref="https://api.dante.gbv.de/person/2f211835-58b1-4a58-8e71-d1d10cd854dc">Герману Меэру</persName> писано</p>
+        <p>I send to you an opened Letter to <persName key="p0330" ref="https://api.dante.gbv.de/person/3293fc58-87c8-446c-99af-c5f7dcc863a4">mr. Ertman</persName> Resident in <placeName key="g0014" ref="https://www.geonames.org/3099434">Dantzig</placeName>, by which you may see </p>
+        <pb n="f. 136" />
+        <p> my Desire that you would be so kind as to encharge some of your Correspondent in <placeName key="g0014" ref="https://www.geonames.org/3099434">Dantzig</placeName> to reçieve from <persName key="p0330" ref="https://api.dante.gbv.de/person/3293fc58-87c8-446c-99af-c5f7dcc863a4">mr: Ertman</persName> a Poste Calashe that I
           Left in his house, or money for the same as many as he’ll give to your Correspondent. In
           the mean time I doe beseeche you to rite [sic!] to the said your Correspondent that he
           should send the above mentioned Calashe by the first ship to <placeName key="g0015" ref="https://www.geonames.org/456172">Riga</placeName>

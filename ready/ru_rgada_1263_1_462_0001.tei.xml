@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,17 +102,17 @@
     <body>
       <div type="letter">
         <head>
-          <title>27 February 1786. – Letter from <persName key="p0005" ref="f1228878-0216-4a52-8c2a-909c57e70736">Adjutant General, Count Friedrich of Anhalt,</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Chief Chamberlain, Prince Aleksandr Mikhailovich Golitsyn</persName>
+          <title>27 February 1786. – Letter from <persName key="p0005" ref="https://api.dante.gbv.de/person/f1228878-0216-4a52-8c2a-909c57e70736">Adjutant General, Count Friedrich of Anhalt,</persName> to <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Chief Chamberlain, Prince Aleksandr Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 462, f. 12. French original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 12"/>
+        <pb n="f. 12" />
         
         <p>Mon Prince!</p>
-        <p>La distinction, que <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">sa majesté l'Imperatrice </persName>m’a temoigné de me
+        <p>La distinction, que <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">sa majesté l'Imperatrice </persName>m’a temoigné de me
           conferer gracieusement l’ordre de St André, m’est très precieuse et bien flatteuse.
           Toutefois, assurement, je suis bien flatté aussi, que Votre Altesse, y veut prendre tant
           de part avec tant de bonté : en vérité, j’y suis très sensible, et je vous en aurai, Mon
@@ -124,7 +125,7 @@
         <p>Le très humble et le</p>
         <p>très obeissant serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0005" xml:space="default" ref="f1228878-0216-4a52-8c2a-909c57e70736" type="signature">Frederic Comte d’Anhalt</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0005" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/f1228878-0216-4a52-8c2a-909c57e70736">Frederic Comte d’Anhalt</persName>
         </p>
         <p>
           <placeName key="g0002" ref="https://www.geonames.org/498817">Petersbourg</placeName>

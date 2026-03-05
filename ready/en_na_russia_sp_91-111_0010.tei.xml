@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -107,41 +105,41 @@
     <body>
       <div type="letter">
         <head>
-          <title>29 June / 10 July 1748. – Pro-memoria presented by the Russian Ministry to <persName key="p0776">[the Ambassador Extraordinary and Plenipotentiary of Great Britain to Russia, John Carmichael,] Earl of Hyndford</persName> 29 June 1748 in favour of <persName key="p2086">the merchant Afanasii Martov</persName></title>
+          <title>29 June / 10 July 1748. – Pro-memoria presented by the Russian Ministry to <persName key="p0776" ref="https://api.dante.gbv.de/person/155e1fea-f0c3-4522-a0a2-a32ec95e7d56">[the Ambassador Extraordinary and Plenipotentiary of Great Britain to Russia, John Carmichael,] Earl of Hyndford</persName> 29 June 1748 in favour of <persName key="p2086" ref="https://api.dante.gbv.de/person/9b0d7e5e-1dc8-4758-9e91-59326bfb3543">the merchant Afanasii Martov</persName></title>
           <note>
             <bibl>TNA Kew, Russia, no. SP 91-111, s.f. French copy.</bibl>
           </note>
         </head>
         <p>Pro memoria.</p>
-        <p><persName key="p0052">Sa Majesté Imperiale</persName> a apris avec beaucoup de plaisir &amp; de satisfaction par
-          les raports du <persName key="p1440">Comte de Czernichew</persName>, son Ministre auprès de <persName key="p0063">Sa Majesté le Roi de la Grande Bretagne</persName>, les eclaircissemens, qui lui ont été donnez par le Ministre
-          de Sa Majesté Britannique, en reponse aux représentations, que le dit <persName key="p1440">Comte</persName> lui a
+        <p><persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Sa Majesté Imperiale</persName> a apris avec beaucoup de plaisir &amp; de satisfaction par
+          les raports du <persName key="p1440" ref="https://api.dante.gbv.de/person/e4b6877a-41ba-4569-b8ef-69f1f52fb506">Comte de Czernichew</persName>, son Ministre auprès de <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Sa Majesté le Roi de la Grande Bretagne</persName>, les eclaircissemens, qui lui ont été donnez par le Ministre
+          de Sa Majesté Britannique, en reponse aux représentations, que le dit <persName key="p1440" ref="https://api.dante.gbv.de/person/e4b6877a-41ba-4569-b8ef-69f1f52fb506">Comte</persName> lui a
           fait, touchant le libre passage des Vaisseaux &amp; marchadises apartenans aux sujets de
-          <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> savoir que les Chefs des vaisseaux de guerre de <persName key="p0063">Sa Maj[es]té Britannique</persName> ainsi que les Armateurs Anglois étoient munis des ordres
-          rigoureux &amp; précis d’agir suivant les Traitez, qu’il y a entre <persName key="p0063">Sa dite Majesté</persName> &amp; les Puissances étrangeres, &amp; que particulierement en vertu de
+          <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">S[a] M[ajesté] I[mpériale]</persName> savoir que les Chefs des vaisseaux de guerre de <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Sa Maj[es]té Britannique</persName> ainsi que les Armateurs Anglois étoient munis des ordres
+          rigoureux &amp; précis d’agir suivant les Traitez, qu’il y a entre <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">Sa dite Majesté</persName> &amp; les Puissances étrangeres, &amp; que particulierement en vertu de
           celui, qui subsiste entre l’Empire de S[a] M[ajesté] I[mpériale] &amp; la Grande
           Bretagne, il ne pouvoit y avoir aucune aprehension, que les vaisseaux &amp; effets de
-          <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> ou de Ses sujets soient exposez d’être inquiétez ou
+          <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">S[a] M[ajesté] I[mpériale]</persName> ou de Ses sujets soient exposez d’être inquiétez ou
           arrêtez, pourvû que les dits vaisseaux n’aportent point à l’ennemi aucunes munitions, ou
           autres provisions de guerre.</p>
-        <p>Ces éclaircissemens étant entierement conformes à l’amitié, qui unit les <orgName key="o0002, o0008">deux Cours</orgName>,
-          <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> fait recommander à <persName key="p0776">S[on] E[xcellence] Monsieur l’Ambassadeur Extraord[inai]re et Plenipotentiaire Lord de Hyndford</persName><pb/>de vouloir
-          bien assurer <persName key="p0063">le Roi Son Maître</persName> de la satisfaction &amp; de la reconnoissance, que
-          <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> en ressent, &amp; qu’Elle n’a pas laissé d’enjoindre
+        <p>Ces éclaircissemens étant entierement conformes à l’amitié, qui unit les <orgName key="o0002, o0008" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251,https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">deux Cours</orgName>,
+          <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">S[a] M[ajesté] I[mpériale]</persName> fait recommander à <persName key="p0776" ref="https://api.dante.gbv.de/person/155e1fea-f0c3-4522-a0a2-a32ec95e7d56">S[on] E[xcellence] Monsieur l’Ambassadeur Extraord[inai]re et Plenipotentiaire Lord de Hyndford</persName><pb />de vouloir
+          bien assurer <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">le Roi Son Maître</persName> de la satisfaction &amp; de la reconnoissance, que
+          <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">S[a] M[ajesté] I[mpériale]</persName> en ressent, &amp; qu’Elle n’a pas laissé d’enjoindre
           rigoureusement à tous Ses sujets commerçans dans les Païs étrangers de se comporter dans
-          leur commerce conformement à Ses intentions, &amp; à l’amitié, qui subsiste entre les <orgName key="o0002, o0008">deux Cours</orgName>, c’est-à-dire de ne point employer leurs vaisseaux à l’avantage des ennemis de S[a]
+          leur commerce conformement à Ses intentions, &amp; à l’amitié, qui subsiste entre les <orgName key="o0002, o0008" ref="https://api.dante.gbv.de/person/dd406ffb-30ce-4374-868b-1a55e8daf251,https://api.dante.gbv.de/person/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">deux Cours</orgName>, c’est-à-dire de ne point employer leurs vaisseaux à l’avantage des ennemis de S[a]
           M[ajesté] Britannique, ni de leur aporter des marchandises de contrebande.</p>
         <p>Comme cependant le vaisseau nommé de Jongfer Anna, appartenant en propre au marchand
-          Russe <persName key="p2086">Affanasey Martoff</persName>, se trouveroit dans une situation bien embarrassante, si
+          Russe <persName key="p2086" ref="https://api.dante.gbv.de/person/9b0d7e5e-1dc8-4758-9e91-59326bfb3543">Affanasey Martoff</persName>, se trouveroit dans une situation bien embarrassante, si
           l’on vouloit considerer sa cargaison, qui consiste entre autres en 1500 Pouds de fer en
           batons, en quelques douzaines de planches de bois de sapin &amp; en trois poutre du même
           bois /: destinées en cas de besoin pour l’usage des mats &amp; des vergues ; ceux dont il
-          se sert actuellement étant déja usez :/ comme des marchandises de contrebande ; <persName key="p0052">S[a] M[ajesté] I[mpériale]</persName> se tient persuadée, que <persName key="p0776">S[on] E[xcellence] Monsieur l’Ambassadeur Extraord[inai]re et Plenipotentiaire</persName> voudra bien donner au susdit
-          <persName key="p2086">marchand Martoff</persName> l’attestat, qu’on Lui a deja demandé en dernier<pb/> lieu, &amp; qui
+          se sert actuellement étant déja usez :/ comme des marchandises de contrebande ; <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">S[a] M[ajesté] I[mpériale]</persName> se tient persuadée, que <persName key="p0776" ref="https://api.dante.gbv.de/person/155e1fea-f0c3-4522-a0a2-a32ec95e7d56">S[on] E[xcellence] Monsieur l’Ambassadeur Extraord[inai]re et Plenipotentiaire</persName> voudra bien donner au susdit
+          <persName key="p2086" ref="https://api.dante.gbv.de/person/9b0d7e5e-1dc8-4758-9e91-59326bfb3543">marchand Martoff</persName> l’attestat, qu’on Lui a deja demandé en dernier<pb /> lieu, &amp; qui
           en faisant foi, que ce Vaisseau apartient avec toute la cargaison à ce Marchand, le mette
           en état de poursuivre sa route ulterieure pour <placeName key="g0085" ref="https://www.geonames.org/331582">Bourdeaux</placeName>
           avec toute sureté, &amp; sans être exposé à aucun inconvenient de la part des vaisseaux de
-          guerre &amp; armateurs de <persName key="p0063">S[a] M[ajesté] Britannique</persName> ; d’autant plus que les
+          guerre &amp; armateurs de <persName key="p0063" ref="https://api.dante.gbv.de/person/b3a043f4-ae9a-40f7-93a5-6aac6dd21389">S[a] M[ajesté] Britannique</persName> ; d’autant plus que les
           trois poutres de bois de sapin ci-dessus mentionnées, ne devant servir qu’à son propre
           usage, &amp; que les planches du même bois, n’ayant que 12 pieds de longueur, un pouce
           &amp; demi d’épaisseur &amp; onze pouces de largeur, ne sauroient être regardées comme des
@@ -151,19 +149,19 @@
           Finlande, où l’arrière saison de l’année passée l’a obligé de passer cet hiver. Au reste
           tous les articles de la cargaison de ce seul vaisseau, pour leque l[']on s’interesse par le
           présent Memoire, sont de si peu de consequence, que les ennemis de la Grande Bretagne n’en
-          sauroient tirer en effet aucun avantage<pb/> de quelque consideration. S[ain]t Petersbourg, le 29. Juin 1748.</p>
-        <p><persName key="p0017">C[omte]. AR Bestoucheff</persName></p>
-        <p><persName key="p0145">Woronzow</persName></p>
-        <p/>
+          sauroient tirer en effet aucun avantage<pb /> de quelque consideration. S[ain]t Petersbourg, le 29. Juin 1748.</p>
+        <p><persName key="p0017" ref="https://api.dante.gbv.de/person/8635fcfb-35a1-487c-bfd4-9f5e205f81f0">C[omte]. AR Bestoucheff</persName></p>
+        <p><persName key="p0145" ref="https://api.dante.gbv.de/person/d2b65a85-e89e-4a89-b0ff-b30a4b529b9c">Woronzow</persName></p>
+        <p />
         <p>Copie</p>
         <p>Pro-memoria du Ministere</p>
-        <p>de Russie donné au <persName key="p0776">C[om] te de Hyndford</persName> </p><p>le 29. Juin 1748.</p>
+        <p>de Russie donné au <persName key="p0776" ref="https://api.dante.gbv.de/person/155e1fea-f0c3-4522-a0a2-a32ec95e7d56">C[om] te de Hyndford</persName> </p><p>le 29. Juin 1748.</p>
         <p>en faveur du Marchand </p>
-        <p><persName key="p2086">Affanasey Martoff</persName>.</p>
-        <p/>
-        <p>in <persName key="p0776">L[or]d Hyndford</persName> 5 July 1748.</p>
-        <p/>
-        <p/>
+        <p><persName key="p2086" ref="https://api.dante.gbv.de/person/9b0d7e5e-1dc8-4758-9e91-59326bfb3543">Affanasey Martoff</persName>.</p>
+        <p />
+        <p>in <persName key="p0776" ref="https://api.dante.gbv.de/person/155e1fea-f0c3-4522-a0a2-a32ec95e7d56">L[or]d Hyndford</persName> 5 July 1748.</p>
+        <p />
+        <p />
         <noteGrp>
           <note>See also:</note>
           <note>en_na_russia_sp_91-111_0009</note>

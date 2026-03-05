@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,29 +105,29 @@
     <body>
       <div type="letter">
         <head>
-          <title>23 January 1742. – Order to issue money for the departure of <persName key="p0229,p0230">the Golovin brothers</persName> to France </title>
+          <title>23 January 1742. – Order to issue money for the departure of <persName key="p0229,p0230" ref="https://api.dante.gbv.de/person/2cf99323-5536-46c4-9415-c7d07627d568,https://api.dante.gbv.de/person/477af837-0c75-4b51-8f27-37c7a51d3156">the Golovin brothers</persName> to France </title>
           <note>
             <bibl>AVPRI, fond 93, opis 1, no. 1741-5, f. 4. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 4"/>
+        <pb n="f. 4" />
         
-        <p>По указу <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">Ея
+        <p>По указу <persName key="p0052" ref="https://api.dante.gbv.de/person/afc1e8df-6410-4e68-80dd-abcafa754aa6">Ея
           императорского величества</persName>
-          <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">Государственная коллегия иностранных дел</orgName>
+          <orgName key="o0001" ref="https://api.dante.gbv.de/person/da1f1ae4-2e3f-4924-a65b-7b6016038e70">Государственная коллегия иностранных дел</orgName>
           приказала отправляющимся по имянному Ея императорского величества указу, во Францию к
-          послу <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">князю Кантемиру</persName>
-          ; <persName key="p0229" ref="2cf99323-5536-46c4-9415-c7d07627d568">Василью</persName> да <persName key="p0230" ref="477af837-0c75-4b51-8f27-37c7a51d3156">Ивану</persName> Сергеевым детям
+          послу <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">князю Кантемиру</persName>
+          ; <persName key="p0229" ref="https://api.dante.gbv.de/person/2cf99323-5536-46c4-9415-c7d07627d568">Василью</persName> да <persName key="p0230" ref="https://api.dante.gbv.de/person/477af837-0c75-4b51-8f27-37c7a51d3156">Ивану</persName> Сергеевым детям
           Головиным для того отправления на весь нынешний 1742 год вперед определенное им по тому
-          имянному Ея императорского величества указу жалованье, выдать из <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии иностранных дел</orgName>
+          имянному Ея императорского величества указу жалованье, выдать из <orgName key="o0001" ref="https://api.dante.gbv.de/person/da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии иностранных дел</orgName>
         </p>
         <p>У подлинного пишет тако</p>
         <p>
-          <persName key="p0231" ref="111c69ef-f859-4fb3-a901-63e3382235c2">К. Алексей
+          <persName key="p0231" ref="https://api.dante.gbv.de/person/111c69ef-f859-4fb3-a901-63e3382235c2">К. Алексей
             Черкаской</persName>
         </p>
         <p>
-          <persName key="p0017" ref="8635fcfb-35a1-487c-bfd4-9f5e205f81f0">Алексей Бестужев Рюмин</persName>
+          <persName key="p0017" ref="https://api.dante.gbv.de/person/8635fcfb-35a1-487c-bfd4-9f5e205f81f0">Алексей Бестужев Рюмин</persName>
         </p>
         <p>генваря 23 дня</p>
         <p>1742 году</p>

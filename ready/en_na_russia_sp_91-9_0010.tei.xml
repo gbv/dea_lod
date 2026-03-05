@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -110,18 +108,18 @@
     <body>
       <div type="letter">
         <head>
-          <title>30 September / 11 October 1719. – Resolution given by order of <persName key="p0174">His Tsarish Majesty [Peter I]</persName> on the memorandum presented by <persName key="p1345">Mister James Jeffreys, Resident of Great Britain</persName></title><note>
+          <title>30 September / 11 October 1719. – Resolution given by order of <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">His Tsarish Majesty [Peter I]</persName> on the memorandum presented by <persName key="p1345" ref="https://api.dante.gbv.de/person/3acb939f-6939-4efb-8091-a3b25bfa8e15">Mister James Jeffreys, Resident of Great Britain</persName></title><note>
             <bibl>TNA Kew, Russia, no. SP 91-9, f. 344-344v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 344"/>
-        <p> Resolution don[n]ée par ordre de <persName key="p0174">S[a] M[ajesté] Czarienne</persName> sur le
-          memoire presenté par <persName key="p1345">M[onsieu]r Jaques Jefferys Resident de la Grande Bretagne</persName></p>
-        <p/>
-        <p><persName key="p0174">S[a] M[ajesté] Czarienne Notre très gracieux Czar et Souverain</persName>, après avoir été
+        <pb n="f. 344" />
+        <p> Resolution don[n]ée par ordre de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté] Czarienne</persName> sur le
+          memoire presenté par <persName key="p1345" ref="https://api.dante.gbv.de/person/3acb939f-6939-4efb-8091-a3b25bfa8e15">M[onsieu]r Jaques Jefferys Resident de la Grande Bretagne</persName></p>
+        <p />
+        <p><persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté] Czarienne Notre très gracieux Czar et Souverain</persName>, après avoir été
           informé
           du contenû du Memoire presenté par le Resident Brittanique, a ordonné de faire surle dit
-          Memoire la reponse suivante ; savoir que <persName key="p0174">S[a] M[ajesté]</persName> bien loin d’etre
+          Memoire la reponse suivante ; savoir que <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté]</persName> bien loin d’etre
           accoutumée
           a forcer qui que ce soit des Nations etrangeres engagé dans Son service ou etabli dans Ses
           Etats a la continuation de Ses services, ou de le retenir dans Ses Etats contre Sa propre
@@ -132,25 +130,25 @@
           qu’il les avoit tousjours congediez avec des marques de bonté et de faveurs et pourveu de
           passeports ; De la même maniere on en a usé a l’egard des Anglois, Officiers,
           Constructeurs
-          de Vaisseau, Artistes et Artisans qui se sont trouvé dans le service de <persName key="p0174">S[a] M[ajesté] Czarienne</persName>; Or comme jusqu’a present aucun d’eux n’a sollicité pour avoir Son
+          de Vaisseau, Artistes et Artisans qui se sont trouvé dans le service de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté] Czarienne</persName>; Or comme jusqu’a present aucun d’eux n’a sollicité pour avoir Son
           congé
-          ou passeport, M[onsieu]r. le Resident ne scauroit nullement pretendre de <persName key="p0174">S[a] M[ajesté] Cz[ari]enne</persName> qu’Elle fasse sortir par force de Ses Etats des gens libres pour
+          ou passeport, M[onsieu]r. le Resident ne scauroit nullement pretendre de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté] Cz[ari]enne</persName> qu’Elle fasse sortir par force de Ses Etats des gens libres pour
           l’avoir bien servi, d’autant moins que la pluspart d’eux, en particulier Les Constructeurs
           de Vaisseau se sont </p>
-        <pb n="f. 344v"/>
-        <p> engagés dans Son service avec le consentement du <persName key="p0620">Roy Guillaume</persName> et de la <persName key="p0668">Reine Anne</persName> de glorieuse mémoire, parmi lesquels il y en a même qui par un effet de
+        <pb n="f. 344v" />
+        <p> engagés dans Son service avec le consentement du <persName key="p0620" ref="https://api.dante.gbv.de/person/4688798e-e2f2-44ba-a7c5-023eb124d1ed">Roy Guillaume</persName> et de la <persName key="p0668" ref="https://api.dante.gbv.de/person/8186b75b-6610-4809-a694-032b6ab22399">Reine Anne</persName> de glorieuse mémoire, parmi lesquels il y en a même qui par un effet de
           reconnoissance se sont obligé [sic] de Leur propre mouvement a passer Leurs jours dans le
-          service de <persName key="p0174">S[a] M[ajesté]</persName> Lesquels par consequence doivent etre considerés
+          service de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté]</persName> Lesquels par consequence doivent etre considerés
           comme des sujets naturalisés, de sorte qu’on ne sçauroit trouver par quel droit
           M[onsieu]r le Resident peut demander Leur dimission. Toutesfois si quelques Anglois qui
-          se sont engagés au service de <persName key="p0174">S[a] M[ajesté]</persName> pour un certain temps demanderont
+          se sont engagés au service de <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté]</persName> pour un certain temps demanderont
           d’une maniere convenable Leur dimission, après avoir effectué ce qu’ils se sont obligés de
           faire selon Leurs conventions, et après avoir fini les ouvrages qu’ils ont actuellement
-          entre les mains; <persName key="p0174">S[a] M[ajesté] Cz[ari]enne</persName> n’est nullement intentionée de le [sic] faire rester a Son service contre gré, mais plustôt de le congedier gracieusement. Donné a
+          entre les mains; <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[a] M[ajesté] Cz[ari]enne</persName> n’est nullement intentionée de le [sic] faire rester a Son service contre gré, mais plustôt de le congedier gracieusement. Donné a
 <placeName key="g0002" ref="https://www.geonames.org/498817">S[ain]<hi cert="high" generatedBy="human" rendition="#sup" xml:space="default">t</hi> Petersbourg</placeName> le 30 de Sept[embre] v[ieux] st[yle] 1719.</p>
-        <p><persName key="p0071">Comte Gollowkin Chancellier</persName></p>
-        <p><persName key="p0494">Baron de Schafirow Vice Chanc[elier]</persName></p>
-        <p/>
+        <p><persName key="p0071" ref="https://api.dante.gbv.de/person/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Comte Gollowkin Chancellier</persName></p>
+        <p><persName key="p0494" ref="https://api.dante.gbv.de/person/73524c8b-20f0-4e11-abbd-ca70791d9df9">Baron de Schafirow Vice Chanc[elier]</persName></p>
+        <p />
         <p>In M[ister] Jeffrys 7th Nov[ember] 1719</p>
         <noteGrp>
           <note>See also:</note>

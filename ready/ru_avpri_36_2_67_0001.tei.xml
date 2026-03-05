@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,15 +104,15 @@
       <div type="letter">
         <head>
           <title>
-            6 January 1736. – Letter from <persName key="p0206" ref="456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary in Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to <persName key="p0030">the Russian Minister Plenipotentiary in Great Britain, Prince Antiochus Cantemir</persName>
+            6 January 1736. – Letter from <persName key="p0206" ref="https://api.dante.gbv.de/person/456ddbda-8973-468b-8a74-663071d20bf6">the Russian Minister Plenipotentiary in Sweden, Count Mikhail Bestuzhev-Riumin</persName>, to <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Minister Plenipotentiary in Great Britain, Prince Antiochus Cantemir</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 36, chast 2, no. 67, f. 1–2. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         
-        <p>A Mrs le <persName key="p0030" ref="d52c788b-74d5-4c5e-aa9a-22125975c436">Prince Cantimir</persName>
+        <p>A Mrs le <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">Prince Cantimir</persName>
           à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName>
         </p>
         <p>Monsieur</p>
@@ -121,7 +122,7 @@
           toutes sortes de prospérité et de contentement pour cette année cÿ et pour bien des
           suivantes. Il ne se passe rien de remarquable ici depuis quelque tems, et ainsi je ne
           scaurois Vous mander aucune nouvelle interessante de ce païs </p>
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         <p> mais comme il ÿ en aura peut-être plus là, où Vous etes, je Vous prie Monsieur de
           vouloir continuer à m’en faire part, et d’être persuadé au reste, que c’est avec une
           estime tres parfaite, que j’ai l’honneur d’être</p>
@@ -129,7 +130,7 @@
         <p>Votre tres humble et tres </p>
         <p>obeissant serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0206" xml:space="default" ref="456ddbda-8973-468b-8a74-663071d20bf6" type="signature">M. Bestuchef</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0206" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/456ddbda-8973-468b-8a74-663071d20bf6">M. Bestuchef</persName>
         </p>
         <p>
           <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName>

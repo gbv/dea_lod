@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,22 +103,22 @@
     <body>
       <div type="letter">
         <head>
-          <title>11 April 1765. – First letter [from <persName key="p0245">the Minister Plenipotentiary of Russia in Copenhagen, Baron Johann Albrecht von Korff</persName>,] to <persName key="p2302">the French Ambassador [to the Danish court, Jean-François Ogier</persName>]</title>
+          <title>11 April 1765. – First letter [from <persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">the Minister Plenipotentiary of Russia in Copenhagen, Baron Johann Albrecht von Korff</persName>,] to <persName key="p2302" ref="https://api.dante.gbv.de/person/7445acc7-a8d9-4b70-aa71-d2809ce095fe">the French Ambassador [to the Danish court, Jean-François Ogier</persName>]</title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 173, f. 136. French copy.</bibl>
           </note>
         </head>
-        <pb n="f. 136"/>
+        <pb n="f. 136" />
         <p>
           <hi rendition="#u">Copie</hi>
         </p>
         <p>№II.</p>
-        <p>La premiere lettre à <persName key="p2302">Monsieur l’ambassadeur de France</persName>.</p>
-        <p/>
+        <p>La premiere lettre à <persName key="p2302" ref="https://api.dante.gbv.de/person/7445acc7-a8d9-4b70-aa71-d2809ce095fe">Monsieur l’ambassadeur de France</persName>.</p>
+        <p />
         <p>Monsieur,</p>
-        <p/>
+        <p />
         <p>C’est à régrêt que mû par un ressentiment legitime, je ne saurois me dispenser de porter
-          à vôtre Excellence mes plaintes contre un de vos domestiques nommé <persName key="p2213">Niels
+          à vôtre Excellence mes plaintes contre un de vos domestiques nommé <persName key="p2213" ref="https://api.dante.gbv.de/person/9e7ae1a2-a760-402e-831f-a864367df9f5">Niels
           Straede</persName> voulant respecter les exercices spirituelles de vôtre Excellence, qui
           sont affectées à la sainte semaine et au pâque, je les ai differé de faire jusqu’à ce
           moment.</p>
@@ -134,7 +135,7 @@
           <salute>En attendant j’ai l’honneur d’étre avec la consideration la plus distinguée etc :
             etc :</salute>
           <salute>Signé</salute>
-          <signed><persName key="p0245">Korff</persName>.</signed>
+          <signed><persName key="p0245" ref="https://api.dante.gbv.de/person/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Korff</persName>.</signed>
           <dateline>À <placeName key="g0006">copenhague</placeName> ce <date when="1765-04-11">11
             avril 1765.</date> / .</dateline>
         </closer>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,24 +103,24 @@
     <body>
       <div type="letter">
         <head>
-          <title>14 July 1730. – [Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary in Spain, Prince Ivan Andreevich Shcherbatov</persName>,] from 
+          <title>14 July 1730. – [Letter from <persName key="p0220" ref="https://api.dante.gbv.de/person/3246c251-a0fd-44f4-b6fd-3a306dd0c117">the Russian Minister Plenipotentiary in Spain, Prince Ivan Andreevich Shcherbatov</persName>,] from 
             <placeName key="g0107" ref="https://www.geonames.org/2519278">
-              Constantina written </placeName>to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2387">Senoret </persName>
+              Constantina written </placeName>to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2387" ref="https://api.dante.gbv.de/person/a3514eaa-cee2-427b-8eb1-e6532f46b9f2">Senoret </persName>
             to 
             <placeName key="g0067" ref="https://www.geonames.org/2520600">
-              Cadiz </placeName>on 14 July 1730, through<persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2388"> Gilles Pegne</persName>
+              Cadiz </placeName>on 14 July 1730, through<persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2388" ref="https://api.dante.gbv.de/person/8324d04e-e0b5-4cc5-bf0f-78d6b180ea5f"> Gilles Pegne</persName>
           </title>
           <note>
             <bibl>NLR Mss, fond Erm., no. 123-4, f. 25v. Copy of the French original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 25v"/>
+        <pb n="f. 25v" />
         
-        <p>В <placeName key="g0067" ref="https://www.geonames.org/2520600">Кадикс</placeName> к <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2387">Сенорету</persName> из <placeName key="g0107" ref="https://www.geonames.org/2519278">Константины</placeName> 14 июля 1730 году писано чрез <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2388">жилпеня</persName> etc.</p>
-        <p>J’ay reçeu la Lettre que vous avez pris la Peine de m’écrire le « 5 » de Ce mois, en reponse de laquelle je vous diray que je vous suis tres-obligé monsieur pour vos souhaits si avantageux pour moy, en vous asseurant de mon amitié Constante. Mon Eloignement d’icy ne faira pas aucun Changement dans mes sentimens que j’ay Conçeu pour vous monsieur, dont vous ressentirez par la suite du Temps. Mes Compliments je vous prie et les remerçiements à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2375" xml:space="default">Mr. d’Avout</persName> pour son souvenir. Je suis toujours tres-parfaitement etc.</p>
+        <p>В <placeName key="g0067" ref="https://www.geonames.org/2520600">Кадикс</placeName> к <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2387" ref="https://api.dante.gbv.de/person/a3514eaa-cee2-427b-8eb1-e6532f46b9f2">Сенорету</persName> из <placeName key="g0107" ref="https://www.geonames.org/2519278">Константины</placeName> 14 июля 1730 году писано чрез <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2388" ref="https://api.dante.gbv.de/person/8324d04e-e0b5-4cc5-bf0f-78d6b180ea5f">жилпеня</persName> etc.</p>
+        <p>J’ay reçeu la Lettre que vous avez pris la Peine de m’écrire le « 5 » de Ce mois, en reponse de laquelle je vous diray que je vous suis tres-obligé monsieur pour vos souhaits si avantageux pour moy, en vous asseurant de mon amitié Constante. Mon Eloignement d’icy ne faira pas aucun Changement dans mes sentimens que j’ay Conçeu pour vous monsieur, dont vous ressentirez par la suite du Temps. Mes Compliments je vous prie et les remerçiements à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2375" xml:space="default" ref="https://api.dante.gbv.de/person/345b8817-6dec-4c9d-8d15-a38c59e44b51">Mr. d’Avout</persName> pour son souvenir. Je suis toujours tres-parfaitement etc.</p>
         <p>PS: Quand vous voudrez m’écrire apres mon depart d’Espagne pour quelque affaire interessante</p>
-        <p>soit pour vous même ou pour moy, vous pouvez envoyer vos Lettres à l’adresse de mess[ieurs] <persName key="p0321,p0322" ref="1d2e0e54-9d54-4ec3-b1df-62c5afd50dff">Brethous frères</persName> à <placeName key="g0020" ref="https://www.geonames.org/3117735">Madrid</placeName> qui me les fairont tenir partout où je me trouveray.</p>
+        <p>soit pour vous même ou pour moy, vous pouvez envoyer vos Lettres à l’adresse de mess[ieurs] <persName key="p0321,p0322" ref="https://api.dante.gbv.de/person/be6fcfe6-43aa-474b-a087-6c67ecd68947,https://api.dante.gbv.de/person/1d2e0e54-9d54-4ec3-b1df-62c5afd50dff">Brethous frères</persName> à <placeName key="g0020" ref="https://www.geonames.org/3117735">Madrid</placeName> qui me les fairont tenir partout où je me trouveray.</p>
       </div>
     </body>
   </text>

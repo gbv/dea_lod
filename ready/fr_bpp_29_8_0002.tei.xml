@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,31 +104,31 @@
     <body>
       <div type="letter">
         <head>
-          <title>[c. 19 July 1790]. – Register of items released to <orgName key="o0100" ref="42f6c5fa-0743-4e83-87ec-c0aa51f821d8">the Ministerial post in Warsaw</orgName>
+          <title>[c. 19 July 1790]. – Register of items released to <orgName key="o0100" ref="https://api.dante.gbv.de/person/42f6c5fa-0743-4e83-87ec-c0aa51f821d8">the Ministerial post in Warsaw</orgName>
             with their price</title>
           <note>
             <bibl>Bibliothèque polonaise de Paris, fonds 29, no. 8, f. 1347-1349. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 1347"/>
-        <p>Реестр вещам отпущенным для <orgName key="o0100" ref="42f6c5fa-0743-4e83-87ec-c0aa51f821d8">министерского варшавского поста</orgName>, с
+        <pb n="f. 1347" />
+        <p>Реестр вещам отпущенным для <orgName key="o0100" ref="https://api.dante.gbv.de/person/42f6c5fa-0743-4e83-87ec-c0aa51f821d8">министерского варшавского поста</orgName>, с
           показанием цены оным</p>
-        <p/>
+        <p />
 
         <table>
           <row>
             <cell>
               N°
             </cell>
-            <cell/>
+            <cell />
             <cell xml:lang="ru">
               Рубли
             </cell>
           </row>
           <row>
-            <cell/>
-            <cell xml:lang="ru"> Табакерки.<lb/>Золотыя с брилиянтами </cell>
-            <cell/>
+            <cell />
+            <cell xml:lang="ru"> Табакерки.<lb />Золотыя с брилиянтами </cell>
+            <cell />
           </row>
           <row>
             <cell>
@@ -163,11 +164,11 @@
             </cell>
           </row>
           <row>
-            <cell/>
+            <cell />
             <cell xml:lang="ru">
               Без брилиянтов с амалью:
             </cell>
-            <cell/>
+            <cell />
           </row>
           <row>
             <cell>
@@ -313,24 +314,24 @@
             </cell>
           </row>
         </table>
-        <pb n="f. 1348"/>
+        <pb n="f. 1348" />
 
         <table>
           <row>
             <cell>
               N°
             </cell>
-            <cell/>
+            <cell />
             <cell xml:lang="ru">
               Рубли
             </cell>
           </row>
           <row>
-            <cell/>
+            <cell />
             <cell xml:lang="ru">
               Перстни:
             </cell>
-            <cell/>
+            <cell />
           </row>
           <row>
             <cell>
@@ -498,12 +499,12 @@
             </cell>
           </row>
           <row>
-            <cell/>
+            <cell />
             <cell xml:lang="ru">
               <hi cert="high" generatedBy="human" rendition="#u" xml:space="default">Часы с
                 цепочками:</hi>
             </cell>
-            <cell/>
+            <cell />
           </row>
           <row>
             <cell>
@@ -529,14 +530,14 @@
           </row>
         </table>
 
-        <pb n="f. 1349"/>
+        <pb n="f. 1349" />
 
         <table>
           <row>
             <cell>
               N°
             </cell>
-            <cell/>
+            <cell />
             <cell xml:lang="ru">
               Рубли
             </cell>
@@ -575,14 +576,14 @@
             </cell>
           </row>
           <row>
-            <cell/>
+            <cell />
             <cell>
               _________________________________________________
             </cell>
-            <cell/>
+            <cell />
           </row>
           <row>
-            <cell/>
+            <cell />
             <cell xml:lang="ru">
               И того всех вещей ценою на пятнадцать тысяч рублей
             </cell>
@@ -591,17 +592,17 @@
             </cell>
           </row>
           <row>
-            <cell/>
-            <cell/>
-            <cell/>
+            <cell />
+            <cell />
+            <cell />
           </row>
           <row>
-            <cell/>
-            <cell xml:lang="ru"> Сверх того из оставшихся от <orgName key="o0079">константинопольской
-              миссии</orgName> вещей, <persName key="p0894">г[осподино]м тайным советником
+            <cell />
+            <cell xml:lang="ru"> Сверх того из оставшихся от <orgName key="o0079" ref="https://api.dante.gbv.de/person/838c2acb-4a07-49d4-857c-cdbcb66b83e9">константинопольской
+              миссии</orgName> вещей, <persName key="p0894" ref="https://api.dante.gbv.de/person/78ef995c-f8ec-4dc2-a3a2-6dd8b491bf17">г[осподино]м тайным советником
               Булгаковым</persName> представлены, и сюдаже причисляются для равнаго с другими
               употребления: </cell>
-            <cell/>
+            <cell />
           </row>
           <row>
             <cell>
@@ -637,23 +638,23 @@
             </cell>
           </row>
           <row>
-            <cell/>
+            <cell />
             <cell>
               __________________________________________
             </cell>
-            <cell/>
+            <cell />
           </row>
           <row>
-            <cell/>
+            <cell />
             <cell>
               Итого
             </cell>
-            <cell xml:lang="ru"> 1780<lb/>ру[блей] </cell>
+            <cell xml:lang="ru"> 1780<lb />ру[блей] </cell>
           </row>
         </table>
 
         <p>
-          <persName key="p0893" type="signature">Граф А[лександр] Безбородко</persName>
+          <persName key="p0893" type="signature" ref="https://api.dante.gbv.de/person/6a68c12a-8133-4e0e-9edc-c4ad60b686ad">Граф А[лександр] Безбородко</persName>
             </p>
 
         <noteGrp>

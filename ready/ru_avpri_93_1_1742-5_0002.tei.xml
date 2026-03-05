@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -108,34 +109,34 @@
       <div type="letter">
         <head>
           <title>20 January 1742. – Copy of the rescript sent to <placeName key="g0019" ref="https://www.geonames.org/2988507">
-              Paris to </placeName><persName key="p0030">[the Russian Minister Plenipotentiary in France,] Privy Councillor Prince [Antiochus] Cantemir</persName> on January 20, 1742</title><note>
+              Paris to </placeName><persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">[the Russian Minister Plenipotentiary in France,] Privy Councillor Prince [Antiochus] Cantemir</persName> on January 20, 1742</title><note>
             <bibl>AVPRI, fond 93, opis 1, no. 1742-5, f. 2. Russian original.</bibl>
           </note>
         </head>
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         
-        <p>Сообщение <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии
+        <p>Сообщение <orgName key="o0001" ref="https://api.dante.gbv.de/person/da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии
           иностранных дел</orgName>
         </p>
-        <p>Копия с рескрыпта отправленного в <placeName key="g0019" ref="https://www.geonames.org/2988507">Париж</placeName> к <persName key="p0030">тайному советнику князю Кантемиру</persName> Генваря 20 дня 1742 году.</p>
-        <p>Понеже мы всемилостивейша благоразсудили порутчика нашего <persName key="p0270" ref="3531e214-0976-4bb9-8825-357a37b8f2e0">Андрея Ефимовского</persName> отправить к вам
+        <p>Копия с рескрыпта отправленного в <placeName key="g0019" ref="https://www.geonames.org/2988507">Париж</placeName> к <persName key="p0030" ref="https://api.dante.gbv.de/person/d52c788b-74d5-4c5e-aa9a-22125975c436">тайному советнику князю Кантемиру</persName> Генваря 20 дня 1742 году.</p>
+        <p>Понеже мы всемилостивейша благоразсудили порутчика нашего <persName key="p0270" ref="https://api.dante.gbv.de/person/3531e214-0976-4bb9-8825-357a37b8f2e0">Андрея Ефимовского</persName> отправить к вам
           во Францию таким образом чтоб он при вас дворянином посольства жил и ему способы поданы
           были б потребным наукам обучатся. а на пребывание его тамо определено ему жалованье в год
-          по пятисот рублев, которое к нему впредь вместе с вашим жалованьем из нашей <orgName key="o0001" ref="da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии иностранных дел</orgName>
+          по пятисот рублев, которое к нему впредь вместе с вашим жалованьем из нашей <orgName key="o0001" ref="https://api.dante.gbv.de/person/da1f1ae4-2e3f-4924-a65b-7b6016038e70">коллегии иностранных дел</orgName>
           переведено будет а на проезд ему выдано четыреста рублев. того ради вам о том чрез сие
-          знать даем и оного <persName key="p0270" ref="3531e214-0976-4bb9-8825-357a37b8f2e0">Ефимовского</persName> к вам адресуем дабы вы
+          знать даем и оного <persName key="p0270" ref="https://api.dante.gbv.de/person/3531e214-0976-4bb9-8825-357a37b8f2e0">Ефимовского</persName> к вам адресуем дабы вы
           его по вышеписанному у себя держали и к обучению его всему тому еже ему для лутчаго к
           службе нашей впредь достоинства потребно быть может, всякое способствование ему показывали
           и мы пребываем вам впротчем императорскою нашею милостию благосклонныя.</p>
         <p>По Ея Императорского величества Указу.</p>
         <p>У подлинного подписано тако.</p>
         <p>
-          <persName key="p0231" ref="111c69ef-f859-4fb3-a901-63e3382235c2">К. Алексей Черкаской</persName>
+          <persName key="p0231" ref="https://api.dante.gbv.de/person/111c69ef-f859-4fb3-a901-63e3382235c2">К. Алексей Черкаской</persName>
         </p>
         <p>
-          <persName key="p0017" ref="8635fcfb-35a1-487c-bfd4-9f5e205f81f0">Алексей Безстужев Рюмин</persName>
+          <persName key="p0017" ref="https://api.dante.gbv.de/person/8635fcfb-35a1-487c-bfd4-9f5e205f81f0">Алексей Безстужев Рюмин</persName>
         </p>
-        <p>Читал Канцелярист <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2339" type="signature">Николай Арсеньев</persName>
+        <p>Читал Канцелярист <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p2339" type="signature" ref="https://api.dante.gbv.de/person/1b94921d-42ce-41f2-b988-f31204b735cf">Николай Арсеньев</persName>
         </p>
         <p>20 : Генваря. 1742 : года.</p>
         <noteGrp>

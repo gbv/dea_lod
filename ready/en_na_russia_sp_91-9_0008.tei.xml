@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
@@ -107,23 +105,23 @@
     <body>
       <div type="letter">
         <head>
-          <title>25 April / 6 May 1719. – Secret letter from <persName key="p0494">His Excellency Vice Chancellor Baron [Petr Pavlovich] Shafirov</persName> to <persName key="p0332">Counter Admiral Matija Zmajević</persName></title><note>
+          <title>25 April / 6 May 1719. – Secret letter from <persName key="p0494" ref="https://api.dante.gbv.de/person/73524c8b-20f0-4e11-abbd-ca70791d9df9">His Excellency Vice Chancellor Baron [Petr Pavlovich] Shafirov</persName> to <persName key="p0332" ref="https://api.dante.gbv.de/person/f60ceb9c-87ba-4912-af63-9ce5b1395dbc">Counter Admiral Matija Zmajević</persName></title><note>
             <bibl>TNA Kew, Russia, no. SP 91-9, f. 265. Italian copy.</bibl>
           </note>
         </head>
-        <pb n="f. 265"/>
-        <p> Lettera scritta da <persName key="p0494">S[ua] E[ccelenza] Baron Shaffirow Vice Cancel[lie]re</persName> al
-          <persName key="p0332">Sig[no]r Matteo Ismajewicz Contre Admirale</persName>, come segre</p>
-        <p/>
+        <pb n="f. 265" />
+        <p> Lettera scritta da <persName key="p0494" ref="https://api.dante.gbv.de/person/73524c8b-20f0-4e11-abbd-ca70791d9df9">S[ua] E[ccelenza] Baron Shaffirow Vice Cancel[lie]re</persName> al
+          <persName key="p0332" ref="https://api.dante.gbv.de/person/f60ceb9c-87ba-4912-af63-9ce5b1395dbc">Sig[no]r Matteo Ismajewicz Contre Admirale</persName>, come segre</p>
+        <p />
         <p>Nobilissimo Signore</p>
-        <p>Havendo <persName key="p0174">S[ua] Cz[ariena] M[aesta] mio Clementissimo Imperatore</persName> ordinato, che li
+        <p>Havendo <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">S[ua] Cz[ariena] M[aesta] mio Clementissimo Imperatore</persName> ordinato, che li
           Padri Giesuiti debbano sortire dalli Suoi stati, Lea avanzo l’annesso Manifesto delli
-          giusti motivi havuti dalla <persName key="p0174">Maesta Sua</persName> di ció pratticare, accio si compiacia di
+          giusti motivi havuti dalla <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">Maesta Sua</persName> di ció pratticare, accio si compiacia di
           notofocare agl’altri Catolici, per che non si adombrassero di tal fatto, &amp; in tanto mi
           dico</p>
         <p>Nobilissimo Signore</p>
         <p>Suo Um[ilissi]mo Servit[o]re</p>
-        <p><persName key="p0494">Pietro B[aron] de Shafirow</persName></p>
+        <p><persName key="p0494" ref="https://api.dante.gbv.de/person/73524c8b-20f0-4e11-abbd-ca70791d9df9">Pietro B[aron] de Shafirow</persName></p>
         <p>
           <placeName key="g0002" ref="https://www.geonames.org/498817">S. Petroburgo</placeName> 25 Apr[ile] st[ile] v[ecchio] 1719</p>
       </div>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,17 +104,17 @@
     <body>
       <div type="letter">
         <head>
-          <title>19 April 1773. – Letter from <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
-            Mikhailovich Golitsyn</persName> to <persName key="p0009" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">the Russian Minister Plenipotentiary at the
+          <title>19 April 1773. – Letter from <persName key="p0065" ref="https://api.dante.gbv.de/person/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor, Prince Aleksandr
+            Mikhailovich Golitsyn</persName> to <persName key="p0009" ref="https://api.dante.gbv.de/person/c12990a8-65ba-4272-afe9-bbb2f8188d36">the Russian Minister Plenipotentiary at the
             Imperial Diet in Regensburg, Active State Councilor Achatz Ferdinand Baron of Asseburg </persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 498, f. 3-3v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 3"/>
+        <pb n="f. 3" />
         
-        <p>à <persName key="p0009" ref="c12990a8-65ba-4272-afe9-bbb2f8188d36">S[on] E[xcellence] M[onsieu]r le Bar[on] d'Assebourg</persName>
+        <p>à <persName key="p0009" ref="https://api.dante.gbv.de/person/c12990a8-65ba-4272-afe9-bbb2f8188d36">S[on] E[xcellence] M[onsieu]r le Bar[on] d'Assebourg</persName>
         </p>
         <p>à <placeName key="g0029" ref="https://www.geonames.org/2938913">Darmstadt</placeName>
         </p>
@@ -130,13 +131,13 @@
           Vos reflexions. Cependant comme il se pourroit que mon neveu qui doit déja etre sur son
           retour d’Angleterre, arrivât au lieu où Vous étes, pour y faire sa cour dans son passage,
           je supplie V[otre] Exc[ellenc]<hi rendition="#sup">e</hi> de remettre à son compagnon de
-          voyage <persName key="p0086" ref="53711ce2-50fc-4dfb-8982-680e8eb5db1d">Mr de Koch</persName>
+          voyage <persName key="p0086" ref="https://api.dante.gbv.de/person/53711ce2-50fc-4dfb-8982-680e8eb5db1d">Mr de Koch</persName>
           le ci-joint paquet qui renferme des lettres de change pour leur usage, et si ce paquet ne
           les y trouve plus, Vous aurez, s’il Vous plaît la bonté de le leur faire tenir fidellement
-          en l’adressant par plus grande sureté à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0066" ref="58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Mr le P[rin]ce de Gallitzin</persName> notre
+          en l’adressant par plus grande sureté à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0066" ref="https://api.dante.gbv.de/person/58cfb2b1-9a42-4cd7-b4d4-39fa3124f264">Mr le P[rin]ce de Gallitzin</persName> notre
           ministre à <placeName key="g0005" ref="https://www.geonames.org/2761367">Vienne</placeName> pour où ils doivent continuer leur
           route, </p>
-        <pb n="f. 3v"/>
+        <pb n="f. 3v" />
         <p> Je demande bien des excuses à V[otre] E[xcellence] de toutes les peines, que je lui cause en cette
           occasion, et je serois comblé de joye si le hasard Vous ramenoit dans ce païs, afin que je
           puisse V[ous] témoigner de bouche la considération distinguée et parfait attachement avec

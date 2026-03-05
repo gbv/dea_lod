@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,39 +102,39 @@
     <body>
       <div type="letter">
         <head>
-          <title>26 April 1783. – Letter from <persName key="p0135" ref="696969db-38aa-446c-bfb9-d5cf570ff441">Jacob von Staehlin</persName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0363" xml:space="default">his son Peter von Staehlin</persName>, Secretary of the Russian Embassy in the Netherlands</title><note>
+          <title>26 April 1783. – Letter from <persName key="p0135" ref="https://api.dante.gbv.de/person/696969db-38aa-446c-bfb9-d5cf570ff441">Jacob von Staehlin</persName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0363" xml:space="default" ref="https://api.dante.gbv.de/person/5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">his son Peter von Staehlin</persName>, Secretary of the Russian Embassy in the Netherlands</title><note>
             <bibl>NLR Mss, fond 871, no. 1015, f. 35–36v. French original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 35"/>
+        <pb n="f. 35" />
         
         <p>№ 17 le 26. Avril v. st. 1783. [in another hand:] reçu 1. Juin.</p>
         <p>Vos 2 Lett[re]s №. 15. et 16. nous sont bien parvenues ; l’une par la poste dimanche
-          passé, et l’autre le lendemain par le Courrier <persName key="p0575" ref="81970d5d-e10c-4dd4-b66b-bc0d19755939">Sr Dehn,</persName> qui nous a raconté de
+          passé, et l’autre le lendemain par le Courrier <persName key="p0575" ref="https://api.dante.gbv.de/person/81970d5d-e10c-4dd4-b66b-bc0d19755939">Sr Dehn,</persName> qui nous a raconté de
           vous, avoir trouvé et laissé à <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName> en parfaite
           santé, occupé actull[emen]t à arranger vos effets pour les vendre par un encan. Nous
           souhaitons que vous n’ayez pas beaucoup à vendre, &amp; qu’on vous paie bien ce que vous
           avez à vendre.</p>
-        <p>La rapide fortune de <persName key="p0440" ref="58ce1386-5636-4283-adef-a61a6c85fe72">Mr
+        <p>La rapide fortune de <persName key="p0440" ref="https://api.dante.gbv.de/person/58ce1386-5636-4283-adef-a61a6c85fe72">Mr
           Marcoff</persName> n’a pas moins frappé ici, que chez vous : de même que le subit rappel
-          de Mr le nouveau <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">Comte de
+          de Mr le nouveau <persName key="p0108" ref="https://api.dante.gbv.de/person/32691d34-6532-462c-8a63-5b9e098e0dac">Comte de
           Pouschkin</persName>.</p>
         <p>Un homme qui a vû tant de vicissitudes en Russie, comme moi pend[an]t 48. ans, et tant de
           cas frappans n’en est à la fin frappé d’aucun cas. Non plus des avancem[ent]s tout
           recem[en]t faits à <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0192" xml:space="default" ref="https://www.geonames.org/519336">Sarskoe Selo</placeName> à l’occasion de la fête
-          de naissance de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
-          M[ajesté] I[mpéria]le</persName> oû <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">S[on] E[xcellence] Mr le Vice Chancel[lie]r</persName>
-          a reçu l’assignation des appointem[ent]s de feu le <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Comte de Panin</persName>, et la double somme
-          pour la table ; en sorte que les revenues de <persName key="p0113" ref="5a2053eb-ec01-47a7-95c2-633362d4c1eb">S[on] Ex[cellence]</persName> se sont
+          de naissance de <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">S[a]
+          M[ajesté] I[mpéria]le</persName> oû <persName key="p0113" ref="https://api.dante.gbv.de/person/5a2053eb-ec01-47a7-95c2-633362d4c1eb">S[on] E[xcellence] Mr le Vice Chancel[lie]r</persName>
+          a reçu l’assignation des appointem[ent]s de feu le <persName key="p0114" ref="https://api.dante.gbv.de/person/e1ac6a40-6f08-4749-96bd-54c9efda5bc5">Comte de Panin</persName>, et la double somme
+          pour la table ; en sorte que les revenues de <persName key="p0113" ref="https://api.dante.gbv.de/person/5a2053eb-ec01-47a7-95c2-633362d4c1eb">S[on] Ex[cellence]</persName> se sont
           augmentés à la fois de R[ou]bl[e]s 7000. par an.</p>
-        <p>En même tems <persName key="p0440" ref="58ce1386-5636-4283-adef-a61a6c85fe72">Mr Marcof</persName>
-          et <persName key="p0569" ref="9d787ae7-4688-4665-a295-ee6ff5962bca">Mr Mestmaker</persName>
-          à <placeName key="g0196" ref="https://www.geonames.org/2928381">Eutin</placeName> ont été nommés Conseil[le]rs d’Etat, <persName key="p0367" ref="8e52a01e-30b4-4430-be67-81f204f2a753">Mr de Simolin</persName> à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> Conseil[le]r privé, <persName key="p0576" ref="656c418c-fbec-4a78-a551-5ca04643f397">Mr Saro</persName> Capit[ai]ne du hautbord et
-          Consul à Malthe, <persName key="p0577" ref="9a8247f4-c475-4416-a37e-db6aa744b5b2">Mr de
-          Krudner</persName>, Mr le boiteux <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2585" xml:space="default">Bluhm</persName> et <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0578,p0579" xml:space="default">les 2. Freres Condoidi Conseil[le]rs de Chancellerie</persName>.</p>
+        <p>En même tems <persName key="p0440" ref="https://api.dante.gbv.de/person/58ce1386-5636-4283-adef-a61a6c85fe72">Mr Marcof</persName>
+          et <persName key="p0569" ref="https://api.dante.gbv.de/person/9d787ae7-4688-4665-a295-ee6ff5962bca">Mr Mestmaker</persName>
+          à <placeName key="g0196" ref="https://www.geonames.org/2928381">Eutin</placeName> ont été nommés Conseil[le]rs d’Etat, <persName key="p0367" ref="https://api.dante.gbv.de/person/8e52a01e-30b4-4430-be67-81f204f2a753">Mr de Simolin</persName> à <placeName key="g0003" ref="https://www.geonames.org/2643743">Londres</placeName> Conseil[le]r privé, <persName key="p0576" ref="https://api.dante.gbv.de/person/656c418c-fbec-4a78-a551-5ca04643f397">Mr Saro</persName> Capit[ai]ne du hautbord et
+          Consul à Malthe, <persName key="p0577" ref="https://api.dante.gbv.de/person/9a8247f4-c475-4416-a37e-db6aa744b5b2">Mr de
+          Krudner</persName>, Mr le boiteux <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2585" xml:space="default" ref="https://api.dante.gbv.de/person/d2668c51-610f-4052-ae15-2fe9a99a4651">Bluhm</persName> et <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0578,p0579" xml:space="default" ref="https://api.dante.gbv.de/person/8dfcef0f-e8bc-4fc5-af17-d737ab1ecb53,https://api.dante.gbv.de/person/972cdff6-65ea-433e-99db-8bc9949b12e8">les 2. Freres Condoidi Conseil[le]rs de Chancellerie</persName>.</p>
         <p>Avec tout cela il faut louer votre zèle constant et ardent pour rentrer dans le service
-          de <persName key="p0033" ref="e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté]
+          de <persName key="p0033" ref="https://api.dante.gbv.de/person/e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté]
           I[mpéria]le</persName> mais hors de la Russie. Dommage que nous n’etions point informés
           des Consulats de <placeName key="g0197" ref="https://www.geonames.org/3165185">Trieste</placeName> et <placeName key="g0198" ref="https://www.geonames.org/2789786">
           d’Ostende</placeName>, qu’après qu’ils furent établis et tous les Consuls nommés à la
@@ -144,7 +145,7 @@
           tranquillité, bonne humeur et bonne santé. Le tems remedie à tout. Peut être il vous fera
           reconnoitre et rechercher un jour pour rendre satisfact[io]n à v[ot]re merite.</p>
         
-        <pb n="f. 35v"/>
+        <pb n="f. 35v" />
         <p> Se chagriner sur le cours du tems, qu’on ne sauroit ni retenir ni changer, ce seroit une
           foiblesse et folie : mais une prudence de tirer sa consolation de la bonne conscience
           &amp; d’une utile occupation qui fait oublier les adversités et les torts soufferts
@@ -153,40 +154,40 @@
           pour plus heureux méme dans v[ot]re situation presente, que beaucoup d’autres à vous
           pareils, qui ne jouissent ni de pension ni d’assistance de leurs amis, pour être à leur
           aise, comme gr[âce] à D[ieu] vous etez dans v[ot]re état.</p>
-        <p>Ici l’on croit que <persName key="p0440" ref="58ce1386-5636-4283-adef-a61a6c85fe72">Mr
+        <p>Ici l’on croit que <persName key="p0440" ref="https://api.dante.gbv.de/person/58ce1386-5636-4283-adef-a61a6c85fe72">Mr
           Marcof</persName> à son retour de <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName> passera par
           ici pour se rendre à <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName>. Cepend[en]t les
           appointem[ent]s de ce dernier poste lui sont assignés dès le jour de sa nomination, et du
-          méme terme R[ou]bl[es] 2000 en tout à <persName key="p0108" ref="32691d34-6532-462c-8a63-5b9e098e0dac">Mr Pouschkin</persName> au lieu de
-          R[oub]l[es] 16/m dont il avoit joui jusqu’ici. <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0580,p0581,p0484" xml:space="default">Mess[ieur]s nos nouveaux Ministres</persName> pour <placeName key="g0031" ref="https://www.geonames.org/3164603">Venise</placeName>, <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName> et <placeName key="g0185" ref="https://www.geonames.org/3165524">Turin</placeName> ne se sont
-          pas encore mis à la route. <persName key="p0484" ref="93b919e6-bf32-4a0c-9386-a50abbe2b48e">Le dernier</persName> vient de vendre le
-          palais qu’il a herité de feux <persName key="p0582" ref="a76702d7-ab89-4b86-843d-55efaf1caf11">sa sœur Duch[es]se de Courlande</persName> à <persName key="p0583" ref="e2ecef0c-f311-4cdb-9d92-2dc8670c07c3">Mad[am]e la Princesse Bareatinska</persName>,
-          Epouse de <persName key="p0584" ref="73aa84a5-d5e0-44f0-8b24-768bb21ce8d8">n[ot]re Ministre</persName>
+          méme terme R[ou]bl[es] 2000 en tout à <persName key="p0108" ref="https://api.dante.gbv.de/person/32691d34-6532-462c-8a63-5b9e098e0dac">Mr Pouschkin</persName> au lieu de
+          R[oub]l[es] 16/m dont il avoit joui jusqu’ici. <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0580,p0581,p0484" xml:space="default" ref="https://api.dante.gbv.de/person/61caa76b-7a71-47f7-80b9-924f2e7014b3,https://api.dante.gbv.de/person/03531462-2d4a-4225-b30a-56d352172002,https://api.dante.gbv.de/person/93b919e6-bf32-4a0c-9386-a50abbe2b48e">Mess[ieur]s nos nouveaux Ministres</persName> pour <placeName key="g0031" ref="https://www.geonames.org/3164603">Venise</placeName>, <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName> et <placeName key="g0185" ref="https://www.geonames.org/3165524">Turin</placeName> ne se sont
+          pas encore mis à la route. <persName key="p0484" ref="https://api.dante.gbv.de/person/93b919e6-bf32-4a0c-9386-a50abbe2b48e">Le dernier</persName> vient de vendre le
+          palais qu’il a herité de feux <persName key="p0582" ref="https://api.dante.gbv.de/person/a76702d7-ab89-4b86-843d-55efaf1caf11">sa sœur Duch[es]se de Courlande</persName> à <persName key="p0583" ref="https://api.dante.gbv.de/person/e2ecef0c-f311-4cdb-9d92-2dc8670c07c3">Mad[am]e la Princesse Bareatinska</persName>,
+          Epouse de <persName key="p0584" ref="https://api.dante.gbv.de/person/73aa84a5-d5e0-44f0-8b24-768bb21ce8d8">n[ot]re Ministre</persName>
           à <placeName key="g0019" ref="https://www.geonames.org/2988507">Paris</placeName>, qui ne pouvoit pas obtenir la permission de la
-          voir une seule fois pend[an]t 2. mois de son dernier sejour à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName>, moins de retirer d’elle <persName key="p0585" ref="be0b1c08-f235-4733-9c79-b8f2d0cfe3a4">son fils</persName>.</p>
+          voir une seule fois pend[an]t 2. mois de son dernier sejour à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName>, moins de retirer d’elle <persName key="p0585" ref="https://api.dante.gbv.de/person/be0b1c08-f235-4733-9c79-b8f2d0cfe3a4">son fils</persName>.</p>
         <p>Dans ces jours est arrivé ici de <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName> la nouvelle de la mort du
-          Prince <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0251" xml:space="default" ref="c2cc3070-a2c6-4ffa-9809-817614348dfc">Grig[ory]
-          Grig[orievich] Orloff</persName>. <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0112" xml:space="default">Son frere Alexei</persName> est marié depuis une couple
-          d’ans, et le frere ainé <persName key="p0545" ref="ec83e2cb-3a72-4b1d-82cc-c7bbb2ca8227">Ivan
-          Grig[orievich]</persName> sur le point d’épouser une jolie <persName key="p0586" ref="ff51fe8f-061a-415e-994c-07055a90404b">personne </persName>qu’il a entretenu
+          Prince <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0251" xml:space="default" ref="https://api.dante.gbv.de/person/c2cc3070-a2c6-4ffa-9809-817614348dfc">Grig[ory]
+          Grig[orievich] Orloff</persName>. <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0112" xml:space="default" ref="https://api.dante.gbv.de/person/5dcd88b3-399f-4885-9f8b-00e0d3ec9c5f">Son frere Alexei</persName> est marié depuis une couple
+          d’ans, et le frere ainé <persName key="p0545" ref="https://api.dante.gbv.de/person/ec83e2cb-3a72-4b1d-82cc-c7bbb2ca8227">Ivan
+          Grig[orievich]</persName> sur le point d’épouser une jolie <persName key="p0586" ref="https://api.dante.gbv.de/person/ff51fe8f-061a-415e-994c-07055a90404b">personne </persName>qu’il a entretenu
           quelq[ue]s années.</p>
         <p>J’attens dans v[ot]re Lett[r]e №. 17. ou 18. selon le terme que vous avez fixé pour votre
           depart de <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName>, l’avis, oû dorenavant je vous dois
           addresser mes Lett[re]s ./.</p>
         
-        <pb n="f. 36"/>
-        <p> P. S. Si vous avez l’occasion de revoir mon ancien ami, le respectable viellard <persName key="p0587" ref="d9e70273-ac1f-4e02-9119-d80ddd7fb297">Bar[on] de Beauregard</persName>,
+        <pb n="f. 36" />
+        <p> P. S. Si vous avez l’occasion de revoir mon ancien ami, le respectable viellard <persName key="p0587" ref="https://api.dante.gbv.de/person/d9e70273-ac1f-4e02-9119-d80ddd7fb297">Bar[on] de Beauregard</persName>,
           faitez lui mille complim[ent]s de ma part, et l’assurez de mon amitié et estime inalterée.
           Je serois curieux d’apprendre dans une de vos Lett[re]s en quelle situa[ti]on il se trouve
           en Hollande.</p>
         
-        <pb n="f. 36v"/>
+        <pb n="f. 36v" />
         <p> A Monsieur</p>
         <p>
-          <persName key="p0363" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Mons[ieu]r de Stehlin</persName>
+          <persName key="p0363" ref="https://api.dante.gbv.de/person/5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Mons[ieu]r de Stehlin</persName>
         </p>
-        <p><persName key="p0363">Conseil[le]r d’Ambassade</persName></p>
-        <p><persName key="p0363">de S[a] M[ajesté] I[mpéria]le de toutes les Russies</persName>.</p>
+        <p><persName key="p0363" ref="https://api.dante.gbv.de/person/5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">Conseil[le]r d’Ambassade</persName></p>
+        <p><persName key="p0363" ref="https://api.dante.gbv.de/person/5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">de S[a] M[ajesté] I[mpéria]le de toutes les Russies</persName>.</p>
         <p>à <placeName key="g0004" ref="https://www.geonames.org/2747373">la Haye</placeName>
         </p>
         <noteGrp>

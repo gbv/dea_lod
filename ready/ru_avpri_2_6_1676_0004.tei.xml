@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,14 +104,14 @@
     <body>
       <div type="letter">
         <head>
-          <title>9 December 1746. – Exercise letter in Latin [by <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Prince Aleksandr Sergeevich Dolgorukov]</persName>
+          <title>9 December 1746. – Exercise letter in Latin [by <persName key="p0829" ref="https://api.dante.gbv.de/person/b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Prince Aleksandr Sergeevich Dolgorukov]</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 7. Latin original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 7"/>
+        <pb n="f. 7" />
         
         <p>Litterae extemporales</p>
         <p>
@@ -125,10 +126,10 @@
           postea evenient, ad te scribere non omittam. De valetudine tua, quaeso, me certiorem
           facias, meque tibi semper esse deditissimum certo certius credas.</p>
         <closer>
-          <salute>In <orgName key="o0006">Academia Equestri Petropolitana</orgName> die 9.
+          <salute>In <orgName key="o0006" ref="https://api.dante.gbv.de/person/171110b7-5487-4f01-a8b9-28103f4f2159">Academia Equestri Petropolitana</orgName> die 9.
             Dec[embri] 1746.</salute>
           <signed>
-            <persName key="p0829" ref="b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Pr. Alexander Dolgoruky</persName>
+            <persName key="p0829" ref="https://api.dante.gbv.de/person/b51ad807-64e4-4503-ba04-7e61f8c3bb5b">Pr. Alexander Dolgoruky</persName>
           </signed>
         </closer>
         <noteGrp>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,16 +104,16 @@
     <body>
       <div type="letter">
         <head>
-          <title>1 August 1711. – Letter from Venice dated 1 August 1711 from <persName key="p1366">[the Russian Consul in Venice,] Demetrio Bozzis</persName> [,] to <persName key="p0174">His Majesty [Tsar Peter I of Russia]</persName> with congratulations on entering the Walachian and Muntenian lands and wishing him victory over the Turks</title><note>
+          <title>1 August 1711. – Letter from Venice dated 1 August 1711 from <persName key="p1366" ref="https://api.dante.gbv.de/person/68c05b77-e0a1-4088-9c76-60636c14c370">[the Russian Consul in Venice,] Demetrio Bozzis</persName> [,] to <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">His Majesty [Tsar Peter I of Russia]</persName> with congratulations on entering the Walachian and Muntenian lands and wishing him victory over the Turks</title><note>
             <bibl>RGADA, fond 41, opis 1, 1711, no. 2, f. 9-9v. Greek original.</bibl>
           </note>
         </head>
-        <pb n="f. 9"/>
-        <p/>
+        <pb n="f. 9" />
+        <p />
         <p>Ἱερωτάτη Καισαριαία Μεγαλειότης.</p>
         <p>Греческое</p>
-        <p>К <persName key="p0174">велико[му] Г[о]с[у]д[а]рю</persName> из <placeName key="g0031">Венеции</placeName> августа о[т] 1 дня, 1711 [году] из <placeName key="g0031">Венеции</placeName> о[т]
-          <persName key="p1366">Дими[т]рия Боциса</persName>, поздравление о вступлении в волоскую и мунтянскую земли, и желае[т]
+        <p>К <persName key="p0174" ref="https://api.dante.gbv.de/person/18dcae56-9273-4ff4-add5-3bc8328d0da2">велико[му] Г[о]с[у]д[а]рю</persName> из <placeName key="g0031">Венеции</placeName> августа о[т] 1 дня, 1711 [году] из <placeName key="g0031">Венеции</placeName> о[т]
+          <persName key="p1366" ref="https://api.dante.gbv.de/person/68c05b77-e0a1-4088-9c76-60636c14c370">Дими[т]рия Боциса</persName>, поздравление о вступлении в волоскую и мунтянскую земли, и желае[т]
           победы на ту[р]ков.</p>
         <p>Ἠργοπόρησα νὰ γράψω ἕως τῶρα πρὸς τὴν ὑμετέραν ἱερὰν μεγαλειότητα, διὰ νὰ μὴ τῆς φέρω
           ἐνόχλησιν μὲ πράγματα οὐτιδανὰ, καὶ ἀνάξια τῆς γενναιοτάτης σης προσοχῆς καὶ φροντίδος
@@ -125,7 +126,7 @@
           οἰκουμένης. Ἄμποτε ἡ πλουσιόδωρος δεξιὰ τοῦ Σωτῆρος Χριστοῦ νὰ ὑπερασπίζῃ, καὶ νὰ
           συναγωνίζεται μὲ τὸν εὐσεβέστατον ὑμέτερον στρατὸν, ἕως ὁποῦ νὰ ἰδῆ ὁ κόσμος θριαμβεύουσαν
           τὴν ὑμετέραν ἱερωτάτην </p>
-        <pb n="f. 9v"/>
+        <pb n="f. 9v" />
         <p> μεγαλειότητα εἰς τὴν περιβότητον Κωνσταντινούπολιν, τὸ ὁπόσον ἐλπίζομεν νὰ ἰδοῦμεν
           ταχέως γνωρίζοντες ὀφθαλμοφανῶς πῶς εἶναι θεία πρόνοια, ὁποῦ κινεῖ τοσαῦτα καὶ τοιαῦτα
           εὐσεβῆ στρατεύματα, καὶ θεία εὐσπλαγχνεία, ὁποῦ ἐπισκέπτει τῶν ὀρθοδόξων τὴν δέησιν. Ἐν τῷ
@@ -134,10 +135,10 @@
           αὐτοκρατορικῆς ... βασιλείας, εὐλαβῶς ὑπογράφομαι</p>
         <p>εἰς <placeName key="g0031">Βενετίαν</placeName> 1711 Αὐγούστου πρώτῃ.</p>
         <p> Τῆς Ὑμετέρ. Ἱερωτάτης Καισαρίας Μεγαλ.</p>
-        <p/>
+        <p />
         <p>Ταπεινότατος, εὐλαβέστατος πιστότατος καὶ ἐλάχιστος δοῦλος</p>
-        <p> <persName key="p1366" type="signature">Δημήτριος ὁ Μπότζης</persName>.</p>
-        <p/>
+        <p> <persName key="p1366" type="signature" ref="https://api.dante.gbv.de/person/68c05b77-e0a1-4088-9c76-60636c14c370">Δημήτριος ὁ Μπότζης</persName>.</p>
+        <p />
         <noteGrp>
           <note>See also:</note>
           <note>ru_rgada_41_1_1711_2_0007</note>

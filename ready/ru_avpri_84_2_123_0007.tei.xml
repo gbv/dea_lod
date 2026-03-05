@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,40 +102,40 @@
     <body>
       <div type="letter">
         <head>
-          <title> 24 June / 5 July 1771. – Letter from <persName key="p0363">the Russian Chargé d’affaires in Saxony, Peter von Staehlin</persName>, to <persName key="p0114" ref="e1ac6a40-6f08-4749-96bd-54c9efda5bc5">the Senior Member of the College of Foreign Affairs, Count Nikita
+          <title> 24 June / 5 July 1771. – Letter from <persName key="p0363" ref="https://api.dante.gbv.de/person/5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">the Russian Chargé d’affaires in Saxony, Peter von Staehlin</persName>, to <persName key="p0114" ref="https://api.dante.gbv.de/person/e1ac6a40-6f08-4749-96bd-54c9efda5bc5">the Senior Member of the College of Foreign Affairs, Count Nikita
             Ivanovich Panin</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 84, opis 2, no. 123, f. 11-11v. French copy.</bibl>
           </note>
         </head>
-        <pb n="f.11"/>
+        <pb n="f.11" />
         <p>Monseigneur </p>
-        <p/>
+        <p />
         <p> Dimanche passé M<hi rendition="#sup">r.</hi>
-          <persName key="p1552">Osborn</persName> eut
-          audience auprés de <persName key="p0058">l’Electeur</persName>, dans la quelle il notifia
-          la naissance du <persName key="p1559">Prince</persName> dont la <persName key="p0451" ref="65e4dd04-6f24-409e-9518-6d5c734d9120">Reyne d’Angleterre</persName> est accouchée.</p>
+          <persName key="p1552" ref="https://api.dante.gbv.de/person/4ffb3c8e-0704-461d-8206-cc8291f1df64">Osborn</persName> eut
+          audience auprés de <persName key="p0058" ref="https://api.dante.gbv.de/person/db6f2ee9-5e05-41d1-86d9-15ea99f645d9">l’Electeur</persName>, dans la quelle il notifia
+          la naissance du <persName key="p1559" ref="https://api.dante.gbv.de/person/546f6ac1-1a4b-4478-b545-607c98ffbd73">Prince</persName> dont la <persName key="p0451" ref="https://api.dante.gbv.de/person/65e4dd04-6f24-409e-9518-6d5c734d9120">Reyne d’Angleterre</persName> est accouchée.</p>
         <p>
-          <persName key="p1560">M<hi rendition="#sup">r.</hi> le Baron de Sparre</persName> Ministre
+          <persName key="p1560" ref="https://api.dante.gbv.de/person/02128d4c-3e75-48c0-acc7-213e7cb7a18a">M<hi rendition="#sup">r.</hi> le Baron de Sparre</persName> Ministre
           de Suede icy, vient de recevoir les ordres de sa cour, de se preparer au voyage pour
-          l’Espagne, oû il doit aller en la même qualité; et le <persName key="p1561">Baron de
+          l’Espagne, oû il doit aller en la même qualité; et le <persName key="p1561" ref="https://api.dante.gbv.de/person/a0f2df6b-de6f-4642-a019-bd79529bb285">Baron de
           Friesendorff</persName> qui y a eté jusqu’icy et qui se trouve actuellement à <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName>, doit </p>
-        <pb n="f.11v"/>
-        <p> le remplacer auprés <orgName key="o0012">de cette cour ci</orgName>. </p>
+        <pb n="f.11v" />
+        <p> le remplacer auprés <orgName key="o0012" ref="https://api.dante.gbv.de/person/76593cc3-a621-46b7-8e1c-532ad73e99af">de cette cour ci</orgName>. </p>
         <p> J’ai l’honneur d’etre avec le plus profond respect </p>
         <p> Monseigneur </p>
         <p> De Votre Èxcellence </p>
-        <p/>
+        <p />
         <p>
           <placeName key="g0013" ref="https://www.geonames.org/2935022">Dresde</placeName>
         </p>
         <p>le 24. Juin/5. Juillet 1771.</p>
-        <p/>
+        <p />
         <p>le trés humble, trés obeiissant [sic],</p>
         <p>et trés soumis Serviteur </p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0363" xml:space="default" ref="5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda" type="signature">P.Stehlin</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0363" xml:space="default" type="signature" ref="https://api.dante.gbv.de/person/5ee062d0-b64c-4dd4-b0e9-f88cf7b05bda">P.Stehlin</persName>
         </p>
       </div>
     </body>
