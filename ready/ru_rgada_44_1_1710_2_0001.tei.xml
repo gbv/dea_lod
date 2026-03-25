@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,40 +104,40 @@
     <body>
       <div type="letter">
         <head>
-          <title>11 March 1710. – Letter from <persName key="p0535" ref="926520a5-a9ef-45ac-9586-670771370169">the Russian resident in Hamburg, Johann
-            Friedrich Böttiger</persName> , to <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador Plenipotentiary to
+          <title>11 March 1710. – Letter from <persName key="p0535" ref="https://uri.gbv.de/terminology/lod_persons/926520a5-a9ef-45ac-9586-670771370169">the Russian resident in Hamburg, Johann
+            Friedrich Böttiger</persName> , to <persName key="p0729" ref="https://uri.gbv.de/terminology/lod_persons/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador Plenipotentiary to
             Denmark, Prince Vasilii Lukich Dolgorukov</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, op. 1, 1710, no. 2, f. 1–1v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         <p>Monseigneur</p>
         <p>Ich habe nicht Mangiren wollen durch dieße enige zeillen meine referance zu machen, und
-          Ihro Durchl[aucht] meine ankonfft zu Notificiren, mit verMeltung das ich bey hießen <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Magistrat</orgName> d[en] 7.
-          Marty mein Creditiev als <persName key="p0535" ref="926520a5-a9ef-45ac-9586-670771370169">Resident
+          Ihro Durchl[aucht] meine ankonfft zu Notificiren, mit verMeltung das ich bey hießen <orgName key="o0025" ref="https://uri.gbv.de/terminology/lod_persons/343294dd-b4b2-453e-87f4-2a241bb0a2e4">Magistrat</orgName> d[en] 7.
+          Marty mein Creditiev als <persName key="p0535" ref="https://uri.gbv.de/terminology/lod_persons/926520a5-a9ef-45ac-9586-670771370169">Resident
           von Ihro Gross Czarischen Majest[ät] in Hamburg</persName> zu Residiren übergeben habe,
           welches die Statt mit allen respect nicht alleine angenom[m]en, sondern auch mit 2
           deputirten auß den Raht mich benifendiren laßen </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <p> und den gebrauch Nach, wie Sie andern hohen gekröntten Haübtern Ministern Pflegen zu
           begegnen, mit einen present von Rein wein, auß Ihren Rahts Keller regalliret haben, und
-          sich ferner zu <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Gross
+          sich ferner zu <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro Gross
           Czarischen Maj[e]st[ät]</persName> diensten offeriret haben</p>
         <p>Alßo recom[m]andire mich zu Ihro Durchl[aucht] diensten hießiges orts, mit
-          Untertähnigster bitte das passirente bey <orgName key="o0009" ref="62f4a0a0-914d-43df-89d9-be5aaf841973">Ihren Dänschen Hoffe</orgName> Undt waß in
+          Untertähnigster bitte das passirente bey <orgName key="o0009" ref="https://uri.gbv.de/terminology/lod_persons/62f4a0a0-914d-43df-89d9-be5aaf841973">Ihren Dänschen Hoffe</orgName> Undt waß in
           Schonen passirt, durch dehro Secretarien Com[m]uniciren zu laßen den mir von die Herrn
           Minister von Unßern Hoffe Expresse in Meine instruction gesetzt ist mit alle außwertige
-          Hoche Minister von <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
+          Hoche Minister von <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihro
           Gross Czarischen Majest[ät]</persName> zu Correspondiren wie ich dan in schonster
           Empfehlung bin</p>
         <p>Ew[er] Durchl[aucht] Monseigneur vostre</p>
         <p>tres humbl et tres obeissant</p>
         <p>serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0535" ref="926520a5-a9ef-45ac-9586-670771370169" type="signature">J[ohann] F[riedrich]
-            Böttiger <lb/>Consille de Commertie <lb/>et Resident de Sa Maj[e]st[ät] <lb/>le
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="p0535" ref="https://uri.gbv.de/terminology/lod_persons/926520a5-a9ef-45ac-9586-670771370169" type="signature">J[ohann] F[riedrich]
+            Böttiger <lb />Consille de Commertie <lb />et Resident de Sa Maj[e]st[ät] <lb />le
             Czariene </persName>
         </p>
         <p>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,18 +103,18 @@
     <body>
       <div type="letter">
         <head>
-          <title>8/19 March 1716. – Memorial from <persName key="p0984">the Danish Envoy Extraordinary to Russia, Hans Georg Westphalen</persName>, to <persName key="p0174">the Tsar of Russia, Peter I</persName></title><note>
+          <title>8/19 March 1716. – Memorial from <persName key="p0984" ref="https://uri.gbv.de/terminology/lod_persons/bb51396d-003d-4bcf-981c-0819fa5b2232">the Danish Envoy Extraordinary to Russia, Hans Georg Westphalen</persName>, to <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">the Tsar of Russia, Peter I</persName></title><note>
             <bibl>RGADA, fond 53, opis 1, 1716, no. 17, f. 12–14. German original.</bibl>
 <bibl>Russian translation from German: RGADA, fond 53, opis 1, 1716, no. 17, f. 15–16v</bibl>
           </note>
         </head>
-        <pb n="f. 12"/>
+        <pb n="f. 12" />
         <p>AllerDurchleuchtigster. GroßMächtigster</p>
         <p>Czaar.</p>
-        <p>Als <persName key="p0532">Ihro Königl[iche] Majestät zu DänneMarcken undt Norwegen Mein Allergnädigster König undt Herr</persName> aus Ewer= Czaarischen Majestät Resolution auf den, <persName key="p0202">Dem Herrn Cammerherrn Jagouschinsky</persName> Mit gegebenen Plan uber die Operationes kunfftiger Campagne
+        <p>Als <persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">Ihro Königl[iche] Majestät zu DänneMarcken undt Norwegen Mein Allergnädigster König undt Herr</persName> aus Ewer= Czaarischen Majestät Resolution auf den, <persName key="p0202" ref="https://uri.gbv.de/terminology/lod_persons/89a43649-58e4-42c5-9be8-b2d516077aa6">Dem Herrn Cammerherrn Jagouschinsky</persName> Mit gegebenen Plan uber die Operationes kunfftiger Campagne
           vergnuglich ersehen, welcher gestalt Ewer Czaarische Majestät Erböthig sindt, noch uber
           dehnen Bataillonen undt das Regiment zu pferde, woruber Man </p>
-        <pb n="f. 12v"/>
+        <pb n="f. 12v" />
         <p>
           schon im verwichenen Sommer mit Einander conveniret, zu fortsetzung dehrer Operationen in
           Schonen, noch mehre trouppen auf Dero Eigene Unkosten zu fourniren; Meines Königes Krieges
@@ -121,15 +122,15 @@
           derjenigen Difficultäten, die da der so höchstnöthigen schleunigen ausrustung AllerHöchst
           Ermelten Meines Königes Flotte im wege liegen, Deroselben mit 3000 Schiffpfundt hanff,
           undt so viele Masten, als zu <placeName key="g0015">Riga</placeName> vorhanden sindt, an handt gehen zu wollen.</p>
-        <p>So bin ich darauf unter <persName key="p0532">AllerHöchst Gedachter Königl[ichen] Majestät Meines Allergnädigsten Herrens</persName> Hand undt Siegel expressè befehligt, in Dero Königl[ichen]
+        <p>So bin ich darauf unter <persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">AllerHöchst Gedachter Königl[ichen] Majestät Meines Allergnädigsten Herrens</persName> Hand undt Siegel expressè befehligt, in Dero Königl[ichen]
           Nahmen Ewrer Czaarischen Majestät fur selbige Dero an Sie gethane offerts zu dancken, undt
           Ewer Majestät Derowegen zu versichern.</p>
         <p>Daß gleichwie hieraus Ewer= Czaarischen Majestät recht aufrichtige Intention vor das
           Gemeine Wesen ruhmligt erhellet, Also wehren Dieselben auch Ewer= <hi rendition="#s">Königl[ichen]</hi> Czaarischen Majestät
-          davor höchstens verbunden; Wie dan <persName key="p0532">Mein Allergnädigster König</persName> solche Ewer
+          davor höchstens verbunden; Wie dan <persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">Mein Allergnädigster König</persName> solche Ewer
           Czaarische Majestät Ihr gethane offerten wurcklich acceptiren, undt annehmen, auch darnach
           Dero Mesures zu nehmen resolviret sindt.</p>
-        <pb n="f. 13"/>
+        <pb n="f. 13" />
         <p>Darnebenst aber der sicheren hoffnung leben, Es werden Ewer Majestät |:in erwegung; daß
           das Hauptwerck der bevorstehender Campagne darauf wohl eigentlich beruhen möchte, daß
           Dänischer seiten Die flotte allerfordersahmst, undt zwahr in einer considerablen
@@ -138,15 +139,15 @@
           stoßen können, undt die hierzu determinirte zeit nicht erstlich bey der vorseyenden
           entrevuë zwischen Beeden Monarchen <hi rendition="#s">erstlich</hi> abgeredet werden möge; Maßen eine solche verzögerung zu
           gahr zu vielen großen Inconvenientien anlaß geben durfte.</p>
-        <p><persName key="p0532">Allergnädigster Herr</persName> nicht weniger wegen der offerirten Masten undt den hanff den
+        <p><persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">Allergnädigster Herr</persName> nicht weniger wegen der offerirten Masten undt den hanff den
           effect, undt daß Deroselben das eine undt andere fordersahmst zugesandt werde, Erwarten,
           undt entgegen sehen.</p>
         <p>Ewer= Czaarische Majestät diesem nechst angelegendtlichst Ersuchende, daß Dero albereits
           zu <placeName key="g0006">Copenhagen</placeName> sich befindliche krieges schiffe, desgleichen diejenige, so etwan annoch aus
           Engelandt= Hollandt, undt von <placeName key="g0049">Archangel</placeName> erwartet werden, daselbsten verbleiben, undt
           Deroselben zu Dero disposition wehrender heuerigen Campagne uberlaßen, auch zu dem</p>
-        <pb n="f. 13v"/>
-        <p> ende <persName key="p0729">Ewer Majestät Ambassadeur</persName> unverzugliche undt
+        <pb n="f. 13v" />
+        <p> ende <persName key="p0729" ref="https://uri.gbv.de/terminology/lod_persons/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Ewer Majestät Ambassadeur</persName> unverzugliche undt
           zureichliche ordres beygelegt werden möge.</p>
         <p>Ich der ich uber allen diesem mich abseiten Ewer Czaarischen Majestät Eines favorablen
           bescheides undt antwort verspreche, embrassire diese gelegenheit, Ewer Majestät mit
@@ -157,15 +158,15 @@
         <p>AllerDurchleuchtigster GroßMächtigster</p>
         <p>Czaar</p>
         <p>Ewer Czaarischen Majestät</p>
-        <p/>
+        <p />
         <p><placeName key="g0014">Dantzig</placeName> d[en] 19/8 Mertz allerunterthänigster, dehmutigster</p>
-        <p> diener <persName key="p0984" type="signature">H G Westphalen</persName></p>
-        <p><persName key="p0984">Ihro Königl[ichen] Maj[estä]t zu DanneMark</persName></p>
-        <p><persName key="p0984">Norwegen Etatz Rath undt</persName></p>
-        <p><persName key="p0984">Envoyè Extraordinaire</persName>.</p>
-        <p/>
-        <pb n="f. 14"/>
-        <p>Мемориал <persName key="p0984">Вестфала</persName>. Подан во <placeName key="g0014">Гданске</placeName> в 8 де[нь] марта 1716.</p>
+        <p> diener <persName key="p0984" type="signature" ref="https://uri.gbv.de/terminology/lod_persons/bb51396d-003d-4bcf-981c-0819fa5b2232">H G Westphalen</persName></p>
+        <p><persName key="p0984" ref="https://uri.gbv.de/terminology/lod_persons/bb51396d-003d-4bcf-981c-0819fa5b2232">Ihro Königl[ichen] Maj[estä]t zu DanneMark</persName></p>
+        <p><persName key="p0984" ref="https://uri.gbv.de/terminology/lod_persons/bb51396d-003d-4bcf-981c-0819fa5b2232">Norwegen Etatz Rath undt</persName></p>
+        <p><persName key="p0984" ref="https://uri.gbv.de/terminology/lod_persons/bb51396d-003d-4bcf-981c-0819fa5b2232">Envoyè Extraordinaire</persName>.</p>
+        <p />
+        <pb n="f. 14" />
+        <p>Мемориал <persName key="p0984" ref="https://uri.gbv.de/terminology/lod_persons/bb51396d-003d-4bcf-981c-0819fa5b2232">Вестфала</persName>. Подан во <placeName key="g0014">Гданске</placeName> в 8 де[нь] марта 1716.</p>
         <noteGrp><note>Also see:</note>
         <note>ru_rgada_53_1_1716_17_0002</note>
         <note>ru_rgada_53_1_1717_16_0001</note>

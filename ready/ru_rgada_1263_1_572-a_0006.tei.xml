@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,12 +103,12 @@
     <body>
       <div type="letter">
         <head>
-          <title>21 December 1770 / 1 January 1771. – Letter from <persName key="p0015">the Russian Envoy to Saxony, Prince Andrei Mikhailovich Belosel’skii</persName>, to <persName key="p0065">Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</persName></title>
+          <title>21 December 1770 / 1 January 1771. – Letter from <persName key="p0015" ref="https://uri.gbv.de/terminology/lod_persons/bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei Mikhailovich Belosel’skii</persName>, to <persName key="p0065" ref="https://uri.gbv.de/terminology/lod_persons/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr Mikhailovich Golitsyn</persName></title>
           <note>
             <bibl>RGADA, f. 1263, opis 1, no. 572-a, f. 20. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 20"/>
+        <pb n="f. 20" />
         <opener>
           <salute>Mon Prince!</salute>
         </opener>
@@ -121,8 +122,8 @@
           <salute>De Vôtre Excellence</salute>
           <salute>Le très humble et très</salute>
           <salute>obeissant serviteur</salute>
-          <signed><persName key="p0015">Le Prince de Beloselski</persName></signed>
-          <dateline><placeName key="g0013">Dresde</placeName> <date>Ce 1<hi rendition="#sup">er</hi> Janvier/21 Decembre</date> <lb/>1770./</dateline>
+          <signed><persName key="p0015" ref="https://uri.gbv.de/terminology/lod_persons/bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName></signed>
+          <dateline><placeName key="g0013">Dresde</placeName> <date>Ce 1<hi rendition="#sup">er</hi> Janvier/21 Decembre</date> <lb />1770./</dateline>
         </closer>
         <noteGrp>
           <note>See also:</note>

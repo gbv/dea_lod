@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,23 +103,23 @@
     <body>
       <div type="letter">
         <head>
-          <title>9 July 1748. – Reply of <persName key="p0052">Empress Elizabeth Petrovna of Russia</persName> to <persName key="p0067">King Frederick I of Sweden</persName> </title><note>
+          <title>9 July 1748. – Reply of <persName key="p0052" ref="https://uri.gbv.de/terminology/lod_persons/afc1e8df-6410-4e68-80dd-abcafa754aa6">Empress Elizabeth Petrovna of Russia</persName> to <persName key="p0067" ref="https://uri.gbv.de/terminology/lod_persons/22412e8c-3755-4663-8444-15061d7a9e52">King Frederick I of Sweden</persName> </title><note>
             <bibl>AVPRI, fond 74, opis 1, 1748, no. 3, f. 99–99v. German original.
             </bibl>
           </note>
         </head>
         
-        <pb n="f. 99"/>
+        <pb n="f. 99" />
         
-        <p>Monsieur mon Frere. Aus Ew[rer] Maj[estä]t durch dero <persName key="p0658" ref="9cf691c0-10e4-4326-872c-6408a74b463a">Ministre v. Wulfienstierna</persName> alhier überreichten Schreiben von 28ten Marty habe ich mit nicht geringer Befremdung und Leydweßen ersehen, wie dieselben meinen so offt wiederhohlten Versicherungen, daß mein bey Ew[rer]. M[ajestä]t Hofe vorhin gestandener <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Ambassadeur und nachheriger Envoyé Extraordinaire der Geh. Rath Baron v. Korff</persName> während der gantzen Zeit seines dortigen Ministerii nicht so sehr, als die unverbrüchliche Unterhaltung einer beständigen Freundschaft und guten Vernehmens zwieschen (sic!) Uns, behertziget, und die über ihn vergeblich geführten Klagen gar nicht verdienet, nicht einen solchen Glauben, als denen bey Sie fälschlich angebrachten und dem zuwiederlauffenden Insinuationes in der alleinigen Absicht, um zwieschen Uns eine Kaltsinnigkeit zu erwecken beylegen.</p>
-        <p>Ebenmäßig gereicht es auch nicht weniger zu meiner Befrembdung, daß mein so billiges und auf die Reciprocité sich gründendes Recht betreffend die Rappellirung dero allhier vorseyenden <persName key="p0658" ref="9cf691c0-10e4-4326-872c-6408a74b463a">Ministre v: Wulfenstierna</persName> so wenig Eingang gefunden, da Sie es bis zur Endigung der so lange bis hiezu fruchtlos geführten Gräntz-Angelegenheit aussetzen, ich hoffe, daß Ew[rer]. M[ajestä]t viele dergleichen treue und erfahrene Ministre haben die im Stande sind, dero Intention über diesen Vorwurf ebenfals in Erfüllung zu bringen. Die meiner seits Ew[rer]. M[ajestä]t aus alleiniger Gefälligkeit erwiesene Bereitwilligkeit obgedahten meinen <persName key="p0245" ref="5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Ministre den Baron v. Korff</persName> zu rappeliren, läßt mich im Geringsten nicht zweifeln, es werde sothane meine Bemühung, die in der Reciprocité bestehet, gleichfals gar keine Schwürigkeit vorfinden. Dagegen wird mir ein jeder anderer Ministre anhenehm seyn, welchen Ew[rer] May[estä]t zu Befestigung des unter Uns obwaltenden Freundschafts-Bandes und guten Vernehmens auszuersehen belieben. Wonebst ich mit unveränderten </p>
-        <pb n="f. 99v"/>
+        <p>Monsieur mon Frere. Aus Ew[rer] Maj[estä]t durch dero <persName key="p0658" ref="https://uri.gbv.de/terminology/lod_persons/9cf691c0-10e4-4326-872c-6408a74b463a">Ministre v. Wulfienstierna</persName> alhier überreichten Schreiben von 28ten Marty habe ich mit nicht geringer Befremdung und Leydweßen ersehen, wie dieselben meinen so offt wiederhohlten Versicherungen, daß mein bey Ew[rer]. M[ajestä]t Hofe vorhin gestandener <persName key="p0245" ref="https://uri.gbv.de/terminology/lod_persons/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Ambassadeur und nachheriger Envoyé Extraordinaire der Geh. Rath Baron v. Korff</persName> während der gantzen Zeit seines dortigen Ministerii nicht so sehr, als die unverbrüchliche Unterhaltung einer beständigen Freundschaft und guten Vernehmens zwieschen (sic!) Uns, behertziget, und die über ihn vergeblich geführten Klagen gar nicht verdienet, nicht einen solchen Glauben, als denen bey Sie fälschlich angebrachten und dem zuwiederlauffenden Insinuationes in der alleinigen Absicht, um zwieschen Uns eine Kaltsinnigkeit zu erwecken beylegen.</p>
+        <p>Ebenmäßig gereicht es auch nicht weniger zu meiner Befrembdung, daß mein so billiges und auf die Reciprocité sich gründendes Recht betreffend die Rappellirung dero allhier vorseyenden <persName key="p0658" ref="https://uri.gbv.de/terminology/lod_persons/9cf691c0-10e4-4326-872c-6408a74b463a">Ministre v: Wulfenstierna</persName> so wenig Eingang gefunden, da Sie es bis zur Endigung der so lange bis hiezu fruchtlos geführten Gräntz-Angelegenheit aussetzen, ich hoffe, daß Ew[rer]. M[ajestä]t viele dergleichen treue und erfahrene Ministre haben die im Stande sind, dero Intention über diesen Vorwurf ebenfals in Erfüllung zu bringen. Die meiner seits Ew[rer]. M[ajestä]t aus alleiniger Gefälligkeit erwiesene Bereitwilligkeit obgedahten meinen <persName key="p0245" ref="https://uri.gbv.de/terminology/lod_persons/5ac20c1a-7e16-4b8c-ae80-e7350a3a7c0e">Ministre den Baron v. Korff</persName> zu rappeliren, läßt mich im Geringsten nicht zweifeln, es werde sothane meine Bemühung, die in der Reciprocité bestehet, gleichfals gar keine Schwürigkeit vorfinden. Dagegen wird mir ein jeder anderer Ministre anhenehm seyn, welchen Ew[rer] May[estä]t zu Befestigung des unter Uns obwaltenden Freundschafts-Bandes und guten Vernehmens auszuersehen belieben. Wonebst ich mit unveränderten </p>
+        <pb n="f. 99v" />
         <p>Hochachtung alstets verbleibe.</p>
         <p>Monsieur mon Frere</p>
         <p>Ew[rer] M[ajestä]t</p>
         <p>Gute Schwester und Nachbahrin</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0052" xml:space="default" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6" type="signature">Elisabeth</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0052" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/afc1e8df-6410-4e68-80dd-abcafa754aa6" type="signature">Elisabeth</persName>
         </p>
         <p>
           <placeName key="g0192" ref="https://www.geonames.org/504003">Czarska Selo</placeName>

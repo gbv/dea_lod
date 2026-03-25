@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,25 +103,25 @@
       <div type="letter">
         <head>
           <title>
-            13 December 1707. – Royal letter from <persName key="p0532">King of Denmark Frederik IV</persName> to
-            <persName key="p0174">Tsar Peter I</persName>
+            13 December 1707. – Royal letter from <persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">King of Denmark Frederik IV</persName> to
+            <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName>
           </title>
           <note>
             <bibl>RGADA, f. 53, op. 4, no. 2, fol. 4–4v. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 4"/>
-        <p>Wii <persName key="p0532">Friderich den Fierde, off Guds Naade, Konge til Dannemarck og Norge, de Wenders og Gothers, Hertug udi Slesvig, Holsten, Stormarn og Dytmersken, Greve udi Oldenborg og Dellmenhorst</persName>. Tilbiude deed Durchleuchtigste <persName key="p0174">Czaar, Woris Elskelige Kiere Herr Broder, Ven og Naboe, af Guds Naade, Store Herre Tzar og Storförst, Peter Alexeiewitz, alle Store Smaae og hvide Rydßers SelfErholder, Moßkows, Kiofski, Woladimerski Nougorodski, Tzar til Kaßan, Tzar til Astrakan, Tzar til Siberien, Herre til Pleskow, Storförste til Smolensko, Twerski, Jugorski, P[e]rmski, Wätzki, Bolgarski og andre, Herr og Storförste til Nougorodi, i det LageLand, Tzerning Goufski, Resantzski, Rostofski, Jeroslofski, bielo Osterski, Udorski, Candinski, og alt Norder Sides befalere, Herre til Iwerski land, Kartalinski og Grusinski, Tzar ofuer Carbadinski Land, Tzerkoßkisk og Gorßkisk, Förste, og mange Herredomme og Lande udi Öster, Wester og Nör, Fæderlig, Forfæderlig og Arfvelig Herre og Regenter</persName>. Wj have udaff <persName key="p0174">Eders May[estæ]ts</persName> og Kierl[ighe]ds til Oß affgangne
-          br[oder]= og Nabovenlige Schriffvelse, aff dato den 4.<hi rendition="#sup">de </hi>Septembris, sidstleden, hvorledis <persName key="p0174">Eders May[estæ]t</persName> og
+        <pb n="f. 4" />
+        <p>Wii <persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">Friderich den Fierde, off Guds Naade, Konge til Dannemarck og Norge, de Wenders og Gothers, Hertug udi Slesvig, Holsten, Stormarn og Dytmersken, Greve udi Oldenborg og Dellmenhorst</persName>. Tilbiude deed Durchleuchtigste <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Czaar, Woris Elskelige Kiere Herr Broder, Ven og Naboe, af Guds Naade, Store Herre Tzar og Storförst, Peter Alexeiewitz, alle Store Smaae og hvide Rydßers SelfErholder, Moßkows, Kiofski, Woladimerski Nougorodski, Tzar til Kaßan, Tzar til Astrakan, Tzar til Siberien, Herre til Pleskow, Storförste til Smolensko, Twerski, Jugorski, P[e]rmski, Wätzki, Bolgarski og andre, Herr og Storförste til Nougorodi, i det LageLand, Tzerning Goufski, Resantzski, Rostofski, Jeroslofski, bielo Osterski, Udorski, Candinski, og alt Norder Sides befalere, Herre til Iwerski land, Kartalinski og Grusinski, Tzar ofuer Carbadinski Land, Tzerkoßkisk og Gorßkisk, Förste, og mange Herredomme og Lande udi Öster, Wester og Nör, Fæderlig, Forfæderlig og Arfvelig Herre og Regenter</persName>. Wj have udaff <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Eders May[estæ]ts</persName> og Kierl[ighe]ds til Oß affgangne
+          br[oder]= og Nabovenlige Schriffvelse, aff dato den 4.<hi rendition="#sup">de </hi>Septembris, sidstleden, hvorledis <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Eders May[estæ]t</persName> og
           Kierl[ighe]d for got haver fundet, deris ved Voris Hoff paa nogle AarsTiid Subsisterende
-          <persName key="p1432">Ordinaire Ambassadeur, Neste Stolnicke og Stattholder over Susdal, Andreas Petrowitz Ismaylow</persName>, tilbagge at kalde, og udj des Sted, til at frembdeelis underholde og cultivere,
+          <persName key="p1432" ref="https://uri.gbv.de/terminology/lod_persons/1b697bbb-18a9-4913-a07d-7a0ed59f070b">Ordinaire Ambassadeur, Neste Stolnicke og Stattholder over Susdal, Andreas Petrowitz Ismaylow</persName>, tilbagge at kalde, og udj des Sted, til at frembdeelis underholde og cultivere,
           den jmellem Oß og Eders May[estæ]t og Kierl[ighe]d wærende fortroelig Correspondence og
-          Wennskab, til Oß, deris <persName key="p0729">Ordinaire Ambassadeur, CammerHerre og Stattholder over Bieloozerky, Försten Basilium Dolhorukow</persName>, igien at affferdige. Som Wj Oß nu denne
-          Forandring, som <persName key="p0174">Eders May[estæ]t</persName> og Kierl[ighe]d herudinden här willet giöre, wel lade
-          behage; Saa kunde Wj, wedbemelte deris <persName key="p1432">Ambassadeurs Ismaylows</persName> Affreise, ey forbigaar <persName key="p0174">Eders May[estæ]t</persName> og Kierl[ighe]d hermed at betyge, at hans Persohn Oß haver wæret meget angenehm
+          Wennskab, til Oß, deris <persName key="p0729" ref="https://uri.gbv.de/terminology/lod_persons/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Ordinaire Ambassadeur, CammerHerre og Stattholder over Bieloozerky, Försten Basilium Dolhorukow</persName>, igien at affferdige. Som Wj Oß nu denne
+          Forandring, som <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Eders May[estæ]t</persName> og Kierl[ighe]d herudinden här willet giöre, wel lade
+          behage; Saa kunde Wj, wedbemelte deris <persName key="p1432" ref="https://uri.gbv.de/terminology/lod_persons/1b697bbb-18a9-4913-a07d-7a0ed59f070b">Ambassadeurs Ismaylows</persName> Affreise, ey forbigaar <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Eders May[estæ]t</persName> og Kierl[ighe]d hermed at betyge, at hans Persohn Oß haver wæret meget angenehm
           og behagelig, j det hand stedse og ald dend stund hand sig ved Voris Hoff opholdet haver,
           een god og velsindet intention og Zele haver ladet see, til at jo meere og meere at
-          befeste forbemelte Oß og <persName key="p0174">Eders May[estæ]t</persName> og Kierl[ighe]d jmellem værende Naboelig Wenskab
+          befeste forbemelte Oß og <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Eders May[estæ]t</persName> og Kierl[ighe]d jmellem værende Naboelig Wenskab
           og Fortrolighed. Wj wille og saa formode, at hand ved hans tilbagekomst, Eders Eders
           May[estæ]t og Kierl[ighe]d berettendes worder, at Wj paa Voris Side oprigteligen ere
           sinnede, med Eders Eders May[estæ]t og Kierl[ighe]d eet uforanderlig og bestandig Wenskab
@@ -129,18 +130,18 @@
           til ald höylyksalig Velgaaende, troligen og Naboevenligen. Givet paa Vort Slott
           <placeName key="g0006">Kiöbenhafn</placeName>, den 13.<hi rendition="#sup">de </hi>Decembris, Anno 1707.</p>
         <closer>
-          <salute>Eders <persName key="p0174">Eders May[estæ]ts</persName> og Kierl[ighe]ds</salute>
+          <salute>Eders <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Eders May[estæ]ts</persName> og Kierl[ighe]ds</salute>
           <salute>Troe Broder, Ven og Naboe,</salute>
-          <signed><persName key="p0532">Friderich R[ex]</persName></signed>
-          <signed><persName key="p1733">A G Hanneken</persName></signed>
+          <signed><persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">Friderich R[ex]</persName></signed>
+          <signed><persName key="p1733" ref="https://uri.gbv.de/terminology/lod_persons/45d1acba-c2bb-4996-ba26-d2fb8a4c3fdf">A G Hanneken</persName></signed>
         </closer>
-        <pb n="f. 4v"/>
+        <pb n="f. 4v" />
         <postscript>
-          <p> Den Durchleuchtigste <persName key="p0174">Czaar, Voris Elskelige Kiere Herr Broder, Ven og Naboe, af Guds Naade, Store Herre Tzaar og Storförste, Peter Alexeiewitz, alle Store, Smaae og huide Rydsers SelfErholder, Moßkows, Kioffski, Woladimerski, Nougorodski, Tzar til Kaßan, Tzar til Astrakan, Tzar til Siberien, Herre til Pleskow, Storförste til Smolenskow, Twerski, Jugorski, Permski, Wätzski, Bolgarski og andre, Herr og Storförste til Nowgorodi, i det Lægeland, Tzerning Goufski, Resantzki, Rostofski, Jeroslofski, Bielo Osterski, Udorski, Obdorski, Candinski, og alt Norder Sides befalere, Herre til Iverski Land, Kartalinski og Grusinski, Tzar over Carbadinski land, Tzerkoßkisk og Gorskisk Förste, og mange andre Herredömme og LAnde, udj Öster, Vester og Nör, Fæderlig, forfæderlig og arffvelig Herre og Regenter</persName>.</p>
-          <p/>
+          <p> Den Durchleuchtigste <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Czaar, Voris Elskelige Kiere Herr Broder, Ven og Naboe, af Guds Naade, Store Herre Tzaar og Storförste, Peter Alexeiewitz, alle Store, Smaae og huide Rydsers SelfErholder, Moßkows, Kioffski, Woladimerski, Nougorodski, Tzar til Kaßan, Tzar til Astrakan, Tzar til Siberien, Herre til Pleskow, Storförste til Smolenskow, Twerski, Jugorski, Permski, Wätzski, Bolgarski og andre, Herr og Storförste til Nowgorodi, i det Lægeland, Tzerning Goufski, Resantzki, Rostofski, Jeroslofski, Bielo Osterski, Udorski, Obdorski, Candinski, og alt Norder Sides befalere, Herre til Iverski Land, Kartalinski og Grusinski, Tzar over Carbadinski land, Tzerkoßkisk og Gorskisk Förste, og mange andre Herredömme og LAnde, udj Öster, Vester og Nör, Fæderlig, forfæderlig og arffvelig Herre og Regenter</persName>.</p>
+          <p />
            <p>
-              Датская к ц[а]рю г[о]с[у]д[а]рю <persName key="p0174">Петру Алексеевичу</persName>
-              от датскаго короля <persName key="p0532">Фридерика 4-го</persName>. Писана декабря в 13 де[нь] лета 1707-го.</p>
+              Датская к ц[а]рю г[о]с[у]д[а]рю <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Петру Алексеевичу</persName>
+              от датскаго короля <persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">Фридерика 4-го</persName>. Писана декабря в 13 де[нь] лета 1707-го.</p>
           
           
             <p> </p>

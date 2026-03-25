@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,34 +102,34 @@
     <body>
       <div type="letter">
         <head>
-          <title>June 4, 1677. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1426" xml:space="default">State Councillor Conrad Bierman </persName>
-            to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1424" xml:space="default">the Danish Envoy to Russia, Frederik von Gabel</persName>
+          <title>June 4, 1677. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1426" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/447618f2-426e-47ce-80e7-ed5388d6dff5">State Councillor Conrad Bierman </persName>
+            to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1424" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/0f748d65-20b6-49ba-a6c5-d9c75c8e5474">the Danish Envoy to Russia, Frederik von Gabel</persName>
           </title>
           <note>
             <bibl>RGADA, fond 53, opis 1, 1676, no. 3, f. 124–125. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 124"/>
+        <pb n="f. 124" />
         
         <p>Monsieur</p>
-        <p>Le temps ne me permet pas de vous dire presentement d’avantage si non que <persName key="p0669">Sa Majesté</persName> estant partye, il y a aujourdhuy dix jours avec son Armee d’aupres de <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0470" xml:space="default">
+        <p>Le temps ne me permet pas de vous dire presentement d’avantage si non que <persName key="p0669" ref="https://uri.gbv.de/terminology/lod_persons/ed7aae48-00c5-465a-9927-fcd94acf2e14">Sa Majesté</persName> estant partye, il y a aujourdhuy dix jours avec son Armee d’aupres de <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0470" xml:space="default">
           Landscron</placeName> marcha tout droit vers les Ennemys qui s’estoient retranchés sur une
           hauteur a une petite demye lieüe de la ville en un lieu extremement avantageux. jls firent
           d’abord mine de sy vouloir maintenir, mais la [n]uict estant survenüe, ils se retirerent
           sans bruit prennants leur marche vers <placeName key="g0381" ref="https://www.geonames.org/2699310">Christianstatt</placeName>, dont on ne
           s’apperceust que de l’endemain matin. Sa Majeste en ayant eu avis les suivoit incontinent
           et ne cessa de leur donner la Chasse susques au de la de <placeName key="g0381" ref="https://www.geonames.org/2699310">Christianstatt</placeName> ou ils se retirerent
-          dans les bois sans que lon les ayt pu suivre d’avantage a cause du manquement de vivres. <persName key="p1428">Le General Major Meerheim</persName> s’appercevant de leur retraitte a fait
+          dans les bois sans que lon les ayt pu suivre d’avantage a cause du manquement de vivres. <persName key="p1428" ref="https://uri.gbv.de/terminology/lod_persons/7d435a48-b969-4725-9afb-e739d5d7b261">Le General Major Meerheim</persName> s’appercevant de leur retraitte a fait
           une sortie sur eux avec tant de vigeur quil leur enleva 21. pieces de Canons de Campagne,
           tua beaucoup de leur monde et fist quantité de Prison-</p>
-        <pb n="f. 124v"/>
-        <p>niers. Vous juegerez aisement Monsieur que cette retraitte des Ennemys devant l’Armee de <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Sa Majesté</persName> ne sest pu
+        <pb n="f. 124v" />
+        <p>niers. Vous juegerez aisement Monsieur que cette retraitte des Ennemys devant l’Armee de <persName key="p0669" ref="https://uri.gbv.de/terminology/lod_persons/ed7aae48-00c5-465a-9927-fcd94acf2e14">Sa Majesté</persName> ne sest pu
           faire quavec beaucoup de perte de leur Costè-estant certain quon leur a tué ou pris plus
           de 1500. hommes sans ceux qui ont esté assommés par les Schnaphans dans les bois. Enfin <placeName key="g0381" ref="https://www.geonames.org/2699310">Christianstatt</placeName> est
           delivré et on ne sçait jusques ou l’espouvante a emporté les Ennemys. je ne diray rien icy
-          de la Victoire que 12. Vaisseaux de la Flotte de <persName key="p0669" ref="ed7aae48-00c5-465a-9927-fcd94acf2e14">Sa
+          de la Victoire que 12. Vaisseaux de la Flotte de <persName key="p0669" ref="https://uri.gbv.de/terminology/lod_persons/ed7aae48-00c5-465a-9927-fcd94acf2e14">Sa
             Majesté</persName> a emportée sur l’Esquadre Ennemy qui estoit dans le Belth puisque
-          vous en aurez sans doute deja appris les Particu[lari]tés d’ailleurs. <persName key="p1429">M.
+          vous en aurez sans doute deja appris les Particu[lari]tés d’ailleurs. <persName key="p1429" ref="https://uri.gbv.de/terminology/lod_persons/e10a4a0d-c6b5-4c6f-a1ae-8962fcafccb9">M.
             l’Admiral Nels juell</persName> en a pris 5. Vaisseaux et estoit encores a la chasse des
           autres par les lettres quon en a receues. je suis avec respect </p>
         <closer>
@@ -138,13 +139,13 @@
                                                           <salute>Vostre tr[ès] humble et</salute>
                                                           <salute>tres obeissant serviteur</salute>
         
-      <signed><persName key="p1426">C[onrad] Bierman</persName></signed>
-      <persName key="p1424">a M[onsieu]r. Gabell</persName>.
+      <signed><persName key="p1426" ref="https://uri.gbv.de/terminology/lod_persons/447618f2-426e-47ce-80e7-ed5388d6dff5">C[onrad] Bierman</persName></signed>
+      <persName key="p1424" ref="https://uri.gbv.de/terminology/lod_persons/0f748d65-20b6-49ba-a6c5-d9c75c8e5474">a M[onsieu]r. Gabell</persName>.
         
-        <pb n="f. 125"/>
-        <address> <addrLine> Писмо <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1424" xml:space="default">датского посланника Фридриха фон Габеля</persName> прислано
-          в <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Посолской приказ</orgName>
-          с <persName key="p1475">переводчиком и маеором Юрьем Боем</persName> в нынешнем 185-м году
+        <pb n="f. 125" />
+        <address> <addrLine> Писмо <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1424" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/0f748d65-20b6-49ba-a6c5-d9c75c8e5474">датского посланника Фридриха фон Габеля</persName> прислано
+          в <orgName key="o0064" ref="https://uri.gbv.de/terminology/lod_persons/">Посолской приказ</orgName>
+          с <persName key="p1475" ref="https://uri.gbv.de/terminology/lod_persons/b681a9f8-d2f3-49b7-94ab-f2d8884c83a5">переводчиком и маеором Юрьем Боем</persName> в нынешнем 185-м году
           июля в 6 де[нь].</addrLine></address>
         </closer>
         <noteGrp>

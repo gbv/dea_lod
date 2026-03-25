@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,19 +101,19 @@
     <body>
       <div rendition="#sup">
         <head>
-          <title>25 July 1733. – Letter from <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default">the Russian Ambassador to London, Prince Antiochus
-          Dmitrievich Cantemir</persName>, to <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" key="p2518">the employee of the Russian Embassy in The Hague, Petr
+          <title>25 July 1733. – Letter from <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Ambassador to London, Prince Antiochus
+          Dmitrievich Cantemir</persName>, to <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" key="p2518" ref="https://uri.gbv.de/terminology/lod_persons/9cc3f671-7625-42dd-8739-2c8ac6eaaa35">the employee of the Russian Embassy in The Hague, Petr
           Petrovich Kurbatov</persName></title></head><head>OR RGB, fond 626, karton 1, no. 10, f. 7-7v. Russian original.</head><opener>
           <salute>
-            <pb cert="high" n="f. 3" xml:space="default"/>Г[о]с[у]д[а]рь мой  Петр Петрович.
+            <pb cert="high" n="f. 3" xml:space="default" />Г[о]с[у]д[а]рь мой  Петр Петрович.
           </salute>
         </opener>
-        <p>Вам г[о]с[у]д[а]рю моему чаю памятно что в прошлом годе я подписался на континуацию <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1543" xml:space="default">
+        <p>Вам г[о]с[у]д[а]рю моему чаю памятно что в прошлом годе я подписался на континуацию <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1543" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/8b285812-2357-47a9-9d23-7aec1b86e68e">
             Рапиновой
           </persName> аглицкой истории заплатив половину того что
           должно дать за два новые томы. Оные от книжников обещаны были к прошедшему марту. Тогоради
           смелость приемлю просить вас чтоб оные два тома ко мне прислать уплатя досталные д[е]н[ь]ги из
-          имеющихся моих у <persName key="p0175">его сиятельства графа александра гавриловича</persName>, для чего и росписку
+          имеющихся моих у <persName key="p0175" ref="https://uri.gbv.de/terminology/lod_persons/ec80072a-6751-40ca-8d4e-d0c0d7e87801">его сиятельства графа александра гавриловича</persName>, для чего и росписку
           книжникову при сем прилагаю. </p>
         <p>При том же прошу пожаловать прислать естли вышли из печати, или буде теперь не вышли то
           как скоро
@@ -121,10 +122,10 @@
         <p>" Rolin Histoire des Cartaginois, Egiptiens &amp;c: Tom 6 in 8vo. Пять первые я уже имею.</p>
         <p>" В. V. Tome des Histoires des Papes... in 4to</p>
         <p>" III Tome des Interes des Princes par Rousset in 4to</p>
-        <p>" La vie du C: Mazarin inprimé depuis peu in 8vo.</p><p/><p><outputRendition rendition="#sup">ceux-ci ne sont pas achevéz</outputRendition></p>
+        <p>" La vie du C: Mazarin inprimé depuis peu in 8vo.</p><p /><p><outputRendition rendition="#sup">ceux-ci ne sont pas achevéz</outputRendition></p>
         <p>Чим всем вы изволите меня по премногу обязать готов я будучи с благодарением издержанные
           д[e]нги
-          заплатить буде <persName key="p0175">его сият[ельство]</persName> уже д[е]н[ь]ги ко мне изволит переслать.
+          заплатить буде <persName key="p0175" ref="https://uri.gbv.de/terminology/lod_persons/ec80072a-6751-40ca-8d4e-d0c0d7e87801">его сият[ельство]</persName> уже д[е]н[ь]ги ко мне изволит переслать.
         </p>
         <p>За сим пребываю</p>
         <p>Ваш</p>
@@ -134,22 +135,22 @@
             Лондон</placeName>. 1734. </p>
         <p>Июня .25.</p>
         <closer>
-          <salute/>
+          <salute />
           <signed>Послушной слуга</signed>
-          <signed>К[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default">Антиох Кантемир</persName>. </signed>
+          <signed>К[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/d52c788b-74d5-4c5e-aa9a-22125975c436">Антиох Кантемир</persName>. </signed>
         </closer>
         <postscript>
           <p>P.S.  росписку кнжника я сыскать у себя не мог: нелзя ли и без того делу зделатся дав от себя росписку в приеме кн[и]г?<note>The phrase
             is written on the left
               side of the folio</note>
           </p>
-          <p/>
+          <p />
           <p>
-            <pb cert="high" generatedBy="human" n="[f. 7]" xml:space="default"/>Государю моему
-            <persName key="p2518">Петру Петровичю Курбатову</persName>. </p>
+            <pb cert="high" generatedBy="human" n="[f. 7]" xml:space="default" />Государю моему
+            <persName key="p2518" ref="https://uri.gbv.de/terminology/lod_persons/9cc3f671-7625-42dd-8739-2c8ac6eaaa35">Петру Петровичю Курбатову</persName>. </p>
           <p>В <placeName cert="high" key="g0004" ref="https://www.geonames.org/2747373">Гагу</placeName></p>
-          <p/>
-          <p>La continuation de <persName key="p1543">Rapin</persName> </p>
+          <p />
+          <p>La continuation de <persName key="p1543" ref="https://uri.gbv.de/terminology/lod_persons/8b285812-2357-47a9-9d23-7aec1b86e68e">Rapin</persName> </p>
           <p>Tomes XI &amp; XII. paroitront </p>
           <p>le p[remie]r novembre prochain </p>
           <p>sans faute.</p>

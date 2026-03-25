@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,7 +103,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>5/16 December 1746. – Exercise letter in French by <persName key="p0240" ref="c16ea97f-9174-48d6-b400-c17471adbc88">Prince Vladimir Sergeevich
+          <title>5/16 December 1746. – Exercise letter in French by <persName key="p0240" ref="https://uri.gbv.de/terminology/lod_persons/c16ea97f-9174-48d6-b400-c17471adbc88">Prince Vladimir Sergeevich
             Dolgorukov</persName>
           </title>
           <note>
@@ -110,7 +111,7 @@
           </note>
         </head>
         
-        <pb n="f. 17"/>
+        <pb n="f. 17" />
         
         <p>Monsieur,</p>
         <p>N’attribuez qu’à l’amitié qui nous lie depuis long-tems si j’ai differé de vous ecrire
@@ -124,7 +125,7 @@
           j’ai été reçu par les personnes de distinction a qui j’etois recommandé le mieux qu’il a
           été possible ; j’ai été presenté au Roi qui m’a fait un accueil des plus gracieux et m’a
           fort questionné sur ce qui se trouve de curieux dans mon païs ; c’est un prince </p>
-        <pb n="f. 17v"/>
+        <pb n="f. 17v" />
         <p> extrêmement habile et qui aime les siences. J’ai fait plus de sejour en cette ville que
           dans les autres dont je remets a vous faire un detail plus circonstancié par ma premiere,
           afin de ne pas rendre celle-ci trop longue. Je vous dirai donc que je suis arrivé en cette
@@ -138,7 +139,7 @@
           monde s’assemble et ou l’on peut aussi s’entretenir avec des savans du premier ordre. Je
           ne finirois pas si je voulois vous faire une description de tout ce qu’on trouve
           d’admirable en cette ville, et il faut tout voir de ses propres yeux </p>
-        <pb n="f. 18"/>
+        <pb n="f. 18" />
         <p> pour le concevoir ; comme vous êtes fort porté pour l’étude et que vous avez deja fait
           un grand progrès dans les siences, vous ne sauriez mieux faire que de venir en cette ville
           ou vous aurez un plein champ pour faire briller vos talens ; je serois charmé que cela
@@ -147,10 +148,10 @@
         <p>Monsieur</p>
         <p>Votre très humble et très obeissant serviteur</p>
         <p>N.N.</p>
-        <p>J’ai composé cette lettre au <orgName key="o0006">corps des Cadets</orgName> ce 5/16
+        <p>J’ai composé cette lettre au <orgName key="o0006" ref="https://uri.gbv.de/terminology/lod_persons/171110b7-5487-4f01-a8b9-28103f4f2159">corps des Cadets</orgName> ce 5/16
           Decembre 1746</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0240" xml:space="default" ref="c16ea97f-9174-48d6-b400-c17471adbc88" type="signature">Pr : Volodimer Dolgorouky</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0240" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/c16ea97f-9174-48d6-b400-c17471adbc88" type="signature">Pr : Volodimer Dolgorouky</persName>
         </p>
         <noteGrp>
           <note>See also: ru_avpri_2_6_1676_0007</note>

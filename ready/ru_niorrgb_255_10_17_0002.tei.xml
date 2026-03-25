@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,8 +107,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>26 April [1814]. – Letter from <persName key="p0920" ref="60ceaedf-c85b-48e3-bf62-0b600d4ee8f6">Field Marshal, Count Curt Bogislaus Ludvig
-            Christopher of Stedingk</persName>, to the <persName key="p0898" ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">Russian Minister of Foreign Affairs, Count
+          <title>26 April [1814]. – Letter from <persName key="p0920" ref="https://uri.gbv.de/terminology/lod_persons/60ceaedf-c85b-48e3-bf62-0b600d4ee8f6">Field Marshal, Count Curt Bogislaus Ludvig
+            Christopher of Stedingk</persName>, to the <persName key="p0898" ref="https://uri.gbv.de/terminology/lod_persons/385e86a2-2f8b-4987-82b4-67e4cf93c9c6">Russian Minister of Foreign Affairs, Count
             Nikolai Petrovich Rumiantsev</persName>
           </title>
           <note>
@@ -115,15 +116,15 @@
           </note>
         </head>
         
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         
         <p>I, 2</p>
-        <p/>
-        <p>Vôtre Excellence a veritablement été le premier à m’annoncer la grace que <persName key="p0928">le Roy</persName> vient de me faire et dont je ne pouvois pas me douter.
+        <p />
+        <p>Vôtre Excellence a veritablement été le premier à m’annoncer la grace que <persName key="p0928" ref="https://uri.gbv.de/terminology/lod_persons/e74fc3b0-1ce6-4fa2-997d-fd95fc494f83">le Roy</persName> vient de me faire et dont je ne pouvois pas me douter.
           L’interet qu’Elle prend à ce qui m’arrive d’heureux en augmente le prix à mes yeux et je
           La prie d’etre bien assurée de ma vive reconnaissance des sentiments qu’Elle me temoigne
           ainsy que du sincere attachement et de la trés haute consideration que je lui ai voués.</p>
-        <p> ce 26 avril <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0920" xml:space="default" type="signature">Comte Stedingk</persName>
+        <p> ce 26 avril <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0920" xml:space="default" type="signature" ref="https://uri.gbv.de/terminology/lod_persons/60ceaedf-c85b-48e3-bf62-0b600d4ee8f6">Comte Stedingk</persName>
         </p>
         
           <note>See also: ru_niorrgb_255_10_17_0001</note>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,8 +101,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>1 June 1766. – Letter from <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
-            Mikhailovich Belosel’skii</persName> to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
+          <title>1 June 1766. – Letter from <persName key="p0015" ref="https://uri.gbv.de/terminology/lod_persons/bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> to <persName key="p0065" ref="https://uri.gbv.de/terminology/lod_persons/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
@@ -109,7 +110,7 @@
               Russian.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         <opener>
           <dateline>a <placeName key="g0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Riges</placeName>
             ce 1. juin 1766.</dateline>
@@ -124,22 +125,22 @@
           differents trocs. Vous savés que personne n’a jamais gagné avec cette nation &amp; celas
           par une simple raison, car elle n’a jamais rien a perdre, il y a avoit une bande nombreuse
           de celas; cepandant un seul individus de Gascogne près de <placeName key="g0015">Riga</placeName>
-          qui a surpassé tout celas. C’est <persName key="p2316">le Baron de la Battus</persName>
+          qui a surpassé tout celas. C’est <persName key="p2316" ref="https://uri.gbv.de/terminology/lod_persons/179e014b-0c34-4060-b34c-eb9182cf7e92">le Baron de la Battus</persName>
         </p>
-        <pb n="f. 1v"/>
-        <p> sacrifiant toute ses amies de l’Europe a un nommé <persName key="p0000">Helmers</persName>
+        <pb n="f. 1v" />
+        <p> sacrifiant toute ses amies de l’Europe a un nommé <persName key="p0000" ref="https://uri.gbv.de/terminology/lod_persons/">Helmers</persName>
           gentil homme du payx chés qui il est depuis trois mois. Qui est celui qui ne sentirois pas
           l’honneur qu’il lui fait et aussi le Campagnard n’epargne rien pour lui rendre le sejour
           agreable, Chasse dirigé a la francoise, peche, concert de chalumeau &amp; autre
-          semblamble, noces de païsans avec tout les agrements dont <persName key="p0000">Mr la
+          semblamble, noces de païsans avec tout les agrements dont <persName key="p0000" ref="https://uri.gbv.de/terminology/lod_persons/">Mr la
             batus</persName> fournis les Idées, enfin rien n’est oublié pour rélévé la simplicité
-          des champs, &amp; pour reconoitre le sacrifice que <persName key="p2316">la batus</persName>
+          des champs, &amp; pour reconoitre le sacrifice que <persName key="p2316" ref="https://uri.gbv.de/terminology/lod_persons/179e014b-0c34-4060-b34c-eb9182cf7e92">la batus</persName>
           fait en y restant si longtemps</p>
         <p>Le francois de son coté ne laisse pas aussi que de payés de complaisance, Il lui fait
           l’honneur de faire quattre répas par jour chés lui, mange pour quattre a chaque, trouve
           son cuisinier pas du tout mauvais pour etre d’un pétit Campagnard livonien &amp; envérité
-          selon lui ne sede en rien a une cuisiniére bourgeoise francoise. La Complaisance de <persName key="p2316">Mr le Baron</persName> est meme poussé au </p>
-        <pb n="f. 2"/>
+          selon lui ne sede en rien a une cuisiniére bourgeoise francoise. La Complaisance de <persName key="p2316" ref="https://uri.gbv.de/terminology/lod_persons/179e014b-0c34-4060-b34c-eb9182cf7e92">Mr le Baron</persName> est meme poussé au </p>
+        <pb n="f. 2" />
         <p> poin d’accéptes aprés maintes offres de la part du gentilhomme de l’argent sans aucun
           bésoin mais uniquément pour ne pas Effaroucher par des réfus Continuel son amis, la
           délicatésse en souffre, mais que ce que l’amitié ne fait pas faire.</p>
@@ -147,11 +148,11 @@
           après ce que j’ai l’honneur de vous marquer, je l’avois meme presqu’oublié si en arrivant
           a <placeName key="g0015">riga</placeName> je n’ai vus quasi mettant piéd a terre un des
           Billets qui courent <placeName key="g0015">la Ville</placeName> &amp; qui annoncent qu’il
-          c’est perdus a la Campagne de la chambre a couché de ce meme <persName key="p0000">Mr
+          c’est perdus a la Campagne de la chambre a couché de ce meme <persName key="p0000" ref="https://uri.gbv.de/terminology/lod_persons/">Mr
           Helmers</persName> une monttre d’or a repetition &amp; qui offroit treize ducats a celui
-          qui la lui raportérois, c’est cet anécdote qui m a fait le plus pencé a <persName key="p2316">monsieur le Baron de la batus</persName>, et je vous la mande pour remplir
+          qui la lui raportérois, c’est cet anécdote qui m a fait le plus pencé a <persName key="p2316" ref="https://uri.gbv.de/terminology/lod_persons/179e014b-0c34-4060-b34c-eb9182cf7e92">monsieur le Baron de la batus</persName>, et je vous la mande pour remplir
           une lettre par la quelle je n’ai pas voulus manquer </p>
-        <pb n="f. 2v"/>
+        <pb n="f. 2v" />
         <p> mon prince de vous dire que je suis a <placeName key="g0015">Riga</placeName> dépuis
           deux jours &amp; que je pars demain avec le jour pour <placeName key="g0042">mittau</placeName>
         </p>
@@ -163,7 +164,7 @@
           <salute>le trés humble &amp; trés</salute>
           <salute>obeissant Serviteur</salute>
           <signed>
-            <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselsky</persName>
+            <persName key="p0015" ref="https://uri.gbv.de/terminology/lod_persons/bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselsky</persName>
           </signed>
         </closer>
         <noteGrp>

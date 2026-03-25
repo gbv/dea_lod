@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,20 +102,20 @@
     <body>
       <div type="letter">
         <head>
-          <title>c. 1717. – Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
-            to an <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2421" xml:space="default">unknown recipient</persName></title><note>
+          <title>c. 1717. – Letter from <persName key="p0220" ref="https://uri.gbv.de/terminology/lod_persons/3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
+            to an <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2421" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/de03e4dc-4ce5-43c2-a315-928379e3941a">unknown recipient</persName></title><note>
             <bibl>NLR Mss, fond Erm. fr., no. 155, f. 97-96v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 97"/>
+        <pb n="f. 97" />
         <p>39.</p>
         <p>Monsieur,</p>
-        <p>Je suis chargé par <persName key="p0826">Monsieur Ner.</persName> de vous écrire en
+        <p>Je suis chargé par <persName key="p0826" ref="https://uri.gbv.de/terminology/lod_persons/6a8d621b-d1a6-479f-8ee2-fd780ed8c3bb">Monsieur Ner.</persName> de vous écrire en
           reponse de vôtre lettre ce que je fais avec d’autant plus de plaisir que je trouve
         </p>
-        <pb n="f. 96v"/>
+        <pb n="f. 96v" />
         <p> par là l’occasion de vous asseurer de la consideration que j’ay pour vous monsieur et de
-          vous remercier en même temps de vôtre bon souvenir. Comme vous avez mandé à <persName key="p0826">Mr Ne.</persName> Que vous aviez écrit a <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2415" xml:space="default">Mr. Tat:</persName> pour luy demander des nouvelles, il vous prie instamment
+          vous remercier en même temps de vôtre bon souvenir. Comme vous avez mandé à <persName key="p0826" ref="https://uri.gbv.de/terminology/lod_persons/6a8d621b-d1a6-479f-8ee2-fd780ed8c3bb">Mr Ne.</persName> Que vous aviez écrit a <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2415" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/c0995ad9-1232-4fbe-b96a-f2702ac953a9">Mr. Tat:</persName> pour luy demander des nouvelles, il vous prie instamment
           de les luy communiquer aussitôt que vous les auroit reçues. Il éspere cela de vôtre
           honneté<hi rendition="#s">s</hi> et vous conjure d’étre assûré de son ressentiment. J’ay
           l’honneur d’etre parfaitement.</p>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,14 +106,14 @@
     <body>
       <div type="letter">
         <head>
-          <title>5 December 1746. – Russian-French exercise translation by <persName key="p0230" ref="477af837-0c75-4b51-8f27-37c7a51d3156">Ivan Sergeevich Golovin</persName>
+          <title>5 December 1746. – Russian-French exercise translation by <persName key="p0230" ref="https://uri.gbv.de/terminology/lod_persons/477af837-0c75-4b51-8f27-37c7a51d3156">Ivan Sergeevich Golovin</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 36. Russian original and French
               translation.</bibl>
           </note>
         </head>
-        <pb n="f. 36"/>
+        <pb n="f. 36" />
         <p>La traduction du russien en françois</p>
         <table>
           <row>
@@ -132,10 +133,10 @@
             </cell>
           </row>
         </table>
-        <p>Fait au <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des
+        <p>Fait au <orgName key="o0006" ref="https://uri.gbv.de/terminology/lod_persons/171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des
           Cadets</orgName> ce 5 decembre 1746.</p>
         <p>
-          <persName key="p0230" ref="477af837-0c75-4b51-8f27-37c7a51d3156" type="signature">Jean Gollowin</persName>
+          <persName key="p0230" ref="https://uri.gbv.de/terminology/lod_persons/477af837-0c75-4b51-8f27-37c7a51d3156" type="signature">Jean Gollowin</persName>
         </p>
         <noteGrp>
           <note>See also:</note>

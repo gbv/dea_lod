@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,12 +102,12 @@
     <body>
       <div type="letter">
         <head>
-          <title> c. 1717. – Letter from <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
-            to an <persName key="p2649 ">unknown recipient</persName></title><note>
+          <title> c. 1717. – Letter from <persName key="p0220" ref="https://uri.gbv.de/terminology/lod_persons/3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName>
+            to an <persName key="p2649 " ref="https://uri.gbv.de/terminology/lod_persons/c8328571-de24-42d8-83b2-da736ef20ef2">unknown recipient</persName></title><note>
             <bibl>OR RNB, fond Erm. fr., no. 155, f. 107-106v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 107"/>
+        <pb n="f. 107" />
         <p>12.</p>
         <p>Monsieur,</p>
         <p>J'ay l'honneur de vous écrire dans la persuaion que vous voudrez bien m'honnorer de la
@@ -115,14 +116,14 @@
           Permettez moy de vous demander comment vous vous trouvez, et si vous avez bonne espérance
           que vos affaires soient bientôt teminées, de quoy j'aurois autant de joye que si s'étoit
           les miennes. Je vais prendre la liberté de vous dire ce qui s'est passé ici après vôtre
-          depart touchant vos interêts; aussitôt que vous fûtes parti, je fus étourdi par <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2409" xml:space="default">la Benois</persName>, qui s'en est prise à moi de ce que vous [êtes] parti
+          depart touchant vos interêts; aussitôt que vous fûtes parti, je fus étourdi par <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2409" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/26e82f88-2805-42c4-bea6-e87a9718d157">la Benois</persName>, qui s'en est prise à moi de ce que vous [êtes] parti
           sans prendre congé d'elle, mais tout cela ne m'a pas causé beaucoup de régret, car je suis
           très ravis que vous soyez éloigné de gens mal intentionnez contre vous. Cependant agréez
           que je vous dise en ami que si vous pouvez envoyer quelque chose, quand ce seroit que la
           moitié </p>
-        <pb n="f. 106v"/>
+        <pb n="f. 106v" />
         <p> afin de contenter les gens par là, ce seroit tres bien fait. Quelques semaines après
-          vôtre depart <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2422" xml:space="default">Mademoiselle vôtre Cousine</persName> a écrit à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2409" xml:space="default">la Benois</persName> pour luy demander ce que vous aviez tiré. Je vous
+          vôtre depart <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2422" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/1e32df19-1dfb-4a11-a352-92f1641572b7">Mademoiselle vôtre Cousine</persName> a écrit à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2409" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/26e82f88-2805-42c4-bea6-e87a9718d157">la Benois</persName> pour luy demander ce que vous aviez tiré. Je vous
           demande mille pardons de ce que j'en use si librement avec vous. J'espère que vous ne
           prendrez rien de tout cela à mauvais part, car je suis de vos Amis sans déguisement et
           sans fard.</p>

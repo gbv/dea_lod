@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,29 +101,29 @@
     <body>
       <div type="letter">
         <head>
-          <title>17/28 August 1770. –Letter from <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
-            Mikhailovich Belosel’skii</persName> , to <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
+          <title>17/28 August 1770. –Letter from <persName key="p0015" ref="https://uri.gbv.de/terminology/lod_persons/bbd36b1d-76e4-4286-9027-f2cf2e4602fa">the Russian Envoy to Saxony, Prince Andrei
+            Mikhailovich Belosel’skii</persName> , to <persName key="p0065" ref="https://uri.gbv.de/terminology/lod_persons/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">Vice-Chancellor Prince Aleksandr
             Mikhailovich Golitsyn</persName>
           </title>
           <note>
             <bibl>RGADA, fond 1263, opis 1, no. 572-a, f. 12–12v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 12"/>
+        <pb n="f. 12" />
         <opener>
           <salute>Mon Prince,</salute>
         </opener>
         <p>Ayant eu l’honneur de recevoir la lettre de Votre Excellence, où étoit incluse celle pour
-<persName key="p0503" ref="6e09fd59-243c-4b8a-b340-b7f793a16d15">M[onsieur] Bulgary</persName>, je
+<persName key="p0503" ref="https://uri.gbv.de/terminology/lod_persons/6e09fd59-243c-4b8a-b340-b7f793a16d15">M[onsieur] Bulgary</persName>, je
           n’ai pas manqué tout de suite de la faire partir à sa déstination. Quant à Votre
           commission, Mon Prince, n’ayant pas de connoissances suffisantes dans ce genre, je suis
           obligé de me conformer d’après des experts, de même que de convenir du prix comme ils me
           marquent à peu près. Je suis au desespoir si cela ne rencontre pas après votre
           approbation; soyez</p>
-        <p> [Note in the lower margin] à S[on] E[xcellence] M[onsieur] <persName key="p0065" ref="c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">le Prince de
+        <p> [Note in the lower margin] à S[on] E[xcellence] M[onsieur] <persName key="p0065" ref="https://uri.gbv.de/terminology/lod_persons/c8f0f482-fa7d-4e84-ac52-891dcb4d2adb">le Prince de
             Galitzin, Vice-Chancelier</persName></p>
 
-        <pb n="f. 12v"/>
+        <pb n="f. 12v" />
         <p> cependant assuré que je prends et prendrai à l’avenir toutes les précautions possible
           pour vous bien servir en cela.</p>
         <p>Au reste remerciant très humblement Votre Excellence, des nouvelles de notre armée
@@ -134,10 +135,10 @@
           <salute>Le très humble &amp; très</salute>
           <salute>obéissant serviteur</salute>
           <signed>
-            <persName key="p0015" ref="bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName>
+            <persName key="p0015" ref="https://uri.gbv.de/terminology/lod_persons/bbd36b1d-76e4-4286-9027-f2cf2e4602fa">Le Prince de Beloselski</persName>
           </signed>
           <dateline>
-            <placeName key="g0013">Dresde</placeName> Le <date>17./28. Août <lb/>1770</date>.</dateline>
+            <placeName key="g0013">Dresde</placeName> Le <date>17./28. Août <lb />1770</date>.</dateline>
         </closer>
         <noteGrp>
           <note>See also:</note>

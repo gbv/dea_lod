@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,29 +101,29 @@
     <body>
       <div type="letter">
         <head>
-          <title>12 December 1746. – Evaluation sheet of <persName key="p0229">Vasilii Sergeevich</persName> and <persName key="p0230">Ivan Sergeevich Golovin</persName> by the teacher of the French language at Land <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Cadet Corps</orgName>, <persName key="p0787" ref="cc976f6f-000d-44db-9fa6-efc17a5dafa5">Louis Boujot</persName>
+          <title>12 December 1746. – Evaluation sheet of <persName key="p0229" ref="https://uri.gbv.de/terminology/lod_persons/2cf99323-5536-46c4-9415-c7d07627d568">Vasilii Sergeevich</persName> and <persName key="p0230" ref="https://uri.gbv.de/terminology/lod_persons/477af837-0c75-4b51-8f27-37c7a51d3156">Ivan Sergeevich Golovin</persName> by the teacher of the French language at Land <orgName key="o0006" ref="https://uri.gbv.de/terminology/lod_persons/171110b7-5487-4f01-a8b9-28103f4f2159">Noble Cadet Corps</orgName>, <persName key="p0787" ref="https://uri.gbv.de/terminology/lod_persons/cc976f6f-000d-44db-9fa6-efc17a5dafa5">Louis Boujot</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 2 VKD, opis 6, no. 1676, f. 31. French original and Russian translation.</bibl>
           </note>
         </head>
         
-        <pb n="f. 31"/>
+        <pb n="f. 31" />
         
-        <p>Après avoir examiné <persName key="p0229">Messieurs Basile</persName> et <persName key="p0230">Jean Gollovins</persName> j’ai trouvé, qu’ils parlent fort bien françois, leurs traductions sont justes, et leur stile épistolaire est succinct, mais clair et net ; en sorte qu’ils sont en état de se rendre en peu de tems parfaits en cette langue.</p>
+        <p>Après avoir examiné <persName key="p0229" ref="https://uri.gbv.de/terminology/lod_persons/2cf99323-5536-46c4-9415-c7d07627d568">Messieurs Basile</persName> et <persName key="p0230" ref="https://uri.gbv.de/terminology/lod_persons/477af837-0c75-4b51-8f27-37c7a51d3156">Jean Gollovins</persName> j’ai trouvé, qu’ils parlent fort bien françois, leurs traductions sont justes, et leur stile épistolaire est succinct, mais clair et net ; en sorte qu’ils sont en état de se rendre en peu de tems parfaits en cette langue.</p>
         <p>
           <placeName key="g0002" ref="https://www.geonames.org/498817">St. Petersbourg</placeName> Ce 12. décembre 1746</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0787" xml:space="default" ref="cc976f6f-000d-44db-9fa6-efc17a5dafa5" type="signature">Boujot</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0787" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/cc976f6f-000d-44db-9fa6-efc17a5dafa5" type="signature">Boujot</persName>
         </p>
         <p>Maitre de langue françoise</p>
-        <p>au <orgName key="o0006" ref="171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des Cadets</orgName>
+        <p>au <orgName key="o0006" ref="https://uri.gbv.de/terminology/lod_persons/171110b7-5487-4f01-a8b9-28103f4f2159">Noble Corps des Cadets</orgName>
         </p>
         <p>Перевод</p>
-        <p>Экзаменовав г[оспо]д <persName key="p0229">Василья</persName> и <persName key="p0230">Ивана Головиных</persName> во француском языке, я нашел что оне говорят хорошо пофранцуски, и переводы их исправны, стиль в сочинении писем оне имеют хоть краткий но ясный и чистый, так что в скором времени сему языку основателно могут обучится, в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт Питербурх</placeName> 1746 года декабря 12 дня</p>
-        <p>Француского языка учитель <persName key="p0787" ref="cc976f6f-000d-44db-9fa6-efc17a5dafa5">Бужо</persName>
+        <p>Экзаменовав г[оспо]д <persName key="p0229" ref="https://uri.gbv.de/terminology/lod_persons/2cf99323-5536-46c4-9415-c7d07627d568">Василья</persName> и <persName key="p0230" ref="https://uri.gbv.de/terminology/lod_persons/477af837-0c75-4b51-8f27-37c7a51d3156">Ивана Головиных</persName> во француском языке, я нашел что оне говорят хорошо пофранцуски, и переводы их исправны, стиль в сочинении писем оне имеют хоть краткий но ясный и чистый, так что в скором времени сему языку основателно могут обучится, в <placeName key="g0002" ref="https://www.geonames.org/498817">Санкт Питербурх</placeName> 1746 года декабря 12 дня</p>
+        <p>Француского языка учитель <persName key="p0787" ref="https://uri.gbv.de/terminology/lod_persons/cc976f6f-000d-44db-9fa6-efc17a5dafa5">Бужо</persName>
         </p>
-        <p/>
+        <p />
         <noteGrp>
         <note>See also:  ru_avpri_2_6_1676_0022</note>
         <note>	   ru_avpri_2_6_1676_0023</note>

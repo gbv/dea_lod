@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,19 +102,19 @@
     <body>
       <div type="letter">
         <head>
-          <title>15 September 1788. – Letter from <persName key="p0238">Emperor Joseph
-              II of the Holy Roman Empire</persName> to <persName key="p0124">the Governor General, Field Marshal Count Petr
+          <title>15 September 1788. – Letter from <persName key="p0238" ref="https://uri.gbv.de/terminology/lod_persons/6f917341-ea48-4096-8645-e050f94c52af">Emperor Joseph
+              II of the Holy Roman Empire</persName> to <persName key="p0124" ref="https://uri.gbv.de/terminology/lod_persons/820f0254-6e50-437f-a3ae-b94f1140c8e3">the Governor General, Field Marshal Count Petr
             Aleksandrovich
               Rumiantsev-Zadunaiskii</persName></title>
           <note>
             <bibl>OR RGB, fond 255, karton 3, no. 13, f. 5-5v. French original.</bibl>
           </note>
         </head>
-        <p/>
-        <p/>
-        <pb n="f. 5"/>
+        <p />
+        <p />
+        <pb n="f. 5" />
         <p><placeName key="g0479">Illova</placeName> ce 15. Septembre 1788.</p>
-        <p/>
+        <p />
         <p>J’ai reçu, Monsieur le Maréchal, votre lettre du 8. Septembre, et c’est avec une
           Satisfaction toujours nouvelle que j’y ai trouvé les assurances de votre Souvenir et de
           votre Amitié, qui, de la part d’un homme que j’estime autant que vous, me sont toujours
@@ -127,30 +128,30 @@
           moins encore des esperances plus prochaines de leur accomplissement. </p>
         <p>Après que pour la seconde fois les Turcs et les Tartares qui se trouvaient rassemblés en
           Moldavie près de <placeName key="g0289">Jassy</placeName> ont été repoussés par mes
-          troupes, et que cette fois ci le <persName key="p2205">General en Chef Baron d’Elmpt</persName>
+          troupes, et que cette fois ci le <persName key="p2205" ref="https://uri.gbv.de/terminology/lod_persons/5c4d2209-3a27-4c44-a014-448591518700">General en Chef Baron d’Elmpt</persName>
           se trouve a portée d’occuper cette ville, et vous, Monsieur </p>
-        <pb n="f. 5v"/>
+        <pb n="f. 5v" />
         <p>le <placeName key="g0124">Maréchal</placeName> de l’y soutenir, je ne puis porter de
-          changement à la destination du petit corps du <persName key="p2206">General Spleny</persName>
+          changement à la destination du petit corps du <persName key="p2206" ref="https://uri.gbv.de/terminology/lod_persons/517fbe6b-b52e-4d9e-ad8b-dd819db10c51">General Spleny</persName>
           pour la Transilvanie, d’autant plus que ce corps ne consistant qu’en deux bataillons
           d’Infanterie, en un Regiment de Houssards, et quelques milices sans cela transilvaines,
-          son depart ne peut porter aucun prejudice aux interêts de <persName key="p0033">Sa Majesté
+          son depart ne peut porter aucun prejudice aux interêts de <persName key="p0033" ref="https://uri.gbv.de/terminology/lod_persons/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté
           Impériale</persName>, auxquels je fais preuve de Sacrifier les miens propres, vos Armées
           etant sans cela abondamment fournies de Cosaques et autre Cavalerie legere, tandis qu’en
           Transilvanie ce petit renfort devient très nécessaire pour en mieux garder les Gorges qui
           se trouvent entourées de même que le Bannat de Temeswar est en partie occupé par toutes
-          les forces que la Porte a pu rassembler sous le <persName key="p0955">Grand Visir</persName>
+          les forces que la Porte a pu rassembler sous le <persName key="p0955" ref="https://uri.gbv.de/terminology/lod_persons/74d74513-d6f2-48b4-ba74-ff7ac67d85b9">Grand Visir</persName>
           .</p>
-        <p>Je suis charmé, <persName key="p0124">Monsieur le Marechal</persName>, que vous êtes
-          content du zele du <persName key="p2207">lieutenant colonel Herbert</persName>. Dans tous ses rapport il ne peut
+        <p>Je suis charmé, <persName key="p0124" ref="https://uri.gbv.de/terminology/lod_persons/820f0254-6e50-437f-a3ae-b94f1140c8e3">Monsieur le Marechal</persName>, que vous êtes
+          content du zele du <persName key="p2207" ref="https://uri.gbv.de/terminology/lod_persons/b4810520-ba62-4580-b23d-dd676cddaaf7">lieutenant colonel Herbert</persName>. Dans tous ses rapport il ne peut
           assés se louer de vos bontés, et il se croit très heureux d’avoir été destiné à Votre
           Armée. Je vous prie de me croire avec bien de la Consideration et de l’estime.</p>
         <closer>
           <salute>Monsieur le Marechal</salute>
           <salute>Votre tres affectioné</salute>
           <signed>
-            <persName key="p0238">Joseph</persName>
-          </signed><signed/>
+            <persName key="p0238" ref="https://uri.gbv.de/terminology/lod_persons/6f917341-ea48-4096-8645-e050f94c52af">Joseph</persName>
+          </signed><signed />
         </closer><note>See also: </note><note>ru_niorrgb_255_3_13_0001</note><note>ru_niorrgb_255_3_13_0002</note></div>
     </body>
   </text>

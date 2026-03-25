@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,20 +102,20 @@
     <body>
       <div type="letter">
         <head>
-          <title>c. 1717. – Exercise Letter by <persName key="p0220" ref="3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName> </title><note>
+          <title>c. 1717. – Exercise Letter by <persName key="p0220" ref="https://uri.gbv.de/terminology/lod_persons/3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName> </title><note>
             <bibl>OR RNB, fond Erm. fr., no. 155, f. 110v. French original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 110v"/>
+        <pb n="f. 110v" />
         
         <p>5.</p>
         <p>A Monsieur,</p>
         <p>Si j'avois quelque credit sur vôtre esprit, vous ne vous irez point coucher sans ecrire un petit billet françois, et dès ce moment, vous prendriez la plume, et vous vous mettriez à le faire. La matiere ne sçauroit vous manquer puisque je sçay par experience que vous étes tres-abondant, sur tous les sujets que vous traitez. D'ailleurs il n'est nullement besoin d'y aller chercher tant de façons. Il vaut autant m'entretenir de quelque bagatelle qui égaye que de quelque sujet d'importance. Je ne vous demande que cinq ou six lignes sur tout ce qu'il vous plaira. La maniere dont vous traitez les plus petites choses me les rend agreables, et estimables. Ne reculez donc point, et accordez moy sur le champs, la priere que je vous fais,</p>
-        <p/>
+        <p />
         <p>Monsieur,</p>
         <p>vôtre etc.</p>
-        <p/>
+        <p />
         <p>ru_nlrmss_ermfr_155_0001</p>
         <p>ru_nlrmss_ermfr_155_0002</p>
         <p>ru_nlrmss_ermfr_155_0004</p>
@@ -150,7 +151,7 @@
         <p>ru_nlrmss_ermfr_155_0034</p>
         <p>ru_nlrmss_ermfr_155_0035</p>
         <p>ru_nlrmss_ermfr_155_0036</p>
-        <p/>
+        <p />
       </div>
     </body>
   </text>

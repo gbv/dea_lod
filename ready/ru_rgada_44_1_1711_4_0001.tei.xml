@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,8 +102,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>14 August 1711. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1251" xml:space="default">the Hamburg merchant Franz
-              Poppe</persName> to <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the
+          <title>14 August 1711. – Letter from <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1251" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/a4cc9a25-72d9-406f-b3c2-5d65e100fede">the Hamburg merchant Franz
+              Poppe</persName> to <persName key="p0729" ref="https://uri.gbv.de/terminology/lod_persons/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the
             Russian Ambassador Plenipotentiary to Denmark, Prince Vasilii Lukich Dolgorukov</persName>
           </title>
           <note>
@@ -110,21 +111,21 @@
           </note>
         </head>
         
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         <p>Monseigneur.</p>
         <p>Je souhaite, que celle ci puisse trouver Votre Altesse en toute Prosperité, servant au
-          Couvert aus deus incluses l’une de <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2473" xml:space="default">Mons[ieur] Semonis</persName> de <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> et l’autre de <persName key="p1259">Monsieur Osip
+          Couvert aus deus incluses l’une de <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2473" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/069dca59-aa08-42e9-82e8-948eb66f3143">Mons[ieur] Semonis</persName> de <placeName key="g0012" ref="https://www.geonames.org/2950159">Berlin</placeName> et l’autre de <persName key="p1259" ref="https://uri.gbv.de/terminology/lod_persons/04060180-a6b6-4ea1-b133-7ba73e3c22d9">Monsieur Osip
             Soloffioff</persName> d’<placeName key="g0010" ref="https://www.geonames.org/2759794">Amsterdam</placeName> lequel m’a remis aujourdui
           environ 20000 Ecus de Banque, avec promesse de me remettre le Reste l’ordinaère prochaine,
           cependant j’attens les ordre de Votre Altesse, pour savoir si je dois remettre le rest de
-          cet argent, (hors des 11000 Ecus que je garde pour Elle, à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1258" xml:space="default">Mons[ieur] Edinger</persName>, ou le retenir jusqu’à nouvel ordre. La
+          cet argent, (hors des 11000 Ecus que je garde pour Elle, à <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1258" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/1c7453a6-a01c-45d3-8de2-156917031f89">Mons[ieur] Edinger</persName>, ou le retenir jusqu’à nouvel ordre. La
           Persone qui a promis à Votre Altesse les estourgeons, </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <p> ne me les a pas encore livrés, disant, qu’il n’en a pas pû auoir a cause de la Canicule.
           J’ai envoyé par la derniere Poste à Anderschau<note place="foot">Anderskow, or Anderschau
-          – castle on the Danish island Zealand, near Slagelse.</note> a <persName key="p1257">Madame Votre Epouse</persName> une Caisse avec trois Melons, vint cincq
+          – castle on the Danish island Zealand, near Slagelse.</note> a <persName key="p1257" ref="https://uri.gbv.de/terminology/lod_persons/0748dabd-b60e-4db4-993d-f0c4e2b6b9c0">Madame Votre Epouse</persName> une Caisse avec trois Melons, vint cincq
           Abricos et quelques Oranges &amp; Citrones pour remplir la place, mais à l’avenir je n’en
-          envoyerai plus, parceque <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1258" xml:space="default">Mons[ieur]
+          envoyerai plus, parceque <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1258" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/1c7453a6-a01c-45d3-8de2-156917031f89">Mons[ieur]
             Edinger</persName> me mande, que la premiere Caisse est arrivée, mais que la pluspart
           est gatée</p>
         <p>Au reste je suis auec tout le Respet sensible</p>
@@ -133,7 +134,7 @@
         <p>Tres humble &amp; Tres obeïssant</p>
         <p>Serviteur</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1251" xml:space="default" ref="a4cc9a25-72d9-406f-b3c2-5d65e100fede" type="signature">François Poppe</persName>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1251" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/a4cc9a25-72d9-406f-b3c2-5d65e100fede" type="signature">François Poppe</persName>
           ./.</p>
         <p>
           <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamb[ur]g</placeName> ce 14 </p>

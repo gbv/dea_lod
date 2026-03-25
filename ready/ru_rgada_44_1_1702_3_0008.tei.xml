@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,7 +102,7 @@
     <body>
       <div type="letter">
         <head>
-          <title> 3 March 1714. – Invoice submitted Hamburg<persName key="p1251"> German merchant
+          <title> 3 March 1714. – Invoice submitted Hamburg<persName key="p1251" ref="https://uri.gbv.de/terminology/lod_persons/a4cc9a25-72d9-406f-b3c2-5d65e100fede"> German merchant
             Franz Poppe</persName> to the Russian authorities </title>
           <note>
             <bibl>RGADA, fond 44, opis. 1, 1702, no. 3, f. 129. German original. Translation from
@@ -111,18 +112,18 @@
         <p>Anno 1714 d[ie] 3 Martij <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburgh</placeName>
         </p>
         <p>
-          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ihro HochGräffliche
+          <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ihro HochGräffliche
           Excellens der Herr Gross Cantzeler Goloffkin</persName> Debet umb habe auff Gnädigsten
-          Befehl <persName key="p0174" ref="18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer
-          GroßZaar[ischen] Mayestät</persName> und Ordre des <persName key="p1263">H[errn] Obristen
-          Jagusinsky</persName> angenom[m]en einen <persName key="p1264">Schifs Zim[m]erman genand
-          Christian Groth</persName> und einen <persName key="p1265">Siegelmacher Jochim Möller</persName>
-          auf 2 Jahr nemlich <persName key="p1264">den Schifs Zim[m]erman</persName> zu 24 Rdh<note place="foot">Here and below: Reichsthaler.</note> p[ro] Monath Gagie und <persName key="p1265">den Siegelmacher</persName> zu 17 Rdh p[ro] Monath /welche den 26 Febr[uary]
+          Befehl <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Ihrer
+          GroßZaar[ischen] Mayestät</persName> und Ordre des <persName key="p1263" ref="https://uri.gbv.de/terminology/lod_persons/495085af-c410-46c8-9aed-1bba3a7050e9">H[errn] Obristen
+          Jagusinsky</persName> angenom[m]en einen <persName key="p1264" ref="https://uri.gbv.de/terminology/lod_persons/61e0a532-7b5f-48f5-b64a-d59f015cfc61">Schifs Zim[m]erman genand
+          Christian Groth</persName> und einen <persName key="p1265" ref="https://uri.gbv.de/terminology/lod_persons/969602d1-68d1-41fb-8572-d295edb9d01c">Siegelmacher Jochim Möller</persName>
+          auf 2 Jahr nemlich <persName key="p1264" ref="https://uri.gbv.de/terminology/lod_persons/61e0a532-7b5f-48f5-b64a-d59f015cfc61">den Schifs Zim[m]erman</persName> zu 24 Rdh<note place="foot">Here and below: Reichsthaler.</note> p[ro] Monath Gagie und <persName key="p1265" ref="https://uri.gbv.de/terminology/lod_persons/969602d1-68d1-41fb-8572-d295edb9d01c">den Siegelmacher</persName> zu 17 Rdh p[ro] Monath /welche den 26 Febr[uary]
           von hier abgereyset/ vermöge mit denenselben aufgerichteten und geschloßenen Contract,
           worauf einen jeden vorhero fur zwo Monath Gagie voraus bezahlt, so in <placeName key="g0002" ref="https://www.geonames.org/498817">Petersburg</placeName> mußen wieder abverdienet
-          werden, als An <persName key="p1264">Christian Groth Schifs Zim[m]erman</persName> fur 2 Monath Gagie a 24 Rdh
+          werden, als An <persName key="p1264" ref="https://uri.gbv.de/terminology/lod_persons/61e0a532-7b5f-48f5-b64a-d59f015cfc61">Christian Groth Schifs Zim[m]erman</persName> fur 2 Monath Gagie a 24 Rdh
           die Monath ..... Rdh 48˶–</p>
-        <p>an <persName key="p1265">Jocjim Möller Siegelmacher</persName> p[ro] 2/m<hi rendition="#sup">o</hi>. a 17 Rdh . ˶34˶–</p>
+        <p>an <persName key="p1265" ref="https://uri.gbv.de/terminology/lod_persons/969602d1-68d1-41fb-8572-d295edb9d01c">Jocjim Möller Siegelmacher</persName> p[ro] 2/m<hi rendition="#sup">o</hi>. a 17 Rdh . ˶34˶–</p>
         <p>an dem Notario umb 2 Contracte zu verfertigen a 2 Rdh jeder ............................<hi rendition="#u">........ ˶4˶–</hi>
         </p>
         <p>         Dieße ........................ <hi rendition="#u">Rdh</hi>
@@ -132,21 +133,21 @@
         <p>Cour[rant] thun a 118 Pc: agio in Speties
           ........................................................ Rdh 72˶ 42</p>
         <p>Dann habe an ihnen zu Reyßgeld zahlt</p>
-        <p>wovon <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2471" xml:space="default">Mons[eigneur] Nicolaes Noorman</persName> Rechnung</p>
+        <p>wovon <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2471" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/10b8de36-d93c-4806-ab6b-a19d97e2eded">Mons[eigneur] Nicolaes Noorman</persName> Rechnung</p>
         <p>thun muß, in Spetie
           ...........................................................................................
           Rdh 100˶–</p>
-        <p>Und in <placeName key="g0094" ref="https://www.geonames.org/554234">Königsberg</placeName> habe ihnen bey <persName key="p0000">
+        <p>Und in <placeName key="g0094" ref="https://www.geonames.org/554234">Königsberg</placeName> habe ihnen bey <persName key="p0000" ref="https://uri.gbv.de/terminology/lod_persons/">
             H[err]n</persName>
         </p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2476" xml:space="default">Paul Lafargue</persName> angewiesen Spetie
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2476" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/14082495-cd0d-49db-bb04-f41791342a3b">Paul Lafargue</persName> angewiesen Spetie
           ............................................................... <hi rendition="#u">Rdh</hi>
           <hi rendition="#u"> 100˶–</hi>
         </p>
         <p> S[umm]a in Spetie Rdhal:     272˶ 42</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1251" xml:space="default" type="signature">Frans Poppe</persName> ./.</p>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1251" xml:space="default" type="signature" ref="https://uri.gbv.de/terminology/lod_persons/a4cc9a25-72d9-406f-b3c2-5d65e100fede">Frans Poppe</persName> ./.</p>
         <noteGrp>
           <note>See also:</note>
           <note>ru_rgada_44_1_1702_3_0007</note>

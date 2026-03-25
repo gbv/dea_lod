@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,48 +103,48 @@
     <body>
       <div type="letter">
         <head>
-          <title>11 June 1708. – Letter from <persName key="p1240">the Hamburg Merchant Johann
-              Rudolph Poppe</persName> to <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Head of the Ambassadorial Chancellery,
+          <title>11 June 1708. – Letter from <persName key="p1240" ref="https://uri.gbv.de/terminology/lod_persons/05d3556f-a8e6-4431-9e89-35d08c1bf7f2">the Hamburg Merchant Johann
+              Rudolph Poppe</persName> to <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Head of the Ambassadorial Chancellery,
               Count Gavrila Ivanovich Golovkin</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, opis 1, 1702, no. 3, f. 41–42v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 41"/>
+        <pb n="f. 41" />
         <p>Edeler</p>
-        <p/>
+        <p />
         <p>Hochgebohrner Herr</p>
         <p>Ew[er] Excellence sehr angenehmes vom 3 dieser ist mir wohl geworden, deme zufolge werde
-          ich die R:<note place="foot">Here and below: Ruble</note> 1053: auß der <orgName key="o0064" ref="d4de9177-48c0-4326-a58d-5dcd3f48d371">Posolsen:
-            Pricas</orgName> empfangen und wenns geschicht sowohl Ew[er] Excellence alß auch <persName key="p1197">meinem Bruder</persName> in <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburg</placeName> davon Nachricht geben. Meine
+          ich die R:<note place="foot">Here and below: Ruble</note> 1053: auß der <orgName key="o0064" ref="https://uri.gbv.de/terminology/lod_persons/">Posolsen:
+            Pricas</orgName> empfangen und wenns geschicht sowohl Ew[er] Excellence alß auch <persName key="p1197" ref="https://uri.gbv.de/terminology/lod_persons/7e31a3a9-9a20-4bca-8b6b-42e7303421d6">meinem Bruder</persName> in <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburg</placeName> davon Nachricht geben. Meine
           zwey gefournirte wechselbrieffe, alß von Rd<note place="foot">Here: Reichsthaler.</note>
           3000: Alb: und Rd 2500: – Speties werden Ew[er] Excellence zu sam[m]en gekom[m]en, und
           nebst dem Adviso: Brieff versandt seyn, es ist mir alhie die Valuta derer entrichtet,
           wofür ich Ew[er] Excellence dienstlich dancke.</p>
-        <p>Wie ich mit meinem debitori <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2469" xml:space="default">Philip Coesmin</persName> stehe wird
-          Ew[er] Excellence von <persName key="p0494" ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">dem
+        <p>Wie ich mit meinem debitori <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2469" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/e1adab76-6650-4313-8f34-b42bdd25c3a8">Philip Coesmin</persName> stehe wird
+          Ew[er] Excellence von <persName key="p0494" ref="https://uri.gbv.de/terminology/lod_persons/73524c8b-20f0-4e11-abbd-ca70791d9df9">dem
           Herrn Schaphiroff</persName> bereits vernommen haben, es sind Nemlich einige seiner
           Wahren, welche aber meine Forderung bey weitem nicht außmachen können, auff mein </p>
-        <pb n="f. 41v"/>
-        <p>Ansuchen versiegelt, und vor den Zoll so der beklagte <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2469" xml:space="default">Philip</persName>
-          zahlen muß, ist <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2470" xml:space="default">Iwan Stepannoff Streschnoff</persName> bürge
-          geworden, weil <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2469" xml:space="default">Philip Coesmin</persName> würcklich von ihme R: 800:
+        <pb n="f. 41v" />
+        <p>Ansuchen versiegelt, und vor den Zoll so der beklagte <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2469" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/e1adab76-6650-4313-8f34-b42bdd25c3a8">Philip</persName>
+          zahlen muß, ist <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2470" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/8fe08a05-94c7-450c-8262-d427acf6a91c">Iwan Stepannoff Streschnoff</persName> bürge
+          geworden, weil <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2469" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/e1adab76-6650-4313-8f34-b42bdd25c3a8">Philip Coesmin</persName> würcklich von ihme R: 800:
           – haben muß, dem aber ohngeachtet, will man gegenwärtig die Sachen so drehen, daß der Zoll
-          auß denen Wahren solle genommen werden, und <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2470" xml:space="default">Streschnoff</persName>
+          auß denen Wahren solle genommen werden, und <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2470" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/8fe08a05-94c7-450c-8262-d427acf6a91c">Streschnoff</persName>
           frey seyn, und deßwegen bleiben selbe Wahren ohne einige Auffsicht liegen, und werden
           täglich schlechter, derowegen nehme die Freyheit einliegende Supplicq an Ew[er] Excellence
-          zu senden mit dienstl[icher] Bitte, selbe <persName key="p1131">Ihro Fürstl[ichen]
-          Durchl[aucht] Menschikoff</persName> zu übergeben, und nebst <persName key="p0494" ref="73524c8b-20f0-4e11-abbd-ca70791d9df9">Herrn Schaphiroff</persName> Ihro
-          durchl[aucht] dahin zu vermögen, damit an dem <persName key="p1063">Herrn Bojarin Puschkin</persName> befehll ertheilet werde, gemeldte Wahren
+          zu senden mit dienstl[icher] Bitte, selbe <persName key="p1131" ref="https://uri.gbv.de/terminology/lod_persons/3df454c8-09e6-418b-8fc6-1c6bc16f2191">Ihro Fürstl[ichen]
+          Durchl[aucht] Menschikoff</persName> zu übergeben, und nebst <persName key="p0494" ref="https://uri.gbv.de/terminology/lod_persons/73524c8b-20f0-4e11-abbd-ca70791d9df9">Herrn Schaphiroff</persName> Ihro
+          durchl[aucht] dahin zu vermögen, damit an dem <persName key="p1063" ref="https://uri.gbv.de/terminology/lod_persons/a114fdc3-868f-4a9f-aa03-250af5685961">Herrn Bojarin Puschkin</persName> befehll ertheilet werde, gemeldte Wahren
           an mir außzulieffern, denn wenn solches geschicht werde ich noch R: 2000: – inl<hi rendition="#u">
             <hi rendition="#sup">a</hi>
           </hi> bey diesem gottlosen Menschen zu kurtz
           kommen, daher were es je die grösseste Unbilligkeit, daß man mir noch dazu den Zoll alß
-          wovor <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2470" xml:space="default">Streschnoff</persName> bürge ist, wolte aufflegen und also in
+          wovor <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2470" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/8fe08a05-94c7-450c-8262-d427acf6a91c">Streschnoff</persName> bürge ist, wolte aufflegen und also in
           noch weitern Schaden stürtzen, ich habe zu Ew[er] Excellence das gute Vertrauen Sie werden
           bey </p>
-        <pb n="f. 42"/>
+        <pb n="f. 42" />
         <p>Ihro Fürstl[ichen] Durchl[aucht] es dahin zu dirigiren wissen, daß mir die Wahren ohne
           Verzug außgefolget werden, ich hätte gerne an Ihro Fürstl[ichen] Durchl[aucht] hierüber
           geschriben, weil ich aber Selbiger Dehro gebührenden Respect nicht weiß zu geben, habe
@@ -154,41 +155,41 @@
         <p>Ew[er] Excellence</p>
         <p>Ergebenster Diener</p>
         <p>
-          <persName key="p1240">Johan Roedolff Poppe</persName> ./.</p>
+          <persName key="p1240" ref="https://uri.gbv.de/terminology/lod_persons/05d3556f-a8e6-4431-9e89-35d08c1bf7f2">Johan Roedolff Poppe</persName> ./.</p>
         <p>
           <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> d[ie] 11
           Junij</p>
         <p>
           <hi rendition="#u">    1708                    </hi>.</p>
         <p>
-          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">A Monseig[neur] le Comte
+          <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">A Monseig[neur] le Comte
             Gollowkin</persName>
         </p>
         
         
-        <pb n="f. 42v"/>
-        <p>A <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Son Excellence</persName>
+        <pb n="f. 42v" />
+        <p>A <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Son Excellence</persName>
         </p>
         <p>
-          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Monseigneur de Goloffkin</persName>
+          <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Monseigneur de Goloffkin</persName>
         </p>
         <p>
-          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Comte d’Empirée, Conseiller et</persName>
+          <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Comte d’Empirée, Conseiller et</persName>
         </p>
         <p>
-          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ministre d’Estat, Grand Cham=</persName>
+          <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">Ministre d’Estat, Grand Cham=</persName>
         </p>
         <p>
-          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">bellan de Sa Majeste Csarienne</persName>
+          <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">bellan de Sa Majeste Csarienne</persName>
         </p>
         <p>
-          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">à</persName>
+          <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">à</persName>
         </p>
         <p>
-          <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">L’Armée</persName>
+          <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">L’Armée</persName>
         </p>
-        <p/>
-        <p> [Written on the left margin:] <persName key="p1240">От Поппа</persName>
+        <p />
+        <p> [Written on the left margin:] <persName key="p1240" ref="https://uri.gbv.de/terminology/lod_persons/05d3556f-a8e6-4431-9e89-35d08c1bf7f2">От Поппа</persName>
           <hi rendition="#u">. </hi>
         </p>
         <noteGrp>

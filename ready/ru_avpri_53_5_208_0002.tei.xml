@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,28 +99,28 @@
     <body>
       <div type="letter">
         <head>
-          <title>4 February 1767. – Dispatch from <persName key="p0114">the Chief Chamberlain, Active Privy Councilor Count Nikita Ivanovich Panin</persName>, to <persName key="p0127">the Russian Minister Plenipotentiary to Copenhagen, Caspar von Saldern</persName></title><note>
+          <title>4 February 1767. – Dispatch from <persName key="p0114" ref="https://uri.gbv.de/terminology/lod_persons/e1ac6a40-6f08-4749-96bd-54c9efda5bc5">the Chief Chamberlain, Active Privy Councilor Count Nikita Ivanovich Panin</persName>, to <persName key="p0127" ref="https://uri.gbv.de/terminology/lod_persons/af2ff92b-9e36-4cff-b9ef-2e0f8a45d945">the Russian Minister Plenipotentiary to Copenhagen, Caspar von Saldern</persName></title><note>
             <bibl>AVPRI, fond 53, opis 5, no. 208, f. 25-27v. German original with
                 a note in Russian.</bibl>
           </note>
         </head>
-        <pb n="f. 25"/>
+        <pb n="f. 25" />
         
         <p>640</p>
         <p>Copia</p>
-        <p>eines Schreibens <persName key="p0114">des H[errn]. Oberhofmeisters von Panin</persName>, an <persName key="p0127">den H[errn]. Geheimen Raht von Saldern</persName>.</p>
+        <p>eines Schreibens <persName key="p0114" ref="https://uri.gbv.de/terminology/lod_persons/e1ac6a40-6f08-4749-96bd-54c9efda5bc5">des H[errn]. Oberhofmeisters von Panin</persName>, an <persName key="p0127" ref="https://uri.gbv.de/terminology/lod_persons/af2ff92b-9e36-4cff-b9ef-2e0f8a45d945">den H[errn]. Geheimen Raht von Saldern</persName>.</p>
         <p>
           <placeName key="g0192" ref="https://www.geonames.org/504003">Sarsko Selo</placeName> den 4<hi rendition="#u">
             <hi rendition="#sup">n </hi>
           </hi>Febr.</p>
         <p>1767. P. P.</p>
-        <p><persName key="p0033">Ея Императорское Величество</persName></p>
+        <p><persName key="p0033" ref="https://uri.gbv.de/terminology/lod_persons/e14a18da-55bf-476c-bee9-1ff5536450d7">Ея Императорское Величество</persName></p>
         <p>читать и возвратить изволила </p>
         <p>в <placeName key="g0001" ref="https://www.geonames.org/524894">Москве</placeName>
         </p>
         <p>в 20е февраля 1767.</p>
-        <p/>
-        <p>Aus denen von Ew: Excel[lence]. nach Abfertigung <persName key="p1101">des Courier Tatischeff</persName> von Zeit
+        <p />
+        <p>Aus denen von Ew: Excel[lence]. nach Abfertigung <persName key="p1101" ref="https://uri.gbv.de/terminology/lod_persons/ac4012a2-84a7-427f-b651-a96ad13dbd09">des Courier Tatischeff</persName> von Zeit
           zu Zeit eingelangten Zuschritten habe ich teils dero glückliche Ankunft in <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName> und die Ablegung der gewöhnlichen Audientzen
           daselbst, teils aber auch die vertraute Benachrichtigung von der gegenwärtigen Lage der
           Sachen und die genaue Schilderung gewisser Personen und deren Situation ausführlich zu
@@ -127,11 +128,11 @@
             <hi rendition="#sup">en </hi>
           </hi>Majestät abgestattete Relation gereichet zu
           Allerhöchst dero gnädigste Zufriedenheit, und Sie approbieren Huldreichst alle von Ew:
-          Excel[lence]. gegen <persName key="p0868">den König</persName> und das Königl[iche] </p>
-        <pb n="f. 25v"/>
+          Excel[lence]. gegen <persName key="p0868" ref="https://uri.gbv.de/terminology/lod_persons/f57f6286-6aad-45b2-ad97-5531d9bcbf76">den König</persName> und das Königl[iche] </p>
+        <pb n="f. 25v" />
         <p>Haus gelegentlich gemachte Aeusserungen.</p>
         <p>Mit denen in Ansehung der Großfürst[lichen]. Bibliothec und des Schuldenstaats des
-          Wohlsee[ligen] H[errn]. <persName key="p0045">Baron v[on]. Korffs</persName> gemachten arrangements bin ich mit
+          Wohlsee[ligen] H[errn]. <persName key="p0045" ref="https://uri.gbv.de/terminology/lod_persons/bb54ec21-525f-414d-a156-7d5a95e547e1">Baron v[on]. Korffs</persName> gemachten arrangements bin ich mit
           Ew: Excell[ence]. vollkommen einstimmig; ich wünsche dahero auch von Herzen, zur
           Beförderung desselben die ganze annoch restirende Summa von 30/m Rubels auf einmahl
           remittiren zu können. Es ist mir dieses aber für jezo eine pure Unmöglichkeit. Die
@@ -139,7 +140,7 @@
           Zahlungs-Posten ziemlich angegriffen, und ich gestehe es Ew: Excel[lence]. im Vertrauen,
           daß ich lieber durch einen convenablen Umsaz, in diesem mir anvertraueten fond selbst die
           Quelle mich zu helffen </p>
-        <pb n="f. 26"/>
+        <pb n="f. 26" />
         <p> suchen, als um einen Zuschub zu selbigem anhalten mögte. Ich werde also auf folgende
           Weise Rath zu schaffen suchen. Jezt überschicke ich Denenselben <hi rendition="#u">P</hi>
           <hi rendition="#u">[er]</hi> Wechsel 11/m
@@ -154,33 +155,33 @@
           und denen, aus diesen im gegenwärtigen Jahre ohnfehlbar ganz zu remittirenden Summen zu
           berichtigende Schulden die gehörige Terminen zu sezen, worin ich mich auf Ew: beprüften
           Eifer und </p>
-        <pb n="f. 26v"/>
+        <pb n="f. 26v" />
         <p> activité gänzlich verlasse.</p>
-        <p>Mit der Hiehersendung <persName key="p1528">des Secretaire Dalldorff</persName> in die Stelle des verstorbenen <persName key="p1530">H. Biss</persName> bin ich um so mehr zufrieden, da ich gewis hoffe, daß derselbe durch sein
+        <p>Mit der Hiehersendung <persName key="p1528" ref="https://uri.gbv.de/terminology/lod_persons/e1278a0f-020e-4fc1-8a08-637a1da5ccf5">des Secretaire Dalldorff</persName> in die Stelle des verstorbenen <persName key="p1530" ref="https://uri.gbv.de/terminology/lod_persons/b1fa6236-b840-457c-b6bf-98032a3218fe">H. Biss</persName> bin ich um so mehr zufrieden, da ich gewis hoffe, daß derselbe durch sein
           Betragen das so gute Zeugnis bestättigen wird, das Ew: Excellence von Ihm zu geben
           belieben. Es wird mir dahero auch die Vorsorge für sein weiteres Glück eine angenehme
           Beschäftigung seyn.</p>
         <p>Ich beharre p[erge].p[erge].</p>
         <p>P. S.</p>
-        <p>Gegenwärtiger Brief war bei mir schon längst fertig, als ich Ew. Exc[ellence]. und <persName key="p1102">des H. Gen. Major v. Filosoffow</persName> gemeinschaftliches Schreiben über diese Materie vom 4/15
+        <p>Gegenwärtiger Brief war bei mir schon längst fertig, als ich Ew. Exc[ellence]. und <persName key="p1102" ref="https://uri.gbv.de/terminology/lod_persons/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">des H. Gen. Major v. Filosoffow</persName> gemeinschaftliches Schreiben über diese Materie vom 4/15
           Jan: zu erhalten das Vergnügen hatte. Ich ersehe daraus, daß die zur Emballirung </p>
-        <pb n="f. 27"/>
+        <pb n="f. 27" />
         <p> der Großfürstl[ichen]. Bibliotec bestimmte 1000 Rubels dazu nicht hinreichen, folglich
           bitte ich über alle ausser sothanen Summa annoch zu verwendende Auslagen, die Assignation
           auf mich einzusenden, nach welcher hieselbst die gehörige Auszalung sogleich erfolgen
           soll. Was den transport der Bibliotheck betrift [sic], so werde ich dafür sorgen, daß zu
-          Ersparung der Fracht ein eigenes Schiff vom hiesigen <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0048" xml:space="default">Admiralitäts-Collegio</orgName> expediret werde, umb die Bibliotec abzuholen.</p>
+          Ersparung der Fracht ein eigenes Schiff vom hiesigen <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0048" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/fbfac3c1-585a-4fb2-a496-f42b0abf73c3">Admiralitäts-Collegio</orgName> expediret werde, umb die Bibliotec abzuholen.</p>
         <p>Auch habe ich nach dem mir von Ew: Excell[ence]. beiderseits an die Hand gegebenen
-          Vorschlag <persName key="p1529">dem H. EtatsRath v. Taubert</persName> bereits den Auftrag erteilet, erwehnte
+          Vorschlag <persName key="p1529" ref="https://uri.gbv.de/terminology/lod_persons/f2c2cd02-57be-4b1a-b311-6317fc5674ee">dem H. EtatsRath v. Taubert</persName> bereits den Auftrag erteilet, erwehnte
           Bibliothec in <placeName key="g0002" ref="https://www.geonames.org/498817">St Petersburg</placeName> in Empfang und unter seine
           Aufsicht zu neh</p>
-        <pb n="f. 27v"/>
+        <pb n="f. 27v" />
         <p>men, worüber ich in der Folge demselben nähere Anweisungen zukommen zulassen nicht
           ermangeln werde.</p>
-        <p>In Betracht der Wittwe der Secretaire Biss habe ich <persName key="p0033">Unserer Allergädigsten Kaiserin</persName>, nach denen von Ew: Excell[ence]. geäusserten idées, meine untertänigste
+        <p>In Betracht der Wittwe der Secretaire Biss habe ich <persName key="p0033" ref="https://uri.gbv.de/terminology/lod_persons/e14a18da-55bf-476c-bee9-1ff5536450d7">Unserer Allergädigsten Kaiserin</persName>, nach denen von Ew: Excell[ence]. geäusserten idées, meine untertänigste
           Vorstellung gemacht, die Allerhöchst-Dieselben auch zu approbiren geruhet, und Laut des
           von mir ad mandatum speciale unterschriebenen und ihr bereits zugestellten Rescripts an
-          <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0122" xml:space="default">die Hollsteinische Landes-Regierung</orgName>, wird selbige zu ihrem und ihres Kindes
+          <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0122" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/f28192ee-905a-4f38-84e7-ac1d00eac966">die Hollsteinische Landes-Regierung</orgName>, wird selbige zu ihrem und ihres Kindes
           Unterhalt, eine jährliche Pension von 200<hi rendition="#u">
             <hi rendition="#s">
               <hi rendition="#sup">r</hi>

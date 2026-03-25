@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">Copy of a letter from [the Minister of the Holy Roman
@@ -109,8 +110,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>29 November / 10 December 1743. – Copy of a letter from [<persName key="p0759">the Minister of the Holy Roman Empire to St Petersburg,] Baron [Joseph]
-            von Neuhaus,</persName> to <persName key="p0751" ref="dea3c3f8-2b2a-4db5-a6ec-1e18bd6f78b9">Chamberlain and Vice Stable Master of Holy
+          <title>29 November / 10 December 1743. – Copy of a letter from [<persName key="p0759" ref="https://uri.gbv.de/terminology/lod_persons/469a973b-461e-4c29-8ddb-7eaf05c1690e">the Minister of the Holy Roman Empire to St Petersburg,] Baron [Joseph]
+            von Neuhaus,</persName> to <persName key="p0751" ref="https://uri.gbv.de/terminology/lod_persons/dea3c3f8-2b2a-4db5-a6ec-1e18bd6f78b9">Chamberlain and Vice Stable Master of Holy
             Roman Emperor [and Bavarian Elector,] Baron Joseph von Mayrhofen. 10 November/29
               December [sic] 1743</persName>
           </title>
@@ -118,9 +119,9 @@
             <bibl>AVPRI, fond 6, opis 1, no. 16, f. 186-189. French original;
               translation into Russian: AVPRI, fond 6, opis 1, no. 16, f. 190-194</bibl></note>
         </head>
-        <pb n="f. 186"/>
+        <pb n="f. 186" />
         
-        <p>Копия с писма <persName key="p0759">Барона Нейгауза</persName> к <persName key="p0751" ref="dea3c3f8-2b2a-4db5-a6ec-1e18bd6f78b9">Барону Мейергофену камергеру и вице
+        <p>Копия с писма <persName key="p0759" ref="https://uri.gbv.de/terminology/lod_persons/469a973b-461e-4c29-8ddb-7eaf05c1690e">Барона Нейгауза</persName> к <persName key="p0751" ref="https://uri.gbv.de/terminology/lod_persons/dea3c3f8-2b2a-4db5-a6ec-1e18bd6f78b9">Барону Мейергофену камергеру и вице
           обершталмейстеру римско-императорского величества</persName>. <placeName key="g0002" ref="https://www.geonames.org/498817">St
           Petersbourg</placeName> 10 novembre/29 decembre [sic] 1743</p>
         <p>Si les nouvelles deviennet steriles l’endroit où V.E. est, Elle peut croire comme elles
@@ -128,54 +129,54 @@
           de mauvaises qualités, qu’elles prennent en passant tant des endroits, pourtant nous n’en
           manquons point, car nous abondons des faiseurs des nouvelles, outre que le depart des
           Ministres </p>
-        <pb n="f. 186v"/>
-        <p> et arrivé des autres, conjointement avec l’affaire du <persName key="p0758">Marq. Botta</persName>,
+        <pb n="f. 186v" />
+        <p> et arrivé des autres, conjointement avec l’affaire du <persName key="p0758" ref="https://uri.gbv.de/terminology/lod_persons/e70ad954-4ace-4bef-8794-f25bf0993d6b">Marq. Botta</persName>,
           en fournissent tous les jours. Pour aux premiers vous aurons tant des Ambassadeurs, que
-          les Ministres plenipotentiaires seront regardés comme des valets, car il en viendra un d’<persName key="p0776">Angleterre</persName>, de <persName key="p0774">Danemark</persName>, et de <persName key="p0775">Suede</persName>, celui de <persName key="p0761">France</persName> est
-          arrivé vendredi passé, pour anniversaire de l’avenement sur le Throne de <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">la Souveraine Regnante</persName>;
+          les Ministres plenipotentiaires seront regardés comme des valets, car il en viendra un d’<persName key="p0776" ref="https://uri.gbv.de/terminology/lod_persons/155e1fea-f0c3-4522-a0a2-a32ec95e7d56">Angleterre</persName>, de <persName key="p0774" ref="https://uri.gbv.de/terminology/lod_persons/eb5319cc-9a9d-4d9c-9378-0ccc0b833ceb">Danemark</persName>, et de <persName key="p0775" ref="https://uri.gbv.de/terminology/lod_persons/e8b1f3aa-c8c3-45b8-8b52-c5dc872fa1ef">Suede</persName>, celui de <persName key="p0761" ref="https://uri.gbv.de/terminology/lod_persons/6eef380d-660c-41ba-ae54-86acb677a727">France</persName> est
+          arrivé vendredi passé, pour anniversaire de l’avenement sur le Throne de <persName key="p0052" ref="https://uri.gbv.de/terminology/lod_persons/afc1e8df-6410-4e68-80dd-abcafa754aa6">la Souveraine Regnante</persName>;
           pour abreger le chemin de <placeName key="g0017" ref="https://www.geonames.org/2673730">Stockholm</placeName> ici, il a passé la
           mer, qui est tré dangereuse à present. </p>
-        <pb n="f. 187"/>
-        <p> On ne sait point quand <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">il</persName>
+        <pb n="f. 187" />
+        <p> On ne sait point quand <persName key="p0052" ref="https://uri.gbv.de/terminology/lod_persons/afc1e8df-6410-4e68-80dd-abcafa754aa6">il</persName>
           aura son Audience cela dependra s’il donne le Titre Imperiale, ce que je n’ai pas pu
           encore savoir, en attendant il est parfaitement bien reçu, et il va loger dans une maison
-          confisquée la plus manifique qui est ici, le maitre de cette maison s’appelle<persName key="p0768"> Lebold</persName>, qui etoit un des plus manifiques seigneurs et Grand
-          Marechal, presentement en Siberie. L’affaire du <persName key="p0758">Marquis Botta</persName>
-          fait beaucoup parler depuis le rescript circulaire que <persName key="p0100" ref="58e95bc6-e008-4f45-8f4d-1cb58e816d5e">la Grand Duchesse</persName> a envoyé à tous
+          confisquée la plus manifique qui est ici, le maitre de cette maison s’appelle<persName key="p0768" ref="https://uri.gbv.de/terminology/lod_persons/fa1ca928-4e01-465f-a06b-20b4b0773e9a"> Lebold</persName>, qui etoit un des plus manifiques seigneurs et Grand
+          Marechal, presentement en Siberie. L’affaire du <persName key="p0758" ref="https://uri.gbv.de/terminology/lod_persons/e70ad954-4ace-4bef-8794-f25bf0993d6b">Marquis Botta</persName>
+          fait beaucoup parler depuis le rescript circulaire que <persName key="p0100" ref="https://uri.gbv.de/terminology/lod_persons/58e95bc6-e008-4f45-8f4d-1cb58e816d5e">la Grand Duchesse</persName> a envoyé à tous
           ses Ministres. </p>
-        <pb n="f. 187v"/>
+        <pb n="f. 187v" />
         <p>
-          <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">La Souveraine d’ici</persName>
+          <persName key="p0052" ref="https://uri.gbv.de/terminology/lod_persons/afc1e8df-6410-4e68-80dd-abcafa754aa6">La Souveraine d’ici</persName>
           en est bien piquée, et si Elle ne se vange, que par ne plus donner des subsides, la
-          vangeance ne sera pas fort grande, car depuis son Regne <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> n’en a jamais
+          vangeance ne sera pas fort grande, car depuis son Regne <orgName key="o0023" ref="https://uri.gbv.de/terminology/lod_persons/6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> n’en a jamais
           tiré, et n’avoit pas apparance qu’elle en tirera, comme je l’ai marqué par plusieurs fois
           à V.E. ainsi je crois qu’Elle trouvera un autre moyen à se vanger, si on peut ajouter foi
           à la juste colere d’un Princesse, laquelle de son naturel n’est pas vindicative; je suis
-          faché de tout mon cœur que <persName key="p0753" ref="72a487db-6ead-41c6-8de4-23472e5ae89c">Notre Auguste Maître</persName> est si
+          faché de tout mon cœur que <persName key="p0753" ref="https://uri.gbv.de/terminology/lod_persons/72a487db-6ead-41c6-8de4-23472e5ae89c">Notre Auguste Maître</persName> est si
           souvant attaqué de la goutte cette année, les chagrins les quels naturellement ne peuvent
           pas manquer </p>
-        <pb n="f. 188"/>
+        <pb n="f. 188" />
         <p>à lui dans les Conjonctures pressantes, seroient assés à donner à combattre à un cœur
           aussi grand que le sien. </p>
         <p>J’ai vu toutes les promotions que S :M :I : a fait à l’occasion du jour de son Nom.
-          Faites moi le plaisir de me dire que est ce <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2405" xml:space="default">Monjoye qui a un
+          Faites moi le plaisir de me dire que est ce <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p2405" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/fb9fa790-3fbc-44f3-b4c4-2876406a2d72">Monjoye qui a un
             Regiment de Cavallerie chez nous</persName>, si c’est celui qui est chevalier de l’ordre
-          Teutonique, et notre Ministre en Suisse. <persName key="p0772">Le Grand Chambellan du
+          Teutonique, et notre Ministre en Suisse. <persName key="p0772" ref="https://uri.gbv.de/terminology/lod_persons/49b8661f-e4d2-4a35-9d3d-0c765415c02d">Le Grand Chambellan du
             Grand Duc d’ici qui est un très aimable homme Mons. de Bürkholz</persName> me tourmente
-          de lui faire avoir l’etat des trouppes de <persName key="p0753" ref="72a487db-6ead-41c6-8de4-23472e5ae89c">l’Empereur</persName>, et de <persName key="p0773">l’Electeur de Palatin</persName>, non comme elles sont effectives, mais les
+          de lui faire avoir l’etat des trouppes de <persName key="p0753" ref="https://uri.gbv.de/terminology/lod_persons/72a487db-6ead-41c6-8de4-23472e5ae89c">l’Empereur</persName>, et de <persName key="p0773" ref="https://uri.gbv.de/terminology/lod_persons/c314ce7d-1804-44f5-a43d-0b1c127e419d">l’Electeur de Palatin</persName>, non comme elles sont effectives, mais les
           noms des regiments </p>
-        <pb n="f. 188v"/>
+        <pb n="f. 188v" />
         <p> et en combien elles devroient consister, je ne saurois me mieux adresser qu’à V.E. se
           Elle veut avoir la bonté de m’envoyer une liste, Elle m’obligeroit beaucoup; c’est un
-          homme curieux qui a tous les Etats de toute l’Europe. Nous perdons donc deux Dames de<orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0068" xml:space="default"> la Cour</orgName>, une belle, &amp; une qui n’est pas tout a fait si belle, qui est notre chere Niece,
+          homme curieux qui a tous les Etats de toute l’Europe. Nous perdons donc deux Dames de<orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0068" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/48deec92-af20-4dd1-bf4b-ffb1252dc8ba"> la Cour</orgName>, une belle, &amp; une qui n’est pas tout a fait si belle, qui est notre chere Niece,
           j’espere qu’elles seront heureuses toutes les deux, et que leurs places seront occupées
-          par deux pareilles, comme la premiere, car <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="o0068" ref="10f94655-361c-435c-930b-a90ed0d4e477">notre Cour</orgName> me paroit d’avoir grand
+          par deux pareilles, comme la premiere, car <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="o0068" ref="https://uri.gbv.de/terminology/lod_persons/10f94655-361c-435c-930b-a90ed0d4e477">notre Cour</orgName> me paroit d’avoir grand
           besoin de pareills recrus. Si les effets correspondent avec les bonnes, et manifiques
           promesses </p>
-        <pb n="f. 189"/>
-        <p> de <persName key="p0770">Mr Chavigni</persName>, et la <persName key="p0761">Chetardie</persName>,
+        <pb n="f. 189" />
+        <p> de <persName key="p0770" ref="https://uri.gbv.de/terminology/lod_persons/3e5f19b4-07f3-4030-b3ef-f2ac717b97bd">Mr Chavigni</persName>, et la <persName key="p0761" ref="https://uri.gbv.de/terminology/lod_persons/6eef380d-660c-41ba-ae54-86acb677a727">Chetardie</persName>,
           nous avons grande esperance, si la paix ne se fait point cet hyver, d’avoir une Campagne
-          heureuse le printems prochain, si <persName key="p0061" ref="2bdcb517-7d9b-4abd-af61-1dbb469372d7">le Roi de Prusse</persName> en est, alors
+          heureuse le printems prochain, si <persName key="p0061" ref="https://uri.gbv.de/terminology/lod_persons/2bdcb517-7d9b-4abd-af61-1dbb469372d7">le Roi de Prusse</persName> en est, alors
           j’ai bonne esperance, car il ne s’y pretera point sans etre bien assuré, je n’ose point
           ouvrir mes pensées davantage sur cette matiere.</p>
         <noteGrp>

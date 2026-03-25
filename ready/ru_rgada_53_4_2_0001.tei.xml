@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,19 +102,19 @@
     <body>
       <div type="letter">
         <head>
-          <title>1 March 1707. – Royal letter from <persName key="p0532">King of Denmark Frederik IV</persName> to <persName key="p0174">Tsar Peter I</persName> </title>
+          <title>1 March 1707. – Royal letter from <persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">King of Denmark Frederik IV</persName> to <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Tsar Peter I</persName> </title>
           <note>
             <bibl>RGADA, f. 53, op. 4, no. 2, fol. 1–1v. Danish original.</bibl>
           </note>
         </head>
-        <pb n="f. 1r"/>
-        <p>Wii <persName key="p0532">Friederich de Fierde, aff Guds Naade, Konge till Dannemarck og Norge, de wenders og Gothers, Hertug udi Schlesvig, Holsten, Stormarn og Ditmersken, Greve udi Oldenburg og Dellmenhorst</persName>. <persName key="p0174">Tilbiude den Stormegtige Höybaarne Vorir Elskelige kiere Broder, besynderlige gode Venn og Naboe, aff Guds Naade Store Herr Czarr og Storfurste Peter Alexeiewitz, alle Store, Smaa og hvide Rydßers selfErholder, Muskows, kiofski, Woladimerski, Nougorodski, Czarr til kaßan, Czarr til Astrachan, Czarr til Sibirrien, Herre til Pleskow, Storförste til Smolenskow, Tverski, Jugorski, Permski, Wätzski, bolgarski og andere, Herre og Storförste til Nougorodi det Lægeland, Tzerninggoufski, Resantzki, Rostofski, Jeroßlafski, bielo Osterski, Udorski, Obdorski, Candinski og ald Norder Sides befalere, Herre til Ifverski land, kartalinski og Grusinski, Czarr ofvere Karbadinski land, Tzerkoskisk og Gorskisk forste og mange andere Herredomme og lande, udj Öster, Vester og Nör, fæderlig forfaderlig og Arfvelige Herre og Regenter</persName>. Voris
+        <pb n="f. 1r" />
+        <p>Wii <persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">Friederich de Fierde, aff Guds Naade, Konge till Dannemarck og Norge, de wenders og Gothers, Hertug udi Schlesvig, Holsten, Stormarn og Ditmersken, Greve udi Oldenburg og Dellmenhorst</persName>. <persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Tilbiude den Stormegtige Höybaarne Vorir Elskelige kiere Broder, besynderlige gode Venn og Naboe, aff Guds Naade Store Herr Czarr og Storfurste Peter Alexeiewitz, alle Store, Smaa og hvide Rydßers selfErholder, Muskows, kiofski, Woladimerski, Nougorodski, Czarr til kaßan, Czarr til Astrachan, Czarr til Sibirrien, Herre til Pleskow, Storförste til Smolenskow, Tverski, Jugorski, Permski, Wätzski, bolgarski og andere, Herre og Storförste til Nougorodi det Lægeland, Tzerninggoufski, Resantzki, Rostofski, Jeroßlafski, bielo Osterski, Udorski, Obdorski, Candinski og ald Norder Sides befalere, Herre til Ifverski land, kartalinski og Grusinski, Czarr ofvere Karbadinski land, Tzerkoskisk og Gorskisk forste og mange andere Herredomme og lande, udj Öster, Vester og Nör, fæderlig forfaderlig og Arfvelige Herre og Regenter</persName>. Voris
           Naboevenlig Helsen, sambt huis meere kiert og got Vj formaa, med Gud allermægtigste
           tilfore, Stormægtige Höybaarne Elskelige kiere Broder, besynderlige gode Venn og Naboe. Wj
-          kunde Eders kierl[ighe]d hermed broder= og Naboewenligen ey forholde, det Oß <persName key="p1506">Voris Obrister af Infanteriet, og hidindtil Commendant over Voris festninger ved Christianssandt udj Vort Kongerige Norge, Oß Elskelige Friderich Hartwig von Nostitz</persName>, allerunderdanigst
+          kunde Eders kierl[ighe]d hermed broder= og Naboewenligen ey forholde, det Oß <persName key="p1506" ref="https://uri.gbv.de/terminology/lod_persons/353f9b9c-b05a-4179-a0fb-569fa6e338f7">Voris Obrister af Infanteriet, og hidindtil Commendant over Voris festninger ved Christianssandt udj Vort Kongerige Norge, Oß Elskelige Friderich Hartwig von Nostitz</persName>, allerunderdanigst
           haver ladet andrage, hvorledis hand velsindet war, sig andensteds at engagere, med
           allerunderdanigste bön, at Wj hannem sligt ey alleene Vilde tilstæde, og tilsamme Ende
-          Hannem sin Dimission udaff Voris Tienniste i Naade forunde Saasom nu denne Voris <persName key="p1506">Obrister von Nostitz</persName>, sig udj alle de aar hand udj Voris og <persName key="p0669">Voris j Gud Glorwærdigst hvilende Herr faders May[estæ]ts Tienniste</persName> haver staaet, ved alle occasioner, som een ærekier, Tror og
+          Hannem sin Dimission udaff Voris Tienniste i Naade forunde Saasom nu denne Voris <persName key="p1506" ref="https://uri.gbv.de/terminology/lod_persons/353f9b9c-b05a-4179-a0fb-569fa6e338f7">Obrister von Nostitz</persName>, sig udj alle de aar hand udj Voris og <persName key="p0669" ref="https://uri.gbv.de/terminology/lod_persons/ed7aae48-00c5-465a-9927-fcd94acf2e14">Voris j Gud Glorwærdigst hvilende Herr faders May[estæ]ts Tienniste</persName> haver staaet, ved alle occasioner, som een ærekier, Tror og
           Tapper Soldat, til Voris Fornöyelse, beteet haver; Saa have Vj hannem sin Afskeed ey
           wildet nægte; Ogsom Vj nu fornemmer at hand træder j Eders Kierligheds kriegsTienniste;
           Saa anmode Vj Eders Kierl[ighe]d hermed Broder= og Naboewenligen, at saasom de hannem j
@@ -127,16 +128,16 @@
             <hi rendition="#sup">ste </hi>
           </hi>Marty, A[nn]o 1707.</p>
         <closer>
-          <signed><persName key="p0532">Friderich R[ex]</persName></signed>
-          <signed><persName key="p1456">C: Sehestedt</persName></signed>
+          <signed><persName key="p0532" ref="https://uri.gbv.de/terminology/lod_persons/a2ddef43-2638-4c94-a067-2fef15c6a879">Friderich R[ex]</persName></signed>
+          <signed><persName key="p1456" ref="https://uri.gbv.de/terminology/lod_persons/7d4832c7-29f5-4cc5-a89e-9d0a62b814db">C: Sehestedt</persName></signed>
         </closer>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <postscript>
-          <p><persName key="p0174">Den Stormegtige, Höybaarne, Voris Elskelige Kiere Broder, Besynderlige gode Venn og Naboe, aff Guds Nade Store Herre Czarr og Storförste Peter Alexeiewitz, alle store, smaa og huide Rydßers selfErholder, Mußkaus, kiofski, Woladimerski, Nougorodski, Czarr til Kaßan, Czarr til Astrachan, Czarr til Sibirrien, Herre til Pleskow, Storförste til Smolenskow, Twerski, Jugorski, Permski, Wätzki, Bolgarski og andere, Herre og Storförste til Naugorodi det LægeLand, Tzerninggoufki, Resantzki, Rostofski, Jeroslofski, bielo Osterski, Udorski, Obdorski, Candinski og ald Norder Sider befalere, Herr til Ifverski Land, kartalinski og Grusinski, Tzarr ofuer Karbadinski Land, Tzerkoskisk og gorskisk förste, og mange andere Herredomme og Lande udi Öster, Vester og Nör, faderlig, forfæderlig og arfvelige Herre og Regenter</persName>.</p>
+          <p><persName key="p0174" ref="https://uri.gbv.de/terminology/lod_persons/18dcae56-9273-4ff4-add5-3bc8328d0da2">Den Stormegtige, Höybaarne, Voris Elskelige Kiere Broder, Besynderlige gode Venn og Naboe, aff Guds Nade Store Herre Czarr og Storförste Peter Alexeiewitz, alle store, smaa og huide Rydßers selfErholder, Mußkaus, kiofski, Woladimerski, Nougorodski, Czarr til Kaßan, Czarr til Astrachan, Czarr til Sibirrien, Herre til Pleskow, Storförste til Smolenskow, Twerski, Jugorski, Permski, Wätzki, Bolgarski og andere, Herre og Storförste til Naugorodi det LægeLand, Tzerninggoufki, Resantzki, Rostofski, Jeroslofski, bielo Osterski, Udorski, Obdorski, Candinski og ald Norder Sider befalere, Herr til Ifverski Land, kartalinski og Grusinski, Tzarr ofuer Karbadinski Land, Tzerkoskisk og gorskisk förste, og mange andere Herredomme og Lande udi Öster, Vester og Nör, faderlig, forfæderlig og arfvelige Herre og Regenter</persName>.</p>
           <p>Nabovenligen</p>
-          <p/>
+          <p />
           
-          <p/><p>
+          <p /><p>
             Датцкого короля 1707-го.</p>
           
           

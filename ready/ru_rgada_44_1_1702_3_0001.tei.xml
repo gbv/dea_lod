@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,45 +103,45 @@
     <body>
       <div type="letter">
         <head>
-          <title> 11 June 1702. – Letter from <persName key="p1197">Hamburg merchant Hans
-            Matthias Poppe</persName> to <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Chancellor of Russia, Count Fedor
+          <title> 11 June 1702. – Letter from <persName key="p1197" ref="https://uri.gbv.de/terminology/lod_persons/7e31a3a9-9a20-4bca-8b6b-42e7303421d6">Hamburg merchant Hans
+            Matthias Poppe</persName> to <persName key="p0277" ref="https://uri.gbv.de/terminology/lod_persons/ebcf36cd-027f-4223-a2d2-c60ae59884b3">the Chancellor of Russia, Count Fedor
             Alekseevich Golovin</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, opis. 1, 1702, no. 3, f. 1–2v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         <p>Salvo Titulo</p>
         <p>A[nn]o 1702 d[ie] 11 Junij <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName>
         </p>
         <p>Hoch undt wohl Edellgebohrner Durch</p>
         <p>leuchtigster Herr.</p>
         <p>ich befinde mich durch dehro Gnaeden an mihr abgefertigtes briefl[ich] sub dato 3 Junij
-          zum höchsten verEhrt, worauß Ersuchen daß die Andtwordt von dehro <persName key="p1200,p1201">H[erren]
+          zum höchsten verEhrt, worauß Ersuchen daß die Andtwordt von dehro <persName key="p1200,p1201" ref="https://uri.gbv.de/terminology/lod_persons/53eb4b6c-2c74-4582-83d9-ee2bf6ecdda4,https://uri.gbv.de/terminology/lod_persons/84a269b8-6c59-4bc4-8654-171e716ae9f5">H[erren]
             Bürgemeister</persName><note place="foot">According to the constitution of Hamburg (law
           of 1529), there were First and Second Mayors. The Council
             of Hamburg elected two mayors from among its members, each of whom hold the office of
           acting mayor in
-            one-year rotation. Who exactly is meant here is not specified.</note> undt <orgName key="o0025" ref="343294dd-b4b2-453e-87f4-2a241bb0a2e4">Raht der Stadt Hamburch</orgName>, nicht
+            one-year rotation. Who exactly is meant here is not specified.</note> undt <orgName key="o0025" ref="https://uri.gbv.de/terminology/lod_persons/343294dd-b4b2-453e-87f4-2a241bb0a2e4">Raht der Stadt Hamburch</orgName>, nicht
           allein wohl Empf[eh]l[en] Sondern auch allerGnädigst undt vergnügt von Ihro Zaer[ischen]
           Mayest[e] angenom[m]en, wofür ich dehro Excellent[z] für ihre Treuw fleißige Direction zum
           Höchsten bedancke undt principal[ement] daß Sie noch über dehme den brief von dero <placeName key="g0011" ref="https://www.geonames.org/2911298">Stadt Hamb[urgh]</placeName> in origineel von
           hier auf <placeName key="g0049" ref="https://www.geonames.org/581049">arch[angl]</placeName> zu senden bewürdiget,
           welches ich mit künfftiger post </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <p> auf <placeName key="g0011" ref="https://www.geonames.org/2911298">Hamburgh</placeName> werde Notificiren undt dabey
           Ihro Gnaeden Guethätigkeit zu Rühmen wißen. in übrigen nehme die Freyheit undt kom[m]e zu
           dehro Gnaeden mit Einen Demühtigen Fußfall dienstlich bittende, daß Sie wollen ferner die
-          Guetthaet an <persName key="p1198">den Schwieger Vatter Harttman</persName> nebst unß zu
+          Guetthaet an <persName key="p1198" ref="https://uri.gbv.de/terminology/lod_persons/ca7499d1-1252-4346-8c74-1391aeea4c3f">den Schwieger Vatter Harttman</persName> nebst unß zu
           Erzeigen, daß unser Hauß undt Hoff in <placeName key="g0049" ref="https://www.geonames.org/581049">Arch[angl]</placeName> wo es Möchlich möge
           verschonet bleiben, weiln wihr alhier v[er]nom[m]en daßelbe durch die pallissaden So
-          gemacht werden umb die Steinen palataen, vielleicht möchte Noht leiden., Wofür <persName key="p1198">der Schwieger Vatter Hartttman</persName> der Ihr Excellent[z] aufs
-          Demütigste thuet begrüßen wie auch wihr alß <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1199" xml:space="default">Seine Schwieger
-            Söhne Brist</persName> und <persName key="p1197">ich</persName> Jeder Zeith Solche
+          gemacht werden umb die Steinen palataen, vielleicht möchte Noht leiden., Wofür <persName key="p1198" ref="https://uri.gbv.de/terminology/lod_persons/ca7499d1-1252-4346-8c74-1391aeea4c3f">der Schwieger Vatter Hartttman</persName> der Ihr Excellent[z] aufs
+          Demütigste thuet begrüßen wie auch wihr alß <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1199" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/21ff989d-59ae-410b-916b-da8c9ea6b3a0">Seine Schwieger
+            Söhne Brist</persName> und <persName key="p1197" ref="https://uri.gbv.de/terminology/lod_persons/7e31a3a9-9a20-4bca-8b6b-42e7303421d6">ich</persName> Jeder Zeith Solche
           Guhtaet nicht allein werden zu rühmen wißen, Sondern unß auch gegen Ihr Excell[entz]
           danckbahrl[ich] </p>
-        <pb n="f. 2"/>
+        <pb n="f. 2" />
         <p>Erzeigen werden., undt weiln ich mich dehro Guethaet undt Gunst v[er]sichere, So bitte
           auch vnterthänigst in Meiner abwesentheit aldahr an die Meinigen dero Gunst zu Erzeigen,
           werde Jeder zeith Trachten So viel in mein Eüßersten v[er]mögen Ihr Excell[entz] zu dienen
@@ -152,29 +153,29 @@
         <p>mit v[er]bl[eibe] dehro vntertänigster</p>
         <p>undt gehorsahmer diener</p>
         <p>
-          <persName key="p1197">Hans Matt: Poppe</persName>./.</p>
+          <persName key="p1197" ref="https://uri.gbv.de/terminology/lod_persons/7e31a3a9-9a20-4bca-8b6b-42e7303421d6">Hans Matt: Poppe</persName>./.</p>
         
-        <pb n="f. 2v"/>
-        <p>A <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Son Excellence</persName>
+        <pb n="f. 2v" />
+        <p>A <persName key="p0277" ref="https://uri.gbv.de/terminology/lod_persons/ebcf36cd-027f-4223-a2d2-c60ae59884b3">Son Excellence</persName>
         </p>
         <p>
-          <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Monseigneur Theodor</persName>
+          <persName key="p0277" ref="https://uri.gbv.de/terminology/lod_persons/ebcf36cd-027f-4223-a2d2-c60ae59884b3">Monseigneur Theodor</persName>
         </p>
         <p>
-          <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Alexeietsch Gollowin
+          <persName key="p0277" ref="https://uri.gbv.de/terminology/lod_persons/ebcf36cd-027f-4223-a2d2-c60ae59884b3">Alexeietsch Gollowin
             Primir</persName>
         </p>
         <p>
-          <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Ministre. d’Etat Prive et</persName>
+          <persName key="p0277" ref="https://uri.gbv.de/terminology/lod_persons/ebcf36cd-027f-4223-a2d2-c60ae59884b3">Ministre. d’Etat Prive et</persName>
         </p>
         <p>
-          <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Admirael General des</persName>
+          <persName key="p0277" ref="https://uri.gbv.de/terminology/lod_persons/ebcf36cd-027f-4223-a2d2-c60ae59884b3">Admirael General des</persName>
         </p>
         <p>
-          <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Flotes de S[a] Majeste</persName>
+          <persName key="p0277" ref="https://uri.gbv.de/terminology/lod_persons/ebcf36cd-027f-4223-a2d2-c60ae59884b3">Flotes de S[a] Majeste</persName>
         </p>
         <p>
-          <persName key="p0277" ref="ebcf36cd-027f-4223-a2d2-c60ae59884b3">Czarienne</persName>
+          <persName key="p0277" ref="https://uri.gbv.de/terminology/lod_persons/ebcf36cd-027f-4223-a2d2-c60ae59884b3">Czarienne</persName>
         </p>
         <p>a</p>
         <p>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -107,10 +108,10 @@
             <bibl>AVPRI, fond 53, opis 5, no. 240, f. 42. Signature in Latin.</bibl>
           </note>
         </head>
-        <pb n="f. 45"/>
+        <pb n="f. 45" />
         <p>
           <hi rendition="#b">N<hi rendition="#sup">o </hi>
-            <hi rendition="#i"/>7367</hi>
+            <hi rendition="#i" />7367</hi>
         </p>
         <p>
           <hi rendition="#b">No. 20. Tire og Ihre Skissing</hi>
@@ -119,36 +120,36 @@
           <hi rendition="#b">1770</hi>
         </p>
         <p>Translatum ex Danico</p>
-        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0569" xml:space="default">Monsieur Mestmacker</persName>, Secretaire de <persName key="p0033">Sa Majesté de tous les Russes</persName>, me remit hier entre les
+        <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0569" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/9d787ae7-4688-4665-a295-ee6ff5962bca">Monsieur Mestmacker</persName>, Secretaire de <persName key="p0033" ref="https://uri.gbv.de/terminology/lod_persons/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majesté de tous les Russes</persName>, me remit hier entre les
           mains 68 Ducats en espèces, lesquels Ducats je fit [sic !] peser en biqueter en Sa
-          presence et celle du <persName key="p2515">Marchand Brown</persName>, et nous es avons trouvé netto 1 Mg de Cologne pesant,
+          presence et celle du <persName key="p2515" ref="https://uri.gbv.de/terminology/lod_persons/8d839347-38fb-476a-a29e-379081e1c355">Marchand Brown</persName>, et nous es avons trouvé netto 1 Mg de Cologne pesant,
           et par conséquent 1 St: trop leger p[ou]r Marc[handise]. Il fut même pesé en leur presence
           quelques uns de ces ducats en detail, ou un à un ; les uns en furent trouvés de juste
           poids, les autres 1-2 à 3 As trop légers. Le Guardien Roÿal de la fabrique de monnoie en a
           pris un pour l’eprouver, les autres 67 envoÿés par ceci sous mon sceau.</p>
-        <p>À la fabrique Roÿale de <persName key="p1534">Knopf</persName></p>
+        <p>À la fabrique Roÿale de <persName key="p1534" ref="https://uri.gbv.de/terminology/lod_persons/d033aded-4792-4f1d-a6a6-5148dd27eee2">Knopf</persName></p>
         <p>Monnoie à Copenhague Monnoÿer Royal</p>
         <p>ce 15 Aout 1770</p>
-        <p>À la demande du <persName key="p0569">Secretaire Mestmacker</persName> j’ai pris sous choix 1 ducat des susdits pour en
+        <p>À la demande du <persName key="p0569" ref="https://uri.gbv.de/terminology/lod_persons/9d787ae7-4688-4665-a295-ee6ff5962bca">Secretaire Mestmacker</persName> j’ai pris sous choix 1 ducat des susdits pour en
           faire l’essai, et je l’ai trouvé juste, savoir comme des ducats en espèces en 23 Karat 6
           Grains fin pr. Ms Brutto. Le reste du ducat, de meme que la preuve sont renvoÿés par ceci
           sous mon sceau.</p>
-        <p><persName key="p1535">Lyng</persName></p>
+        <p><persName key="p1535" ref="https://uri.gbv.de/terminology/lod_persons/b2128347-3108-4821-8937-ff7983e40385">Lyng</persName></p>
         <p>Guardien Roÿal de </p>
         <p>Monnoie.</p>
-        <p>Je soussigné <persName key="p1536">Christian Schmidt, notaire Roÿal</persName> pour cette ville de <placeName key="g0006">Copenhague</placeName> certifie et
-          atteste par ceci, selon la Reclamation de <persName key="p0569">Monsieur Mestmacker, Chargé des affaires de Sa Majesté Imperiale de tous les Russes</persName>, que les Srs Knopf &amp; Lÿng ont avec l</p>
+        <p>Je soussigné <persName key="p1536" ref="https://uri.gbv.de/terminology/lod_persons/b82ed5d8-90bf-4194-ad41-18858e135a43">Christian Schmidt, notaire Roÿal</persName> pour cette ville de <placeName key="g0006">Copenhague</placeName> certifie et
+          atteste par ceci, selon la Reclamation de <persName key="p0569" ref="https://uri.gbv.de/terminology/lod_persons/9d787ae7-4688-4665-a295-ee6ff5962bca">Monsieur Mestmacker, Chargé des affaires de Sa Majesté Imperiale de tous les Russes</persName>, que les Srs Knopf &amp; Lÿng ont avec l</p>
         <p>eur propres mains signé l’attestation ci-dessus, &amp; que le premier est Monnoier Royal,
           &amp; l’autre Guardien Royal de Monnoie dans cette ville. En foi de quoi j’ai passé cet<hi rendition="#s">te</hi> Instrument sous ma main &amp; mon sceau denotaire à Copenhague le
-          15 Aout 1770 C <persName key="p1536">Schmidt</persName></p>
+          15 Aout 1770 C <persName key="p1536" ref="https://uri.gbv.de/terminology/lod_persons/b82ed5d8-90bf-4194-ad41-18858e135a43">Schmidt</persName></p>
         <p>Pro vera versione ex originali, attestor</p>
         <p>Haunio ut ante</p>
-        <p><persName key="p1536">SCHMIDT Not</persName>[…] [black seal]</p>
+        <p><persName key="p1536" ref="https://uri.gbv.de/terminology/lod_persons/b82ed5d8-90bf-4194-ad41-18858e135a43">SCHMIDT Not</persName>[…] [black seal]</p>
         
-        <pb n="f. 42"/>
+        <pb n="f. 42" />
         <p>
           <hi rendition="#b">N<hi rendition="#sup">o </hi>
-            <hi rendition="#i"/>7365</hi>
+            <hi rendition="#i" />7365</hi>
         </p>
         <p>
           <hi rendition="#b">No. 20. Tire og Ihre Skissing</hi>

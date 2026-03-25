@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,15 +102,15 @@
     <body>
       <div type="letter">
         <head>
-          <title>23 February 1733. – Letter from <persName key="p0030">the Russian Ambassador to London,
+          <title>23 February 1733. – Letter from <persName key="p0030" ref="https://uri.gbv.de/terminology/lod_persons/d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Ambassador to London,
               Prince
               Antiochus
-              Dmitrievich Cantemir</persName>, to <persName key="p2518">the employee
+              Dmitrievich Cantemir</persName>, to <persName key="p2518" ref="https://uri.gbv.de/terminology/lod_persons/9cc3f671-7625-42dd-8739-2c8ac6eaaa35">the employee
               of the Russian
               Embassy in The Hague, Petr Petrovich
               Kurbatov</persName></title></head><head>OR RGB, fond 626, karton 1, no. 10, f. 1-1v. Russian original. </head><opener>
           <salute>
-            <pb cert="high" n="f. 1" xml:space="default"/>
+            <pb cert="high" n="f. 1" xml:space="default" />
             Г[о]с[у]д[а]рь Мой 
           </salute>
         </opener>
@@ -123,19 +124,19 @@
           славных ауторов, а аутора сих книг я запамятовал а что изволите на ту покупку д[е]н[е]г
           издержать извольте к тому ж купцу на меня вексель прислать, которой прежде сего по вашему
           векселю д[е]н[ь]ги платил, и не изволте бл[а]гонадежны пребыть, что как скоро мне вексель ваш
-          представлен будет<pb cert="high" n="f. 1v" xml:space="default"/> того ж часу д[е]н[ь]ги[ь]ги по нем всеохотно заплачу.
+          представлен будет<pb cert="high" n="f. 1v" xml:space="default" /> того ж часу д[е]н[ь]ги[ь]ги по нем всеохотно заплачу.
           В протчем пребываю </p>
         <p>В[а]шь Г[о]с[у]даря моего
           
         </p>
-        <p/>
-        <p/>
+        <p />
+        <p />
         <p>Из <placeName key="g0003" ref="https://www.geonames.org/2643743">Лондона</placeName> </p>
         <p>23 февраля</p>
         <p>1733г[о]</p>
         <closer>
           <signed>всеохотно послушной слуга </signed>
-          <signed>К[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default">Антиох Кантемир
+          <signed>К[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/d52c788b-74d5-4c5e-aa9a-22125975c436">Антиох Кантемир
             </persName>
           </signed>
         </closer>

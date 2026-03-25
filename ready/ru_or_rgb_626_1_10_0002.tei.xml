@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,7 +102,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>9 March 1733. – Letter from <persName key="p0030">the Russian Ambassador to London, Prince Antiochus Dmitrievich Cantemir</persName>, to the <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p2518" xml:space="default">employee of the Russian Embassy in The Hague, Petr
+          <title>9 March 1733. – Letter from <persName key="p0030" ref="https://uri.gbv.de/terminology/lod_persons/d52c788b-74d5-4c5e-aa9a-22125975c436">the Russian Ambassador to London, Prince Antiochus Dmitrievich Cantemir</persName>, to the <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p2518" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/9cc3f671-7625-42dd-8739-2c8ac6eaaa35">employee of the Russian Embassy in The Hague, Petr
               Petrovich Kurbatov</persName>
               <note><bibl>OR RGB, fond 626, karton 1, no. 10, f. 3-3v.</bibl></note>
           </title>
@@ -110,7 +111,7 @@
         
         <opener>
           <salute>
-            <pb cert="high" n="f. 3" xml:space="default"/>
+            <pb cert="high" n="f. 3" xml:space="default" />
             Г[о]с[у]д[а]рь мой
           </salute>
         </opener>
@@ -121,8 +122,8 @@
           просил на сих
           днях из
           парижа к одному книжнику сюды привезена, И потому я вашей лишить вас не желаю. </p><p>А в место той прошу вас г[о]с[у]д[а]ря моего подписать за меня в издании XIго и XIIго тома ж
-          аглицкой истории :/ которые чрез субскрипцию печатаются в <placeName key="g0004" ref="https://www.geonames.org/2747373" cert="high">Гаге</placeName> у <persName cert="high" key="p2195" type="real">Христофора фон Лон</persName> с товарыщи :/ на один эксемпляр всякого
-          тож малой бумаги, понеже на такой имею</p><p><pb cert="high" n="f. 3v" xml:space="default"/>прежние 10 томов г[о]с[по]д[и]на <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1543" xml:space="default">рапина</persName>. </p>
+          аглицкой истории :/ которые чрез субскрипцию печатаются в <placeName key="g0004" ref="https://www.geonames.org/2747373" cert="high">Гаге</placeName> у <persName cert="high" key="p2195" type="real" ref="https://uri.gbv.de/terminology/lod_persons/9604db47-42b5-4f02-81d4-af00712c05e8">Христофора фон Лон</persName> с товарыщи :/ на один эксемпляр всякого
+          тож малой бумаги, понеже на такой имею</p><p><pb cert="high" n="f. 3v" xml:space="default" />прежние 10 томов г[о]с[по]д[и]на <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p1543" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/8b285812-2357-47a9-9d23-7aec1b86e68e">рапина</persName>. </p>
         <p>Скол же табаку касается доволно будет 20 фунтов которой сколь скорее изволите ко
           мне
           прислать столь
@@ -131,7 +132,7 @@
           его здесь
           заарестуют не будучи позволено чужестраного табаку ввозить.
         </p>
-        <p>При сем прошу вас гсдря моего должный мой поклон отдать <persName key="p2194">г[о]с[по]д[и]ну секретарю Берендесу</persName>
+        <p>При сем прошу вас гсдря моего должный мой поклон отдать <persName key="p2194" ref="https://uri.gbv.de/terminology/lod_persons/8773327f-f254-4865-8ae5-86875e8046dc">г[о]с[по]д[и]ну секретарю Берендесу</persName>
           и
           благодорить за
           его ко мне последнее писмо, на которое давно уже бы ответствовал естлибы глазная
@@ -149,7 +150,7 @@
         <p>9 марта 1733г[о]</p>
         <closer>
           <signed>Готовейший и послушной слуга</signed>
-          <signed>К[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default">Антиох Кантемир</persName>. </signed>
+          <signed>К[нязь] <persName cert="high" evidence="internal" full="yes" instant="unknown" key="p0030" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/d52c788b-74d5-4c5e-aa9a-22125975c436">Антиох Кантемир</persName>. </signed>
         </closer>
       </div>
     </body>

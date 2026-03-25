@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,26 +103,26 @@
     <body>
       <div type="letter">
         <head>
-          <title>4/15 May 1767. – Report from <persName key="p1102">the Russian Envoy Extraordinary and Minister Plenipotentiary to Denmark, Mikhail Mikhailovich Filosofov</persName> concerning the claim of the
-            widow of the dentist Janst (?) to the inheritance of <persName key="p1523">Lieutenant General Andreas Harboe</persName> </title>
+          <title>4/15 May 1767. – Report from <persName key="p1102" ref="https://uri.gbv.de/terminology/lod_persons/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">the Russian Envoy Extraordinary and Minister Plenipotentiary to Denmark, Mikhail Mikhailovich Filosofov</persName> concerning the claim of the
+            widow of the dentist Janst (?) to the inheritance of <persName key="p1523" ref="https://uri.gbv.de/terminology/lod_persons/f220d46b-72fc-42ce-9963-cd1800d3c604">Lieutenant General Andreas Harboe</persName> </title>
           <note>
             <bibl>
               AVPRI, fond 53, opis 5, no. 204, f. 16- 17v. Russian original.
             </bibl>
           </note>
         </head>
-        <pb n="f. 16"/>
+        <pb n="f. 16" />
         <p>№4<hi rendition=" #u"><hi rendition=" #sup">ой</hi>
           </hi>
         </p>
         <p>державнейшая императрица и самодержица всероссийская.</p>
         <p>Г[о]с[у]д[а]р[ы]ня всемилостивейшая!</p>
-        <p/>
+        <p />
         <p>По содержанию Вашего Императорскаго Величества всевысочайшаго рескрипта под №3<hi rendition="#sup">м</hi> от 12
           декабря
           прошлаго года и приложенных к при том пиес касателных прошения вдовы зубнаго лекаря жанста [жанспиа?] урожденной гарбое, в получении </p>
         <p>прислана в Коллегию из дворца 15-<hi rendition=" #sup">го</hi> июня 1767:</p>
-        <pb n=" f. 16v"/>
+        <pb n=" f. 16v" />
         <p>ея здесь наследства после генерала Гарбое, употребя возможное старание в партикулярном
           разведовании обстоятелств сего дела столко узнал, что упоминаемой в писме предместника
           моего тайнаго советника корфа опекун сего имения советник минх от котораго он известие в
@@ -131,7 +132,7 @@
           под коронным управлением; то вследствие сих обстаятелств подана была здешнему министерству
           от меня нота с которой у сего копию под литерою А. и со учиненнаго на то от здешняго
           министерства мне ответа под литерами В &amp; С. с российским </p>
-        <pb n="f. 17"/>
+        <pb n="f. 17" />
         <p>переводом дацкаго Вашему Императорскому Величеству всенижайше поднесть честь имею;
           всеподданнейше
           в дополнение сего представя, что как реченной тайной советник гарбое  уже 60т: лет как
@@ -148,7 +149,7 @@
           документы, а особливо тестаменты реченнаго тайнаго советника гарбое из которых бы яснее
           правость
           требования</p>
-        <pb n="f. 17v"/>
+        <pb n="f. 17v" />
         <p>в россии обретающихся наследников усмотреть было можно, по прошествии то<hi rendition="#sup">ль</hi> долгаго времяни пратикулярно сысканы быть могут, а хотя чаять надобно, что они в
           королевских архивах и в писмах реченных  монастырей состоят, однако по учиненным от меня о
           том требованиям, мне отзыв учинен, что оных не состоит, и по давности времяни отискать
@@ -156,7 +157,7 @@
           благоговением навек буду.</p>
         <p>Вашего Императорскаго Величества</p>
         <p>всенижайший раб</p>
-        <p><persName key="p1102" type="signature">Михайло Философов</persName></p>
+        <p><persName key="p1102" type="signature" ref="https://uri.gbv.de/terminology/lod_persons/7163bbc5-5f71-4f73-bbec-c099e86ff4a8">Михайло Философов</persName></p>
         <p>из <placeName key="g0006">копенгагена</placeName></p> 
         <p>маия 4/15 дня 1767го году.</p>
         <p>[a red pencil note in the margin:] NB И хлопотать более нечего. Претенция пустая.</p>

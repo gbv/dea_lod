@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">[Letter] from [the Secretary of the Danish Legation in St.
@@ -103,30 +104,30 @@
     <body>
       <div type="letter">
         <head>
-          <title> November/December 1743. – [Letter] from<persName key="p0814" ref="9b77306c-a783-489a-a552-5e6611f58433"> [the Secretary of the Danish Legation in
-            St Petersburg,] Councillor of the Chancellery [Johan Absalonsen] Koefoed</persName>, to <persName key="p0813" ref="463d4e44-19fe-4289-b444-a527afda3d90">[Privy Councillor, Chief
+          <title> November/December 1743. – [Letter] from<persName key="p0814" ref="https://uri.gbv.de/terminology/lod_persons/9b77306c-a783-489a-a552-5e6611f58433"> [the Secretary of the Danish Legation in
+            St Petersburg,] Councillor of the Chancellery [Johan Absalonsen] Koefoed</persName>, to <persName key="p0813" ref="https://uri.gbv.de/terminology/lod_persons/463d4e44-19fe-4289-b444-a527afda3d90">[Privy Councillor, Chief
             Secretary of the Chancellery, Danish] State Secretary [Johann Sigismund] Schulin</persName>
           </title>
           <note>
             <bibl>AVPRI, fond 6, opis 1, no. 21, f. 40. French original; translation into Russian: AVPRI, fond 6, opis 1, no. 21, 41-41v.</bibl>
           </note>
         </head>
-        <pb n="f. 40"/>
+        <pb n="f. 40" />
         
-        <p>От канцелярии советника <persName key="p0814">Куфута</persName> к <persName key="p0813">Стацкому Секретарю Шулину</persName>.</p>
+        <p>От канцелярии советника <persName key="p0814" ref="https://uri.gbv.de/terminology/lod_persons/9b77306c-a783-489a-a552-5e6611f58433">Куфута</persName> к <persName key="p0813" ref="https://uri.gbv.de/terminology/lod_persons/463d4e44-19fe-4289-b444-a527afda3d90">Стацкому Секретарю Шулину</persName>.</p>
         <p>N°94 </p>
         <p>Monsieur</p>
         <p>J’ai eû l’honeur de recevoir la letre de Votre E. du 5 du courant par laquelle il a plû à
           V.E. de me faire conoître, que je puis me dispenser de suivre la cour à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscau</placeName>, en restant
-          icy à <placeName key="g0002" ref="https://www.geonames.org/498817">Pbourg</placeName>, jusques à l’arrivee de notre <persName key="p0774">ambassadeur S.E. de Holstein</persName>, à quoi je ne manquerai pas de me
-          conformer très humblement. On dit, que le voyage de <persName key="p0052" ref="afc1e8df-6410-4e68-80dd-abcafa754aa6">S.M<hi rendition="#sup">té</hi>
+          icy à <placeName key="g0002" ref="https://www.geonames.org/498817">Pbourg</placeName>, jusques à l’arrivee de notre <persName key="p0774" ref="https://uri.gbv.de/terminology/lod_persons/eb5319cc-9a9d-4d9c-9378-0ccc0b833ceb">ambassadeur S.E. de Holstein</persName>, à quoi je ne manquerai pas de me
+          conformer très humblement. On dit, que le voyage de <persName key="p0052" ref="https://uri.gbv.de/terminology/lod_persons/afc1e8df-6410-4e68-80dd-abcafa754aa6">S.M<hi rendition="#sup">té</hi>
           </persName>
           à <placeName key="g0001" ref="https://www.geonames.org/524894">Moscou</placeName>
           aura lieu le 16. du mois prochain v.st.</p>
         <p>
-          <persName key="p0115" ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">Le Grand Duc</persName>
+          <persName key="p0115" ref="https://uri.gbv.de/terminology/lod_persons/e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">Le Grand Duc</persName>
           n’est pas encore tout à fait retabli de sa maladie ; mais on espère qu’il le sera dans peu
-          de tems, <persName key="p0115" ref="e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">son Altesse</persName>
+          de tems, <persName key="p0115" ref="https://uri.gbv.de/terminology/lod_persons/e958d8b8-e12f-4ac9-b67f-d19c20fb4dcc">son Altesse</persName>
           se portant de jour en jour mieux. J’ai l’honeur d’etre.</p>
         <noteGrp>
           <note>Also see : </note>

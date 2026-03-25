@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,28 +105,28 @@
     <body>
       <div type="letter">
         <head>
-          <title>7 July 1770. – Copy of reply from <persName key="p0569">[the Russian Imperial] Legation Secretary, [Baron Johann von] Mestmacher</persName>, to the letter from <persName key="p1537">Admiral, Count [Christian Conrad Danneskiold-]Laurwig</persName>, from <placeName key="g0006">Copenhagen</placeName>, dated 7 July 1770 n.s.
+          <title>7 July 1770. – Copy of reply from <persName key="p0569" ref="https://uri.gbv.de/terminology/lod_persons/9d787ae7-4688-4665-a295-ee6ff5962bca">[the Russian Imperial] Legation Secretary, [Baron Johann von] Mestmacher</persName>, to the letter from <persName key="p1537" ref="https://uri.gbv.de/terminology/lod_persons/7bcddae0-d38c-4306-be51-5ef8b99fc120">Admiral, Count [Christian Conrad Danneskiold-]Laurwig</persName>, from <placeName key="g0006">Copenhagen</placeName>, dated 7 July 1770 n.s.
           </title>
           <note>
             <bibl>AVPRI, fond 53, opis 5, no. 240, f. 7-7v. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 7"/>
+        <pb n="f. 7" />
         
-        <p>Copie der Antwort <persName key="p0569">des Legation Secretairen Mestmacher</persName> auf das Schreiben <persName key="p1537">des Admirals Grafen Laurwig</persName>, de dato <placeName key="g0006">Copenhagen</placeName>, d[en] 7 July st. n. 1770</p>
-        <p> Mit tiefer Verehrung erkenne <persName key="p1537">die Ehre von Ew[e]r</persName>. Excellence gnädigem Schreiben vom
-          gestrigen dato, wie denn auch meine vornehmste Pflicht darin bestehen soll <persName key="p1533">dem Herrn Contre Admiral von Arff</persName> gleich nach seiner Ankunft den Inhalt deßelben zu gehöriger
+        <p>Copie der Antwort <persName key="p0569" ref="https://uri.gbv.de/terminology/lod_persons/9d787ae7-4688-4665-a295-ee6ff5962bca">des Legation Secretairen Mestmacher</persName> auf das Schreiben <persName key="p1537" ref="https://uri.gbv.de/terminology/lod_persons/7bcddae0-d38c-4306-be51-5ef8b99fc120">des Admirals Grafen Laurwig</persName>, de dato <placeName key="g0006">Copenhagen</placeName>, d[en] 7 July st. n. 1770</p>
+        <p> Mit tiefer Verehrung erkenne <persName key="p1537" ref="https://uri.gbv.de/terminology/lod_persons/7bcddae0-d38c-4306-be51-5ef8b99fc120">die Ehre von Ew[e]r</persName>. Excellence gnädigem Schreiben vom
+          gestrigen dato, wie denn auch meine vornehmste Pflicht darin bestehen soll <persName key="p1533" ref="https://uri.gbv.de/terminology/lod_persons/4e3ae13c-d6bc-491d-903a-a6be659e859c">dem Herrn Contre Admiral von Arff</persName> gleich nach seiner Ankunft den Inhalt deßelben zu gehöriger
           Folgeleistung mitzutheilen, als welchem Allerhöchst aufgetragen worden die zu der Rußisch
           Kayser[lichen]. Escadre von König[lichen]. dähnischer Seits ausersehne 400. Mann Matrosen
           oder so viel derselben davon erfoderlich sind nach hiesigen Fuß mit allem hinlänglich zu
           versehen. </p>
-        <p> Unterdeßen werde auch nicht unterlaßen noch mit der heutigen Post an <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0008" xml:space="default">meinen Allerhöchsten Hof</orgName> den Allerunterthänigsten Bericht vorläufig davon abzustatten.</p>
+        <p> Unterdeßen werde auch nicht unterlaßen noch mit der heutigen Post an <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="o0008" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">meinen Allerhöchsten Hof</orgName> den Allerunterthänigsten Bericht vorläufig davon abzustatten.</p>
         <p> Ich habe die Ehre [perge, perge]</p>
         
         
-        <pb n="f. 7v"/>
+        <pb n="f. 7v" />
         
-        <p>к писму <persName key="p0569">местмахера</persName> из <placeName key="g0006">копенгагена</placeName> </p>
+        <p>к писму <persName key="p0569" ref="https://uri.gbv.de/terminology/lod_persons/9d787ae7-4688-4665-a295-ee6ff5962bca">местмахера</persName> из <placeName key="g0006">копенгагена</placeName> </p>
         <p>от 26 июня / 7 июля 1770</p>
         <noteGrp>
           <note>Also see:</note>

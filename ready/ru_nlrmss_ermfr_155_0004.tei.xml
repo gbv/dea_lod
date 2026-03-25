@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,18 +102,18 @@
     <body>
       <div type="letter">
         <head>
-          <title>c. 1717. – Exercise Letter by <persName key="p0220">Prince Ivan Andreevich Shcherbatov</persName> </title><note>
+          <title>c. 1717. – Exercise Letter by <persName key="p0220" ref="https://uri.gbv.de/terminology/lod_persons/3246c251-a0fd-44f4-b6fd-3a306dd0c117">Prince Ivan Andreevich Shcherbatov</persName> </title><note>
             <bibl>OR RNB, Erm fr., no. 155, f. 110v-110. French original.</bibl>
           </note>
         </head>
         
-        <pb n="f. 110v"/>
+        <pb n="f. 110v" />
         <p>6.</p>
         <p>A Monsieur,</p>
         <p>J'entre dans le grand caffé tout embarassé de ma personne, et ne sçachant où donner de la
           tête. Il n'y <hi rendition="#s">a pas avec qui vive avec qui je puisse </hi> [the next two words are inserted in another handwriting:] vois personne propre à chasser mon ennuy. Jugez de la tristesse accablante où je me trouve. La lecture
           me dégoute, la promenade me fatigue, la meditation </p>
-        <pb n="f. 110"/>
+        <pb n="f. 110" />
         <p> m'attriste, et je n'ay personne avec qui converser. Dans cet état de tristesse je ne
           laisse pourtant pas d'étre sensible à l'employ que j'ay présentement de m'entretenir avec
           vous par ce billet. Il fait une chaleur étouffante, on rompt du sucre sous mon nez et des
@@ -162,7 +163,7 @@
         </noteGrp>
 
 
-        <p/>
+        <p />
       </div>
     </body>
   </text>

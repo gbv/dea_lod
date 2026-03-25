@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,16 +102,16 @@
     <body>
       <div type="letter">
         <head>
-          <title>1 December 1787. – Letter from <persName key="p0238">Emperor Joseph II of the Holy Roman Empire</persName> to <persName key="p0124">the Governor General, Field Marshal Count Petr
+          <title>1 December 1787. – Letter from <persName key="p0238" ref="https://uri.gbv.de/terminology/lod_persons/6f917341-ea48-4096-8645-e050f94c52af">Emperor Joseph II of the Holy Roman Empire</persName> to <persName key="p0124" ref="https://uri.gbv.de/terminology/lod_persons/820f0254-6e50-437f-a3ae-b94f1140c8e3">the Governor General, Field Marshal Count Petr
             Aleksandrovich
               Rumiantsev-Zadunaiskii</persName></title>
           <note>
             <bibl>OR RGB, fond 255, karton 3, no. 13, f. 3-3v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 3"/>
+        <pb n="f. 3" />
         <p><placeName key="g0005">Vienne</placeName> ce 1<hi rendition="#sup">er </hi>Decembre 1787</p>
-        <p/>
+        <p />
         <p>Monsieur le Marêchal, <placeName key="p2203">Le Prince de Coburg</placeName> vient de
           m’envoyer votre Lettre du 29 Octobre. J’ai été charmé d’y voir que vous vouliés bien vous
           Souvenir des momens que nous avons passés ensemble et j’espére que <placeName key="p2204">Mr.
@@ -118,20 +119,20 @@
           instamment chargé à <placeName key="g0188">Cherson</placeName> et qu’il vous aura
           témoigné, combien je regretois de n’avoir pû à l’occasion de ce voyage renouveller votre
           Connaissance. </p>
-        <p>La nouvelle que <persName key="p0033">S[a] M[ajesté] l’Impératrice</persName> vous a confié le
+        <p>La nouvelle que <persName key="p0033" ref="https://uri.gbv.de/terminology/lod_persons/e14a18da-55bf-476c-bee9-1ff5536450d7">S[a] M[ajesté] l’Impératrice</persName> vous a confié le
           Commandement de son Armée m’a fait partager en Allié fidèle et son meilleur ami le
           sentiment de Satisfaction qu’a éprouvé la nation et l’Armée Russe qui ont en vous la plus
-          juste confiance, tout comme votre nom seul est la terreur de l’ennemi. <persName key="p0033">Sa Majeste Impériale</persName> peut s’attendre de ma part aux Secours les
-          plus réels et à la Diversion la plus efficace. Je désire bien aureste, <persName key="p0124">Monsieur le Maréchal</persName>, de recevoir Souvent de vos nouvelles, ainsi
+          juste confiance, tout comme votre nom seul est la terreur de l’ennemi. <persName key="p0033" ref="https://uri.gbv.de/terminology/lod_persons/e14a18da-55bf-476c-bee9-1ff5536450d7">Sa Majeste Impériale</persName> peut s’attendre de ma part aux Secours les
+          plus réels et à la Diversion la plus efficace. Je désire bien aureste, <persName key="p0124" ref="https://uri.gbv.de/terminology/lod_persons/820f0254-6e50-437f-a3ae-b94f1140c8e3">Monsieur le Maréchal</persName>, de recevoir Souvent de vos nouvelles, ainsi
           que d’être eclairé sur l’objet commun par vos bons Conseils qui me seront toujours
           infiniment chers, et en attendant je vous prie d’être persuadé</p>
-        <pb n="f. 3v"/>
+        <pb n="f. 3v" />
         <closer>
           <salute>des Sentimens d’estime et d’amitié avec les quels je serai toujours</salute>
           <salute>Monsieur le Marechall</salute>
           <salute>Votre tres affectioné</salute>
           <signed>
-            <persName key="p0238">Joseph</persName></signed>
+            <persName key="p0238" ref="https://uri.gbv.de/terminology/lod_persons/6f917341-ea48-4096-8645-e050f94c52af">Joseph</persName></signed>
         </closer><note>See also: </note><note>ru_niorrgb_255_3_13_0001</note><note>ru_niorrgb_255_3_13_0003</note>
       </div>
     </body>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,7 +103,7 @@
     <body>
       <div type="letter">
         <head>
-          <title>17 July 1717. </title><title>– Passport issued for <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador to Denmark, Prince
+          <title>17 July 1717. </title><title>– Passport issued for <persName key="p0729" ref="https://uri.gbv.de/terminology/lod_persons/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">the Russian Ambassador to Denmark, Prince
             Vasilii Lukich Dolgorukii</persName>
           </title>
           </head><head><note>
@@ -110,30 +111,30 @@
             <bibl>RGADA, fond 53, opis 1, 1717, no. 15, f. 2. Danish duplicate.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
-        <p> Som <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Hans Czaariske
+        <pb n="f. 1" />
+        <p> Som <persName key="p0729" ref="https://uri.gbv.de/terminology/lod_persons/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Hans Czaariske
           Majesté herværende Ambassadeur, Prince Dolgoroukj</persName>, til hans foreværende Reise,
           med füre Par Forspands Heste til en Chaise, Füre Par til en vogn, en Borger-vogn og trei
           Bönder-vogne, hver med toe Heste bespent, saaog tri Qvarteer for sig og medhavende Suite,
           hvor de om Natten overbliver og ellers forlanger, skall forsiufnes; Saa anbefales, paa
           Hans Kong[e]l[ig] Mayestætts Vegne, de Kongelige Ambts-betiente, sambt Magistraten og
-          Byefogderne udi Kiöbstæderne, hvis en hver vedkommer, at de paa Anfordring af <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Herr Ambassadeuren</persName>
+          Byefogderne udi Kiöbstæderne, hvis en hver vedkommer, at de paa Anfordring af <persName key="p0729" ref="https://uri.gbv.de/terminology/lod_persons/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">Herr Ambassadeuren</persName>
           ovenskrevne Forspand og vogne, fremb og tilbage, til hvad Tiid og Stæd de maatte
           forlanges, saaog udi Kiöbstæderne fri Qvarteer, uden nogen Ophold, ved Haanden anskaffer:</p>
         <p>Saa haver og Magistraten i Corsoer og Aßens at giöre dend Anstalt, det Herr Ambassadeur
           med hos sig havende Folck og Bagage fri over begge Belterne transporteret vorder. Datum
-          K<orgName key="o0120">ong[e]l[ig] May[estæ]tts Rente-Cammer</orgName> den 17 July Anno 1717</p>
+          K<orgName key="o0120" ref="https://uri.gbv.de/terminology/lod_persons/80cfc456-622a-416c-98a4-522872d0ea18">ong[e]l[ig] May[estæ]tts Rente-Cammer</orgName> den 17 July Anno 1717</p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1462" xml:space="default" ref="ec4f39ce-28dc-4ee3-be43-d23ac59cb591">Hans Kongelig Mayestætts til
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p1462" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/a5c173a5-3601-458e-8643-b5d5ce779950">Hans Kongelig Mayestætts til
             Danmark og Norge p[erge] Deputerede for Financerne</persName>
         </p>
         <p>
-          <persName key="p1463" type="signature">J[ohan]: Worm</persName>
-          <persName key="p1462" type="signature">J[ohan] Neve</persName>
+          <persName key="p1463" type="signature" ref="https://uri.gbv.de/terminology/lod_persons/0c8ad49a-80dd-4ada-8591-42b5215f178a">J[ohan]: Worm</persName>
+          <persName key="p1462" type="signature" ref="https://uri.gbv.de/terminology/lod_persons/a5c173a5-3601-458e-8643-b5d5ce779950">J[ohan] Neve</persName>
           ,</p>
-        <p/>
+        <p />
         <p>
-          <persName key="p1464" type="signature">Jakob Andreas Paters</persName>
+          <persName key="p1464" type="signature" ref="https://uri.gbv.de/terminology/lod_persons/31464fcb-ccac-43e1-8178-9c5516624378">Jakob Andreas Paters</persName>
         </p>
         <noteGrp>
           <note>See translation of the document:</note>

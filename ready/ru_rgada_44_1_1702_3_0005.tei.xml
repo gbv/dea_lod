@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,36 +103,36 @@
     <body>
       <div type="letter">
         <head>
-          <title>26 June 1708. – Letter from <persName key="p1197">Hamburg merchant Hans
-              Matthias Poppe</persName> to <persName key="p0071" ref="24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Head of the Ambassadorial Chancellery,
+          <title>26 June 1708. – Letter from <persName key="p1197" ref="https://uri.gbv.de/terminology/lod_persons/7e31a3a9-9a20-4bca-8b6b-42e7303421d6">Hamburg merchant Hans
+              Matthias Poppe</persName> to <persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">the Head of the Ambassadorial Chancellery,
               Count Gavrila Ivanovich Golovkin</persName>
           </title>
           <note>
             <bibl>RGADA, fond 44, opis 1, 1702, no. 3, f. 43–44. German original.</bibl>
           </note>
         </head>
-        <pb n="f. 43"/>
+        <pb n="f. 43" />
         <p> Monseigneur</p>
-        <p>Auß Ihro Exc[ellen]tz günstiges Schreiben von 30 Mertz habe ersehen, daß <persName key="p0746" ref="6b1c7afd-5e68-43ca-b067-bcbba941b524">S[eine]r Exc[e]ll[en]tz den Herrn
+        <p>Auß Ihro Exc[ellen]tz günstiges Schreiben von 30 Mertz habe ersehen, daß <persName key="p0746" ref="https://uri.gbv.de/terminology/lod_persons/6b1c7afd-5e68-43ca-b067-bcbba941b524">S[eine]r Exc[e]ll[en]tz den Herrn
             Geheimbten Rath</persName>
           von Ihro [“I” corrected
-              from: E.] <persName key="p0746">GroßCzaar[ischen] May[estät] Herrn von Urbich</persName><hi cert="high" generatedBy="human" xml:space="default" rendition="#s">wi.</hi> die Quarthal Gelder wider zu zahlen sein: Vor dießmahl habe noch
+              from: E.] <persName key="p0746" ref="https://uri.gbv.de/terminology/lod_persons/6b1c7afd-5e68-43ca-b067-bcbba941b524">GroßCzaar[ischen] May[estät] Herrn von Urbich</persName><hi cert="high" generatedBy="human" xml:space="default" rendition="#s">wi.</hi> die Quarthal Gelder wider zu zahlen sein: Vor dießmahl habe noch
           Rath geschafft /unerachtet mein weniges Capital bey der jetzigen Expedition unser Schiffe
           nach <placeName key="g0049" ref="https://www.geonames.org/581049">Archangel</placeName> gantz und gar versteket
-          habe/ und das vom 8/19 Junij an antecipando <persName key="p0746" ref="6b1c7afd-5e68-43ca-b067-bcbba941b524">dem Herrn Baron</persName> vorgedacht mit
+          habe/ und das vom 8/19 Junij an antecipando <persName key="p0746" ref="https://uri.gbv.de/terminology/lod_persons/6b1c7afd-5e68-43ca-b067-bcbba941b524">dem Herrn Baron</persName> vorgedacht mit
           Rdhl<note place="foot">The abbreviation is used here and below for Reichsthaler.</note>
           2500 Banco contentirt; nach disem aber ist es mir eine püre Unmüchlogkeit dergleichen
           Verschuß zu thun, denn ich meine Gelder nicht ledig stehen laßen, sondern von Zeit zu Zwit
           in Wahren employre; darumb gehorsamst ersuche, es ins Künfftige allergütigst dahin zu
-          dirigiren, daß die Gelder in <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> an die H[erren] <persName key="p1240">Poppe</persName> und <persName key="p1256">Ghiese</persName> vorauszahlt
+          dirigiren, daß die Gelder in <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> an die H[erren] <persName key="p1240" ref="https://uri.gbv.de/terminology/lod_persons/05d3556f-a8e6-4431-9e89-35d08c1bf7f2">Poppe</persName> und <persName key="p1256" ref="https://uri.gbv.de/terminology/lod_persons/dd222d40-7414-4143-8378-900c83ef87ff">Ghiese</persName> vorauszahlt
           werden auff daß Selbe mich [corrected from: mit.] solche remittiren
-          können. [note on the lower margin:] <hi rendition="#u">A </hi><persName key="p0071">
+          können. [note on the lower margin:] <hi rendition="#u">A </hi><persName key="p0071" ref="https://uri.gbv.de/terminology/lod_persons/24bb7406-5f3c-4b98-99a4-9e9e8b4cdefd">
               <hi rendition="#u">Monseigneur le Comte Gollowkin</hi>
             </persName><hi rendition="#u">.</hi></p>
-        <pb n="f. 43v"/>
+        <pb n="f. 43v" />
         <p> und fölgliche Wexelbrieffe auff mich paßiren, die ich dann annehmen und bezahlen will,
           und außerdem ist es mir warlich nicht müglich, immaßen auch noch keine Nachricht von <placeName key="g0001" ref="https://www.geonames.org/524894">Mosco</placeName> erhalten, daß die Rthl 1400, vor
-          geraumer zeit an <persName key="p0729" ref="9a86fb02-523e-4c75-a6b1-1f8c5926eadd">dem Printz Dolgorucki</persName> in <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName> zahlt, wider contentirt
+          geraumer zeit an <persName key="p0729" ref="https://uri.gbv.de/terminology/lod_persons/9a86fb02-523e-4c75-a6b1-1f8c5926eadd">dem Printz Dolgorucki</persName> in <placeName key="g0006" ref="https://www.geonames.org/2618425">Copenhagen</placeName> zahlt, wider contentirt
           worden, und kann mich also diser Gelder auch nicht auffs neuwe bedienen  Diser und anderen
           erwechlichen Uhrsachen mehr werden Ihro Excell[en]tz mich nicht verdenken, wann in mehr
           Verschuß mich nicht engagiren kan und wolte ich Euwer Excell[en]tz gehorsamst gebethen
@@ -140,22 +141,22 @@
           wie dann auch meine eigene [written above the line:] affairen still
           liegen, und von den [corrected from: denen] Guth voriges Jahr auß <placeName key="g0049" ref="https://www.geonames.org/581049">
             archangel</placeName> bringen laßen</p>
-        <pb n="f. 44"/>
+        <pb n="f. 44" />
         <p> noch gantz wenig zu gelde gemachet. Ich recomandire mich in Euwer Excell[en]tz hochen
           Gunst, nach dienstl[ichen] reverentz verharre</p>
         <p>Monseigneur</p>
         <p>de Vôtre Excellence</p>
         <p>tres humble &amp; tres obeissant serviteur</p>
         <p>
-          <persName key="p1197">Hans Matt: Poppe</persName> ./.</p>
+          <persName key="p1197" ref="https://uri.gbv.de/terminology/lod_persons/7e31a3a9-9a20-4bca-8b6b-42e7303421d6">Hans Matt: Poppe</persName> ./.</p>
         <p>
           <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="g0011" xml:space="default" ref="https://www.geonames.org/2911298" type="signature">Hambourg</placeName> A[nn]o
           1708</p>
         <p>ce 26 Junij</p>
-        <p/>
+        <p />
         <p>
-          <hi rendition="#u">Empf[angen] d[en] 23 July 1708 Horkj.<note place="foot">Not identified.</note>От <persName key="p1197">Поппа</persName> . От <persName key="p0918">Любса</persName> и
-            от <persName key="p1252">Карлуса
+          <hi rendition="#u">Empf[angen] d[en] 23 July 1708 Horkj.<note place="foot">Not identified.</note>От <persName key="p1197" ref="https://uri.gbv.de/terminology/lod_persons/7e31a3a9-9a20-4bca-8b6b-42e7303421d6">Поппа</persName> . От <persName key="p0918" ref="https://uri.gbv.de/terminology/lod_persons/2d2a2168-516e-4805-a7ea-846650244c38">Любса</persName> и
+            от <persName key="p1252" ref="https://uri.gbv.de/terminology/lod_persons/42b1f610-51a6-4e8c-b5d9-fd4547df42c7">Карлуса
               Годфеллева</persName> 708-г[о] году.</hi>
         </p>
         <noteGrp>

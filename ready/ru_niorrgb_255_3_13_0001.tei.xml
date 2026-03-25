@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,15 +107,15 @@
     <body>
       <div type="letter">
         <head>
-          <title>13 September 1787. – Letter from <persName>Emperor Joseph II of the Holy Roman Empire</persName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0124" xml:space="default" ref="2987dbc9-224f-48ce-8ead-8ae5f0b1354f">the Governor General, Field Marshal Count Petr
+          <title>13 September 1787. – Letter from <persName>Emperor Joseph II of the Holy Roman Empire</persName> to <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0124" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/820f0254-6e50-437f-a3ae-b94f1140c8e3">the Governor General, Field Marshal Count Petr
               Aleksandrovich Rumiantsev-Zadunaiskii</persName> </title><note>
             <bibl>OR RGB, fond 255, karton 3, no. 13, f. 1-1v. French original.</bibl>
           </note>
         </head>
-        <pb n="f. 1"/>
+        <pb n="f. 1" />
         
         <p>Je desirais bien sincerement l’année passée, mais je n’osais presque point me flatter mon
-          cher Marechal ! du bonheur de revoir de sitôt <persName key="p0439" ref="0474f625-e852-4401-ac09-bb5d0dc41b9d">Leures Altesses Impériales</persName>; J’en
+          cher Marechal ! du bonheur de revoir de sitôt <persName key="p0439" ref="https://uri.gbv.de/terminology/lod_persons/0474f625-e852-4401-ac09-bb5d0dc41b9d">Leures Altesses Impériales</persName>; J’en
           ai le plus grand plaisir et vrai et franc, comme je me flatte que vous me connaissés, ce
           n’est pas phrase, quand je vous l’assure ; Je desire bien, que toutes les incommodités de
           la Saison, qui entrainent après elles et mauvais chemins et courtes journées, et le
@@ -126,9 +127,9 @@
           produire un grand homme, qui a aussi bien servi sa Patrie comme vous à mon armée; Je sais
           que vous êtes inexorable et qu’il faut bien autre chose, que mes desirs, pour vous engager
           à quitter même pour peu de tems seulement votre </p>
-        <pb n="f. 1v"/>
+        <pb n="f. 1v" />
         <p> chère Ukraine. J’ose vous recommander le General porteur de cette Lettre, que j’envoye à <placeName key="g0239" ref="https://www.geonames.org/703448">Kiow</placeName> unique<hi rendition="#sup">m[en]t </hi>pour prendre les ordres
-          de <persName key="p0438,p0439" ref="0474f625-e852-4401-ac09-bb5d0dc41b9d">Leures Altesses
+          de <persName key="p0438,p0439" ref="https://uri.gbv.de/terminology/lod_persons/b200d521-e964-435a-9090-11a5c4f0e590,https://uri.gbv.de/terminology/lod_persons/0474f625-e852-4401-ac09-bb5d0dc41b9d">Leures Altesses
           Imperiales</persName> sur la continuation de leur route et pour marquer toutes les
           variations, qui pourraient se rencontrer dans le jour marqué de Leur arrivée à <placeName key="g0260" ref="https://www.geonames.org/711416">Brody</placeName> afin qu’Elles soient servies, comme on l’est en Gallicie,
           savoir le moins mal que possible. Croyés moi, je vous prie, bien inviolablement les mêmes
@@ -137,8 +138,8 @@
           le 13 de septembre 1787. </p>
         <p>Votre très affectioné </p>
         <p>
-          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0238" xml:space="default" ref="6f917341-ea48-4096-8645-e050f94c52af" type="signature">Joseph</persName>
-        </p><p/>
+          <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="p0238" xml:space="default" ref="https://uri.gbv.de/terminology/lod_persons/6f917341-ea48-4096-8645-e050f94c52af" type="signature">Joseph</persName>
+        </p><p />
         <noteGrp>
           <note>See also: </note><note>ru_niorrgb_255_3_13_0002</note><note>ru_niorrgb_255_3_13_0003</note></noteGrp></div>
     </body>

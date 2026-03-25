@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/gbv/dea_lod/main/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -109,8 +110,8 @@
     <body>
       <div type="letter">
         <head>
-          <title>September/October 1743. – [Letter from <persName key="p0759">the Imperial and
-            Bavarian Minister to St Petersburg, Baron Joseph von Neuhaus</persName>,] to <persName key="p0752" ref="5b46c147-2c3e-4913-8745-a6ac784a3296">Count [Joseph Franz] von
+          <title>September/October 1743. – [Letter from <persName key="p0759" ref="https://uri.gbv.de/terminology/lod_persons/469a973b-461e-4c29-8ddb-7eaf05c1690e">the Imperial and
+            Bavarian Minister to St Petersburg, Baron Joseph von Neuhaus</persName>,] to <persName key="p0752" ref="https://uri.gbv.de/terminology/lod_persons/5b46c147-2c3e-4913-8745-a6ac784a3296">Count [Joseph Franz] von
             Seinsheim, Imperial Minister to The Hague</persName>
           </title>
           <note>
@@ -118,16 +119,16 @@
             <bibl>translation into Russian: AVPRI, fond 6, opis 1, no. 16, f. 98-99v.</bibl>
           </note>
         </head>
-        <pb n="f. 97"/>
+        <pb n="f. 97" />
 
-        <p>К <persName key="p0752" ref="5b46c147-2c3e-4913-8745-a6ac784a3296">Графу Зеннгейму,
+        <p>К <persName key="p0752" ref="https://uri.gbv.de/terminology/lod_persons/5b46c147-2c3e-4913-8745-a6ac784a3296">Графу Зеннгейму,
           министру римско-цесарскому в Гаге</persName>
         </p>
         <p>Mr</p>
-        <p>Vous aurés vu par la manifeste qui a été publié au sujet de la conspiration tramée en <orgName key="o0008" ref="7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cette cour</orgName>, que<persName key="p0758"> M. de Botta</persName> doit étre icy en très mauvais odeur ; et que cette
+        <p>Vous aurés vu par la manifeste qui a été publié au sujet de la conspiration tramée en <orgName key="o0008" ref="https://uri.gbv.de/terminology/lod_persons/7489cfb2-d9d1-427e-8eeb-7a2cd3f35d11">cette cour</orgName>, que<persName key="p0758" ref="https://uri.gbv.de/terminology/lod_persons/e70ad954-4ace-4bef-8794-f25bf0993d6b"> M. de Botta</persName> doit étre icy en très mauvais odeur ; et que cette
           decouverte confirme ce que j’ai toujours avancé à la cour, savoir que malgré tours [sic,
-          tout] ce qu’en ecriroient les Gazettes, <orgName key="o0023" ref="6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> conte<note place="foot" n="2">Should be read: compte</note> en vain </p>
-        <pb n="f. 97v"/>
+          tout] ce qu’en ecriroient les Gazettes, <orgName key="o0023" ref="https://uri.gbv.de/terminology/lod_persons/6915d9e6-77dc-42dc-bbd1-d1980a259abb">la Cour de Vienne</orgName> conte<note place="foot" n="2">Should be read: compte</note> en vain </p>
+        <pb n="f. 97v" />
         <p>de recevoir aucuns secours de celle cy, soit en hommes, soit en argent au moins pendant
           ce regne.</p>
         <p>Прочее все как выше сего.</p>
